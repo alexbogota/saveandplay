@@ -1,0 +1,186 @@
+---
+import Layout from '../layouts/Layout.astro';
+import DealCard from '../components/DealCard.astro';
+import stores from '../data/stores.json';
+import { deals, allDeals, storeList, lastChecked, featuredDeal, goUrl, money } from '../lib/deals';
+
+const storeNotes: Record<string, string> = Object.fromEntries(stores.map((s) => [s.name, s.note]));
+
+const steps = [
+  { n: '1', title: 'Spot a deal', text: "We list current discounts from PC game stores, so you don't have to check each one yourself." },
+  { n: '2', title: 'Check the price', text: 'Every card shows the store, the discount and the price, plus the date we last checked it.' },
+  { n: '3', title: 'Buy at the store', text: 'Click through and pay the store directly. Your game arrives in your own account.' },
+];
+
+const cover = (x: { cover?: string; tone?: string }) =>
+  x.cover ? `background: #1C2430 url('${x.cover}') center / cover` : `background: ${x.tone ?? '#263553'}`;
+---
+<Layout
+  title="SaveAndPlay: PC game deals"
+  description="Save on the games. Play more of them. The best PC game discounts from trusted stores, in one simple place."
+>
+  <main id="top">
+    <!-- Hero -->
+    <section class="container hero">
+      <div class="hero-text">
+        <div class="pill"><span class="dot"></span>PC game deals from trusted stores</div>
+        <h1>Save on the games.<br />Play more of them.</h1>
+        <p class="lead">The best PC game discounts from trusted stores, in one simple place. See what's cheap right now and jump straight to the store.</p>
+        <div class="actions">
+          <a class="btn sp-btn" href="#deals">See top deals</a>
+          <a class="btn btn-ghost sp-btn" href="/deals/">Browse all deals</a>
+        </div>
+      </div>
+
+      {featuredDeal && (
+        <div class="featured">
+          <div class="feat-cover" style={cover(featuredDeal)}>
+            <span class="dod">BIGGEST DISCOUNT</span>
+          </div>
+          <div class="feat-info">
+            <div>
+              <div class="feat-title">{featuredDeal.title}</div>
+              <div class="feat-store">{featuredDeal.store}</div>
+            </div>
+            <div class="feat-price">
+              <div class="prices">
+                <div class="was">{money(featuredDeal.was)}</div>
+                <div class="now">{money(featuredDeal.price)}</div>
+              </div>
+              <span class="off">-{featuredDeal.discount}%</span>
+            </div>
+          </div>
+          <a class="btn sp-btn" href={featuredDeal.url ?? goUrl(featuredDeal)} rel="sponsored nofollow noopener" target="_blank">View deal</a>
+        </div>
+      )}
+    </section>
+
+    <!-- Quick filters: jump to the deals list for one store -->
+    <section class="container filters" aria-label="Browse by store">
+      <a class="chip" href="/deals/">All deals</a>
+      {storeList.map((s) => <a class="chip" href={`/deals/?store=${s.slug}`}>{s.name}</a>)}
+    </section>
+
+    <!-- Top deals -->
+    <section id="deals" class="container block">
+      <div class="head">
+        <h2>Top PC game deals</h2>
+        <p>Biggest discounts across popular PC game stores.{lastChecked && <> Prices last checked on {lastChecked}.</>}</p>
+      </div>
+      {deals.length > 0 ? (
+        <div class="grid deals">{deals.map((d) => <DealCard deal={d} />)}</div>
+      ) : (
+        <p class="empty">We're checking the stores for the latest deals. Please check back soon.</p>
+      )}
+      {allDeals.length > deals.length && (
+        <div class="more"><a class="btn sp-btn" href="/deals/">See all {allDeals.length} deals →</a></div>
+      )}
+    </section>
+
+    <!-- Stores -->
+    <section id="stores" class="band">
+      <div class="container block">
+        <div class="head">
+          <h2>Shop by store</h2>
+          <p>We link to established PC game stores. You buy directly from them.</p>
+        </div>
+        <div class="grid stores">
+          {storeList.map((s) => (
+            <a class="tile store" href={`/deals/?store=${s.slug}`}>
+              <div class="store-name">{s.name}</div>
+              <div class="meta">{storeNotes[s.name] ?? ''}</div>
+              <div class="store-cta">View {s.count} deals →</div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works + disclosure -->
+    <section id="how" class="container block">
+      <div class="head"><h2>How SaveAndPlay works</h2></div>
+      <div class="grid steps">
+        {steps.map((s) => (
+          <div class="step">
+            <div class="num">{s.n}</div>
+            <h3>{s.title}</h3>
+            <p>{s.text}</p>
+          </div>
+        ))}
+      </div>
+      <div class="callout disclosure">
+        <strong>Affiliate disclosure.</strong> SaveAndPlay may earn a small commission when you buy through links on this site. It doesn't change the price you pay, and it doesn't decide which deals we show. <a class="text-link" href="/disclosure/">Read more</a>.
+      </div>
+    </section>
+  </main>
+</Layout>
+
+<style>
+  h1, h2, h3 { font-family: var(--font-head); color: var(--heading); }
+  p { margin: 0; }
+
+  /* Hero */
+  .hero { padding-top: 72px; padding-bottom: 48px; display: flex; flex-wrap: wrap; align-items: center; gap: 48px; }
+  .hero-text { flex: 1 1 420px; display: flex; flex-direction: column; gap: 24px; }
+  .pill { display: inline-flex; align-self: flex-start; align-items: center; gap: 8px; padding: 6px 12px; border: 1px solid var(--border-strong); border-radius: 999px; font-size: 13px; font-weight: 500; color: var(--body-muted); }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
+  h1 { margin: 0; font-weight: 800; font-size: 64px; line-height: 1.02; letter-spacing: -0.03em; }
+  .lead { font-size: 18px; line-height: 1.55; color: var(--body-muted); max-width: 520px; }
+  .actions { display: flex; flex-wrap: wrap; gap: 12px; }
+
+  .featured { flex: 1 1 360px; max-width: 520px; background: var(--panel); border: 1px solid var(--border); border-radius: 18px; padding: 16px; display: flex; flex-direction: column; gap: 16px; }
+  .feat-cover { height: 240px; border-radius: 12px; display: flex; align-items: flex-end; padding: 16px; }
+  .dod, .off { padding: 6px 10px; border-radius: 6px; font-weight: 700; }
+  .dod { background: var(--badge); color: var(--on-badge); font-size: 13px; letter-spacing: 0.02em; }
+  .feat-info { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 0 4px; }
+  .feat-title { font-family: var(--font-head); font-weight: 600; font-size: 22px; color: var(--heading); }
+  .feat-store { font-size: 14px; color: var(--muted); }
+  .feat-price { display: flex; align-items: center; gap: 12px; }
+  .prices { text-align: right; line-height: 1.2; }
+  .was { font-size: 13px; color: var(--muted); text-decoration: line-through; }
+  .now { font-weight: 700; font-size: 22px; color: var(--heading); }
+  .off { background: var(--on-good); color: var(--good); font-size: 15px; }
+
+  /* Filters */
+  .filters { padding-bottom: 56px; display: flex; flex-wrap: wrap; gap: 10px; }
+  .chip { display: inline-flex; align-items: center; min-height: 44px; padding: 0 18px; border: 1px solid var(--border-strong); border-radius: 999px; background: var(--panel-soft); color: #C9D1DC; font-weight: 500; font-size: 15px; }
+  .chip:hover { border-color: var(--accent); color: var(--heading); }
+
+  /* Sections */
+  .block { padding-top: 64px; padding-bottom: 64px; }
+  #deals { padding-top: 0; }
+  .band { background: var(--band); border-top: 1px solid #1E2530; border-bottom: 1px solid #1E2530; }
+  .head { margin-bottom: 24px; }
+  .head h2 { margin: 0; font-weight: 800; font-size: 36px; letter-spacing: -0.02em; }
+  .head p { margin-top: 4px; color: var(--muted); }
+  .empty { padding: 24px; border: 1px dashed var(--border-strong); border-radius: 14px; color: var(--muted); }
+  .grid { display: grid; gap: 20px; }
+  .deals { grid-template-columns: repeat(auto-fill, minmax(min(250px, 100%), 1fr)); }
+  .stores { grid-template-columns: repeat(auto-fill, minmax(min(210px, 100%), 1fr)); gap: 16px; }
+  .steps { grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr)); }
+
+  .tile { background: var(--panel); border: 1px solid var(--border); border-radius: 14px; }
+  .tile:hover { border-color: #3A4452; }
+  .more { margin-top: 28px; }
+  .meta { font-size: 14px; color: var(--muted); }
+
+
+
+  .store { display: flex; flex-direction: column; gap: 6px; padding: 20px; }
+  .store-name { font-family: var(--font-head); font-weight: 600; font-size: 20px; color: var(--heading); }
+  .store-cta { margin-top: 8px; font-weight: 700; font-size: 14px; color: var(--accent); }
+
+  .step { display: flex; flex-direction: column; gap: 10px; padding: 24px; border: 1px solid var(--border); border-radius: 14px; background: var(--panel-soft); }
+  .num { width: 36px; height: 36px; border-radius: 50%; background: var(--accent); color: var(--on-accent); font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .step h3 { margin: 0; font-weight: 600; font-size: 20px; }
+  .step p { color: var(--body-muted); }
+  .disclosure { margin-top: 32px; font-size: 15px; }
+
+  @media (max-width: 640px) {
+    .hero { padding-top: 40px; gap: 32px; }
+    h1 { font-size: 42px; }
+    .head h2 { font-size: 30px; }
+    .feat-info { flex-wrap: wrap; }
+    .block { padding-top: 48px; padding-bottom: 48px; }
+  }
+</style>

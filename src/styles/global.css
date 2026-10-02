@@ -1,0 +1,77 @@
+:root {
+  --bg: #0D1117;
+  --panel: #161B22;
+  --panel-soft: #121820;
+  --band: #10151C;
+  --border: #262D38;
+  --border-strong: #2A323E;
+  --footer: #0A0E13;
+  --text: #E8ECF1;
+  --heading: #FFFFFF;
+  --muted: #9AA5B4;
+  --body-muted: #B4BDCA;
+  --accent: #3DDC97;
+  --on-accent: #06150E;
+  --badge: #FFB454;
+  --on-badge: #1B1203;
+  --good: #5EEAA6;
+  --on-good: #12372A;
+  --focus: #FFB454;
+  --font-head: 'Bricolage Grotesque', sans-serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main { flex: 1; }
+a { color: inherit; text-decoration: none; }
+a:focus-visible, input:focus-visible, textarea:focus-visible, button:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+.sp-link:hover { color: var(--heading); }
+.sp-btn:hover { filter: brightness(1.08); }
+.text-link { color: var(--accent); text-decoration: underline; }
+
+.container { max-width: 1200px; margin: 0 auto; padding-left: 24px; padding-right: 24px; }
+
+.btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 48px; padding: 0 24px; border-radius: 10px;
+  background: var(--accent); color: var(--on-accent);
+  font-weight: 700; border: 0; font: inherit; font-weight: 700; cursor: pointer;
+}
+.btn-ghost { background: var(--panel); border: 1px solid var(--border-strong); color: var(--text); }
+
+.eyebrow { font-size: 13px; font-weight: 700; letter-spacing: 0.06em; color: var(--accent); margin-bottom: 12px; text-transform: uppercase; }
+
+/* Simple text pages (About, Contact, Disclosure, Privacy) */
+.page { max-width: 760px; margin: 0 auto; padding: 72px 24px 96px; }
+.page h1 {
+  margin: 0 0 24px; font-family: var(--font-head); font-weight: 800;
+  font-size: 52px; line-height: 1.05; letter-spacing: -0.03em; color: var(--heading);
+}
+.page h2 { margin: 40px 0 12px; font-family: var(--font-head); font-weight: 600; font-size: 26px; color: var(--heading); }
+.page p { margin: 0 0 16px; color: var(--body-muted); }
+.page .updated { color: var(--muted); font-size: 15px; margin: -8px 0 40px; }
+.callout {
+  padding: 20px 24px; border-radius: 14px; border: 1px solid #3A3320;
+  background: #1A1710; color: #E9DDBB;
+}
+.callout strong { color: var(--badge); }
+
+@media (max-width: 640px) {
+  .page { padding: 48px 24px 64px; }
+  .page h1 { font-size: 38px; }
+}

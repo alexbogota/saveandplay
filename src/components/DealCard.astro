@@ -1,0 +1,40 @@
+---
+import { goUrl, money, type Deal } from '../lib/deals';
+const { deal } = Astro.props as { deal: Deal };
+const cover = deal.cover
+  ? `background: #1C2430 url('${deal.cover}') center / cover`
+  : `background: ${deal.tone ?? '#263553'}`;
+---
+<article class="card">
+  <div class="cover" style={cover}>
+    <span class="off">-{deal.discount}%</span>
+  </div>
+  <div class="body">
+    <div>
+      <h3>{deal.title}</h3>
+      <div class="store">{deal.store}</div>
+    </div>
+    <div class="row">
+      <div class="prices">
+        <div class="was">{money(deal.was)}</div>
+        <div class="now">{money(deal.price)}</div>
+      </div>
+      <a class="sp-btn view" href={deal.url ?? goUrl(deal)} rel="sponsored nofollow noopener" target="_blank" aria-label={`View deal: ${deal.title} at ${deal.store}`}>View deal</a>
+    </div>
+  </div>
+</article>
+
+<style>
+  .card { background: var(--panel); border: 1px solid var(--border); border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; }
+  .card:hover { border-color: #3A4452; }
+  .cover { height: 140px; position: relative; }
+  .off { position: absolute; top: 12px; left: 12px; padding: 4px 9px; border-radius: 6px; background: var(--badge); color: var(--on-badge); font-weight: 700; font-size: 14px; }
+  .body { padding: 16px; display: flex; flex-direction: column; gap: 14px; flex-grow: 1; justify-content: space-between; }
+  h3 { margin: 0; font-family: var(--font-head); font-weight: 600; font-size: 19px; color: var(--heading); }
+  .store { font-size: 14px; color: var(--muted); margin-top: 2px; }
+  .row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+  .prices { line-height: 1.2; }
+  .was { font-size: 13px; color: var(--muted); text-decoration: line-through; }
+  .now { font-weight: 700; font-size: 22px; color: var(--heading); }
+  .view { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 18px; border-radius: 10px; background: var(--accent); color: var(--on-accent); font-weight: 700; font-size: 15px; }
+</style>

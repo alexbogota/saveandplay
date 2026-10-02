@@ -1,0 +1,33 @@
+---
+const links = [
+  { href: '/about/', label: 'About' },
+  { href: '/contact/', label: 'Contact' },
+  { href: '/disclosure/', label: 'Affiliate disclosure' },
+  { href: '/privacy/', label: 'Privacy policy' },
+  // Terms: add { href: '/terms/', label: 'Terms' } here once the text is final.
+];
+---
+<footer>
+  <div class="container top">
+    <div class="about">
+      <div class="brand">SaveAndPlay</div>
+      <p>Save more. Play more. Prices and availability can change quickly, so always check the final price in the store before you buy.</p>
+      <p class="aff">Some links are affiliate links. We may earn a commission at no extra cost to you. <a class="text-link" href="/disclosure/">Learn more</a></p>
+    </div>
+    <nav aria-label="Footer">
+      {links.map((l) => <a class="sp-link" href={l.href}>{l.label}</a>)}
+    </nav>
+  </div>
+  <div class="container legal">© SaveAndPlay. All game titles and store names are the property of their respective owners.</div>
+</footer>
+
+<style>
+  footer { border-top: 1px solid #222A35; background: var(--footer); }
+  .top { display: flex; flex-wrap: wrap; gap: 32px; justify-content: space-between; padding-top: 40px; padding-bottom: 40px; }
+  .about { max-width: 420px; display: flex; flex-direction: column; gap: 10px; }
+  .brand { font-family: var(--font-head); font-weight: 800; font-size: 20px; color: var(--heading); }
+  p { margin: 0; font-size: 14px; color: var(--muted); }
+  nav { display: flex; flex-wrap: wrap; gap: 0 28px; font-size: 14px; color: var(--body-muted); align-self: flex-start; }
+  nav a { display: inline-flex; align-items: center; min-height: 44px; }
+  .legal { padding-bottom: 32px; font-size: 13px; color: #8591A1; }
+</style>

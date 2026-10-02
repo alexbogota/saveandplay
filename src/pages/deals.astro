@@ -1,0 +1,85 @@
+---
+import Layout from '../layouts/Layout.astro';
+import DealCard from '../components/DealCard.astro';
+import { allDeals, storeList, lastChecked, slug } from '../lib/deals';
+---
+<Layout
+  title="All PC game deals | SaveAndPlay"
+  description="Every current PC game deal we list, sorted by discount. Filter by store."
+>
+  <main class="page wide">
+    <div class="eyebrow">Deals</div>
+    <h1>All deals</h1>
+    <p class="intro">
+      Every deal we list right now, biggest discount first.
+      {lastChecked && <>Prices last checked on {lastChecked}.</>}
+      Always check the final price in the store before you buy.
+    </p>
+
+    <div class="chips" role="group" aria-label="Filter by store">
+      <button type="button" class="chip" data-filter="all" aria-pressed="true">All <span>{allDeals.length}</span></button>
+      {storeList.map((s) => (
+        <button type="button" class="chip" data-filter={s.slug} aria-pressed="false">{s.name} <span>{s.count}</span></button>
+      ))}
+    </div>
+
+    <p class="count" id="count" aria-live="polite"></p>
+
+    {allDeals.length > 0 ? (
+      <div class="grid">
+        {allDeals.map((d) => (
+          <div class="item" data-store={slug(d.store)}><DealCard deal={d} /></div>
+        ))}
+      </div>
+    ) : (
+      <p class="empty">We're checking the stores for the latest deals. Please check back soon.</p>
+    )}
+  </main>
+</Layout>
+
+<script>
+  const chips = document.querySelectorAll<HTMLButtonElement>('.chip');
+  const items = document.querySelectorAll<HTMLElement>('.item');
+  const count = document.getElementById('count')!;
+
+  function apply(filter: string, updateUrl: boolean) {
+    let shown = 0;
+    items.forEach((el) => {
+      const show = filter === 'all' || el.dataset.store === filter;
+      el.hidden = !show;
+      if (show) shown++;
+    });
+    chips.forEach((c) => c.setAttribute('aria-pressed', String(c.dataset.filter === filter)));
+    count.textContent = `Showing ${shown} ${shown === 1 ? 'deal' : 'deals'}`;
+    if (updateUrl) {
+      const url = new URL(location.href);
+      if (filter === 'all') url.searchParams.delete('store');
+      else url.searchParams.set('store', filter);
+      history.replaceState(null, '', url);
+    }
+  }
+
+  chips.forEach((c) => c.addEventListener('click', () => apply(c.dataset.filter!, true)));
+
+  // Links like /deals/?store=gog open with that store already selected.
+  const wanted = new URLSearchParams(location.search).get('store') ?? 'all';
+  const known = [...chips].some((c) => c.dataset.filter === wanted);
+  apply(known ? wanted : 'all', false);
+</script>
+
+<style>
+  .wide { max-width: 1200px; }
+  .intro { max-width: 640px; font-size: 18px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 10px; margin: 32px 0 16px; }
+  .chip { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 18px; border: 1px solid var(--border-strong); border-radius: 999px; background: var(--panel-soft); color: #C9D1DC; font: inherit; font-weight: 500; font-size: 15px; cursor: pointer; }
+  .chip span { color: var(--muted); font-size: 13px; }
+  .chip:hover { border-color: var(--accent); color: var(--heading); }
+  .chip[aria-pressed='true'] { background: var(--accent); border-color: var(--accent); color: var(--on-accent); font-weight: 700; }
+  .chip[aria-pressed='true'] span { color: var(--on-accent); }
+  .count { margin: 0 0 20px; font-size: 14px; color: var(--muted); }
+  .grid { display: grid; gap: 20px; grid-template-columns: repeat(auto-fill, minmax(min(250px, 100%), 1fr)); }
+  .item { display: flex; }
+  .item[hidden] { display: none; }
+  .item > :global(article) { flex: 1; }
+  .empty { padding: 24px; border: 1px dashed var(--border-strong); border-radius: 14px; color: var(--muted); }
+</style>

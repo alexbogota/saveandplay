@@ -1,0 +1,20 @@
+# dependencies and build output
+node_modules/
+dist/
+.astro/
+
+# secrets: never commit these
+.env
+.env.*
+*.pem
+*.key
+
+# temporary / system files
+*.log
+npm-debug.log*
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

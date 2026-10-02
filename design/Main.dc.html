@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>SaveAndPlay Home</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+body { margin: 0; background: #0D1117; }
+a { color: inherit; text-decoration: none; }
+a:focus-visible, input:focus-visible { outline: 2px solid #FFB454; outline-offset: 2px; }
+.sp-link:hover { color: #FFFFFF; }
+.sp-chip:hover { border-color: #3DDC97; color: #FFFFFF; }
+.sp-card:hover { border-color: #3A4452; }
+.sp-btn:hover { filter: brightness(1.08); }
+</style>
+</helmet>
+
+<div style="background: #0D1117; color: #E8ECF1; font-family: 'DM Sans', system-ui, sans-serif; font-size: 16px; line-height: 1.5; min-height: 100vh">
+
+<!-- Top bar -->
+<header style="border-bottom: 1px solid #222A35; background: #0D1117">
+<div style="max-width: 1200px; margin: 0 auto; padding: 16px 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 16px 32px">
+<a href="#top" aria-label="SaveAndPlay home" style="display: flex; align-items: center; gap: 10px">
+<svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="{{accent}}"></rect><path d="M12 9.5v13l11-6.5z" fill="#06150E"></path></svg>
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 22px; letter-spacing: -0.02em; color: #FFFFFF">SaveAndPlay</span>
+</a>
+<nav aria-label="Main" style="display: flex; flex-wrap: wrap; gap: 8px 24px; flex-grow: 1; font-weight: 500; font-size: 15px; color: #B4BDCA">
+<a class="sp-link" href="#deals">Deals</a>
+<a class="sp-link" href="#bundles">Bundles</a>
+<a class="sp-link" href="#free">Free games</a>
+<a class="sp-link" href="#stores">Stores</a>
+<a class="sp-link" href="#how">How it works</a>
+</nav>
+<div style="display: flex; align-items: center; gap: 10px; background: #161B22; border: 1px solid #2A323E; border-radius: 10px; padding: 0 14px; height: 44px; min-width: 240px; flex-grow: 1; max-width: 340px">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9AA5B4" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+<label for="q" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Search games</label>
+<input id="q" type="search" placeholder="Search games" style="background: transparent; border: 0; color: #E8ECF1; font: inherit; font-size: 15px; width: 100%; outline-offset: 6px">
+</div>
+</div>
+</header>
+
+<main id="top">
+
+<!-- Hero -->
+<section style="max-width: 1200px; margin: 0 auto; padding: 72px 24px 48px; display: flex; flex-wrap: wrap; align-items: center; gap: 48px">
+<div style="flex: 1 1 420px; display: flex; flex-direction: column; gap: 24px">
+<div style="display: inline-flex; align-self: flex-start; align-items: center; gap: 8px; padding: 6px 12px; border: 1px solid #2A323E; border-radius: 999px; font-size: 13px; font-weight: 500; color: #B4BDCA">
+<span style="width: 8px; height: 8px; border-radius: 50%; background: {{accent}}"></span>
+Fresh PC game deals, checked all day
+</div>
+<h1 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 64px; line-height: 1.02; letter-spacing: -0.03em; color: #FFFFFF">Save on the games.<br>Play more of them.</h1>
+<p style="margin: 0; font-size: 18px; line-height: 1.55; color: #B4BDCA; max-width: 520px">The best PC game discounts from trusted stores, in one simple place. See what's cheap right now and jump straight to the store.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a class="sp-btn" href="#deals" style="display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 24px; border-radius: 10px; background: {{accent}}; color: #06150E; font-weight: 700">See today's deals</a>
+<a class="sp-btn" href="#free" style="display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 24px; border-radius: 10px; background: #161B22; border: 1px solid #2A323E; color: #E8ECF1; font-weight: 700">Free right now</a>
+</div>
+</div>
+
+<!-- Featured deal -->
+<div style="flex: 1 1 360px; max-width: 520px; background: #161B22; border: 1px solid #262D38; border-radius: 18px; padding: 16px; display: flex; flex-direction: column; gap: 16px">
+<div style="height: 240px; border-radius: 12px; background: #263553; display: flex; align-items: flex-end; padding: 16px; box-sizing: border-box">
+<span style="padding: 6px 10px; border-radius: 6px; background: #FFB454; color: #1B1203; font-weight: 700; font-size: 13px; letter-spacing: 0.02em">DEAL OF THE DAY</span>
+</div>
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 0 4px 4px">
+<div style="display: flex; flex-direction: column; gap: 2px">
+<div style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 22px; color: #FFFFFF">Featured Game Title</div>
+<div style="font-size: 14px; color: #9AA5B4">Fanatical · Steam key</div>
+</div>
+<div style="display: flex; align-items: center; gap: 12px">
+<div style="text-align: right; line-height: 1.2">
+<div style="font-size: 13px; color: #9AA5B4; text-decoration: line-through">$39.99</div>
+<div style="font-weight: 700; font-size: 22px; color: #FFFFFF">$9.99</div>
+</div>
+<span style="padding: 6px 10px; border-radius: 6px; background: #12372A; color: #5EEAA6; font-weight: 700; font-size: 15px">-75%</span>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Quick filters -->
+<section aria-label="Quick filters" style="max-width: 1200px; margin: 0 auto; padding: 0 24px 56px">
+<div style="display: flex; flex-wrap: wrap; gap: 10px">
+<sc-for list="{{filters}}" as="f" hint-placeholder-count="6">
+<a class="sp-chip" href="{{f.href}}" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 18px; border: 1px solid #2A323E; border-radius: 999px; background: #121820; color: #C9D1DC; font-weight: 500; font-size: 15px">{{f.label}}</a>
+</sc-for>
+</div>
+</section>
+
+<!-- Today's best deals -->
+<section id="deals" style="max-width: 1200px; margin: 0 auto; padding: 0 24px 72px">
+<div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px; margin-bottom: 24px">
+<div>
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 36px; letter-spacing: -0.02em; color: #FFFFFF">Today's best deals</h2>
+<p style="margin: 4px 0 0; color: #9AA5B4">Biggest discounts across our partner stores.</p>
+</div>
+<a class="sp-link" href="#deals" style="font-weight: 700; color: {{accent}}">See all deals →</a>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px">
+<sc-for list="{{deals}}" as="item" hint-placeholder-count="8">
+<article class="sp-card" style="background: #161B22; border: 1px solid #262D38; border-radius: 14px; overflow: hidden; display: flex; flex-direction: column">
+<div style="height: 140px; background: {{item.tone}}; position: relative">
+<span style="position: absolute; top: 12px; left: 12px; padding: 4px 9px; border-radius: 6px; background: #FFB454; color: #1B1203; font-weight: 700; font-size: 14px">{{item.discount}}</span>
+<sc-if value="{{ item.low }}" hint-placeholder-val="{{ true }}">
+<span style="position: absolute; bottom: 12px; left: 12px; padding: 3px 8px; border-radius: 6px; background: #0D1117; color: #5EEAA6; font-weight: 700; font-size: 12px; letter-spacing: 0.03em">HISTORICAL LOW</span>
+</sc-if>
+</div>
+<div style="padding: 16px; display: flex; flex-direction: column; gap: 14px; flex-grow: 1; justify-content: space-between">
+<div>
+<h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 19px; color: #FFFFFF">{{item.title}}</h3>
+<div style="font-size: 14px; color: #9AA5B4; margin-top: 2px">{{item.store}}</div>
+</div>
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 12px">
+<div style="line-height: 1.2">
+<div style="font-size: 13px; color: #9AA5B4; text-decoration: line-through">{{item.was}}</div>
+<div style="font-weight: 700; font-size: 22px; color: #FFFFFF">{{item.price}}</div>
+</div>
+<a class="sp-btn" href="#" style="display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 18px; border-radius: 10px; background: {{accent}}; color: #06150E; font-weight: 700; font-size: 15px">View deal</a>
+</div>
+</div>
+</article>
+</sc-for>
+</div>
+</section>
+
+<!-- Bundles -->
+<section id="bundles" style="background: #10151C; border-top: 1px solid #1E2530; border-bottom: 1px solid #1E2530">
+<div style="max-width: 1200px; margin: 0 auto; padding: 64px 24px">
+<div style="margin-bottom: 24px">
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 36px; letter-spacing: -0.02em; color: #FFFFFF">Bundles worth a look</h2>
+<p style="margin: 4px 0 0; color: #9AA5B4">Several games for one low price, while the offer lasts.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px">
+<sc-for list="{{bundles}}" as="b" hint-placeholder-count="3">
+<a class="sp-card" href="#" style="display: flex; gap: 16px; background: #161B22; border: 1px solid #262D38; border-radius: 14px; padding: 16px; align-items: center">
+<div style="width: 96px; height: 96px; flex-shrink: 0; border-radius: 10px; background: {{b.tone}}"></div>
+<div style="display: flex; flex-direction: column; gap: 4px; min-width: 0">
+<div style="font-size: 13px; font-weight: 700; color: #FFB454; letter-spacing: 0.03em">{{b.store}}</div>
+<div style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 19px; color: #FFFFFF">{{b.title}}</div>
+<div style="font-size: 14px; color: #9AA5B4">{{b.meta}}</div>
+</div>
+</a>
+</sc-for>
+</div>
+</div>
+</section>
+
+<!-- Free right now -->
+<section id="free" style="max-width: 1200px; margin: 0 auto; padding: 72px 24px">
+<div style="margin-bottom: 24px">
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 36px; letter-spacing: -0.02em; color: #FFFFFF">Free right now</h2>
+<p style="margin: 4px 0 0; color: #9AA5B4">Games you can claim at no cost for a limited time.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px">
+<sc-for list="{{freebies}}" as="g" hint-placeholder-count="4">
+<div class="sp-card" style="display: flex; align-items: center; gap: 14px; background: #161B22; border: 1px solid #262D38; border-radius: 14px; padding: 12px 16px 12px 12px">
+<div style="width: 64px; height: 64px; flex-shrink: 0; border-radius: 8px; background: {{g.tone}}"></div>
+<div style="flex-grow: 1; min-width: 0">
+<div style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 17px; color: #FFFFFF">{{g.title}}</div>
+<div style="font-size: 14px; color: #9AA5B4">{{g.store}}</div>
+</div>
+<span style="padding: 4px 10px; border-radius: 6px; background: #12372A; color: #5EEAA6; font-weight: 700; font-size: 13px">FREE</span>
+</div>
+</sc-for>
+</div>
+</section>
+
+<!-- Stores -->
+<section id="stores" style="background: #10151C; border-top: 1px solid #1E2530; border-bottom: 1px solid #1E2530">
+<div style="max-width: 1200px; margin: 0 auto; padding: 64px 24px">
+<div style="margin-bottom: 24px">
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 36px; letter-spacing: -0.02em; color: #FFFFFF">Shop by store</h2>
+<p style="margin: 4px 0 0; color: #9AA5B4">We link to established PC game stores. You buy directly from them.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 16px">
+<sc-for list="{{stores}}" as="s" hint-placeholder-count="5">
+<a class="sp-card" href="#" style="display: flex; flex-direction: column; gap: 6px; background: #161B22; border: 1px solid #262D38; border-radius: 14px; padding: 20px">
+<div style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 20px; color: #FFFFFF">{{s.name}}</div>
+<div style="font-size: 14px; color: #9AA5B4">{{s.note}}</div>
+<div style="margin-top: 8px; font-weight: 700; font-size: 14px; color: {{accent}}">View deals →</div>
+</a>
+</sc-for>
+</div>
+</div>
+</section>
+
+<!-- How it works + disclosure -->
+<section id="how" style="max-width: 1200px; margin: 0 auto; padding: 72px 24px">
+<h2 style="margin: 0 0 24px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 36px; letter-spacing: -0.02em; color: #FFFFFF">How SaveAndPlay works</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px">
+<sc-for list="{{steps}}" as="st" hint-placeholder-count="3">
+<div style="display: flex; flex-direction: column; gap: 10px; padding: 24px; border: 1px solid #262D38; border-radius: 14px; background: #121820">
+<div style="width: 36px; height: 36px; border-radius: 50%; background: {{accent}}; color: #06150E; font-weight: 700; display: flex; align-items: center; justify-content: center">{{st.n}}</div>
+<h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 20px; color: #FFFFFF">{{st.title}}</h3>
+<p style="margin: 0; color: #B4BDCA">{{st.text}}</p>
+</div>
+</sc-for>
+</div>
+<div style="margin-top: 32px; padding: 20px 24px; border-radius: 14px; border: 1px solid #3A3320; background: #1A1710; color: #E9DDBB; font-size: 15px">
+<strong style="color: #FFB454">Affiliate disclosure.</strong> SaveAndPlay may earn a small commission when you buy through links on this site. It doesn't change the price you pay, and it doesn't decide which deals we show.
+</div>
+</section>
+
+</main>
+
+<!-- Footer -->
+<footer style="border-top: 1px solid #222A35; background: #0A0E13">
+<div style="max-width: 1200px; margin: 0 auto; padding: 40px 24px; display: flex; flex-wrap: wrap; gap: 32px; justify-content: space-between">
+<div style="max-width: 420px; display: flex; flex-direction: column; gap: 10px">
+<div style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 20px; color: #FFFFFF">SaveAndPlay</div>
+<p style="margin: 0; font-size: 14px; color: #9AA5B4">Save more. Play more. Prices and availability can change quickly, so always check the final price in the store before you buy.</p>
+</div>
+<nav aria-label="Footer" style="display: flex; flex-wrap: wrap; gap: 10px 28px; font-size: 14px; color: #B4BDCA; align-self: flex-start">
+<a class="sp-link" href="About.dc.html">About</a>
+<a class="sp-link" href="Contact.dc.html">Contact</a>
+<a class="sp-link" href="Disclosure.dc.html">Affiliate disclosure</a>
+<a class="sp-link" href="Privacy.dc.html">Privacy policy</a>
+<a class="sp-link" href="#">Terms</a>
+</nav>
+</div>
+<div style="max-width: 1200px; margin: 0 auto; padding: 0 24px 32px; font-size: 13px; color: #8591A1">© SaveAndPlay. All game titles and store names are the property of their respective owners.</div>
+</footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#3DDC97","options":["#3DDC97","#7DD3FC","#FFB454","#C4A7FF"]},"$preview":{"width":1440,"height":2600}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      accent: this.props.accent ?? '#3DDC97',
+      filters: [
+        { label: '75%+ off', href: '#deals' },
+        { label: 'Under $5', href: '#deals' },
+        { label: 'Under $10', href: '#deals' },
+        { label: 'Historical lows', href: '#deals' },
+        { label: 'Bundles', href: '#bundles' },
+        { label: 'Free games', href: '#free' }
+      ],
+      deals: [
+        { title: 'Game Title 01', store: 'Fanatical', discount: '-85%', was: '$29.99', price: '$4.49', tone: '#263553', low: true },
+        { title: 'Game Title 02', store: 'Green Man Gaming', discount: '-70%', was: '$29.99', price: '$8.99', tone: '#43284F', low: false },
+        { title: 'Game Title 03', store: 'GOG', discount: '-60%', was: '$24.99', price: '$9.99', tone: '#1D4A47', low: false },
+        { title: 'Game Title 04', store: 'Humble Store', discount: '-90%', was: '$49.99', price: '$4.99', tone: '#573626', low: true },
+        { title: 'Game Title 05', store: 'Gamesplanet', discount: '-50%', was: '$19.99', price: '$9.99', tone: '#36462A', low: false },
+        { title: 'Game Title 06', store: 'Fanatical', discount: '-75%', was: '$39.99', price: '$9.99', tone: '#2F2F66', low: false },
+        { title: 'Game Title 07', store: 'GOG', discount: '-80%', was: '$14.99', price: '$2.99', tone: '#5A2B3A', low: true },
+        { title: 'Game Title 08', store: 'Green Man Gaming', discount: '-65%', was: '$59.99', price: '$20.99', tone: '#244B5E', low: false }
+      ],
+      bundles: [
+        { store: 'HUMBLE STORE', title: 'Bundle Title One', meta: '9 games · ends soon', tone: '#573626' },
+        { store: 'FANATICAL', title: 'Bundle Title Two', meta: 'Build your own · ends soon', tone: '#263553' },
+        { store: 'GREEN MAN GAMING', title: 'Bundle Title Three', meta: '6 games · ends soon', tone: '#43284F' }
+      ],
+      freebies: [
+        { title: 'Free Game Title 01', store: 'Epic Games Store', tone: '#1D4A47' },
+        { title: 'Free Game Title 02', store: 'GOG', tone: '#36462A' },
+        { title: 'Free Game Title 03', store: 'Humble Store', tone: '#5A2B3A' },
+        { title: 'Free Game Title 04', store: 'Fanatical', tone: '#2F2F66' }
+      ],
+      stores: [
+        { name: 'Fanatical', note: 'PC game keys and bundles' },
+        { name: 'Green Man Gaming', note: 'PC game keys' },
+        { name: 'GOG', note: 'DRM-free games' },
+        { name: 'Humble Store', note: 'Games and bundles' },
+        { name: 'Gamesplanet', note: 'Official PC game keys' }
+      ],
+      steps: [
+        { n: '1', title: 'Spot a deal', text: "We list current discounts from PC game stores, so you don't have to check each one yourself." },
+        { n: '2', title: 'Check the price', text: 'Every card shows the store, the discount and the price. Look for the Historical low tag on the best ones.' },
+        { n: '3', title: 'Buy at the store', text: 'Click through and pay the store directly. Your game arrives in your own account.' }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

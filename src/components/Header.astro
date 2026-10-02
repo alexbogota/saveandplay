@@ -1,0 +1,42 @@
+---
+const path = Astro.url.pathname;
+const isHome = path === '/';
+
+// On the home page the menu jumps to sections; on other pages it links to pages.
+const links = isHome
+  ? [
+      { href: '#deals', label: 'Deals' },
+      { href: '#stores', label: 'Stores' },
+      { href: '#how', label: 'How it works' },
+      { href: '/deals/', label: 'All deals' },
+    ]
+  : [
+      { href: '/', label: 'Home' },
+      { href: '/deals/', label: 'Deals' },
+      { href: '/about/', label: 'About' },
+      { href: '/contact/', label: 'Contact' },
+    ];
+---
+<header>
+  <div class="container bar">
+    <a href="/" class="logo" aria-label="SaveAndPlay home">
+      <svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#3DDC97"></rect><path d="M12 9.5v13l11-6.5z" fill="#06150E"></path></svg>
+      <span>SaveAndPlay</span>
+    </a>
+    <nav aria-label="Main">
+      {links.map((l) => (
+        <a class="sp-link" href={l.href} aria-current={path === l.href ? 'page' : undefined}>{l.label}</a>
+      ))}
+    </nav>
+  </div>
+</header>
+
+<style>
+  header { border-bottom: 1px solid #222A35; background: var(--bg); }
+  .bar { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 32px; padding-top: 8px; padding-bottom: 8px; }
+  .logo { display: flex; align-items: center; gap: 10px; min-height: 44px; }
+  .logo span { font-family: var(--font-head); font-weight: 800; font-size: 22px; letter-spacing: -0.02em; color: var(--heading); }
+  nav { display: flex; flex-wrap: wrap; gap: 0 24px; font-weight: 500; font-size: 15px; color: var(--body-muted); }
+  nav a { display: inline-flex; align-items: center; min-height: 44px; }
+  nav a[aria-current='page'] { color: var(--heading); }
+</style>

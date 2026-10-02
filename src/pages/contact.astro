@@ -1,0 +1,67 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { site } from '../lib/site';
+---
+<Layout
+  title="Contact SaveAndPlay"
+  description="Found a wrong price, a broken link or a deal we should list? Get in touch with SaveAndPlay."
+>
+  <main class="page">
+    <div class="eyebrow">Contact</div>
+    <h1>Get in touch</h1>
+    <p class="intro">Found a wrong price, a broken link or a deal we should list? Want to talk about a partnership? Send us a message.</p>
+
+    <div class="cols">
+      <!-- TODO: action is a placeholder. A small PHP handler on the host will receive this form. -->
+      <form action="#" method="post">
+        <div class="field">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required />
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required />
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+        </div>
+        <button class="btn sp-btn" type="submit">Send message</button>
+      </form>
+
+      <aside>
+        <div class="info">
+          <div class="label">EMAIL</div>
+          <a class="mail" href={`mailto:${site.email}`}>{site.email}</a>
+        </div>
+        {site.bluesky && (
+          <div class="info">
+            <div class="label">BLUESKY</div>
+            <div class="val">{site.bluesky}</div>
+          </div>
+        )}
+        <div class="info">
+          <div class="label">RESPONSE TIME</div>
+          <div class="val">We usually reply within 2 business days.</div>
+        </div>
+      </aside>
+    </div>
+  </main>
+</Layout>
+
+<style>
+  .intro { font-size: 18px; margin-bottom: 40px !important; }
+  .cols { display: flex; flex-wrap: wrap; gap: 32px; }
+  form { flex: 1 1 360px; display: flex; flex-direction: column; gap: 18px; }
+  .field { display: flex; flex-direction: column; gap: 6px; }
+  label { font-weight: 500; font-size: 15px; color: var(--text); }
+  input, textarea { padding: 0 14px; border-radius: 10px; border: 1px solid var(--border-strong); background: var(--panel); color: var(--text); font: inherit; font-size: 16px; }
+  input { height: 48px; }
+  textarea { padding: 12px 14px; resize: vertical; }
+  button { align-self: flex-start; padding: 0 28px; font-size: 16px; }
+  aside { flex: 1 1 240px; display: flex; flex-direction: column; gap: 20px; }
+  .info { padding: 20px; border: 1px solid var(--border); border-radius: 14px; background: var(--panel-soft); }
+  .label { font-size: 13px; font-weight: 700; letter-spacing: 0.04em; color: var(--muted); margin-bottom: 4px; }
+  .val { color: var(--heading); }
+  .mail { color: var(--heading); text-decoration: underline; overflow-wrap: anywhere; }
+</style>
