@@ -50,7 +50,7 @@ const cover = (x: { cover?: string; tone?: string }) =>
               <span class="off">-{featuredDeal.discount}%</span>
             </div>
           </div>
-          <a class="btn sp-btn" href={featuredDeal.url ?? goUrl(featuredDeal)} rel="sponsored nofollow noopener" target="_blank">View deal</a>
+          <a class="btn sp-btn" href={featuredDeal.affiliateUrl ?? featuredDeal.url ?? goUrl(featuredDeal)} rel="sponsored nofollow noopener" target="_blank">View deal</a>
         </div>
       )}
     </section>
@@ -66,6 +66,7 @@ const cover = (x: { cover?: string; tone?: string }) =>
       <div class="head">
         <h2>Top PC game deals</h2>
         <p>Biggest discounts across popular PC game stores.{lastChecked && <> Prices last checked on {lastChecked}.</>}</p>
+        <p class="aff-note">Some links are affiliate links: we may earn a commission when you buy, at no extra cost to you. <a href="/disclosure/">Learn more</a></p>
       </div>
       {deals.length > 0 ? (
         <div class="grid deals">{deals.map((d) => <DealCard deal={d} />)}</div>

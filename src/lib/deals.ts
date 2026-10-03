@@ -8,13 +8,14 @@ export interface Deal {
   was: number;
   discount: number;
   url?: string;
+  affiliateUrl?: string;
   cover?: string;
   tone?: string;
   updatedAt?: string;
   endsAt?: string;
 }
 
-interface RawDeal { store: string; title: string; was: number; price: number; discountPct: number; url: string; image?: string; checkedAt?: string; endsAt?: string }
+interface RawDeal { store: string; title: string; was: number; price: number; discountPct: number; url: string; image?: string; checkedAt?: string; endsAt?: string; affiliateUrl?: string }
 
 export const slug = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
@@ -32,6 +33,7 @@ export const allDeals: Deal[] = (dealsRaw as RawDeal[])
     was: d.was,
     discount: d.discountPct,
     url: d.url,
+    affiliateUrl: d.affiliateUrl,
     cover: d.image || undefined,
     tone: toneFor(d.title),
     updatedAt: d.checkedAt,

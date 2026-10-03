@@ -75,3 +75,7 @@ a:focus-visible, input:focus-visible, textarea:focus-visible, button:focus-visib
   .page { padding: 48px 24px 64px; }
   .page h1 { font-size: 38px; }
 }
+
+/* Short affiliate notice shown next to lists of deals */
+.aff-note { margin: 10px 0 0; font-size: 14px; color: var(--muted); }
+.aff-note a { color: var(--accent); text-decoration: underline; }
