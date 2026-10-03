@@ -11,9 +11,10 @@ export interface Deal {
   cover?: string;
   tone?: string;
   updatedAt?: string;
+  endsAt?: string;
 }
 
-interface RawDeal { store: string; title: string; was: number; price: number; discountPct: number; url: string; image?: string; checkedAt?: string }
+interface RawDeal { store: string; title: string; was: number; price: number; discountPct: number; url: string; image?: string; checkedAt?: string; endsAt?: string }
 
 export const slug = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
@@ -34,6 +35,7 @@ export const allDeals: Deal[] = (dealsRaw as RawDeal[])
     cover: d.image || undefined,
     tone: toneFor(d.title),
     updatedAt: d.checkedAt,
+    endsAt: d.endsAt,
   }))
   .sort((a, b) => b.discount - a.discount);
 
@@ -48,7 +50,7 @@ export const storeList = [...new Set(allDeals.map((d) => d.store))]
 // Date prices were last checked: the newest checkedAt in the data file.
 const newest = allDeals.map((d) => d.updatedAt).filter(Boolean).sort().at(-1);
 export const lastChecked = newest
-  ? new Date(`${newest}T12:00:00Z`).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' })
+  ? new Date(`${newest.slice(0, 10)}T12:00:00Z`).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' })
   : undefined;
 
 export const featuredDeal: Deal | undefined = allDeals[0];

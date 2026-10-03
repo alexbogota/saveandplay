@@ -1,125 +1,5 @@
 [
   {
-    "store": "Green Man Gaming",
-    "title": "Hogwarts Legacy",
-    "currency": "USD",
-    "was": 59.99,
-    "price": 5.28,
-    "discountPct": 91,
-    "url": "https://www.greenmangaming.com/games/hogwarts-legacy-pc/",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/be2971b1023bccb04f993887d70ef4d2060262cf/header.jpg?t=1790708992",
-    "status": "verified-product-page",
-    "checkedAt": "2026-10-01"
-  },
-  {
-    "store": "Green Man Gaming",
-    "title": "Ready or Not",
-    "currency": "USD",
-    "was": 49.99,
-    "price": 25,
-    "discountPct": 50,
-    "url": "https://www.greenmangaming.com/games/ready-or-not-pc/",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/2b44644b033a996a9efb95051bb01809215d0d23/header.jpg?t=1790846188",
-    "status": "listing",
-    "checkedAt": "2026-10-01"
-  },
-  {
-    "store": "Green Man Gaming",
-    "title": "Dead by Daylight",
-    "currency": "USD",
-    "was": 19.99,
-    "price": 8,
-    "discountPct": 60,
-    "url": "https://www.greenmangaming.com/games/dead-by-daylight-pc/",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/header.jpg?t=1787769494",
-    "status": "listing",
-    "checkedAt": "2026-10-01"
-  },
-  {
-    "store": "Green Man Gaming",
-    "title": "The Last of Us Part I",
-    "currency": "USD",
-    "was": 59.99,
-    "price": 30,
-    "discountPct": 50,
-    "url": "https://www.greenmangaming.com/games/the-last-of-us-part-i-pc/",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/header.jpg?t=1750959031",
-    "status": "listing",
-    "checkedAt": "2026-10-01"
-  },
-  {
-    "store": "Green Man Gaming",
-    "title": "Ghost of Tsushima Director's Cut",
-    "currency": "USD",
-    "was": 59.99,
-    "price": 35.99,
-    "discountPct": 40,
-    "url": "https://www.greenmangaming.com/games/ghost-of-tsushima-directors-cut-pc/",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/header.jpg?t=1763409398",
-    "status": "listing",
-    "checkedAt": "2026-10-01"
-  },
-  {
-    "store": "Green Man Gaming",
-    "title": "No Man's Sky",
-    "currency": "USD",
-    "was": 59.99,
-    "price": 24,
-    "discountPct": 60,
-    "url": "https://www.greenmangaming.com/games/no-mans-sky/",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/2c6e38b43a5309dfcd3cc0f0134e222b0fa2d1b1/header_alt_assets_25.jpg?t=1789479023",
-    "status": "listing",
-    "checkedAt": "2026-10-01"
-  },
-  {
-    "store": "Green Man Gaming",
-    "title": "Days Gone",
-    "currency": "USD",
-    "was": 39.99,
-    "price": 16,
-    "discountPct": 60,
-    "url": "https://www.greenmangaming.com/games/days-gone-pc/",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1259420/header.jpg?t=1750947718",
-    "status": "listing",
-    "checkedAt": "2026-10-01"
-  },
-  {
-    "store": "Green Man Gaming",
-    "title": "Fallout 4 GOTY Edition",
-    "currency": "USD",
-    "was": 39.99,
-    "price": 13.76,
-    "discountPct": 66,
-    "url": "https://www.greenmangaming.com/games/fallout-4-goty-edition-pc/",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377160/header.jpg?t=1786648137",
-    "status": "listing",
-    "checkedAt": "2026-10-01"
-  },
-  {
-    "store": "Green Man Gaming",
-    "title": "Hearts of Iron IV: General Edition",
-    "currency": "USD",
-    "was": 59.99,
-    "price": 15.84,
-    "discountPct": 74,
-    "url": "https://www.greenmangaming.com/games/hearts-of-iron-iv-general-edition-pc/",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/67bbd0057627fc2244793bcdd09260c2539499cf/header.jpg?t=1790873967",
-    "status": "listing",
-    "checkedAt": "2026-10-01"
-  },
-  {
-    "store": "Green Man Gaming",
-    "title": "Marvel's Spider-Man Remastered",
-    "currency": "USD",
-    "was": 59.99,
-    "price": 24,
-    "discountPct": 60,
-    "url": "https://www.greenmangaming.com/games/marvels-spider-man-remastered-pc/",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/header.jpg?t=1787838689",
-    "status": "listing",
-    "checkedAt": "2026-10-01"
-  },
-  {
     "store": "GOG",
     "title": "The Witcher 3: Wild Hunt — Remastered",
     "currency": "USD",
@@ -129,7 +9,8 @@
     "url": "https://www.gog.com/en/game/the_witcher_3_wild_hunt_game_of_the_year_edition",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/e8afc4252e3fee8ed2525ab2fd7675cca39aa38d/header_alt_assets_1.jpg?t=1790845156",
     "status": "verified-product-page",
-    "checkedAt": "2026-10-01"
+    "checkedAt": "2026-10-02T21:24:06-05:00",
+    "endsAt": "2026-10-07T09:59:00+03:00"
   },
   {
     "store": "GOG",
@@ -140,8 +21,9 @@
     "discountPct": 60,
     "url": "https://www.gog.com/en/game/cyberpunk_2077_ultimate_edition",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/e9047d8ec47ae3d94bb8b464fb0fc9e9972b4ac7/header.jpg?t=1784714077",
-    "status": "listing",
-    "checkedAt": "2026-10-01"
+    "status": "verified-product-page",
+    "checkedAt": "2026-10-02T21:24:06-05:00",
+    "endsAt": "2026-10-07T09:59:00+03:00"
   },
   {
     "store": "GOG",
@@ -152,8 +34,9 @@
     "discountPct": 75,
     "url": "https://www.gog.com/en/game/divinity_original_sin_2",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/435150/3f6ee788cb01bd65097c52399d536eb424b4876f/header.jpg?t=1765811123",
-    "status": "listing",
-    "checkedAt": "2026-10-01"
+    "status": "verified-product-page",
+    "checkedAt": "2026-10-02T21:24:06-05:00",
+    "endsAt": "2026-10-07T09:59:00+03:00"
   },
   {
     "store": "GOG",
@@ -164,8 +47,9 @@
     "discountPct": 85,
     "url": "https://www.gog.com/en/game/control_ultimate_edition",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/870780/ec621653454cdad232187af4eb79f23c05aceca5/header.jpg?t=1781607969",
-    "status": "listing",
-    "checkedAt": "2026-10-01"
+    "status": "verified-product-page",
+    "checkedAt": "2026-10-02T21:24:06-05:00",
+    "endsAt": "2026-10-07T09:59:00+03:00"
   },
   {
     "store": "GOG",
@@ -176,8 +60,9 @@
     "discountPct": 30,
     "url": "https://www.gog.com/en/game/baldurs_gate_iii",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg?t=1777363040",
-    "status": "listing",
-    "checkedAt": "2026-10-01"
+    "status": "verified-product-page",
+    "checkedAt": "2026-10-02T21:24:06-05:00",
+    "endsAt": "2026-10-07T09:59:00+03:00"
   },
   {
     "store": "GOG",
@@ -188,8 +73,9 @@
     "discountPct": 90,
     "url": "https://www.gog.com/en/game/alan_wake",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108710/9c1728f937c2a7e632b447b02e442f6a5d88515c/header.jpg?t=1769717716",
-    "status": "listing",
-    "checkedAt": "2026-10-01"
+    "status": "verified-product-page",
+    "checkedAt": "2026-10-02T21:24:06-05:00",
+    "endsAt": "2026-10-07T09:59:00+03:00"
   },
   {
     "store": "GOG",
@@ -200,8 +86,9 @@
     "discountPct": 80,
     "url": "https://www.gog.com/en/game/doom_2016",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/379720/header.jpg?t=1750784856",
-    "status": "listing",
-    "checkedAt": "2026-10-01"
+    "status": "verified-product-page",
+    "checkedAt": "2026-10-02T21:24:06-05:00",
+    "endsAt": "2026-10-07T09:59:00+03:00"
   },
   {
     "store": "GOG",
@@ -212,8 +99,9 @@
     "discountPct": 95,
     "url": "https://www.gog.com/en/game/outward_definitive_edition",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/794260/header.jpg?t=1787229712",
-    "status": "listing",
-    "checkedAt": "2026-10-01"
+    "status": "verified-product-page",
+    "checkedAt": "2026-10-02T21:24:06-05:00",
+    "endsAt": "2026-10-07T09:59:00+03:00"
   },
   {
     "store": "GOG",
@@ -224,8 +112,100 @@
     "discountPct": 90,
     "url": "https://www.gog.com/en/game/jagged_alliance_3",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1084160/header.jpg?t=1725000793",
-    "status": "listing",
-    "checkedAt": "2026-10-01"
+    "status": "verified-product-page",
+    "checkedAt": "2026-10-02T21:24:06-05:00",
+    "endsAt": "2026-10-07T09:59:00+03:00"
+  },
+  {
+    "store": "GOG",
+    "title": "The Saboteur",
+    "currency": "USD",
+    "was": 19.99,
+    "price": 1.99,
+    "discountPct": 90,
+    "url": "https://www.gog.com/en/game/saboteur",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24880/header.jpg?t=1777484749",
+    "status": "verified-product-page",
+    "checkedAt": "2026-10-02T21:24:06-05:00",
+    "endsAt": "2026-10-07T09:59:00+03:00"
+  },
+  {
+    "store": "GOG",
+    "title": "The Witcher 2: Assassins of Kings Enhanced Edition",
+    "currency": "USD",
+    "was": 19.99,
+    "price": 2.99,
+    "discountPct": 85,
+    "url": "https://www.gog.com/en/game/the_witcher_2",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20920/header.jpg?t=1761657279",
+    "status": "verified-product-page",
+    "checkedAt": "2026-10-02T21:24:06-05:00",
+    "endsAt": "2026-10-07T09:59:00+03:00"
+  },
+  {
+    "store": "GOG",
+    "title": "UNCHARTED: Legacy of Thieves Collection",
+    "currency": "USD",
+    "was": 49.99,
+    "price": 16.49,
+    "discountPct": 67,
+    "url": "https://www.gog.com/en/game/uncharted_legacy_of_thieves_collection",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659420/header.jpg?t=1779309472",
+    "status": "verified-product-page",
+    "checkedAt": "2026-10-02T21:24:06-05:00",
+    "endsAt": "2026-10-08T19:59:00+03:00"
+  },
+  {
+    "store": "GOG",
+    "title": "Divinity 2: Developer's Cut",
+    "currency": "USD",
+    "was": 19.99,
+    "price": 1.99,
+    "discountPct": 90,
+    "url": "https://www.gog.com/en/game/divinity_2_developers_cut",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/219780/header.jpg?t=1765504781",
+    "status": "verified-product-page",
+    "checkedAt": "2026-10-02T21:24:06-05:00",
+    "endsAt": "2026-10-07T09:59:00+03:00"
+  },
+  {
+    "store": "GOG",
+    "title": "Fallout: New Vegas Ultimate Edition",
+    "currency": "USD",
+    "was": 19.99,
+    "price": 7.99,
+    "discountPct": 60,
+    "url": "https://www.gog.com/en/game/fallout_new_vegas_ultimate_edition",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22380/header.jpg?t=1765992876",
+    "status": "verified-product-page",
+    "checkedAt": "2026-10-02T21:24:06-05:00",
+    "endsAt": "2026-10-07T09:59:00+03:00"
+  },
+  {
+    "store": "GOG",
+    "title": "Just Cause 2 - Complete Edition",
+    "currency": "USD",
+    "was": 19.99,
+    "price": 1.99,
+    "discountPct": 90,
+    "url": "https://www.gog.com/en/game/just_cause_2_complete_edition",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8190/header.jpg?t=1782912561",
+    "status": "verified-product-page",
+    "checkedAt": "2026-10-02T21:24:06-05:00",
+    "endsAt": "2026-10-07T09:59:00+03:00"
+  },
+  {
+    "store": "GOG",
+    "title": "Brutal Legend",
+    "currency": "USD",
+    "was": 14.99,
+    "price": 2.99,
+    "discountPct": 80,
+    "url": "https://www.gog.com/en/game/brutal_legend",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/225260/header.jpg?t=1787713082",
+    "status": "verified-product-page",
+    "checkedAt": "2026-10-02T21:24:06-05:00",
+    "endsAt": "2026-10-07T09:59:00+03:00"
   },
   {
     "store": "Gamesplanet",
@@ -236,8 +216,9 @@
     "discountPct": 55,
     "url": "https://us.gamesplanet.com/game/dark-souls-remastered-steam-key--3646-1",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/header.jpg?t=1778518110",
-    "status": "listing",
-    "checkedAt": "2026-10-01"
+    "status": "verified-product-page",
+    "checkedAt": "2026-10-02T21:25:04-05:00",
+    "endsAt": "2026-10-08T16:59:59Z"
   },
   {
     "store": "Gamesplanet",
@@ -248,8 +229,9 @@
     "discountPct": 15,
     "url": "https://us.gamesplanet.com/game/europa-universalis-v-steam-key--7628-1",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3450310/9944293cf93d5c11430d3b69941221b614c3ea70/header.jpg?t=1790859917",
-    "status": "listing",
-    "checkedAt": "2026-10-01"
+    "status": "verified-product-page",
+    "checkedAt": "2026-10-02T21:25:04-05:00",
+    "endsAt": "2026-10-08T21:59:00Z"
   },
   {
     "store": "Gamesplanet",
@@ -260,8 +242,9 @@
     "discountPct": 53,
     "url": "https://us.gamesplanet.com/game/roadcraft-steam-key--7209-1",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2104890/header.jpg?t=1789034884",
-    "status": "listing",
-    "checkedAt": "2026-10-01"
+    "status": "verified-product-page",
+    "checkedAt": "2026-10-02T21:25:04-05:00",
+    "endsAt": "2026-10-05T08:00:00Z"
   },
   {
     "store": "Gamesplanet",
@@ -272,8 +255,9 @@
     "discountPct": 49,
     "url": "https://us.gamesplanet.com/game/tales-of-xillia-remastered-steam-key--7834-1",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246670/da20c40c1534fa1dd3e4a496d51921cf285763f5/header.jpg?t=1766734223",
-    "status": "listing",
-    "checkedAt": "2026-10-01"
+    "status": "verified-product-page",
+    "checkedAt": "2026-10-02T21:25:04-05:00",
+    "endsAt": "2026-10-05T08:00:00Z"
   },
   {
     "store": "Gamesplanet",
@@ -284,8 +268,9 @@
     "discountPct": 78,
     "url": "https://us.gamesplanet.com/game/freedom-wars-remastered-steam-key--7405-1",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3004100/header.jpg?t=1767935436",
-    "status": "listing",
-    "checkedAt": "2026-10-01"
+    "status": "verified-product-page",
+    "checkedAt": "2026-10-02T21:25:04-05:00",
+    "endsAt": "2026-10-05T08:00:00Z"
   },
   {
     "store": "Gamesplanet",
@@ -296,8 +281,9 @@
     "discountPct": 74,
     "url": "https://us.gamesplanet.com/game/baten-kaitos-i-ii-hd-remaster-steam-key--7026-1",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2146170/header.jpg?t=1738726707",
-    "status": "listing",
-    "checkedAt": "2026-10-01"
+    "status": "verified-product-page",
+    "checkedAt": "2026-10-02T21:25:04-05:00",
+    "endsAt": "2026-10-05T08:00:00Z"
   },
   {
     "store": "Gamesplanet",
@@ -308,8 +294,8 @@
     "discountPct": 20,
     "url": "https://us.gamesplanet.com/game/silent-hill-townfall-steam-key--8224-1",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1636440/0ed1cb4bc30631f95b92f7f13bb06c15d49b4afa/header.jpg?t=1790222467",
-    "status": "listing",
-    "checkedAt": "2026-10-01"
+    "status": "verified-product-page",
+    "checkedAt": "2026-10-02T21:25:04-05:00"
   },
   {
     "store": "Gamesplanet",
@@ -320,7 +306,99 @@
     "discountPct": 20,
     "url": "https://us.gamesplanet.com/game/nivalis-nights-steam-key--6166-1",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488490/28e511ff46672f9649744961fd6edbf19df75265/header.jpg?t=1790855080",
-    "status": "listing",
-    "checkedAt": "2026-10-01"
+    "status": "verified-product-page",
+    "checkedAt": "2026-10-02T21:25:04-05:00",
+    "endsAt": "2026-10-13T15:00:00Z"
+  },
+  {
+    "store": "Gamesplanet",
+    "title": "God of War",
+    "currency": "USD",
+    "was": 49.99,
+    "price": 18.71,
+    "discountPct": 63,
+    "url": "https://us.gamesplanet.com/game/god-of-war-steam-key--5377-1",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1593500/header.jpg?t=1763059412",
+    "status": "verified-product-page",
+    "checkedAt": "2026-10-02T21:25:04-05:00",
+    "endsAt": "2026-10-08T17:00:00Z"
+  },
+  {
+    "store": "Gamesplanet",
+    "title": "Ghost of Tsushima DIRECTOR'S CUT",
+    "currency": "USD",
+    "was": 59.99,
+    "price": 33.5,
+    "discountPct": 44,
+    "url": "https://us.gamesplanet.com/game/ghost-of-tsushima-director-s-cut-steam-key--6827-1",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/header.jpg?t=1763409398",
+    "status": "verified-product-page",
+    "checkedAt": "2026-10-02T21:25:04-05:00",
+    "endsAt": "2026-10-08T17:00:00Z"
+  },
+  {
+    "store": "Gamesplanet",
+    "title": "UNCHARTED: Legacy of Thieves Collection",
+    "currency": "USD",
+    "was": 49.99,
+    "price": 15.48,
+    "discountPct": 69,
+    "url": "https://us.gamesplanet.com/game/uncharted-legacy-of-thieves-collection-steam-key--5443-1",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659420/header.jpg?t=1779309472",
+    "status": "verified-product-page",
+    "checkedAt": "2026-10-02T21:25:04-05:00",
+    "endsAt": "2026-10-08T17:00:00Z"
+  },
+  {
+    "store": "Gamesplanet",
+    "title": "The Last of Us - Part I",
+    "currency": "USD",
+    "was": 59.99,
+    "price": 27.95,
+    "discountPct": 53,
+    "url": "https://us.gamesplanet.com/game/the-last-of-us-part-i-steam-key--6062-1",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/header.jpg?t=1750959031",
+    "status": "verified-product-page",
+    "checkedAt": "2026-10-02T21:25:04-05:00",
+    "endsAt": "2026-10-08T17:00:00Z"
+  },
+  {
+    "store": "Gamesplanet",
+    "title": "HELLDIVERS Dive Harder Edition",
+    "currency": "USD",
+    "was": 19.99,
+    "price": 3.92,
+    "discountPct": 80,
+    "url": "https://us.gamesplanet.com/game/helldivers-dive-harder-edition-steam-key--5046-1",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394510/header.jpg?t=1750950223",
+    "status": "verified-product-page",
+    "checkedAt": "2026-10-02T21:25:04-05:00",
+    "endsAt": "2026-10-08T17:00:00Z"
+  },
+  {
+    "store": "Gamesplanet",
+    "title": "Marvel's Spider-Man Remastered",
+    "currency": "USD",
+    "was": 59.99,
+    "price": 22.39,
+    "discountPct": 63,
+    "url": "https://us.gamesplanet.com/game/marvel-s-spider-man-remastered-steam-key--5700-1",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/header.jpg?t=1787838689",
+    "status": "verified-product-page",
+    "checkedAt": "2026-10-02T21:25:04-05:00",
+    "endsAt": "2026-10-08T17:00:00Z"
+  },
+  {
+    "store": "Gamesplanet",
+    "title": "Marvel's Spider-Man: Miles Morales",
+    "currency": "USD",
+    "was": 49.99,
+    "price": 18.71,
+    "discountPct": 63,
+    "url": "https://us.gamesplanet.com/game/marvel-s-spider-man-miles-morales-steam-key--5959-1",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817190/header.jpg?t=1787838710",
+    "status": "verified-product-page",
+    "checkedAt": "2026-10-02T21:25:04-05:00",
+    "endsAt": "2026-10-08T17:00:00Z"
   }
 ]
