@@ -1,17 +1,52 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { site } from '../lib/site';
 ---
-<!-- Draft page: hidden from search engines and not linked from the footer until the final text is added. -->
 <Layout
   title="Terms of use | SaveAndPlay"
   description="The terms that apply when you use the SaveAndPlay website."
-  noindex
 >
   <main class="page">
     <div class="eyebrow">Legal</div>
-    <h1>Terms of use</h1>
-    <p class="updated">Last updated: October 1, 2026</p>
+    <h1>Terms of Use</h1>
+    <p class="updated">Last updated: October 2, 2026</p>
 
-    <p>The full terms of use for SaveAndPlay are being prepared and will be published here soon. In the meantime, if you have any questions about using this site, please <a class="text-link" href="/contact/">contact us</a>.</p>
+    <p>Welcome to SaveAndPlay (saveandplay.com). By using this website, you agree to these terms. If you do not agree, please do not use the site.</p>
+
+    <h2>1. What SaveAndPlay is</h2>
+    <p>SaveAndPlay is an informational website that shows discounts, bundles and free offers on PC games from third-party stores. We do not sell games, we do not process payments, and we are not a store. Every purchase is made on the website of the store you choose.</p>
+
+    <h2>2. Prices and availability</h2>
+    <p>We do our best to keep deals accurate, and each deal shows when it was last checked. Prices, discounts, regional availability and end dates are set by the stores and can change at any time without notice. Always check the final price and conditions on the store's website before you buy. We are not responsible for differences between what is shown here and what the store charges.</p>
+
+    <h2>3. Affiliate links</h2>
+    <p>Some links on SaveAndPlay are affiliate links. If you click one and make a purchase, we may earn a commission at no extra cost to you. Our affiliate relationships do not change the price you pay. You can read more on our <a class="text-link" href="/disclosure/">Affiliate Disclosure</a> page.</p>
+
+    <h2>4. Third-party websites</h2>
+    <p>Links on this site lead to websites we do not own or control. We are not responsible for their content, prices, policies, products or services. Your purchases and any dealings with those stores are between you and them, including refunds, support and delivery of the game.</p>
+
+    <h2>5. No warranty</h2>
+    <p>The site and its content are provided "as is" and "as available". We make no promises that the site will always be available, error-free or that the information on it is complete or up to date.</p>
+
+    <h2>6. Limitation of liability</h2>
+    <p>To the fullest extent allowed by law, SaveAndPlay and its owner are not liable for any loss or damage arising from your use of the site, including purchases made through links on it, missed or expired deals, or reliance on information shown here.</p>
+
+    <h2>7. Intellectual property</h2>
+    <p>The design, text and original content of SaveAndPlay belong to us. Game titles, logos, covers and store names belong to their respective owners and are used only to identify the offers. We are not affiliated with, endorsed by or sponsored by those owners unless stated otherwise. Please do not copy or reuse our content in bulk, or collect it with automated tools, without our written permission.</p>
+
+    <h2>8. Acceptable use</h2>
+    <p>Please do not misuse the site: do not try to disrupt it, break its security, overload it with automated requests, or use it for anything unlawful.</p>
+
+    <h2>9. Privacy</h2>
+    <p>How we handle information about visitors is described in our <a class="text-link" href="/privacy/">Privacy Policy</a>.</p>
+
+    <h2>10. Changes to these terms</h2>
+    <p>We may update these terms from time to time. The date at the top shows when they were last changed. By continuing to use the site after an update, you accept the new terms.</p>
+
+    <h2>11. Governing law</h2>
+    <p>These terms are governed by the laws of USA, without regard to conflict of law rules.</p>
+
+    <h2>12. Contact</h2>
+    <p>Questions about these terms? Write to <a class="text-link" href={`mailto:${site.email}`}>{site.email}</a>.</p>
   </main>
 </Layout>
