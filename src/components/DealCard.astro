@@ -19,7 +19,7 @@ const cover = deal.cover
         <div class="was">{money(deal.was)}</div>
         <div class="now">{money(deal.price)}</div>
       </div>
-      <a class="sp-btn view" href={deal.affiliateUrl ?? deal.url ?? goUrl(deal)} rel="sponsored nofollow noopener" target="_blank" aria-label={`View deal: ${deal.title} at ${deal.store}`}>View deal</a>
+      <a class="sp-btn view" href={deal.affiliateUrl ?? deal.url ?? goUrl(deal)} rel="sponsored nofollow noopener" target="_blank" data-deal={deal.title} data-store={deal.store} aria-label={`View deal: ${deal.title} at ${deal.store}`}>View deal</a>
     </div>
   </div>
 </article>

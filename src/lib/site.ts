@@ -5,4 +5,6 @@ export const site = {
   email: 'contact@saveandplay.com',
   // Owner has not chosen the Bluesky handle yet. Empty = the card is hidden on Contact.
   bluesky: '',
+  // Google Analytics 4 Measurement ID (public, it is visible in the page source anyway).
+  analyticsId: 'G-7QLYTJ1DJG',
 };

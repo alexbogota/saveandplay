@@ -50,7 +50,7 @@ const cover = (x: { cover?: string; tone?: string }) =>
               <span class="off">-{featuredDeal.discount}%</span>
             </div>
           </div>
-          <a class="btn sp-btn" href={featuredDeal.affiliateUrl ?? featuredDeal.url ?? goUrl(featuredDeal)} rel="sponsored nofollow noopener" target="_blank">View deal</a>
+          <a class="btn sp-btn" href={featuredDeal.affiliateUrl ?? featuredDeal.url ?? goUrl(featuredDeal)} rel="sponsored nofollow noopener" target="_blank" data-deal={featuredDeal.title} data-store={featuredDeal.store}>View deal</a>
         </div>
       )}
     </section>

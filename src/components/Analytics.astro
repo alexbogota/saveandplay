@@ -1,0 +1,39 @@
+---
+// Google Analytics 4 with Consent Mode.
+// - Visitors from the EU/EEA, the UK and Switzerland: analytics stays OFF until they press "Accept".
+// - Everyone else: analytics is on, they can still press "Decline" (see ConsentBanner.astro).
+// - Ads features are always off (no ad cookies, no personalisation).
+// The choice is saved in the browser under "sp-consent" ("granted" or "denied").
+import { site } from '../lib/site';
+const id = site.analyticsId;
+const consentRegions = [
+  'AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'IE', 'IT', 'LV', 'LT', 'LU', 'MT', 'NL', 'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE',
+  'IS', 'LI', 'NO', 'GB', 'CH',
+];
+---
+{id && (
+  <>
+    <script is:inline define:vars={{ id, consentRegions }}>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      window.gtag = gtag;
+      var off = { analytics_storage: 'denied', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied' };
+      // The region rule goes first: it wins over the general one below it.
+      gtag('consent', 'default', Object.assign({ region: consentRegions }, off));
+      gtag('consent', 'default', Object.assign({}, off, { analytics_storage: 'granted' }));
+      try {
+        var saved = localStorage.getItem('sp-consent');
+        if (saved === 'granted' || saved === 'denied') gtag('consent', 'update', { analytics_storage: saved });
+      } catch (e) {}
+      gtag('js', new Date());
+      gtag('config', id);
+
+      // Count clicks on "View deal" buttons: which store and which game.
+      document.addEventListener('click', function (e) {
+        var a = e.target.closest && e.target.closest('a[data-deal]');
+        if (a) gtag('event', 'deal_click', { store: a.dataset.store, deal: a.dataset.deal, transport_type: 'beacon' });
+      });
+    </script>
+    <script async src={`https://www.googletagmanager.com/gtag/js?id=${id}`}></script>
+  </>
+)}

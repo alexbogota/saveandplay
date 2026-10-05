@@ -16,6 +16,7 @@ const links = [
     </div>
     <nav aria-label="Footer">
       {links.map((l) => <a class="sp-link" href={l.href}>{l.label}</a>)}
+      <button type="button" class="sp-link" data-consent-open>Cookie settings</button>
     </nav>
   </div>
   <div class="container legal">© SaveAndPlay. All game titles and store names are the property of their respective owners.</div>
@@ -28,6 +29,7 @@ const links = [
   .brand { font-family: var(--font-head); font-weight: 800; font-size: 20px; color: var(--heading); }
   p { margin: 0; font-size: 14px; color: var(--muted); }
   nav { display: flex; flex-wrap: wrap; gap: 0 28px; font-size: 14px; color: var(--body-muted); align-self: flex-start; }
-  nav a { display: inline-flex; align-items: center; min-height: 44px; }
+  nav a, nav button { display: inline-flex; align-items: center; min-height: 44px; }
+  nav button { padding: 0; border: 0; background: none; color: inherit; font: inherit; cursor: pointer; }
   .legal { padding-bottom: 32px; font-size: 13px; color: #8591A1; }
 </style>
