@@ -90,8 +90,9 @@ for (const deal of deals) {
   deal.image = '';
 
   try {
-    let appid = manualId;
-    let note = '[manual]';
+    // The Steam number can also come with the deal itself (steamId, set by npm run indiegala).
+    let appid = manualId ?? deal.steamId;
+    let note = manualId ? '[manual]' : '[steamId]';
     let name = '';
 
     if (!appid) {
