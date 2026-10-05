@@ -8,7 +8,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "covers": "node scripts/fetch-steam-covers.mjs",
-    "drafts": "node scripts/make-drafts.mjs"
+    "drafts": "node scripts/make-drafts.mjs",
+    "indiegala": "node scripts/indiegala-candidates.mjs"
   },
   "dependencies": {
     "astro": "^7.3.5"
