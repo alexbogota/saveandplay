@@ -1,0 +1,851 @@
+{
+ "titles": {
+  "Suicide Squad: Kill the Justice League": {
+   "id": 315210,
+   "at": "2026-10-05"
+  },
+  "Injustice™ 2 Legendary Edition": {
+   "id": 627270,
+   "at": "2026-10-05"
+  },
+  "Back 4 Blood": {
+   "id": 924970,
+   "at": "2026-10-05"
+  },
+  "Hogwarts Legacy": {
+   "id": 990080,
+   "at": "2026-10-05"
+  },
+  "SNK HEROINES Tag Team Frenzy DELUXE PACK": {
+   "id": null,
+   "at": "2026-10-05"
+  },
+  "WARRIORS: Abyss - Hack'n'Dash Ultimate Edition": {
+   "id": null,
+   "at": "2026-10-05"
+  },
+  "Gotham Knights": {
+   "id": 1496790,
+   "at": "2026-10-05"
+  },
+  "LEGO® Star Wars™:The Skywalker Saga Deluxe Edition": {
+   "id": 920210,
+   "at": "2026-10-05"
+  },
+  "Nioh: Complete Edition": {
+   "id": 485510,
+   "at": "2026-10-05"
+  },
+  "Warhammer Age Of Sigmar: Realms Of Ruin": {
+   "id": 1844380,
+   "at": "2026-10-05"
+  },
+  "Nioh 2 – The Complete Edition": {
+   "id": 1325200,
+   "at": "2026-10-05"
+  },
+  "Cronos: The New Dawn Deluxe Edition": {
+   "id": 2101960,
+   "at": "2026-10-05"
+  },
+  "Jurassic World Evolution 2": {
+   "id": 1244460,
+   "at": "2026-10-05"
+  },
+  "Warhammer 40,000: Chaos Gate - Daemonhunters Castellan Champion Edition": {
+   "id": null,
+   "at": "2026-10-05"
+  },
+  "Assetto Corsa Ultimate Edition": {
+   "id": null,
+   "at": "2026-10-05"
+  },
+  "Sackboy™: A Big Adventure": {
+   "id": 1599660,
+   "at": "2026-10-05"
+  },
+  "Returnal™": {
+   "id": 1649240,
+   "at": "2026-10-05"
+  },
+  "The Medium": {
+   "id": 1293160,
+   "at": "2026-10-05"
+  },
+  "Eiyuden Chronicle: Hundred Heroes": {
+   "id": 1658280,
+   "at": "2026-10-05"
+  },
+  "Hell Let Loose": {
+   "id": 686810,
+   "at": "2026-10-05"
+  },
+  "MONSTER HUNTER RISE": {
+   "id": 1446780,
+   "at": "2026-10-05"
+  },
+  "Marvel’s Spider-Man Remastered": {
+   "id": 1817070,
+   "at": "2026-10-05"
+  },
+  "No Man's Sky": {
+   "id": 275850,
+   "at": "2026-10-05"
+  },
+  "Control Ultimate Edition": {
+   "id": 870780,
+   "at": "2026-10-05"
+  },
+  "MARVEL vs. CAPCOM Fighting Collection: Arcade Classics": {
+   "id": 2634890,
+   "at": "2026-10-05"
+  },
+  "Warhammer 40,000: Chaos Gate - Daemonhunters": {
+   "id": 1611910,
+   "at": "2026-10-05"
+  },
+  "Planet Coaster": {
+   "id": 493340,
+   "at": "2026-10-05"
+  },
+  "Jurassic World Evolution": {
+   "id": 648350,
+   "at": "2026-10-05"
+  },
+  "The Pathless": {
+   "id": 1492680,
+   "at": "2026-10-05"
+  },
+  "Ashen": {
+   "id": 649950,
+   "at": "2026-10-05"
+  },
+  "Sunderfolk": {
+   "id": 2414270,
+   "at": "2026-10-05"
+  },
+  "Ghostrunner 2": {
+   "id": 2144740,
+   "at": "2026-10-05"
+  },
+  "Atelier Marie Remake: The Alchemist of Salburg": {
+   "id": 2138090,
+   "at": "2026-10-05"
+  },
+  "Solar Ash": {
+   "id": 1867530,
+   "at": "2026-10-05"
+  },
+  "Disco Elysium - The Final Cut": {
+   "id": 632470,
+   "at": "2026-10-05"
+  },
+  "Castlevania: Lords of Shadow 2": {
+   "id": 239250,
+   "at": "2026-10-05"
+  },
+  "Assetto Corsa Competizione": {
+   "id": 805550,
+   "at": "2026-10-05"
+  },
+  "DEATH STRANDING DIRECTOR'S CUT": {
+   "id": 1850570,
+   "at": "2026-10-05"
+  },
+  "Gord": {
+   "id": 1351210,
+   "at": "2026-10-05"
+  },
+  "Still Wakes the Deep": {
+   "id": 1622910,
+   "at": "2026-10-05"
+  },
+  "Sifu": {
+   "id": 2138710,
+   "at": "2026-10-05"
+  },
+  "Scorn": {
+   "id": 698670,
+   "at": "2026-10-05"
+  },
+  "Flintlock: The Siege of Dawn": {
+   "id": 1832040,
+   "at": "2026-10-05"
+  },
+  "Kerbal Space Program": {
+   "id": 220200,
+   "at": "2026-10-05"
+  },
+  "My Time at Sandrock": {
+   "id": 1084600,
+   "at": "2026-10-05"
+  },
+  "Arsene Lupin - Once a Thief - Deluxe Edition": {
+   "id": null,
+   "at": "2026-10-05"
+  },
+  "Darkest Dungeon II": {
+   "id": 1940340,
+   "at": "2026-10-05"
+  },
+  "Pacific Drive: Whispers Edition": {
+   "id": null,
+   "at": "2026-10-05"
+  },
+  "Overcooked! All You Can Eat": {
+   "id": 1243830,
+   "at": "2026-10-05"
+  },
+  "Classified: France '44": {
+   "id": 2085370,
+   "at": "2026-10-05"
+  },
+  "Ultros: Deluxe Edition": {
+   "id": 2386310,
+   "at": "2026-10-05"
+  },
+  "Tchia: Oléti Edition": {
+   "id": null,
+   "at": "2026-10-05"
+  },
+  "REMATCH - Pro Edition": {
+   "id": null,
+   "at": "2026-10-05"
+  },
+  "Amber Isle - Gold Edition": {
+   "id": null,
+   "at": "2026-10-05"
+  },
+  "WARRIORS: Abyss - Hack'n'Dash Edition": {
+   "id": null,
+   "at": "2026-10-05"
+  },
+  "Wizardry: Proving Grounds of the Mad Overlord": {
+   "id": 2518960,
+   "at": "2026-10-05"
+  },
+  "Street Fighter™ 6": {
+   "id": 1364780,
+   "at": "2026-10-05"
+  },
+  "Date Everything! - Lavish Edition": {
+   "id": null,
+   "at": "2026-10-05"
+  }
+ },
+ "apps": {
+  "220200": {
+   "name": "Kerbal Space Program",
+   "type": "game",
+   "age": 0,
+   "descriptors": [],
+   "at": "2026-10-05",
+   "pos": 141129,
+   "total": 147606,
+   "desc": "Overwhelmingly Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "239250": {
+   "name": "Castlevania: Lords of Shadow 2",
+   "type": "game",
+   "age": 17,
+   "descriptors": [],
+   "at": "2026-10-05",
+   "pos": 5535,
+   "total": 6530,
+   "desc": "Very Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "275850": {
+   "name": "No Man's Sky",
+   "type": "game",
+   "age": 0,
+   "descriptors": [],
+   "at": "2026-10-05",
+   "pos": 360001,
+   "total": 422157,
+   "desc": "Very Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "315210": {
+   "name": "Suicide Squad: Kill the Justice League",
+   "type": "game",
+   "age": 18,
+   "descriptors": [
+    2,
+    5
+   ],
+   "at": "2026-10-05",
+   "pos": 11104,
+   "total": 18155,
+   "desc": "Mixed",
+   "reviewsAt": "2026-10-05"
+  },
+  "485510": {
+   "name": "Nioh: Complete Edition",
+   "type": "game",
+   "age": 17,
+   "descriptors": [],
+   "at": "2026-10-05",
+   "pos": 30882,
+   "total": 39125,
+   "desc": "Mostly Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "493340": {
+   "name": "Planet Coaster",
+   "type": "game",
+   "age": 0,
+   "descriptors": [],
+   "at": "2026-10-05",
+   "pos": 65981,
+   "total": 72248,
+   "desc": "Very Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "627270": {
+   "name": "Injustice™ 2",
+   "type": "game",
+   "age": 0,
+   "descriptors": [],
+   "at": "2026-10-05",
+   "pos": 21229,
+   "total": 24612,
+   "desc": "Very Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "632470": {
+   "name": "Disco Elysium - The Final Cut",
+   "type": "game",
+   "age": 0,
+   "descriptors": [
+    5
+   ],
+   "at": "2026-10-05",
+   "pos": 121952,
+   "total": 131762,
+   "desc": "Very Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "648350": {
+   "name": "Jurassic World Evolution",
+   "type": "game",
+   "age": 0,
+   "descriptors": [],
+   "at": "2026-10-05",
+   "pos": 48379,
+   "total": 55325,
+   "desc": "Very Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "649950": {
+   "name": "Ashen",
+   "type": "game",
+   "age": 0,
+   "descriptors": [],
+   "at": "2026-10-05",
+   "pos": 2584,
+   "total": 3868,
+   "desc": "Mixed",
+   "reviewsAt": "2026-10-05"
+  },
+  "686810": {
+   "name": "Hell Let Loose",
+   "type": "game",
+   "age": 0,
+   "descriptors": [
+    2,
+    5
+   ],
+   "at": "2026-10-05",
+   "pos": 122667,
+   "total": 150035,
+   "desc": "Very Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "698670": {
+   "name": "Scorn",
+   "type": "game",
+   "age": 0,
+   "descriptors": [
+    1,
+    2,
+    5
+   ],
+   "at": "2026-10-05",
+   "pos": 15322,
+   "total": 19999,
+   "desc": "Mostly Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "794580": {
+   "name": "SNK HEROINES Tag Team Frenzy",
+   "type": "game",
+   "age": 0,
+   "descriptors": [],
+   "at": "2026-10-05"
+  },
+  "805550": {
+   "name": "Assetto Corsa Competizione",
+   "type": "game",
+   "age": 0,
+   "descriptors": [],
+   "at": "2026-10-05",
+   "pos": 45131,
+   "total": 48686,
+   "desc": "Very Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "870780": {
+   "name": "CONTROL Ultimate Edition",
+   "type": "game",
+   "age": 17,
+   "descriptors": [
+    2,
+    5
+   ],
+   "at": "2026-10-05",
+   "pos": 56411,
+   "total": 65541,
+   "desc": "Very Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "920210": {
+   "name": "LEGO® Star Wars™: The Skywalker Saga",
+   "type": "game",
+   "age": 0,
+   "descriptors": [],
+   "at": "2026-10-05",
+   "pos": 43668,
+   "total": 48508,
+   "desc": "Very Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "924970": {
+   "name": "Back 4 Blood",
+   "type": "game",
+   "age": 17,
+   "descriptors": [
+    2,
+    5
+   ],
+   "at": "2026-10-05",
+   "pos": 50523,
+   "total": 73420,
+   "desc": "Mixed",
+   "reviewsAt": "2026-10-05"
+  },
+  "990080": {
+   "name": "Hogwarts Legacy",
+   "type": "game",
+   "age": 0,
+   "descriptors": [],
+   "at": "2026-10-05",
+   "pos": 336343,
+   "total": 374826,
+   "desc": "Very Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "1084600": {
+   "name": "My Time at Sandrock",
+   "type": "game",
+   "age": 0,
+   "descriptors": [],
+   "at": "2026-10-05",
+   "pos": 25673,
+   "total": 29125,
+   "desc": "Very Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "1243830": {
+   "name": "Overcooked! All You Can Eat",
+   "type": "game",
+   "age": 0,
+   "descriptors": [],
+   "at": "2026-10-05",
+   "pos": 6078,
+   "total": 8322,
+   "desc": "Mostly Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "1244460": {
+   "name": "Jurassic World Evolution 2",
+   "type": "game",
+   "age": 0,
+   "descriptors": [],
+   "at": "2026-10-05",
+   "pos": 42671,
+   "total": 47223,
+   "desc": "Very Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "1293160": {
+   "name": "The Medium",
+   "type": "game",
+   "age": 0,
+   "descriptors": [
+    1,
+    2,
+    5
+   ],
+   "at": "2026-10-05",
+   "pos": 9179,
+   "total": 10334,
+   "desc": "Very Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "1325200": {
+   "name": "Nioh 2 – The Complete Edition",
+   "type": "game",
+   "age": 17,
+   "descriptors": [
+    2,
+    5
+   ],
+   "at": "2026-10-05",
+   "pos": 44319,
+   "total": 50720,
+   "desc": "Very Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "1351210": {
+   "name": "Gord",
+   "type": "game",
+   "age": 0,
+   "descriptors": [
+    2,
+    5
+   ],
+   "at": "2026-10-05",
+   "pos": 552,
+   "total": 1015,
+   "desc": "Mixed",
+   "reviewsAt": "2026-10-05"
+  },
+  "1364780": {
+   "name": "Street Fighter™ 6",
+   "type": "game",
+   "age": 0,
+   "descriptors": [],
+   "at": "2026-10-05",
+   "pos": 65873,
+   "total": 80374,
+   "desc": "Very Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "1446780": {
+   "name": "MONSTER HUNTER RISE",
+   "type": "game",
+   "age": 0,
+   "descriptors": [],
+   "at": "2026-10-05",
+   "pos": 106156,
+   "total": 127117,
+   "desc": "Very Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "1458140": {
+   "name": "Pacific Drive",
+   "type": "game",
+   "age": 0,
+   "descriptors": [],
+   "at": "2026-10-05"
+  },
+  "1492680": {
+   "name": "The Pathless",
+   "type": "game",
+   "age": 0,
+   "descriptors": [],
+   "at": "2026-10-05",
+   "pos": 2009,
+   "total": 2219,
+   "desc": "Very Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "1496590": {
+   "name": "Tchia",
+   "type": "game",
+   "age": 0,
+   "descriptors": [],
+   "at": "2026-10-05"
+  },
+  "1496790": {
+   "name": "Gotham Knights",
+   "type": "game",
+   "age": 0,
+   "descriptors": [],
+   "at": "2026-10-05",
+   "pos": 17057,
+   "total": 25336,
+   "desc": "Mixed",
+   "reviewsAt": "2026-10-05"
+  },
+  "1599660": {
+   "name": "Sackboy™: A Big Adventure",
+   "type": "game",
+   "age": 0,
+   "descriptors": [],
+   "at": "2026-10-05",
+   "pos": 3764,
+   "total": 4507,
+   "desc": "Very Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "1611910": {
+   "name": "Warhammer 40,000: Chaos Gate - Daemonhunters",
+   "type": "game",
+   "age": 17,
+   "descriptors": [
+    2,
+    5
+   ],
+   "at": "2026-10-05",
+   "pos": 11359,
+   "total": 14834,
+   "desc": "Mostly Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "1622910": {
+   "name": "Still Wakes the Deep",
+   "type": "game",
+   "age": 0,
+   "descriptors": [
+    1,
+    2,
+    5
+   ],
+   "at": "2026-10-05",
+   "pos": 11648,
+   "total": 13315,
+   "desc": "Very Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "1649240": {
+   "name": "Returnal™",
+   "type": "game",
+   "age": 13,
+   "descriptors": [],
+   "at": "2026-10-05",
+   "pos": 9018,
+   "total": 11149,
+   "desc": "Very Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "1658280": {
+   "name": "Eiyuden Chronicle: Hundred Heroes",
+   "type": "game",
+   "age": 0,
+   "descriptors": [],
+   "at": "2026-10-05",
+   "pos": 3521,
+   "total": 4674,
+   "desc": "Mostly Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "1817070": {
+   "name": "Marvel’s Spider-Man Remastered",
+   "type": "game",
+   "age": 0,
+   "descriptors": [],
+   "at": "2026-10-05",
+   "pos": 138972,
+   "total": 144732,
+   "desc": "Overwhelmingly Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "1832040": {
+   "name": "Flintlock: The Siege of Dawn",
+   "type": "game",
+   "age": 17,
+   "descriptors": [
+    2,
+    5
+   ],
+   "at": "2026-10-05",
+   "pos": 1467,
+   "total": 1965,
+   "desc": "Mostly Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "1844380": {
+   "name": "Warhammer Age of Sigmar: Realms of Ruin",
+   "type": "game",
+   "age": 0,
+   "descriptors": [
+    2,
+    5
+   ],
+   "at": "2026-10-05",
+   "pos": 1637,
+   "total": 3155,
+   "desc": "Mixed",
+   "reviewsAt": "2026-10-05"
+  },
+  "1850570": {
+   "name": "DEATH STRANDING DIRECTOR'S CUT",
+   "type": "game",
+   "age": 0,
+   "descriptors": [
+    5
+   ],
+   "at": "2026-10-05",
+   "pos": 63952,
+   "total": 69383,
+   "desc": "Very Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "1867530": {
+   "name": "Solar Ash",
+   "type": "game",
+   "age": 0,
+   "descriptors": [],
+   "at": "2026-10-05",
+   "pos": 1364,
+   "total": 1518,
+   "desc": "Very Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "1940340": {
+   "name": "Darkest Dungeon® II",
+   "type": "game",
+   "age": 0,
+   "descriptors": [
+    2,
+    5
+   ],
+   "at": "2026-10-05",
+   "pos": 20214,
+   "total": 27103,
+   "desc": "Mostly Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "2085370": {
+   "name": "Classified: France '44",
+   "type": "game",
+   "age": 0,
+   "descriptors": [
+    5
+   ],
+   "at": "2026-10-05",
+   "pos": 748,
+   "total": 1043,
+   "desc": "Mostly Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "2101960": {
+   "name": "Cronos: The New Dawn",
+   "type": "game",
+   "age": 0,
+   "descriptors": [
+    2,
+    5
+   ],
+   "at": "2026-10-05",
+   "pos": 10577,
+   "total": 12031,
+   "desc": "Very Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "2138090": {
+   "name": "Atelier Marie Remake: The Alchemist of Salburg",
+   "type": "game",
+   "age": 0,
+   "descriptors": [],
+   "at": "2026-10-05",
+   "pos": 369,
+   "total": 413,
+   "desc": "Very Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "2138710": {
+   "name": "Sifu",
+   "type": "game",
+   "age": 17,
+   "descriptors": [
+    2,
+    5
+   ],
+   "at": "2026-10-05",
+   "pos": 26653,
+   "total": 29018,
+   "desc": "Very Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "2138720": {
+   "name": "REMATCH",
+   "type": "game",
+   "age": 0,
+   "descriptors": [],
+   "at": "2026-10-05"
+  },
+  "2144740": {
+   "name": "Ghostrunner 2",
+   "type": "game",
+   "age": 17,
+   "descriptors": [
+    2,
+    5
+   ],
+   "at": "2026-10-05",
+   "pos": 9323,
+   "total": 11660,
+   "desc": "Mostly Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "2386310": {
+   "name": "Ultros",
+   "type": "game",
+   "age": 0,
+   "descriptors": [
+    1,
+    2,
+    5
+   ],
+   "at": "2026-10-05",
+   "pos": 986,
+   "total": 1274,
+   "desc": "Mostly Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "2414270": {
+   "name": "Sunderfolk",
+   "type": "game",
+   "age": 0,
+   "descriptors": [],
+   "at": "2026-10-05",
+   "pos": 2071,
+   "total": 2308,
+   "desc": "Very Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "2518960": {
+   "name": "Wizardry: Proving Grounds of the Mad Overlord",
+   "type": "game",
+   "age": 0,
+   "descriptors": [],
+   "at": "2026-10-05",
+   "pos": 993,
+   "total": 1292,
+   "desc": "Mostly Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "2634890": {
+   "name": "MARVEL vs. CAPCOM Fighting Collection: Arcade Classics",
+   "type": "game",
+   "age": 0,
+   "descriptors": [],
+   "at": "2026-10-05",
+   "pos": 2375,
+   "total": 2520,
+   "desc": "Very Positive",
+   "reviewsAt": "2026-10-05"
+  },
+  "3178350": {
+   "name": "WARRIORS: Abyss",
+   "type": "game",
+   "age": 0,
+   "descriptors": [],
+   "at": "2026-10-05"
+  }
+ }
+}

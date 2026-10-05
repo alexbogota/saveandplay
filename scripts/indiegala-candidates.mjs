@@ -7,16 +7,17 @@
 // 2. Keeps games only: not DLC, sold in the US, a real discount end date (not "2050"),
 //    old price from MIN_BASE dollars, discount from MIN_DISCOUNT percent,
 //    and the publisher is on the KNOWN_PUBLISHERS list.
-// 3. Takes at most MAX_PER_PUBLISHER games per publisher (so one company does not fill the list),
-//    sorted by dollars saved.
+// 3. Sorted by dollars saved, each game is checked in Steam (scripts/steam.mjs): at least MIN_REVIEWS
+//    reviews, at least MIN_POSITIVE percent positive, no sexual-content flags. The first MAX_CANDIDATES
+//    that pass make the list, at most MAX_PER_PUBLISHER per publisher. The first run is slow (about
+//    1.5 s per Steam request); answers are remembered in data/steam-cache.json.
 // 4. Writes drafts/indiegala.md (to read) and drafts/indiegala.json (deals in the site format,
 //    with our ref=... link). The cover is left empty on purpose: run "npm run covers" after
 //    the deals are copied to data/deals.json.
 //
-// Idea for later (not built): ask Steam for the review score of each game and keep only the well
-// reviewed ones. It would also show age ratings. Details are in PROJECT.md, section 10.
 
 import { mkdir, writeFile } from 'node:fs/promises';
+import { steamInfo } from './steam.mjs';
 
 const FEED = 'https://www.indiegala.com/store_games_rss?sale=true';
 const OUT = new URL('../drafts/', import.meta.url);
@@ -27,6 +28,10 @@ const MIN_BASE = 30; // old price, dollars
 const MIN_DISCOUNT = 60; // percent
 const MAX_PER_PUBLISHER = 3;
 const MAX_CANDIDATES = 30;
+// Steam check (see scripts/steam.mjs): enough reviews, mostly positive, no sexual content.
+const MIN_REVIEWS = 500;
+const MIN_POSITIVE = 80; // percent
+const ADULT_FLAGS = [1, 3, 4]; // Steam content descriptors: some / adult-only / frequent nudity or sexual content
 
 // Publishers we trust to be well known. A name matches if it contains one of these words.
 // Games from any other publisher are left out for now.
@@ -60,7 +65,7 @@ for (let page = 1, pages = 1; page <= pages; page++) {
 
 // 2. Filter.
 const now = new Date();
-const skipped = { otherEditions: 0, dlc: 0, region: 0, noEnd: 0, ended: 0, cheap: 0, smallDiscount: 0, publisher: 0 };
+const skipped = { otherEditions: 0, dlc: 0, region: 0, noEnd: 0, ended: 0, cheap: 0, smallDiscount: 0, publisher: 0, publisherFull: 0, steamNotFound: 0, steamNoAnswer: 0, fewReviews: 0, lowScore: 0, adult: 0 };
 const good = [];
 for (const it of items) {
   const usd = it.match(/<price currency="USD"[\s\S]*?<base>([\d.]+)<\/base>\s*<discountPercent>([\d.]+)<\/discountPercent>\s*<final>([\d.]+)<\/final>/);
@@ -94,10 +99,38 @@ for (const g of good) {
 const unique = good.filter((g) => cheapest.get(gameKey(g.title)) === g);
 skipped.otherEditions = good.length - unique.length;
 unique.sort((a, b) => b.base - b.final - (a.base - a.final));
+
+// Steam check, in that order, until the list is full. A game that fails any step is left out.
+// If Steam gives no answer, the game is left out too: skipping is safer than guessing.
 const perPublisher = {};
-const picked = unique
-  .filter((g) => (perPublisher[g.publisher] = (perPublisher[g.publisher] || 0) + 1) <= MAX_PER_PUBLISHER)
-  .slice(0, MAX_CANDIDATES);
+const picked = [];
+for (const g of unique) {
+  if (picked.length >= MAX_CANDIDATES) break;
+  if ((perPublisher[g.publisher] || 0) >= MAX_PER_PUBLISHER) {
+    skipped.publisherFull++;
+    continue;
+  }
+  let steam = null;
+  try {
+    steam = await steamInfo(g.title, Number(new URL(g.link).pathname.match(/\/(\d+)(?:_[^/]*)?$/)?.[1]));
+  } catch (e) {
+    console.log(`  Steam gave no answer for "${g.title}": ${e.message}`);
+    skipped.steamNoAnswer++;
+    continue;
+  }
+  const why = !steam ? 'steamNotFound'
+    : steam.total < MIN_REVIEWS ? 'fewReviews'
+    : steam.pct < MIN_POSITIVE ? 'lowScore'
+    : steam.descriptors.some((id) => ADULT_FLAGS.includes(id)) ? 'adult'
+    : '';
+  console.log(`  ${why ? 'out ' : 'KEEP'} ${g.title.slice(0, 48).padEnd(48)} ${steam ? `${steam.pct}% of ${steam.total}${why ? ` (${why})` : ''}` : 'not found in Steam'}`);
+  if (why) {
+    skipped[why]++;
+    continue;
+  }
+  perPublisher[g.publisher] = (perPublisher[g.publisher] || 0) + 1;
+  picked.push({ ...g, steam });
+}
 
 // 4. Output.
 const refLink = (url) => {
@@ -115,6 +148,7 @@ const deals = picked.map((g) => ({
   discountPct: Math.round(g.pct),
   url: g.link,
   affiliateUrl: refLink(g.link),
+  steamId: g.steam.appid,
   image: '',
   status: 'indiegala-feed',
   checkedAt,
@@ -126,12 +160,12 @@ const md = [
   '# IndieGala candidates',
   '',
   `Made ${checkedAt.slice(0, 16).replace('T', ' ')} UTC from IndieGala's sale feed (${items.length} games on sale). Nothing here is published.`,
-  `Rules: not DLC, sold in the US, real end date, old price from ${money(MIN_BASE)}, discount from ${MIN_DISCOUNT}%, known publisher, up to ${MAX_PER_PUBLISHER} per publisher.`,
+  `Rules: not DLC, sold in the US, real end date, old price from ${money(MIN_BASE)}, discount from ${MIN_DISCOUNT}%, known publisher, Steam: ${MIN_POSITIVE}%+ positive from ${MIN_REVIEWS}+ reviews and no sexual-content flags, up to ${MAX_PER_PUBLISHER} per publisher.`,
   `Left out: ${JSON.stringify(skipped)}`,
   '',
-  '| # | Game | Publisher | Price | Was | Off | Ends | Key type |',
-  '|---|------|-----------|-------|-----|-----|------|----------|',
-  ...picked.map((g, i) => `| ${i + 1} | [${cell(g.title)}](${refLink(g.link)}) | ${cell(g.publisher)} | ${money(g.final)} | ${money(g.base)} | ${Math.round(g.pct)}% | ${g.end.slice(0, 10)} | ${g.drm.replace(/\s+/g, ' ')} |`),
+  '| # | Game | Publisher | Price | Was | Off | Ends | Steam reviews |',
+  '|---|------|-----------|-------|-----|-----|------|---------------|',
+  ...picked.map((g, i) => `| ${i + 1} | [${cell(g.title)}](${refLink(g.link)}) | ${cell(g.publisher)} | ${money(g.final)} | ${money(g.base)} | ${Math.round(g.pct)}% | ${g.end.slice(0, 10)} | ${g.steam.pct}% of ${g.steam.total} (${g.steam.desc}) |`),
   '',
 ].join('\n');
 

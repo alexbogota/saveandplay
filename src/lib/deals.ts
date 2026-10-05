@@ -15,16 +15,36 @@ export interface Deal {
   endsAt?: string;
 }
 
-interface RawDeal { store: string; title: string; was: number; price: number; discountPct: number; url: string; image?: string; checkedAt?: string; endsAt?: string; affiliateUrl?: string }
+interface RawDeal { store: string; title: string; was: number; price: number; discountPct: number; url: string; image?: string; checkedAt?: string; endsAt?: string; affiliateUrl?: string; steamId?: number }
 
 export const slug = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+// One card per game. If several stores sell the same game, only the cheapest offer is shown.
+// Same price: the store we earn more from wins (GOG first, then IndieGala).
+// A game is recognised by its Steam number: the steamId field, or the number inside the Steam cover address.
+// With neither, the title is used.
+const storeRank = (store: string) => { const i = ['GOG', 'IndieGala'].indexOf(store); return i === -1 ? 99 : i; };
+const gameKey = (d: RawDeal) => {
+  const steam = d.steamId ?? d.image?.match(/\/apps\/(\d+)\//)?.[1];
+  return steam ? `steam-${steam}` : `title-${slug(d.title)}`;
+};
+const beats = (a: RawDeal, b: RawDeal) => (a.price !== b.price ? a.price < b.price : storeRank(a.store) < storeRank(b.store));
+const bestOffers = (list: RawDeal[]) => {
+  const best = new Map<string, RawDeal>();
+  for (const d of list) {
+    const key = gameKey(d);
+    const current = best.get(key);
+    if (!current || beats(d, current)) best.set(key, d);
+  }
+  return list.filter((d) => best.get(gameKey(d)) === d);
+};
 
 // No cover image yet: use a flat colour tile (picked from the title so it stays stable).
 const tones = ['#263553', '#43284F', '#1D4A47', '#573626', '#36462A', '#2F2F66', '#5A2B3A', '#244B5E'];
 const toneFor = (s: string) => tones[[...s].reduce((a, c) => a + c.charCodeAt(0), 0) % tones.length];
 
 // Real deals come from /data/deals.json. Best discount first.
-export const allDeals: Deal[] = (dealsRaw as RawDeal[])
+export const allDeals: Deal[] = bestOffers(dealsRaw as RawDeal[])
   .map((d) => ({
     id: slug(`${d.store}-${d.title}`),
     title: d.title,
