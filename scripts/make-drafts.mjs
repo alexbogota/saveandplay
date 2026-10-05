@@ -38,6 +38,8 @@ const DIRECT_LINK_STORES = ['GOG'];
 // Same as slug() in src/lib/deals.ts, so ids match the site.
 const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const dealId = (d) => slug(`${d.store}-${d.title}`);
+// Our own page with UTM tags, so Google Analytics can tell Bluesky from Mastodon.
+const siteLink = (d, channel, day) => `${SITE}/deals/?store=${slug(d.store)}&utm_source=${channel}&utm_medium=social&utm_campaign=deals-${day}`;
 const money = (n) => `$${n.toFixed(2)}`;
 const day = (iso) => new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' });
 const readJson = async (url, fallback) => {
@@ -127,7 +129,8 @@ const md = [
     text,
     '',
     `- Length: ${length}/${POST_LIMIT}${length > POST_LIMIT ? '  TOO LONG, shorten before posting' : ''}`,
-    `- Default link (our page): ${SITE}/deals/?store=${slug(d.store)}`,
+    `- Link for Bluesky (our page): ${siteLink(d, 'bluesky', today)}`,
+    `- Link for Mastodon (our page): ${siteLink(d, 'mastodon', today)}`,
     DIRECT_LINK_STORES.includes(d.store)
       ? `- Direct link for the ${d.store} test (subid=bluesky): ${gogLink(d.url, 'bluesky')}`
       : `- Direct link: none, ${d.store} posts use our site link only`,
