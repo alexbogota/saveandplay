@@ -215,5 +215,201 @@
       "price": 18.71,
       "was": 49.99
     }
+  ],
+  "indiegala-injustice-2-legendary-edition": [
+    {
+      "date": "2026-10-05",
+      "price": 5.08,
+      "was": 59.99
+    }
+  ],
+  "indiegala-hogwarts-legacy": [
+    {
+      "date": "2026-10-05",
+      "price": 5.29,
+      "was": 59.99
+    }
+  ],
+  "indiegala-lego-star-wars-the-skywalker-saga-deluxe-edition": [
+    {
+      "date": "2026-10-05",
+      "price": 8.09,
+      "was": 59.99
+    }
+  ],
+  "indiegala-nioh-2-the-complete-edition": [
+    {
+      "date": "2026-10-05",
+      "price": 22.68,
+      "was": 67.13
+    }
+  ],
+  "indiegala-cronos-the-new-dawn-deluxe-edition": [
+    {
+      "date": "2026-10-05",
+      "price": 25.88,
+      "was": 69.99
+    }
+  ],
+  "indiegala-jurassic-world-evolution-2": [
+    {
+      "date": "2026-10-05",
+      "price": 17.99,
+      "was": 59.99
+    }
+  ],
+  "indiegala-sackboy-a-big-adventure": [
+    {
+      "date": "2026-10-05",
+      "price": 19.79,
+      "was": 59.99
+    }
+  ],
+  "indiegala-returnal": [
+    {
+      "date": "2026-10-05",
+      "price": 19.79,
+      "was": 59.99
+    }
+  ],
+  "indiegala-hell-let-loose": [
+    {
+      "date": "2026-10-05",
+      "price": 12.49,
+      "was": 49.99
+    }
+  ],
+  "indiegala-monster-hunter-rise": [
+    {
+      "date": "2026-10-05",
+      "price": 3.99,
+      "was": 39.99
+    }
+  ],
+  "indiegala-marvel-s-spider-man-remastered": [
+    {
+      "date": "2026-10-05",
+      "price": 23.99,
+      "was": 59.99
+    }
+  ],
+  "indiegala-no-man-s-sky": [
+    {
+      "date": "2026-10-05",
+      "price": 23.99,
+      "was": 59.99
+    }
+  ],
+  "indiegala-control-ultimate-edition": [
+    {
+      "date": "2026-10-05",
+      "price": 5.99,
+      "was": 39.99
+    }
+  ],
+  "indiegala-marvel-vs-capcom-fighting-collection-arcade-classics": [
+    {
+      "date": "2026-10-05",
+      "price": 15.99,
+      "was": 49.99
+    }
+  ],
+  "indiegala-planet-coaster": [
+    {
+      "date": "2026-10-05",
+      "price": 11.24,
+      "was": 44.99
+    }
+  ],
+  "indiegala-jurassic-world-evolution": [
+    {
+      "date": "2026-10-05",
+      "price": 11.24,
+      "was": 44.99
+    }
+  ],
+  "indiegala-the-pathless": [
+    {
+      "date": "2026-10-05",
+      "price": 6.29,
+      "was": 39.99
+    }
+  ],
+  "indiegala-sunderfolk": [
+    {
+      "date": "2026-10-05",
+      "price": 16.59,
+      "was": 49.99
+    }
+  ],
+  "indiegala-ghostrunner-2": [
+    {
+      "date": "2026-10-05",
+      "price": 6.69,
+      "was": 39.99
+    }
+  ],
+  "indiegala-solar-ash": [
+    {
+      "date": "2026-10-05",
+      "price": 7.89,
+      "was": 39.99
+    }
+  ],
+  "indiegala-disco-elysium-the-final-cut": [
+    {
+      "date": "2026-10-05",
+      "price": 7.89,
+      "was": 39.99
+    }
+  ],
+  "indiegala-castlevania-lords-of-shadow-2": [
+    {
+      "date": "2026-10-05",
+      "price": 7.99,
+      "was": 39.99
+    }
+  ],
+  "indiegala-assetto-corsa-competizione": [
+    {
+      "date": "2026-10-05",
+      "price": 8.38,
+      "was": 39.99
+    }
+  ],
+  "indiegala-death-stranding-director-s-cut": [
+    {
+      "date": "2026-10-05",
+      "price": 8.39,
+      "was": 39.99
+    }
+  ],
+  "indiegala-sifu": [
+    {
+      "date": "2026-10-05",
+      "price": 8.58,
+      "was": 39.99
+    }
+  ],
+  "indiegala-kerbal-space-program": [
+    {
+      "date": "2026-10-05",
+      "price": 9.38,
+      "was": 39.99
+    }
+  ],
+  "indiegala-my-time-at-sandrock": [
+    {
+      "date": "2026-10-05",
+      "price": 9.78,
+      "was": 39.99
+    }
+  ],
+  "indiegala-street-fighter-6": [
+    {
+      "date": "2026-10-05",
+      "price": 15.99,
+      "was": 39.99
+    }
   ]
 }

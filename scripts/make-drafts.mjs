@@ -30,7 +30,10 @@ const SITE = 'https://saveandplay.com';
 const GOG_LINK = 'https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/';
 const gogLink = (url, channel) => `${GOG_LINK}?subid=${channel}&ulp=${encodeURIComponent(url)}`;
 // Stores we may post about (the table in PROJECT.md, section 3).
-const POST_STORES = ['GOG'];
+const POST_STORES = ['GOG', 'IndieGala'];
+// Only these stores get a direct affiliate link next to the post. IndieGala: our site link only,
+// until IndieGala confirms its rules for social networks (owner's decision, Oct 5).
+const DIRECT_LINK_STORES = ['GOG'];
 
 // Same as slug() in src/lib/deals.ts, so ids match the site.
 const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -52,6 +55,21 @@ const deals = await readJson(DEALS, []);
 const history = await readJson(HISTORY, {});
 const log = await readJson(LOG, {});
 
+// The site shows one card per game: the cheapest offer, same price GOG first, then IndieGala
+// (same rule as src/lib/deals.ts). We do not post about an offer that is hidden there.
+const storeRank = (store) => {
+  const i = ['GOG', 'IndieGala'].indexOf(store);
+  return i === -1 ? 99 : i;
+};
+const gameKey = (d) => {
+  const steam = d.steamId ?? d.image?.match(/\/apps\/(\d+)\//)?.[1];
+  return steam ? `steam-${steam}` : `title-${slug(d.title)}`;
+};
+const beats = (a, b) => (a.price !== b.price ? a.price < b.price : storeRank(a.store) < storeRank(b.store));
+const bestOffer = new Map();
+for (const d of deals) if (!bestOffer.has(gameKey(d)) || beats(d, bestOffer.get(gameKey(d)))) bestOffer.set(gameKey(d), d);
+const onSite = new Set([...bestOffer.values()].map(dealId));
+
 // 2. Draft copy of the deals with affiliate links.
 let linked = 0;
 const draftDeals = deals.map((d) => {
@@ -71,11 +89,12 @@ for (const d of deals) {
 }
 
 // 3. Pick the deals for posts and say why the others were left out.
-const skipped = { store: 0, discount: 0, expired: 0, stale: 0, repeat: 0, later: 0 };
+const skipped = { store: 0, hidden: 0, discount: 0, expired: 0, stale: 0, repeat: 0, later: 0 };
 const picked = [];
 for (const d of [...deals].sort((a, b) => b.discountPct - a.discountPct || a.price - b.price)) {
   const id = dealId(d);
   if (!POST_STORES.includes(d.store)) skipped.store++;
+  else if (!onSite.has(id)) skipped.hidden++;
   else if (d.discountPct < MIN_DISCOUNT) skipped.discount++;
   else if (d.endsAt && new Date(d.endsAt) < now) skipped.expired++;
   else if (!d.checkedAt || now - new Date(d.checkedAt) > MAX_AGE_HOURS * 3600e3) skipped.stale++;
@@ -86,7 +105,7 @@ for (const d of [...deals].sort((a, b) => b.discountPct - a.discountPct || a.pri
 
 const posts = picked.map((d) => {
   const text =
-    `${d.title}: ${d.discountPct}% off at GOG, ${money(d.price)} instead of ${money(d.was)}. ` +
+    `${d.title}: ${d.discountPct}% off at ${d.store}, ${money(d.price)} instead of ${money(d.was)}. ` +
     (d.endsAt ? `Sale ends ${day(d.endsAt)}. ` : '') +
     `Prices checked ${day(d.checkedAt)}. #ad`;
   // The link is added by the bot next to the text; count it as long as our site address.
@@ -98,8 +117,8 @@ const md = [
   '# Bluesky post drafts',
   '',
   `Made ${now.toISOString().slice(0, 16).replace('T', ' ')} UTC. Nothing here is published.`,
-  `Rules: GOG only, discount ${MIN_DISCOUNT}%+, sale not over, price checked within ${MAX_AGE_HOURS} h, not offered in the last ${REPEAT_DAYS} days.`,
-  `Left out: ${skipped.store} other stores, ${skipped.discount} small discounts, ${skipped.expired} ended, ${skipped.stale} old prices, ${skipped.repeat} repeats. Good deals waiting for a later run: ${skipped.later}.`,
+  `Rules: ${POST_STORES.join(' and ')} only, discount ${MIN_DISCOUNT}%+, sale not over, price checked within ${MAX_AGE_HOURS} h, not offered in the last ${REPEAT_DAYS} days.`,
+  `Left out: ${skipped.store} other stores, ${skipped.hidden} hidden duplicates, ${skipped.discount} small discounts, ${skipped.expired} ended, ${skipped.stale} old prices, ${skipped.repeat} repeats. Good deals waiting for a later run: ${skipped.later}.`,
   '',
   ...(posts.length ? [] : ['No deals match the rules today.', '']),
   ...posts.flatMap(({ d, text, length }, i) => [
@@ -108,8 +127,10 @@ const md = [
     text,
     '',
     `- Length: ${length}/${POST_LIMIT}${length > POST_LIMIT ? '  TOO LONG, shorten before posting' : ''}`,
-    `- Default link (our page): ${SITE}/deals/?store=gog`,
-    `- Direct link for the GOG test (subid=bluesky): ${gogLink(d.url, 'bluesky')}`,
+    `- Default link (our page): ${SITE}/deals/?store=${slug(d.store)}`,
+    DIRECT_LINK_STORES.includes(d.store)
+      ? `- Direct link for the ${d.store} test (subid=bluesky): ${gogLink(d.url, 'bluesky')}`
+      : `- Direct link: none, ${d.store} posts use our site link only`,
     '',
   ]),
 ].join('\n');
