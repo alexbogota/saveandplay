@@ -1,0 +1,38 @@
+---
+import { godlike, type Host } from '../lib/hosts';
+interface Props { host?: Host }
+const { host = godlike } = Astro.props;
+---
+<section class="provider" aria-labelledby="provider-title">
+  <div class="top">
+    <div>
+      <div class="label">Where to rent</div>
+      <h2 id="provider-title">{host.name}</h2>
+    </div>
+    <a class="btn sp-btn" href={host.affiliateUrl} rel="sponsored nofollow noopener" target="_blank" data-deal={`${host.name} game servers`} data-store={host.name}>Visit {host.name}</a>
+  </div>
+  <dl>
+    <dt>Games</dt>
+    <dd>{host.games}</dd>
+    <dt>Locations</dt>
+    <dd>{host.locations}</dd>
+  </dl>
+  <ul>{host.facts.map((f) => <li>{f}</li>)}</ul>
+  <p class="note">This is what the provider says on its own website (checked {host.checkedOn}). We have not tested its servers. Prices change, so check the current price on their site.</p>
+  <p class="note">Affiliate link: we may earn a commission if you buy through it, at no extra cost to you. <a class="text-link" href="/disclosure/">Learn more</a></p>
+</section>
+
+<style>
+  .provider { margin: 48px 0 0; padding: 24px; background: var(--panel); border: 1px solid var(--border); border-radius: 14px; }
+  .top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; }
+  .label { font-size: 13px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent); }
+  .provider h2 { margin: 4px 0 0; font-family: var(--font-head); font-weight: 600; font-size: 24px; color: var(--heading); }
+  .top .btn { min-height: 44px; }
+  dl { margin: 20px 0 0; display: grid; grid-template-columns: 110px 1fr; gap: 10px 16px; font-size: 15px; }
+  dt { color: var(--muted); }
+  dd { margin: 0; color: var(--body-muted); }
+  ul { margin: 16px 0 0; padding-left: 20px; color: var(--body-muted); font-size: 15px; }
+  li { margin: 4px 0; }
+  .note { margin: 14px 0 0; font-size: 13px; color: var(--muted); }
+  @media (max-width: 560px) { dl { grid-template-columns: 1fr; gap: 2px; } dd { margin-bottom: 10px; } }
+</style>

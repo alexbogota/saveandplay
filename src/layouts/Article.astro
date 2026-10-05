@@ -1,0 +1,33 @@
+---
+// Layout for the Markdown guides in src/pages/servers/. Frontmatter: title, description, updated (YYYY-MM-DD).
+import Layout from './Layout.astro';
+import ProviderCard from '../components/ProviderCard.astro';
+
+const { frontmatter } = Astro.props;
+// YAML turns 2026-10-05 into a Date already; new Date() accepts both a Date and a text.
+const updated = new Date(frontmatter.updated).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+---
+<Layout title={`${frontmatter.title} | SaveAndPlay`} description={frontmatter.description}>
+  <main class="page prose">
+    <div class="eyebrow"><a href="/servers/">Game servers</a></div>
+    <h1>{frontmatter.title}</h1>
+    <p class="updated">Last updated: {updated}</p>
+    <p class="aff-box">This guide links to a game server host through an affiliate link. We may earn a commission if you buy through it, at no extra cost to you. <a class="text-link" href="/disclosure/">Learn more</a></p>
+    <slot />
+    <ProviderCard />
+  </main>
+</Layout>
+
+<style is:global>
+  .prose .eyebrow a { color: inherit; }
+  .prose .aff-box { padding: 14px 16px; margin: 0 0 32px; font-size: 14px; background: var(--panel); border: 1px solid var(--border); border-radius: 10px; color: var(--muted); }
+  .prose ul, .prose ol { margin: 0 0 16px; padding-left: 22px; color: var(--body-muted); }
+  .prose li { margin: 6px 0; }
+  .prose a:not(.btn) { color: var(--accent); text-decoration: underline; }
+  .prose code { padding: 1px 6px; background: var(--panel); border: 1px solid var(--border); border-radius: 6px; font-size: 0.92em; color: var(--text); }
+  .prose table { display: block; overflow-x: auto; width: 100%; margin: 0 0 24px; border-collapse: collapse; font-size: 15px; }
+  .prose th, .prose td { padding: 10px 12px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--border); color: var(--body-muted); }
+  .prose th { color: var(--heading); font-weight: 700; white-space: nowrap; }
+  .prose .sources { font-size: 14px; }
+  .prose .sources li { color: var(--muted); }
+</style>

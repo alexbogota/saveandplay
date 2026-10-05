@@ -1,0 +1,48 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ProviderCard from '../../components/ProviderCard.astro';
+
+const guides = [
+  { href: '/servers/start-a-game-server-for-friends/', title: 'How to start a game server for friends', text: 'A step-by-step guide for beginners: game, memory, location, connecting and backups.' },
+  { href: '/servers/how-much-ram-does-a-game-server-need/', title: 'How much RAM does a game server need?', text: 'What the official guides and wikis say for Minecraft, Rust, ARK and Valheim.' },
+  { href: '/servers/rent-a-server-or-host-at-home/', title: 'Rent a server or host it at home?', text: 'Uptime, setup, cost and security, side by side.' },
+];
+---
+<Layout
+  title="Game servers: guides for playing with friends | SaveAndPlay"
+  description="Plain guides to renting a game server: how to start one, how much memory you need, and whether to rent or host at home."
+>
+  <main class="page">
+    <div class="eyebrow">Game servers</div>
+    <h1>Play with friends on your own server</h1>
+    <p class="intro">A game server keeps a world online so that you and your friends can join it any time, even when your own computer is off. These short guides explain how it works and what to check before you rent one.</p>
+    <p class="aff-note">Some links are affiliate links: we may earn a commission when you buy, at no extra cost to you. <a href="/disclosure/">Learn more</a></p>
+
+    <h2>Guides</h2>
+    <div class="guides">
+      {guides.map((g) => (
+        <a class="guide" href={g.href}>
+          <h3>{g.title}</h3>
+          <p>{g.text}</p>
+          <span class="more">Read the guide →</span>
+        </a>
+      ))}
+    </div>
+
+    <ProviderCard />
+
+    <h2>How we write these guides</h2>
+    <p>We take numbers from the games' own guides and wikis and name the source on every page. When we describe a host, we only repeat what the host says on its website and show the date we checked. We have not tested any host's servers, and we do not print prices because they change often.</p>
+  </main>
+</Layout>
+
+<style>
+  .intro { font-size: 18px; }
+  .aff-note { font-size: 14px; color: var(--muted); }
+  .guides { display: grid; gap: 16px; margin: 0 0 8px; }
+  .guide { display: block; padding: 20px; background: var(--panel); border: 1px solid var(--border); border-radius: 14px; }
+  .guide:hover { border-color: #3A4452; }
+  .guide h3 { margin: 0 0 6px; font-family: var(--font-head); font-weight: 600; font-size: 20px; color: var(--heading); }
+  .guide p { margin: 0 0 10px; font-size: 15px; color: var(--body-muted); }
+  .more { font-size: 14px; font-weight: 700; color: var(--accent); }
+</style>
