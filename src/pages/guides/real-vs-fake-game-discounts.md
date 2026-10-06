@@ -12,6 +12,31 @@ updated: 2026-10-06
 
 Imagine a game that is listed at $60 but has really sold for $30 for months. A "50% off" sale at $30 saves you nothing. The number on the badge is correct, the saving is not. This is an invented example, but it shows the trick: the "was" price is what makes the discount look big.
 
+<figure style="margin: 0 0 24px;">
+<svg viewBox="0 0 520 300" role="img" aria-labelledby="fake-sale-title fake-sale-desc" style="display:block;width:100%;height:auto;font-family:var(--font-body);">
+<title id="fake-sale-title">A fake discount: the real price never changed</title>
+<desc id="fake-sale-desc">A chart of one game's price over six months. The "was" price on the badge is $60, but the game was really sold at $30 the whole time. A "50% off" sale at $30 saves nothing.</desc>
+<rect x="0.5" y="0.5" width="519" height="299" rx="14" style="fill:var(--panel);stroke:var(--border);"/>
+<text x="24" y="34" font-size="16" style="fill:var(--muted);">One game's price over 6 months</text>
+<line x1="60" y1="80" x2="496" y2="80" style="stroke:var(--border);"/>
+<line x1="60" y1="190" x2="496" y2="190" style="stroke:var(--border);"/>
+<line x1="60" y1="270" x2="496" y2="270" style="stroke:var(--border);"/>
+<text x="50" y="85" font-size="14" text-anchor="end" style="fill:var(--muted);">$60</text>
+<text x="50" y="195" font-size="14" text-anchor="end" style="fill:var(--muted);">$30</text>
+<text x="50" y="275" font-size="14" text-anchor="end" style="fill:var(--muted);">$0</text>
+<line x1="60" y1="80" x2="496" y2="80" stroke-width="3" stroke-dasharray="8 6" style="stroke:var(--badge);"/>
+<text x="70" y="68" font-size="15" font-weight="700" style="fill:var(--text);">&ldquo;Was&rdquo; price on the badge: $60 (never charged)</text>
+<line x1="60" y1="190" x2="496" y2="190" stroke-width="5" stroke-linecap="round" style="stroke:var(--accent-text);"/>
+<text x="70" y="216" font-size="15" font-weight="700" style="fill:var(--accent-text);">Real price: $30, for months</text>
+<rect x="372" y="104" width="124" height="44" rx="10" style="fill:var(--badge);"/>
+<text x="434" y="134" font-size="22" font-weight="800" text-anchor="middle" style="fill:var(--on-badge);">-50%</text>
+<text x="434" y="168" font-size="14" text-anchor="middle" style="fill:var(--muted);">saves you $0</text>
+<text x="60" y="290" font-size="13" style="fill:var(--muted);">6 months ago</text>
+<text x="496" y="290" font-size="13" text-anchor="end" style="fill:var(--muted);">today</text>
+</svg>
+<figcaption style="margin-top:8px;font-size:13px;color:var(--muted);">Invented numbers, for illustration only.</figcaption>
+</figure>
+
 The good news is that the big platforms and the law put some limits on this.
 
 ## What the official rules say
