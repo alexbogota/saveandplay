@@ -17,8 +17,48 @@
   --good: #5EEAA6;
   --on-good: #12372A;
   --focus: #FFB454;
+  --accent-text: #3DDC97; /* accent used as TEXT colour (links, labels); the light theme makes it darker */
+  --border-hover: #3A4452;
+  --line: #222A35;
+  --text-soft: #C9D1DC;
+  --legal: #8591A1;
+  --callout-bg: #1A1710;
+  --callout-border: #3A3320;
+  --callout-text: #E9DDBB;
+  --callout-strong: #FFB454;
+  --shadow: rgba(0, 0, 0, 0.45);
+  color-scheme: dark;
   --font-head: 'Bricolage Grotesque', sans-serif;
   --font-body: 'DM Sans', system-ui, sans-serif;
+}
+
+/* Light theme: switched by <html data-theme="light"> (see the script in Layout.astro and the button in Header.astro). */
+:root[data-theme='light'] {
+  --bg: #F6F8FA;
+  --panel: #FFFFFF;
+  --panel-soft: #EFF3F7;
+  --band: #EDF1F5;
+  --border: #D5DCE4;
+  --border-strong: #C3CCD6;
+  --footer: #E9EEF3;
+  --text: #1F2933;
+  --heading: #0D1117;
+  --muted: #5B6675;
+  --body-muted: #3D4856;
+  --good: #0B6B45;
+  --on-good: #D5F3E5;
+  --focus: #B25E00;
+  --accent-text: #0B7A4B;
+  --border-hover: #9AA7B5;
+  --line: #D5DCE4;
+  --text-soft: #2F3A47;
+  --legal: #5B6675;
+  --callout-bg: #FFF6E0;
+  --callout-border: #EBD79A;
+  --callout-text: #5C4710;
+  --callout-strong: #8A5A00;
+  --shadow: rgba(16, 24, 40, 0.16);
+  color-scheme: light;
 }
 
 * { box-sizing: border-box; }
@@ -42,7 +82,7 @@ a:focus-visible, input:focus-visible, textarea:focus-visible, button:focus-visib
 }
 .sp-link:hover { color: var(--heading); }
 .sp-btn:hover { filter: brightness(1.08); }
-.text-link { color: var(--accent); text-decoration: underline; }
+.text-link { color: var(--accent-text); text-decoration: underline; }
 
 .container { max-width: 1200px; margin: 0 auto; padding-left: 24px; padding-right: 24px; }
 
@@ -54,7 +94,7 @@ a:focus-visible, input:focus-visible, textarea:focus-visible, button:focus-visib
 }
 .btn-ghost { background: var(--panel); border: 1px solid var(--border-strong); color: var(--text); }
 
-.eyebrow { font-size: 13px; font-weight: 700; letter-spacing: 0.06em; color: var(--accent); margin-bottom: 12px; text-transform: uppercase; }
+.eyebrow { font-size: 13px; font-weight: 700; letter-spacing: 0.06em; color: var(--accent-text); margin-bottom: 12px; text-transform: uppercase; }
 
 /* Simple text pages (About, Contact, Disclosure, Privacy) */
 .page { max-width: 760px; margin: 0 auto; padding: 72px 24px 96px; }
@@ -66,10 +106,10 @@ a:focus-visible, input:focus-visible, textarea:focus-visible, button:focus-visib
 .page p { margin: 0 0 16px; color: var(--body-muted); }
 .page .updated { color: var(--muted); font-size: 15px; margin: -8px 0 40px; }
 .callout {
-  padding: 20px 24px; border-radius: 14px; border: 1px solid #3A3320;
-  background: #1A1710; color: #E9DDBB;
+  padding: 20px 24px; border-radius: 14px; border: 1px solid var(--callout-border);
+  background: var(--callout-bg); color: var(--callout-text);
 }
-.callout strong { color: var(--badge); }
+.callout strong { color: var(--callout-strong); }
 
 @media (max-width: 640px) {
   .page { padding: 48px 24px 64px; }
@@ -78,4 +118,4 @@ a:focus-visible, input:focus-visible, textarea:focus-visible, button:focus-visib
 
 /* Short affiliate notice shown next to lists of deals */
 .aff-note { margin: 10px 0 0; font-size: 14px; color: var(--muted); }
-.aff-note a { color: var(--accent); text-decoration: underline; }
+.aff-note a { color: var(--accent-text); text-decoration: underline; }

@@ -23,6 +23,16 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <link rel="canonical" href={canonical} />
     {noindex && <meta name="robots" content="noindex" />}
     <meta name="theme-color" content="#0D1117" />
+    <script is:inline>
+      (function () {
+        try {
+          var t = localStorage.getItem('sp-theme');
+          if (t !== 'light' && t !== 'dark') t = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+          document.documentElement.dataset.theme = t;
+          document.querySelector('meta[name="theme-color"]').content = t === 'light' ? '#F6F8FA' : '#0D1117';
+        } catch (e) {}
+      })();
+    </script>
     <meta name="mitgo-verification" content="5aa3e869-8925-47d5-bd66-f6dae0096ded" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
