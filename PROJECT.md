@@ -74,6 +74,7 @@
 - Админки партнёрок: Admitad (площадка Save and Play), IndieGala, Sovrn.
 - Рассылка: Brevo (аккаунт создан 5 октября, форма и список «SaveAndPlay Deals»).
 - Bluesky: аккаунт заведён (сейчас @saveandplay.bsky.social), цель: ник @saveandplay.com. Подтверждение домена через файл: `public/.well-known/atproto-did` (внутри DID аккаунта, без перевода строки; это не секрет). Файл не удалять, иначе ник слетит.
+- Mastodon: @saveandplay@mastodon.social. Подтверждение сайта: в `src/layouts/Layout.astro` в `<head>` стоит `<link rel="me" href="https://mastodon.social/@saveandplay" />`; в профиле Mastodon в дополнительном поле указан адрес сайта. Тег не удалять.
 - Telegram, Pinterest, рассылка: ещё не заведены.
 
 ## 9. Открытые вопросы
