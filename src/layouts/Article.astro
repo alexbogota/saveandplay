@@ -1,20 +1,26 @@
 ---
-// Layout for the Markdown guides in src/pages/servers/. Frontmatter: title, description, updated (YYYY-MM-DD).
+// Layout for the Markdown guides in src/pages/servers/ and src/pages/guides/.
+// Frontmatter: title, description, updated (YYYY-MM-DD), section (optional: 'guides'; default is the game servers section).
 import Layout from './Layout.astro';
 import ProviderCard from '../components/ProviderCard.astro';
 
 const { frontmatter } = Astro.props;
+const isGuide = frontmatter.section === 'guides';
 // YAML turns 2026-10-05 into a Date already; new Date() accepts both a Date and a text.
 const updated = new Date(frontmatter.updated).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
 ---
 <Layout title={`${frontmatter.title} | SaveAndPlay`} description={frontmatter.description}>
   <main class="page prose">
-    <div class="eyebrow"><a href="/servers/">Game servers</a></div>
+    <div class="eyebrow">{isGuide ? <a href="/guides/">Guides</a> : <a href="/servers/">Game servers</a>}</div>
     <h1>{frontmatter.title}</h1>
     <p class="updated">Last updated: {updated}</p>
-    <p class="aff-box">This guide links to a game server host through an affiliate link. We may earn a commission if you buy through it, at no extra cost to you. <a class="text-link" href="/disclosure/">Learn more</a></p>
+    {isGuide ? (
+      <p class="aff-box">This guide has no affiliate links. SaveAndPlay earns a commission from some store links elsewhere on the site, at no extra cost to you. <a class="text-link" href="/disclosure/">Learn more</a></p>
+    ) : (
+      <p class="aff-box">This guide links to a game server host through an affiliate link. We may earn a commission if you buy through it, at no extra cost to you. <a class="text-link" href="/disclosure/">Learn more</a></p>
+    )}
     <slot />
-    <ProviderCard />
+    {!isGuide && <ProviderCard />}
   </main>
 </Layout>
 
