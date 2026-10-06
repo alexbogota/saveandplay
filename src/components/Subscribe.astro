@@ -1,0 +1,80 @@
+---
+import { site } from '../lib/site';
+---
+<section class="band" id="subscribe" aria-labelledby="subscribe-title">
+  <div class="container wrap">
+    <div class="text">
+      <h2 id="subscribe-title">Get the best deals by email</h2>
+      <p>A short email with the best PC game discounts we find. No spam, and you can unsubscribe any time.</p>
+    </div>
+
+    <div class="box">
+      <!-- Posts to Brevo. With JavaScript it stays on the page; without it, Brevo shows its own page. -->
+      <form id="sub-form" method="POST" action={site.brevoFormUrl}>
+        <label for="sub-email">Email address</label>
+        <div class="row">
+          <input id="sub-email" name="EMAIL" type="email" autocomplete="email" placeholder="you@example.com" required />
+          <button class="btn sp-btn" type="submit">Subscribe</button>
+        </div>
+        <!-- Spam trap used by Brevo: real people never see or fill it. -->
+        <input type="text" name="email_address_check" value="" tabindex="-1" autocomplete="off" aria-hidden="true" class="trap" />
+        <input type="hidden" name="locale" value="en" />
+        <input type="hidden" name="html_type" value="simple" />
+        <p class="note">We'll send a message to confirm your address. Our emails may contain affiliate links. See our <a class="text-link" href="/privacy/">privacy policy</a>.</p>
+      </form>
+      <p id="sub-status" class="status" role="status" aria-live="polite" hidden></p>
+    </div>
+  </div>
+</section>
+
+<script>
+  const form = document.getElementById('sub-form') as HTMLFormElement | null;
+  const status = document.getElementById('sub-status') as HTMLElement | null;
+
+  if (form && status) {
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const button = form.querySelector('button') as HTMLButtonElement;
+      button.disabled = true;
+      status.hidden = false;
+      status.classList.remove('bad');
+      status.textContent = 'Sending…';
+      try {
+        // no-cors: Brevo does not allow reading its answer from another site, so we only know the request went out.
+        await fetch(form.action, { method: 'POST', mode: 'no-cors', body: new FormData(form) });
+        form.hidden = true;
+        status.textContent = 'Almost done! Check your inbox and click the link in the confirmation email. If you don’t see it, look in your spam folder.';
+        const w = window as unknown as { gtag?: (...a: unknown[]) => void };
+        w.gtag?.('event', 'newsletter_signup');
+      } catch {
+        status.classList.add('bad');
+        status.textContent = 'Something went wrong. Please try again in a moment.';
+        button.disabled = false;
+      }
+    });
+  }
+</script>
+
+<style>
+  .band { background: var(--band); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 32px 56px; padding-top: 56px; padding-bottom: 56px; }
+  .text { flex: 1 1 340px; }
+  h2 { margin: 0; font-family: var(--font-head); font-weight: 800; font-size: 32px; letter-spacing: -0.02em; color: var(--heading); }
+  .text p { margin: 8px 0 0; color: var(--body-muted); }
+  .box { flex: 1 1 380px; max-width: 520px; }
+  label { display: block; margin-bottom: 6px; font-weight: 500; font-size: 15px; color: var(--text); }
+  .row { display: flex; flex-wrap: wrap; gap: 10px; }
+  input[type='email'] { flex: 1 1 220px; min-width: 0; height: 48px; padding: 0 14px; border-radius: 10px; border: 1px solid var(--border-strong); background: var(--panel); color: var(--text); font: inherit; font-size: 16px; }
+  button { padding: 0 24px; }
+  button:disabled { opacity: 0.6; cursor: default; }
+  .trap { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+  .note { margin: 10px 0 0; font-size: 13px; color: var(--muted); }
+  .status { margin: 0; padding: 16px 18px; border-radius: 12px; border: 1px solid var(--border-strong); background: var(--panel); color: var(--text); }
+  .status.bad { border-color: var(--badge); }
+  .status[hidden], form[hidden] { display: none; }
+
+  @media (max-width: 640px) {
+    h2 { font-size: 26px; }
+    .wrap { padding-top: 40px; padding-bottom: 40px; }
+  }
+</style>

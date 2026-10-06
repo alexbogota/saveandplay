@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import DealCard from '../components/DealCard.astro';
+import Subscribe from '../components/Subscribe.astro';
 import stores from '../data/stores.json';
 import { deals, allDeals, storeList, lastChecked, featuredDeal, goUrl, money } from '../lib/deals';
 
@@ -96,6 +97,8 @@ const cover = (x: { cover?: string; tone?: string }) =>
         </div>
       </div>
     </section>
+
+    <Subscribe />
 
     <!-- How it works + disclosure -->
     <section id="how" class="container block">
