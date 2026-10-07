@@ -4,11 +4,21 @@
       "date": "2026-10-05",
       "price": 24.99,
       "was": 49.99
+    },
+    {
+      "date": "2026-10-07",
+      "price": 24.99,
+      "was": 49.99
     }
   ],
   "gog-cyberpunk-2077-ultimate-edition": [
     {
       "date": "2026-10-05",
+      "price": 31.99,
+      "was": 79.99
+    },
+    {
+      "date": "2026-10-07",
       "price": 31.99,
       "was": 79.99
     }
@@ -18,11 +28,21 @@
       "date": "2026-10-05",
       "price": 11.25,
       "was": 44.99
+    },
+    {
+      "date": "2026-10-07",
+      "price": 11.25,
+      "was": 44.99
     }
   ],
   "gog-control-ultimate-edition": [
     {
       "date": "2026-10-05",
+      "price": 5.99,
+      "was": 39.99
+    },
+    {
+      "date": "2026-10-07",
       "price": 5.99,
       "was": 39.99
     }
@@ -32,11 +52,21 @@
       "date": "2026-10-05",
       "price": 41.99,
       "was": 59.99
+    },
+    {
+      "date": "2026-10-07",
+      "price": 41.99,
+      "was": 59.99
     }
   ],
   "gog-alan-wake": [
     {
       "date": "2026-10-05",
+      "price": 1.49,
+      "was": 14.99
+    },
+    {
+      "date": "2026-10-07",
       "price": 1.49,
       "was": 14.99
     }
@@ -46,11 +76,21 @@
       "date": "2026-10-05",
       "price": 3.99,
       "was": 19.99
+    },
+    {
+      "date": "2026-10-07",
+      "price": 3.99,
+      "was": 19.99
     }
   ],
   "gog-outward-definitive-edition": [
     {
       "date": "2026-10-05",
+      "price": 1.99,
+      "was": 39.99
+    },
+    {
+      "date": "2026-10-07",
       "price": 1.99,
       "was": 39.99
     }
@@ -60,11 +100,21 @@
       "date": "2026-10-05",
       "price": 4.49,
       "was": 44.99
+    },
+    {
+      "date": "2026-10-07",
+      "price": 4.49,
+      "was": 44.99
     }
   ],
   "gog-the-saboteur": [
     {
       "date": "2026-10-05",
+      "price": 1.99,
+      "was": 19.99
+    },
+    {
+      "date": "2026-10-07",
       "price": 1.99,
       "was": 19.99
     }
@@ -74,11 +124,21 @@
       "date": "2026-10-05",
       "price": 2.99,
       "was": 19.99
+    },
+    {
+      "date": "2026-10-07",
+      "price": 2.99,
+      "was": 19.99
     }
   ],
   "gog-uncharted-legacy-of-thieves-collection": [
     {
       "date": "2026-10-05",
+      "price": 16.49,
+      "was": 49.99
+    },
+    {
+      "date": "2026-10-07",
       "price": 16.49,
       "was": 49.99
     }
@@ -88,11 +148,21 @@
       "date": "2026-10-05",
       "price": 1.99,
       "was": 19.99
+    },
+    {
+      "date": "2026-10-07",
+      "price": 1.99,
+      "was": 19.99
     }
   ],
   "gog-fallout-new-vegas-ultimate-edition": [
     {
       "date": "2026-10-05",
+      "price": 7.99,
+      "was": 19.99
+    },
+    {
+      "date": "2026-10-07",
       "price": 7.99,
       "was": 19.99
     }
@@ -102,11 +172,21 @@
       "date": "2026-10-05",
       "price": 1.99,
       "was": 19.99
+    },
+    {
+      "date": "2026-10-07",
+      "price": 1.99,
+      "was": 19.99
     }
   ],
   "gog-brutal-legend": [
     {
       "date": "2026-10-05",
+      "price": 2.99,
+      "was": 14.99
+    },
+    {
+      "date": "2026-10-07",
       "price": 2.99,
       "was": 14.99
     }
@@ -221,11 +301,21 @@
       "date": "2026-10-05",
       "price": 5.08,
       "was": 59.99
+    },
+    {
+      "date": "2026-10-07",
+      "price": 5.08,
+      "was": 59.99
     }
   ],
   "indiegala-hogwarts-legacy": [
     {
       "date": "2026-10-05",
+      "price": 5.29,
+      "was": 59.99
+    },
+    {
+      "date": "2026-10-07",
       "price": 5.29,
       "was": 59.99
     }
@@ -235,6 +325,11 @@
       "date": "2026-10-05",
       "price": 8.09,
       "was": 59.99
+    },
+    {
+      "date": "2026-10-07",
+      "price": 8.09,
+      "was": 59.99
     }
   ],
   "indiegala-nioh-2-the-complete-edition": [
@@ -242,11 +337,21 @@
       "date": "2026-10-05",
       "price": 22.68,
       "was": 67.13
+    },
+    {
+      "date": "2026-10-07",
+      "price": 22.83,
+      "was": 67.59
     }
   ],
   "indiegala-cronos-the-new-dawn-deluxe-edition": [
     {
       "date": "2026-10-05",
+      "price": 25.88,
+      "was": 69.99
+    },
+    {
+      "date": "2026-10-07",
       "price": 25.88,
       "was": 69.99
     }
@@ -256,11 +361,21 @@
       "date": "2026-10-05",
       "price": 17.99,
       "was": 59.99
+    },
+    {
+      "date": "2026-10-07",
+      "price": 17.99,
+      "was": 59.99
     }
   ],
   "indiegala-sackboy-a-big-adventure": [
     {
       "date": "2026-10-05",
+      "price": 19.79,
+      "was": 59.99
+    },
+    {
+      "date": "2026-10-07",
       "price": 19.79,
       "was": 59.99
     }
@@ -270,11 +385,21 @@
       "date": "2026-10-05",
       "price": 19.79,
       "was": 59.99
+    },
+    {
+      "date": "2026-10-07",
+      "price": 19.79,
+      "was": 59.99
     }
   ],
   "indiegala-hell-let-loose": [
     {
       "date": "2026-10-05",
+      "price": 12.49,
+      "was": 49.99
+    },
+    {
+      "date": "2026-10-07",
       "price": 12.49,
       "was": 49.99
     }
@@ -284,11 +409,21 @@
       "date": "2026-10-05",
       "price": 3.99,
       "was": 39.99
+    },
+    {
+      "date": "2026-10-07",
+      "price": 3.99,
+      "was": 39.99
     }
   ],
   "indiegala-marvel-s-spider-man-remastered": [
     {
       "date": "2026-10-05",
+      "price": 23.99,
+      "was": 59.99
+    },
+    {
+      "date": "2026-10-07",
       "price": 23.99,
       "was": 59.99
     }
@@ -298,11 +433,21 @@
       "date": "2026-10-05",
       "price": 23.99,
       "was": 59.99
+    },
+    {
+      "date": "2026-10-07",
+      "price": 23.99,
+      "was": 59.99
     }
   ],
   "indiegala-control-ultimate-edition": [
     {
       "date": "2026-10-05",
+      "price": 5.99,
+      "was": 39.99
+    },
+    {
+      "date": "2026-10-07",
       "price": 5.99,
       "was": 39.99
     }
@@ -312,11 +457,21 @@
       "date": "2026-10-05",
       "price": 15.99,
       "was": 49.99
+    },
+    {
+      "date": "2026-10-07",
+      "price": 15.99,
+      "was": 49.99
     }
   ],
   "indiegala-planet-coaster": [
     {
       "date": "2026-10-05",
+      "price": 11.24,
+      "was": 44.99
+    },
+    {
+      "date": "2026-10-07",
       "price": 11.24,
       "was": 44.99
     }
@@ -326,11 +481,21 @@
       "date": "2026-10-05",
       "price": 11.24,
       "was": 44.99
+    },
+    {
+      "date": "2026-10-07",
+      "price": 11.24,
+      "was": 44.99
     }
   ],
   "indiegala-the-pathless": [
     {
       "date": "2026-10-05",
+      "price": 6.29,
+      "was": 39.99
+    },
+    {
+      "date": "2026-10-07",
       "price": 6.29,
       "was": 39.99
     }
@@ -340,11 +505,21 @@
       "date": "2026-10-05",
       "price": 16.59,
       "was": 49.99
+    },
+    {
+      "date": "2026-10-07",
+      "price": 16.59,
+      "was": 49.99
     }
   ],
   "indiegala-ghostrunner-2": [
     {
       "date": "2026-10-05",
+      "price": 6.69,
+      "was": 39.99
+    },
+    {
+      "date": "2026-10-07",
       "price": 6.69,
       "was": 39.99
     }
@@ -354,11 +529,21 @@
       "date": "2026-10-05",
       "price": 7.89,
       "was": 39.99
+    },
+    {
+      "date": "2026-10-07",
+      "price": 7.89,
+      "was": 39.99
     }
   ],
   "indiegala-disco-elysium-the-final-cut": [
     {
       "date": "2026-10-05",
+      "price": 7.89,
+      "was": 39.99
+    },
+    {
+      "date": "2026-10-07",
       "price": 7.89,
       "was": 39.99
     }
@@ -368,11 +553,21 @@
       "date": "2026-10-05",
       "price": 7.99,
       "was": 39.99
+    },
+    {
+      "date": "2026-10-07",
+      "price": 7.99,
+      "was": 39.99
     }
   ],
   "indiegala-assetto-corsa-competizione": [
     {
       "date": "2026-10-05",
+      "price": 8.38,
+      "was": 39.99
+    },
+    {
+      "date": "2026-10-07",
       "price": 8.38,
       "was": 39.99
     }
@@ -382,11 +577,21 @@
       "date": "2026-10-05",
       "price": 8.39,
       "was": 39.99
+    },
+    {
+      "date": "2026-10-07",
+      "price": 8.39,
+      "was": 39.99
     }
   ],
   "indiegala-sifu": [
     {
       "date": "2026-10-05",
+      "price": 8.58,
+      "was": 39.99
+    },
+    {
+      "date": "2026-10-07",
       "price": 8.58,
       "was": 39.99
     }
@@ -396,11 +601,21 @@
       "date": "2026-10-05",
       "price": 9.38,
       "was": 39.99
+    },
+    {
+      "date": "2026-10-07",
+      "price": 9.38,
+      "was": 39.99
     }
   ],
   "indiegala-my-time-at-sandrock": [
     {
       "date": "2026-10-05",
+      "price": 9.78,
+      "was": 39.99
+    },
+    {
+      "date": "2026-10-07",
       "price": 9.78,
       "was": 39.99
     }
@@ -410,6 +625,53 @@
       "date": "2026-10-05",
       "price": 15.99,
       "was": 39.99
+    },
+    {
+      "date": "2026-10-07",
+      "price": 15.99,
+      "was": 39.99
+    }
+  ],
+  "gog-homeworld-remastered-collection": [
+    {
+      "date": "2026-10-07",
+      "price": 3.49,
+      "was": 34.99
+    }
+  ],
+  "gog-disco-elysium-the-final-cut": [
+    {
+      "date": "2026-10-07",
+      "price": 9.99,
+      "was": 39.99
+    }
+  ],
+  "gog-grim-dawn": [
+    {
+      "date": "2026-10-07",
+      "price": 3.75,
+      "was": 24.99
+    }
+  ],
+  "gog-darkest-dungeon": [
+    {
+      "date": "2026-10-07",
+      "price": 3.75,
+      "was": 24.99
+    }
+  ],
+  "gog-sleeping-dogs-definitive-edition": [
+    {
+      "date": "2026-10-07",
+      "price": 2.99,
+      "was": 19.99
+    }
+  ],
+  "gog-thronebreaker-the-witcher-tales": [
+    {
+      "date": "2026-10-07",
+      "price": 3.99,
+      "was": 19.99
     }
   ]
 }
