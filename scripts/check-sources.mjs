@@ -62,13 +62,24 @@ function linkOf(block) {
   return href ? decode(href[1]) : null;
 }
 
+// JavaScript does not know zone names like EEST or CEST (GOG writes "Tue, 06 Oct 2026 10:49:31 EEST"),
+// so for those the name is replaced by a numeric offset first.
+const ZONES = { EEST: '+0300', EET: '+0200', CEST: '+0200', CET: '+0100', BST: '+0100', WEST: '+0100', WET: '+0000', MSK: '+0300', JST: '+0900', KST: '+0900', AEST: '+1000', AEDT: '+1100', NZST: '+1200', NZDT: '+1300', AKST: '-0900', AKDT: '-0800', HST: '-1000', UT: '+0000' };
+export function parseDate(value) {
+  const s = value.trim();
+  let t = Date.parse(s);
+  if (Number.isNaN(t)) {
+    const zone = s.match(/\s([A-Z]{2,4})$/)?.[1];
+    if (zone && ZONES[zone]) t = Date.parse(s.slice(0, -zone.length) + ZONES[zone]);
+  }
+  return Number.isNaN(t) ? null : t;
+}
+
 function dateOf(block) {
   for (const name of ['pubDate', 'dc:date', 'published', 'updated']) {
     const v = tag(block, name);
-    if (v) {
-      const t = Date.parse(v.trim());
-      if (!Number.isNaN(t)) return t;
-    }
+    const t = v ? parseDate(v) : null;
+    if (t != null) return t;
   }
   return null;
 }
@@ -209,7 +220,7 @@ export async function check(src, now = Date.now()) {
     const s = stats(feed.items, now);
     Object.assign(out, {
       newest: s.newest == null ? null : new Date(s.newest).toISOString().slice(0, 10),
-      newestTitle: s.newestTitle,
+      newestTitle: s.newestTitle || feed.items[0].title,
       ageDays: s.ageDays == null ? null : Math.round(s.ageDays),
       perWeek: s.perWeek == null ? null : Math.round(s.perWeek * 10) / 10,
       text: s.text,
@@ -263,7 +274,7 @@ export function report(results, topics, when = new Date()) {
           r.newest ? `${r.newest} (${r.ageDays} дн.)` : '—',
           r.perWeek ?? '—',
           r.text === 'full' ? 'полный' : r.text === 'teaser' ? 'анонс' : '—',
-          cell(cut(r.status === 'OK' ? r.newestTitle : r.note, 70)) || '—',
+          cell(cut(r.status === 'OK' ? r.newestTitle : r.status === 'NO_DATES' ? `${r.note}. Первая запись: ${r.newestTitle}` : r.note, 70)) || '—',
         ].join(' | ') +
         ' |',
     );
