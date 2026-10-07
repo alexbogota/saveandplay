@@ -687,5 +687,40 @@
       "price": 4.99,
       "was": 19.99
     }
+  ],
+  "gog-shadow-tactics-blades-of-the-shogun": [
+    {
+      "date": "2026-10-07",
+      "price": 3.99,
+      "was": 39.99
+    }
+  ],
+  "gog-legend-of-grimrock-2": [
+    {
+      "date": "2026-10-07",
+      "price": 4.79,
+      "was": 23.99
+    }
+  ],
+  "gog-rayman-origins": [
+    {
+      "date": "2026-10-07",
+      "price": 5.99,
+      "was": 19.99
+    }
+  ],
+  "gog-legend-of-grimrock": [
+    {
+      "date": "2026-10-07",
+      "price": 2.99,
+      "was": 14.99
+    }
+  ],
+  "gog-dead-space-2008": [
+    {
+      "date": "2026-10-07",
+      "price": 7.99,
+      "was": 19.99
+    }
   ]
 }
