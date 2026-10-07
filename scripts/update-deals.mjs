@@ -79,17 +79,32 @@ export function mergeIndieGala(deals, fresh) {
   };
 }
 
+// The reason a child program failed, in one short line for the report: the error lines it printed
+// ("Error: Feed page 1: HTTP 403", "[cause]: ...") and the last thing it said before stopping.
+export function whyFailed(said, complained) {
+  const lines = complained.split('\n').map((l) => l.trim()).filter(Boolean);
+  const errors = lines.filter((l) => /^(\w*Error\b|\[cause\]|Caused by|code:)/.test(l)).slice(0, 3);
+  const reason = (errors.length ? errors : lines.slice(-2)).join(' | ');
+  const last = said.split('\n').map((l) => l.trim()).filter(Boolean).pop();
+  return [reason && `Причина: ${reason.slice(0, 300)}`, last && `Последняя строка перед остановкой: ${last.slice(0, 160)}`].filter(Boolean).join('. ') || 'Программа ничего не написала.';
+}
+
 async function runIndieGala() {
   const script = process.env.INDIEGALA_SCRIPT ? resolve(process.env.INDIEGALA_SCRIPT) : fileURLToPath(new URL('./indiegala-candidates.mjs', import.meta.url));
   const out = path('INDIEGALA_OUT', '../drafts/indiegala.json');
   await rm(out, { force: true }); // an old file must never be mistaken for a new answer
+  // Its output still goes to the log, and we keep a copy so the report can say WHY it failed.
+  let said = '';
+  let complained = '';
   const code = await new Promise((done) => {
-    const child = spawn(process.execPath, [script], { stdio: ['ignore', 'inherit', 'inherit'], cwd: fileURLToPath(new URL('..', import.meta.url)) });
+    const child = spawn(process.execPath, [script], { stdio: ['ignore', 'pipe', 'pipe'], cwd: fileURLToPath(new URL('..', import.meta.url)) });
     const timer = setTimeout(() => child.kill(), INDIEGALA_TIMEOUT);
+    child.stdout.on('data', (b) => ((said = (said + b).slice(-4000)), process.stdout.write(b)));
+    child.stderr.on('data', (b) => ((complained = (complained + b).slice(-4000)), process.stderr.write(b)));
     child.on('close', (c) => (clearTimeout(timer), done(c)));
     child.on('error', () => (clearTimeout(timer), done(-1)));
   });
-  if (code !== 0) throw new Error(`программа IndieGala закончилась с ошибкой (код ${code})`);
+  if (code !== 0) throw new Error(`программа IndieGala закончилась с ошибкой (код ${code}). ${whyFailed(said, complained)}`);
   const list = JSON.parse(await readFile(out, 'utf8'));
   if (!Array.isArray(list) || !list.length) throw new Error('программа IndieGala не нашла ни одной подходящей игры (лента могла не открыться): старые записи оставлены');
   return list;
