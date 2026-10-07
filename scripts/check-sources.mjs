@@ -18,6 +18,11 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { appendFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { resolve } from 'node:path';
+import { decode, plain, parseDate, parseFeed, robotsAllows, loadFeed, sleep } from './lib/feeds.mjs';
+
+// The feed-reading code lives in scripts/lib/feeds.mjs (shared with scripts/daily-brief.mjs).
+// It is re-exported here, so tests and other scripts can still import it from this file.
+export { decode, plain, parseDate, parseFeed, robotsAllows };
 
 const UA = 'SaveAndPlay-feed-check/1.0 (+https://saveandplay.com)';
 const TIMEOUT_MS = Number(process.env.FEED_TIMEOUT_MS) || 20000;
@@ -26,79 +31,7 @@ const FRESH_DAYS = 14; // a feed whose newest post is older than this is marked 
 const MAX_BYTES = 3_000_000; // never read more than this from one feed
 const FULL_TEXT_CHARS = 1200; // median post text at least this long = "full text", shorter = "teaser"
 
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-
-// ---------- reading a feed (RSS 2.0, RSS 1.0 and Atom, no packages needed) ----------
-
-const ENTITIES = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ' };
-export function decode(s) {
-  return s.replace(/&(#x?[0-9a-f]+|[a-z]+);/gi, (m, e) => {
-    if (e[0] === '#') {
-      const n = e[1].toLowerCase() === 'x' ? parseInt(e.slice(2), 16) : parseInt(e.slice(1), 10);
-      return Number.isFinite(n) && n > 0 && n < 0x110000 ? String.fromCodePoint(n) : m;
-    }
-    return ENTITIES[e.toLowerCase()] ?? m;
-  });
-}
-
-const unwrap = (s) => s.replace(/^\s*<!\[CDATA\[([\s\S]*?)\]\]>\s*$/, '$1');
-const stripTags = (s) => s.replace(/<[^>]*>/g, ' ');
-const squash = (s) => s.replace(/\s+/g, ' ').trim();
-// Text without markup. Done twice, because some feeds hide the HTML as &lt;p&gt;Tom &amp;amp; Jerry&lt;/p&gt;.
-export const plain = (raw) => squash(decode(stripTags(decode(stripTags(raw)))));
-
-// First <name>...</name> inside a block (name may have a colon, like content:encoded).
-function tag(block, name) {
-  const m = block.match(new RegExp(`<${name}(?:\\s[^>]*)?>([\\s\\S]*?)</${name}>`, 'i'));
-  return m ? unwrap(m[1]) : null;
-}
-
-function linkOf(block) {
-  const t = tag(block, 'link');
-  if (t && /^https?:/i.test(t.trim())) return t.trim();
-  const attrs = [...block.matchAll(/<link\b([^>]*?)\/?>/gi)].map((m) => m[1]);
-  const pick = attrs.find((a) => /rel=["']alternate["']/i.test(a)) ?? attrs.find((a) => !/rel=/i.test(a)) ?? attrs[0];
-  const href = pick?.match(/href=["']([^"']+)["']/i);
-  return href ? decode(href[1]) : null;
-}
-
-// JavaScript does not know zone names like EEST or CEST (GOG writes "Tue, 06 Oct 2026 10:49:31 EEST"),
-// so for those the name is replaced by a numeric offset first.
-const ZONES = { EEST: '+0300', EET: '+0200', CEST: '+0200', CET: '+0100', BST: '+0100', WEST: '+0100', WET: '+0000', MSK: '+0300', JST: '+0900', KST: '+0900', AEST: '+1000', AEDT: '+1100', NZST: '+1200', NZDT: '+1300', AKST: '-0900', AKDT: '-0800', HST: '-1000', UT: '+0000' };
-export function parseDate(value) {
-  const s = value.trim();
-  let t = Date.parse(s);
-  if (Number.isNaN(t)) {
-    const zone = s.match(/\s([A-Z]{2,4})$/)?.[1];
-    if (zone && ZONES[zone]) t = Date.parse(s.slice(0, -zone.length) + ZONES[zone]);
-  }
-  return Number.isNaN(t) ? null : t;
-}
-
-function dateOf(block) {
-  for (const name of ['pubDate', 'dc:date', 'published', 'updated']) {
-    const v = tag(block, name);
-    const t = v ? parseDate(v) : null;
-    if (t != null) return t;
-  }
-  return null;
-}
-
-export function parseFeed(xml) {
-  const head = xml.slice(0, 20000);
-  if (/^\s*<!doctype html|^\s*<html/i.test(head) || !/<(rss|feed|rdf:RDF)\b/i.test(head)) return { isFeed: false, items: [] };
-  const items = [];
-  for (const m of xml.matchAll(/<(item|entry)\b[\s\S]*?<\/\1>/gi)) {
-    const b = m[0];
-    items.push({
-      title: plain(tag(b, 'title') ?? ''),
-      link: linkOf(b),
-      t: dateOf(b),
-      len: plain(tag(b, 'content:encoded') ?? tag(b, 'content') ?? tag(b, 'description') ?? tag(b, 'summary') ?? '').length,
-    });
-  }
-  return { isFeed: true, items };
-}
+// ---------- statistics of one feed ----------
 
 export function stats(items, now = Date.now()) {
   const dated = items.filter((i) => i.t != null).sort((a, b) => b.t - a.t).slice(0, 30);
@@ -114,130 +47,26 @@ export function stats(items, now = Date.now()) {
   return { newest, newestTitle: dated[0]?.title ?? '', ageDays, perWeek, text: median >= FULL_TEXT_CHARS ? 'full' : 'teaser' };
 }
 
-// ---------- robots.txt ----------
-
-// Does robots.txt allow this user agent to read this path? Longest matching rule wins; a tie goes to "allow".
-export function robotsAllows(txt, ua, path) {
-  const groups = [];
-  let cur = null;
-  let lastWasAgent = false;
-  for (const raw of txt.split(/\r?\n/)) {
-    const m = raw.replace(/#.*/, '').trim().match(/^([A-Za-z-]+)\s*:\s*(.*)$/);
-    if (!m) continue;
-    const key = m[1].toLowerCase();
-    const val = m[2].trim();
-    if (key === 'user-agent') {
-      if (!cur || !lastWasAgent) {
-        cur = { agents: [], rules: [] };
-        groups.push(cur);
-      }
-      cur.agents.push(val.toLowerCase());
-      lastWasAgent = true;
-    } else {
-      lastWasAgent = false;
-      if (cur && (key === 'allow' || key === 'disallow')) cur.rules.push({ allow: key === 'allow', pattern: val });
-    }
-  }
-  const token = ua.split('/')[0].toLowerCase();
-  const own = groups.filter((g) => g.agents.some((a) => a !== '*' && a !== '' && token.includes(a)));
-  const chosen = own.length ? own : groups.filter((g) => g.agents.includes('*'));
-  let best = null;
-  for (const g of chosen) {
-    for (const r of g.rules) {
-      if (r.pattern === '') continue; // an empty Disallow means "everything is allowed"
-      const re = new RegExp('^' + r.pattern.replace(/[.+?^${}()|[\]\\]/g, '\\$&').replace(/\*/g, '.*').replace(/\\\$$/, '$'));
-      if (!re.test(path)) continue;
-      if (!best || r.pattern.length > best.pattern.length || (r.pattern.length === best.pattern.length && r.allow)) best = r;
-    }
-  }
-  return best ? best.allow : true;
-}
-
-// ---------- fetching ----------
-
-async function readLimited(res, max) {
-  if (!res.body) return res.text();
-  const reader = res.body.getReader();
-  const chunks = [];
-  let n = 0;
-  for (;;) {
-    const { done, value } = await reader.read();
-    if (done) break;
-    chunks.push(value);
-    n += value.length;
-    if (n >= max) {
-      await reader.cancel();
-      break;
-    }
-  }
-  return new TextDecoder('utf-8').decode(Buffer.concat(chunks));
-}
-
-const robotsCache = new Map();
-function robotsTxt(url) {
-  if (!robotsCache.has(url.origin)) {
-    robotsCache.set(
-      url.origin,
-      (async () => {
-        try {
-          const res = await fetch(new URL('/robots.txt', url), { headers: { 'user-agent': UA }, signal: AbortSignal.timeout(TIMEOUT_MS) });
-          return res.ok ? await readLimited(res, 500_000) : ''; // no robots.txt = no restrictions
-        } catch {
-          return '';
-        }
-      })(),
-    );
-  }
-  return robotsCache.get(url.origin);
-}
-
-const NET_ERRORS = {
-  ENOTFOUND: 'такого сайта нет (DNS)',
-  ECONNREFUSED: 'сайт не принимает соединение',
-  ECONNRESET: 'соединение сброшено',
-  ETIMEDOUT: 'соединение зависло',
-  CERT_HAS_EXPIRED: 'просрочен сертификат',
-  UNABLE_TO_VERIFY_LEAF_SIGNATURE: 'проблема с сертификатом',
-  ERR_TLS_CERT_ALTNAME_INVALID: 'сертификат не подходит к сайту',
-};
+// ---------- checking one source ----------
 
 export async function check(src, now = Date.now()) {
   const out = { id: src.id, name: src.name, topics: src.topics, feed: src.feed, listed: src.status, status: 'FAIL', note: '', http: null, items: 0, newest: null, newestTitle: '', ageDays: null, perWeek: null, text: null };
-  try {
-    const url = new URL(src.feed);
-    if (!robotsAllows(await robotsTxt(url), UA, url.pathname + url.search)) return { ...out, status: 'ROBOTS', note: 'robots.txt запрещает чтение' };
-    const res = await fetch(url, {
-      headers: { 'user-agent': UA, accept: 'application/rss+xml, application/atom+xml, application/xml, text/xml;q=0.9, */*;q=0.5' },
-      signal: AbortSignal.timeout(TIMEOUT_MS),
-      redirect: 'follow',
-    });
-    out.http = res.status;
-    if (!res.ok) return { ...out, status: 'FAIL', note: `HTTP ${res.status}` };
-    const feed = parseFeed(await readLimited(res, MAX_BYTES));
-    if (!feed.isFeed) return { ...out, status: 'NOT_FEED', note: 'это не RSS/Atom (страница сайта?)' };
-    out.items = feed.items.length;
-    if (!out.items) return { ...out, status: 'EMPTY', note: 'лента открылась, но записей в ней нет' };
-    const s = stats(feed.items, now);
-    Object.assign(out, {
-      newest: s.newest == null ? null : new Date(s.newest).toISOString().slice(0, 10),
-      newestTitle: s.newestTitle || feed.items[0].title,
-      ageDays: s.ageDays == null ? null : Math.round(s.ageDays),
-      perWeek: s.perWeek == null ? null : Math.round(s.perWeek * 10) / 10,
-      text: s.text,
-    });
-    if (s.newest == null) return { ...out, status: 'NO_DATES', note: 'в записях нет дат' };
-    if (s.ageDays > FRESH_DAYS) return { ...out, status: 'STALE', note: `последний пост ${Math.round(s.ageDays)} дн. назад` };
-    return { ...out, status: 'OK' };
-  } catch (e) {
-    const code = e?.cause?.code;
-    const why =
-      e?.name === 'TimeoutError'
-        ? `нет ответа за ${TIMEOUT_MS / 1000} с`
-        : NET_ERRORS[code]
-          ? `${NET_ERRORS[code]} (${code})`
-          : (code ?? e?.cause?.message ?? e?.message ?? 'неизвестная ошибка');
-    return { ...out, status: 'FAIL', note: String(why) };
-  }
+  const r = await loadFeed(src.feed, { ua: UA, timeoutMs: TIMEOUT_MS, maxBytes: MAX_BYTES });
+  if (r.kind !== 'OK') return { ...out, status: r.kind, note: r.note, http: r.http };
+  out.http = r.http;
+  out.items = r.items.length;
+  if (!out.items) return { ...out, status: 'EMPTY', note: 'лента открылась, но записей в ней нет' };
+  const s = stats(r.items, now);
+  Object.assign(out, {
+    newest: s.newest == null ? null : new Date(s.newest).toISOString().slice(0, 10),
+    newestTitle: s.newestTitle || r.items[0].title,
+    ageDays: s.ageDays == null ? null : Math.round(s.ageDays),
+    perWeek: s.perWeek == null ? null : Math.round(s.perWeek * 10) / 10,
+    text: s.text,
+  });
+  if (s.newest == null) return { ...out, status: 'NO_DATES', note: 'в записях нет дат' };
+  if (s.ageDays > FRESH_DAYS) return { ...out, status: 'STALE', note: `последний пост ${Math.round(s.ageDays)} дн. назад` };
+  return { ...out, status: 'OK' };
 }
 
 // ---------- the report ----------

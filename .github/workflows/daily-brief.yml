@@ -1,0 +1,51 @@
+name: Daily brief
+
+# Every morning at 06:00 Bogota time, and by hand: GitHub -> Actions -> "Daily brief" -> Run workflow.
+# It reads the news sources (data/sources.json) and our deals (data/deals.json) and makes a short brief for every
+# account in data/accounts.json. Nothing is published and the site is not touched.
+#
+# To get the brief: open the run, scroll down to "Summary" and copy the text block into the chat with Claude.
+# The same files are also saved on the "brief" branch (a separate branch, so the site is not rebuilt)
+# and can be downloaded at the bottom of the run page ("brief").
+on:
+  schedule:
+    - cron: '0 11 * * *' # 11:00 UTC = 06:00 Bogota
+  workflow_dispatch:
+
+# Writing is needed only to save the brief on the "brief" branch.
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-brief
+  cancel-in-progress: false
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Get the state of earlier briefs
+        run: bash scripts/brief-branch.sh load
+
+      - name: Make the brief
+        run: node scripts/daily-brief.mjs
+
+      - name: Save the brief on the brief branch
+        run: bash scripts/brief-branch.sh save
+
+      - name: Keep the files for download
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: brief
+          path: drafts/brief-*
+          if-no-files-found: ignore

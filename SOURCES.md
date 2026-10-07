@@ -60,7 +60,7 @@
 | GamingOnLinux `https://www.gamingonlinux.com/article_rss.php` | да | Только анонсы |
 | itch.io `https://itch.io/blog.rss` | да | Анонсы, блог площадки |
 | Steam `https://store.steampowered.com/feeds/news.xml` | да | Почти только Team Fortress 2, для нас бесполезна |
-| GOG | нет RSS | Берём из фида Admitad |
+| GOG | есть лента новостей (релизы и DLC, без скидок): `https://www.gog.com/frontpage/rss` | Цены и скидки берём из фида Admitad |
 | Eurogamer, Polygon, Rock Paper Shotgun, Video Game History Foundation | не проверено | Мой инструмент их не открыл (блокировка или robots). Скрипт на GitHub может открыть, проверим при написании |
 
 ## 5. Что решено и что нет
@@ -116,14 +116,23 @@
 
 ## 8. Список для программы (дополнение, 6 октября 2026, вечер)
 
-Все источники для будущих постов лежат в одном файле: `data/sources.json` (59 записей: 18 проверено вручную, 36 кандидатов, 5 исключены). Четыре темы: prices (Honest prices), cozy (Cozy и инди), retro (Retro и DRM-free), hardware (хостинг и железо, четвёртый будущий аккаунт). Новый источник добавляем туда со статусом `candidate`, программа его проверит.
+Все источники для будущих постов лежат в одном файле: `data/sources.json` (59 записей; после проверки программой 6 октября: 41 работает, 1 редкий, 17 исключены с причиной). Четыре темы: prices (Honest prices), cozy (Cozy и инди), retro (Retro и DRM-free), hardware (хостинг и железо, четвёртый будущий аккаунт). Новый источник добавляем туда со статусом `candidate`, программа его проверит.
 
 Как проверить все ленты: `npm run sources` на компьютере или GitHub → Actions → Check sources → Run workflow. Таблица появится на странице запуска (раздел Summary). Копия сохраняется в `drafts/sources-report.md` (в git не попадает).
 
 Что показала ручная проверка 13 адресов из ответов Gemini, Grok, DeepSeek и Qwen:
 - Работают и свежие: gg.deals (самый живой про скидки), GamerPower (раздачи), ScummVM, Digital Antiquarian, Indie Hellzone, Steam Deck HQ, LowEndBox, ServeTheHome, LowEndTalk Offers.
-- Не подошли: Alpha Beta Gamer (сайт лежал, перепроверить позже), Warp Door (закрыт robots.txt), SteamDB (рабочий адрес `/api/BlogRSS/`, но блог выходит раз в месяц).
-- GOG: рабочего RSS нет. Reddit: закрыт для автоматического чтения.
-- Остальные 36 кандидатов пока не проверены, их проверит программа.
+- Не подошли: Warp Door (закрыт robots.txt), SteamDB (рабочий адрес `/api/BlogRSS/`, но блог выходит раз в месяц). Alpha Beta Gamer при моей проверке лежал, но при запуске на GitHub работал.
+- GOG: есть лента новостей `https://www.gog.com/frontpage/rss` (релизы и DLC, без скидок). Reddit в проверку не брали: он не открылся ни моему инструменту, ни двум ИИ.
+
+Первая проверка программой на GitHub (6 октября, 54 ленты):
+- Работают 40. Давно не обновляются 6: Epic Bundle, Humble Bundle blog, RPS Deals, SteamDB, Blast Processing!, Racketboy. Не RSS 2: Fanatical, Noisy Pixel. Закрыты 5: Adventure Gamers, Gaming Alexandria, VGFacts, Vintage is the New Old (403) и Mamba Host (404).
+- GOG программа сначала отметила «нет дат»: GOG пишет даты как EEST, а программа этого не понимала. Баг исправлен.
+- Работающих источников по темам: prices 11, cozy 18, retro 11, hardware 11 (часть входит в несколько тем).
+- У крупных лент 80–180 записей в неделю (Polygon, gg.deals News, KitGuru, Phoronix, PC Gamer, Siliconera, Eurogamer), поэтому нужен фильтр по ключевым словам.
 
 Метки «verified» в ответах других ИИ не совпали с проверкой, поэтому их ответы считаем только списком кандидатов.
+
+## 9. Как источники используются каждый день (дополнение, 6 октября 2026, ночь)
+
+Ежедневная программа (`npm run brief`, GitHub → Actions → Daily brief) читает из `data/sources.json` только источники со статусом ok или rare и темой аккаунта (для Honest prices это 11 лент). Новости старше 48 часов не берутся, ленты без дат пропускаются. Каждая лента читается один раз за запуск. Если несколько независимых сайтов написали об одной и той же игре со скидкой, это считается «горячо сегодня». Новости GOG про игры без скидки показываются отдельно. Цены берутся только из `data/deals.json`, новости служат подсказкой «почему сегодня». Источник, который перестал работать, программа просто пропустит и назовёт в конце brief; раз в месяц стоит запускать Check sources и менять статусы вручную.

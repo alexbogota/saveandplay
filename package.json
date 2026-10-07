@@ -10,7 +10,8 @@
     "covers": "node scripts/fetch-steam-covers.mjs",
     "drafts": "node scripts/make-drafts.mjs",
     "indiegala": "node scripts/indiegala-candidates.mjs",
-    "sources": "node scripts/check-sources.mjs"
+    "sources": "node scripts/check-sources.mjs",
+    "brief": "node scripts/daily-brief.mjs"
   },
   "dependencies": {
     "astro": "^7.3.5"
