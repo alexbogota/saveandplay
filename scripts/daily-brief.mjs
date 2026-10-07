@@ -66,6 +66,8 @@ const readJson = async (file, fallback) => {
 
 export const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''); // same as src/lib/deals.ts
 export const dealId = (d) => slug(`${d.store}-${d.title}`);
+export const dealPagePath = (d) => `/deals/${slug(d.store)}/${slug(d.title)}/`; // same as dealPath in src/lib/deals.ts
+export const coverAlt = (d) => `Cover art for ${d.title}`; // same text as on the game page
 const money = (n) => `$${n.toFixed(2)}`;
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 const dayOf = (t) => `${MONTHS[new Date(t).getUTCMonth()]} ${new Date(t).getUTCDate()}`;
@@ -203,7 +205,8 @@ export function keywordNews(items, keywords, limit = 5) {
 // ---------- candidates ----------
 
 const gogLink = (links, url, subid) => `${links.gogDeeplink}?subid=${subid}&ulp=${encodeURIComponent(url)}`;
-const siteLink = (links, d, subid, day) => `${links.site}/deals/?store=${slug(d.store)}&utm_source=${subid}&utm_medium=social&utm_campaign=deals-${day}`;
+// Our own link goes to the page of that one game, so the post's preview card shows the game's title and cover.
+const siteLink = (links, d, subid, day) => `${links.site}${dealPagePath(d)}?utm_source=${subid}&utm_medium=social&utm_campaign=deals-${day}`;
 
 export function historyFacts(rows, price, today) {
   const days = rows.length;
@@ -239,6 +242,7 @@ export function buildCandidates({ eligible, mentions, history, account, links, n
       endsInHours: endsInH == null ? null : Math.round(endsInH),
       priceCheckedAt: d.checkedAt,
       cover: d.image ?? null,
+      coverAlt: d.image ? coverAlt(d) : null,
       score: Math.round(parts.reduce((a, b) => a + b, 0) * 10) / 10,
       discountRank: byDiscount.findIndex((x) => x.id === id) + 1,
       sites: domains.size,
@@ -304,6 +308,8 @@ export function buildBrief({ account, links, deals, history, offered, feeds, sou
     for (const m of c.mentions) push(`- ${m.source}, ${dayOf(m.t)}${m.how === 'link' ? ' (links to the game page)' : ''}: "${cut(m.title, 90)}" ${m.link ?? ''}`.trimEnd());
     if (c.offeredOn) push(`Note: suggested on ${c.offeredOn}, already used recently.`);
     push(`Link for the post (${c.linkKind}): ${c.link}`);
+    if (c.cover) push(`Cover image: ${c.cover}`, `Alt text: ${c.coverAlt}`);
+    else push('Cover image: none (post without a picture)');
   });
 
   if (news.length) {
