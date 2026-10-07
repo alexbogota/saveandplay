@@ -1,5 +1,5 @@
-# Brief: Honest prices (@saveandplay.com), 2026-10-07 21:06 UTC
-Prices checked 2026-10-07 09:49 UTC (11 h ago). News: 11 of 11 sources read, 133 items from the last 48 h, 1 of 39 offered deals mentioned.
+# Brief: Honest prices (@saveandplay.com), 2026-10-07 21:26 UTC
+Prices checked 2026-10-07 09:49 UTC (12 h ago). News: 11 of 11 sources read, 134 items from the last 48 h, 1 of 39 offered deals mentioned.
 
 Write ONE post about the first item below (take another one only if it looks wrong, and say why).
 Rules:
@@ -51,6 +51,27 @@ Alt text: Cover art for Assetto Corsa Competizione
 - Release: Distant Worlds 2: Shadows Rising (Oct 7). Link for the post (affiliate link): https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fdistant_worlds_2_shadows_rising
 - Coming soon: Project Afterfall (Oct 7). Link for the post (affiliate link): https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fproject_afterfall
 
+## Topics for articles (stories without a deal; headlines and links only. Write an article only if the owner asks)
+1. Free Steam keys for Spooky Cats are available from Fanatical while stocks last! (score 11)
+Why now: 3 sites wrote about it in the last 48 h (gamerpower.com, gg.deals, indiegamebundles.com); matches keywords: free; newest Oct 7.
+- Indie Game Bundles, Oct 7: "Get a FREE STEAM KEY for Spooky Cats at Fanatical" https://www.indiegamebundles.com/get-a-free-steam-key-for-spooky-cats-at-fanatical/
+- gg.deals Freebies, Oct 7: "Free Steam keys for Spooky Cats are available from Fanatical while stocks last!" https://gg.deals/freebie/free-steam-keys-for-spooky-cats-are-available-from-fanatical-while-stocks-last/
+- GamerPower (PC), Oct 7: "Spooky Cats Steam Key Giveaway" https://www.gamerpower.com/spooky-cats-steam-key-giveaway
+2. Humble Beyond Reality: Sci-Fi & Survival VR Bundle throws you into outer space and spooky forests (score 10)
+Why now: 2 sites wrote about it in the last 48 h (gg.deals, indiegamebundles.com); matches keywords: bundle, humble; newest Oct 7.
+- gg.deals News, Oct 7: "Humble Beyond Reality: Sci-Fi & Survival VR Bundle throws you into outer space and spooky forests" https://gg.deals/bundle/humble-beyond-reality-sci-fi-survival-vr-bundle-throws-you-into-outer-space-and-spooky-forests/
+- Indie Game Bundles, Oct 7: "Humble Beyond Reality: Sci-Fi & Survival VR Collection" https://www.indiegamebundles.com/humble-beyond-reality-sci-fi-survival-vr-collection/
+3. Humble Choice October 2026 – Like a Dragon: Pirate Yakuza in Hawaii, Prince of Persia Lost Crown (score 8)
+Why now: 2 sites wrote about it in the last 48 h (gg.deals, indiegamebundles.com); matches keywords: humble; newest Oct 6.
+- Indie Game Bundles, Oct 6: "Humble Choice October 2026 – Like a Dragon: Pirate Yakuza in Hawaii, Prince of Persia Lost Crown" https://www.indiegamebundles.com/humble-choice-october-2026/
+- gg.deals News, Oct 6: "Humble Choice October 2026 gets you Pirate Yakuza in Hawaii, PoP The Lost Crown & more" https://gg.deals/bundle/humble-choice-october-2026/
+4. Choose wisely: grab The Stanley Parable Ultra Deluxe at its historical low price before the Steam Autumn Sale… (score 7)
+Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: sale, price; newest Oct 7.
+- gg.deals News, Oct 7: "Choose wisely: grab The Stanley Parable Ultra Deluxe at its historical low price before the Steam A…" https://gg.deals/deal/make-the-right-choice-grab-the-stanley-parable-ultra-deluxe-at-its-historical-low-price-before-the-steam-autumn-sale-ends/
+5. Humble Indie Fighters Bundle serves up kicks, punches, and blocks galore for $16 (score 7)
+Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: bundle, humble; newest Oct 7.
+- gg.deals News, Oct 7: "Humble Indie Fighters Bundle serves up kicks, punches, and blocks galore for $16" https://gg.deals/bundle/humble-indie-fighters-bundle-serves-up-kicks-punches-and-blocks-galore-for-16/
+
 Left out: 0 other-store deals, 0 hidden duplicates, 0 under 50%, 0 ended, 0 ending within 6 h, 0 old prices.
 Sources not read: none.
-Built by: commit e7e1d16, workflow_dispatch, run #3 attempt 1.
+Built by: commit b8583f0, push, run #4 attempt 1.

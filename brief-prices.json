@@ -1,7 +1,7 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-10-07T21:06:55.883Z",
-  "builtBy": "commit e7e1d16, workflow_dispatch, run #3 attempt 1",
+  "generatedAt": "2026-10-07T21:26:48.059Z",
+  "builtBy": "commit b8583f0, push, run #4 attempt 1",
   "pricesCheckedAt": "2026-10-07T09:49:09.029Z",
   "warnings": [],
   "candidates": [
@@ -172,6 +172,140 @@
     }
   ],
   "topical": [],
+  "topics": [
+    {
+      "headline": "Free Steam keys for Spooky Cats are available from Fanatical while stocks last!",
+      "score": 11,
+      "sites": [
+        "gamerpower.com",
+        "gg.deals",
+        "indiegamebundles.com"
+      ],
+      "keywords": [
+        "free"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "GamerPower (PC)",
+          "title": "Spooky Cats Steam Key Giveaway",
+          "link": "https://www.gamerpower.com/spooky-cats-steam-key-giveaway",
+          "published": "2026-10-07T10:34:03.000Z"
+        },
+        {
+          "source": "gg.deals Freebies",
+          "title": "Free Steam keys for Spooky Cats are available from Fanatical while stocks last!",
+          "link": "https://gg.deals/freebie/free-steam-keys-for-spooky-cats-are-available-from-fanatical-while-stocks-last/",
+          "published": "2026-10-07T12:49:00.000Z"
+        },
+        {
+          "source": "gg.deals News",
+          "title": "Free Steam keys for Spooky Cats are available from Fanatical while stocks last!",
+          "link": "https://gg.deals/freebie/free-steam-keys-for-spooky-cats-are-available-from-fanatical-while-stocks-last/",
+          "published": "2026-10-07T12:49:00.000Z"
+        },
+        {
+          "source": "Indie Game Bundles",
+          "title": "Get a FREE STEAM KEY for Spooky Cats at Fanatical",
+          "link": "https://www.indiegamebundles.com/get-a-free-steam-key-for-spooky-cats-at-fanatical/",
+          "published": "2026-10-07T17:56:01.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Humble Beyond Reality: Sci-Fi & Survival VR Bundle throws you into outer space and spooky forests",
+      "score": 10,
+      "sites": [
+        "gg.deals",
+        "indiegamebundles.com"
+      ],
+      "keywords": [
+        "bundle",
+        "humble"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Humble Beyond Reality: Sci-Fi & Survival VR Bundle throws you into outer space and spooky forests",
+          "link": "https://gg.deals/bundle/humble-beyond-reality-sci-fi-survival-vr-bundle-throws-you-into-outer-space-and-spooky-forests/",
+          "published": "2026-10-07T18:56:35.000Z"
+        },
+        {
+          "source": "Indie Game Bundles",
+          "title": "Humble Beyond Reality: Sci-Fi & Survival VR Collection",
+          "link": "https://www.indiegamebundles.com/humble-beyond-reality-sci-fi-survival-vr-collection/",
+          "published": "2026-10-07T18:10:10.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Humble Choice October 2026 – Like a Dragon: Pirate Yakuza in Hawaii, Prince of Persia Lost Crown",
+      "score": 8,
+      "sites": [
+        "gg.deals",
+        "indiegamebundles.com"
+      ],
+      "keywords": [
+        "humble"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Humble Choice October 2026 gets you Pirate Yakuza in Hawaii, PoP The Lost Crown & more",
+          "link": "https://gg.deals/bundle/humble-choice-october-2026/",
+          "published": "2026-10-06T17:11:00.000Z"
+        },
+        {
+          "source": "Indie Game Bundles",
+          "title": "Humble Choice October 2026 – Like a Dragon: Pirate Yakuza in Hawaii, Prince of Persia Lost Crown",
+          "link": "https://www.indiegamebundles.com/humble-choice-october-2026/",
+          "published": "2026-10-06T17:19:24.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Choose wisely: grab The Stanley Parable Ultra Deluxe at its historical low price before the Steam Autumn Sale ends!",
+      "score": 7,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "sale",
+        "price"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Choose wisely: grab The Stanley Parable Ultra Deluxe at its historical low price before the Steam Autumn Sale ends!",
+          "link": "https://gg.deals/deal/make-the-right-choice-grab-the-stanley-parable-ultra-deluxe-at-its-historical-low-price-before-the-steam-autumn-sale-ends/",
+          "published": "2026-10-07T18:47:00.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Humble Indie Fighters Bundle serves up kicks, punches, and blocks galore for $16",
+      "score": 7,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "bundle",
+        "humble"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Humble Indie Fighters Bundle serves up kicks, punches, and blocks galore for $16",
+          "link": "https://gg.deals/bundle/humble-indie-fighters-bundle-serves-up-kicks-punches-and-blocks-galore-for-16/",
+          "published": "2026-10-07T18:26:34.000Z"
+        }
+      ]
+    }
+  ],
   "left": {
     "otherStore": 0,
     "hidden": 0,
