@@ -673,5 +673,19 @@
       "price": 3.99,
       "was": 19.99
     }
+  ],
+  "gog-simcity-4-deluxe-edition": [
+    {
+      "date": "2026-10-07",
+      "price": 4.99,
+      "was": 19.99
+    }
+  ],
+  "gog-gothic-3": [
+    {
+      "date": "2026-10-07",
+      "price": 4.99,
+      "was": 19.99
+    }
   ]
 }
