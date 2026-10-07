@@ -50,5 +50,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: brief
-          path: drafts/brief-*
+          path: |
+            drafts/brief-*
+            drafts/items-*
           if-no-files-found: ignore
