@@ -4,6 +4,8 @@ section: guides
 title: "Steam key or DRM-free: what you actually get when you buy a PC game"
 description: "A Steam game is a license on your account. A DRM-free game from GOG is a set of files you can keep. Here is what the stores' own pages say, and how to choose."
 updated: 2026-10-07
+image: /og/steam-key-vs-drm-free.png
+imageAlt: "Diagram: on Steam the game is a license on your account; on GOG the DRM-free game files can be installed on several PCs and backed up."
 ---
 
 When you press "buy", you do not always get the same thing. On one store you get a game tied to an account. On another you get files that run without any launcher. The price can be identical, and the difference only shows up years later, on the day you want to reinstall an old game, play offline, or sell a game you no longer touch.
