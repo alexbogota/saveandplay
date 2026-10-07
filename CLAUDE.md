@@ -42,6 +42,8 @@ Deal data in the mockups is placeholder ("Game Title 01"), covers are flat color
 - Affiliate disclosure must stay visible on the home page and in the footer.
 - Always tell the owner what you changed in plain words. Commit often, small commits.
 - Main principle (decided 7 Oct 2026): build a working system, not manual steps. Maximum automation. Never ask the owner to do routine work by hand (copying, pasting, uploading images, fixing links). If something is manual today, treat it as a gap: fix it in code or workflows. If that is truly impossible, say so and name the smallest remaining manual step. Every solution must be reusable for future niches and accounts (settings in data files such as data/accounts.json, no one-off fixes).
+- Files that the owner's chat Claude writes straight into this folder (articles in src/pages/guides/ and src/pages/servers/, their pictures in public/og/, CLAUDE.md, PROJECT.md) arrive uncommitted. Publishing them is your job: when you see them in git status, or when the owner types /publish, follow `PUBLISH.md` (the same text is the `/publish` command in `.claude/commands/`) without asking the owner for the steps again.
+- Every article in src/pages/guides/ has `image` (a 1200x630 file in public/og/) and `imageAlt` in its header, so the link card in Bluesky shows the article's own picture. Check this when you publish.
 
 ## Current state and decisions
 Read @PROJECT.md first: it holds the latest affiliate stores, channel rules, link templates and automation plan. Where it conflicts with this file, PROJECT.md is newer. When a decision changes, update PROJECT.md.
