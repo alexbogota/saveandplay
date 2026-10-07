@@ -1,9 +1,43 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-10-07T11:12:30.572Z",
+  "generatedAt": "2026-10-07T20:53:02.980Z",
   "pricesCheckedAt": "2026-10-07T09:49:09.029Z",
   "warnings": [],
   "candidates": [
+    {
+      "id": "indiegala-monster-hunter-rise",
+      "kind": "deal",
+      "title": "MONSTER HUNTER RISE",
+      "store": "IndieGala",
+      "price": 3.99,
+      "was": 39.99,
+      "discount": 90,
+      "endsAt": "2026-10-16T23:59:00Z",
+      "endsInHours": 219,
+      "priceCheckedAt": "2026-10-07T09:49:09.029Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1446780/header.jpg?t=1768870444",
+      "score": 12,
+      "discountRank": 7,
+      "sites": 1,
+      "mentions": [
+        {
+          "source": "Eurogamer",
+          "domain": "eurogamer.net",
+          "title": "20 million sales later, Capcom is bringing Monster Hunter Rise to iOS and Android, but for now it's locked behind a Netflix subscription",
+          "link": "https://www.eurogamer.net/monster-hunter-rise-ios-android-netflix",
+          "t": 1791379662000,
+          "how": "title"
+        }
+      ],
+      "history": {
+        "days": 2,
+        "lowest": false,
+        "since": "2026-10-05"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/?store=indiegala&utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-07",
+      "linkKind": "link to our site"
+    },
     {
       "id": "indiegala-control-ultimate-edition",
       "kind": "deal",
@@ -13,7 +47,7 @@
       "was": 39.99,
       "discount": 85,
       "endsAt": "2026-10-08T23:59:00Z",
-      "endsInHours": 37,
+      "endsInHours": 27,
       "priceCheckedAt": "2026-10-07T09:49:09.029Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/870780/ec621653454cdad232187af4eb79f23c05aceca5/header.jpg?t=1781607969",
       "score": 10.5,
@@ -38,7 +72,7 @@
       "was": 39.99,
       "discount": 83,
       "endsAt": "2026-10-08T17:00:00Z",
-      "endsInHours": 30,
+      "endsInHours": 20,
       "priceCheckedAt": "2026-10-07T09:49:09.029Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2144740/header.jpg?t=1741369902",
       "score": 10.3,
@@ -63,7 +97,7 @@
       "was": 39.99,
       "discount": 90,
       "endsAt": "2026-10-18T09:59:00+03:00",
-      "endsInHours": 260,
+      "endsInHours": 250,
       "priceCheckedAt": "2026-10-07T09:48:07.937Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
       "score": 10,
@@ -88,7 +122,7 @@
       "was": 39.99,
       "discount": 79,
       "endsAt": "2026-10-08T17:00:00Z",
-      "endsInHours": 30,
+      "endsInHours": 20,
       "priceCheckedAt": "2026-10-07T09:49:09.029Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/805550/header.jpg?t=1766404577",
       "score": 9.9,
@@ -103,41 +137,32 @@
       "offeredOn": null,
       "link": "https://saveandplay.com/deals/?store=indiegala&utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-07",
       "linkKind": "link to our site"
-    },
-    {
-      "id": "indiegala-death-stranding-director-s-cut",
-      "kind": "deal",
-      "title": "DEATH STRANDING DIRECTOR'S CUT",
-      "store": "IndieGala",
-      "price": 8.39,
-      "was": 39.99,
-      "discount": 79,
-      "endsAt": "2026-10-08T17:00:00Z",
-      "endsInHours": 30,
-      "priceCheckedAt": "2026-10-07T09:49:09.029Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/header.jpg?t=1773400635",
-      "score": 9.9,
-      "discountRank": 19,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 2,
-        "lowest": false,
-        "since": "2026-10-05"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/?store=indiegala&utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-07",
-      "linkKind": "link to our site"
     }
   ],
   "gogNews": [
     {
-      "title": "Out of Early Access: Toy Shire",
-      "game": "toy_shire",
-      "url": "https://www.gog.com/en/game/toy_shire",
-      "newsLink": "http://www.gog.com/news/out_of_early_access_toy_shire",
-      "t": 1791272971000,
-      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Ftoy_shire"
+      "title": "Release: Dead of Darkness",
+      "game": "dead_of_darkness",
+      "url": "https://www.gog.com/en/game/dead_of_darkness",
+      "newsLink": "http://www.gog.com/news/release_dead_of_darkness",
+      "t": 1791335945000,
+      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fdead_of_darkness"
+    },
+    {
+      "title": "Release: Distant Worlds 2: Shadows Rising",
+      "game": "distant_worlds_2_shadows_rising",
+      "url": "https://www.gog.com/en/game/distant_worlds_2_shadows_rising",
+      "newsLink": "http://www.gog.com/news/release_distant_worlds_2_shadows_rising",
+      "t": 1791335848000,
+      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fdistant_worlds_2_shadows_rising"
+    },
+    {
+      "title": "Coming soon: Project Afterfall",
+      "game": "project_afterfall",
+      "url": "https://www.gog.com/en/game/project_afterfall",
+      "newsLink": "http://www.gog.com/news/coming_soon_project_afterfall",
+      "t": 1791335557000,
+      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fproject_afterfall"
     }
   ],
   "topical": [],
