@@ -1,11 +1,12 @@
 ---
 // Layout for the Markdown guides in src/pages/servers/ and src/pages/guides/.
-// Frontmatter: title, description, updated (YYYY-MM-DD), section (optional: 'guides'; default is the game servers section).
+// Frontmatter: title, description, updated (YYYY-MM-DD). The section comes from the folder: src/pages/guides/ = guides, src/pages/servers/ = game servers.
+// The lists on /guides/ and /servers/ are built from these headers (src/lib/articles.ts), so a new article needs no other edit.
 import Layout from './Layout.astro';
 import ProviderCard from '../components/ProviderCard.astro';
 
 const { frontmatter } = Astro.props;
-const isGuide = frontmatter.section === 'guides';
+const isGuide = Astro.url.pathname.startsWith('/guides/');
 // YAML turns 2026-10-05 into a Date already; new Date() accepts both a Date and a text.
 const updated = new Date(frontmatter.updated).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
 ---

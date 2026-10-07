@@ -1,12 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import ProviderCard from '../../components/ProviderCard.astro';
-
-const guides = [
-  { href: '/servers/start-a-game-server-for-friends/', title: 'How to start a game server for friends', text: 'A step-by-step guide for beginners: game, memory, location, connecting and backups.' },
-  { href: '/servers/how-much-ram-does-a-game-server-need/', title: 'How much RAM does a game server need?', text: 'What the official guides and wikis say for Minecraft, Rust, ARK and Valheim.' },
-  { href: '/servers/rent-a-server-or-host-at-home/', title: 'Rent a server or host it at home?', text: 'Uptime, setup, cost and security, side by side.' },
-];
+import ArticleList from '../../components/ArticleList.astro';
 ---
 <Layout
   title="Game servers: guides for playing with friends | SaveAndPlay"
@@ -19,15 +14,7 @@ const guides = [
     <p class="aff-note">Some links are affiliate links: we may earn a commission when you buy, at no extra cost to you. <a href="/disclosure/">Learn more</a></p>
 
     <h2>Guides</h2>
-    <div class="guides">
-      {guides.map((g) => (
-        <a class="guide" href={g.href}>
-          <h3>{g.title}</h3>
-          <p>{g.text}</p>
-          <span class="more">Read the guide →</span>
-        </a>
-      ))}
-    </div>
+    <ArticleList section="servers" />
 
     <ProviderCard />
 
@@ -39,10 +26,4 @@ const guides = [
 <style>
   .intro { font-size: 18px; }
   .aff-note { font-size: 14px; color: var(--muted); }
-  .guides { display: grid; gap: 16px; margin: 0 0 8px; }
-  .guide { display: block; padding: 20px; background: var(--panel); border: 1px solid var(--border); border-radius: 14px; }
-  .guide:hover { border-color: var(--border-hover); }
-  .guide h3 { margin: 0 0 6px; font-family: var(--font-head); font-weight: 600; font-size: 20px; color: var(--heading); }
-  .guide p { margin: 0 0 10px; font-size: 15px; color: var(--body-muted); }
-  .more { font-size: 14px; font-weight: 700; color: var(--accent-text); }
 </style>
