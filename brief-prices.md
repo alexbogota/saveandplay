@@ -1,4 +1,4 @@
-# Brief: Honest prices (@saveandplay.com), 2026-10-07 20:57 UTC
+# Brief: Honest prices (@saveandplay.com), 2026-10-07 21:06 UTC
 Prices checked 2026-10-07 09:49 UTC (11 h ago). News: 11 of 11 sources read, 133 items from the last 48 h, 1 of 39 offered deals mentioned.
 
 Write ONE post about the first item below (take another one only if it looks wrong, and say why).
@@ -53,4 +53,4 @@ Alt text: Cover art for Assetto Corsa Competizione
 
 Left out: 0 other-store deals, 0 hidden duplicates, 0 under 50%, 0 ended, 0 ending within 6 h, 0 old prices.
 Sources not read: none.
-Built by: commit b0b7e20, push, run #2 attempt 1.
+Built by: commit e7e1d16, workflow_dispatch, run #3 attempt 1.

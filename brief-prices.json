@@ -1,7 +1,7 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-10-07T20:57:34.235Z",
-  "builtBy": "commit b0b7e20, push, run #2 attempt 1",
+  "generatedAt": "2026-10-07T21:06:55.883Z",
+  "builtBy": "commit e7e1d16, workflow_dispatch, run #3 attempt 1",
   "pricesCheckedAt": "2026-10-07T09:49:09.029Z",
   "warnings": [],
   "candidates": [
