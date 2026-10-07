@@ -9,9 +9,11 @@
 //   2. Only news from the last windowHours hours. One story written by several sites = "hot today".
 //   3. Only news that is about a deal we have (data/deals.json), found by the game's link or by its name in the headline.
 //      Deals nobody wrote about stay in the list too (ranked lower), so there is always something to post.
+//   The news that is NOT about a deal goes to "Topics for articles" (scripts/lib/topics.mjs): up to maxTopics stories, headlines and links only.
 //
-// Result per account: drafts/brief-<account>.md (the only file Claude needs to read, about 1,500 tokens),
-// drafts/brief-<account>.json (same data for programs) and drafts/brief-state.json (what was suggested, to avoid repeats).
+// Result per account: drafts/brief-<account>.md (the only file Claude needs to read, about 2,000 tokens),
+// drafts/brief-<account>.json (same data for programs), drafts/items-<account>.json (every news item of the window and what happened
+// to it: used for a deal, shown as a topic, dropped and why) and drafts/brief-state.json (what was suggested, to avoid repeats).
 // On GitHub the same text is also shown on the run page (Summary), ready to copy.
 //
 // Prices come only from our own data/deals.json. News is only a hint why a deal is interesting today.
@@ -26,6 +28,7 @@ import { fileURLToPath } from 'node:url';
 import { resolve } from 'node:path';
 import { loadFeed, sleep } from './lib/feeds.mjs';
 import { clean, hasName, nameVariants } from './lib/titles.mjs';
+import { articleTopics } from './lib/topics.mjs';
 
 const UA = 'SaveAndPlay-brief/1.0 (+https://saveandplay.com)';
 const TIMEOUT_MS = Number(process.env.FEED_TIMEOUT_MS) || 20000;
@@ -44,7 +47,7 @@ const MIN_HISTORY_DAYS = 3;
 const REPEAT_PENALTY = 8; // was the top pick of an earlier brief, or drafted, within repeatDays
 
 // What an account gets when data/accounts.json does not say otherwise.
-const DEFAULTS = { minDiscount: 50, windowHours: 48, maxPriceAgeHours: 48, minHoursLeft: 6, repeatDays: 7, maxCandidates: 5, dealsWithoutNews: true, gogNews: false, keywords: [], directLinkStores: [], rules: [] };
+const DEFAULTS = { minDiscount: 50, windowHours: 48, maxPriceAgeHours: 48, minHoursLeft: 6, repeatDays: 7, maxCandidates: 5, dealsWithoutNews: true, gogNews: false, keywords: [], maxTopics: 5, directLinkStores: [], rules: [] };
 const REQUIRED = ['name', 'handle', 'topic', 'subid', 'stores'];
 export function withDefaults(id, account) {
   const missing = REQUIRED.filter((k) => !account[k] || (Array.isArray(account[k]) && !account[k].length));
@@ -274,7 +277,20 @@ export function buildBrief({ account, links, deals, history, offered, feeds, sou
   const all = buildCandidates({ eligible, mentions, history, account, links, now });
   const candidates = all.slice(0, account.maxCandidates);
   const news = account.gogNews ? gogNews(items, deals).map((n) => ({ ...n, link: gogLink(links, n.url, account.subid) })) : [];
-  const topical = account.keywords?.length ? keywordNews(items, account.keywords) : [];
+  const topicalAll = account.keywords?.length ? keywordNews(items, account.keywords) : [];
+
+  // News that is not about an offered deal: grouped into stories, the best ones become article topics. Headlines and links only.
+  const newsItems = items.map((it) => ({ title: it.title, link: it.link, t: it.t, source: it.src.name, domain: domainOf(it.src.feed) }));
+  const usedKeys = new Map();
+  for (const [dealKey, list] of mentions) for (const m of list) usedKeys.set(`${m.link ?? ''}|${m.title}`, dealKey);
+  const storeDomains = new Set(deals.map((d) => domainOf(d.url)));
+  const { topics, records } = articleTopics({ items: newsItems, usedKeys, skipDomains: storeDomains, deals, keywords: account.keywords ?? [], maxTopics: account.maxTopics });
+  // A keyword story that is already shown as an article topic is not repeated in "News on the topic".
+  const shown = new Set(topics.flatMap((s) => s.items.map((i) => i.link)));
+  const topical = topicalAll.filter((n) => !shown.has(n.link));
+  const itemRecords = newsItems
+    .map((it) => ({ source: it.source, domain: it.domain, title: it.title, link: it.link ?? null, published: new Date(it.t).toISOString(), ...records.get(it) }))
+    .sort((a, b) => b.published.localeCompare(a.published));
 
   const checked = deals.map((d) => d.checkedAt).filter(Boolean).sort().at(-1);
   const warnings = [];
@@ -325,6 +341,22 @@ export function buildBrief({ account, links, deals, history, offered, feeds, sou
     push('', '## News on the topic (no deal)');
     for (const n of topical) push(`- ${n.source}, ${dayOf(n.t)}: "${cut(n.title, 100)}" ${n.link ?? ''}${n.summary ? ` | ${n.summary}` : ''}`.trimEnd());
   }
+  if (topics.length) {
+    push('', '## Topics for articles (stories without a deal; headlines and links only. Write an article only if the owner asks)');
+    topics.forEach((s, i) => {
+      push(`${i + 1}. ${cut(s.lead.title, 110)} (score ${s.score})`);
+      const why = [`${s.sites} site${s.sites > 1 ? 's' : ''} wrote about it in the last ${account.windowHours} h (${s.domains.slice(0, 4).join(', ')})`];
+      if (s.hits.length) why.push(`matches keywords: ${s.hits.join(', ')}`);
+      if (s.games.length) why.push(`about a game we list: ${s.games.slice(0, 2).join(', ')}`);
+      push(`Why now: ${why.join('; ')}; newest ${dayOf(s.latest)}.`);
+      const seen = new Set();
+      for (const it of [...s.items].sort((a, b) => b.t - a.t)) {
+        if (seen.has(it.domain) || seen.size >= 3) continue;
+        seen.add(it.domain);
+        push(`- ${it.source}, ${dayOf(it.t)}: "${cut(it.title, 100)}" ${it.link ?? ''}`.trimEnd());
+      }
+    });
+  }
   push(
     '',
     `Left out: ${left.otherStore} other-store deals, ${left.hidden} hidden duplicates, ${left.smallDiscount} under ${account.minDiscount}%, ${left.ended} ended, ${left.endsTooSoon} ending within ${account.minHoursLeft} h, ${left.oldPrice} old prices.`,
@@ -332,7 +364,7 @@ export function buildBrief({ account, links, deals, history, offered, feeds, sou
     `Built by: ${buildInfo()}.`,
   );
 
-  return { md: lines.join('\n') + '\n', json: { account: account.name, generatedAt: new Date(now).toISOString(), builtBy: buildInfo(), pricesCheckedAt: checked ?? null, warnings, candidates, gogNews: news, topical, left, sources: { total: mine.length, failed } }, top: candidates[0] ?? null };
+  return { md: lines.join('\n') + '\n', json: { account: account.name, generatedAt: new Date(now).toISOString(), builtBy: buildInfo(), pricesCheckedAt: checked ?? null, warnings, candidates, gogNews: news, topical, topics: topics.map((s) => ({ headline: s.lead.title, score: s.score, sites: s.domains, keywords: s.hits, games: s.games, items: s.items.map((i) => ({ source: i.source, title: i.title, link: i.link ?? null, published: new Date(i.t).toISOString() })) })), left, sources: { total: mine.length, failed } }, top: candidates[0] ?? null, itemRecords };
 }
 
 // ---------- run ----------
@@ -376,11 +408,13 @@ async function main() {
     const mem = (state.top[id] ??= {});
     for (const [k, day] of Object.entries(mem)) if (day === today) delete mem[k]; // a second run on the same day replaces today's pick
     const offered = { ...log, ...Object.fromEntries(Object.entries(mem).filter(([, day]) => day !== today)) }; // earlier briefs' top picks and manual drafts
-    const { md, json, top } = buildBrief({ account, links: cfg.links, deals, history, offered, feeds, sources, now });
+    const { md, json, top, itemRecords } = buildBrief({ account, links: cfg.links, deals, history, offered, feeds, sources, now });
     if (top?.kind === 'deal') mem[top.id] = today;
     for (const [k, day] of Object.entries(mem)) if ((now - Date.parse(day)) / DAY > 30) delete mem[k];
     await writeFile(resolve(outDir, `brief-${id}.md`), md);
     await writeFile(resolve(outDir, `brief-${id}.json`), JSON.stringify(json, null, 2) + '\n');
+    // Every news item of the window and what happened to it (used for a deal, shown as a topic, dropped and why).
+    await writeFile(resolve(outDir, `items-${id}.json`), JSON.stringify({ account: account.name, generatedAt: new Date(now).toISOString(), windowHours: account.windowHours, count: itemRecords.length, items: itemRecords }, null, 1) + '\n');
     if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, `## ${account.name}: copy this block into the chat\n\n\`\`\`\`text\n${md}\`\`\`\`\n\n`);
     console.log('\n' + md);
   }
