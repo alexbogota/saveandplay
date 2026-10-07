@@ -1,4 +1,4 @@
-# Brief: Honest prices (@saveandplay.com), 2026-10-07 21:26 UTC
+# Brief: Honest prices (@saveandplay.com), 2026-10-07 22:08 UTC
 Prices checked 2026-10-07 09:49 UTC (12 h ago). News: 11 of 11 sources read, 134 items from the last 48 h, 1 of 39 offered deals mentioned.
 
 Write ONE post about the first item below (take another one only if it looks wrong, and say why).
@@ -19,15 +19,15 @@ Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/
 Alt text: Cover art for MONSTER HUNTER RISE
 
 ## 2. Control Ultimate Edition: IndieGala $5.99 (was $39.99, -85%)
-Sale ends 2026-10-08 23:59 UTC (in 27 h). Price checked 2026-10-07 09:49 UTC. Score 10.5.
-Why today: sale ends in 27 h; deepest-discount rank 10 of 39.
+Sale ends 2026-10-08 23:59 UTC (in 26 h). Price checked 2026-10-07 09:49 UTC. Score 10.5.
+Why today: sale ends in 26 h; deepest-discount rank 10 of 39.
 Link for the post (link to our site): https://saveandplay.com/deals/indiegala/control-ultimate-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-07
 Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/870780/ec621653454cdad232187af4eb79f23c05aceca5/header.jpg?t=1781607969
 Alt text: Cover art for Control Ultimate Edition
 
 ## 3. Ghostrunner 2: IndieGala $6.69 (was $39.99, -83%)
-Sale ends 2026-10-08 17:00 UTC (in 20 h). Price checked 2026-10-07 09:49 UTC. Score 10.3.
-Why today: sale ends in 20 h; deepest-discount rank 12 of 39.
+Sale ends 2026-10-08 17:00 UTC (in 19 h). Price checked 2026-10-07 09:49 UTC. Score 10.3.
+Why today: sale ends in 19 h; deepest-discount rank 12 of 39.
 Link for the post (link to our site): https://saveandplay.com/deals/indiegala/ghostrunner-2/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-07
 Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2144740/header.jpg?t=1741369902
 Alt text: Cover art for Ghostrunner 2
@@ -40,8 +40,8 @@ Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/
 Alt text: Cover art for Shadow Tactics: Blades of the Shogun
 
 ## 5. Assetto Corsa Competizione: IndieGala $8.38 (was $39.99, -79%)
-Sale ends 2026-10-08 17:00 UTC (in 20 h). Price checked 2026-10-07 09:49 UTC. Score 9.9.
-Why today: sale ends in 20 h; deepest-discount rank 18 of 39.
+Sale ends 2026-10-08 17:00 UTC (in 19 h). Price checked 2026-10-07 09:49 UTC. Score 9.9.
+Why today: sale ends in 19 h; deepest-discount rank 18 of 39.
 Link for the post (link to our site): https://saveandplay.com/deals/indiegala/assetto-corsa-competizione/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-07
 Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/805550/header.jpg?t=1766404577
 Alt text: Cover art for Assetto Corsa Competizione
@@ -74,4 +74,4 @@ Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: bu
 
 Left out: 0 other-store deals, 0 hidden duplicates, 0 under 50%, 0 ended, 0 ending within 6 h, 0 old prices.
 Sources not read: none.
-Built by: commit b8583f0, push, run #4 attempt 1.
+Built by: commit c247c0f, workflow_dispatch, run #5 attempt 1.
