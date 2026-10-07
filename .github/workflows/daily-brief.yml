@@ -11,6 +11,10 @@ on:
   schedule:
     - cron: '0 11 * * *' # 11:00 UTC = 06:00 Bogota
   workflow_dispatch:
+  # TEMPORARY (Oct 7): a push to the brief code starts one run, to check the result without the Run button. Remove after the check.
+  push:
+    branches: [main]
+    paths: ['scripts/daily-brief.mjs', 'data/accounts.json', '.github/workflows/daily-brief.yml']
 
 # Writing is needed only to save the brief on the "brief" branch.
 permissions:
@@ -27,6 +31,9 @@ jobs:
     steps:
       - name: Get the code
         uses: actions/checkout@v4
+        with:
+          # Always the newest main. Without this, "Re-run jobs" on an old run uses the old commit and so the old code.
+          ref: ${{ github.event.repository.default_branch }}
 
       - name: Install Node.js
         uses: actions/setup-node@v4

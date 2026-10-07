@@ -259,6 +259,11 @@ export function buildCandidates({ eligible, mentions, history, account, links, n
 
 // ---------- the brief ----------
 
+// Which code made this brief. On GitHub: the commit, how the run started and which attempt it is (attempt 2+ = "Re-run" button).
+// Added after a run used old code: a re-run of an old run keeps the old commit.
+export const buildInfo = (env = process.env) =>
+  env.GITHUB_SHA ? `commit ${env.GITHUB_SHA.slice(0, 7)}, ${env.GITHUB_EVENT_NAME}, run #${env.GITHUB_RUN_NUMBER} attempt ${env.GITHUB_RUN_ATTEMPT}` : 'local run';
+
 export function buildBrief({ account, links, deals, history, offered, feeds, sources, now }) {
   const windowMs = account.windowHours * HOUR;
   const mine = pickSources(sources, account);
@@ -324,9 +329,10 @@ export function buildBrief({ account, links, deals, history, offered, feeds, sou
     '',
     `Left out: ${left.otherStore} other-store deals, ${left.hidden} hidden duplicates, ${left.smallDiscount} under ${account.minDiscount}%, ${left.ended} ended, ${left.endsTooSoon} ending within ${account.minHoursLeft} h, ${left.oldPrice} old prices.`,
     `Sources not read: ${failed.length ? failed.map((f) => `${f.name} (${f.why})`).join(', ') : 'none'}.`,
+    `Built by: ${buildInfo()}.`,
   );
 
-  return { md: lines.join('\n') + '\n', json: { account: account.name, generatedAt: new Date(now).toISOString(), pricesCheckedAt: checked ?? null, warnings, candidates, gogNews: news, topical, left, sources: { total: mine.length, failed } }, top: candidates[0] ?? null };
+  return { md: lines.join('\n') + '\n', json: { account: account.name, generatedAt: new Date(now).toISOString(), builtBy: buildInfo(), pricesCheckedAt: checked ?? null, warnings, candidates, gogNews: news, topical, left, sources: { total: mine.length, failed } }, top: candidates[0] ?? null };
 }
 
 // ---------- run ----------
