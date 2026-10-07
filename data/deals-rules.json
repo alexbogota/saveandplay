@@ -1,0 +1,26 @@
+{
+  "about": "Правила программы scripts/update-deals.mjs (npm run update-deals), которая каждое утро обновляет data/deals.json. gog: enabled = обновлять ли GOG; minDiscount, minBase (старая цена, $), minReviews и minRating (отзывы на GOG, рейтинг от 0 до 50, 43 = 4,3 звезды) = какие новые игры GOG вообще рассматриваем; maxNew = сколько новых игр добавить за один запуск; maxTotal = сколько игр GOG держим всего; maxPerPublisher = не больше столько новых игр от одного издателя; maxChecked = сколько новых игр проверять в Steam за запуск (проверка медленная); catalogPages = сколько страниц самых продаваемых скидок читать (по 48 игр); keepMinDiscount = игру GOG, у которой скидка стала меньше этого %, убираем. indiegala: правила отбора IndieGala лежат в scripts/indiegala-candidates.mjs (скидка от 60%, известный издатель, отзывы в Steam), здесь только enabled. steam: общие требования к новым играм (минимум отзывов, % положительных, флаги взрослого контента). dropOlderThanHours = запись, цену которой не проверяли дольше этого времени (часов), убираем с сайта: лучше показать меньше, чем устаревшую цену (то же правило, что в ежедневном подборе поста). exclude = игры, которые никогда не показываем: адрес (или его часть) или название.",
+  "gog": {
+    "enabled": true,
+    "minDiscount": 50,
+    "minBase": 9.99,
+    "minReviews": 300,
+    "minRating": 38,
+    "maxNew": 6,
+    "maxTotal": 24,
+    "maxPerPublisher": 3,
+    "maxChecked": 20,
+    "catalogPages": 3,
+    "keepMinDiscount": 30
+  },
+  "indiegala": {
+    "enabled": true
+  },
+  "steam": {
+    "minReviews": 500,
+    "minPositive": 80,
+    "adultFlags": [1, 3, 4]
+  },
+  "dropOlderThanHours": 48,
+  "exclude": []
+}

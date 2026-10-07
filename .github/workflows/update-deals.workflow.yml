@@ -1,0 +1,62 @@
+name: Update deals
+
+# Every morning at 04:30 Bogota time, and by hand: GitHub -> Actions -> "Update deals" -> Run workflow.
+# It refreshes data/deals.json (new prices, ended sales removed, new good deals added) and data/history.json,
+# fills the covers of new games, saves the files to the main branch and starts the site deploy,
+# so the site and the daily brief both work with fresh prices. What changed is shown on the run page (Summary).
+on:
+  schedule:
+    - cron: '30 9 * * *' # 09:30 UTC = 04:30 Bogota, before the daily brief (11:00 UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: write # to save data/deals.json to main
+  actions: write # to start the deploy
+
+concurrency:
+  group: update-deals
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # Steam answers are slow to get (one request per 1.5 s), so they are kept between runs.
+      - name: Remember Steam answers
+        uses: actions/cache@v4
+        with:
+          path: data/steam-cache.json
+          key: steam-cache-${{ github.run_id }}
+          restore-keys: steam-cache-
+
+      - name: Update prices
+        run: node scripts/update-deals.mjs
+
+      - name: Fill covers of new games
+        continue-on-error: true
+        run: node scripts/fetch-steam-covers.mjs
+
+      - name: Save to main and start the deploy
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "saveandplay-bot"
+          git config user.email "bot@saveandplay.com"
+          git add data/deals.json data/history.json
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git commit -m "Update deals $(date -u +%F)"
+          git pull --rebase --autostash origin main
+          git push origin HEAD:main
+          gh workflow run deploy.yml --ref main

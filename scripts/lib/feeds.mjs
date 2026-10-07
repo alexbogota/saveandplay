@@ -54,7 +54,7 @@ function linkOf(block) {
 
 // JavaScript does not know zone names like EEST or CEST (GOG writes "Tue, 06 Oct 2026 10:49:31 EEST"),
 // so for those the name is replaced by a numeric offset first.
-const ZONES = { EEST: '+0300', EET: '+0200', CEST: '+0200', CET: '+0100', BST: '+0100', WEST: '+0100', WET: '+0000', MSK: '+0300', JST: '+0900', KST: '+0900', AEST: '+1000', AEDT: '+1100', NZST: '+1200', NZDT: '+1300', AKST: '-0900', AKDT: '-0800', HST: '-1000', UT: '+0000' };
+export const ZONES = { EEST: '+0300', EET: '+0200', CEST: '+0200', CET: '+0100', BST: '+0100', WEST: '+0100', WET: '+0000', MSK: '+0300', JST: '+0900', KST: '+0900', AEST: '+1000', AEDT: '+1100', NZST: '+1200', NZDT: '+1300', AKST: '-0900', AKDT: '-0800', HST: '-1000', UT: '+0000' };
 export function parseDate(value) {
   const s = value.trim();
   let t = Date.parse(s);
@@ -194,24 +194,32 @@ function explain(e, timeoutMs) {
   return String(code ?? e?.cause?.message ?? e?.message ?? 'неизвестная ошибка');
 }
 
+// Opens one web address politely: robots.txt first, one request, a time limit, a size limit. Always answers, never throws.
+// Result: { ok, http, text, note, robots }. robots = true when robots.txt forbids the address (nothing was requested).
+export async function fetchText(address, { ua, timeoutMs = 20000, maxBytes = 3_000_000, accept = '*/*' }) {
+  const result = { ok: false, http: null, text: '', note: '', robots: false };
+  try {
+    const url = new URL(address);
+    if (!robotsAllows(await robotsTxt(url, ua, timeoutMs), ua, url.pathname + url.search)) return { ...result, robots: true, note: 'robots.txt запрещает чтение' };
+    const res = await fetch(url, { headers: { 'user-agent': ua, accept }, signal: AbortSignal.timeout(timeoutMs), redirect: 'follow' });
+    result.http = res.status;
+    if (!res.ok) return { ...result, note: `HTTP ${res.status}` };
+    return { ...result, ok: true, text: await readLimited(res, maxBytes) };
+  } catch (e) {
+    return { ...result, note: explain(e, timeoutMs) };
+  }
+}
+
 // Opens one feed politely. Always answers, never throws.
 // Result: { kind: 'OK' | 'ROBOTS' | 'NOT_FEED' | 'FAIL', note, http, items }
 export async function loadFeed(feedUrl, { ua, timeoutMs = 20000, maxBytes = 3_000_000 }) {
-  const result = { kind: 'FAIL', note: '', http: null, items: [] };
+  const r = await fetchText(feedUrl, { ua, timeoutMs, maxBytes, accept: 'application/rss+xml, application/atom+xml, application/xml, text/xml;q=0.9, */*;q=0.5' });
+  if (!r.ok) return { kind: r.robots ? 'ROBOTS' : 'FAIL', note: r.note, http: r.http, items: [] };
   try {
-    const url = new URL(feedUrl);
-    if (!robotsAllows(await robotsTxt(url, ua, timeoutMs), ua, url.pathname + url.search)) return { ...result, kind: 'ROBOTS', note: 'robots.txt запрещает чтение' };
-    const res = await fetch(url, {
-      headers: { 'user-agent': ua, accept: 'application/rss+xml, application/atom+xml, application/xml, text/xml;q=0.9, */*;q=0.5' },
-      signal: AbortSignal.timeout(timeoutMs),
-      redirect: 'follow',
-    });
-    result.http = res.status;
-    if (!res.ok) return { ...result, note: `HTTP ${res.status}` };
-    const feed = parseFeed(await readLimited(res, maxBytes));
-    if (!feed.isFeed) return { ...result, kind: 'NOT_FEED', note: 'это не RSS/Atom (страница сайта?)' };
-    return { ...result, kind: 'OK', items: feed.items };
+    const feed = parseFeed(r.text);
+    if (!feed.isFeed) return { kind: 'NOT_FEED', note: 'это не RSS/Atom (страница сайта?)', http: r.http, items: [] };
+    return { kind: 'OK', note: '', http: r.http, items: feed.items };
   } catch (e) {
-    return { ...result, kind: 'FAIL', note: explain(e, timeoutMs) };
+    return { kind: 'FAIL', note: explain(e, timeoutMs), http: r.http, items: [] };
   }
 }

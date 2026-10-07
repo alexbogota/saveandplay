@@ -11,7 +11,8 @@
     "drafts": "node scripts/make-drafts.mjs",
     "indiegala": "node scripts/indiegala-candidates.mjs",
     "sources": "node scripts/check-sources.mjs",
-    "brief": "node scripts/daily-brief.mjs"
+    "brief": "node scripts/daily-brief.mjs",
+    "update-deals": "node scripts/update-deals.mjs"
   },
   "dependencies": {
     "astro": "^7.3.5"
