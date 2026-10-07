@@ -41,3 +41,6 @@ Deal data in the mockups is placeholder ("Game Title 01"), covers are flat color
 ## Rules
 - Affiliate disclosure must stay visible on the home page and in the footer.
 - Always tell the owner what you changed in plain words. Commit often, small commits.
+
+## Current state and decisions
+Read @PROJECT.md first: it holds the latest affiliate stores, channel rules, link templates and automation plan. Where it conflicts with this file, PROJECT.md is newer. When a decision changes, update PROJECT.md.
