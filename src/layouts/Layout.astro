@@ -9,11 +9,17 @@ interface Props {
   title: string;
   description: string;
   noindex?: boolean;
+  // Link preview card. Without these, the card uses the site title and the one site-wide picture.
+  ogTitle?: string;
+  ogImage?: string; // full address of the picture
+  ogImageAlt?: string;
 }
-const { title, description, noindex = false } = Astro.props;
+const { title, description, noindex = false, ogTitle, ogImage: ogImageUrl, ogImageAlt } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
-// Link preview card (Bluesky, Mastodon and others read these tags). One image for all pages: public/og-image.png, 1200x630.
-const ogImage = new URL('/og-image.png', Astro.site);
+// Link preview card (Bluesky, Mastodon and others read these tags). Default picture for all pages: public/og-image.png, 1200x630.
+// A page with its own picture (a game page) passes ogImage; its size is not known, so no width/height tags are written.
+const ogImage = ogImageUrl ?? new URL('/og-image.png', Astro.site).href;
+const ogAlt = ogImageUrl ? ogImageAlt : 'SaveAndPlay: Save on the games. Play more of them.';
 ---
 <!doctype html>
 <html lang="en">
@@ -25,13 +31,13 @@ const ogImage = new URL('/og-image.png', Astro.site);
     <link rel="canonical" href={canonical} />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="SaveAndPlay" />
-    <meta property="og:title" content={title} />
+    <meta property="og:title" content={ogTitle ?? title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
     <meta property="og:image" content={ogImage} />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="SaveAndPlay: Save on the games. Play more of them." />
+    {!ogImageUrl && <meta property="og:image:width" content="1200" />}
+    {!ogImageUrl && <meta property="og:image:height" content="630" />}
+    {ogAlt && <meta property="og:image:alt" content={ogAlt} />}
     <meta name="twitter:card" content="summary_large_image" />
     {noindex && <meta name="robots" content="noindex" />}
     <meta name="theme-color" content="#0D1117" />

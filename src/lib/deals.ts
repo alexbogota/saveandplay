@@ -43,23 +43,30 @@ const bestOffers = (list: RawDeal[]) => {
 const tones = ['#263553', '#43284F', '#1D4A47', '#573626', '#36462A', '#2F2F66', '#5A2B3A', '#244B5E'];
 const toneFor = (s: string) => tones[[...s].reduce((a, c) => a + c.charCodeAt(0), 0) % tones.length];
 
+const toDeal = (d: RawDeal): Deal => ({
+  id: slug(`${d.store}-${d.title}`),
+  title: d.title,
+  store: d.store,
+  price: d.price,
+  was: d.was,
+  discount: d.discountPct,
+  url: d.url,
+  affiliateUrl: d.affiliateUrl,
+  cover: d.image || undefined,
+  tone: toneFor(d.title),
+  updatedAt: d.checkedAt,
+  endsAt: d.endsAt,
+});
+
 // Real deals come from /data/deals.json. Best discount first.
 export const allDeals: Deal[] = bestOffers(dealsRaw as RawDeal[])
-  .map((d) => ({
-    id: slug(`${d.store}-${d.title}`),
-    title: d.title,
-    store: d.store,
-    price: d.price,
-    was: d.was,
-    discount: d.discountPct,
-    url: d.url,
-    affiliateUrl: d.affiliateUrl,
-    cover: d.image || undefined,
-    tone: toneFor(d.title),
-    updatedAt: d.checkedAt,
-    endsAt: d.endsAt,
-  }))
+  .map(toDeal)
   .sort((a, b) => b.discount - a.discount);
+
+// One page per offer: /deals/<store>/<game>/. This includes the offers the cards hide as "cheaper in another store",
+// so the address of any offer in data/deals.json works. The same address rule is in scripts/daily-brief.mjs (dealPagePath).
+export const dealPath = (d: { store: string; title: string }) => `/deals/${slug(d.store)}/${slug(d.title)}/`;
+export const dealPages: Deal[] = [...new Map((dealsRaw as RawDeal[]).map((d) => [dealPath(d), toDeal(d)])).values()];
 
 // The home page shows the 8 best.
 export const deals = allDeals.slice(0, 8);
