@@ -1,0 +1,10 @@
+# NIP-05 (Nostr address prices@saveandplay.com): web clients read /.well-known/nostr.json from the browser, so the answer must carry
+# the header Access-Control-Allow-Origin: *. This file only touches nostr.json inside the folder .well-known;
+# the main .htaccess of the site and the other files here (atproto-did, the Bluesky handle) stay as they are.
+# The type application/json comes from the server by itself (.json). If the header is still missing after the deploy,
+# the host does not allow it here: see PROJECT.md, section 11 (Nostr). If this file ever causes a server error, delete it.
+<IfModule mod_headers.c>
+  <Files "nostr.json">
+    Header always set Access-Control-Allow-Origin "*"
+  </Files>
+</IfModule>

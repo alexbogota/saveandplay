@@ -1,0 +1,14 @@
+{
+  "names": {
+    "prices": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e"
+  },
+  "relays": {
+    "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e": [
+      "wss://relay.damus.io",
+      "wss://nos.lol",
+      "wss://relay.primal.net",
+      "wss://offchain.pub",
+      "wss://nostr.mom"
+    ]
+  }
+}
