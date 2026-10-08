@@ -1,9 +1,159 @@
 {
  "account": "Honest prices",
- "generatedAt": "2026-10-08T03:58:23.482Z",
+ "generatedAt": "2026-10-08T11:12:47.960Z",
  "windowHours": 48,
- "count": 137,
+ "count": 138,
  "items": [
+  {
+   "source": "gg.deals Freebies",
+   "domain": "gg.deals",
+   "title": "ARC Raiders is free to play right now as its biggest-ever update goes live! (Updated)",
+   "link": "https://gg.deals/freebie/arc-raiders-free-to-play-week/",
+   "published": "2026-10-08T11:03:14.000Z",
+   "status": "topic",
+   "topic": 3,
+   "storyHeadline": "ARC Raiders is free to play right now as its biggest-ever update goes live! (Updated)",
+   "score": 7
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "ARC Raiders is free to play right now as its biggest-ever update goes live! (Updated)",
+   "link": "https://gg.deals/freebie/arc-raiders-free-to-play-week/",
+   "published": "2026-10-08T11:03:14.000Z",
+   "status": "topic",
+   "topic": 3,
+   "storyHeadline": "ARC Raiders is free to play right now as its biggest-ever update goes live! (Updated)",
+   "score": 7
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "Star Wars Galactic Racer will soon welcome larger podracing parties, with multiplayer group size limits set to double in a future update",
+   "link": "https://www.rockpapershotgun.com/star-wars-galactic-racer-will-soon-welcome-larger-podracing-parties-with-multiplayer-group-size-limits-set-to-double-in-a-future-update",
+   "published": "2026-10-08T10:50:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals Freebies",
+   "domain": "gg.deals",
+   "title": "Free-to-play SPAM is trending on Steam, and it's not what you think",
+   "link": "https://gg.deals/freebie/free-to-play-spam-is-trending-on-steam/",
+   "published": "2026-10-08T10:35:51.000Z",
+   "status": "topic",
+   "topic": 4,
+   "storyHeadline": "Free-to-play SPAM is trending on Steam, and it's not what you think",
+   "score": 7
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Free-to-play SPAM is trending on Steam, and it's not what you think",
+   "link": "https://gg.deals/freebie/free-to-play-spam-is-trending-on-steam/",
+   "published": "2026-10-08T10:35:51.000Z",
+   "status": "topic",
+   "topic": 4,
+   "storyHeadline": "Free-to-play SPAM is trending on Steam, and it's not what you think",
+   "score": 7
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "AMD's handsome FSR 4 upscaler is coming to handheld PCs this year, though Steam Deck support could take longer",
+   "link": "https://www.rockpapershotgun.com/amds-handsome-fsr-4-upscaler-is-coming-to-handheld-pcs-this-year-though-steam-deck-support-could-take-longer",
+   "published": "2026-10-08T10:24:51.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "Star Wars Zero Company studio start to bring back devs furloughed prior to launch, with \"more than half\" of previous headcount reportedly returning to payroll",
+   "link": "https://www.rockpapershotgun.com/star-wars-zero-company-studio-start-to-bring-back-devs-furloughed-prior-to-launch-with-more-than-half-of-previous-headcount-reportedly-returning-to-payroll",
+   "published": "2026-10-08T09:18:31.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals Freebies",
+   "domain": "gg.deals",
+   "title": "FREE demo for At Fate's End is here, despite the game's delay to 2027",
+   "link": "https://gg.deals/freebie/free-demo-for-at-fates-end-is-here/",
+   "published": "2026-10-08T09:14:00.000Z",
+   "status": "topic-below-cut",
+   "storyHeadline": "FREE demo for At Fate's End is here, despite the game's delay to 2027",
+   "score": 5
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "FREE demo for At Fate's End is here, despite the game's delay to 2027",
+   "link": "https://gg.deals/freebie/free-demo-for-at-fates-end-is-here/",
+   "published": "2026-10-08T09:14:00.000Z",
+   "status": "topic-below-cut",
+   "storyHeadline": "FREE demo for At Fate's End is here, despite the game's delay to 2027",
+   "score": 5
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "PC Gamer magazine's new issue is on sale now: World of Warcraft: Forever",
+   "link": "https://www.pcgamer.com/games/pc-gamer-magazines-new-issue-is-on-sale-now-world-of-warcraft-forever/",
+   "published": "2026-10-08T09:11:18.000Z",
+   "status": "topic-below-cut",
+   "score": 5
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Gameplay footage from cancelled Xbox Perfect Dark game leaks online, and it looks pretty good",
+   "link": "https://www.eurogamer.net/perfect-dark-reboot-gameplay-footage-leak",
+   "published": "2026-10-08T08:57:13.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "GOG front page",
+   "domain": "gog.com",
+   "title": "Release: Scriptorium: Master of Manuscripts",
+   "link": "http://www.gog.com/news/release_scriptorium_master_of_manuscripts",
+   "published": "2026-10-08T08:39:25.000Z",
+   "status": "store-own-news"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Gears of War boss says the next game won't take seven years to make as he dances around the question of layoffs",
+   "link": "https://www.eurogamer.net/gears-of-war-the-coalition-layoffs-next-game",
+   "published": "2026-10-08T08:21:27.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Xbox Store gets over 1,400 new deals, including Baldur's Gate 3, Legacy of the Dark Knight & more",
+   "link": "https://gg.deals/deal/xbox-store-gets-over-1400-new-deals-including-baldurs-gate-3-legacy-of-the-dark-knight-more/",
+   "published": "2026-10-08T08:09:26.000Z",
+   "status": "topic-below-cut",
+   "score": 5
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Muramasa: Revenant Blades has 108 swords, and its definitive update for PC wants to make sure you use them all",
+   "link": "https://www.pcgamer.com/games/action/muramasa/",
+   "published": "2026-10-08T04:00:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
   {
    "source": "PC Gamer",
    "domain": "pcgamer.com",
@@ -19,9 +169,9 @@
    "title": "Here's the Dragon's Dogma 2: Dark Arisen release time for your region",
    "link": "https://www.pcgamer.com/games/rpg/heres-the-dragons-dogma-2-dark-arisen-release-time-for-your-region/",
    "published": "2026-10-08T00:00:00.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "Here's the Dragon's Dogma 2: Dark Arisen release time for your region",
-   "score": 6
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
   },
   {
    "source": "PC Gamer",
@@ -151,7 +301,7 @@
    "link": "https://gg.deals/deal/make-the-right-choice-grab-the-stanley-parable-ultra-deluxe-at-its-historical-low-price-before-the-steam-autumn-sale-ends/",
    "published": "2026-10-07T18:47:00.000Z",
    "status": "topic",
-   "topic": 4,
+   "topic": 5,
    "score": 7
   },
   {
@@ -170,8 +320,7 @@
    "title": "Humble Indie Fighters Bundle serves up kicks, punches, and blocks galore for $16",
    "link": "https://gg.deals/bundle/humble-indie-fighters-bundle-serves-up-kicks-punches-and-blocks-galore-for-16/",
    "published": "2026-10-07T18:26:34.000Z",
-   "status": "topic",
-   "topic": 5,
+   "status": "topic-below-cut",
    "score": 7
   },
   {
@@ -882,15 +1031,6 @@
    "note": "one site, no keyword of the account, not about a game we list"
   },
   {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "[PRICEBUG?] Killing Floor 3 Steam keys are 90% off on the Humble Store!",
-   "link": "https://gg.deals/deal/pricebug-killing-floor-3-steam-keys-are-90-off-on-the-humble-store/",
-   "published": "2026-10-06T17:43:00.000Z",
-   "status": "topic-below-cut",
-   "score": 5
-  },
-  {
    "source": "Rock Paper Shotgun",
    "domain": "rockpapershotgun.com",
    "title": "\"Your word is undeniable truth\": Can't be bothered to find evidence in Warhammer 40,000: Dark Heresy? It's fine, because no matter what, you're always right",
@@ -916,31 +1056,8 @@
    "title": "Humble Choice October 2026 – Like a Dragon: Pirate Yakuza in Hawaii, Prince of Persia Lost Crown",
    "link": "https://www.indiegamebundles.com/humble-choice-october-2026/",
    "published": "2026-10-06T17:19:24.000Z",
-   "status": "topic",
-   "topic": 3,
-   "storyHeadline": "Humble Choice October 2026 – Like a Dragon: Pirate Yakuza in Hawaii, Prince of Persia Lost Crown",
-   "score": 8
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Two Amazon Luna (Prime Gaming) titles EXPIRE TOMORROW: claim them before time's up!",
-   "link": "https://gg.deals/subscription-news/two-amazon-luna-prime-gaming-titles-expire-tomorrow-claim-them-before-times-up/",
-   "published": "2026-10-06T17:12:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Humble Choice October 2026 gets you Pirate Yakuza in Hawaii, PoP The Lost Crown & more",
-   "link": "https://gg.deals/bundle/humble-choice-october-2026/",
-   "published": "2026-10-06T17:11:00.000Z",
-   "status": "topic",
-   "topic": 3,
-   "storyHeadline": "Humble Choice October 2026 – Like a Dragon: Pirate Yakuza in Hawaii, Prince of Persia Lost Crown",
-   "score": 8
+   "status": "topic-below-cut",
+   "score": 5
   },
   {
    "source": "PC Gamer",
@@ -951,16 +1068,6 @@
    "status": "dropped",
    "score": 3,
    "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Dragon’s Dogma 2: Dark Arisen launch times: See when the journey begins in your region",
-   "link": "https://gg.deals/gaming-news/dragons-dogma-2-dark-arisen-launch-times-see-when-the-journey-begins-in-your-region/",
-   "published": "2026-10-06T16:44:00.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "Here's the Dragon's Dogma 2: Dark Arisen release time for your region",
-   "score": 6
   },
   {
    "source": "Rock Paper Shotgun",
@@ -1101,8 +1208,8 @@
   {
    "source": "PC Gamer",
    "domain": "pcgamer.com",
-   "title": "Warhammer Survivors is more than just a Vampire Survivors spin-off",
-   "link": "https://www.pcgamer.com/games/roguelike/warhammer-survivors-is-more-than-just-a-vampire-survivors-spin-off/",
+   "title": "Gundam Rogue Orbit gave me a sick whip sword, but held back the one thing I want most in a mech game",
+   "link": "https://www.pcgamer.com/games/action/gundam-rogue-orbit-gave-me-a-sick-whip-sword-but-held-back-the-one-thing-i-want-most-in-a-mech-game/",
    "published": "2026-10-06T14:00:00.000Z",
    "status": "dropped",
    "score": 3,
@@ -1111,8 +1218,8 @@
   {
    "source": "PC Gamer",
    "domain": "pcgamer.com",
-   "title": "Gundam Rogue Orbit gave me a sick whip sword, but held back the one thing I want most in a mech game",
-   "link": "https://www.pcgamer.com/games/action/gundam-rogue-orbit-gave-me-a-sick-whip-sword-but-held-back-the-one-thing-i-want-most-in-a-mech-game/",
+   "title": "Warhammer Survivors is more than just a Vampire Survivors spin-off",
+   "link": "https://www.pcgamer.com/games/roguelike/warhammer-survivors-is-more-than-just-a-vampire-survivors-spin-off/",
    "published": "2026-10-06T14:00:00.000Z",
    "status": "dropped",
    "score": 3,
@@ -1241,103 +1348,6 @@
    "title": "Gears of War: E-Day studio finds a way to get more performance from Xbox Series S - one that other Xbox games could probably use",
    "link": "https://www.eurogamer.net/xbox-series-s-more-power-gears-of-war-e-day-ssd",
    "published": "2026-10-06T11:36:35.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "CD Projekt Red outlines which Witcher 3 Remastered fixes are coming next, but there's still division about the changes",
-   "link": "https://www.eurogamer.net/cd-projekt-red-witcher-3-bugs-issues-remastered-ps5",
-   "published": "2026-10-06T11:01:33.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "Retro platformer series Dizzy is back for a new game from its original creators, who are really happy for you to know it's made with AI",
-   "link": "https://www.rockpapershotgun.com/retro-platformer-series-dizzy-is-back-for-a-new-game-from-its-original-creators-who-are-really-happy-for-you-to-know-its-made-with-ai",
-   "published": "2026-10-06T10:51:11.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "Following through on their warning, Until Dawn and Directive 8020 devs Supermassive lay off \"more than 70\" staff",
-   "link": "https://www.rockpapershotgun.com/following-through-on-their-warning-until-dawn-and-directive-8020-devs-supermassive-lay-off-more-than-70-staff",
-   "published": "2026-10-06T09:45:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "GamesRadar deals",
-   "domain": "gamesradar.com",
-   "title": "System Shock 2 is now free on Epic, but thankfully we have far better controllers to play it with these days",
-   "link": "https://www.gamesradar.com/hardware/desktop-pc/system-shock-2-is-now-free-on-epic-but-thankfully-we-have-far-better-controllers-to-play-it-with-these-days/",
-   "published": "2026-10-06T09:18:43.000Z",
-   "status": "topic-below-cut",
-   "score": 5
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "After 12 years, Ultra Street Fighter IV gets not one, but two connection-stabilising rollback netcode mods aaaand they're both made using Claude",
-   "link": "https://www.rockpapershotgun.com/after-12-years-ultra-street-fighter-iv-gets-not-one-but-two-connection-stabilising-rollback-netcode-mods-aaaand-theyre-both-made-using-claude",
-   "published": "2026-10-06T09:14:14.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "Supermassive Games suffers layoffs as more than 70 developers seem to have left the company this week",
-   "link": "https://www.eurogamer.net/supermassive-games-layoffs-70",
-   "published": "2026-10-06T09:05:20.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "Tarae: The Unbound seems to get what makes a good ARPG, but crunchy combat aside, can it rise to the likes of Diablo and Path of Exile?",
-   "link": "https://www.eurogamer.net/tarae-the-unbound-preview",
-   "published": "2026-10-06T09:00:01.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "\"This is Call of Duty's definitive extraction shooter experience\" - Infinity Ward details the new DMZ mode in Modern Warfare 4",
-   "link": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-dmz-reveal",
-   "published": "2026-10-06T08:57:36.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "GOG front page",
-   "domain": "gog.com",
-   "title": "Out of Early Access: Toy Shire",
-   "link": "http://www.gog.com/news/out_of_early_access_toy_shire",
-   "published": "2026-10-06T07:49:31.000Z",
-   "status": "store-own-news"
-  },
-  {
-   "source": "Indie Game Bundles",
-   "domain": "indiegamebundles.com",
-   "title": "Get Microsoft Office 2024 Professional Plus for Just $49.97 – Lifetime License, No Subscription",
-   "link": "https://www.indiegamebundles.com/get-microsoft-office-2024-professional-plus/",
-   "published": "2026-10-06T06:41:00.000Z",
    "status": "dropped",
    "score": 3,
    "note": "one site, no keyword of the account, not about a game we list"

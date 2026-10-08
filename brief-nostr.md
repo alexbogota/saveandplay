@@ -1,5 +1,5 @@
-# Brief: Honest prices (npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8), 2026-10-08 03:58 UTC
-Prices checked 2026-10-07 09:49 UTC (18 h ago). News: 11 of 11 sources read, 137 items from the last 48 h, 1 of 39 offered deals mentioned.
+# Brief: Honest prices (npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8), 2026-10-08 11:12 UTC
+Prices checked 2026-10-08 09:51 UTC (1 h ago). News: 11 of 11 sources read, 138 items from the last 48 h, 1 of 33 offered deals mentioned.
 
 Write ONE post about the first item below (take another one only if it looks wrong, and say why).
 Rules:
@@ -12,43 +12,45 @@ Rules:
 - The note is made by scripts/post-nostr.mjs from a template, without AI. This account is automated and some links are affiliate links; the profile says so.
 
 ## 1. MONSTER HUNTER RISE: IndieGala $3.99 (was $39.99, -90%)
-Sale ends 2026-10-16 23:59 UTC (in 9 days). Price checked 2026-10-07 09:49 UTC. Score 12.
-Why today: 1 news site wrote about the game in the last 48 h; deepest-discount rank 7 of 39.
+Sale ends 2026-10-16 23:59 UTC (in 9 days). Price checked 2026-10-08 09:51 UTC. Score 13.
+Why today: 1 news site wrote about the game in the last 48 h; lowest price we've tracked (3 days of data); deepest-discount rank 8 of 33.
 - Eurogamer, Oct 7: "20 million sales later, Capcom is bringing Monster Hunter Rise to iOS and Android, but fo…" https://www.eurogamer.net/monster-hunter-rise-ios-android-netflix
 Link for the post (link to our site): https://saveandplay.com/deals/indiegala/monster-hunter-rise/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-08
 Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1446780/header.jpg?t=1768870444
 Alt text: Cover art for MONSTER HUNTER RISE
 
 ## 2. Control Ultimate Edition: IndieGala $5.99 (was $39.99, -85%)
-Sale ends 2026-10-08 23:59 UTC (in 20 h). Price checked 2026-10-07 09:49 UTC. Score 10.5.
-Why today: sale ends in 20 h; deepest-discount rank 10 of 39.
+Sale ends 2026-10-08 23:59 UTC (in 13 h). Price checked 2026-10-08 09:51 UTC. Score 11.5.
+Why today: sale ends in 13 h; lowest price we've tracked (3 days of data); deepest-discount rank 11 of 33.
 Link for the post (link to our site): https://saveandplay.com/deals/indiegala/control-ultimate-edition/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-08
 Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/870780/ec621653454cdad232187af4eb79f23c05aceca5/header.jpg?t=1781607969
 Alt text: Cover art for Control Ultimate Edition
 
-## 3. Ghostrunner 2: IndieGala $6.69 (was $39.99, -83%)
-Sale ends 2026-10-08 17:00 UTC (in 13 h). Price checked 2026-10-07 09:49 UTC. Score 10.3.
-Why today: sale ends in 13 h; deepest-discount rank 12 of 39.
-Link for the post (link to our site): https://saveandplay.com/deals/indiegala/ghostrunner-2/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-08
-Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2144740/header.jpg?t=1741369902
-Alt text: Cover art for Ghostrunner 2
-
-## 4. Shadow Tactics: Blades of the Shogun: GOG $3.99 (was $39.99, -90%)
-Sale ends 2026-10-18 06:59 UTC (in 10 days). Price checked 2026-10-07 09:48 UTC. Score 10.
-Why today: deepest-discount rank 6 of 39.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-08
-Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696
-Alt text: Cover art for Shadow Tactics: Blades of the Shogun
-
-## 5. Castlevania: Lords of Shadow 2: IndieGala $7.99 (was $39.99, -80%)
-Sale ends 2026-10-09 23:59 UTC (in 44 h). Price checked 2026-10-07 09:49 UTC. Score 10.
-Why today: sale ends in 44 h; deepest-discount rank 17 of 39.
+## 3. Castlevania: Lords of Shadow 2: IndieGala $7.99 (was $39.99, -80%)
+Sale ends 2026-10-09 23:59 UTC (in 37 h). Price checked 2026-10-08 09:51 UTC. Score 11.
+Why today: sale ends in 37 h; lowest price we've tracked (3 days of data); deepest-discount rank 18 of 33.
 Link for the post (link to our site): https://saveandplay.com/deals/indiegala/castlevania-lords-of-shadow-2/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-08
 Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/239250/header.jpg?t=1737506536
 Alt text: Cover art for Castlevania: Lords of Shadow 2
 
+## 4. Deponia: GOG $0.99 (was $9.99, -90%)
+Sale ends 2026-10-18 06:59 UTC (in 10 days). Price checked 2026-10-08 09:48 UTC. Score 10.
+Why today: deepest-discount rank 7 of 33.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/deponia/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-08
+Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/214340/header.jpg?t=1789381815
+Alt text: Cover art for Deponia
+
+## 5. Shadow Tactics: Blades of the Shogun: GOG $3.99 (was $39.99, -90%)
+Sale ends 2026-10-18 06:59 UTC (in 10 days). Price checked 2026-10-08 09:48 UTC. Score 10.
+Why today: deepest-discount rank 6 of 33.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-08
+Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696
+Alt text: Cover art for Shadow Tactics: Blades of the Shogun
+
 ## News on the topic (no deal)
-- PC Gamer, Oct 8: "Now we know the prices of the new RTX Spark laptops and they're as expensive as I'm sure you feared" https://www.pcgamer.com/hardware/gaming-laptops/now-we-know-the-prices-of-the-new-rtx-spark-laptops-and-theyre-as-expensive-as-im-sure-you-feared/ | RTX Spark laptops will range from $2,600 all the way up to $7,000. Pre-orders open now. Release date is October 16, 2026. It is the best of times, it is the wo…
+- gg.deals Freebies, Oct 8: "FREE demo for At Fate's End is here, despite the game's delay to 2027" https://gg.deals/freebie/free-demo-for-at-fates-end-is-here/ | Thunder Lotus has a little treat for curious PC players.
+- PC Gamer, Oct 8: "PC Gamer magazine's new issue is on sale now: World of Warcraft: Forever" https://www.pcgamer.com/games/pc-gamer-magazines-new-issue-is-on-sale-now-world-of-warcraft-forever/ | This month, PC Gamer delivers world-exclusive access to World of Warcraft: Forever, the exciting new evolution of classic WoW that is kicking off a new MMO gol…
+- gg.deals News, Oct 8: "Xbox Store gets over 1,400 new deals, including Baldur's Gate 3, Legacy of the Dark Knight & more" https://gg.deals/deal/xbox-store-gets-over-1400-new-deals-including-baldurs-gate-3-legacy-of-the-dark-knight-more/ | Over 1,400 deals? Xbox really isn't giving our wallets a break.
 
 ## Topics for articles (stories without a deal; headlines and links only. Write an article only if the owner asks)
 1. Free Steam keys for Spooky Cats are available from Fanatical while stocks last! (score 11)
@@ -60,17 +62,16 @@ Why now: 3 sites wrote about it in the last 48 h (gamerpower.com, gg.deals, indi
 Why now: 2 sites wrote about it in the last 48 h (gg.deals, indiegamebundles.com); matches keywords: bundle, humble; newest Oct 7.
 - gg.deals News, Oct 7: "Humble Beyond Reality: Sci-Fi & Survival VR Bundle throws you into outer space and spooky forests" https://gg.deals/bundle/humble-beyond-reality-sci-fi-survival-vr-bundle-throws-you-into-outer-space-and-spooky-forests/
 - Indie Game Bundles, Oct 7: "Humble Beyond Reality: Sci-Fi & Survival VR Collection" https://www.indiegamebundles.com/humble-beyond-reality-sci-fi-survival-vr-collection/
-3. Humble Choice October 2026 – Like a Dragon: Pirate Yakuza in Hawaii, Prince of Persia Lost Crown (score 8)
-Why now: 2 sites wrote about it in the last 48 h (gg.deals, indiegamebundles.com); matches keywords: humble; newest Oct 6.
-- Indie Game Bundles, Oct 6: "Humble Choice October 2026 – Like a Dragon: Pirate Yakuza in Hawaii, Prince of Persia Lost Crown" https://www.indiegamebundles.com/humble-choice-october-2026/
-- gg.deals News, Oct 6: "Humble Choice October 2026 gets you Pirate Yakuza in Hawaii, PoP The Lost Crown & more" https://gg.deals/bundle/humble-choice-october-2026/
-4. Choose wisely: grab The Stanley Parable Ultra Deluxe at its historical low price before the Steam Autumn Sale… (score 7)
+3. ARC Raiders is free to play right now as its biggest-ever update goes live! (Updated) (score 7)
+Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: free, free to play; newest Oct 8.
+- gg.deals Freebies, Oct 8: "ARC Raiders is free to play right now as its biggest-ever update goes live! (Updated)" https://gg.deals/freebie/arc-raiders-free-to-play-week/
+4. Free-to-play SPAM is trending on Steam, and it's not what you think (score 7)
+Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: free, free to play; newest Oct 8.
+- gg.deals Freebies, Oct 8: "Free-to-play SPAM is trending on Steam, and it's not what you think" https://gg.deals/freebie/free-to-play-spam-is-trending-on-steam/
+5. Choose wisely: grab The Stanley Parable Ultra Deluxe at its historical low price before the Steam Autumn Sale… (score 7)
 Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: sale, price; newest Oct 7.
 - gg.deals News, Oct 7: "Choose wisely: grab The Stanley Parable Ultra Deluxe at its historical low price before the Steam A…" https://gg.deals/deal/make-the-right-choice-grab-the-stanley-parable-ultra-deluxe-at-its-historical-low-price-before-the-steam-autumn-sale-ends/
-5. Humble Indie Fighters Bundle serves up kicks, punches, and blocks galore for $16 (score 7)
-Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: bundle, humble; newest Oct 7.
-- gg.deals News, Oct 7: "Humble Indie Fighters Bundle serves up kicks, punches, and blocks galore for $16" https://gg.deals/bundle/humble-indie-fighters-bundle-serves-up-kicks-punches-and-blocks-galore-for-16/
 
-Left out: 0 other-store deals, 0 hidden duplicates, 0 under 50%, 0 ended, 0 ending within 6 h, 0 old prices.
+Left out: 0 other-store deals, 0 hidden duplicates, 0 under 50%, 0 ended, 8 ending within 6 h, 0 old prices.
 Sources not read: none.
-Built by: commit 525a7cd, workflow_dispatch, run #6 attempt 1.
+Built by: commit 7a21ef4, schedule, run #7 attempt 1.
