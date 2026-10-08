@@ -6,12 +6,12 @@
 //   GitHub -> Actions -> "Post to Nostr" (every day at 06:30 Bogota, after the daily brief; or Run workflow, mode dry-run or post)
 //
 // What is posted: first the ARTICLES of the account's queue (data/nostr-articles.json: the next article that is approved and not posted yet),
-// one a day. When there is none left, the deals. The text of an article is written by hand in that file (no AI); the program adds #ad, the link
+// one a day. When there is none left, the deals. The text of an article is written by hand in that file (no AI); the program adds the link
 // with the account's marks (utm_source = subid) and the picture with its alt text.
 //
 // Where a deal note comes from: the FIRST deal of drafts/brief-<account>.json (the json of the daily brief, made by scripts/daily-brief.mjs;
 // on GitHub it is read from the "brief" branch by scripts/nostr-branch.sh). The text is built from its numbers and dates only:
-// game, discount, price, old price, store, "Price checked <date>", sale end date (if any), "Why today" (if the brief has it), #ad, picture address, link.
+// game, discount, price, old price, store, "Price checked <date>", sale end date (if any), "Why today" (if the brief has it), the "Ad:" line, picture address, link.
 //
 // One note a day per account: the record of what was posted is drafts/posted-nostr.json (on GitHub it lives on the "brief" branch, so the
 // site is not rebuilt). Run it twice and the second run says "already posted today". As a second guard the relays are asked whether the
@@ -22,7 +22,7 @@
 
 import { writeFileSync, mkdirSync } from 'node:fs';
 import { dirname } from 'node:path';
-import { file, readJson, nostrAccounts, loadRelayConfig, loadSecretKey, npubOf, getPublicKey, buildNote, buildArticleNote, articleQueue, signNote, verifyEvent, publishToAll, queryRelay, relayTable, summary, hoursSince, nip19, finish } from './lib/nostr.mjs';
+import { file, readJson, nostrAccounts, loadRelayConfig, loadSecretKey, npubOf, getPublicKey, buildNote, buildArticleNote, articleQueue, signNote, verifyEvent, publishToAll, queryRelay, relayTable, summary, hoursSince, nip19, finish, BRAND_TAG, OLD_AD_TAG } from './lib/nostr.mjs';
 
 const args = process.argv.slice(2);
 const dryRun = args.includes('--dry-run');
@@ -139,7 +139,7 @@ async function runAccount({ id, account, links }, state) {
   } else {
     // Second guard: does the account already have a note from the last 20 hours on the relays? Replies (they have an "e" tag) do not count:
     // the owner may answer people from this account by hand.
-    const found = (await Promise.all(relays.urls.map((u) => queryRelay(u, { authors: [pk], kinds: [1], '#t': ['ad'], since: Math.floor(NOW / 1000) - 20 * 3600, limit: 20 }, Math.min(relays.timeoutMs, 6000))))).flat().filter((ev) => ev && !ev.tags?.some((t) => t[0] === 'e'));
+    const found = (await Promise.all(relays.urls.map((u) => queryRelay(u, { authors: [pk], kinds: [1], '#t': [BRAND_TAG, OLD_AD_TAG], since: Math.floor(NOW / 1000) - 20 * 3600, limit: 20 }, Math.min(relays.timeoutMs, 6000))))).flat().filter((ev) => ev && !ev.tags?.some((t) => t[0] === 'e'));
     if (found.length) {
       const ev = found.sort((a, b) => b.created_at - a.created_at)[0];
       mine[day] = { status: 'done', id: ev.id, npub, foundOnRelay: true, postedAt: new Date(ev.created_at * 1000).toISOString() };

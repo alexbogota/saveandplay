@@ -22,7 +22,7 @@ import { bytesToHex } from 'nostr-tools/utils';
 
 process.env.NOSTR_ROOT = process.env.NOSTR_ROOT || ''; // the test itself imports the template code, which must see the real settings
 delete process.env.NOSTR_ROOT;
-const { buildNote, whyLine, nostrAccounts, buildArticleNote, articleQueue } = await import('./lib/nostr.mjs');
+const { buildNote, whyLine, nostrAccounts, buildArticleNote, articleQueue, DISCLOSURE, BRAND_TAG } = await import('./lib/nostr.mjs');
 
 const here = (rel) => fileURLToPath(new URL(rel, import.meta.url));
 const NOW = '2026-10-08T11:30:00Z';
@@ -202,7 +202,7 @@ const readDay = (iso) => new Intl.DateTimeFormat('en-CA', { timeZone: 'America/B
 const tests = [];
 const test = (name, fn) => tests.push({ name, fn });
 
-test('template: the text has only brief numbers, #ad, picture line, link last', () => {
+test('template: the text has only brief numbers, the "Ad:" line, picture line, link last', () => {
   const { content, tags } = buildNote(candidate, realAccount);
   assert.equal(
     content,
@@ -211,14 +211,16 @@ test('template: the text has only brief numbers, #ad, picture line, link last', 
       '$5.99 (was $39.99)',
       'Price checked 2026-10-07 09:49 UTC. Sale ends 2026-10-08 23:59 UTC.',
       'Why today: sale ends in 13 h.',
-      '#ad',
+      'Ad: we may earn a commission if you buy.',
       '',
       candidate.cover,
       '',
       candidate.link,
     ].join('\n'),
   );
-  assert.deepEqual(tags.filter((t) => t[0] === 't'), [['t', 'ad'], ['t', 'pcgaming'], ['t', 'gamedeals']]);
+  assert.equal(DISCLOSURE, 'Ad: we may earn a commission if you buy.');
+  assert.ok(!content.includes('#'), 'no hashtag in the text of a deal note');
+  assert.deepEqual(tags.filter((t) => t[0] === 't'), [['t', 'saveandplay'], ['t', 'pcgaming'], ['t', 'gamedeals']]);
   const imeta = tags.find((t) => t[0] === 'imeta');
   assert.ok(imeta.includes(`url ${candidate.cover}`) && imeta.includes('m image/jpeg') && imeta.includes('alt Cover art for Control Ultimate Edition'));
   assert.ok(content.trimEnd().endsWith(candidate.link));
@@ -235,10 +237,12 @@ test('template: no cover = no picture line and no imeta; no end date; rank shown
   assert.ok(noAlt.tags.find((t) => t[0] === 'imeta').includes('alt Cover art for Control Ultimate Edition'));
 });
 
-test('template: broken data is refused, #ad cannot be dropped from the tags', () => {
+test('template: broken data is refused, "ad" is never a tag, the brand tag cannot be dropped', () => {
   const a = realAccount;
   for (const bad of [{ price: NaN }, { link: 'http://x' }, { link: undefined }, { priceCheckedAt: 'x' }, { title: '' }, { cover: 'ftp://x' }]) assert.throws(() => buildNote({ ...candidate, ...bad }, a), /not complete|not valid/);
-  assert.deepEqual(buildNote(candidate, { hashtags: ['pcgaming'] }).tags.filter((t) => t[0] === 't'), [['t', 'ad'], ['t', 'pcgaming']]);
+  assert.deepEqual(buildNote(candidate, { hashtags: ['pcgaming'] }).tags.filter((t) => t[0] === 't'), [['t', BRAND_TAG], ['t', 'pcgaming']]);
+  // an old settings file that still lists "ad" does not bring the tag back
+  assert.deepEqual(buildNote(candidate, { hashtags: ['#AD', 'pcgaming'] }).tags.filter((t) => t[0] === 't'), [['t', BRAND_TAG], ['t', 'pcgaming']]);
 });
 
 test('dry-run: shows the note, publishes nothing, writes no record, needs no key', async () => {
@@ -246,7 +250,7 @@ test('dry-run: shows the note, publishes nothing, writes no record, needs no key
   const root = makeRoot({ relays: [r1.url], autopost: false });
   const r = await run('post-nostr.mjs', ['--dry-run'], { root, withKey: false });
   assert.equal(r.code, 0, r.all);
-  assert.ok(r.out.includes('Control Ultimate Edition: -85% at IndieGala') && r.out.includes('#ad'));
+  assert.ok(r.out.includes('Control Ultimate Edition: -85% at IndieGala') && r.out.includes('Ad: we may earn a commission if you buy.') && !r.out.includes('#ad'));
   assert.ok(r.summary.includes('Dry run: nothing was published'));
   assert.equal(r1.events.length, 0);
   assert.ok(!existsSync(join(root, 'drafts/posted-nostr.json')));
@@ -266,28 +270,29 @@ test('two files: settings of the account live in data/nostr-accounts.json, the b
   assert.ok(/nostr-accounts\.json but not in data\/accounts\.json/.test(r.all), r.all);
 });
 
-test('article note: exact text, #ad added by the program, marked link last, picture with alt, t tags; incomplete articles are refused', () => {
+test('article note: exact text (no "Ad" line, no hashtag), marked link last, picture with alt, t tags; incomplete articles are refused', () => {
   const link = `${SITE}/guides/x/?utm_source=nostr-prices&utm_medium=social&utm_campaign=guide-x`;
   const n = buildArticleNote(art(), realAccount, SITE);
-  assert.equal(n.content, `Line one.\n\nLine two.\n#ad\n\n${link}`);
-  assert.deepEqual(n.tags, [['t', 'ad'], ['t', 'pcgaming'], ['t', 'gamedeals'], ['t', 'steam']]);
+  assert.equal(n.content, `Line one.\n\nLine two.\n\n${link}`);
+  assert.deepEqual(n.tags, [['t', 'saveandplay'], ['t', 'pcgaming'], ['t', 'gamedeals'], ['t', 'steam']]);
   const pic = buildArticleNote(art({ image: '/og/x.png', imageAlt: 'A diagram' }), realAccount, SITE);
-  assert.equal(pic.content, `Line one.\n\nLine two.\n#ad\n\n${SITE}/og/x.png\n\n${link}`);
+  assert.equal(pic.content, `Line one.\n\nLine two.\n\n${SITE}/og/x.png\n\n${link}`);
   assert.deepEqual(pic.tags.at(-1), ['imeta', `url ${SITE}/og/x.png`, 'm image/png', 'alt A diagram']);
   assert.ok(pic.content.trimEnd().endsWith(link));
   for (const bad of [{ image: '/og/x.png' }, { lines: [] }, { lines: ['', ' '] }, { path: 'guides/x/' }, { path: '/x/?a=b' }, { campaign: 'a b' }]) assert.throws(() => buildArticleNote(art(bad), realAccount, SITE), /not complete or not valid/, JSON.stringify(bad));
   assert.throws(() => buildArticleNote(art(), { ...realAccount, subid: '' }, SITE), /not complete or not valid/);
   assert.throws(() => buildArticleNote(art(), realAccount, 'http://saveandplay.com'), /not complete or not valid/);
-  // "ad" cannot be dropped from the tags even if the account has no hashtags
-  assert.deepEqual(buildArticleNote(art({ tags: [] }), { ...realAccount, hashtags: ['pcgaming'] }, SITE).tags, [['t', 'ad'], ['t', 'pcgaming']]);
+  // the brand tag cannot be dropped even if the account has no hashtags, and "ad" is never a tag (not even from the article's own tags)
+  assert.deepEqual(buildArticleNote(art({ tags: [] }), { ...realAccount, hashtags: ['pcgaming'] }, SITE).tags, [['t', 'saveandplay'], ['t', 'pcgaming']]);
+  assert.deepEqual(buildArticleNote(art({ tags: ['ad', 'steam'] }), { ...realAccount, hashtags: ['pcgaming'] }, SITE).tags, [['t', 'saveandplay'], ['t', 'pcgaming'], ['t', 'steam']]);
 });
 
-test('articles: every article of the real queue builds a valid note (#ad, marked link, alt text on pictures); the first one is approved', () => {
+test('articles: every article of the real queue builds a valid note (no #ad, marked link, alt text on pictures); the first one is approved', () => {
   assert.ok(realArticles.queues.nostr.length >= 1);
   for (const slug of realArticles.queues.nostr) {
     const a = { slug, ...realArticles.articles[slug] };
     const n = buildArticleNote(a, realAccount, SITE);
-    assert.ok(/(^|\s)#ad(\s|$)/.test(n.content), slug);
+    assert.ok(!/(^|\s)#ad(\s|$)/i.test(n.content) && !n.tags.some((t) => t[0] === 't' && t[1] === 'ad'), slug);
     assert.ok(n.content.trimEnd().endsWith(n.link) && n.link.includes('utm_source=nostr-prices&utm_medium=social'), slug);
     if (a.image) assert.ok(n.tags.some((t) => t[0] === 'imeta' && t.some((f) => f.startsWith('alt ') && f.length > 8)), slug);
   }
@@ -322,7 +327,7 @@ test('dry-run with articles: shows the next article (text, tags, queue), publish
   const root = makeRoot({ relays: [r1.url], autopost: false, articles: fixture({ one: art({ lines: ['First article.'], path: '/guides/one/', campaign: 'guide-one' }), two: art({ approved: false }) }) });
   const r = await run('post-nostr.mjs', ['--dry-run'], { root, withKey: false });
   assert.equal(r.code, 0, r.all);
-  assert.ok(r.out.includes('First article.\n#ad') && r.out.includes('utm_campaign=guide-one') && !r.out.includes('Control Ultimate Edition'));
+  assert.ok(r.out.includes('First article.\n\nhttps://saveandplay.com/guides/one/?utm_source=nostr-prices') && !r.out.includes('#ad') && r.out.includes('utm_campaign=guide-one') && !r.out.includes('Control Ultimate Edition'));
   assert.ok(r.summary.includes('Article: one') && r.summary.includes('Waiting for approval') && r.summary.includes('two'), r.summary);
   assert.equal(r1.events.length, 0);
   assert.ok(!existsSync(join(root, 'drafts/posted-nostr.json')));
@@ -346,7 +351,7 @@ test('post: articles go first, one a day, a not approved one is never posted, th
   let r = await run('post-nostr.mjs', [], { root });
   assert.equal(r.code, 0, r.all);
   assert.equal(a.events.length, 1);
-  assert.ok(a.events[0].content.startsWith('First article.\n#ad') && a.events[0].content.includes('utm_source=nostr-prices') && a.events[0].content.includes('utm_campaign=guide-one'));
+  assert.ok(a.events[0].content.startsWith('First article.\n\nhttps://saveandplay.com/guides/one/') && !a.events[0].content.includes('#ad') && !a.events[0].tags.some((t) => t[0] === 't' && t[1] === 'ad') && a.events[0].content.includes('utm_source=nostr-prices') && a.events[0].content.includes('utm_campaign=guide-one'));
   let st = readState(root);
   assert.equal(st.accounts.nostr[day].kind, 'article');
   assert.equal(st.accounts.nostr[day].article, 'one');
@@ -416,6 +421,32 @@ test('post: a reply of the owner (it has an "e" tag) does not count as the note 
   [r1, r2].forEach((x) => x.close());
 });
 
+test('post: the relay guard knows our brand tag and the old "ad" tag of the first notes; a hand-written note without them does not block', async () => {
+  const mk = (tags, t = 3) => finalizeEvent({ kind: 1, created_at: Math.floor(Date.parse(NOW) / 1000) - t * 3600, tags, content: 'x' }, secret);
+  // 1) a note of the first days (tag "ad", no brand tag), day record lost: no second note
+  const [o1, o2] = [await startRelay('accept'), await startRelay('accept')];
+  o1.events.push(mk([['t', 'ad']]));
+  const old = await run('post-nostr.mjs', [], { root: makeRoot({ relays: [o1.url, o2.url] }) });
+  assert.equal(old.code, 0, old.all);
+  assert.ok(/already have a note/.test(old.summary), old.summary);
+  assert.equal(o1.events.length, 1);
+  // 2) a note with the brand tag
+  const [b1, b2] = [await startRelay('accept'), await startRelay('accept')];
+  b1.events.push(mk([['t', 'saveandplay'], ['t', 'pcgaming']]));
+  const brand = await run('post-nostr.mjs', [], { root: makeRoot({ relays: [b1.url, b2.url] }) });
+  assert.equal(brand.code, 0, brand.all);
+  assert.ok(/already have a note/.test(brand.summary), brand.summary);
+  assert.equal(b1.events.length, 1);
+  // 3) a note written by hand (no brand tag, no "ad"): not ours, the daily note goes out
+  const [h1, h2] = [await startRelay('accept'), await startRelay('accept')];
+  h1.events.push(mk([['t', 'nostr']]));
+  const hand = await run('post-nostr.mjs', [], { root: makeRoot({ relays: [h1.url, h2.url] }) });
+  assert.equal(hand.code, 0, hand.all);
+  assert.ok(!/already have a note/.test(hand.summary));
+  assert.equal(h1.events.length, 2);
+  [o1, o2, b1, b2, h1, h2].forEach((x) => x.close());
+});
+
 test('short profile links: the website of the profile is a short address that public/go/.htaccess sends to the site with the marks of the account', () => {
   const site = new URL(realAccount.profile.website);
   assert.equal(site.origin, SITE);
@@ -479,7 +510,8 @@ test('post: 3 accept, 1 rejects, 1 is silent, 1 is dead => success, verified sig
   assert.equal(rej.events.length + silent.events.length, 0);
   const ev = a.events[0];
   assert.equal(ev.id, b.events[0].id, 'the same note on every relay');
-  assert.ok(ev.content.includes('#ad') && ev.content.trimEnd().endsWith(candidate.link));
+  assert.ok(ev.content.includes('\nAd: we may earn a commission if you buy.\n') && !ev.content.includes('#') && ev.content.trimEnd().endsWith(candidate.link));
+  assert.ok(ev.tags.some((t) => t[0] === 't' && t[1] === 'saveandplay') && !ev.tags.some((t) => t[0] === 't' && t[1] === 'ad'));
   assert.ok(ev.tags.some((t) => t[0] === 'imeta' && t.some((f) => f.startsWith('alt ') && f.length > 4)));
   assert.ok(Math.abs(ev.created_at - Date.parse(NOW) / 1000) < 2);
   const st = readState(root).accounts.nostr[day];
@@ -639,7 +671,7 @@ test('profile: dry-run shows it (no bot flag, text says automated, marked websit
   assert.equal(p.name, 'Honest prices');
   assert.equal(p.nip05, 'prices@saveandplay.com');
   assert.equal(p.bot, undefined, 'the bot flag is off: the owner also writes by hand from this account');
-  assert.ok(p.about.includes('#ad') && p.about.includes('automated') && p.website === 'https://saveandplay.com/go/nostr');
+  assert.ok(p.about.includes('affiliate') && !p.about.includes('#') && p.about.includes('automated') && p.website === 'https://saveandplay.com/go/nostr');
   assert.equal(b.events.length, 1);
   [a, b].forEach((x) => x.close());
 });

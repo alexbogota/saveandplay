@@ -20,7 +20,13 @@ export { finalizeEvent, getPublicKey, verifyEvent, nip19 };
 export const ROOT = process.env.NOSTR_ROOT ? resolve(process.env.NOSTR_ROOT) : fileURLToPath(new URL('../../', import.meta.url));
 export const file = (rel) => resolve(ROOT, rel);
 
-export const DEFAULT_HASHTAGS = ['ad', 'pcgaming', 'gamedeals'];
+export const DEFAULT_HASHTAGS = ['pcgaming', 'gamedeals'];
+// "saveandplay" is the brand tag of every note this program makes. The second guard of post-nostr.mjs finds our own notes on the relays by it.
+// "ad" is NEVER a t tag (owner, 8 Oct 2026: it is not a topic and only clutters the tag feeds). Notes of 7-8 Oct 2026 still have it, the guard looks for both.
+export const BRAND_TAG = 'saveandplay';
+export const OLD_AD_TAG = 'ad';
+// The label of a deal note, plain text and not a hashtag (PROJECT.md section 5: a post with an affiliate link must be marked). Articles have no label: their note links to our own guide, not to a store.
+export const DISCLOSURE = 'Ad: we may earn a commission if you buy.';
 const HOUR = 3600e3;
 
 // ---------- files and settings ----------
@@ -146,7 +152,7 @@ export function buildNote(c, account) {
   lines.push(`Price checked ${stamp(c.priceCheckedAt)}.${c.endsAt ? ` Sale ends ${stamp(c.endsAt)}.` : ''}`);
   const why = whyLine(c);
   if (why) lines.push(why);
-  lines.push('#ad');
+  lines.push(DISCLOSURE);
 
   const blocks = [lines.join('\n')];
   if (c.cover) blocks.push(c.cover); // the picture on its own line, the link last
@@ -155,15 +161,15 @@ export function buildNote(c, account) {
 
   const tags = hashtagTags(account);
   if (c.cover) tags.push(imetaTag(c.cover, c.coverAlt || `Cover art for ${c.title}`)); // every meaningful picture has an alt text
-  if (!/(^|\s)#ad(\s|$)/.test(content)) throw new Error('The note has no #ad. It is not allowed to post without it.');
+  if (!content.split('\n').includes(DISCLOSURE)) throw new Error('A deal note has no "Ad:" line. It is not allowed to post without it.');
   return { content, tags };
 }
 
-// ---------- the article note (kind 1): the text is written by hand in data/nostr-articles.json, the program adds #ad, the link with the account's marks and the picture ----------
+// ---------- the article note (kind 1): the text is written by hand in data/nostr-articles.json, the program adds the link with the account's marks and the picture ----------
 
-// The t tags: ad always first (it cannot be dropped), then the hashtags of the account, then the ones of the note itself. Lowercase, no duplicates.
+// The t tags: the brand tag first (the program needs it), then the hashtags of the account, then the ones of the note itself. Lowercase, no duplicates, never "ad".
 function hashtagTags(account, extra = []) {
-  const all = ['ad', ...(account.hashtags ?? DEFAULT_HASHTAGS), ...extra].map((h) => String(h).replace(/^#/, '').toLowerCase());
+  const all = [BRAND_TAG, ...(account.hashtags ?? DEFAULT_HASHTAGS), ...extra].map((h) => String(h).replace(/^#/, '').toLowerCase()).filter((h) => h && h !== OLD_AD_TAG);
   return [...new Set(all)].map((h) => ['t', h]);
 }
 
@@ -218,14 +224,13 @@ export function buildArticleNote(a, account, site) {
 
   const link = `${site}${a.path}?utm_source=${account.subid}&utm_medium=social&utm_campaign=${a.campaign}`;
   const image = a.image ? `${site}${a.image}` : null;
-  const blocks = [`${lines.join('\n').trim()}\n#ad`];
+  const blocks = [lines.join('\n').trim()];
   if (image) blocks.push(image);
   blocks.push(link);
   const content = blocks.join('\n\n');
 
   const tags = hashtagTags(account, a.tags ?? []);
   if (image) tags.push(imetaTag(image, a.imageAlt.trim()));
-  if (!/(^|\s)#ad(\s|$)/.test(content)) throw new Error('The note has no #ad. It is not allowed to post without it.');
   return { content, tags, link, image };
 }
 
