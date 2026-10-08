@@ -267,6 +267,17 @@ export function buildCandidates({ eligible, mentions, history, account, links, n
 export const buildInfo = (env = process.env) =>
   env.GITHUB_SHA ? `commit ${env.GITHUB_SHA.slice(0, 7)}, ${env.GITHUB_EVENT_NAME}, run #${env.GITHUB_RUN_NUMBER} attempt ${env.GITHUB_RUN_ATTEMPT}` : 'local run';
 
+// The reasons "why today", one short clause each. They go into the text brief and, as a list (whyToday), into the json,
+// so a program that posts by a template (scripts/post-nostr.mjs) can reuse the same words without parsing the markdown.
+export function whyClauses(c, account, offeredCount) {
+  const why = [];
+  if (c.mentions.length) why.push(`${c.sites} news site${c.sites > 1 ? 's' : ''} wrote about the game in the last ${account.windowHours} h`);
+  if (c.endsInHours != null && c.endsInHours <= ENDS_SOON_HOURS) why.push(`sale ends in ${hoursText(c.endsInHours * HOUR)}`);
+  if (c.history.lowest) why.push(`lowest price we've tracked (${c.history.days} days of data)`);
+  why.push(`deepest-discount rank ${c.discountRank} of ${offeredCount}`);
+  return why;
+}
+
 export function buildBrief({ account, links, deals, history, offered, feeds, sources, now }) {
   const windowMs = account.windowHours * HOUR;
   const mine = pickSources(sources, account);
@@ -276,6 +287,7 @@ export function buildBrief({ account, links, deals, history, offered, feeds, sou
   const mentions = matchNews(items, eligible);
   const all = buildCandidates({ eligible, mentions, history, account, links, now });
   const candidates = all.slice(0, account.maxCandidates);
+  for (const c of candidates) c.whyToday = whyClauses(c, account, eligible.length);
   const news = account.gogNews ? gogNews(items, deals).map((n) => ({ ...n, link: gogLink(links, n.url, account.subid) })) : [];
   const topicalAll = account.keywords?.length ? keywordNews(items, account.keywords) : [];
 
@@ -320,12 +332,7 @@ export function buildBrief({ account, links, deals, history, offered, feeds, sou
     push('', `## ${i + 1}. ${c.title}: ${c.store} ${money(c.price)} (was ${money(c.was)}, -${c.discount}%)`);
     const ends = c.endsAt ? `Sale ends ${stampOf(new Date(c.endsAt))} (in ${hoursText(c.endsInHours * HOUR)})` : 'No end date known';
     push(`${ends}. Price checked ${stampOf(new Date(c.priceCheckedAt))}. Score ${c.score}.`);
-    const why = [];
-    if (c.mentions.length) why.push(`${c.sites} news site${c.sites > 1 ? 's' : ''} wrote about the game in the last ${account.windowHours} h`);
-    if (c.endsInHours != null && c.endsInHours <= ENDS_SOON_HOURS) why.push(`sale ends in ${hoursText(c.endsInHours * HOUR)}`);
-    if (c.history.lowest) why.push(`lowest price we've tracked (${c.history.days} days of data)`);
-    why.push(`deepest-discount rank ${c.discountRank} of ${eligible.length}`);
-    push(`Why today: ${why.join('; ')}.`);
+    push(`Why today: ${c.whyToday.join('; ')}.`);
     for (const m of c.mentions) push(`- ${m.source}, ${dayOf(m.t)}${m.how === 'link' ? ' (links to the game page)' : ''}: "${cut(m.title, 90)}" ${m.link ?? ''}`.trimEnd());
     if (c.offeredOn) push(`Note: suggested on ${c.offeredOn}, already used recently.`);
     push(`Link for the post (${c.linkKind}): ${c.link}`);

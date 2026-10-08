@@ -12,9 +12,16 @@
     "indiegala": "node scripts/indiegala-candidates.mjs",
     "sources": "node scripts/check-sources.mjs",
     "brief": "node scripts/daily-brief.mjs",
-    "update-deals": "node scripts/update-deals.mjs"
+    "update-deals": "node scripts/update-deals.mjs",
+    "nostr:keygen": "node scripts/nostr-keygen.mjs",
+    "nostr:secret": "node scripts/nostr-secret.mjs",
+    "nostr:profile": "node scripts/nostr-profile.mjs",
+    "nostr:post": "node scripts/post-nostr.mjs",
+    "nostr:check": "node scripts/nostr-check.mjs",
+    "nostr:test": "node scripts/test-nostr.mjs"
   },
   "dependencies": {
-    "astro": "^7.3.5"
+    "astro": "^7.3.5",
+    "nostr-tools": "^2.25.2"
   }
 }
