@@ -213,13 +213,15 @@ test('template: the text has only brief numbers, the "Ad:" line, picture line, l
       'Why today: sale ends in 13 h.',
       'Ad: we may earn a commission if you buy.',
       '',
+      '#pcgaming #gamedeals',
+      '',
       candidate.cover,
       '',
       candidate.link,
     ].join('\n'),
   );
   assert.equal(DISCLOSURE, 'Ad: we may earn a commission if you buy.');
-  assert.ok(!content.includes('#'), 'no hashtag in the text of a deal note');
+  assert.ok(!/#ad\b/i.test(content), '"#ad" is not in the text of a deal note');
   assert.deepEqual(tags.filter((t) => t[0] === 't'), [['t', 'saveandplay'], ['t', 'pcgaming'], ['t', 'gamedeals']]);
   const imeta = tags.find((t) => t[0] === 'imeta');
   assert.ok(imeta.includes(`url ${candidate.cover}`) && imeta.includes('m image/jpeg') && imeta.includes('alt Cover art for Control Ultimate Edition'));
@@ -273,21 +275,23 @@ test('two files: settings of the account live in data/nostr-accounts.json, the b
 test('article note: exact text (no "Ad" line, no hashtag), marked link last, picture with alt, t tags; incomplete articles are refused', () => {
   const link = `${SITE}/guides/x/?utm_source=nostr-prices&utm_medium=social&utm_campaign=guide-x`;
   const n = buildArticleNote(art(), realAccount, SITE);
-  assert.equal(n.content, `Line one.\n\nLine two.\n\n${link}`);
+  assert.equal(n.content, `Line one.\n\nLine two.\n\n#pcgaming #gamedeals #steam\n\n${link}`);
   assert.deepEqual(n.tags, [['t', 'saveandplay'], ['t', 'pcgaming'], ['t', 'gamedeals'], ['t', 'steam']]);
   const pic = buildArticleNote(art({ image: '/og/x.png', imageAlt: 'A diagram' }), realAccount, SITE);
-  assert.equal(pic.content, `Line one.\n\nLine two.\n\n${SITE}/og/x.png\n\n${link}`);
+  assert.equal(pic.content, `Line one.\n\nLine two.\n\n#pcgaming #gamedeals #steam\n\n${SITE}/og/x.png\n\n${link}`);
   assert.deepEqual(pic.tags.at(-1), ['imeta', `url ${SITE}/og/x.png`, 'm image/png', 'alt A diagram']);
   assert.ok(pic.content.trimEnd().endsWith(link));
   for (const bad of [{ image: '/og/x.png' }, { lines: [] }, { lines: ['', ' '] }, { path: 'guides/x/' }, { path: '/x/?a=b' }, { campaign: 'a b' }]) assert.throws(() => buildArticleNote(art(bad), realAccount, SITE), /not complete or not valid/, JSON.stringify(bad));
   assert.throws(() => buildArticleNote(art(), { ...realAccount, subid: '' }, SITE), /not complete or not valid/);
   assert.throws(() => buildArticleNote(art(), realAccount, 'http://saveandplay.com'), /not complete or not valid/);
+  assert.throws(() => buildArticleNote(art({ tags: ['two words'] }), realAccount, SITE), /hashtag .* is not valid/);
+  assert.throws(() => buildArticleNote(art({ tags: ['#x'] }), realAccount, SITE), /hashtag .* is not valid/);
   // the brand tag cannot be dropped even if the account has no hashtags, and "ad" is never a tag (not even from the article's own tags)
   assert.deepEqual(buildArticleNote(art({ tags: [] }), { ...realAccount, hashtags: ['pcgaming'] }, SITE).tags, [['t', 'saveandplay'], ['t', 'pcgaming']]);
   assert.deepEqual(buildArticleNote(art({ tags: ['ad', 'steam'] }), { ...realAccount, hashtags: ['pcgaming'] }, SITE).tags, [['t', 'saveandplay'], ['t', 'pcgaming'], ['t', 'steam']]);
 });
 
-test('articles: every article of the real queue builds a valid note (no #ad, marked link, alt text on pictures); the first one is approved', () => {
+test('articles: every article of the real queue builds a valid note (no #ad, hashtags in the text = t tags, marked link, picture file and alt text); the first one is approved', () => {
   assert.ok(realArticles.queues.nostr.length >= 1);
   for (const slug of realArticles.queues.nostr) {
     const a = { slug, ...realArticles.articles[slug] };
@@ -295,6 +299,16 @@ test('articles: every article of the real queue builds a valid note (no #ad, mar
     assert.ok(!/(^|\s)#ad(\s|$)/i.test(n.content) && !n.tags.some((t) => t[0] === 't' && t[1] === 'ad'), slug);
     assert.ok(n.content.trimEnd().endsWith(n.link) && n.link.includes('utm_source=nostr-prices&utm_medium=social'), slug);
     if (a.image) assert.ok(n.tags.some((t) => t[0] === 'imeta' && t.some((f) => f.startsWith('alt ') && f.length > 8)), slug);
+    // the hashtags of the text are exactly the t tags (NIP-24) plus the brand tag that is not shown
+    const shown = (n.content.match(/(^|\s)#[a-z0-9_]+/g) ?? []).map((x) => x.trim().slice(1));
+    assert.ok(shown.length >= 2 && shown.length <= 6, `${slug}: ${shown.length} hashtags`);
+    assert.deepEqual(n.tags.filter((t) => t[0] === 't').map((t) => t[1]).filter((h) => h !== 'saveandplay'), shown, slug);
+    // a picture of an article is a real file of the site, a PNG of 1200x630 (so a link card and the note look right)
+    if (a.image) {
+      const png = readFileSync(here(`../public${a.image}`));
+      assert.equal(png.subarray(1, 4).toString(), 'PNG', `${slug}: ${a.image} is not a PNG`);
+      assert.deepEqual([png.readUInt32BE(16), png.readUInt32BE(20)], [1200, 630], `${slug}: ${a.image} must be 1200x630`);
+    }
   }
   assert.equal(realArticles.articles[realArticles.queues.nostr[0]].approved, true);
   assert.equal(articleQueue('nostr', {}).next.slug, realArticles.queues.nostr[0]);
@@ -327,7 +341,7 @@ test('dry-run with articles: shows the next article (text, tags, queue), publish
   const root = makeRoot({ relays: [r1.url], autopost: false, articles: fixture({ one: art({ lines: ['First article.'], path: '/guides/one/', campaign: 'guide-one' }), two: art({ approved: false }) }) });
   const r = await run('post-nostr.mjs', ['--dry-run'], { root, withKey: false });
   assert.equal(r.code, 0, r.all);
-  assert.ok(r.out.includes('First article.\n\nhttps://saveandplay.com/guides/one/?utm_source=nostr-prices') && !r.out.includes('#ad') && r.out.includes('utm_campaign=guide-one') && !r.out.includes('Control Ultimate Edition'));
+  assert.ok(r.out.includes('First article.\n\n#pcgaming #gamedeals #steam\n\nhttps://saveandplay.com/guides/one/?utm_source=nostr-prices') && !r.out.includes('#ad') && r.out.includes('utm_campaign=guide-one') && !r.out.includes('Control Ultimate Edition'));
   assert.ok(r.summary.includes('Article: one') && r.summary.includes('Waiting for approval') && r.summary.includes('two'), r.summary);
   assert.equal(r1.events.length, 0);
   assert.ok(!existsSync(join(root, 'drafts/posted-nostr.json')));
@@ -351,7 +365,7 @@ test('post: articles go first, one a day, a not approved one is never posted, th
   let r = await run('post-nostr.mjs', [], { root });
   assert.equal(r.code, 0, r.all);
   assert.equal(a.events.length, 1);
-  assert.ok(a.events[0].content.startsWith('First article.\n\nhttps://saveandplay.com/guides/one/') && !a.events[0].content.includes('#ad') && !a.events[0].tags.some((t) => t[0] === 't' && t[1] === 'ad') && a.events[0].content.includes('utm_source=nostr-prices') && a.events[0].content.includes('utm_campaign=guide-one'));
+  assert.ok(a.events[0].content.startsWith('First article.\n\n#pcgaming #gamedeals #steam\n\nhttps://saveandplay.com/guides/one/') && !a.events[0].content.includes('#ad') && !a.events[0].tags.some((t) => t[0] === 't' && t[1] === 'ad') && a.events[0].content.includes('utm_source=nostr-prices') && a.events[0].content.includes('utm_campaign=guide-one'));
   let st = readState(root);
   assert.equal(st.accounts.nostr[day].kind, 'article');
   assert.equal(st.accounts.nostr[day].article, 'one');
@@ -447,6 +461,89 @@ test('post: the relay guard knows our brand tag and the old "ad" tag of the firs
   [o1, o2, b1, b2, h1, h2].forEach((x) => x.close());
 });
 
+test('redo: the wrong note is deleted (NIP-09) and the article is posted again with the new text, once; a relay that keeps the old note does not block the new one', async () => {
+  const [a, b] = [await startRelay('accept'), await startRelay('accept')];
+  const root = makeRoot({ relays: [a.url, b.url], articles: fixture({ one: art({ lines: ['First article.'], path: '/guides/one/', campaign: 'guide-one' }) }) });
+  let r = await run('post-nostr.mjs', [], { root });
+  assert.equal(r.code, 0, r.all);
+  const oldId = a.events[0].id;
+  assert.equal(readState(root).accounts.nostr[day].id, oldId);
+  // the owner orders the redo and has fixed the text and added a picture
+  const fixed = fixture({ one: art({ lines: ['First article, corrected.'], path: '/guides/one/', campaign: 'guide-one', image: '/og/one.png', imageAlt: 'A chart' }) });
+  fixed.redo = { nostr: ['one'] };
+  writeFileSync(join(root, 'data/nostr-articles.json'), JSON.stringify(fixed));
+  // a dry run shows the NEW text and what the real run will do first; it changes nothing
+  const dry = await run('post-nostr.mjs', ['--dry-run'], { root, withKey: false });
+  assert.equal(dry.code, 0, dry.all);
+  assert.ok(dry.out.includes('First article, corrected.') && /Redo: a real run will FIRST ask the relays to delete/.test(dry.out) && dry.out.includes(oldId), dry.out);
+  assert.ok(/Redo: a real run will FIRST/.test(dry.summary));
+  assert.equal(a.events.length, 1);
+  assert.equal(readState(root).accounts.nostr[day].id, oldId);
+  // the real run: deletion request first, then the new note in the place of the day
+  r = await run('post-nostr.mjs', [], { root });
+  assert.equal(r.code, 0, r.all);
+  assert.ok(/asked to delete the earlier note/.test(r.summary), r.summary);
+  for (const x of [a, b]) {
+    const del = x.events.find((e) => e.kind === 5);
+    assert.ok(del && verifyEvent(del) && del.pubkey === PUB_HEX, 'a signed deletion request of our key');
+    assert.deepEqual(del.tags.filter((t) => t[0] === 'e'), [['e', oldId]]);
+    assert.ok(del.tags.some((t) => t[0] === 'k' && t[1] === '1'));
+    const fresh = x.events.filter((e) => e.kind === 1 && e.id !== oldId);
+    assert.equal(fresh.length, 1, 'one new note on every relay');
+    assert.ok(fresh[0].content.startsWith('First article, corrected.') && fresh[0].tags.some((t) => t[0] === 'imeta' && t.includes('alt A chart')));
+  }
+  const st = readState(root);
+  const newId = st.accounts.nostr[day].id;
+  assert.notEqual(newId, oldId);
+  assert.equal(st.accounts.nostr[day].status, 'done');
+  assert.equal(st.articles.nostr.one.id, newId);
+  assert.equal(st.redone.nostr.one.deletedId, oldId);
+  // once only: another run does not delete or post anything
+  const count = a.events.length;
+  r = await run('post-nostr.mjs', [], { root });
+  assert.equal(r.code, 0, r.all);
+  assert.ok(/already posted today/.test(r.summary), r.summary);
+  assert.equal(a.events.length, count);
+  [a, b].forEach((x) => x.close());
+});
+
+test('redo: if too few relays accept the deletion request, nothing changes and nothing is posted (red); an article not posted yet is just posted', async () => {
+  const [a, b] = [await startRelay('accept'), await startRelay('accept')];
+  const root = makeRoot({ relays: [a.url, b.url], articles: fixture({ one: art({ lines: ['First article.'], path: '/guides/one/', campaign: 'guide-one' }) }) });
+  assert.equal((await run('post-nostr.mjs', [], { root })).code, 0);
+  const oldId = readState(root).accounts.nostr[day].id;
+  const fixed = fixture({ one: art({ lines: ['First article, corrected.'], path: '/guides/one/', campaign: 'guide-one' }) });
+  fixed.redo = { nostr: ['one'] };
+  writeFileSync(join(root, 'data/nostr-articles.json'), JSON.stringify(fixed));
+  const [bad1, bad2] = [await startRelay('reject'), await startRelay('reject')];
+  setRelays(root, [bad1.url, bad2.url]);
+  const r = await run('post-nostr.mjs', [], { root });
+  assert.equal(r.code, 1, r.all);
+  assert.ok(/Redo FAILED/.test(r.summary), r.summary);
+  const st = readState(root);
+  assert.equal(st.accounts.nostr[day].id, oldId, 'the old record is still there');
+  assert.equal(st.articles.nostr.one.id, oldId);
+  assert.deepEqual(st.redone.nostr, {});
+  assert.equal(a.events.length, 1);
+  // an order for an article that has not been posted yet: nothing to delete, it is posted normally
+  const [c, d] = [await startRelay('accept'), await startRelay('accept')];
+  const f2 = fixture({ one: art({ lines: ['First article.'], path: '/guides/one/', campaign: 'guide-one' }) });
+  f2.redo = { nostr: ['one'] };
+  const root2 = makeRoot({ relays: [c.url, d.url], articles: f2 });
+  const r2 = await run('post-nostr.mjs', [], { root: root2 });
+  assert.equal(r2.code, 0, r2.all);
+  assert.equal(c.events.filter((e) => e.kind === 5).length, 0);
+  assert.equal(c.events.filter((e) => e.kind === 1).length, 1);
+  assert.deepEqual(readState(root2).redone.nostr, {});
+  // an order for an unknown article is a clear error
+  const f3 = fixture({ one: art() });
+  f3.redo = { nostr: ['nope'] };
+  const r3 = await run('post-nostr.mjs', ['--dry-run'], { root: makeRoot({ relays: [c.url, d.url], articles: f3 }), withKey: false });
+  assert.equal(r3.code, 1);
+  assert.ok(/"redo" of "nostr" names the article "nope"/.test(r3.all), r3.all);
+  [a, b, bad1, bad2, c, d].forEach((x) => x.close());
+});
+
 test('short profile links: the website of the profile is a short address that public/go/.htaccess sends to the site with the marks of the account', () => {
   const site = new URL(realAccount.profile.website);
   assert.equal(site.origin, SITE);
@@ -510,7 +607,7 @@ test('post: 3 accept, 1 rejects, 1 is silent, 1 is dead => success, verified sig
   assert.equal(rej.events.length + silent.events.length, 0);
   const ev = a.events[0];
   assert.equal(ev.id, b.events[0].id, 'the same note on every relay');
-  assert.ok(ev.content.includes('\nAd: we may earn a commission if you buy.\n') && !ev.content.includes('#') && ev.content.trimEnd().endsWith(candidate.link));
+  assert.ok(ev.content.includes('\nAd: we may earn a commission if you buy.\n\n#pcgaming #gamedeals\n\n') && !/#ad\b/i.test(ev.content) && ev.content.trimEnd().endsWith(candidate.link));
   assert.ok(ev.tags.some((t) => t[0] === 't' && t[1] === 'saveandplay') && !ev.tags.some((t) => t[0] === 't' && t[1] === 'ad'));
   assert.ok(ev.tags.some((t) => t[0] === 'imeta' && t.some((f) => f.startsWith('alt ') && f.length > 4)));
   assert.ok(Math.abs(ev.created_at - Date.parse(NOW) / 1000) < 2);

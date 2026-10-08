@@ -13,6 +13,8 @@
 // on GitHub it is read from the "brief" branch by scripts/nostr-branch.sh). The text is built from its numbers and dates only:
 // game, discount, price, old price, store, "Price checked <date>", sale end date (if any), "Why today" (if the brief has it), the "Ad:" line, picture address, link.
 //
+// "redo" (data/nostr-articles.json): an article whose note went out wrongly is deleted (the relays are asked, NIP-09) and posted again, once. See redoList in scripts/lib/nostr.mjs.
+//
 // One note a day per account: the record of what was posted is drafts/posted-nostr.json (on GitHub it lives on the "brief" branch, so the
 // site is not rebuilt). Run it twice and the second run says "already posted today". As a second guard the relays are asked whether the
 // account already has a note from the last 20 hours. A note that reached too few relays is sent again to all of them on the next run (the same note, not a new one).
@@ -22,7 +24,7 @@
 
 import { writeFileSync, mkdirSync } from 'node:fs';
 import { dirname } from 'node:path';
-import { file, readJson, nostrAccounts, loadRelayConfig, loadSecretKey, npubOf, getPublicKey, buildNote, buildArticleNote, articleQueue, signNote, verifyEvent, publishToAll, queryRelay, relayTable, summary, hoursSince, nip19, finish, BRAND_TAG, OLD_AD_TAG } from './lib/nostr.mjs';
+import { file, readJson, nostrAccounts, loadRelayConfig, loadSecretKey, npubOf, getPublicKey, buildNote, buildArticleNote, articleQueue, redoList, signDeletion, signNote, verifyEvent, publishToAll, queryRelay, relayTable, summary, hoursSince, nip19, finish, BRAND_TAG, OLD_AD_TAG } from './lib/nostr.mjs';
 
 const args = process.argv.slice(2);
 const dryRun = args.includes('--dry-run');
@@ -35,7 +37,7 @@ const dayKey = (t, tz) => new Intl.DateTimeFormat('en-CA', { timeZone: tz, year:
 const warn = (msg) => console.log(process.env.GITHUB_ACTIONS ? `::warning::${msg}` : `WARNING: ${msg}`);
 const fence = (text) => `\`\`\`\`text\n${text}\n\`\`\`\`\n`;
 
-const loadState = () => readJson(STATE, { accounts: {}, articles: {} });
+const loadState = () => readJson(STATE, { accounts: {}, articles: {}, redone: {} });
 function saveState(state) {
   // Only the days are cleaned up. The record of posted articles (state.articles) is kept for good: an article must never go out twice.
   for (const days of Object.values(state.accounts)) {
@@ -82,16 +84,57 @@ async function runAccount({ id, account, links }, state) {
   const day = dayKey(NOW, account.timezone);
   const mine = (state.accounts[id] ??= {});
   const postedArticles = ((state.articles ??= {})[id] ??= {});
-  const today = mine[day];
+  const redone = ((state.redone ??= {})[id] ??= {}); // { slug: { deletedId, deletedAt, day } }: articles that were already deleted and posted again
+  const deletedIds = new Set(Object.values(redone).map((r) => r.deletedId));
+  let today = mine[day];
 
   if (!dryRun && !account.autopost) return skip('"autopost" is false for this account in data/nostr-accounts.json (waiting for the owner\'s ok). Nothing was posted.');
+
+  // Articles to delete and post again: listed in "redo", already posted, not redone before.
+  const redoPending = redoList(id).filter((slug) => postedArticles[slug] && !redone[slug]);
+  let planned = postedArticles; // what the plan below thinks is already posted
+  if (redoPending.length) {
+    planned = { ...postedArticles };
+    for (const slug of redoPending) delete planned[slug];
+  }
+
+  if (redoPending.length && !dryRun) {
+    const sk0 = loadSecretKey(account.secretEnv);
+    if (!sk0) {
+      console.error(`ERROR (${id}): no private key (${account.secretEnv}). Add it as a GitHub Secret: npm run nostr:secret.`);
+      summary(`${head}**FAILED:** no private key (${account.secretEnv}).\n`);
+      return { code: 1 };
+    }
+    const relays0 = loadRelayConfig();
+    for (const slug of redoPending) {
+      const old = postedArticles[slug];
+      const del = signDeletion([old.id], sk0, NOW);
+      if (!verifyEvent(del)) throw new Error('The signed deletion request does not verify. Nothing was changed.');
+      const results = await publishToAll(del, relays0.urls, relays0.timeoutMs);
+      const ok = results.filter((r) => r.ok);
+      console.log(`Redo of "${slug}": the relays were asked to delete note ${old.id}: ${ok.length} of ${results.length} accepted the request (needed ${relays0.minAccepted}).`);
+      for (const r of results) console.log(`  ${r.ok ? 'accepted ' : 'REJECTED '} ${r.url} (${r.ms} ms)${r.reason ? ' - ' + r.reason : ''}`);
+      if (ok.length < relays0.minAccepted) {
+        summary(`${head}**Redo FAILED:** only ${ok.length} relay(s) accepted the request to delete note \`${old.id}\` (${relays0.minAccepted} needed). Nothing was changed and nothing was posted. Run the same mode again.\n\n${relayTable(results)}\n`);
+        return { code: 1 };
+      }
+      redone[slug] = { deletedId: old.id, deletedAt: new Date(NOW).toISOString(), day: old.day, accepted: ok.map((r) => r.url) };
+      deletedIds.add(old.id);
+      delete postedArticles[slug];
+      if (mine[old.day]?.id === old.id) delete mine[old.day]; // the day is free again: the corrected note takes its place
+      saveState(state);
+      summary(`${head}**Redo:** the relays were asked to delete the earlier note of the article \`${slug}\` (\`${old.id}\`, ${ok.length} of ${results.length} relays accepted the request). Relays honour this at their own pace, a client may keep showing the old note for a while.\n\n`);
+    }
+    today = mine[day];
+    planned = postedArticles;
+  }
 
   // A note that was already made today (posted, or sent to too few relays) is not planned again: it is only skipped or sent again.
   // Only a dry run looks at "what would be posted next".
   const madeToday = !dryRun && (today?.status === 'done' || today?.status === 'partial');
   let todays = null;
   if (!madeToday) {
-    todays = plan(id, account, links, postedArticles);
+    todays = plan(id, account, links, planned);
     if (todays.skip) return skip(todays.skip, todays.warn);
   }
 
@@ -106,7 +149,8 @@ async function runAccount({ id, account, links }, state) {
 
     if (dryRun) {
       let extra = '';
-      if (today?.status === 'done') extra = `\nNote: a note was already posted today (${today.id}); a real run today would be skipped. The text above is what the NEXT real run would post.\n`;
+      if (redoPending.length) extra = `\nRedo: a real run will FIRST ask the relays to delete ${redoPending.map((slug) => `the earlier note of the article ${slug} (${postedArticles[slug].id})`).join(' and ')}, and then post the note above in its place (once; it is remembered).\n`;
+      else if (today?.status === 'done') extra = `\nNote: a note was already posted today (${today.id}); a real run today would be skipped. The text above is what the NEXT real run would post.\n`;
       else if (!account.autopost) extra = '\nNote: "autopost" is false, so a real run is skipped until the owner switches it on in data/nostr-accounts.json.\n';
       if (extra) console.log(extra.trim());
       summary(`${head}**Dry run: nothing was published.**\n\n${textBlock}${extra}`);
@@ -139,7 +183,8 @@ async function runAccount({ id, account, links }, state) {
   } else {
     // Second guard: does the account already have a note from the last 20 hours on the relays? Replies (they have an "e" tag) do not count:
     // the owner may answer people from this account by hand.
-    const found = (await Promise.all(relays.urls.map((u) => queryRelay(u, { authors: [pk], kinds: [1], '#t': [BRAND_TAG, OLD_AD_TAG], since: Math.floor(NOW / 1000) - 20 * 3600, limit: 20 }, Math.min(relays.timeoutMs, 6000))))).flat().filter((ev) => ev && !ev.tags?.some((t) => t[0] === 'e'));
+    // Notes that we asked the relays to delete (redo) do not count, even where a relay still returns them.
+    const found = (await Promise.all(relays.urls.map((u) => queryRelay(u, { authors: [pk], kinds: [1], '#t': [BRAND_TAG, OLD_AD_TAG], since: Math.floor(NOW / 1000) - 20 * 3600, limit: 20 }, Math.min(relays.timeoutMs, 6000))))).flat().filter((ev) => ev && !deletedIds.has(ev.id) && !ev.tags?.some((t) => t[0] === 'e'));
     if (found.length) {
       const ev = found.sort((a, b) => b.created_at - a.created_at)[0];
       mine[day] = { status: 'done', id: ev.id, npub, foundOnRelay: true, postedAt: new Date(ev.created_at * 1000).toISOString() };
@@ -181,6 +226,7 @@ async function main() {
   const state = loadState();
   state.accounts ??= {};
   state.articles ??= {};
+  state.redone ??= {};
   let code = 0;
   for (const a of accounts) {
     try {

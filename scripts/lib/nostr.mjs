@@ -154,12 +154,14 @@ export function buildNote(c, account) {
   if (why) lines.push(why);
   lines.push(DISCLOSURE);
 
+  const topics = topicHashtags(account);
   const blocks = [lines.join('\n')];
+  if (topics.length) blocks.push(hashtagLine(topics));
   if (c.cover) blocks.push(c.cover); // the picture on its own line, the link last
   blocks.push(c.link);
   const content = blocks.join('\n\n');
 
-  const tags = hashtagTags(account);
+  const tags = hashtagTags(topics);
   if (c.cover) tags.push(imetaTag(c.cover, c.coverAlt || `Cover art for ${c.title}`)); // every meaningful picture has an alt text
   if (!content.split('\n').includes(DISCLOSURE)) throw new Error('A deal note has no "Ad:" line. It is not allowed to post without it.');
   return { content, tags };
@@ -167,11 +169,16 @@ export function buildNote(c, account) {
 
 // ---------- the article note (kind 1): the text is written by hand in data/nostr-articles.json, the program adds the link with the account's marks and the picture ----------
 
-// The t tags: the brand tag first (the program needs it), then the hashtags of the account, then the ones of the note itself. Lowercase, no duplicates, never "ad".
-function hashtagTags(account, extra = []) {
-  const all = [BRAND_TAG, ...(account.hashtags ?? DEFAULT_HASHTAGS), ...extra].map((h) => String(h).replace(/^#/, '').toLowerCase()).filter((h) => h && h !== OLD_AD_TAG);
-  return [...new Set(all)].map((h) => ['t', h]);
+// The topics of a note: the hashtags of the account, then the ones of the note itself. Lowercase, no duplicates, never "ad", never the brand tag.
+// They are written at the end of the text (#pcgaming #steam) AND set as t tags, as NIP-24 says, so that clients find the note by them.
+export function topicHashtags(account, extra = []) {
+  const all = [...(account.hashtags ?? DEFAULT_HASHTAGS), ...extra].map((h) => String(h).replace(/^#/, '').toLowerCase()).filter((h) => h !== OLD_AD_TAG && h !== BRAND_TAG);
+  for (const h of all) if (!/^[a-z0-9_]{2,30}$/.test(h)) throw new Error(`The hashtag "${h}" is not valid (2-30 letters, digits or _, no spaces). Check data/nostr-accounts.json and data/nostr-articles.json.`);
+  return [...new Set(all)];
 }
+const hashtagLine = (topics) => topics.map((h) => `#${h}`).join(' ');
+// The t tags: the brand tag first (it is not shown in the text; the program needs it), then the topics.
+const hashtagTags = (topics) => [BRAND_TAG, ...topics].map((h) => ['t', h]);
 
 function imetaTag(url, alt) {
   const imeta = ['imeta', `url ${url}`];
@@ -209,6 +216,19 @@ export function articleQueue(id, posted = {}) {
   return { next, later, waiting };
 }
 
+// "redo" in data/nostr-articles.json: { "<account>": ["<slug>", ...] } = articles whose note went out wrongly. At the next real run the program asks the relays to
+// delete that note (NIP-09) and posts the article again with the current text. It happens once per article: the record of posts remembers it (state.redone).
+export function redoList(id) {
+  const cfg = articleSettings();
+  const list = cfg.redo?.[id] ?? [];
+  if (!Array.isArray(list)) throw new Error(`"redo" of "${id}" in data/nostr-articles.json must be a list of article names.`);
+  for (const slug of list) if (!cfg.articles?.[slug]) throw new Error(`"redo" of "${id}" names the article "${slug}", but data/nostr-articles.json has no such article.`);
+  return list;
+}
+
+// The request to delete notes (kind 5, NIP-09). Relays decide themselves whether to honour it; most do. Only notes of the same key can be deleted.
+export const signDeletion = (ids, sk, now = Date.now(), reason = 'Replaced by a corrected version of the same note.') => finalizeEvent({ kind: 5, created_at: Math.floor(now / 1000), tags: [...ids.map((i) => ['e', i]), ['k', '1']], content: reason }, sk);
+
 // site = https address of the site without a slash at the end (links.site of data/accounts.json); account.subid = the mark of this account.
 export function buildArticleNote(a, account, site) {
   const bad = [];
@@ -224,12 +244,14 @@ export function buildArticleNote(a, account, site) {
 
   const link = `${site}${a.path}?utm_source=${account.subid}&utm_medium=social&utm_campaign=${a.campaign}`;
   const image = a.image ? `${site}${a.image}` : null;
+  const topics = topicHashtags(account, a.tags ?? []);
   const blocks = [lines.join('\n').trim()];
+  if (topics.length) blocks.push(hashtagLine(topics));
   if (image) blocks.push(image);
   blocks.push(link);
   const content = blocks.join('\n\n');
 
-  const tags = hashtagTags(account, a.tags ?? []);
+  const tags = hashtagTags(topics);
   if (image) tags.push(imetaTag(image, a.imageAlt.trim()));
   return { content, tags, link, image };
 }

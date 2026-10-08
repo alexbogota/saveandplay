@@ -4,6 +4,8 @@ section: guides
 title: "How to tell a real game discount from a fake one"
 description: "A big red percentage does not tell you that a game is cheap. Here is what the official rules say about sale prices, and a five-question check to run before you buy."
 updated: 2026-10-06
+image: /og/real-vs-fake-game-discounts.png
+imageAlt: "Chart of one game's price over six months. The \"was\" price on the badge is $60 but the game was really sold at $30 the whole time, so a \"-50%\" sale saves nothing. Invented numbers, for illustration only."
 ---
 
 "-75%" looks great. But a discount is only a comparison, and a comparison is only as honest as the price it compares to. Before you click buy, it is worth taking thirty seconds to check what that number is measured against.
