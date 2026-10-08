@@ -1,5 +1,6 @@
 // Shared code of the Nostr scripts (nostr-keygen, nostr-secret, nostr-profile, post-nostr, nostr-check).
 // See PROJECT.md, section 11 ("Nostr"). Settings: data/nostr-accounts.json (profile, autopost, key name, hashtags), data/nostr-relays.json (relays),
+// data/nostr-articles.json (the queue of article notes that go before the deals),
 // and the block with the same name in data/accounts.json (the deal rules of the daily brief: stores, minimum discount, subid, post rules).
 //
 // Rule for every function here: the private key (nsec) is never printed, never put in an error message and never returned as text.
@@ -152,17 +153,80 @@ export function buildNote(c, account) {
   blocks.push(c.link);
   const content = blocks.join('\n\n');
 
-  const hashtags = [...new Set(['ad', ...(account.hashtags ?? DEFAULT_HASHTAGS)].map((h) => String(h).replace(/^#/, '').toLowerCase()))];
-  const tags = hashtags.map((h) => ['t', h]);
-  if (c.cover) {
-    const imeta = ['imeta', `url ${c.cover}`];
-    const mime = mimeOf(c.cover);
-    if (mime) imeta.push(`m ${mime}`);
-    imeta.push(`alt ${c.coverAlt || `Cover art for ${c.title}`}`); // every meaningful picture has an alt text
-    tags.push(imeta);
-  }
+  const tags = hashtagTags(account);
+  if (c.cover) tags.push(imetaTag(c.cover, c.coverAlt || `Cover art for ${c.title}`)); // every meaningful picture has an alt text
   if (!/(^|\s)#ad(\s|$)/.test(content)) throw new Error('The note has no #ad. It is not allowed to post without it.');
   return { content, tags };
+}
+
+// ---------- the article note (kind 1): the text is written by hand in data/nostr-articles.json, the program adds #ad, the link with the account's marks and the picture ----------
+
+// The t tags: ad always first (it cannot be dropped), then the hashtags of the account, then the ones of the note itself. Lowercase, no duplicates.
+function hashtagTags(account, extra = []) {
+  const all = ['ad', ...(account.hashtags ?? DEFAULT_HASHTAGS), ...extra].map((h) => String(h).replace(/^#/, '').toLowerCase());
+  return [...new Set(all)].map((h) => ['t', h]);
+}
+
+function imetaTag(url, alt) {
+  const imeta = ['imeta', `url ${url}`];
+  const mime = mimeOf(url);
+  if (mime) imeta.push(`m ${mime}`);
+  imeta.push(`alt ${alt}`);
+  return imeta;
+}
+
+export function articleSettings() {
+  return readJson('data/nostr-articles.json', { articles: {}, queues: {} });
+}
+
+// The queue of an account: { next, waiting, later }.
+//   next    = the first article of the queue that is approved and not posted yet (or null),
+//   later   = how many more approved articles come after it,
+//   waiting = articles of the queue that are not approved yet (they are skipped, never posted).
+// posted = { slug: { day, id } }, the record of articles that already went out.
+export function articleQueue(id, posted = {}) {
+  const cfg = articleSettings();
+  let next = null;
+  let later = 0;
+  const waiting = [];
+  for (const slug of cfg.queues?.[id] ?? []) {
+    const a = cfg.articles?.[slug];
+    if (!a) throw new Error(`The queue of "${id}" names the article "${slug}", but data/nostr-articles.json has no such article.`);
+    if (posted[slug]) continue;
+    if (a.approved !== true) {
+      waiting.push(slug);
+      continue;
+    }
+    if (!next) next = { slug, ...a };
+    else later++;
+  }
+  return { next, later, waiting };
+}
+
+// site = https address of the site without a slash at the end (links.site of data/accounts.json); account.subid = the mark of this account.
+export function buildArticleNote(a, account, site) {
+  const bad = [];
+  const lines = Array.isArray(a.lines) ? a.lines : typeof a.lines === 'string' ? [a.lines] : [];
+  if (!lines.length || lines.some((l) => typeof l !== 'string') || !lines.join('').trim()) bad.push('lines (the text, one string per line)');
+  if (!/^\/[^\s?#]*$/.test(a.path ?? '')) bad.push('path (starts with /, no ? or #)');
+  if (!/^[a-z0-9_-]+$/i.test(a.campaign ?? '')) bad.push('campaign (letters, digits, - and _)');
+  if (!/^https:\/\/[^\s/]+$/.test(site ?? '')) bad.push('links.site of data/accounts.json');
+  if (!/^[a-z0-9_-]+$/i.test(account.subid ?? '')) bad.push('subid of the account');
+  if (a.image && !/^\/[^\s]+$/.test(a.image)) bad.push('image (starts with /)');
+  if (a.image && !String(a.imageAlt ?? '').trim()) bad.push('imageAlt (every picture needs an alt text)');
+  if (bad.length) throw new Error(`The article "${a.slug ?? '?'}" is not complete or not valid: ${bad.join(', ')}.`);
+
+  const link = `${site}${a.path}?utm_source=${account.subid}&utm_medium=social&utm_campaign=${a.campaign}`;
+  const image = a.image ? `${site}${a.image}` : null;
+  const blocks = [`${lines.join('\n').trim()}\n#ad`];
+  if (image) blocks.push(image);
+  blocks.push(link);
+  const content = blocks.join('\n\n');
+
+  const tags = hashtagTags(account, a.tags ?? []);
+  if (image) tags.push(imetaTag(image, a.imageAlt.trim()));
+  if (!/(^|\s)#ad(\s|$)/.test(content)) throw new Error('The note has no #ad. It is not allowed to post without it.');
+  return { content, tags, link, image };
 }
 
 export const signNote = ({ content, tags }, sk, now = Date.now()) => finalizeEvent({ kind: 1, created_at: Math.floor(now / 1000), tags, content }, sk);
@@ -175,8 +239,10 @@ export function buildProfile(id, account) {
   if (!account.name || missing.length) throw new Error(`Account "${id}" lacks ${!account.name ? 'name, ' : ''}profile.${missing.join(', profile.')} in data/nostr-accounts.json.`);
   for (const k of ['website', 'picture', 'banner']) if (!/^https:\/\//.test(p[k])) throw new Error(`profile.${k} of "${id}" must be a full https address.`);
   if (!/^[a-z0-9._-]+@[a-z0-9.-]+\.[a-z]{2,}$/.test(p.nip05)) throw new Error(`profile.nip05 of "${id}" must look like name@domain.`);
-  // "bot": true is the standard flag for automated accounts (NIP-24). PROJECT.md section 5 asks to say that the account is automated.
-  return { name: account.name, display_name: account.name, about: p.about, website: p.website, picture: p.picture, banner: p.banner, nip05: p.nip05, bot: true };
+  // "bot": true is the standard flag for fully automated accounts (NIP-24). The owner also writes by hand from this account, so the flag is OFF
+  // (profile.bot in data/nostr-accounts.json; true turns it back on). PROJECT.md section 5 still asks to say in the text that the posts are automated:
+  // that sentence is in the profile "about".
+  return { name: account.name, display_name: account.name, about: p.about, website: p.website, picture: p.picture, banner: p.banner, nip05: p.nip05, ...(p.bot === true ? { bot: true } : {}) };
 }
 
 export const nip05Parts = (nip05) => {
