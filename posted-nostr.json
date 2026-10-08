@@ -4,25 +4,29 @@
       "2026-10-08": {
         "status": "done",
         "kind": "article",
-        "id": "bcc090bb6682a09dca90c45a0c9f0e667f3865b9287a3dbafb908eaed2f4c48a",
+        "id": "dbb9d1ab4ea82921388bc20e1f951f20de111d198404621d444f67c844cd717b",
         "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
         "article": "real-vs-fake-game-discounts",
-        "postedAt": "2026-10-08T05:31:14.000Z",
+        "postedAt": "2026-10-08T05:56:27.000Z",
         "accepted": [
-          "wss://relay.damus.io",
           "wss://nos.lol",
           "wss://relay.primal.net",
           "wss://offchain.pub",
           "wss://nostr.mom"
         ],
-        "failed": [],
+        "failed": [
+          {
+            "url": "wss://relay.damus.io",
+            "reason": "connection failed"
+          }
+        ],
         "event": {
           "kind": 1,
-          "created_at": 1791437474,
+          "created_at": 1791438987,
           "tags": [
             [
               "t",
-              "ad"
+              "saveandplay"
             ],
             [
               "t",
@@ -35,12 +39,18 @@
             [
               "t",
               "steam"
+            ],
+            [
+              "imeta",
+              "url https://saveandplay.com/og/real-vs-fake-game-discounts.png",
+              "m image/png",
+              "alt Chart of one game's price over six months. The \"was\" price on the badge is $60 but the game was really sold at $30 the whole time, so a \"-50%\" sale saves nothing. Invented numbers, for illustration only."
             ]
           ],
-          "content": "Is that \"-75%\" real? A discount only means something compared to the \"was\" price.\n\nWhat the official rules say:\n• Steam: no discount for 30 days after a price increase, and the base price can't change during a sale.\n• EU law: the \"before\" price must be the lowest the seller applied in the 30+ days before the sale.\n\nOur short guide: 5 questions to ask before you buy a PC game. Rules read 2026-10-06.\n#ad\n\nhttps://saveandplay.com/guides/real-vs-fake-game-discounts/?utm_source=nostr-prices&utm_medium=social&utm_campaign=guide-real-vs-fake-discounts",
+          "content": "Is that \"-75%\" real? A discount only means something compared to the \"was\" price.\n\nWhat the official rules say:\n• Steam: no discount for 30 days after a price increase, and the base price can't change during a sale.\n• EU law: the \"before\" price must be the lowest the seller applied in the 30+ days before the sale.\n\nOur short guide: 5 questions to ask before you buy a PC game. Rules read 2026-10-06.\n\n#pcgaming #gamedeals #steam\n\nhttps://saveandplay.com/og/real-vs-fake-game-discounts.png\n\nhttps://saveandplay.com/guides/real-vs-fake-game-discounts/?utm_source=nostr-prices&utm_medium=social&utm_campaign=guide-real-vs-fake-discounts",
           "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
-          "id": "bcc090bb6682a09dca90c45a0c9f0e667f3865b9287a3dbafb908eaed2f4c48a",
-          "sig": "6a791635e93e95853092136f54dfd881d890ddf0e0509b5f65f273aae6854dcb8fdcc4d5e6954ed782daffda72b1239700188350b7d6df8caddd8d9077b9a44f"
+          "id": "dbb9d1ab4ea82921388bc20e1f951f20de111d198404621d444f67c844cd717b",
+          "sig": "5377d2eaab1a9732b4745635206652228b370e41322b5cea00cbbfab35d1c49dab4612272e8818ef3cbbc8ca8dbfa764666aa67da74fa4110e432252574654f9"
         }
       }
     }
@@ -49,7 +59,22 @@
     "nostr": {
       "real-vs-fake-game-discounts": {
         "day": "2026-10-08",
-        "id": "bcc090bb6682a09dca90c45a0c9f0e667f3865b9287a3dbafb908eaed2f4c48a"
+        "id": "dbb9d1ab4ea82921388bc20e1f951f20de111d198404621d444f67c844cd717b"
+      }
+    }
+  },
+  "redone": {
+    "nostr": {
+      "real-vs-fake-game-discounts": {
+        "deletedId": "bcc090bb6682a09dca90c45a0c9f0e667f3865b9287a3dbafb908eaed2f4c48a",
+        "deletedAt": "2026-10-08T05:56:27.329Z",
+        "day": "2026-10-08",
+        "accepted": [
+          "wss://nos.lol",
+          "wss://relay.primal.net",
+          "wss://offchain.pub",
+          "wss://nostr.mom"
+        ]
       }
     }
   }
