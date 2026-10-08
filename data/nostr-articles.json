@@ -25,7 +25,7 @@
       ]
     },
     "steam-key-vs-drm-free": {
-      "approved": false,
+      "approved": true,
       "path": "/guides/steam-key-vs-drm-free/",
       "campaign": "guide-steam-key-vs-drm-free",
       "tags": [

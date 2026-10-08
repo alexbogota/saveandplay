@@ -254,7 +254,7 @@ test('dry-run: shows the note, publishes nothing, writes no record, needs no key
 });
 
 test('two files: settings of the account live in data/nostr-accounts.json, the brief rules in data/accounts.json; a mismatch gives a clear error', async () => {
-  assert.equal(realAccount.autopost, false, 'autopost must be false until the owner says ok');
+  assert.equal(typeof realAccount.autopost, 'boolean', 'autopost is the owner\'s switch (data/nostr-accounts.json)');
   assert.ok(!('autopost' in realAccounts.accounts.nostr) && !('profile' in realAccounts.accounts.nostr), 'no Nostr-only settings in data/accounts.json');
   assert.equal(realAccount.subid, 'nostr-prices');
   const root = makeRoot({ relays: ['wss://relay.example.test'] });
@@ -282,7 +282,7 @@ test('article note: exact text, #ad added by the program, marked link last, pict
   assert.deepEqual(buildArticleNote(art({ tags: [] }), { ...realAccount, hashtags: ['pcgaming'] }, SITE).tags, [['t', 'ad'], ['t', 'pcgaming']]);
 });
 
-test('articles: every article of the real queue builds a valid note (#ad, marked link, alt text on pictures); the first one is approved, the autopost switch is off', () => {
+test('articles: every article of the real queue builds a valid note (#ad, marked link, alt text on pictures); the first one is approved', () => {
   assert.ok(realArticles.queues.nostr.length >= 1);
   for (const slug of realArticles.queues.nostr) {
     const a = { slug, ...realArticles.articles[slug] };
@@ -293,7 +293,6 @@ test('articles: every article of the real queue builds a valid note (#ad, marked
   }
   assert.equal(realArticles.articles[realArticles.queues.nostr[0]].approved, true);
   assert.equal(articleQueue('nostr', {}).next.slug, realArticles.queues.nostr[0]);
-  assert.equal(realAccount.autopost, false);
 });
 
 test('articles: the queue skips the posted and the not approved, and an unknown name is a clear error', () => {
@@ -415,6 +414,30 @@ test('post: a reply of the owner (it has an "e" tag) does not count as the note 
   assert.ok(r1.events.some((e) => e.content.includes('Control Ultimate Edition')));
   assert.ok(!/already have a note/.test(r.summary));
   [r1, r2].forEach((x) => x.close());
+});
+
+test('short profile links: the website of the profile is a short address that public/go/.htaccess sends to the site with the marks of the account', () => {
+  const site = new URL(realAccount.profile.website);
+  assert.equal(site.origin, SITE);
+  assert.ok(/^\/go\/[a-z0-9-]+$/.test(site.pathname), 'a short address like /go/nostr, no marks in the text of the profile');
+  const rules = readFileSync(here('../public/go/.htaccess'), 'utf8').split(/\r?\n/).map((l) => l.trim()).filter((l) => /^RedirectMatch\s/.test(l));
+  const mine = rules.find((l) => l.split(/\s+/)[2] === `^${site.pathname}/?$`);
+  assert.ok(mine, `public/go/.htaccess has no rule for ${site.pathname}`);
+  const [, status, , target] = mine.split(/\s+/);
+  assert.equal(status, '302');
+  const t = new URL(target);
+  assert.equal(t.origin, SITE);
+  assert.equal(t.searchParams.get('utm_source'), realAccount.subid, 'the mark of the short link is the subid of the account');
+  assert.equal(t.searchParams.get('utm_medium'), 'social');
+  assert.equal(t.searchParams.get('utm_campaign'), 'profile');
+  // every rule: our site, 302, marks present
+  for (const l of rules) {
+    const [, st, pat, tg] = l.split(/\s+/);
+    assert.equal(st, '302');
+    assert.ok(/^\^\/go\/[a-z0-9-]+\/\?\$$/.test(pat), l);
+    const u = new URL(tg);
+    assert.ok(u.origin === SITE && u.searchParams.get('utm_source') && u.searchParams.get('utm_medium') === 'social', l);
+  }
 });
 
 test('profile: the bot flag can be switched back on in data/nostr-accounts.json', async () => {
@@ -596,7 +619,7 @@ test('profile: dry-run shows it (no bot flag, text says automated, marked websit
   const root = makeRoot({ relays: [a.url, b.url] });
   const d = await run('nostr-profile.mjs', ['--dry-run'], { root, withKey: false });
   assert.equal(d.code, 0, d.all);
-  assert.ok(!d.out.includes('"bot"') && d.out.includes('Deal posts are automated') && d.out.includes('utm_source=nostr-prices&utm_medium=social&utm_campaign=profile') && d.out.includes('"nip05": "prices@saveandplay.com"') && d.out.includes('https://saveandplay.com/avatar.png') && d.out.includes('https://saveandplay.com/og-image.png'));
+  assert.ok(!d.out.includes('"bot"') && d.out.includes('Deal posts are automated') && d.out.includes('"website": "https://saveandplay.com/go/nostr"') && d.out.includes('"nip05": "prices@saveandplay.com"') && d.out.includes('https://saveandplay.com/avatar.png') && d.out.includes('https://saveandplay.com/og-image.png'));
   assert.equal(a.events.length, 0);
   // no nostr.json: refused
   const no = await run('nostr-profile.mjs', [], { root });
@@ -616,7 +639,7 @@ test('profile: dry-run shows it (no bot flag, text says automated, marked websit
   assert.equal(p.name, 'Honest prices');
   assert.equal(p.nip05, 'prices@saveandplay.com');
   assert.equal(p.bot, undefined, 'the bot flag is off: the owner also writes by hand from this account');
-  assert.ok(p.about.includes('#ad') && p.about.includes('automated') && p.website.startsWith('https://saveandplay.com/?utm_source=nostr-prices'));
+  assert.ok(p.about.includes('#ad') && p.about.includes('automated') && p.website === 'https://saveandplay.com/go/nostr');
   assert.equal(b.events.length, 1);
   [a, b].forEach((x) => x.close());
 });
