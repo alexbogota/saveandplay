@@ -1,5 +1,5 @@
 {
-  "about": "Настройки аккаунтов Nostr: всё, что относится только к Nostr (к Bluesky это не относится). Ключ аккаунта (сейчас nostr) должен совпадать с ключом блока в data/accounts.json: там лежат правила подбора скидок для ежедневного брифа (магазины, минимальная скидка, метка subid, правила поста), их читает только программа брифа. Здесь: autopost = публиковать ли сами каждый день (false: только пробный запуск dry-run, включает владелец после «ок»; true: пост каждый день, а также выключатель, если что-то пошло не так); secretEnv = имя секрета GitHub (и строки в локальном .env) с приватным ключом аккаунта; timezone = часовой пояс «дня» для правила один пост в день; maxBriefAgeHours = бриф старше этого не используем; hashtags = теги t заметки (ad обязателен); profile = профиль Nostr: about, website, picture, banner (полные https-адреса) и nip05 (адрес вида имя@домен; файл public/.well-known/nostr.json пишет npm run nostr:keygen). Реле лежат в data/nostr-relays.json. Как добавить второй аккаунт: PROJECT.md, §11, запись про Nostr.",
+  "about": "Настройки аккаунтов Nostr: всё, что относится только к Nostr (к Bluesky это не относится). Ключ аккаунта (сейчас nostr) должен совпадать с ключом блока в data/accounts.json: там лежат правила подбора скидок для ежедневного брифа (магазины, минимальная скидка, метка subid, правила поста), их читает только программа брифа. Здесь: autopost = публиковать ли сами каждый день (false: только пробный запуск dry-run, включает владелец после «ок»; true: пост каждый день, а также выключатель, если что-то пошло не так); secretEnv = имя секрета GitHub (и строки в локальном .env) с приватным ключом аккаунта; timezone = часовой пояс «дня» для правила один пост в день; maxBriefAgeHours = бриф старше этого не используем; hashtags = теги t заметки (ad обязателен); profile = профиль Nostr: about, website, picture, banner (полные https-адреса) и nip05 (адрес вида имя@домен; файл public/.well-known/nostr.json пишет npm run nostr:keygen). Реле лежат в data/nostr-relays.json, очередь статей (они выходят первыми, по одной в день, потом скидки) в data/nostr-articles.json. profile.bot: true включает флаг «аккаунт-бот» в профиле (сейчас выключен: владелец сам пишет комментарии с этого аккаунта; что публикации автоматические, сказано в тексте about, как просит PROJECT.md §5). profile.website: ссылка с метками, чтобы переходы из профиля Nostr отличались от Bluesky и Mastodon. Как добавить второй аккаунт: PROJECT.md, §11, запись про Nostr.",
   "accounts": {
     "nostr": {
       "autopost": false,
@@ -12,11 +12,12 @@
         "gamedeals"
       ],
       "profile": {
-        "about": "Honest PC game prices, checked daily. One deal a day from GOG and IndieGala, with the date we checked it. Some links are affiliate links (#ad).",
-        "website": "https://saveandplay.com",
+        "about": "Honest PC game prices, checked daily. One deal a day from GOG and IndieGala, with the date we checked it. Deal posts are automated. Some links are affiliate links (#ad).",
+        "website": "https://saveandplay.com/?utm_source=nostr-prices&utm_medium=social&utm_campaign=profile",
         "picture": "https://saveandplay.com/avatar.png",
         "banner": "https://saveandplay.com/og-image.png",
-        "nip05": "prices@saveandplay.com"
+        "nip05": "prices@saveandplay.com",
+        "bot": false
       }
     }
   }

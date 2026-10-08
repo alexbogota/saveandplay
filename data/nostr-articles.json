@@ -1,0 +1,48 @@
+{
+  "about": "Очередь заметок Nostr про статьи сайта. Они выходят ПЕРВЫМИ, по одной в день, потом начинаются заметки про скидки (scripts/post-nostr.mjs). queues = порядок статей для каждого аккаунта (ключ как в data/nostr-accounts.json). У статьи: approved = true только когда владелец одобрил текст (пока false, статья в очереди пропускается и не публикуется); lines = текст заметки по строкам, готовый, пишется вручную, ИИ не используется (программа сама добавит строку #ad, картинку и ссылку); path = адрес статьи на сайте; campaign = метка utm_campaign; tags = дополнительные теги t (ad, pcgaming, gamedeals ставятся всегда); image и imageAlt = картинка статьи и её описание (alt обязателен), если у статьи есть своя картинка. Ссылка собирается так: сайт + path + ?utm_source=<subid аккаунта>&utm_medium=social&utm_campaign=<campaign>. Какие статьи уже вышли, записано в drafts/posted-nostr.json (ветка brief), раздел articles: вторая публикация той же статьи невозможна. Заметка выходит с датой публикации, задним числом не подписывается. Добавить статью: новый блок в articles, её ключ в queues.",
+  "queues": {
+    "nostr": [
+      "real-vs-fake-game-discounts",
+      "steam-key-vs-drm-free"
+    ]
+  },
+  "articles": {
+    "real-vs-fake-game-discounts": {
+      "approved": true,
+      "path": "/guides/real-vs-fake-game-discounts/",
+      "campaign": "guide-real-vs-fake-discounts",
+      "tags": [
+        "steam"
+      ],
+      "lines": [
+        "Is that \"-75%\" real? A discount only means something compared to the \"was\" price.",
+        "",
+        "What the official rules say:",
+        "• Steam: no discount for 30 days after a price increase, and the base price can't change during a sale.",
+        "• EU law: the \"before\" price must be the lowest the seller applied in the 30+ days before the sale.",
+        "",
+        "Our short guide: 5 questions to ask before you buy a PC game. Rules read 2026-10-06."
+      ]
+    },
+    "steam-key-vs-drm-free": {
+      "approved": false,
+      "path": "/guides/steam-key-vs-drm-free/",
+      "campaign": "guide-steam-key-vs-drm-free",
+      "tags": [
+        "steam",
+        "gog",
+        "drmfree"
+      ],
+      "image": "/og/steam-key-vs-drm-free.png",
+      "imageAlt": "Diagram: on Steam the game is a license on your account; on GOG the DRM-free game files can be installed on several PCs and backed up.",
+      "lines": [
+        "Steam key or DRM-free: what do you actually get when you press \"buy\"?",
+        "",
+        "• Steam: the agreement says the content is \"licensed, not sold\". The license sits on your account and the account can't be transferred.",
+        "• GOG: sells only DRM-free games. GOG says you can back up the files, install them on as many devices as you wish, and run them with or without a launcher.",
+        "",
+        "Neither is better in general: it depends on what you want to do with the game later. We read the stores' own pages (2026-10-07). Not legal advice."
+      ]
+    }
+  }
+}
