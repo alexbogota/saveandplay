@@ -1,0 +1,324 @@
+{
+  "account": "Honest prices",
+  "generatedAt": "2026-10-08T03:58:23.482Z",
+  "builtBy": "commit 525a7cd, workflow_dispatch, run #6 attempt 1",
+  "pricesCheckedAt": "2026-10-07T09:49:09.029Z",
+  "warnings": [],
+  "candidates": [
+    {
+      "id": "indiegala-monster-hunter-rise",
+      "kind": "deal",
+      "title": "MONSTER HUNTER RISE",
+      "store": "IndieGala",
+      "price": 3.99,
+      "was": 39.99,
+      "discount": 90,
+      "endsAt": "2026-10-16T23:59:00Z",
+      "endsInHours": 212,
+      "priceCheckedAt": "2026-10-07T09:49:09.029Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1446780/header.jpg?t=1768870444",
+      "coverAlt": "Cover art for MONSTER HUNTER RISE",
+      "score": 12,
+      "discountRank": 7,
+      "sites": 1,
+      "mentions": [
+        {
+          "source": "Eurogamer",
+          "domain": "eurogamer.net",
+          "title": "20 million sales later, Capcom is bringing Monster Hunter Rise to iOS and Android, but for now it's locked behind a Netflix subscription",
+          "link": "https://www.eurogamer.net/monster-hunter-rise-ios-android-netflix",
+          "t": 1791379662000,
+          "how": "title"
+        }
+      ],
+      "history": {
+        "days": 2,
+        "lowest": false,
+        "since": "2026-10-05"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/indiegala/monster-hunter-rise/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-08",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "1 news site wrote about the game in the last 48 h",
+        "deepest-discount rank 7 of 39"
+      ]
+    },
+    {
+      "id": "indiegala-control-ultimate-edition",
+      "kind": "deal",
+      "title": "Control Ultimate Edition",
+      "store": "IndieGala",
+      "price": 5.99,
+      "was": 39.99,
+      "discount": 85,
+      "endsAt": "2026-10-08T23:59:00Z",
+      "endsInHours": 20,
+      "priceCheckedAt": "2026-10-07T09:49:09.029Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/870780/ec621653454cdad232187af4eb79f23c05aceca5/header.jpg?t=1781607969",
+      "coverAlt": "Cover art for Control Ultimate Edition",
+      "score": 10.5,
+      "discountRank": 10,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 2,
+        "lowest": false,
+        "since": "2026-10-05"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/indiegala/control-ultimate-edition/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-08",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "sale ends in 20 h",
+        "deepest-discount rank 10 of 39"
+      ]
+    },
+    {
+      "id": "indiegala-ghostrunner-2",
+      "kind": "deal",
+      "title": "Ghostrunner 2",
+      "store": "IndieGala",
+      "price": 6.69,
+      "was": 39.99,
+      "discount": 83,
+      "endsAt": "2026-10-08T17:00:00Z",
+      "endsInHours": 13,
+      "priceCheckedAt": "2026-10-07T09:49:09.029Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2144740/header.jpg?t=1741369902",
+      "coverAlt": "Cover art for Ghostrunner 2",
+      "score": 10.3,
+      "discountRank": 12,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 2,
+        "lowest": false,
+        "since": "2026-10-05"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/indiegala/ghostrunner-2/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-08",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "sale ends in 13 h",
+        "deepest-discount rank 12 of 39"
+      ]
+    },
+    {
+      "id": "gog-shadow-tactics-blades-of-the-shogun",
+      "kind": "deal",
+      "title": "Shadow Tactics: Blades of the Shogun",
+      "store": "GOG",
+      "price": 3.99,
+      "was": 39.99,
+      "discount": 90,
+      "endsAt": "2026-10-18T09:59:00+03:00",
+      "endsInHours": 243,
+      "priceCheckedAt": "2026-10-07T09:48:07.937Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
+      "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
+      "score": 10,
+      "discountRank": 6,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 1,
+        "lowest": false,
+        "since": "2026-10-07"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-08",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 6 of 39"
+      ]
+    },
+    {
+      "id": "indiegala-castlevania-lords-of-shadow-2",
+      "kind": "deal",
+      "title": "Castlevania: Lords of Shadow 2",
+      "store": "IndieGala",
+      "price": 7.99,
+      "was": 39.99,
+      "discount": 80,
+      "endsAt": "2026-10-09T23:59:00Z",
+      "endsInHours": 44,
+      "priceCheckedAt": "2026-10-07T09:49:09.029Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/239250/header.jpg?t=1737506536",
+      "coverAlt": "Cover art for Castlevania: Lords of Shadow 2",
+      "score": 10,
+      "discountRank": 17,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 2,
+        "lowest": false,
+        "since": "2026-10-05"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/indiegala/castlevania-lords-of-shadow-2/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-08",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "sale ends in 44 h",
+        "deepest-discount rank 17 of 39"
+      ]
+    }
+  ],
+  "gogNews": [],
+  "topical": [
+    {
+      "title": "Now we know the prices of the new RTX Spark laptops and they're as expensive as I'm sure you feared",
+      "source": "PC Gamer",
+      "link": "https://www.pcgamer.com/hardware/gaming-laptops/now-we-know-the-prices-of-the-new-rtx-spark-laptops-and-theyre-as-expensive-as-im-sure-you-feared/",
+      "t": 1791427352000,
+      "keyword": "prices",
+      "summary": "RTX Spark laptops will range from $2,600 all the way up to $7,000. Pre-orders open now. Release date is October 16, 2026. It is the best of times, it is the wo…"
+    }
+  ],
+  "topics": [
+    {
+      "headline": "Free Steam keys for Spooky Cats are available from Fanatical while stocks last!",
+      "score": 11,
+      "sites": [
+        "gamerpower.com",
+        "gg.deals",
+        "indiegamebundles.com"
+      ],
+      "keywords": [
+        "free"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "GamerPower (PC)",
+          "title": "Spooky Cats Steam Key Giveaway",
+          "link": "https://www.gamerpower.com/spooky-cats-steam-key-giveaway",
+          "published": "2026-10-07T10:34:03.000Z"
+        },
+        {
+          "source": "gg.deals Freebies",
+          "title": "Free Steam keys for Spooky Cats are available from Fanatical while stocks last!",
+          "link": "https://gg.deals/freebie/free-steam-keys-for-spooky-cats-are-available-from-fanatical-while-stocks-last/",
+          "published": "2026-10-07T12:49:00.000Z"
+        },
+        {
+          "source": "gg.deals News",
+          "title": "Free Steam keys for Spooky Cats are available from Fanatical while stocks last!",
+          "link": "https://gg.deals/freebie/free-steam-keys-for-spooky-cats-are-available-from-fanatical-while-stocks-last/",
+          "published": "2026-10-07T12:49:00.000Z"
+        },
+        {
+          "source": "Indie Game Bundles",
+          "title": "Get a FREE STEAM KEY for Spooky Cats at Fanatical",
+          "link": "https://www.indiegamebundles.com/get-a-free-steam-key-for-spooky-cats-at-fanatical/",
+          "published": "2026-10-07T17:56:01.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Humble Beyond Reality: Sci-Fi & Survival VR Bundle throws you into outer space and spooky forests",
+      "score": 10,
+      "sites": [
+        "gg.deals",
+        "indiegamebundles.com"
+      ],
+      "keywords": [
+        "bundle",
+        "humble"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Humble Beyond Reality: Sci-Fi & Survival VR Bundle throws you into outer space and spooky forests",
+          "link": "https://gg.deals/bundle/humble-beyond-reality-sci-fi-survival-vr-bundle-throws-you-into-outer-space-and-spooky-forests/",
+          "published": "2026-10-07T18:56:35.000Z"
+        },
+        {
+          "source": "Indie Game Bundles",
+          "title": "Humble Beyond Reality: Sci-Fi & Survival VR Collection",
+          "link": "https://www.indiegamebundles.com/humble-beyond-reality-sci-fi-survival-vr-collection/",
+          "published": "2026-10-07T18:10:10.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Humble Choice October 2026 – Like a Dragon: Pirate Yakuza in Hawaii, Prince of Persia Lost Crown",
+      "score": 8,
+      "sites": [
+        "gg.deals",
+        "indiegamebundles.com"
+      ],
+      "keywords": [
+        "humble"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Humble Choice October 2026 gets you Pirate Yakuza in Hawaii, PoP The Lost Crown & more",
+          "link": "https://gg.deals/bundle/humble-choice-october-2026/",
+          "published": "2026-10-06T17:11:00.000Z"
+        },
+        {
+          "source": "Indie Game Bundles",
+          "title": "Humble Choice October 2026 – Like a Dragon: Pirate Yakuza in Hawaii, Prince of Persia Lost Crown",
+          "link": "https://www.indiegamebundles.com/humble-choice-october-2026/",
+          "published": "2026-10-06T17:19:24.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Choose wisely: grab The Stanley Parable Ultra Deluxe at its historical low price before the Steam Autumn Sale ends!",
+      "score": 7,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "sale",
+        "price"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Choose wisely: grab The Stanley Parable Ultra Deluxe at its historical low price before the Steam Autumn Sale ends!",
+          "link": "https://gg.deals/deal/make-the-right-choice-grab-the-stanley-parable-ultra-deluxe-at-its-historical-low-price-before-the-steam-autumn-sale-ends/",
+          "published": "2026-10-07T18:47:00.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Humble Indie Fighters Bundle serves up kicks, punches, and blocks galore for $16",
+      "score": 7,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "bundle",
+        "humble"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Humble Indie Fighters Bundle serves up kicks, punches, and blocks galore for $16",
+          "link": "https://gg.deals/bundle/humble-indie-fighters-bundle-serves-up-kicks-punches-and-blocks-galore-for-16/",
+          "published": "2026-10-07T18:26:34.000Z"
+        }
+      ]
+    }
+  ],
+  "left": {
+    "otherStore": 0,
+    "hidden": 0,
+    "smallDiscount": 0,
+    "ended": 0,
+    "endsTooSoon": 0,
+    "oldPrice": 0
+  },
+  "sources": {
+    "total": 11,
+    "failed": []
+  }
+}

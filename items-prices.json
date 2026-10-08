@@ -1,9 +1,68 @@
 {
  "account": "Honest prices",
- "generatedAt": "2026-10-07T22:08:09.530Z",
+ "generatedAt": "2026-10-08T03:58:23.482Z",
  "windowHours": 48,
- "count": 134,
+ "count": 137,
  "items": [
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Now we know the prices of the new RTX Spark laptops and they're as expensive as I'm sure you feared",
+   "link": "https://www.pcgamer.com/hardware/gaming-laptops/now-we-know-the-prices-of-the-new-rtx-spark-laptops-and-theyre-as-expensive-as-im-sure-you-feared/",
+   "published": "2026-10-08T02:42:32.000Z",
+   "status": "topic-below-cut",
+   "score": 5
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Here's the Dragon's Dogma 2: Dark Arisen release time for your region",
+   "link": "https://www.pcgamer.com/games/rpg/heres-the-dragons-dogma-2-dark-arisen-release-time-for-your-region/",
+   "published": "2026-10-08T00:00:00.000Z",
+   "status": "topic-below-cut",
+   "storyHeadline": "Here's the Dragon's Dogma 2: Dark Arisen release time for your region",
+   "score": 6
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Blizzard promises to make the blue elves in World of Warcraft: Forever look worse (positive)",
+   "link": "https://www.pcgamer.com/games/world-of-warcraft/blizzard-promises-to-make-the-blue-elves-in-world-of-warcraft-forever-look-worse-positive/",
+   "published": "2026-10-07T22:42:17.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "With Grand Theft Auto 6 poised to take over the world, I reached out to Jack Thompson and it did not go well",
+   "link": "https://www.pcgamer.com/games/grand-theft-auto/with-grand-theft-auto-6-poised-to-take-over-the-world-i-reached-out-to-jack-thompson-and-it-did-not-go-well/",
+   "published": "2026-10-07T22:41:23.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Blood Bowl 3 is being replaced by Warhammer Blood Bowl: What will happen to everyone's unspent currency?",
+   "link": "https://www.pcgamer.com/games/strategy/blood-bowl-3-is-being-replaced-by-warhammer-blood-bowl-what-will-happen-to-everyones-unspent-currency/",
+   "published": "2026-10-07T22:34:55.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "'You have HOW MANY unread emails?' PC Gamer shares their inbox shame",
+   "link": "https://www.pcgamer.com/software/you-have-how-many-unread-emails-pc-gamer-shares-their-inbox-shame/",
+   "published": "2026-10-07T22:06:11.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
   {
    "source": "PC Gamer",
    "domain": "pcgamer.com",
@@ -768,7 +827,7 @@
   {
    "source": "PC Gamer",
    "domain": "pcgamer.com",
-   "title": "The PC Gamer Mysteries, Case #1: \"A Slice of Death\": Why is there a dead golfer hidden in Golden Tee '99?",
+   "title": "The PC Gamer Mysteries, Case #1, 'A Slice of Death': Why is there a dead golfer hidden in Golden Tee '99?",
    "link": "https://www.pcgamer.com/games/sports/the-pc-gamer-mysteries-case-1-a-slice-of-death-why-is-there-a-dead-golfer-hidden-in-golden-tee-99/",
    "published": "2026-10-06T19:48:42.000Z",
    "status": "dropped",
@@ -899,9 +958,9 @@
    "title": "Dragon’s Dogma 2: Dark Arisen launch times: See when the journey begins in your region",
    "link": "https://gg.deals/gaming-news/dragons-dogma-2-dark-arisen-launch-times-see-when-the-journey-begins-in-your-region/",
    "published": "2026-10-06T16:44:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
+   "status": "topic-below-cut",
+   "storyHeadline": "Here's the Dragon's Dogma 2: Dark Arisen release time for your region",
+   "score": 6
   },
   {
    "source": "Rock Paper Shotgun",
@@ -1042,8 +1101,8 @@
   {
    "source": "PC Gamer",
    "domain": "pcgamer.com",
-   "title": "Gundam Rogue Orbit gave me a sick whip sword, but held back the one thing I want most in a mech game",
-   "link": "https://www.pcgamer.com/games/action/gundam-rogue-orbit-gave-me-a-sick-whip-sword-but-held-back-the-one-thing-i-want-most-in-a-mech-game/",
+   "title": "Warhammer Survivors is more than just a Vampire Survivors spin-off",
+   "link": "https://www.pcgamer.com/games/roguelike/warhammer-survivors-is-more-than-just-a-vampire-survivors-spin-off/",
    "published": "2026-10-06T14:00:00.000Z",
    "status": "dropped",
    "score": 3,
@@ -1052,8 +1111,8 @@
   {
    "source": "PC Gamer",
    "domain": "pcgamer.com",
-   "title": "Warhammer Survivors is more than just a Vampire Survivors spin-off",
-   "link": "https://www.pcgamer.com/games/roguelike/warhammer-survivors-is-more-than-just-a-vampire-survivors-spin-off/",
+   "title": "Gundam Rogue Orbit gave me a sick whip sword, but held back the one thing I want most in a mech game",
+   "link": "https://www.pcgamer.com/games/action/gundam-rogue-orbit-gave-me-a-sick-whip-sword-but-held-back-the-one-thing-i-want-most-in-a-mech-game/",
    "published": "2026-10-06T14:00:00.000Z",
    "status": "dropped",
    "score": 3,
@@ -1279,35 +1338,6 @@
    "title": "Get Microsoft Office 2024 Professional Plus for Just $49.97 – Lifetime License, No Subscription",
    "link": "https://www.indiegamebundles.com/get-microsoft-office-2024-professional-plus/",
    "published": "2026-10-06T06:41:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Despite the tragic death of its lead writer, one of the scariest games I have ever played will finally come out later this month",
-   "link": "https://www.pcgamer.com/games/fps/despite-the-tragic-death-of-its-lead-writer-one-of-the-scariest-games-i-have-ever-played-will-finally-come-out-later-this-month/",
-   "published": "2026-10-06T01:29:16.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Steam sale deep cut alert: this ARPG originally developed for Nokia N-Gage is brilliant on Deck",
-   "link": "https://www.pcgamer.com/games/rpg/steam-sale-deep-cut-alert-this-arpg-originally-developed-for-nokia-n-gage-is-brilliant-on-deck/",
-   "published": "2026-10-05T23:55:25.000Z",
-   "status": "topic-below-cut",
-   "score": 7
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Industry layoff watch: Supermassive, Ninja Theory, The Coalition, and a warning from Warhorse",
-   "link": "https://www.pcgamer.com/gaming-industry/industry-layoff-watch-supermassive-ninja-theory-the-coalition-and-a-warning-from-warhorse/",
-   "published": "2026-10-05T22:36:39.000Z",
    "status": "dropped",
    "score": 3,
    "note": "one site, no keyword of the account, not about a game we list"
