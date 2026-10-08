@@ -558,6 +558,11 @@ test('short profile links: the website of the profile is a short address that pu
   assert.equal(t.searchParams.get('utm_source'), realAccount.subid, 'the mark of the short link is the subid of the account');
   assert.equal(t.searchParams.get('utm_medium'), 'social');
   assert.equal(t.searchParams.get('utm_campaign'), 'profile');
+  // the Bluesky address is /go/bsky and carries the subid of the Bluesky account; there is no old /go/bluesky
+  const bsky = rules.find((l) => l.split(/\s+/)[2] === '^/go/bsky/?$');
+  assert.ok(bsky, 'public/go/.htaccess has no rule for /go/bsky');
+  assert.equal(new URL(bsky.split(/\s+/)[3]).searchParams.get('utm_source'), realAccounts.accounts.prices.subid);
+  assert.ok(!rules.some((l) => l.includes('/go/bluesky')), 'the old /go/bluesky is gone');
   // every rule: our site, 302, marks present
   for (const l of rules) {
     const [, st, pat, tg] = l.split(/\s+/);
