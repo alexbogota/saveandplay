@@ -1,8 +1,8 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-10-09T02:12:38.888Z",
-  "builtBy": "commit 8c3c187, push, run #9 attempt 1",
-  "pricesCheckedAt": "2026-10-08T09:51:04.345Z",
+  "generatedAt": "2026-10-09T11:12:33.382Z",
+  "builtBy": "commit 1c34e67, schedule, run #10 attempt 1",
+  "pricesCheckedAt": "2026-10-09T09:49:54.327Z",
   "warnings": [],
   "candidates": [
     {
@@ -14,16 +14,17 @@
       "was": 9.99,
       "discount": 90,
       "endsAt": "2026-10-18T09:59:00+03:00",
-      "endsInHours": 221,
-      "priceCheckedAt": "2026-10-08T09:48:19.834Z",
+      "endsInHours": 212,
+      "priceCheckedAt": "2026-10-09T09:48:29.932Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/214340/header.jpg?t=1789381815",
+      "drminfo": null,
       "coverAlt": "Cover art for Deponia",
       "score": 10,
       "discountRank": 7,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 1,
+        "days": 2,
         "lowest": false,
         "since": "2026-10-08"
       },
@@ -31,7 +32,7 @@
       "link": "https://saveandplay.com/deals/gog/deponia/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-09",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 7 of 32"
+        "deepest-discount rank 7 of 34"
       ]
     },
     {
@@ -43,16 +44,17 @@
       "was": 39.99,
       "discount": 90,
       "endsAt": "2026-10-18T09:59:00+03:00",
-      "endsInHours": 221,
-      "priceCheckedAt": "2026-10-08T09:48:19.834Z",
+      "endsInHours": 212,
+      "priceCheckedAt": "2026-10-09T09:48:29.932Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
+      "drminfo": null,
       "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
       "score": 10,
       "discountRank": 6,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 2,
+        "days": 3,
         "lowest": false,
         "since": "2026-10-07"
       },
@@ -60,7 +62,7 @@
       "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-09",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 6 of 32"
+        "deepest-discount rank 6 of 34"
       ]
     },
     {
@@ -72,16 +74,17 @@
       "was": 39.99,
       "discount": 80,
       "endsAt": "2026-10-09T23:59:00Z",
-      "endsInHours": 22,
-      "priceCheckedAt": "2026-10-08T09:51:04.345Z",
+      "endsInHours": 13,
+      "priceCheckedAt": "2026-10-09T09:49:54.327Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/239250/header.jpg?t=1737506536",
+      "drminfo": "Steam key",
       "coverAlt": "Cover art for Castlevania: Lords of Shadow 2",
       "score": 10,
-      "discountRank": 17,
+      "discountRank": 19,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 3,
+        "days": 4,
         "lowest": false,
         "since": "2026-10-05"
       },
@@ -89,8 +92,8 @@
       "link": "https://saveandplay.com/deals/indiegala/castlevania-lords-of-shadow-2/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-09",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 22 h",
-        "deepest-discount rank 17 of 32"
+        "sale ends in 13 h",
+        "deepest-discount rank 19 of 34"
       ]
     },
     {
@@ -102,16 +105,17 @@
       "was": 24.99,
       "discount": 85,
       "endsAt": "2026-10-18T09:59:00+03:00",
-      "endsInHours": 221,
-      "priceCheckedAt": "2026-10-08T09:48:19.834Z",
+      "endsInHours": 212,
+      "priceCheckedAt": "2026-10-09T09:48:29.932Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187",
+      "drminfo": null,
       "coverAlt": "Cover art for Darkest Dungeon",
       "score": 9.5,
       "discountRank": 10,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 2,
+        "days": 3,
         "lowest": false,
         "since": "2026-10-07"
       },
@@ -119,36 +123,37 @@
       "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-09",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 10 of 32"
+        "deepest-discount rank 10 of 34"
       ]
     },
     {
-      "id": "gog-syberia-ii",
+      "id": "gog-prince-of-persia-the-sands-of-time",
       "kind": "deal",
-      "title": "Syberia II",
+      "title": "Prince of Persia: The Sands of Time",
       "store": "GOG",
-      "price": 2.59,
-      "was": 12.99,
+      "price": 1.99,
+      "was": 9.99,
       "discount": 80,
       "endsAt": "2026-10-18T09:59:00+03:00",
-      "endsInHours": 221,
-      "priceCheckedAt": "2026-10-08T09:48:19.834Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/46510/header.jpg?t=1743167581",
-      "coverAlt": "Cover art for Syberia II",
+      "endsInHours": 212,
+      "priceCheckedAt": "2026-10-09T09:48:29.932Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13600/header.jpg?t=1720535333",
+      "drminfo": null,
+      "coverAlt": "Cover art for Prince of Persia: The Sands of Time",
       "score": 9,
-      "discountRank": 14,
+      "discountRank": 15,
       "sites": 0,
       "mentions": [],
       "history": {
         "days": 1,
         "lowest": false,
-        "since": "2026-10-08"
+        "since": "2026-10-09"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/syberia-ii/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-09",
+      "link": "https://saveandplay.com/deals/gog/prince-of-persia-the-sands-of-time/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-09",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 14 of 32"
+        "deepest-discount rank 15 of 34"
       ]
     }
   ],
@@ -180,12 +185,20 @@
   ],
   "topical": [
     {
-      "title": "World of Warships Ning Hai DLC is FREE to keep on Steam for a limited time",
-      "source": "gg.deals Freebies",
-      "link": "https://gg.deals/freebie/world-of-warships-ning-hai-dlc-is-free-to-keep-on-steam-for-a-limited-time/",
-      "t": 1791481554000,
-      "keyword": "free",
-      "summary": "Missed it when it was free last time? Here&rsquo;s another chance to snag this cruiser."
+      "title": "Steam LudoNarraCon Sale 2026 is live with story rich games up to 95% off",
+      "source": "gg.deals News",
+      "link": "https://gg.deals/deal/steam-ludonarracon-sale-2026-is-live/",
+      "t": 1791540541000,
+      "keyword": "sale",
+      "summary": "Love a game with a good story? If so, don't miss on this sale."
+    },
+    {
+      "title": "Action-Adventure Heroes kick prices down by up to 90% in Humble Store’s latest sale",
+      "source": "gg.deals News",
+      "link": "https://gg.deals/deal/action-adventure-heroes-kick-prices-down-by-up-to-90-in-humble-stores-latest-sale/",
+      "t": 1791485145000,
+      "keyword": "sale",
+      "summary": "Save on the Resident Evil series and more until October 15."
     }
   ],
   "topics": [
@@ -225,39 +238,6 @@
           "title": "You can now sign up to playtest the genre-bending Pony Island 2: Panda Circus, and while you're at it the original is free for a few days too",
           "link": "https://www.rockpapershotgun.com/you-can-now-sign-up-to-playtest-the-genre-bending-pony-island-2-panda-circus-and-while-youre-at-it-the-original-is-free-for-a-few-days-too",
           "published": "2026-10-08T21:56:00.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Get a FREE STEAM KEY for Spooky Cats at Fanatical",
-      "score": 11,
-      "sites": [
-        "gamerpower.com",
-        "gg.deals",
-        "indiegamebundles.com"
-      ],
-      "keywords": [
-        "free"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "GamerPower (PC)",
-          "title": "Spooky Cats Steam Key Giveaway",
-          "link": "https://www.gamerpower.com/spooky-cats-steam-key-giveaway",
-          "published": "2026-10-07T10:34:03.000Z"
-        },
-        {
-          "source": "gg.deals Freebies",
-          "title": "Free Steam keys for Spooky Cats are available from Fanatical while stocks last!",
-          "link": "https://gg.deals/freebie/free-steam-keys-for-spooky-cats-are-available-from-fanatical-while-stocks-last/",
-          "published": "2026-10-07T12:49:00.000Z"
-        },
-        {
-          "source": "Indie Game Bundles",
-          "title": "Get a FREE STEAM KEY for Spooky Cats at Fanatical",
-          "link": "https://www.indiegamebundles.com/get-a-free-steam-key-for-spooky-cats-at-fanatical/",
-          "published": "2026-10-07T17:56:01.000Z"
         }
       ]
     },
@@ -321,23 +301,48 @@
       ]
     },
     {
-      "headline": "Action-Adventure Heroes kick prices down by up to 90% in Humble Store’s latest sale",
+      "headline": "Get a FREE STEAM KEY for Spooky Cats at Fanatical",
+      "score": 8,
+      "sites": [
+        "gg.deals",
+        "indiegamebundles.com"
+      ],
+      "keywords": [
+        "free"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals Freebies",
+          "title": "Free Steam keys for Spooky Cats are available from Fanatical while stocks last!",
+          "link": "https://gg.deals/freebie/free-steam-keys-for-spooky-cats-are-available-from-fanatical-while-stocks-last/",
+          "published": "2026-10-07T12:49:00.000Z"
+        },
+        {
+          "source": "Indie Game Bundles",
+          "title": "Get a FREE STEAM KEY for Spooky Cats at Fanatical",
+          "link": "https://www.indiegamebundles.com/get-a-free-steam-key-for-spooky-cats-at-fanatical/",
+          "published": "2026-10-07T17:56:01.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Humble launches Triple-i Initiative Showcase Bundle with tiers starting at $8",
       "score": 7,
       "sites": [
         "gg.deals"
       ],
       "keywords": [
-        "sale",
-        "prices",
+        "bundle",
         "humble"
       ],
       "games": [],
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Action-Adventure Heroes kick prices down by up to 90% in Humble Store’s latest sale",
-          "link": "https://gg.deals/deal/action-adventure-heroes-kick-prices-down-by-up-to-90-in-humble-stores-latest-sale/",
-          "published": "2026-10-08T18:45:45.000Z"
+          "title": "Humble launches Triple-i Initiative Showcase Bundle with tiers starting at $8",
+          "link": "https://gg.deals/bundle/humble-triple-i-initiative-showcase-bundle/",
+          "published": "2026-10-09T07:54:00.000Z"
         }
       ]
     }
@@ -346,7 +351,7 @@
     "otherStore": 0,
     "hidden": 0,
     "smallDiscount": 0,
-    "ended": 9,
+    "ended": 0,
     "endsTooSoon": 0,
     "oldPrice": 0
   },
@@ -356,14 +361,14 @@
   },
   "posts": {
     "bluesky": {
-      "text": "Deponia: -90% at GOG\n$0.99 (was $9.99)\nPrice checked Oct 8. Sale ends Oct 18.\n\nhttps://saveandplay.com/deals/gog/deponia/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-09\n\n#PCGaming #GameDeals #Deponia\nAd",
+      "text": "Deponia: -90% at GOG\n$0.99 (was $9.99)\nPrice checked Oct 9. Sale ends Oct 18.\n\nhttps://saveandplay.com/deals/gog/deponia/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-09\n\n#PCGaming #GameDeals #Deponia\nAd",
       "length": 138,
       "max": 300,
       "link": "https://saveandplay.com/deals/gog/deponia/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-09",
       "deal": "gog-deponia"
     },
     "mastodon": {
-      "text": "Deponia: -90% at GOG\n$0.99 (was $9.99)\nYou save $9.00\nDRM-free\nPrice checked Oct 8. Sale ends Oct 18.\n\nhttps://saveandplay.com/deals/gog/deponia/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-09\n\n#GameDeals #PCGaming #GOG #DRMFree #VideoGames\nAd",
+      "text": "Deponia: -90% at GOG\n$0.99 (was $9.99)\nYou save $9.00\nDRM-free\nPrice checked Oct 9. Sale ends Oct 18.\n\nhttps://saveandplay.com/deals/gog/deponia/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-09\n\n#GameDeals #PCGaming #GOG #DRMFree #VideoGames\nAd",
       "length": 177,
       "max": 500,
       "link": "https://saveandplay.com/deals/gog/deponia/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-09",
