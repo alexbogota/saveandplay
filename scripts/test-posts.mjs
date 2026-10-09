@@ -11,7 +11,7 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import { channelWithDefaults, buildPost, chooseTags, gameTag, formatDate, graphemes } from './lib/posts.mjs';
+import { channelWithDefaults, buildPost, chooseTags, gameTag, formatDate, graphemes, savingsInCents } from './lib/posts.mjs';
 import { collectTags, gameTagsOf, summarizeHistory } from './lib/tag-stats.mjs';
 
 process.env.DAILY_BRIEF_AS_MODULE = '1';
@@ -232,6 +232,62 @@ test('tag research: the tags of accounts.json are collected, the statistics are 
   assert.deepEqual(summarizeHistory([], now), { days: 0, uses: 0, avgUses: 0, lastDay: null, maxAccounts: 0 });
   assert.equal(summarizeHistory(undefined, now), null, 'no history in the answer: no numbers');
   assert.equal(summarizeHistory([{ day: 'x', uses: 'y', accounts: 'z' }], now).days, 0, 'garbage is not counted');
+});
+
+test('Mastodon: "You save $X" (old price minus price) and the note of the store; Bluesky has neither', () => {
+  const g = buildPost({ candidate: gog, channel: mastodon, links, day });
+  assert.ok(g.text.startsWith('Shadow Tactics: Blades of the Shogun: -90% at GOG\n$3.99 (was $39.99)\nYou save $36.00\nDRM-free, no launcher needed\nPrice checked Oct 8. Sale ends Oct 18.\n'));
+  const i = buildPost({ candidate: deal, channel: mastodon, links, day });
+  assert.ok(i.text.startsWith('Control Ultimate Edition: -85% at IndieGala\n$5.99 (was $39.99)\nYou save $34.00\nSteam key\nPrice checked Oct 7.'));
+  for (const d of [gog, deal]) {
+    const b = buildPost({ candidate: d, channel: bluesky, links, day });
+    assert.ok(!/You save|DRM-free|Steam key/.test(b.text), 'Bluesky is not changed: little room');
+  }
+  assert.equal(g.text.split('\n').at(-1), 'Ad');
+});
+
+test('the saving is counted in cents from the prices of the deal', () => {
+  const c = (price, was) => ({ price, was });
+  assert.equal(savingsInCents(c(5.99, 39.99)), 3400);
+  assert.equal(savingsInCents(c(8.09, 59.99)), 5190);
+  assert.equal(savingsInCents(c(0.99, 9.99)), 900);
+  assert.equal(savingsInCents(c(0.1, 0.3)), 20, 'no float noise (0.3 - 0.1 is 0.19999999999999998 as floats)');
+  assert.equal(savingsInCents(c(9.99, 9.99)), 0);
+  assert.equal(savingsInCents(c(12, 9.99)), 0, 'a price above the old price saves nothing');
+  const none = buildPost({ candidate: { ...gog, price: 39.99 }, channel: mastodon, links, day });
+  assert.ok(!none.text.includes('You save'), 'nothing to save: no line');
+  assert.ok(buildPost({ candidate: { ...gog, price: 8.09, was: 59.99 }, channel: mastodon, links, day }).text.includes('You save $51.90\n'));
+});
+
+test('no note for a store that is not in storeNote: no line, no empty line', () => {
+  const p = buildPost({ candidate: { ...gog, store: 'Humble' }, channel: mastodon, links, day });
+  assert.ok(p.text.includes('$3.99 (was $39.99)\nYou save $36.00\nPrice checked'));
+});
+
+test('the amounts check: the computed saving is allowed, invented amounts still stop the build', () => {
+  const withNote = (store, note) => channelWithDefaults('x', 'c', { ...accounts.prices.channels.mastodon, storeNote: { [store]: note } });
+  // an invented amount in the note of the store
+  assert.throws(() => buildPost({ candidate: gog, channel: withNote('GOG', 'Save $50.00 more at the checkout'), links, day }), /not a price of the deal: \$50/);
+  // the saving is allowed only when it IS the saving: this one is a different amount
+  assert.throws(() => buildPost({ candidate: gog, channel: withNote('GOG', 'You save $35.00'), links, day }), /\$35/);
+  // the amount that equals the real saving is fine, even written by hand in a note
+  assert.ok(buildPost({ candidate: gog, channel: withNote('GOG', 'Worth $36.00 less'), links, day }).text.includes('Worth $36.00 less'));
+  // a channel without the savings line does not get the saving allowed
+  const noSavings = channelWithDefaults('x', 'c', { ...accounts.prices.channels.mastodon, savings: undefined, storeNote: { GOG: 'Worth $36.00 less' } });
+  assert.throws(() => buildPost({ candidate: gog, channel: noSavings, links, day }), /\$36/);
+  // the title of a game may hold an amount of its own; it is not a price of the post
+  assert.ok(buildPost({ candidate: { ...gog, title: 'Sam & Max: $99.99 Quest' }, channel: mastodon, links, day }).text.includes('$99.99 Quest'));
+});
+
+test('savings and storeNote: bad settings are refused', () => {
+  const base = accounts.prices.channels.mastodon;
+  assert.throws(() => channelWithDefaults('x', 'c', { ...base, savings: 'You save a lot' }), /\{amount\}/);
+  assert.throws(() => channelWithDefaults('x', 'c', { ...base, savings: 'You save {amount} #deal' }), /one line of plain text/);
+  assert.throws(() => channelWithDefaults('x', 'c', { ...base, storeNote: { GOG: 'two\nlines' } }), /storeNote of GOG/);
+  assert.throws(() => channelWithDefaults('x', 'c', { ...base, storeNote: { GOG: '#DRMFree' } }), /storeNote of GOG/);
+  assert.equal(channelWithDefaults('x', 'c', { ...base, savings: undefined, storeNote: undefined }).savings, '', 'both are optional');
+  const noLines = channelWithDefaults('x', 'c', { ...base, savings: undefined, storeNote: undefined });
+  assert.ok(!buildPost({ candidate: gog, channel: noLines, links, day }).text.includes('You save'), 'a channel without them gets no lines, though its template has the placeholders');
 });
 
 test('the real data/accounts.json: every channel is valid and a post can be made for each, for 30 days in a row', () => {
