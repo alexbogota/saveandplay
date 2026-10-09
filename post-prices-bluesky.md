@@ -1,7 +1,8 @@
-Castlevania: Lords of Shadow 2: -80% at IndieGala
-$7.99 (was $39.99)
-Price checked Oct 8. Sale ends Oct 9. Lowest price we've tracked.
+Deponia: -90% at GOG
+$0.99 (was $9.99)
+Price checked Oct 8. Sale ends Oct 18.
 
-https://saveandplay.com/deals/indiegala/castlevania-lords-of-shadow-2/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-09
+https://saveandplay.com/deals/gog/deponia/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-09
 
-#PCGaming #GameDeals #ad
+#PCGaming #GameDeals #Deponia
+Ad

@@ -1,8 +1,8 @@
 {
  "account": "Honest prices",
- "generatedAt": "2026-10-09T01:03:24.394Z",
+ "generatedAt": "2026-10-09T02:12:38.888Z",
  "windowHours": 48,
- "count": 158,
+ "count": 157,
  "items": [
   {
    "source": "Rock Paper Shotgun",
@@ -1563,14 +1563,6 @@
    "status": "dropped",
    "score": 3,
    "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "GOG front page",
-   "domain": "gog.com",
-   "title": "Release: Dead of Darkness",
-   "link": "http://www.gog.com/news/release_dead_of_darkness",
-   "published": "2026-10-07T01:19:05.000Z",
-   "status": "store-own-news"
   }
  ]
 }

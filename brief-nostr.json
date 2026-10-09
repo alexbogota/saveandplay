@@ -1,41 +1,10 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-10-09T01:03:24.394Z",
-  "builtBy": "commit e8e4005, push, run #8 attempt 1",
+  "generatedAt": "2026-10-09T02:12:38.888Z",
+  "builtBy": "commit 8c3c187, push, run #9 attempt 1",
   "pricesCheckedAt": "2026-10-08T09:51:04.345Z",
   "warnings": [],
   "candidates": [
-    {
-      "id": "indiegala-castlevania-lords-of-shadow-2",
-      "kind": "deal",
-      "title": "Castlevania: Lords of Shadow 2",
-      "store": "IndieGala",
-      "price": 7.99,
-      "was": 39.99,
-      "discount": 80,
-      "endsAt": "2026-10-09T23:59:00Z",
-      "endsInHours": 23,
-      "priceCheckedAt": "2026-10-08T09:51:04.345Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/239250/header.jpg?t=1737506536",
-      "coverAlt": "Cover art for Castlevania: Lords of Shadow 2",
-      "score": 11,
-      "discountRank": 17,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 3,
-        "lowest": true,
-        "since": "2026-10-05"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/indiegala/castlevania-lords-of-shadow-2/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-09",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "sale ends in 23 h",
-        "lowest price we've tracked (3 days of data)",
-        "deepest-discount rank 17 of 32"
-      ]
-    },
     {
       "id": "gog-deponia",
       "kind": "deal",
@@ -45,7 +14,7 @@
       "was": 9.99,
       "discount": 90,
       "endsAt": "2026-10-18T09:59:00+03:00",
-      "endsInHours": 222,
+      "endsInHours": 221,
       "priceCheckedAt": "2026-10-08T09:48:19.834Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/214340/header.jpg?t=1789381815",
       "coverAlt": "Cover art for Deponia",
@@ -74,7 +43,7 @@
       "was": 39.99,
       "discount": 90,
       "endsAt": "2026-10-18T09:59:00+03:00",
-      "endsInHours": 222,
+      "endsInHours": 221,
       "priceCheckedAt": "2026-10-08T09:48:19.834Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
       "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
@@ -95,33 +64,33 @@
       ]
     },
     {
-      "id": "indiegala-lego-star-wars-the-skywalker-saga-deluxe-edition",
+      "id": "indiegala-castlevania-lords-of-shadow-2",
       "kind": "deal",
-      "title": "LEGO® Star Wars™:The Skywalker Saga Deluxe Edition",
+      "title": "Castlevania: Lords of Shadow 2",
       "store": "IndieGala",
-      "price": 8.09,
-      "was": 59.99,
-      "discount": 87,
-      "endsAt": "2026-10-11T23:59:00Z",
-      "endsInHours": 71,
+      "price": 7.99,
+      "was": 39.99,
+      "discount": 80,
+      "endsAt": "2026-10-09T23:59:00Z",
+      "endsInHours": 22,
       "priceCheckedAt": "2026-10-08T09:51:04.345Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/920210/header.jpg?t=1747346983",
-      "coverAlt": "Cover art for LEGO® Star Wars™:The Skywalker Saga Deluxe Edition",
-      "score": 9.7,
-      "discountRank": 9,
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/239250/header.jpg?t=1737506536",
+      "coverAlt": "Cover art for Castlevania: Lords of Shadow 2",
+      "score": 10,
+      "discountRank": 17,
       "sites": 0,
       "mentions": [],
       "history": {
         "days": 3,
-        "lowest": true,
+        "lowest": false,
         "since": "2026-10-05"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/indiegala/lego-star-wars-the-skywalker-saga-deluxe-edition/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-09",
+      "link": "https://saveandplay.com/deals/indiegala/castlevania-lords-of-shadow-2/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-09",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (3 days of data)",
-        "deepest-discount rank 9 of 32"
+        "sale ends in 22 h",
+        "deepest-discount rank 17 of 32"
       ]
     },
     {
@@ -133,7 +102,7 @@
       "was": 24.99,
       "discount": 85,
       "endsAt": "2026-10-18T09:59:00+03:00",
-      "endsInHours": 222,
+      "endsInHours": 221,
       "priceCheckedAt": "2026-10-08T09:48:19.834Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187",
       "coverAlt": "Cover art for Darkest Dungeon",
@@ -151,6 +120,35 @@
       "linkKind": "link to our site",
       "whyToday": [
         "deepest-discount rank 10 of 32"
+      ]
+    },
+    {
+      "id": "gog-syberia-ii",
+      "kind": "deal",
+      "title": "Syberia II",
+      "store": "GOG",
+      "price": 2.59,
+      "was": 12.99,
+      "discount": 80,
+      "endsAt": "2026-10-18T09:59:00+03:00",
+      "endsInHours": 221,
+      "priceCheckedAt": "2026-10-08T09:48:19.834Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/46510/header.jpg?t=1743167581",
+      "coverAlt": "Cover art for Syberia II",
+      "score": 9,
+      "discountRank": 14,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 1,
+        "lowest": false,
+        "since": "2026-10-08"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/syberia-ii/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-09",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 14 of 32"
       ]
     }
   ],
