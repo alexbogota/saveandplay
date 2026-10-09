@@ -11,6 +11,10 @@ on:
   schedule:
     - cron: '0 11 * * *' # 11:00 UTC = 06:00 Bogota
   workflow_dispatch:
+  # TEMPORARY (Oct 8): a push to the brief code starts one run, to check the result without the Run button. Remove after the check.
+  push:
+    branches: [main]
+    paths: ['scripts/daily-brief.mjs', 'scripts/lib/posts.mjs', 'data/accounts.json', '.github/workflows/daily-brief.yml']
 
 # Writing is needed only to save the brief on the "brief" branch.
 permissions:
