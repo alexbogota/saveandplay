@@ -11,11 +11,13 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import { channelWithDefaults, buildPost, chooseTags, gameTag, formatDate, graphemes, savingsInCents } from './lib/posts.mjs';
+import { channelWithDefaults, buildPost, chooseTags, gameTag, formatDate, graphemes, savingsInCents, noteOf } from './lib/posts.mjs';
 import { collectTags, gameTagsOf, summarizeHistory } from './lib/tag-stats.mjs';
 
 process.env.DAILY_BRIEF_AS_MODULE = '1';
-const { makePosts, withDefaults, historyFacts } = await import('./daily-brief.mjs');
+process.env.UPDATE_DEALS_AS_MODULE = '1';
+const { makePosts, withDefaults, historyFacts, buildCandidates } = await import('./daily-brief.mjs');
+const { mergeIndieGala } = await import('./update-deals.mjs');
 
 const links = { site: 'https://saveandplay.com' };
 const accounts = JSON.parse(readFileSync(fileURLToPath(new URL('../data/accounts.json', import.meta.url)), 'utf8')).accounts;
@@ -234,11 +236,11 @@ test('tag research: the tags of accounts.json are collected, the statistics are 
   assert.equal(summarizeHistory([{ day: 'x', uses: 'y', accounts: 'z' }], now).days, 0, 'garbage is not counted');
 });
 
-test('Mastodon: "You save $X" (old price minus price) and the note of the store (GOG: DRM-free, IndieGala: none); Bluesky has neither', () => {
+test('Mastodon: "You save $X" (old price minus price) and the note of the store (GOG: DRM-free, IndieGala: by its drminfo); Bluesky has neither', () => {
   const g = buildPost({ candidate: gog, channel: mastodon, links, day });
   assert.ok(g.text.startsWith('Shadow Tactics: Blades of the Shogun: -90% at GOG\n$3.99 (was $39.99)\nYou save $36.00\nDRM-free\nPrice checked Oct 8. Sale ends Oct 18.\n'));
   const i = buildPost({ candidate: deal, channel: mastodon, links, day });
-  assert.ok(i.text.startsWith('Control Ultimate Edition: -85% at IndieGala\n$5.99 (was $39.99)\nYou save $34.00\nPrice checked Oct 7.'), 'IndieGala has no note: there is no data yet that the key is a Steam key');
+  assert.ok(i.text.startsWith('Control Ultimate Edition: -85% at IndieGala\n$5.99 (was $39.99)\nYou save $34.00\nPrice checked Oct 7.'), 'IndieGala without drminfo in the data: no note');
   assert.ok(!i.text.includes('Steam key') && !i.text.includes('DRM-free'));
   for (const d of [gog, deal]) {
     const b = buildPost({ candidate: d, channel: bluesky, links, day });
@@ -289,6 +291,76 @@ test('savings and storeNote: bad settings are refused', () => {
   assert.equal(channelWithDefaults('x', 'c', { ...base, savings: undefined, storeNote: undefined }).savings, '', 'both are optional');
   const noLines = channelWithDefaults('x', 'c', { ...base, savings: undefined, storeNote: undefined });
   assert.ok(!buildPost({ candidate: gog, channel: noLines, links, day }).text.includes('You save'), 'a channel without them gets no lines, though its template has the placeholders');
+});
+
+test('IndieGala note comes from the drminfo of the game: "Steam key" or "DRM free" as the feed says, otherwise no note', () => {
+  const ig = (drminfo) => ({ ...deal, drminfo });
+  const lines = (c) => buildPost({ candidate: c, channel: mastodon, links, day }).text.split('\n');
+  assert.deepEqual(lines(ig('Steam key')).slice(0, 4), ['Control Ultimate Edition: -85% at IndieGala', '$5.99 (was $39.99)', 'You save $34.00', 'Steam key']);
+  assert.deepEqual(lines(ig('DRM free')).slice(0, 4), ['Control Ultimate Edition: -85% at IndieGala', '$5.99 (was $39.99)', 'You save $34.00', 'DRM-free']);
+  assert.equal(lines(ig('DRM-free'))[3], 'DRM-free', 'capitals, hyphens and spaces do not matter');
+  assert.equal(lines(ig('  steam KEY '))[3], 'Steam key');
+  for (const unknown of ['GOG key', 'Epic key', 'Origin', '', null, undefined]) assert.equal(lines(ig(unknown))[3], 'Price checked Oct 7. Sale ends Oct 8.', `no note for ${JSON.stringify(unknown)}`);
+  // GOG keeps its own text, whatever the drminfo says; Bluesky has no note at all
+  assert.equal(lines({ ...gog, drminfo: 'Steam key' })[3], 'DRM-free');
+  assert.ok(!/Steam key|DRM-free/.test(buildPost({ candidate: ig('Steam key'), channel: bluesky, links, day }).text));
+});
+
+test('noteOf: plain text, a rule from a field, or nothing', () => {
+  const ch = channelWithDefaults('x', 'c', { ...accounts.prices.channels.mastodon, storeNote: { A: 'Plain', B: { field: 'drminfo', notes: { 'Steam key': 'Key' } } } });
+  assert.equal(noteOf(ch, { store: 'A' }), 'Plain');
+  assert.equal(noteOf(ch, { store: 'B', drminfo: 'steam-key' }), 'Key');
+  assert.equal(noteOf(ch, { store: 'B', drminfo: 'Something else' }), '');
+  assert.equal(noteOf(ch, { store: 'B' }), '');
+  assert.equal(noteOf(ch, { store: 'C', drminfo: 'Steam key' }), '', 'a store without a note');
+});
+
+test('storeNote rules: bad settings are refused (no field, unknown field, no notes, a hashtag or a line break in a note)', () => {
+  const base = accounts.prices.channels.mastodon;
+  const rule = (r) => channelWithDefaults('x', 'c', { ...base, storeNote: { IndieGala: r } });
+  assert.throws(() => rule({ notes: { 'Steam key': 'Key' } }), /must look like/);
+  assert.throws(() => rule({ field: 'platform', notes: { 'Steam key': 'Key' } }), /must look like/);
+  assert.throws(() => rule({ field: 'drminfo', notes: {} }), /must look like/);
+  assert.throws(() => rule({ field: 'drminfo' }), /must look like/);
+  assert.throws(() => rule({ field: 'drminfo', notes: { 'Steam key': '#SteamKey' } }), /must look like/);
+  assert.throws(() => rule({ field: 'drminfo', notes: { 'Steam key': 'two\nlines' } }), /must look like/);
+  assert.ok(rule({ field: 'drminfo', notes: { 'Steam key': 'Key' } }));
+});
+
+test('the invented-amount check also covers notes taken from the data', () => {
+  const rule = channelWithDefaults('x', 'c', { ...accounts.prices.channels.mastodon, storeNote: { IndieGala: { field: 'drminfo', notes: { 'Steam key': 'Save $50.00 extra' } } } });
+  assert.throws(() => buildPost({ candidate: { ...deal, drminfo: 'Steam key' }, channel: rule, links, day }), /not a price of the deal: \$50/);
+});
+
+test('the brief carries drminfo from deals.json into the candidate, and a post is made from it', () => {
+  const account = withDefaults('prices', accounts.prices);
+  const now = Date.parse('2026-10-08T12:00:00Z');
+  const make = (extra) => buildCandidates({
+    eligible: [{ deal: { store: 'IndieGala', title: 'Control Ultimate Edition', price: 5.99, was: 39.99, discountPct: 85, endsAt: '2026-10-09T23:59:00Z', checkedAt: '2026-10-08T09:00:00Z', url: 'https://www.indiegala.com/store/game/control/1', ...extra }, id: 'indiegala-control-ultimate-edition', offeredOn: null }],
+    mentions: new Map(), history: {}, account, links, now,
+  })[0];
+  assert.equal(make({ drminfo: 'Steam key' }).drminfo, 'Steam key');
+  assert.equal(make({}).drminfo, null, 'a deal without the field: null');
+  const posts = makePosts({ id: 'prices', account, brief: { candidates: [make({ drminfo: 'DRM free' })], warnings: [] }, links, now });
+  assert.ok(posts.find((p) => p.channel === 'mastodon').text.includes('\nDRM-free\n'));
+  assert.ok(!posts.find((p) => p.channel === 'bluesky').text.includes('DRM-free'));
+});
+
+test('update-deals keeps what the feed says: the fresh IndieGala list replaces the old entries with their drminfo', () => {
+  const old = [{ store: 'IndieGala', title: 'A', url: 'https://i/a', image: 'cover.jpg' }, { store: 'GOG', title: 'G', url: 'https://g/g' }];
+  const fresh = [{ store: 'IndieGala', title: 'A', url: 'https://i/a', drminfo: 'Steam key', image: '' }, { store: 'IndieGala', title: 'B', url: 'https://i/b', drminfo: 'DRM free', image: '' }];
+  const merged = mergeIndieGala(old, fresh).deals;
+  assert.equal(merged.find((d) => d.title === 'A').drminfo, 'Steam key');
+  assert.equal(merged.find((d) => d.title === 'A').image, 'cover.jpg', 'the cover found earlier is kept');
+  assert.equal(merged.find((d) => d.title === 'B').drminfo, 'DRM free');
+  assert.equal(merged.find((d) => d.title === 'G').drminfo, undefined, 'GOG is not touched');
+  const later = mergeIndieGala(merged, [{ store: 'IndieGala', title: 'A', url: 'https://i/a', image: '' }]).deals;
+  assert.equal(later.find((d) => d.title === 'A').drminfo, undefined, 'if the feed stops saying it, we do not keep an old value');
+});
+
+test('the real data/deals.json: a drminfo, where there is one, is plain text of an IndieGala deal', () => {
+  const deals = JSON.parse(readFileSync(fileURLToPath(new URL('../data/deals.json', import.meta.url)), 'utf8'));
+  for (const d of deals) if ('drminfo' in d) assert.ok(typeof d.drminfo === 'string' && d.drminfo.trim() && d.store === 'IndieGala', `${d.title}`);
 });
 
 test('the real data/accounts.json: every channel is valid and a post can be made for each, for 30 days in a row', () => {
