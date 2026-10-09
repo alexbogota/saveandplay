@@ -18,7 +18,8 @@
     "nostr:profile": "node scripts/nostr-profile.mjs",
     "nostr:post": "node scripts/post-nostr.mjs",
     "nostr:check": "node scripts/nostr-check.mjs",
-    "nostr:test": "node scripts/test-nostr.mjs"
+    "nostr:test": "node scripts/test-nostr.mjs",
+    "posts:test": "node scripts/test-posts.mjs"
   },
   "dependencies": {
     "astro": "^7.3.5",
