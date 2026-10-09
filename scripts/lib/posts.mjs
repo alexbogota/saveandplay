@@ -19,13 +19,18 @@
 //                 A derived tag that is NOT in the pool is added to every post; one that IS in the pool comes only in its turn.
 //                 Each day takes the next tag of the pool; one that does not exist for this deal (no game tag) or is already used is skipped.
 //   maxTags       the most tags in a post (the rotating one is the first to go).
+//
+// Two optional lines (a channel with enough room, like Mastodon; a channel without them is not changed):
+//   savings       "You save {amount}": {amount} = old price minus price, counted from the prices of the deal (in cents, so 39.99 - 5.99 = $34.00).
+//                 The line is left out when there is nothing to save. The template places it with {savings}.
+//   storeNote     { store: "a short plain note" }  (GOG: DRM-free, no launcher needed). The template places it with {storeNote}; no note for a store = no line.
 
 import { slug, dealPagePath } from './deal-paths.mjs';
 
-const CHANNEL_DEFAULTS = { enabled: true, dateFormat: 'MMM D', linkChars: 25, storeTags: {}, nicheTags: {}, gameTag: false, rotatingTags: [] };
+const CHANNEL_DEFAULTS = { enabled: true, dateFormat: 'MMM D', linkChars: 25, storeTags: {}, nicheTags: {}, gameTag: false, rotatingTags: [], savings: '', storeNote: {} };
 const REQUIRED = ['subid', 'maxChars', 'disclosure', 'baseTags', 'maxTags', 'template'];
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-const PLACEHOLDERS = ['title', 'store', 'discount', 'price', 'was', 'checked', 'ends', 'lowest', 'why', 'link', 'tags', 'disclosure'];
+const PLACEHOLDERS = ['title', 'store', 'discount', 'price', 'was', 'checked', 'ends', 'lowest', 'why', 'savings', 'storeNote', 'link', 'tags', 'disclosure'];
 const DERIVED = ['{store}', '{niche}', '{game}'];
 const MIN_TITLE = 15;
 const GAME_TAG_MIN = 4;
@@ -36,12 +41,16 @@ export function channelWithDefaults(accountId, name, channel) {
   const c = { ...CHANNEL_DEFAULTS, ...channel };
   const where = `Channel "${name}" of account "${accountId}"`;
   c.utmSource ??= c.subid;
+  for (const [k, v] of Object.entries(CHANNEL_DEFAULTS)) c[k] ??= v; // a field that is empty or missing is "not set"
   const missing = REQUIRED.filter((k) => !c[k] || (Array.isArray(c[k]) && !c[k].length));
   if (missing.length) throw new Error(`${where} in data/accounts.json lacks: ${missing.join(', ')}.`);
   if (!Number.isInteger(c.maxChars) || c.maxChars < 50) throw new Error(`${where}: maxChars must be a whole number (50 or more).`);
   if (!Number.isInteger(c.maxTags) || c.maxTags < 1) throw new Error(`${where}: maxTags must be a whole number (1 or more).`);
   if (typeof c.disclosure !== 'string' || !c.disclosure.trim() || /[\n#]/.test(c.disclosure)) throw new Error(`${where}: disclosure must be a short plain text on one line, not a hashtag (for example Ad).`);
   if (!Array.isArray(c.template)) throw new Error(`${where}: template must be a list of paragraphs.`);
+  const oneLine = (t) => typeof t === 'string' && t.trim() && !/[\r\n#]/.test(t); // plain text, one line, no hashtag
+  if (c.savings && (!oneLine(c.savings) || !c.savings.includes('{amount}'))) throw new Error(`${where}: savings must be one line of plain text with {amount} in it (for example: You save {amount}).`);
+  for (const [store, note] of Object.entries(c.storeNote)) if (!oneLine(note)) throw new Error(`${where}: the storeNote of ${store} must be a short plain text on one line, without #.`);
   for (const t of c.rotatingTags) if (t.startsWith('{') && !DERIVED.includes(t)) throw new Error(`${where}: "${t}" in rotatingTags is unknown; allowed: ${DERIVED.join(' ')}.`);
   const literal = [...c.baseTags, ...Object.values(c.storeTags), ...Object.values(c.nicheTags), ...c.rotatingTags.filter((t) => !DERIVED.includes(t))];
   for (const t of literal) if (!tagName.test(t)) throw new Error(`${where}: "${t}" is not a valid tag. Write tags without #, in CamelCase (PCGaming, GameDeals).`);
@@ -122,6 +131,9 @@ const whyText = (c) => {
   return clauses.length ? `Why today: ${clauses.join('; ')}.` : '';
 };
 
+// What the buyer saves, in cents: old price minus price (both from data/deals.json). Counted in cents so that 39.99 - 5.99 is exactly 34.00.
+export const savingsInCents = (c) => Math.max(0, Math.round(c.was * 100) - Math.round(c.price * 100));
+
 function check(c) {
   const bad = [];
   if (!c || c.kind !== 'deal') throw new Error('There is no deal to post.');
@@ -141,6 +153,7 @@ export function buildPost({ candidate: c, channel, links, day }) {
   const link = postLink(links, c, channel, day);
   const { tags } = chooseTags({ c, channel, day });
   const tagsText = tags.map((t) => `#${t}`).join(' ');
+  const saved = channel.savings ? savingsInCents(c) : 0; // cents; 0 = nothing to show
 
   const render = (title) => {
     const values = {
@@ -153,6 +166,8 @@ export function buildPost({ candidate: c, channel, links, day }) {
       ends: c.endsAt ? ` Sale ends ${formatDate(c.endsAt, channel.dateFormat)}.` : '',
       lowest: c.history?.lowest ? " Lowest price we've tracked." : '',
       why: whyText(c),
+      savings: saved ? channel.savings.replace('{amount}', money(saved / 100)) : '',
+      storeNote: channel.storeNote[c.store] ?? '',
       link,
       tags: tagsText,
       disclosure: channel.disclosure,
@@ -183,7 +198,9 @@ export function buildPost({ candidate: c, channel, links, day }) {
   if (tags.length > channel.maxTags) throw new Error(`The post has ${tags.length} tags, the limit is ${channel.maxTags}.`);
   if (!text.includes(link) || !link.startsWith(`${links.site}/deals/`)) throw new Error('The post has no link to our page of the game.');
   // Any amount in the post (outside the game's own title) must be the price or the old price of the deal.
+  // The saving counted from those two prices is allowed too, only when the channel has the savings line.
   const expected = [c.price, c.was].map((n) => Number(n.toFixed(2)));
+  if (channel.savings && saved) expected.push(saved / 100);
   const strange = [...text.replace(title, '').matchAll(/\$(\d+\.\d{2})/g)].map((m) => Number(m[1])).filter((n) => !expected.includes(n));
   if (strange.length) throw new Error(`The post has an amount that is not a price of the deal: $${strange[0]}.`);
   if (/lowest (price )?ever|all[- ]time low|historical low/i.test(text)) throw new Error('The post claims a record low. Not allowed: only "lowest price we\'ve tracked", and only when the history confirms it.');
