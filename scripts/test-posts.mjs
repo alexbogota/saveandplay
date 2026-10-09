@@ -2,14 +2,17 @@
 //
 //   npm run posts:test
 //
-// Checked: the text and the numbers, the link (our page, marks of the channel), the ad tag last, hashtags, the limit of characters
-// (and a long title), "Lowest price we've tracked" only when the history says so, no post when there is no deal, a broken template
-// is reported and never produces a post, a new channel needs only a block in the settings, the real data/accounts.json is valid.
+// Checked: the text and the numbers, the link (our page, marks of the channel), the disclosure line ("Ad") last and counted in the limit,
+// no #ad tag, the tags (base, store, niche, the tag of the game, the rotation by the day), the limit of characters (and a long title),
+// "Lowest price we've tracked" only when the history says so and only after minHistoryDays, no post when there is no deal,
+// a broken template is reported and never produces a post, a new channel needs only a block in the settings,
+// the real data/accounts.json is valid.
 
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import { channelWithDefaults, buildPost, formatDate, graphemes } from './lib/posts.mjs';
+import { channelWithDefaults, buildPost, chooseTags, gameTag, formatDate, graphemes } from './lib/posts.mjs';
+import { collectTags, gameTagsOf, summarizeHistory } from './lib/tag-stats.mjs';
 
 process.env.DAILY_BRIEF_AS_MODULE = '1';
 const { makePosts, withDefaults, historyFacts } = await import('./daily-brief.mjs');
@@ -24,18 +27,45 @@ const deal = {
   price: 5.99, was: 39.99, discount: 85, endsAt: '2026-10-08T23:59:00Z', priceCheckedAt: '2026-10-07T09:49:09.029Z',
   history: { days: 5, lowest: false }, whyToday: ['sale ends in 36 h', 'deepest-discount rank 10 of 38'], discountRank: 10,
 };
-const day = '2026-10-08';
+const gog = {
+  id: 'gog-shadow-tactics-blades-of-the-shogun', kind: 'deal', title: 'Shadow Tactics: Blades of the Shogun', store: 'GOG',
+  price: 3.99, was: 39.99, discount: 90, endsAt: '2026-10-18T06:59:00Z', priceCheckedAt: '2026-10-08T09:48:00Z',
+  history: { days: 3, lowest: false }, whyToday: ['deepest-discount rank 6 of 32'], discountRank: 6,
+};
+const day = '2026-10-08'; // day number 20734: 20734 % 3 = 1 (Gaming) for Bluesky; Mastodon pool of 3 as well
 let ran = 0;
 const test = (name, fn) => { fn(); ran++; console.log(`ok  ${name}`); };
+const tagsOf = (text) => text.split('\n').at(-2).split(' ');
 
-test('text: only the numbers of the deal, dates by the channel format', () => {
+test('text: only the numbers of the deal, dates by the channel format, disclosure last', () => {
   const p = buildPost({ candidate: deal, channel: bluesky, links, day });
   assert.equal(p.text, [
     'Control Ultimate Edition: -85% at IndieGala\n$5.99 (was $39.99)\nPrice checked Oct 7. Sale ends Oct 8.',
     'https://saveandplay.com/deals/indiegala/control-ultimate-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-08',
-    '#PCGaming #GameDeals #ad',
+    '#PCGaming #GameDeals #Gaming\nAd',
   ].join('\n\n'));
   assert.ok(p.length <= 300);
+});
+
+test('the disclosure is the plain last line, never a hashtag; no #ad anywhere', () => {
+  for (const ch of [bluesky, mastodon]) {
+    for (const d of [deal, gog]) {
+      for (const n of [8, 9, 10, 11, 12]) {
+        const p = buildPost({ candidate: d, channel: ch, links, day: `2026-10-${String(n).padStart(2, '0')}` });
+        assert.equal(p.text.split('\n').at(-1), 'Ad');
+        assert.ok(!/#ad\b/i.test(p.text));
+      }
+    }
+  }
+  assert.throws(() => channelWithDefaults('x', 'c', { ...accounts.prices.channels.bluesky, disclosure: '#ad' }), /not a hashtag/);
+  assert.throws(() => channelWithDefaults('x', 'c', { ...accounts.prices.channels.bluesky, disclosure: undefined }), /lacks: disclosure/);
+});
+
+test('the characters of the disclosure line count in the limit', () => {
+  const longer = channelWithDefaults('x', 'c', { ...accounts.prices.channels.bluesky, disclosure: 'Ad: affiliate links, we may earn a commission' });
+  const a = buildPost({ candidate: deal, channel: bluesky, links, day });
+  const b = buildPost({ candidate: deal, channel: longer, links, day });
+  assert.equal(b.length - a.length, graphemes('Ad: affiliate links, we may earn a commission') - graphemes('Ad'));
 });
 
 test('the link is our page of the game, never a store; the marks belong to the channel', () => {
@@ -46,18 +76,69 @@ test('the link is our page of the game, never a store; the marks belong to the c
   for (const t of [b.text, m.text]) assert.ok(!/gog\.com|qwpeg|indiegala\.com|admitad|steampowered/i.test(t));
 });
 
-test('the ad tag is the last word; Mastodon has 3-4 tags in CamelCase and the store tag', () => {
-  const m = buildPost({ candidate: deal, channel: mastodon, links, day });
-  assert.equal(m.text.split(/\s+/).at(-1), '#ad');
-  const tags = m.text.split('\n').at(-1).split(' ');
-  assert.deepEqual(tags, ['#PCGaming', '#GameDeals', '#Gaming', '#IndieGala', '#ad']);
-  assert.ok(m.text.includes('Why today: sale ends in 36 h.'), 'the rank clause is not shown below the top 3');
-  assert.ok(!/rank/.test(m.text));
+test('game tag: the part before ":", letters and digits, CamelCase, 4 to 25 characters', () => {
+  assert.equal(gameTag('Shadow Tactics: Blades of the Shogun'), 'ShadowTactics');
+  assert.equal(gameTag('MONSTER HUNTER RISE'), 'MonsterHunterRise');
+  assert.equal(gameTag('LEGO® Star Wars™:The Skywalker Saga Deluxe Edition'), 'LegoStarWars');
+  assert.equal(gameTag("Assassin's Creed"), 'AssassinsCreed');
+  assert.equal(gameTag('No Man’s Sky'), 'NoMansSky');
+  assert.equal(gameTag('Hades II'), 'HadesII');
+  assert.equal(gameTag('Control Ultimate Edition'), 'ControlUltimateEdition'); // 22 characters
+  assert.equal(gameTag('Deponia'), 'Deponia');
+  assert.equal(gameTag('Sifu'), 'Sifu', 'four characters is the shortest');
+  assert.equal(gameTag('Go'), null, 'too short');
+  assert.equal(gameTag('The Extremely Long Title Of A Game: Part 2'), null, 'too long (more than 25)');
+  assert.equal(gameTag('1234'), null, 'no letter');
+  assert.equal(gameTag('神之天平'), null, 'no letters or digits we can use');
+});
+
+test('Bluesky tags: PCGaming GameDeals and a third one by the day: store, Gaming, game (rotation, not random)', () => {
+  const third = (d, n) => chooseTags({ c: d, channel: bluesky, day: `2026-10-${String(n).padStart(2, '0')}` }).tags;
+  const seq = [8, 9, 10, 11, 12, 13].map((n) => third(gog, n).at(-1));
+  assert.deepEqual(seq, ['Gaming', 'ShadowTactics', 'GOG', 'Gaming', 'ShadowTactics', 'GOG']);
+  for (const n of [8, 9, 10]) assert.deepEqual(third(gog, n).slice(0, 2), ['PCGaming', 'GameDeals']);
+  assert.deepEqual(third(gog, 9), third(gog, 9), 'the same day gives the same tags');
+  for (const n of [8, 9, 10, 11]) assert.ok(third(gog, n).length <= 3);
+  // a game with no usable tag: the rotation goes on to the next tag of the pool
+  const none = { ...gog, title: 'Go' };
+  assert.deepEqual([8, 9, 10, 11].map((n) => third(none, n).at(-1)), ['Gaming', 'GOG', 'GOG', 'Gaming']);
+});
+
+test('Mastodon tags: GameDeals PCGaming, store, niche and one by the day: game, Gaming, VideoGames; at most 5', () => {
+  const tags = (d, n) => chooseTags({ c: d, channel: mastodon, day: `2026-10-${String(n).padStart(2, '0')}` }).tags;
+  assert.deepEqual([8, 9, 10].map((n) => tags(gog, n)), [
+    ['GameDeals', 'PCGaming', 'GOG', 'DRMFree', 'Gaming'],
+    ['GameDeals', 'PCGaming', 'GOG', 'DRMFree', 'VideoGames'],
+    ['GameDeals', 'PCGaming', 'GOG', 'DRMFree', 'ShadowTactics'],
+  ]);
+  assert.deepEqual(tags(deal, 8).slice(2, 4), ['IndieGala', 'IndieGames']);
+  for (const n of [8, 9, 10, 11, 12, 13]) assert.ok(tags(deal, n).length <= 5);
+  const small = channelWithDefaults('x', 'c', { ...accounts.prices.channels.mastodon, maxTags: 4 });
+  assert.equal(chooseTags({ c: gog, channel: small, day: '2026-10-08' }).tags.length, 4, 'maxTags cuts the rotating tag first');
+});
+
+test('every tag is CamelCase (starts with a capital letter, letters and digits only)', () => {
+  for (const ch of [bluesky, mastodon]) {
+    for (const d of [deal, gog, { ...gog, title: 'MONSTER HUNTER RISE', store: 'IndieGala' }]) {
+      for (let n = 1; n <= 30; n++) for (const t of chooseTags({ c: d, channel: ch, day: `2026-10-${String(n).padStart(2, '0')}` }).tags) assert.match(t, /^[A-Z0-9][A-Za-z0-9]+$/);
+    }
+  }
+  assert.throws(() => channelWithDefaults('x', 'c', { ...accounts.prices.channels.bluesky, baseTags: ['pcgaming'] }), /not a valid tag/);
+  assert.throws(() => channelWithDefaults('x', 'c', { ...accounts.prices.channels.bluesky, baseTags: ['PC Gaming'] }), /not a valid tag/);
+  assert.throws(() => channelWithDefaults('x', 'c', { ...accounts.prices.channels.bluesky, rotatingTags: ['{shop}'] }), /unknown/);
+});
+
+test('a duplicate tag is not written twice (the store is also the base tag)', () => {
+  const ch = channelWithDefaults('x', 'c', { ...accounts.prices.channels.bluesky, storeTags: { GOG: 'GameDeals' } });
+  for (let n = 1; n <= 6; n++) {
+    const tags = chooseTags({ c: gog, channel: ch, day: `2026-10-0${n}` }).tags.map((t) => t.toLowerCase());
+    assert.equal(new Set(tags).size, tags.length);
+  }
 });
 
 test('"Lowest price we\'ve tracked" only when the history says so; never "lowest ever"', () => {
   assert.ok(!buildPost({ candidate: deal, channel: bluesky, links, day }).text.includes('Lowest price'));
-  const low = buildPost({ candidate: { ...deal, history: { days: 5, lowest: true } }, channel: bluesky, links, day });
+  const low = buildPost({ candidate: { ...deal, history: { days: 14, lowest: true } }, channel: bluesky, links, day });
   assert.ok(low.text.includes("Price checked Oct 7. Sale ends Oct 8. Lowest price we've tracked."));
   assert.throws(() => buildPost({ candidate: { ...deal, title: 'Lowest price ever' }, channel: bluesky, links, day }), /record low/);
 });
@@ -83,7 +164,7 @@ test('a very long title is shortened to fit, and the post says so', () => {
   const title = 'The Extremely Long Game Title: Remastered Special Anniversary Collector\'s Gold Edition With All Seasons And Every Single Expansion Pack Ever Released Plus More And Even More Bonus Content For Everyone Who Plays';
   const p = buildPost({ candidate: { ...deal, title }, channel: bluesky, links, day });
   assert.ok(p.length <= 300 && p.text.includes('…') && p.warnings.length === 1);
-  assert.equal(p.text.split(/\s+/).at(-1), '#ad');
+  assert.equal(p.text.split('\n').at(-1), 'Ad');
 });
 
 test('the length counts the link as linkChars and counts characters as a person sees them', () => {
@@ -92,18 +173,15 @@ test('the length counts the link as linkChars and counts characters as a person 
   assert.equal(p.length, graphemes(p.text.replace(p.link, '')) + 25);
 });
 
-test('a template without {tags} or {link}, with a wrong placeholder or a bad hashtag is refused', () => {
+test('a template without {tags}, {link} or {disclosure}, with {disclosure} not last, a wrong placeholder or no maxTags is refused', () => {
   const base = accounts.prices.channels.bluesky;
-  assert.throws(() => channelWithDefaults('x', 'c', { ...base, template: ['{title}', '{link}'] }), /needs \{tags\}/);
-  assert.throws(() => channelWithDefaults('x', 'c', { ...base, template: ['{title}', '{tags}'] }), /needs \{link\}/);
-  assert.throws(() => channelWithDefaults('x', 'c', { ...base, template: ['{titel}', '{link}', '{tags}'] }), /\{titel\}/);
-  assert.throws(() => channelWithDefaults('x', 'c', { ...base, hashtags: ['PCGaming'] }), /not a valid hashtag/);
+  assert.throws(() => channelWithDefaults('x', 'c', { ...base, template: ['{title}', '{link}', '{disclosure}'] }), /needs \{tags\}/);
+  assert.throws(() => channelWithDefaults('x', 'c', { ...base, template: ['{title}', '{tags}\n{disclosure}'] }), /needs \{link\}/);
+  assert.throws(() => channelWithDefaults('x', 'c', { ...base, template: ['{title}', '{link}', '{tags}'] }), /needs \{disclosure\}/);
+  assert.throws(() => channelWithDefaults('x', 'c', { ...base, template: ['{disclosure}', '{title}', '{link}', '{tags}'] }), /must be the last line/);
+  assert.throws(() => channelWithDefaults('x', 'c', { ...base, template: ['{titel}', '{link}', '{tags}\n{disclosure}'] }), /\{titel\}/);
+  assert.throws(() => channelWithDefaults('x', 'c', { ...base, maxTags: undefined }), /lacks: maxTags/);
   assert.throws(() => channelWithDefaults('x', 'c', { ...base, maxChars: undefined }), /lacks: maxChars/);
-});
-
-test('a template that does not end with the tags cannot produce a post', () => {
-  const bad = channelWithDefaults('x', 'c', { ...accounts.prices.channels.bluesky, template: ['{tags}', '{title}', '{link}'] });
-  assert.throws(() => buildPost({ candidate: deal, channel: bad, links, day }), /ad tag/);
 });
 
 test('an incomplete deal is refused, nothing is invented', () => {
@@ -137,20 +215,40 @@ test('a broken channel gives "none" with the reason, the other channel still wor
 });
 
 test('a new channel is only a block in the settings (no code change)', () => {
-  const threads = { enabled: true, subid: 'threads-prices', maxChars: 500, hashtags: ['#PCGaming'], template: ['{title}: -{discount}%', '{link}', '{tags}'] };
+  const threads = { enabled: true, subid: 'threads-prices', maxChars: 500, disclosure: 'Ad', baseTags: ['PCGaming'], maxTags: 2, template: ['{title}: -{discount}%', '{link}', '{tags}\n{disclosure}'] };
   const p = buildPost({ candidate: deal, channel: channelWithDefaults('prices', 'threads', threads), links, day });
-  assert.ok(p.link.includes('utm_source=threads-prices') && p.text.endsWith('#PCGaming #ad'));
+  assert.ok(p.link.includes('utm_source=threads-prices') && p.text.endsWith('#PCGaming\nAd'));
 });
 
-test('the real data/accounts.json: every channel is valid and a post can be made for each', () => {
+test('tag research: the tags of accounts.json are collected, the statistics are only what the server said', () => {
+  const tags = collectTags(accounts).map((t) => t.tag);
+  assert.deepEqual(tags, ['DRMFree', 'GameDeals', 'Gaming', 'GOG', 'IndieGala', 'IndieGames', 'PCGaming', 'VideoGames']);
+  assert.ok(collectTags(accounts).find((t) => t.tag === 'GameDeals').where.length === 2, 'used by both channels');
+  assert.deepEqual(gameTagsOf([{ title: 'Shadow Tactics: Blades' }, { title: 'Go' }, { title: 'Shadow Tactics 2' }]).map((t) => t.tag), ['ShadowTactics', 'ShadowTactics2']);
+  const now = Date.parse('2026-10-09T10:00:00Z');
+  const day = (iso, uses, accounts) => ({ day: String(Date.parse(iso) / 1000), uses: String(uses), accounts: String(accounts) });
+  const history = [day('2026-10-09T00:00:00Z', 5, 3), day('2026-10-08T00:00:00Z', 124, 30), day('2026-10-07T00:00:00Z', 120, 31), day('2026-10-06T00:00:00Z', 92, 28)];
+  assert.deepEqual(summarizeHistory(history, now), { days: 3, uses: 336, avgUses: 112, lastDay: { date: '2026-10-08', uses: 124, accounts: 30 }, maxAccounts: 31 }, 'today (not over) is left out');
+  assert.deepEqual(summarizeHistory([], now), { days: 0, uses: 0, avgUses: 0, lastDay: null, maxAccounts: 0 });
+  assert.equal(summarizeHistory(undefined, now), null, 'no history in the answer: no numbers');
+  assert.equal(summarizeHistory([{ day: 'x', uses: 'y', accounts: 'z' }], now).days, 0, 'garbage is not counted');
+});
+
+test('the real data/accounts.json: every channel is valid and a post can be made for each, for 30 days in a row', () => {
   for (const [id, account] of Object.entries(accounts)) {
     for (const [name, raw] of Object.entries(account.channels ?? {})) {
       const channel = channelWithDefaults(id, name, raw);
-      const p = buildPost({ candidate: deal, channel, links, day });
-      assert.ok(p.length <= channel.maxChars, `${id}/${name}`);
+      for (const d of [deal, gog]) {
+        for (let n = 1; n <= 30; n++) {
+          const p = buildPost({ candidate: d, channel, links, day: `2026-10-${String(n).padStart(2, '0')}` });
+          assert.ok(p.length <= channel.maxChars, `${id}/${name}`);
+          assert.ok(p.tags.length <= channel.maxTags);
+        }
+      }
     }
   }
   assert.ok(!JSON.stringify(accounts).includes('directLinkStores'));
+  assert.ok(!/"(adTag|hashtags|storeHashtags)"/.test(JSON.stringify(accounts)), 'the old tag fields are gone');
 });
 
 console.log(`\n${ran} tests passed.`);
