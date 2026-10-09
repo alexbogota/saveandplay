@@ -12,7 +12,7 @@
 //    that pass make the list, at most MAX_PER_PUBLISHER per publisher. The first run is slow (about
 //    1.5 s per Steam request); answers are remembered in data/steam-cache.json.
 // 4. Writes drafts/indiegala.md (to read) and drafts/indiegala.json (deals in the site format,
-//    with our ref=... link). The cover is left empty on purpose: run "npm run covers" after
+//    with our ref=... link and the feed's drminfo). The cover is left empty on purpose: run "npm run covers" after
 //    the deals are copied to data/deals.json.
 //
 
@@ -149,6 +149,7 @@ const deals = picked.map((g) => ({
   url: g.link,
   affiliateUrl: refLink(g.link),
   steamId: g.steam.appid,
+  ...(g.drm ? { drminfo: g.drm } : {}), // what the feed says about the key ("Steam key", "DRM free"), as the feed writes it; the Mastodon post reads its note from here
   image: '',
   status: 'indiegala-feed',
   checkedAt,

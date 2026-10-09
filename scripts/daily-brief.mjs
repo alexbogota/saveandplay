@@ -246,6 +246,7 @@ export function buildCandidates({ eligible, mentions, history, account, links, n
       endsInHours: endsInH == null ? null : Math.round(endsInH),
       priceCheckedAt: d.checkedAt,
       cover: d.image ?? null,
+      drminfo: d.drminfo ?? null, // from the IndieGala feed; a post may use it for a note (see storeNote in data/accounts.json)
       coverAlt: d.image ? coverAlt(d) : null,
       score: Math.round(parts.reduce((a, b) => a + b, 0) * 10) / 10,
       discountRank: byDiscount.findIndex((x) => x.id === id) + 1,

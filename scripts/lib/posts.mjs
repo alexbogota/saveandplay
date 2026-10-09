@@ -23,10 +23,15 @@
 // Two optional lines (a channel with enough room, like Mastodon; a channel without them is not changed):
 //   savings       "You save {amount}": {amount} = old price minus price, counted from the prices of the deal (in cents, so 39.99 - 5.99 = $34.00).
 //                 The line is left out when there is nothing to save. The template places it with {savings}.
-//   storeNote     { store: "a short plain note" }  (GOG: DRM-free). The template places it with {storeNote}; no note for a store = no line.
+//   storeNote     { store: note }. The template places it with {storeNote}; no note for a store = no line. A note is either
+//                 - a short plain text: "GOG": "DRM-free" (the same for every game of the store), or
+//                 - a rule that takes it from the data of the game: "IndieGala": { "field": "drminfo", "notes": { "Steam key": "Steam key", "DRM free": "DRM-free" } }
+//                   The field (now only drminfo, from the IndieGala feed, kept in data/deals.json) is compared with the keys of "notes" without regard to
+//                   capitals, hyphens or spaces; a value that is not listed, or no value, gives no note. Nothing is guessed.
 
 import { slug, dealPagePath } from './deal-paths.mjs';
 
+const NOTE_FIELDS = ['drminfo']; // fields of a deal a storeNote rule may read
 const CHANNEL_DEFAULTS = { enabled: true, dateFormat: 'MMM D', linkChars: 25, storeTags: {}, nicheTags: {}, gameTag: false, rotatingTags: [], savings: '', storeNote: {} };
 const REQUIRED = ['subid', 'maxChars', 'disclosure', 'baseTags', 'maxTags', 'template'];
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
@@ -50,7 +55,12 @@ export function channelWithDefaults(accountId, name, channel) {
   if (!Array.isArray(c.template)) throw new Error(`${where}: template must be a list of paragraphs.`);
   const oneLine = (t) => typeof t === 'string' && t.trim() && !/[\r\n#]/.test(t); // plain text, one line, no hashtag
   if (c.savings && (!oneLine(c.savings) || !c.savings.includes('{amount}'))) throw new Error(`${where}: savings must be one line of plain text with {amount} in it (for example: You save {amount}).`);
-  for (const [store, note] of Object.entries(c.storeNote)) if (!oneLine(note)) throw new Error(`${where}: the storeNote of ${store} must be a short plain text on one line, without #.`);
+  for (const [store, note] of Object.entries(c.storeNote)) {
+    if (typeof note === 'object' && note !== null) {
+      const ok = NOTE_FIELDS.includes(note.field) && note.notes && typeof note.notes === 'object' && Object.keys(note.notes).length && Object.values(note.notes).every(oneLine);
+      if (!ok) throw new Error(`${where}: the storeNote of ${store} must look like { "field": "${NOTE_FIELDS.join('" or "')}", "notes": { "value in the data": "short plain note" } }; every note one line of plain text without #.`);
+    } else if (!oneLine(note)) throw new Error(`${where}: the storeNote of ${store} must be a short plain text on one line, without #, or a rule with "field" and "notes".`);
+  }
   for (const t of c.rotatingTags) if (t.startsWith('{') && !DERIVED.includes(t)) throw new Error(`${where}: "${t}" in rotatingTags is unknown; allowed: ${DERIVED.join(' ')}.`);
   const literal = [...c.baseTags, ...Object.values(c.storeTags), ...Object.values(c.nicheTags), ...c.rotatingTags.filter((t) => !DERIVED.includes(t))];
   for (const t of literal) if (!tagName.test(t)) throw new Error(`${where}: "${t}" is not a valid tag. Write tags without #, in CamelCase (PCGaming, GameDeals).`);
@@ -131,6 +141,18 @@ const whyText = (c) => {
   return clauses.length ? `Why today: ${clauses.join('; ')}.` : '';
 };
 
+// The note of the store for this deal: plain text, or taken from a field of the deal by the rule of the channel. '' = no note.
+const normNote = (t) => String(t).toLowerCase().replace(/[-_\s]+/g, ' ').trim();
+export function noteOf(channel, c) {
+  const entry = channel.storeNote[c.store];
+  if (!entry) return '';
+  if (typeof entry === 'string') return entry;
+  const value = c[entry.field];
+  if (value == null || value === '') return '';
+  const hit = Object.entries(entry.notes).find(([key]) => normNote(key) === normNote(value));
+  return hit ? hit[1] : '';
+}
+
 // What the buyer saves, in cents: old price minus price (both from data/deals.json). Counted in cents so that 39.99 - 5.99 is exactly 34.00.
 export const savingsInCents = (c) => Math.max(0, Math.round(c.was * 100) - Math.round(c.price * 100));
 
@@ -167,7 +189,7 @@ export function buildPost({ candidate: c, channel, links, day }) {
       lowest: c.history?.lowest ? " Lowest price we've tracked." : '',
       why: whyText(c),
       savings: saved ? channel.savings.replace('{amount}', money(saved / 100)) : '',
-      storeNote: channel.storeNote[c.store] ?? '',
+      storeNote: noteOf(channel, c),
       link,
       tags: tagsText,
       disclosure: channel.disclosure,
