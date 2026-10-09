@@ -29,6 +29,8 @@ import { resolve } from 'node:path';
 import { loadFeed, sleep } from './lib/feeds.mjs';
 import { clean, hasName, nameVariants } from './lib/titles.mjs';
 import { articleTopics } from './lib/topics.mjs';
+import { slug as slugOf, dealPagePath as pagePathOf } from './lib/deal-paths.mjs';
+import { channelWithDefaults, buildPost } from './lib/posts.mjs';
 
 const UA = 'SaveAndPlay-brief/1.0 (+https://saveandplay.com)';
 const TIMEOUT_MS = Number(process.env.FEED_TIMEOUT_MS) || 20000;
@@ -47,7 +49,7 @@ const MIN_HISTORY_DAYS = 3;
 const REPEAT_PENALTY = 8; // was the top pick of an earlier brief, or drafted, within repeatDays
 
 // What an account gets when data/accounts.json does not say otherwise.
-const DEFAULTS = { minDiscount: 50, windowHours: 48, maxPriceAgeHours: 48, minHoursLeft: 6, repeatDays: 7, maxCandidates: 5, dealsWithoutNews: true, gogNews: false, keywords: [], maxTopics: 5, directLinkStores: [], rules: [] };
+const DEFAULTS = { minDiscount: 50, windowHours: 48, maxPriceAgeHours: 48, minHoursLeft: 6, repeatDays: 7, maxCandidates: 5, dealsWithoutNews: true, gogNews: false, keywords: [], maxTopics: 5, rules: [] };
 const REQUIRED = ['name', 'handle', 'topic', 'subid', 'stores'];
 export function withDefaults(id, account) {
   const missing = REQUIRED.filter((k) => !account[k] || (Array.isArray(account[k]) && !account[k].length));
@@ -67,9 +69,9 @@ const readJson = async (file, fallback) => {
   }
 };
 
-export const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''); // same as src/lib/deals.ts
+export const slug = slugOf; // same as src/lib/deals.ts (the rule lives in scripts/lib/deal-paths.mjs)
 export const dealId = (d) => slug(`${d.store}-${d.title}`);
-export const dealPagePath = (d) => `/deals/${slug(d.store)}/${slug(d.title)}/`; // same as dealPath in src/lib/deals.ts
+export const dealPagePath = pagePathOf; // same as dealPath in src/lib/deals.ts
 export const coverAlt = (d) => `Cover art for ${d.title}`; // same text as on the game page
 const money = (n) => `$${n.toFixed(2)}`;
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
@@ -232,7 +234,6 @@ export function buildCandidates({ eligible, mentions, history, account, links, n
     if (d.store === 'GOG') parts.push(GOG_BONUS);
     if (facts.lowest) parts.push(LOWEST_BONUS);
     if (offeredOn) parts.push(-REPEAT_PENALTY);
-    const direct = account.directLinkStores.includes(d.store) && d.url?.startsWith('https://www.gog.com/');
     return {
       id,
       kind: 'deal',
@@ -252,8 +253,8 @@ export function buildCandidates({ eligible, mentions, history, account, links, n
       mentions: found.slice(0, 3),
       history: facts,
       offeredOn,
-      link: direct ? gogLink(links, d.url, account.subid) : siteLink(links, d, account.subid, today),
-      linkKind: direct ? 'affiliate link' : 'link to our site',
+      link: siteLink(links, d, account.subid, today), // always our own page of the game, never a store link
+      linkKind: 'link to our site',
     };
   });
   const usable = account.dealsWithoutNews ? list : list.filter((c) => c.sites > 0);
@@ -374,6 +375,31 @@ export function buildBrief({ account, links, deals, history, offered, feeds, sou
   return { md: lines.join('\n') + '\n', json: { account: account.name, generatedAt: new Date(now).toISOString(), builtBy: buildInfo(), pricesCheckedAt: checked ?? null, warnings, candidates, gogNews: news, topical, topics: topics.map((s) => ({ headline: s.lead.title, score: s.score, sites: s.domains, keywords: s.hits, games: s.games, items: s.items.map((i) => ({ source: i.source, title: i.title, link: i.link ?? null, published: new Date(i.t).toISOString() })) })), left, sources: { total: mine.length, failed } }, top: candidates[0] ?? null, itemRecords };
 }
 
+// ---------- ready posts ----------
+
+// One post per channel of the account (accounts.<id>.channels in data/accounts.json), all about the same first deal of the brief.
+// Accounts without "channels" (the Nostr account has its own program) get nothing here. A channel that cannot be made honestly
+// (no deal today, a broken template, an incomplete deal) gets a file that says "NO POST TODAY" and why, never an invented post.
+export function makePosts({ id, account, brief, links, now }) {
+  const day = isoDay(now);
+  const posts = [];
+  for (const [name, raw] of Object.entries(account.channels ?? {})) {
+    if (raw?.enabled === false) continue;
+    try {
+      const c = brief.candidates[0];
+      if (!c) {
+        posts.push({ channel: name, none: `No deal passes the rules today.${brief.warnings.length ? ' ' + brief.warnings.join(' ') : ''}`, expected: true });
+        continue;
+      }
+      const channel = channelWithDefaults(id, name, raw);
+      posts.push({ channel: name, deal: c.id, title: c.title, ...buildPost({ candidate: c, channel, links, day }) });
+    } catch (e) {
+      posts.push({ channel: name, none: e.message });
+    }
+  }
+  return posts;
+}
+
 // ---------- run ----------
 
 async function fetchFeeds(sources) {
@@ -418,12 +444,27 @@ async function main() {
     const { md, json, top, itemRecords } = buildBrief({ account, links: cfg.links, deals, history, offered, feeds, sources, now });
     if (top?.kind === 'deal') mem[top.id] = today;
     for (const [k, day] of Object.entries(mem)) if ((now - Date.parse(day)) / DAY > 30) delete mem[k];
+    const posts = makePosts({ id, account, brief: json, links: cfg.links, now });
+    json.posts = Object.fromEntries(posts.map((p) => [p.channel, p.none ? { none: p.none } : { text: p.text, length: p.length, max: p.max, link: p.link, deal: p.deal }]));
     await writeFile(resolve(outDir, `brief-${id}.md`), md);
     await writeFile(resolve(outDir, `brief-${id}.json`), JSON.stringify(json, null, 2) + '\n');
     // Every news item of the window and what happened to it (used for a deal, shown as a topic, dropped and why).
     await writeFile(resolve(outDir, `items-${id}.json`), JSON.stringify({ account: account.name, generatedAt: new Date(now).toISOString(), windowHours: account.windowHours, count: itemRecords.length, items: itemRecords }, null, 1) + '\n');
-    if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, `## ${account.name}: copy this block into the chat\n\n\`\`\`\`text\n${md}\`\`\`\`\n\n`);
+    // The ready posts: one small file per channel (only the text, ready to copy), also shown on the run page.
+    const warn = (msg) => console.log(process.env.GITHUB_ACTIONS ? `::warning::${msg}` : `WARNING: ${msg}`);
+    for (const p of posts) {
+      await writeFile(resolve(outDir, `post-${id}-${p.channel}.md`), p.none ? `NO POST TODAY: ${p.none}\n` : p.text + '\n');
+      if (process.env.GITHUB_STEP_SUMMARY) {
+        const head = `## Post for ${p.channel} (${account.name}, ${p.none ? 'no post today' : `${p.length} of ${p.max} characters`}): copy this`;
+        const notes = (p.warnings ?? []).map((w) => `- ${w}\n`).join('');
+        appendFileSync(process.env.GITHUB_STEP_SUMMARY, `${head}\n\n\`\`\`\`text\n${p.none ? 'NO POST TODAY: ' + p.none : p.text}\n\`\`\`\`\n\n${notes}\n`);
+      }
+      if (p.none && !p.expected) warn(`Post for ${p.channel} of ${id}: ${p.none}`);
+      for (const w of p.warnings ?? []) warn(`Post for ${p.channel} of ${id}: ${w}`);
+    }
+    if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, `## ${account.name}: the full brief (only for the chat, if you want to change the post)\n\n\`\`\`\`text\n${md}\`\`\`\`\n\n`);
     console.log('\n' + md);
+    for (const p of posts) console.log(`----- post for ${p.channel} (${p.none ? 'none' : `${p.length}/${p.max}`}) -----\n${p.none ? 'NO POST TODAY: ' + p.none : p.text}\n`);
   }
   await writeFile(resolve(outDir, 'brief-state.json'), JSON.stringify(state, null, 2) + '\n');
   console.log(`Files in ${outDir}: ${accounts.map(([id]) => `brief-${id}.md`).join(', ')}, brief-state.json`);
