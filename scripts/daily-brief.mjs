@@ -4,7 +4,7 @@
 //   node scripts/daily-brief.mjs --account prices      only one account
 //   GitHub -> Actions -> "Daily brief" (runs every morning by itself, or press Run workflow)
 //
-// Three sieves (see PROJECT.md, section 11):
+// Three sieves (see docs/decisions.md, the entry about the daily program):
 //   1. Only the sources whose topic is the account's topic (data/sources.json, status ok or rare).
 //   2. Only news from the last windowHours hours. One story written by several sites = "hot today".
 //   3. Only news that is about a deal we have (data/deals.json), found by the game's link or by its name in the headline.

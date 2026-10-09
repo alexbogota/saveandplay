@@ -26,10 +26,10 @@ const MAX_AGE_HOURS = 48; // a price checked longer ago than this is not offered
 const POST_LIMIT = 300; // Bluesky post length
 const SITE = 'https://saveandplay.com';
 
-// Admitad deeplink for GOG (template from PROJECT.md). Only GOG has one so far.
+// Admitad deeplink for GOG (template from docs/partners.md, section 4). Only GOG has one so far.
 const GOG_LINK = 'https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/';
 const gogLink = (url, channel) => `${GOG_LINK}?subid=${channel}&ulp=${encodeURIComponent(url)}`;
-// Stores we may post about (the table in PROJECT.md, section 3).
+// Stores we may post about (the table in docs/partners.md, section 3).
 const POST_STORES = ['GOG', 'IndieGala'];
 // Only these stores get a direct affiliate link next to the post. IndieGala: our site link only,
 // until IndieGala confirms its rules for social networks (owner's decision, Oct 5).

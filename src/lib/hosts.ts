@@ -10,7 +10,7 @@ export interface Host {
   facts: string[];
 }
 
-// Admitad link (see PROJECT.md, section 4). subid=site tells us the click came from the website.
+// Admitad link (see docs/partners.md, section 4). subid=site tells us the click came from the website.
 const godlikeBase = 'https://yjfca.com/g/n4h0en61qnc9990a3d5952f0388f55/';
 
 export const godlike: Host = {
