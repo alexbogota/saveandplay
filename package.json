@@ -19,7 +19,8 @@
     "nostr:post": "node scripts/post-nostr.mjs",
     "nostr:check": "node scripts/nostr-check.mjs",
     "nostr:test": "node scripts/test-nostr.mjs",
-    "posts:test": "node scripts/test-posts.mjs"
+    "posts:test": "node scripts/test-posts.mjs",
+    "tags:research": "node scripts/tag-research.mjs"
   },
   "dependencies": {
     "astro": "^7.3.5",
