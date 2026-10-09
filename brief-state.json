@@ -2,10 +2,12 @@
   "top": {
     "prices": {
       "indiegala-monster-hunter-rise": "2026-10-07",
-      "indiegala-control-ultimate-edition": "2026-10-08"
+      "indiegala-control-ultimate-edition": "2026-10-08",
+      "indiegala-castlevania-lords-of-shadow-2": "2026-10-09"
     },
     "nostr": {
-      "indiegala-monster-hunter-rise": "2026-10-08"
+      "indiegala-monster-hunter-rise": "2026-10-08",
+      "indiegala-castlevania-lords-of-shadow-2": "2026-10-09"
     }
   }
 }

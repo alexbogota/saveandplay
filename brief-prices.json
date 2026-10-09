@@ -1,41 +1,10 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-10-08T11:12:47.960Z",
-  "builtBy": "commit 7a21ef4, schedule, run #7 attempt 1",
+  "generatedAt": "2026-10-09T01:03:24.394Z",
+  "builtBy": "commit e8e4005, push, run #8 attempt 1",
   "pricesCheckedAt": "2026-10-08T09:51:04.345Z",
   "warnings": [],
   "candidates": [
-    {
-      "id": "indiegala-control-ultimate-edition",
-      "kind": "deal",
-      "title": "Control Ultimate Edition",
-      "store": "IndieGala",
-      "price": 5.99,
-      "was": 39.99,
-      "discount": 85,
-      "endsAt": "2026-10-08T23:59:00Z",
-      "endsInHours": 13,
-      "priceCheckedAt": "2026-10-08T09:51:04.345Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/870780/ec621653454cdad232187af4eb79f23c05aceca5/header.jpg?t=1781607969",
-      "coverAlt": "Cover art for Control Ultimate Edition",
-      "score": 11.5,
-      "discountRank": 11,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 3,
-        "lowest": true,
-        "since": "2026-10-05"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/indiegala/control-ultimate-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-08",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "sale ends in 13 h",
-        "lowest price we've tracked (3 days of data)",
-        "deepest-discount rank 11 of 33"
-      ]
-    },
     {
       "id": "indiegala-castlevania-lords-of-shadow-2",
       "kind": "deal",
@@ -45,12 +14,12 @@
       "was": 39.99,
       "discount": 80,
       "endsAt": "2026-10-09T23:59:00Z",
-      "endsInHours": 37,
+      "endsInHours": 23,
       "priceCheckedAt": "2026-10-08T09:51:04.345Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/239250/header.jpg?t=1737506536",
       "coverAlt": "Cover art for Castlevania: Lords of Shadow 2",
       "score": 11,
-      "discountRank": 18,
+      "discountRank": 17,
       "sites": 0,
       "mentions": [],
       "history": {
@@ -59,12 +28,12 @@
         "since": "2026-10-05"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/indiegala/castlevania-lords-of-shadow-2/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-08",
+      "link": "https://saveandplay.com/deals/indiegala/castlevania-lords-of-shadow-2/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-09",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 37 h",
+        "sale ends in 23 h",
         "lowest price we've tracked (3 days of data)",
-        "deepest-discount rank 18 of 33"
+        "deepest-discount rank 17 of 32"
       ]
     },
     {
@@ -76,7 +45,7 @@
       "was": 9.99,
       "discount": 90,
       "endsAt": "2026-10-18T09:59:00+03:00",
-      "endsInHours": 236,
+      "endsInHours": 222,
       "priceCheckedAt": "2026-10-08T09:48:19.834Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/214340/header.jpg?t=1789381815",
       "coverAlt": "Cover art for Deponia",
@@ -90,10 +59,10 @@
         "since": "2026-10-08"
       },
       "offeredOn": null,
-      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fdeponia",
-      "linkKind": "affiliate link",
+      "link": "https://saveandplay.com/deals/gog/deponia/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-09",
+      "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 7 of 33"
+        "deepest-discount rank 7 of 32"
       ]
     },
     {
@@ -105,7 +74,7 @@
       "was": 39.99,
       "discount": 90,
       "endsAt": "2026-10-18T09:59:00+03:00",
-      "endsInHours": 236,
+      "endsInHours": 222,
       "priceCheckedAt": "2026-10-08T09:48:19.834Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
       "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
@@ -119,10 +88,10 @@
         "since": "2026-10-07"
       },
       "offeredOn": null,
-      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fshadow_tactics_blades_of_the_shogun",
-      "linkKind": "affiliate link",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-09",
+      "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 6 of 33"
+        "deepest-discount rank 6 of 32"
       ]
     },
     {
@@ -134,7 +103,7 @@
       "was": 59.99,
       "discount": 87,
       "endsAt": "2026-10-11T23:59:00Z",
-      "endsInHours": 85,
+      "endsInHours": 71,
       "priceCheckedAt": "2026-10-08T09:51:04.345Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/920210/header.jpg?t=1747346983",
       "coverAlt": "Cover art for LEGO® Star Wars™:The Skywalker Saga Deluxe Edition",
@@ -148,15 +117,52 @@
         "since": "2026-10-05"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/indiegala/lego-star-wars-the-skywalker-saga-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-08",
+      "link": "https://saveandplay.com/deals/indiegala/lego-star-wars-the-skywalker-saga-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-09",
       "linkKind": "link to our site",
       "whyToday": [
         "lowest price we've tracked (3 days of data)",
-        "deepest-discount rank 9 of 33"
+        "deepest-discount rank 9 of 32"
+      ]
+    },
+    {
+      "id": "gog-darkest-dungeon",
+      "kind": "deal",
+      "title": "Darkest Dungeon",
+      "store": "GOG",
+      "price": 3.75,
+      "was": 24.99,
+      "discount": 85,
+      "endsAt": "2026-10-18T09:59:00+03:00",
+      "endsInHours": 222,
+      "priceCheckedAt": "2026-10-08T09:48:19.834Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187",
+      "coverAlt": "Cover art for Darkest Dungeon",
+      "score": 9.5,
+      "discountRank": 10,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 2,
+        "lowest": false,
+        "since": "2026-10-07"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-09",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 10 of 32"
       ]
     }
   ],
   "gogNews": [
+    {
+      "title": "Coming soon: Glasshouse",
+      "game": "glasshouse",
+      "url": "https://www.gog.com/en/game/glasshouse",
+      "newsLink": "http://www.gog.com/news/coming_soon_glasshouse",
+      "t": 1791453494000,
+      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fglasshouse"
+    },
     {
       "title": "Release: Scriptorium: Master of Manuscripts",
       "game": "scriptorium_master_of_manuscripts",
@@ -166,51 +172,66 @@
       "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fscriptorium_master_of_manuscripts"
     },
     {
-      "title": "Release: Dead of Darkness",
-      "game": "dead_of_darkness",
-      "url": "https://www.gog.com/en/game/dead_of_darkness",
-      "newsLink": "http://www.gog.com/news/release_dead_of_darkness",
-      "t": 1791335945000,
-      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fdead_of_darkness"
-    },
-    {
-      "title": "Release: Distant Worlds 2: Shadows Rising",
-      "game": "distant_worlds_2_shadows_rising",
-      "url": "https://www.gog.com/en/game/distant_worlds_2_shadows_rising",
-      "newsLink": "http://www.gog.com/news/release_distant_worlds_2_shadows_rising",
-      "t": 1791335848000,
-      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fdistant_worlds_2_shadows_rising"
+      "title": "Three acclaimed Square Enix JRPG adventures have arrived on GOG!",
+      "game": "octopath_traveler",
+      "url": "https://www.gog.com/en/game/octopath_traveler",
+      "newsLink": "http://www.gog.com/news/three_acclaimed_square_enix_jrpg_adventures_have_arrived_on_gog",
+      "t": 1791445840000,
+      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Foctopath_traveler"
     }
   ],
   "topical": [
     {
-      "title": "FREE demo for At Fate's End is here, despite the game's delay to 2027",
+      "title": "World of Warships Ning Hai DLC is FREE to keep on Steam for a limited time",
       "source": "gg.deals Freebies",
-      "link": "https://gg.deals/freebie/free-demo-for-at-fates-end-is-here/",
-      "t": 1791450840000,
+      "link": "https://gg.deals/freebie/world-of-warships-ning-hai-dlc-is-free-to-keep-on-steam-for-a-limited-time/",
+      "t": 1791481554000,
       "keyword": "free",
-      "summary": "Thunder Lotus has a little treat for curious PC players."
-    },
-    {
-      "title": "PC Gamer magazine's new issue is on sale now: World of Warcraft: Forever",
-      "source": "PC Gamer",
-      "link": "https://www.pcgamer.com/games/pc-gamer-magazines-new-issue-is-on-sale-now-world-of-warcraft-forever/",
-      "t": 1791450678000,
-      "keyword": "sale",
-      "summary": "This month, PC Gamer delivers world-exclusive access to World of Warcraft: Forever, the exciting new evolution of classic WoW that is kicking off a new MMO gol…"
-    },
-    {
-      "title": "Xbox Store gets over 1,400 new deals, including Baldur's Gate 3, Legacy of the Dark Knight & more",
-      "source": "gg.deals News",
-      "link": "https://gg.deals/deal/xbox-store-gets-over-1400-new-deals-including-baldurs-gate-3-legacy-of-the-dark-knight-more/",
-      "t": 1791446966000,
-      "keyword": "deals",
-      "summary": "Over 1,400 deals? Xbox really isn't giving our wallets a break."
+      "summary": "Missed it when it was free last time? Here&rsquo;s another chance to snag this cruiser."
     }
   ],
   "topics": [
     {
-      "headline": "Free Steam keys for Spooky Cats are available from Fanatical while stocks last!",
+      "headline": "Inscryption dev Daniel Mullin's Pony Island is FREE to keep on Steam!",
+      "score": 11,
+      "sites": [
+        "gg.deals",
+        "indiegamebundles.com",
+        "rockpapershotgun.com"
+      ],
+      "keywords": [
+        "free"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals Freebies",
+          "title": "Inscryption dev Daniel Mullin's Pony Island is FREE to keep on Steam!",
+          "link": "https://gg.deals/freebie/inscryption-dev-daniel-mullins-pony-island-is-free-to-keep-on-steam/",
+          "published": "2026-10-08T17:24:00.000Z"
+        },
+        {
+          "source": "gg.deals News",
+          "title": "Inscryption dev Daniel Mullin's Pony Island is FREE to keep on Steam!",
+          "link": "https://gg.deals/freebie/inscryption-dev-daniel-mullins-pony-island-is-free-to-keep-on-steam/",
+          "published": "2026-10-08T17:24:00.000Z"
+        },
+        {
+          "source": "Indie Game Bundles",
+          "title": "Legendary Indie Game Pony Island is Now Free on Steam",
+          "link": "https://www.indiegamebundles.com/legendary-indie-game-pony-island-is-now-free-on-steam/",
+          "published": "2026-10-08T17:58:16.000Z"
+        },
+        {
+          "source": "Rock Paper Shotgun",
+          "title": "You can now sign up to playtest the genre-bending Pony Island 2: Panda Circus, and while you're at it the original is free for a few days too",
+          "link": "https://www.rockpapershotgun.com/you-can-now-sign-up-to-playtest-the-genre-bending-pony-island-2-panda-circus-and-while-youre-at-it-the-original-is-free-for-a-few-days-too",
+          "published": "2026-10-08T21:56:00.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Get a FREE STEAM KEY for Spooky Cats at Fanatical",
       "score": 11,
       "sites": [
         "gamerpower.com",
@@ -230,12 +251,6 @@
         },
         {
           "source": "gg.deals Freebies",
-          "title": "Free Steam keys for Spooky Cats are available from Fanatical while stocks last!",
-          "link": "https://gg.deals/freebie/free-steam-keys-for-spooky-cats-are-available-from-fanatical-while-stocks-last/",
-          "published": "2026-10-07T12:49:00.000Z"
-        },
-        {
-          "source": "gg.deals News",
           "title": "Free Steam keys for Spooky Cats are available from Fanatical while stocks last!",
           "link": "https://gg.deals/freebie/free-steam-keys-for-spooky-cats-are-available-from-fanatical-while-stocks-last/",
           "published": "2026-10-07T12:49:00.000Z"
@@ -276,74 +291,55 @@
       ]
     },
     {
-      "headline": "ARC Raiders is free to play right now as its biggest-ever update goes live! (Updated)",
-      "score": 7,
+      "headline": "Pull up to the Gear.Club in style with this FREE GC3 Unlimited Signature Pack DLC!",
+      "score": 8,
       "sites": [
+        "gamerpower.com",
         "gg.deals"
       ],
       "keywords": [
-        "free",
-        "free to play"
+        "free"
       ],
       "games": [],
       "items": [
         {
+          "source": "GamerPower (PC)",
+          "title": "Gear.Club Unlimited 3 - Gear.Club Signature Pack Steam Giveaway",
+          "link": "https://www.gamerpower.com/gear-club-unlimited-3-gear-club-signature-pack-steam-giveaway",
+          "published": "2026-10-08T11:21:25.000Z"
+        },
+        {
           "source": "gg.deals Freebies",
-          "title": "ARC Raiders is free to play right now as its biggest-ever update goes live! (Updated)",
-          "link": "https://gg.deals/freebie/arc-raiders-free-to-play-week/",
-          "published": "2026-10-08T11:03:14.000Z"
+          "title": "Pull up to the Gear.Club in style with this FREE GC3 Unlimited Signature Pack DLC!",
+          "link": "https://gg.deals/freebie/pull-up-to-the-gearclub-in-style-with-this-free-gc3-unlimited-signature-pack-dlc/",
+          "published": "2026-10-08T18:50:00.000Z"
         },
         {
           "source": "gg.deals News",
-          "title": "ARC Raiders is free to play right now as its biggest-ever update goes live! (Updated)",
-          "link": "https://gg.deals/freebie/arc-raiders-free-to-play-week/",
-          "published": "2026-10-08T11:03:14.000Z"
+          "title": "Pull up to the Gear.Club in style with this FREE GC3 Unlimited Signature Pack DLC!",
+          "link": "https://gg.deals/freebie/pull-up-to-the-gearclub-in-style-with-this-free-gc3-unlimited-signature-pack-dlc/",
+          "published": "2026-10-08T18:50:00.000Z"
         }
       ]
     },
     {
-      "headline": "Free-to-play SPAM is trending on Steam, and it's not what you think",
-      "score": 7,
-      "sites": [
-        "gg.deals"
-      ],
-      "keywords": [
-        "free",
-        "free to play"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals Freebies",
-          "title": "Free-to-play SPAM is trending on Steam, and it's not what you think",
-          "link": "https://gg.deals/freebie/free-to-play-spam-is-trending-on-steam/",
-          "published": "2026-10-08T10:35:51.000Z"
-        },
-        {
-          "source": "gg.deals News",
-          "title": "Free-to-play SPAM is trending on Steam, and it's not what you think",
-          "link": "https://gg.deals/freebie/free-to-play-spam-is-trending-on-steam/",
-          "published": "2026-10-08T10:35:51.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Choose wisely: grab The Stanley Parable Ultra Deluxe at its historical low price before the Steam Autumn Sale ends!",
+      "headline": "Action-Adventure Heroes kick prices down by up to 90% in Humble Store’s latest sale",
       "score": 7,
       "sites": [
         "gg.deals"
       ],
       "keywords": [
         "sale",
-        "price"
+        "prices",
+        "humble"
       ],
       "games": [],
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Choose wisely: grab The Stanley Parable Ultra Deluxe at its historical low price before the Steam Autumn Sale ends!",
-          "link": "https://gg.deals/deal/make-the-right-choice-grab-the-stanley-parable-ultra-deluxe-at-its-historical-low-price-before-the-steam-autumn-sale-ends/",
-          "published": "2026-10-07T18:47:00.000Z"
+          "title": "Action-Adventure Heroes kick prices down by up to 90% in Humble Store’s latest sale",
+          "link": "https://gg.deals/deal/action-adventure-heroes-kick-prices-down-by-up-to-90-in-humble-stores-latest-sale/",
+          "published": "2026-10-08T18:45:45.000Z"
         }
       ]
     }
@@ -352,12 +348,28 @@
     "otherStore": 0,
     "hidden": 0,
     "smallDiscount": 0,
-    "ended": 0,
-    "endsTooSoon": 8,
+    "ended": 9,
+    "endsTooSoon": 0,
     "oldPrice": 0
   },
   "sources": {
     "total": 11,
     "failed": []
+  },
+  "posts": {
+    "bluesky": {
+      "text": "Castlevania: Lords of Shadow 2: -80% at IndieGala\n$7.99 (was $39.99)\nPrice checked Oct 8. Sale ends Oct 9. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/indiegala/castlevania-lords-of-shadow-2/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-09\n\n#PCGaming #GameDeals #ad",
+      "length": 187,
+      "max": 300,
+      "link": "https://saveandplay.com/deals/indiegala/castlevania-lords-of-shadow-2/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-09",
+      "deal": "indiegala-castlevania-lords-of-shadow-2"
+    },
+    "mastodon": {
+      "text": "Castlevania: Lords of Shadow 2: -80% at IndieGala\n$7.99 (was $39.99)\nPrice checked Oct 8. Sale ends Oct 9. Lowest price we've tracked.\nWhy today: sale ends in 23 h.\n\nhttps://saveandplay.com/deals/indiegala/castlevania-lords-of-shadow-2/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-09\n\n#PCGaming #GameDeals #Gaming #IndieGala #ad",
+      "length": 234,
+      "max": 500,
+      "link": "https://saveandplay.com/deals/indiegala/castlevania-lords-of-shadow-2/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-09",
+      "deal": "indiegala-castlevania-lords-of-shadow-2"
+    }
   }
 }

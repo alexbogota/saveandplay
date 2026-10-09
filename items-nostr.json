@@ -1,17 +1,769 @@
 {
  "account": "Honest prices",
- "generatedAt": "2026-10-08T11:12:47.960Z",
+ "generatedAt": "2026-10-09T01:03:24.394Z",
  "windowHours": 48,
- "count": 138,
+ "count": 158,
  "items": [
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "You can now sign up to playtest the genre-bending Pony Island 2: Panda Circus, and while you're at it the original is free for a few days too",
+   "link": "https://www.rockpapershotgun.com/you-can-now-sign-up-to-playtest-the-genre-bending-pony-island-2-panda-circus-and-while-youre-at-it-the-original-is-free-for-a-few-days-too",
+   "published": "2026-10-08T21:56:00.000Z",
+   "status": "topic",
+   "topic": 1,
+   "storyHeadline": "Inscryption dev Daniel Mullin's Pony Island is FREE to keep on Steam!",
+   "score": 11
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Why a 21-year-old coder finally ported the real P.T. to PC: 'That something so influential could eventually become unplayable never sat right with me'",
+   "link": "https://www.pcgamer.com/games/horror/why-a-21-year-old-coder-finally-ported-the-real-p-t-to-pc-that-something-so-influential-could-eventually-become-unplayable-never-sat-right-with-me/",
+   "published": "2026-10-08T21:32:33.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Blizzard refuses to let World of Warcraft: Forever's dungeons become the fastest way to grind XP: 'We need to hold firm on these balance adjustments'",
+   "link": "https://www.pcgamer.com/games/world-of-warcraft/blizzard-refuses-to-let-world-of-warcraft-forevers-dungeons-become-the-fastest-way-to-grind-xp-we-need-to-hold-firm-on-these-balance-adjustments/",
+   "published": "2026-10-08T21:09:23.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "How to start the Dragon's Dogma 2: Dark Arisen expansion",
+   "link": "https://www.pcgamer.com/games/rpg/dragons-dogma-2-how-to-start-dark-arisen/",
+   "published": "2026-10-08T21:00:00.000Z",
+   "status": "dropped",
+   "storyHeadline": "How to start the Dragon's Dogma 2: Dark Arisen expansion",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "US government accuses Microsoft of replacing American workers with 'foreign indentured servants,' then gives Satya Nadella a medal",
+   "link": "https://www.pcgamer.com/gaming-industry/us-government-accuses-microsoft-of-replacing-american-workers-with-foreign-indentured-servants-then-gives-satya-nadella-a-medal/",
+   "published": "2026-10-08T20:55:01.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "All hail brand synergy, Cyberpunk 2077 is getting a live action adaptation from Paramount and the producer behind the horrendous Doom movie",
+   "link": "https://www.rockpapershotgun.com/all-hail-brand-synergy-cyberpunk-2077-is-getting-a-live-action-adaptation-from-paramount-and-the-producer-behind-the-horrendous-doom-movie",
+   "published": "2026-10-08T20:28:03.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Jason may or may not appear fully nude in GTA 6, but either way we've now seen his dong",
+   "link": "https://www.pcgamer.com/games/grand-theft-auto/jason-may-or-may-not-appear-fully-nude-in-gta-6-but-either-way-weve-now-seen-his-dong/",
+   "published": "2026-10-08T20:12:16.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Vampire games on Steam are a recession indicator and I have the charts to prove it",
+   "link": "https://www.pcgamer.com/games/vampire-games-on-steam-are-a-recession-indicator-and-i-have-the-charts-to-prove-it/",
+   "published": "2026-10-08T19:55:17.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "Dave the Diver is wrapping up its DLC plans with an aquatically appropriate Subnautica 2 collab",
+   "link": "https://www.rockpapershotgun.com/dave-the-diver-is-wrapping-up-its-dlc-plans-with-an-aquatically-appropriate-subnautica-2-collab",
+   "published": "2026-10-08T19:06:45.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals Freebies",
+   "domain": "gg.deals",
+   "title": "Pull up to the Gear.Club in style with this FREE GC3 Unlimited Signature Pack DLC!",
+   "link": "https://gg.deals/freebie/pull-up-to-the-gearclub-in-style-with-this-free-gc3-unlimited-signature-pack-dlc/",
+   "published": "2026-10-08T18:50:00.000Z",
+   "status": "topic",
+   "topic": 4,
+   "storyHeadline": "Pull up to the Gear.Club in style with this FREE GC3 Unlimited Signature Pack DLC!",
+   "score": 8
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Pull up to the Gear.Club in style with this FREE GC3 Unlimited Signature Pack DLC!",
+   "link": "https://gg.deals/freebie/pull-up-to-the-gearclub-in-style-with-this-free-gc3-unlimited-signature-pack-dlc/",
+   "published": "2026-10-08T18:50:00.000Z",
+   "status": "topic",
+   "topic": 4,
+   "storyHeadline": "Pull up to the Gear.Club in style with this FREE GC3 Unlimited Signature Pack DLC!",
+   "score": 8
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Action-Adventure Heroes kick prices down by up to 90% in Humble Store’s latest sale",
+   "link": "https://gg.deals/deal/action-adventure-heroes-kick-prices-down-by-up-to-90-in-humble-stores-latest-sale/",
+   "published": "2026-10-08T18:45:45.000Z",
+   "status": "topic",
+   "topic": 5,
+   "score": 7
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "The Witcher 3 Remastered's latest patch brings some bloomin' improvements to the game's bloom problems, amongst other lighting buffs",
+   "link": "https://www.rockpapershotgun.com/the-witcher-3-remastereds-latest-patch-brings-some-bloomin-improvements-to-the-games-bloom-problems-amongst-other-lighting-buffs",
+   "published": "2026-10-08T18:30:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "Volatiles takes the piece-by-piece map building of boardgames like Betrayal at House on the Hill and slaps a gory survival shooter on top of them",
+   "link": "https://www.rockpapershotgun.com/volatiles-takes-the-piece-by-piece-map-building-of-boardgames-like-betrayal-at-house-on-the-hill-and-slaps-a-gory-survival-shooter-on-top-of-them",
+   "published": "2026-10-08T18:00:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Indie Game Bundles",
+   "domain": "indiegamebundles.com",
+   "title": "Legendary Indie Game Pony Island is Now Free on Steam",
+   "link": "https://www.indiegamebundles.com/legendary-indie-game-pony-island-is-now-free-on-steam/",
+   "published": "2026-10-08T17:58:16.000Z",
+   "status": "topic",
+   "topic": 1,
+   "storyHeadline": "Inscryption dev Daniel Mullin's Pony Island is FREE to keep on Steam!",
+   "score": 11
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "A great indie studio is making a sequel to one of my favorite adventures 17 years later, for one simple reason: 'We're not getting any younger, and the world seems to be ending'",
+   "link": "https://www.pcgamer.com/games/adventure/a-great-indie-studio-is-making-a-sequel-to-one-of-my-favorite-adventures-17-years-later-for-one-simple-reason-were-not-getting-any-younger-and-the-world-seems-to-be-ending/",
+   "published": "2026-10-08T17:56:59.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "GamerPower (PC)",
+   "domain": "gamerpower.com",
+   "title": "Pony Island (Steam) Giveaway",
+   "link": "https://www.gamerpower.com/pony-island-steam-giveaway",
+   "published": "2026-10-08T17:49:15.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals Freebies",
+   "domain": "gg.deals",
+   "title": "World of Warships Ning Hai DLC is FREE to keep on Steam for a limited time",
+   "link": "https://gg.deals/freebie/world-of-warships-ning-hai-dlc-is-free-to-keep-on-steam-for-a-limited-time/",
+   "published": "2026-10-08T17:45:54.000Z",
+   "status": "topic-below-cut",
+   "storyHeadline": "World of Warships Ning Hai DLC is FREE to keep on Steam for a limited time",
+   "score": 5
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "World of Warships Ning Hai DLC is FREE to keep on Steam for a limited time",
+   "link": "https://gg.deals/freebie/world-of-warships-ning-hai-dlc-is-free-to-keep-on-steam-for-a-limited-time/",
+   "published": "2026-10-08T17:45:54.000Z",
+   "status": "topic-below-cut",
+   "storyHeadline": "World of Warships Ning Hai DLC is FREE to keep on Steam for a limited time",
+   "score": 5
+  },
+  {
+   "source": "Indie Game Bundles",
+   "domain": "indiegamebundles.com",
+   "title": "TerraScape is free on Epic Games Store This Week Only",
+   "link": "https://www.indiegamebundles.com/terrascape-is-free-on-epic-games-store-this-week-only/",
+   "published": "2026-10-08T17:45:24.000Z",
+   "status": "topic-below-cut",
+   "storyHeadline": "TerraScape is free on Epic Games Store This Week Only",
+   "score": 5
+  },
+  {
+   "source": "Indie Game Bundles",
+   "domain": "indiegamebundles.com",
+   "title": "Out of Sight is free on Epic Games Store — horror through the eyes of a teddy bear",
+   "link": "https://www.indiegamebundles.com/out-of-sight-is-free-on-epic-games-store/",
+   "published": "2026-10-08T17:43:04.000Z",
+   "status": "topic-below-cut",
+   "storyHeadline": "TerraScape is free on Epic Games Store This Week Only",
+   "score": 5
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Subnautica 2 fans can finally hunt and kill those pesky Nibbler Mangos—in Dave the Diver's crossover DLC",
+   "link": "https://www.pcgamer.com/games/adventure/subnautica-2-fans-can-finally-hunt-and-kill-those-pesky-nibbler-mangos-in-dave-the-divers-crossover-dlc/",
+   "published": "2026-10-08T17:40:53.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "Prospice: Anomalous Logistics is SnowRunner except instead of lengths of copper pipe, you're transporting the body parts of eldritch gods",
+   "link": "https://www.rockpapershotgun.com/prospice-anomalous-logistics-is-snowrunner-except-instead-of-lengths-of-copper-pipe-youre-transporting-the-body-parts-of-eldritch-gods",
+   "published": "2026-10-08T17:30:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals Freebies",
+   "domain": "gg.deals",
+   "title": "Inscryption dev Daniel Mullin's Pony Island is FREE to keep on Steam!",
+   "link": "https://gg.deals/freebie/inscryption-dev-daniel-mullins-pony-island-is-free-to-keep-on-steam/",
+   "published": "2026-10-08T17:24:00.000Z",
+   "status": "topic",
+   "topic": 1,
+   "storyHeadline": "Inscryption dev Daniel Mullin's Pony Island is FREE to keep on Steam!",
+   "score": 11
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Inscryption dev Daniel Mullin's Pony Island is FREE to keep on Steam!",
+   "link": "https://gg.deals/freebie/inscryption-dev-daniel-mullins-pony-island-is-free-to-keep-on-steam/",
+   "published": "2026-10-08T17:24:00.000Z",
+   "status": "topic",
+   "topic": 1,
+   "storyHeadline": "Inscryption dev Daniel Mullin's Pony Island is FREE to keep on Steam!",
+   "score": 11
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Prime Gaming (Amazon Luna) returns with a FREE dose of Lovecraftian madness and more",
+   "link": "https://gg.deals/subscription-news/prime-gaming-amazon-luna-returns-with-a-free-dose-of-lovecraftian-madness-and-more/",
+   "published": "2026-10-08T17:01:47.000Z",
+   "status": "topic-below-cut",
+   "score": 5
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "I have added roving bands of militant furries to Grand Theft Auto 5",
+   "link": "https://www.pcgamer.com/games/grand-theft-auto/i-have-added-roving-bands-of-militant-furries-to-grand-theft-auto-5/",
+   "published": "2026-10-08T17:00:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "Lazare’s Sacrifice is a narrative deckbuilder made with Gwent's creator about avoiding the guillotine during the French Revolution",
+   "link": "https://www.rockpapershotgun.com/lazares-sacrifice-is-a-narrative-deckbuilder-made-with-gwents-creator-about-avoiding-the-guillotine-during-the-french-revolution",
+   "published": "2026-10-08T17:00:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "\"It's clear that we both adore one another's games a lot\" - Dave the Diver and Subnautica 2 team up for a crossover made in heaven",
+   "link": "https://www.eurogamer.net/dave-the-diver-final-dlc-subnautica-2-crossover",
+   "published": "2026-10-08T17:00:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Amazon is roasting users with their own shopping habits, but it don't have nothin' on us",
+   "link": "https://www.pcgamer.com/hardware/amazon-is-roasting-users-with-their-own-shopping-habits-but-it-dont-have-nothin-on-us/",
+   "published": "2026-10-08T16:38:25.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Crowning the best FPS mode of all time through 1v1 combat (ROUND 2)",
+   "link": "https://www.pcgamer.com/games/fps/crowning-the-best-fps-mode-of-all-time-through-1v1-combat-round-2/",
+   "published": "2026-10-08T16:24:06.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals Freebies",
+   "domain": "gg.deals",
+   "title": "Epic Games' new mobile FREEBIE is a bit of a con job",
+   "link": "https://gg.deals/freebie/epic-games-new-mobile-freebie-october-8-2026/",
+   "published": "2026-10-08T16:19:32.000Z",
+   "status": "dropped",
+   "storyHeadline": "Epic Games' new mobile FREEBIE is a bit of a con job",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Epic Games' new mobile FREEBIE is a bit of a con job",
+   "link": "https://gg.deals/freebie/epic-games-new-mobile-freebie-october-8-2026/",
+   "published": "2026-10-08T16:19:32.000Z",
+   "status": "dropped",
+   "storyHeadline": "Epic Games' new mobile FREEBIE is a bit of a con job",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "As it lays off developers and closes studios, Xbox gets into the movie business",
+   "link": "https://www.pcgamer.com/gaming-industry/as-it-lays-off-developers-and-closes-studios-xbox-gets-into-the-movie-business/",
+   "published": "2026-10-08T16:18:25.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "All hail the long steam machine, Pimax's new SteamOS-ready mini PC",
+   "link": "https://www.pcgamer.com/hardware/steam-machines/all-hail-the-long-steam-machine-pimaxs-new-steamos-ready-mini-pc/",
+   "published": "2026-10-08T16:17:17.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Pimax says 'I'll have what Valve's having' as it announces new wireless VR headset, foveated streaming, updated controllers, and long Steam Machine",
+   "link": "https://www.pcgamer.com/hardware/vr-hardware/pimax-says-ill-have-what-valves-having-as-it-announces-new-wireless-vr-headset-foveated-streaming-updated-controllers-and-long-steam-machine/",
+   "published": "2026-10-08T16:17:11.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Free Play Days lines up seven games for a weekend spin",
+   "link": "https://gg.deals/subscription-news/free-play-days-lines-up-seven-games-for-a-weekend-spin/",
+   "published": "2026-10-08T15:57:00.000Z",
+   "status": "topic-below-cut",
+   "score": 5
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Bobby Kotick returns: former Activision boss becomes board member of Skydance, the new company formed by Paramount and Warner Bros",
+   "link": "https://www.eurogamer.net/bobby-kotick-skydance-board-of-directors-1",
+   "published": "2026-10-08T15:47:01.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals Freebies",
+   "domain": "gg.deals",
+   "title": "Next Epic Games Store FREEBIES get cheesy with a side of puzzles",
+   "link": "https://gg.deals/freebie/next-epic-games-store-freebies-get-cheesy-with-a-side-of-puzzles/",
+   "published": "2026-10-08T15:31:25.000Z",
+   "status": "dropped",
+   "storyHeadline": "Next Epic Games Store FREEBIES get cheesy with a side of puzzles",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Next Epic Games Store FREEBIES get cheesy with a side of puzzles",
+   "link": "https://gg.deals/freebie/next-epic-games-store-freebies-get-cheesy-with-a-side-of-puzzles/",
+   "published": "2026-10-08T15:31:25.000Z",
+   "status": "dropped",
+   "storyHeadline": "Next Epic Games Store FREEBIES get cheesy with a side of puzzles",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Riot Games announces a final hurrah for its ill-fated fighting game 2XKO, with a surprise character joining the roster this month",
+   "link": "https://www.eurogamer.net/2xko-sett-announcement-final-update",
+   "published": "2026-10-08T15:25:05.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "How to complete Boarding the Frigate in Arc Raiders",
+   "link": "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-boarding-the-frigate-walkthrough/",
+   "published": "2026-10-08T15:24:27.000Z",
+   "status": "dropped",
+   "storyHeadline": "How to complete Boarding the Frigate in Arc Raiders",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "Rockstar-hunted GTA 6 leaker seemingly strikes again, showing off series' most plentiful helping of onscreen johnson since San Andreas starred Carl",
+   "link": "https://www.rockpapershotgun.com/rockstar-hunted-gta-6-leaker-seemingly-strikes-again-showing-off-series-most-plentiful-helping-of-onscreen-johnson-since-san-andreas-starred-carl",
+   "published": "2026-10-08T15:17:45.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "GamesRadar deals",
+   "domain": "gamesradar.com",
+   "title": "Save up to 30% on Disney Halloween merch and build up your spooky decor",
+   "link": "https://www.gamesradar.com/toys-collectibles/save-up-to-30-percent-on-disney-halloween-merch-as-my-favorite-spooky-decor-gets-slashed-in-price/",
+   "published": "2026-10-08T15:13:29.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Microsoft seems very excited about its new magnetic USB Type-C charger for the Surface Laptop Ultra, but it don't impress me much",
+   "link": "https://www.pcgamer.com/hardware/gaming-laptops/microsoft-seems-very-excited-about-its-new-magnetic-usb-type-c-charger-for-the-surface-laptop-ultra-but-it-dont-impress-me-much/",
+   "published": "2026-10-08T15:13:03.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "For the first time in the series, Grand Theft Auto 6 lets you use headphones to listen to radio stations and podcasts",
+   "link": "https://www.eurogamer.net/gta-6-headpones-earbuds-radio-podcasts",
+   "published": "2026-10-08T15:07:42.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "GamerPower (PC)",
+   "domain": "gamerpower.com",
+   "title": "TerraScape (Epic Games) Giveaway",
+   "link": "https://www.gamerpower.com/terrascape-epic-games-giveaway",
+   "published": "2026-10-08T15:07:19.000Z",
+   "status": "dropped",
+   "storyHeadline": "TerraScape (Epic Games) Giveaway",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "GamerPower (PC)",
+   "domain": "gamerpower.com",
+   "title": "Out of Sight (Epic Games) Giveaway",
+   "link": "https://www.gamerpower.com/out-of-sight-epic-games-giveaway",
+   "published": "2026-10-08T15:01:45.000Z",
+   "status": "dropped",
+   "storyHeadline": "TerraScape (Epic Games) Giveaway",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals Freebies",
+   "domain": "gg.deals",
+   "title": "Epic Games has 2 new FREEBIES for you to claim and keep",
+   "link": "https://gg.deals/freebie/epic-games-has-2-new-freebies-for-you-to-claim-and-keep/",
+   "published": "2026-10-08T15:00:00.000Z",
+   "status": "dropped",
+   "storyHeadline": "Epic Games has 2 new FREEBIES for you to claim and keep",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Epic Games has 2 new FREEBIES for you to claim and keep",
+   "link": "https://gg.deals/freebie/epic-games-has-2-new-freebies-for-you-to-claim-and-keep/",
+   "published": "2026-10-08T15:00:00.000Z",
+   "status": "dropped",
+   "storyHeadline": "Epic Games has 2 new FREEBIES for you to claim and keep",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Fanatical's Cozy Mystery Bundle can help take the pressure off, and at an equally soothing price!",
+   "link": "https://gg.deals/bundle/fanaticals-cozy-mystery-bundle-is-here-to-help-take-the-pressure-off-and-at-an-equally-soothing-price/",
+   "published": "2026-10-08T14:37:00.000Z",
+   "status": "topic-below-cut",
+   "score": 7
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Steam Next Fest returns this October with hundreds of FREE game demos",
+   "link": "https://gg.deals/gaming-news/steam-next-fest-returns-this-october-with-hundreds-of-free-game-demos/",
+   "published": "2026-10-08T14:30:00.000Z",
+   "status": "topic-below-cut",
+   "score": 5
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "I'm intrigued by this political sim that puts you smack-dab in Germany at the end of World War 1",
+   "link": "https://www.pcgamer.com/games/sim/im-intrigued-by-this-political-sim-that-puts-you-smack-dab-in-germany-at-the-end-of-world-war-1/",
+   "published": "2026-10-08T14:28:52.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "How to complete Sizing Things Up in Arc Raiders",
+   "link": "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-sizing-things-up-walkthrough/",
+   "published": "2026-10-08T14:24:27.000Z",
+   "status": "dropped",
+   "storyHeadline": "How to complete Boarding the Frigate in Arc Raiders",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Witcher 3 Remastered patch rolls out on PC and console, with separate Switch 2 patch earmarked to address blurry visuals",
+   "link": "https://www.eurogamer.net/witcher-3-remastered-patch-bloom-console-performance-switch-2",
+   "published": "2026-10-08T14:20:01.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "I enjoy how Hellraiser: Revival's 'real-life' bondage club makes the rest of Hellraiser: Revival feel kind of embarrassing",
+   "link": "https://www.rockpapershotgun.com/i-enjoy-how-hellraiser-revivals-real-life-bondage-club-makes-the-rest-of-hellraiser-revival-feel-kind-of-embarrassing",
+   "published": "2026-10-08T14:12:52.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "This GOG deal takes Forbidden Solitaire down to its best-ever price!",
+   "link": "https://gg.deals/deal/this-gog-deal-takes-forbidden-solitaire-down-to-its-best-ever-price/",
+   "published": "2026-10-08T13:56:34.000Z",
+   "status": "topic-below-cut",
+   "score": 7
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Spiritfarer dev's next game, At Fate's End, is one of the prettiest things I've ever seen",
+   "link": "https://www.pcgamer.com/games/action/spiritfarer-devs-next-game-at-fates-end-is-one-of-the-prettiest-things-ive-ever-seen/",
+   "published": "2026-10-08T13:37:50.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Two day-one releases arrive on Xbox Game Pass today, plus one more game",
+   "link": "https://gg.deals/subscription-news/two-day-one-releases-arrive-on-xbox-game-pass-today-plus-one-more-game/",
+   "published": "2026-10-08T13:30:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Steam Autumn Sale 2026: the 30 Best Last-Minute Hidden Gems at Historical Lows!",
+   "link": "https://gg.deals/wallet-friendly/steam-autumn-sale-2026-last-minute-hidden-gems-historical-low-prices/",
+   "published": "2026-10-08T13:29:00.000Z",
+   "status": "topic-below-cut",
+   "score": 5
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Star Wars: Galactic Racer was prototyped in the most unexpected way: as a board game covered in Post-It notes",
+   "link": "https://www.eurogamer.net/star-wars-galactic-racer-board-game-post-it-prototype",
+   "published": "2026-10-08T13:27:45.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "What does Nomadic Crafting let you make in Arc Raiders?",
+   "link": "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-nomadic-crafting-items/",
+   "published": "2026-10-08T13:17:34.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "Xbox aim to wring more cash out of the games they've not cast into oblivion by launching new licensing arm and handing Minecraft to ex-Meta monetisation lead",
+   "link": "https://www.rockpapershotgun.com/xbox-aim-to-wring-more-cash-out-of-the-games-theyve-not-cast-into-oblivion-by-launching-new-licensing-arm-and-handing-minecraft-to-ex-meta-monetisation-lead",
+   "published": "2026-10-08T12:53:06.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "How to complete Clean Hands in Arc Raiders",
+   "link": "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-clean-hands-walkthrough/",
+   "published": "2026-10-08T12:38:22.000Z",
+   "status": "dropped",
+   "storyHeadline": "How to complete Boarding the Frigate in Arc Raiders",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Surprise Steam hit Dressmaker is now up to 15% off",
+   "link": "https://gg.deals/deal/surprise-steam-hit-dressmaker-is-now-up-to-15-off/",
+   "published": "2026-10-08T12:35:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Call of Duty: Modern Warfare 4 reveals pricey spawn options for DMZ, which offer rich players an enormous advantage over poor players spawning on foot",
+   "link": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-dmz-paid-infil-spawn-options",
+   "published": "2026-10-08T12:17:13.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Following Nintendo and Sony's lead, Xbox is setting up a division exclusively dedicated to movies and non-games partnerships",
+   "link": "https://www.eurogamer.net/xbox-xp-product-partnerships-places-productions",
+   "published": "2026-10-08T12:12:45.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Full-frontal nudity, dirt-biking, and a dev menu: GTA 6's infamous leaker is back with the most X-rated look at the game yet",
+   "link": "https://www.eurogamer.net/gta-6-frontal-nudity-dirt-biking-dev-menu-leak",
+   "published": "2026-10-08T12:09:17.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Hellraiser: Revival review",
+   "link": "https://www.eurogamer.net/hellraiser-revival-review",
+   "published": "2026-10-08T12:00:32.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Blizzard is changing the appearance of WoW: Forever's new Skyborne race in response to community feedback",
+   "link": "https://www.eurogamer.net/world-of-warcraft-forever-skyborne-character-model",
+   "published": "2026-10-08T11:35:03.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Google and Unity unveil gen-AI game-making platforms, and demonstrate one of them with depressingly rubbish \"dream game\" Space Corridor",
+   "link": "https://www.eurogamer.net/google-playground-unity-spark-gen-ai-game-creators",
+   "published": "2026-10-08T11:33:09.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Where to find the Ruined Homestead in Arc Raiders",
+   "link": "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-ruined-homestead-location/",
+   "published": "2026-10-08T11:30:21.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "\"What's the point of this if you're not feeling something?\" Star Wars: Galactic Racer devs on how they bottled Burnout's magic 'game feel'",
+   "link": "https://www.eurogamer.net/star-wars-galactic-racer-devs-interview-game-feel-burnout-board-game",
+   "published": "2026-10-08T11:21:47.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "GamerPower (PC)",
+   "domain": "gamerpower.com",
+   "title": "Gear.Club Unlimited 3 - Gear.Club Signature Pack Steam Giveaway",
+   "link": "https://www.gamerpower.com/gear-club-unlimited-3-gear-club-signature-pack-steam-giveaway",
+   "published": "2026-10-08T11:21:25.000Z",
+   "status": "topic",
+   "topic": 4,
+   "storyHeadline": "Pull up to the Gear.Club in style with this FREE GC3 Unlimited Signature Pack DLC!",
+   "score": 8
+  },
   {
    "source": "gg.deals Freebies",
    "domain": "gg.deals",
    "title": "ARC Raiders is free to play right now as its biggest-ever update goes live! (Updated)",
    "link": "https://gg.deals/freebie/arc-raiders-free-to-play-week/",
    "published": "2026-10-08T11:03:14.000Z",
-   "status": "topic",
-   "topic": 3,
+   "status": "topic-below-cut",
    "storyHeadline": "ARC Raiders is free to play right now as its biggest-ever update goes live! (Updated)",
    "score": 7
   },
@@ -21,8 +773,7 @@
    "title": "ARC Raiders is free to play right now as its biggest-ever update goes live! (Updated)",
    "link": "https://gg.deals/freebie/arc-raiders-free-to-play-week/",
    "published": "2026-10-08T11:03:14.000Z",
-   "status": "topic",
-   "topic": 3,
+   "status": "topic-below-cut",
    "storyHeadline": "ARC Raiders is free to play right now as its biggest-ever update goes live! (Updated)",
    "score": 7
   },
@@ -42,8 +793,7 @@
    "title": "Free-to-play SPAM is trending on Steam, and it's not what you think",
    "link": "https://gg.deals/freebie/free-to-play-spam-is-trending-on-steam/",
    "published": "2026-10-08T10:35:51.000Z",
-   "status": "topic",
-   "topic": 4,
+   "status": "topic-below-cut",
    "storyHeadline": "Free-to-play SPAM is trending on Steam, and it's not what you think",
    "score": 7
   },
@@ -53,8 +803,7 @@
    "title": "Free-to-play SPAM is trending on Steam, and it's not what you think",
    "link": "https://gg.deals/freebie/free-to-play-spam-is-trending-on-steam/",
    "published": "2026-10-08T10:35:51.000Z",
-   "status": "topic",
-   "topic": 4,
+   "status": "topic-below-cut",
    "storyHeadline": "Free-to-play SPAM is trending on Steam, and it's not what you think",
    "score": 7
   },
@@ -67,6 +816,14 @@
    "status": "dropped",
    "score": 3,
    "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "GOG front page",
+   "domain": "gog.com",
+   "title": "Coming soon: Glasshouse",
+   "link": "http://www.gog.com/news/coming_soon_glasshouse",
+   "published": "2026-10-08T09:58:14.000Z",
+   "status": "store-own-news"
   },
   {
    "source": "Rock Paper Shotgun",
@@ -145,10 +902,18 @@
    "score": 5
   },
   {
+   "source": "GOG front page",
+   "domain": "gog.com",
+   "title": "Three acclaimed Square Enix JRPG adventures have arrived on GOG!",
+   "link": "http://www.gog.com/news/three_acclaimed_square_enix_jrpg_adventures_have_arrived_on_gog",
+   "published": "2026-10-08T07:50:40.000Z",
+   "status": "store-own-news"
+  },
+  {
    "source": "PC Gamer",
    "domain": "pcgamer.com",
    "title": "Muramasa: Revenant Blades has 108 swords, and its definitive update for PC wants to make sure you use them all",
-   "link": "https://www.pcgamer.com/games/action/muramasa/",
+   "link": "https://www.pcgamer.com/games/action/muramasa-revenant-blades-preview/",
    "published": "2026-10-08T04:00:00.000Z",
    "status": "dropped",
    "score": 3,
@@ -170,8 +935,17 @@
    "link": "https://www.pcgamer.com/games/rpg/heres-the-dragons-dogma-2-dark-arisen-release-time-for-your-region/",
    "published": "2026-10-08T00:00:00.000Z",
    "status": "dropped",
+   "storyHeadline": "How to start the Dragon's Dogma 2: Dark Arisen expansion",
    "score": 3,
    "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "GOG front page",
+   "domain": "gog.com",
+   "title": "Coming soon: Fallen Fates",
+   "link": "http://www.gog.com/news/coming_soon_fallen_fates",
+   "published": "2026-10-07T23:43:19.000Z",
+   "status": "store-own-news"
   },
   {
    "source": "PC Gamer",
@@ -204,6 +978,14 @@
    "note": "one site, no keyword of the account, not about a game we list"
   },
   {
+   "source": "GOG front page",
+   "domain": "gog.com",
+   "title": "Coming soon: Trainwatch",
+   "link": "http://www.gog.com/news/coming_soon_trainwatch",
+   "published": "2026-10-07T22:18:50.000Z",
+   "status": "store-own-news"
+  },
+  {
    "source": "PC Gamer",
    "domain": "pcgamer.com",
    "title": "'You have HOW MANY unread emails?' PC Gamer shares their inbox shame",
@@ -212,6 +994,22 @@
    "status": "dropped",
    "score": 3,
    "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "GOG front page",
+   "domain": "gog.com",
+   "title": "Coming soon: Machinarium 2",
+   "link": "http://www.gog.com/news/coming_soon_machinarium_2",
+   "published": "2026-10-07T22:02:48.000Z",
+   "status": "store-own-news"
+  },
+  {
+   "source": "GOG front page",
+   "domain": "gog.com",
+   "title": "Release: Echo Weaver",
+   "link": "http://www.gog.com/news/release_echo_weaver",
+   "published": "2026-10-07T22:00:50.000Z",
+   "status": "store-own-news"
   },
   {
    "source": "PC Gamer",
@@ -290,7 +1088,7 @@
    "link": "https://gg.deals/bundle/humble-beyond-reality-sci-fi-survival-vr-bundle-throws-you-into-outer-space-and-spooky-forests/",
    "published": "2026-10-07T18:56:35.000Z",
    "status": "topic",
-   "topic": 2,
+   "topic": 3,
    "storyHeadline": "Humble Beyond Reality: Sci-Fi & Survival VR Bundle throws you into outer space and spooky forests",
    "score": 10
   },
@@ -300,8 +1098,7 @@
    "title": "Choose wisely: grab The Stanley Parable Ultra Deluxe at its historical low price before the Steam Autumn Sale ends!",
    "link": "https://gg.deals/deal/make-the-right-choice-grab-the-stanley-parable-ultra-deluxe-at-its-historical-low-price-before-the-steam-autumn-sale-ends/",
    "published": "2026-10-07T18:47:00.000Z",
-   "status": "topic",
-   "topic": 5,
+   "status": "topic-below-cut",
    "score": 7
   },
   {
@@ -330,7 +1127,7 @@
    "link": "https://www.indiegamebundles.com/humble-beyond-reality-sci-fi-survival-vr-collection/",
    "published": "2026-10-07T18:10:10.000Z",
    "status": "topic",
-   "topic": 2,
+   "topic": 3,
    "storyHeadline": "Humble Beyond Reality: Sci-Fi & Survival VR Bundle throws you into outer space and spooky forests",
    "score": 10
   },
@@ -341,8 +1138,8 @@
    "link": "https://www.indiegamebundles.com/get-a-free-steam-key-for-spooky-cats-at-fanatical/",
    "published": "2026-10-07T17:56:01.000Z",
    "status": "topic",
-   "topic": 1,
-   "storyHeadline": "Free Steam keys for Spooky Cats are available from Fanatical while stocks last!",
+   "topic": 2,
+   "storyHeadline": "Get a FREE STEAM KEY for Spooky Cats at Fanatical",
    "score": 11
   },
   {
@@ -393,19 +1190,9 @@
    "title": "Warhammer Survivors has a new demo out ahead of its November launch",
    "link": "https://gg.deals/freebie/warhammer-survivors-has-a-fresh-demo-out-ahead-of-its-november-launch/",
    "published": "2026-10-07T17:12:00.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "Warhammer Survivors has a new demo out ahead of its November launch",
-   "score": 6
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Warhammer Survivors has a new demo out ahead of its November launch",
-   "link": "https://gg.deals/freebie/warhammer-survivors-has-a-fresh-demo-out-ahead-of-its-november-launch/",
-   "published": "2026-10-07T17:12:00.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "Warhammer Survivors has a new demo out ahead of its November launch",
-   "score": 6
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
   },
   {
    "source": "PC Gamer",
@@ -447,24 +1234,6 @@
    "score": 5
   },
   {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Steam Autumn Sale last call: Grab Warhammer 40,000: Mechanicus at 95% off",
-   "link": "https://gg.deals/deal/steam-autumn-sale-last-call-warhammer-40000-mechanicus-is-95-off/",
-   "published": "2026-10-07T16:35:00.000Z",
-   "status": "topic-below-cut",
-   "score": 5
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Steam Autumn Sale steals: chaotic cooking & restaurant manager PlateUp! is 90% off",
-   "link": "https://gg.deals/deal/steam-autumn-sale-steals-chaotic-cooking-restaurant-manager-plateup-is-90-off/",
-   "published": "2026-10-07T16:12:00.000Z",
-   "status": "topic-below-cut",
-   "score": 5
-  },
-  {
    "source": "Rock Paper Shotgun",
    "domain": "rockpapershotgun.com",
    "title": "Anime racer Screamer no longer demands you retrain your fingers, with a fresh patch adding single stick drift controls",
@@ -483,15 +1252,6 @@
    "status": "dropped",
    "score": 3,
    "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Claimed PoP The Lost Crown with Humble Choice? Its DLC is going cheap on Steam!",
-   "link": "https://gg.deals/deal/claimed-pop-the-lost-crown-with-humble-choice-its-dlc-is-going-cheap-on-steam/",
-   "published": "2026-10-07T15:47:53.000Z",
-   "status": "topic-below-cut",
-   "score": 5
   },
   {
    "source": "Rock Paper Shotgun",
@@ -559,16 +1319,6 @@
    "link": "https://www.gamesradar.com/toys-collectibles/30-lego-sets-under-usd30-i-searched-through-the-prime-day-sales-to-bring-you-the-best-cheap-lego-kits/",
    "published": "2026-10-07T14:35:36.000Z",
    "status": "topic-below-cut",
-   "storyHeadline": "30 Prime Day Lego deals under $30",
-   "score": 5
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Assassin's Creed Black Flag Remastered hits a new Historical Low price in some countries!",
-   "link": "https://gg.deals/deal/assassins-creed-black-flag-remastered-hits-a-new-historical-low-price-in-some-countries/",
-   "published": "2026-10-07T14:19:00.000Z",
-   "status": "topic-below-cut",
    "score": 5
   },
   {
@@ -620,16 +1370,6 @@
    "score": 5
   },
   {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Forza Horizon 6 PS5 release date reportedly pushed to 2027",
-   "link": "https://gg.deals/gaming-news/forza-horizon-6-ps5-release-date-reportedly-pushed-to-2027/",
-   "published": "2026-10-07T13:39:21.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
    "source": "Eurogamer",
    "domain": "eurogamer.net",
    "title": "20 million sales later, Capcom is bringing Monster Hunter Rise to iOS and Android, but for now it's locked behind a Netflix subscription",
@@ -665,29 +1405,9 @@
    "link": "https://gg.deals/freebie/free-steam-keys-for-spooky-cats-are-available-from-fanatical-while-stocks-last/",
    "published": "2026-10-07T12:49:00.000Z",
    "status": "topic",
-   "topic": 1,
-   "storyHeadline": "Free Steam keys for Spooky Cats are available from Fanatical while stocks last!",
+   "topic": 2,
+   "storyHeadline": "Get a FREE STEAM KEY for Spooky Cats at Fanatical",
    "score": 11
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Free Steam keys for Spooky Cats are available from Fanatical while stocks last!",
-   "link": "https://gg.deals/freebie/free-steam-keys-for-spooky-cats-are-available-from-fanatical-while-stocks-last/",
-   "published": "2026-10-07T12:49:00.000Z",
-   "status": "topic",
-   "topic": 1,
-   "storyHeadline": "Free Steam keys for Spooky Cats are available from Fanatical while stocks last!",
-   "score": 11
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "GOG launches 7 new sales with almost 4,000 deals to explore",
-   "link": "https://gg.deals/deal/gog-launches-7-new-sales-with-almost-4000-deals-to-explore/",
-   "published": "2026-10-07T12:38:21.000Z",
-   "status": "topic-below-cut",
-   "score": 7
   },
   {
    "source": "GamesRadar deals",
@@ -709,15 +1429,6 @@
    "note": "one site, no keyword of the account, not about a game we list"
   },
   {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Steam Autumn Sale 2026: the 50 Best Co-Op Deals Under $5",
-   "link": "https://gg.deals/wallet-friendly/steam-autumn-sale-2026-the-50-best-co-op-deals-under-5/",
-   "published": "2026-10-07T11:52:00.000Z",
-   "status": "topic-below-cut",
-   "score": 7
-  },
-  {
    "source": "Eurogamer",
    "domain": "eurogamer.net",
    "title": "My favourite thing about Aion 2? The freedom to make a freaky lil' guy in a world of beautiful people",
@@ -733,16 +1444,6 @@
    "title": "\"Your body is foreign territory\": Small-town mystery puzzler Patience is a Virtue explores power and vulnerability by way of a unique conversation system",
    "link": "https://www.rockpapershotgun.com/your-body-is-foreign-territory-small-town-mystery-puzzler-patience-is-a-virtue-explores-power-and-vulnerability-by-way-of-a-unique-conversation-system",
    "published": "2026-10-07T11:35:13.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Kingdom Two Crowns is 90% off on Steam, but not for much longer",
-   "link": "https://gg.deals/deal/kingdom-two-crowns-is-90-off-on-steam-but-not-for-much-longer/",
-   "published": "2026-10-07T11:35:00.000Z",
    "status": "dropped",
    "score": 3,
    "note": "one site, no keyword of the account, not about a game we list"
@@ -791,8 +1492,8 @@
    "link": "https://www.gamerpower.com/spooky-cats-steam-key-giveaway",
    "published": "2026-10-07T10:34:03.000Z",
    "status": "topic",
-   "topic": 1,
-   "storyHeadline": "Free Steam keys for Spooky Cats are available from Fanatical while stocks last!",
+   "topic": 2,
+   "storyHeadline": "Get a FREE STEAM KEY for Spooky Cats at Fanatical",
    "score": 11
   },
   {
@@ -802,17 +1503,6 @@
    "link": "https://gg.deals/freebie/get-5-spider-man-brand-new-day-psn-avatars-for-free/",
    "published": "2026-10-07T10:30:00.000Z",
    "status": "topic-below-cut",
-   "storyHeadline": "Get 5 Spider-Man: Brand New Day PSN avatars for FREE",
-   "score": 5
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Get 5 Spider-Man: Brand New Day PSN avatars for FREE",
-   "link": "https://gg.deals/freebie/get-5-spider-man-brand-new-day-psn-avatars-for-free/",
-   "published": "2026-10-07T10:30:00.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "Get 5 Spider-Man: Brand New Day PSN avatars for FREE",
    "score": 5
   },
   {
@@ -845,30 +1535,11 @@
    "score": 7
   },
   {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "PlayStation Player's Choice Sale brings nearly 5,000 deals, with plenty under $5",
-   "link": "https://gg.deals/deal/playstation-players-choice-sale-2026/",
-   "published": "2026-10-07T09:56:20.000Z",
-   "status": "topic-below-cut",
-   "score": 7
-  },
-  {
    "source": "Eurogamer",
    "domain": "eurogamer.net",
    "title": "Xbox restates plans for next-gen Project Helix to be a \"family of devices\", stressing \"many players will be on the go\"",
    "link": "https://www.eurogamer.net/xbox-project-helix-console-family-of-devices-asha-sharma",
    "published": "2026-10-07T09:49:32.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "GTA VI won't be streamable to PC via Xbox Cloud Gaming after all",
-   "link": "https://gg.deals/gaming-news/gta-vi-wont-be-streamable-to-pc-via-xbox-cloud-gaming-after-all/",
-   "published": "2026-10-07T08:44:00.000Z",
    "status": "dropped",
    "score": 3,
    "note": "one site, no keyword of the account, not about a game we list"
@@ -900,457 +1571,6 @@
    "link": "http://www.gog.com/news/release_dead_of_darkness",
    "published": "2026-10-07T01:19:05.000Z",
    "status": "store-own-news"
-  },
-  {
-   "source": "GOG front page",
-   "domain": "gog.com",
-   "title": "Release: Distant Worlds 2: Shadows Rising",
-   "link": "http://www.gog.com/news/release_distant_worlds_2_shadows_rising",
-   "published": "2026-10-07T01:17:28.000Z",
-   "status": "store-own-news"
-  },
-  {
-   "source": "GOG front page",
-   "domain": "gog.com",
-   "title": "Coming soon: Project Afterfall",
-   "link": "http://www.gog.com/news/coming_soon_project_afterfall",
-   "published": "2026-10-07T01:12:37.000Z",
-   "status": "store-own-news"
-  },
-  {
-   "source": "GOG front page",
-   "domain": "gog.com",
-   "title": "Release: Take Notes",
-   "link": "http://www.gog.com/news/release_take_notes",
-   "published": "2026-10-07T01:11:15.000Z",
-   "status": "store-own-news"
-  },
-  {
-   "source": "GOG front page",
-   "domain": "gog.com",
-   "title": "Coming soon: Cthulhu Mysteries: Veins of Arkham",
-   "link": "http://www.gog.com/news/coming_soon_cthulhu_mysteries_veins_of_arkham",
-   "published": "2026-10-07T00:08:15.000Z",
-   "status": "store-own-news"
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "ROTETRA is Tetris where the blocks fall from four different sides at once and lord almighty I don't have the brainspace to be good at it, but it sure is fun",
-   "link": "https://www.rockpapershotgun.com/rotetra-is-tetris-where-the-blocks-fall-from-four-different-sides-at-once-and-lord-almighty-i-dont-have-the-brainspace-to-be-good-at-it-but-it-sure-is-fun",
-   "published": "2026-10-06T21:53:26.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "My most-played album of 2026? Sorry, Mitski—it's Final Fantasy 10: House Grooves, a real thing that exists",
-   "link": "https://www.pcgamer.com/games/final-fantasy/my-most-played-album-of-2026-sorry-mitski-its-final-fantasy-10-house-grooves-a-real-thing-that-exists/",
-   "published": "2026-10-06T21:45:24.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "'Please give Novus one more chance': An 11-year-old early access survival game just got its first update since 2018",
-   "link": "https://www.pcgamer.com/games/survival-crafting/please-give-novus-one-more-chance-an-11-year-old-early-access-survival-game-just-got-its-first-update-since-2018/",
-   "published": "2026-10-06T21:44:55.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "You and I both know you're not sleeping well in this economy, so have a gander at Sheeps, a roguelite about counting sheep pouring out of a strange portal",
-   "link": "https://www.rockpapershotgun.com/you-and-i-both-know-youre-not-sleeping-well-in-this-economy-so-have-a-gander-at-sheeps-a-roguelite-about-counting-sheep-pouring-out-of-a-strange-portal",
-   "published": "2026-10-06T20:32:09.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "The PC Gamer Mysteries, Case #1, 'A Slice of Death': Why is there a dead golfer hidden in Golden Tee '99?",
-   "link": "https://www.pcgamer.com/games/sports/the-pc-gamer-mysteries-case-1-a-slice-of-death-why-is-there-a-dead-golfer-hidden-in-golden-tee-99/",
-   "published": "2026-10-06T19:48:42.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "Cancelled MMO spin-off Borderlands Online is playable once again, and the team behind the unofficial project thankfully didn't use any genAI to get it running",
-   "link": "https://www.rockpapershotgun.com/cancelled-mmo-spin-off-borderlands-online-is-playable-once-again-and-the-team-behind-the-unofficial-project-thankfully-didnt-use-any-genai-to-get-it-running",
-   "published": "2026-10-06T19:22:05.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Save big on Cult of the Lamb, Digimon Story Cyber Sleuth & more with latest eShop deals",
-   "link": "https://gg.deals/deal/save-big-on-cult-of-the-lamb-digimon-story-cyber-sleuth-more-with-latest-eshop-deals/",
-   "published": "2026-10-06T18:45:41.000Z",
-   "status": "topic-below-cut",
-   "score": 5
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Prime Gaming (Amazon Luna) October 2026: Full list of free games for the month",
-   "link": "https://gg.deals/subscription-news/prime-gaming-amazon-luna-october-2026-full-list-of-free-games-for-the-month/",
-   "published": "2026-10-06T18:41:00.000Z",
-   "status": "topic-below-cut",
-   "score": 5
-  },
-  {
-   "source": "Indie Game Bundles",
-   "domain": "indiegamebundles.com",
-   "title": "Free Games with Amazon Luna October 2026 – Star Wars Galactic Racer and more",
-   "link": "https://www.indiegamebundles.com/free-games-with-amazon-luna-october-2026-star-wars-galactic-racer-and-more/",
-   "published": "2026-10-06T18:29:13.000Z",
-   "status": "topic-below-cut",
-   "score": 5
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Gears of War: E-Day review — terrific shooting buoys a sluggish campaign",
-   "link": "https://www.pcgamer.com/games/third-person-shooter/gears-of-war-e-day-review/",
-   "published": "2026-10-06T17:59:46.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "\"Your word is undeniable truth\": Can't be bothered to find evidence in Warhammer 40,000: Dark Heresy? It's fine, because no matter what, you're always right",
-   "link": "https://www.rockpapershotgun.com/your-word-is-undeniable-truth-cant-be-bothered-to-find-evidence-in-warhammer-40000-dark-heresy-its-fine-because-no-matter-what-youre-always-right",
-   "published": "2026-10-06T17:30:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "Take out some monsters and then turn them into take-out in the post-apocalyptic tycoon survival sim Midwest 90: Rapid City, out in early access next month",
-   "link": "https://www.rockpapershotgun.com/take-out-some-monsters-and-then-turn-them-into-take-out-in-the-post-apocalyptic-tycoon-survival-sim-midwest-90-rapid-city-out-in-early-access-next-month",
-   "published": "2026-10-06T17:30:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Indie Game Bundles",
-   "domain": "indiegamebundles.com",
-   "title": "Humble Choice October 2026 – Like a Dragon: Pirate Yakuza in Hawaii, Prince of Persia Lost Crown",
-   "link": "https://www.indiegamebundles.com/humble-choice-october-2026/",
-   "published": "2026-10-06T17:19:24.000Z",
-   "status": "topic-below-cut",
-   "score": 5
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "I've added scams to GTA 5, but I might have scammed myself",
-   "link": "https://www.pcgamer.com/games/grand-theft-auto/ive-added-scams-to-gta-5-but-i-might-have-scammed-myself/",
-   "published": "2026-10-06T17:00:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "Jagex pull Runescape trailer and apologise for genAI use after complaints about six-fingered knights, pinning the blame on a \"trusted external partner\"",
-   "link": "https://www.rockpapershotgun.com/jagex-pull-runescape-trailer-and-apologise-for-genai-use-after-complaints-about-six-fingered-knights-pinning-the-blame-on-a-trusted-external-partner",
-   "published": "2026-10-06T16:30:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Warhorse co-founder believes 'AI is not a get out of jail free card' and that execs have a 'simplified mental model' of what it means for games",
-   "link": "https://www.pcgamer.com/software/ai/warhorse-co-founder-believes-ai-is-not-a-get-out-of-jail-free-card-and-that-execs-have-a-simplified-mental-model-of-what-it-means-for-games/",
-   "published": "2026-10-06T16:21:29.000Z",
-   "status": "topic-below-cut",
-   "score": 5
-  },
-  {
-   "source": "GamesRadar deals",
-   "domain": "gamesradar.com",
-   "title": "One of the summer's most talked-about Lego sets just got its first major discount",
-   "link": "https://www.gamesradar.com/toys-collectibles/one-of-the-summers-most-talked-about-lego-sets-just-got-its-first-major-discount/",
-   "published": "2026-10-06T16:05:36.000Z",
-   "status": "topic-below-cut",
-   "score": 5
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "Someone's modded Diablo 2 for VR, and seeing the world through your character's eyes brings a whole new dimension to the series",
-   "link": "https://www.eurogamer.net/diablo-2-vr-mod",
-   "published": "2026-10-06T16:05:07.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "Some staff at Eternal Strands and ex-Ubisoft devs Yellow Brick Games report they've been laid off",
-   "link": "https://www.rockpapershotgun.com/some-staff-at-eternal-strands-and-ex-ubisoft-devs-yellow-brick-games-report-theyve-been-laid-off",
-   "published": "2026-10-06T16:00:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals Freebies",
-   "domain": "gg.deals",
-   "title": "FREE-to-play Eco Inc. Save The World is going paid: add it to your Steam library while you can!",
-   "link": "https://gg.deals/freebie/free-to-play-eco-inc-save-the-world-is-going-paid-add-it-to-your-steam-library-at-no-cost-while-you-can/",
-   "published": "2026-10-06T15:58:00.000Z",
-   "status": "topic-below-cut",
-   "score": 7
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "\"Keep it family friendly\" - Sega's official Sonic Discord swarmed by 50,000 people in six hours, as understandably strict moderation is put in place",
-   "link": "https://www.eurogamer.net/sonic-the-hedgehog-official-discord-oh-no",
-   "published": "2026-10-06T15:43:55.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "Bullet heaven battler Warhammer Survivors arrives in November, with a new demo out now to whet your appetite for destruction",
-   "link": "https://www.rockpapershotgun.com/bullet-heaven-battler-warhammer-survivors-arrives-in-november-with-a-new-demo-out-now-to-whet-your-appetite-for-destruction",
-   "published": "2026-10-06T15:30:00.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "Warhammer Survivors has a new demo out ahead of its November launch",
-   "score": 6
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "\"Horrible day to be a Shion main\" - Overwatch fans aren't happy about five new China-exclusive skins not coming to the rest of the world",
-   "link": "https://www.eurogamer.net/overwatch-defiled-anthem-china-skins",
-   "published": "2026-10-06T15:25:26.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "GamesRadar deals",
-   "domain": "gamesradar.com",
-   "title": "Your Witcher 3 remastered guide to Prime Day, all the discounts you need before you return to The Continent.",
-   "link": "https://www.gamesradar.com/hardware/your-witcher-3-remastered-guide-to-prime-day-all-the-discounts-you-need-to-chase-the-wild-hunt/",
-   "published": "2026-10-06T15:21:26.000Z",
-   "status": "topic-below-cut",
-   "score": 5
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "Sonic Team's Takashi Iizuka dismisses the apparent inevitability of remakes, saying \"you’re essentially providing the same experience again\"",
-   "link": "https://www.rockpapershotgun.com/sonic-teams-takashi-iizuka-dismisses-the-apparent-inevitability-of-remakes-saying-youre-essentially-providing-the-same-experience-again",
-   "published": "2026-10-06T15:12:21.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "GamerPower (PC)",
-   "domain": "gamerpower.com",
-   "title": "Everwind AW-51 Pack Steam Key Giveaway",
-   "link": "https://www.gamerpower.com/everwind-aw-51-pack-steam-key-giveaway",
-   "published": "2026-10-06T14:44:38.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "Question passengers with tarot-like cards in Dreadline Express, a train mystery with the most intriguing conversation system I've played since Her Story",
-   "link": "https://www.rockpapershotgun.com/question-passengers-with-tarot-like-cards-in-dreadline-express-a-train-mystery-with-the-most-intriguing-conversation-system-ive-played-since-her-story",
-   "published": "2026-10-06T14:31:50.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "GamesRadar deals",
-   "domain": "gamesradar.com",
-   "title": "I review Lego sets for a living, and these are my top Lego Prime Day deals you have to see",
-   "link": "https://www.gamesradar.com/toys-collectibles/this-is-my-favorite-time-of-year-to-build-lego-and-these-must-have-sets-just-got-a-price-cut/",
-   "published": "2026-10-06T14:29:41.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "30 Prime Day Lego deals under $30",
-   "score": 5
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Gundam Rogue Orbit gave me a sick whip sword, but held back the one thing I want most in a mech game",
-   "link": "https://www.pcgamer.com/games/action/gundam-rogue-orbit-gave-me-a-sick-whip-sword-but-held-back-the-one-thing-i-want-most-in-a-mech-game/",
-   "published": "2026-10-06T14:00:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Warhammer Survivors is more than just a Vampire Survivors spin-off",
-   "link": "https://www.pcgamer.com/games/roguelike/warhammer-survivors-is-more-than-just-a-vampire-survivors-spin-off/",
-   "published": "2026-10-06T14:00:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "Star Wars Galactic Racer review: now this is frenetically fun podracing with a totally unforgiving streak",
-   "link": "https://www.rockpapershotgun.com/star-wars-galactic-racer-review-now-this-is-frenetically-fun-podracing-with-a-totally-unforgiving-streak",
-   "published": "2026-10-06T14:00:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals Freebies",
-   "domain": "gg.deals",
-   "title": "[Price glitch] Mafia III and Call of Duty: WWII are FREE to keep on the PlayStation Store",
-   "link": "https://gg.deals/freebie/price-glitch-mafia-iii-and-call-of-duty-wwii-are-free-to-keep-on-playstation-store/",
-   "published": "2026-10-06T13:53:00.000Z",
-   "status": "topic-below-cut",
-   "score": 7
-  },
-  {
-   "source": "GamesRadar deals",
-   "domain": "gamesradar.com",
-   "title": "I'm building the ultimate GTA 6 setup this Prime Day, these are the gadgets in my cart",
-   "link": "https://www.gamesradar.com/hardware/news/live/prime-day-gta-6-ultimate-setup-oct-26/",
-   "published": "2026-10-06T13:32:28.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "Xbox Elite Series 3 controller leaks and appears to offer better analogue sticks, advanced haptics, d-pad choices and more",
-   "link": "https://www.eurogamer.net/xbox-elite-series-3-controller-leak-hall-effect-tmr-sticks-haptics",
-   "published": "2026-10-06T13:21:52.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Deadlock isn't a MOBA or a third-person shooter anymore—City Never Sleeps has turned it into a horror game",
-   "link": "https://www.pcgamer.com/games/moba/deadlock-isnt-a-moba-or-a-third-person-shooter-anymore-city-never-sleeps-has-turned-it-into-a-horror-game/",
-   "published": "2026-10-06T13:19:22.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "I spent an hour playing Switch Sports Resort and my favourite mini-game involves the Switch 2's least-loved gimmick: mouse controls",
-   "link": "https://www.eurogamer.net/nintendo-switch-sports-resort-gamescom-preview",
-   "published": "2026-10-06T13:00:56.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Exclusive – Warhammer 40,000: Dark Heresy will let you be a crooked cop, pinning crimes on the innocent, or follow in good boy Gregor Eisenhorn's footsteps",
-   "link": "https://www.pcgamer.com/games/rpg/exclusive-warhammer-40-000-dark-heresy-will-let-you-be-a-crooked-cop-pinning-crimes-on-the-innocent-or-follow-in-good-boy-gregor-eisenhorns-footsteps/",
-   "published": "2026-10-06T13:00:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "GamesRadar deals",
-   "domain": "gamesradar.com",
-   "title": "If you want cozy board games for Fall, some of my all-time favorites just got major discounts",
-   "link": "https://www.gamesradar.com/games/board-games/if-you-want-to-get-cozy-with-board-games-this-fall-prime-day-is-slashing-the-price-on-my-all-time-favorites/",
-   "published": "2026-10-06T12:44:45.000Z",
-   "status": "topic-below-cut",
-   "score": 5
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "PlatinumGames CEO pauses a discussion on Stellar Blade's Bayonetta costume crossover to casually infer more Bayonetta may be on the way",
-   "link": "https://www.rockpapershotgun.com/platinumgames-ceo-pauses-a-discussion-on-stellar-blades-bayonetta-costume-crossover-to-casually-infer-more-bayonetta-may-be-on-the-way",
-   "published": "2026-10-06T12:36:17.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Green Man Gaming blog",
-   "domain": "greenmangaming.com",
-   "title": "The Ultimate Gears of War Story Recap: How to Play in Chronological Order",
-   "link": "https://www.greenmangaming.com/blog/the-ultimate-gears-of-war-story-recap-how-to-play-in-chronological-order/",
-   "published": "2026-10-06T12:24:03.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "GamesRadar deals",
-   "domain": "gamesradar.com",
-   "title": "Your Zelda Ocarina of Time guide to Prime Day, all the discounts Hyrulians need to know about this week",
-   "link": "https://www.gamesradar.com/hardware/your-zelda-ocarina-of-time-guide-to-prime-day-all-the-discounts-hyrulians-need-to-know-about-this-week/",
-   "published": "2026-10-06T11:54:31.000Z",
-   "status": "topic-below-cut",
-   "score": 5
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "Car Park Capital's cities are utopias of public transport networks and green living, or they were before I got done with them",
-   "link": "https://www.rockpapershotgun.com/car-park-capitals-cities-are-utopias-of-public-transport-networks-and-green-living-or-they-were-before-i-got-done-with-them",
-   "published": "2026-10-06T11:42:16.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "Gears of War: E-Day studio finds a way to get more performance from Xbox Series S - one that other Xbox games could probably use",
-   "link": "https://www.eurogamer.net/xbox-series-s-more-power-gears-of-war-e-day-ssd",
-   "published": "2026-10-06T11:36:35.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
   }
  ]
 }
