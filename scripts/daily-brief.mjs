@@ -44,12 +44,11 @@ const MAX_DOMAINS = 3;
 const ENDS_SOON_HOURS = 48;
 const ENDS_SOON_BONUS = 2;
 const GOG_BONUS = 1; // we earn more from GOG
-const LOWEST_BONUS = 1; // lowest price we have tracked (needs at least MIN_HISTORY_DAYS of data)
-const MIN_HISTORY_DAYS = 3;
+const LOWEST_BONUS = 1; // lowest price we have tracked (needs at least the account's minHistoryDays of data)
 const REPEAT_PENALTY = 8; // was the top pick of an earlier brief, or drafted, within repeatDays
 
 // What an account gets when data/accounts.json does not say otherwise.
-const DEFAULTS = { minDiscount: 50, windowHours: 48, maxPriceAgeHours: 48, minHoursLeft: 6, repeatDays: 7, maxCandidates: 5, dealsWithoutNews: true, gogNews: false, keywords: [], maxTopics: 5, rules: [] };
+const DEFAULTS = { minDiscount: 50, windowHours: 48, maxPriceAgeHours: 48, minHoursLeft: 6, repeatDays: 7, maxCandidates: 5, minHistoryDays: 14, dealsWithoutNews: true, gogNews: false, keywords: [], maxTopics: 5, rules: [] };
 const REQUIRED = ['name', 'handle', 'topic', 'subid', 'stores'];
 export function withDefaults(id, account) {
   const missing = REQUIRED.filter((k) => !account[k] || (Array.isArray(account[k]) && !account[k].length));
@@ -213,10 +212,11 @@ const gogLink = (links, url, subid) => `${links.gogDeeplink}?subid=${subid}&ulp=
 // Our own link goes to the page of that one game, so the post's preview card shows the game's title and cover.
 const siteLink = (links, d, subid, day) => `${links.site}${dealPagePath(d)}?utm_source=${subid}&utm_medium=social&utm_campaign=deals-${day}`;
 
-export function historyFacts(rows, price, today) {
+// days = how many days we have a recorded price of this game. "Lowest price we've tracked" needs at least minDays of them.
+export function historyFacts(rows, price, today, minDays) {
   const days = rows.length;
   const earlier = rows.filter((r) => r.date !== today);
-  const lowest = days >= MIN_HISTORY_DAYS && earlier.length > 0 && price <= Math.min(...earlier.map((r) => r.price));
+  const lowest = days >= minDays && earlier.length > 0 && price <= Math.min(...earlier.map((r) => r.price));
   return { days, lowest, since: rows[0]?.date ?? null };
 }
 
@@ -226,7 +226,7 @@ export function buildCandidates({ eligible, mentions, history, account, links, n
   const list = eligible.map(({ deal: d, id, offeredOn }) => {
     const found = (mentions.get(id) ?? []).sort((a, b) => (a.how === b.how ? b.t - a.t : a.how === 'link' ? -1 : 1));
     const domains = new Set(found.map((m) => m.domain).filter((x) => x !== domainOf(d.url))); // the store's own news is not an independent site
-    const facts = historyFacts(history[id] ?? [], d.price, today);
+    const facts = historyFacts(history[id] ?? [], d.price, today, account.minHistoryDays);
     const endsInH = d.endsAt ? (new Date(d.endsAt) - now) / HOUR : null;
     const parts = [d.discountPct / 10];
     parts.push(PER_DOMAIN * Math.min(MAX_DOMAINS, domains.size));

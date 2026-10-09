@@ -12,7 +12,7 @@ import { fileURLToPath } from 'node:url';
 import { channelWithDefaults, buildPost, formatDate, graphemes } from './lib/posts.mjs';
 
 process.env.DAILY_BRIEF_AS_MODULE = '1';
-const { makePosts, withDefaults } = await import('./daily-brief.mjs');
+const { makePosts, withDefaults, historyFacts } = await import('./daily-brief.mjs');
 
 const links = { site: 'https://saveandplay.com' };
 const accounts = JSON.parse(readFileSync(fileURLToPath(new URL('../data/accounts.json', import.meta.url)), 'utf8')).accounts;
@@ -60,6 +60,18 @@ test('"Lowest price we\'ve tracked" only when the history says so; never "lowest
   const low = buildPost({ candidate: { ...deal, history: { days: 5, lowest: true } }, channel: bluesky, links, day });
   assert.ok(low.text.includes("Price checked Oct 7. Sale ends Oct 8. Lowest price we've tracked."));
   assert.throws(() => buildPost({ candidate: { ...deal, title: 'Lowest price ever' }, channel: bluesky, links, day }), /record low/);
+});
+
+test('minHistoryDays: the lowest-price claim only after enough days of history', () => {
+  const rows = (n, price) => Array.from({ length: n }, (_, i) => ({ date: `2026-09-${String(10 + i).padStart(2, '0')}`, price }));
+  assert.equal(accounts.prices.minHistoryDays, 14);
+  const { minHistoryDays: _omitted, ...withoutSetting } = accounts.prices;
+  assert.equal(withDefaults('x', withoutSetting).minHistoryDays, 14, 'an account without the setting gets 14');
+  assert.equal(historyFacts(rows(13, 9.99), 5.99, '2026-10-08', 14).lowest, false, '13 days is not enough');
+  assert.equal(historyFacts(rows(14, 9.99), 5.99, '2026-10-08', 14).lowest, true, '14 days is enough');
+  assert.equal(historyFacts(rows(14, 4.99), 5.99, '2026-10-08', 14).lowest, false, 'a lower earlier price: not the lowest');
+  assert.equal(historyFacts(rows(5, 9.99), 5.99, '2026-10-08', 3).lowest, true, 'the limit is the one of the account');
+  assert.equal(historyFacts(rows(13, 9.99), 5.99, '2026-10-08', 14).days, 13);
 });
 
 test('no end date: no "Sale ends"', () => {
