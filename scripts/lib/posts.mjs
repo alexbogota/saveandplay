@@ -23,7 +23,7 @@
 // Two optional lines (a channel with enough room, like Mastodon; a channel without them is not changed):
 //   savings       "You save {amount}": {amount} = old price minus price, counted from the prices of the deal (in cents, so 39.99 - 5.99 = $34.00).
 //                 The line is left out when there is nothing to save. The template places it with {savings}.
-//   storeNote     { store: "a short plain note" }  (GOG: DRM-free, no launcher needed). The template places it with {storeNote}; no note for a store = no line.
+//   storeNote     { store: "a short plain note" }  (GOG: DRM-free). The template places it with {storeNote}; no note for a store = no line.
 
 import { slug, dealPagePath } from './deal-paths.mjs';
 

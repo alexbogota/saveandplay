@@ -234,11 +234,12 @@ test('tag research: the tags of accounts.json are collected, the statistics are 
   assert.equal(summarizeHistory([{ day: 'x', uses: 'y', accounts: 'z' }], now).days, 0, 'garbage is not counted');
 });
 
-test('Mastodon: "You save $X" (old price minus price) and the note of the store; Bluesky has neither', () => {
+test('Mastodon: "You save $X" (old price minus price) and the note of the store (GOG: DRM-free, IndieGala: none); Bluesky has neither', () => {
   const g = buildPost({ candidate: gog, channel: mastodon, links, day });
-  assert.ok(g.text.startsWith('Shadow Tactics: Blades of the Shogun: -90% at GOG\n$3.99 (was $39.99)\nYou save $36.00\nDRM-free, no launcher needed\nPrice checked Oct 8. Sale ends Oct 18.\n'));
+  assert.ok(g.text.startsWith('Shadow Tactics: Blades of the Shogun: -90% at GOG\n$3.99 (was $39.99)\nYou save $36.00\nDRM-free\nPrice checked Oct 8. Sale ends Oct 18.\n'));
   const i = buildPost({ candidate: deal, channel: mastodon, links, day });
-  assert.ok(i.text.startsWith('Control Ultimate Edition: -85% at IndieGala\n$5.99 (was $39.99)\nYou save $34.00\nSteam key\nPrice checked Oct 7.'));
+  assert.ok(i.text.startsWith('Control Ultimate Edition: -85% at IndieGala\n$5.99 (was $39.99)\nYou save $34.00\nPrice checked Oct 7.'), 'IndieGala has no note: there is no data yet that the key is a Steam key');
+  assert.ok(!i.text.includes('Steam key') && !i.text.includes('DRM-free'));
   for (const d of [gog, deal]) {
     const b = buildPost({ candidate: d, channel: bluesky, links, day });
     assert.ok(!/You save|DRM-free|Steam key/.test(b.text), 'Bluesky is not changed: little room');
