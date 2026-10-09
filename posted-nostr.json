@@ -52,6 +52,62 @@
           "id": "dbb9d1ab4ea82921388bc20e1f951f20de111d198404621d444f67c844cd717b",
           "sig": "5377d2eaab1a9732b4745635206652228b370e41322b5cea00cbbfab35d1c49dab4612272e8818ef3cbbc8ca8dbfa764666aa67da74fa4110e432252574654f9"
         }
+      },
+      "2026-10-09": {
+        "status": "done",
+        "kind": "article",
+        "id": "019d4e591148c0320521aaf5c403494a88ab0454b6add4ffb11175db517a3155",
+        "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+        "article": "steam-key-vs-drm-free",
+        "postedAt": "2026-10-09T11:40:39.000Z",
+        "accepted": [
+          "wss://relay.damus.io",
+          "wss://nos.lol",
+          "wss://relay.primal.net",
+          "wss://offchain.pub",
+          "wss://nostr.mom"
+        ],
+        "failed": [],
+        "event": {
+          "kind": 1,
+          "created_at": 1791546039,
+          "tags": [
+            [
+              "t",
+              "saveandplay"
+            ],
+            [
+              "t",
+              "pcgaming"
+            ],
+            [
+              "t",
+              "gamedeals"
+            ],
+            [
+              "t",
+              "steam"
+            ],
+            [
+              "t",
+              "gog"
+            ],
+            [
+              "t",
+              "drmfree"
+            ],
+            [
+              "imeta",
+              "url https://saveandplay.com/og/steam-key-vs-drm-free.png",
+              "m image/png",
+              "alt Diagram: on Steam the game is a license on your account; on GOG the DRM-free game files can be installed on several PCs and backed up."
+            ]
+          ],
+          "content": "Steam key or DRM-free: what do you actually get when you press \"buy\"?\n\n• Steam: the agreement says the content is \"licensed, not sold\". The license sits on your account and the account can't be transferred.\n• GOG: sells only DRM-free games. GOG says you can back up the files, install them on as many devices as you wish, and run them with or without a launcher.\n\nNeither is better in general: it depends on what you want to do with the game later. We read the stores' own pages (2026-10-07). Not legal advice.\n\n#pcgaming #gamedeals #steam #gog #drmfree\n\nhttps://saveandplay.com/og/steam-key-vs-drm-free.png\n\nhttps://saveandplay.com/guides/steam-key-vs-drm-free/?utm_source=nostr-prices&utm_medium=social&utm_campaign=guide-steam-key-vs-drm-free",
+          "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+          "id": "019d4e591148c0320521aaf5c403494a88ab0454b6add4ffb11175db517a3155",
+          "sig": "009fe4c3dd4de79e4ac6e09cf4f11218db62400f414de17bdfa01e795257bfb183087ef7588f5f859a989ab21b77665acd58065021ceb195f2e1ac52e6f156c8"
+        }
       }
     }
   },
@@ -60,6 +116,10 @@
       "real-vs-fake-game-discounts": {
         "day": "2026-10-08",
         "id": "dbb9d1ab4ea82921388bc20e1f951f20de111d198404621d444f67c844cd717b"
+      },
+      "steam-key-vs-drm-free": {
+        "day": "2026-10-09",
+        "id": "019d4e591148c0320521aaf5c403494a88ab0454b6add4ffb11175db517a3155"
       }
     }
   },
