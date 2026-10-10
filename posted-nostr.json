@@ -108,6 +108,51 @@
           "id": "019d4e591148c0320521aaf5c403494a88ab0454b6add4ffb11175db517a3155",
           "sig": "009fe4c3dd4de79e4ac6e09cf4f11218db62400f414de17bdfa01e795257bfb183087ef7588f5f859a989ab21b77665acd58065021ceb195f2e1ac52e6f156c8"
         }
+      },
+      "2026-10-10": {
+        "status": "done",
+        "kind": "deal",
+        "id": "96bc7c5e0b16762e2d6f68a488930ff299bae8e7db82e468d0212c472d740426",
+        "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+        "deal": "indiegala-lego-star-wars-the-skywalker-saga-deluxe-edition",
+        "title": "LEGO® Star Wars™:The Skywalker Saga Deluxe Edition",
+        "postedAt": "2026-10-10T11:40:57.000Z",
+        "accepted": [
+          "wss://relay.damus.io",
+          "wss://nos.lol",
+          "wss://relay.primal.net",
+          "wss://offchain.pub",
+          "wss://nostr.mom"
+        ],
+        "failed": [],
+        "event": {
+          "kind": 1,
+          "created_at": 1791632457,
+          "tags": [
+            [
+              "t",
+              "saveandplay"
+            ],
+            [
+              "t",
+              "pcgaming"
+            ],
+            [
+              "t",
+              "gamedeals"
+            ],
+            [
+              "imeta",
+              "url https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/920210/header.jpg?t=1747346983",
+              "m image/jpeg",
+              "alt Cover art for LEGO® Star Wars™:The Skywalker Saga Deluxe Edition"
+            ]
+          ],
+          "content": "LEGO® Star Wars™:The Skywalker Saga Deluxe Edition: -87% at IndieGala\n$8.09 (was $59.99)\nPrice checked 2026-10-10 09:48 UTC. Sale ends 2026-10-11 23:59 UTC.\nWhy today: sale ends in 37 h.\nAd: we may earn a commission if you buy.\n\n#pcgaming #gamedeals\n\nhttps://shared.akamai.steamstatic.com/store_item_assets/steam/apps/920210/header.jpg?t=1747346983\n\nhttps://saveandplay.com/deals/indiegala/lego-star-wars-the-skywalker-saga-deluxe-edition/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-10",
+          "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+          "id": "96bc7c5e0b16762e2d6f68a488930ff299bae8e7db82e468d0212c472d740426",
+          "sig": "35b069215225bc8df0a1b08bda07f9be7171dddb1e73d29ef46fe339182a4f257894d7324a76c47c9e3f431ea400061b5b49a878f5ff0d251d89a2a89ad65ac9"
+        }
       }
     }
   },
