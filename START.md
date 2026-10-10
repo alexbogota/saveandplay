@@ -12,7 +12,7 @@
 - 04:30 Update deals: цены, обложки, пересборка сайта.
 - 06:00 Daily brief: скидка дня, файлы `post-prices-bluesky.md` и `post-prices-mastodon.md` (ветка `brief`, и сверху на странице запуска, раздел Summary).
 - 06:30 Post to Nostr: сначала статьи очереди, потом скидки.
-- Вручную по кнопке: Check sources (проверка лент).
+- Вручную по кнопке: Check sources (проверка лент), Feed probe (отчёт по товарным фидам Admitad, пока Kinguin; сайт не трогает).
 
 ## Что ждёт владельца (ручные шаги)
 1. Каждый день: взять два поста из Summary последнего Daily brief и опубликовать в Bluesky и Mastodon.
@@ -20,7 +20,8 @@
 3. Аккаунты Cozy, Retro, Hardware (новый блок в `data/accounts.json`), Pinterest.
 4. Хэндл Bluesky на странице Contact (в `src/lib/site.ts` поле пустое, карточка скрыта).
 5. Если `git status` показывает `NOSTR.md` и файлы `nostr` как несохранённые: это правки чата владельца, их коммитит владелец или `/publish`.
-6. Через 2–4 недели: разбор лайков и кликов, пересмотр тегов. «Lowest price we've tracked» появится само после 14 дней истории цен.
+6. Feed probe: добавить в GitHub секреты `ADMITAD_FEED_USER` и `ADMITAD_FEED_CODE` (Settings, Secrets and variables, Actions), потом Actions, Feed probe, Run workflow. Без них запуск остановится с понятным сообщением.
+7. Через 2–4 недели: разбор лайков и кликов, пересмотр тегов. «Lowest price we've tracked» появится само после 14 дней истории цен.
 
 ## Где главное
 - `data/accounts.json`: всё про аккаунты и каналы (правила выбора скидок, шаблоны постов, теги, пометка `Ad`, лимиты). Новый канал или аккаунт = новый блок, код не меняется.
