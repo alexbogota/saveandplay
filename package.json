@@ -21,6 +21,7 @@
     "nostr:test": "node scripts/test-nostr.mjs",
     "posts:test": "node scripts/test-posts.mjs",
     "kinguin:test": "node scripts/test-kinguin.mjs",
+    "articles:test": "node --test scripts/test-articles.mjs",
     "tags:research": "node scripts/tag-research.mjs"
   },
   "dependencies": {

@@ -1,0 +1,19 @@
+{
+  "about": "Настройки ежедневного автора статей: workflow «Daily article» (.github/workflows/daily-article.yml), программа scripts/article-tools.mjs, правила для автора docs/article-writer.md. Черновики лежат на отдельной ветке (branch), сайт они не трогают, публикует только /publish после вашего «ок». Поля: enabled = включён ли автор (false: программа ничего не пишет); everyDays = раз в сколько дней писать новый черновик (1 = каждый день, 2 = через день); программа просыпается каждый день, а решает по этому числу; maxPending = сколько черновиков может ждать вашего «ок»; если ждут столько или больше, новый не пишется (экономит лимит подписки); expireDays = через сколько дней невыложенный черновик перестаёт считаться ждущим (так отклонённый черновик не стопорит работу); model = модель Claude для автора: sonnet (по умолчанию), haiku (проще и дешевле по лимиту) или opus (сильнее, дороже); maxTurns = потолок шагов автора за один запуск; branch = ветка для черновиков; briefAccount = чей Daily brief читать за темами (ключ из data/accounts.json); section = раздел сайта для статей (guides); minWords / maxWords = границы длины текста статьи (без картинок и кода); image = размер картинки для карточки ссылки; posts = посты про статью: для каких каналов писать (account и channel берутся из data/accounts.json: лимит знаков, длина ссылки и метка utm), minTags / maxTags = сколько тегов в посте. Статья без партнёрских ссылок, поэтому строки Ad в этих постах нет. Токен подписки Claude (не API, платить за запросы не нужно) лежит в секрете GitHub CLAUDE_CODE_OAUTH_TOKEN. Новый канал для постов = новая строка в posts (канал должен быть в data/accounts.json), код не меняется.",
+  "enabled": true,
+  "everyDays": 2,
+  "maxPending": 2,
+  "expireDays": 7,
+  "model": "sonnet",
+  "maxTurns": 60,
+  "branch": "articles",
+  "briefAccount": "prices",
+  "section": "guides",
+  "minWords": 600,
+  "maxWords": 2200,
+  "image": { "width": 1200, "height": 630 },
+  "posts": {
+    "bluesky": { "account": "prices", "channel": "bluesky", "minTags": 2, "maxTags": 3 },
+    "mastodon": { "account": "prices", "channel": "mastodon", "minTags": 2, "maxTags": 5 }
+  }
+}
