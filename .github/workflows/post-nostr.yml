@@ -1,18 +1,22 @@
 name: Post to Nostr
 
-# Every day at 06:30 Bogota time (half an hour after the "Daily brief"), and by hand:
-# GitHub -> Actions -> "Post to Nostr" -> Run workflow, then choose a mode:
+# Two kinds of notes, independent of each other (owner, 11 Oct 2026): one DEAL and one ARTICLE a day.
+#   06:30 Bogota (half an hour after the "Daily brief"): post, kind deal    (the first deal of the brief)
+#   12:00 Bogota:                                         post, kind article (the next approved article of data/nostr-articles.json; none = green "Skipped")
+# By hand: GitHub -> Actions -> "Post to Nostr" -> Run workflow, then choose a mode and (for dry-run and post) a kind:
 #   dry-run  (default) shows the note that would be posted, publishes nothing
-#   post     posts today's note (only if "autopost" is true for the account in data/nostr-accounts.json; one note a day, a repeat is skipped)
+#   post     posts today's note of that kind (only if "autopost" is true for the account in data/nostr-accounts.json; one of each kind a day, a repeat is skipped)
 #   profile  publishes or updates the Nostr profile (name, about, pictures, NIP-05 address)
 #   check    checks the NIP-05 address on the live site and the relays in data/nostr-relays.json
-# The scheduled run always means "post". Result: the run page, section "Summary" (text, npub, relays, note id).
+# "redo" (delete a wrong article note and post it again) happens only in a run with kind article.
+# Result: the run page, section "Summary" (text, npub, relays, note id).
 # Green with "Skipped" = nothing to post or already posted today. Red = no relay accepted the note (or fewer than needed), or something is broken.
 #
 # The private key is the GitHub Secret NOSTR_NSEC (npm run nostr:secret sets it). It is passed only to the step that signs and is never printed.
 on:
   schedule:
-    - cron: '30 11 * * *' # 11:30 UTC = 06:30 Bogota, after the daily brief (11:00 UTC)
+    - cron: '30 11 * * *' # 11:30 UTC = 06:30 Bogota, after the daily brief (11:00 UTC): the deal
+    - cron: '0 17 * * *' # 17:00 UTC = 12:00 Bogota: the article
   workflow_dispatch:
     inputs:
       mode:
@@ -24,6 +28,13 @@ on:
           - post
           - profile
           - check
+      kind:
+        description: 'Which note (for dry-run and post)'
+        type: choice
+        default: deal
+        options:
+          - deal
+          - article
 
 # Writing is needed only to save the record of posts on the "brief" branch.
 permissions:
@@ -39,6 +50,8 @@ jobs:
     timeout-minutes: 10
     env:
       MODE: ${{ github.event.inputs.mode || 'post' }}
+      # The 17:00 UTC schedule is the article; the other schedule and a run by hand without a choice are the deal.
+      KIND: ${{ github.event.schedule == '0 17 * * *' && 'article' || github.event.inputs.kind || 'deal' }}
     steps:
       - name: Get the code
         uses: actions/checkout@v4
@@ -59,13 +72,13 @@ jobs:
         if: ${{ env.MODE == 'post' || env.MODE == 'dry-run' }}
         run: bash scripts/nostr-branch.sh load
 
-      - name: Run (${{ env.MODE }})
+      - name: Run (${{ env.MODE }}, ${{ env.KIND }})
         env:
           NOSTR_NSEC: ${{ secrets.NOSTR_NSEC }}
         run: |
           case "$MODE" in
-            post) node scripts/post-nostr.mjs ;;
-            dry-run) node scripts/post-nostr.mjs --dry-run ;;
+            post) node scripts/post-nostr.mjs --kind "$KIND" ;;
+            dry-run) node scripts/post-nostr.mjs --kind "$KIND" --dry-run ;;
             profile) node scripts/nostr-profile.mjs ;;
             check) node scripts/nostr-check.mjs ;;
             *) echo "Unknown mode: $MODE"; exit 2 ;;
@@ -76,7 +89,7 @@ jobs:
         if: ${{ always() && env.MODE == 'dry-run' }}
         run: node scripts/nostr-sync-articles.mjs --check
 
-      # Runs even if the step above went red: a note that reached some relays must still be recorded, so it is not posted twice.
+      # Runs even if the posting step went red: a note that reached some relays must still be recorded, so it is not posted twice.
       - name: Save the record of posts on the brief branch
         if: ${{ always() && env.MODE == 'post' }}
         run: bash scripts/nostr-branch.sh save

@@ -2,7 +2,7 @@
 //
 //   npm run nostr:test
 //
-// What is checked: the text template, the article queue (articles first, one a day, then deals), new guides becoming drafts (nostr-sync-articles), "dry-run publishes nothing", autopost switch, one note a day (record, relays guard, Re-run),
+// What is checked: the text template, the two kinds (one deal and one article a day, independent; kind tags; old record format; --kind required), the article queue, new guides becoming drafts (nostr-sync-articles), "dry-run publishes nothing", autopost switch, one note a day (record, relays guard, Re-run),
 // partial delivery and sending the same note again, stale brief and old price, the key never appears in any output,
 // keygen (.env kept, existing key never replaced, only npub printed), profile, the relay check, and the git branch script.
 // Nothing here touches the real data/ folder or the real relays: every test works in a temporary folder.
@@ -22,7 +22,7 @@ import { bytesToHex } from 'nostr-tools/utils';
 
 process.env.NOSTR_ROOT = process.env.NOSTR_ROOT || ''; // the test itself imports the template code, which must see the real settings
 delete process.env.NOSTR_ROOT;
-const { buildNote, whyLine, nostrAccounts, buildArticleNote, articleQueue, DISCLOSURE, BRAND_TAG } = await import('./lib/nostr.mjs');
+const { buildNote, whyLine, nostrAccounts, buildArticleNote, articleQueue, noteKind, DISCLOSURE, BRAND_TAG } = await import('./lib/nostr.mjs');
 
 const here = (rel) => fileURLToPath(new URL(rel, import.meta.url));
 const NOW = '2026-10-08T11:30:00Z';
@@ -195,6 +195,9 @@ function run(script, args, { root, env = {}, withKey = true } = {}) {
 }
 const readState = (root) => JSON.parse(readFileSync(join(root, 'drafts/posted-nostr.json'), 'utf8'));
 const day = '2026-10-08';
+const DEAL = ['--kind', 'deal'];
+const ARTICLE = ['--kind', 'article'];
+const tTags = (tags) => tags.filter((t) => t[0] === 't').map((t) => t[1]);
 const readDay = (iso) => new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Bogota', year: 'numeric', month: '2-digit', day: '2-digit' }).format(Date.parse(iso));
 
 // ---------- the tests ----------
@@ -222,7 +225,7 @@ test('template: the text has only brief numbers, the "Ad:" line, picture line, l
   );
   assert.equal(DISCLOSURE, 'Ad: we may earn a commission if you buy.');
   assert.ok(!/#ad\b/i.test(content), '"#ad" is not in the text of a deal note');
-  assert.deepEqual(tags.filter((t) => t[0] === 't'), [['t', 'saveandplay'], ['t', 'pcgaming'], ['t', 'gamedeals']]);
+  assert.deepEqual(tags.filter((t) => t[0] === 't'), [['t', 'saveandplay'], ['t', 'saveandplay-deal'], ['t', 'pcgaming'], ['t', 'gamedeals']]);
   const imeta = tags.find((t) => t[0] === 'imeta');
   assert.ok(imeta.includes(`url ${candidate.cover}`) && imeta.includes('m image/jpeg') && imeta.includes('alt Cover art for Control Ultimate Edition'));
   assert.ok(content.trimEnd().endsWith(candidate.link));
@@ -242,15 +245,15 @@ test('template: no cover = no picture line and no imeta; no end date; rank shown
 test('template: broken data is refused, "ad" is never a tag, the brand tag cannot be dropped', () => {
   const a = realAccount;
   for (const bad of [{ price: NaN }, { link: 'http://x' }, { link: undefined }, { priceCheckedAt: 'x' }, { title: '' }, { cover: 'ftp://x' }]) assert.throws(() => buildNote({ ...candidate, ...bad }, a), /not complete|not valid/);
-  assert.deepEqual(buildNote(candidate, { hashtags: ['pcgaming'] }).tags.filter((t) => t[0] === 't'), [['t', BRAND_TAG], ['t', 'pcgaming']]);
+  assert.deepEqual(buildNote(candidate, { hashtags: ['pcgaming'] }).tags.filter((t) => t[0] === 't'), [['t', BRAND_TAG], ['t', 'saveandplay-deal'], ['t', 'pcgaming']]);
   // an old settings file that still lists "ad" does not bring the tag back
-  assert.deepEqual(buildNote(candidate, { hashtags: ['#AD', 'pcgaming'] }).tags.filter((t) => t[0] === 't'), [['t', BRAND_TAG], ['t', 'pcgaming']]);
+  assert.deepEqual(buildNote(candidate, { hashtags: ['#AD', 'pcgaming'] }).tags.filter((t) => t[0] === 't'), [['t', BRAND_TAG], ['t', 'saveandplay-deal'], ['t', 'pcgaming']]);
 });
 
 test('dry-run: shows the note, publishes nothing, writes no record, needs no key', async () => {
   const r1 = await startRelay('accept');
   const root = makeRoot({ relays: [r1.url], autopost: false });
-  const r = await run('post-nostr.mjs', ['--dry-run'], { root, withKey: false });
+  const r = await run('post-nostr.mjs', [...DEAL, '--dry-run'], { root, withKey: false });
   assert.equal(r.code, 0, r.all);
   assert.ok(r.out.includes('Control Ultimate Edition: -85% at IndieGala') && r.out.includes('Ad: we may earn a commission if you buy.') && !r.out.includes('#ad'));
   assert.ok(r.summary.includes('Dry run: nothing was published'));
@@ -267,7 +270,7 @@ test('two files: settings of the account live in data/nostr-accounts.json, the b
   const broken = JSON.parse(readFileSync(join(root, 'data/accounts.json'), 'utf8'));
   delete broken.accounts.nostr;
   writeFileSync(join(root, 'data/accounts.json'), JSON.stringify(broken));
-  const r = await run('post-nostr.mjs', ['--dry-run'], { root, withKey: false });
+  const r = await run('post-nostr.mjs', [...DEAL, '--dry-run'], { root, withKey: false });
   assert.equal(r.code, 1);
   assert.ok(/nostr-accounts\.json but not in data\/accounts\.json/.test(r.all), r.all);
 });
@@ -276,7 +279,7 @@ test('article note: exact text (no "Ad" line, no hashtag), marked link last, pic
   const link = `${SITE}/guides/x/?utm_source=nostr-prices&utm_medium=social&utm_campaign=guide-x`;
   const n = buildArticleNote(art(), realAccount, SITE);
   assert.equal(n.content, `Line one.\n\nLine two.\n\n#pcgaming #gamedeals #steam\n\n${link}`);
-  assert.deepEqual(n.tags, [['t', 'saveandplay'], ['t', 'pcgaming'], ['t', 'gamedeals'], ['t', 'steam']]);
+  assert.deepEqual(n.tags, [['t', 'saveandplay'], ['t', 'saveandplay-article'], ['t', 'pcgaming'], ['t', 'gamedeals'], ['t', 'steam']]);
   const pic = buildArticleNote(art({ image: '/og/x.png', imageAlt: 'A diagram' }), realAccount, SITE);
   assert.equal(pic.content, `Line one.\n\nLine two.\n\n#pcgaming #gamedeals #steam\n\n${SITE}/og/x.png\n\n${link}`);
   assert.deepEqual(pic.tags.at(-1), ['imeta', `url ${SITE}/og/x.png`, 'm image/png', 'alt A diagram']);
@@ -287,8 +290,8 @@ test('article note: exact text (no "Ad" line, no hashtag), marked link last, pic
   assert.throws(() => buildArticleNote(art({ tags: ['two words'] }), realAccount, SITE), /hashtag .* is not valid/);
   assert.throws(() => buildArticleNote(art({ tags: ['#x'] }), realAccount, SITE), /hashtag .* is not valid/);
   // the brand tag cannot be dropped even if the account has no hashtags, and "ad" is never a tag (not even from the article's own tags)
-  assert.deepEqual(buildArticleNote(art({ tags: [] }), { ...realAccount, hashtags: ['pcgaming'] }, SITE).tags, [['t', 'saveandplay'], ['t', 'pcgaming']]);
-  assert.deepEqual(buildArticleNote(art({ tags: ['ad', 'steam'] }), { ...realAccount, hashtags: ['pcgaming'] }, SITE).tags, [['t', 'saveandplay'], ['t', 'pcgaming'], ['t', 'steam']]);
+  assert.deepEqual(buildArticleNote(art({ tags: [] }), { ...realAccount, hashtags: ['pcgaming'] }, SITE).tags, [['t', 'saveandplay'], ['t', 'saveandplay-article'], ['t', 'pcgaming']]);
+  assert.deepEqual(buildArticleNote(art({ tags: ['ad', 'steam'] }), { ...realAccount, hashtags: ['pcgaming'] }, SITE).tags, [['t', 'saveandplay'], ['t', 'saveandplay-article'], ['t', 'pcgaming'], ['t', 'steam']]);
 });
 
 test('articles: every article of the real queue builds a valid note (no #ad, hashtags in the text = t tags, marked link, picture file and alt text); the first one is approved', () => {
@@ -302,7 +305,7 @@ test('articles: every article of the real queue builds a valid note (no #ad, has
     // the hashtags of the text are exactly the t tags (NIP-24) plus the brand tag that is not shown
     const shown = (n.content.match(/(^|\s)#[a-z0-9_]+/g) ?? []).map((x) => x.trim().slice(1));
     assert.ok(shown.length >= 2 && shown.length <= 6, `${slug}: ${shown.length} hashtags`);
-    assert.deepEqual(n.tags.filter((t) => t[0] === 't').map((t) => t[1]).filter((h) => h !== 'saveandplay'), shown, slug);
+    assert.deepEqual(n.tags.filter((t) => t[0] === 't').map((t) => t[1]).filter((h) => !h.startsWith('saveandplay')), shown, slug);
     // a picture of an article is a real file of the site, a PNG of 1200x630 (so a link card and the note look right)
     if (a.image) {
       const png = readFileSync(here(`../public${a.image}`));
@@ -427,98 +430,180 @@ test('sync articles --check: one warning line in Summary with the guides that ha
   assert.equal(none.summary, '');
 });
 
-test('dry-run with articles: shows the next article (text, tags, queue), publishes nothing, writes no record', async () => {
+test('no --kind: nothing is posted and the error says what to add (red)', async () => {
   const r1 = await startRelay('accept');
-  const root = makeRoot({ relays: [r1.url], autopost: false, articles: fixture({ one: art({ lines: ['First article.'], path: '/guides/one/', campaign: 'guide-one' }), two: art({ approved: false }) }) });
-  const r = await run('post-nostr.mjs', ['--dry-run'], { root, withKey: false });
-  assert.equal(r.code, 0, r.all);
-  assert.ok(r.out.includes('First article.\n\n#pcgaming #gamedeals #steam\n\nhttps://saveandplay.com/guides/one/?utm_source=nostr-prices') && !r.out.includes('#ad') && r.out.includes('utm_campaign=guide-one') && !r.out.includes('Control Ultimate Edition'));
-  assert.ok(r.summary.includes('Article: one') && r.summary.includes('Waiting for approval') && r.summary.includes('two'), r.summary);
+  const root = makeRoot({ relays: [r1.url] });
+  for (const args of [[], ['--dry-run'], ['--kind', 'news']]) {
+    const r = await run('post-nostr.mjs', args, { root });
+    assert.equal(r.code, 1, r.all);
+    assert.ok(/--kind deal or --kind article/.test(r.err) && /Nothing was posted/.test(r.summary), r.all);
+  }
   assert.equal(r1.events.length, 0);
   assert.ok(!existsSync(join(root, 'drafts/posted-nostr.json')));
-  // no article is approved: the deal is shown, and the summary says what waits
-  const none = makeRoot({ relays: [r1.url], autopost: false, articles: fixture({ two: art({ approved: false }) }) });
-  const d = await run('post-nostr.mjs', ['--dry-run'], { root: none, withKey: false });
-  assert.equal(d.code, 0, d.all);
-  assert.ok(d.out.includes('Control Ultimate Edition') && d.summary.includes('Waiting for approval'), d.summary);
   r1.close();
 });
 
-test('post: articles go first, one a day, a not approved one is never posted, then the deals; the record of articles survives the cleanup of old days', async () => {
+test('kind tags: a deal note has saveandplay + saveandplay-deal, an article note saveandplay + saveandplay-article; not in the text, never "ad"; old notes are told apart by their text', () => {
+  const d = buildNote(candidate, realAccount);
+  const a = buildArticleNote(art(), realAccount, SITE);
+  assert.deepEqual(tTags(d.tags).slice(0, 2), ['saveandplay', 'saveandplay-deal']);
+  assert.deepEqual(tTags(a.tags).slice(0, 2), ['saveandplay', 'saveandplay-article']);
+  for (const n of [d, a]) assert.ok(!n.content.includes('saveandplay-') && !tTags(n.tags).includes('ad') && !/#saveandplay/.test(n.content));
+  assert.equal(noteKind({ tags: d.tags, content: d.content }), 'deal');
+  assert.equal(noteKind({ tags: a.tags, content: a.content }), 'article');
+  // the tag of the kind wins over the text
+  assert.equal(noteKind({ tags: [['t', 'saveandplay'], ['t', 'saveandplay-article']], content: 'Ad: x' }), 'article');
+  // notes made before 11 Oct 2026 (no kind tag): an "Ad:" line or "Price checked" = deal, anything else = article
+  assert.equal(noteKind({ tags: [['t', 'saveandplay']], content: 'Game: -50%\nAd: we may earn a commission if you buy.' }), 'deal');
+  assert.equal(noteKind({ tags: [['t', 'ad']], content: 'Game: -50%\nPrice checked 2026-10-07 09:49 UTC.' }), 'deal');
+  assert.equal(noteKind({ tags: [['t', 'ad']], content: 'Is that "-75%" real? #ad' }), 'article');
+  // an article cannot smuggle a kind tag in through its own tags
+  assert.deepEqual(tTags(buildArticleNote(art({ tags: ['saveandplay-deal', 'steam'] }), realAccount, SITE).tags), ['saveandplay', 'saveandplay-article', 'pcgaming', 'gamedeals', 'steam']);
+});
+
+test('dry-run with articles: kind article shows the next article (text, tags, queue), kind deal shows the deal; publishes nothing, writes no record', async () => {
+  const r1 = await startRelay('accept');
+  const root = makeRoot({ relays: [r1.url], autopost: false, articles: fixture({ one: art({ lines: ['First article.'], path: '/guides/one/', campaign: 'guide-one' }), two: art({ approved: false }) }) });
+  const r = await run('post-nostr.mjs', [...ARTICLE, '--dry-run'], { root, withKey: false });
+  assert.equal(r.code, 0, r.all);
+  assert.ok(r.out.includes('First article.\n\n#pcgaming #gamedeals #steam\n\nhttps://saveandplay.com/guides/one/?utm_source=nostr-prices') && !r.out.includes('#ad') && r.out.includes('utm_campaign=guide-one') && !r.out.includes('Control Ultimate Edition'));
+  assert.ok(r.summary.includes('Article: one') && r.summary.includes('Waiting for approval') && r.summary.includes('two'), r.summary);
+  // the deal is independent of the queue: an approved article does not hide it
+  const d = await run('post-nostr.mjs', [...DEAL, '--dry-run'], { root, withKey: false });
+  assert.equal(d.code, 0, d.all);
+  assert.ok(d.out.includes('Control Ultimate Edition: -85% at IndieGala') && !d.out.includes('First article.'), d.out);
+  assert.equal(r1.events.length, 0);
+  assert.ok(!existsSync(join(root, 'drafts/posted-nostr.json')));
+  // no article is approved: kind article is skipped (green) and says what waits; it never falls back to a deal
+  const none = makeRoot({ relays: [r1.url], autopost: false, articles: fixture({ two: art({ approved: false }) }) });
+  const s = await run('post-nostr.mjs', [...ARTICLE, '--dry-run'], { root: none, withKey: false });
+  assert.equal(s.code, 0, s.all);
+  assert.ok(/\*\*Skipped:\*\* no approved article/.test(s.summary) && s.summary.includes('Waiting for approval') && !s.out.includes('Control Ultimate Edition'), s.summary);
+  r1.close();
+});
+
+test('post: a deal and an article on the same day both go out; a second deal or a second article that day does not; not approved is never posted; the record of articles survives the cleanup', async () => {
   const [a, b] = [await startRelay('accept'), await startRelay('accept')];
   const root = makeRoot({
     relays: [a.url, b.url],
     articles: fixture({ one: art({ lines: ['First article.'], path: '/guides/one/', campaign: 'guide-one' }), two: art({ approved: false, lines: ['Not approved.'] }), three: art({ lines: ['Third article.'], path: '/guides/three/', campaign: 'guide-three' }) }),
   });
-  const freshBrief = (n) => writeFileSync(join(root, 'drafts/brief-nostr.json'), JSON.stringify({ ...brief({ priceCheckedAt: new Date(Date.parse(nextDay(n)) - 3 * 3600e3).toISOString() }), generatedAt: new Date(Date.parse(nextDay(n)) - 0.5 * 3600e3).toISOString() }));
+  const kinds = () => a.events.map(noteKind);
 
-  // day 1: article one (no brief is needed), picture-less
-  let r = await run('post-nostr.mjs', [], { root });
+  // day 1, 06:30: the deal
+  let r = await run('post-nostr.mjs', DEAL, { root });
   assert.equal(r.code, 0, r.all);
-  assert.equal(a.events.length, 1);
-  assert.ok(a.events[0].content.startsWith('First article.\n\n#pcgaming #gamedeals #steam\n\nhttps://saveandplay.com/guides/one/') && !a.events[0].content.includes('#ad') && !a.events[0].tags.some((t) => t[0] === 't' && t[1] === 'ad') && a.events[0].content.includes('utm_source=nostr-prices') && a.events[0].content.includes('utm_campaign=guide-one'));
+  assert.deepEqual(kinds(), ['deal']);
+  assert.ok(a.events[0].content.includes('Control Ultimate Edition: -85% at IndieGala') && tTags(a.events[0].tags).includes('saveandplay-deal'));
+  // day 1, 12:00: the article goes out too (the deal of the morning does not block it, neither in the record nor on the relays)
+  r = await run('post-nostr.mjs', ARTICLE, { root, env: { NOSTR_NOW: new Date(Date.parse(NOW) + 5.5 * 3600e3).toISOString() } });
+  assert.equal(r.code, 0, r.all);
+  assert.deepEqual(kinds(), ['deal', 'article']);
+  assert.ok(a.events[1].content.startsWith('First article.\n\n#pcgaming #gamedeals #steam\n\nhttps://saveandplay.com/guides/one/') && !a.events[1].content.includes('#ad') && !tTags(a.events[1].tags).includes('ad') && tTags(a.events[1].tags).includes('saveandplay-article'));
   let st = readState(root);
-  assert.equal(st.accounts.nostr[day].kind, 'article');
-  assert.equal(st.accounts.nostr[day].article, 'one');
+  assert.equal(st.accounts.nostr[day].deal.kind, 'deal');
+  assert.equal(st.accounts.nostr[day].article.article, 'one');
   assert.equal(st.articles.nostr.one.day, day);
 
-  // day 1 again: skipped, nothing new
-  r = await run('post-nostr.mjs', [], { root });
-  assert.equal(r.code, 0, r.all);
-  assert.ok(/already posted today/.test(r.summary));
-  assert.equal(a.events.length, 1);
-
-  // day 2: "two" is not approved, so "three"
-  r = await run('post-nostr.mjs', [], { root, env: { NOSTR_NOW: nextDay(1) } });
-  assert.equal(r.code, 0, r.all);
+  // day 1 again: a second deal and a second article are both skipped
+  for (const k of [DEAL, ARTICLE]) {
+    r = await run('post-nostr.mjs', k, { root });
+    assert.equal(r.code, 0, r.all);
+    assert.ok(/already posted today/.test(r.summary), r.summary);
+  }
+  // the record is lost (fresh runner): the relays still stop a second note of each kind
+  writeFileSync(join(root, 'drafts/posted-nostr.json'), JSON.stringify({ accounts: {}, articles: { nostr: { one: st.articles.nostr.one } } }));
+  for (const k of [DEAL, ARTICLE]) {
+    r = await run('post-nostr.mjs', k, { root });
+    assert.equal(r.code, 0, r.all);
+    assert.ok(/already have a note of this kind/.test(r.summary), r.summary);
+  }
   assert.equal(a.events.length, 2);
-  assert.ok(a.events[1].content.startsWith('Third article.') && !a.events.some((e) => e.content.includes('Not approved.')));
 
-  // day 3: no approved article is left: the deal of the brief
-  freshBrief(2);
-  r = await run('post-nostr.mjs', [], { root, env: { NOSTR_NOW: nextDay(2) } });
+  // day 2 at 12:00 Bogota: "two" is not approved, so "three"
+  const noon = (n) => new Date(Date.parse(nextDay(n)) + 5.5 * 3600e3).toISOString();
+  r = await run('post-nostr.mjs', ARTICLE, { root, env: { NOSTR_NOW: noon(1) } });
   assert.equal(r.code, 0, r.all);
   assert.equal(a.events.length, 3);
-  assert.ok(a.events[2].content.includes('Control Ultimate Edition: -85% at IndieGala'));
-  st = readState(root);
-  assert.equal(st.accounts.nostr[readDay(nextDay(2))].kind, 'deal');
+  assert.ok(a.events[2].content.startsWith('Third article.') && !a.events.some((e) => e.content.includes('Not approved.')));
+
+  // day 3: no approved article left: skipped, green, nothing sent (no deal instead)
+  r = await run('post-nostr.mjs', ARTICLE, { root, env: { NOSTR_NOW: noon(2) } });
+  assert.equal(r.code, 0, r.all);
+  assert.ok(/Skipped:\*\* no approved article/.test(r.summary), r.summary);
+  assert.equal(a.events.length, 3);
 
   // 70 days later the old day records are cleaned up, the record of posted articles stays, and nothing is posted twice
-  freshBrief(70);
-  r = await run('post-nostr.mjs', [], { root, env: { NOSTR_NOW: nextDay(70) } });
+  writeFileSync(join(root, 'drafts/brief-nostr.json'), JSON.stringify({ ...brief({ priceCheckedAt: new Date(Date.parse(nextDay(70)) - 3 * 3600e3).toISOString() }), generatedAt: new Date(Date.parse(nextDay(70)) - 0.5 * 3600e3).toISOString() }));
+  r = await run('post-nostr.mjs', DEAL, { root, env: { NOSTR_NOW: nextDay(70) } });
   assert.equal(r.code, 0, r.all);
+  r = await run('post-nostr.mjs', ARTICLE, { root, env: { NOSTR_NOW: nextDay(70) } });
+  assert.ok(/no approved article/.test(r.summary), r.summary);
   st = readState(root);
-  assert.ok(!st.accounts.nostr[day], 'the old day is cleaned up');
+  assert.ok(!st.accounts.nostr[readDay(nextDay(1))], 'the old day is cleaned up');
   assert.deepEqual(Object.keys(st.articles.nostr).sort(), ['one', 'three']);
   assert.equal(a.events.length, 4);
-  assert.ok(a.events[3].content.includes('Control Ultimate Edition'), 'a deal, not an old article again');
+  assert.equal(noteKind(a.events[3]), 'deal');
   assert.equal(a.events.filter((e) => e.content.startsWith('First article.')).length, 1);
   [a, b].forEach((x) => x.close());
+});
+
+test("old record format (one note a day): read as the slot of its kind; today's record is kept; the other kind still goes out", async () => {
+  const [a, b] = [await startRelay('accept'), await startRelay('accept')];
+  const oldDeal = { status: 'done', kind: 'deal', id: 'd'.repeat(64), deal: 'indiegala-x', title: 'X', postedAt: NOW };
+  const articles = fixture({ one: art({ lines: ['First article.'] }) });
+  // 1) today's old record is a deal: a deal run is skipped, an article run posts, and both are kept in the new slots
+  const root = makeRoot({ relays: [a.url, b.url], articles });
+  writeFileSync(join(root, 'drafts/posted-nostr.json'), JSON.stringify({ accounts: { nostr: { [day]: oldDeal, '2026-10-07': { status: 'done', kind: 'article', id: 'e'.repeat(64), article: 'old' } } }, articles: { nostr: { old: { day: '2026-10-07', id: 'e'.repeat(64) } } } }));
+  let r = await run('post-nostr.mjs', DEAL, { root });
+  assert.ok(/already posted today/.test(r.summary) && r.summary.includes('d'.repeat(64)), r.summary);
+  r = await run('post-nostr.mjs', ARTICLE, { root });
+  assert.equal(r.code, 0, r.all);
+  assert.equal(a.events.length, 1);
+  const st = readState(root);
+  assert.deepEqual(st.accounts.nostr[day].deal, oldDeal, "today's old record is not lost");
+  assert.equal(st.accounts.nostr[day].article.article, 'one');
+  assert.equal(st.accounts.nostr['2026-10-07'].article.article, 'old', 'an older day is converted too');
+  // 2) an old record without "kind": a record found on a relay whose id is a posted article = article; any other = deal
+  const root2 = makeRoot({ relays: [a.url, b.url], articles });
+  writeFileSync(join(root2, 'drafts/posted-nostr.json'), JSON.stringify({ accounts: { nostr: { [day]: { status: 'done', id: 'f'.repeat(64), foundOnRelay: true } } }, articles: { nostr: { one: { day, id: 'f'.repeat(64) } } } }));
+  r = await run('post-nostr.mjs', ARTICLE, { root: root2 });
+  assert.ok(/already posted today \(2026-10-08, article\)/.test(r.summary), r.summary);
+  const [c, d] = [await startRelay('accept'), await startRelay('accept')]; // fresh relays: a and b already hold the article note of case 1
+  const root3 = makeRoot({ relays: [c.url, d.url], articles });
+  writeFileSync(join(root3, 'drafts/posted-nostr.json'), JSON.stringify({ accounts: { nostr: { [day]: { status: 'done', id: 'c'.repeat(64), foundOnRelay: true } } } }));
+  r = await run('post-nostr.mjs', DEAL, { root: root3 });
+  assert.ok(/already posted today/.test(r.summary), r.summary);
+  r = await run('post-nostr.mjs', ARTICLE, { root: root3 });
+  assert.equal(r.code, 0, r.all);
+  assert.equal(readState(root3).accounts.nostr[day].deal.id, 'c'.repeat(64));
+  assert.equal(readState(root3).accounts.nostr[day].article.article, 'one');
+  [a, b, c, d].forEach((x) => x.close());
 });
 
 test('post: an article that reached too few relays is sent again as the SAME note, and stays recorded', async () => {
   const [good, bad] = [await startRelay('accept'), await startRelay('reject')];
   const root = makeRoot({ relays: [good.url, bad.url], articles: fixture({ one: art({ lines: ['First article.'], path: '/guides/one/', campaign: 'guide-one' }) }) });
-  const first = await run('post-nostr.mjs', [], { root });
+  const first = await run('post-nostr.mjs', ARTICLE, { root });
   assert.equal(first.code, 1, first.all);
   const st = readState(root);
-  assert.equal(st.accounts.nostr[day].status, 'partial');
+  assert.equal(st.accounts.nostr[day].article.status, 'partial');
   assert.equal(st.articles.nostr.one.day, day);
   const n = await startRelay('accept');
   setRelays(root, [good.url, n.url]);
-  const second = await run('post-nostr.mjs', [], { root });
+  const second = await run('post-nostr.mjs', ARTICLE, { root });
   assert.equal(second.code, 0, second.all);
-  assert.equal(n.events[0].id, st.accounts.nostr[day].id);
-  assert.equal(readState(root).accounts.nostr[day].article, 'one');
+  assert.equal(n.events[0].id, st.accounts.nostr[day].article.id);
+  assert.equal(readState(root).accounts.nostr[day].article.article, 'one');
   [good, bad, n].forEach((x) => x.close());
 });
 
 test('post: a reply of the owner (it has an "e" tag) does not count as the note of the day; the daily note still goes out', async () => {
   const [r1, r2] = [await startRelay('accept'), await startRelay('accept')];
   const root = makeRoot({ relays: [r1.url, r2.url] });
-  const reply = finalizeEvent({ kind: 1, created_at: Math.floor(Date.parse(NOW) / 1000) - 3 * 3600, tags: [['t', 'ad'], ['e', 'a'.repeat(64)]], content: 'Thanks! Here is the deal.' }, secret);
+  const reply = finalizeEvent({ kind: 1, created_at: Math.floor(Date.parse(NOW) / 1000) - 3 * 3600, tags: [['t', 'ad'], ['t', 'saveandplay-deal'], ['e', 'a'.repeat(64)]], content: 'Thanks! Here is the deal.\nAd: we may earn a commission if you buy.' }, secret);
   r1.events.push(reply);
-  const r = await run('post-nostr.mjs', [], { root });
+  const r = await run('post-nostr.mjs', DEAL, { root });
   assert.equal(r.code, 0, r.all);
   assert.equal(r1.events.length, 2);
   assert.ok(r1.events.some((e) => e.content.includes('Control Ultimate Edition')));
@@ -526,52 +611,62 @@ test('post: a reply of the owner (it has an "e" tag) does not count as the note 
   [r1, r2].forEach((x) => x.close());
 });
 
-test('post: the relay guard knows our brand tag and the old "ad" tag of the first notes; a hand-written note without them does not block', async () => {
-  const mk = (tags, t = 3) => finalizeEvent({ kind: 1, created_at: Math.floor(Date.parse(NOW) / 1000) - t * 3600, tags, content: 'x' }, secret);
-  // 1) a note of the first days (tag "ad", no brand tag), day record lost: no second note
-  const [o1, o2] = [await startRelay('accept'), await startRelay('accept')];
-  o1.events.push(mk([['t', 'ad']]));
-  const old = await run('post-nostr.mjs', [], { root: makeRoot({ relays: [o1.url, o2.url] }) });
-  assert.equal(old.code, 0, old.all);
-  assert.ok(/already have a note/.test(old.summary), old.summary);
-  assert.equal(o1.events.length, 1);
-  // 2) a note with the brand tag
-  const [b1, b2] = [await startRelay('accept'), await startRelay('accept')];
-  b1.events.push(mk([['t', 'saveandplay'], ['t', 'pcgaming']]));
-  const brand = await run('post-nostr.mjs', [], { root: makeRoot({ relays: [b1.url, b2.url] }) });
-  assert.equal(brand.code, 0, brand.all);
-  assert.ok(/already have a note/.test(brand.summary), brand.summary);
-  assert.equal(b1.events.length, 1);
-  // 3) a note written by hand (no brand tag, no "ad"): not ours, the daily note goes out
-  const [h1, h2] = [await startRelay('accept'), await startRelay('accept')];
-  h1.events.push(mk([['t', 'nostr']]));
-  const hand = await run('post-nostr.mjs', [], { root: makeRoot({ relays: [h1.url, h2.url] }) });
-  assert.equal(hand.code, 0, hand.all);
-  assert.ok(!/already have a note/.test(hand.summary));
-  assert.equal(h1.events.length, 2);
-  [o1, o2, b1, b2, h1, h2].forEach((x) => x.close());
+test('post: the relay guard counts only our notes of the SAME kind (kind tag, or the text of old notes with the brand tag or the old "ad" tag); a hand-written note does not block', async () => {
+  const arts = fixture({ one: art({ lines: ['First article.'] }) });
+  const mk = (tags, content = 'x', t = 3) => finalizeEvent({ kind: 1, created_at: Math.floor(Date.parse(NOW) / 1000) - t * 3600, tags, content }, secret);
+  const blocks = async (ev, kind) => {
+    const [x, y] = [await startRelay('accept'), await startRelay('accept')];
+    x.events.push(ev);
+    const r = await run('post-nostr.mjs', kind, { root: makeRoot({ relays: [x.url, y.url], articles: arts }) });
+    assert.equal(r.code, 0, r.all);
+    const blocked = /already have a note of this kind/.test(r.summary);
+    assert.equal(x.events.length, blocked ? 1 : 2, r.summary);
+    [x, y].forEach((z) => z.close());
+    return blocked;
+  };
+  // 1) a deal note of the first days (tag "ad", no brand tag, "Ad:" line): blocks a deal, not an article
+  const oldDeal = mk([['t', 'ad']], 'Game: -50% at GOG\nAd: we may earn a commission if you buy.');
+  assert.equal(await blocks(oldDeal, DEAL), true);
+  assert.equal(await blocks(oldDeal, ARTICLE), false);
+  // 2) an article note of the first days (tag "ad", no "Ad:" line): blocks an article, not a deal
+  const oldArticle = mk([['t', 'ad']], 'Is that "-75%" real?');
+  assert.equal(await blocks(oldArticle, ARTICLE), true);
+  assert.equal(await blocks(oldArticle, DEAL), false);
+  // 3) brand tag with a kind tag: only that kind
+  assert.equal(await blocks(mk([['t', 'saveandplay'], ['t', 'saveandplay-deal'], ['t', 'pcgaming']]), DEAL), true);
+  assert.equal(await blocks(mk([['t', 'saveandplay'], ['t', 'saveandplay-deal']]), ARTICLE), false);
+  assert.equal(await blocks(mk([['t', 'saveandplay'], ['t', 'saveandplay-article']]), ARTICLE), true);
+  // 4) brand tag only, before kind tags existed: by the text
+  assert.equal(await blocks(mk([['t', 'saveandplay']], 'Game: -50%\nPrice checked 2026-10-07 09:49 UTC.'), DEAL), true);
+  // 5) a note written by hand (no brand tag, no "ad"): not ours, the note goes out
+  assert.equal(await blocks(mk([['t', 'nostr']], 'Ad: hand-written'), DEAL), false);
 });
 
-test('redo: the wrong note is deleted (NIP-09) and the article is posted again with the new text, once; a relay that keeps the old note does not block the new one', async () => {
+test('redo: only in an article run; the wrong note is deleted (NIP-09) and the article is posted again with the new text, once; a relay that keeps the old note does not block the new one', async () => {
   const [a, b] = [await startRelay('accept'), await startRelay('accept')];
   const root = makeRoot({ relays: [a.url, b.url], articles: fixture({ one: art({ lines: ['First article.'], path: '/guides/one/', campaign: 'guide-one' }) }) });
-  let r = await run('post-nostr.mjs', [], { root });
+  let r = await run('post-nostr.mjs', ARTICLE, { root });
   assert.equal(r.code, 0, r.all);
   const oldId = a.events[0].id;
-  assert.equal(readState(root).accounts.nostr[day].id, oldId);
+  assert.equal(readState(root).accounts.nostr[day].article.id, oldId);
   // the owner orders the redo and has fixed the text and added a picture
   const fixed = fixture({ one: art({ lines: ['First article, corrected.'], path: '/guides/one/', campaign: 'guide-one', image: '/og/one.png', imageAlt: 'A chart' }) });
   fixed.redo = { nostr: ['one'] };
   writeFileSync(join(root, 'data/nostr-articles.json'), JSON.stringify(fixed));
+  // a deal run does not touch the redo: it posts the deal and deletes nothing
+  r = await run('post-nostr.mjs', DEAL, { root });
+  assert.equal(r.code, 0, r.all);
+  assert.ok(!/Redo/.test(r.summary) && a.events.filter((e) => e.kind === 5).length === 0, r.summary);
+  assert.equal(a.events.length, 2);
   // a dry run shows the NEW text and what the real run will do first; it changes nothing
-  const dry = await run('post-nostr.mjs', ['--dry-run'], { root, withKey: false });
+  const dry = await run('post-nostr.mjs', [...ARTICLE, '--dry-run'], { root, withKey: false });
   assert.equal(dry.code, 0, dry.all);
   assert.ok(dry.out.includes('First article, corrected.') && /Redo: a real run will FIRST ask the relays to delete/.test(dry.out) && dry.out.includes(oldId), dry.out);
   assert.ok(/Redo: a real run will FIRST/.test(dry.summary));
-  assert.equal(a.events.length, 1);
-  assert.equal(readState(root).accounts.nostr[day].id, oldId);
-  // the real run: deletion request first, then the new note in the place of the day
-  r = await run('post-nostr.mjs', [], { root });
+  assert.equal(a.events.length, 2);
+  assert.equal(readState(root).accounts.nostr[day].article.id, oldId);
+  // the real run: deletion request first, then the new note in the article slot of the day
+  r = await run('post-nostr.mjs', ARTICLE, { root });
   assert.equal(r.code, 0, r.all);
   assert.ok(/asked to delete the earlier note/.test(r.summary), r.summary);
   for (const x of [a, b]) {
@@ -579,19 +674,20 @@ test('redo: the wrong note is deleted (NIP-09) and the article is posted again w
     assert.ok(del && verifyEvent(del) && del.pubkey === PUB_HEX, 'a signed deletion request of our key');
     assert.deepEqual(del.tags.filter((t) => t[0] === 'e'), [['e', oldId]]);
     assert.ok(del.tags.some((t) => t[0] === 'k' && t[1] === '1'));
-    const fresh = x.events.filter((e) => e.kind === 1 && e.id !== oldId);
-    assert.equal(fresh.length, 1, 'one new note on every relay');
+    const fresh = x.events.filter((e) => e.kind === 1 && e.id !== oldId && noteKind(e) === 'article');
+    assert.equal(fresh.length, 1, 'one new article note on every relay');
     assert.ok(fresh[0].content.startsWith('First article, corrected.') && fresh[0].tags.some((t) => t[0] === 'imeta' && t.includes('alt A chart')));
   }
   const st = readState(root);
-  const newId = st.accounts.nostr[day].id;
+  const newId = st.accounts.nostr[day].article.id;
   assert.notEqual(newId, oldId);
-  assert.equal(st.accounts.nostr[day].status, 'done');
+  assert.equal(st.accounts.nostr[day].article.status, 'done');
+  assert.equal(st.accounts.nostr[day].deal.status, 'done', 'the deal of the day is untouched');
   assert.equal(st.articles.nostr.one.id, newId);
   assert.equal(st.redone.nostr.one.deletedId, oldId);
   // once only: another run does not delete or post anything
   const count = a.events.length;
-  r = await run('post-nostr.mjs', [], { root });
+  r = await run('post-nostr.mjs', ARTICLE, { root });
   assert.equal(r.code, 0, r.all);
   assert.ok(/already posted today/.test(r.summary), r.summary);
   assert.equal(a.events.length, count);
@@ -601,18 +697,18 @@ test('redo: the wrong note is deleted (NIP-09) and the article is posted again w
 test('redo: if too few relays accept the deletion request, nothing changes and nothing is posted (red); an article not posted yet is just posted', async () => {
   const [a, b] = [await startRelay('accept'), await startRelay('accept')];
   const root = makeRoot({ relays: [a.url, b.url], articles: fixture({ one: art({ lines: ['First article.'], path: '/guides/one/', campaign: 'guide-one' }) }) });
-  assert.equal((await run('post-nostr.mjs', [], { root })).code, 0);
-  const oldId = readState(root).accounts.nostr[day].id;
+  assert.equal((await run('post-nostr.mjs', ARTICLE, { root })).code, 0);
+  const oldId = readState(root).accounts.nostr[day].article.id;
   const fixed = fixture({ one: art({ lines: ['First article, corrected.'], path: '/guides/one/', campaign: 'guide-one' }) });
   fixed.redo = { nostr: ['one'] };
   writeFileSync(join(root, 'data/nostr-articles.json'), JSON.stringify(fixed));
   const [bad1, bad2] = [await startRelay('reject'), await startRelay('reject')];
   setRelays(root, [bad1.url, bad2.url]);
-  const r = await run('post-nostr.mjs', [], { root });
+  const r = await run('post-nostr.mjs', ARTICLE, { root });
   assert.equal(r.code, 1, r.all);
   assert.ok(/Redo FAILED/.test(r.summary), r.summary);
   const st = readState(root);
-  assert.equal(st.accounts.nostr[day].id, oldId, 'the old record is still there');
+  assert.equal(st.accounts.nostr[day].article.id, oldId, 'the old record is still there');
   assert.equal(st.articles.nostr.one.id, oldId);
   assert.deepEqual(st.redone.nostr, {});
   assert.equal(a.events.length, 1);
@@ -621,15 +717,15 @@ test('redo: if too few relays accept the deletion request, nothing changes and n
   const f2 = fixture({ one: art({ lines: ['First article.'], path: '/guides/one/', campaign: 'guide-one' }) });
   f2.redo = { nostr: ['one'] };
   const root2 = makeRoot({ relays: [c.url, d.url], articles: f2 });
-  const r2 = await run('post-nostr.mjs', [], { root: root2 });
+  const r2 = await run('post-nostr.mjs', ARTICLE, { root: root2 });
   assert.equal(r2.code, 0, r2.all);
   assert.equal(c.events.filter((e) => e.kind === 5).length, 0);
   assert.equal(c.events.filter((e) => e.kind === 1).length, 1);
   assert.deepEqual(readState(root2).redone.nostr, {});
-  // an order for an unknown article is a clear error
+  // an order for an unknown article is a clear error (in an article run)
   const f3 = fixture({ one: art() });
   f3.redo = { nostr: ['nope'] };
-  const r3 = await run('post-nostr.mjs', ['--dry-run'], { root: makeRoot({ relays: [c.url, d.url], articles: f3 }), withKey: false });
+  const r3 = await run('post-nostr.mjs', [...ARTICLE, '--dry-run'], { root: makeRoot({ relays: [c.url, d.url], articles: f3 }), withKey: false });
   assert.equal(r3.code, 1);
   assert.ok(/"redo" of "nostr" names the article "nope"/.test(r3.all), r3.all);
   [a, b, bad1, bad2, c, d].forEach((x) => x.close());
@@ -680,7 +776,7 @@ test('profile: the bot flag can be switched back on in data/nostr-accounts.json'
 test('autopost false: a real run is skipped (green), nothing is sent', async () => {
   const r1 = await startRelay('accept');
   const root = makeRoot({ relays: [r1.url, r1.url], autopost: false });
-  const r = await run('post-nostr.mjs', [], { root });
+  const r = await run('post-nostr.mjs', DEAL, { root });
   assert.equal(r.code, 0, r.all);
   assert.ok(/autopost/.test(r.summary) && r1.events.length === 0);
   r1.close();
@@ -691,7 +787,7 @@ test('post: 3 accept, 1 rejects, 1 is silent, 1 is dead => success, verified sig
   const dead = await deadRelay();
   const root = makeRoot({ relays: [a.url, b.url, c.url, rej.url, silent.url, dead] });
   const t0 = Date.now();
-  const r = await run('post-nostr.mjs', [], { root });
+  const r = await run('post-nostr.mjs', DEAL, { root });
   assert.equal(r.code, 0, r.all);
   assert.ok(Date.now() - t0 < 15000, 'one silent relay must not hold the run for long');
   for (const x of [a, b, c]) {
@@ -707,7 +803,7 @@ test('post: 3 accept, 1 rejects, 1 is silent, 1 is dead => success, verified sig
   assert.ok(ev.tags.some((t) => t[0] === 't' && t[1] === 'saveandplay') && !ev.tags.some((t) => t[0] === 't' && t[1] === 'ad'));
   assert.ok(ev.tags.some((t) => t[0] === 'imeta' && t.some((f) => f.startsWith('alt ') && f.length > 4)));
   assert.ok(Math.abs(ev.created_at - Date.parse(NOW) / 1000) < 2);
-  const st = readState(root).accounts.nostr[day];
+  const st = readState(root).accounts.nostr[day].deal;
   assert.equal(st.status, 'done');
   assert.equal(st.id, ev.id);
   assert.equal(st.accepted.length, 3);
@@ -715,27 +811,27 @@ test('post: 3 accept, 1 rejects, 1 is silent, 1 is dead => success, verified sig
   assert.ok(r.summary.includes('blocked: not allowed to write here') && r.summary.includes('timeout'));
 
   // Re-run (same day, record present): skipped, nothing new sent
-  const again = await run('post-nostr.mjs', [], { root });
+  const again = await run('post-nostr.mjs', DEAL, { root });
   assert.equal(again.code, 0, again.all);
   assert.ok(/already posted today/.test(again.summary));
   assert.equal(a.events.length, 1);
 
   // The record is lost (fresh runner): the relays tell that the note exists, so no second note
   writeFileSync(join(root, 'drafts/posted-nostr.json'), '{"accounts":{}}');
-  const lost = await run('post-nostr.mjs', [], { root });
+  const lost = await run('post-nostr.mjs', DEAL, { root });
   assert.equal(lost.code, 0, lost.all);
   assert.ok(/already have a note/.test(lost.summary), lost.summary);
   assert.equal(a.events.length, 1);
-  assert.equal(readState(root).accounts.nostr[day].id, ev.id);
+  assert.equal(readState(root).accounts.nostr[day].deal.id, ev.id);
   [a, b, c, rej, silent].forEach((x) => x.close());
 });
 
 test('post: only one relay accepts => red, the same note is sent again later, not a new one', async () => {
   const [good, bad1, bad2] = [await startRelay('accept'), await startRelay('reject'), await startRelay('auth')];
   const root = makeRoot({ relays: [good.url, bad1.url, bad2.url] });
-  const first = await run('post-nostr.mjs', [], { root });
+  const first = await run('post-nostr.mjs', DEAL, { root });
   assert.equal(first.code, 1, first.all);
-  const st = readState(root).accounts.nostr[day];
+  const st = readState(root).accounts.nostr[day].deal;
   assert.equal(st.status, 'partial');
   assert.ok(first.summary.includes('Only 1 relay'));
   const noteId = st.id;
@@ -743,19 +839,19 @@ test('post: only one relay accepts => red, the same note is sent again later, no
   // two more relays now accept (the owner fixed data/nostr-relays.json): same note goes out again
   const [n1, n2] = [await startRelay('accept'), await startRelay('accept')];
   setRelays(root, [good.url, n1.url, n2.url]);
-  const second = await run('post-nostr.mjs', [], { root });
+  const second = await run('post-nostr.mjs', DEAL, { root });
   assert.equal(second.code, 0, second.all);
   assert.equal(n1.events[0].id, noteId);
   assert.equal(n2.events[0].id, noteId);
   assert.equal(good.events.length, 1);
-  assert.equal(readState(root).accounts.nostr[day].status, 'done');
+  assert.equal(readState(root).accounts.nostr[day].deal.status, 'done');
   [good, bad1, bad2, n1, n2].forEach((x) => x.close());
 });
 
 test('post: nobody accepts => red and no record (the next run may try again)', async () => {
   const [x, y] = [await startRelay('reject'), await startRelay('silent')];
   const root = makeRoot({ relays: [x.url, y.url, await deadRelay()] });
-  const r = await run('post-nostr.mjs', [], { root });
+  const r = await run('post-nostr.mjs', DEAL, { root });
   assert.equal(r.code, 1, r.all);
   assert.ok(r.summary.includes('no relay accepted'));
   assert.ok(!existsSync(join(root, 'drafts/posted-nostr.json')));
@@ -766,7 +862,7 @@ test('post: nobody accepts => red and no record (the next run may try again)', a
 test('post: no key => red, never a silent skip', async () => {
   const r1 = await startRelay('accept');
   const root = makeRoot({ relays: [r1.url] });
-  const r = await run('post-nostr.mjs', [], { root, withKey: false });
+  const r = await run('post-nostr.mjs', DEAL, { root, withKey: false });
   assert.equal(r.code, 1, r.all);
   assert.ok(/no private key/.test(r.all) && r1.events.length === 0);
   r1.close();
@@ -776,19 +872,19 @@ test('post: a stale brief and an old price are skipped (green, with a warning), 
   const r1 = await startRelay('accept');
   const r2 = await startRelay('accept');
   const stale = makeRoot({ relays: [r1.url, r2.url], briefJson: { ...brief(), generatedAt: '2026-10-07T11:00:00.000Z' } });
-  let r = await run('post-nostr.mjs', [], { root: stale });
+  let r = await run('post-nostr.mjs', DEAL, { root: stale });
   assert.equal(r.code, 0, r.all);
   assert.ok(/brief is 25 h old/.test(r.summary), r.summary);
   const old = makeRoot({ relays: [r1.url, r2.url], briefJson: brief({ priceCheckedAt: '2026-10-06T09:00:00Z' }) });
-  r = await run('post-nostr.mjs', [], { root: old });
+  r = await run('post-nostr.mjs', DEAL, { root: old });
   assert.equal(r.code, 0, r.all);
   assert.ok(/Not posting an old price/.test(r.summary));
   const missing = makeRoot({ relays: [r1.url, r2.url], briefJson: null });
-  r = await run('post-nostr.mjs', [], { root: missing });
+  r = await run('post-nostr.mjs', DEAL, { root: missing });
   assert.equal(r.code, 0, r.all);
   assert.ok(/no drafts\/brief-nostr.json/.test(r.summary));
   const empty = makeRoot({ relays: [r1.url, r2.url], briefJson: { ...brief(), candidates: [], warnings: ['NOTHING TO OFFER today.'] } });
-  r = await run('post-nostr.mjs', [], { root: empty });
+  r = await run('post-nostr.mjs', DEAL, { root: empty });
   assert.equal(r.code, 0, r.all);
   assert.ok(/no deal passes/.test(r.summary));
   assert.equal(r1.events.length + r2.events.length, 0);

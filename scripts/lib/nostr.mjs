@@ -25,6 +25,10 @@ export const DEFAULT_HASHTAGS = ['pcgaming', 'gamedeals'];
 // "ad" is NEVER a t tag (owner, 8 Oct 2026: it is not a topic and only clutters the tag feeds). Notes of 7-8 Oct 2026 still have it, the guard looks for both.
 export const BRAND_TAG = 'saveandplay';
 export const OLD_AD_TAG = 'ad';
+// The two kinds of notes (owner, 11 Oct 2026: one deal AND one article a day, independent of each other). Each note also has a hidden t tag of its kind,
+// saveandplay-deal or saveandplay-article, so the relay guard only counts notes of the same kind. Not shown in the text.
+export const KINDS = ['deal', 'article'];
+export const kindTag = (kind) => `${BRAND_TAG}-${kind}`;
 // The label of a deal note, plain text and not a hashtag (PROJECT.md section 5: a post with an affiliate link must be marked). Articles have no label: their note links to our own guide, not to a store.
 export const DISCLOSURE = 'Ad: we may earn a commission if you buy.';
 const HOUR = 3600e3;
@@ -161,7 +165,7 @@ export function buildNote(c, account) {
   blocks.push(c.link);
   const content = blocks.join('\n\n');
 
-  const tags = hashtagTags(topics);
+  const tags = hashtagTags(topics, 'deal');
   if (c.cover) tags.push(imetaTag(c.cover, c.coverAlt || `Cover art for ${c.title}`)); // every meaningful picture has an alt text
   if (!content.split('\n').includes(DISCLOSURE)) throw new Error('A deal note has no "Ad:" line. It is not allowed to post without it.');
   return { content, tags };
@@ -172,13 +176,22 @@ export function buildNote(c, account) {
 // The topics of a note: the hashtags of the account, then the ones of the note itself. Lowercase, no duplicates, never "ad", never the brand tag.
 // They are written at the end of the text (#pcgaming #steam) AND set as t tags, as NIP-24 says, so that clients find the note by them.
 export function topicHashtags(account, extra = []) {
-  const all = [...(account.hashtags ?? DEFAULT_HASHTAGS), ...extra].map((h) => String(h).replace(/^#/, '').toLowerCase()).filter((h) => h !== OLD_AD_TAG && h !== BRAND_TAG);
+  const all = [...(account.hashtags ?? DEFAULT_HASHTAGS), ...extra].map((h) => String(h).replace(/^#/, '').toLowerCase()).filter((h) => h !== OLD_AD_TAG && h !== BRAND_TAG && !KINDS.some((k) => h === kindTag(k)));
   for (const h of all) if (!/^[a-z0-9_]{2,30}$/.test(h)) throw new Error(`The hashtag "${h}" is not valid (2-30 letters, digits or _, no spaces). Check data/nostr-accounts.json and data/nostr-articles.json.`);
   return [...new Set(all)];
 }
 const hashtagLine = (topics) => topics.map((h) => `#${h}`).join(' ');
-// The t tags: the brand tag first (it is not shown in the text; the program needs it), then the topics.
-const hashtagTags = (topics) => [BRAND_TAG, ...topics].map((h) => ['t', h]);
+// The t tags: the brand tag and the tag of the kind first (they are not shown in the text; the program needs them), then the topics.
+const hashtagTags = (topics, kind) => [BRAND_TAG, kindTag(kind), ...topics].map((h) => ['t', h]);
+
+// The kind of one of our notes found on a relay: by its kind tag. The notes made before 11 Oct 2026 have none, so then by the text:
+// an "Ad:" line or "Price checked" = a deal, anything else = an article.
+export function noteKind(ev) {
+  const t = (ev?.tags ?? []).filter((x) => x[0] === 't').map((x) => x[1]);
+  for (const k of KINDS) if (t.includes(kindTag(k))) return k;
+  const text = String(ev?.content ?? '');
+  return /^Ad:/m.test(text) || text.includes('Price checked') ? 'deal' : 'article';
+}
 
 function imetaTag(url, alt) {
   const imeta = ['imeta', `url ${url}`];
@@ -251,7 +264,7 @@ export function buildArticleNote(a, account, site) {
   blocks.push(link);
   const content = blocks.join('\n\n');
 
-  const tags = hashtagTags(topics);
+  const tags = hashtagTags(topics, 'article');
   if (image) tags.push(imetaTag(image, a.imageAlt.trim()));
   return { content, tags, link, image };
 }
