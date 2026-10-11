@@ -1,0 +1,120 @@
+name: Daily article
+
+# Every morning at 06:40 Bogota time (after the Daily brief at 06:00), and by hand: GitHub -> Actions -> "Daily article" -> Run workflow.
+# It does not write every day: data/articles.json says how often (everyDays) and how many unpublished drafts may wait (maxPending).
+# When it is time, Claude (the owner's subscription token, no paid API) writes ONE guide draft: text, picture, posts for Bluesky and Mastodon.
+# Rules for the writer: docs/article-writer.md. Checks, picture and the "is it time" decision: scripts/article-tools.mjs (no AI in them).
+# Nothing is published and the site is not touched: the draft is saved on the "articles" branch (a separate branch, so no deploy).
+#
+# To read it: open the run, scroll down to "Summary". To publish: tell Claude Code «ок, статья дня» (it runs /publish and takes the draft).
+#
+# One-time setup: the secret CLAUDE_CODE_OAUTH_TOKEN (GitHub -> Settings -> Secrets and variables -> Actions). See START.md.
+on:
+  schedule:
+    - cron: '40 11 * * *' # 11:40 UTC = 06:40 Bogota
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Write a draft now, even if one was written recently or drafts are waiting'
+        type: boolean
+        default: false
+
+# Writing is needed only to save the draft on the "articles" branch.
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-article
+  cancel-in-progress: false
+
+jobs:
+  article:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v4
+        with:
+          # Always the newest main (see the Daily brief workflow).
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Get the state of earlier drafts and the latest brief
+        run: bash scripts/article-branch.sh load
+
+      - name: Is it time for an article?
+        id: gate
+        env:
+          FORCE: ${{ inputs.force }}
+        run: node scripts/article-tools.mjs gate
+
+      - name: Check the subscription token
+        if: steps.gate.outputs.run == 'true'
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          if [ -z "$CLAUDE_CODE_OAUTH_TOKEN" ]; then
+            echo "::error::The secret CLAUDE_CODE_OAUTH_TOKEN is not set. See START.md, the one-time setup of the Daily article."
+            exit 1
+          fi
+
+      - name: Install the tools (Claude Code, picture renderer, font)
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          npm install -g @anthropic-ai/claude-code
+          npm install --no-save --no-audit --no-fund sharp
+          # The font of the site pictures. If it cannot be installed the picture still draws, with a similar font.
+          (sudo apt-get update -qq && sudo apt-get install -y -qq fonts-inter) || echo "Font not installed, using the default."
+
+      - name: Build the instructions for the writer
+        if: steps.gate.outputs.run == 'true'
+        run: node scripts/article-tools.mjs prompt
+
+      - name: Write the draft with Claude
+        if: steps.gate.outputs.run == 'true'
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          MODEL: ${{ steps.gate.outputs.model }}
+          MAX_TURNS: ${{ steps.gate.outputs.maxTurns }}
+        run: |
+          claude -p "$(cat drafts/article-prompt.txt)" \
+            --model "$MODEL" \
+            --max-turns "$MAX_TURNS" \
+            --allowedTools "Read,Write,Edit,Glob,Grep,WebSearch,WebFetch,Bash(node scripts/article-tools.mjs:*)" \
+            --output-format text
+
+      - name: Picture, checks and the text for the Summary
+        if: steps.gate.outputs.run == 'true'
+        run: node scripts/article-tools.mjs finish
+
+      - name: Save the draft on the articles branch
+        if: steps.gate.outputs.run == 'true'
+        run: bash scripts/article-branch.sh save
+
+      - name: Say what went wrong
+        if: failure()
+        run: |
+          {
+            echo "## Daily article: черновик не получился"
+            echo
+            echo "Сайт не тронут, ничего не сохранено. Откройте шаг, который покраснел, и прочитайте последние строки."
+            echo
+            echo "- Ошибка про вход или авторизацию: токен подписки устарел или неверный. Создайте новый (\`claude setup-token\` на вашем компьютере) и замените секрет CLAUDE_CODE_OAUTH_TOKEN."
+            echo "- Ошибка про лимит: лимит подписки на сегодня исчерпан. Завтра запуск повторится сам, или поставьте в data/articles.json model: haiku или everyDays: 3."
+            echo "- Шаг «Picture, checks...» перечисляет, что не прошло проверку: это можно показать Claude в чате."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Keep the files for download
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: article
+          path: |
+            drafts/articles/
+            drafts/article-run.json
+            drafts/articles-state.json
+          if-no-files-found: ignore
