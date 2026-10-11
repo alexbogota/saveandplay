@@ -54,7 +54,7 @@
       ]
     },
     "how-steam-refunds-work": {
-      "approved": false,
+      "approved": true,
       "path": "/guides/how-steam-refunds-work/",
       "campaign": "how-steam-refunds-work",
       "tags": [
@@ -70,7 +70,7 @@
       "imageAlt": "Diagram: a Steam refund needs two things, a purchase made within 14 days and less than 2 hours of playtime. Keys bought outside Steam are not covered."
     },
     "is-a-game-bundle-worth-it": {
-      "approved": false,
+      "approved": true,
       "path": "/guides/is-a-game-bundle-worth-it/",
       "campaign": "is-a-game-bundle-worth-it",
       "tags": [
