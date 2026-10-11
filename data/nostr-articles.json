@@ -3,7 +3,9 @@
   "queues": {
     "nostr": [
       "real-vs-fake-game-discounts",
-      "steam-key-vs-drm-free"
+      "steam-key-vs-drm-free",
+      "how-steam-refunds-work",
+      "is-a-game-bundle-worth-it"
     ]
   },
   "redo": {
@@ -50,6 +52,37 @@
         "",
         "Neither is better in general: it depends on what you want to do with the game later. We read the stores' own pages (2026-10-07). Not legal advice."
       ]
+    },
+    "how-steam-refunds-work": {
+      "approved": false,
+      "path": "/guides/how-steam-refunds-work/",
+      "campaign": "how-steam-refunds-work",
+      "tags": [
+        "steam",
+        "refunds"
+      ],
+      "lines": [
+        "How Steam refunds work: the 14-day, 2-hour rule and what it misses",
+        "",
+        "Steam refunds most games within two weeks and under two hours of play. Here is what the rule covers, where it stops (keys from other stores, in-game items), and how to ask."
+      ],
+      "image": "/og/how-steam-refunds-work.png",
+      "imageAlt": "Diagram: a Steam refund needs two things, a purchase made within 14 days and less than 2 hours of playtime. Keys bought outside Steam are not covered."
+    },
+    "is-a-game-bundle-worth-it": {
+      "approved": false,
+      "path": "/guides/is-a-game-bundle-worth-it/",
+      "campaign": "is-a-game-bundle-worth-it",
+      "tags": [
+        "bundles"
+      ],
+      "lines": [
+        "Is a game bundle worth it? Five checks before you pay",
+        "",
+        "A bundle's \"worth $149\" figure is only a sum of list prices. Here is how to work out the real price per game, what the keys come with, and when to skip it."
+      ],
+      "image": "/og/is-a-game-bundle-worth-it.png",
+      "imageAlt": "Diagram of one bundle with three tiers: $8 for 2 games ($4.00 each), $10 for 5 games ($2.00 each), $13 for 8 games ($1.63 each). The step up from tier 1 to 2 adds 3 games for $2, and from tier 2 to 3 adds 3 games for $3."
     }
   }
 }
