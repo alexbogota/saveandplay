@@ -1,41 +1,10 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-10-10T11:10:16.503Z",
-  "builtBy": "commit e1ae706, schedule, run #11 attempt 1",
-  "pricesCheckedAt": "2026-10-10T09:48:49.357Z",
+  "generatedAt": "2026-10-11T11:10:47.545Z",
+  "builtBy": "commit 781c4ef, schedule, run #12 attempt 1",
+  "pricesCheckedAt": "2026-10-11T09:46:28.740Z",
   "warnings": [],
   "candidates": [
-    {
-      "id": "indiegala-lego-star-wars-the-skywalker-saga-deluxe-edition",
-      "kind": "deal",
-      "title": "LEGO® Star Wars™:The Skywalker Saga Deluxe Edition",
-      "store": "IndieGala",
-      "price": 8.09,
-      "was": 59.99,
-      "discount": 87,
-      "endsAt": "2026-10-11T23:59:00Z",
-      "endsInHours": 37,
-      "priceCheckedAt": "2026-10-10T09:48:49.357Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/920210/header.jpg?t=1747346983",
-      "drminfo": "Steam key",
-      "coverAlt": "Cover art for LEGO® Star Wars™:The Skywalker Saga Deluxe Edition",
-      "score": 10.7,
-      "discountRank": 9,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 5,
-        "lowest": false,
-        "since": "2026-10-05"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/indiegala/lego-star-wars-the-skywalker-saga-deluxe-edition/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-10",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "sale ends in 37 h",
-        "deepest-discount rank 9 of 36"
-      ]
-    },
     {
       "id": "indiegala-the-pathless",
       "kind": "deal",
@@ -45,8 +14,8 @@
       "was": 39.99,
       "discount": 84,
       "endsAt": "2026-10-11T23:59:00Z",
-      "endsInHours": 37,
-      "priceCheckedAt": "2026-10-10T09:48:49.357Z",
+      "endsInHours": 13,
+      "priceCheckedAt": "2026-10-11T09:46:28.740Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1492680/header.jpg?t=1736954957",
       "drminfo": "Steam key",
       "coverAlt": "Cover art for The Pathless",
@@ -55,16 +24,16 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 5,
+        "days": 6,
         "lowest": false,
         "since": "2026-10-05"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/indiegala/the-pathless/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-10",
+      "link": "https://saveandplay.com/deals/indiegala/the-pathless/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-11",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 37 h",
-        "deepest-discount rank 12 of 36"
+        "sale ends in 13 h",
+        "deepest-discount rank 12 of 38"
       ]
     },
     {
@@ -76,8 +45,8 @@
       "was": 39.99,
       "discount": 90,
       "endsAt": "2026-10-18T09:59:00+03:00",
-      "endsInHours": 188,
-      "priceCheckedAt": "2026-10-10T09:45:30.272Z",
+      "endsInHours": 164,
+      "priceCheckedAt": "2026-10-11T09:46:21.975Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
       "drminfo": null,
       "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
@@ -86,15 +55,15 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 4,
+        "days": 5,
         "lowest": false,
         "since": "2026-10-07"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-10",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-11",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 6 of 36"
+        "deepest-discount rank 6 of 38"
       ]
     },
     {
@@ -106,26 +75,26 @@
       "was": 39.99,
       "discount": 80,
       "endsAt": "2026-10-11T23:59:00Z",
-      "endsInHours": 37,
-      "priceCheckedAt": "2026-10-10T09:48:49.357Z",
+      "endsInHours": 13,
+      "priceCheckedAt": "2026-10-11T09:46:28.740Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867530/header.jpg?t=1729097887",
       "drminfo": "Steam key",
       "coverAlt": "Cover art for Solar Ash",
       "score": 10,
-      "discountRank": 19,
+      "discountRank": 21,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 5,
+        "days": 6,
         "lowest": false,
         "since": "2026-10-05"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/indiegala/solar-ash/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-10",
+      "link": "https://saveandplay.com/deals/indiegala/solar-ash/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-11",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 37 h",
-        "deepest-discount rank 19 of 36"
+        "sale ends in 13 h",
+        "deepest-discount rank 21 of 38"
       ]
     },
     {
@@ -137,31 +106,70 @@
       "was": 39.99,
       "discount": 80,
       "endsAt": "2026-10-11T23:59:00Z",
-      "endsInHours": 37,
-      "priceCheckedAt": "2026-10-10T09:48:49.357Z",
+      "endsInHours": 13,
+      "priceCheckedAt": "2026-10-11T09:46:28.740Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632470/816ea59d6d8ac525f79a07c3a7afa94eddb3437c/header.jpg?t=1780913406",
       "drminfo": "Steam key",
       "coverAlt": "Cover art for Disco Elysium - The Final Cut",
       "score": 10,
-      "discountRank": 20,
+      "discountRank": 22,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 5,
+        "days": 6,
         "lowest": false,
         "since": "2026-10-05"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/indiegala/disco-elysium-the-final-cut/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-10",
+      "link": "https://saveandplay.com/deals/indiegala/disco-elysium-the-final-cut/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-11",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 37 h",
-        "deepest-discount rank 20 of 36"
+        "sale ends in 13 h",
+        "deepest-discount rank 22 of 38"
+      ]
+    },
+    {
+      "id": "indiegala-sifu",
+      "kind": "deal",
+      "title": "Sifu",
+      "store": "IndieGala",
+      "price": 8.58,
+      "was": 39.99,
+      "discount": 79,
+      "endsAt": "2026-10-11T23:59:00Z",
+      "endsInHours": 13,
+      "priceCheckedAt": "2026-10-11T09:46:28.740Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138710/header.jpg?t=1782742326",
+      "drminfo": "Steam key",
+      "coverAlt": "Cover art for Sifu",
+      "score": 9.9,
+      "discountRank": 23,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 6,
+        "lowest": false,
+        "since": "2026-10-05"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/indiegala/sifu/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-11",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "sale ends in 13 h",
+        "deepest-discount rank 23 of 38"
       ]
     }
   ],
   "gogNews": [],
   "topical": [
+    {
+      "title": "New FREE games this weekend: your comprehensive roundup",
+      "source": "gg.deals Freebies",
+      "link": "https://gg.deals/freebie/new-free-games-this-weekend-your-comprehensive-roundup-october10-11-2026/",
+      "t": 1791637080000,
+      "keyword": "free",
+      "summary": "Whether they're free to keep, free to try, or 'free' with a subscription, you can find this week's new free games for PC and console right here."
+    },
     {
       "title": "Steam's Two Point Franchise 10th Anniversary Sale features big savings across games and DLC!",
       "source": "gg.deals News",
@@ -169,78 +177,11 @@
       "t": 1791582589000,
       "keyword": "sale",
       "summary": "Deep discounts available on all three Two Point titles, as well as a host of deals across their ever-popular DLCs."
-    },
-    {
-      "title": "As Xbox and PlayStation sales reach new lows, analyst says the \"US hardware market has not been in a more precarious position since the early 80s\"",
-      "source": "Eurogamer",
-      "link": "https://www.eurogamer.net/xbox-playstation-sales-new-lows-hardware-market",
-      "t": 1791571886000,
-      "keyword": "sales",
-      "summary": "PS5 and Xbox Series X/S consoles are more expensive than ever in most markets, thanks largely to memory components being gobbled up by AI data centres. Now, an…"
-    },
-    {
-      "title": "Humble Twisted Trilogies and Terrors Bundle gets you a collection of dark visual novels",
-      "source": "gg.deals News",
-      "link": "https://gg.deals/bundle/humble-twisted-trilogies-and-terrors-bundle/",
-      "t": 1791570412000,
-      "keyword": "bundle",
-      "summary": "Evil spirits and nasty curses come included."
     }
   ],
   "topics": [
     {
-      "headline": "Pony Island 2's FREE Steam playtest is live for anyone who doesn't mid it being 'incomplete and subpar'",
-      "score": 11,
-      "sites": [
-        "gg.deals",
-        "indiegamebundles.com",
-        "rockpapershotgun.com"
-      ],
-      "keywords": [
-        "free"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals Freebies",
-          "title": "Pony Island 2's FREE Steam playtest is live for anyone who doesn't mid it being 'incomplete and subpar'",
-          "link": "https://gg.deals/freebie/free-pony-island-2-steam-playtest-how-to-get-beta-access/",
-          "published": "2026-10-09T15:10:00.000Z"
-        },
-        {
-          "source": "gg.deals Freebies",
-          "title": "Inscryption dev Daniel Mullin's Pony Island is FREE to keep on Steam!",
-          "link": "https://gg.deals/freebie/inscryption-dev-daniel-mullins-pony-island-is-free-to-keep-on-steam/",
-          "published": "2026-10-08T17:24:00.000Z"
-        },
-        {
-          "source": "gg.deals News",
-          "title": "Pony Island 2's FREE Steam playtest is live for anyone who doesn't mid it being 'incomplete and subpar'",
-          "link": "https://gg.deals/freebie/free-pony-island-2-steam-playtest-how-to-get-beta-access/",
-          "published": "2026-10-09T15:10:00.000Z"
-        },
-        {
-          "source": "gg.deals News",
-          "title": "Inscryption dev Daniel Mullin's Pony Island is FREE to keep on Steam!",
-          "link": "https://gg.deals/freebie/inscryption-dev-daniel-mullins-pony-island-is-free-to-keep-on-steam/",
-          "published": "2026-10-08T17:24:00.000Z"
-        },
-        {
-          "source": "Indie Game Bundles",
-          "title": "Legendary Indie Game Pony Island is Now Free on Steam",
-          "link": "https://www.indiegamebundles.com/legendary-indie-game-pony-island-is-now-free-on-steam/",
-          "published": "2026-10-08T17:58:16.000Z"
-        },
-        {
-          "source": "Rock Paper Shotgun",
-          "title": "You can now sign up to playtest the genre-bending Pony Island 2: Panda Circus, and while you're at it the original is free for a few days too",
-          "link": "https://www.rockpapershotgun.com/you-can-now-sign-up-to-playtest-the-genre-bending-pony-island-2-panda-circus-and-while-youre-at-it-the-original-is-free-for-a-few-days-too",
-          "published": "2026-10-08T21:56:00.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Humble Triple-i Initiative Showcase Bundle",
+      "headline": "Humble Twisted Trilogies and Terrors: Dark Visual Novels",
       "score": 10,
       "sites": [
         "gg.deals",
@@ -254,15 +195,43 @@
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Humble launches Triple-i Initiative Showcase Bundle with tiers starting at $8",
-          "link": "https://gg.deals/bundle/humble-triple-i-initiative-showcase-bundle/",
-          "published": "2026-10-09T07:54:00.000Z"
+          "title": "Humble Twisted Trilogies and Terrors Bundle gets you a collection of dark visual novels",
+          "link": "https://gg.deals/bundle/humble-twisted-trilogies-and-terrors-bundle/",
+          "published": "2026-10-09T18:26:52.000Z"
         },
         {
           "source": "Indie Game Bundles",
-          "title": "Humble Triple-i Initiative Showcase Bundle",
-          "link": "https://www.indiegamebundles.com/humble-triple-i-initiative-showcase-bundle/",
-          "published": "2026-10-09T17:33:38.000Z"
+          "title": "Humble Twisted Trilogies and Terrors: Dark Visual Novels",
+          "link": "https://www.indiegamebundles.com/humble-twisted-trilogies-and-terrors-dark-visual-novels/",
+          "published": "2026-10-10T14:12:47.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Humble Gals and Pals: PQube Japanese Games",
+      "score": 10,
+      "sites": [
+        "gg.deals",
+        "indiegamebundles.com"
+      ],
+      "keywords": [
+        "deal",
+        "bundle",
+        "humble"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Humble’s Gals and Pals Bundle packs 11 quirky PQube games into a $12 deal",
+          "link": "https://gg.deals/bundle/humbles-gals-and-pals-bundle-packs-11-quirky-pqube-games-into-a-12-deal/",
+          "published": "2026-10-09T18:56:59.000Z"
+        },
+        {
+          "source": "Indie Game Bundles",
+          "title": "Humble Gals and Pals: PQube Japanese Games",
+          "link": "https://www.indiegamebundles.com/humble-gals-and-pals-pqube-japanese-games/",
+          "published": "2026-10-10T14:08:14.000Z"
         }
       ]
     },
@@ -299,55 +268,42 @@
       ]
     },
     {
-      "headline": "Pull up to the Gear.Club in style with this FREE GC3 Unlimited Signature Pack DLC!",
-      "score": 8,
-      "sites": [
-        "gamerpower.com",
-        "gg.deals"
-      ],
-      "keywords": [
-        "free"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "GamerPower (PC)",
-          "title": "Gear.Club Unlimited 3 - Gear.Club Signature Pack Steam Giveaway",
-          "link": "https://www.gamerpower.com/gear-club-unlimited-3-gear-club-signature-pack-steam-giveaway",
-          "published": "2026-10-08T11:21:25.000Z"
-        },
-        {
-          "source": "gg.deals Freebies",
-          "title": "Pull up to the Gear.Club in style with this FREE GC3 Unlimited Signature Pack DLC!",
-          "link": "https://gg.deals/freebie/pull-up-to-the-gearclub-in-style-with-this-free-gc3-unlimited-signature-pack-dlc/",
-          "published": "2026-10-08T18:50:00.000Z"
-        },
-        {
-          "source": "gg.deals News",
-          "title": "Pull up to the Gear.Club in style with this FREE GC3 Unlimited Signature Pack DLC!",
-          "link": "https://gg.deals/freebie/pull-up-to-the-gearclub-in-style-with-this-free-gc3-unlimited-signature-pack-dlc/",
-          "published": "2026-10-08T18:50:00.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Humble’s Gals and Pals Bundle packs 11 quirky PQube games into a $12 deal",
+      "headline": "50 best Steam deals you can still grab after the Autumn Sale",
       "score": 7,
       "sites": [
         "gg.deals"
       ],
       "keywords": [
-        "deal",
+        "sale",
+        "deals"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "50 best Steam deals you can still grab after the Autumn Sale",
+          "link": "https://gg.deals/deal/50-best-steam-deals-you-can-still-grab-after-the-autumn-sale/",
+          "published": "2026-10-11T10:10:00.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Humble Triple-i Initiative Showcase Bundle",
+      "score": 7,
+      "sites": [
+        "indiegamebundles.com"
+      ],
+      "keywords": [
         "bundle",
         "humble"
       ],
       "games": [],
       "items": [
         {
-          "source": "gg.deals News",
-          "title": "Humble’s Gals and Pals Bundle packs 11 quirky PQube games into a $12 deal",
-          "link": "https://gg.deals/bundle/humbles-gals-and-pals-bundle-packs-11-quirky-pqube-games-into-a-12-deal/",
-          "published": "2026-10-09T18:56:59.000Z"
+          "source": "Indie Game Bundles",
+          "title": "Humble Triple-i Initiative Showcase Bundle",
+          "link": "https://www.indiegamebundles.com/humble-triple-i-initiative-showcase-bundle/",
+          "published": "2026-10-09T17:33:38.000Z"
         }
       ]
     }
