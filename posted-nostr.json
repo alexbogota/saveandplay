@@ -153,6 +153,51 @@
           "id": "96bc7c5e0b16762e2d6f68a488930ff299bae8e7db82e468d0212c472d740426",
           "sig": "35b069215225bc8df0a1b08bda07f9be7171dddb1e73d29ef46fe339182a4f257894d7324a76c47c9e3f431ea400061b5b49a878f5ff0d251d89a2a89ad65ac9"
         }
+      },
+      "2026-10-11": {
+        "status": "done",
+        "kind": "deal",
+        "id": "6cb3d06fba34d4b547b8a946f1c6d5ac145ee94ba677cae42d4a8552625918d1",
+        "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+        "deal": "indiegala-the-pathless",
+        "title": "The Pathless",
+        "postedAt": "2026-10-11T11:41:09.000Z",
+        "accepted": [
+          "wss://relay.damus.io",
+          "wss://nos.lol",
+          "wss://relay.primal.net",
+          "wss://offchain.pub",
+          "wss://nostr.mom"
+        ],
+        "failed": [],
+        "event": {
+          "kind": 1,
+          "created_at": 1791718869,
+          "tags": [
+            [
+              "t",
+              "saveandplay"
+            ],
+            [
+              "t",
+              "pcgaming"
+            ],
+            [
+              "t",
+              "gamedeals"
+            ],
+            [
+              "imeta",
+              "url https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1492680/header.jpg?t=1736954957",
+              "m image/jpeg",
+              "alt Cover art for The Pathless"
+            ]
+          ],
+          "content": "The Pathless: -84% at IndieGala\n$6.29 (was $39.99)\nPrice checked 2026-10-11 09:46 UTC. Sale ends 2026-10-11 23:59 UTC.\nWhy today: sale ends in 13 h.\nAd: we may earn a commission if you buy.\n\n#pcgaming #gamedeals\n\nhttps://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1492680/header.jpg?t=1736954957\n\nhttps://saveandplay.com/deals/indiegala/the-pathless/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-11",
+          "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+          "id": "6cb3d06fba34d4b547b8a946f1c6d5ac145ee94ba677cae42d4a8552625918d1",
+          "sig": "f82ee154646d174946178be5b01ba45f601367de927bcc29b48c6d5f29368ac3dd6dcf7520986645c5afcc353eea06cfd777ee2ab42fe245fd142da1536786f1"
+        }
       }
     }
   },
