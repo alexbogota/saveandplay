@@ -19,6 +19,6 @@
 - Админки партнёрок: Admitad (площадка Save and Play), IndieGala, Sovrn.
 - Bluesky: аккаунт @saveandplay.com уже запущен (рубрика «Honest prices»). Второй и третий аккаунты (Cozy, Retro/DRM-free) обсуждаются, не запущены.
 - Telegram, Pinterest, рассылка: ещё не заведены.
-- Nostr: аккаунт «Honest prices» (адрес NIP-05 `prices@saveandplay.com`; настройки Nostr отдельно, в `data/nostr-accounts.json` и `data/nostr-relays.json`, а правила выбора скидок для брифа в блоке `nostr` файла `data/accounts.json`). Ключи создаются один раз командой `npm run nostr:keygen`; npub после этого записан в `data/accounts.json`, приватный ключ (nsec) хранится ТОЛЬКО в локальном `.env`, в менеджере паролей владельца и в GitHub Secret `NOSTR_NSEC`. Статус на 7 октября: код и настройки готовы, ключи созданы, nsec добавлен в GitHub Secret `NOSTR_NSEC`, автопубликация включена 8 октября после «ок» владельца (`autopost: true` в `data/nostr-accounts.json`).
+- Nostr: аккаунт «Honest prices» (`prices@saveandplay.com`). Всё про Nostr (статус, настройки, как работает, что осталось) лежит в отдельном файле `NOSTR.md`, здесь он не расписан. Правило про ключ: приватный ключ (nsec) хранится ТОЛЬКО в локальном `.env`, в GitHub Secret `NOSTR_NSEC` и в личной копии владельца, нигде не печатается и не коммитится.
 
 - Владелец живёт в Колумбии. Для выплат есть PayPal, Payoneer и банковские счета в Колумбии и Испании (со слов владельца, 7 октября). Страна выплат не ограничивает выбор программ.

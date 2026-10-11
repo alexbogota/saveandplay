@@ -1,5 +1,5 @@
 // Shared code of the Nostr scripts (nostr-keygen, nostr-secret, nostr-profile, post-nostr, nostr-check).
-// See PROJECT.md, section 11 ("Nostr"). Settings: data/nostr-accounts.json (profile, autopost, key name, hashtags), data/nostr-relays.json (relays),
+// See NOSTR.md (everything about Nostr is described there). Settings: data/nostr-accounts.json (profile, autopost, key name, hashtags), data/nostr-relays.json (relays),
 // data/nostr-articles.json (the queue of article notes that go before the deals),
 // and the block with the same name in data/accounts.json (the deal rules of the daily brief: stores, minimum discount, subid, post rules).
 //

@@ -1,4 +1,4 @@
-// Posts ONE deal a day to Nostr, by a template: no AI, no API key. See PROJECT.md, section 11 ("Nostr").
+// Posts ONE deal a day to Nostr, by a template: no AI, no API key. See NOSTR.md.
 //
 //   node scripts/post-nostr.mjs                 post (only if "autopost" is true for the account in data/nostr-accounts.json)
 //   node scripts/post-nostr.mjs --dry-run       show the note that would be posted, publish nothing, change nothing
