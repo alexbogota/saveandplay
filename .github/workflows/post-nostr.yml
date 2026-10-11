@@ -1,8 +1,9 @@
 name: Post to Nostr
 
-# Two kinds of notes, independent of each other (owner, 11 Oct 2026): one DEAL and one ARTICLE a day.
+# Two kinds of notes, independent of each other (owner, 11 Oct 2026): one DEAL a day and one ARTICLE at most every 2 days.
 #   06:30 Bogota (half an hour after the "Daily brief"): post, kind deal    (the first deal of the brief)
-#   12:00 Bogota:                                         post, kind article (the next approved article of data/nostr-articles.json; none = green "Skipped")
+#   12:00 Bogota:                                         post, kind article (the oldest guide of the site not posted yet, no approval;
+#                                                         green "Skipped" if the last article is less than 2 days old, none waits, or its page is not live)
 # By hand: GitHub -> Actions -> "Post to Nostr" -> Run workflow, then choose a mode and (for dry-run and post) a kind:
 #   dry-run  (default) shows the note that would be posted, publishes nothing
 #   post     posts today's note of that kind (only if "autopost" is true for the account in data/nostr-accounts.json; one of each kind a day, a repeat is skipped)
@@ -83,11 +84,6 @@ jobs:
             check) node scripts/nostr-check.mjs ;;
             *) echo "Unknown mode: $MODE"; exit 2 ;;
           esac
-
-      # Read only: one line in Summary if a guide of the site has no Nostr draft yet (npm run nostr:articles adds them on the computer). Writes and commits nothing.
-      - name: Guides without a Nostr draft
-        if: ${{ always() && env.MODE == 'dry-run' }}
-        run: node scripts/nostr-sync-articles.mjs --check
 
       # Runs even if the posting step went red: a note that reached some relays must still be recorded, so it is not posted twice.
       - name: Save the record of posts on the brief branch

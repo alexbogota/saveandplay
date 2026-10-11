@@ -1,15 +1,18 @@
 // Posts to Nostr by a template: no AI, no API key. See NOSTR.md.
-// Two kinds of notes, independent of each other (owner, 11 Oct 2026): ONE deal a day and ONE article a day.
+// Two kinds of notes, independent of each other (owner, 11 Oct 2026): ONE deal a day, and ONE article at most every 2 days.
 //
 //   node scripts/post-nostr.mjs --kind deal               post today's deal (only if "autopost" is true for the account in data/nostr-accounts.json)
-//   node scripts/post-nostr.mjs --kind article            post the next article of the queue
+//   node scripts/post-nostr.mjs --kind article            post the next guide of the site
 //   node scripts/post-nostr.mjs --kind deal --dry-run     show the note that would be posted, publish nothing, change nothing
 //   node scripts/post-nostr.mjs --kind article --account nostr-cozy
 //   Without --kind nothing is posted (a clear error).
 //   GitHub -> Actions -> "Post to Nostr": deal every day at 06:30 Bogota (after the daily brief), article at 12:00 Bogota; or Run workflow (mode and kind).
 //
-// --kind article: the next article of the account's queue (data/nostr-articles.json) that is approved and not posted yet. None left = skipped (green).
-// The text of an article is written in that file (no AI); the program adds the link with the account's marks (utm_source = subid) and the picture with its alt text.
+// --kind article (owner, 11 Oct 2026: a guide on the site may go to Nostr, no approval; a bad note is deleted by hand): the oldest guide of
+// src/pages/guides/ that is not posted yet and has no "nostr: false" in its header (scripts/lib/nostr-guides.mjs). Its text is the record of
+// data/nostr-articles.json if there is one, otherwise a template from the header (title, description, tags, picture). The program adds the link with the
+// account's marks (utm_source = subid) and the picture with its alt text. Skipped (green) when: the last article note went out less than 2 days ago
+// (days of the account's time zone: today and yesterday are taken), no guide waits, or the page of the guide does not answer 200 on the live site.
 // "redo" (data/nostr-articles.json): an article whose note went out wrongly is deleted (the relays are asked, NIP-09) and posted again, once.
 // It happens only in a --kind article run. See redoList in scripts/lib/nostr.mjs.
 //
@@ -17,10 +20,10 @@
 // on GitHub it is read from the "brief" branch by scripts/nostr-branch.sh). The text is built from its numbers and dates only:
 // game, discount, price, old price, store, "Price checked <date>", sale end date (if any), "Why today" (if the brief has it), the "Ad:" line, picture address, link.
 //
-// One note of each kind a day per account: the record of what was posted is drafts/posted-nostr.json (on GitHub it lives on the "brief" branch, so the
-// site is not rebuilt). A day there has two slots, "deal" and "article". Records of the old format (one note a day, before 11 Oct 2026) are read into
-// the slot of the kind that note was. As a second guard the relays are asked whether the account already has a note OF THE SAME KIND from the last 20 hours
-// (by the hidden tags saveandplay-deal / saveandplay-article; older notes by their text). A note that reached too few relays is sent again to all of them
+// The record of what was posted is drafts/posted-nostr.json (on GitHub it lives on the "brief" branch, so the site is not rebuilt). A day there has two
+// slots, "deal" and "article". Records of the old format (one note a day, before 11 Oct 2026) are read into the slot of the kind that note was.
+// As a second guard the relays are asked whether the account already has a note OF THE SAME KIND from the last 20 hours (deal) or 44 hours (article),
+// by the hidden tags saveandplay-deal / saveandplay-article (older notes by their text). A note that reached too few relays is sent again to all of them
 // on the next run (the same note, not a new one).
 //
 // Exit code: 0 = posted or skipped (nothing to post is not an error), 1 = no relay accepted, too few accepted, no --kind, or something is broken.
@@ -28,7 +31,8 @@
 
 import { writeFileSync, mkdirSync } from 'node:fs';
 import { dirname } from 'node:path';
-import { file, readJson, nostrAccounts, loadRelayConfig, loadSecretKey, npubOf, getPublicKey, buildNote, buildArticleNote, articleQueue, redoList, signDeletion, signNote, verifyEvent, publishToAll, queryRelay, relayTable, summary, hoursSince, nip19, finish, noteKind, KINDS, BRAND_TAG, OLD_AD_TAG } from './lib/nostr.mjs';
+import { file, readJson, nostrAccounts, loadRelayConfig, loadSecretKey, npubOf, getPublicKey, buildNote, buildArticleNote, redoList, signDeletion, signNote, verifyEvent, publishToAll, queryRelay, relayTable, summary, hoursSince, nip19, finish, noteKind, reasonOf, KINDS, BRAND_TAG, OLD_AD_TAG } from './lib/nostr.mjs';
+import { waitingGuides, articleFor, articleRecords, lastArticleDay, earliestArticleDay } from './lib/nostr-guides.mjs';
 
 const args = process.argv.slice(2);
 const dryRun = args.includes('--dry-run');
@@ -37,6 +41,7 @@ const KIND = args.includes('--kind') ? args[args.indexOf('--kind') + 1] : null;
 const NOW = process.env.NOSTR_NOW ? Date.parse(process.env.NOSTR_NOW) : Date.now(); // the variable is for tests only
 const STATE = 'drafts/posted-nostr.json';
 const KEEP_DAYS = 60;
+const GUARD_HOURS = { deal: 20, article: 44 }; // the article window fits the 2-day rule: a note of yesterday noon is still seen today
 
 const dayKey = (t, tz) => new Intl.DateTimeFormat('en-CA', { timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit' }).format(t); // YYYY-MM-DD
 const warn = (msg) => console.log(process.env.GITHUB_ACTIONS ? `::warning::${msg}` : `WARNING: ${msg}`);
@@ -72,19 +77,61 @@ function saveState(state) {
   writeFileSync(file(STATE), JSON.stringify(state, null, 2) + '\n');
 }
 
-// What to post today. Returns { skip, warn } or { note, title, info, record }.
-function plan(id, account, links, postedArticles) {
+// Does the page of the guide open on the live site (200)? NOSTR_PAGE_BASE replaces the site address, for tests only.
+async function pageLive(site, path) {
+  const url = `${process.env.NOSTR_PAGE_BASE || site}${path}`;
+  let reason = 'no answer';
+  for (let i = 0; i < 2; i++) {
+    try {
+      const r = await fetch(url, { redirect: 'follow', signal: AbortSignal.timeout(10000), headers: { 'user-agent': 'saveandplay-nostr (page check)' } });
+      await r.body?.cancel();
+      if (r.status === 200) return { ok: true, url };
+      reason = `HTTP ${r.status}`;
+      if (r.status === 404) break;
+    } catch (e) {
+      reason = reasonOf(e);
+    }
+  }
+  return { ok: false, url, reason };
+}
+
+// The next article: { slug, earliest, last, skipped } (slug null = no guide waits). first = slugs that come first (redo).
+function articleOutlook(id, state, day, ignoreIds = new Set(), posted = state.articles[id] ?? {}, first = []) {
+  const last = lastArticleDay(state.accounts[id] ?? {}, posted, ignoreIds);
+  const earliest = earliestArticleDay(day, last);
+  const waiting = waitingGuides(posted, first);
+  return { waiting, last, earliest, slug: waiting[0]?.slug ?? null };
+}
+const outlookLine = (o) => (o.slug ? `Next article: ${o.slug}, earliest ${o.earliest}.` : 'No articles waiting.');
+
+// What to post today. Returns { skip, warn } or { note, title, info, record, slug }.
+function plan(account, links, outlook) {
   if (KIND === 'article') {
-    const queue = articleQueue(id, postedArticles);
-    const waiting = queue.waiting.length ? ` Waiting for approval (approved: true), not posted: ${queue.waiting.join(', ')}.` : '';
-    if (!queue.next) return { skip: `no approved article in the queue of "${id}" (data/nostr-articles.json).${waiting}` };
-    const a = queue.next;
-    const note = buildArticleNote(a, account, links?.site);
-    return { note, title: a.slug, info: `Article: ${a.slug}. After it: ${queue.later} more approved article(s).${waiting}`, record: { article: a.slug } };
+    const records = articleRecords();
+    const broken = [];
+    for (const g of outlook.waiting) {
+      const r = articleFor(g, records);
+      let note;
+      if (!r.skip) {
+        try {
+          note = buildArticleNote(r.article, account, links?.site);
+        } catch (e) {
+          r.skip = e.message;
+        }
+      }
+      if (r.skip) {
+        broken.push(`${g.slug} (${r.skip})`);
+        continue;
+      }
+      const notes = r.notes.length ? ` Template notes: ${r.notes.join('; ')}.` : '';
+      const brokenInfo = broken.length ? ` Not usable, skipped: ${broken.join(', ')}.` : '';
+      return { note, title: g.slug, slug: g.slug, path: r.article.path, info: `Article: ${g.slug} (updated ${g.updated ?? 'no date'}; text: ${r.source}). ${outlook.waiting.length - 1} more guide(s) wait after it.${notes}${brokenInfo}`, record: { article: g.slug }, warnings: broken };
+    }
+    return { skip: `no articles waiting (every guide is posted or has "nostr: false" in its header).${broken.length ? ` Not usable: ${broken.join(', ')}.` : ''}`, warn: broken.length > 0 };
   }
 
-  const brief = readJson(`drafts/brief-${id}.json`, null);
-  if (!brief) return { skip: `there is no drafts/brief-${id}.json: the Daily brief did not make it (check the "Daily brief" workflow).`, warn: true };
+  const brief = readJson(`drafts/brief-${account.id}.json`, null);
+  if (!brief) return { skip: `there is no drafts/brief-${account.id}.json: the Daily brief did not make it (check the "Daily brief" workflow).`, warn: true };
   const age = hoursSince(brief.generatedAt, NOW);
   if (!(age <= account.maxBriefAgeHours)) return { skip: `the brief is ${Number.isFinite(age) ? Math.round(age) + ' h old' : 'of unknown age'}, the limit is ${account.maxBriefAgeHours} h. The Daily brief probably failed today.`, warn: true };
   const c = brief.candidates?.[0];
@@ -117,13 +164,33 @@ async function runAccount({ id, account, links }, state) {
 
   // Articles to delete and post again (only in an article run): listed in "redo", already posted, not redone before.
   const redoPending = KIND === 'article' ? redoList(id).filter((slug) => postedArticles[slug] && !redone[slug]) : [];
-  let planned = postedArticles; // what the plan below thinks is already posted
-  if (redoPending.length) {
-    planned = { ...postedArticles };
-    for (const slug of redoPending) delete planned[slug];
+  const redoIds = new Set(redoPending.map((slug) => postedArticles[slug].id));
+  const planned = { ...postedArticles }; // what the plan thinks is already posted: the articles to redo count as not posted
+  for (const slug of redoPending) delete planned[slug];
+  const ignoreIds = new Set([...deletedIds, ...redoIds]);
+  const outlook = articleOutlook(id, state, day, ignoreIds, planned, redoPending);
+
+  // A note of this kind that was already made today (posted, or sent to too few relays) is not planned again: it is only skipped or sent again.
+  // A note of today that is about to be deleted (redo) does not count. Only a dry run looks at "what would be posted next".
+  const todayStays = today && !redoIds.has(today.id);
+  const madeToday = !dryRun && todayStays && (today.status === 'done' || today.status === 'partial');
+  let todays = null;
+  let tooEarly = false;
+  if (!madeToday) {
+    if (KIND === 'article' && outlook.earliest > day && outlook.slug) {
+      tooEarly = true;
+      if (!dryRun) return skip(`next article not before ${outlook.earliest} (the last article note went out on ${outlook.last}; one article every 2 days). ${outlookLine(outlook)}`);
+    }
+    todays = plan({ ...account, id }, links, outlook);
+    if (todays.skip) return skip(todays.skip, todays.warn);
+    if (todays.warnings?.length) warn(`${id}: guides that cannot become a note: ${todays.warnings.join(', ')}`);
+    if (KIND === 'article') {
+      const live = await pageLive(links?.site, todays.path);
+      if (!live.ok) return skip(`page not live yet: ${live.url} answered ${live.reason}. The article "${todays.slug}" waits; nothing was posted.`, true);
+    }
   }
 
-  if (redoPending.length && !dryRun) {
+  if (redoPending.length && !dryRun && !madeToday) {
     const sk0 = loadSecretKey(account.secretEnv);
     if (!sk0) {
       console.error(`ERROR (${id}): no private key (${account.secretEnv}). Add it as a GitHub Secret: npm run nostr:secret.`);
@@ -151,16 +218,6 @@ async function runAccount({ id, account, links }, state) {
       summary(`${head}**Redo:** the relays were asked to delete the earlier note of the article \`${slug}\` (\`${old.id}\`, ${ok.length} of ${results.length} relays accepted the request). Relays honour this at their own pace, a client may keep showing the old note for a while.\n\n`);
     }
     today = mine[day]?.[KIND];
-    planned = postedArticles;
-  }
-
-  // A note of this kind that was already made today (posted, or sent to too few relays) is not planned again: it is only skipped or sent again.
-  // Only a dry run looks at "what would be posted next".
-  const madeToday = !dryRun && (today?.status === 'done' || today?.status === 'partial');
-  let todays = null;
-  if (!madeToday) {
-    todays = plan(id, account, links, planned);
-    if (todays.skip) return skip(todays.skip, todays.warn);
   }
 
   const sk = loadSecretKey(account.secretEnv);
@@ -175,9 +232,11 @@ async function runAccount({ id, account, links }, state) {
     if (dryRun) {
       let extra = '';
       if (redoPending.length) extra = `\nRedo: a real run will FIRST ask the relays to delete ${redoPending.map((slug) => `the earlier note of the article ${slug} (${postedArticles[slug].id})`).join(' and ')}, and then post the note above in its place (once; it is remembered).\n`;
-      else if (today?.status === 'done') extra = `\nNote: a ${KIND} note was already posted today (${today.id}); a real run today would be skipped. The text above is what the NEXT real run would post.\n`;
+      else if (todayStays && today?.status === 'done') extra = `\nNote: a ${KIND} note was already posted today (${today.id}); a real run today would be skipped. The text above is what the NEXT real run would post.\n`;
+      else if (tooEarly) extra = `\nNote: the last article note went out on ${outlook.last}; a real run today would be skipped. The text above is what goes out on ${outlook.earliest} or later.\n`;
       else if (!account.autopost) extra = '\nNote: "autopost" is false, so a real run is skipped until the owner switches it on in data/nostr-accounts.json.\n';
-      if (extra) console.log(extra.trim());
+      extra += `\n${outlookLine(outlook)}\n`;
+      console.log(extra.trim());
       summary(`${head}**Dry run: nothing was published.**\n\n${textBlock}${extra}`);
       return { code: 0 };
     }
@@ -188,7 +247,7 @@ async function runAccount({ id, account, links }, state) {
     summary(`${head}**FAILED:** no private key (${account.secretEnv}).\n`);
     return { code: 1 };
   }
-  if (today?.status === 'done') return skip(`already posted today (${day}, ${KIND}): note ${today.id}. One ${KIND} note a day.`);
+  if (today?.status === 'done') return skip(`already posted today (${day}, ${KIND}): note ${today.id}. ${KIND === 'deal' ? 'One deal note a day.' : 'One article note at most every 2 days.'}`);
 
   const relays = loadRelayConfig();
   const pk = getPublicKey(sk);
@@ -206,16 +265,22 @@ async function runAccount({ id, account, links }, state) {
     shown = { content: event.content, tags: event.tags, info: today.article ? `Article: ${today.article}.` : `Deal: ${today.title}.` };
     console.log(`The ${KIND} note of today reached only ${today.accepted.length} relay(s) earlier: sending the same note (${event.id}) again.`);
   } else {
-    // Second guard: does the account already have a note OF THIS KIND from the last 20 hours on the relays? Replies (they have an "e" tag) do not count:
-    // the owner may answer people from this account by hand. Notes that we asked the relays to delete (redo) do not count, even where a relay still returns them.
-    const found = (await Promise.all(relays.urls.map((u) => queryRelay(u, { authors: [pk], kinds: [1], '#t': [BRAND_TAG, OLD_AD_TAG], since: Math.floor(NOW / 1000) - 20 * 3600, limit: 20 }, Math.min(relays.timeoutMs, 6000)))))
+    // Second guard: does the account already have a note OF THIS KIND on the relays (20 h for a deal, 44 h for an article)? Replies (they have an "e" tag)
+    // do not count: the owner may answer people from this account by hand. Notes that we asked the relays to delete (redo) do not count, even where a relay still returns them.
+    const hours = GUARD_HOURS[KIND];
+    const found = (await Promise.all(relays.urls.map((u) => queryRelay(u, { authors: [pk], kinds: [1], '#t': [BRAND_TAG, OLD_AD_TAG], since: Math.floor(NOW / 1000) - hours * 3600, limit: 20 }, Math.min(relays.timeoutMs, 6000)))))
       .flat()
       .filter((ev) => ev && !deletedIds.has(ev.id) && !ev.tags?.some((t) => t[0] === 'e') && noteKind(ev) === KIND);
     if (found.length) {
       const ev = found.sort((a, b) => b.created_at - a.created_at)[0];
-      (mine[day] ??= {})[KIND] = { status: 'done', kind: KIND, id: ev.id, npub, foundOnRelay: true, postedAt: new Date(ev.created_at * 1000).toISOString() };
+      // An article note is recorded on its own day (it may be yesterday's: the 2-day rule counts from it); a deal note on today, as before.
+      const evDay = KIND === 'article' ? dayKey(ev.created_at * 1000, account.timezone) : day;
+      // The guide of an article note is in its link: remembered as posted, so a lost record never brings the same article twice.
+      const guide = KIND === 'article' ? ev.content.match(/\/guides\/([a-z0-9_-]+)\/\?utm_/i)?.[1] : null;
+      (mine[evDay] ??= {})[KIND] ??= { status: 'done', kind: KIND, id: ev.id, npub, foundOnRelay: true, ...(guide ? { article: guide } : {}), postedAt: new Date(ev.created_at * 1000).toISOString() };
+      if (guide && !postedArticles[guide]) postedArticles[guide] = { day: evDay, id: ev.id, foundOnRelay: true };
       saveState(state);
-      return skip(`the relays already have a note of this kind (${KIND}) of this account from the last 20 hours (${ev.id}). One ${KIND} note a day.`);
+      return skip(`the relays already have a note of this kind (${KIND}) of this account from the last ${hours} hours (${ev.id}, ${evDay}).`);
     }
     event = signNote(todays.note, sk, NOW);
     if (!verifyEvent(event)) throw new Error('The signed note does not verify. Not published.');

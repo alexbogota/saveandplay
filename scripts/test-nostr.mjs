@@ -2,7 +2,7 @@
 //
 //   npm run nostr:test
 //
-// What is checked: the text template, the two kinds (one deal and one article a day, independent; kind tags; old record format; --kind required), the article queue, new guides becoming drafts (nostr-sync-articles), "dry-run publishes nothing", autopost switch, one note a day (record, relays guard, Re-run),
+// What is checked: the text template, the two kinds (one deal a day and one article at most every 2 days, independent; kind tags; old record format; --kind required), the choice of the article (oldest guide not posted, nostr: false, record over template, page live), the nostr:articles preview, "dry-run publishes nothing", autopost switch, one note a day (record, relays guard, Re-run),
 // partial delivery and sending the same note again, stale brief and old price, the key never appears in any output,
 // keygen (.env kept, existing key never replaced, only npub printed), profile, the relay check, and the git branch script.
 // Nothing here touches the real data/ folder or the real relays: every test works in a temporary folder.
@@ -22,7 +22,8 @@ import { bytesToHex } from 'nostr-tools/utils';
 
 process.env.NOSTR_ROOT = process.env.NOSTR_ROOT || ''; // the test itself imports the template code, which must see the real settings
 delete process.env.NOSTR_ROOT;
-const { buildNote, whyLine, nostrAccounts, buildArticleNote, articleQueue, noteKind, DISCLOSURE, BRAND_TAG } = await import('./lib/nostr.mjs');
+const { buildNote, whyLine, nostrAccounts, buildArticleNote, noteKind, DISCLOSURE, BRAND_TAG } = await import('./lib/nostr.mjs');
+const { listGuides, articleFor } = await import('./lib/nostr-guides.mjs');
 
 const here = (rel) => fileURLToPath(new URL(rel, import.meta.url));
 const NOW = '2026-10-08T11:30:00Z';
@@ -144,8 +145,38 @@ const brief = (over = {}) => ({ account: 'Honest prices', generatedAt: '2026-10-
 const realAccounts = JSON.parse(readFileSync(here('../data/accounts.json'), 'utf8'));
 const realArticles = JSON.parse(readFileSync(here('../data/nostr-articles.json'), 'utf8'));
 const SITE = realAccounts.links.site;
-const art = (over = {}) => ({ approved: true, path: '/guides/x/', campaign: 'guide-x', tags: ['steam'], lines: ['Line one.', '', 'Line two.'], ...over });
-const fixture = (slugs) => ({ queues: { nostr: Object.keys(slugs) }, articles: slugs });
+const art = (over = {}) => ({ path: '/guides/x/', campaign: 'guide-x', tags: ['steam'], lines: ['Line one.', '', 'Line two.'], ...over });
+// Records of data/nostr-articles.json. makeRoot also writes a guide file for each of them (dated in this order), since the articles come from the guides.
+const fixture = (slugs) => ({ articles: slugs });
+// A tiny PNG header: pngSize only reads the signature and the IHDR width and height.
+const fakePng = (w, h) => {
+  const b = Buffer.alloc(33);
+  Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]).copy(b, 0);
+  b.writeUInt32BE(13, 8);
+  b.write('IHDR', 12, 'ascii');
+  b.writeUInt32BE(w, 16);
+  b.writeUInt32BE(h, 20);
+  return b;
+};
+const guideFile = (fm) => `---
+layout: ../../layouts/Article.astro
+section: guides
+${fm}
+---
+
+Text.
+`;
+
+// The live site, faked: every page answers 200 except the paths in "down". The scripts reach it through NOSTR_PAGE_BASE.
+function startPages() {
+  const down = new Set();
+  const server = http.createServer((req, res) => {
+    res.writeHead(down.has(req.url.split('?')[0]) ? 404 : 200, { 'content-type': 'text/html' });
+    res.end('page');
+  });
+  return new Promise((ok) => server.listen(0, '127.0.0.1', () => ok({ url: `http://127.0.0.1:${server.address().port}`, down })));
+}
+const pages = await startPages();
 const nextDay = (n) => new Date(Date.parse(NOW) + n * 864e5).toISOString();
 const realNostr = JSON.parse(readFileSync(here('../data/nostr-accounts.json'), 'utf8'));
 const realAccount = nostrAccounts('nostr')[0].account; // the brief block of data/accounts.json + the settings of data/nostr-accounts.json, as the scripts see it
@@ -155,15 +186,19 @@ const cleanEnv = () => {
   return e;
 };
 
-function makeRoot({ relays, autopost = true, briefJson = brief(), minAccepted = 2, env = '', articles = null } = {}) {
+function makeRoot({ relays, autopost = true, briefJson = brief(), minAccepted = 2, env = '', articles = null, guides = {} } = {}) {
   const root = mkdtempSync(join(tmpdir(), 'nostr-test-'));
-  for (const d of ['data', 'drafts', 'public/.well-known']) mkdirSync(join(root, d), { recursive: true });
+  for (const d of ['data', 'drafts', 'public/.well-known', 'public/og', 'src/pages/guides']) mkdirSync(join(root, d), { recursive: true });
   writeFileSync(join(root, 'data/accounts.json'), JSON.stringify(realAccounts, null, 2) + '\n');
   const nostr = JSON.parse(JSON.stringify(realNostr));
   nostr.accounts.nostr.autopost = autopost;
   writeFileSync(join(root, 'data/nostr-accounts.json'), JSON.stringify(nostr, null, 2) + '\n');
   setRelays(root, relays ?? [], minAccepted);
   if (articles) writeFileSync(join(root, 'data/nostr-articles.json'), JSON.stringify(articles));
+  const all = { ...Object.fromEntries(Object.keys(articles?.articles ?? {}).map((slug, i) => [slug, `title: "Guide ${slug}"
+description: "D."
+updated: 2026-09-${String(10 + i).padStart(2, '0')}`])), ...guides };
+  for (const [slug, fm] of Object.entries(all)) writeFileSync(join(root, `src/pages/guides/${slug}.md`), guideFile(fm));
   if (briefJson) writeFileSync(join(root, 'drafts/brief-nostr.json'), JSON.stringify(briefJson));
   writeFileSync(join(root, '.gitignore'), '.env\n');
   if (env !== null) writeFileSync(join(root, '.env'), env);
@@ -177,7 +212,7 @@ function run(script, args, { root, env = {}, withKey = true } = {}) {
   const summaryFile = join(root, 'summary.md');
   return new Promise((done) => {
     const child = spawn(process.execPath, [here(script), ...args], {
-      env: { ...cleanEnv(), NOSTR_ROOT: root, NOSTR_NOW: NOW, GITHUB_STEP_SUMMARY: summaryFile, NOSTR_CHECK_TIMEOUT_MS: '1500', ...(withKey ? { NOSTR_NSEC: NSEC } : {}), ...env },
+      env: { ...cleanEnv(), NOSTR_ROOT: root, NOSTR_NOW: NOW, GITHUB_STEP_SUMMARY: summaryFile, NOSTR_CHECK_TIMEOUT_MS: '1500', NOSTR_PAGE_BASE: pages.url, ...(withKey ? { NOSTR_NSEC: NSEC } : {}), ...env },
     });
     let out = '';
     let err = '';
@@ -294,15 +329,19 @@ test('article note: exact text (no "Ad" line, no hashtag), marked link last, pic
   assert.deepEqual(buildArticleNote(art({ tags: ['ad', 'steam'] }), { ...realAccount, hashtags: ['pcgaming'] }, SITE).tags, [['t', 'saveandplay'], ['t', 'saveandplay-article'], ['t', 'pcgaming'], ['t', 'steam']]);
 });
 
-test('articles: every article of the real queue builds a valid note (no #ad, hashtags in the text = t tags, marked link, picture file and alt text); the first one is approved', () => {
-  assert.ok(realArticles.queues.nostr.length >= 1);
-  for (const slug of realArticles.queues.nostr) {
-    const a = { slug, ...realArticles.articles[slug] };
+test('articles: every real guide gives a valid note, from its record or the template (no #ad, hashtags in the text = t tags, marked link, picture file of 1200x630 with alt text)', () => {
+  const guides = listGuides();
+  assert.ok(guides.length >= 1);
+  for (const g of guides.filter((x) => !x.off)) {
+    const r = articleFor(g);
+    assert.ok(!r.skip, `${g.slug}: ${r.skip}`);
+    const a = r.article;
     const n = buildArticleNote(a, realAccount, SITE);
-    assert.ok(!/(^|\s)#ad(\s|$)/i.test(n.content) && !n.tags.some((t) => t[0] === 't' && t[1] === 'ad'), slug);
+    const slug = g.slug;
+    assert.ok(!/(^|\s)#ad(\s|$)/i.test(n.content) && !/^Ad:/m.test(n.content) && !n.tags.some((t) => t[0] === 't' && t[1] === 'ad'), slug);
     assert.ok(n.content.trimEnd().endsWith(n.link) && n.link.includes('utm_source=nostr-prices&utm_medium=social'), slug);
     if (a.image) assert.ok(n.tags.some((t) => t[0] === 'imeta' && t.some((f) => f.startsWith('alt ') && f.length > 8)), slug);
-    // the hashtags of the text are exactly the t tags (NIP-24) plus the brand tag that is not shown
+    // the hashtags of the text are exactly the t tags (NIP-24) plus the brand and kind tags that are not shown
     const shown = (n.content.match(/(^|\s)#[a-z0-9_]+/g) ?? []).map((x) => x.trim().slice(1));
     assert.ok(shown.length >= 2 && shown.length <= 6, `${slug}: ${shown.length} hashtags`);
     assert.deepEqual(n.tags.filter((t) => t[0] === 't').map((t) => t[1]).filter((h) => !h.startsWith('saveandplay')), shown, slug);
@@ -313,121 +352,38 @@ test('articles: every article of the real queue builds a valid note (no #ad, has
       assert.deepEqual([png.readUInt32BE(16), png.readUInt32BE(20)], [1200, 630], `${slug}: ${a.image} must be 1200x630`);
     }
   }
-  assert.equal(realArticles.articles[realArticles.queues.nostr[0]].approved, true);
-  assert.equal(articleQueue('nostr', {}).next.slug, realArticles.queues.nostr[0]);
+  // no queue and no approval any more
+  assert.ok(!('queues' in realArticles) && !Object.values(realArticles.articles).some((a) => 'approved' in a));
 });
 
-test('articles: the queue skips the posted and the not approved, and an unknown name is a clear error', () => {
-  const cfgRoot = makeRoot({ relays: [], articles: fixture({ one: art(), two: art({ approved: false }), three: art() }) });
-  process.env.NOSTR_ROOT = cfgRoot; // only for this check: a fresh copy of the module below reads NOSTR_ROOT when it loads
-  return import('./lib/nostr.mjs?q=' + Date.now()).then((m) => {
-    try {
-      const all = m.articleQueue('nostr', {});
-      assert.equal(all.next.slug, 'one');
-      assert.equal(all.later, 1);
-      assert.deepEqual(all.waiting, ['two']);
-      const after = m.articleQueue('nostr', { one: { day: 'x' } });
-      assert.equal(after.next.slug, 'three');
-      assert.equal(after.later, 0);
-      assert.equal(m.articleQueue('nostr', { one: {}, three: {} }).next, null);
-      assert.equal(m.articleQueue('someone-else', {}).next, null);
-      writeFileSync(join(cfgRoot, 'data/nostr-articles.json'), JSON.stringify({ queues: { nostr: ['missing'] }, articles: {} }));
-      assert.throws(() => m.articleQueue('nostr', {}), /has no such article/);
-    } finally {
-      delete process.env.NOSTR_ROOT;
-    }
+test('nostr:articles is a preview only: oldest first, posted and "nostr: false" marked, the record wins over the template, bad tags dropped, picture only for a 1200x630 PNG; --write is refused and nothing is written', async () => {
+  const root = makeRoot({
+    relays: [],
+    articles: fixture({ hand: art({ lines: ['Hand-written text.'], path: '/guides/hand/', campaign: 'guide-hand' }) }),
+    guides: {
+      hand: 'title: "Hand template title"\ndescription: "D."\nupdated: 2026-09-03',
+      newer: 'title: "Newer guide: #ad free"\ndescription: "What it says."\nupdated: 2026-09-05\nimage: /og/newer.png\nimageAlt: "Diagram of it."\ntags: ["Steam Deck", "#GOG", "x", "ad", "игры"]',
+      small: 'title: "Small picture"\ndescription: "D."\nupdated: 2026-09-04\nimage: /og/small.png\nimageAlt: "A picture."',
+      off: 'title: "Not for Nostr"\nupdated: 2026-09-01\nnostr: false',
+      gone: 'title: "Posted already"\nupdated: 2026-09-02',
+    },
   });
-});
-
-// A tiny PNG header: pngSize only reads the signature and the IHDR width and height.
-const fakePng = (w, h) => {
-  const b = Buffer.alloc(33);
-  Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]).copy(b, 0);
-  b.writeUInt32BE(13, 8);
-  b.write('IHDR', 12, 'ascii');
-  b.writeUInt32BE(w, 16);
-  b.writeUInt32BE(h, 20);
-  return b;
-};
-const guide = (fm) => `---\nlayout: ../../layouts/Article.astro\nsection: guides\n${fm}\n---\n\nText.\n`;
-function guidesRoot(guides, articles = fixture({ old: art({ lines: ['Hand-written.'], tags: ['steam'] }) })) {
-  const root = makeRoot({ relays: [], articles });
-  for (const d of ['src/pages/guides', 'public/og']) mkdirSync(join(root, d), { recursive: true });
-  for (const [slug, fm] of Object.entries(guides)) writeFileSync(join(root, `src/pages/guides/${slug}.md`), guide(fm));
-  return root;
-}
-const readArticles = (root) => JSON.parse(readFileSync(join(root, 'data/nostr-articles.json'), 'utf8'));
-
-test('sync articles: a new guide becomes a draft (approved: false) at the end of the queue; dry by default; an existing article is never changed', async () => {
-  const root = guidesRoot({
-    old: 'title: "Changed title"\ndescription: "Changed."',
-    'new-guide': 'title: "A new guide: #ad free"\ndescription: "What it says."\nimage: /og/new-guide.png\nimageAlt: "Diagram of it."',
-  });
-  writeFileSync(join(root, 'public/og/new-guide.png'), fakePng(1200, 630));
-  const before = readFileSync(join(root, 'data/nostr-articles.json'), 'utf8');
-  const dry = await run('./nostr-sync-articles.mjs', [], { root, withKey: false });
-  assert.equal(dry.code, 0, dry.all);
-  assert.ok(dry.out.includes('+ new-guide') && !dry.out.includes('+ old') && dry.out.includes('Nothing was written'), dry.out);
-  assert.equal(readFileSync(join(root, 'data/nostr-articles.json'), 'utf8'), before, 'the default run writes nothing');
-
-  const w = await run('./nostr-sync-articles.mjs', ['--write'], { root, withKey: false });
-  assert.equal(w.code, 0, w.all);
-  const cfg = readArticles(root);
-  assert.deepEqual(cfg.queues.nostr, ['old', 'new-guide']);
-  assert.deepEqual(cfg.articles.old, JSON.parse(before).articles.old, 'the existing article stays exactly as it was');
-  assert.deepEqual(cfg.articles['new-guide'], { approved: false, path: '/guides/new-guide/', campaign: 'new-guide', tags: [], lines: ['A new guide: free', '', 'What it says.'], image: '/og/new-guide.png', imageAlt: 'Diagram of it.' });
-  // the draft is a valid article note, without any ad mark
-  const n = buildArticleNote({ slug: 'new-guide', ...cfg.articles['new-guide'] }, realAccount, SITE);
-  assert.ok(!/#ad\b|^Ad:/im.test(n.content) && n.tags.some((t) => t[0] === 'imeta'), n.content);
-  // a second run adds nothing and changes nothing
-  const again = readFileSync(join(root, 'data/nostr-articles.json'), 'utf8');
-  const second = await run('./nostr-sync-articles.mjs', ['--write'], { root, withKey: false });
-  assert.ok(second.out.includes('Nothing to add'), second.out);
-  assert.equal(readFileSync(join(root, 'data/nostr-articles.json'), 'utf8'), again);
-});
-
-test('sync articles: tags are made a-z, 0-9, _ (2-30), bad ones are dropped and named in the report; a guide without a title is skipped with the reason', async () => {
-  const root = guidesRoot({
-    tagged: 'title: "Tagged"\ndescription: "D."\ntags: ["Steam Deck", "#GOG", "x", "ad", "steam-sale", "игры", "a_very_long_tag_that_is_more_than_thirty"]',
-    block: 'title: "Block"\ndescription: "D."\ntags:\n  - drmfree\n  - "Indie"',
-    notitle: 'description: "No title here."',
-  });
-  const r = await run('./nostr-sync-articles.mjs', ['--write'], { root, withKey: false });
-  assert.equal(r.code, 0, r.all);
-  const cfg = readArticles(root);
-  assert.deepEqual(cfg.articles.tagged.tags, ['steamdeck', 'gog', 'steamsale']);
-  assert.deepEqual(cfg.articles.block.tags, ['drmfree', 'indie']);
-  for (const bad of ['x (only', 'ad (not a topic', 'игры (only', 'a_very_long_tag_that_is_more_than_thirty (only']) assert.ok(r.out.includes(bad), `${bad}\n${r.out}`);
-  assert.ok(!cfg.articles.notitle && !cfg.queues.nostr.includes('notitle') && /notitle: skipped, the header has no title/.test(r.out), r.out);
-  for (const slug of ['tagged', 'block']) buildArticleNote({ slug, ...cfg.articles[slug] }, realAccount, SITE); // the kept tags pass the note's own check
-});
-
-test('sync articles: the picture is taken only if the file exists and is a PNG of 1200x630 (and has an alt text)', async () => {
-  const fm = (slug, alt = 'imageAlt: "A picture."') => `title: "T ${slug}"\ndescription: "D."\nimage: /og/${slug}.png\n${alt}`;
-  const root = guidesRoot({ good: fm('good'), missing: fm('missing'), small: fm('small'), notpng: fm('notpng'), noalt: fm('noalt', '') });
-  writeFileSync(join(root, 'public/og/good.png'), fakePng(1200, 630));
+  writeFileSync(join(root, 'public/og/newer.png'), fakePng(1200, 630));
   writeFileSync(join(root, 'public/og/small.png'), fakePng(800, 418));
-  writeFileSync(join(root, 'public/og/notpng.png'), Buffer.from('<svg xmlns="http://www.w3.org/2000/svg"/>'.padEnd(40)));
-  writeFileSync(join(root, 'public/og/noalt.png'), fakePng(1200, 630));
-  const r = await run('./nostr-sync-articles.mjs', ['--write'], { root, withKey: false });
-  const a = readArticles(root).articles;
-  assert.equal(a.good.image, '/og/good.png');
-  assert.equal(a.good.imageAlt, 'A picture.');
-  for (const slug of ['missing', 'small', 'notpng', 'noalt']) assert.ok(a[slug] && !('image' in a[slug]) && !('imageAlt' in a[slug]), slug);
-  assert.ok(/does not exist/.test(r.out) && /800x418, needs 1200x630/.test(r.out) && /is not a PNG/.test(r.out) && /no imageAlt/.test(r.out), r.out);
-});
-
-test('sync articles --check: one warning line in Summary with the guides that have no draft, writes nothing', async () => {
-  const root = guidesRoot({ old: 'title: "Old"', 'new-one': 'title: "New one"\ndescription: "D."' });
+  writeFileSync(join(root, 'drafts/posted-nostr.json'), JSON.stringify({ accounts: {}, articles: { nostr: { gone: { day: '2026-09-20', id: 'a'.repeat(64) } } } }));
   const before = readFileSync(join(root, 'data/nostr-articles.json'), 'utf8');
-  const r = await run('./nostr-sync-articles.mjs', ['--check'], { root, withKey: false });
+  const r = await run('./nostr-sync-articles.mjs', [], { root, withKey: false });
   assert.equal(r.code, 0, r.all);
-  assert.ok(r.summary.includes('Guides without a Nostr draft: new-one'), r.summary);
+  const order = [...r.out.matchAll(/^ {2}(\S+)\s+(\S+) \(updated/gm)].map((m) => `${m[1]} ${m[2]}`);
+  assert.deepEqual(order, ['off off', 'posted gone', 'NEXT hand', 'waiting small', 'waiting newer']);
+  assert.ok(r.out.includes('| Hand-written text.') && !r.out.includes('Hand template title'), 'the record wins over the template');
+  assert.ok(r.out.includes('| Newer guide: free') && r.out.includes('#pcgaming #gamedeals #steamdeck #gog') && r.out.includes('/og/newer.png'), r.out);
+  for (const bad of ['x (only', 'ad (not a topic', 'игры (only', '800x418, needs 1200x630']) assert.ok(r.out.includes(bad), `${bad}\n${r.out}`);
+  assert.ok(!r.out.includes('saveandplay.com/og/small.png') && r.out.includes('Next article: hand.'), r.out);
+  const w = await run('./nostr-sync-articles.mjs', ['--write'], { root, withKey: false });
+  assert.equal(w.code, 2);
+  assert.ok(/only shows the preview/.test(w.err), w.all);
   assert.equal(readFileSync(join(root, 'data/nostr-articles.json'), 'utf8'), before);
-  rmSync(join(root, 'src/pages/guides/new-one.md'));
-  rmSync(join(root, 'summary.md'));
-  const none = await run('./nostr-sync-articles.mjs', ['--check'], { root, withKey: false });
-  assert.equal(none.summary, '');
 });
 
 test('no --kind: nothing is posted and the error says what to add (red)', async () => {
@@ -461,34 +417,67 @@ test('kind tags: a deal note has saveandplay + saveandplay-deal, an article note
   assert.deepEqual(tTags(buildArticleNote(art({ tags: ['saveandplay-deal', 'steam'] }), realAccount, SITE).tags), ['saveandplay', 'saveandplay-article', 'pcgaming', 'gamedeals', 'steam']);
 });
 
-test('dry-run with articles: kind article shows the next article (text, tags, queue), kind deal shows the deal; publishes nothing, writes no record', async () => {
+test('dry-run with articles: kind article shows the oldest guide not posted (text, tags, next article line), kind deal shows the deal; publishes nothing, writes no record', async () => {
   const r1 = await startRelay('accept');
-  const root = makeRoot({ relays: [r1.url], autopost: false, articles: fixture({ one: art({ lines: ['First article.'], path: '/guides/one/', campaign: 'guide-one' }), two: art({ approved: false }) }) });
+  const root = makeRoot({ relays: [r1.url], autopost: false, articles: fixture({ two: art({ lines: ['Second article.'] }) }), guides: { one: 'title: "First article."\ndescription: "Its description."\nupdated: 2026-09-01', off: 'title: "Off"\nupdated: 2026-08-01\nnostr: false' } });
   const r = await run('post-nostr.mjs', [...ARTICLE, '--dry-run'], { root, withKey: false });
   assert.equal(r.code, 0, r.all);
-  assert.ok(r.out.includes('First article.\n\n#pcgaming #gamedeals #steam\n\nhttps://saveandplay.com/guides/one/?utm_source=nostr-prices') && !r.out.includes('#ad') && r.out.includes('utm_campaign=guide-one') && !r.out.includes('Control Ultimate Edition'));
-  assert.ok(r.summary.includes('Article: one') && r.summary.includes('Waiting for approval') && r.summary.includes('two'), r.summary);
-  // the deal is independent of the queue: an approved article does not hide it
+  assert.ok(r.out.includes('First article.\n\nIts description.\n\n#pcgaming #gamedeals\n\nhttps://saveandplay.com/guides/one/?utm_source=nostr-prices&utm_medium=social&utm_campaign=one') && !r.out.includes('#ad') && !r.out.includes('Control Ultimate Edition'), r.out);
+  assert.ok(r.summary.includes('Article: one (updated 2026-09-01; text: template from the header). 1 more guide(s) wait after it.') && r.summary.includes('Next article: one, earliest 2026-10-08.'), r.summary);
+  assert.ok(!r.summary.includes('Guides without a Nostr draft'));
+  // the deal is independent of the articles; its dry run also says which article is next
   const d = await run('post-nostr.mjs', [...DEAL, '--dry-run'], { root, withKey: false });
   assert.equal(d.code, 0, d.all);
-  assert.ok(d.out.includes('Control Ultimate Edition: -85% at IndieGala') && !d.out.includes('First article.'), d.out);
+  assert.ok(d.out.includes('Control Ultimate Edition: -85% at IndieGala') && !d.out.includes('First article.') && d.summary.includes('Next article: one, earliest 2026-10-08.'), d.out);
   assert.equal(r1.events.length, 0);
   assert.ok(!existsSync(join(root, 'drafts/posted-nostr.json')));
-  // no article is approved: kind article is skipped (green) and says what waits; it never falls back to a deal
-  const none = makeRoot({ relays: [r1.url], autopost: false, articles: fixture({ two: art({ approved: false }) }) });
+  // every guide posted or switched off: kind article is skipped (green); it never falls back to a deal; the deal dry run says "No articles waiting"
+  const none = makeRoot({ relays: [r1.url], autopost: false, guides: { off: 'title: "Off"\nnostr: false' } });
   const s = await run('post-nostr.mjs', [...ARTICLE, '--dry-run'], { root: none, withKey: false });
   assert.equal(s.code, 0, s.all);
-  assert.ok(/\*\*Skipped:\*\* no approved article/.test(s.summary) && s.summary.includes('Waiting for approval') && !s.out.includes('Control Ultimate Edition'), s.summary);
+  assert.ok(/\*\*Skipped:\*\* no articles waiting/.test(s.summary) && !s.out.includes('Control Ultimate Edition'), s.summary);
+  const d2 = await run('post-nostr.mjs', [...DEAL, '--dry-run'], { root: none, withKey: false });
+  assert.ok(d2.summary.includes('No articles waiting.'), d2.summary);
   r1.close();
 });
 
-test('post: a deal and an article on the same day both go out; a second deal or a second article that day does not; not approved is never posted; the record of articles survives the cleanup', async () => {
+test('article choice: the oldest guide by "updated" first (no date after the dated ones, the same date by name); "nostr: false" is skipped; a posted one never comes again', async () => {
+  const root = makeRoot({
+    relays: [],
+    autopost: false,
+    guides: {
+      'b-same-day': 'title: "B"\nupdated: 2026-09-02',
+      'a-same-day': 'title: "A"\nupdated: 2026-09-02',
+      oldest: 'title: "Oldest"\nupdated: 2026-09-01',
+      undated: 'title: "Undated"',
+      ancient: 'title: "Ancient but off"\nupdated: 2026-01-01\nnostr: false',
+      newest: 'title: "Newest"\nupdated: 2026-10-01',
+    },
+  });
+  const next = async (posted) => {
+    writeFileSync(join(root, 'drafts/posted-nostr.json'), JSON.stringify({ accounts: {}, articles: { nostr: Object.fromEntries(posted.map((s) => [s, { day: '2026-09-01', id: s.padEnd(64, '0') }])) } }));
+    const r = await run('post-nostr.mjs', [...ARTICLE, '--dry-run'], { root, withKey: false });
+    assert.equal(r.code, 0, r.all);
+    return r.out.match(/Next article: (\S+),/)?.[1] ?? (r.out.includes('no articles waiting') ? null : r.out); // the output of this run (the summary file grows run by run)
+  };
+  const seen = [];
+  for (let i = 0; i < 6; i++) {
+    const n = await next(seen);
+    if (!n) break;
+    seen.push(n);
+  }
+  assert.deepEqual(seen, ['oldest', 'a-same-day', 'b-same-day', 'newest', 'undated']);
+});
+
+test('post: a deal and an article on the same day both go out; a second deal or article that day does not; the next article only 2 days later; the record of articles survives the cleanup', async () => {
   const [a, b] = [await startRelay('accept'), await startRelay('accept')];
   const root = makeRoot({
     relays: [a.url, b.url],
-    articles: fixture({ one: art({ lines: ['First article.'], path: '/guides/one/', campaign: 'guide-one' }), two: art({ approved: false, lines: ['Not approved.'] }), three: art({ lines: ['Third article.'], path: '/guides/three/', campaign: 'guide-three' }) }),
+    articles: fixture({ one: art({ lines: ['First article.'], path: '/guides/one/', campaign: 'guide-one' }), off: art({ lines: ['Switched off.'] }), three: art({ lines: ['Third article.'], path: '/guides/three/', campaign: 'guide-three' }) }),
+    guides: { off: 'title: "Off"\nupdated: 2026-09-15\nnostr: false' },
   });
   const kinds = () => a.events.map(noteKind);
+  const noon = (n) => new Date(Date.parse(nextDay(n)) + 5.5 * 3600e3).toISOString(); // 17:00 UTC = 12:00 Bogota
 
   // day 1, 06:30: the deal
   let r = await run('post-nostr.mjs', DEAL, { root });
@@ -496,7 +485,7 @@ test('post: a deal and an article on the same day both go out; a second deal or 
   assert.deepEqual(kinds(), ['deal']);
   assert.ok(a.events[0].content.includes('Control Ultimate Edition: -85% at IndieGala') && tTags(a.events[0].tags).includes('saveandplay-deal'));
   // day 1, 12:00: the article goes out too (the deal of the morning does not block it, neither in the record nor on the relays)
-  r = await run('post-nostr.mjs', ARTICLE, { root, env: { NOSTR_NOW: new Date(Date.parse(NOW) + 5.5 * 3600e3).toISOString() } });
+  r = await run('post-nostr.mjs', ARTICLE, { root, env: { NOSTR_NOW: noon(0) } });
   assert.equal(r.code, 0, r.all);
   assert.deepEqual(kinds(), ['deal', 'article']);
   assert.ok(a.events[1].content.startsWith('First article.\n\n#pcgaming #gamedeals #steam\n\nhttps://saveandplay.com/guides/one/') && !a.events[1].content.includes('#ad') && !tTags(a.events[1].tags).includes('ad') && tTags(a.events[1].tags).includes('saveandplay-article'));
@@ -507,44 +496,99 @@ test('post: a deal and an article on the same day both go out; a second deal or 
 
   // day 1 again: a second deal and a second article are both skipped
   for (const k of [DEAL, ARTICLE]) {
-    r = await run('post-nostr.mjs', k, { root });
+    r = await run('post-nostr.mjs', k, { root, env: { NOSTR_NOW: noon(0) } });
     assert.equal(r.code, 0, r.all);
     assert.ok(/already posted today/.test(r.summary), r.summary);
   }
-  // the record is lost (fresh runner): the relays still stop a second note of each kind
-  writeFileSync(join(root, 'drafts/posted-nostr.json'), JSON.stringify({ accounts: {}, articles: { nostr: { one: st.articles.nostr.one } } }));
+  // the whole record is lost (fresh runner): the relays still stop a second note of each kind, and the article is known again from the link of its note
+  writeFileSync(join(root, 'drafts/posted-nostr.json'), JSON.stringify({ accounts: {} }));
   for (const k of [DEAL, ARTICLE]) {
-    r = await run('post-nostr.mjs', k, { root });
+    r = await run('post-nostr.mjs', k, { root, env: { NOSTR_NOW: noon(0) } });
     assert.equal(r.code, 0, r.all);
     assert.ok(/already have a note of this kind/.test(r.summary), r.summary);
   }
   assert.equal(a.events.length, 2);
+  assert.equal(readState(root).articles.nostr.one.day, day, 'recovered from the note on the relay');
 
-  // day 2 at 12:00 Bogota: "two" is not approved, so "three"
-  const noon = (n) => new Date(Date.parse(nextDay(n)) + 5.5 * 3600e3).toISOString();
+  // day 2 at 12:00: too early (yesterday had an article), green, nothing sent; a dry run shows what comes and when
   r = await run('post-nostr.mjs', ARTICLE, { root, env: { NOSTR_NOW: noon(1) } });
   assert.equal(r.code, 0, r.all);
-  assert.equal(a.events.length, 3);
-  assert.ok(a.events[2].content.startsWith('Third article.') && !a.events.some((e) => e.content.includes('Not approved.')));
+  assert.ok(/\*\*Skipped:\*\* next article not before 2026-10-10/.test(r.summary) && r.summary.includes('Next article: three, earliest 2026-10-10.'), r.summary);
+  const dry = await run('post-nostr.mjs', [...ARTICLE, '--dry-run'], { root, withKey: false, env: { NOSTR_NOW: noon(1) } });
+  assert.ok(dry.out.includes('Third article.') && /a real run today would be skipped/.test(dry.out) && dry.summary.includes('Next article: three, earliest 2026-10-10.'), dry.out);
+  assert.equal(a.events.length, 2);
 
-  // day 3: no approved article left: skipped, green, nothing sent (no deal instead)
+  // day 3 at 12:00: 2 days later, "off" has "nostr: false", so "three"
   r = await run('post-nostr.mjs', ARTICLE, { root, env: { NOSTR_NOW: noon(2) } });
   assert.equal(r.code, 0, r.all);
-  assert.ok(/Skipped:\*\* no approved article/.test(r.summary), r.summary);
+  assert.equal(a.events.length, 3);
+  assert.ok(a.events[2].content.startsWith('Third article.') && !a.events.some((e) => e.content.includes('Switched off.')));
+
+  // day 5: every guide is posted or off: skipped, green, nothing sent (no deal instead)
+  r = await run('post-nostr.mjs', ARTICLE, { root, env: { NOSTR_NOW: noon(4) } });
+  assert.equal(r.code, 0, r.all);
+  assert.ok(/Skipped:\*\* no articles waiting/.test(r.summary), r.summary);
   assert.equal(a.events.length, 3);
 
   // 70 days later the old day records are cleaned up, the record of posted articles stays, and nothing is posted twice
   writeFileSync(join(root, 'drafts/brief-nostr.json'), JSON.stringify({ ...brief({ priceCheckedAt: new Date(Date.parse(nextDay(70)) - 3 * 3600e3).toISOString() }), generatedAt: new Date(Date.parse(nextDay(70)) - 0.5 * 3600e3).toISOString() }));
   r = await run('post-nostr.mjs', DEAL, { root, env: { NOSTR_NOW: nextDay(70) } });
   assert.equal(r.code, 0, r.all);
-  r = await run('post-nostr.mjs', ARTICLE, { root, env: { NOSTR_NOW: nextDay(70) } });
-  assert.ok(/no approved article/.test(r.summary), r.summary);
+  r = await run('post-nostr.mjs', ARTICLE, { root, env: { NOSTR_NOW: noon(70) } });
+  assert.ok(/no articles waiting/.test(r.summary), r.summary);
   st = readState(root);
-  assert.ok(!st.accounts.nostr[readDay(nextDay(1))], 'the old day is cleaned up');
+  assert.ok(!st.accounts.nostr[day], 'the old day is cleaned up');
   assert.deepEqual(Object.keys(st.articles.nostr).sort(), ['one', 'three']);
   assert.equal(a.events.length, 4);
   assert.equal(noteKind(a.events[3]), 'deal');
   assert.equal(a.events.filter((e) => e.content.startsWith('First article.')).length, 1);
+  [a, b].forEach((x) => x.close());
+});
+
+test('post: the page of the guide must answer 200 on the site, else Skipped "page not live yet" (green, warning), in post and in dry-run; nothing is sent or recorded', async () => {
+  const [a, b] = [await startRelay('accept'), await startRelay('accept')];
+  const root = makeRoot({ relays: [a.url, b.url], guides: { fresh: 'title: "Fresh guide"\ndescription: "D."\nupdated: 2026-10-08' } });
+  pages.down.add('/guides/fresh/');
+  try {
+    for (const args of [ARTICLE, [...ARTICLE, '--dry-run']]) {
+      const r = await run('post-nostr.mjs', args, { root });
+      assert.equal(r.code, 0, r.all);
+      assert.ok(/\*\*Skipped:\*\* page not live yet: .*\/guides\/fresh\/ answered HTTP 404/.test(r.summary) && /WARNING: .*page not live yet/.test(r.out), r.all);
+    }
+    assert.equal(a.events.length, 0);
+    assert.ok(!existsSync(join(root, 'drafts/posted-nostr.json')));
+  } finally {
+    pages.down.delete('/guides/fresh/');
+  }
+  // the page is live now: the article goes out
+  const r = await run('post-nostr.mjs', ARTICLE, { root });
+  assert.equal(r.code, 0, r.all);
+  assert.ok(a.events[0]?.content.startsWith('Fresh guide'), r.all);
+  [a, b].forEach((x) => x.close());
+});
+
+test('post: the record of data/nostr-articles.json wins over the template; without a record the template takes title, description, header tags and a 1200x630 picture with its alt', async () => {
+  const [a, b] = [await startRelay('accept'), await startRelay('accept')];
+  const root = makeRoot({
+    relays: [a.url, b.url],
+    articles: fixture({ hand: art({ lines: ['Hand-written text.'], tags: ['refunds'], path: '/guides/hand/', campaign: 'guide-hand' }) }),
+    guides: {
+      hand: 'title: "Template title"\ndescription: "Template description."\nupdated: 2026-09-01\nimage: /og/hand.png\nimageAlt: "Hand picture."',
+      auto: 'title: "Auto guide"\ndescription: "Auto description."\nupdated: 2026-09-02\nimage: /og/auto.png\nimageAlt: "Auto picture."\ntags: [bundles, "Steam Deck"]',
+    },
+  });
+  writeFileSync(join(root, 'public/og/hand.png'), fakePng(1200, 630));
+  writeFileSync(join(root, 'public/og/auto.png'), fakePng(1200, 630));
+  let r = await run('post-nostr.mjs', ARTICLE, { root });
+  assert.equal(r.code, 0, r.all);
+  const hand = a.events[0];
+  assert.equal(hand.content, `Hand-written text.\n\n#pcgaming #gamedeals #refunds\n\n${SITE}/guides/hand/?utm_source=nostr-prices&utm_medium=social&utm_campaign=guide-hand`);
+  assert.ok(!hand.tags.some((t) => t[0] === 'imeta'), 'the record has no picture: none is added from the template');
+  r = await run('post-nostr.mjs', ARTICLE, { root, env: { NOSTR_NOW: nextDay(2) } });
+  assert.equal(r.code, 0, r.all);
+  const auto = a.events[1];
+  assert.equal(auto.content, `Auto guide\n\nAuto description.\n\n#pcgaming #gamedeals #bundles #steamdeck\n\n${SITE}/og/auto.png\n\n${SITE}/guides/auto/?utm_source=nostr-prices&utm_medium=social&utm_campaign=auto`);
+  assert.ok(auto.tags.some((t) => t[0] === 'imeta' && t.includes(`url ${SITE}/og/auto.png`) && t.includes('alt Auto picture.')));
   [a, b].forEach((x) => x.close());
 });
 
@@ -554,7 +598,7 @@ test("old record format (one note a day): read as the slot of its kind; today's 
   const articles = fixture({ one: art({ lines: ['First article.'] }) });
   // 1) today's old record is a deal: a deal run is skipped, an article run posts, and both are kept in the new slots
   const root = makeRoot({ relays: [a.url, b.url], articles });
-  writeFileSync(join(root, 'drafts/posted-nostr.json'), JSON.stringify({ accounts: { nostr: { [day]: oldDeal, '2026-10-07': { status: 'done', kind: 'article', id: 'e'.repeat(64), article: 'old' } } }, articles: { nostr: { old: { day: '2026-10-07', id: 'e'.repeat(64) } } } }));
+  writeFileSync(join(root, 'drafts/posted-nostr.json'), JSON.stringify({ accounts: { nostr: { [day]: oldDeal, '2026-10-05': { status: 'done', kind: 'article', id: 'e'.repeat(64), article: 'old' } } }, articles: { nostr: { old: { day: '2026-10-05', id: 'e'.repeat(64) } } } }));
   let r = await run('post-nostr.mjs', DEAL, { root });
   assert.ok(/already posted today/.test(r.summary) && r.summary.includes('d'.repeat(64)), r.summary);
   r = await run('post-nostr.mjs', ARTICLE, { root });
@@ -563,7 +607,7 @@ test("old record format (one note a day): read as the slot of its kind; today's 
   const st = readState(root);
   assert.deepEqual(st.accounts.nostr[day].deal, oldDeal, "today's old record is not lost");
   assert.equal(st.accounts.nostr[day].article.article, 'one');
-  assert.equal(st.accounts.nostr['2026-10-07'].article.article, 'old', 'an older day is converted too');
+  assert.equal(st.accounts.nostr['2026-10-05'].article.article, 'old', 'an older day is converted too');
   // 2) an old record without "kind": a record found on a relay whose id is a posted article = article; any other = deal
   const root2 = makeRoot({ relays: [a.url, b.url], articles });
   writeFileSync(join(root2, 'drafts/posted-nostr.json'), JSON.stringify({ accounts: { nostr: { [day]: { status: 'done', id: 'f'.repeat(64), foundOnRelay: true } } }, articles: { nostr: { one: { day, id: 'f'.repeat(64) } } } }));

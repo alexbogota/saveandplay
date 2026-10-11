@@ -201,41 +201,19 @@ function imetaTag(url, alt) {
   return imeta;
 }
 
+// data/nostr-articles.json: "articles" = hand-written notes of some guides (they win over the template of scripts/lib/nostr-guides.mjs), "redo".
+// Which guide goes out next is decided in scripts/lib/nostr-guides.mjs (no queue and no approval since 11 Oct 2026).
 export function articleSettings() {
-  return readJson('data/nostr-articles.json', { articles: {}, queues: {} });
+  return readJson('data/nostr-articles.json', { articles: {} });
 }
 
-// The queue of an account: { next, waiting, later }.
-//   next    = the first article of the queue that is approved and not posted yet (or null),
-//   later   = how many more approved articles come after it,
-//   waiting = articles of the queue that are not approved yet (they are skipped, never posted).
-// posted = { slug: { day, id } }, the record of articles that already went out.
-export function articleQueue(id, posted = {}) {
-  const cfg = articleSettings();
-  let next = null;
-  let later = 0;
-  const waiting = [];
-  for (const slug of cfg.queues?.[id] ?? []) {
-    const a = cfg.articles?.[slug];
-    if (!a) throw new Error(`The queue of "${id}" names the article "${slug}", but data/nostr-articles.json has no such article.`);
-    if (posted[slug]) continue;
-    if (a.approved !== true) {
-      waiting.push(slug);
-      continue;
-    }
-    if (!next) next = { slug, ...a };
-    else later++;
-  }
-  return { next, later, waiting };
-}
-
-// "redo" in data/nostr-articles.json: { "<account>": ["<slug>", ...] } = articles whose note went out wrongly. At the next real run the program asks the relays to
+// "redo" in data/nostr-articles.json: { "<account>": ["<slug>", ...] } = articles whose note went out wrongly. At the next real article run the program asks the relays to
 // delete that note (NIP-09) and posts the article again with the current text. It happens once per article: the record of posts remembers it (state.redone).
 export function redoList(id) {
   const cfg = articleSettings();
   const list = cfg.redo?.[id] ?? [];
   if (!Array.isArray(list)) throw new Error(`"redo" of "${id}" in data/nostr-articles.json must be a list of article names.`);
-  for (const slug of list) if (!cfg.articles?.[slug]) throw new Error(`"redo" of "${id}" names the article "${slug}", but data/nostr-articles.json has no such article.`);
+  for (const slug of list) if (!existsSync(file(`src/pages/guides/${slug}.md`))) throw new Error(`"redo" of "${id}" names the article "${slug}", but there is no guide src/pages/guides/${slug}.md.`);
   return list;
 }
 

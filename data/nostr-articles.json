@@ -1,13 +1,5 @@
 {
-  "about": "Очередь заметок Nostr про статьи сайта. Одна статья в день, в 12:00 по Боготе (scripts/post-nostr.mjs --kind article), независимо от заметки про скидку в 06:30 (--kind deal). Нет одобренной статьи: в этот день статьи нет. Новые гиды сюда добавляет npm run nostr:articles -- --write (черновики, approved: false). queues = порядок статей для каждого аккаунта (ключ как в data/nostr-accounts.json). У статьи: approved = true только когда владелец одобрил текст (пока false, статья в очереди пропускается и не публикуется); lines = текст заметки по строкам, готовый, пишется вручную, ИИ не используется (программа сама добавит картинку и ссылку; строки #ad у статьи нет: заметка ведёт на наш гид, а не в магазин); path = адрес статьи на сайте; campaign = метка utm_campaign; tags = дополнительные теги t (saveandplay, а также теги аккаунта pcgaming, gamedeals ставятся всегда; тега ad нет, это не тема); image и imageAlt = картинка статьи и её описание (alt обязателен), если у статьи есть своя картинка. Ссылка собирается так: сайт + path + ?utm_source=<subid аккаунта>&utm_medium=social&utm_campaign=<campaign>. Какие статьи уже вышли, записано в drafts/posted-nostr.json (ветка brief), раздел articles: вторая публикация той же статьи невозможна. Заметка выходит с датой публикации, задним числом не подписывается. Добавить статью: новый блок в articles, её ключ в queues. redo = статьи, заметка которых вышла неудачно: при ближайшем настоящем запуске программа попросит реле удалить старую заметку (NIP-09; реле удаляют по своему усмотрению, чужие приложения могут какое-то время ещё показывать старую) и выложит статью заново с нынешним текстом, картинкой и тегами. Один раз на статью: это запоминается в drafts/posted-nostr.json (раздел redone), строку можно потом оставить как есть или стереть. Ключ как в queues, значение список названий статей.",
-  "queues": {
-    "nostr": [
-      "real-vs-fake-game-discounts",
-      "steam-key-vs-drm-free",
-      "how-steam-refunds-work",
-      "is-a-game-bundle-worth-it"
-    ]
-  },
+  "about": "Заметки Nostr про статьи сайта: НЕОБЯЗАТЕЛЬНЫЕ ручные тексты. С 11 октября 2026 статьи выходят сами (scripts/post-nostr.mjs --kind article, в 12:00 по Боготе, не чаще 1 раза в 2 дня): самый старый по дате updated гид из src/pages/guides/, который ещё не выходил и у которого в шапке нет nostr: false. Одобрение и очередь не нужны (решение владельца 11 октября; неудачную заметку владелец удаляет вручную). Если для гида здесь есть запись в articles (ключ = имя файла гида), программа берёт её вместо шаблона из шапки: lines = текст по строкам (без #ad и без строки Ad:, заметка ведёт на наш гид, а не в магазин); path = адрес статьи; campaign = метка utm_campaign; tags = дополнительные темы (теги аккаунта pcgaming, gamedeals и служебные saveandplay, saveandplay-article ставятся всегда; тега ad нет); image и imageAlt = картинка статьи и её описание (alt обязателен). Без записи: заголовок и описание из шапки, теги шапки, картинка из шапки, если файл есть и это PNG 1200x630. Ссылка: сайт + path + ?utm_source=<subid аккаунта>&utm_medium=social&utm_campaign=<campaign>. Какие статьи уже вышли, записано в drafts/posted-nostr.json (ветка brief), раздел articles: вторая публикация той же статьи невозможна. Посмотреть, что выйдет дальше: npm run nostr:articles. redo = статьи, заметка которых вышла неудачно: при ближайшем настоящем запуске kind article программа попросит реле удалить старую заметку (NIP-09) и выложит статью заново с нынешним текстом. Один раз на статью (раздел redone в drafts/posted-nostr.json). Ключ как в data/nostr-accounts.json, значение список имён статей.",
   "redo": {
     "nostr": [
       "real-vs-fake-game-discounts"
@@ -15,7 +7,6 @@
   },
   "articles": {
     "real-vs-fake-game-discounts": {
-      "approved": true,
       "path": "/guides/real-vs-fake-game-discounts/",
       "campaign": "guide-real-vs-fake-discounts",
       "tags": [
@@ -34,7 +25,6 @@
       ]
     },
     "steam-key-vs-drm-free": {
-      "approved": true,
       "path": "/guides/steam-key-vs-drm-free/",
       "campaign": "guide-steam-key-vs-drm-free",
       "tags": [
@@ -54,7 +44,6 @@
       ]
     },
     "how-steam-refunds-work": {
-      "approved": true,
       "path": "/guides/how-steam-refunds-work/",
       "campaign": "how-steam-refunds-work",
       "tags": [
@@ -70,7 +59,6 @@
       "imageAlt": "Diagram: a Steam refund needs two things, a purchase made within 14 days and less than 2 hours of playtime. Keys bought outside Steam are not covered."
     },
     "is-a-game-bundle-worth-it": {
-      "approved": true,
       "path": "/guides/is-a-game-bundle-worth-it/",
       "campaign": "is-a-game-bundle-worth-it",
       "tags": [
