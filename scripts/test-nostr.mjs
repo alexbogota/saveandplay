@@ -2,7 +2,7 @@
 //
 //   npm run nostr:test
 //
-// What is checked: the text template, the article queue (articles first, one a day, then deals), "dry-run publishes nothing", autopost switch, one note a day (record, relays guard, Re-run),
+// What is checked: the text template, the article queue (articles first, one a day, then deals), new guides becoming drafts (nostr-sync-articles), "dry-run publishes nothing", autopost switch, one note a day (record, relays guard, Re-run),
 // partial delivery and sending the same note again, stale brief and old price, the key never appears in any output,
 // keygen (.env kept, existing key never replaced, only npub printed), profile, the relay check, and the git branch script.
 // Nothing here touches the real data/ folder or the real relays: every test works in a temporary folder.
@@ -11,7 +11,7 @@ import assert from 'node:assert/strict';
 import crypto from 'node:crypto';
 import http from 'node:http';
 import { spawn, spawnSync } from 'node:child_process';
-import { mkdtempSync, mkdirSync, readFileSync, writeFileSync, existsSync, copyFileSync } from 'node:fs';
+import { mkdtempSync, mkdirSync, readFileSync, writeFileSync, existsSync, copyFileSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -334,6 +334,97 @@ test('articles: the queue skips the posted and the not approved, and an unknown 
       delete process.env.NOSTR_ROOT;
     }
   });
+});
+
+// A tiny PNG header: pngSize only reads the signature and the IHDR width and height.
+const fakePng = (w, h) => {
+  const b = Buffer.alloc(33);
+  Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]).copy(b, 0);
+  b.writeUInt32BE(13, 8);
+  b.write('IHDR', 12, 'ascii');
+  b.writeUInt32BE(w, 16);
+  b.writeUInt32BE(h, 20);
+  return b;
+};
+const guide = (fm) => `---\nlayout: ../../layouts/Article.astro\nsection: guides\n${fm}\n---\n\nText.\n`;
+function guidesRoot(guides, articles = fixture({ old: art({ lines: ['Hand-written.'], tags: ['steam'] }) })) {
+  const root = makeRoot({ relays: [], articles });
+  for (const d of ['src/pages/guides', 'public/og']) mkdirSync(join(root, d), { recursive: true });
+  for (const [slug, fm] of Object.entries(guides)) writeFileSync(join(root, `src/pages/guides/${slug}.md`), guide(fm));
+  return root;
+}
+const readArticles = (root) => JSON.parse(readFileSync(join(root, 'data/nostr-articles.json'), 'utf8'));
+
+test('sync articles: a new guide becomes a draft (approved: false) at the end of the queue; dry by default; an existing article is never changed', async () => {
+  const root = guidesRoot({
+    old: 'title: "Changed title"\ndescription: "Changed."',
+    'new-guide': 'title: "A new guide: #ad free"\ndescription: "What it says."\nimage: /og/new-guide.png\nimageAlt: "Diagram of it."',
+  });
+  writeFileSync(join(root, 'public/og/new-guide.png'), fakePng(1200, 630));
+  const before = readFileSync(join(root, 'data/nostr-articles.json'), 'utf8');
+  const dry = await run('./nostr-sync-articles.mjs', [], { root, withKey: false });
+  assert.equal(dry.code, 0, dry.all);
+  assert.ok(dry.out.includes('+ new-guide') && !dry.out.includes('+ old') && dry.out.includes('Nothing was written'), dry.out);
+  assert.equal(readFileSync(join(root, 'data/nostr-articles.json'), 'utf8'), before, 'the default run writes nothing');
+
+  const w = await run('./nostr-sync-articles.mjs', ['--write'], { root, withKey: false });
+  assert.equal(w.code, 0, w.all);
+  const cfg = readArticles(root);
+  assert.deepEqual(cfg.queues.nostr, ['old', 'new-guide']);
+  assert.deepEqual(cfg.articles.old, JSON.parse(before).articles.old, 'the existing article stays exactly as it was');
+  assert.deepEqual(cfg.articles['new-guide'], { approved: false, path: '/guides/new-guide/', campaign: 'new-guide', tags: [], lines: ['A new guide: free', '', 'What it says.'], image: '/og/new-guide.png', imageAlt: 'Diagram of it.' });
+  // the draft is a valid article note, without any ad mark
+  const n = buildArticleNote({ slug: 'new-guide', ...cfg.articles['new-guide'] }, realAccount, SITE);
+  assert.ok(!/#ad\b|^Ad:/im.test(n.content) && n.tags.some((t) => t[0] === 'imeta'), n.content);
+  // a second run adds nothing and changes nothing
+  const again = readFileSync(join(root, 'data/nostr-articles.json'), 'utf8');
+  const second = await run('./nostr-sync-articles.mjs', ['--write'], { root, withKey: false });
+  assert.ok(second.out.includes('Nothing to add'), second.out);
+  assert.equal(readFileSync(join(root, 'data/nostr-articles.json'), 'utf8'), again);
+});
+
+test('sync articles: tags are made a-z, 0-9, _ (2-30), bad ones are dropped and named in the report; a guide without a title is skipped with the reason', async () => {
+  const root = guidesRoot({
+    tagged: 'title: "Tagged"\ndescription: "D."\ntags: ["Steam Deck", "#GOG", "x", "ad", "steam-sale", "игры", "a_very_long_tag_that_is_more_than_thirty"]',
+    block: 'title: "Block"\ndescription: "D."\ntags:\n  - drmfree\n  - "Indie"',
+    notitle: 'description: "No title here."',
+  });
+  const r = await run('./nostr-sync-articles.mjs', ['--write'], { root, withKey: false });
+  assert.equal(r.code, 0, r.all);
+  const cfg = readArticles(root);
+  assert.deepEqual(cfg.articles.tagged.tags, ['steamdeck', 'gog', 'steamsale']);
+  assert.deepEqual(cfg.articles.block.tags, ['drmfree', 'indie']);
+  for (const bad of ['x (only', 'ad (not a topic', 'игры (only', 'a_very_long_tag_that_is_more_than_thirty (only']) assert.ok(r.out.includes(bad), `${bad}\n${r.out}`);
+  assert.ok(!cfg.articles.notitle && !cfg.queues.nostr.includes('notitle') && /notitle: skipped, the header has no title/.test(r.out), r.out);
+  for (const slug of ['tagged', 'block']) buildArticleNote({ slug, ...cfg.articles[slug] }, realAccount, SITE); // the kept tags pass the note's own check
+});
+
+test('sync articles: the picture is taken only if the file exists and is a PNG of 1200x630 (and has an alt text)', async () => {
+  const fm = (slug, alt = 'imageAlt: "A picture."') => `title: "T ${slug}"\ndescription: "D."\nimage: /og/${slug}.png\n${alt}`;
+  const root = guidesRoot({ good: fm('good'), missing: fm('missing'), small: fm('small'), notpng: fm('notpng'), noalt: fm('noalt', '') });
+  writeFileSync(join(root, 'public/og/good.png'), fakePng(1200, 630));
+  writeFileSync(join(root, 'public/og/small.png'), fakePng(800, 418));
+  writeFileSync(join(root, 'public/og/notpng.png'), Buffer.from('<svg xmlns="http://www.w3.org/2000/svg"/>'.padEnd(40)));
+  writeFileSync(join(root, 'public/og/noalt.png'), fakePng(1200, 630));
+  const r = await run('./nostr-sync-articles.mjs', ['--write'], { root, withKey: false });
+  const a = readArticles(root).articles;
+  assert.equal(a.good.image, '/og/good.png');
+  assert.equal(a.good.imageAlt, 'A picture.');
+  for (const slug of ['missing', 'small', 'notpng', 'noalt']) assert.ok(a[slug] && !('image' in a[slug]) && !('imageAlt' in a[slug]), slug);
+  assert.ok(/does not exist/.test(r.out) && /800x418, needs 1200x630/.test(r.out) && /is not a PNG/.test(r.out) && /no imageAlt/.test(r.out), r.out);
+});
+
+test('sync articles --check: one warning line in Summary with the guides that have no draft, writes nothing', async () => {
+  const root = guidesRoot({ old: 'title: "Old"', 'new-one': 'title: "New one"\ndescription: "D."' });
+  const before = readFileSync(join(root, 'data/nostr-articles.json'), 'utf8');
+  const r = await run('./nostr-sync-articles.mjs', ['--check'], { root, withKey: false });
+  assert.equal(r.code, 0, r.all);
+  assert.ok(r.summary.includes('Guides without a Nostr draft: new-one'), r.summary);
+  assert.equal(readFileSync(join(root, 'data/nostr-articles.json'), 'utf8'), before);
+  rmSync(join(root, 'src/pages/guides/new-one.md'));
+  rmSync(join(root, 'summary.md'));
+  const none = await run('./nostr-sync-articles.mjs', ['--check'], { root, withKey: false });
+  assert.equal(none.summary, '');
 });
 
 test('dry-run with articles: shows the next article (text, tags, queue), publishes nothing, writes no record', async () => {

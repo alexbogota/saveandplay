@@ -71,6 +71,11 @@ jobs:
             *) echo "Unknown mode: $MODE"; exit 2 ;;
           esac
 
+      # Read only: one line in Summary if a guide of the site has no Nostr draft yet (npm run nostr:articles adds them on the computer). Writes and commits nothing.
+      - name: Guides without a Nostr draft
+        if: ${{ always() && env.MODE == 'dry-run' }}
+        run: node scripts/nostr-sync-articles.mjs --check
+
       # Runs even if the step above went red: a note that reached some relays must still be recorded, so it is not posted twice.
       - name: Save the record of posts on the brief branch
         if: ${{ always() && env.MODE == 'post' }}

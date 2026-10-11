@@ -19,6 +19,7 @@
     "nostr:post": "node scripts/post-nostr.mjs",
     "nostr:check": "node scripts/nostr-check.mjs",
     "nostr:test": "node scripts/test-nostr.mjs",
+    "nostr:articles": "node scripts/nostr-sync-articles.mjs",
     "posts:test": "node scripts/test-posts.mjs",
     "kinguin:test": "node scripts/test-kinguin.mjs",
     "articles:test": "node --test scripts/test-articles.mjs",
