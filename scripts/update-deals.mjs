@@ -11,6 +11,10 @@
 //              (the sale is over -> the game is removed), reads the sale end date from the game's page,
 //              then adds up to a few new best-selling discounted games that pass the quality rules in data/deals-rules.json
 //              (enough GOG reviews, and the same Steam check as for IndieGala).
+//   Kinguin    reads the small ready list data/kinguin.json of the PUBLIC repo saveandplay-feeds (that repo reads the big Kinguin feed
+//              and compares every key with the current Steam price; the address is in data/deals-rules.json). Here the list is checked
+//              again with our own rules (scripts/lib/kinguin.mjs) and only a few games a day are added (maxNew, maxTotal).
+//              Runs last, so a game that GOG or IndieGala already sell is not shown from Kinguin.
 // Then: games listed in "exclude" are removed, a price nobody checked for dropOlderThanHours is removed (we show nothing
 // rather than an old price), one price snapshot per deal per day goes to data/history.json.
 // Covers (the "image" field) are filled by "npm run covers", the GitHub workflow runs it after this program.
@@ -19,7 +23,7 @@
 // dropOlderThanHours). Prices are never guessed. Nothing is published.
 //
 // For tests: DEALS_FILE, HISTORY_FILE, RULES_FILE, ACCOUNTS_FILE, REPORT_DIR, INDIEGALA_SCRIPT, INDIEGALA_OUT,
-// STEAM_MOCK_FILE, UPDATE_NOW, FEED_TIMEOUT_MS, FEED_PAUSE_MS, GOG_CATALOG_URL, GOG_PAGE_ORIGIN.
+// STEAM_MOCK_FILE, UPDATE_NOW, FEED_TIMEOUT_MS, FEED_PAUSE_MS, GOG_CATALOG_URL, GOG_PAGE_ORIGIN, KINGUIN_FILE (a local copy of kinguin.json).
 
 import { readFile, writeFile, mkdir, rm } from 'node:fs/promises';
 import { appendFileSync } from 'node:fs';
@@ -27,6 +31,7 @@ import { spawn } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { resolve } from 'node:path';
 import { makeClient, lookup, topDiscounted, endDate } from './lib/gog.mjs';
+import { updateKinguin } from './lib/kinguin.mjs';
 
 const UA = 'SaveAndPlay-prices/1.0 (+https://saveandplay.com)';
 const HOUR = 3600e3;
@@ -211,6 +216,25 @@ export async function updateGog({ deals, rules, now, get, steam, link }) {
   return { deals: [...result, ...deals.filter((d) => d.store !== 'GOG')], out, ok };
 }
 
+// ---------- Kinguin ----------
+
+// The ready list from the public repo (or a local file for tests). Three tries, then an error: the old entries stay as they were.
+async function loadKinguin(k) {
+  if (process.env.KINGUIN_FILE) return readJson(resolve(process.env.KINGUIN_FILE));
+  let last;
+  for (let i = 1; i <= 3; i++) {
+    try {
+      const res = await fetch(k.source, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(30000) });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return await res.json();
+    } catch (e) {
+      last = e;
+      if (i < 3) await new Promise((done) => setTimeout(done, 2000 * i));
+    }
+  }
+  throw new Error(`файл ${k.source} не открылся: ${last.message}`);
+}
+
 // ---------- clean-up and history ----------
 
 // Final checks on the whole list. Returns the list and what was removed.
@@ -241,7 +265,7 @@ export function snapshot(history, deals, today) {
 
 // ---------- the report ----------
 
-export function report({ now, dry, before, after, ig, gog, removed, errors }) {
+export function report({ now, dry, before, after, ig, gog, kg, removed, errors }) {
   const L = [];
   const list = (title, items) => items.length && L.push(`${title} (${items.length}):`, ...items.map((i) => `- ${i}`), '');
   L.push(`# Обновление цен, ${new Date(now).toISOString().slice(0, 16).replace('T', ' ')} UTC${dry ? ' (пробный запуск, ничего не записано)' : ''}`, '');
@@ -261,6 +285,16 @@ export function report({ now, dry, before, after, ig, gog, removed, errors }) {
     list('Не удалось уточнить', [...o.unknown, ...o.problems]);
     const sk = o.skipped;
     L.push(`Новые игры не прошли проверку Steam: нет в Steam ${sk.notOnSteam}, мало отзывов ${sk.fewReviews}, низкая оценка ${sk.lowScore}, взрослый контент ${sk.adult}, Steam не ответил ${sk.steamError}. Найдено скидок в каталоге: ${o.found}.`, '');
+  }
+  if (kg) {
+    const o = kg.out;
+    L.push(`## Kinguin: обновлено ${o.refreshed.length}, добавлено ${o.added.length}, убрано ${o.dropped.length}`, '');
+    list('Новые', o.added);
+    list('Убраны', o.dropped);
+    list('Цены', o.refreshed);
+    list('Замечания', o.problems);
+    const sk = o.skipped;
+    L.push(`В файле ${o.inFile} игр (ему ${o.fileAgeHours} ч), прошли наши правила ${o.valid}. Не прошли: запись повреждена ${sk.invalid}, скидка к Steam вне границ ${sk.savings}, мало отзывов ${sk.fewReviews}, низкая оценка ${sk.lowScore}, нет региона ${sk.noRegion}, ссылка не прошла проверку ${sk.badLink}, в списке exclude ${sk.excluded}, игру уже продаёт обычный магазин ${sk.officialHasIt}, повтор ${sk.duplicate}.`, '');
   }
   list('Убрано как исключённое (data/deals-rules.json)', removed.excluded);
   list('Убрано как некорректное', removed.invalid);
@@ -286,6 +320,7 @@ async function main() {
   const errors = [];
   let ig = null;
   let gog = null;
+  let kg = null;
   let updatedStores = 0;
 
   if (rules.indiegala?.enabled) {
@@ -326,8 +361,25 @@ async function main() {
     }
   }
 
+  // Kinguin goes last: it needs the final list of GOG and IndieGala to leave out games that an official store already sells.
+  if (rules.kinguin?.enabled) {
+    try {
+      const file = await loadKinguin(rules.kinguin);
+      const r = updateKinguin({ deals, rules, now, file, isExcluded });
+      if (r.ok) {
+        deals = r.deals;
+        kg = r;
+        updatedStores++;
+      } else {
+        errors.push(`Kinguin: ${r.out.problems.join('; ')}. Записи оставлены как были`);
+      }
+    } catch (e) {
+      errors.push(`Kinguin: ${e.message}. Записи оставлены как были`);
+    }
+  }
+
   const { deals: finalDeals, removed } = tidy(deals, rules, now);
-  const md = report({ now, dry, before: original.length, after: finalDeals.length, ig, gog, removed, errors });
+  const md = report({ now, dry, before: original.length, after: finalDeals.length, ig, gog, kg, removed, errors });
   console.log(md);
 
   const reportDir = path('REPORT_DIR', '../drafts/');

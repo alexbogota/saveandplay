@@ -20,6 +20,7 @@
     "nostr:check": "node scripts/nostr-check.mjs",
     "nostr:test": "node scripts/test-nostr.mjs",
     "posts:test": "node scripts/test-posts.mjs",
+    "kinguin:test": "node scripts/test-kinguin.mjs",
     "tags:research": "node scripts/tag-research.mjs"
   },
   "dependencies": {

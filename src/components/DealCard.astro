@@ -1,22 +1,24 @@
 ---
-import { goUrl, money, type Deal } from '../lib/deals';
+import { goUrl, money, marketplaceTag, type Deal } from '../lib/deals';
 const { deal } = Astro.props as { deal: Deal };
 // A real <img> (not a CSS background) so the picture has alt text and search engines and screen readers can see it.
+// A marketplace key (Kinguin) is compared with the CURRENT price in another store (compareTo, now Steam). That price is shown as a label, not as a crossed-out "old price".
+const vs = deal.compareTo;
 const coverBg = deal.cover ? 'background: #1C2430' : `background: ${deal.tone ?? '#263553'}`;
 ---
 <article class="card">
   <div class="cover" style={coverBg}>
     {deal.cover && <img src={deal.cover} alt={`Cover art for ${deal.title}`} width="460" height="215" loading="lazy" decoding="async" />}
-    <span class="off">-{deal.discount}%</span>
+    <span class="off">-{deal.discount}%{vs ? ` vs ${vs}` : ''}</span>
   </div>
   <div class="body">
     <div>
       <h3>{deal.title}</h3>
-      <div class="store">{deal.store}</div>
+      <div class="store">{deal.store}{deal.marketplace && ` · ${marketplaceTag}`}</div>
     </div>
     <div class="row">
       <div class="prices">
-        <div class="was">{money(deal.was)}</div>
+        {vs ? <div class="ref">{vs} price {money(deal.was)}</div> : <div class="was">{money(deal.was)}</div>}
         <div class="now">{money(deal.price)}</div>
       </div>
       <a class="sp-btn view" href={deal.affiliateUrl ?? deal.url ?? goUrl(deal)} rel="sponsored nofollow noopener" target="_blank" data-deal={deal.title} data-store={deal.store} aria-label={`View deal: ${deal.title} at ${deal.store}`}>View deal</a>
@@ -36,6 +38,7 @@ const coverBg = deal.cover ? 'background: #1C2430' : `background: ${deal.tone ??
   .row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
   .prices { line-height: 1.2; }
   .was { font-size: 13px; color: var(--muted); text-decoration: line-through; }
+  .ref { font-size: 13px; color: var(--muted); }
   .now { font-weight: 700; font-size: 22px; color: var(--heading); }
   .view { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 18px; border-radius: 10px; background: var(--accent); color: var(--on-accent); font-weight: 700; font-size: 15px; }
 </style>

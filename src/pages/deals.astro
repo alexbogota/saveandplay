@@ -1,7 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import DealCard from '../components/DealCard.astro';
-import { allDeals, storeList, lastChecked, slug } from '../lib/deals';
+import { allDeals, storeList, lastChecked, slug, hasMarketplace } from '../lib/deals';
 ---
 <Layout
   title="All PC game deals | SaveAndPlay"
@@ -16,6 +16,13 @@ import { allDeals, storeList, lastChecked, slug } from '../lib/deals';
       Always check the final price in the store before you buy.
     </p>
     <p class="aff-note">Some links are affiliate links: we may earn a commission when you buy, at no extra cost to you. <a href="/disclosure/">Learn more</a></p>
+    {hasMarketplace && (
+      <p class="market-note">
+        Deals marked <strong>Marketplace key</strong> are keys sold on a marketplace, often by independent sellers. They come after the store sales, and
+        their discount is measured against today's Steam price, not against an old price. Check the seller and the region before you buy.{' '}
+        <a class="text-link" href="/disclosure/#marketplaces">Learn more</a>
+      </p>
+    )}
 
     <div class="chips" role="group" aria-label="Filter by store">
       <button type="button" class="chip" data-filter="all" aria-pressed="true">All <span>{allDeals.length}</span></button>
@@ -77,6 +84,7 @@ import { allDeals, storeList, lastChecked, slug } from '../lib/deals';
   .chip:hover { border-color: var(--accent); color: var(--heading); }
   .chip[aria-pressed='true'] { background: var(--accent); border-color: var(--accent); color: var(--on-accent); font-weight: 700; }
   .chip[aria-pressed='true'] span { color: var(--on-accent); }
+  .market-note { margin: 16px 0 0; max-width: 760px; padding: 12px 16px; border: 1px solid var(--callout-border); border-radius: 10px; background: var(--callout-bg); color: var(--callout-text); font-size: 15px; }
   .count { margin: 0 0 20px; font-size: 14px; color: var(--muted); }
   .grid { display: grid; gap: 20px; grid-template-columns: repeat(auto-fill, minmax(min(250px, 100%), 1fr)); }
   .item { display: flex; }
