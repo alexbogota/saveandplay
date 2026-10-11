@@ -28,7 +28,7 @@
 7. Через 2–4 недели: разбор лайков и кликов, пересмотр тегов. «Lowest price we've tracked» появится само после 14 дней истории цен.
 8. War Thunder (Admitad, одобрен): в соцсети НЕЛЬЗЯ (правила программы). Нужна от владельца рекламная ссылка Admitad. Баннер 300×250 уже в `public/promo/` (ждёт `/publish`). Потом: страница и баннер на сайте только для десктопа и не из РФ/СНГ. Правила: `docs/partners.md` §3.
 9. Статья «Is a game bundle worth it?» опубликована 11 октября: https://saveandplay.com/guides/is-a-game-bundle-worth-it/. Посты для Bluesky и Mastodon: `drafts/social/post-02-is-a-game-bundle-worth-it.md`. Примеры с бандлами устареют к 28 октября.
-10. Daily article: программа, настройки и правила автора опубликованы, но файла workflow `.github/workflows/daily-article.yml` в папке нет, автор статей пока не запускается. Его должен дописать Claude. Потом один раз: `claude setup-token`, секрет `CLAUDE_CODE_OAUTH_TOKEN` в GitHub (Settings, Secrets and variables, Actions), запуск Daily article с галочкой force.
+10. Daily article: workflow опубликован 11 октября, но без токена падает на шаге «Check the subscription token». Один раз: в обычном терминале `claude setup-token` (вход через браузер, токен показывается только вам), вставить его в секрет `CLAUDE_CODE_OAUTH_TOKEN` (GitHub, Settings, Secrets and variables, Actions), запустить Daily article с галочкой force. Токен в чат не присылать.
 
 ## Где главное
 - `data/accounts.json`: всё про аккаунты и каналы (правила выбора скидок, шаблоны постов, теги, пометка `Ad`, лимиты). Новый канал или аккаунт = новый блок, код не меняется.
