@@ -1,8 +1,8 @@
-# Short links for the profiles of our social accounts (saveandplay.com/go/nostr, /go/bsky, /go/mastodon, /go/quora).
+# Short links for the profiles of our social accounts (saveandplay.com/go/nostr, /go/bsky, /go/mastodon, /go/lemmy, /go/quora).
 # Why: the profile of a network shows the link as text, and a link with utm marks is long and ugly. A short address on our own site
 # sends the visitor (302, not 301, so a changed mark is never stuck in a browser) to the home page WITH the marks of that network,
 # so the visits from a profile can be told apart in Google Analytics (Source / medium: nostr-prices / social, Campaign: profile).
-# The mark of a network is the "subid" of its account in data/accounts.json (nostr-prices, bluesky-prices, mastodon-prices): the address is short (/go/bsky), the mark is the full one.
+# The mark of a network is the "subid" of its account in data/accounts.json (nostr-prices, bluesky-prices, mastodon-prices, lemmy-prices): the address is short (/go/bsky), the mark is the full one.
 # Quora has no block in data/accounts.json (its answers are written by hand), so its mark is just "quora"; medium and campaign are the same as for the others.
 # A new network = one more line. This file works only inside this folder (public/go/): the main settings of the site are not touched.
 # If this file ever causes a server error after a deploy, delete it (the site itself does not depend on it).
@@ -10,5 +10,6 @@
   RedirectMatch 302 ^/go/nostr/?$ https://saveandplay.com/?utm_source=nostr-prices&utm_medium=social&utm_campaign=profile
   RedirectMatch 302 ^/go/bsky/?$ https://saveandplay.com/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=profile
   RedirectMatch 302 ^/go/mastodon/?$ https://saveandplay.com/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=profile
+  RedirectMatch 302 ^/go/lemmy/?$ https://saveandplay.com/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=profile
   RedirectMatch 302 ^/go/quora/?$ https://saveandplay.com/?utm_source=quora&utm_medium=social&utm_campaign=profile
 </IfModule>

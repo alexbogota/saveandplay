@@ -1,0 +1,48 @@
+{
+  "about": "Настройки аккаунтов Lemmy: всё, что относится только к Lemmy. Ключ аккаунта (сейчас lemmy) должен совпадать с ключом блока в data/accounts.json: там лежат правила подбора скидок для ежедневного брифа (магазины, минимальная скидка, метка subid, правила поста). Здесь: instance = сервер, на котором владелец создал аккаунт (адрес без https://); username = имя пользователя без @; passwordEnv = имя секрета GitHub (и строки в локальном .env) с паролем аккаунта (по умолчанию LEMMY_PASSWORD; пароль в файлах не хранится); autopost = публиковать ли самим (false: только пробный запуск dry-run, включает владелец после «ок»; true: пост каждый день, а также выключатель, если что-то пошло не так); timezone = часовой пояс «дня»; maxBriefAgeHours = бриф старше этого не используем; articleEveryDays = как часто выходит статья сайта (по умолчанию 2); retryDays = сколько дней докидываем статью в сообщества, куда она не дошла (по умолчанию 3); apiVersion = v3 или v4, если нужно задать вручную (по умолчанию программа сама пробует v4, потом v3: Lemmy 0.19 говорит на v3, Lemmy 1.0 на v4); profile = displayName (до 20 знаков), bio (до 300 знаков), bot (true: значок BOT), avatar и banner (полные https-адреса). communities = куда публикуем: community = имя@сервер, kinds = какие посты берёт («deal» скидка дня, «article» статья сайта), enabled = включено ли (false: сообщество в списке, но ничего туда не уходит), titleTemplate = необязательный шаблон заголовка скидки ({title} {discount} {store} {price} {was}), languageId = необязательный язык поста (английский = 37), note = заметка для людей (программа её не читает). ВАЖНО: у каждого сообщества свои правила про рекламу и партнёрские ссылки. Включать сообщество только после того, как владелец прочитал его боковую панель (правила) и запись в LEMMY.md. Скидки (в них партнёрские ссылки через наш сайт) отправляются только в сообщества, где такие ссылки разрешены с пометкой; статьи (в них партнёрских ссылок нет) только туда, где разрешена ссылка на свой сайт. Проверка подключения: npm run lemmy:check (или GitHub, Actions, Post to Lemmy, mode check). Всё про Lemmy: LEMMY.md.",
+  "accounts": {
+    "lemmy": {
+      "instance": "lemmy.zip",
+      "username": "saveandplay",
+      "passwordEnv": "LEMMY_PASSWORD",
+      "autopost": false,
+      "timezone": "America/Bogota",
+      "maxBriefAgeHours": 12,
+      "articleEveryDays": 2,
+      "retryDays": 3,
+      "profile": {
+        "displayName": "Honest prices",
+        "bio": "Honest PC game prices, checked daily: one deal a day from GOG and IndieGala, with the date we checked it. Posts are made by a bot. Some links are affiliate links, we may earn a commission. saveandplay.com/go/lemmy",
+        "bot": true,
+        "avatar": "https://saveandplay.com/avatar.png",
+        "banner": "https://saveandplay.com/og-image.png"
+      },
+      "communities": [
+        {
+          "community": "gamedeals@compuverse.uk",
+          "kinds": [
+            "deal"
+          ],
+          "enabled": false,
+          "note": "11 Oct 2026, по поиску: партнёрские ссылки разрешены, если указаны; магазины только легальные, серых магазинов ключей нет (Kinguin сюда не идёт). Боковую панель я напрямую не открывал (сайт закрыт для роботов): прочитать перед включением. Мало подписчиков (около 700)."
+        },
+        {
+          "community": "gamedeals@lemmy.zip",
+          "kinds": [
+            "deal"
+          ],
+          "enabled": false,
+          "note": "11 Oct 2026: около 3700 подписчиков, самое живое из найденных. Рекомендует формат заголовка (магазин, регион, цена); в описании сообщества запрета партнёрских ссылок не нашёл, но правила самого сервера и боковую панель читать перед включением."
+        },
+        {
+          "community": "steam@lemmy.world",
+          "kinds": [
+            "article"
+          ],
+          "enabled": false,
+          "note": "11 Oct 2026: около 800 подписчиков, описание «For Steam Game Stuff», правил про рекламу и свой сайт не нашёл. Подходят гиды про Steam (возвраты, ключи). Прочитать боковую панель перед включением."
+        }
+      ]
+    }
+  }
+}

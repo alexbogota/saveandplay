@@ -6,11 +6,13 @@
 #   bash scripts/nostr-branch.sh save    after posting: put drafts/posted-nostr.json on the branch and push it (nothing to do if it did not change)
 #
 # Used by the "Post to Nostr" workflow on GitHub. Environment: BRIEF_BRANCH (default "brief"), BRIEF_REMOTE (default "origin").
+# The "Post to Lemmy" workflow uses the same script for its own record: STATE_FILE=posted-lemmy.json STATE_LABEL=Lemmy (the defaults are Nostr's).
 set -euo pipefail
 
 BRANCH="${BRIEF_BRANCH:-brief}"
 REMOTE="${BRIEF_REMOTE:-origin}"
-STATE_FILE="posted-nostr.json"
+STATE_FILE="${STATE_FILE:-posted-nostr.json}"
+LABEL="${STATE_LABEL:-Nostr}"
 cd "$(git rev-parse --show-toplevel)"
 
 load() {
@@ -49,11 +51,11 @@ save() {
     cp "drafts/$STATE_FILE" "$WT/$STATE_FILE"
     git -C "$WT" add "$STATE_FILE"
     if git -C "$WT" diff --cached --quiet; then
-      echo "The record of Nostr posts did not change, nothing to save."
+      echo "The record of $LABEL posts did not change, nothing to save."
       git worktree remove --force "$WT" >/dev/null 2>&1 || true
       return 0
     fi
-    git -C "$WT" -c user.name="saveandplay-bot" -c user.email="bot@saveandplay.com" commit --quiet -m "Nostr posts $(date -u +%F)"
+    git -C "$WT" -c user.name="saveandplay-bot" -c user.email="bot@saveandplay.com" commit --quiet -m "$LABEL posts $(date -u +%F)"
     if git -C "$WT" push --quiet "$REMOTE" "$BRANCH"; then
       echo "Saved to the $BRANCH branch."
       git worktree remove --force "$WT" >/dev/null 2>&1 || true
@@ -63,7 +65,7 @@ save() {
     git worktree remove --force "$WT" >/dev/null 2>&1 || true
     sleep $((attempt * 3))
   done
-  echo "Could not save the record of Nostr posts after 3 tries. The note WAS posted: do NOT run the posting again before the record is fixed." >&2
+  echo "Could not save the record of $LABEL posts after 3 tries. The post WAS made: do NOT run the posting again before the record is fixed." >&2
   return 1
 }
 

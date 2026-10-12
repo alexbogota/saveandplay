@@ -1,0 +1,95 @@
+name: Post to Lemmy
+
+# Two kinds of posts, independent of each other (the same rule as Nostr): one DEAL a day and one GUIDE of the site every 2 days.
+#   07:00 Bogota (an hour after the "Daily brief"): post, kind deal    (the first deal of the brief)
+#   12:30 Bogota:                                   post, kind article (the oldest guide of the site not posted yet, no approval;
+#                                                   green "Skipped" if the last guide is less than 2 days old, none waits, or its page is not live)
+# Where a post goes is decided in data/lemmy-accounts.json: every community that lists the kind and is switched on ("enabled": true).
+# Nothing is posted until "autopost" is true there (the owner's ok) and the secret LEMMY_PASSWORD is set (npm run lemmy:secret).
+# By hand: GitHub -> Actions -> "Post to Lemmy" -> Run workflow, then choose a mode and (for dry-run and post) a kind:
+#   dry-run  (default) shows the posts that would be made, logs in nowhere, publishes nothing
+#   post     posts today's post of that kind (only if "autopost" is true; one deal a day, a community that failed is tried again)
+#   check    logs in and looks at every community of the account (found? subscribers? only moderators can post?); the first thing to run
+#   profile  the same, and saves the profile: display name, bio, BOT flag, avatar, banner
+# Result: the run page, section "Summary" (text, communities, link to each post).
+# Green with "Skipped" = nothing to post or already posted today. Red = a community did not take the post (or the login failed), or something is broken.
+#
+# The password is the GitHub Secret LEMMY_PASSWORD. It is passed only to the step that logs in and is never printed.
+on:
+  schedule:
+    - cron: '0 12 * * *' # 12:00 UTC = 07:00 Bogota, after the daily brief (11:00 UTC): the deal
+    - cron: '30 17 * * *' # 17:30 UTC = 12:30 Bogota: the guide
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'What to do'
+        type: choice
+        default: dry-run
+        options:
+          - dry-run
+          - post
+          - check
+          - profile
+      kind:
+        description: 'Which post (for dry-run and post)'
+        type: choice
+        default: deal
+        options:
+          - deal
+          - article
+
+# Writing is needed only to save the record of posts on the "brief" branch.
+permissions:
+  contents: write
+
+concurrency:
+  group: lemmy-post
+  cancel-in-progress: false
+
+jobs:
+  lemmy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      MODE: ${{ github.event.inputs.mode || 'post' }}
+      # The 17:30 UTC schedule is the guide; the other schedule and a run by hand without a choice are the deal.
+      KIND: ${{ github.event.schedule == '30 17 * * *' && 'article' || github.event.inputs.kind || 'deal' }}
+      # The record of posts of Lemmy lives on the "brief" branch next to the one of Nostr (the same script, another file).
+      STATE_FILE: posted-lemmy.json
+      STATE_LABEL: Lemmy
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v4
+        with:
+          # Always the newest main, so "Re-run jobs" on an old run does not use old code.
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install packages
+        run: npm ci
+
+      - name: Get the brief and the record of earlier posts
+        if: ${{ env.MODE == 'post' || env.MODE == 'dry-run' }}
+        run: bash scripts/nostr-branch.sh load
+
+      - name: Run (${{ env.MODE }}, ${{ env.KIND }})
+        env:
+          LEMMY_PASSWORD: ${{ secrets.LEMMY_PASSWORD }}
+        run: |
+          case "$MODE" in
+            post) node scripts/post-lemmy.mjs --kind "$KIND" ;;
+            dry-run) node scripts/post-lemmy.mjs --kind "$KIND" --dry-run ;;
+            check) node scripts/lemmy-check.mjs ;;
+            profile) node scripts/lemmy-check.mjs --profile ;;
+            *) echo "Unknown mode: $MODE"; exit 2 ;;
+          esac
+
+      # Runs even if the posting step went red: a post that reached some communities must still be recorded, so it is not posted twice.
+      - name: Save the record of posts on the brief branch
+        if: ${{ always() && env.MODE == 'post' }}
+        run: bash scripts/nostr-branch.sh save
