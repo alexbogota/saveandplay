@@ -5,5 +5,36 @@
     "url": "https://www.quora.com/profile/Save-And-Play",
     "registered": "2026-10-11"
   },
-  "answers": []
+  "answers": [
+    {
+      "date": "2026-10-11",
+      "question": "https://www.quora.com/Can-I-get-a-refund-from-a-Steam-game-which-I-played-for-2-hours-but-it-was-purchased-18-days-ago",
+      "answer": "https://qr.ae/pFDbiX",
+      "guide": "how-steam-refunds-work",
+      "link": false,
+      "views": null,
+      "upvotes": null,
+      "note": "опубликован вечером 11 октября, все три сразу без ссылок; адрес ответа это короткая ссылка Quora (qr.ae); порядок адресов принят как в сообщении владельца, не подтверждён"
+    },
+    {
+      "date": "2026-10-11",
+      "question": "https://www.quora.com/Is-Humble-Bundle-worth-it",
+      "answer": "https://qr.ae/pFDb9U",
+      "guide": "is-a-game-bundle-worth-it",
+      "link": false,
+      "views": null,
+      "upvotes": null,
+      "note": "опубликован вечером 11 октября, все три сразу без ссылок; адрес ответа это короткая ссылка Quora (qr.ae); порядок адресов принят как в сообщении владельца, не подтверждён"
+    },
+    {
+      "date": "2026-10-11",
+      "question": "https://www.quora.com/What-is-the-difference-between-DRM-and-DRM-free-games",
+      "answer": "https://qr.ae/pFDb9V",
+      "guide": "steam-key-vs-drm-free",
+      "link": false,
+      "views": null,
+      "upvotes": null,
+      "note": "опубликован вечером 11 октября, все три сразу без ссылок; адрес ответа это короткая ссылка Quora (qr.ae); порядок адресов принят как в сообщении владельца, не подтверждён"
+    }
+  ]
 }
