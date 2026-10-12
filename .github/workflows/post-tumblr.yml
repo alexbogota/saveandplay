@@ -1,0 +1,95 @@
+name: Post to Tumblr
+
+# Two kinds of posts, independent of each other (the same rule as Nostr and Lemmy): one DEAL a day and one GUIDE of the site every 2 days.
+#   08:00 Bogota (two hours after the "Daily brief"): post, kind deal    (the first deal of the brief)
+#   13:00 Bogota:                                     post, kind article (the oldest guide of the site not posted yet, no approval;
+#                                                     green "Skipped" if the last guide is less than 2 days old, none waits, or its page is not live)
+# Which kinds the blog takes is decided in data/tumblr-accounts.json ("kinds").
+# Nothing is posted until "autopost" is true there (the owner's ok) and the four secrets are set (npm run tumblr:auth, then npm run tumblr:secret).
+# By hand: GitHub -> Actions -> "Post to Tumblr" -> Run workflow, then choose a mode and (for dry-run and post) a kind:
+#   dry-run  (default) shows the post that would be made, logs in nowhere, publishes nothing
+#   post     posts today's post of that kind (only if "autopost" is true; one deal a day)
+#   check    logs in and looks at the blogs of the user; the first thing to run
+# Result: the run page, section "Summary" (text, link to the post).
+# Green with "Skipped" = nothing to post or already posted today. Red = Tumblr did not take the post (or the login failed), or something is broken.
+#
+# The four secrets are GitHub Secrets. They are passed only to the step that talks to Tumblr and are never printed.
+on:
+  schedule:
+    - cron: '0 13 * * *' # 13:00 UTC = 08:00 Bogota, after the daily brief (11:00 UTC): the deal
+    - cron: '0 18 * * *' # 18:00 UTC = 13:00 Bogota: the guide
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'What to do'
+        type: choice
+        default: dry-run
+        options:
+          - dry-run
+          - post
+          - check
+      kind:
+        description: 'Which post (for dry-run and post)'
+        type: choice
+        default: deal
+        options:
+          - deal
+          - article
+
+# Writing is needed only to save the record of posts on the "brief" branch.
+permissions:
+  contents: write
+
+concurrency:
+  group: tumblr-post
+  cancel-in-progress: false
+
+jobs:
+  tumblr:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      MODE: ${{ github.event.inputs.mode || 'post' }}
+      # The 18:00 UTC schedule is the guide; the other schedule and a run by hand without a choice are the deal.
+      KIND: ${{ github.event.schedule == '0 18 * * *' && 'article' || github.event.inputs.kind || 'deal' }}
+      # The record of posts of Tumblr lives on the "brief" branch next to the ones of Nostr and Lemmy (the same script, another file).
+      STATE_FILE: posted-tumblr.json
+      STATE_LABEL: Tumblr
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v4
+        with:
+          # Always the newest main, so "Re-run jobs" on an old run does not use old code.
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install packages
+        run: npm ci
+
+      - name: Get the brief and the record of earlier posts
+        if: ${{ env.MODE == 'post' || env.MODE == 'dry-run' }}
+        run: bash scripts/nostr-branch.sh load
+
+      - name: Run (${{ env.MODE }}, ${{ env.KIND }})
+        env:
+          TUMBLR_CONSUMER_KEY: ${{ secrets.TUMBLR_CONSUMER_KEY }}
+          TUMBLR_CONSUMER_SECRET: ${{ secrets.TUMBLR_CONSUMER_SECRET }}
+          TUMBLR_TOKEN: ${{ secrets.TUMBLR_TOKEN }}
+          TUMBLR_TOKEN_SECRET: ${{ secrets.TUMBLR_TOKEN_SECRET }}
+        run: |
+          case "$MODE" in
+            post) node scripts/post-tumblr.mjs --kind "$KIND" ;;
+            dry-run) node scripts/post-tumblr.mjs --kind "$KIND" --dry-run ;;
+            check) node scripts/tumblr-check.mjs ;;
+            *) echo "Unknown mode: $MODE"; exit 2 ;;
+          esac
+
+      # Runs even if the posting step went red: a post that went through must still be recorded, so it is not posted twice.
+      - name: Save the record of posts on the brief branch
+        if: ${{ always() && env.MODE == 'post' }}
+        run: bash scripts/nostr-branch.sh save
