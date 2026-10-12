@@ -256,6 +256,62 @@
             "id": "40d7c64647cc9f78d925d3ef4d2a604db0e1f6a7e0bce41e7352b23290226c7a",
             "sig": "28d98f08eacc492740240863178d510cba9cc9045ca5e630e0367e67fe5f5fde7e53748509be9c6247179d5640abc0ee150e889a943278141115784c9baf9381"
           }
+        },
+        "article": {
+          "status": "done",
+          "kind": "article",
+          "id": "1609d682da5a1fd92dbd2966660745890413391ba0be2db3bb1dad0d4d86c689",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "article": "how-steam-refunds-work",
+          "postedAt": "2026-10-12T17:09:53.000Z",
+          "accepted": [
+            "wss://relay.damus.io",
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [],
+          "event": {
+            "kind": 1,
+            "created_at": 1791824993,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-article"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "t",
+                "steam"
+              ],
+              [
+                "t",
+                "refunds"
+              ],
+              [
+                "imeta",
+                "url https://saveandplay.com/og/how-steam-refunds-work.png",
+                "m image/png",
+                "alt Diagram: a Steam refund needs two things, a purchase made within 14 days and less than 2 hours of playtime. Keys bought outside Steam are not covered."
+              ]
+            ],
+            "content": "How Steam refunds work: the 14-day, 2-hour rule and what it misses\n\nSteam refunds most games within two weeks and under two hours of play. Here is what the rule covers, where it stops (keys from other stores, in-game items), and how to ask.\n\n#pcgaming #gamedeals #steam #refunds\n\nhttps://saveandplay.com/og/how-steam-refunds-work.png\n\nhttps://saveandplay.com/guides/how-steam-refunds-work/?utm_source=nostr-prices&utm_medium=social&utm_campaign=how-steam-refunds-work",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "1609d682da5a1fd92dbd2966660745890413391ba0be2db3bb1dad0d4d86c689",
+            "sig": "45fd28c625288a02b0ab31eac0724845e6dc95b2ca0bccf0907cfc44a13695bff28d627a153b4639423b54129340b89c012c63d19dca7153e665a492231c77b0"
+          }
         }
       }
     }
@@ -269,6 +325,10 @@
       "steam-key-vs-drm-free": {
         "day": "2026-10-09",
         "id": "019d4e591148c0320521aaf5c403494a88ab0454b6add4ffb11175db517a3155"
+      },
+      "how-steam-refunds-work": {
+        "day": "2026-10-12",
+        "id": "1609d682da5a1fd92dbd2966660745890413391ba0be2db3bb1dad0d4d86c689"
       }
     }
   },
