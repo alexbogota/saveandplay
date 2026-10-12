@@ -1,5 +1,5 @@
 # START: читать первым (короткая память проекта)
-Обновлено: 11 октября 2026 (поздний вечер). После каждой задачи Claude сам обновляет этот файл (что изменилось, что ждёт владельца). Не больше 60 строк. Длинное идёт в `docs/`.
+Обновлено: 12 октября 2026 (добавлен Tumblr). После каждой задачи Claude сам обновляет этот файл (что изменилось, что ждёт владельца). Не больше 60 строк. Длинное идёт в `docs/`.
 
 ## Что работает сейчас
 - Сайт saveandplay.com (Astro). Push в `main` сам выкладывает его на хостинг. У каждой скидки своя страница `/deals/<магазин>/<игра>/`, есть Guides и Servers.
@@ -8,6 +8,8 @@
 - Ежедневный бриф сам выбирает скидку дня и собирает готовые посты для Bluesky и Mastodon (без нейросети), плюс темы для статей.
 - Nostr (экспериментальная площадка): своя программа, публикует сама. Скидка каждый день; статья сайта не чаще 1 раза в 2 дня, САМА, без одобрения: самый старый ещё не вышедший гид, только если его страница открывается. Не пускать гид в Nostr: `nostr: false` в шапке. Свой текст вместо шаблона: блок в `data/nostr-articles.json`. Посмотреть порядок: `npm run nostr:articles`. Подробно в `NOSTR.md`.
 - Bluesky и Mastodon: автопубликации нет, посты владелец копирует и публикует сам.
+- Lemmy (11 октября, ГОТОВ, НО ВЫКЛЮЧЕН): своя программа `scripts/post-lemmy.mjs` как у Nostr: скидка дня и гид сайта в выбранные сообщества, у скидки последняя строка `Ad: …`. `autopost: false`, все сообщества `enabled: false`, пока нет аккаунта и не прочитаны правила сообществ (gamedeals@lemmy.world и pcgaming запрещают партнёрки и рекламу). На живом сервере ещё не проверен. Всё в `LEMMY.md`.
+- Tumblr (12 октября, ГОТОВ, НО ВЫКЛЮЧЕН): своя программа `scripts/post-tumblr.mjs`, гиды сайта (раз в 2 дня) и скидка дня, у скидки последний блок `Ad: …`; ссылки только на наши страницы. `autopost: false`, `blog` в `data/tumblr-accounts.json` пока заглушка. Вход OAuth 1.0a. Картинка блоком своего размера и текстовая ссылка, без карточки (`linkStyle`). На живом Tumblr не проверен. Всё в `TUMBLR.md`.
 - Статьи (Guides): каждое утро workflow «Daily article» сам пишет черновик гида (раз в 2 дня, настройка в `data/articles.json`): текст, картинка, посты для Bluesky и Mastodon, заметки по-русски «откуда каждая цифра». Пишет Claude по вашей подписке, без платного API (токен в секрете `CLAUDE_CODE_OAUTH_TOKEN`), правила `docs/article-writer.md`; проверку и картинку делает программа `scripts/article-tools.mjs`. Черновик лежит на ветке `articles` и в Summary запуска, сайт не трогается. Вы читаете, говорите «ок, статья дня», Claude Code делает `/publish` (берёт черновик командой `take`). Автопубликации на сайт нет (решение 7 октября, `docs/decisions.md`). Сайты Humble закрыты для инструментов чата: их цифры берём из gg.deals и Indie Game Bundles и пишем об этом в статье. Ручной путь (вставить «Topics for articles» в чат) тоже работает.
 
 ## Расписание дня (время Боготы)
@@ -15,6 +17,7 @@
 - 04:30 Update deals: цены GOG, IndieGala и Kinguin (Kinguin читает файл выше), обложки, пересборка сайта.
 - 06:00 Daily brief: скидка дня, файлы `post-prices-bluesky.md` и `post-prices-mastodon.md` (ветка `brief`, и сверху на странице запуска, раздел Summary).
 - 06:30 Post to Nostr (kind deal): скидка дня. 12:00 Post to Nostr (kind article): следующий гид, если прошло 2 дня; иначе зелёный «Skipped».
+- 07:00 Post to Lemmy (скидка) и 12:30 (гид); 08:00 Post to Tumblr (скидка) и 13:00 (гид): пока всё выключено, это зелёный «Skipped».
 - 06:40 Daily article: черновик гида (раз в 2 дня; не пишет, если уже ждут два невыложенных), ветка `articles`, Summary запуска.
 - Вручную по кнопке: Check sources (проверка лент), Feed probe (живёт в публичном репозитории `saveandplay-feeds`, не здесь: отчёт по товарным фидам Admitad, пока Kinguin; сайт не трогает).
 
@@ -31,19 +34,17 @@
 10. Quora (решение 11 октября): владелец создал обычный аккаунт (бизнес-профиль Quora это Quora Ads, не нужен). Правила и шаблон в `docs/quora.md`, журнал `data/quora-log.json`, первые 3 ответа без ссылок в `drafts/quora-2026-10-11.md`: владелец вставляет их сам, до 3 в неделю. Ссылки на Guides с 18 октября, не чаще 1 ответа из 3. Quora добавить площадкой в Admitad и Sovrn. Новый черновик статьи: «ок, статья дня» или `/publish`.
 11. Nostr: статьи выходят сами. 12 октября в 12:00 по Боготе `how-steam-refunds-work`, 14 октября `is-a-game-bundle-worth-it`. Если заметка вышла неудачной, удалить её вручную в приложении Nostr (или сказать Claude про `redo`).
 12. Kinguin в посты Bluesky и Mastodon (решение владельца 11 октября): 3–4 дня не трогаем. Примерно с 15 октября, если Kinguin виден на сайте и клики `site` доходят в Admitad, добавляем второй пост (ключ Kinguin) ЧЕРЕЗ ДЕНЬ: день с 1 постом, день с 2. Нет подходящего ключа: второго поста нет. Текст сначала показать владельцу. Детали: `docs/decisions.md`.
+13. Lemmy (`LEMMY.md`): создать аккаунт (по умолчанию lemmy.zip), `LEMMY_PASSWORD=` в `.env`, `npm run lemmy:secret`, поправить `instance` и `username` в `data/lemmy-accounts.json` и сказать Claude Code закоммитить, Actions → Post to Lemmy → `check`, потом `profile`. Прочитать правила сообществ, включить нужные (`enabled`), `dry-run`, и только потом `autopost: true`. Lemmy добавить площадкой в Admitad и Sovrn.
+14. Tumblr (`TUMBLR.md`): создать блог и приложение на tumblr.com/oauth/apps (callback `http://localhost:8765/callback`), ключи в `.env`, `npm run tumblr:auth` (в браузере нажать Allow), `npm run tumblr:secret`, поправить `blog` и сказать Claude Code закоммитить, Actions → Post to Tumblr → `check`, `dry-run`, прочитать правила Tumblr, потом `autopost: true` (сначала лучше только `article` в `kinds`). Описание и аватар блога один раз вручную. Площадкой в Admitad и Sovrn Tumblr не добавлять (решение 12 октября).
 
 ## Где главное
 - `data/accounts.json`: всё про аккаунты и каналы (правила выбора скидок, шаблоны постов, теги, пометка `Ad`, лимиты). Новый канал или аккаунт = новый блок, код не меняется.
-- `data/deals.json`, `data/history.json`: скидки и история цен. Их пишет бот.
-- `scripts/daily-brief.mjs`, `scripts/update-deals.mjs`, `scripts/lib/posts.mjs`: ежедневные программы и сборка постов. `scripts/article-tools.mjs`, `data/articles.json`, `docs/article-writer.md`: автор статей.
-- `src/` сайт, `.github/workflows/` расписания, `docs/` длинные записи (Quora: `docs/quora.md`), `NOSTR.md` всё про Nostr.
-- `CLAUDE.md` дизайн и правила, `PROJECT.md` оглавление, `SOURCES.md` источники новостей.
+- `data/deals.json`, `data/history.json`: скидки и история цен, их пишет бот. `scripts/daily-brief.mjs`, `scripts/update-deals.mjs`, `scripts/lib/posts.mjs`: ежедневные программы и сборка постов. `scripts/article-tools.mjs`, `data/articles.json`, `docs/article-writer.md`: автор статей.
+- `src/` сайт, `.github/workflows/` расписания, `docs/` длинные записи (Quora: `docs/quora.md`), `NOSTR.md` всё про Nostr, `LEMMY.md` всё про Lemmy, `TUMBLR.md` всё про Tumblr. `CLAUDE.md` дизайн и правила, `PROJECT.md` оглавление, `SOURCES.md` источники новостей.
 
 ## Как запускать
-- `npm run build` собрать сайт, `npm run dev` посмотреть его.
-- `npm run brief` локально собрать бриф и посты в `drafts/`.
-- `npm run update-deals -- --dry-run` пробное обновление цен.
-- Проверки: `npm run posts:test`, `npm run nostr:test`, `npm run kinguin:test`, `npm run articles:test`. Теги: `npm run tags:research`.
+- `npm run build` собрать сайт, `npm run dev` посмотреть его. `npm run brief` локально собрать бриф и посты в `drafts/`. `npm run update-deals -- --dry-run` пробное обновление цен.
+- Проверки: `npm run posts:test`, `npm run nostr:test`, `npm run kinguin:test`, `npm run articles:test`, `npm run lemmy:test`, `npm run tumblr:test`. Теги: `npm run tags:research`.
 - На GitHub: Actions, нужный workflow, кнопка Run workflow. Не «Re-run»: он берёт старый код.
 
 ## Главные правила
@@ -51,8 +52,7 @@
 - В постах ссылки только на наши страницы `/deals/...`, не прямо в магазин.
 - Настройки аккаунтов и каналов только в `data/accounts.json`. Код под один аккаунт не пишем.
 - Цифры только из `data/deals.json`. Ничего не выдумывать, «lowest ever» не писать.
-- Бот пишет `data/*.json`: перед правкой данных сделать `git pull`. Секретов в файлах нет.
-- Максимум автоматизации: рутину владельцу не поручать. Одна задача за раз, следующую не предлагать.
+- Бот пишет `data/*.json`: перед правкой данных сделать `git pull`. Секретов в файлах нет. Максимум автоматизации: рутину владельцу не поручать. Одна задача за раз, следующую не предлагать.
 - Владельцу писать по-русски, просто и коротко. Тексты сайта и постов только по-английски.
 - Тяжёлые загрузки (товарные фиды любых магазинов и ниш) делаем только в публичном репозитории `saveandplay-feeds`: там минуты GitHub Actions бесплатны, а в приватном лимит 2000 в месяц. Новая ниша или фид = строка в его `data/feeds.json`. Основной репозиторий читает готовый маленький файл по ссылке. Ключи фидов только в секретах того репозитория.
 - Оффер с запретом на соцсети (например War Thunder) в посты не ставить. Перед продвижением любого оффера открыть его правила в Admitad (Rules).
