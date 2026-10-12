@@ -2,201 +2,260 @@
   "accounts": {
     "nostr": {
       "2026-10-08": {
-        "status": "done",
-        "kind": "article",
-        "id": "dbb9d1ab4ea82921388bc20e1f951f20de111d198404621d444f67c844cd717b",
-        "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
-        "article": "real-vs-fake-game-discounts",
-        "postedAt": "2026-10-08T05:56:27.000Z",
-        "accepted": [
-          "wss://nos.lol",
-          "wss://relay.primal.net",
-          "wss://offchain.pub",
-          "wss://nostr.mom"
-        ],
-        "failed": [
-          {
-            "url": "wss://relay.damus.io",
-            "reason": "connection failed"
-          }
-        ],
-        "event": {
-          "kind": 1,
-          "created_at": 1791438987,
-          "tags": [
-            [
-              "t",
-              "saveandplay"
-            ],
-            [
-              "t",
-              "pcgaming"
-            ],
-            [
-              "t",
-              "gamedeals"
-            ],
-            [
-              "t",
-              "steam"
-            ],
-            [
-              "imeta",
-              "url https://saveandplay.com/og/real-vs-fake-game-discounts.png",
-              "m image/png",
-              "alt Chart of one game's price over six months. The \"was\" price on the badge is $60 but the game was really sold at $30 the whole time, so a \"-50%\" sale saves nothing. Invented numbers, for illustration only."
-            ]
-          ],
-          "content": "Is that \"-75%\" real? A discount only means something compared to the \"was\" price.\n\nWhat the official rules say:\n• Steam: no discount for 30 days after a price increase, and the base price can't change during a sale.\n• EU law: the \"before\" price must be the lowest the seller applied in the 30+ days before the sale.\n\nOur short guide: 5 questions to ask before you buy a PC game. Rules read 2026-10-06.\n\n#pcgaming #gamedeals #steam\n\nhttps://saveandplay.com/og/real-vs-fake-game-discounts.png\n\nhttps://saveandplay.com/guides/real-vs-fake-game-discounts/?utm_source=nostr-prices&utm_medium=social&utm_campaign=guide-real-vs-fake-discounts",
-          "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+        "article": {
+          "status": "done",
+          "kind": "article",
           "id": "dbb9d1ab4ea82921388bc20e1f951f20de111d198404621d444f67c844cd717b",
-          "sig": "5377d2eaab1a9732b4745635206652228b370e41322b5cea00cbbfab35d1c49dab4612272e8818ef3cbbc8ca8dbfa764666aa67da74fa4110e432252574654f9"
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "article": "real-vs-fake-game-discounts",
+          "postedAt": "2026-10-08T05:56:27.000Z",
+          "accepted": [
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [
+            {
+              "url": "wss://relay.damus.io",
+              "reason": "connection failed"
+            }
+          ],
+          "event": {
+            "kind": 1,
+            "created_at": 1791438987,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "t",
+                "steam"
+              ],
+              [
+                "imeta",
+                "url https://saveandplay.com/og/real-vs-fake-game-discounts.png",
+                "m image/png",
+                "alt Chart of one game's price over six months. The \"was\" price on the badge is $60 but the game was really sold at $30 the whole time, so a \"-50%\" sale saves nothing. Invented numbers, for illustration only."
+              ]
+            ],
+            "content": "Is that \"-75%\" real? A discount only means something compared to the \"was\" price.\n\nWhat the official rules say:\n• Steam: no discount for 30 days after a price increase, and the base price can't change during a sale.\n• EU law: the \"before\" price must be the lowest the seller applied in the 30+ days before the sale.\n\nOur short guide: 5 questions to ask before you buy a PC game. Rules read 2026-10-06.\n\n#pcgaming #gamedeals #steam\n\nhttps://saveandplay.com/og/real-vs-fake-game-discounts.png\n\nhttps://saveandplay.com/guides/real-vs-fake-game-discounts/?utm_source=nostr-prices&utm_medium=social&utm_campaign=guide-real-vs-fake-discounts",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "dbb9d1ab4ea82921388bc20e1f951f20de111d198404621d444f67c844cd717b",
+            "sig": "5377d2eaab1a9732b4745635206652228b370e41322b5cea00cbbfab35d1c49dab4612272e8818ef3cbbc8ca8dbfa764666aa67da74fa4110e432252574654f9"
+          }
         }
       },
       "2026-10-09": {
-        "status": "done",
-        "kind": "article",
-        "id": "019d4e591148c0320521aaf5c403494a88ab0454b6add4ffb11175db517a3155",
-        "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
-        "article": "steam-key-vs-drm-free",
-        "postedAt": "2026-10-09T11:40:39.000Z",
-        "accepted": [
-          "wss://relay.damus.io",
-          "wss://nos.lol",
-          "wss://relay.primal.net",
-          "wss://offchain.pub",
-          "wss://nostr.mom"
-        ],
-        "failed": [],
-        "event": {
-          "kind": 1,
-          "created_at": 1791546039,
-          "tags": [
-            [
-              "t",
-              "saveandplay"
-            ],
-            [
-              "t",
-              "pcgaming"
-            ],
-            [
-              "t",
-              "gamedeals"
-            ],
-            [
-              "t",
-              "steam"
-            ],
-            [
-              "t",
-              "gog"
-            ],
-            [
-              "t",
-              "drmfree"
-            ],
-            [
-              "imeta",
-              "url https://saveandplay.com/og/steam-key-vs-drm-free.png",
-              "m image/png",
-              "alt Diagram: on Steam the game is a license on your account; on GOG the DRM-free game files can be installed on several PCs and backed up."
-            ]
-          ],
-          "content": "Steam key or DRM-free: what do you actually get when you press \"buy\"?\n\n• Steam: the agreement says the content is \"licensed, not sold\". The license sits on your account and the account can't be transferred.\n• GOG: sells only DRM-free games. GOG says you can back up the files, install them on as many devices as you wish, and run them with or without a launcher.\n\nNeither is better in general: it depends on what you want to do with the game later. We read the stores' own pages (2026-10-07). Not legal advice.\n\n#pcgaming #gamedeals #steam #gog #drmfree\n\nhttps://saveandplay.com/og/steam-key-vs-drm-free.png\n\nhttps://saveandplay.com/guides/steam-key-vs-drm-free/?utm_source=nostr-prices&utm_medium=social&utm_campaign=guide-steam-key-vs-drm-free",
-          "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+        "article": {
+          "status": "done",
+          "kind": "article",
           "id": "019d4e591148c0320521aaf5c403494a88ab0454b6add4ffb11175db517a3155",
-          "sig": "009fe4c3dd4de79e4ac6e09cf4f11218db62400f414de17bdfa01e795257bfb183087ef7588f5f859a989ab21b77665acd58065021ceb195f2e1ac52e6f156c8"
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "article": "steam-key-vs-drm-free",
+          "postedAt": "2026-10-09T11:40:39.000Z",
+          "accepted": [
+            "wss://relay.damus.io",
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [],
+          "event": {
+            "kind": 1,
+            "created_at": 1791546039,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "t",
+                "steam"
+              ],
+              [
+                "t",
+                "gog"
+              ],
+              [
+                "t",
+                "drmfree"
+              ],
+              [
+                "imeta",
+                "url https://saveandplay.com/og/steam-key-vs-drm-free.png",
+                "m image/png",
+                "alt Diagram: on Steam the game is a license on your account; on GOG the DRM-free game files can be installed on several PCs and backed up."
+              ]
+            ],
+            "content": "Steam key or DRM-free: what do you actually get when you press \"buy\"?\n\n• Steam: the agreement says the content is \"licensed, not sold\". The license sits on your account and the account can't be transferred.\n• GOG: sells only DRM-free games. GOG says you can back up the files, install them on as many devices as you wish, and run them with or without a launcher.\n\nNeither is better in general: it depends on what you want to do with the game later. We read the stores' own pages (2026-10-07). Not legal advice.\n\n#pcgaming #gamedeals #steam #gog #drmfree\n\nhttps://saveandplay.com/og/steam-key-vs-drm-free.png\n\nhttps://saveandplay.com/guides/steam-key-vs-drm-free/?utm_source=nostr-prices&utm_medium=social&utm_campaign=guide-steam-key-vs-drm-free",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "019d4e591148c0320521aaf5c403494a88ab0454b6add4ffb11175db517a3155",
+            "sig": "009fe4c3dd4de79e4ac6e09cf4f11218db62400f414de17bdfa01e795257bfb183087ef7588f5f859a989ab21b77665acd58065021ceb195f2e1ac52e6f156c8"
+          }
         }
       },
       "2026-10-10": {
-        "status": "done",
-        "kind": "deal",
-        "id": "96bc7c5e0b16762e2d6f68a488930ff299bae8e7db82e468d0212c472d740426",
-        "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
-        "deal": "indiegala-lego-star-wars-the-skywalker-saga-deluxe-edition",
-        "title": "LEGO® Star Wars™:The Skywalker Saga Deluxe Edition",
-        "postedAt": "2026-10-10T11:40:57.000Z",
-        "accepted": [
-          "wss://relay.damus.io",
-          "wss://nos.lol",
-          "wss://relay.primal.net",
-          "wss://offchain.pub",
-          "wss://nostr.mom"
-        ],
-        "failed": [],
-        "event": {
-          "kind": 1,
-          "created_at": 1791632457,
-          "tags": [
-            [
-              "t",
-              "saveandplay"
-            ],
-            [
-              "t",
-              "pcgaming"
-            ],
-            [
-              "t",
-              "gamedeals"
-            ],
-            [
-              "imeta",
-              "url https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/920210/header.jpg?t=1747346983",
-              "m image/jpeg",
-              "alt Cover art for LEGO® Star Wars™:The Skywalker Saga Deluxe Edition"
-            ]
-          ],
-          "content": "LEGO® Star Wars™:The Skywalker Saga Deluxe Edition: -87% at IndieGala\n$8.09 (was $59.99)\nPrice checked 2026-10-10 09:48 UTC. Sale ends 2026-10-11 23:59 UTC.\nWhy today: sale ends in 37 h.\nAd: we may earn a commission if you buy.\n\n#pcgaming #gamedeals\n\nhttps://shared.akamai.steamstatic.com/store_item_assets/steam/apps/920210/header.jpg?t=1747346983\n\nhttps://saveandplay.com/deals/indiegala/lego-star-wars-the-skywalker-saga-deluxe-edition/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-10",
-          "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+        "deal": {
+          "status": "done",
+          "kind": "deal",
           "id": "96bc7c5e0b16762e2d6f68a488930ff299bae8e7db82e468d0212c472d740426",
-          "sig": "35b069215225bc8df0a1b08bda07f9be7171dddb1e73d29ef46fe339182a4f257894d7324a76c47c9e3f431ea400061b5b49a878f5ff0d251d89a2a89ad65ac9"
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "deal": "indiegala-lego-star-wars-the-skywalker-saga-deluxe-edition",
+          "title": "LEGO® Star Wars™:The Skywalker Saga Deluxe Edition",
+          "postedAt": "2026-10-10T11:40:57.000Z",
+          "accepted": [
+            "wss://relay.damus.io",
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [],
+          "event": {
+            "kind": 1,
+            "created_at": 1791632457,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/920210/header.jpg?t=1747346983",
+                "m image/jpeg",
+                "alt Cover art for LEGO® Star Wars™:The Skywalker Saga Deluxe Edition"
+              ]
+            ],
+            "content": "LEGO® Star Wars™:The Skywalker Saga Deluxe Edition: -87% at IndieGala\n$8.09 (was $59.99)\nPrice checked 2026-10-10 09:48 UTC. Sale ends 2026-10-11 23:59 UTC.\nWhy today: sale ends in 37 h.\nAd: we may earn a commission if you buy.\n\n#pcgaming #gamedeals\n\nhttps://shared.akamai.steamstatic.com/store_item_assets/steam/apps/920210/header.jpg?t=1747346983\n\nhttps://saveandplay.com/deals/indiegala/lego-star-wars-the-skywalker-saga-deluxe-edition/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-10",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "96bc7c5e0b16762e2d6f68a488930ff299bae8e7db82e468d0212c472d740426",
+            "sig": "35b069215225bc8df0a1b08bda07f9be7171dddb1e73d29ef46fe339182a4f257894d7324a76c47c9e3f431ea400061b5b49a878f5ff0d251d89a2a89ad65ac9"
+          }
         }
       },
       "2026-10-11": {
-        "status": "done",
-        "kind": "deal",
-        "id": "6cb3d06fba34d4b547b8a946f1c6d5ac145ee94ba677cae42d4a8552625918d1",
-        "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
-        "deal": "indiegala-the-pathless",
-        "title": "The Pathless",
-        "postedAt": "2026-10-11T11:41:09.000Z",
-        "accepted": [
-          "wss://relay.damus.io",
-          "wss://nos.lol",
-          "wss://relay.primal.net",
-          "wss://offchain.pub",
-          "wss://nostr.mom"
-        ],
-        "failed": [],
-        "event": {
-          "kind": 1,
-          "created_at": 1791718869,
-          "tags": [
-            [
-              "t",
-              "saveandplay"
-            ],
-            [
-              "t",
-              "pcgaming"
-            ],
-            [
-              "t",
-              "gamedeals"
-            ],
-            [
-              "imeta",
-              "url https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1492680/header.jpg?t=1736954957",
-              "m image/jpeg",
-              "alt Cover art for The Pathless"
-            ]
-          ],
-          "content": "The Pathless: -84% at IndieGala\n$6.29 (was $39.99)\nPrice checked 2026-10-11 09:46 UTC. Sale ends 2026-10-11 23:59 UTC.\nWhy today: sale ends in 13 h.\nAd: we may earn a commission if you buy.\n\n#pcgaming #gamedeals\n\nhttps://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1492680/header.jpg?t=1736954957\n\nhttps://saveandplay.com/deals/indiegala/the-pathless/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-11",
-          "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+        "deal": {
+          "status": "done",
+          "kind": "deal",
           "id": "6cb3d06fba34d4b547b8a946f1c6d5ac145ee94ba677cae42d4a8552625918d1",
-          "sig": "f82ee154646d174946178be5b01ba45f601367de927bcc29b48c6d5f29368ac3dd6dcf7520986645c5afcc353eea06cfd777ee2ab42fe245fd142da1536786f1"
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "deal": "indiegala-the-pathless",
+          "title": "The Pathless",
+          "postedAt": "2026-10-11T11:41:09.000Z",
+          "accepted": [
+            "wss://relay.damus.io",
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [],
+          "event": {
+            "kind": 1,
+            "created_at": 1791718869,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1492680/header.jpg?t=1736954957",
+                "m image/jpeg",
+                "alt Cover art for The Pathless"
+              ]
+            ],
+            "content": "The Pathless: -84% at IndieGala\n$6.29 (was $39.99)\nPrice checked 2026-10-11 09:46 UTC. Sale ends 2026-10-11 23:59 UTC.\nWhy today: sale ends in 13 h.\nAd: we may earn a commission if you buy.\n\n#pcgaming #gamedeals\n\nhttps://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1492680/header.jpg?t=1736954957\n\nhttps://saveandplay.com/deals/indiegala/the-pathless/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-11",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "6cb3d06fba34d4b547b8a946f1c6d5ac145ee94ba677cae42d4a8552625918d1",
+            "sig": "f82ee154646d174946178be5b01ba45f601367de927bcc29b48c6d5f29368ac3dd6dcf7520986645c5afcc353eea06cfd777ee2ab42fe245fd142da1536786f1"
+          }
+        }
+      },
+      "2026-10-12": {
+        "deal": {
+          "status": "done",
+          "kind": "deal",
+          "id": "40d7c64647cc9f78d925d3ef4d2a604db0e1f6a7e0bce41e7352b23290226c7a",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "deal": "gog-outward-definitive-edition",
+          "title": "Outward Definitive Edition",
+          "postedAt": "2026-10-12T11:46:41.000Z",
+          "accepted": [
+            "wss://relay.damus.io",
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [],
+          "event": {
+            "kind": 1,
+            "created_at": 1791805601,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-deal"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/794260/header.jpg?t=1787229712",
+                "m image/jpeg",
+                "alt Cover art for Outward Definitive Edition"
+              ]
+            ],
+            "content": "Outward Definitive Edition: -95% at GOG\n$1.99 (was $39.99)\nPrice checked 2026-10-12 09:51 UTC. Sale ends 2026-10-22 13:00 UTC.\nWhy today: deepest-discount rank 1 of 22.\nAd: we may earn a commission if you buy.\n\n#pcgaming #gamedeals\n\nhttps://shared.akamai.steamstatic.com/store_item_assets/steam/apps/794260/header.jpg?t=1787229712\n\nhttps://saveandplay.com/deals/gog/outward-definitive-edition/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-12",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "40d7c64647cc9f78d925d3ef4d2a604db0e1f6a7e0bce41e7352b23290226c7a",
+            "sig": "28d98f08eacc492740240863178d510cba9cc9045ca5e630e0367e67fe5f5fde7e53748509be9c6247179d5640abc0ee150e889a943278141115784c9baf9381"
+          }
         }
       }
     }
