@@ -1,39 +1,98 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-10-11T11:10:47.545Z",
-  "builtBy": "commit 781c4ef, schedule, run #12 attempt 1",
-  "pricesCheckedAt": "2026-10-11T09:46:28.740Z",
+  "generatedAt": "2026-10-12T11:14:41.770Z",
+  "builtBy": "commit d223a99, schedule, run #13 attempt 1",
+  "pricesCheckedAt": "2026-10-12T09:52:42.920Z",
   "warnings": [],
   "candidates": [
     {
-      "id": "indiegala-the-pathless",
+      "id": "gog-outward-definitive-edition",
       "kind": "deal",
-      "title": "The Pathless",
-      "store": "IndieGala",
-      "price": 6.29,
+      "title": "Outward Definitive Edition",
+      "store": "GOG",
+      "price": 1.99,
       "was": 39.99,
-      "discount": 84,
-      "endsAt": "2026-10-11T23:59:00Z",
-      "endsInHours": 13,
-      "priceCheckedAt": "2026-10-11T09:46:28.740Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1492680/header.jpg?t=1736954957",
-      "drminfo": "Steam key",
-      "coverAlt": "Cover art for The Pathless",
-      "score": 10.4,
-      "discountRank": 12,
+      "discount": 95,
+      "endsAt": "2026-10-22T16:00:00+03:00",
+      "endsInHours": 242,
+      "priceCheckedAt": "2026-10-12T09:51:54.607Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/794260/header.jpg?t=1787229712",
+      "drminfo": null,
+      "coverAlt": "Cover art for Outward Definitive Edition",
+      "score": 10.5,
+      "discountRank": 1,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 6,
+        "days": 7,
         "lowest": false,
         "since": "2026-10-05"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/indiegala/the-pathless/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-11",
+      "link": "https://saveandplay.com/deals/gog/outward-definitive-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-12",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 13 h",
-        "deepest-discount rank 12 of 38"
+        "deepest-discount rank 1 of 22"
+      ]
+    },
+    {
+      "id": "gog-alan-wake",
+      "kind": "deal",
+      "title": "Alan Wake",
+      "store": "GOG",
+      "price": 1.49,
+      "was": 14.99,
+      "discount": 90,
+      "endsAt": "2026-10-18T09:59:00+03:00",
+      "endsInHours": 140,
+      "priceCheckedAt": "2026-10-12T09:51:54.607Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108710/9c1728f937c2a7e632b447b02e442f6a5d88515c/header.jpg?t=1769717716",
+      "drminfo": null,
+      "coverAlt": "Cover art for Alan Wake",
+      "score": 10,
+      "discountRank": 2,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 7,
+        "lowest": false,
+        "since": "2026-10-05"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/alan-wake/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-12",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 2 of 22"
+      ]
+    },
+    {
+      "id": "gog-the-saboteur",
+      "kind": "deal",
+      "title": "The Saboteur",
+      "store": "GOG",
+      "price": 1.99,
+      "was": 19.99,
+      "discount": 90,
+      "endsAt": "2026-10-18T09:59:00+03:00",
+      "endsInHours": 140,
+      "priceCheckedAt": "2026-10-12T09:51:54.607Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24880/header.jpg?t=1777484749",
+      "drminfo": null,
+      "coverAlt": "Cover art for The Saboteur",
+      "score": 10,
+      "discountRank": 3,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 7,
+        "lowest": false,
+        "since": "2026-10-05"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/the-saboteur/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-12",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 3 of 22"
       ]
     },
     {
@@ -45,225 +104,87 @@
       "was": 39.99,
       "discount": 90,
       "endsAt": "2026-10-18T09:59:00+03:00",
-      "endsInHours": 164,
-      "priceCheckedAt": "2026-10-11T09:46:21.975Z",
+      "endsInHours": 140,
+      "priceCheckedAt": "2026-10-12T09:51:54.607Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
       "drminfo": null,
       "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
       "score": 10,
-      "discountRank": 6,
+      "discountRank": 4,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 5,
+        "days": 6,
         "lowest": false,
         "since": "2026-10-07"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-11",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-12",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 6 of 38"
+        "deepest-discount rank 4 of 22"
       ]
     },
     {
-      "id": "indiegala-solar-ash",
+      "id": "gog-darkest-dungeon",
       "kind": "deal",
-      "title": "Solar Ash",
-      "store": "IndieGala",
-      "price": 7.89,
-      "was": 39.99,
-      "discount": 80,
-      "endsAt": "2026-10-11T23:59:00Z",
-      "endsInHours": 13,
-      "priceCheckedAt": "2026-10-11T09:46:28.740Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867530/header.jpg?t=1729097887",
-      "drminfo": "Steam key",
-      "coverAlt": "Cover art for Solar Ash",
-      "score": 10,
-      "discountRank": 21,
+      "title": "Darkest Dungeon",
+      "store": "GOG",
+      "price": 3.75,
+      "was": 24.99,
+      "discount": 85,
+      "endsAt": "2026-10-18T09:59:00+03:00",
+      "endsInHours": 140,
+      "priceCheckedAt": "2026-10-12T09:51:54.607Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187",
+      "drminfo": null,
+      "coverAlt": "Cover art for Darkest Dungeon",
+      "score": 9.5,
+      "discountRank": 7,
       "sites": 0,
       "mentions": [],
       "history": {
         "days": 6,
         "lowest": false,
-        "since": "2026-10-05"
+        "since": "2026-10-07"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/indiegala/solar-ash/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-11",
+      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-12",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 13 h",
-        "deepest-discount rank 21 of 38"
-      ]
-    },
-    {
-      "id": "indiegala-disco-elysium-the-final-cut",
-      "kind": "deal",
-      "title": "Disco Elysium - The Final Cut",
-      "store": "IndieGala",
-      "price": 7.89,
-      "was": 39.99,
-      "discount": 80,
-      "endsAt": "2026-10-11T23:59:00Z",
-      "endsInHours": 13,
-      "priceCheckedAt": "2026-10-11T09:46:28.740Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632470/816ea59d6d8ac525f79a07c3a7afa94eddb3437c/header.jpg?t=1780913406",
-      "drminfo": "Steam key",
-      "coverAlt": "Cover art for Disco Elysium - The Final Cut",
-      "score": 10,
-      "discountRank": 22,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 6,
-        "lowest": false,
-        "since": "2026-10-05"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/indiegala/disco-elysium-the-final-cut/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-11",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "sale ends in 13 h",
-        "deepest-discount rank 22 of 38"
-      ]
-    },
-    {
-      "id": "indiegala-sifu",
-      "kind": "deal",
-      "title": "Sifu",
-      "store": "IndieGala",
-      "price": 8.58,
-      "was": 39.99,
-      "discount": 79,
-      "endsAt": "2026-10-11T23:59:00Z",
-      "endsInHours": 13,
-      "priceCheckedAt": "2026-10-11T09:46:28.740Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138710/header.jpg?t=1782742326",
-      "drminfo": "Steam key",
-      "coverAlt": "Cover art for Sifu",
-      "score": 9.9,
-      "discountRank": 23,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 6,
-        "lowest": false,
-        "since": "2026-10-05"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/indiegala/sifu/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-11",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "sale ends in 13 h",
-        "deepest-discount rank 23 of 38"
+        "deepest-discount rank 7 of 22"
       ]
     }
   ],
   "gogNews": [],
   "topical": [
     {
-      "title": "New FREE games this weekend: your comprehensive roundup",
-      "source": "gg.deals Freebies",
-      "link": "https://gg.deals/freebie/new-free-games-this-weekend-your-comprehensive-roundup-october10-11-2026/",
-      "t": 1791637080000,
-      "keyword": "free",
-      "summary": "Whether they're free to keep, free to try, or 'free' with a subscription, you can find this week's new free games for PC and console right here."
-    },
-    {
-      "title": "Steam's Two Point Franchise 10th Anniversary Sale features big savings across games and DLC!",
-      "source": "gg.deals News",
-      "link": "https://gg.deals/deal/steam-two-point-franchise-10th-anniversary-sale/",
-      "t": 1791582589000,
-      "keyword": "sale",
-      "summary": "Deep discounts available on all three Two Point titles, as well as a host of deals across their ever-popular DLCs."
+      "title": "Phasmophobia confirms 30 million sales as its Crimson Eye Halloween event returns",
+      "source": "Eurogamer",
+      "link": "https://www.eurogamer.net/phasmophobia-30-million-sales-crimson-eye-event",
+      "t": 1791720418000,
+      "keyword": "sales",
+      "summary": "Phasmophobia has sold more than 30 million copies across PC and console since it launched in Early Access in 2020. Read more"
     }
   ],
   "topics": [
     {
-      "headline": "Humble Twisted Trilogies and Terrors: Dark Visual Novels",
-      "score": 10,
+      "headline": "Gamesplanet's Capcom Sale offers huge discounts on Resident Evil, Devil May Cry, and more",
+      "score": 7,
       "sites": [
-        "gg.deals",
-        "indiegamebundles.com"
+        "gg.deals"
       ],
       "keywords": [
-        "bundle",
-        "humble"
+        "sale",
+        "discounts"
       ],
       "games": [],
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Humble Twisted Trilogies and Terrors Bundle gets you a collection of dark visual novels",
-          "link": "https://gg.deals/bundle/humble-twisted-trilogies-and-terrors-bundle/",
-          "published": "2026-10-09T18:26:52.000Z"
-        },
-        {
-          "source": "Indie Game Bundles",
-          "title": "Humble Twisted Trilogies and Terrors: Dark Visual Novels",
-          "link": "https://www.indiegamebundles.com/humble-twisted-trilogies-and-terrors-dark-visual-novels/",
-          "published": "2026-10-10T14:12:47.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Humble Gals and Pals: PQube Japanese Games",
-      "score": 10,
-      "sites": [
-        "gg.deals",
-        "indiegamebundles.com"
-      ],
-      "keywords": [
-        "deal",
-        "bundle",
-        "humble"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "Humble’s Gals and Pals Bundle packs 11 quirky PQube games into a $12 deal",
-          "link": "https://gg.deals/bundle/humbles-gals-and-pals-bundle-packs-11-quirky-pqube-games-into-a-12-deal/",
-          "published": "2026-10-09T18:56:59.000Z"
-        },
-        {
-          "source": "Indie Game Bundles",
-          "title": "Humble Gals and Pals: PQube Japanese Games",
-          "link": "https://www.indiegamebundles.com/humble-gals-and-pals-pqube-japanese-games/",
-          "published": "2026-10-10T14:08:14.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Cozy campfire game Fireside Feelings is FREE to keep on Steam for a limited time",
-      "score": 8,
-      "sites": [
-        "gg.deals",
-        "indiegamebundles.com"
-      ],
-      "keywords": [
-        "free"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals Freebies",
-          "title": "Cozy campfire game Fireside Feelings is FREE to keep on Steam for a limited time",
-          "link": "https://gg.deals/freebie/cozy-campfire-game-fireside-feelings-is-free-to-keep-on-steam-for-a-limited-time/",
-          "published": "2026-10-09T17:25:19.000Z"
-        },
-        {
-          "source": "gg.deals News",
-          "title": "Cozy campfire game Fireside Feelings is FREE to keep on Steam for a limited time",
-          "link": "https://gg.deals/freebie/cozy-campfire-game-fireside-feelings-is-free-to-keep-on-steam-for-a-limited-time/",
-          "published": "2026-10-09T17:25:19.000Z"
-        },
-        {
-          "source": "Indie Game Bundles",
-          "title": "Fireside Feelings is free on Steam — a cozy campfire built around real conversations",
-          "link": "https://www.indiegamebundles.com/fireside-feelings-is-free-on-steam-a-cozy-campfire-built-around-real-conversations/",
-          "published": "2026-10-09T17:27:10.000Z"
+          "title": "Gamesplanet's Capcom Sale offers huge discounts on Resident Evil, Devil May Cry, and more",
+          "link": "https://gg.deals/deal/gamesplanets-capcom-sale/",
+          "published": "2026-10-12T07:58:08.000Z"
         }
       ]
     },
@@ -288,28 +209,65 @@
       ]
     },
     {
-      "headline": "Humble Triple-i Initiative Showcase Bundle",
-      "score": 7,
+      "headline": "Seamless Landing mod looks set to bring Starfield another step closer to No Man's Sky",
+      "score": 6,
+      "sites": [
+        "pcgamer.com"
+      ],
+      "keywords": [],
+      "games": [
+        "No Man's Sky"
+      ],
+      "items": [
+        {
+          "source": "PC Gamer",
+          "title": "Seamless Landing mod looks set to bring Starfield another step closer to No Man's Sky",
+          "link": "https://www.pcgamer.com/games/rpg/seamless-landing-mod-looks-set-to-bring-starfield-another-step-closer-to-no-mans-sky/",
+          "published": "2026-10-12T01:12:23.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Short on time? Steam's Games Under 5 Hours Sale has plenty of cheap games",
+      "score": 5,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "sale"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Short on time? Steam's Games Under 5 Hours Sale has plenty of cheap games",
+          "link": "https://gg.deals/deal/short-on-time-steams-games-under-5-hours-sale-has-plenty-of-cheap-games/",
+          "published": "2026-10-12T09:06:44.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Fanatical Build Your Own All Stars Bundle Winter 2026",
+      "score": 5,
       "sites": [
         "indiegamebundles.com"
       ],
       "keywords": [
-        "bundle",
-        "humble"
+        "bundle"
       ],
       "games": [],
       "items": [
         {
           "source": "Indie Game Bundles",
-          "title": "Humble Triple-i Initiative Showcase Bundle",
-          "link": "https://www.indiegamebundles.com/humble-triple-i-initiative-showcase-bundle/",
-          "published": "2026-10-09T17:33:38.000Z"
+          "title": "Fanatical Build Your Own All Stars Bundle Winter 2026",
+          "link": "https://www.indiegamebundles.com/fanatical-build-your-own-all-stars-bundle-winter-2026/",
+          "published": "2026-10-11T17:35:57.000Z"
         }
       ]
     }
   ],
   "left": {
-    "otherStore": 0,
+    "otherStore": 5,
     "hidden": 0,
     "smallDiscount": 0,
     "ended": 0,
@@ -322,18 +280,18 @@
   },
   "posts": {
     "bluesky": {
-      "text": "The Pathless: -84% at IndieGala\n$6.29 (was $39.99)\nPrice checked Oct 11. Sale ends Oct 11.\n\nhttps://saveandplay.com/deals/indiegala/the-pathless/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-11\n\n#PCGaming #GameDeals #Gaming\nAd",
-      "length": 150,
+      "text": "Outward Definitive Edition: -95% at GOG\n$1.99 (was $39.99)\nPrice checked Oct 12. Sale ends Oct 22.\n\nhttps://saveandplay.com/deals/gog/outward-definitive-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-12\n\n#PCGaming #GameDeals #OutwardDefinitiveEdition\nAd",
+      "length": 176,
       "max": 300,
-      "link": "https://saveandplay.com/deals/indiegala/the-pathless/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-11",
-      "deal": "indiegala-the-pathless"
+      "link": "https://saveandplay.com/deals/gog/outward-definitive-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-12",
+      "deal": "gog-outward-definitive-edition"
     },
     "mastodon": {
-      "text": "The Pathless: -84% at IndieGala\n$6.29 (was $39.99)\nYou save $33.70\nSteam key\nPrice checked Oct 11. Sale ends Oct 11.\nWhy today: sale ends in 13 h.\n\nhttps://saveandplay.com/deals/indiegala/the-pathless/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-11\n\n#GameDeals #PCGaming #IndieGala #IndieGames #Gaming\nAd",
-      "length": 227,
+      "text": "Outward Definitive Edition: -95% at GOG\n$1.99 (was $39.99)\nYou save $38.00\nDRM-free\nPrice checked Oct 12. Sale ends Oct 22.\nWhy today: deepest-discount rank 1 of 22.\n\nhttps://saveandplay.com/deals/gog/outward-definitive-edition/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-12\n\n#GameDeals #PCGaming #GOG #DRMFree #VideoGames\nAd",
+      "length": 241,
       "max": 500,
-      "link": "https://saveandplay.com/deals/indiegala/the-pathless/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-11",
-      "deal": "indiegala-the-pathless"
+      "link": "https://saveandplay.com/deals/gog/outward-definitive-edition/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-12",
+      "deal": "gog-outward-definitive-edition"
     }
   }
 }
