@@ -192,7 +192,8 @@ function makeRoot({ autopost = true, communities = [...DEAL_COMMUNITIES, ...ART_
   for (const d of ['data', 'drafts', 'public/og', 'src/pages/guides']) mkdirSync(join(root, d), { recursive: true });
   writeFileSync(join(root, 'data/accounts.json'), JSON.stringify(realAccounts, null, 2) + '\n');
   const cfg = JSON.parse(JSON.stringify(realLemmy));
-  Object.assign(cfg.accounts.lemmy, { instance: 'lemmy.example', autopost, communities, ...account });
+  // The fake server knows the user "saveandplay", whatever name the owner has in the real settings.
+  Object.assign(cfg.accounts.lemmy, { instance: 'lemmy.example', username: 'saveandplay', autopost, communities, ...account });
   writeFileSync(join(root, 'data/lemmy-accounts.json'), JSON.stringify(cfg, null, 2) + '\n');
   for (const [slug, n] of Object.entries(guides)) {
     writeFileSync(join(root, `src/pages/guides/${slug}.md`), guideFile(typeof n === 'string' ? n : guideHead(slug, n)));
