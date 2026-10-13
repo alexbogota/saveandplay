@@ -1,0 +1,218 @@
+{
+  "about": "Поиск свежих постов в Bluesky, под которыми уместен короткий полезный ответ от аккаунта. Программа scripts/comment-candidates.mjs (npm run comments:find) НИЧЕГО не публикует: ищет посты, отсеивает ботов, магазины, разработчиков, взрослые, старые и закрытые для ответа посты, те, на которые аккаунт уже отвечал, и пишет короткий список в drafts/comments-<ключ>.md. Ответы пишет Claude в чате, отправляет владелец вручную. Ключ блока такой же, как в data/accounts.json. Новый аккаунт = новый блок, код не меняется. Поля: enabled; handle (без @); passwordEnv = имя переменной с паролем приложения Bluesky (App password; лежит в .env и в GitHub Secrets, в файлах пароля нет); language; maxAgeHours = какие посты считаем свежими; minChars и maxChars = длина текста поста; queriesPerRun = сколько запросов за запуск (по одному из РАЗНЫХ групп, по кругу); perQuery = сколько постов просить на запрос; maxCandidates и maxHeated = сколько постов показать (спорные темы отдельно); minScore = порог баллов (вопрос +3, тема +2, мало ответов +1, свежий +1, вес группы); groups = запросы по темам (weight = баллы группы, heated = спорная тема, enabled = включена); skipWords = слова в тексте, из-за которых пост пропускаем; requireAnyWord = в тексте должно быть хотя бы одно из этих слов (иначе пост не про игры: книги, комиксы); skipAuthorWords = слова в нике (часть до первой точки) или имени (боты, магазины, студии); questionWords = признаки вопроса; topicWords = слова темы; heatedPatterns = признаки споров (регулярные выражения): такой пост попадает в отдельный блок.",
+  "accounts": {
+    "prices": {
+      "enabled": true,
+      "handle": "saveandplay.com",
+      "passwordEnv": "BSKY_APP_PASSWORD",
+      "language": "en",
+      "maxAgeHours": 30,
+      "minChars": 30,
+      "maxChars": 600,
+      "queriesPerRun": 4,
+      "perQuery": 40,
+      "maxCandidates": 12,
+      "maxHeated": 3,
+      "minScore": 5,
+      "groups": {
+        "waitForSale": {
+          "weight": 3,
+          "queries": [
+            "\"wait for a sale\"",
+            "\"should I buy\" steam",
+            "\"worth buying\" steam game",
+            "\"is it on sale\" steam"
+          ]
+        },
+        "backlog": {
+          "weight": 2,
+          "queries": [
+            "steam backlog",
+            "\"what should I play\" steam",
+            "\"game recommendations\" steam",
+            "\"looking for games like\""
+          ]
+        },
+        "deck": {
+          "weight": 2,
+          "queries": [
+            "steam deck games",
+            "\"steam deck\" recommendations",
+            "handheld PC games"
+          ]
+        },
+        "bundles": {
+          "weight": 2,
+          "queries": [
+            "\"Humble Bundle\"",
+            "\"bundle\" worth it games",
+            "Fanatical bundle",
+            "itch.io bundle",
+            "pay what you want games"
+          ]
+        },
+        "practical": {
+          "weight": 2,
+          "queries": [
+            "steam refund",
+            "\"game pass\" vs buying",
+            "DRM-free games",
+            "\"physical vs digital\" games"
+          ]
+        },
+        "genres": {
+          "weight": 1,
+          "queries": [
+            "roguelike recommendations",
+            "cozy games pc",
+            "metroidvania recommendations",
+            "co-op games pc",
+            "city builder recommendations"
+          ]
+        },
+        "seasonal": {
+          "weight": 1,
+          "queries": [
+            "spooky games steam",
+            "horror games recommend",
+            "halloween games pc"
+          ]
+        },
+        "ai": {
+          "weight": 1,
+          "heated": true,
+          "queries": [
+            "steam AI disclosure",
+            "generative AI games steam"
+          ]
+        }
+      },
+      "skipWords": [
+        "wishlist",
+        "wish list",
+        "demo out",
+        "demo is out",
+        "demo available",
+        "play the demo",
+        "try the demo",
+        "free demo",
+        "out now",
+        "available now",
+        "now available",
+        "steam page",
+        "#indiedev",
+        "#gamedev",
+        "#indiegame",
+        "#madewithgodot",
+        "#madewithunity",
+        "#screenshotsaturday",
+        "giveaway",
+        "use code",
+        "promo code",
+        "link in bio",
+        "follow for",
+        "subscribe",
+        "live now",
+        "going live",
+        "twitch.tv",
+        "youtube.com",
+        "youtu.be",
+        "patreon",
+        "ko-fi",
+        "kickstarter",
+        "18+",
+        "🔞",
+        "nsfw",
+        "onlyfans",
+        "#ad",
+        "sponsored",
+        "affiliate",
+        "our game",
+        "my game",
+        "my new game",
+        "we just released",
+        "devlog",
+        "press kit"
+      ],
+      "skipAuthorWords": [
+        "bot",
+        "deals",
+        "news",
+        "bundle",
+        "studio",
+        "publisher",
+        "official",
+        "podcast",
+        "gamedev",
+        "indiedev",
+        "devlog",
+        "curator",
+        "games"
+      ],
+      "requireAnyWord": [
+        "game",
+        "games",
+        "gaming",
+        "steam",
+        "gog",
+        "deck",
+        "dlc",
+        "roguelike",
+        "metroidvania"
+      ],
+      "questionWords": [
+        "should i",
+        "worth buying",
+        "recs",
+        "any good",
+        "looking for",
+        "need a",
+        "need some",
+        "wait for a sale",
+        "wait for sale",
+        "thinking about buying",
+        "thinking of buying",
+        "which one",
+        "what should",
+        "help me",
+        "suggestions",
+        "anyone know",
+        "does anyone",
+        "is it on sale",
+        "is it worth",
+        "worth it?",
+        "recommendations",
+        "can anyone recommend",
+        "recommend me",
+        "any recs"
+      ],
+      "topicWords": [
+        "game",
+        "steam",
+        "gog",
+        "epic",
+        "deck",
+        "bundle",
+        "humble",
+        "sale",
+        "backlog",
+        "game pass",
+        "dlc",
+        "refund",
+        "drm"
+      ],
+      "heatedPatterns": [
+        "\\bAI\\b",
+        "gen[- ]?ai",
+        "generative",
+        "slop",
+        "\\bLLM",
+        "chatgpt",
+        "trump",
+        "\\bICE\\b",
+        "politic",
+        "boycott"
+      ]
+    }
+  }
+}

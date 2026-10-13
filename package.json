@@ -33,6 +33,8 @@
     "posts:test": "node scripts/test-posts.mjs",
     "kinguin:test": "node scripts/test-kinguin.mjs",
     "articles:test": "node --test scripts/test-articles.mjs",
+    "comments:find": "node scripts/comment-candidates.mjs",
+    "comments:test": "node --test scripts/test-comments.mjs",
     "tags:research": "node scripts/tag-research.mjs"
   },
   "dependencies": {
