@@ -4,8 +4,8 @@
     "tumblr": {
       "blog": "saveandplay",
       "secretPrefix": "TUMBLR",
-      "autopost": false,
-      "kinds": ["article", "deal"],
+      "autopost": true,
+      "kinds": ["article"],
       "timezone": "America/Bogota",
       "maxBriefAgeHours": 12,
       "articleEveryDays": 2,
