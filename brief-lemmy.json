@@ -1,0 +1,359 @@
+{
+  "account": "Honest prices",
+  "generatedAt": "2026-10-13T11:14:48.917Z",
+  "builtBy": "commit 8f6cc8f, schedule, run #14 attempt 1",
+  "pricesCheckedAt": "2026-10-13T09:50:22.115Z",
+  "warnings": [],
+  "candidates": [
+    {
+      "id": "gog-prince-of-persia-the-sands-of-time",
+      "kind": "deal",
+      "title": "Prince of Persia: The Sands of Time",
+      "store": "GOG",
+      "price": 1.99,
+      "was": 9.99,
+      "discount": 80,
+      "endsAt": "2026-10-18T09:59:00+03:00",
+      "endsInHours": 116,
+      "priceCheckedAt": "2026-10-13T09:49:36.744Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13600/header.jpg?t=1720535333",
+      "drminfo": null,
+      "coverAlt": "Cover art for Prince of Persia: The Sands of Time",
+      "score": 12,
+      "discountRank": 15,
+      "sites": 1,
+      "mentions": [
+        {
+          "source": "Indie Game Bundles",
+          "domain": "indiegamebundles.com",
+          "title": "Humble Choice October 2026 – Like a Dragon: Pirate Yakuza in Hawaii, Prince of Persia Lost Crown",
+          "link": "https://www.indiegamebundles.com/humble-choice-october-2026/",
+          "t": 1791829080000,
+          "how": "title"
+        }
+      ],
+      "history": {
+        "days": 5,
+        "lowest": false,
+        "since": "2026-10-09"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/prince-of-persia-the-sands-of-time/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-13",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "1 news site wrote about the game in the last 48 h",
+        "deepest-discount rank 15 of 27"
+      ]
+    },
+    {
+      "id": "gog-prince-of-persia-warrior-within",
+      "kind": "deal",
+      "title": "Prince of Persia: Warrior Within",
+      "store": "GOG",
+      "price": 1.99,
+      "was": 9.99,
+      "discount": 80,
+      "endsAt": "2026-10-18T09:59:00+03:00",
+      "endsInHours": 116,
+      "priceCheckedAt": "2026-10-13T09:49:36.744Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13500/header.jpg?t=1720535324",
+      "drminfo": null,
+      "coverAlt": "Cover art for Prince of Persia: Warrior Within",
+      "score": 12,
+      "discountRank": 16,
+      "sites": 1,
+      "mentions": [
+        {
+          "source": "Indie Game Bundles",
+          "domain": "indiegamebundles.com",
+          "title": "Humble Choice October 2026 – Like a Dragon: Pirate Yakuza in Hawaii, Prince of Persia Lost Crown",
+          "link": "https://www.indiegamebundles.com/humble-choice-october-2026/",
+          "t": 1791829080000,
+          "how": "title"
+        }
+      ],
+      "history": {
+        "days": 5,
+        "lowest": false,
+        "since": "2026-10-09"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/prince-of-persia-warrior-within/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-13",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "1 news site wrote about the game in the last 48 h",
+        "deepest-discount rank 16 of 27"
+      ]
+    },
+    {
+      "id": "gog-prince-of-persia-the-two-thrones",
+      "kind": "deal",
+      "title": "Prince of Persia: The Two Thrones",
+      "store": "GOG",
+      "price": 1.99,
+      "was": 9.99,
+      "discount": 80,
+      "endsAt": "2026-10-18T09:59:00+03:00",
+      "endsInHours": 116,
+      "priceCheckedAt": "2026-10-13T09:49:36.744Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13530/header.jpg?t=1720535330",
+      "drminfo": null,
+      "coverAlt": "Cover art for Prince of Persia: The Two Thrones",
+      "score": 12,
+      "discountRank": 19,
+      "sites": 1,
+      "mentions": [
+        {
+          "source": "Indie Game Bundles",
+          "domain": "indiegamebundles.com",
+          "title": "Humble Choice October 2026 – Like a Dragon: Pirate Yakuza in Hawaii, Prince of Persia Lost Crown",
+          "link": "https://www.indiegamebundles.com/humble-choice-october-2026/",
+          "t": 1791829080000,
+          "how": "title"
+        }
+      ],
+      "history": {
+        "days": 3,
+        "lowest": false,
+        "since": "2026-10-11"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/prince-of-persia-the-two-thrones/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-13",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "1 news site wrote about the game in the last 48 h",
+        "deepest-discount rank 19 of 27"
+      ]
+    },
+    {
+      "id": "gog-outward-definitive-edition",
+      "kind": "deal",
+      "title": "Outward Definitive Edition",
+      "store": "GOG",
+      "price": 1.99,
+      "was": 39.99,
+      "discount": 95,
+      "endsAt": "2026-10-22T16:00:00+03:00",
+      "endsInHours": 218,
+      "priceCheckedAt": "2026-10-13T09:49:36.744Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/794260/header.jpg?t=1787229712",
+      "drminfo": null,
+      "coverAlt": "Cover art for Outward Definitive Edition",
+      "score": 10.5,
+      "discountRank": 1,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 8,
+        "lowest": false,
+        "since": "2026-10-05"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/outward-definitive-edition/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-13",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 1 of 27"
+      ]
+    },
+    {
+      "id": "gog-deponia",
+      "kind": "deal",
+      "title": "Deponia",
+      "store": "GOG",
+      "price": 0.99,
+      "was": 9.99,
+      "discount": 90,
+      "endsAt": "2026-10-18T09:59:00+03:00",
+      "endsInHours": 116,
+      "priceCheckedAt": "2026-10-13T09:49:36.744Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/214340/header.jpg?t=1789381815",
+      "drminfo": null,
+      "coverAlt": "Cover art for Deponia",
+      "score": 10,
+      "discountRank": 5,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 6,
+        "lowest": false,
+        "since": "2026-10-08"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/deponia/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-13",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 5 of 27"
+      ]
+    }
+  ],
+  "gogNews": [],
+  "topical": [
+    {
+      "title": "Lose, retry, save! Steam's Roguelike Celebration brings discounts up to 95% off",
+      "source": "gg.deals News",
+      "link": "https://gg.deals/deal/steam-roguelike-celebration-2026/",
+      "t": 1791881145000,
+      "keyword": "discounts",
+      "summary": "One more run?"
+    },
+    {
+      "title": "The best early Black Friday PS5 deals in 2026: the biggest Sony savings so far",
+      "source": "GamesRadar deals",
+      "link": "https://www.gamesradar.com/platforms/ps5/the-best-early-black-friday-ps5-deals-in-australia-for-2026-the-biggest-sony-savings-so-far/",
+      "t": 1791859263000,
+      "keyword": "deals",
+      "summary": "Menu (Image credit: Future/SteelSeries/Sony PlayStation) 1. Retailers to know 2. Today's best deals This year's Black Friday PS5 deals are in a bit of an awkwa…"
+    },
+    {
+      "title": "Steam Cooking Fest 2026 has launched, with discounts of up to 90% off",
+      "source": "gg.deals News",
+      "link": "https://gg.deals/deal/steam-cooking-fest-2026-has-launched-with-discounts-of-up-to-90-off/",
+      "t": 1791839569000,
+      "keyword": "discounts",
+      "summary": "Cooking games, restaurant simulators, and co-op chaos are available at significantly reduced prices!"
+    }
+  ],
+  "topics": [
+    {
+      "headline": "Epic Games reportedly delays Star Wars and Marvel shooter, as the Fortnite maker embraces \"AI-accelerated development\"",
+      "score": 14,
+      "sites": [
+        "gg.deals",
+        "pcgamer.com",
+        "rockpapershotgun.com",
+        "eurogamer.net"
+      ],
+      "keywords": [
+        "humble"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Epic Games pushes AI-first development for its upcoming Star Wars and Marvel shooter",
+          "link": "https://gg.deals/gaming-news/epic-games-pushes-ai-first-development-for-its-upcoming-star-wars-and-marvel-shooter/",
+          "published": "2026-10-13T10:50:00.000Z"
+        },
+        {
+          "source": "PC Gamer",
+          "title": "'Our humble goal is to survive the AI revolution' says Epic Games CEO, as its Star Wars and Marvel crossover pivots to 'AI first' development",
+          "link": "https://www.pcgamer.com/gaming-industry/game-development/our-humble-goal-is-to-survive-the-ai-revolution-says-epic-games-ceo-as-its-star-wars-and-marvel-crossover-pivots-to-ai-first-development/",
+          "published": "2026-10-12T22:55:00.000Z"
+        },
+        {
+          "source": "Rock Paper Shotgun",
+          "title": "\"No more hand-written code\": Epic reportedly impose \"AI-first\" model on creators of new Disney shooter with Marvel and Star Wars characters",
+          "link": "https://www.rockpapershotgun.com/no-more-hand-written-code-epic-reportedly-impose-ai-first-model-on-creators-of-new-disney-shooter-with-marvel-and-star-wars-characters",
+          "published": "2026-10-12T22:29:01.000Z"
+        },
+        {
+          "source": "Eurogamer",
+          "title": "Epic Games reportedly delays Star Wars and Marvel shooter, as the Fortnite maker embraces \"AI-accelerated development\"",
+          "link": "https://www.eurogamer.net/epic-games-delays-star-wars-marvel-shooter-ai-development",
+          "published": "2026-10-12T19:11:39.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Humble Cozy After Dark Showcase Bundle",
+      "score": 10,
+      "sites": [
+        "gg.deals",
+        "indiegamebundles.com"
+      ],
+      "keywords": [
+        "bundle",
+        "humble"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Humble’s Cozy After Dark Showcase Bundle keeps things comfy once the lights go out",
+          "link": "https://gg.deals/bundle/humbles-cozy-after-dark-showcase-bundle-keeps-things-comfy-once-the-lights-go-out/",
+          "published": "2026-10-12T18:56:21.000Z"
+        },
+        {
+          "source": "Indie Game Bundles",
+          "title": "Humble Cozy After Dark Showcase Bundle",
+          "link": "https://www.indiegamebundles.com/humble-cozy-after-dark-showcase-bundle/",
+          "published": "2026-10-12T19:07:54.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Humble Store’s Strategic Sims Sale offers discounts of up to 90%",
+      "score": 7,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "sale",
+        "discounts",
+        "humble"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Humble Store’s Strategic Sims Sale offers discounts of up to 90%",
+          "link": "https://gg.deals/deal/humble-stores-strategic-sims-sale-offers-discounts-of-up-to-90/",
+          "published": "2026-10-12T20:11:35.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Steam’s new Weeklong Sale drops prices on Halo: TMCC and thousands more PC games",
+      "score": 7,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "sale",
+        "prices"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Steam’s new Weeklong Sale drops prices on Halo: TMCC and thousands more PC games",
+          "link": "https://gg.deals/deal/steams-new-weeklong-sale-drops-prices-on-halo-tmcc-and-thousands-more-pc-games/",
+          "published": "2026-10-12T18:08:16.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "GOG kicks off the week with over 3,000 DRM-free deals",
+      "score": 7,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "deals",
+        "free"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "GOG kicks off the week with over 3,000 DRM-free deals",
+          "link": "https://gg.deals/deal/gog-kicks-off-the-week-with-over-3000-drm-free-deals/",
+          "published": "2026-10-12T14:40:00.000Z"
+        }
+      ]
+    }
+  ],
+  "left": {
+    "otherStore": 10,
+    "hidden": 0,
+    "smallDiscount": 0,
+    "ended": 0,
+    "endsTooSoon": 0,
+    "oldPrice": 0
+  },
+  "sources": {
+    "total": 11,
+    "failed": []
+  },
+  "posts": {}
+}
