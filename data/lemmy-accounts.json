@@ -3,7 +3,7 @@
   "accounts": {
     "lemmy": {
       "instance": "lemmy.zip",
-      "username": "saveandplay",
+      "username": "SaveAndPlay",
       "passwordEnv": "LEMMY_PASSWORD",
       "autopost": false,
       "timezone": "America/Bogota",
