@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#0D1117"/>
+<rect x="56" y="22" width="1088" height="586" rx="28" fill="#161B22" stroke="#262D38"/>
+<text x="100" y="100" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="44" font-weight="800" fill="#FFFFFF">One game, many prices on Steam</text>
+<rect x="100" y="150" width="300" height="190" rx="18" fill="none" stroke="#3DDC97" stroke-width="4"/>
+<text x="250" y="240" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="76" font-weight="800" text-anchor="middle" fill="#FFFFFF">37</text>
+<text x="250" y="290" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="30" text-anchor="middle" fill="#E8ECF1">currencies</text>
+<rect x="450" y="150" width="300" height="190" rx="18" fill="none" stroke="#3DDC97" stroke-width="4"/>
+<text x="600" y="240" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="76" font-weight="800" text-anchor="middle" fill="#FFFFFF">4</text>
+<text x="600" y="290" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="30" text-anchor="middle" fill="#E8ECF1">region groups</text>
+<rect x="800" y="150" width="300" height="190" rx="18" fill="#FFB454"/>
+<text x="950" y="240" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="76" font-weight="800" text-anchor="middle" fill="#1B1203">30</text>
+<text x="950" y="290" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="30" text-anchor="middle" fill="#1B1203">days, no discount</text>
+<text x="100" y="420" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="32" fill="#E8ECF1">The developer sets every price.</text>
+<text x="100" y="470" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="32" fill="#E8ECF1">A price rise pauses discounts for 30 days.</text>
+<text x="100" y="560" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="28" fill="#9AA5B4">Source: Steamworks documentation. saveandplay.com</text>
+</svg>
