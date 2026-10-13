@@ -30,7 +30,7 @@ Write like a very helpful community member, not a brand. These replies get likes
 - Real people (not bots, stores, or devs promoting their own game), post age under 1-2 days.
 - Topics: PC game discounts, Steam/GOG/Epic/itch sales, wishlists, DRM-free, refunds, price history, system requirements and compatibility, games for low-end PCs, bundles, backlog, what to play.
 - Best: questions, or someone unsure before buying.
-- Skip: posts where replies are limited (see the check below), piracy, rants and fights, politics, NSFW, people in a hard emotional state, other people's ads.
+- Skip: piracy, rants and fights, politics, NSFW, people in a hard emotional state, other people's ads.
 - Skip posts by devs promoting their own game (so no `indie dev` / `game dev` queries).
 - Skip anything about bypassing regional pricing (VPN, region-locked keys): Steam forbids it, we never give that advice.
 - Skip "is Kinguin / key site safe" questions: answer only after checking facts, and flag to the owner ("verify").
@@ -58,14 +58,12 @@ Open https://bsky.app/search?q=QUERY&tab=latest (it must be tab=latest), wait 3 
 - Posts are often about consoles (Switch, PS5). Check the platform before replying, we only help with PC.
 - Run the extraction in one JS call and filter by age (`· Nм`, `· Nч`, `· 1д`). Search results show many old posts.
 - Also good: `steam deck games` (people ask for recommendations; filter out news bots). Weak: Epic/free-game queries (only deal bots), `cozy games pc`, `cheap games steam under $10`, `bundle worth it games` (empty or our own posts).
+- `steam backlog` now mostly returns heated AI-in-games arguments: skip those threads (rule: no fights, no politics).
+- Late evening/night Bogota time gives few fresh posts (2-3 per run). Best time: afternoon Bogota time.
 - Expect 6-8 usable posts per run, not 10. Do not pad the list with weak posts.
 
-## Check that replies are open (do this before drafting)
-Some authors limit who can reply ("Some people can reply" in the app). Then the owner cannot answer, so skip those posts.
-For each candidate, run in the browser page (bsky.app) with javascript_tool, using the public API (no login):
-1. Resolve the handle: `https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=HANDLE` -> did.
-2. `https://public.api.bsky.app/xrpc/app.bsky.feed.getPosts?uris=at://DID/app.bsky.feed.post/RKEY` -> if `posts[0].threadgate` exists, replies are limited: skip.
-3. If the post is itself a reply (`posts[0].record.reply.root.uri`), run step 2 on the ROOT post too. The root's limit applies to the whole thread.
+## Posts with limited replies
+Rare (1 case so far). Do NOT run any check for it, it costs tokens. If the owner cannot reply to a post, the owner skips it and tells Claude. Note: a "threadgate" on a post does not always mean limited replies, so never use it to drop posts.
 
 ## When the owner gets a reply to one of our comments
 The app shows only "Replied to you". To find which comment it answers: in the browser page fetch
