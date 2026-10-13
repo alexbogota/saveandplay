@@ -371,8 +371,8 @@ export function listGuides() {
 }
 
 // The post of a guide from its header: title, picture, description, link. The link carries the marks of the account (utm_source = subid).
-// cover = { type, width, height } of the picture or null. Returns { post: { content, tags }, path, title, imageUrl, notes }. Throws with a plain reason when the guide cannot become a post.
-export function buildArticlePost(g, account, site, cover = null) {
+// cover = { type, width, height } of the picture, null (it could not be measured), or left out (not measured yet: no note about its size). Returns { post: { content, tags }, path, title, imageUrl, notes }. Throws with a plain reason when the guide cannot become a post.
+export function buildArticlePost(g, account, site, cover = undefined) {
   const { fm } = splitArticle(g.text);
   const bad = [];
   if (!fm) bad.push('no header (--- ... ---)');
@@ -398,7 +398,7 @@ export function buildArticlePost(g, account, site, cover = null) {
 
   const blocks = [text(clip(title, 300), 'heading2')];
   if (imageUrl && cover) blocks.push(imageBlock(imageUrl, cover, alt));
-  else if (imageUrl) notes.push('no picture: its size could not be read');
+  else if (imageUrl && cover !== undefined) notes.push('no picture: its size could not be read');
   if (description) blocks.push(text(description));
   blocks.push(linkBlock(`${site}${path}?utm_source=${account.subid}&utm_medium=social&utm_campaign=${g.slug}`, 'Read the guide on Save and Play', account.linkStyle));
   return { post: { content: blocks, tags: buildTags(account, 'article') }, path, title: clip(title, 300), imageUrl, notes };

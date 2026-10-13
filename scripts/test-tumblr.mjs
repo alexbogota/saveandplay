@@ -241,7 +241,8 @@ function makeRoot({ autopost = true, briefJson = brief(), env = envText(), guide
   for (const d of ['data', 'drafts', 'public/og', 'src/pages/guides']) mkdirSync(join(root, d), { recursive: true });
   writeFileSync(join(root, 'data/accounts.json'), JSON.stringify(realAccounts, null, 2) + '\n');
   const cfg = JSON.parse(JSON.stringify(realTumblr));
-  Object.assign(cfg.accounts.tumblr, { blog: 'myblog', autopost, ...account });
+  // The tests cover both kinds, whatever the owner has switched on in the real settings.
+  Object.assign(cfg.accounts.tumblr, { blog: 'myblog', autopost, kinds: ['article', 'deal'], ...account });
   writeFileSync(join(root, 'data/tumblr-accounts.json'), JSON.stringify(cfg, null, 2) + '\n');
   for (const [slug, n] of Object.entries(guides)) {
     writeFileSync(join(root, `src/pages/guides/${slug}.md`), guideFile(typeof n === 'string' ? n : guideHead(slug, n)));
@@ -328,9 +329,9 @@ test('picture sizes are read from PNG, JPEG, GIF and the three kinds of WebP; an
   assert.equal(imageInfo(Buffer.alloc(5)), null);
 });
 
-test('the real settings: valid, autopost off, the brief block exists with its own subid and no Tumblr-only settings', () => {
+test('the real settings: valid, autopost set by the owner, the brief block exists with its own subid and no Tumblr-only settings', () => {
   const a = realTumblr.accounts.tumblr;
-  assert.equal(a.autopost, false, 'a new channel starts with autopost off: the owner switches it on');
+  assert.equal(typeof a.autopost, 'boolean', 'autopost is true or false (the owner switches it)');
   const account = withTumblrDefaults('tumblr', { ...realAccounts.accounts.tumblr, ...a });
   assert.deepEqual(configProblems(account), []);
   assert.equal(realAccounts.accounts.tumblr.subid, 'tumblr-prices');
@@ -711,6 +712,8 @@ test('a guide dry run shows the post even when it is too early; a guide with no 
   const r = await post(root, server, 'article', ['--dry-run']);
   assert.equal(r.code, 0, r.all);
   assert.match(r.summary, /Guide g-b/);
+  assert.doesNotMatch(r.summary, /size could not be read/, 'the picture is measured, so no false note about its size');
+  assert.match(r.summary, /\[image 460x215\]/);
   assert.match(r.out, /WARNING: tumblr: guides that cannot become a post/);
   assert.equal(server.S.calls.length, 0);
   server.close();
