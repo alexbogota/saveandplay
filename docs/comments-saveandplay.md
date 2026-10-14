@@ -1,6 +1,7 @@
 # Comments playbook: Bluesky account @saveandplay.com
 
 Applies ONLY to https://bsky.app/profile/saveandplay.com (PC game deals site). Other accounts get their own files: docs/comments-NAME.md.
+Mastodon (@saveandplay@mastodon.social) has its own file: docs/comments-saveandplay-mastodon.md; the owner starts it with the phrase "комментарии mastodon". The phrase "комментарии saveandplay" is Bluesky only.
 The owner sends replies manually from this account. Claude only drafts replies, never publishes.
 Posts are found by a PROGRAM, not by Claude: the "Comment candidates" workflow on GitHub (repository alexbogota/saveandplay) runs every 6 hours and keeps its list on the branch `comments`. Its settings (search queries, feeds, stop words, scores) are in `data/comments-accounts.json`, the description is in `docs/comments-finder.md`. Do NOT search Bluesky through the browser: it costs many tokens and has no memory of what was already shown.
 The owner's computer and his project folder are NOT needed: the chat takes the code and the list from GitHub, so it works from any device. The owner never has to type commands.
