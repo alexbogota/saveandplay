@@ -1,59 +1,99 @@
 # Comment candidates: prices (@saveandplay.com)
-Made 2026-10-14T12:47Z. Searched: broadPlaying: "what are you playing" this week | broadAsk: "hidden gem" games | waitForSale: "is it on sale" steam | backlog: "looking for games like" | deck: steam deck games | bundles: itch.io bundle | practical: "physical vs digital" games | genres: co-op games pc | pcGaming: feed | gamingLiked: feed.
-Posts below: 12 + 2 heated. Dropped in this run: own post 1, skip word 48, promo (link and hashtags) 13, already answered 4, already shown 1, not about games 10, replies are limited 2, bot, shop or studio 56, low score 16, many links 2, earlier finds: low score 3.
+Made 2026-10-14T18:46Z. Searched: seasonal: spooky games steam | ai: generative AI games steam | broadPlaying: "best game" "this year" played | broadAsk: "games like" recommend | waitForSale: "should I buy" game | backlog: "what should I play next" | deck: "steam deck" recommendations | bundles: pay what you want games | practical: steam refund | genres: city builder recommendations | pcGaming: feed | gamingLiked: feed.
+Posts below: 25. Dropped in this run: skip word 53, already shown 3, console only 4, not about games 5, bot, shop or studio 32, other language (text) 4, promo (link and hashtags) 17, low score 15, replies are limited 1, many links 1, adult or graphic label 1, earlier finds: low score 5.
 
 ## Posts
-1. @tierradegamers.bsky.social (Tierra de Gamers) · 6h · likes 1 · replies 0 · question · pcGaming
-   https://bsky.app/profile/tierradegamers.bsky.social/post/3mxswcnvkyw2z
-   🚨 ¡Filtración bomba! GTA 6 en PC podría llegar MUCHO antes de lo esperado. 🤫 ¿Realidad o rumor? Esta noticia ha dejado a todos con la boca abierta. 🤯 #GTA6 #PCGaming #Filtracion #RockstarGames
-   [link card: GTA 6 llegará a PC más pronto de lo esperado]
-2. @napochem.bsky.social (Napoleon the Chemist) · 11h · likes 1 · replies 0 · question · broadAsk
-   https://bsky.app/profile/napochem.bsky.social/post/3mxsgasiokk24
-   YouTube tried to recommend me a video complaining about the book not adhering to the video game. "Do not recommend channel" is a good button.
-3. @yuzuvhs.bsky.social (puppygirl travis touchdown) · 1h · likes 1 · replies 1 · deck
-   https://bsky.app/profile/yuzuvhs.bsky.social/post/3mxtgju6jws2z
-   i was waiting until i got my steam deck or if they went on sale to buy them and now that the deck is here the games are Impossible For Me To Buy
-4. @rootnationen.bsky.social (RootNationEN) · 2h · likes 1 · replies 0 · pcGaming
-   https://bsky.app/profile/rootnationen.bsky.social/post/3mxtfmoovxc2d
-   Acer Predator Helios Neo 16 (PHN16-I31) Review: An Ambitious Gaming Laptop #AcerPredator #GamingLaptop #TechReview #PCGaming #GamerLife
-   [link card: Acer Predator Helios Neo 16 (PHN16-I31) Review: An Ambitious Gaming Laptop]
-5. @umbramoonlight.bsky.social (Umbra Moonlight  🐈‍⬛ 🦇 🌙) · 3h · likes 16 · replies 0 · pcGaming
-   https://bsky.app/profile/umbramoonlight.bsky.social/post/3mxtam26ucs2d
-   Oh hello. Look what’s finally arrived. xD #steam #steamframe #vr #furry #furryvr
-   [2 images, no description]
-6. @feed.igeek.gamer-geek-news.com.ap.brid.gy (input) · 3h · likes 1 · replies 0 · pcGaming
-   https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3mxtabudyadp2
-   📰 **Steam's new Big Art Mode is a lovely visual upgrade for my living room setup** Big Art Mode is looking fiiiine. 📰 Source: Latest from PC Gamer 🔗 Link: https://www.pcgamer.com/software/platforms/steams-new-big-art-mode-is-a-lovely-visual-upgrade-for-my-living-room-setup/ #S
-   [image: Image for: Steam's new Big Art Mode is a lovely visual upgrade for my living room setup]
-7. @jamesmarshall92.bsky.social · 5h · likes 1 · replies 0 · pcGaming
-   https://bsky.app/profile/jamesmarshall92.bsky.social/post/3mxsyxjxz722q
-   Not a VR player myself, but you have to admit MIT's new flexible "second skin" tracking tech is straight out of sci-fi. Wild to see where hardware engineering is heading! 🥽✨ ​ #VirtualReality #Innovation #MIT #PCGaming #pcgamer #TechNews
-   [quotes @pcgamer.com: Though currently a bulky prototype, the flexible sheet could one day be worn like a second skin that can more accurately track the transfor…]
-8. @pixeliso.bsky.social (Mastahhh Gaming Network) · 20h · likes 2 · replies 0 · question · pcGaming
-   https://bsky.app/profile/pixeliso.bsky.social/post/3mxrjeau6pe2r
-   🎮 Could GTA 6 arrive on PC sooner than expected? A new report points to Q1 2027, but Rockstar hasn't confirmed a PC release date yet. #GTA6 #GamingNews #PCGaming
-9. @vixiebee.bsky.social (✨Vixie BOO👻 🌈🍉 Comms open!) · 24h · likes 40 · replies 2 · question · gamingLiked
-   https://bsky.app/profile/vixiebee.bsky.social/post/3mxr2bmc6jw2c
-   It's #PortfolioDay already!? Hey, I'm Vix, a queer artist from Atlantic Canada! My work is full of colour, fantasy/sci-fi, and character design, and I'm currently working on two indie games. Commissions: vgen.co/vixiebee ✨ | #oc #ocsky #art | ✨
-   [4 images: A half-body portrait of a gorgon-esque character. She is dressed in cool, clubbing clothing, and the snakes that stand in for her hair are a gradient of bright… / A digital portrait of a young, androgynous person with fluffy pink hair, smiling and making a heart shape with their hands. They are wearing a yellow and blue … / A grid of eight different rectangle crops close-up on the eyes of various characters. / A character design sheet for a super hero OC named DNAvigator. They are in a form fitting white and purple uniform with a sunset coloured bomber jacket and blu…]
-10. @weebiejeebies.bsky.social (GleebieDeebies) · 2h · likes 0 · replies 0 · deck
-   https://bsky.app/profile/weebiejeebies.bsky.social/post/3mxtd56nyfk23
-   Okay, my list is of ps5 games is starting to grow a little now, I really wanna play Ace Combat 8 I think any games that I'm sure won't run well on my PC/Steam Deck will still be for my ps5, but it still isn't a long list lol
-   [quotes @weebiejeebies.bsky.social: Okay yeah, i'm definitely picking up crosswords next time it goes on sale on steam I'm also starting to realize how many games I should've …]
-11. @vaddix-gaming.bsky.social (Vaddix Gaming) · 8h · likes 1 · replies 0 · pcGaming
-   https://bsky.app/profile/vaddix-gaming.bsky.social/post/3mxsrtxlxus2i
-   Boss time against Hunk! Guns don’t work well here, especially up close. It’s more fun to Sekiro this fight and parry his attacks and melee him. Can be a bit tough if you haven’t been parrying much tho #residentevilrequiem #steam #pc #gaming #gamer
-   [4 images, no description]
-12. @mmotoda.bsky.social (Mike Motoda) · 8h · likes 5 · replies 1 · pcGaming
-   https://bsky.app/profile/mmotoda.bsky.social/post/3mxsq3umyys23
-   That was quite a journey in Big Walk tonight! Didn't think my wife and I were going to do these, but we planned out our route carefully, took things slow, and got our purple gourd safely delivered. 💜 Time-consuming but fun! #bigwalk #househouse #coopgaming #pcgaming #videogames 
-   [4 images: Big Walk screenshot / Big Walk screenshot / Big Walk screenshot / Big Walk screenshot]
-
-## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @gfxnico.bsky.social (Nico May) · 13h · likes 1 · replies 1 · question · ai
-   https://bsky.app/profile/gfxnico.bsky.social/post/3mxsb3tgtoc2k
-   Content is AI? Or code? It keeps coming up that steam does not require any disclosure for AI code, no matter how slopped up it is.
-2. @ultratrashdog.bsky.social (ultratrashdog [working on: Psych Ward In) · 21h · likes 6 · replies 1 · bundles
-   https://bsky.app/profile/ultratrashdog.bsky.social/post/3mxrggggtns2w
-   LESS THAN 12 HOURS ⏰ left until our Femboy Fall bundle on itch ends! 🍁 𝐖𝐇𝐀𝐓 𝐘𝐎𝐔 𝐆𝐄𝐓: ↳ 22 works with femboys (including my Leiro!) ↳ 7 books ↳ 10 comics ↳ 5 games ↳ real work by real indie creators ↳ 100% authenticity and 0% AI 🍁 𝐖𝐇𝐀𝐓 𝐖𝐄 𝐆𝐄𝐓: ↳ 20 bucks itch.
-   [image: A promotional graphic for the Femboy Fall itch.io bundle. The text reads: "7 books, 10 comics, 5 games. Femboys! Otokonoko! Feminine guys! And more". The backg…]
+1. @callumisaac.art (Callum Isaac Moscovitch) · 6h · likes 1 · replies 0 · question · pcGaming
+   https://bsky.app/profile/callumisaac.art/post/3mxtmlkbvykmg
+   Has anyone here ever successfully used Steam Link to stream Blender on your iPad? #steam #blender
+2. @catharsis23.bsky.social · 18h · likes 3 · replies 0 · question · waitForSale
+   https://bsky.app/profile/catharsis23.bsky.social/post/3mxsdexp6gk24
+   "Reddit should I buy this video game"
+3. @falconpaladin.bsky.social (Falcon Paladin) · 2h · likes 1 · replies 1 · question · pcGaming
+   https://bsky.app/profile/falconpaladin.bsky.social/post/3mxtzckldak2f
+   They got back up?!?! | #falconpaladin #witcher3 #witcher #witcher3remastered #cdpr #gaming #pcgaming
+   [video, no description]
+4. @vaddix-gaming.bsky.social (Vaddix Gaming) · 1h · likes 1 · replies 0 · pcGaming
+   https://bsky.app/profile/vaddix-gaming.bsky.social/post/3mxu42xjwsk2o
+   Good thing lickers are blind lol #residentevilrequiem #steam #pc #gaming #gamer
+   [image, no description]
+5. @ladiesgamers.bsky.social (LadiesGamers.com) · 3h · likes 1 · replies 0 · pcGaming
+   https://bsky.app/profile/ladiesgamers.bsky.social/post/3mxtwkan77r2f
+   Over the Hill is a casual adventure game where you drive a 4x4 car over bumpy roads, trails and across forests. It’s about the journey, not the destination. @gamedrivenl.bsky.social #OverTheHill #Steam wp.me/p70tPw-tJq
+   [image, no description]
+6. @jschofieldvo.bsky.social (James Schofield) · 3h · likes 1 · replies 0 · pcGaming
+   https://bsky.app/profile/jschofieldvo.bsky.social/post/3mxtw742mli25
+   IGN.com News: New leaks suggest Nvidia is discontinuing its flagship RTX 5090 graphics card, though its astronomical price meant most gamers couldn't afford it anyway. #Nvidia #PCGaming
+7. @urazon1.bsky.social · 4h · likes 1 · replies 0 · pcGaming
+   https://bsky.app/profile/urazon1.bsky.social/post/3mxtt24msph2u
+   Switch between Parker and Morales as you protect Marvel's New York. Now on Urazon: Marvel's Spider-Man 2 (Steam) for €37.06, with instant digital delivery. https://urazon.com/Marvel-s-Spider-Man-2-Steam-Key-EU #MarvelsSpiderMan2 #PCGaming
+   [image: Urazon promo for Marvel's Spider-Man 2 Steam Key EU: original game cover with the price €37.06.]
+8. @ladiesgamers.bsky.social (LadiesGamers.com) · 5h · likes 2 · replies 0 · pcGaming
+   https://bsky.app/profile/ladiesgamers.bsky.social/post/3mxtpyljfgr2f
+   The Witch's Bakery is about a witch who opens a bakery in modern Paris. She has one special power- she can see into people's hearts and heal their emotions. @sunnylabgames.bsky.social @pressengine.net #TheWitchsBakery #Steam wp.me/p70tPw-tJK
+   [image, no description]
+9. @glowhyena.bsky.social (Glowhyena) · 23m · likes 0 · replies 0 · pcGaming
+   https://bsky.app/profile/glowhyena.bsky.social/post/3mxu66xlagk2g
+   I made this. Steam and GOG ftw. lol #Steam #GOG #EpicGames
+   [image, no description]
+10. @crush.secondlife.bio (Jelly Doll ☕️🐇🌈) · 2h · likes 0 · replies 0 · pcGaming
+   https://bsky.app/profile/crush.secondlife.bio/post/3mxu2a6cgzc26
+   No way in hell I'm letting Epic's vibe coded Linux anti-cheat anywhere my kernel. They can cram it back up Tim's ass where they found it. @valvesoftware.com better not break the #steamdeck 's immutable filesystem for it either.
+11. @geekrealmhub.bsky.social (Geek Realm Hub) · 2h · likes 0 · replies 0 · pcGaming
+   https://bsky.app/profile/geekrealmhub.bsky.social/post/3mxtydudzic2s
+   #EpicGames gets roasted over its new launcher Epic claims its “vibe-coded” launcher opens the store 46% faster than #Steam. But gamers argue speed isn't the point. Features, community & user experience matter, too. #PCGaming #GeekRealmHub
+   [image, no description]
+12. @drgoon.bsky.social (Gordon Hundley) · 2h · likes 0 · replies 0 · bundles
+   https://bsky.app/profile/drgoon.bsky.social/post/3mxtxti25v22s
+   Correct URL: www.humblebundle.com/games/progra...
+   [link card: Programing Puzzles Bundle]
+13. @geekrealmhub.bsky.social (Geek Realm Hub) · 2h · likes 0 · replies 0 · pcGaming
+   https://bsky.app/profile/geekrealmhub.bsky.social/post/3mxtxb4ti4s2v
+   THE DEAD WE KNEW reveals gameplay #Zombies, hostile survivors & deadly fog await! Survive solo or in 4-player co-op, build shelters, craft, hunt, fish & farm. Early Access launches Oct 22 on #Steam. #TheDeadWeKnew #PCGaming #GeekRealmHub
+   [video, no description]
+14. @eff.org (Electronic Frontier Foundation) · 3h · likes 15 · replies 3 · bundles
+   https://bsky.app/profile/eff.org/post/3mxtvzjyzbj2c
+   Play Retro Gadgets, Quantum Odyssey, Replicube, SOLAS 128 and more in Humble's new Programming Puzzles Bundle. Pay what you want and direct some of the proceeds to EFF, too! www.humblebundle.com/games/progr...
+   [link card: Programing Puzzles Bundle]
+15. @savepointgaming.bsky.social (SavePoint Gaming) · 3h · likes 0 · replies 0 · pcGaming
+   https://bsky.app/profile/savepointgaming.bsky.social/post/3mxtuoivnfs24
+   ⚔️ Ashes of the Singularity II from #Stardock launches November 10 on Steam. Expect thousands of units, three playable factions, a single-player campaign and both competitive and co-op multiplayer. #AshesOfTheSingularityII #RTS #PCGaming
+   [link card: Ashes of the Singularity II Launches in November With Massive-Scale RTS Warfare | SavePoint Gaming]
+16. @jamesmarshall92.bsky.social · 4h · likes 0 · replies 0 · pcGaming
+   https://bsky.app/profile/jamesmarshall92.bsky.social/post/3mxtszrshks2a
+   ​It literally took 13 years to get GTA VI, and now Rockstar says the next game won't take 8 years. Sure. Here we go again... another 13 years just waiting on the PC port while console gets it first! 😂 ​ #GTA7 #PCGaming #GTA6 #Steam #RockstarGames #GamingNews
+   [quotes @videogameschronicle.com: Rockstar says the next game it works on after Grand Theft Auto 6 won't take another eight years to make. The engine, tools and team it buil…]
+17. @vantablack.bsky.social (🌈 vanta rainbow black 🌈) · 4h · likes 0 · replies 0 · pcGaming
+   https://bsky.app/profile/vantablack.bsky.social/post/3mxtqxhajmc2l
+   DOES THIS COUNT AS A CYBERDECK I THINK IT DOES #cyberdeck #steamdeck #keyboard
+   [image: steamdeck in a decktop keyboard thingy]
+18. @marpesia.bsky.social (Marpesia) · 6h · likes 0 · replies 1 · pcGaming
+   https://bsky.app/profile/marpesia.bsky.social/post/3mxtlee5wns2s
+   A dark martial‑arts world, fast action, and a story racing against time. Phantom Blade Zero looks incredible. Catch my article 👇 (link in comments) #PhantomBladeZero #ActionGame #PS5 #PCGaming
+   [image, no description]
+19. @xanderoconnor.bsky.social (Xander O’Connor) · 15h · likes 1 · replies 0 · deck
+   https://bsky.app/profile/xanderoconnor.bsky.social/post/3mxslncgvfs2u
+   I have the non Xbox version and its so cool to not just have PC games on the fly but also the ability to run *modded* PC games (and non Steam games). (Aka why I switched from steam deck to what I call the “asus deck”…since the full name is terrible)
+20. @feed.igeek.gamer-geek-news.com.ap.brid.gy (input) · 16h · likes 2 · replies 0 · pcGaming
+   https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3mxslgurugjj2
+   📰 **1999 TOKOYO Building launches November 10** Neo-nostalgic horror adventure game 1999TOKOYO Building will launch for PC via Steam on November 10, … 📰 Source: Gematsu 🔗 Link: https://www.gematsu.com/2026/10/1999-tokoyo-building-launches-november-10 #SteamDeck #PCGaming
+   [link card: ]
+21. @vaddix-gaming.bsky.social (Vaddix Gaming) · 16h · likes 1 · replies 0 · pcGaming
+   https://bsky.app/profile/vaddix-gaming.bsky.social/post/3mxsjlabytc2i
+   Creepy #residentevilrequiem #steam #pc #gaming #gamer
+   [image, no description]
+22. @coreybrickley.bsky.social (Corey Brickley * Blight's Hollow Dot Com) · 17h · likes 58 · replies 4 · question · broadPlaying
+   https://bsky.app/profile/coreybrickley.bsky.social/post/3mxshdlog2s2f
+   I think. Zero Parades might actually have been the best game I played this year? Followed closely by Zero Company. Kind of a bittersweet year tbh. Feels like the good art always gets punished
+23. @lauriewallmark.bsky.social (Laurie (HIPPO BEACH BASH) Wallmark) · 17h · likes 16 · replies 0 · pcGaming
+   https://bsky.app/profile/lauriewallmark.bsky.social/post/3mxsgiw4py22g
+   Happy Ada Lovelace Day! Celebrate by reading a #biography of Ada Lovelace, the first computer programmer. @crestonbooks.bsky.social #bookposse #teachers #librarians #educators #homeschoolers #bookstagram #booktok #booksky #edusky #WomenInSTEM #scicomm #STEM #STEAM #STEMeducation 
+   [image, no description]
+24. @savepointgaming.bsky.social (SavePoint Gaming) · 17h · likes 2 · replies 0 · pcGaming
+   https://bsky.app/profile/savepointgaming.bsky.social/post/3mxsgcu6oa224
+   🖥️ GTA VI is reportedly targeting Q1 2027 on PC. That could put it just months behind the November 19 console launch, although Rockstar has yet to officially announce a PC version. #GTAVI #RockstarGames #PCGaming
+   [link card: GTA VI PC Release Reportedly Planned for Early 2027 | SavePoint Gaming]
+25. @ekuwah.bsky.social (Ekuwah Mends Moses 🇬🇭 🇺🇸) · 17h · likes 5 · replies 0 · pcGaming
+   https://bsky.app/profile/ekuwah.bsky.social/post/3mxsf6jke5c2b
+   A 4th grader requested more mazes in her end-of-year reflection. I listened! Our 1st maze was rectangular & used a marble. This time, students made hexagonal spider pits, using magnets underneath to guide a person to safety! I repeat challenges, but never the same way! #EduSky #s
+   [video, no description]

@@ -1,24 +1,9 @@
 # Comment candidates: mastodon-prices (@saveandplay@mastodon.social)
-Made 2026-10-14T12:48Z. Searched: broadAsk: hiddengem | waitForSale: steam+sale | backlog: pileofshame | deck: steamos | bundles: fanatical | practical: gog | genres: cozygames | seasonal: spooktober.
-Posts below: 4. Dropped in this run: too old 261, promo (link and hashtags) 9, bot, shop or studio 30, own post 4, other language 2, skip word 6, not about games 5, earlier finds: low score 2.
+Made 2026-10-14T18:46Z. Searched: broadPlaying: gaming | broadAsk: underratedgames | waitForSale: gamedeals | backlog: whatshouldiplay | deck: handheldgaming | bundles: bundle+games | practical: protondb | genres: metroidvania.
+Posts below: 1. Dropped in this run: other language 14, content warning 3, link post, not a question 4, bot, shop or studio 68, other language (text) 23, skip word 14, low score 2, profile says no bots or promo 2, promo (link and hashtags) 11, console only 2, too short 1, not about games 1, too old 174, own post 4, too long 1.
 
 ## Posts
-1. @alexd@photomode.gamerstavern.online (Darke) · 13h · likes 1 · replies 0 · question · broadPlaying
-   https://mastodon.social/@alexd@photomode.gamerstavern.online/117436295478915812
-   original: https://photomode.gamerstavern.online/p/alexd/1015771764846639105
-   Would you trust this man? #elderscrollsonline #necromancer #pcgaming
-   [image, no description]
-2. @suburbantimewaster@mastodon.world (Suburban Timewaster) · 12h · likes 1 · replies 0 · genres
-   https://mastodon.social/@suburbantimewaster@mastodon.world/117436469297984427
-   original: https://mastodon.world/@suburbantimewaster/117436469164091236
-   Nothing exciting here. Just my first game of Pooh Sticks. #disneydreamlightvalley #videogames #gaming #cozygames #short #clip
-   [video, no description]
-3. @BossRushNetwork@mastodon.social (The Boss Rush Network) · 14h · likes 0 · replies 0 · deck
-   https://mastodon.social/@BossRushNetwork/117436091929103906
-   In this clip, Nick Dimitrescu, Corey Dirrig, and LeRon Dawkins dive into the reality of using Steam OS. Nick shares his personal frustrations with the Steam Deck glitching out during simple tasks—like attempting to play Clone Hero with guitar controllers—leading the group to deba
-   [video, no description]
-4. @kuroneko@socials.thundercleess.com (Blackcat) · 23h · likes 1 · replies 0 · seasonal
-   https://mastodon.social/@kuroneko@socials.thundercleess.com/117433814198380933
-   original: https://socials.thundercleess.com/@kuroneko/117433813885819288
-   🎃 10 Days of Horror — Day 2/10 — October 13 Dead Space (2008) launched today, and it still stands as the gold standard of sci-fi survival horror. Isaac Clarke's trip through the USG Ishimura turned dismemberment into a game mechanic. Also released today: 📅 2015: Crusaders of th
-   [4 images: Dead Space (2008) box art / Crusaders of the Lost Idols gameplay screenshot / Werewolf: The Apocalypse — Heart of the Forest key art, a red-lit forest with a mansion and church / Blameless official Steam header art]
+1. @DigiVoyager@mastodon.social · 12m · likes 0 · replies 0 · broadPlaying
+   https://mastodon.social/@DigiVoyager/117440701236544308
+   Playing Pilotwings 64 for the first time, it is a zen game. Love the music, and most of the controls minus rocket belt. Good demo system for first licenses mean you grasp game very quickly. Easy to get into, hard and satisfying to master. Though the levels are tiny by today's sta
+   [4 images, no description]
