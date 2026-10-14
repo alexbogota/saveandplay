@@ -3,8 +3,11 @@
 #
 #   bash scripts/comments-branch.sh load    before the search: get the state of earlier runs (and the "shown" lists) into drafts/
 #   bash scripts/comments-branch.sh save    after the search: put drafts/comments-*.md and drafts/comments-*.json on the branch and push it
+#   bash scripts/comments-branch.sh save drafts/FILE.json ...   put only these files on the branch (this is what the chat does with its new "shown" file)
 #
-# Used by the "Comment candidates" workflow on GitHub (not meant to be run on a working computer: it deletes a local branch named "comments"). On the branch, in its root folder:
+# Used by the "Comment candidates" workflow on GitHub and by the chat (not meant to be run on a working computer: it deletes a local branch named "comments").
+# The two never write the same file: the workflow writes the list and the state, the chat only ADDS a new comments-shown-*.json file and never changes an old one,
+# so neither can overwrite the other even when both push at the same moment. On the branch, in its root folder:
 #   comments-<account>.md             the short list Claude reads ("комментарии saveandplay")
 #   comments-<account>.json           the same with all fields
 #   comments-state-<account>.json     which queries are next, which posts are still fresh
@@ -72,6 +75,11 @@ try_save() {
 save() {
   shopt -s nullglob
   local files=(drafts/comments-*.md drafts/comments-*.json) i rc
+  if [ $# -gt 0 ]; then files=("$@"); fi
+  local f
+  for f in "${files[@]}"; do
+    if [ ! -f "$f" ]; then echo "No such file: $f" >&2; exit 1; fi
+  done
   if [ ${#files[@]} -eq 0 ]; then
     echo "No comment files in drafts/, nothing to save." >&2
     exit 1
@@ -91,6 +99,6 @@ save() {
 
 case "${1:-}" in
   load) load ;;
-  save) save ;;
+  save) shift; save "$@" ;;
   *) echo "Usage: bash scripts/comments-branch.sh load|save" >&2; exit 2 ;;
 esac

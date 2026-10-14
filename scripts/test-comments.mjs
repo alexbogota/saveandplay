@@ -3,7 +3,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { createServer } from 'node:http';
-import { spawn } from 'node:child_process';
+import { spawn, spawnSync } from 'node:child_process';
 import { mkdtempSync, mkdirSync, copyFileSync, readFileSync, writeFileSync, existsSync, readdirSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
@@ -530,3 +530,69 @@ test('show: entries older than 21 days are forgotten when the shown list is writ
   assert.ok(!keys.includes('3s8') && keys.includes('3s7') && keys.includes('3s1'));
 });
 
+
+test('show: --record-new writes only the posts shown now, as a new file, and touches nothing old', async () => {
+  const root = showRoot({ normal: [listPost(1), listPost(2), listPost(3)], files: { 'comments-shown-prices-seed.json': ['https://bsky.app/profile/p1.bsky.social/post/3s1'] } });
+  const before = readFileSync(join(root, 'drafts', 'comments-shown-prices-seed.json'), 'utf8');
+  const out = join(root, 'drafts', 'comments-shown-prices-20261014-0300.json');
+  const r = await runShow(root, ['--limit', '1', '--record-new', out]);
+  assert.equal(r.code, 0, r.out);
+  assert.ok(r.out.includes('/post/3s2') && !r.out.includes('/post/3s3') && !r.out.includes('/post/3s1'));
+  assert.deepEqual(JSON.parse(readFileSync(out, 'utf8')).map((x) => x.url.split('/').pop()), ['3s2'], 'only the post shown now, not the old one');
+  assert.match(r.out, /REMEMBERED: 1 posts as shown, in the new file .*comments-branch\.sh save/);
+  assert.equal(readFileSync(join(root, 'drafts', 'comments-shown-prices-seed.json'), 'utf8'), before, 'the old file is not changed');
+  // the next call (any chat that loads this file too) goes on with the rest
+  const r2 = await runShow(root, ['--limit', '5']);
+  assert.ok(r2.out.includes('/post/3s3') && !r2.out.includes('/post/3s2') && !r2.out.includes('/post/3s1'));
+  // the default age limit of a list is 8 hours: 7 is fine, 9 is not
+  assert.equal((await runShow(showRoot({ normal: [listPost(1)], madeAgoH: 7 }))).code, 0);
+  assert.equal((await runShow(showRoot({ normal: [listPost(1)], madeAgoH: 9 }))).code, 3);
+});
+
+const hasTools = process.platform !== 'win32' && spawnSync('bash', ['--version']).status === 0 && spawnSync('git', ['--version']).status === 0;
+test('branch script: the workflow and the chat write to the same branch without overwriting each other', { skip: !hasTools && 'needs bash and git (not on Windows)' }, () => {
+  const base = mkdtempSync(join(tmpdir(), 'branch-'));
+  const env = { ...process.env, GIT_AUTHOR_NAME: 't', GIT_AUTHOR_EMAIL: 't@t', GIT_COMMITTER_NAME: 't', GIT_COMMITTER_EMAIL: 't@t', GIT_CONFIG_GLOBAL: '/dev/null', GIT_TERMINAL_PROMPT: '0' };
+  const run = (cwd, cmd, args) => { const r = spawnSync(cmd, args, { cwd, env, encoding: 'utf8' }); return { code: r.status, out: (r.stdout ?? '') + (r.stderr ?? '') }; };
+  const git = (cwd, ...a) => { const r = run(cwd, 'git', a); assert.equal(r.code, 0, `git ${a.join(' ')}: ${r.out}`); return r.out.trim(); };
+  const remote = join(base, 'remote.git');
+  git(base, 'init', '--bare', '-b', 'main', remote);
+  const clone = (name) => { git(base, 'clone', '-q', remote, name); const d = join(base, name); mkdirSync(join(d, 'scripts'), { recursive: true }); copyFileSync(fileURLToPath(new URL('./comments-branch.sh', import.meta.url)), join(d, 'scripts', 'comments-branch.sh')); return d; };
+  const seed = clone('seed');
+  writeFileSync(join(seed, 'site.txt'), 'the site');
+  git(seed, 'add', '.'); git(seed, 'commit', '-qm', 'site'); git(seed, 'push', '-q', 'origin', 'HEAD:main');
+  const mainBefore = git(base, '--git-dir', remote, 'rev-parse', 'main');
+  const sh = (d, ...a) => run(d, 'bash', ['scripts/comments-branch.sh', ...a]);
+  const put = (d, name, data) => { mkdirSync(join(d, 'drafts'), { recursive: true }); writeFileSync(join(d, 'drafts', name), JSON.stringify(data)); };
+  const onBranch = (name) => JSON.parse(git(base, '--git-dir', remote, 'show', `comments:${name}`));
+
+  // 1. the workflow makes the first list (the branch does not exist yet)
+  const wf = clone('workflow'); const chat = clone('chat');
+  put(wf, 'comments-prices.json', { v: 1 }); put(wf, 'comments-state-prices.json', { s: 1 });
+  let r = sh(wf, 'save'); assert.equal(r.code, 0, r.out);
+  assert.deepEqual(onBranch('comments-prices.json'), { v: 1 });
+  // 2. the chat loads it, shows posts, and adds its own new "shown" file
+  r = sh(chat, 'load'); assert.equal(r.code, 0, r.out); assert.match(r.out, /Loaded 2 files/);
+  put(chat, 'comments-shown-prices-A.json', [{ url: 'u1' }]);
+  // 3. meanwhile the workflow makes a NEWER list (the chat's copy of the list is now old)
+  put(wf, 'comments-prices.json', { v: 2 });
+  r = sh(wf, 'save'); assert.equal(r.code, 0, r.out);
+  // the chat saves ONLY its file: the newer list must not be overwritten by the chat's old copy
+  r = sh(chat, 'save', 'drafts/comments-shown-prices-A.json'); assert.equal(r.code, 0, r.out);
+  assert.deepEqual(onBranch('comments-prices.json'), { v: 2 }, 'the new list is still there');
+  assert.deepEqual(onBranch('comments-shown-prices-A.json'), [{ url: 'u1' }], 'the shown file is there');
+  // 4. the workflow ran from an old copy of the branch (it loaded before the chat's file) and saves again: the chat's file must survive
+  put(wf, 'comments-prices.json', { v: 3 });
+  r = sh(wf, 'save'); assert.equal(r.code, 0, r.out);
+  assert.deepEqual(onBranch('comments-prices.json'), { v: 3 });
+  assert.deepEqual(onBranch('comments-shown-prices-A.json'), [{ url: 'u1' }], 'the workflow did not remove the chat file');
+  // 5. a second chat at the same time adds a second file: both stay
+  const chat2 = clone('chat2'); sh(chat2, 'load');
+  put(chat2, 'comments-shown-prices-B.json', [{ url: 'u2' }]);
+  r = sh(chat2, 'save', 'drafts/comments-shown-prices-B.json'); assert.equal(r.code, 0, r.out);
+  assert.deepEqual(onBranch('comments-shown-prices-B.json'), [{ url: 'u2' }]);
+  assert.deepEqual(onBranch('comments-shown-prices-A.json'), [{ url: 'u1' }]);
+  // 6. a missing file is a clear error, and the site branch was never touched
+  r = sh(chat, 'save', 'drafts/nope.json'); assert.equal(r.code, 1); assert.match(r.out, /No such file: drafts\/nope\.json/);
+  assert.equal(git(base, '--git-dir', remote, 'rev-parse', 'main'), mainBefore, 'main is untouched');
+});
