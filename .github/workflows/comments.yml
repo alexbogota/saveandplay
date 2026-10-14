@@ -1,17 +1,23 @@
 name: Comment candidates
 
 # Every 6 hours, and by hand: GitHub -> Actions -> "Comment candidates" -> Run workflow.
-# It looks for fresh Bluesky posts where a short helpful reply from our account would fit (settings: data/comments-accounts.json)
-# and keeps a SHORT list on the "comments" branch (a separate branch, so the site is not rebuilt). Nothing is posted, liked or followed.
+# It looks for fresh posts where a short helpful reply from our account would fit (settings: data/comments-accounts.json):
+# Bluesky (account "prices") and Mastodon (account "mastodon-prices"), and keeps SHORT lists on the "comments" branch
+# (a separate branch, so the site is not rebuilt). Nothing is posted, liked or followed.
 #
 # The password of the Bluesky account (an app password) is the secret BSKY_APP_PASSWORD. Put it there once with: npm run comments:secret
-# The list is the file comments-prices.md on the "comments" branch; the same text is at the bottom of each run page (Summary).
+# Mastodon needs no secret: it reads the public hashtag timelines.
+# The lists are the files comments-prices.md and comments-mastodon-prices.md on the "comments" branch; the same text is at the bottom of each run page (Summary).
+#
+# If the search fails for one account, the other account's list is still saved, and the run ends red at the last step.
+# (Decided 13 Oct 2026 when Mastodon was added. A copy of this file lives in scripts/ because the chat cannot write to .github: Claude Code copies it to
+# .github/workflows/comments.yml when the owner says /publish.)
 on:
   schedule:
     - cron: '17 */6 * * *' # 00:17, 06:17, 12:17, 18:17 UTC = 19:17, 01:17, 07:17, 13:17 Bogota
   workflow_dispatch:
 
-# Writing is needed only to save the list on the "comments" branch.
+# Writing is needed only to save the lists on the "comments" branch.
 permissions:
   contents: write
 
@@ -39,9 +45,18 @@ jobs:
         run: bash scripts/comments-branch.sh load
 
       - name: Find posts
+        id: find
+        # A failing account must not stop the other one from saving its list: the failure is reported by the last step.
+        continue-on-error: true
         env:
           BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
         run: node scripts/comment-candidates.mjs
 
-      - name: Save the list on the comments branch
+      - name: Save the lists on the comments branch
         run: bash scripts/comments-branch.sh save
+
+      - name: Fail if the search failed
+        if: ${{ always() && steps.find.outcome == 'failure' }}
+        run: |
+          echo "::error::The search failed for at least one account. See the step 'Find posts' above."
+          exit 1

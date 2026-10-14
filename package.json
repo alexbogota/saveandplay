@@ -34,7 +34,7 @@
     "kinguin:test": "node scripts/test-kinguin.mjs",
     "articles:test": "node --test scripts/test-articles.mjs",
     "comments:find": "node scripts/comment-candidates.mjs",
-    "comments:test": "node --test scripts/test-comments.mjs",
+    "comments:test": "node --test scripts/test-comments.mjs scripts/test-comments-mastodon.mjs",
     "comments:secret": "node scripts/comments-secret.mjs",
     "comments:show": "node scripts/comments-show.mjs",
     "social:pending": "node scripts/social-pending.mjs",

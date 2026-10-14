@@ -1,11 +1,13 @@
-// Looks for fresh Bluesky posts where a short helpful reply from our account would fit, and writes a SHORT list for Claude to answer.
+// Looks for fresh Bluesky or Mastodon posts where a short helpful reply from our account would fit, and writes a SHORT list for Claude to answer.
 // Nothing is posted, liked or followed. The settings are in data/comments-accounts.json.
 //
 //   npm run comments:find                      every enabled account
-//   node scripts/comment-candidates.mjs --account prices
+//   node scripts/comment-candidates.mjs --account prices                bluesky
+//   node scripts/comment-candidates.mjs --account mastodon-prices       mastodon (no password: public hashtag timelines)
 //   node scripts/comment-candidates.mjs --queries 6      more queries in this run
 //
-// Posts come from searches (groups) and from custom feeds ("feeds" in the settings file: somebody else's list of posts on a topic).
+// Bluesky posts come from searches (groups) and from custom feeds ("feeds" in the settings file: somebody else's list of posts on a topic).
+// Mastodon has no search by words, so a group there is a list of hashtags and the posts come from their timelines.
 //
 // Result: drafts/comments-<account>.md (the list, about 1-2k tokens), drafts/comments-<account>.json (the same with all fields) and
 // drafts/comments-state-<account>.json (which queries are next, which posts are still fresh). Posts that Claude already showed are never listed again:
@@ -15,7 +17,7 @@
 // The login needs a Bluesky app password (Settings > Privacy and security > App passwords) in .env as BSKY_APP_PASSWORD.
 
 import { existsSync, mkdirSync, readFileSync, writeFileSync, appendFileSync } from 'node:fs';
-import { commentAccounts, configProblems, loadPassword, loadShown, createApi, evaluate, pickQueries, updatePool, renderReport, file } from './lib/comments.mjs';
+import { commentAccounts, configProblems, loadPassword, loadShown, createApi, createMastodonApi, evaluate, pickQueries, updatePool, renderReport, file } from './lib/comments.mjs';
 
 const args = process.argv.slice(2);
 const arg = (name) => (args.includes(name) ? args[args.indexOf(name) + 1] : null);
@@ -25,8 +27,10 @@ const queriesOverride = arg('--queries') ? Number(arg('--queries')) : null;
 const readJson = (path, fallback) => {
   try { return JSON.parse(readFileSync(path, 'utf8')); } catch { return fallback; }
 };
-const hint = (e) => ({
-  auth: 'Check the handle and the app password (an app password, not the main password; make a new one in Bluesky Settings if unsure).',
+const hint = (e, platform = 'bluesky') => ({
+  auth: platform === 'mastodon'
+    ? 'The server does not let us read hashtag timelines without an account. Tell Claude: a read-only access token (tokenEnv in the settings) is needed.'
+    : 'Check the handle and the app password (an app password, not the main password; make a new one in Bluesky Settings if unsure).',
   network: 'Check the internet connection, then run again.',
 }[e?.code] ?? '');
 
@@ -38,18 +42,24 @@ async function runAccount({ id, account }) {
     for (const p of problems) say(`PROBLEM: data/comments-accounts.json: ${p}.`);
     return { ok: false, lines };
   }
-  const password = loadPassword(account.passwordEnv);
-  if (!password) {
-    say(`PROBLEM: no ${account.passwordEnv} in .env or in the environment. Make an app password in Bluesky (Settings > Privacy and security > App passwords), add the line ${account.passwordEnv}=... to the .env file in the project folder, then run again.`);
-    return { ok: false, lines };
-  }
-
-  const api = createApi();
-  try {
-    await api.login(account.handle, password);
-  } catch (e) {
-    say(`PROBLEM: login as @${account.handle} failed: ${e.message}. ${hint(e)}`.trim());
-    return { ok: false, lines };
+  const mastodon = account.platform === 'mastodon';
+  let api;
+  if (mastodon) {
+    // No password: the public hashtag timelines are read. A token (tokenEnv) is used only if the settings name one and it exists.
+    api = createMastodonApi({ instance: account.instance, token: account.tokenEnv ? loadPassword(account.tokenEnv) : null });
+  } else {
+    const password = loadPassword(account.passwordEnv);
+    if (!password) {
+      say(`PROBLEM: no ${account.passwordEnv} in .env or in the environment. Make an app password in Bluesky (Settings > Privacy and security > App passwords), add the line ${account.passwordEnv}=... to the .env file in the project folder, then run again.`);
+      return { ok: false, lines };
+    }
+    api = createApi();
+    try {
+      await api.login(account.handle, password);
+    } catch (e) {
+      say(`PROBLEM: login as @${account.handle} failed: ${e.message}. ${hint(e)}`.trim());
+      return { ok: false, lines };
+    }
   }
 
   let ownReplied = new Set();
@@ -84,13 +94,13 @@ async function runAccount({ id, account }) {
   };
   for (const q of queries) {
     try {
-      const posts = await api.search(q.query, { since, limit: account.perQuery, lang: account.language });
+      const posts = await api.search(q.query, { since, limit: account.perQuery, lang: account.language, pages: account.pages });
       const fit = take(posts, q.group, q.query);
       count(q.group, posts.length, fit);
       say(`  ${q.group}: ${q.query}: ${posts.length} posts, ${fit} fit`);
     } catch (e) {
       failed++;
-      say(`  ${q.group}: ${q.query}: FAILED (${e.message}). ${hint(e)}`.trim());
+      say(`  ${q.group}: ${q.query}: FAILED (${e.message}). ${hint(e, account.platform)}`.trim());
     }
   }
   for (const f of feeds) {

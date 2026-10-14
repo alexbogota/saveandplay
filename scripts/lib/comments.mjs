@@ -1,8 +1,10 @@
-// Finds fresh Bluesky posts where a short, helpful reply from our account would fit. It never posts, likes or follows anything.
+// Finds fresh Bluesky or Mastodon posts where a short, helpful reply from our account would fit. It never posts, likes or follows anything.
 //
 // The rules (which words to skip, how to score) are in data/comments-accounts.json, one block per account. The code has no account in it.
-// The login uses a Bluesky "app password" from the environment (GitHub Secret) or from the local .env file. It is used only to log in and is never printed.
-// For tests the root folder can be changed with COMMENTS_ROOT and the server with BSKY_API_BASE.
+// Bluesky: the login uses an "app password" from the environment (GitHub Secret) or from the local .env file. It is used only to log in and is never printed.
+// Mastodon ("platform": "mastodon"): no login. It reads the public hashtag timelines of the account's server (a hashtag is a "query" of a group). Mastodon has no search by words.
+// Both platforms are turned into the same post shape (fromMastodon does it for Mastodon), so one set of rules (evaluate) judges them.
+// For tests the root folder can be changed with COMMENTS_ROOT, the Bluesky server with BSKY_API_BASE and the Mastodon server with MASTODON_API_BASE.
 
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { resolve } from 'node:path';
@@ -49,16 +51,35 @@ export function loadShown(id) {
   return keys;
 }
 
-const DEFAULTS = { feeds: [], enabled: true, language: 'en', maxAgeHours: 30, minChars: 30, maxChars: 600, queriesPerRun: 4, perQuery: 40, maxCandidates: 12, maxHeated: 3, minScore: 5 };
-export const withDefaults = (a) => ({ ...DEFAULTS, ...a, handle: String(a.handle ?? '').replace(/^@/, '') });
+const DEFAULTS = { platform: 'bluesky', feeds: [], enabled: true, language: 'en', maxAgeHours: 30, minChars: 30, maxChars: 600, queriesPerRun: 4, perQuery: 40, pages: 1, maxCandidates: 12, maxHeated: 3, minScore: 5 };
+export const withDefaults = (a) => {
+  const handle = String(a.handle ?? '').replace(/^@/, '');
+  const platform = a.platform ?? DEFAULTS.platform;
+  // A Mastodon handle is name@server, and the server is where the hashtag timelines are read.
+  return { ...DEFAULTS, ...a, platform, handle, ...(platform === 'mastodon' ? { instance: String(a.instance ?? handle.split('@')[1] ?? '').toLowerCase() } : {}) };
+};
+
+// A block can start from another one: "extends": "prices" takes all its settings; what the block writes itself replaces them.
+// A key that ends with "+" adds to the inherited list instead of replacing it ("skipWords+": ["x"] = the inherited skipWords and x).
+function resolveBlock(all, id, trail = []) {
+  const raw = all[id];
+  if (!raw) throw new Error(`no account "${id}" in data/comments-accounts.json`);
+  if (!raw.extends) return raw;
+  if (trail.includes(id)) throw new Error(`account "${id}" extends itself (${[...trail, id].join(' > ')})`);
+  const base = resolveBlock(all, raw.extends, [...trail, id]);
+  const out = { ...base };
+  for (const [k, v] of Object.entries(raw)) {
+    if (k === 'extends') continue;
+    if (k.endsWith('+')) out[k.slice(0, -1)] = [...(base[k.slice(0, -1)] ?? []), ...v];
+    else out[k] = v;
+  }
+  return out;
+}
 
 export function commentAccounts(only = null) {
   const all = JSON.parse(readFileSync(file('data', 'comments-accounts.json'), 'utf8')).accounts ?? {};
   const ids = only ? [only] : Object.keys(all);
-  return ids.map((id) => {
-    if (!all[id]) throw new Error(`no account "${id}" in data/comments-accounts.json`);
-    return { id, account: withDefaults(all[id]) };
-  });
+  return ids.map((id) => ({ id, account: withDefaults(resolveBlock(all, id)) }));
 }
 
 // A custom feed address as people copy it from the browser (https://bsky.app/profile/NAME/feed/ID) or as an at:// address.
@@ -68,15 +89,31 @@ export function parseFeedUrl(s) {
   return m ? { actor: m[1], rkey: m[2] } : null;
 }
 
+// A hashtag query of a Mastodon group: "steamdeck", or "steam+sale" = posts with the tag steam AND the tag sale (letters, digits and _ only, no #).
+const TAG_QUERY = /^[\p{L}\p{N}_]+(\+[\p{L}\p{N}_]+){0,3}$/u;
+export function parseTagQuery(q) {
+  const t = String(q ?? '').trim().replace(/^#/, '');
+  if (!TAG_QUERY.test(t)) return null;
+  const [tag, ...all] = t.split('+');
+  return { tag, all };
+}
+
 export function configProblems(a) {
   const p = [];
+  const mastodon = a.platform === 'mastodon';
+  if (a.platform && !['bluesky', 'mastodon'].includes(a.platform)) p.push(`platform "${a.platform}" is not known (use bluesky or mastodon)`);
   if (!a.handle) p.push('handle is missing');
-  if (!a.passwordEnv) p.push('passwordEnv is missing (the name of the variable that holds the app password)');
+  else if (mastodon && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(a.handle)) p.push('handle must look like name@server (for example saveandplay@mastodon.social)');
+  if (!mastodon && !a.passwordEnv) p.push('passwordEnv is missing (the name of the variable that holds the app password)');
   const g = a.groups;
   if (!g || !Object.keys(g).length) p.push('groups is empty');
-  else for (const [k, v] of Object.entries(g)) if (!Array.isArray(v?.queries) || !v.queries.length) p.push(`group "${k}" has no queries`);
+  else for (const [k, v] of Object.entries(g)) {
+    if (!Array.isArray(v?.queries) || !v.queries.length) p.push(`group "${k}" has no queries`);
+    else if (mastodon) for (const q of v.queries) if (!parseTagQuery(q)) p.push(`group "${k}": "${q}" is not a hashtag (letters and digits only, no spaces; "steam+sale" means both tags)`);
+  }
   const names = new Set(Object.keys(g ?? {}));
-  for (const f of a.feeds ?? []) {
+  if (mastodon && (a.feeds ?? []).length) p.push('feeds work only for Bluesky (for Mastodon use groups with hashtags)');
+  else for (const f of a.feeds ?? []) {
     if (!f?.name) p.push('a feed has no name');
     else if (names.has(f.name)) p.push(`feed "${f.name}" has the same name as a group`);
     else if (!parseFeedUrl(f.url)) p.push(`feed "${f.name}": url must look like https://bsky.app/profile/NAME/feed/ID`);
@@ -155,6 +192,136 @@ export function createApi({ fetchImpl = globalThis.fetch, base = process.env.BSK
   };
 }
 
+// ---- Mastodon (read only, no login) -----------------------------------------------------------------------------
+const ENTITIES = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ' };
+// The text of a Mastodon post (it comes as HTML): paragraphs and line breaks become spaces, links keep their full address, hashtags and @names keep their signs.
+export function htmlToText(html) {
+  return String(html ?? '')
+    .replace(/<br\s*\/?>|<\/(p|div|li|blockquote)>/gi, ' ')
+    .replace(/<[^>]*>/g, '')
+    .replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/gi, (m, e) => {
+      if (e[0] === '#') {
+        const code = e[1].toLowerCase() === 'x' ? parseInt(e.slice(2), 16) : parseInt(e.slice(1), 10);
+        return Number.isFinite(code) && code > 0 && code <= 0x10ffff ? String.fromCodePoint(code) : m;
+      }
+      return ENTITIES[e.toLowerCase()] ?? m;
+    })
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+// What is attached to a Mastodon post, in the same few words as describeEmbed gives for Bluesky (the list holds only text; Claude cannot see pictures).
+export function describeMastodonMedia(s) {
+  const media = s?.media_attachments ?? [];
+  const parts = [];
+  const alts = (items) => items.map((m) => brief(m?.description, 160)).filter(Boolean);
+  const images = media.filter((m) => m?.type === 'image');
+  if (images.length) parts.push(`${images.length > 1 ? `${images.length} images` : 'image'}${alts(images).length ? `: ${alts(images).join(' / ')}` : ', no description'}`);
+  const videos = media.filter((m) => m?.type === 'video' || m?.type === 'gifv');
+  if (videos.length) parts.push(`video${alts(videos).length ? `: ${alts(videos).join(' / ')}` : ', no description'}`);
+  if (media.some((m) => m?.type === 'audio')) parts.push('audio');
+  if (s?.card?.title) parts.push(`link card: ${brief(s.card.title, 100)}`);
+  return parts.length ? parts.join('; ') : null;
+}
+
+// A status from a Mastodon server -> the post shape that evaluate() reads (the shape of a Bluesky post).
+// `home` is the server we read from and our account lives on: the link we give the owner opens the post on THAT server, where he is logged in, so one tap is enough to reply.
+// (The id in a status is the id on the server we asked, not on the post's own server, so the link must use that server too.)
+// Boosts are skipped (null): the original post is in the timeline by itself.
+export function fromMastodon(s, home) {
+  if (!s || s.reblog || !s.id || !s.account) return null;
+  const local = String(s.account.acct ?? '');
+  let host = '';
+  try { host = new URL(s.account.url).hostname; } catch { /* no address */ }
+  const acct = local.includes('@') ? local : `${local}@${host || home}`;
+  const html = String(s.content ?? '');
+  const anchors = (html.match(/<a\s[^>]*>/gi) ?? []).filter((a) => !/\b(hashtag|mention)\b/i.test(a));
+  const url = `https://${home}/@${local}/${s.id}`;
+  return {
+    uri: url,
+    webUrl: url,
+    origin: typeof s.url === 'string' && s.url !== url ? s.url : undefined, // the post's own page on its own server (a second way to open it)
+    author: {
+      handle: acct,
+      displayName: String(s.account.display_name ?? '').replace(/:[A-Za-z0-9_]+:/g, '').replace(/\s+/g, ' ').trim(),
+      bot: s.account.bot === true,
+      noindex: s.account.noindex === true,
+      note: htmlToText(s.account.note),
+      labels: [],
+    },
+    record: {
+      text: htmlToText(html),
+      createdAt: s.created_at,
+      langs: s.language ? [s.language] : undefined,
+      facets: anchors.length ? [{ features: anchors.map(() => ({ $type: 'mastodon#link' })) }] : undefined,
+      reply: s.in_reply_to_id ? { parent: {} } : undefined,
+    },
+    likeCount: s.favourites_count ?? 0,
+    replyCount: s.replies_count ?? 0,
+    labels: [],
+    sensitive: s.sensitive === true || !!String(s.spoiler_text ?? '').trim(),
+    mediaNote: describeMastodonMedia(s),
+  };
+}
+
+const USER_AGENT = 'saveandplay-comments/1.0 (+https://saveandplay.com)';
+export function createMastodonApi({ instance, token = null, fetchImpl = globalThis.fetch, base = process.env.MASTODON_API_BASE || `https://${instance}`, timeoutMs = Number(process.env.COMMENTS_TIMEOUT_MS) || 20000, retryMs = Number(process.env.COMMENTS_RETRY_MS) || 2000 } = {}) {
+  async function call(path, params = {}, attempt = 0) {
+    const url = new URL(path, base);
+    for (const [k, v] of Object.entries(params)) {
+      if (Array.isArray(v)) for (const x of v) url.searchParams.append(k, String(x));
+      else if (v != null) url.searchParams.set(k, String(v));
+    }
+    const ctl = new AbortController();
+    const timer = setTimeout(() => ctl.abort(), timeoutMs);
+    let res;
+    try {
+      res = await fetchImpl(url, { headers: { accept: 'application/json', 'user-agent': USER_AGENT, ...(token ? { authorization: `Bearer ${token}` } : {}) }, signal: ctl.signal });
+    } catch (e) {
+      clearTimeout(timer);
+      if (attempt < 1) { await sleep(retryMs); return call(path, params, attempt + 1); }
+      throw Object.assign(new Error(`cannot reach ${base}: ${e.message}`), { code: 'network' });
+    }
+    clearTimeout(timer);
+    if ((res.status === 429 || res.status >= 500) && attempt < 1) { await sleep(retryMs); return call(path, params, attempt + 1); }
+    const text = await res.text();
+    let json = null;
+    try { json = JSON.parse(text); } catch { /* not JSON */ }
+    if (!res.ok) throw Object.assign(new Error(json?.error || `HTTP ${res.status}`), { code: res.status === 401 || res.status === 403 ? 'auth' : `http-${res.status}`, status: res.status });
+    return json;
+  }
+  return {
+    async login() { /* the public timelines need no account */ },
+    // The newest posts with a hashtag ("tag" or "tag+othertag"), newest first, up to `pages` pages. It stops early at posts older than `since`.
+    async search(query, { since, limit = 40, pages = 1 } = {}) {
+      const q = parseTagQuery(query);
+      if (!q) throw new Error(`not a hashtag: ${query}`);
+      const per = Math.max(1, Math.min(40, limit));
+      const out = [];
+      let maxId;
+      for (let i = 0; i < Math.max(1, pages); i++) {
+        const list = await call(`/api/v1/timelines/tag/${encodeURIComponent(q.tag)}`, { limit: per, max_id: maxId, 'all[]': q.all });
+        if (!Array.isArray(list)) throw new Error('unexpected answer from Mastodon');
+        for (const s of list) { const p = fromMastodon(s, instance); if (p) out.push(p); }
+        const last = list.at(-1);
+        if (list.length < per || !last?.id) break;
+        if (since && Date.parse(last.created_at) < Date.parse(since)) break;
+        maxId = last.id;
+      }
+      return out;
+    },
+    async feedPosts() { throw new Error('feeds are not used for Mastodon'); },
+    // The ids of the posts our account already answered (the post it replied to), so they are never offered again.
+    async ownReplied(handle, limit = 40) {
+      const acct = await call('/api/v1/accounts/lookup', { acct: String(handle).split('@')[0] });
+      const list = await call(`/api/v1/accounts/${acct?.id}/statuses`, { limit: Math.min(40, limit), exclude_reblogs: 'true' });
+      const out = new Set();
+      for (const s of Array.isArray(list) ? list : []) if (s?.in_reply_to_id) out.add(String(s.in_reply_to_id));
+      return out;
+    },
+  };
+}
+
 // ---- choosing posts ---------------------------------------------------------------------------------------------
 const BAD_LABELS = new Set(['porn', 'sexual', 'nudity', 'graphic-media', 'gore']);
 const hasAny = (text, words) => (words ?? []).find((w) => text.includes(lc(w))) ?? null;
@@ -180,7 +347,9 @@ export function describeEmbed(embed) {
   if (quoted && String(quoted.$type ?? '').endsWith('viewRecord')) parts.push(`quotes @${quoted.author?.handle ?? '?'}: ${brief(quoted.value?.text, 140)}`);
   return parts.length ? parts.join('; ') : null;
 }
-export const webUrl = (post) => `https://bsky.app/profile/${post.author.handle}/post/${post.uri.split('/').pop()}`;
+export const webUrl = (post) => post.webUrl ?? `https://bsky.app/profile/${post.author.handle}/post/${post.uri.split('/').pop()}`;
+// Has our account answered this post? Bluesky remembers post addresses (at://...), Mastodon remembers post ids.
+const isAnswered = (set, uri) => set.has(uri) || set.has(postKey(uri));
 
 // Whole-word match (so "switch" does not match "switching", "ds" does not match "kids"). Words may hold spaces. Hashtags count: "#pcgaming" has the word pcgaming.
 const hasWord = (text, words) => (words ?? []).find((w) => new RegExp(`(^|[^\\p{L}\\p{N}])${esc(lc(w))}([^\\p{L}\\p{N}]|$)`, 'u').test(text)) ?? null;
@@ -208,7 +377,7 @@ export function evaluate(post, cfg, { now = Date.now(), group = null, query = nu
   const name = lc(post?.author?.displayName);
   if (!post?.uri || !text || !handle) return no('empty');
   if (lc(handle) === lc(cfg.handle)) return no('own post');
-  if (ownReplied.has(post.uri)) return no('already answered');
+  if (isAnswered(ownReplied, post.uri)) return no('already answered');
   if (shown.has(postKey(post.uri))) return no('already shown');
   const created = Date.parse(rec.createdAt ?? post.indexedAt ?? '');
   if (!Number.isFinite(created)) return no('no date');
@@ -221,8 +390,18 @@ export function evaluate(post, cfg, { now = Date.now(), group = null, query = nu
   const labels = [...(post.labels ?? []), ...(post.author?.labels ?? [])].map((l) => lc(l?.val));
   if (labels.some((l) => BAD_LABELS.has(l))) return no('adult or graphic label');
   if (Array.isArray(post.threadgate?.record?.allow)) return no('replies are limited');
-  const who = lc(handle.split('.')[0]);
-  if ((cfg.skipAuthorWords ?? []).some((w) => who.includes(lc(w)) || new RegExp(`(^|[^a-z0-9])${esc(lc(w))}([^a-z0-9]|$)`).test(name))) return no('bot, shop or studio');
+  // Mastodon only (these fields are missing on a Bluesky post): a bot account, a content warning, a person who asked not to be found, a profile that says "no bots / no promo".
+  if (post.author?.bot) return no('bot, shop or studio');
+  if (post.sensitive) return no('content warning');
+  if (post.author?.noindex) return no('hidden from search');
+  if (hasAny(lc(post.author?.note), cfg.skipBioWords)) return no('profile says no bots or promo');
+  // A Bluesky name is name.server.tld; a Mastodon name is name@server. The words are looked for in the user name; for a Mastodon server also as whole parts of its address (gamedev.place, gamer-geek-news.com).
+  const at = handle.indexOf('@');
+  const who = lc(at > 0 ? handle.slice(0, at) : handle.split('.')[0]);
+  const domain = at > 0 ? lc(handle.slice(at + 1)) : '';
+  const domainParts = domain.split(/[.-]/);
+  if (domain && (cfg.skipDomains ?? []).some((d) => domain === lc(d) || domain.endsWith(`.${lc(d)}`))) return no('bot, shop or studio');
+  if ((cfg.skipAuthorWords ?? []).some((w) => who.includes(lc(w)) || domainParts.includes(lc(w)) || new RegExp(`(^|[^a-z0-9])${esc(lc(w))}([^a-z0-9]|$)`).test(name))) return no('bot, shop or studio');
   if (text.length < cfg.minChars) return no('too short');
   if (text.length > cfg.maxChars) return no('too long');
   if (hasAny(low, cfg.skipWords) || hasAny(name, cfg.skipWords)) return no('skip word');
@@ -238,6 +417,8 @@ export function evaluate(post, cfg, { now = Date.now(), group = null, query = nu
   const replies = post.replyCount ?? 0;
   const g = cfg.groups?.[group] ?? cfg.feeds?.find((f) => f.name === group) ?? {};
   const question = text.includes('?') || !!hasAny(low, cfg.questionWords);
+  // Mastodon hashtag timelines are full of news and shop posts with a link; a real person with a question rarely adds a link.
+  if (cfg.skipLinkPosts && links >= 1 && !question) return no('link post, not a question');
   const topic = !!hasAny(low, cfg.topicWords);
   let score = (g.weight ?? 1);
   if (question) score += 3;
@@ -250,7 +431,7 @@ export function evaluate(post, cfg, { now = Date.now(), group = null, query = nu
   const heated = !!g.heated || (cfg.heatedPatterns ?? []).some((p) => new RegExp(p, 'i').test(text));
   return {
     keep: true,
-    candidate: { uri: post.uri, url: webUrl(post), handle, name: post.author.displayName ?? '', text, createdAt: new Date(created).toISOString(), likes, replies, group, query, score, question, heated, isReply: !!rec.reply, media: describeEmbed(post.embed) },
+    candidate: { uri: post.uri, url: webUrl(post), handle, name: post.author.displayName ?? '', text, createdAt: new Date(created).toISOString(), likes, replies, group, query, score, question, heated, isReply: !!rec.reply, origin: post.origin, media: post.mediaNote !== undefined ? post.mediaNote : describeEmbed(post.embed) },
   };
 }
 
@@ -282,7 +463,7 @@ function recheck(c, cfg, now) {
   if (g?.enabled === false) return { keep: false, reason: 'source switched off' };
   const links = (String(c.text).match(/https?:\/\/\S+/g) ?? []).map(() => ({ $type: 'app.bsky.richtext.facet#link' }));
   const post = {
-    uri: c.uri, author: { handle: c.handle, displayName: c.name }, likeCount: c.likes, replyCount: c.replies,
+    uri: c.uri, webUrl: c.url, origin: c.origin, author: { handle: c.handle, displayName: c.name }, likeCount: c.likes, replyCount: c.replies,
     record: { text: c.text, createdAt: c.createdAt, facets: links.length ? [{ features: links }] : undefined, reply: c.isReply ? { parent: {} } : undefined },
   };
   return evaluate(post, cfg, { now, group: c.group, query: c.query });
@@ -300,7 +481,7 @@ export function updatePool(state, found, cfg, now, ownReplied = new Set(), shown
   }
   for (const c of found) state.pool[c.uri] = { ...c, firstSeen: state.pool[c.uri]?.firstSeen ?? new Date(now).toISOString() };
   for (const [uri, c] of Object.entries(state.pool)) {
-    if ((now - Date.parse(c.createdAt)) / 36e5 > cfg.maxAgeHours || ownReplied.has(uri) || shown.has(postKey(uri))) delete state.pool[uri];
+    if ((now - Date.parse(c.createdAt)) / 36e5 > cfg.maxAgeHours || isAnswered(ownReplied, uri) || shown.has(postKey(uri))) delete state.pool[uri];
   }
   const all = Object.values(state.pool).sort((a, b) => b.score - a.score || Date.parse(b.createdAt) - Date.parse(a.createdAt));
   return { normal: all.filter((c) => !c.heated).slice(0, cfg.maxCandidates), heated: all.filter((c) => c.heated).slice(0, cfg.maxHeated), removed };
@@ -311,7 +492,7 @@ const ago = (iso, now) => {
   return h < 1 ? `${Math.max(1, Math.round(h * 60))}m` : `${Math.round(h)}h`;
 };
 
-export const reportLine = (c, i, now) => `${i + 1}. @${c.handle}${c.name ? ` (${c.name.slice(0, 40)})` : ''} · ${ago(c.createdAt, now)} · likes ${c.likes} · replies ${c.replies}${c.question ? ' · question' : ''} · ${c.group}\n   ${c.url}\n   ${c.text.slice(0, 280)}${c.media ? `\n   [${c.media}]` : ''}`;
+export const reportLine = (c, i, now) => `${i + 1}. @${c.handle}${c.name ? ` (${c.name.slice(0, 40)})` : ''} · ${ago(c.createdAt, now)} · likes ${c.likes} · replies ${c.replies}${c.question ? ' · question' : ''} · ${c.group}\n   ${c.url}${c.origin ? `\n   original: ${c.origin}` : ''}\n   ${c.text.slice(0, 280)}${c.media ? `\n   [${c.media}]` : ''}`;
 
 export function renderReport(id, account, { searched, stats, picked, now }) {
   const line = (c, i) => reportLine(c, i, now);

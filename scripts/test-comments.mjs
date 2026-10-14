@@ -339,8 +339,10 @@ function fakeServer({ feedFails = false } = {}) {
 
 function runProgram(env, args = []) {
   const script = fileURLToPath(new URL('./comment-candidates.mjs', import.meta.url));
+  // These tests are about the Bluesky account; the Mastodon account has its own tests (test-comments-mastodon.mjs) and would otherwise try the real internet.
+  const full = args.includes('--account') ? args : ['--account', 'prices', ...args];
   return new Promise((resolve) => {
-    const p = spawn(process.execPath, [script, ...args], { env: { ...process.env, ...env }, stdio: ['ignore', 'pipe', 'pipe'] });
+    const p = spawn(process.execPath, [script, ...full], { env: { ...process.env, ...env }, stdio: ['ignore', 'pipe', 'pipe'] });
     let out = '';
     p.stdout.on('data', (d) => (out += d));
     p.stderr.on('data', (d) => (out += d));

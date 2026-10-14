@@ -13,8 +13,12 @@ import { file, commentAccounts, readEnvValue, loadPassword } from './lib/comment
 const args = process.argv.slice(2);
 const id = args.includes('--account') ? args[args.indexOf('--account') + 1] : 'prices';
 const [{ account }] = commentAccounts(id);
-const name = account.passwordEnv;
+const name = account.platform === 'mastodon' ? account.tokenEnv : account.passwordEnv;
 
+if (!name) {
+  console.log(`The account "${id}" (${account.platform}) needs no secret: it reads public data only. Nothing to do.`);
+  process.exit(0);
+}
 if (!loadPassword(name)) {
   console.error(`ERROR: no ${name} in .env. Add the line ${name}=the app password of the Bluesky account to the .env file in the project folder, then run this again.`);
   process.exit(1);
