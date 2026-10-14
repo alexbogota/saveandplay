@@ -42,6 +42,22 @@ Write like a very helpful community member, not a brand. These replies get likes
 - Skip "is Kinguin / key site safe" questions: answer only after checking facts, and flag to the owner ("verify").
 - Heated topics (AI in games and similar, the list has a separate "Heated" block): reply only if someone asks a factual question, neutrally, with a verified fact (for example where Steam shows AI disclosure on a store page). Never take a side. Otherwise skip.
 
+## Broad groups (temporary, while the account is new)
+Decision of the owner, 13 Oct 2026: to raise activity of the new account, the list also has groups marked `broadPlaying` and `broadAsk`: general PC-game talk (what people just finished, what they play, asks for recommendations). Switch them off with `enabled: false` in `data/comments-accounts.json` when the account is established.
+- Still only video games, no politics, no fights, no promo, no links, no site names. All Style rules stay.
+- For these posts the "one practical tip" is NOT required: a friendly reaction plus one specific, true detail about the game is enough. Never a deals pitch.
+- Every reply must be different and written for that post, never a template. Pick at most 5-6 broad posts per list, and tell the owner to send no more than about 10-15 replies a day in total, spread over the day (many identical-looking replies from a new account can get it reported).
+- Core groups (deals, bundles, sale questions, Steam Deck, backlog) come first when both kinds fit.
+
+## Pictures, video, quotes
+The list holds only the text, and Claude cannot see pictures. Under the text a line like `[image: description]`, `[image, no description]`, `[video, ...]`, `[link card: ...]` or `[quotes @name: ...]` says what is attached. Posts with only a picture and no text are never in the list.
+- If the description explains the picture, use it. Never say what is in a picture that has no description.
+- If the post depends on the picture (the text is only "look at this", "what do you think?", "found it") and there is no description, skip the post, or answer only what the text itself says. Do not guess.
+- For `[quotes @name: ...]` the reply is to the quoting author's words, and the quoted text is the context.
+
+## Feed posts (a group named after a feed: `pcGaming`, `gamingLiked`, `videogames`, `gamingNintendo`)
+The finder also reads curated feeds (someone else's list of posts by topic; list and weights in `data/comments-accounts.json`, `feeds`). A feed is a source, not a topic: judge the post by the normal rules. With a price, sale or buying angle, answer as in the core groups; otherwise treat it as broad (friendly reaction + one true detail, no pitch). Feeds hold many bots, news sites and developers: skip them as usual and never name the feed in a reply. `videogames` and `gamingNintendo` are mostly consoles (Switch, PS5, Pokémon): skip those, we answer PC only. `gamingLiked` holds popular posts: heated debates and crowded threads, prefer posts with few replies.
+
 ## Posts with limited replies
 Rare. Do NOT run any check for it. If the owner cannot reply to a post, he skips it and tells Claude. A "threadgate" on a post does not always mean limited replies.
 
