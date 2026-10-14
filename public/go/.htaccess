@@ -12,4 +12,5 @@
   RedirectMatch 302 ^/go/mastodon/?$ https://saveandplay.com/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=profile
   RedirectMatch 302 ^/go/lemmy/?$ https://saveandplay.com/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=profile
   RedirectMatch 302 ^/go/quora/?$ https://saveandplay.com/?utm_source=quora&utm_medium=social&utm_campaign=profile
+  RedirectMatch 302 ^/go/tumblr/?$ https://saveandplay.com/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=profile
 </IfModule>
