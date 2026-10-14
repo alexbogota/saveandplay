@@ -1,0 +1,15 @@
+{
+  "about": "Проверка «выложен ли пост к гиду». Программа scripts/social-pending.mjs (npm run social:pending) смотрит ПУБЛИЧНУЮ ленту нашего аккаунта и считает гид выложенным, если в одном из наших постов (не ответ, не репост) есть ссылка saveandplay.com/guides/<slug>. Никому ничего писать не нужно: владелец просто публикует пост. Ничего не публикует и не меняет, пароль не нужен. Поля: site = адрес сайта; accountKey = блок в data/accounts.json, откуда берётся хэндл Bluesky (accounts.prices.handle); bluesky.enabled и bluesky.pages (сколько страниц по 100 постов читать); mastodon.instance и mastodon.acct = где и под каким именем лежит ваш Mastodon-аккаунт (например instance: \"mastodon.social\", acct: \"saveandplay\"); пока пусто, Mastodon честно помечается «не настроен»; ignore = список slug гидов, про которые не напоминать. Если гид старше того куска ленты, который удалось прочитать, программа пишет «слишком старый для проверки», а не «не выложен».",
+  "site": "https://saveandplay.com",
+  "accountKey": "prices",
+  "bluesky": {
+    "enabled": true,
+    "pages": 3
+  },
+  "mastodon": {
+    "instance": "mastodon.social",
+    "acct": "saveandplay",
+    "pages": 3
+  },
+  "ignore": []
+}
