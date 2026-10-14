@@ -182,6 +182,22 @@ export function describeEmbed(embed) {
 }
 export const webUrl = (post) => `https://bsky.app/profile/${post.author.handle}/post/${post.uri.split('/').pop()}`;
 
+// Whole-word match (so "switch" does not match "switching", "ds" does not match "kids"). Words may hold spaces. Hashtags count: "#pcgaming" has the word pcgaming.
+const hasWord = (text, words) => (words ?? []).find((w) => new RegExp(`(^|[^\\p{L}\\p{N}])${esc(lc(w))}([^\\p{L}\\p{N}]|$)`, 'u').test(text)) ?? null;
+
+// A rough guess whether the text is not English, because the "langs" tag of a post is often missing or wrong (a post can list "en" and still be Portuguese or Japanese).
+const NOT_ENGLISH = new Set(('você voce não nao uma para com mais leia está jogo jogos ' + 'los las una por con más juego juegos ' + 'und ist nicht ein eine mit für auf der das spiel ' + 'les une est pas pour dans vous jeu jeux avec sur ' + 'della sono giochi gioco ' + 'het een niet ik').split(' '));
+const ENGLISH = new Set('the and is to of in it for you this that with on are was my have just so but not be as at your if can what how'.split(' '));
+export function looksNotEnglish(text) {
+  const letters = text.match(/\p{L}/gu) ?? [];
+  if (!letters.length) return false;
+  const other = text.match(/[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Hangul}\p{Script=Cyrillic}\p{Script=Arabic}\p{Script=Thai}\p{Script=Devanagari}\p{Script=Hebrew}]/gu) ?? [];
+  if (other.length / letters.length > 0.3) return true;
+  let foreign = 0, english = 0;
+  for (const w of lc(text).split(/[^\p{L}]+/u)) { if (NOT_ENGLISH.has(w)) foreign++; else if (ENGLISH.has(w)) english++; }
+  return foreign >= 2 && foreign >= english;
+}
+
 // keep:true with a candidate, or keep:false with the reason (the reasons are counted in the report so the rules can be tuned).
 export function evaluate(post, cfg, { now = Date.now(), group = null, query = null, ownReplied = new Set(), shown = new Set() } = {}) {
   const no = (reason) => ({ keep: false, reason });
@@ -201,6 +217,7 @@ export function evaluate(post, cfg, { now = Date.now(), group = null, query = nu
   if (ageH < -1) return no('date in the future');
   const langs = rec.langs;
   if (Array.isArray(langs) && langs.length && !langs.some((l) => lc(l).startsWith(cfg.language))) return no('other language');
+  if (looksNotEnglish(text)) return no('other language (text)');
   const labels = [...(post.labels ?? []), ...(post.author?.labels ?? [])].map((l) => lc(l?.val));
   if (labels.some((l) => BAD_LABELS.has(l))) return no('adult or graphic label');
   if (Array.isArray(post.threadgate?.record?.allow)) return no('replies are limited');
@@ -210,8 +227,12 @@ export function evaluate(post, cfg, { now = Date.now(), group = null, query = nu
   if (text.length > cfg.maxChars) return no('too long');
   if (hasAny(low, cfg.skipWords) || hasAny(name, cfg.skipWords)) return no('skip word');
   if (cfg.requireAnyWord?.length && !hasAny(low, cfg.requireAnyWord)) return no('not about games');
-  const links = (rec.facets ?? []).flatMap((f) => f.features ?? []).filter((x) => String(x?.$type).endsWith('#link')).length;
+  if (cfg.consoleWords?.length && hasWord(low, cfg.consoleWords) && !hasWord(low, cfg.pcWords)) return no('console only');
+  const features = (rec.facets ?? []).flatMap((f) => f.features ?? []);
+  const links = features.filter((x) => String(x?.$type).endsWith('#link')).length;
   if (links > 1) return no('many links');
+  const tags = Math.max(features.filter((x) => String(x?.$type).endsWith('#tag')).length, (text.match(/#[\p{L}\p{N}_]+/gu) ?? []).length);
+  if (links >= 1 && tags >= 3) return no('promo (link and hashtags)');
 
   const likes = post.likeCount ?? 0;
   const replies = post.replyCount ?? 0;
@@ -254,14 +275,35 @@ export function pickQueries(cfg, state, n = cfg.queriesPerRun) {
 }
 
 // The pool holds every fresh candidate found in the last hours, so a run does not hide what the previous run found.
+// Posts found in earlier runs stay in the pool for a while. They are checked again by the CURRENT rules every time, so a new rule (or a switched-off group) takes effect at once and does not wait for old posts to expire.
+// Only the saved candidate is available here (no labels, no attached links), so the check uses the text, the author and the numbers.
+function recheck(c, cfg, now) {
+  const g = cfg.groups?.[c.group] ?? cfg.feeds?.find((f) => f.name === c.group);
+  if (g?.enabled === false) return { keep: false, reason: 'source switched off' };
+  const links = (String(c.text).match(/https?:\/\/\S+/g) ?? []).map(() => ({ $type: 'app.bsky.richtext.facet#link' }));
+  const post = {
+    uri: c.uri, author: { handle: c.handle, displayName: c.name }, likeCount: c.likes, replyCount: c.replies,
+    record: { text: c.text, createdAt: c.createdAt, facets: links.length ? [{ features: links }] : undefined, reply: c.isReply ? { parent: {} } : undefined },
+  };
+  return evaluate(post, cfg, { now, group: c.group, query: c.query });
+}
+
 export function updatePool(state, found, cfg, now, ownReplied = new Set(), shown = new Set()) {
   state.pool ??= {};
+  const fresh = new Set(found.map((c) => c.uri));
+  const removed = {};
+  for (const [uri, c] of Object.entries(state.pool)) {
+    if (fresh.has(uri)) continue;
+    const r = recheck(c, cfg, now);
+    if (r.keep) state.pool[uri] = { ...c, ...r.candidate, media: c.media, firstSeen: c.firstSeen };
+    else { delete state.pool[uri]; if (!['too old'].includes(r.reason)) removed[r.reason] = (removed[r.reason] ?? 0) + 1; }
+  }
   for (const c of found) state.pool[c.uri] = { ...c, firstSeen: state.pool[c.uri]?.firstSeen ?? new Date(now).toISOString() };
   for (const [uri, c] of Object.entries(state.pool)) {
     if ((now - Date.parse(c.createdAt)) / 36e5 > cfg.maxAgeHours || ownReplied.has(uri) || shown.has(postKey(uri))) delete state.pool[uri];
   }
   const all = Object.values(state.pool).sort((a, b) => b.score - a.score || Date.parse(b.createdAt) - Date.parse(a.createdAt));
-  return { normal: all.filter((c) => !c.heated).slice(0, cfg.maxCandidates), heated: all.filter((c) => c.heated).slice(0, cfg.maxHeated) };
+  return { normal: all.filter((c) => !c.heated).slice(0, cfg.maxCandidates), heated: all.filter((c) => c.heated).slice(0, cfg.maxHeated), removed };
 }
 
 const ago = (iso, now) => {
@@ -269,8 +311,10 @@ const ago = (iso, now) => {
   return h < 1 ? `${Math.max(1, Math.round(h * 60))}m` : `${Math.round(h)}h`;
 };
 
+export const reportLine = (c, i, now) => `${i + 1}. @${c.handle}${c.name ? ` (${c.name.slice(0, 40)})` : ''} · ${ago(c.createdAt, now)} · likes ${c.likes} · replies ${c.replies}${c.question ? ' · question' : ''} · ${c.group}\n   ${c.url}\n   ${c.text.slice(0, 280)}${c.media ? `\n   [${c.media}]` : ''}`;
+
 export function renderReport(id, account, { searched, stats, picked, now }) {
-  const line = (c, i) => `${i + 1}. @${c.handle}${c.name ? ` (${c.name.slice(0, 40)})` : ''} · ${ago(c.createdAt, now)} · likes ${c.likes} · replies ${c.replies}${c.question ? ' · question' : ''} · ${c.group}\n   ${c.url}\n   ${c.text.slice(0, 280)}${c.media ? `\n   [${c.media}]` : ''}`;
+  const line = (c, i) => reportLine(c, i, now);
   const out = [
     `# Comment candidates: ${id} (@${account.handle})`,
     `Made ${new Date(now).toISOString().slice(0, 16)}Z. Searched: ${searched.map((s) => `${s.group}: ${s.query}`).join(' | ') || 'nothing'}.`,

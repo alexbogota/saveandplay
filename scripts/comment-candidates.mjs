@@ -106,11 +106,12 @@ async function runAccount({ id, account }) {
   }
   if (failed === queries.length + feeds.length && failed) return { ok: false, lines };
 
-  const picked = updatePool(state, [...found.values()], account, now, ownReplied, shown);
+  const { removed, ...picked } = updatePool(state, [...found.values()], account, now, ownReplied, shown);
+  for (const [reason, count] of Object.entries(removed)) stats[`earlier finds: ${reason}`] = count;
   const report = renderReport(id, account, { searched: [...queries, ...feeds.map((f) => ({ group: f.name, query: 'feed' }))], stats, picked, now });
   mkdirSync(file('drafts'), { recursive: true });
   writeFileSync(file('drafts', `comments-${id}.md`), report);
-  writeFileSync(file('drafts', `comments-${id}.json`), JSON.stringify(picked, null, 2));
+  writeFileSync(file('drafts', `comments-${id}.json`), JSON.stringify({ madeAt: new Date(now).toISOString(), ...picked }, null, 2));
   writeFileSync(statePath, JSON.stringify(state, null, 2));
   const totals = Object.entries(state.sources).map(([k, c]) => `${k}: ${c.fit} fit of ${c.posts} posts in ${c.runs} runs`);
   say(`Sources so far (fit = passed the rules): ${totals.join('; ')}.`);

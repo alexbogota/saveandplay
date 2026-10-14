@@ -8,7 +8,7 @@ import { mkdtempSync, mkdirSync, copyFileSync, readFileSync, writeFileSync, exis
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { commentAccounts, parseFeedUrl, describeEmbed, evaluate, pickQueries, updatePool, renderReport, readEnvValue, configProblems, loadShown, postKey, file } from './lib/comments.mjs';
+import { commentAccounts, looksNotEnglish, parseFeedUrl, describeEmbed, evaluate, pickQueries, updatePool, renderReport, readEnvValue, configProblems, loadShown, postKey, file } from './lib/comments.mjs';
 
 const NOW = Date.parse('2026-10-13T15:00:00Z');
 const ago = (h) => new Date(NOW - h * 36e5).toISOString();
@@ -52,6 +52,46 @@ test('posts that must be dropped, each with its reason', () => {
     assert.equal(r.keep, false, name);
     assert.equal(r.reason, reason, name);
   }
+});
+
+test('console-only games are dropped, unless the post also speaks about PC', () => {
+  const reason = (text, extra = {}) => { const r = ev(mk({ text, ...extra })); return r.keep ? 'kept' : r.reason; };
+  assert.equal(reason('Is Mario Kart worth it on Switch 2 or should I wait for a sale on the game?'), 'console only');
+  assert.equal(reason('What should I play next on my PS5? I have a big backlog of games and no idea.'), 'console only');
+  assert.equal(reason('Is it worth buying the game on Xbox now or should I wait for a sale?'), 'console only');
+  // a PC word saves the post
+  assert.equal(reason('Should I get this game on Steam or on Switch? Waiting for a sale either way, any tips?'), 'kept');
+  assert.equal(reason('Is the Steam Deck worth it for my backlog of games? Any tips welcome!'), 'kept');
+  // whole words only: "switching" and "nes" inside other words must not trigger it
+  assert.equal(reason('I keep switching games on Steam and my backlog never gets smaller, any tips?'), 'kept');
+  assert.equal(reason('Should I buy this game on Steam now, the genres and scenes look great? Waiting for a sale?'), 'kept');
+  // the list can be switched off in the settings
+  const off = evaluate(mk({ text: 'Is Mario Kart worth it on Switch 2 or should I wait for a sale on the game?' }), { ...cfg, consoleWords: [] }, { now: NOW, group: 'waitForSale', query: 'q' });
+  assert.equal(off.keep, true);
+});
+
+test('text that is not English is dropped even when the language tag says English', () => {
+  assert.equal(looksNotEnglish('Você já jogou esse jogo? Leia mais sobre os jogos na Steam'), true);
+  assert.equal(looksNotEnglish('Los mejores juegos de la semana para PC con ofertas en Steam'), true);
+  assert.equal(looksNotEnglish('これはとても面白いゲームです。セールで買いました。'), true);
+  assert.equal(looksNotEnglish('Should I buy this on Steam now or wait for the sale? Any tips for my backlog?'), false);
+  assert.equal(looksNotEnglish('Hollow Knight on Steam Deck is the best way to play it'), false);
+  assert.equal(looksNotEnglish('Steam, GOG, Epic'), false);
+  assert.equal(looksNotEnglish(''), false);
+  const r = ev(mk({ text: 'Você já jogou esse jogo na Steam? Qual é o melhor jogo para a sua lista, vale a pena comprar agora?', langs: ['en'] }));
+  assert.equal(r.keep, false);
+  assert.equal(r.reason, 'other language (text)');
+});
+
+test('a post with one link and many hashtags is an advert and is dropped', () => {
+  const text = 'Is this Steam game worth the price? New review is up, tips welcome! #pc #gaming #steam #review';
+  const link = [{ features: [{ $type: 'app.bsky.richtext.facet#link', uri: 'https://example.com/review' }] }];
+  const r = ev(mk({ text, facets: link }));
+  assert.equal(r.keep, false);
+  assert.equal(r.reason, 'promo (link and hashtags)');
+  // hashtags alone, or a link alone, are fine
+  assert.equal(ev(mk({ text })).keep, true);
+  assert.equal(ev(mk({ text: 'Is this Steam game worth the price? Tips welcome!', facets: link })).keep, true);
 });
 
 test('posts that are not about games are dropped (books, comics)', () => {
@@ -157,6 +197,29 @@ test('the pool keeps fresh candidates between runs and drops old or answered one
   assert.deepEqual(second.normal.map((c) => c.uri), [a.uri]);
   const third = updatePool(state, [], cfg, later, new Set([a.uri]));
   assert.equal(third.normal.length, 0);
+});
+
+test('posts kept from earlier runs are checked again by the current rules', () => {
+  const state = {};
+  const good = ev(mk({ age: 2 })).candidate;
+  const old = (text, extra = {}) => ({ ...ev(mk({ age: 2 })).candidate, uri: `at://did:plc:old${++n}/app.bsky.feed.post/3x`, text, ...extra });
+  const console_ = old('Is Mario Kart worth it on Switch 2 or should I wait for a sale on the game?');
+  const foreign = old('Você já jogou esse jogo na Steam? Qual é o melhor jogo para a sua lista, vale a pena comprar agora?');
+  const shop = old('Is this Steam game worth buying? Our review is here! https://example.com/r #pc #gaming #steam');
+  const goodOld = old('Should I buy this on Steam now or wait for a sale? Any tips for my backlog?');
+  const off = old('Should I buy this on Steam now or wait for a sale? Any tips for my backlog?', { group: 'broadAsk' });
+  // these were all accepted by an earlier version of the rules
+  for (const c of [good, console_, foreign, shop, goodOld, off]) state.pool = { ...(state.pool ?? {}), [c.uri]: { ...c, firstSeen: 'x' } };
+  const sw = { ...cfg, groups: { ...cfg.groups, broadAsk: { ...cfg.groups.broadAsk, enabled: false } } };
+  const out = updatePool(state, [], sw, NOW);
+  assert.deepEqual(out.normal.map((c) => c.uri).sort(), [good.uri, goodOld.uri].sort());
+  assert.deepEqual(out.removed, { 'console only': 1, 'other language (text)': 1, 'promo (link and hashtags)': 1, 'source switched off': 1 });
+  // what stays keeps its first-seen time and gets a fresh score
+  assert.equal(state.pool[goodOld.uri].firstSeen, 'x');
+  assert.ok(state.pool[goodOld.uri].score >= cfg.minScore);
+  // posts found in this very run are not judged twice
+  const again = updatePool({}, [console_], cfg, NOW);
+  assert.equal(again.normal.length, 1);
 });
 
 test('the report is short and has link, handle and text', () => {
@@ -311,6 +374,8 @@ test('end to end: the list has only the right posts, the password is never print
     assert.ok(md.includes('pcGaming: feed'), 'the feed is named in the header of the list');
     assert.ok(calls.includes('feed=at://did:plc:fakephusion/app.bsky.feed.generator/aaadmtxc3akja'), 'the feed address was built from the owner and the id');
     assert.ok(existsSync(join(root, 'drafts', 'comments-state-prices.json')));
+    const madeAt = JSON.parse(readFileSync(join(root, 'drafts', 'comments-prices.json'), 'utf8')).madeAt;
+    assert.ok(Math.abs(Date.now() - Date.parse(madeAt)) < 60000, 'the list file says when it was made');
     for (const f of readdirSync(join(root, 'drafts'))) assert.ok(!readFileSync(join(root, 'drafts', f), 'utf8').includes(PASSWORD), `${f} has no password`);
     assert.ok(!r.out.includes(PASSWORD), 'the password is not printed');
     // a second run goes on with other queries and keeps the posts that are still fresh
@@ -368,3 +433,100 @@ test('no password at all explains how to get one', async () => {
   assert.equal(r.code, 1);
   assert.match(r.out, /App passwords/);
 });
+
+// ---- the step the chat uses: show what was not shown before ------------------------------------------------------
+function runShow(root, args = []) {
+  const script = fileURLToPath(new URL('./comments-show.mjs', import.meta.url));
+  return new Promise((resolve) => {
+    const p = spawn(process.execPath, [script, ...args], { env: { ...process.env, COMMENTS_ROOT: root }, stdio: ['ignore', 'pipe', 'pipe'] });
+    let out = '';
+    p.stdout.on('data', (d) => (out += d));
+    p.stderr.on('data', (d) => (out += d));
+    p.on('close', (code) => resolve({ code, out }));
+  });
+}
+const listPost = (n, ageH = 2, extra = {}) => ({
+  uri: `at://did:plc:s${n}/app.bsky.feed.post/3s${n}`, url: `https://bsky.app/profile/p${n}.bsky.social/post/3s${n}`, handle: `p${n}.bsky.social`, name: '',
+  text: `Post number ${n}: should I buy this Steam game now?`, createdAt: new Date(Date.now() - ageH * 36e5).toISOString(),
+  likes: 1, replies: 0, group: 'waitForSale', question: true, heated: false, media: null, ...extra,
+});
+function showRoot({ normal = [], heated = [], madeAgoH = 2, files = {} } = {}) {
+  const root = tempRoot();
+  mkdirSync(join(root, 'drafts'));
+  const list = { normal, heated };
+  if (madeAgoH != null) list.madeAt = new Date(Date.now() - madeAgoH * 36e5).toISOString();
+  writeFileSync(join(root, 'drafts', 'comments-prices.json'), JSON.stringify(list));
+  for (const [name, content] of Object.entries(files)) writeFileSync(join(root, 'drafts', name), JSON.stringify(content));
+  return root;
+}
+
+test('show: posts shown before are not shown again, from any shown file, in any spelling', async () => {
+  const root = showRoot({
+    normal: [listPost(1), listPost(2), listPost(3), listPost(4)],
+    heated: [listPost(5, 2, { heated: true })],
+    files: {
+      'comments-shown-prices-20261013-1746.json': ['https://bsky.app/profile/p1.bsky.social/post/3s1'], // a link
+      'comments-shown-prices.json': [{ uri: 'at://did:plc:s2/app.bsky.feed.post/3s2' }, { url: 'https://bsky.app/profile/p5.bsky.social/post/3s5' }], // address and object
+      'comments-shown-prices-broken.json': 'not a list',
+    },
+  });
+  const r = await runShow(root);
+  assert.equal(r.code, 0, r.out);
+  assert.ok(r.out.includes('/post/3s3') && r.out.includes('/post/3s4'), 'the two unseen posts are shown');
+  for (const gone of ['/post/3s1', '/post/3s2', '/post/3s5']) assert.ok(!r.out.includes(gone), `${gone} is not shown`);
+  assert.match(r.out, /NEW POSTS: 2\. Not shown again: already shown 3/);
+  assert.match(r.out, /LIST AGE: 2\.0 h/);
+  assert.ok(!r.out.includes('STALE'));
+});
+
+test('show: --limit shows a batch and --record remembers only what was shown, so the next call goes on', async () => {
+  const root = showRoot({ normal: [listPost(1), listPost(2), listPost(3)], files: { 'comments-shown-prices-old.json': ['https://bsky.app/profile/p9.bsky.social/post/3s9'] } });
+  const out1 = join(root, 'out', 'comments-shown-prices.json');
+  const r1 = await runShow(root, ['--limit', '2', '--record', out1]);
+  assert.equal(r1.code, 0, r1.out);
+  assert.ok(r1.out.includes('/post/3s1') && r1.out.includes('/post/3s2') && !r1.out.includes('/post/3s3'));
+  const saved = JSON.parse(readFileSync(out1, 'utf8'));
+  assert.deepEqual(saved.map((x) => x.url.split('/').pop()).sort(), ['3s1', '3s2', '3s9'], 'old entry kept, two new ones added, the third post not remembered');
+  assert.ok(saved.every((x) => x.at), 'every entry has a date');
+  // the owner (or the chat) puts the file in drafts/: the next call shows only the rest
+  writeFileSync(join(root, 'drafts', 'comments-shown-prices.json'), readFileSync(out1));
+  const r2 = await runShow(root, ['--limit', '2']);
+  assert.ok(r2.out.includes('/post/3s3') && !r2.out.includes('/post/3s1') && !r2.out.includes('/post/3s2'));
+});
+
+test('show: a stale list shows nothing, a list without a date counts as stale, old posts are dropped', async () => {
+  const staleRoot = showRoot({ normal: [listPost(1)], madeAgoH: 9 });
+  const rec = join(staleRoot, 'rec.json');
+  const stale = await runShow(staleRoot, ['--record', rec]);
+  assert.equal(stale.code, 3);
+  assert.match(stale.out, /STALE LIST: made .*9\.0 h ago.*npm run comments:find/);
+  assert.ok(!stale.out.includes('/post/3s1'), 'no posts are shown from a stale list');
+  assert.ok(!existsSync(rec), 'and nothing is remembered');
+  assert.equal((await runShow(staleRoot, ['--stale', '24'])).code, 0, 'the owner can allow an older list');
+  const undated = await runShow(showRoot({ normal: [listPost(1)], madeAgoH: null }));
+  assert.equal(undated.code, 3);
+  assert.match(undated.out, /STALE LIST: its age is unknown/);
+  const old = await runShow(showRoot({ normal: [listPost(1, 50), listPost(2, 3)] }));
+  assert.ok(old.out.includes('/post/3s2') && !old.out.includes('/post/3s1'));
+  assert.match(old.out, /too old 1/);
+});
+
+test('show: nothing new and a missing list both say what to do', async () => {
+  const none = await runShow(showRoot({ normal: [listPost(1)], files: { 'comments-shown-prices.json': ['https://bsky.app/profile/p1.bsky.social/post/3s1'] } }));
+  assert.equal(none.code, 0);
+  assert.match(none.out, /NEW POSTS: 0/);
+  assert.match(none.out, /No new posts in this list/);
+  const missing = await runShow(tempRoot());
+  assert.equal(missing.code, 2);
+  assert.match(missing.out, /NO LIST: .* npm run comments:find/);
+});
+
+test('show: entries older than 21 days are forgotten when the shown list is written', async () => {
+  const oldDate = new Date(Date.now() - 30 * 864e5).toISOString();
+  const root = showRoot({ normal: [listPost(1)], files: { 'comments-shown-prices.json': [{ url: 'https://bsky.app/profile/p8.bsky.social/post/3s8', at: oldDate }, { url: 'https://bsky.app/profile/p7.bsky.social/post/3s7', at: new Date().toISOString() }] } });
+  const out = join(root, 'out.json');
+  await runShow(root, ['--record', out]);
+  const keys = JSON.parse(readFileSync(out, 'utf8')).map((x) => x.url.split('/').pop());
+  assert.ok(!keys.includes('3s8') && keys.includes('3s7') && keys.includes('3s1'));
+});
+
