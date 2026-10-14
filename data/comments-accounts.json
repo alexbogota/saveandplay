@@ -11,7 +11,7 @@
       "maxChars": 600,
       "queriesPerRun": 10,
       "perQuery": 40,
-      "maxCandidates": 12,
+      "maxCandidates": 25,
       "maxHeated": 3,
       "minScore": 5,
       "groups": {
@@ -374,6 +374,7 @@
       "handle": "saveandplay@mastodon.social",
       "passwordEnv": null,
       "queriesPerRun": 8,
+      "maxCandidates": 12,
       "feeds": [],
       "pages": 3,
       "skipLinkPosts": true,
