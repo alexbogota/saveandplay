@@ -35,6 +35,7 @@
     "articles:test": "node --test scripts/test-articles.mjs",
     "comments:find": "node scripts/comment-candidates.mjs",
     "comments:test": "node --test scripts/test-comments.mjs",
+    "comments:secret": "node scripts/comments-secret.mjs",
     "tags:research": "node scripts/tag-research.mjs"
   },
   "dependencies": {

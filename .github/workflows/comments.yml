@@ -1,0 +1,47 @@
+name: Comment candidates
+
+# Every 6 hours, and by hand: GitHub -> Actions -> "Comment candidates" -> Run workflow.
+# It looks for fresh Bluesky posts where a short helpful reply from our account would fit (settings: data/comments-accounts.json)
+# and keeps a SHORT list on the "comments" branch (a separate branch, so the site is not rebuilt). Nothing is posted, liked or followed.
+#
+# The password of the Bluesky account (an app password) is the secret BSKY_APP_PASSWORD. Put it there once with: npm run comments:secret
+# The list is the file comments-prices.md on the "comments" branch; the same text is at the bottom of each run page (Summary).
+on:
+  schedule:
+    - cron: '17 */6 * * *' # 00:17, 06:17, 12:17, 18:17 UTC = 19:17, 01:17, 07:17, 13:17 Bogota
+  workflow_dispatch:
+
+# Writing is needed only to save the list on the "comments" branch.
+permissions:
+  contents: write
+
+concurrency:
+  group: comment-candidates
+  cancel-in-progress: false
+
+jobs:
+  find:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v4
+        with:
+          # Always the newest main. Without this, "Re-run jobs" on an old run uses the old commit and so the old code.
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Get the state of earlier runs
+        run: bash scripts/comments-branch.sh load
+
+      - name: Find posts
+        env:
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+        run: node scripts/comment-candidates.mjs
+
+      - name: Save the list on the comments branch
+        run: bash scripts/comments-branch.sh save
