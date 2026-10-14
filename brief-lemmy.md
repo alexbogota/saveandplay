@@ -1,5 +1,5 @@
-# Brief: Honest prices (@saveandplay@lemmy.zip), 2026-10-13 11:14 UTC
-Prices checked 2026-10-13 09:50 UTC (1 h ago). News: 11 of 11 sources read, 97 items from the last 48 h, 3 of 27 offered deals mentioned.
+# Brief: Honest prices (@saveandplay@lemmy.zip), 2026-10-14 11:25 UTC
+Prices checked 2026-10-14 10:04 UTC (1 h ago). News: 11 of 11 sources read, 131 items from the last 48 h, 3 of 27 offered deals mentioned.
 
 Write ONE post about the first item below (take another one only if it looks wrong, and say why).
 Rules:
@@ -10,48 +10,47 @@ Rules:
 - Say lowest price we've tracked only if the brief says so; never write lowest ever.
 - The post is made by scripts/post-lemmy.mjs from a template, without AI. This account is automated and some links are affiliate links; the profile says so.
 
-## 1. Prince of Persia: The Sands of Time: GOG $1.99 (was $9.99, -80%)
-Sale ends 2026-10-18 06:59 UTC (in 5 days). Price checked 2026-10-13 09:49 UTC. Score 12.
-Why today: 1 news site wrote about the game in the last 48 h; deepest-discount rank 15 of 27.
-- Indie Game Bundles, Oct 12: "Humble Choice October 2026 – Like a Dragon: Pirate Yakuza in Hawaii, Prince of Persia Los…" https://www.indiegamebundles.com/humble-choice-october-2026/
-Link for the post (link to our site): https://saveandplay.com/deals/gog/prince-of-persia-the-sands-of-time/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-13
-Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13600/header.jpg?t=1720535333
-Alt text: Cover art for Prince of Persia: The Sands of Time
-
-## 2. Prince of Persia: Warrior Within: GOG $1.99 (was $9.99, -80%)
-Sale ends 2026-10-18 06:59 UTC (in 5 days). Price checked 2026-10-13 09:49 UTC. Score 12.
+## 1. Prince of Persia: Warrior Within: GOG $1.99 (was $9.99, -80%)
+Sale ends 2026-10-18 06:59 UTC (in 4 days). Price checked 2026-10-14 10:03 UTC. Score 12.
 Why today: 1 news site wrote about the game in the last 48 h; deepest-discount rank 16 of 27.
 - Indie Game Bundles, Oct 12: "Humble Choice October 2026 – Like a Dragon: Pirate Yakuza in Hawaii, Prince of Persia Los…" https://www.indiegamebundles.com/humble-choice-october-2026/
-Link for the post (link to our site): https://saveandplay.com/deals/gog/prince-of-persia-warrior-within/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-13
+Link for the post (link to our site): https://saveandplay.com/deals/gog/prince-of-persia-warrior-within/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-14
 Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13500/header.jpg?t=1720535324
 Alt text: Cover art for Prince of Persia: Warrior Within
 
-## 3. Prince of Persia: The Two Thrones: GOG $1.99 (was $9.99, -80%)
-Sale ends 2026-10-18 06:59 UTC (in 5 days). Price checked 2026-10-13 09:49 UTC. Score 12.
+## 2. Prince of Persia: The Two Thrones: GOG $1.99 (was $9.99, -80%)
+Sale ends 2026-10-18 06:59 UTC (in 4 days). Price checked 2026-10-14 10:03 UTC. Score 12.
 Why today: 1 news site wrote about the game in the last 48 h; deepest-discount rank 19 of 27.
 - Indie Game Bundles, Oct 12: "Humble Choice October 2026 – Like a Dragon: Pirate Yakuza in Hawaii, Prince of Persia Los…" https://www.indiegamebundles.com/humble-choice-october-2026/
-Link for the post (link to our site): https://saveandplay.com/deals/gog/prince-of-persia-the-two-thrones/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-13
+Link for the post (link to our site): https://saveandplay.com/deals/gog/prince-of-persia-the-two-thrones/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-14
 Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13530/header.jpg?t=1720535330
 Alt text: Cover art for Prince of Persia: The Two Thrones
 
-## 4. Outward Definitive Edition: GOG $1.99 (was $39.99, -95%)
-Sale ends 2026-10-22 13:00 UTC (in 9 days). Price checked 2026-10-13 09:49 UTC. Score 10.5.
+## 3. Outward Definitive Edition: GOG $1.99 (was $39.99, -95%)
+Sale ends 2026-10-22 13:00 UTC (in 8 days). Price checked 2026-10-14 10:03 UTC. Score 10.5.
 Why today: deepest-discount rank 1 of 27.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/outward-definitive-edition/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-13
+Link for the post (link to our site): https://saveandplay.com/deals/gog/outward-definitive-edition/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-14
 Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/794260/header.jpg?t=1787229712
 Alt text: Cover art for Outward Definitive Edition
 
-## 5. Deponia: GOG $0.99 (was $9.99, -90%)
-Sale ends 2026-10-18 06:59 UTC (in 5 days). Price checked 2026-10-13 09:49 UTC. Score 10.
+## 4. Deponia: GOG $0.99 (was $9.99, -90%)
+Sale ends 2026-10-18 06:59 UTC (in 4 days). Price checked 2026-10-14 10:03 UTC. Score 10.
 Why today: deepest-discount rank 5 of 27.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/deponia/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-13
+Link for the post (link to our site): https://saveandplay.com/deals/gog/deponia/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-14
 Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/214340/header.jpg?t=1789381815
 Alt text: Cover art for Deponia
 
+## 5. Alan Wake: GOG $1.49 (was $14.99, -90%)
+Sale ends 2026-10-18 06:59 UTC (in 4 days). Price checked 2026-10-14 10:03 UTC. Score 10.
+Why today: deepest-discount rank 2 of 27.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/alan-wake/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-14
+Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108710/9c1728f937c2a7e632b447b02e442f6a5d88515c/header.jpg?t=1769717716
+Alt text: Cover art for Alan Wake
+
 ## News on the topic (no deal)
-- gg.deals News, Oct 13: "Lose, retry, save! Steam's Roguelike Celebration brings discounts up to 95% off" https://gg.deals/deal/steam-roguelike-celebration-2026/ | One more run?
-- GamesRadar deals, Oct 13: "The best early Black Friday PS5 deals in 2026: the biggest Sony savings so far" https://www.gamesradar.com/platforms/ps5/the-best-early-black-friday-ps5-deals-in-australia-for-2026-the-biggest-sony-savings-so-far/ | Menu (Image credit: Future/SteelSeries/Sony PlayStation) 1. Retailers to know 2. Today's best deals This year's Black Friday PS5 deals are in a bit of an awkwa…
-- gg.deals News, Oct 12: "Steam Cooking Fest 2026 has launched, with discounts of up to 90% off" https://gg.deals/deal/steam-cooking-fest-2026-has-launched-with-discounts-of-up-to-90-off/ | Cooking games, restaurant simulators, and co-op chaos are available at significantly reduced prices!
+- gg.deals News, Oct 14: "[Price glitch] Amazon is selling €50 Twitch gift cards for just €11.40" https://gg.deals/deal/price-glitch-amazon-is-selling-50-twitch-gift-cards-for-just-1140/ | This incredible deal probably won't last long.
+- gg.deals News, Oct 13: "Steam’s Fallout Day Sale 2026 opens the Vault on discounts of up to 75%" https://gg.deals/deal/steams-fallout-day-sale-2026-opens-the-vault-on-discounts-of-up-to-75/ | The wasteland awaits.
+- gg.deals Freebies, Oct 13: "Roguelike deckbuilder Hex Reverse is FREE to keep on Steam for its first month after launch" https://gg.deals/freebie/roguelike-deckbuilder-hex-reverse-is-free-to-keep-on-steam-for-its-first-month-after-launch/ | The game will switch to a paid-for model in November.
 
 ## Topics for articles (stories without a deal; headlines and links only. Write an article only if the owner asks)
 1. Epic Games reportedly delays Star Wars and Marvel shooter, as the Fortnite maker embraces "AI-accelerated dev… (score 14)
@@ -63,16 +62,17 @@ Why now: 4 sites wrote about it in the last 48 h (gg.deals, pcgamer.com, rockpap
 Why now: 2 sites wrote about it in the last 48 h (gg.deals, indiegamebundles.com); matches keywords: bundle, humble; newest Oct 12.
 - Indie Game Bundles, Oct 12: "Humble Cozy After Dark Showcase Bundle" https://www.indiegamebundles.com/humble-cozy-after-dark-showcase-bundle/
 - gg.deals News, Oct 12: "Humble’s Cozy After Dark Showcase Bundle keeps things comfy once the lights go out" https://gg.deals/bundle/humbles-cozy-after-dark-showcase-bundle-keeps-things-comfy-once-the-lights-go-out/
-3. Humble Store’s Strategic Sims Sale offers discounts of up to 90% (score 7)
-Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: sale, discounts, humble; newest Oct 12.
-- gg.deals News, Oct 12: "Humble Store’s Strategic Sims Sale offers discounts of up to 90%" https://gg.deals/deal/humble-stores-strategic-sims-sale-offers-discounts-of-up-to-90/
-4. Steam’s new Weeklong Sale drops prices on Halo: TMCC and thousands more PC games (score 7)
-Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: sale, prices; newest Oct 12.
-- gg.deals News, Oct 12: "Steam’s new Weeklong Sale drops prices on Halo: TMCC and thousands more PC games" https://gg.deals/deal/steams-new-weeklong-sale-drops-prices-on-halo-tmcc-and-thousands-more-pc-games/
-5. GOG kicks off the week with over 3,000 DRM-free deals (score 7)
-Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: deals, free; newest Oct 12.
-- gg.deals News, Oct 12: "GOG kicks off the week with over 3,000 DRM-free deals" https://gg.deals/deal/gog-kicks-off-the-week-with-over-3000-drm-free-deals/
+3. Green Man Gaming The Darksiders Collection Bundle (score 8)
+Why now: 2 sites wrote about it in the last 48 h (gg.deals, indiegamebundles.com); matches keywords: bundle; newest Oct 13.
+- Indie Game Bundles, Oct 13: "Green Man Gaming The Darksiders Collection Bundle" https://www.indiegamebundles.com/green-man-gaming-the-darksiders-collection-bundle/
+- gg.deals News, Oct 13: "GMG's Darksiders Collection Bundle offers 4 Steam games for $9.99" https://gg.deals/bundle/gmg-darksiders-collection-bundle/
+4. "My idea of a Netflix for games doesn’t work": Garry's Mod creator says struggling spiritual successor S&box … (score 7)
+Why now: 1 site wrote about it in the last 48 h (rockpapershotgun.com); matches keywords: free, free to play; newest Oct 14.
+- Rock Paper Shotgun, Oct 14: ""My idea of a Netflix for games doesn’t work": Garry's Mod creator says struggling spiritual succes…" https://www.rockpapershotgun.com/my-idea-of-a-netflix-for-games-doesnt-work-garrys-mod-creator-says-struggling-spiritual-successor-sbox-will-go-free-to-play-as-part-of-major-rethink
+5. s&box goes free-to-play in late 2026, but what about those who already paid? (score 7)
+Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: free, free to play; newest Oct 14.
+- gg.deals Freebies, Oct 14: "s&box goes free-to-play in late 2026, but what about those who already paid?" https://gg.deals/freebie/garrys-mod-successor-sbox-is-going-free-to-play/
 
-Left out: 10 other-store deals, 0 hidden duplicates, 0 under 50%, 0 ended, 0 ending within 6 h, 0 old prices.
+Left out: 15 other-store deals, 0 hidden duplicates, 0 under 50%, 0 ended, 0 ending within 6 h, 0 old prices.
 Sources not read: none.
-Built by: commit 8f6cc8f, schedule, run #14 attempt 1.
+Built by: commit e499679, schedule, run #15 attempt 1.

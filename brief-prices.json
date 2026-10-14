@@ -1,50 +1,10 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-10-13T11:14:48.917Z",
-  "builtBy": "commit 8f6cc8f, schedule, run #14 attempt 1",
-  "pricesCheckedAt": "2026-10-13T09:50:22.115Z",
+  "generatedAt": "2026-10-14T11:25:06.154Z",
+  "builtBy": "commit e499679, schedule, run #15 attempt 1",
+  "pricesCheckedAt": "2026-10-14T10:04:34.927Z",
   "warnings": [],
   "candidates": [
-    {
-      "id": "gog-prince-of-persia-the-sands-of-time",
-      "kind": "deal",
-      "title": "Prince of Persia: The Sands of Time",
-      "store": "GOG",
-      "price": 1.99,
-      "was": 9.99,
-      "discount": 80,
-      "endsAt": "2026-10-18T09:59:00+03:00",
-      "endsInHours": 116,
-      "priceCheckedAt": "2026-10-13T09:49:36.744Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13600/header.jpg?t=1720535333",
-      "drminfo": null,
-      "coverAlt": "Cover art for Prince of Persia: The Sands of Time",
-      "score": 12,
-      "discountRank": 15,
-      "sites": 1,
-      "mentions": [
-        {
-          "source": "Indie Game Bundles",
-          "domain": "indiegamebundles.com",
-          "title": "Humble Choice October 2026 – Like a Dragon: Pirate Yakuza in Hawaii, Prince of Persia Lost Crown",
-          "link": "https://www.indiegamebundles.com/humble-choice-october-2026/",
-          "t": 1791829080000,
-          "how": "title"
-        }
-      ],
-      "history": {
-        "days": 5,
-        "lowest": false,
-        "since": "2026-10-09"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/prince-of-persia-the-sands-of-time/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-13",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "1 news site wrote about the game in the last 48 h",
-        "deepest-discount rank 15 of 27"
-      ]
-    },
     {
       "id": "gog-prince-of-persia-warrior-within",
       "kind": "deal",
@@ -54,8 +14,8 @@
       "was": 9.99,
       "discount": 80,
       "endsAt": "2026-10-18T09:59:00+03:00",
-      "endsInHours": 116,
-      "priceCheckedAt": "2026-10-13T09:49:36.744Z",
+      "endsInHours": 92,
+      "priceCheckedAt": "2026-10-14T10:03:11.745Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13500/header.jpg?t=1720535324",
       "drminfo": null,
       "coverAlt": "Cover art for Prince of Persia: Warrior Within",
@@ -73,12 +33,12 @@
         }
       ],
       "history": {
-        "days": 5,
+        "days": 6,
         "lowest": false,
         "since": "2026-10-09"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/prince-of-persia-warrior-within/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-13",
+      "link": "https://saveandplay.com/deals/gog/prince-of-persia-warrior-within/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-14",
       "linkKind": "link to our site",
       "whyToday": [
         "1 news site wrote about the game in the last 48 h",
@@ -94,8 +54,8 @@
       "was": 9.99,
       "discount": 80,
       "endsAt": "2026-10-18T09:59:00+03:00",
-      "endsInHours": 116,
-      "priceCheckedAt": "2026-10-13T09:49:36.744Z",
+      "endsInHours": 92,
+      "priceCheckedAt": "2026-10-14T10:03:11.745Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13530/header.jpg?t=1720535330",
       "drminfo": null,
       "coverAlt": "Cover art for Prince of Persia: The Two Thrones",
@@ -113,12 +73,12 @@
         }
       ],
       "history": {
-        "days": 3,
+        "days": 4,
         "lowest": false,
         "since": "2026-10-11"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/prince-of-persia-the-two-thrones/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-13",
+      "link": "https://saveandplay.com/deals/gog/prince-of-persia-the-two-thrones/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-14",
       "linkKind": "link to our site",
       "whyToday": [
         "1 news site wrote about the game in the last 48 h",
@@ -134,8 +94,8 @@
       "was": 14.99,
       "discount": 90,
       "endsAt": "2026-10-18T09:59:00+03:00",
-      "endsInHours": 116,
-      "priceCheckedAt": "2026-10-13T09:49:36.744Z",
+      "endsInHours": 92,
+      "priceCheckedAt": "2026-10-14T10:03:11.745Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108710/9c1728f937c2a7e632b447b02e442f6a5d88515c/header.jpg?t=1769717716",
       "drminfo": null,
       "coverAlt": "Cover art for Alan Wake",
@@ -144,12 +104,12 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 8,
+        "days": 9,
         "lowest": false,
         "since": "2026-10-05"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/alan-wake/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-13",
+      "link": "https://saveandplay.com/deals/gog/alan-wake/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-14",
       "linkKind": "link to our site",
       "whyToday": [
         "deepest-discount rank 2 of 27"
@@ -164,8 +124,8 @@
       "was": 19.99,
       "discount": 90,
       "endsAt": "2026-10-18T09:59:00+03:00",
-      "endsInHours": 116,
-      "priceCheckedAt": "2026-10-13T09:49:36.744Z",
+      "endsInHours": 92,
+      "priceCheckedAt": "2026-10-14T10:03:11.745Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24880/header.jpg?t=1777484749",
       "drminfo": null,
       "coverAlt": "Cover art for The Saboteur",
@@ -174,52 +134,98 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 8,
+        "days": 9,
         "lowest": false,
         "since": "2026-10-05"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/the-saboteur/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-13",
+      "link": "https://saveandplay.com/deals/gog/the-saboteur/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-14",
       "linkKind": "link to our site",
       "whyToday": [
         "deepest-discount rank 3 of 27"
+      ]
+    },
+    {
+      "id": "gog-shadow-tactics-blades-of-the-shogun",
+      "kind": "deal",
+      "title": "Shadow Tactics: Blades of the Shogun",
+      "store": "GOG",
+      "price": 3.99,
+      "was": 39.99,
+      "discount": 90,
+      "endsAt": "2026-10-18T09:59:00+03:00",
+      "endsInHours": 92,
+      "priceCheckedAt": "2026-10-14T10:03:11.745Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
+      "drminfo": null,
+      "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
+      "score": 10,
+      "discountRank": 4,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 8,
+        "lowest": false,
+        "since": "2026-10-07"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-14",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 4 of 27"
       ]
     }
   ],
   "gogNews": [
     {
-      "title": "MOUSE: P.I. For Hire is now available on GOG!",
-      "game": "mouse_pi_for_hire",
-      "url": "https://www.gog.com/en/game/mouse_pi_for_hire",
-      "newsLink": "http://www.gog.com/news/mouse_p_i_for_hire_is_now_available_on_gog",
-      "t": 1791769245000,
-      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fmouse_pi_for_hire"
+      "title": "Release: Allogloom",
+      "game": "allogloom",
+      "url": "https://www.gog.com/en/game/allogloom",
+      "newsLink": "http://www.gog.com/news/release_allogloom",
+      "t": 1791883584000,
+      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fallogloom"
+    },
+    {
+      "title": "Release: Total War: SHOGUN 2 - Complete Edition",
+      "game": "total_war_shogun_2_complete_edition",
+      "url": "https://www.gog.com/en/game/total_war_shogun_2_complete_edition",
+      "newsLink": "http://www.gog.com/news/release_total_war_shogun_2_complete_edition",
+      "t": 1791883494000,
+      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Ftotal_war_shogun_2_complete_edition"
+    },
+    {
+      "title": "Release: Tank Squad",
+      "game": "tank_squad",
+      "url": "https://www.gog.com/en/game/tank_squad",
+      "newsLink": "http://www.gog.com/news/release_tank_squad",
+      "t": 1791883124000,
+      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Ftank_squad"
     }
   ],
   "topical": [
     {
-      "title": "Lose, retry, save! Steam's Roguelike Celebration brings discounts up to 95% off",
+      "title": "[Price glitch] Amazon is selling €50 Twitch gift cards for just €11.40",
       "source": "gg.deals News",
-      "link": "https://gg.deals/deal/steam-roguelike-celebration-2026/",
-      "t": 1791881145000,
-      "keyword": "discounts",
-      "summary": "One more run?"
+      "link": "https://gg.deals/deal/price-glitch-amazon-is-selling-50-twitch-gift-cards-for-just-1140/",
+      "t": 1791967140000,
+      "keyword": "price",
+      "summary": "This incredible deal probably won't last long."
     },
     {
-      "title": "The best early Black Friday PS5 deals in 2026: the biggest Sony savings so far",
-      "source": "GamesRadar deals",
-      "link": "https://www.gamesradar.com/platforms/ps5/the-best-early-black-friday-ps5-deals-in-australia-for-2026-the-biggest-sony-savings-so-far/",
-      "t": 1791859263000,
-      "keyword": "deals",
-      "summary": "Menu (Image credit: Future/SteelSeries/Sony PlayStation) 1. Retailers to know 2. Today's best deals This year's Black Friday PS5 deals are in a bit of an awkwa…"
+      "title": "Steam’s Fallout Day Sale 2026 opens the Vault on discounts of up to 75%",
+      "source": "gg.deals News",
+      "link": "https://gg.deals/deal/steams-fallout-day-sale-2026-opens-the-vault-on-discounts-of-up-to-75/",
+      "t": 1791915003000,
+      "keyword": "sale",
+      "summary": "The wasteland awaits."
     },
     {
-      "title": "Steam Cooking Fest 2026 has launched, with discounts of up to 90% off",
-      "source": "gg.deals News",
-      "link": "https://gg.deals/deal/steam-cooking-fest-2026-has-launched-with-discounts-of-up-to-90-off/",
-      "t": 1791839569000,
-      "keyword": "discounts",
-      "summary": "Cooking games, restaurant simulators, and co-op chaos are available at significantly reduced prices!"
+      "title": "Roguelike deckbuilder Hex Reverse is FREE to keep on Steam for its first month after launch",
+      "source": "gg.deals Freebies",
+      "link": "https://gg.deals/freebie/roguelike-deckbuilder-hex-reverse-is-free-to-keep-on-steam-for-its-first-month-after-launch/",
+      "t": 1791909000000,
+      "keyword": "free",
+      "summary": "The game will switch to a paid-for model in November."
     }
   ],
   "topics": [
@@ -291,69 +297,80 @@
       ]
     },
     {
-      "headline": "Humble Store’s Strategic Sims Sale offers discounts of up to 90%",
-      "score": 7,
+      "headline": "Green Man Gaming The Darksiders Collection Bundle",
+      "score": 8,
       "sites": [
-        "gg.deals"
+        "gg.deals",
+        "indiegamebundles.com"
       ],
       "keywords": [
-        "sale",
-        "discounts",
-        "humble"
+        "bundle"
       ],
       "games": [],
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Humble Store’s Strategic Sims Sale offers discounts of up to 90%",
-          "link": "https://gg.deals/deal/humble-stores-strategic-sims-sale-offers-discounts-of-up-to-90/",
-          "published": "2026-10-12T20:11:35.000Z"
+          "title": "GMG's Darksiders Collection Bundle offers 4 Steam games for $9.99",
+          "link": "https://gg.deals/bundle/gmg-darksiders-collection-bundle/",
+          "published": "2026-10-13T15:00:00.000Z"
+        },
+        {
+          "source": "Indie Game Bundles",
+          "title": "Green Man Gaming The Darksiders Collection Bundle",
+          "link": "https://www.indiegamebundles.com/green-man-gaming-the-darksiders-collection-bundle/",
+          "published": "2026-10-13T16:22:20.000Z"
         }
       ]
     },
     {
-      "headline": "Steam’s new Weeklong Sale drops prices on Halo: TMCC and thousands more PC games",
+      "headline": "\"My idea of a Netflix for games doesn’t work\": Garry's Mod creator says struggling spiritual successor S&box will go free to play as part of major rethink",
       "score": 7,
       "sites": [
-        "gg.deals"
+        "rockpapershotgun.com"
       ],
       "keywords": [
-        "sale",
-        "prices"
+        "free",
+        "free to play"
       ],
       "games": [],
       "items": [
         {
-          "source": "gg.deals News",
-          "title": "Steam’s new Weeklong Sale drops prices on Halo: TMCC and thousands more PC games",
-          "link": "https://gg.deals/deal/steams-new-weeklong-sale-drops-prices-on-halo-tmcc-and-thousands-more-pc-games/",
-          "published": "2026-10-12T18:08:16.000Z"
+          "source": "Rock Paper Shotgun",
+          "title": "\"My idea of a Netflix for games doesn’t work\": Garry's Mod creator says struggling spiritual successor S&box will go free to play as part of major rethink",
+          "link": "https://www.rockpapershotgun.com/my-idea-of-a-netflix-for-games-doesnt-work-garrys-mod-creator-says-struggling-spiritual-successor-sbox-will-go-free-to-play-as-part-of-major-rethink",
+          "published": "2026-10-14T10:00:00.000Z"
         }
       ]
     },
     {
-      "headline": "GOG kicks off the week with over 3,000 DRM-free deals",
+      "headline": "s&box goes free-to-play in late 2026, but what about those who already paid?",
       "score": 7,
       "sites": [
         "gg.deals"
       ],
       "keywords": [
-        "deals",
-        "free"
+        "free",
+        "free to play"
       ],
       "games": [],
       "items": [
         {
+          "source": "gg.deals Freebies",
+          "title": "s&box goes free-to-play in late 2026, but what about those who already paid?",
+          "link": "https://gg.deals/freebie/garrys-mod-successor-sbox-is-going-free-to-play/",
+          "published": "2026-10-14T09:55:00.000Z"
+        },
+        {
           "source": "gg.deals News",
-          "title": "GOG kicks off the week with over 3,000 DRM-free deals",
-          "link": "https://gg.deals/deal/gog-kicks-off-the-week-with-over-3000-drm-free-deals/",
-          "published": "2026-10-12T14:40:00.000Z"
+          "title": "s&box goes free-to-play in late 2026, but what about those who already paid?",
+          "link": "https://gg.deals/freebie/garrys-mod-successor-sbox-is-going-free-to-play/",
+          "published": "2026-10-14T09:55:00.000Z"
         }
       ]
     }
   ],
   "left": {
-    "otherStore": 10,
+    "otherStore": 15,
     "hidden": 0,
     "smallDiscount": 0,
     "ended": 0,
@@ -366,18 +383,18 @@
   },
   "posts": {
     "bluesky": {
-      "text": "Prince of Persia: The Sands of Time: -80% at GOG\n$1.99 (was $9.99)\nPrice checked Oct 13. Sale ends Oct 18.\n\nhttps://saveandplay.com/deals/gog/prince-of-persia-the-sands-of-time/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-13\n\n#PCGaming #GameDeals #GOG\nAd",
+      "text": "Prince of Persia: Warrior Within: -80% at GOG\n$1.99 (was $9.99)\nPrice checked Oct 14. Sale ends Oct 18.\n\nhttps://saveandplay.com/deals/gog/prince-of-persia-warrior-within/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-14\n\n#PCGaming #GameDeals #Gaming\nAd",
       "length": 163,
       "max": 300,
-      "link": "https://saveandplay.com/deals/gog/prince-of-persia-the-sands-of-time/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-13",
-      "deal": "gog-prince-of-persia-the-sands-of-time"
+      "link": "https://saveandplay.com/deals/gog/prince-of-persia-warrior-within/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-14",
+      "deal": "gog-prince-of-persia-warrior-within"
     },
     "mastodon": {
-      "text": "Prince of Persia: The Sands of Time: -80% at GOG\n$1.99 (was $9.99)\nYou save $8.00\nDRM-free\nPrice checked Oct 13. Sale ends Oct 18.\nWhy today: 1 news site wrote about the game in the last 48 h.\n\nhttps://saveandplay.com/deals/gog/prince-of-persia-the-sands-of-time/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-13\n\n#GameDeals #PCGaming #GOG #DRMFree #PrinceOfPersia\nAd",
-      "length": 272,
+      "text": "Prince of Persia: Warrior Within: -80% at GOG\n$1.99 (was $9.99)\nYou save $8.00\nDRM-free\nPrice checked Oct 14. Sale ends Oct 18.\nWhy today: 1 news site wrote about the game in the last 48 h.\n\nhttps://saveandplay.com/deals/gog/prince-of-persia-warrior-within/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-14\n\n#GameDeals #PCGaming #GOG #DRMFree #Gaming\nAd",
+      "length": 261,
       "max": 500,
-      "link": "https://saveandplay.com/deals/gog/prince-of-persia-the-sands-of-time/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-13",
-      "deal": "gog-prince-of-persia-the-sands-of-time"
+      "link": "https://saveandplay.com/deals/gog/prince-of-persia-warrior-within/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-14",
+      "deal": "gog-prince-of-persia-warrior-within"
     }
   }
 }
