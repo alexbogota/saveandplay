@@ -2,14 +2,18 @@
 
 Applies ONLY to https://bsky.app/profile/saveandplay.com (PC game deals site). Other accounts get their own files: docs/comments-NAME.md.
 The owner sends replies manually from this account. Claude only drafts replies, never publishes.
-Posts are found by a PROGRAM, not by Claude: `npm run comments:find` (run by the owner in C:\saveandplay, or by a schedule) writes `C:\saveandplay\drafts\comments-prices.md`. Its settings (search queries, stop words, scores) are in `data/comments-accounts.json`, the description is in `docs/comments-finder.md`. Do NOT search Bluesky through the browser: it costs many tokens and has no memory of what was already shown.
+Posts are found by a PROGRAM, not by Claude: `npm run comments:find` (run by the owner in C:\saveandplay) or the "Comment candidates" workflow on GitHub (every 6 hours; its list lives on the GitHub branch `comments`, the copy on the owner's computer is updated only by `npm run comments:find`). Its settings (search queries, feeds, stop words, scores) are in `data/comments-accounts.json`, the description is in `docs/comments-finder.md`. Do NOT search Bluesky through the browser: it costs many tokens and has no memory of what was already shown.
 
 ## Process (owner says "комментарии saveandplay")
-1. Read ONLY `C:\saveandplay\drafts\comments-prices.md` (device_stage_files, then Read). If the file is missing, or the "Made ..." time at the top is older than 12 hours, tell the owner to run `npm run comments:find` in C:\saveandplay and stop. Do not read other files.
-2. The list is pre-filtered but not perfect. Pick only posts that really fit (see "Which posts to pick"). 3-6 good drafts are better than 10 weak ones. Say honestly if few posts fit.
-3. Show the owner: direct post link, handle, draft (and "verify" for any fact you are unsure about). Publish nothing.
-4. Record EVERY post that was in the list (also the ones you skipped as weak), so it is never offered again: write a new small file `comments-shown-prices-YYYYMMDD-HHMM.json` (a JSON array of the post links from the list) to /mnt/user-data/outputs/ and send it with device_commit_files to `C:\saveandplay\drafts\comments-shown-prices-YYYYMMDD-HHMM.json`. Always a NEW file, never edit older ones. The program reads all of them and skips these posts. (It already skips posts our account has answered.)
-5. Owner sends manually. If he edits a draft, note the change and offer to update this playbook.
+Read nothing except what is listed here. Do NOT read comments-prices.md. A program, not you, decides which posts are new: your own eyes miss repeats.
+1. One `device_stage_files` call with these paths: `C:\saveandplay\scripts\comments-show.mjs`, `C:\saveandplay\scripts\lib\comments.mjs`, `C:\saveandplay\data\comments-accounts.json`, `C:\saveandplay\drafts\comments-prices.json`, `C:\saveandplay\drafts\comments-shown-prices.json`. Note the `mtimeMs` that the result gives for comments-shown-prices.json.
+2. Run in the shell: `sleep 3; cd /mnt/user-data/uploads/saveandplay && node scripts/comments-show.mjs --limit 8 --record /mnt/user-data/outputs/comments-shown-prices.json`. It prints the age of the list and ONLY the posts that were not shown before (this is what stops repeats), and writes the updated shown list.
+   - It says `NO LIST` or `STALE LIST` (it shows no posts then): tell the owner in Russian to run `npm run comments:find` in C:\saveandplay (or start the "Comment candidates" workflow on GitHub and wait), and stop. Never draft from an old list. Only if the owner says that an older list is fine, run again with `--stale 24`.
+   - It says `NEW POSTS: 0`: tell the owner there is nothing new yet, and go to step 5.
+3. Draft replies only for posts that really fit (see "Which posts to pick"). The others are remembered as shown and never come back. 3-6 good drafts are better than 10 weak ones. Say honestly if few fit.
+4. Show the owner: direct post link, handle, draft (and "verify" for any fact you are unsure about). Publish nothing.
+5. Send the shown list to the owner's computer: `device_commit_files`, stagedPath `/mnt/user-data/outputs/comments-shown-prices.json`, devicePath `C:\saveandplay\drafts\comments-shown-prices.json`, with `expectedMtimeMs` from step 1. Do this every time the script ran with `--record`, even if you skipped every post. Check afterwards that the result says written.
+6. Owner sends manually. If he edits a draft, note the change and offer to update this playbook.
 
 Reply format to the owner (Russian, short): what was done, what's next, what is needed from him.
 
@@ -56,7 +60,7 @@ The list holds only the text, and Claude cannot see pictures. Under the text a l
 - For `[quotes @name: ...]` the reply is to the quoting author's words, and the quoted text is the context.
 
 ## Feed posts (a group named after a feed: `pcGaming`, `gamingLiked`, `videogames`, `gamingNintendo`)
-The finder also reads curated feeds (someone else's list of posts by topic; list and weights in `data/comments-accounts.json`, `feeds`). A feed is a source, not a topic: judge the post by the normal rules. With a price, sale or buying angle, answer as in the core groups; otherwise treat it as broad (friendly reaction + one true detail, no pitch). Feeds hold many bots, news sites and developers: skip them as usual and never name the feed in a reply. `videogames` and `gamingNintendo` are mostly consoles (Switch, PS5, Pokémon): skip those, we answer PC only. `gamingLiked` holds popular posts: heated debates and crowded threads, prefer posts with few replies.
+The finder also reads curated feeds (someone else's list of posts by topic; list and weights in `data/comments-accounts.json`, `feeds`). A feed is a source, not a topic: judge the post by the normal rules. With a price, sale or buying angle, answer as in the core groups; otherwise treat it as broad (friendly reaction + one true detail, no pitch). Feeds hold many bots, news sites and developers: skip them as usual and never name the feed in a reply. `videogames` and `gamingNintendo` are mostly consoles (Switch, PS5, Pokémon): the finder already drops console-only posts, non-English text and ads (a link with three or more hashtags). If one still slips through, skip it: we answer PC only. `gamingLiked` holds popular posts: heated debates and crowded threads, prefer posts with few replies.
 
 ## Posts with limited replies
 Rare. Do NOT run any check for it. If the owner cannot reply to a post, he skips it and tells Claude. A "threadgate" on a post does not always mean limited replies.
