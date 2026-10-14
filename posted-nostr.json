@@ -414,6 +414,58 @@
             "id": "34c0c51148b97b20110189b52b3dc85de124e9fbb2acddede2a820c231003ccc",
             "sig": "3be7985e1fedca20b23e447e35bfa6c584596e1e650a5bcb9d00a80fa7bb12956cb0a49c97a758fbde27d09cf082f93718747913f1d38936a6994d7f0d9efa1d"
           }
+        },
+        "article": {
+          "status": "done",
+          "kind": "article",
+          "id": "7211d900f05b2fbc0cb93ee48abecf72d6bd2b739f936a263b85bbd13df30c6b",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "article": "is-a-game-bundle-worth-it",
+          "postedAt": "2026-10-14T17:22:04.000Z",
+          "accepted": [
+            "wss://relay.damus.io",
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [],
+          "event": {
+            "kind": 1,
+            "created_at": 1791998524,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-article"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "t",
+                "bundles"
+              ],
+              [
+                "imeta",
+                "url https://saveandplay.com/og/is-a-game-bundle-worth-it.png",
+                "m image/png",
+                "alt Diagram of one bundle with three tiers: $8 for 2 games ($4.00 each), $10 for 5 games ($2.00 each), $13 for 8 games ($1.63 each). The step up from tier 1 to 2 adds 3 games for $2, and from tier 2 to 3 adds 3 games for $3."
+              ]
+            ],
+            "content": "Is a game bundle worth it? Five checks before you pay\n\nA bundle's \"worth $149\" figure is only a sum of list prices. Here is how to work out the real price per game, what the keys come with, and when to skip it.\n\n#pcgaming #gamedeals #bundles\n\nhttps://saveandplay.com/og/is-a-game-bundle-worth-it.png\n\nhttps://saveandplay.com/guides/is-a-game-bundle-worth-it/?utm_source=nostr-prices&utm_medium=social&utm_campaign=is-a-game-bundle-worth-it",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "7211d900f05b2fbc0cb93ee48abecf72d6bd2b739f936a263b85bbd13df30c6b",
+            "sig": "582282d89b68cf5509e90069d0ebf5de428525816927c2b54ef714a67f4ba11390fea446a2a5986850bb4aa0a4eeaf563b26384d65e82ab181d67d96f3eceb2a"
+          }
         }
       }
     }
@@ -431,6 +483,10 @@
       "how-steam-refunds-work": {
         "day": "2026-10-12",
         "id": "1609d682da5a1fd92dbd2966660745890413391ba0be2db3bb1dad0d4d86c689"
+      },
+      "is-a-game-bundle-worth-it": {
+        "day": "2026-10-14",
+        "id": "7211d900f05b2fbc0cb93ee48abecf72d6bd2b739f936a263b85bbd13df30c6b"
       }
     }
   },
