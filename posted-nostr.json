@@ -364,6 +364,57 @@
             "sig": "4156fe62fef2debe0e8f63a07ddcec93f707cea564a51530de87b70f6cf27fbc3ebe18470afb8f297cc5e85aab9cf635a43a065e9f6eb01d9762118379ac0505"
           }
         }
+      },
+      "2026-10-14": {
+        "deal": {
+          "status": "done",
+          "kind": "deal",
+          "id": "34c0c51148b97b20110189b52b3dc85de124e9fbb2acddede2a820c231003ccc",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "deal": "gog-prince-of-persia-warrior-within",
+          "title": "Prince of Persia: Warrior Within",
+          "postedAt": "2026-10-14T11:57:58.000Z",
+          "accepted": [
+            "wss://relay.damus.io",
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [],
+          "event": {
+            "kind": 1,
+            "created_at": 1791979078,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-deal"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13500/header.jpg?t=1720535324",
+                "m image/jpeg",
+                "alt Cover art for Prince of Persia: Warrior Within"
+              ]
+            ],
+            "content": "Prince of Persia: Warrior Within: -80% at GOG\n$1.99 (was $9.99)\nPrice checked 2026-10-14 10:03 UTC. Sale ends 2026-10-18 06:59 UTC.\nWhy today: 1 news site wrote about the game in the last 48 h.\nAd: we may earn a commission if you buy.\n\n#pcgaming #gamedeals\n\nhttps://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13500/header.jpg?t=1720535324\n\nhttps://saveandplay.com/deals/gog/prince-of-persia-warrior-within/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-14",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "34c0c51148b97b20110189b52b3dc85de124e9fbb2acddede2a820c231003ccc",
+            "sig": "3be7985e1fedca20b23e447e35bfa6c584596e1e650a5bcb9d00a80fa7bb12956cb0a49c97a758fbde27d09cf082f93718747913f1d38936a6994d7f0d9efa1d"
+          }
+        }
       }
     }
   },
