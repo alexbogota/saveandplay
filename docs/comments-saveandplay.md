@@ -1,12 +1,20 @@
 # Comments playbook: Bluesky account @saveandplay.com
 
 Applies ONLY to https://bsky.app/profile/saveandplay.com (PC game deals site). Other accounts get their own files: docs/comments-NAME.md.
-Mastodon (@saveandplay@mastodon.social) has its own file: docs/comments-saveandplay-mastodon.md; the owner starts it with the phrase "комментарии mastodon". The phrase "комментарии saveandplay" is Bluesky only.
+Mastodon (@saveandplay@mastodon.social) has its own file: docs/comments-saveandplay-mastodon.md. Phrases (decided 14 Oct 2026): "комментарии saveandplay" = Bluesky AND Mastodon together (see "Both accounts in one run" below); "комментарии bluesky" = Bluesky only; "комментарии mastodon" = Mastodon only (the process in its own file).
 The owner sends replies manually from this account. Claude only drafts replies, never publishes.
 Posts are found by a PROGRAM, not by Claude: the "Comment candidates" workflow on GitHub (repository alexbogota/saveandplay) runs every 6 hours and keeps its list on the branch `comments`. Its settings (search queries, feeds, stop words, scores) are in `data/comments-accounts.json`, the description is in `docs/comments-finder.md`. Do NOT search Bluesky through the browser: it costs many tokens and has no memory of what was already shown.
 The owner's computer and his project folder are NOT needed: the chat takes the code and the list from GitHub, so it works from any device. The owner never has to type commands.
 
-## Process (owner says "комментарии saveandplay")
+## Both accounts in one run (owner says "комментарии saveandplay")
+Do the Process below for Bluesky, and the same steps for Mastodon, with ONE clone and ONE `add_repo`. In addition to this file, read docs/comments-saveandplay-mastodon.md (only if the Mastodon list has new posts: its Style and "Which posts to pick" differ: no hashtags, never start with @name, two links per post). Order:
+1. `add_repo` and the clone as in Process step 1 (REPO below = the clone folder). The checks of step 1 apply: `grep -c record-new REPO/scripts/comments-show.mjs` and `grep -c mastodon-prices REPO/data/comments-accounts.json`; if either prints 0, tell the owner (Russian) to say `/publish` to Claude Code, and stop.
+2. ONE shell command: `cd REPO && bash scripts/comments-branch.sh load && node scripts/comments-show.mjs --limit 8 --record-new drafts/comments-shown-prices-$(date -u +%Y%m%d-%H%M%S).json && node scripts/comments-show.mjs --account mastodon-prices --limit 8 --record-new drafts/comments-shown-mastodon-prices-$(date -u +%Y%m%d-%H%M%S).json`. Two REMEMBERED lines come out, one per account. If either list is `STALE LIST` or `NO LIST`, start the workflow ONCE (it refreshes both lists) as in Process step 2, then repeat this step.
+3. Draft and show the owner two blocks, "Bluesky" first, then "Mastodon", each by its own file's rules. Say honestly if few fit; an empty block is fine. Publish nothing.
+4. Save BOTH memories right away, before the owner answers, even if every post was skipped, in ONE command: `cd REPO && bash scripts/comments-branch.sh save drafts/comments-shown-prices-STAMP.json && bash scripts/comments-branch.sh save drafts/comments-shown-mastodon-prices-STAMP.json` (exact file names from the REMEMBERED lines). Each must print `Saved to the comments branch.`; if not, tell the owner which one failed.
+5. Daily limits for the owner, spread over the day: about 10-15 replies on Bluesky and about 10 on Mastodon. Say so only if he asks or if he sends many at once.
+
+## Process (Bluesky only; the first half of "комментарии saveandplay" and all of "комментарии bluesky")
 Read nothing except what is listed here. Do NOT read comments-prices.md. A program, not you, decides which posts are new: your own eyes miss repeats.
 1. Get the code and the list from GitHub. Call `add_repo` (owner alexbogota, repo saveandplay, access push). Then ONE clone with a 10 minute timeout: `git clone -q --depth 1 --branch main https://github.com/alexbogota/saveandplay /home/claude/sp` (if /home/claude/sp already exists in this chat, run `git -C /home/claude/sp pull -q` instead). Do not call register_repo_root and do not read the repository's other files.
    - If `grep -c record-new /home/claude/sp/scripts/comments-show.mjs` prints 0, the new code is not published yet: tell the owner (Russian) to say `/publish` to Claude Code, and stop.
