@@ -1,5 +1,5 @@
 {
-  "about": "Поиск свежих постов в Bluesky, под которыми уместен короткий полезный ответ от аккаунта. Программа scripts/comment-candidates.mjs (npm run comments:find) НИЧЕГО не публикует: ищет посты, отсеивает ботов, магазины, разработчиков, взрослые, старые и закрытые для ответа посты, те, на которые аккаунт уже отвечал, и пишет короткий список в drafts/comments-<ключ>.md. Ответы пишет Claude в чате, отправляет владелец вручную. Ключ блока такой же, как в data/accounts.json. Новый аккаунт = новый блок, код не меняется. Поля: enabled; handle (без @); passwordEnv = имя переменной с паролем приложения Bluesky (App password; лежит в .env и в GitHub Secrets, в файлах пароля нет); language; maxAgeHours = какие посты считаем свежими; minChars и maxChars = длина текста поста; queriesPerRun = сколько запросов за запуск (по одному из РАЗНЫХ групп, по кругу); perQuery = сколько постов просить на запрос; maxCandidates и maxHeated = сколько постов показать (спорные темы отдельно); minScore = порог баллов (вопрос +3, тема +2, мало ответов +1, свежий +1, вес группы); groups = запросы по темам (weight = баллы группы, heated = спорная тема, enabled = включена); skipWords = слова в тексте, из-за которых пост пропускаем; requireAnyWord = в тексте должно быть хотя бы одно из этих слов (иначе пост не про игры: книги, комиксы); skipAuthorWords = слова в нике (часть до первой точки) или имени (боты, магазины, студии); questionWords = признаки вопроса; topicWords = слова темы; heatedPatterns = признаки споров (регулярные выражения): такой пост попадает в отдельный блок.",
+  "about": "Поиск свежих постов в Bluesky, под которыми уместен короткий полезный ответ от аккаунта. Программа scripts/comment-candidates.mjs (npm run comments:find) НИЧЕГО не публикует: ищет посты, отсеивает ботов, магазины, разработчиков, взрослые, старые и закрытые для ответа посты, те, на которые аккаунт уже отвечал, и пишет короткий список в drafts/comments-<ключ>.md. Ответы пишет Claude в чате, отправляет владелец вручную. Ключ блока такой же, как в data/accounts.json. Новый аккаунт = новый блок, код не меняется. Поля: enabled; handle (без @); passwordEnv = имя переменной с паролем приложения Bluesky (App password; лежит в .env и в GitHub Secrets, в файлах пароля нет); language; maxAgeHours = какие посты считаем свежими; minChars и maxChars = длина текста поста; queriesPerRun = сколько запросов за запуск (по одному из РАЗНЫХ групп, по кругу); perQuery = сколько постов просить на запрос; maxCandidates и maxHeated = сколько постов показать (спорные темы отдельно); minScore = порог баллов (вопрос +3, тема +2, мало ответов +1, свежий +1, вес группы); groups = запросы по темам (weight = баллы группы, heated = спорная тема, broad = широкий охват: смежные игровые темы для разгона нового аккаунта, enabled = включена; чтобы отключить широкий охват, поставьте enabled: false в группах broadPlaying и broadAsk); skipWords = слова в тексте, из-за которых пост пропускаем; requireAnyWord = в тексте должно быть хотя бы одно из этих слов (иначе пост не про игры: книги, комиксы); skipAuthorWords = слова в нике (часть до первой точки) или имени (боты, магазины, студии); questionWords = признаки вопроса; topicWords = слова темы; heatedPatterns = признаки споров (регулярные выражения): такой пост попадает в отдельный блок. feeds = ленты (чужие подборки постов по теме, например «PC Gaming»): name (имя, которое видно в списке), url (адрес ленты как в браузере), weight (баллы ленты), limit (до 100 постов за раз), pages (сколько страниц брать), enabled: false выключает ленту. Все посты из лент проходят те же фильтры, что и из поиска. Добавить ленту: новая строка в feeds. Счётчики по каждой ленте и группе копятся в drafts/comments-state-<аккаунт>.json, раздел sources (запусков, постов, подошло), по ним решаем, какие ленты оставить.",
   "accounts": {
     "prices": {
       "enabled": true,
@@ -85,8 +85,60 @@
             "steam AI disclosure",
             "generative AI games steam"
           ]
+        },
+        "broadPlaying": {
+          "weight": 1,
+          "broad": true,
+          "queries": [
+            "\"just finished\" game",
+            "\"currently playing\" game",
+            "\"what are you playing\" this week",
+            "\"best game\" \"this year\" played",
+            "\"finally played\" game"
+          ]
+        },
+        "broadAsk": {
+          "weight": 1,
+          "broad": true,
+          "queries": [
+            "\"recommend me\" game",
+            "\"best indie games\"",
+            "\"hidden gem\" games",
+            "\"games like\" recommend",
+            "\"underrated\" games pc"
+          ]
         }
       },
+      "feeds": [
+        {
+          "name": "pcGaming",
+          "url": "https://bsky.app/profile/phusion.bsky.social/feed/aaadmtxc3akja",
+          "weight": 2,
+          "limit": 100,
+          "pages": 1
+        },
+        {
+          "name": "gamingLiked",
+          "url": "https://bsky.app/profile/steinmakesgames.bsky.social/feed/aaagbemgqcwfa",
+          "weight": 1,
+          "limit": 50,
+          "pages": 1
+        },
+        {
+          "name": "videogames",
+          "url": "https://bsky.app/profile/vlaandi.bsky.social/feed/aaan6dpbvbb24",
+          "weight": 1,
+          "limit": 100,
+          "pages": 3
+        },
+        {
+          "name": "gamingNintendo",
+          "url": "https://bsky.app/profile/seanm4c.bsky.social/feed/aaal6pzdx3zhq",
+          "weight": 1,
+          "limit": 100,
+          "pages": 3
+        }
+      ],
       "skipWords": [
         "wishlist",
         "wish list",
@@ -147,7 +199,14 @@
         "indiedev",
         "devlog",
         "curator",
-        "games"
+        "games",
+        "drops",
+        "alert",
+        "radar",
+        "pcgamer",
+        "gamingonlinux",
+        "gstats",
+        "hq"
       ],
       "requireAnyWord": [
         "game",

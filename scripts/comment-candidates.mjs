@@ -5,10 +5,13 @@
 //   node scripts/comment-candidates.mjs --account prices
 //   node scripts/comment-candidates.mjs --queries 6      more queries in this run
 //
+// Posts come from searches (groups) and from custom feeds ("feeds" in the settings file: somebody else's list of posts on a topic).
+//
 // Result: drafts/comments-<account>.md (the list, about 1-2k tokens), drafts/comments-<account>.json (the same with all fields) and
 // drafts/comments-state-<account>.json (which queries are next, which posts are still fresh). Posts that Claude already showed are never listed again:
 // Claude records them in drafts/comments-shown-<account>-*.json. Then tell Claude in the chat:
 // "комментарии saveandplay", it reads only that .md file and writes the replies. The owner sends them by hand.
+// It also runs by itself on GitHub every 6 hours (.github/workflows/comments.yml); the list then lives on the "comments" branch (scripts/comments-branch.sh).
 // The login needs a Bluesky app password (Settings > Privacy and security > App passwords) in .env as BSKY_APP_PASSWORD.
 
 import { existsSync, mkdirSync, readFileSync, writeFileSync, appendFileSync } from 'node:fs';
@@ -58,33 +61,59 @@ async function runAccount({ id, account }) {
   const now = Date.now();
   const since = new Date(now - account.maxAgeHours * 36e5).toISOString();
   const queries = pickQueries(account, state, queriesOverride ?? account.queriesPerRun);
+  const feeds = (account.feeds ?? []).filter((f) => f.enabled !== false);
   const stats = {};
+  state.sources ??= {}; // per search group and per feed: runs, posts seen, posts that passed the rules (to decide which sources are worth keeping)
+  const count = (name, total, fit) => {
+    const c = (state.sources[name] ??= { runs: 0, posts: 0, fit: 0 });
+    c.runs++; c.posts += total; c.fit += fit;
+    c.last = { posts: total, fit, at: new Date(now).toISOString() };
+  };
   const found = new Map();
   let failed = 0;
+  // Every post goes through the same rules, whether it came from a search or from a feed.
+  const take = (posts, group, query) => {
+    let kept = 0;
+    for (const post of posts) {
+      const r = evaluate(post, account, { now, group, query, ownReplied, shown });
+      if (!r.keep) { stats[r.reason] = (stats[r.reason] ?? 0) + 1; continue; }
+      if (!found.has(r.candidate.uri) || found.get(r.candidate.uri).score < r.candidate.score) found.set(r.candidate.uri, r.candidate);
+      kept++;
+    }
+    return kept;
+  };
   for (const q of queries) {
     try {
       const posts = await api.search(q.query, { since, limit: account.perQuery, lang: account.language });
-      let kept = 0;
-      for (const post of posts) {
-        const r = evaluate(post, account, { now, group: q.group, query: q.query, ownReplied, shown });
-        if (!r.keep) { stats[r.reason] = (stats[r.reason] ?? 0) + 1; continue; }
-        if (!found.has(r.candidate.uri) || found.get(r.candidate.uri).score < r.candidate.score) found.set(r.candidate.uri, r.candidate);
-        kept++;
-      }
-      say(`  ${q.group}: ${q.query}: ${posts.length} posts, ${kept} fit`);
+      const fit = take(posts, q.group, q.query);
+      count(q.group, posts.length, fit);
+      say(`  ${q.group}: ${q.query}: ${posts.length} posts, ${fit} fit`);
     } catch (e) {
       failed++;
       say(`  ${q.group}: ${q.query}: FAILED (${e.message}). ${hint(e)}`.trim());
     }
   }
-  if (failed === queries.length && queries.length) return { ok: false, lines };
+  for (const f of feeds) {
+    try {
+      const posts = await api.feedPosts(f.url, { limit: f.limit ?? 100, pages: f.pages ?? 1 });
+      const fit = take(posts, f.name, 'feed');
+      count(f.name, posts.length, fit);
+      say(`  feed ${f.name}: ${posts.length} posts, ${fit} fit`);
+    } catch (e) {
+      failed++;
+      say(`  feed ${f.name}: FAILED (${e.message}). ${hint(e)}`.trim());
+    }
+  }
+  if (failed === queries.length + feeds.length && failed) return { ok: false, lines };
 
   const picked = updatePool(state, [...found.values()], account, now, ownReplied, shown);
-  const report = renderReport(id, account, { searched: queries, stats, picked, now });
+  const report = renderReport(id, account, { searched: [...queries, ...feeds.map((f) => ({ group: f.name, query: 'feed' }))], stats, picked, now });
   mkdirSync(file('drafts'), { recursive: true });
   writeFileSync(file('drafts', `comments-${id}.md`), report);
   writeFileSync(file('drafts', `comments-${id}.json`), JSON.stringify(picked, null, 2));
   writeFileSync(statePath, JSON.stringify(state, null, 2));
+  const totals = Object.entries(state.sources).map(([k, c]) => `${k}: ${c.fit} fit of ${c.posts} posts in ${c.runs} runs`);
+  say(`Sources so far (fit = passed the rules): ${totals.join('; ')}.`);
   say(`Saved drafts/comments-${id}.md: ${picked.normal.length} posts${picked.heated.length ? ` + ${picked.heated.length} heated` : ''}.`);
   if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, `## Comment candidates: ${id}\n\n\`\`\`\`text\n${report}\`\`\`\`\n`);
   return { ok: true, lines };

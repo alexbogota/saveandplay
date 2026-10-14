@@ -49,7 +49,7 @@ export function loadShown(id) {
   return keys;
 }
 
-const DEFAULTS = { enabled: true, language: 'en', maxAgeHours: 30, minChars: 30, maxChars: 600, queriesPerRun: 4, perQuery: 40, maxCandidates: 12, maxHeated: 3, minScore: 5 };
+const DEFAULTS = { feeds: [], enabled: true, language: 'en', maxAgeHours: 30, minChars: 30, maxChars: 600, queriesPerRun: 4, perQuery: 40, maxCandidates: 12, maxHeated: 3, minScore: 5 };
 export const withDefaults = (a) => ({ ...DEFAULTS, ...a, handle: String(a.handle ?? '').replace(/^@/, '') });
 
 export function commentAccounts(only = null) {
@@ -61,6 +61,13 @@ export function commentAccounts(only = null) {
   });
 }
 
+// A custom feed address as people copy it from the browser (https://bsky.app/profile/NAME/feed/ID) or as an at:// address.
+export function parseFeedUrl(s) {
+  const t = String(s ?? '').trim();
+  const m = t.match(/^https?:\/\/bsky\.app\/profile\/([^/\s]+)\/feed\/([A-Za-z0-9._~-]+)\/?$/) || t.match(/^at:\/\/([^/\s]+)\/app\.bsky\.feed\.generator\/([A-Za-z0-9._~-]+)$/);
+  return m ? { actor: m[1], rkey: m[2] } : null;
+}
+
 export function configProblems(a) {
   const p = [];
   if (!a.handle) p.push('handle is missing');
@@ -68,12 +75,20 @@ export function configProblems(a) {
   const g = a.groups;
   if (!g || !Object.keys(g).length) p.push('groups is empty');
   else for (const [k, v] of Object.entries(g)) if (!Array.isArray(v?.queries) || !v.queries.length) p.push(`group "${k}" has no queries`);
+  const names = new Set(Object.keys(g ?? {}));
+  for (const f of a.feeds ?? []) {
+    if (!f?.name) p.push('a feed has no name');
+    else if (names.has(f.name)) p.push(`feed "${f.name}" has the same name as a group`);
+    else if (!parseFeedUrl(f.url)) p.push(`feed "${f.name}": url must look like https://bsky.app/profile/NAME/feed/ID`);
+    if (f?.name) names.add(f.name);
+  }
   return p;
 }
 
 // ---- Bluesky (read only) ----------------------------------------------------------------------------------------
 export function createApi({ fetchImpl = globalThis.fetch, base = process.env.BSKY_API_BASE || 'https://bsky.social', timeoutMs = Number(process.env.COMMENTS_TIMEOUT_MS) || 20000, retryMs = Number(process.env.COMMENTS_RETRY_MS) || 2000 } = {}) {
   let jwt = null;
+  const dids = {};
   async function call(path, { method = 'GET', params, body } = {}, attempt = 0) {
     const url = new URL(`/xrpc/${path}`, base);
     for (const [k, v] of Object.entries(params ?? {})) if (v != null) url.searchParams.set(k, String(v));
@@ -105,6 +120,27 @@ export function createApi({ fetchImpl = globalThis.fetch, base = process.env.BSK
       const j = await call('app.bsky.feed.searchPosts', { params: { q, sort: 'latest', limit, lang, since } });
       return j?.posts ?? [];
     },
+    // The newest posts of a custom feed (somebody else's list of posts by topic). A feed address is a bsky.app link.
+    async feedPosts(url, { limit = 100, pages = 1 } = {}) {
+      const f = parseFeedUrl(url);
+      if (!f) throw new Error(`not a feed address: ${url}`);
+      let did = f.actor;
+      if (!did.startsWith('did:')) {
+        dids[did] ??= (await call('com.atproto.identity.resolveHandle', { params: { handle: did } }))?.did;
+        did = dids[f.actor];
+        if (!did) throw new Error(`cannot find the owner of the feed (${f.actor})`);
+      }
+      const feed = `at://${did}/app.bsky.feed.generator/${f.rkey}`;
+      const out = [];
+      let cursor;
+      for (let i = 0; i < Math.max(1, pages); i++) {
+        const j = await call('app.bsky.feed.getFeed', { params: { feed, limit: Math.min(100, limit), cursor } });
+        for (const it of j?.feed ?? []) if (it?.post) out.push(it.post);
+        cursor = j?.cursor;
+        if (!cursor) break;
+      }
+      return out;
+    },
     // Posts our account already answered (the post it answered and the top of its thread), so they are never offered again.
     async ownReplied(handle, limit = 50) {
       const j = await call('app.bsky.feed.getAuthorFeed', { params: { actor: handle, filter: 'posts_with_replies', limit } });
@@ -122,6 +158,28 @@ export function createApi({ fetchImpl = globalThis.fetch, base = process.env.BSK
 // ---- choosing posts ---------------------------------------------------------------------------------------------
 const BAD_LABELS = new Set(['porn', 'sexual', 'nudity', 'graphic-media', 'gore']);
 const hasAny = (text, words) => (words ?? []).find((w) => text.includes(lc(w))) ?? null;
+// What is attached to the post, in a few words, because the list holds only the text and Claude cannot see pictures:
+// pictures (with the author's description if there is one), video, a link card, or a quoted post. Null when nothing is attached.
+const brief = (s, n) => { const t = String(s ?? '').replace(/\s+/g, ' ').trim(); return t.length > n ? `${t.slice(0, n - 1)}…` : t; };
+export function describeEmbed(embed) {
+  if (!embed) return null;
+  const both = String(embed.$type ?? '').endsWith('recordWithMedia#view');
+  const media = both ? embed.media : embed;
+  const quoted = both ? embed.record?.record : embed.record;
+  const type = String(media?.$type ?? '');
+  const parts = [];
+  if (type.endsWith('images#view')) {
+    const images = media.images ?? [];
+    const alts = images.map((i) => brief(i?.alt, 160)).filter(Boolean);
+    parts.push(`${images.length > 1 ? `${images.length} images` : 'image'}${alts.length ? `: ${alts.join(' / ')}` : ', no description'}`);
+  } else if (type.endsWith('video#view')) {
+    parts.push(`video${media.alt ? `: ${brief(media.alt, 160)}` : ', no description'}`);
+  } else if (type.endsWith('external#view')) {
+    parts.push(`link card: ${brief(media.external?.title, 100)}`);
+  }
+  if (quoted && String(quoted.$type ?? '').endsWith('viewRecord')) parts.push(`quotes @${quoted.author?.handle ?? '?'}: ${brief(quoted.value?.text, 140)}`);
+  return parts.length ? parts.join('; ') : null;
+}
 export const webUrl = (post) => `https://bsky.app/profile/${post.author.handle}/post/${post.uri.split('/').pop()}`;
 
 // keep:true with a candidate, or keep:false with the reason (the reasons are counted in the report so the rules can be tuned).
@@ -157,7 +215,7 @@ export function evaluate(post, cfg, { now = Date.now(), group = null, query = nu
 
   const likes = post.likeCount ?? 0;
   const replies = post.replyCount ?? 0;
-  const g = cfg.groups?.[group] ?? {};
+  const g = cfg.groups?.[group] ?? cfg.feeds?.find((f) => f.name === group) ?? {};
   const question = text.includes('?') || !!hasAny(low, cfg.questionWords);
   const topic = !!hasAny(low, cfg.topicWords);
   let score = (g.weight ?? 1);
@@ -171,7 +229,7 @@ export function evaluate(post, cfg, { now = Date.now(), group = null, query = nu
   const heated = !!g.heated || (cfg.heatedPatterns ?? []).some((p) => new RegExp(p, 'i').test(text));
   return {
     keep: true,
-    candidate: { uri: post.uri, url: webUrl(post), handle, name: post.author.displayName ?? '', text, createdAt: new Date(created).toISOString(), likes, replies, group, query, score, question, heated, isReply: !!rec.reply },
+    candidate: { uri: post.uri, url: webUrl(post), handle, name: post.author.displayName ?? '', text, createdAt: new Date(created).toISOString(), likes, replies, group, query, score, question, heated, isReply: !!rec.reply, media: describeEmbed(post.embed) },
   };
 }
 
@@ -212,7 +270,7 @@ const ago = (iso, now) => {
 };
 
 export function renderReport(id, account, { searched, stats, picked, now }) {
-  const line = (c, i) => `${i + 1}. @${c.handle}${c.name ? ` (${c.name.slice(0, 40)})` : ''} · ${ago(c.createdAt, now)} · likes ${c.likes} · replies ${c.replies}${c.question ? ' · question' : ''} · ${c.group}\n   ${c.url}\n   ${c.text.slice(0, 280)}`;
+  const line = (c, i) => `${i + 1}. @${c.handle}${c.name ? ` (${c.name.slice(0, 40)})` : ''} · ${ago(c.createdAt, now)} · likes ${c.likes} · replies ${c.replies}${c.question ? ' · question' : ''} · ${c.group}\n   ${c.url}\n   ${c.text.slice(0, 280)}${c.media ? `\n   [${c.media}]` : ''}`;
   const out = [
     `# Comment candidates: ${id} (@${account.handle})`,
     `Made ${new Date(now).toISOString().slice(0, 16)}Z. Searched: ${searched.map((s) => `${s.group}: ${s.query}`).join(' | ') || 'nothing'}.`,
