@@ -373,6 +373,7 @@ test('end to end: the list has only the right posts, the password is never print
     assert.ok(!md.includes('dailygamedrops'), 'a deals bot from the feed is not listed');
     assert.ok(md.includes('pcGaming: feed'), 'the feed is named in the header of the list');
     assert.ok(calls.includes('feed=at://did:plc:fakephusion/app.bsky.feed.generator/aaadmtxc3akja'), 'the feed address was built from the owner and the id');
+    assert.ok(!calls.some((c) => c.includes('aaan6dpbvbb24') || c.includes('aaal6pzdx3zhq')), 'the two feeds the owner switched off (videogames, gamingNintendo) are not read');
     assert.ok(existsSync(join(root, 'drafts', 'comments-state-prices.json')));
     const madeAt = JSON.parse(readFileSync(join(root, 'drafts', 'comments-prices.json'), 'utf8')).madeAt;
     assert.ok(Math.abs(Date.now() - Date.parse(madeAt)) < 60000, 'the list file says when it was made');
@@ -384,6 +385,7 @@ test('end to end: the list has only the right posts, the password is never print
     assert.ok(readFileSync(join(root, 'drafts', 'comments-prices.md'), 'utf8').includes('goodperson.bsky.social'));
     assert.equal(posts.good.author.handle, 'goodperson.bsky.social');
     const sources = JSON.parse(readFileSync(join(root, 'drafts', 'comments-state-prices.json'), 'utf8')).sources;
+    assert.ok(!sources.videogames && !sources.gamingNintendo, 'no numbers are collected for switched-off feeds');
     assert.equal(sources.pcGaming.runs, 2, 'two runs are counted for the feed');
     assert.equal(sources.pcGaming.posts, 6, 'three posts per run were seen');
     assert.ok(sources.pcGaming.fit >= 2 && sources.pcGaming.fit < sources.pcGaming.posts, 'some posts fit and the bot post does not');
