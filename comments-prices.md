@@ -1,62 +1,59 @@
 # Comment candidates: prices (@saveandplay.com)
-Made 2026-10-14T02:42Z. Searched: deck: "steam deck" recommendations | bundles: "bundle" worth it games | practical: "game pass" vs buying | genres: cozy games pc | seasonal: horror games recommend | ai: generative AI games steam | broadPlaying: "currently playing" game | broadAsk: "best indie games" | pcGaming: feed | gamingLiked: feed | videogames: feed | gamingNintendo: feed.
-Posts below: 12 + 3 heated. Dropped in this run: already answered 1, skip word 203, replies are limited 9, already shown 6, low score 27, too short 13, bot, shop or studio 106, promo (link and hashtags) 26, other language (text) 35, many links 2, not about games 148, other language 52, console only 64, adult or graphic label 11.
+Made 2026-10-14T06:48Z. Searched: waitForSale: "worth buying" steam game | backlog: "game recommendations" steam | deck: handheld PC games | bundles: Fanatical bundle | practical: DRM-free games | genres: metroidvania recommendations | seasonal: halloween games pc | ai: steam AI disclosure | pcGaming: feed | gamingLiked: feed.
+Posts below: 12 + 2 heated. Dropped in this run: already shown 7, not about games 3, own post 2, skip word 43, too short 3, low score 17, promo (link and hashtags) 16, bot, shop or studio 48, other language (text) 4, many links 1, earlier finds: low score 6, earlier finds: source switched off 63.
 
 ## Posts
-1. @oldtechadverts.bsky.social (OldTechAdverts) · 43m · likes 2 · replies 0 · question · videogames
-   https://bsky.app/profile/oldtechadverts.bsky.social/post/3mxsh74xh3l25
-   Strangeloop is a strange name for a game. There are 250 rooms to explore with puzzles to solve. Are the yellow with the black dots on it suppose to be cheese? #Retrogames #Amstrad
-   [image: Strangeloop is a strange name for a game. There are 250 rooms to explore with puzzles to solve. Are the yellow with the black dots on it suppose to be cheese? …]
-2. @napochem.bsky.social (Napoleon the Chemist) · 60m · likes 1 · replies 0 · question · broadAsk
+1. @napochem.bsky.social (Napoleon the Chemist) · 5h · likes 1 · replies 0 · question · broadAsk
    https://bsky.app/profile/napochem.bsky.social/post/3mxsgasiokk24
    YouTube tried to recommend me a video complaining about the book not adhering to the video game. "Do not recommend channel" is a good button.
-3. @spotthesneakyninja.bsky.social (Spot The Sneaky Ninja 🥷🏽🔎) · 3h · likes 1 · replies 0 · question · gamingNintendo
-   https://bsky.app/profile/spotthesneakyninja.bsky.social/post/3mxs6txik622b
-   🥷 The Sneaky Ninja is up to his old tricks again! He’s hiding somewhere in this scene, waiting for you to look the other way. 🔥 Can you spot him? #SneakyNinja #HiddenObject #PuzzleTok #VisualPuzzle #BrainGames #Photography #Gaming #Fun #NYPD
+2. @vaddix-gaming.bsky.social (Vaddix Gaming) · 2h · likes 1 · replies 0 · pcGaming
+   https://bsky.app/profile/vaddix-gaming.bsky.social/post/3mxsrtxlxus2i
+   Boss time against Hunk! Guns don’t work well here, especially up close. It’s more fun to Sekiro this fight and parry his attacks and melee him. Can be a bit tough if you haven’t been parrying much tho #residentevilrequiem #steam #pc #gaming #gamer
+   [4 images, no description]
+3. @mmotoda.bsky.social (Mike Motoda) · 2h · likes 1 · replies 1 · pcGaming
+   https://bsky.app/profile/mmotoda.bsky.social/post/3mxsq3umyys23
+   That was quite a journey in Big Walk tonight! Didn't think my wife and I were going to do these, but we planned out our route carefully, took things slow, and got our purple gourd safely delivered. 💜 Time-consuming but fun! #bigwalk #househouse #coopgaming #pcgaming #videogames 
+   [4 images: Big Walk screenshot / Big Walk screenshot / Big Walk screenshot / Big Walk screenshot]
+4. @feed.igeek.gamer-geek-news.com.ap.brid.gy (input) · 4h · likes 1 · replies 0 · pcGaming
+   https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3mxslgurugjj2
+   📰 **1999 TOKOYO Building launches November 10** Neo-nostalgic horror adventure game 1999TOKOYO Building will launch for PC via Steam on November 10, … 📰 Source: Gematsu 🔗 Link: https://www.gematsu.com/2026/10/1999-tokoyo-building-launches-november-10 #SteamDeck #PCGaming
+   [link card: ]
+5. @vaddix-gaming.bsky.social (Vaddix Gaming) · 4h · likes 1 · replies 0 · pcGaming
+   https://bsky.app/profile/vaddix-gaming.bsky.social/post/3mxsjlabytc2i
+   Creepy #residentevilrequiem #steam #pc #gaming #gamer
    [image, no description]
-4. @voltaicoverdrive.com (Voltaic Overdrive) · 3h · likes 2 · replies 1 · question · gamingNintendo
-   https://bsky.app/profile/voltaicoverdrive.com/post/3mxs5ufyksg2l
-   When you're creating a #indierpg, how do you layout your character sheets? I created my first design by hand on paper, but I'm not sure how to make a digital version. #ttrpg #tabletop #tabletopgaming #gaming #games
-5. @detrivance.bsky.social (Detrivance) · 41m · likes 0 · replies 0 · question · gamingNintendo
-   https://bsky.app/profile/detrivance.bsky.social/post/3mxshbvqfmz2z
-   Did anyone else keep a notebook just for game passwords? Before save files, this was how we saved our adventures #vtuber #retrogaming #gaminghistory #nostalgia #videogames
-   [video, no description]
-6. @themewizz.bsky.social (Themewizz) · 3h · likes 0 · replies 0 · question · videogames
-   https://bsky.app/profile/themewizz.bsky.social/post/3mxsaks2dib2m
-   WD_BLACK 2TB P50 Game Drive SSD - Portable External Solid State Drive, Compatible with Playstation, Xbox, PC, & Mac, Up to 2,000 MB/s - WDBA3S0020BBK-WESN 🛒 Check on Amazon: https://www.amazon.com/dp/B07YFG9PG2/?tag=sersart2024-20
-   [video, no description]
-7. @elliezare.bsky.social (EllieZare) · 47m · likes 1 · replies 0 · question · gamingNintendo
-   https://bsky.app/profile/elliezare.bsky.social/post/3mxsgws45nj2f
-   Can someone ever be 'too good' for Taco Bell? #phasmophobia #tacobell #gaming
-   [video, no description]
-8. @lauriewallmark.bsky.social (Laurie (HIPPO BEACH BASH) Wallmark) · 55m · likes 9 · replies 0 · pcGaming
+6. @lauriewallmark.bsky.social (Laurie (HIPPO BEACH BASH) Wallmark) · 5h · likes 16 · replies 0 · pcGaming
    https://bsky.app/profile/lauriewallmark.bsky.social/post/3mxsgiw4py22g
    Happy Ada Lovelace Day! Celebrate by reading a #biography of Ada Lovelace, the first computer programmer. @crestonbooks.bsky.social #bookposse #teachers #librarians #educators #homeschoolers #bookstagram #booktok #booksky #edusky #WomenInSTEM #scicomm #STEM #STEAM #STEMeducation 
    [image, no description]
-9. @savepointgaming.bsky.social (SavePoint Gaming) · 58m · likes 1 · replies 0 · pcGaming
+7. @savepointgaming.bsky.social (SavePoint Gaming) · 5h · likes 2 · replies 0 · pcGaming
    https://bsky.app/profile/savepointgaming.bsky.social/post/3mxsgcu6oa224
    🖥️ GTA VI is reportedly targeting Q1 2027 on PC. That could put it just months behind the November 19 console launch, although Rockstar has yet to officially announce a PC version. #GTAVI #RockstarGames #PCGaming
    [link card: GTA VI PC Release Reportedly Planned for Early 2027 | SavePoint Gaming]
-10. @ekuwah.bsky.social (Ekuwah Mends Moses 🇬🇭 🇺🇸) · 1h · likes 4 · replies 0 · pcGaming
+8. @ekuwah.bsky.social (Ekuwah Mends Moses 🇬🇭 🇺🇸) · 5h · likes 5 · replies 0 · pcGaming
    https://bsky.app/profile/ekuwah.bsky.social/post/3mxsf6jke5c2b
    A 4th grader requested more mazes in her end-of-year reflection. I listened! Our 1st maze was rectangular & used a marble. This time, students made hexagonal spider pits, using magnets underneath to guide a person to safety! I repeat challenges, but never the same way! #EduSky #s
    [video, no description]
-11. @gbdudersfeed.bsky.social (GB Duders Feed) · 2h · likes 1 · replies 0 · pcGaming
-   https://bsky.app/profile/gbdudersfeed.bsky.social/post/3mxsccl6ukk2g
-   After watching @cristian.wtf carry the @giantbomb.com crew through Deadlock on UPF last week, we have a few Giant Bomb users still looking to get invites into the game and getting tips on how to play better. Link: forum.giantbomb.com/topic/794/de... #deadlock #gaming #giantbomb #
-   [image: A screenshot showing the chess-based playable character in the video game Deadlock, Solomon.]
-12. @meikurai.bsky.social (✨️Meikurai✨️) · 4h · likes 2 · replies 0 · question · gamingNintendo
-   https://bsky.app/profile/meikurai.bsky.social/post/3mxs57st2gs2i
-   MEI GAE ON DAH PURPLE APP~ 💜✨💜✨💜 COLLAB TIME WITH FRIENDS~ Going to be doing Mecca Chameleon :3 Maybe some Valheim after if its not to late? Come vibe with meee! 💜✨💜✨💜 Abwahs~ #Creature #Vtuber #nonbinary #Gaming #Void #ASMR
-   [quotes @meikurai.bsky.social: RARE TUE STREAM SOON! 6 to 6:30 pm CST start time. Got a Collab with Hummy and friends 💜 We will be playing Mecha chameleon! Group of seve…]
+9. @pixeliso.bsky.social (Mastahhh Gaming Network) · 14h · likes 2 · replies 0 · question · pcGaming
+   https://bsky.app/profile/pixeliso.bsky.social/post/3mxrjeau6pe2r
+   🎮 Could GTA 6 arrive on PC sooner than expected? A new report points to Q1 2027, but Rockstar hasn't confirmed a PC release date yet. #GTA6 #GamingNews #PCGaming
+10. @vixiebee.bsky.social (✨Vixie BOO👻 🌈🍉 Comms open!) · 18h · likes 40 · replies 2 · question · gamingLiked
+   https://bsky.app/profile/vixiebee.bsky.social/post/3mxr2bmc6jw2c
+   It's #PortfolioDay already!? Hey, I'm Vix, a queer artist from Atlantic Canada! My work is full of colour, fantasy/sci-fi, and character design, and I'm currently working on two indie games. Commissions: vgen.co/vixiebee ✨ | #oc #ocsky #art | ✨
+   [4 images: A half-body portrait of a gorgon-esque character. She is dressed in cool, clubbing clothing, and the snakes that stand in for her hair are a gradient of bright… / A digital portrait of a young, androgynous person with fluffy pink hair, smiling and making a heart shape with their hands. They are wearing a yellow and blue … / A grid of eight different rectangle crops close-up on the eyes of various characters. / A character design sheet for a super hero OC named DNAvigator. They are in a form fitting white and purple uniform with a sunset coloured bomber jacket and blu…]
+11. @maxkoo.bsky.social (Max Kooijmans) · 1h · likes 0 · replies 0 · pcGaming
+   https://bsky.app/profile/maxkoo.bsky.social/post/3mxsst2bpn2pp
+   GOOD MORNING "A day without a challenge, is like a day without steam". Photo: Thomas Woolley #steam #stoom #trains #trein #dampf
+   [image, no description]
+12. @afterpat.ch (afterpatch) · 2h · likes 0 · replies 0 · pcGaming
+   https://bsky.app/profile/afterpat.ch/post/3mxspnbigyy2w
+   Valor Mortis came out on Oct 13, and the first reviews are in: 250 on Steam since launch, 84% positive. One review: “A soul-like game in first person about killing french people, oh la la.” What players praise and what they complain about, word for word, is on the page. #ValorMor
+   [link card: Valor Mortis - afterpatch]
 
 ## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @gfxnico.bsky.social (Nico May) · 3h · likes 1 · replies 1 · question · ai
+1. @gfxnico.bsky.social (Nico May) · 7h · likes 1 · replies 1 · question · ai
    https://bsky.app/profile/gfxnico.bsky.social/post/3mxsb3tgtoc2k
    Content is AI? Or code? It keeps coming up that steam does not require any disclosure for AI code, no matter how slopped up it is.
-2. @gsum1.bsky.social · 24h · likes 1 · replies 0 · ai
+2. @gsum1.bsky.social · 28h · likes 1 · replies 0 · ai
    https://bsky.app/profile/gsum1.bsky.social/post/3mxpyabukis2t
    This is why it was a red flag why Tim Sweeney was upset that there was an AI disclosure requirement on Steam. A sane person would not be upset at that disclosure. Also disappointed that studios are ditching in house tech for Unreal just as they pivot to becoming Slop Engine 5.
-3. @satyrs.eu (Xanthe van Lambtonworm 🐉️🎃️) · 30h · likes 27 · replies 1 · ai
-   https://bsky.app/profile/satyrs.eu/post/3mxpginr3ms2d
-   IIRC the Steam disclosure policies specifically don’t apply to using AI for programming purposes
