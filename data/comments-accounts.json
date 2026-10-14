@@ -9,7 +9,7 @@
       "maxAgeHours": 30,
       "minChars": 30,
       "maxChars": 600,
-      "queriesPerRun": 8,
+      "queriesPerRun": 10,
       "perQuery": 40,
       "maxCandidates": 12,
       "maxHeated": 3,
@@ -102,7 +102,12 @@
             "\"currently playing\" game",
             "\"what are you playing\" this week",
             "\"best game\" \"this year\" played",
-            "\"finally played\" game"
+            "\"finally played\" game",
+            "\"started playing\" steam",
+            "\"playing tonight\" game",
+            "\"hours in\" game pc",
+            "\"beat\" game \"last night\"",
+            "\"on my steam deck\""
           ]
         },
         "broadAsk": {
@@ -113,7 +118,12 @@
             "\"best indie games\"",
             "\"hidden gem\" games",
             "\"games like\" recommend",
-            "\"underrated\" games pc"
+            "\"underrated\" games pc",
+            "\"any recommendations\" game",
+            "\"games similar to\"",
+            "\"best co-op\" game",
+            "\"what to play\" pc",
+            "\"cozy game\" recommend"
           ]
         }
       },
@@ -363,6 +373,7 @@
       "platform": "mastodon",
       "handle": "saveandplay@mastodon.social",
       "passwordEnv": null,
+      "queriesPerRun": 8,
       "feeds": [],
       "pages": 3,
       "skipLinkPosts": true,
