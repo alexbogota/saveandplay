@@ -13,7 +13,7 @@ import { commentAccounts, looksNotEnglish, parseFeedUrl, describeEmbed, evaluate
 const NOW = Date.parse('2026-10-13T15:00:00Z');
 const ago = (h) => new Date(NOW - h * 36e5).toISOString();
 let n = 0;
-const mk = (o = {}) => {
+const mkAt = (o = {}) => {
   const id = ++n;
   return {
     uri: `at://did:plc:t${id}/app.bsky.feed.post/3k${id}`,
@@ -22,6 +22,7 @@ const mk = (o = {}) => {
     likeCount: o.likes ?? 1, replyCount: o.replies ?? 0, labels: o.labels ?? [], threadgate: o.threadgate, embed: o.embed,
   };
 };
+const mk = mkAt;
 const cfg = commentAccounts('prices')[0].account;
 const ev = (post, extra = {}) => evaluate(post, cfg, { now: NOW, group: 'waitForSale', query: 'q', ...extra });
 
@@ -300,6 +301,8 @@ const PASSWORD = 'test-password-not-real';
 
 function fakeServer({ feedFails = false } = {}) {
   const calls = [];
+  // These posts go through the real program, which uses the real clock: their dates must be "now", not the fixed NOW of the other tests.
+  const mk = (o = {}) => { const p = mkAt(o); p.record.createdAt = new Date(Date.now() - (o.age ?? 3) * 36e5).toISOString(); return p; };
   const good = mk({ handle: 'goodperson.bsky.social', text: 'Thinking about buying a Steam Deck game for a long flight. Worth it or should I wait for a sale?' });
   const answered = mk({ handle: 'answeredperson.bsky.social', text: 'Should I buy this game on Steam or wait for a sale? Not sure yet.' });
   const limited = mk({ handle: 'closedperson.bsky.social', text: 'Seeking recommendations for Steam Deck games for my flight, any good ones?', threadgate: { record: { allow: [] } } });
