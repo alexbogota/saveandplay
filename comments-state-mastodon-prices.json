@@ -1,45 +1,45 @@
 {
-  "cursor": 4,
+  "cursor": 3,
   "next": {
-    "waitForSale": 5,
-    "backlog": 5,
-    "deck": 2,
+    "waitForSale": 1,
+    "backlog": 6,
+    "deck": 3,
     "bundles": 2,
-    "practical": 4,
-    "genres": 4,
-    "seasonal": 1,
-    "broadPlaying": 4,
-    "broadAsk": 4
+    "practical": 1,
+    "genres": 5,
+    "seasonal": 2,
+    "broadPlaying": 5,
+    "broadAsk": 1
   },
   "sources": {
     "waitForSale": {
-      "runs": 5,
-      "posts": 200,
+      "runs": 6,
+      "posts": 240,
       "fit": 0,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-15T06:48:10.443Z"
+        "at": "2026-10-15T12:50:23.779Z"
       }
     },
     "backlog": {
-      "runs": 5,
-      "posts": 142,
+      "runs": 6,
+      "posts": 150,
       "fit": 0,
       "last": {
-        "posts": 22,
+        "posts": 8,
         "fit": 0,
-        "at": "2026-10-15T06:48:10.443Z"
+        "at": "2026-10-15T12:50:23.779Z"
       }
     },
     "deck": {
-      "runs": 5,
-      "posts": 360,
+      "runs": 6,
+      "posts": 400,
       "fit": 6,
       "last": {
         "posts": 40,
-        "fit": 1,
-        "at": "2026-10-15T06:48:10.443Z"
+        "fit": 0,
+        "at": "2026-10-15T12:50:23.779Z"
       }
     },
     "bundles": {
@@ -53,53 +53,53 @@
       }
     },
     "practical": {
-      "runs": 4,
-      "posts": 200,
-      "fit": 4,
+      "runs": 5,
+      "posts": 240,
+      "fit": 5,
       "last": {
-        "posts": 80,
-        "fit": 4,
-        "at": "2026-10-15T00:47:53.838Z"
+        "posts": 40,
+        "fit": 1,
+        "at": "2026-10-15T12:50:23.779Z"
       }
     },
     "genres": {
-      "runs": 4,
-      "posts": 160,
+      "runs": 5,
+      "posts": 200,
       "fit": 2,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-15T06:48:10.443Z"
+        "at": "2026-10-15T12:50:23.779Z"
       }
     },
     "seasonal": {
-      "runs": 4,
-      "posts": 153,
+      "runs": 5,
+      "posts": 193,
       "fit": 1,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-15T06:48:10.443Z"
+        "at": "2026-10-15T12:50:23.779Z"
       }
     },
     "broadPlaying": {
-      "runs": 4,
-      "posts": 480,
+      "runs": 5,
+      "posts": 520,
       "fit": 9,
       "last": {
-        "posts": 120,
-        "fit": 5,
-        "at": "2026-10-15T06:48:10.443Z"
+        "posts": 40,
+        "fit": 0,
+        "at": "2026-10-15T12:50:23.779Z"
       }
     },
     "broadAsk": {
-      "runs": 4,
-      "posts": 61,
+      "runs": 5,
+      "posts": 101,
       "fit": 0,
       "last": {
-        "posts": 0,
+        "posts": 40,
         "fit": 0,
-        "at": "2026-10-15T06:48:10.443Z"
+        "at": "2026-10-15T12:50:23.779Z"
       }
     }
   },
@@ -214,63 +214,6 @@
       "media": "image, no description",
       "firstSeen": "2026-10-15T00:47:53.838Z"
     },
-    "https://mastodon.social/@alex@gamerstavern.online/117443540880374884": {
-      "uri": "https://mastodon.social/@alex@gamerstavern.online/117443540880374884",
-      "url": "https://mastodon.social/@alex@gamerstavern.online/117443540880374884",
-      "handle": "alex@gamerstavern.online",
-      "name": "Aaaah! lex 👻",
-      "text": "Me: I need to work Enshrouded 1.0: hits Steam Weeeeeell, shit. #Enshrouded #Gaming #Videogames #LinuxGaming",
-      "createdAt": "2026-10-15T06:36:35.000Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "videogames",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://gamerstavern.online/@alex/117443539455536309",
-      "media": null,
-      "firstSeen": "2026-10-15T06:48:10.443Z"
-    },
-    "https://mastodon.social/@troberts@theblower.au/117443489543145202": {
-      "uri": "https://mastodon.social/@troberts@theblower.au/117443489543145202",
-      "url": "https://mastodon.social/@troberts@theblower.au/117443489543145202",
-      "handle": "troberts@theblower.au",
-      "name": "Dread Pirate (Tom) Roberts",
-      "text": "I have Castled some Vania. Pretty slick. It's not 'Silksong hard', but the first boss still killed me like 6 times before I figured out what I was doing. #Castlevania #Videogames",
-      "createdAt": "2026-10-15T06:23:49.000Z",
-      "likes": 0,
-      "replies": 1,
-      "group": "broadPlaying",
-      "query": "videogames",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://theblower.au/@troberts/117443489277268498",
-      "media": null,
-      "firstSeen": "2026-10-15T06:48:10.443Z"
-    },
-    "https://mastodon.social/@renwillis@mstdn.social/117442534764524297": {
-      "uri": "https://mastodon.social/@renwillis@mstdn.social/117442534764524297",
-      "url": "https://mastodon.social/@renwillis@mstdn.social/117442534764524297",
-      "handle": "renwillis@mstdn.social",
-      "name": "ren (a they/them) 🌈🎶",
-      "text": "Crossed the point of no return into the final chapter!!! WOO!!! Warhammer 40K Rogue Trader #warhammer #roguetrader #videogames #gaming #rpg",
-      "createdAt": "2026-10-15T02:21:02.000Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "videogames",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://mstdn.social/@renwillis/117442534608258320",
-      "media": "3 images: Screenshot from Warhammer 40K Rogue Trader / Screenshot from Warhammer 40K Rogue Trader / Screenshot from Warhammer 40K Rogue Trader",
-      "firstSeen": "2026-10-15T06:48:10.443Z"
-    },
     "https://mastodon.social/@ami_angelwings@urusai.social/117442196516875950": {
       "uri": "https://mastodon.social/@ami_angelwings@urusai.social/117442196516875950",
       "url": "https://mastodon.social/@ami_angelwings@urusai.social/117442196516875950",
@@ -282,7 +225,7 @@
       "replies": 6,
       "group": "broadPlaying",
       "query": "videogames",
-      "score": 8,
+      "score": 7,
       "question": true,
       "heated": false,
       "isReply": false,
@@ -307,6 +250,24 @@
       "isReply": false,
       "media": "audio",
       "firstSeen": "2026-10-15T06:48:10.443Z"
+    },
+    "https://mastodon.social/@lisp1984/117442355727232860": {
+      "uri": "https://mastodon.social/@lisp1984/117442355727232860",
+      "url": "https://mastodon.social/@lisp1984/117442355727232860",
+      "handle": "lisp1984@mastodon.social",
+      "name": "kevin steinmetz",
+      "text": "@FibroJedi @kramaker wine is not an emulator is what i use for good old games from gog.com #WINE #DOSBox #GOG #DRMFree no digital restrictions managaement.",
+      "createdAt": "2026-10-15T01:35:33.059Z",
+      "likes": 1,
+      "replies": 1,
+      "group": "practical",
+      "query": "drmfree",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": true,
+      "media": null,
+      "firstSeen": "2026-10-15T12:50:23.779Z"
     }
   }
 }
