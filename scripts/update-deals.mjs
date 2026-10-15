@@ -154,7 +154,7 @@ export async function updateGog({ deals, rules, now, get, steam, link }) {
     }
     const end = await endDate(get, d.url, now);
     if (end.error) out.problems.push(`${d.title}: страница игры не открылась (${end.error})`);
-    const next = { ...d, was: p.base, price: p.final, discountPct: p.pct, checkedAt: nowIso };
+    const next = { ...d, was: p.base, price: p.final, discountPct: p.pct, checkedAt: nowIso, ...(link ? { affiliateUrl: link(d.url) } : {}) };
     if (end.iso) next.endsAt = end.iso;
     else if (!(d.endsAt && Date.parse(d.endsAt) > now)) delete next.endsAt;
     if (!end.error && !end.iso) out.problems.push(`${d.title}: на странице игры нет даты конца акции`);
