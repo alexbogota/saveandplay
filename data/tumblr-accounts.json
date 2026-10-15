@@ -1,5 +1,5 @@
 {
-  "about": "Настройки аккаунтов Tumblr: всё, что относится только к Tumblr. Ключ аккаунта (сейчас tumblr) должен совпадать с ключом блока в data/accounts.json: там лежат правила подбора скидок для ежедневного брифа (магазины, минимальная скидка, метка subid, правила поста). Здесь: blog = имя блога на Tumblr (часть до .tumblr.com, только буквы, цифры и дефис; ЗАМЕНИТЬ на настоящее после создания блога); secretPrefix = начало имён четырёх секретов (по умолчанию TUMBLR: TUMBLR_CONSUMER_KEY, TUMBLR_CONSUMER_SECRET, TUMBLR_TOKEN, TUMBLR_TOKEN_SECRET; в файлах значений нет, они лежат в локальном .env и в секретах GitHub); autopost = публиковать ли самим (false: только пробный запуск dry-run, включает владелец после «ок»; true: пост по расписанию, а также выключатель, если что-то пошло не так); kinds = какие посты берёт блог («deal» скидка дня, «article» статья сайта); timezone = часовой пояс «дня»; maxBriefAgeHours = бриф старше этого не используем; articleEveryDays = как часто выходит статья сайта (по умолчанию 2); linkStyle = как делать ссылку на нашу страницу: text (по умолчанию: наша картинка своим размером и строка-ссылка под ней, ничего не обрезается) или card (Tumblr сам делает карточку из нашей страницы и сам её режет, влиять на это нельзя); maxTags = сколько тегов максимум (Tumblr показывает первые 20); tags = теги: base (всегда), article (только у статей), store (пары «магазин: список тегов», только у скидок); название игры добавляется к тегам скидки само. Теги пишутся словами через пробел, без запятых и без решётки. Скидки (в них партнёрские ссылки через наш сайт) помечаются строкой «Ad: …» последним блоком; статьи (в них партнёрских ссылок нет) без пометки. Проверка подключения: npm run tumblr:check (или GitHub, Actions, Post to Tumblr, mode check). Всё про Tumblr: TUMBLR.md.",
+  "about": "Настройки аккаунтов Tumblr: всё, что относится только к Tumblr. Ключ аккаунта (сейчас tumblr) должен совпадать с ключом блока в data/accounts.json: там лежат правила подбора скидок для ежедневного брифа (магазины, минимальная скидка, метка subid, правила поста). Здесь: blog = имя блога на Tumblr (часть до .tumblr.com, только буквы, цифры и дефис; ЗАМЕНИТЬ на настоящее после создания блога); secretPrefix = начало имён четырёх секретов (по умолчанию TUMBLR: TUMBLR_CONSUMER_KEY, TUMBLR_CONSUMER_SECRET, TUMBLR_TOKEN, TUMBLR_TOKEN_SECRET; в файлах значений нет, они лежат в локальном .env и в секретах GitHub); autopost = публиковать ли самим (false: только пробный запуск dry-run, включает владелец после «ок»; true: пост по расписанию, а также выключатель, если что-то пошло не так); kinds = какие посты берёт блог («deal» скидка дня, «article» статья сайта); timezone = часовой пояс «дня»; maxBriefAgeHours = бриф старше этого не используем; articleEveryDays = как часто выходит статья сайта (по умолчанию 2); linkStyle = как делать ссылку на нашу страницу: text (по умолчанию: наша картинка своим размером и строка-ссылка под ней, ничего не обрезается) или card (Tumblr сам делает карточку из нашей страницы и сам её режет, влиять на это нельзя); theme = тема блога для поиска блогов на подписку (data/tumblr-themes.json, команда node scripts/tumblr-find.mjs; по умолчанию games); maxTags = сколько тегов максимум (Tumblr показывает первые 20); tags = теги: base (всегда), article (только у статей), guides (пары «имя гида (файл без .md): список тегов про тему именно этого гида»; идут в посте ПЕРВЫМИ, потому что первые теги важнее всего для поиска; новому гиду добавьте строку), store (пары «магазин: список тегов», только у скидок); название игры добавляется к тегам скидки само. Теги пишутся словами через пробел, без запятых и без решётки. Скидки (в них партнёрские ссылки через наш сайт) помечаются строкой «Ad: …» последним блоком; статьи (в них партнёрских ссылок нет) без пометки. Проверка подключения: npm run tumblr:check (или GitHub, Actions, Post to Tumblr, mode check). Всё про Tumblr: TUMBLR.md.",
   "accounts": {
     "tumblr": {
       "blog": "saveandplay",
@@ -10,10 +10,18 @@
       "maxBriefAgeHours": 12,
       "articleEveryDays": 2,
       "linkStyle": "text",
+      "theme": "games",
       "maxTags": 15,
       "tags": {
         "base": ["pc gaming", "game deals", "steam", "gaming"],
         "article": ["guide", "gaming tips", "pc games"],
+        "guides": {
+          "real-vs-fake-game-discounts": ["fake discounts", "steam sale", "price history", "game sale", "buying tips"],
+          "how-steam-refunds-work": ["steam refund", "steam refunds", "steam tips", "steam store"],
+          "is-a-game-bundle-worth-it": ["game bundle", "game bundles", "bundle deals", "buying tips"],
+          "steam-key-vs-drm-free": ["drm free", "steam key", "gog", "game ownership"],
+          "why-game-prices-differ-by-country": ["regional pricing", "game prices", "steam regional pricing"]
+        },
         "store": {
           "GOG": ["gog", "drm free", "gog games"],
           "IndieGala": ["indiegala", "indie games", "indie game deals"]

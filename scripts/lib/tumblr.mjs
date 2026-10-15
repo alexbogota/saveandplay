@@ -95,7 +95,7 @@ export function tumblrAccounts(only = null) {
 
 export function withTumblrDefaults(id, a) {
   const secretPrefix = a.secretPrefix || (id === 'tumblr' ? 'TUMBLR' : `TUMBLR_${id.toUpperCase().replace(/[^A-Z0-9]+/g, '_')}`);
-  return { autopost: false, kinds: [...KINDS], maxPriceAgeHours: 48, maxBriefAgeHours: 12, timezone: 'America/Bogota', articleEveryDays: 2, maxTags: 15, linkStyle: 'text', ...a, secretPrefix, tags: { base: [], article: [], store: {}, ...(a.tags ?? {}) } };
+  return { autopost: false, kinds: [...KINDS], maxPriceAgeHours: 48, maxBriefAgeHours: 12, timezone: 'America/Bogota', articleEveryDays: 2, maxTags: 15, linkStyle: 'text', theme: 'games', ...a, secretPrefix, tags: { base: [], article: [], guides: {}, store: {}, ...(a.tags ?? {}) } };
 }
 
 const BLOG_RE = /^[a-z0-9][a-z0-9-]{0,31}$/i;
@@ -114,6 +114,7 @@ export function configProblems(account) {
   const t = account.tags ?? {};
   for (const key of ['base', 'article']) if (!Array.isArray(t[key]) || !t[key].every(TAG_OK)) bad.push(`tags.${key} must be a list of tags without commas and without #`);
   if (typeof t.store !== 'object' || Array.isArray(t.store) || Object.values(t.store ?? {}).some((v) => !Array.isArray(v) || !v.every(TAG_OK))) bad.push('tags.store must pair a store with a list of tags (no commas, no #)');
+  if (typeof t.guides !== 'object' || t.guides === null || Array.isArray(t.guides) || Object.values(t.guides).some((v) => !Array.isArray(v) || !v.every(TAG_OK))) bad.push('tags.guides must pair a guide (its file name without .md) with a list of tags (no commas, no #)');
   return bad;
 }
 
@@ -237,6 +238,39 @@ export function createClient(creds, { fetchImpl = globalThis.fetch, timeoutMs = 
         links: linksOf(p.content),
       }));
     },
+    // READ ONLY. The newest public posts that carry a tag, newest first: [{ blog, title, description, url, postUrl, timestamp (ms), notes, tags, original, adult }].
+    // before = a time in ms: only posts older than that (to read the next page). original = false for a reblog.
+    async taggedPosts(tag, { before = null, limit = 20 } = {}) {
+      const r = await call('GET', '/v2/tagged', { query: { tag, limit, filter: 'text', ...(before ? { before: Math.floor(before / 1000) } : {}) } });
+      return (Array.isArray(r) ? r : []).map((p) => ({
+        blog: String(p.blog_name ?? p.blog?.name ?? ''),
+        title: String(p.blog?.title ?? ''),
+        description: String(p.blog?.description ?? ''),
+        url: p.blog?.url ?? null,
+        postUrl: p.post_url ?? null,
+        timestamp: Number(p.timestamp) * 1000 || null,
+        notes: Number(p.note_count) || 0,
+        tags: Array.isArray(p.tags) ? p.tags.map(String) : [],
+        original: !(p.reblogged_from_id || p.reblogged_root_id || p.reblogged_from_name || (Array.isArray(p.trail) && p.trail.length)),
+        adult: Boolean(p.blog?.is_nsfw || p.blog?.is_adult || p.is_nsfw),
+      }));
+    },
+    // READ ONLY. The last public posts of ANY blog and what the blog says about itself: { info: { title, description, adult }, posts: [{ timestamp (ms), tags, notes, original, postUrl }] }.
+    // Used to look at a blog before it is suggested for a follow. A private or removed blog gives HTTP 404/403.
+    async blogPosts(blog, { limit = 20 } = {}) {
+      const r = await call('GET', `/v2/blog/${encodeURIComponent(blog)}/posts`, { query: { limit, filter: 'text' } });
+      const b = r.blog ?? {};
+      return {
+        info: { title: String(b.title ?? ''), description: String(b.description ?? ''), adult: Boolean(b.is_nsfw || b.is_adult) },
+        posts: (r.posts ?? []).map((p) => ({
+          timestamp: Number(p.timestamp) * 1000 || null,
+          tags: Array.isArray(p.tags) ? p.tags.map(String) : [],
+          notes: Number(p.note_count) || 0,
+          original: !(p.reblogged_from_id || p.reblogged_root_id || p.reblogged_from_name || (Array.isArray(p.trail) && p.trail.length)),
+          postUrl: p.post_url ?? null,
+        })),
+      };
+    },
     // Makes a post (NPF). content = the list of blocks, tags = list of strings. Returns { id }.
     async createPost(blog, { content, tags = [] }) {
       const r = await call('POST', `/v2/blog/${encodeURIComponent(blog)}/posts`, { body: { content, state: 'published', ...(tags.length ? { tags: tags.join(',') } : {}) } });
@@ -327,9 +361,12 @@ export const linksOf = (blocks = []) => blocks.flatMap((b) => (b?.type === 'link
 
 // The tags of a post: the account's base tags, the store's tags (deals), the game's name (deals), the article tags (guides). Tumblr wants plain words
 // without commas and without #. Duplicates (any letter case) are dropped, and no more than maxTags remain (the first ones win).
+// A guide's OWN tags (tags.guides[slug], about what that guide is about) go FIRST: the first tags matter most for search, and the huge general tags
+// (gaming, steam) sink a post in minutes. c = { slug } for a guide.
 export function buildTags(account, kind, c = null) {
   const t = account.tags ?? {};
-  const list = kind === 'deal' ? [...(t.base ?? []), ...(t.store?.[c?.store] ?? []), String(c?.title ?? '').replace(/[,#]/g, ' ').replace(/\s+/g, ' ').trim()] : [...(t.base ?? []), ...(t.article ?? [])];
+  const own = kind === 'deal' ? [] : t.guides?.[c?.slug] ?? [];
+  const list = kind === 'deal' ? [...(t.base ?? []), ...(t.store?.[c?.store] ?? []), String(c?.title ?? '').replace(/[,#]/g, ' ').replace(/\s+/g, ' ').trim()] : [...own, ...(t.base ?? []), ...(t.article ?? [])];
   const seen = new Set();
   return list.filter((x) => x && x.length <= 100 && !seen.has(x.toLowerCase()) && seen.add(x.toLowerCase())).slice(0, account.maxTags ?? 15);
 }
@@ -370,10 +407,56 @@ export function listGuides() {
   return out.sort((a, b) => (a.updated ?? '9999').localeCompare(b.updated ?? '9999') || a.slug.localeCompare(b.slug));
 }
 
-// The post of a guide from its header: title, picture, description, link. The link carries the marks of the account (utm_source = subid).
+// The key points of a guide, to put INTO the post (a post that holds its value in itself gets reblogged; a picture and a link to another site does not).
+// Takes the FIRST numbered list of the text with 3 to 8 items ("1. **Is it the same edition?** A Deluxe ..."), and from each item only its bold lead
+// (or, without a bold lead, its first sentence); the explanations stay on the site. heading = the "##" heading above the list.
+// Pictures (figure, svg), code and link addresses are ignored. Returns { heading, points } or null (no such list: the post stays short, as before).
+export function guidePoints(body) {
+  const clean = String(body ?? '').replace(/<figure[\s\S]*?<\/figure>/gi, '').replace(/<svg[\s\S]*?<\/svg>/gi, '').replace(/```[\s\S]*?```/g, '');
+  const plain = (s) => s.replace(/!\[[^\]]*\]\([^)]*\)/g, '').replace(/\[([^\]]*)\]\([^)]*\)/g, '$1').replace(/<[^>]+>/g, '').replace(/[*`]/g, '').replace(/\s+/g, ' ').trim();
+  const runs = [];
+  let heading = null;
+  let run = null;
+  const close = () => {
+    if (run) runs.push(run);
+    run = null;
+  };
+  for (const line of clean.split(/\r?\n/)) {
+    const h = line.match(/^#{2,3}\s+(.+?)\s*#*\s*$/);
+    if (h) {
+      close();
+      heading = plain(h[1]);
+      continue;
+    }
+    const m = line.match(/^ {0,3}(\d{1,2})[.)]\s+(.+)$/);
+    if (m) {
+      const n = Number(m[1]);
+      if (run && n === run.items.length + 1) run.items.push(m[2]);
+      else {
+        close();
+        if (n === 1) run = { heading, items: [m[2]] };
+      }
+      continue;
+    }
+    if (line.trim() && !/^\s/.test(line)) close(); // text that is not the list ends it (an indented line goes on with the item)
+  }
+  close();
+  const found = runs.find((r) => r.items.length >= 3 && r.items.length <= 8);
+  if (!found) return null;
+  const lead = (s) => {
+    const b = s.match(/^(?:\*\*|__)(.+?)(?:\*\*|__)/);
+    let t = plain(b ? b[1] : s);
+    if (!b) t = t.match(/^(.+?[.!?])(?:\s|$)/)?.[1] ?? t;
+    return clip(t.replace(/:$/, ''), 160);
+  };
+  const points = found.items.map(lead).filter(Boolean);
+  return points.length >= 3 ? { heading: found.heading ? clip(found.heading, 120) : null, points } : null;
+}
+
+// The post of a guide from its header: title, picture, description, key points, link. The link carries the marks of the account (utm_source = subid).
 // cover = { type, width, height } of the picture, null (it could not be measured), or left out (not measured yet: no note about its size). Returns { post: { content, tags }, path, title, imageUrl, notes }. Throws with a plain reason when the guide cannot become a post.
 export function buildArticlePost(g, account, site, cover = undefined) {
-  const { fm } = splitArticle(g.text);
+  const { fm, body } = splitArticle(g.text);
   const bad = [];
   if (!fm) bad.push('no header (--- ... ---)');
   const title = String(fm?.title ?? '').replace(/\s+/g, ' ').trim();
@@ -400,8 +483,13 @@ export function buildArticlePost(g, account, site, cover = undefined) {
   if (imageUrl && cover) blocks.push(imageBlock(imageUrl, cover, alt));
   else if (imageUrl && cover !== undefined) notes.push('no picture: its size could not be read');
   if (description) blocks.push(text(description));
+  const key = guidePoints(body);
+  if (key) {
+    if (key.heading) blocks.push({ ...text(key.heading), formatting: [{ start: 0, end: key.heading.length, type: 'bold' }] });
+    for (const p of key.points) blocks.push(text(p, 'ordered-list-item'));
+  }
   blocks.push(linkBlock(`${site}${path}?utm_source=${account.subid}&utm_medium=social&utm_campaign=${g.slug}`, 'Read the guide on Save and Play', account.linkStyle));
-  return { post: { content: blocks, tags: buildTags(account, 'article') }, path, title: clip(title, 300), imageUrl, notes };
+  return { post: { content: blocks, tags: buildTags(account, 'article', { slug: g.slug }) }, path, title: clip(title, 300), imageUrl, notes };
 }
 
 // Does the page open on the live site (200)? TUMBLR_PAGE_BASE replaces the site address, for tests only.
@@ -446,4 +534,124 @@ export function ownPost(posts, { site, pathname, maxAgeHours = null, now = Date.
       return true;
     }) ?? null
   );
+}
+
+// ---------- finding blogs to follow (READ ONLY: nothing is followed, liked or posted) ----------
+// The settings of a THEME (data/tumblr-themes.json): broad tags of a whole subject (games, travel), not of a narrow niche. Blogs point to a theme by "theme"
+// in data/tumblr-accounts.json. One search per theme serves every blog of that theme. The program reads the newest public posts of each tag (/v2/tagged),
+// groups them by blog, drops what is not worth following, and ranks the rest. A human opens the list and presses Follow.
+
+export const THEME_FILE = 'data/tumblr-themes.json';
+export const THEME_DEFAULTS = { blockTags: [], avoidTags: [], blockWords: [], topicWords: [], skip: [], maxAgeDays: 14, maxMedianNotes: 1500, minOriginalPosts: 1, pagesPerTag: 3, top: 20, verifyTop: 40, minOnTopic: 0.3 };
+export const withThemeDefaults = (t) => ({ ...THEME_DEFAULTS, ...(t ?? {}) });
+
+// What is wrong with a theme: plain sentences (empty = fine).
+export function themeProblems(theme) {
+  if (!theme || typeof theme !== 'object' || Array.isArray(theme)) return ['the theme is missing or is not an object'];
+  const t = withThemeDefaults(theme);
+  const bad = [];
+  if (!Array.isArray(t.tags) || !t.tags.length || !t.tags.every(TAG_OK)) bad.push('"tags" must be a list of at least one tag (no commas, no #)');
+  for (const k of ['blockTags', 'avoidTags', 'blockWords', 'topicWords']) if (!Array.isArray(t[k]) || !t[k].every((x) => typeof x === 'string' && x.trim())) bad.push(`"${k}" must be a list of words`);
+  if (typeof t.minOnTopic !== 'number' || !(t.minOnTopic >= 0 && t.minOnTopic <= 1)) bad.push('"minOnTopic" must be a number from 0 to 1');
+  if (!Array.isArray(t.skip) || !t.skip.every((x) => typeof x === 'string' && BLOG_RE.test(x))) bad.push('"skip" must be a list of blog names (letters, digits, -)');
+  for (const [k, min, max] of [['maxAgeDays', 1, 90], ['maxMedianNotes', 1, 1e6], ['minOriginalPosts', 0, 100], ['pagesPerTag', 1, 10], ['top', 1, 100], ['verifyTop', 0, 100]]) {
+    if (!Number.isInteger(t[k]) || t[k] < min || t[k] > max) bad.push(`"${k}" must be a whole number from ${min} to ${max}`);
+  }
+  return bad;
+}
+
+// A tag is blocked when it equals a blocked word or, for words of 4+ letters, contains it ("sissy training" is hit by "sissy"). block = a Set of lower-case words.
+export const tagBlocked = (tag, block) => {
+  const t = String(tag).toLowerCase();
+  return block.has(t) || [...block].some((w) => w.length >= 4 && t.includes(w));
+};
+
+// Posts (from taggedPosts, each marked with viaTag = the tag it was found by) -> { list, dropped, blogsSeen }.
+// A blog is dropped when: it is on the skip list or is the own blog; adult content (a post carries a blockTag, or Tumblr marks the blog); half of its posts
+// carry avoidTags (art, anime...); it has no own post (only reblogs); it is too big (median notes above maxMedianNotes). Posts older than maxAgeDays are not
+// counted, so a blog that has gone quiet never shows up. Ranking: own posts count 3, every post 1, every tag it was found by 2.
+export function rankBlogs(posts, theme, { now = Date.now(), skip = [] } = {}) {
+  const t = withThemeDefaults(theme);
+  const low = (a) => (a ?? []).map((x) => String(x).toLowerCase());
+  const skipSet = new Set([...low(t.skip), ...low(skip)]);
+  const block = new Set(low(t.blockTags));
+  const avoid = new Set(low(t.avoidTags));
+  const since = now - t.maxAgeDays * 864e5;
+  const blogs = new Map();
+  for (const p of posts ?? []) {
+    if (!p?.blog || !Number.isFinite(p.timestamp) || p.timestamp < since) continue;
+    const key = p.blog.toLowerCase();
+    const b = blogs.get(key) ?? { blog: p.blog, title: '', description: '', url: null, posts: new Map(), via: new Set(), adult: false };
+    b.title ||= p.title ?? '';
+    b.description ||= p.description ?? '';
+    b.url ||= p.url ?? null;
+    b.adult ||= Boolean(p.adult);
+    b.posts.set(p.postUrl ?? String(p.timestamp), p); // the same post comes from several tags: counted once
+    if (p.viaTag) b.via.add(p.viaTag);
+    blogs.set(key, b);
+  }
+  const dropped = {};
+  const drop = (why) => {
+    dropped[why] = (dropped[why] ?? 0) + 1;
+  };
+  const list = [];
+  for (const [key, b] of blogs) {
+    const ps = [...b.posts.values()];
+    const tagsOf = (p) => low(p.tags);
+    if (skipSet.has(key)) {
+      drop('already known or your own blog');
+      continue;
+    }
+    if (b.adult || ps.some((p) => tagsOf(p).some((x) => tagBlocked(x, block)))) {
+      drop('adult content');
+      continue;
+    }
+    if (ps.filter((p) => tagsOf(p).some((x) => avoid.has(x))).length / ps.length >= 0.5) {
+      drop('mostly off-topic (art, anime...)');
+      continue;
+    }
+    const originals = ps.filter((p) => p.original).length;
+    if (originals < t.minOriginalPosts) {
+      drop('only reblogs, no own posts');
+      continue;
+    }
+    const notes = ps.map((p) => p.notes ?? 0).sort((x, y) => x - y);
+    const median = notes[Math.floor((notes.length - 1) / 2)];
+    if (median > t.maxMedianNotes) {
+      drop('too big (thousands of notes)');
+      continue;
+    }
+    const newest = ps.reduce((a, p) => (p.timestamp > a.timestamp ? p : a));
+    list.push({ blog: b.blog, title: b.title, description: b.description, url: b.url ?? `https://${b.blog}.tumblr.com/`, posts: ps.length, originals, medianNotes: median, tags: [...b.via], newest: newest.timestamp, newestUrl: newest.postUrl, score: originals * 3 + ps.length + b.via.size * 2 });
+  }
+  list.sort((a, b) => b.score - a.score || b.newest - a.newest || a.blog.localeCompare(b.blog));
+  return { list, dropped, blogsSeen: blogs.size };
+}
+
+// Is the word in the text as a whole word? "18+" is found in "F 33 18+" but not in "v118+ mods"; "nsfw" is found in "no nsfw" but not in "unsfwed". text is lower case.
+const wordIn = (text, w) => new RegExp(`(?<![\\p{L}\\p{N}])${String(w).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?![\\p{L}\\p{N}])`, 'u').test(text);
+
+// SECOND LOOK at a blog that passed rankBlogs: its last posts (from blogPosts). The tag search sees only the posts that carry the theme's tags, so a blog that
+// misuses a tag (adult content with #steam on a few posts) looks fine there. Here the whole recent blog is judged: { ok, reason, share, posts, newest }.
+// Dropped: no public posts; adult (Tumblr marks the blog, a blockWord in its title or description, a blockTag anywhere in its tags); no post within maxAgeDays;
+// less than minOnTopic of its posts carry a tag with one of the topicWords (checked only when the theme has topicWords).
+export function profileCheck(profile, theme, { now = Date.now() } = {}) {
+  const t = withThemeDefaults(theme);
+  const low = (a) => (a ?? []).map((x) => String(x).toLowerCase());
+  const block = new Set(low(t.blockTags));
+  const words = low(t.blockWords);
+  const topic = low(t.topicWords);
+  const posts = profile?.posts ?? [];
+  const info = profile?.info ?? {};
+  if (!posts.length) return { ok: false, reason: 'no public posts' };
+  const text = `${info.title ?? ''} ${info.description ?? ''}`.replace(/<[^>]+>/g, ' ').replace(/[’‘]/g, "'").toLowerCase();
+  if (info.adult || words.some((w) => wordIn(text, w)) || posts.some((p) => low(p.tags).some((x) => tagBlocked(x, block)))) return { ok: false, reason: 'adult content' };
+  const newest = Math.max(...posts.map((p) => p.timestamp ?? 0));
+  if (newest < now - t.maxAgeDays * 864e5) return { ok: false, reason: 'no new posts lately' };
+  let share = null;
+  if (topic.length) {
+    share = posts.filter((p) => low(p.tags).some((x) => topic.some((w) => x.includes(w)))).length / posts.length;
+    if (share < t.minOnTopic) return { ok: false, reason: 'not mostly about the subject', share };
+  }
+  return { ok: true, share, posts: posts.length, newest };
 }

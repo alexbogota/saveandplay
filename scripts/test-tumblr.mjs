@@ -22,7 +22,7 @@ import { fileURLToPath } from 'node:url';
 
 delete process.env.TUMBLR_ROOT; // the test itself imports the code, which must see the real settings
 const lib = await import('./lib/tumblr.mjs');
-const { buildDealPost, buildArticlePost, buildTags, configProblems, ownPost, withTumblrDefaults, oauthHeader, imageInfo, setEnvValue, readEnvValue, DISCLOSURE } = lib;
+const { buildDealPost, buildArticlePost, buildTags, configProblems, ownPost, withTumblrDefaults, oauthHeader, imageInfo, setEnvValue, readEnvValue, DISCLOSURE, rankBlogs, themeProblems, profileCheck, tagBlocked } = lib;
 process.env.DAILY_BRIEF_AS_MODULE = '1';
 const { withDefaults: briefDefaults } = await import('./daily-brief.mjs');
 
@@ -35,6 +35,7 @@ const SECRET_VALUES = Object.values(SECRETS);
 
 const realAccounts = JSON.parse(readFileSync(here('../data/accounts.json'), 'utf8'));
 const realTumblr = JSON.parse(readFileSync(here('../data/tumblr-accounts.json'), 'utf8'));
+const realThemes = JSON.parse(readFileSync(here('../data/tumblr-themes.json'), 'utf8'));
 
 const candidate = {
   id: 'indiegala-control-ultimate-edition',
@@ -127,6 +128,8 @@ function startTumblr(opts = {}) {
   const S = {
     blogs: opts.blogs ?? [{ name: 'myblog', title: 'My Blog', url: 'https://myblog.tumblr.com/' }],
     seeded: opts.seeded ?? [], // posts that exist before: { id, hoursAgo, links }
+    tagged: opts.tagged ?? {}, // public posts by tag, as /v2/tagged gives them: { tag: [post, ...] }
+    profiles: opts.profiles, // other people's blogs for the second look of the finder: { name: { blog: {...}, posts: [...] } or { status: 404 } }; none given = every other blog is unknown
     failPost: opts.failPost ?? null, // { status, detail }
     secrets: opts.secrets ?? { ck: SECRETS.TUMBLR_CONSUMER_KEY, cs: SECRETS.TUMBLR_CONSUMER_SECRET, tk: SECRETS.TUMBLR_TOKEN, ts: SECRETS.TUMBLR_TOKEN_SECRET },
     posts: [],
@@ -149,7 +152,20 @@ function startTumblr(opts = {}) {
       return send(401, { meta: { status: 401, msg: 'Unauthorized' }, errors: [{ title: 'Unauthorized', code: 401 }] });
     }
     if (req.method === 'GET' && url.pathname === '/v2/user/info') return send(200, { meta: { status: 200, msg: 'OK' }, response: { user: { name: 'owner', blogs: S.blogs } } });
+    if (req.method === 'GET' && url.pathname === '/v2/tagged') {
+      const tag = url.searchParams.get('tag');
+      if (S.taggedBroken?.includes(tag)) return send(500, { meta: { status: 500, msg: 'Server Error' } });
+      const before = Number(url.searchParams.get('before')) || Infinity;
+      const list = (S.tagged[tag] ?? []).filter((p) => p.timestamp < before).sort((a, b) => b.timestamp - a.timestamp).slice(0, Number(url.searchParams.get('limit')) || 20);
+      return send(200, { meta: { status: 200, msg: 'OK' }, response: list });
+    }
     const m = url.pathname.match(/^\/v2\/blog\/([^/]+)\/posts$/);
+    if (m && req.method === 'GET' && S.profiles && !S.blogs.some((b) => b.name === m[1])) {
+      const prof = S.profiles[m[1]];
+      if (!prof) return send(404, { meta: { status: 404, msg: 'Not Found' } });
+      if (prof.status) return send(prof.status, { meta: { status: prof.status, msg: 'Error' } });
+      return send(200, { meta: { status: 200, msg: 'OK' }, response: { blog: { name: m[1], title: `${m[1]} title`, description: '', is_nsfw: false, ...prof.blog }, posts: prof.posts.slice(0, Number(url.searchParams.get('limit')) || 20) } });
+    }
     if (m && !S.blogs.some((b) => b.name === m[1])) return send(404, { meta: { status: 404, msg: 'Not Found' } });
     if (m && req.method === 'GET') {
       const made = S.posts.map((p) => ({ id_string: p.id, post_url: p.url, timestamp: Math.floor(Date.parse(NOW) / 1000), content: p.content }));
@@ -244,6 +260,7 @@ function makeRoot({ autopost = true, briefJson = brief(), env = envText(), guide
   // The tests cover both kinds, whatever the owner has switched on in the real settings.
   Object.assign(cfg.accounts.tumblr, { blog: 'myblog', autopost, kinds: ['article', 'deal'], ...account });
   writeFileSync(join(root, 'data/tumblr-accounts.json'), JSON.stringify(cfg, null, 2) + '\n');
+  writeFileSync(join(root, 'data/tumblr-themes.json'), JSON.stringify(realThemes, null, 2) + '\n');
   for (const [slug, n] of Object.entries(guides)) {
     writeFileSync(join(root, `src/pages/guides/${slug}.md`), guideFile(typeof n === 'string' ? n : guideHead(slug, n)));
     writeFileSync(join(root, `public/og/${slug}.png`), 'png');
@@ -354,6 +371,9 @@ test('the checks of the settings say what is wrong in plain words', () => {
   assert.match(bad({ tags: { ...ok.tags, base: ['a,b'] } }).join(), /tags\.base/);
   assert.match(bad({ tags: { ...ok.tags, article: ['#guide'] } }).join(), /tags\.article/);
   assert.match(bad({ tags: { ...ok.tags, store: { GOG: 'gog' } } }).join(), /tags\.store/);
+  assert.match(bad({ tags: { ...ok.tags, guides: { 'g-x': 'fake discounts' } } }).join(), /tags\.guides/);
+  assert.match(bad({ tags: { ...ok.tags, guides: { 'g-x': ['a,b'] } } }).join(), /tags\.guides/);
+  assert.deepEqual(bad({ tags: { ...ok.tags, guides: {} } }), [], 'no guide tags at all is fine');
   assert.match(bad({ maxTags: 99 }).join(), /maxTags/);
   assert.match(bad({ linkStyle: 'big' }).join(), /linkStyle/);
 });
@@ -367,6 +387,11 @@ test('tags: base, store and game name, no duplicates (any letter case), no comma
   assert.ok(t.every((x) => !/[,#]/.test(x)));
   const art = buildTags(account, 'article');
   assert.ok(art.includes('guide') && !art.includes('indiegala'));
+  // the tags of the guide itself come FIRST (the first tags matter most for search), no duplicate with a general tag, a guide without own tags gets the general ones
+  const own = buildTags({ ...account, tags: { ...account.tags, guides: { 'g-x': ['fake discounts', 'Guide'] } } }, 'article', { slug: 'g-x' });
+  assert.deepEqual(own.slice(0, 2), ['fake discounts', 'Guide']);
+  assert.equal(own.filter((x) => x.toLowerCase() === 'guide').length, 1);
+  assert.deepEqual(buildTags({ ...account, tags: { ...account.tags, guides: { 'g-x': ['fake discounts'] } } }, 'article', { slug: 'no-such-guide' }), art);
   const dup = buildTags({ ...account, tags: { base: ['Gaming', 'gaming', 'PC Gaming'], article: [], store: {} } }, 'deal', { title: 'Game, The: #1', store: 'X' });
   assert.deepEqual(dup, ['Gaming', 'PC Gaming', 'Game The: 1']);
   assert.equal(buildTags({ ...account, maxTags: 2 }, 'deal', candidate).length, 2);
@@ -442,6 +467,375 @@ test('guide post: heading, picture with imageAlt, description, link with the mar
   } finally {
     delete process.env.TUMBLR_ROOT;
   }
+});
+
+test('guidePoints: the bold leads of the first numbered list of 3 to 8 items; pictures, short lists and sources are ignored; no list = null', () => {
+  const body = [
+    'Intro.',
+    '',
+    '<figure>',
+    '1. in a picture',
+    '2. in a picture',
+    '3. in a picture',
+    '</figure>',
+    '',
+    '## Why',
+    '',
+    '1. only',
+    '2. two',
+    '',
+    '## Five questions',
+    '',
+    '1. **Is it the same edition?** A Deluxe one is not [comparable](/x/).',
+    '2. **What does it cost elsewhere?** Check stores.',
+    '3. Plain item without a bold lead. More words here.',
+    '4. **Will it work for you?**',
+    '   goes on in an indented line',
+    '5. **Do you really want it?** Yes.',
+    '',
+    '## Sources',
+    '',
+    '1. [A](https://a.example)',
+  ].join('\n');
+  assert.deepEqual(lib.guidePoints(body), { heading: 'Five questions', points: ['Is it the same edition?', 'What does it cost elsewhere?', 'Plain item without a bold lead.', 'Will it work for you?', 'Do you really want it?'] });
+  assert.equal(lib.guidePoints('Text.'), null);
+  assert.equal(lib.guidePoints(undefined), null);
+  assert.equal(lib.guidePoints('## H\n\n1. a\n2. b\n'), null, 'two items are not a checklist');
+  assert.equal(lib.guidePoints('## H\n\n' + Array.from({ length: 9 }, (_, i) => `${i + 1}. **x${i}**`).join('\n')), null, 'nine items are too many for a post');
+  assert.equal(lib.guidePoints('1. **a**\n2. **b**\n3. **c**').heading, null, 'no heading above the list');
+  assert.ok(lib.guidePoints('1. **' + 'long '.repeat(80) + '**\n2. **b**\n3. **c**').points[0].length <= 160, 'a long lead is cut');
+});
+
+test('guide post with key points: description, bold heading, numbered list, then the link LAST; its own tags first', () => {
+  const root = makeRoot({ guides: { 'g-kp': 1 } });
+  process.env.TUMBLR_ROOT = root;
+  try {
+    const account = withTumblrDefaults('tumblr', { ...realAccounts.accounts.tumblr, ...realTumblr.accounts.tumblr });
+    account.tags = { ...account.tags, guides: { 'g-kp': ['kp tag'] } };
+    const text = `---\n${guideHead('g-kp', 1)}\n---\n\n## Three checks\n\n1. **First check?** Why.\n2. **Second check?** Why.\n3. **Third check?** Why.\n`;
+    const a = buildArticlePost({ slug: 'g-kp', text }, account, SITE, { type: 'image/png', width: 1200, height: 630 });
+    const c = a.post.content;
+    const texts = c.map((b) => b.text);
+    assert.deepEqual(texts.slice(-5), ['Three checks', 'First check?', 'Second check?', 'Third check?', 'Read the guide on Save and Play']);
+    assert.deepEqual(c.at(-5).formatting, [{ start: 0, end: 'Three checks'.length, type: 'bold' }]);
+    assert.deepEqual(c.slice(-4, -1).map((b) => b.subtype), ['ordered-list-item', 'ordered-list-item', 'ordered-list-item']);
+    assert.equal(c.at(-1).formatting[0].type, 'link');
+    assert.equal(linkUrl(c), `${SITE}/guides/g-kp/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=g-kp`);
+    assert.ok(texts.indexOf('What guide g-kp is about.') < texts.indexOf('Three checks'), 'the description comes before the points');
+    assert.equal(a.post.tags[0], 'kp tag');
+    assert.ok(!JSON.stringify(a.post).includes('Ad:'));
+    assert.deepEqual(a.notes, []);
+    // a guide with no numbered list: the post is as short as before
+    const plain = buildArticlePost({ slug: 'g-kp', text: guideFile(guideHead('g-kp', 1)) }, account, SITE, { type: 'image/png', width: 1200, height: 630 });
+    assert.ok(!plain.post.content.some((b) => b.subtype === 'ordered-list-item'));
+  } finally {
+    delete process.env.TUMBLR_ROOT;
+  }
+});
+
+// ---------- finding blogs to follow (read only) ----------
+
+const tagPost = (blog, hoursAgo, over = {}) => ({
+  blog_name: blog,
+  blog: { name: blog, title: `${blog} title`, description: `<p>About ${blog}</p>`, url: `https://${blog}.tumblr.com/` },
+  post_url: `https://${blog}.tumblr.com/post/${Math.round(hoursAgo * 10)}`,
+  timestamp: Math.floor((Date.parse(NOW) - hoursAgo * 3600e3) / 1000),
+  note_count: 5,
+  tags: [],
+  trail: [],
+  ...over,
+});
+const findTheme = { tags: ['indie games', 'pc games'], pagesPerTag: 2, skip: ['skipme'], verifyTop: 0, maxAgeDays: 14 }; // verifyTop 0: the tests of the first pass do not run the second look
+const setTheme = (root, over = {}) => {
+  const f = join(root, 'data/tumblr-themes.json');
+  const cfg = JSON.parse(readFileSync(f, 'utf8'));
+  Object.assign(cfg.themes.games, findTheme, over);
+  writeFileSync(f, JSON.stringify(cfg, null, 2) + '\n');
+};
+// What the fake Tumblr knows: two tags, 30 posts under the first (more than one page of 20, the oldest one beyond the 14 days of the window).
+const taggedData = () => ({
+  'indie games': [
+    tagPost('goodblog', 5, { tags: ['indie games'], note_count: 12 }),
+    tagPost('goodblog2', 10, { tags: ['indie games'] }),
+    tagPost('nsfwblog', 11, { tags: ['indie games', 'NSFW'] }),
+    tagPost('artblog', 12, { tags: ['indie games', 'fanart'] }),
+    tagPost('giant', 13, { note_count: 50000 }),
+    tagPost('skipme', 14),
+    tagPost('myblog', 15),
+    ...Array.from({ length: 22 }, (_, i) => tagPost(`fill${i + 1}`, 50 + i, { trail: [{ blog: { name: 'someone' } }] })),
+    tagPost('oldblog', 30 * 24),
+  ],
+  'pc games': [tagPost('goodblog', 30, { tags: ['pc games'] }), tagPost('reblogonly', 31, { trail: [{ blog: { name: 'someone' } }] })],
+});
+
+test('rankBlogs: what is dropped and why, the ranking, the window of days; themeProblems', () => {
+  const now = Date.parse(NOW);
+  const posts = [];
+  for (const [tag, list] of Object.entries(taggedData())) for (const p of list) posts.push({ blog: p.blog_name, title: p.blog.title, description: p.blog.description, url: p.blog.url, postUrl: p.post_url, timestamp: p.timestamp * 1000, notes: p.note_count, tags: p.tags, original: !p.trail.length, adult: false, viaTag: tag });
+  const r = rankBlogs(posts, { ...realThemes.themes.games, ...findTheme }, { now, skip: ['myblog'] });
+  assert.deepEqual(r.list.map((b) => b.blog), ['goodblog', 'goodblog2'], 'goodblog is found by two tags and has two own posts: first');
+  assert.equal(r.list[0].posts, 2);
+  assert.deepEqual(r.list[0].tags, ['indie games', 'pc games']);
+  assert.equal(r.dropped['only reblogs, no own posts'], 23);
+  assert.equal(r.dropped['adult content'], 1);
+  assert.equal(r.dropped['mostly off-topic (art, anime...)'], 1);
+  assert.equal(r.dropped['too big (thousands of notes)'], 1);
+  assert.equal(r.dropped['already known or your own blog'], 2);
+  assert.ok(!r.list.some((b) => b.blog === 'oldblog') && r.blogsSeen === 30, 'a blog whose only post is older than the window is not even counted');
+  // the same post under two tags counts once; a wider window brings the old blog back
+  assert.equal(rankBlogs(posts, { ...findTheme, maxAgeDays: 40, avoidTags: [], blockTags: [] }, { now }).list.some((b) => b.blog === 'oldblog'), true);
+  assert.deepEqual(rankBlogs([], findTheme).list, []);
+  assert.deepEqual(rankBlogs(undefined, findTheme).list, []);
+  // settings of a theme
+  assert.deepEqual(themeProblems(realThemes.themes.games), [], 'the real theme is valid');
+  assert.match(themeProblems({ ...findTheme, tags: [] }).join(), /tags/);
+  assert.match(themeProblems({ ...findTheme, tags: ['a,b'] }).join(), /tags/);
+  assert.match(themeProblems({ ...findTheme, skip: ['bad name'] }).join(), /skip/);
+  assert.match(themeProblems({ ...findTheme, top: 0 }).join(), /top/);
+  assert.match(themeProblems({ ...findTheme, pagesPerTag: 99 }).join(), /pagesPerTag/);
+  assert.match(themeProblems(null).join(), /missing/);
+});
+
+test('tumblr-find: reads tags page by page, lists the good blogs, only reads (no post, no follow), remembers what it showed', async () => {
+  const server = await startTumblr({ tagged: taggedData() });
+  const root = makeRoot();
+  setTheme(root);
+  const env = { TUMBLR_FIND_DELAY_MS: '0' };
+  const r = await run('tumblr-find.mjs', [], { root, server, env });
+  assert.equal(r.code, 0, r.all);
+  assert.match(r.out, /Read 32 posts from 2 of 2 tags: 30 blogs, 2 shown/);
+  assert.match(r.out, /1\. \*\*goodblog\*\* \(goodblog title\)\n {3}About goodblog\n/, 'the description is plain text');
+  assert.match(r.out, /2\. \*\*goodblog2\*\*/);
+  assert.ok(!/\*\*(reblogonly|giant|nsfwblog|artblog|oldblog|skipme|myblog|fill1)\*\*/.test(r.out), 'dropped blogs are not in the list');
+  assert.match(r.out, /only reblogs, no own posts: 23/);
+  assert.match(r.out, /https:\/\/goodblog\.tumblr\.com\/post\/50/, 'the link is the newest post of the blog');
+  assert.equal(readFileSync(join(root, 'drafts/tumblr-candidates-games.md'), 'utf8').includes('**goodblog**'), true);
+  assert.deepEqual(JSON.parse(readFileSync(join(root, 'drafts/tumblr-find-seen.json'), 'utf8')), { themes: { games: { goodblog: '2026-10-12', goodblog2: '2026-10-12' } } });
+  // READ ONLY: every call is a signed GET of /v2/tagged; the second page of the first tag asks for older posts
+  assert.ok(server.S.calls.every((c) => c.method === 'GET' && c.path === '/v2/tagged'), JSON.stringify(server.S.calls.map((c) => `${c.method} ${c.path}`)));
+  assert.equal(server.S.badSignatures, 0);
+  const indie = server.S.calls.filter((c) => c.query.tag === 'indie games');
+  assert.equal(indie.length, 2);
+  assert.ok(!indie[0].query.before && Number(indie[1].query.before) > 0, 'the second page is asked with "before"');
+  assert.equal(indie[0].userAgent, lib.UA);
+  assert.equal(created(server).length, 0);
+  // the next list shows NEW blogs only; --again shows the old ones; --no-save remembers nothing
+  const second = await run('tumblr-find.mjs', [], { root, server, env });
+  assert.equal(second.code, 0, second.all);
+  assert.match(second.out, /No new blogs this time/);
+  assert.ok(!/\*\*goodblog\*\*/.test(second.out));
+  const again = await run('tumblr-find.mjs', ['--again', '--top', '1'], { root, server, env });
+  assert.match(again.out, /1 shown/);
+  assert.match(again.out, /1\. \*\*goodblog\*\*/);
+  const root2 = makeRoot();
+  setTheme(root2);
+  const trial = await run('tumblr-find.mjs', ['--no-save'], { root: root2, server, env });
+  assert.equal(trial.code, 0, trial.all);
+  assert.ok(!existsSync(join(root2, 'drafts/tumblr-find-seen.json')), '--no-save remembers nothing');
+  server.close();
+});
+
+test('tumblr-find: one tag that cannot be read is reported and the rest goes on; wrong login, missing secrets, no tag at all, unknown theme are red', async () => {
+  const env = { TUMBLR_FIND_DELAY_MS: '0' };
+  const server = await startTumblr({ tagged: taggedData() });
+  server.S.taggedBroken = ['pc games'];
+  const root = makeRoot();
+  setTheme(root);
+  const some = await run('tumblr-find.mjs', [], { root, server, env });
+  assert.equal(some.code, 0, some.all);
+  assert.match(some.out, /Read 30 posts from 1 of 2 tags/);
+  assert.match(some.out, /Tags with problems: "pc games"/);
+  assert.match(some.out, /\*\*goodblog\*\*/);
+  server.S.taggedBroken = ['pc games', 'indie games'];
+  const noneRoot = makeRoot();
+  setTheme(noneRoot);
+  const none = await run('tumblr-find.mjs', [], { root: noneRoot, server, env });
+  assert.equal(none.code, 1, none.all);
+  assert.match(none.out, /ERROR: No tag could be read/);
+  server.close();
+  const wrongLogin = await startTumblr({ tagged: taggedData(), secrets: { ck: 'other', cs: 'other', tk: 'other', ts: 'other' } });
+  const bad = await run('tumblr-find.mjs', [], { root: makeRoot(), server: wrongLogin, env });
+  assert.equal(bad.code, 1);
+  assert.match(bad.out, /tumblr:auth/);
+  wrongLogin.close();
+  const nosec = await run('tumblr-find.mjs', [], { root: makeRoot({ env: null }), env });
+  assert.equal(nosec.code, 1);
+  assert.match(nosec.out, /TUMBLR_CONSUMER_KEY/);
+  const server2 = await startTumblr({ tagged: taggedData() });
+  const unknown = await run('tumblr-find.mjs', ['--theme', 'nope'], { root: makeRoot(), server: server2, env });
+  assert.equal(unknown.code, 1);
+  assert.match(unknown.out, /no theme "nope"/);
+  assert.equal(server2.S.calls.length, 0, 'a wrong theme asks Tumblr nothing');
+  const badTheme = makeRoot();
+  setTheme(badTheme, { top: 0 });
+  const refused = await run('tumblr-find.mjs', [], { root: badTheme, server: server2, env });
+  assert.equal(refused.code, 1);
+  assert.match(refused.out, /"top"/);
+  assert.equal(server2.S.calls.length, 0);
+  server2.close();
+});
+
+// ---------- the second look at a blog (its last posts) ----------
+
+const lookTheme = { ...realThemes.themes.games, maxAgeDays: 14 }; // the window is fixed here: the tests must not depend on what the owner sets in the real file
+const NOWMS = Date.parse(NOW);
+const lookPosts = (tagLists, { hoursApart = 6 } = {}) => tagLists.map((tags, i) => ({ timestamp: Math.floor((NOWMS - (i + 1) * hoursApart * 3600e3) / 1000), tags, note_count: 3, post_url: `https://x.tumblr.com/post/${i}`, trail: [] }));
+// 20 posts, the first "on" of them about games
+const mixed = (on, other = ['cats']) => lookPosts(Array.from({ length: 20 }, (_, i) => (i < on ? ['indie games'] : other)));
+const asProfile = (posts, info = {}) => ({ info: { title: 'T', description: '', adult: false, ...info }, posts: posts.map((p) => ({ timestamp: p.timestamp * 1000, tags: p.tags, notes: 0, original: true })) });
+
+test('tagBlocked and profileCheck: adult tags anywhere, adult words in the description (whole words only), a dead blog, too few posts about the subject', () => {
+  const block = new Set(['sex', 'sissy', 'adult', 'nsfw']);
+  assert.equal(tagBlocked('NSFW', block), true);
+  assert.equal(tagBlocked('sissy training', block), true, 'a word of 4+ letters is found inside a tag');
+  assert.equal(tagBlocked('adulting', block), true);
+  assert.equal(tagBlocked('essex', block), false, 'a short word (3 letters) must be the whole tag');
+  assert.equal(tagBlocked('cozy games', block), false);
+  const ok = profileCheck(asProfile(mixed(10)), lookTheme, { now: NOWMS });
+  assert.equal(ok.ok, true);
+  assert.equal(ok.share, 0.5);
+  assert.equal(ok.posts, 20);
+  assert.equal(ok.newest, NOWMS - 6 * 3600e3, 'the newest post of the blog');
+  const why = (profile, theme = lookTheme) => profileCheck(profile, theme, { now: NOWMS });
+  assert.equal(why(asProfile([])).reason, 'no public posts');
+  assert.equal(why(undefined).reason, 'no public posts');
+  const sneaky = mixed(12);
+  sneaky[19].tags = ['Sissy Training'];
+  assert.equal(why(asProfile(sneaky)).reason, 'adult content', 'ONE adult tag among 20 posts is enough, whatever the letter case');
+  assert.equal(why(asProfile(mixed(12), { adult: true })).reason, 'adult content', 'Tumblr itself marks the blog');
+  for (const d of ['F 33 21+', '<p>18+ only</p>', 'NSFW blog', 'minors DNI']) {
+    assert.equal(why(asProfile(mixed(12), { description: d })).reason, 'adult content', d);
+  }
+  assert.equal(why(asProfile(mixed(12), { title: 'player 21+' })).reason, 'adult content', 'the title counts too');
+  assert.equal(why(asProfile(mixed(12), { description: 'mods for v118+ games' })).ok, true, '"118+" is not "18+"');
+  assert.equal(why(asProfile(mixed(12), { description: 'I like unsfwed things' })).ok, true, 'a word inside another word is not a match');
+  assert.equal(why(asProfile(mixed(2))).reason, 'not mostly about the subject');
+  assert.equal(why(asProfile(mixed(2))).share, 0.1);
+  assert.equal(why(asProfile(mixed(6))).ok, true, '30% is enough');
+  assert.equal(why(asProfile(mixed(5))).ok, false, '25% is not');
+  assert.equal(why(asProfile(mixed(5)), { ...lookTheme, minOnTopic: 0.2 }).ok, true, 'minOnTopic is a setting');
+  assert.equal(why(asProfile(mixed(0)), { ...lookTheme, topicWords: [] }).ok, true, 'a theme without topicWords does not judge the subject');
+  assert.equal(why(asProfile(mixed(0)), { ...lookTheme, topicWords: [] }).share, null);
+  assert.equal(why(asProfile(lookPosts([['steam'], ['Video Games'], ['xbox']].concat(Array(3).fill([]))))).ok, true, 'words of the theme are found inside tags, any letter case');
+  assert.equal(why(asProfile(lookPosts(Array(10).fill(['indie games']), { hoursApart: 24 * 3 }))).ok, true, 'the newest post is 3 days old: inside the window of 14 days');
+  assert.equal(why(asProfile(lookPosts(Array(10).fill(['indie games']), { hoursApart: 24 * 20 }))).reason, 'no new posts lately', 'the newest post is 20 days old');
+});
+
+test('the second look: settings of the theme are checked (blockWords, topicWords, minOnTopic, verifyTop)', () => {
+  assert.deepEqual(themeProblems(lookTheme), []);
+  assert.ok(lookTheme.blockWords.includes('21+') && lookTheme.blockWords.includes('nsfw'));
+  assert.ok(lookTheme.blockTags.includes('sissy') && lookTheme.blockTags.includes('nsfw'));
+  assert.ok(lookTheme.topicWords.length > 5 && lookTheme.minOnTopic > 0 && lookTheme.minOnTopic < 1 && lookTheme.verifyTop >= lookTheme.top);
+  assert.match(themeProblems({ ...findTheme, minOnTopic: 2 }).join(), /minOnTopic/);
+  assert.match(themeProblems({ ...findTheme, minOnTopic: 'a lot' }).join(), /minOnTopic/);
+  assert.match(themeProblems({ ...findTheme, verifyTop: 500 }).join(), /verifyTop/);
+  assert.match(themeProblems({ ...findTheme, blockWords: 'nsfw' }).join(), /blockWords/);
+  assert.match(themeProblems({ ...findTheme, topicWords: [''] }).join(), /topicWords/);
+});
+
+const lookData = () => ({
+  'indie games': ['sneaky', 'bio21', 'flagged', 'gone', 'flaky', 'lowshare', 'goodblog', 'goodblog2'].map((b, i) => tagPost(b, 1 + i, { tags: ['indie games'] })),
+  'pc games': [],
+});
+const sneakyPosts = mixed(12);
+sneakyPosts[19].tags = ['sissy training'];
+const lookProfiles = () => ({
+  sneaky: { posts: sneakyPosts },
+  bio21: { blog: { description: '<p>F 33 21+</p>' }, posts: mixed(12) },
+  flagged: { blog: { is_nsfw: true }, posts: mixed(12) },
+  gone: { status: 404 },
+  flaky: { status: 500 },
+  lowshare: { posts: mixed(3) },
+  goodblog: { posts: mixed(10) },
+  goodblog2: { posts: mixed(8) },
+});
+const profileCalls = (server, from = 0) => server.S.calls.slice(from).filter((c) => /^\/v2\/blog\/[^/]+\/posts$/.test(c.path));
+// the blogs asked about, one name per blog (a request that Tumblr answers with 5xx is repeated by the client: the repeats are one name)
+const askedBlogs = (server, from = 0) => profileCalls(server, from).map((c) => c.path.split('/')[3]).filter((n, i, a) => n !== a[i - 1]);
+const seenFile = (root) => JSON.parse(readFileSync(join(root, 'drafts/tumblr-find-seen.json'), 'utf8')).themes.games;
+
+test('tumblr-find, second look: drops adult, closed, off-topic blogs by their last posts; only reads; remembers; a blog that could not be read is tried again', async () => {
+  const server = await startTumblr({ tagged: lookData(), profiles: lookProfiles() });
+  const root = makeRoot();
+  setTheme(root, { verifyTop: 40 });
+  const env = { TUMBLR_FIND_DELAY_MS: '0' };
+  const r = await run('tumblr-find.mjs', [], { root, server, env });
+  assert.equal(r.code, 0, r.all);
+  assert.match(r.out, /Second look \(the last posts of 8 blog\(s\)\): 2 fit\./);
+  assert.match(r.out, /adult content: 3/, 'a tag "sissy training" on one post, "21+" in the description, and the mark of Tumblr');
+  assert.match(r.out, /blog private or removed: 1/);
+  assert.match(r.out, /could not be looked at \(network or Tumblr\): 1/);
+  assert.match(r.out, /not mostly about the subject: 1/);
+  assert.match(r.out, /1\. \*\*goodblog\*\*.*\n.*\n.*of its last 20 posts 50% are about the subject/, 'the share is shown');
+  assert.match(r.out, /2\. \*\*goodblog2\*\*[^]*of its last 20 posts 40% are about the subject/);
+  assert.ok(!/\*\*(sneaky|bio21|flagged|gone|flaky|lowshare)\*\*/.test(r.out), 'dropped blogs are not in the list');
+  // READ ONLY: signed GETs of /v2/tagged and /v2/blog/<name>/posts, nothing else
+  assert.ok(server.S.calls.every((c) => c.method === 'GET' && (c.path === '/v2/tagged' || /^\/v2\/blog\/[^/]+\/posts$/.test(c.path))), JSON.stringify(server.S.calls.map((c) => `${c.method} ${c.path}`)));
+  assert.equal(server.S.badSignatures, 0);
+  assert.equal(created(server).length, 0);
+  const asked = profileCalls(server);
+  assert.deepEqual(askedBlogs(server), ['sneaky', 'bio21', 'flagged', 'gone', 'flaky', 'lowshare', 'goodblog', 'goodblog2'], 'in the order of the ranking');
+  assert.ok(asked.every((c) => c.query.limit === '20' && c.userAgent === lib.UA));
+  assert.deepEqual(Object.keys(seenFile(root)).sort(), ['bio21', 'flagged', 'gone', 'goodblog', 'goodblog2', 'lowshare', 'sneaky'], 'shown and dropped-for-content blogs are remembered; the one that could not be read is NOT');
+  assert.equal(readFileSync(join(root, 'drafts/tumblr-candidates-games.md'), 'utf8').includes('**goodblog**'), true);
+  // the next run looks only at the blog that could not be read
+  const mark = server.S.calls.length;
+  const second = await run('tumblr-find.mjs', [], { root, server, env });
+  assert.equal(second.code, 0, second.all);
+  assert.deepEqual(askedBlogs(server, mark), ['flaky']);
+  assert.match(second.out, /No new blogs this time/);
+  server.S.profiles.flaky = { posts: mixed(14) };
+  const third = await run('tumblr-find.mjs', [], { root, server, env });
+  assert.match(third.out, /1\. \*\*flaky\*\*/);
+  assert.match(third.out, /of its last 20 posts 70% are about the subject/);
+  assert.ok('flaky' in seenFile(root));
+  // --again --top 1: looks down the ranking only until ONE blog is good; the rest is not even asked
+  const mark2 = server.S.calls.length;
+  const one = await run('tumblr-find.mjs', ['--again', '--top', '1', '--no-save'], { root, server, env });
+  assert.equal(one.code, 0, one.all);
+  assert.match(one.out, /1\. \*\*flaky\*\*/);
+  assert.deepEqual(askedBlogs(server, mark2), ['sneaky', 'bio21', 'flagged', 'gone', 'flaky']);
+  assert.ok(!/Only the first/.test(one.out), 'enough blogs were found: no warning');
+  server.close();
+});
+
+test('tumblr-find, second look: verifyTop limits the number of blogs looked at and says so; --quick skips the look; when no blog can be read the list is red', async () => {
+  const env = { TUMBLR_FIND_DELAY_MS: '0' };
+  const server = await startTumblr({ tagged: lookData(), profiles: lookProfiles() });
+  const root = makeRoot();
+  setTheme(root, { verifyTop: 3 });
+  const few = await run('tumblr-find.mjs', [], { root, server, env });
+  assert.equal(few.code, 0, few.all);
+  assert.deepEqual(askedBlogs(server), ['sneaky', 'bio21', 'flagged']);
+  assert.match(few.out, /Only the first 3 of 8 blogs were looked at \(setting verifyTop\)\. Run the command again/);
+  assert.match(few.out, /No new blogs this time/);
+  // the next run goes on with the blogs that were not looked at
+  const mark = server.S.calls.length;
+  const more = await run('tumblr-find.mjs', [], { root, server, env });
+  assert.deepEqual(askedBlogs(server, mark), ['gone', 'flaky', 'lowshare']);
+  assert.match(more.out, /Only the first 3 of 5 blogs/);
+  // --quick: no second look at all
+  const mark2 = server.S.calls.length;
+  const quickRoot = makeRoot();
+  setTheme(quickRoot, { verifyTop: 40 });
+  const quick = await run('tumblr-find.mjs', ['--quick'], { root: quickRoot, server, env });
+  assert.equal(quick.code, 0, quick.all);
+  assert.equal(profileCalls(server, mark2).length, 0);
+  assert.match(quick.out, /The second look was skipped \(--quick\)/);
+  assert.match(quick.out, /8 shown/);
+  assert.match(quick.out, /\*\*sneaky\*\*/, 'without the second look this adult blog is in the list: that is why the look exists');
+  server.close();
+  // no blog of the ranking can be read: red, no list, the way out is named
+  const blind = await startTumblr({ tagged: lookData(), profiles: {} });
+  const blindRoot = makeRoot();
+  setTheme(blindRoot, { verifyTop: 40 });
+  const bad = await run('tumblr-find.mjs', [], { root: blindRoot, server: blind, env });
+  assert.equal(bad.code, 1, bad.all);
+  assert.match(bad.out, /ERROR: None of the first 3 blogs could be looked at/);
+  assert.match(bad.out, /--quick/);
+  assert.ok(!existsSync(join(blindRoot, 'drafts/tumblr-candidates-games.md')), 'no list is written');
+  assert.ok(!existsSync(join(blindRoot, 'drafts/tumblr-find-seen.json')), 'nothing is remembered');
+  blind.close();
 });
 
 test('ownPost finds our page in the links of a recent post, by path, not by the marks, and respects the age', () => {

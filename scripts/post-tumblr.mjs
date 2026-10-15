@@ -57,7 +57,7 @@ function saveState(state) {
 // The text of a post for the Summary and the dry run: blocks as plain lines.
 function show(post) {
   const lines = post.content.map((b) => {
-    if (b.type === 'text') return `${b.subtype ? `[${b.subtype}] ` : ''}${b.text}${b.formatting?.length ? ` -> link ${b.formatting[0].url}` : ''}`;
+    if (b.type === 'text') return `${b.subtype ? `[${b.subtype}] ` : ''}${b.text}${b.formatting?.some((f) => f.type === 'link') ? ` -> link ${b.formatting.find((f) => f.type === 'link').url}` : ''}${b.formatting?.some((f) => f.type === 'bold') ? ' (bold)' : ''}`;
     if (b.type === 'image') return `[image ${b.media[0].width}x${b.media[0].height}] ${b.media[0].url}\n  alt text: ${b.alt_text}`;
     if (b.type === 'link') return `[link] ${b.url}`;
     return `[${b.type}]`;
