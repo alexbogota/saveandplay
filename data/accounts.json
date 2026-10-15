@@ -77,6 +77,94 @@
         "Attach the cover image and put the Alt text from the brief in the picture's alt field (if the brief says no cover, post without a picture). The link card under the post also shows the game from our page."
       ]
     },
+    "prices-kinguin": {
+      "enabled": true,
+      "name": "Honest prices (Kinguin keys)",
+      "handle": "@saveandplay.com",
+      "topic": "prices",
+      "subid": "bluesky-prices",
+      "stores": [
+        "Kinguin"
+      ],
+      "cadence": {
+        "everyDays": 2,
+        "startDay": "2026-10-16"
+      },
+      "minDiscount": 30,
+      "windowHours": 48,
+      "maxPriceAgeHours": 48,
+      "minHoursLeft": 6,
+      "repeatDays": 14,
+      "maxCandidates": 5,
+      "minHistoryDays": 14,
+      "dealsWithoutNews": true,
+      "gogNews": false,
+      "maxTopics": 0,
+      "channels": {
+        "bluesky": {
+          "enabled": true,
+          "subid": "bluesky-prices",
+          "utmSource": "bluesky-prices",
+          "maxChars": 300,
+          "linkChars": 25,
+          "dateFormat": "MMM D",
+          "disclosure": "Ad",
+          "baseTags": [
+            "PCGaming",
+            "GameDeals"
+          ],
+          "storeTags": {
+            "Kinguin": "Kinguin"
+          },
+          "gameTag": true,
+          "rotatingTags": [
+            "{store}",
+            "Gaming",
+            "{game}"
+          ],
+          "maxTags": 3,
+          "template": [
+            "{title}: {price} at {store}, {discount}% below the current Steam price ({was}).\nMarketplace key from an independent seller, so check the seller and region. Price checked {checked}.",
+            "{link}",
+            "{tags}\n{disclosure}"
+          ]
+        },
+        "mastodon": {
+          "enabled": true,
+          "subid": "mastodon-prices",
+          "utmSource": "mastodon-prices",
+          "maxChars": 500,
+          "linkChars": 23,
+          "dateFormat": "MMM D",
+          "disclosure": "Ad",
+          "baseTags": [
+            "GameDeals",
+            "PCGaming"
+          ],
+          "storeTags": {
+            "Kinguin": "Kinguin"
+          },
+          "gameTag": true,
+          "rotatingTags": [
+            "{game}",
+            "Gaming",
+            "VideoGames"
+          ],
+          "maxTags": 5,
+          "template": [
+            "{title}: {price} at {store}\n{discount}% below the current Steam price ({was}).\nMarketplace key from an independent seller: check the seller's rating and the region before you buy.\nPrice checked {checked}.",
+            "{link}",
+            "{tags}\n{disclosure}"
+          ]
+        }
+      },
+      "rules": [
+        "This account is the second post of the day, only every second day (see cadence). The post is made by a template from data/deals.json; the owner sees the text before publishing.",
+        "Kinguin is a marketplace: the key may come from an independent seller. Write Marketplace key, never safe, official, verified or guaranteed.",
+        "The price is compared with the CURRENT Steam price, never with an old price: write below the current Steam price, not was or % off.",
+        "Use only the numbers of the deal. The last line is Ad (plain text). The link goes to our own page of the game."
+      ]
+    },
     "nostr": {
       "enabled": true,
       "name": "Honest prices",

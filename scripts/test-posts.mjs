@@ -16,7 +16,7 @@ import { collectTags, gameTagsOf, summarizeHistory } from './lib/tag-stats.mjs';
 
 process.env.DAILY_BRIEF_AS_MODULE = '1';
 process.env.UPDATE_DEALS_AS_MODULE = '1';
-const { makePosts, withDefaults, historyFacts, buildCandidates } = await import('./daily-brief.mjs');
+const { makePosts, withDefaults, historyFacts, buildCandidates, visibleIds, isPostDay, nextPostDay } = await import('./daily-brief.mjs');
 const { mergeIndieGala } = await import('./update-deals.mjs');
 
 const links = { site: 'https://saveandplay.com' };
@@ -224,8 +224,8 @@ test('a new channel is only a block in the settings (no code change)', () => {
 
 test('tag research: the tags of accounts.json are collected, the statistics are only what the server said', () => {
   const tags = collectTags(accounts).map((t) => t.tag);
-  assert.deepEqual(tags, ['DRMFree', 'GameDeals', 'Gaming', 'GOG', 'IndieGala', 'IndieGames', 'PCGaming', 'VideoGames']);
-  assert.ok(collectTags(accounts).find((t) => t.tag === 'GameDeals').where.length === 2, 'used by both channels');
+  assert.deepEqual(tags, ['DRMFree', 'GameDeals', 'Gaming', 'GOG', 'IndieGala', 'IndieGames', 'Kinguin', 'PCGaming', 'VideoGames']);
+  assert.ok(collectTags(accounts).find((t) => t.tag === 'GameDeals').where.length === 4, 'used by the channels of both accounts (prices and prices-kinguin)');
   assert.deepEqual(gameTagsOf([{ title: 'Shadow Tactics: Blades' }, { title: 'Go' }, { title: 'Shadow Tactics 2' }]).map((t) => t.tag), ['ShadowTactics', 'ShadowTactics2']);
   const now = Date.parse('2026-10-09T10:00:00Z');
   const day = (iso, uses, accounts) => ({ day: String(Date.parse(iso) / 1000), uses: String(uses), accounts: String(accounts) });
@@ -378,6 +378,92 @@ test('the real data/accounts.json: every channel is valid and a post can be made
   }
   assert.ok(!JSON.stringify(accounts).includes('directLinkStores'));
   assert.ok(!/"(adTag|hashtags|storeHashtags)"/.test(JSON.stringify(accounts)), 'the old tag fields are gone');
+});
+
+// ---------- Kinguin: the second post (account "prices-kinguin") ----------
+const kinguin = {
+  id: 'kinguin-black-myth-wukong', kind: 'deal', title: 'Black Myth: Wukong', store: 'Kinguin', price: 38.39, was: 59.99, discount: 36, endsAt: null,
+  priceCheckedAt: '2026-10-15T09:06:35.663Z', history: { days: 2, lowest: false }, whyToday: [], discountRank: 1, marketplace: true, compareTo: 'Steam',
+};
+const kBluesky = channelWithDefaults('prices-kinguin', 'bluesky', accounts['prices-kinguin'].channels.bluesky);
+const kMastodon = channelWithDefaults('prices-kinguin', 'mastodon', accounts['prices-kinguin'].channels.mastodon);
+
+test('Kinguin post: "below the current Steam price", Marketplace key, no "was", Ad last, link to our page', () => {
+  const b = buildPost({ candidate: kinguin, channel: kBluesky, links, day: '2026-10-16' });
+  assert.equal(b.text, [
+    'Black Myth: Wukong: $38.39 at Kinguin, 36% below the current Steam price ($59.99).\nMarketplace key from an independent seller, so check the seller and region. Price checked Oct 15.',
+    'https://saveandplay.com/deals/kinguin/black-myth-wukong/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-16',
+    '#PCGaming #GameDeals #Kinguin\nAd',
+  ].join('\n\n'));
+  const m = buildPost({ candidate: kinguin, channel: kMastodon, links, day: '2026-10-16' });
+  assert.ok(m.text.startsWith('Black Myth: Wukong: $38.39 at Kinguin\n36% below the current Steam price ($59.99).\nMarketplace key from an independent seller:'));
+  assert.ok(m.link.includes('utm_source=mastodon-prices') && m.text.split('\n').at(-1) === 'Ad');
+  for (const t of [b.text, m.text]) assert.ok(!/\bwas\b|% off|\b(safe|official|verified|guaranteed)\b|kinguin\.net|ficca|admitad/i.test(t.replace(/https:\/\/\S+/g, '')));
+});
+
+test('a marketplace post that breaks the words of the decision is refused (safe, official, was, % off, no "current Steam price", no "Marketplace key")', () => {
+  const bad = (template) => channelWithDefaults('x', 'bluesky', { ...accounts['prices-kinguin'].channels.bluesky, template });
+  const tail = ['{link}', '{tags}\n{disclosure}'];
+  const go = (first) => buildPost({ candidate: kinguin, channel: bad([first, ...tail]), links, day: '2026-10-16' });
+  assert.ok(go('{title}: {price} at {store}, {discount}% below the current Steam price ({was}). Marketplace key.'));
+  assert.throws(() => go('{title}: {price} at {store}, {discount}% below the current Steam price ({was}). Marketplace key, a safe seller.'), /safe, official/);
+  assert.throws(() => go('{title}: {price} at {store}, {discount}% below the current Steam price ({was}). Official Marketplace key.'), /safe, official/);
+  assert.throws(() => go('{title}: {price} at {store} (was {was}). Marketplace key below the current Steam price.'), /old price/);
+  assert.throws(() => go('{title}: {price} at {store}, {discount}% off. Marketplace key, current Steam price {was}.'), /old price/);
+  assert.throws(() => go('{title}: {price} at {store}, {discount}% below the Steam price ({was}). Marketplace key.'), /current Steam price/);
+  assert.throws(() => go('{title}: {price} at {store}, {discount}% below the current Steam price ({was}).'), /Marketplace key/);
+  // an official store deal has no such rules (the old posts do not change)
+  assert.ok(buildPost({ candidate: deal, channel: bluesky, links, day }));
+});
+
+test('cadence: an account with everyDays 2 posts on startDay and then every second day; no cadence = every day; bad cadence is refused', () => {
+  const cadence = { everyDays: 2, startDay: '2026-10-16' };
+  const at = (d) => Date.parse(`${d}T11:00:00Z`);
+  assert.deepEqual(['2026-10-15', '2026-10-16', '2026-10-17', '2026-10-18', '2026-10-19', '2026-10-20'].map((d) => isPostDay(cadence, at(d))), [false, true, false, true, false, true]);
+  assert.equal(nextPostDay(cadence, at('2026-10-15')), '2026-10-16', 'before the start: the start day');
+  assert.equal(nextPostDay(cadence, at('2026-10-16')), '2026-10-18');
+  assert.equal(nextPostDay(cadence, at('2026-10-17')), '2026-10-18');
+  assert.equal(isPostDay(null, at('2026-10-17')), true);
+  assert.equal(withDefaults('prices', accounts.prices).cadence, null, 'the first post of the day has no cadence');
+  const base = accounts['prices-kinguin'];
+  for (const c of [{ everyDays: 0, startDay: '2026-10-16' }, { everyDays: 2 }, { everyDays: 2, startDay: 'tomorrow' }, { everyDays: 1.5, startDay: '2026-10-16' }]) {
+    assert.throws(() => withDefaults('prices-kinguin', { ...base, cadence: c }), /cadence must look like/);
+  }
+});
+
+test('the site rule: an official store beats a marketplace key for the same game, even when the key is cheaper', () => {
+  const g = { store: 'GOG', title: 'Black Myth: Wukong', price: 50, was: 60, discountPct: 17, steamId: 2358720 };
+  const k = { store: 'Kinguin', title: 'Black Myth: Wukong', price: 38.39, was: 59.99, discountPct: 36, steamId: 2358720, marketplace: true, compareTo: 'Steam' };
+  const k2 = { ...k, title: 'Another', steamId: 1, price: 10 };
+  const ids = visibleIds([k, g, k2]);
+  assert.ok(ids.has('gog-black-myth-wukong') && !ids.has('kinguin-black-myth-wukong') && ids.has('kinguin-another'));
+});
+
+test('the brief carries marketplace and compareTo into the candidate of a Kinguin deal, and a post is made from it', () => {
+  const d = { store: 'Kinguin', title: 'Black Myth: Wukong', currency: 'USD', was: 59.99, price: 38.39, discountPct: 36, url: 'https://www.kinguin.net/x', image: '', status: 'kinguin-feed', checkedAt: '2026-10-15T09:06:35.663Z', steamId: 2358720, marketplace: true, compareTo: 'Steam' };
+  const account = withDefaults('prices-kinguin', accounts['prices-kinguin']);
+  const now = Date.parse('2026-10-16T11:00:00Z');
+  const [c] = buildCandidates({ eligible: [{ deal: d, id: 'kinguin-black-myth-wukong', offeredOn: null }], mentions: new Map(), history: {}, account, links, now });
+  assert.equal(c.marketplace, true);
+  assert.equal(c.compareTo, 'Steam');
+  c.whyToday = [];
+  const posts = makePosts({ id: 'prices-kinguin', account, brief: { candidates: [c], warnings: [] }, links, now });
+  assert.equal(posts.length, 2);
+  assert.ok(posts.every((p) => !p.none && p.text.includes('below the current Steam price ($59.99)') && p.link.includes('/deals/kinguin/black-myth-wukong/')));
+});
+
+test('the real data/accounts.json: the Kinguin account is valid, only Kinguin, and a post fits for 30 days in a row', () => {
+  const a = withDefaults('prices-kinguin', accounts['prices-kinguin']);
+  assert.deepEqual(a.stores, ['Kinguin']);
+  assert.deepEqual(a.cadence, { everyDays: 2, startDay: '2026-10-16' });
+  assert.equal(a.maxTopics, 0, 'no article topics in the second brief');
+  for (const ch of [kBluesky, kMastodon]) {
+    for (let n = 1; n <= 30; n++) {
+      const p = buildPost({ candidate: kinguin, channel: ch, links, day: `2026-10-${String(n).padStart(2, '0')}` });
+      assert.ok(p.length <= ch.maxChars && p.tags.length <= ch.maxTags);
+    }
+  }
+  assert.ok(!accounts.prices.stores.includes('Kinguin'), 'the first post of the day stays GOG and IndieGala only');
 });
 
 console.log(`\n${ran} tests passed.`);

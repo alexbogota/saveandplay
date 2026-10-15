@@ -193,7 +193,7 @@ test('the list of the site: other stores stay, an entry the check time of which 
   assert.equal(tidy(old.deals, rules, NOW).removed.stale.length, 1);
 });
 
-test('the real rules and settings: Kinguin is on, limits as decided, not in the posts', () => {
+test('the real rules and settings: Kinguin is on, limits as decided, posted only by its own account every second day', () => {
   const k = realRules.kinguin;
   assert.equal(k.enabled, true);
   assert.equal(k.maxNew, 5);
@@ -202,7 +202,13 @@ test('the real rules and settings: Kinguin is on, limits as decided, not in the 
   assert.ok(k.source.startsWith('https://raw.githubusercontent.com/'));
   assert.ok(k.linkHosts.length && k.subid);
   const accounts = JSON.parse(readFileSync(here('../data/accounts.json'), 'utf8')).accounts;
-  for (const [id, a] of Object.entries(accounts)) assert.ok(!a.stores.includes('Kinguin'), `${id} must not post Kinguin`);
+  // Decision of 11 October 2026: the first post of the day (GOG, IndieGala) never has Kinguin; the second post, with a Kinguin key, comes only from its own account, every second day.
+  for (const [id, a] of Object.entries(accounts)) {
+    if (id === 'prices-kinguin') {
+      assert.deepEqual(a.stores, ['Kinguin']);
+      assert.equal(a.cadence.everyDays, 2);
+    } else assert.ok(!a.stores.includes('Kinguin'), `${id} must not post Kinguin`);
+  }
   assert.ok(!readFileSync(here('./make-drafts.mjs'), 'utf8').match(/POST_STORES = \[[^\]]*Kinguin/), 'make-drafts does not post Kinguin');
 });
 

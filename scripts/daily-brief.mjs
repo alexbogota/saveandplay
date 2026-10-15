@@ -48,12 +48,31 @@ const LOWEST_BONUS = 1; // lowest price we have tracked (needs at least the acco
 const REPEAT_PENALTY = 8; // was the top pick of an earlier brief, or drafted, within repeatDays
 
 // What an account gets when data/accounts.json does not say otherwise.
-const DEFAULTS = { minDiscount: 50, windowHours: 48, maxPriceAgeHours: 48, minHoursLeft: 6, repeatDays: 7, maxCandidates: 5, minHistoryDays: 14, dealsWithoutNews: true, gogNews: false, keywords: [], maxTopics: 5, rules: [] };
+const DEFAULTS = { minDiscount: 50, windowHours: 48, maxPriceAgeHours: 48, minHoursLeft: 6, repeatDays: 7, maxCandidates: 5, minHistoryDays: 14, dealsWithoutNews: true, gogNews: false, keywords: [], maxTopics: 5, rules: [], cadence: null };
 const REQUIRED = ['name', 'handle', 'topic', 'subid', 'stores'];
 export function withDefaults(id, account) {
   const missing = REQUIRED.filter((k) => !account[k] || (Array.isArray(account[k]) && !account[k].length));
   if (missing.length) throw new Error(`Account "${id}" in data/accounts.json lacks: ${missing.join(', ')}.`);
+  const c = account.cadence;
+  if (c && (!Number.isInteger(c.everyDays) || c.everyDays < 1 || !/^\d{4}-\d{2}-\d{2}$/.test(c.startDay ?? '') || Number.isNaN(Date.parse(c.startDay)))) {
+    throw new Error(`Account "${id}" in data/accounts.json: cadence must look like { "everyDays": 2, "startDay": "2026-10-16" } (a whole number of days, and the first day of posting).`);
+  }
   return { ...DEFAULTS, ...account };
+}
+
+// "cadence": { everyDays, startDay } = the account posts only on startDay and then every everyDays days (UTC days, like the rest of the brief).
+// No cadence = every day. On the other days the account gets no brief and its posts say "NO POST TODAY" with the next day.
+const dayNo = (iso) => Math.floor(Date.parse(`${iso}T00:00:00Z`) / (24 * 3600e3));
+export function isPostDay(cadence, now) {
+  if (!cadence) return true;
+  const n = dayNo(new Date(now).toISOString().slice(0, 10)) - dayNo(cadence.startDay);
+  return n >= 0 && n % cadence.everyDays === 0;
+}
+// The next day (YYYY-MM-DD) after today on which the account posts.
+export function nextPostDay(cadence, now) {
+  const n = dayNo(new Date(now).toISOString().slice(0, 10)) - dayNo(cadence.startDay);
+  const k = n < 0 ? 0 : (Math.floor(n / cadence.everyDays) + 1) * cadence.everyDays;
+  return new Date((dayNo(cadence.startDay) + k) * 24 * 3600e3).toISOString().slice(0, 10);
 }
 
 // ---------- small helpers ----------
@@ -103,7 +122,8 @@ const storeRank = (store) => {
   return i === -1 ? 99 : i;
 };
 const gameKey = (d) => (steamOf(d) ? `steam-${steamOf(d)}` : `title-${slug(d.title)}`);
-const beats = (a, b) => (a.price !== b.price ? a.price < b.price : storeRank(a.store) < storeRank(b.store));
+// An official store beats a marketplace key (Kinguin) whatever the price: the same rule as src/lib/deals.ts.
+const beats = (a, b) => (!!a.marketplace !== !!b.marketplace ? !a.marketplace : a.price !== b.price ? a.price < b.price : storeRank(a.store) < storeRank(b.store));
 export function visibleIds(deals) {
   const best = new Map();
   for (const d of deals) if (!best.has(gameKey(d)) || beats(d, best.get(gameKey(d)))) best.set(gameKey(d), d);
@@ -248,6 +268,8 @@ export function buildCandidates({ eligible, mentions, history, account, links, n
       cover: d.image ?? null,
       drminfo: d.drminfo ?? null, // from the IndieGala feed; a post may use it for a note (see storeNote in data/accounts.json)
       coverAlt: d.image ? coverAlt(d) : null,
+      marketplace: !!d.marketplace, // Kinguin: the post must say Marketplace key and compare with compareTo (see posts.mjs)
+      compareTo: d.compareTo ?? null,
       score: Math.round(parts.reduce((a, b) => a + b, 0) * 10) / 10,
       discountRank: byDiscount.findIndex((x) => x.id === id) + 1,
       sites: domains.size,
@@ -439,6 +461,17 @@ async function main() {
   const today = isoDay(now);
   state.top ??= {};
   for (const [id, account] of accounts) {
+    if (!isPostDay(account.cadence, now)) {
+      // Off day of an account with a cadence: no brief, no pick (so nothing is marked as used), and the post files say why.
+      const next = nextPostDay(account.cadence, now);
+      const why = `Off day: this account posts every ${account.cadence.everyDays} days. Next post: ${dayOf(Date.parse(next))}.`;
+      await writeFile(resolve(outDir, `brief-${id}.md`), `# Brief: ${account.name} (${account.handle}), ${stampOf(now)}\n${why}\n`);
+      await writeFile(resolve(outDir, `brief-${id}.json`), JSON.stringify({ account: account.name, generatedAt: new Date(now).toISOString(), offDay: true, nextPostDay: next, candidates: [], posts: {} }, null, 2) + '\n');
+      for (const [name, raw] of Object.entries(account.channels ?? {})) if (raw?.enabled !== false) await writeFile(resolve(outDir, `post-${id}-${name}.md`), `NO POST TODAY: ${why}\n`);
+      if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, `## ${account.name}: no post today\n\n${why}\n\n`);
+      console.log(`\n${account.name}: ${why}`);
+      continue;
+    }
     const mem = (state.top[id] ??= {});
     for (const [k, day] of Object.entries(mem)) if (day === today) delete mem[k]; // a second run on the same day replaces today's pick
     const offered = { ...log, ...Object.fromEntries(Object.entries(mem).filter(([, day]) => day !== today)) }; // earlier briefs' top picks and manual drafts

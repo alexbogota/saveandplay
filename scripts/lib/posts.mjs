@@ -226,5 +226,14 @@ export function buildPost({ candidate: c, channel, links, day }) {
   const strange = [...text.replace(title, '').matchAll(/\$(\d+\.\d{2})/g)].map((m) => Number(m[1])).filter((n) => !expected.includes(n));
   if (strange.length) throw new Error(`The post has an amount that is not a price of the deal: $${strange[0]}.`);
   if (/lowest (price )?ever|all[- ]time low|historical low/i.test(text)) throw new Error('The post claims a record low. Not allowed: only "lowest price we\'ve tracked", and only when the history confirms it.');
+  // A marketplace key (Kinguin) is compared with the CURRENT price of another store (compareTo), never with an "old price", and is never
+  // called safe or official (decision of 11 October 2026; the site says the same, see src/lib/deals.ts).
+  if (c.marketplace) {
+    const bare = text.replace(title, '');
+    if (!/marketplace key/i.test(text)) throw new Error('A marketplace key must be called a "Marketplace key" in the post.');
+    if (c.compareTo && !text.includes(`current ${c.compareTo} price`)) throw new Error(`A marketplace key is compared with the current ${c.compareTo} price: the post must say "current ${c.compareTo} price".`);
+    if (/\b(safe|safest|official|verified|guaranteed|trusted|legit)\b/i.test(bare)) throw new Error('A post about a marketplace key must not call it safe, official, verified, guaranteed or trusted.');
+    if (/\bwas\b|\d+% off|-\d+%/i.test(bare)) throw new Error('A marketplace key has no old price: the post must not say "was", "% off" or "-NN%".');
+  }
   return { text, length: lengthOf(text), max: channel.maxChars, tags, link, warnings };
 }
