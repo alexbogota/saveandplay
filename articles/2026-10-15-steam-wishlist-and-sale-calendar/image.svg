@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#0D1117"/>
+<rect x="56" y="22" width="1088" height="586" rx="28" fill="#161B22" stroke="#262D38"/>
+<text x="100" y="105" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="46" font-weight="800" fill="#FFFFFF">When to wait for a Steam sale</text>
+<text x="100" y="152" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="28" fill="#9AA5B4">Four seasonal sales a year, dates published ahead</text>
+<rect x="100" y="200" width="1000" height="70" rx="14" fill="none" stroke="#3DDC97" stroke-width="4"/>
+<text x="130" y="246" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="30" font-weight="700" fill="#E8ECF1">Winter Sale</text>
+<text x="1070" y="246" text-anchor="end" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="30" fill="#E8ECF1">Dec 17, 2026 – Jan 4, 2027</text>
+<rect x="100" y="290" width="1000" height="70" rx="14" fill="none" stroke="#3DDC97" stroke-width="4"/>
+<text x="130" y="336" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="30" font-weight="700" fill="#E8ECF1">Spring Sale</text>
+<text x="1070" y="336" text-anchor="end" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="30" fill="#E8ECF1">Mar 18 – 25, 2027</text>
+<rect x="100" y="380" width="1000" height="70" rx="14" fill="none" stroke="#3DDC97" stroke-width="4"/>
+<text x="130" y="426" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="30" font-weight="700" fill="#E8ECF1">Summer Sale</text>
+<text x="1070" y="426" text-anchor="end" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="30" fill="#E8ECF1">Jun 24 – Jul 8, 2027</text>
+<rect x="100" y="490" width="560" height="62" rx="14" fill="#FFB454"/>
+<text x="130" y="531" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="29" font-weight="800" fill="#1B1203">Wishlist alert: 20%+ off, 8 h+</text>
+<text x="690" y="531" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="26" fill="#9AA5B4">Source: Steamworks, Oct 15, 2026</text>
+</svg>
