@@ -467,6 +467,57 @@
             "sig": "582282d89b68cf5509e90069d0ebf5de428525816927c2b54ef714a67f4ba11390fea446a2a5986850bb4aa0a4eeaf563b26384d65e82ab181d67d96f3eceb2a"
           }
         }
+      },
+      "2026-10-15": {
+        "deal": {
+          "status": "done",
+          "kind": "deal",
+          "id": "f29d02a04a3deffaa0c2f018d39fe958e39b5b42e71660f4fac52f7b4d68b14c",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "deal": "indiegala-monster-hunter-rise",
+          "title": "MONSTER HUNTER RISE",
+          "postedAt": "2026-10-15T11:57:41.000Z",
+          "accepted": [
+            "wss://relay.damus.io",
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [],
+          "event": {
+            "kind": 1,
+            "created_at": 1792065461,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-deal"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1446780/header.jpg?t=1768870444",
+                "m image/jpeg",
+                "alt Cover art for MONSTER HUNTER RISE"
+              ]
+            ],
+            "content": "MONSTER HUNTER RISE: -90% at IndieGala\n$3.99 (was $39.99)\nPrice checked 2026-10-15 10:03 UTC. Sale ends 2026-10-16 23:59 UTC.\nWhy today: sale ends in 37 h.\nAd: we may earn a commission if you buy.\n\n#pcgaming #gamedeals\n\nhttps://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1446780/header.jpg?t=1768870444\n\nhttps://saveandplay.com/deals/indiegala/monster-hunter-rise/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-15",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "f29d02a04a3deffaa0c2f018d39fe958e39b5b42e71660f4fac52f7b4d68b14c",
+            "sig": "0a7fe28720241cf5b611522251c2714393002d1489ae8f4d078112a9f690a42cdee3178e701641858c9ae2f83284bda5caa1262c927f4c9b2a40cc11852e87f7"
+          }
+        }
       }
     }
   },
