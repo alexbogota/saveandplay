@@ -1,40 +1,42 @@
 # Comment candidates: mastodon-prices (@saveandplay@mastodon.social)
-Made 2026-10-15T12:50Z. Searched: practical: drmfree | genres: citybuilder | seasonal: spooktober | broadPlaying: currentlyplaying | broadAsk: hiddengem | waitForSale: steamsale | backlog: gamingbacklog | deck: handheldgaming.
-Posts below: 9. Dropped in this run: not about games 9, own post 5, skip word 3, too old 251, too long 1, bot, shop or studio 9, other language 4, profile says no bots or promo 1, low score 1, already shown 1, promo (link and hashtags) 1, console only 1, earlier finds: low score 3.
+Made 2026-10-15T18:45Z. Searched: bundles: bundle+games | practical: gog | genres: roguelike | seasonal: halloweengames | broadPlaying: pcgaming | broadAsk: underratedgames | waitForSale: steam+sale | backlog: backlog.
+Posts below: 9. Dropped in this run: promo (link and hashtags) 20, too old 203, bot, shop or studio 89, other language 7, already shown 2, own post 6, skip word 9, link post, not a question 5, console only 1, not about games 3, other language (text) 1, low score 3, too long 1.
 
 ## Posts
-1. @amd@prattl.ing (amd) · 20h · likes 1 · replies 2 · question · practical
-   https://mastodon.social/@amd@prattl.ing/117440240935877217
-   original: https://gts.prattl.ing/@amd/statuses/01M4XMDR1MCVGGY43F5VTTKK18
-   I absolutely don’t need a new game, but this is an instant buy for me. I loved Art of Rally. #gaming #linuxgaming https://store.steampowered.com/app/2929250/over_the_hill/
-   [link card: Steamで20% OFF：over the hill]
-2. @coa100@mastodon.social (Coa art) · 17h · likes 1 · replies 0 · question · broadPlaying
-   https://mastodon.social/@coa100/117440942767345025
-   #minimaltech tune by myself named ProN1 should i upload it to my youtube channel? #music #videogames
-   [audio]
-3. @ami_angelwings@urusai.social (Ami Angelwings) · 12h · likes 4 · replies 6 · question · broadPlaying
-   https://mastodon.social/@ami_angelwings@urusai.social/117442196516875950
-   original: https://urusai.social/@ami_angelwings/117442196034201710
-   #QuestionOfTheDay what's an underrated moment in a piece of fiction you like? #fiction #TV #television #movies #film #manga #anime #videogames #gaming #comics #webcomics #ttrpg #ccgs #books #scifi #fantasy #romance #musicals
-4. @lisp1984@mastodon.social (kevin steinmetz) · 11h · likes 1 · replies 1 · practical
-   https://mastodon.social/@lisp1984/117442355727232860
-   @FibroJedi @kramaker wine is not an emulator is what i use for good old games from gog.com #WINE #DOSBox #GOG #DRMFree no digital restrictions managaement.
-5. @BossRushNetwork@mastodon.social (The Boss Rush Network) · 14h · likes 2 · replies 1 · deck
-   https://mastodon.social/@BossRushNetwork/117441754046815458
-   Steam OS might soon break free from the hardware boundaries of the Steam Deck! In this clip of the Boss Rush Podcast, Corey Dirrig, LeRon Dawkins, and Nick Dimitrescu analyze major handheld industry tech news surrounding Valve’s growing push toward ARM architecture support. #Boss
-   [video, no description]
-6. @Alex0007@mastodon.social (Alex0007) · 14h · likes 1 · replies 1 · broadPlaying
-   https://mastodon.social/@Alex0007/117441609288165157
-   Yeah guys, #NotProton made a revolution in Mac gaming. Macs are now on par with the Steam Machine. Running games on Macs has never been so convenient #MacGaming #Steam #Valve
-7. @pitcrewgg@mastodon.social (PitCrew) · 20h · likes 0 · replies 1 · practical
-   https://mastodon.social/@pitcrewgg/117440222670468343
-   🔄 War Thunder - Patch 2.59.0.65 Indonesian voice over fixed. Mozdok spawn fixed and returned to Air Arcade Battles rotation. Kamchatka missions temporarily removed. 1/2 #WarThunder #Linux #LinuxGaming #PCGaming #FlightSim #FreeTrack #HeadTracking #MetaQuest #OpenXR #PICO #Pimax 
+1. @boilingsteam@mstdn.jp (Boiling Steam) · 5h · likes 2 · replies 2 · question · broadPlaying
+   https://mastodon.social/@boilingsteam@mstdn.jp/117445201470355525
+   original: https://mstdn.jp/@boilingsteam/117445201299870434
+   Ever seen a UE5 game that does not run like dogshit? #unrealengine #ue5 #opinion #trollingthursday #gaming #pcgaming
+2. @boilingsteam@mstdn.jp (Boiling Steam) · 13h · likes 1 · replies 4 · question · broadPlaying
+   https://mastodon.social/@boilingsteam@mstdn.jp/117443421085275995
+   original: https://mstdn.jp/@boilingsteam/117443420936776303
+   Epic Games is apparently embracing Linux (so much they want to hug it to death with signed kernels for anticheat), what's your take? #epicgames #anticheat #linuxgaming #linux #pcgaming
+3. @RxBrad@mastodon.rxbrad.com (RxBrad's Spooky Ghost 👻) · 6h · likes 2 · replies 0 · broadPlaying
+   https://mastodon.social/@RxBrad@mastodon.rxbrad.com/117445056227976098
+   original: https://mastodon.rxbrad.com/@RxBrad/117445055646963949
+   Hey, nerds... Epic is making Anti-Cheat compatible with Linux. Now, don't get weird about thisOops too late. #linux #linuxgaming #videogames #PCGaming
+4. @flwwhtrbt@mastodon.social (dash) · 18h · likes 3 · replies 1 · question · broadPlaying
+   https://mastodon.social/@flwwhtrbt/117442129769970616
+   My latest mixed bag of an eBay auction. Do I have a disk drive to even play these? Nope. But theyre still satisfying to buy and add to my shelf #PCGaming
    [image, no description]
-8. @Cambion@mastodon.nl (Cambionn) · 21h · likes 0 · replies 0 · deck
-   https://mastodon.social/@Cambion@mastodon.nl/117440105000202121
-   original: https://mastodon.nl/@Cambion/117440104955888871
-   I've been really enjoying #PlanetZoo2 🐯! Perfect release date, right at the start of my pregnancy leave 😏. It runs great on the Steam Deck. Controls are surprisingly complete for controllers and performance is good even after upping the graphics. Only bug I've had so far was ri
-9. @geekrealmhub@mastodon.social (Geek Realm Hub) · 21h · likes 0 · replies 1 · practical
+5. @pitcrewgg@mastodon.social (PitCrew) · 8h · likes 1 · replies 1 · broadPlaying
+   https://mastodon.social/@pitcrewgg/117444461287834548
+   🔄 GE-Proton - Proton11-9 Release GE-Proton11-9 hotfix fixes video playback loop on Wine-Wayland and XWayland. Adds automatic HDR detection for DX11/12 with SDR fallback preserved. Readme updated. 1/2 #ProtonGE #GloriousEggroll #Linux #LinuxGaming #PCGaming #OpenSource #Steam #Va
+   [image, no description]
+6. @pitcrewgg@mastodon.social (PitCrew) · 8h · likes 1 · replies 1 · broadPlaying
+   https://mastodon.social/@pitcrewgg/117444457812146746
+   🔄 Steam - Beta Client Update October 13 Steam Client update lands in Preview Beta with fixes for hovering DLCs, audio crackling on some systems, and extremely low bitrate streaming to Android devices. 1/2 #Linux #LinuxGaming #PCGaming #Steam #ValveSoftware #LegionGo2 #LegionGoS 
+   [image, no description]
+7. @pitcrewgg@mastodon.social (PitCrew) · 9h · likes 1 · replies 1 · broadPlaying
+   https://mastodon.social/@pitcrewgg/117444219973021550
+   🚨 American Truck Simulator - Return to Brackenreach Return to Brackenreach invites truckers to help witches deliver Halloween supplies across ETS2 and ATS, personal 15 deliveries and a 1.3M community goal. 1/2 #AmericanTruckSimulator #ATS #BestCommunityEver #Linux #LinuxGaming #
+   [image, no description]
+8. @73CC@social.tchncs.de (TECC) · 11h · likes 0 · replies 0 · practical
+   https://mastodon.social/@73CC@social.tchncs.de/117443759486154526
+   original: https://social.tchncs.de/@73CC/117443759025270868
+   #TotalWarShogun2 Complete Edition on 13.10.2026: a remaster of the 2011 classic with all its expansions, DRM free on #GOG. That is how I want to buy games, as something I own and not as a licence. #AceCombat8 on 02.10.2026: the first main entry in seven years, with the campaign i
+   [image, no description]
+9. @geekrealmhub@mastodon.social (Geek Realm Hub) · 27h · likes 0 · replies 1 · practical
    https://mastodon.social/@geekrealmhub/117439997423668700
    Fortnite is coming to Linux! Epic is rebuilding Easy Anti-Cheat as EAC Linux v2, aiming for Windows-level protection. Fortnite will test it first, with support for other multiplayer games to follow. The #EpicGames Launcher is already in #Linux preview, but #Fortnite has no releas
    [image, no description]
