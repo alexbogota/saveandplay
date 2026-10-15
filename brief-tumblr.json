@@ -1,88 +1,39 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-10-14T11:25:06.154Z",
-  "builtBy": "commit e499679, schedule, run #15 attempt 1",
-  "pricesCheckedAt": "2026-10-14T10:04:34.927Z",
+  "generatedAt": "2026-10-15T11:23:51.714Z",
+  "builtBy": "commit c187b76, schedule, run #16 attempt 1",
+  "pricesCheckedAt": "2026-10-15T10:03:18.085Z",
   "warnings": [],
   "candidates": [
     {
-      "id": "gog-prince-of-persia-warrior-within",
+      "id": "indiegala-monster-hunter-rise",
       "kind": "deal",
-      "title": "Prince of Persia: Warrior Within",
-      "store": "GOG",
-      "price": 1.99,
-      "was": 9.99,
-      "discount": 80,
-      "endsAt": "2026-10-18T09:59:00+03:00",
-      "endsInHours": 92,
-      "priceCheckedAt": "2026-10-14T10:03:11.745Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13500/header.jpg?t=1720535324",
-      "drminfo": null,
-      "coverAlt": "Cover art for Prince of Persia: Warrior Within",
-      "score": 12,
-      "discountRank": 16,
-      "sites": 1,
-      "mentions": [
-        {
-          "source": "Indie Game Bundles",
-          "domain": "indiegamebundles.com",
-          "title": "Humble Choice October 2026 – Like a Dragon: Pirate Yakuza in Hawaii, Prince of Persia Lost Crown",
-          "link": "https://www.indiegamebundles.com/humble-choice-october-2026/",
-          "t": 1791829080000,
-          "how": "title"
-        }
-      ],
+      "title": "MONSTER HUNTER RISE",
+      "store": "IndieGala",
+      "price": 3.99,
+      "was": 39.99,
+      "discount": 90,
+      "endsAt": "2026-10-16T23:59:00Z",
+      "endsInHours": 37,
+      "priceCheckedAt": "2026-10-15T10:03:18.085Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1446780/header.jpg?t=1768870444",
+      "drminfo": "Steam key",
+      "coverAlt": "Cover art for MONSTER HUNTER RISE",
+      "score": 11,
+      "discountRank": 6,
+      "sites": 0,
+      "mentions": [],
       "history": {
-        "days": 6,
+        "days": 10,
         "lowest": false,
-        "since": "2026-10-09"
+        "since": "2026-10-05"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/prince-of-persia-warrior-within/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-14",
+      "link": "https://saveandplay.com/deals/indiegala/monster-hunter-rise/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-15",
       "linkKind": "link to our site",
       "whyToday": [
-        "1 news site wrote about the game in the last 48 h",
-        "deepest-discount rank 16 of 27"
-      ]
-    },
-    {
-      "id": "gog-prince-of-persia-the-two-thrones",
-      "kind": "deal",
-      "title": "Prince of Persia: The Two Thrones",
-      "store": "GOG",
-      "price": 1.99,
-      "was": 9.99,
-      "discount": 80,
-      "endsAt": "2026-10-18T09:59:00+03:00",
-      "endsInHours": 92,
-      "priceCheckedAt": "2026-10-14T10:03:11.745Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13530/header.jpg?t=1720535330",
-      "drminfo": null,
-      "coverAlt": "Cover art for Prince of Persia: The Two Thrones",
-      "score": 12,
-      "discountRank": 19,
-      "sites": 1,
-      "mentions": [
-        {
-          "source": "Indie Game Bundles",
-          "domain": "indiegamebundles.com",
-          "title": "Humble Choice October 2026 – Like a Dragon: Pirate Yakuza in Hawaii, Prince of Persia Lost Crown",
-          "link": "https://www.indiegamebundles.com/humble-choice-october-2026/",
-          "t": 1791829080000,
-          "how": "title"
-        }
-      ],
-      "history": {
-        "days": 4,
-        "lowest": false,
-        "since": "2026-10-11"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/prince-of-persia-the-two-thrones/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-14",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "1 news site wrote about the game in the last 48 h",
-        "deepest-discount rank 19 of 27"
+        "sale ends in 37 h",
+        "deepest-discount rank 6 of 28"
       ]
     },
     {
@@ -94,8 +45,8 @@
       "was": 39.99,
       "discount": 95,
       "endsAt": "2026-10-22T16:00:00+03:00",
-      "endsInHours": 194,
-      "priceCheckedAt": "2026-10-14T10:03:11.745Z",
+      "endsInHours": 170,
+      "priceCheckedAt": "2026-10-15T10:03:10.663Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/794260/header.jpg?t=1787229712",
       "drminfo": null,
       "coverAlt": "Cover art for Outward Definitive Edition",
@@ -104,15 +55,15 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 9,
+        "days": 10,
         "lowest": false,
         "since": "2026-10-05"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/outward-definitive-edition/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-14",
+      "link": "https://saveandplay.com/deals/gog/outward-definitive-edition/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-15",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 1 of 27"
+        "deepest-discount rank 1 of 28"
       ]
     },
     {
@@ -124,8 +75,8 @@
       "was": 9.99,
       "discount": 90,
       "endsAt": "2026-10-18T09:59:00+03:00",
-      "endsInHours": 92,
-      "priceCheckedAt": "2026-10-14T10:03:11.745Z",
+      "endsInHours": 68,
+      "priceCheckedAt": "2026-10-15T10:03:10.663Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/214340/header.jpg?t=1789381815",
       "drminfo": null,
       "coverAlt": "Cover art for Deponia",
@@ -134,15 +85,15 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 7,
+        "days": 8,
         "lowest": false,
         "since": "2026-10-08"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/deponia/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-14",
+      "link": "https://saveandplay.com/deals/gog/deponia/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-15",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 5 of 27"
+        "deepest-discount rank 5 of 28"
       ]
     },
     {
@@ -154,8 +105,8 @@
       "was": 14.99,
       "discount": 90,
       "endsAt": "2026-10-18T09:59:00+03:00",
-      "endsInHours": 92,
-      "priceCheckedAt": "2026-10-14T10:03:11.745Z",
+      "endsInHours": 68,
+      "priceCheckedAt": "2026-10-15T10:03:10.663Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108710/9c1728f937c2a7e632b447b02e442f6a5d88515c/header.jpg?t=1769717716",
       "drminfo": null,
       "coverAlt": "Cover art for Alan Wake",
@@ -164,88 +115,70 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 9,
+        "days": 10,
         "lowest": false,
         "since": "2026-10-05"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/alan-wake/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-14",
+      "link": "https://saveandplay.com/deals/gog/alan-wake/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-15",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 2 of 27"
+        "deepest-discount rank 2 of 28"
+      ]
+    },
+    {
+      "id": "gog-the-saboteur",
+      "kind": "deal",
+      "title": "The Saboteur",
+      "store": "GOG",
+      "price": 1.99,
+      "was": 19.99,
+      "discount": 90,
+      "endsAt": "2026-10-18T09:59:00+03:00",
+      "endsInHours": 68,
+      "priceCheckedAt": "2026-10-15T10:03:10.663Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24880/header.jpg?t=1777484749",
+      "drminfo": null,
+      "coverAlt": "Cover art for The Saboteur",
+      "score": 10,
+      "discountRank": 3,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 10,
+        "lowest": false,
+        "since": "2026-10-05"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/the-saboteur/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-15",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 3 of 28"
       ]
     }
   ],
   "gogNews": [],
   "topical": [
     {
-      "title": "[Price glitch] Amazon is selling €50 Twitch gift cards for just €11.40",
-      "source": "gg.deals News",
-      "link": "https://gg.deals/deal/price-glitch-amazon-is-selling-50-twitch-gift-cards-for-just-1140/",
-      "t": 1791967140000,
-      "keyword": "price",
-      "summary": "This incredible deal probably won't last long."
-    },
-    {
-      "title": "Steam’s Fallout Day Sale 2026 opens the Vault on discounts of up to 75%",
-      "source": "gg.deals News",
-      "link": "https://gg.deals/deal/steams-fallout-day-sale-2026-opens-the-vault-on-discounts-of-up-to-75/",
-      "t": 1791915003000,
-      "keyword": "sale",
-      "summary": "The wasteland awaits."
-    },
-    {
-      "title": "Roguelike deckbuilder Hex Reverse is FREE to keep on Steam for its first month after launch",
+      "title": "Get a FREE Steam key with KeyXP's Puzzle Game Giveaway",
       "source": "gg.deals Freebies",
-      "link": "https://gg.deals/freebie/roguelike-deckbuilder-hex-reverse-is-free-to-keep-on-steam-for-its-first-month-after-launch/",
-      "t": 1791909000000,
+      "link": "https://gg.deals/freebie/get-a-free-steam-key-with-keyxps-puzzle-game-giveaway/",
+      "t": 1792052100000,
       "keyword": "free",
-      "summary": "The game will switch to a paid-for model in November."
+      "summary": "KeyXP is giving away 10,000 keys for five different puzzle games!"
+    },
+    {
+      "title": "Humble IGN 30th Anniversary Bundle – ENDS SOON",
+      "source": "Indie Game Bundles",
+      "link": "https://www.indiegamebundles.com/humble-ign-30th-anniversary-bundle/",
+      "t": 1792000997000,
+      "keyword": "bundle",
+      "summary": "September is a big month for many reasons—and this September is even bigger, because we’re celebrating IGN’s 30th Anniversary! The post Humble IGN 30th Anniver…"
     }
   ],
   "topics": [
     {
-      "headline": "Epic Games reportedly delays Star Wars and Marvel shooter, as the Fortnite maker embraces \"AI-accelerated development\"",
-      "score": 14,
-      "sites": [
-        "gg.deals",
-        "pcgamer.com",
-        "rockpapershotgun.com",
-        "eurogamer.net"
-      ],
-      "keywords": [
-        "humble"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "Epic Games pushes AI-first development for its upcoming Star Wars and Marvel shooter",
-          "link": "https://gg.deals/gaming-news/epic-games-pushes-ai-first-development-for-its-upcoming-star-wars-and-marvel-shooter/",
-          "published": "2026-10-13T10:50:00.000Z"
-        },
-        {
-          "source": "PC Gamer",
-          "title": "'Our humble goal is to survive the AI revolution' says Epic Games CEO, as its Star Wars and Marvel crossover pivots to 'AI first' development",
-          "link": "https://www.pcgamer.com/gaming-industry/game-development/our-humble-goal-is-to-survive-the-ai-revolution-says-epic-games-ceo-as-its-star-wars-and-marvel-crossover-pivots-to-ai-first-development/",
-          "published": "2026-10-12T22:55:00.000Z"
-        },
-        {
-          "source": "Rock Paper Shotgun",
-          "title": "\"No more hand-written code\": Epic reportedly impose \"AI-first\" model on creators of new Disney shooter with Marvel and Star Wars characters",
-          "link": "https://www.rockpapershotgun.com/no-more-hand-written-code-epic-reportedly-impose-ai-first-model-on-creators-of-new-disney-shooter-with-marvel-and-star-wars-characters",
-          "published": "2026-10-12T22:29:01.000Z"
-        },
-        {
-          "source": "Eurogamer",
-          "title": "Epic Games reportedly delays Star Wars and Marvel shooter, as the Fortnite maker embraces \"AI-accelerated development\"",
-          "link": "https://www.eurogamer.net/epic-games-delays-star-wars-marvel-shooter-ai-development",
-          "published": "2026-10-12T19:11:39.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Humble Cozy After Dark Showcase Bundle",
+      "headline": "Humble's Fright or Fight Halloween Bundle is a scare fest with 8 horror games for $12 (updated)",
       "score": 10,
       "sites": [
         "gg.deals",
@@ -259,15 +192,73 @@
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Humble’s Cozy After Dark Showcase Bundle keeps things comfy once the lights go out",
-          "link": "https://gg.deals/bundle/humbles-cozy-after-dark-showcase-bundle-keeps-things-comfy-once-the-lights-go-out/",
-          "published": "2026-10-12T18:56:21.000Z"
+          "title": "Humble's Fright or Fight Halloween Bundle is a scare fest with 8 horror games for $12 (updated)",
+          "link": "https://gg.deals/bundle/humbles-fright-or-fight-halloween-bundle-is-a-scare-fest-with-7-horror-games-for-12/",
+          "published": "2026-10-15T10:52:52.000Z"
         },
         {
           "source": "Indie Game Bundles",
-          "title": "Humble Cozy After Dark Showcase Bundle",
-          "link": "https://www.indiegamebundles.com/humble-cozy-after-dark-showcase-bundle/",
-          "published": "2026-10-12T19:07:54.000Z"
+          "title": "Humble Hamble’s Fright or Fight Halloween Bundle",
+          "link": "https://www.indiegamebundles.com/humble-hambles-fright-or-fight-halloween-bundle/",
+          "published": "2026-10-14T18:20:56.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "'My idea of a Netflix for games doesn't work': Garry's Mod successor is getting 'sweeping changes'",
+      "score": 10,
+      "sites": [
+        "pcgamer.com",
+        "rockpapershotgun.com"
+      ],
+      "keywords": [
+        "free",
+        "free to play"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "PC Gamer",
+          "title": "'My idea of a Netflix for games doesn't work': Garry's Mod successor is getting 'sweeping changes'",
+          "link": "https://www.pcgamer.com/software/platforms/my-idea-of-a-netflix-for-games-doesnt-work-garrys-mod-successor-is-getting-sweeping-changes/",
+          "published": "2026-10-14T21:54:25.000Z"
+        },
+        {
+          "source": "Rock Paper Shotgun",
+          "title": "\"My idea of a Netflix for games doesn’t work\": Garry's Mod creator says struggling spiritual successor S&box will go free to play as part of major rethink",
+          "link": "https://www.rockpapershotgun.com/my-idea-of-a-netflix-for-games-doesnt-work-garrys-mod-creator-says-struggling-spiritual-successor-sbox-will-go-free-to-play-as-part-of-major-rethink",
+          "published": "2026-10-14T10:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Ubisoft are making layoffs at Assassin's Creed Black Flag Resynced studio Ubisoft Singapore while closing Trials creators Redlynx",
+      "score": 9,
+      "sites": [
+        "pcgamer.com",
+        "rockpapershotgun.com",
+        "eurogamer.net"
+      ],
+      "keywords": [],
+      "games": [],
+      "items": [
+        {
+          "source": "PC Gamer",
+          "title": "Assassin's Creed Black Flag Resynced was a big hit, and now it's time for big layoffs at the studio that made it",
+          "link": "https://www.pcgamer.com/gaming-industry/assassins-creed-black-flag-resynced-was-a-big-hit-and-now-its-time-for-big-layoffs-at-the-studio-that-made-it/",
+          "published": "2026-10-14T16:02:03.000Z"
+        },
+        {
+          "source": "Rock Paper Shotgun",
+          "title": "Ubisoft are making layoffs at Assassin's Creed Black Flag Resynced studio Ubisoft Singapore while closing Trials creators Redlynx",
+          "link": "https://www.rockpapershotgun.com/ubisoft-are-making-layoffs-at-assassins-creed-black-flag-resynced-studio-ubisoft-singapore-while-closing-trials-creators-redlynx-according-to-report",
+          "published": "2026-10-14T10:43:55.000Z"
+        },
+        {
+          "source": "Eurogamer",
+          "title": "Ubisoft closing Trials developer RedLynx and downsizing Assassin's Creed: Black Flag Resynced team in Singapore",
+          "link": "https://www.eurogamer.net/ubisoft-closing-trials-studio-redlyx-layoffs-singapore-black-flag",
+          "published": "2026-10-14T12:30:49.000Z"
         }
       ]
     },
@@ -298,48 +289,22 @@
       ]
     },
     {
-      "headline": "\"My idea of a Netflix for games doesn’t work\": Garry's Mod creator says struggling spiritual successor S&box will go free to play as part of major rethink",
-      "score": 7,
-      "sites": [
-        "rockpapershotgun.com"
-      ],
-      "keywords": [
-        "free",
-        "free to play"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "Rock Paper Shotgun",
-          "title": "\"My idea of a Netflix for games doesn’t work\": Garry's Mod creator says struggling spiritual successor S&box will go free to play as part of major rethink",
-          "link": "https://www.rockpapershotgun.com/my-idea-of-a-netflix-for-games-doesnt-work-garrys-mod-creator-says-struggling-spiritual-successor-sbox-will-go-free-to-play-as-part-of-major-rethink",
-          "published": "2026-10-14T10:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "s&box goes free-to-play in late 2026, but what about those who already paid?",
+      "headline": "Humble’s The Factory Must Grow Bundle keeps the assembly lines rolling with 8 games",
       "score": 7,
       "sites": [
         "gg.deals"
       ],
       "keywords": [
-        "free",
-        "free to play"
+        "bundle",
+        "humble"
       ],
       "games": [],
       "items": [
         {
-          "source": "gg.deals Freebies",
-          "title": "s&box goes free-to-play in late 2026, but what about those who already paid?",
-          "link": "https://gg.deals/freebie/garrys-mod-successor-sbox-is-going-free-to-play/",
-          "published": "2026-10-14T09:55:00.000Z"
-        },
-        {
           "source": "gg.deals News",
-          "title": "s&box goes free-to-play in late 2026, but what about those who already paid?",
-          "link": "https://gg.deals/freebie/garrys-mod-successor-sbox-is-going-free-to-play/",
-          "published": "2026-10-14T09:55:00.000Z"
+          "title": "Humble’s The Factory Must Grow Bundle keeps the assembly lines rolling with 8 games",
+          "link": "https://gg.deals/bundle/humbles-the-factory-must-grow-bundle-keeps-the-assembly-lines-rolling-with-8-games/",
+          "published": "2026-10-14T18:55:38.000Z"
         }
       ]
     }

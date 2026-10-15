@@ -1,7 +1,7 @@
 {
   "top": {
     "prices": {
-      "indiegala-monster-hunter-rise": "2026-10-07",
+      "indiegala-monster-hunter-rise": "2026-10-15",
       "indiegala-control-ultimate-edition": "2026-10-08",
       "gog-deponia": "2026-10-09",
       "indiegala-lego-star-wars-the-skywalker-saga-deluxe-edition": "2026-10-10",
@@ -11,7 +11,7 @@
       "gog-prince-of-persia-warrior-within": "2026-10-14"
     },
     "nostr": {
-      "indiegala-monster-hunter-rise": "2026-10-08",
+      "indiegala-monster-hunter-rise": "2026-10-15",
       "gog-deponia": "2026-10-09",
       "indiegala-lego-star-wars-the-skywalker-saga-deluxe-edition": "2026-10-10",
       "indiegala-the-pathless": "2026-10-11",
@@ -21,11 +21,13 @@
     },
     "lemmy": {
       "gog-prince-of-persia-the-sands-of-time": "2026-10-13",
-      "gog-prince-of-persia-warrior-within": "2026-10-14"
+      "gog-prince-of-persia-warrior-within": "2026-10-14",
+      "indiegala-monster-hunter-rise": "2026-10-15"
     },
     "tumblr": {
       "gog-prince-of-persia-the-sands-of-time": "2026-10-13",
-      "gog-prince-of-persia-warrior-within": "2026-10-14"
+      "gog-prince-of-persia-warrior-within": "2026-10-14",
+      "indiegala-monster-hunter-rise": "2026-10-15"
     }
   }
 }
