@@ -2,12 +2,14 @@ name: Comment candidates
 
 # Every 6 hours, and by hand: GitHub -> Actions -> "Comment candidates" -> Run workflow.
 # It looks for fresh posts where a short helpful reply from our account would fit (settings: data/comments-accounts.json):
-# Bluesky (account "prices") and Mastodon (account "mastodon-prices"), and keeps SHORT lists on the "comments" branch
+# every enabled account of data/comments-accounts.json: Bluesky ("prices"), Mastodon ("mastodon-prices"), and the niche accounts Cozy ("cozy") and Retro ("retro"),
+# and keeps SHORT lists on the "comments" branch
 # (a separate branch, so the site is not rebuilt). Nothing is posted, liked or followed.
 #
 # The password of the Bluesky account (an app password) is the secret BSKY_APP_PASSWORD. Put it there once with: npm run comments:secret
+# Cozy and Retro search under the login of the main account (loginAs in the settings), so they need no secret of their own. A new account is a new block in the settings: this file does not change.
 # Mastodon needs no secret: it reads the public hashtag timelines.
-# The lists are the files comments-prices.md and comments-mastodon-prices.md on the "comments" branch; the same text is at the bottom of each run page (Summary).
+# The lists are the files comments-prices.md, comments-mastodon-prices.md, comments-cozy.md and comments-retro.md on the "comments" branch; the same text is at the bottom of each run page (Summary).
 #
 # If the search fails for one account, the other account's list is still saved, and the run ends red at the last step.
 # (Decided 13 Oct 2026 when Mastodon was added. A copy of this file lives in scripts/ because the chat cannot write to .github: Claude Code copies it to
