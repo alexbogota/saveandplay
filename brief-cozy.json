@@ -1,0 +1,262 @@
+{
+  "account": "Cozy and calm games",
+  "generatedAt": "2026-10-15T22:30:00.000Z",
+  "builtBy": "local run",
+  "pricesCheckedAt": "2026-10-15T10:03:18.085Z",
+  "warnings": [],
+  "niche": {
+    "label": "Cozy",
+    "fit": 4,
+    "postable": 4
+  },
+  "candidates": [
+    {
+      "id": "gog-deponia",
+      "kind": "deal",
+      "title": "Deponia",
+      "store": "GOG",
+      "price": 0.99,
+      "was": 9.99,
+      "discount": 90,
+      "endsAt": "2026-10-18T09:59:00+03:00",
+      "endsInHours": 56,
+      "priceCheckedAt": "2026-10-15T10:03:10.663Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/214340/header.jpg?t=1789381815",
+      "drminfo": null,
+      "coverAlt": "Cover art for Deponia",
+      "facts": {
+        "year": 2012,
+        "genres": [
+          "Modern",
+          "Adventure",
+          "Point-and-click"
+        ],
+        "tags": [
+          "Adventure",
+          "Indie",
+          "Story Rich",
+          "2D",
+          "Puzzle",
+          "Classic",
+          "Science",
+          "Great Soundtrack",
+          "Funny",
+          "Point&Click",
+          "Modern",
+          "Dystopian",
+          "Hidden Object",
+          "Steampunk"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 10,
+      "discountRank": 1,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 8,
+        "lowest": false,
+        "since": "2026-10-08"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/deponia/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=deals-2026-10-15",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 1 of 4"
+      ]
+    },
+    {
+      "id": "gog-syberia-ii",
+      "kind": "deal",
+      "title": "Syberia II",
+      "store": "GOG",
+      "price": 2.59,
+      "was": 12.99,
+      "discount": 80,
+      "endsAt": "2026-10-18T09:59:00+03:00",
+      "endsInHours": 56,
+      "priceCheckedAt": "2026-10-15T10:03:10.663Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/46510/header.jpg?t=1743167581",
+      "drminfo": null,
+      "coverAlt": "Cover art for Syberia II",
+      "facts": {
+        "year": 2004,
+        "genres": [
+          "Adventure",
+          "Point-and-click",
+          "Detective-mystery"
+        ],
+        "tags": [
+          "Adventure",
+          "Story Rich",
+          "Atmospheric",
+          "Exploration",
+          "Puzzle",
+          "Classic",
+          "Female Protagonist",
+          "Great Soundtrack",
+          "Third Person",
+          "Mystery",
+          "Point&Click",
+          "Logic",
+          "Emotional",
+          "Investigation",
+          "Detective-mystery",
+          "Hidden Object",
+          "Steampunk"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 9,
+      "discountRank": 2,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 8,
+        "lowest": false,
+        "since": "2026-10-08"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/syberia-ii/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=deals-2026-10-15",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 2 of 4"
+      ]
+    },
+    {
+      "id": "gog-simcity-4-deluxe-edition",
+      "kind": "deal",
+      "title": "SimCity 4 Deluxe Edition",
+      "store": "GOG",
+      "price": 4.99,
+      "was": 19.99,
+      "discount": 75,
+      "endsAt": "2026-10-18T09:59:00+03:00",
+      "endsInHours": 56,
+      "priceCheckedAt": "2026-10-15T10:03:10.663Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
+      "drminfo": null,
+      "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
+      "facts": {
+        "year": 2003,
+        "genres": [
+          "Simulation",
+          "Building",
+          "Managerial"
+        ],
+        "tags": [
+          "Atmospheric",
+          "Simulation",
+          "Classic",
+          "Great Soundtrack",
+          "Management",
+          "Sandbox",
+          "Real-Time",
+          "Isometric",
+          "Building",
+          "Managerial",
+          "City builder"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 8.5,
+      "discountRank": 3,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 9,
+        "lowest": false,
+        "since": "2026-10-07"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=deals-2026-10-15",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 3 of 4"
+      ]
+    },
+    {
+      "id": "gog-rollercoaster-tycoon-3-complete-edition",
+      "kind": "deal",
+      "title": "RollerCoaster Tycoon 3: Complete Edition",
+      "store": "GOG",
+      "price": 4.99,
+      "was": 19.99,
+      "discount": 75,
+      "endsAt": "2026-10-20T09:59:00+03:00",
+      "endsInHours": 104,
+      "priceCheckedAt": "2026-10-15T10:03:10.663Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368820/header.jpg?t=1779306991",
+      "drminfo": null,
+      "coverAlt": "Cover art for RollerCoaster Tycoon 3: Complete Edition",
+      "facts": {
+        "year": 2006,
+        "genres": [
+          "Simulation",
+          "Building",
+          "Managerial"
+        ],
+        "tags": [
+          "Simulation",
+          "Classic",
+          "Casual",
+          "Funny",
+          "Management",
+          "Sandbox",
+          "Family Friendly",
+          "Building",
+          "Cartoony",
+          "Managerial",
+          "City builder"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 8.5,
+      "discountRank": 4,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 6,
+        "lowest": false,
+        "since": "2026-10-10"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/rollercoaster-tycoon-3-complete-edition/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=deals-2026-10-15",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 4 of 4"
+      ]
+    }
+  ],
+  "gogNews": [],
+  "topical": [],
+  "topics": [],
+  "left": {
+    "otherStore": 15,
+    "hidden": 0,
+    "notNiche": 24,
+    "noFacts": 0,
+    "taken": 0,
+    "smallDiscount": 0,
+    "ended": 0,
+    "endsTooSoon": 0,
+    "oldPrice": 0
+  },
+  "sources": {
+    "total": 11,
+    "failed": []
+  },
+  "posts": {
+    "bluesky": {
+      "text": "Deponia: -90% at GOG\n$0.99 (was $9.99)\nPrice checked Oct 15. Sale ends Oct 18.\n\nhttps://saveandplay.com/deals/gog/deponia/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=deals-2026-10-15\n\n#GameDeals #PCGaming #PointAndClick #Deponia\nAd",
+      "length": 154,
+      "max": 300,
+      "link": "https://saveandplay.com/deals/gog/deponia/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=deals-2026-10-15",
+      "deal": "gog-deponia"
+    }
+  }
+}

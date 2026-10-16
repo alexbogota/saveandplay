@@ -1,0 +1,306 @@
+{
+  "account": "Retro game deals",
+  "generatedAt": "2026-10-15T22:30:00.000Z",
+  "builtBy": "local run",
+  "pricesCheckedAt": "2026-10-15T10:03:18.085Z",
+  "warnings": [],
+  "niche": {
+    "label": "Retro",
+    "fit": 8,
+    "postable": 8
+  },
+  "candidates": [
+    {
+      "id": "gog-prince-of-persia-the-sands-of-time",
+      "kind": "deal",
+      "title": "Prince of Persia: The Sands of Time",
+      "store": "GOG",
+      "price": 1.99,
+      "was": 9.99,
+      "discount": 80,
+      "endsAt": "2026-10-18T09:59:00+03:00",
+      "endsInHours": 56,
+      "priceCheckedAt": "2026-10-15T10:03:10.663Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13600/header.jpg?t=1720535333",
+      "drminfo": null,
+      "coverAlt": "Cover art for Prince of Persia: The Sands of Time",
+      "facts": {
+        "year": 2003,
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy"
+        ],
+        "tags": [
+          "Adventure",
+          "Action",
+          "Fantasy",
+          "Story Rich",
+          "Atmospheric",
+          "Classic",
+          "Great Soundtrack",
+          "Third Person",
+          "Platformer",
+          "Hack and Slash",
+          "Puzzle Platformer",
+          "Good Old Game",
+          "Time Manipulation"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 9,
+      "discountRank": 2,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 7,
+        "lowest": false,
+        "since": "2026-10-09"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/prince-of-persia-the-sands-of-time/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-15",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 2 of 8"
+      ]
+    },
+    {
+      "id": "gog-prince-of-persia-warrior-within",
+      "kind": "deal",
+      "title": "Prince of Persia: Warrior Within",
+      "store": "GOG",
+      "price": 1.99,
+      "was": 9.99,
+      "discount": 80,
+      "endsAt": "2026-10-18T09:59:00+03:00",
+      "endsInHours": 56,
+      "priceCheckedAt": "2026-10-15T10:03:10.663Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13500/header.jpg?t=1720535324",
+      "drminfo": null,
+      "coverAlt": "Cover art for Prince of Persia: Warrior Within",
+      "facts": {
+        "year": 2004,
+        "genres": [
+          "Action",
+          "TPP",
+          "Fantasy"
+        ],
+        "tags": [
+          "Action",
+          "Fantasy",
+          "Story Rich",
+          "Atmospheric",
+          "Puzzle",
+          "Classic",
+          "Dark",
+          "Great Soundtrack",
+          "Third Person",
+          "Open World",
+          "Platformer",
+          "Gore",
+          "Hack and Slash",
+          "Time Manipulation"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 9,
+      "discountRank": 3,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 7,
+        "lowest": false,
+        "since": "2026-10-09"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/prince-of-persia-warrior-within/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-15",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 3 of 8"
+      ]
+    },
+    {
+      "id": "gog-system-shock-enhanced-edition",
+      "kind": "deal",
+      "title": "System Shock: Enhanced Edition",
+      "store": "GOG",
+      "price": 1.99,
+      "was": 9.99,
+      "discount": 80,
+      "endsAt": "2026-10-20T09:59:00+03:00",
+      "endsInHours": 104,
+      "priceCheckedAt": "2026-10-15T10:03:10.663Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/410710/header.jpg?t=1774275834",
+      "drminfo": null,
+      "coverAlt": "Cover art for System Shock: Enhanced Edition",
+      "facts": {
+        "year": 1994,
+        "genres": [
+          "Shooter",
+          "FPP",
+          "Sci-fi"
+        ],
+        "tags": [
+          "Sci-fi",
+          "Classic",
+          "First-Person",
+          "Science",
+          "FPS",
+          "Shooter"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 9,
+      "discountRank": 4,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 6,
+        "lowest": false,
+        "since": "2026-10-10"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/system-shock-enhanced-edition/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-15",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 4 of 8"
+      ]
+    },
+    {
+      "id": "gog-prince-of-persia-the-two-thrones",
+      "kind": "deal",
+      "title": "Prince of Persia: The Two Thrones",
+      "store": "GOG",
+      "price": 1.99,
+      "was": 9.99,
+      "discount": 80,
+      "endsAt": "2026-10-18T09:59:00+03:00",
+      "endsInHours": 56,
+      "priceCheckedAt": "2026-10-15T10:03:10.663Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13530/header.jpg?t=1720535330",
+      "drminfo": null,
+      "coverAlt": "Cover art for Prince of Persia: The Two Thrones",
+      "facts": {
+        "year": 2005,
+        "genres": [
+          "Action",
+          "TPP",
+          "Fantasy"
+        ],
+        "tags": [
+          "Action",
+          "Fantasy",
+          "Story Rich",
+          "Atmospheric",
+          "Classic",
+          "Great Soundtrack",
+          "Third Person",
+          "Platformer",
+          "Hack and Slash",
+          "Stealth",
+          "Time Manipulation"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 9,
+      "discountRank": 5,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 5,
+        "lowest": false,
+        "since": "2026-10-11"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/prince-of-persia-the-two-thrones/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-15",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 5 of 8"
+      ]
+    },
+    {
+      "id": "gog-flatout-2",
+      "kind": "deal",
+      "title": "FlatOut 2",
+      "store": "GOG",
+      "price": 1.99,
+      "was": 9.99,
+      "discount": 80,
+      "endsAt": "2026-10-18T09:59:00+03:00",
+      "endsInHours": 56,
+      "priceCheckedAt": "2026-10-15T10:03:10.663Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990/header.jpg?t=1765237363",
+      "drminfo": null,
+      "coverAlt": "Cover art for FlatOut 2",
+      "facts": {
+        "year": 2006,
+        "genres": [
+          "Racing",
+          "Arcade",
+          "Off-road"
+        ],
+        "tags": [
+          "Atmospheric",
+          "Classic",
+          "Casual",
+          "Great Soundtrack",
+          "Funny",
+          "Multiplayer",
+          "Arcade",
+          "Local Multiplayer",
+          "Physics",
+          "Racing",
+          "Off-road"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 9,
+      "discountRank": 6,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 4,
+        "lowest": false,
+        "since": "2026-10-12"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/flatout-2/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-15",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 6 of 8"
+      ]
+    }
+  ],
+  "gogNews": [],
+  "topical": [],
+  "topics": [],
+  "left": {
+    "otherStore": 19,
+    "hidden": 0,
+    "notNiche": 16,
+    "noFacts": 0,
+    "taken": 0,
+    "smallDiscount": 0,
+    "ended": 0,
+    "endsTooSoon": 0,
+    "oldPrice": 0
+  },
+  "sources": {
+    "total": 11,
+    "failed": []
+  },
+  "posts": {
+    "bluesky": {
+      "text": "Prince of Persia: The Sands of Time: -80% at GOG\n$1.99 (was $9.99)\nPrice checked Oct 15. Sale ends Oct 18.\n\nhttps://saveandplay.com/deals/gog/prince-of-persia-the-sands-of-time/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-15\n\n#RetroGaming #GameDeals #PrinceOfPersia\nAd",
+      "length": 177,
+      "max": 300,
+      "link": "https://saveandplay.com/deals/gog/prince-of-persia-the-sands-of-time/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-15",
+      "deal": "gog-prince-of-persia-the-sands-of-time"
+    }
+  }
+}
