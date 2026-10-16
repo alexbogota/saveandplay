@@ -39,7 +39,9 @@
     "comments:show": "node scripts/comments-show.mjs",
     "social:pending": "node scripts/social-pending.mjs",
     "social:test": "node --test scripts/test-social.mjs",
-    "tags:research": "node scripts/tag-research.mjs"
+    "tags:research": "node scripts/tag-research.mjs",
+    "facts": "node scripts/enrich-facts.mjs",
+    "niche:test": "node scripts/test-niche.mjs"
   },
   "dependencies": {
     "astro": "^7.3.5",

@@ -1,0 +1,835 @@
+{
+ "gog-alan-wake": {
+  "source": "gog",
+  "year": 2012,
+  "genres": [
+   "Action",
+   "Adventure",
+   "Horror"
+  ],
+  "tags": [
+   "Adventure",
+   "Action",
+   "Story Rich",
+   "Atmospheric",
+   "Classic",
+   "Dark",
+   "Horror",
+   "Great Soundtrack",
+   "Third Person",
+   "Mystery",
+   "Survival",
+   "Survival Horror",
+   "Psychological Horror",
+   "Supernatural",
+   "Thriller"
+  ],
+  "mature": false,
+  "at": "2026-10-16"
+ },
+ "gog-outward-definitive-edition": {
+  "source": "gog",
+  "year": 2022,
+  "genres": [
+   "Role-playing",
+   "Fantasy",
+   "Survival"
+  ],
+  "tags": [
+   "Fantasy",
+   "Atmospheric",
+   "Role-playing",
+   "Exploration",
+   "Third Person",
+   "Open World",
+   "Multiplayer",
+   "Survival",
+   "Violent",
+   "Resource Management",
+   "Difficult",
+   "Magic",
+   "Local Co-Op",
+   "Souls-like",
+   "Split Screen"
+  ],
+  "mature": true,
+  "at": "2026-10-16"
+ },
+ "gog-the-saboteur": {
+  "source": "gog",
+  "year": 2009,
+  "genres": [
+   "Action",
+   "TPP",
+   "Stealth"
+  ],
+  "tags": [
+   "Action",
+   "Classic",
+   "Third Person",
+   "Stealth"
+  ],
+  "mature": false,
+  "at": "2026-10-16"
+ },
+ "gog-darkest-dungeon": {
+  "source": "gog",
+  "year": 2016,
+  "genres": [
+   "Role-playing",
+   "Turn-based",
+   "Fantasy"
+  ],
+  "tags": [
+   "Indie",
+   "Fantasy",
+   "Atmospheric",
+   "Role-playing",
+   "2D",
+   "Turn-Based",
+   "Dark",
+   "Horror",
+   "Difficult",
+   "Roguelike",
+   "Roguelite",
+   "Dungeon Crawler",
+   "Lovecraftian",
+   "Perma Death",
+   "Petting Dogs"
+  ],
+  "mature": false,
+  "at": "2026-10-16"
+ },
+ "gog-simcity-4-deluxe-edition": {
+  "source": "gog",
+  "year": 2003,
+  "genres": [
+   "Simulation",
+   "Building",
+   "Managerial"
+  ],
+  "tags": [
+   "Atmospheric",
+   "Simulation",
+   "Classic",
+   "Great Soundtrack",
+   "Management",
+   "Sandbox",
+   "Real-Time",
+   "Isometric",
+   "Building",
+   "Managerial",
+   "City builder"
+  ],
+  "mature": false,
+  "at": "2026-10-16"
+ },
+ "gog-shadow-tactics-blades-of-the-shogun": {
+  "source": "gog",
+  "year": 2016,
+  "genres": [
+   "Strategy",
+   "Real-time",
+   "Stealth"
+  ],
+  "tags": [
+   "Indie",
+   "Atmospheric",
+   "Strategy",
+   "Puzzle",
+   "Great Soundtrack",
+   "Tactical",
+   "Third Person",
+   "Historical",
+   "Survival",
+   "Violent",
+   "Real-Time",
+   "Difficult",
+   "Isometric",
+   "RTS",
+   "Stealth",
+   "Ninja"
+  ],
+  "mature": true,
+  "at": "2026-10-16"
+ },
+ "gog-legend-of-grimrock-2": {
+  "source": "gog",
+  "year": 2014,
+  "genres": [
+   "Role-playing",
+   "Adventure",
+   "Fantasy"
+  ],
+  "tags": [
+   "Adventure",
+   "Indie",
+   "Fantasy",
+   "Atmospheric",
+   "Role-playing",
+   "Exploration",
+   "Turn-Based",
+   "Puzzle",
+   "First-Person",
+   "Great Soundtrack",
+   "Difficult",
+   "Dungeon Crawler",
+   "LevelEditor"
+  ],
+  "mature": false,
+  "at": "2026-10-16"
+ },
+ "gog-rayman-origins": {
+  "source": "gog",
+  "year": 2012,
+  "genres": [
+   "Action",
+   "Adventure",
+   "Platformer"
+  ],
+  "tags": [
+   "Adventure",
+   "Action",
+   "Fantasy",
+   "2D",
+   "Classic",
+   "Great Soundtrack",
+   "Funny",
+   "Platformer",
+   "Multiplayer",
+   "Difficult",
+   "Family Friendly",
+   "Cartoony",
+   "Local Co-Op",
+   "Local Multiplayer"
+  ],
+  "mature": false,
+  "at": "2026-10-16"
+ },
+ "gog-legend-of-grimrock": {
+  "source": "gog",
+  "year": 2012,
+  "genres": [
+   "Role-playing",
+   "Adventure",
+   "Fantasy"
+  ],
+  "tags": [
+   "Adventure",
+   "Indie",
+   "Fantasy",
+   "Atmospheric",
+   "Role-playing",
+   "Puzzle",
+   "Classic",
+   "First-Person",
+   "Tactical",
+   "Difficult",
+   "Realistic",
+   "Dungeon Crawler",
+   "LevelEditor"
+  ],
+  "mature": false,
+  "at": "2026-10-16"
+ },
+ "gog-dead-space-2008": {
+  "source": "gog",
+  "year": 2008,
+  "genres": [
+   "Shooter",
+   "TPP",
+   "Horror"
+  ],
+  "tags": [
+   "Story Rich",
+   "Atmospheric",
+   "Classic",
+   "Science",
+   "Dark",
+   "Horror",
+   "Third Person",
+   "Survival",
+   "Gore",
+   "Space",
+   "Shooter",
+   "Survival Horror",
+   "Zombies"
+  ],
+  "mature": true,
+  "at": "2026-10-16"
+ },
+ "gog-syberia-ii": {
+  "source": "gog",
+  "year": 2004,
+  "genres": [
+   "Adventure",
+   "Point-and-click",
+   "Detective-mystery"
+  ],
+  "tags": [
+   "Adventure",
+   "Story Rich",
+   "Atmospheric",
+   "Exploration",
+   "Puzzle",
+   "Classic",
+   "Female Protagonist",
+   "Great Soundtrack",
+   "Third Person",
+   "Mystery",
+   "Point&Click",
+   "Logic",
+   "Emotional",
+   "Investigation",
+   "Detective-mystery",
+   "Hidden Object",
+   "Steampunk"
+  ],
+  "mature": false,
+  "at": "2026-10-16"
+ },
+ "gog-deponia": {
+  "source": "gog",
+  "year": 2012,
+  "genres": [
+   "Modern",
+   "Adventure",
+   "Point-and-click"
+  ],
+  "tags": [
+   "Adventure",
+   "Indie",
+   "Story Rich",
+   "2D",
+   "Puzzle",
+   "Classic",
+   "Science",
+   "Great Soundtrack",
+   "Funny",
+   "Point&Click",
+   "Modern",
+   "Dystopian",
+   "Hidden Object",
+   "Steampunk"
+  ],
+  "mature": false,
+  "at": "2026-10-16"
+ },
+ "gog-prince-of-persia-the-sands-of-time": {
+  "source": "gog",
+  "year": 2003,
+  "genres": [
+   "Action",
+   "Adventure",
+   "Fantasy"
+  ],
+  "tags": [
+   "Adventure",
+   "Action",
+   "Fantasy",
+   "Story Rich",
+   "Atmospheric",
+   "Classic",
+   "Great Soundtrack",
+   "Third Person",
+   "Platformer",
+   "Hack and Slash",
+   "Puzzle Platformer",
+   "Good Old Game",
+   "Time Manipulation"
+  ],
+  "mature": false,
+  "at": "2026-10-16"
+ },
+ "gog-prince-of-persia-warrior-within": {
+  "source": "gog",
+  "year": 2004,
+  "genres": [
+   "Action",
+   "TPP",
+   "Fantasy"
+  ],
+  "tags": [
+   "Action",
+   "Fantasy",
+   "Story Rich",
+   "Atmospheric",
+   "Puzzle",
+   "Classic",
+   "Dark",
+   "Great Soundtrack",
+   "Third Person",
+   "Open World",
+   "Platformer",
+   "Gore",
+   "Hack and Slash",
+   "Time Manipulation"
+  ],
+  "mature": true,
+  "at": "2026-10-16"
+ },
+ "gog-rollercoaster-tycoon-3-complete-edition": {
+  "source": "gog",
+  "year": 2006,
+  "genres": [
+   "Simulation",
+   "Building",
+   "Managerial"
+  ],
+  "tags": [
+   "Simulation",
+   "Classic",
+   "Casual",
+   "Funny",
+   "Management",
+   "Sandbox",
+   "Family Friendly",
+   "Building",
+   "Cartoony",
+   "Managerial",
+   "City builder"
+  ],
+  "mature": false,
+  "at": "2026-10-16"
+ },
+ "gog-system-shock-enhanced-edition": {
+  "source": "gog",
+  "year": 1994,
+  "genres": [
+   "Shooter",
+   "FPP",
+   "Sci-fi"
+  ],
+  "tags": [
+   "Sci-fi",
+   "Classic",
+   "First-Person",
+   "Science",
+   "FPS",
+   "Shooter"
+  ],
+  "mature": false,
+  "at": "2026-10-16"
+ },
+ "gog-hotline-miami": {
+  "source": "gog",
+  "year": 2012,
+  "genres": [
+   "Action",
+   "Arcade",
+   "Fighting"
+  ],
+  "tags": [
+   "Action",
+   "Indie",
+   "Atmospheric",
+   "Classic",
+   "Pixel Graphics",
+   "Great Soundtrack",
+   "Violent",
+   "Difficult",
+   "Gore",
+   "Top-Down",
+   "Arcade",
+   "Surreal",
+   "Fighting"
+  ],
+  "mature": true,
+  "at": "2026-10-16"
+ },
+ "gog-prince-of-persia-the-two-thrones": {
+  "source": "gog",
+  "year": 2005,
+  "genres": [
+   "Action",
+   "TPP",
+   "Fantasy"
+  ],
+  "tags": [
+   "Action",
+   "Fantasy",
+   "Story Rich",
+   "Atmospheric",
+   "Classic",
+   "Great Soundtrack",
+   "Third Person",
+   "Platformer",
+   "Hack and Slash",
+   "Stealth",
+   "Time Manipulation"
+  ],
+  "mature": false,
+  "at": "2026-10-16"
+ },
+ "gog-flatout-2": {
+  "source": "gog",
+  "year": 2006,
+  "genres": [
+   "Racing",
+   "Arcade",
+   "Off-road"
+  ],
+  "tags": [
+   "Atmospheric",
+   "Classic",
+   "Casual",
+   "Great Soundtrack",
+   "Funny",
+   "Multiplayer",
+   "Arcade",
+   "Local Multiplayer",
+   "Physics",
+   "Racing",
+   "Off-road"
+  ],
+  "mature": false,
+  "at": "2026-10-16"
+ },
+ "gog-control-ultimate-edition": {
+  "source": "gog",
+  "year": 2020,
+  "genres": [
+   "Action",
+   "Adventure",
+   "Sci-fi"
+  ],
+  "tags": [
+   "Adventure",
+   "Action",
+   "Story Rich",
+   "Atmospheric",
+   "Sci-fi",
+   "Science",
+   "Female Protagonist",
+   "Horror",
+   "Third Person",
+   "Psychological Horror",
+   "Surreal",
+   "Supernatural"
+  ],
+  "mature": false,
+  "at": "2026-10-16"
+ },
+ "gog-homeworld-remastered-collection": {
+  "source": "gog",
+  "year": 2015,
+  "genres": [
+   "Strategy",
+   "Real-time",
+   "Sci-fi"
+  ],
+  "tags": [
+   "Story Rich",
+   "Atmospheric",
+   "Strategy",
+   "Sci-fi",
+   "Classic",
+   "Science",
+   "Great Soundtrack",
+   "Tactical",
+   "Real-Time",
+   "Space",
+   "RTS",
+   "Remake"
+  ],
+  "mature": false,
+  "at": "2026-10-16"
+ },
+ "gog-frostpunk": {
+  "source": "gog",
+  "year": 2018,
+  "genres": [
+   "Strategy",
+   "Simulation",
+   "Survival"
+  ],
+  "tags": [
+   "Indie",
+   "Atmospheric",
+   "Strategy",
+   "Simulation",
+   "Dark",
+   "Great Soundtrack",
+   "Choices Matter",
+   "Management",
+   "Survival",
+   "Resource Management",
+   "Difficult",
+   "Base Building",
+   "Post-apocalyptic",
+   "City builder",
+   "Survival Horror",
+   "Steampunk"
+  ],
+  "mature": false,
+  "at": "2026-10-16"
+ },
+ "gog-xcom-2": {
+  "source": "gog",
+  "year": 2016,
+  "genres": [
+   "Strategy",
+   "Turn-based",
+   "Sci-fi"
+  ],
+  "tags": [
+   "Strategy",
+   "Sci-fi",
+   "Turn-Based",
+   "Science",
+   "Tactical",
+   "Perma Death"
+  ],
+  "mature": false,
+  "at": "2026-10-16"
+ },
+ "gog-thronebreaker-the-witcher-tales": {
+  "source": "gog",
+  "year": 2018,
+  "genres": [
+   "Role-playing",
+   "Fantasy",
+   "Strategy"
+  ],
+  "tags": [
+   "Fantasy",
+   "Story Rich",
+   "Atmospheric",
+   "Strategy",
+   "Role-playing",
+   "Turn-Based",
+   "Puzzle",
+   "Female Protagonist",
+   "Great Soundtrack",
+   "Choices Matter",
+   "Open World",
+   "Multiplayer",
+   "Mature",
+   "Sexual Content",
+   "Isometric",
+   "Medieval",
+   "Card Game"
+  ],
+  "mature": true,
+  "at": "2026-10-16"
+ },
+ "indiegala-monster-hunter-rise": {
+  "source": "steam",
+  "year": 2022,
+  "genres": [
+   "Action"
+  ],
+  "tags": [],
+  "mature": false,
+  "at": "2026-10-16"
+ },
+ "indiegala-marvel-vs-capcom-fighting-collection-arcade-classics": {
+  "source": "steam",
+  "year": 2024,
+  "genres": [
+   "Action"
+  ],
+  "tags": [],
+  "mature": false,
+  "at": "2026-10-16"
+ },
+ "indiegala-sifu": {
+  "source": "steam",
+  "year": 2023,
+  "genres": [
+   "Action",
+   "Indie"
+  ],
+  "tags": [],
+  "mature": true,
+  "at": "2026-10-16"
+ },
+ "indiegala-street-fighter-6": {
+  "source": "steam",
+  "year": 2023,
+  "genres": [
+   "Action",
+   "Adventure"
+  ],
+  "tags": [],
+  "mature": false,
+  "at": "2026-10-16"
+ },
+ "kinguin-black-myth-wukong": {
+  "source": "steam",
+  "year": 2024,
+  "genres": [
+   "Action",
+   "Adventure",
+   "RPG"
+  ],
+  "tags": [],
+  "mature": true,
+  "at": "2026-10-16"
+ },
+ "kinguin-euro-truck-simulator-2": {
+  "source": "steam",
+  "year": 2012,
+  "genres": [
+   "Indie",
+   "Simulation"
+  ],
+  "tags": [],
+  "mature": false,
+  "at": "2026-10-16"
+ },
+ "kinguin-no-man-s-sky": {
+  "source": "steam",
+  "year": 2016,
+  "genres": [
+   "Action",
+   "Adventure"
+  ],
+  "tags": [],
+  "mature": false,
+  "at": "2026-10-16"
+ },
+ "kinguin-7-days-to-die": {
+  "source": "steam",
+  "year": 2024,
+  "genres": [
+   "Action",
+   "Adventure",
+   "Indie",
+   "RPG",
+   "Simulation",
+   "Strategy"
+  ],
+  "tags": [],
+  "mature": true,
+  "at": "2026-10-16"
+ },
+ "kinguin-subnautica": {
+  "source": "steam",
+  "year": 2018,
+  "genres": [
+   "Adventure",
+   "Indie"
+  ],
+  "tags": [],
+  "mature": false,
+  "at": "2026-10-16"
+ },
+ "kinguin-deep-rock-galactic": {
+  "source": "steam",
+  "year": 2020,
+  "genres": [
+   "Action"
+  ],
+  "tags": [],
+  "mature": true,
+  "at": "2026-10-16"
+ },
+ "kinguin-borderlands-2": {
+  "source": "steam",
+  "year": 2012,
+  "genres": [
+   "Action",
+   "RPG"
+  ],
+  "tags": [],
+  "mature": false,
+  "at": "2026-10-16"
+ },
+ "kinguin-mount-blade-ii-bannerlord": {
+  "source": "steam",
+  "year": 2022,
+  "genres": [
+   "Action",
+   "Indie",
+   "RPG",
+   "Simulation",
+   "Strategy"
+  ],
+  "tags": [],
+  "mature": true,
+  "at": "2026-10-16"
+ },
+ "kinguin-arma-3": {
+  "source": "steam",
+  "year": 2013,
+  "genres": [
+   "Action",
+   "Simulation",
+   "Strategy"
+  ],
+  "tags": [],
+  "mature": true,
+  "at": "2026-10-16"
+ },
+ "kinguin-cities-skylines": {
+  "source": "steam",
+  "year": 2015,
+  "genres": [
+   "Simulation",
+   "Strategy"
+  ],
+  "tags": [],
+  "mature": false,
+  "at": "2026-10-16"
+ },
+ "kinguin-satisfactory": {
+  "source": "steam",
+  "year": 2024,
+  "genres": [
+   "Adventure",
+   "Indie",
+   "Simulation",
+   "Strategy"
+  ],
+  "tags": [],
+  "mature": false,
+  "at": "2026-10-16"
+ },
+ "kinguin-detroit-become-human": {
+  "source": "steam",
+  "year": 2020,
+  "genres": [
+   "Action",
+   "Adventure"
+  ],
+  "tags": [],
+  "mature": true,
+  "at": "2026-10-16"
+ },
+ "kinguin-ultrakill": {
+  "source": "steam",
+  "year": 2020,
+  "genres": [
+   "Action",
+   "Indie",
+   "Early Access"
+  ],
+  "tags": [],
+  "mature": true,
+  "at": "2026-10-16"
+ },
+ "kinguin-squad": {
+  "source": "steam",
+  "year": 2020,
+  "genres": [
+   "Action",
+   "Indie",
+   "Massively Multiplayer",
+   "Strategy"
+  ],
+  "tags": [],
+  "mature": true,
+  "at": "2026-10-16"
+ },
+ "kinguin-resident-evil-2": {
+  "source": "steam",
+  "year": 2019,
+  "genres": [
+   "Action"
+  ],
+  "tags": [],
+  "mature": true,
+  "at": "2026-10-16"
+ }
+}

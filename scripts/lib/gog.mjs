@@ -95,7 +95,7 @@ export async function lookup(get, title, slug) {
       continue;
     }
     const hit = r.data.products.map(parseProduct).find((p) => p?.slug === slug);
-    if (hit) return { product: hit };
+    if (hit) return { product: hit, raw: r.data.products.find((p) => p?.slug === slug) };
   }
   return error ? { error } : { product: null };
 }

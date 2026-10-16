@@ -109,6 +109,12 @@ async function resolve(title, hint) {
   return id;
 }
 
+// Genres, release date and content flags of one app, for the niche accounts (scripts/enrich-facts.mjs). null = Steam has nothing.
+export async function steamAppData(appid) {
+  const data = (await getJson(`https://store.steampowered.com/api/appdetails?appids=${appid}&filters=basic,genres,release_date,content_descriptors&cc=us&l=english`))?.[appid];
+  return data?.success ? data.data : null;
+}
+
 export async function steamInfo(title, hint) {
   try {
     const appid = await resolve(title, hint);
