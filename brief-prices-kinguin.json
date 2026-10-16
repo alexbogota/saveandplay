@@ -1,0 +1,242 @@
+{
+  "account": "Honest prices (Kinguin keys)",
+  "generatedAt": "2026-10-16T11:23:52.921Z",
+  "builtBy": "commit 9f92d5c, schedule, run #17 attempt 1",
+  "pricesCheckedAt": "2026-10-16T10:02:20.016Z",
+  "warnings": [],
+  "candidates": [
+    {
+      "id": "kinguin-detroit-become-human",
+      "kind": "deal",
+      "title": "Detroit: Become Human",
+      "store": "Kinguin",
+      "price": 6.59,
+      "was": 39.99,
+      "discount": 84,
+      "endsAt": null,
+      "endsInHours": null,
+      "priceCheckedAt": "2026-10-16T09:05:14.098Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/header.jpg?t=1667468479",
+      "drminfo": null,
+      "coverAlt": "Cover art for Detroit: Become Human",
+      "facts": {
+        "year": 2020,
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "tags": []
+      },
+      "marketplace": true,
+      "compareTo": "Steam",
+      "score": 8.4,
+      "discountRank": 1,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 3,
+        "lowest": false,
+        "since": "2026-10-14"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/kinguin/detroit-become-human/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-16",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 1 of 15"
+      ]
+    },
+    {
+      "id": "kinguin-subnautica",
+      "kind": "deal",
+      "title": "Subnautica",
+      "store": "Kinguin",
+      "price": 4.99,
+      "was": 29.99,
+      "discount": 83,
+      "endsAt": null,
+      "endsInHours": null,
+      "priceCheckedAt": "2026-10-16T09:05:45.523Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/header.jpg?t=1777456112",
+      "drminfo": null,
+      "coverAlt": "Cover art for Subnautica",
+      "facts": {
+        "year": 2018,
+        "genres": [
+          "Adventure",
+          "Indie"
+        ],
+        "tags": []
+      },
+      "marketplace": true,
+      "compareTo": "Steam",
+      "score": 8.3,
+      "discountRank": 2,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 5,
+        "lowest": false,
+        "since": "2026-10-12"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/kinguin/subnautica/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-16",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 2 of 15"
+      ]
+    },
+    {
+      "id": "kinguin-borderlands-2",
+      "kind": "deal",
+      "title": "Borderlands 2",
+      "store": "Kinguin",
+      "price": 3.72,
+      "was": 19.99,
+      "discount": 81,
+      "endsAt": null,
+      "endsInHours": null,
+      "priceCheckedAt": "2026-10-16T09:06:41.009Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/49520/header.jpg?t=1751931279",
+      "drminfo": null,
+      "coverAlt": "Cover art for Borderlands 2",
+      "facts": {
+        "year": 2012,
+        "genres": [
+          "Action",
+          "RPG"
+        ],
+        "tags": []
+      },
+      "marketplace": true,
+      "compareTo": "Steam",
+      "score": 8.1,
+      "discountRank": 3,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 4,
+        "lowest": false,
+        "since": "2026-10-13"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/kinguin/borderlands-2/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-16",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 3 of 15"
+      ]
+    },
+    {
+      "id": "kinguin-resident-evil-2",
+      "kind": "deal",
+      "title": "Resident Evil 2",
+      "store": "Kinguin",
+      "price": 9.11,
+      "was": 39.99,
+      "discount": 77,
+      "endsAt": null,
+      "endsInHours": null,
+      "priceCheckedAt": "2026-10-16T09:05:17.002Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/883710/header.jpg?t=1779433152",
+      "drminfo": null,
+      "coverAlt": "Cover art for Resident Evil 2",
+      "facts": {
+        "year": 2019,
+        "genres": [
+          "Action"
+        ],
+        "tags": []
+      },
+      "marketplace": true,
+      "compareTo": "Steam",
+      "score": 7.7,
+      "discountRank": 4,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 2,
+        "lowest": false,
+        "since": "2026-10-15"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/kinguin/resident-evil-2/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-16",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 4 of 15"
+      ]
+    },
+    {
+      "id": "kinguin-cities-skylines",
+      "kind": "deal",
+      "title": "Cities: Skylines",
+      "store": "Kinguin",
+      "price": 8.03,
+      "was": 29.99,
+      "discount": 73,
+      "endsAt": null,
+      "endsInHours": null,
+      "priceCheckedAt": "2026-10-16T09:05:57.493Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255710/header.jpg?t=1791468493",
+      "drminfo": null,
+      "coverAlt": "Cover art for Cities: Skylines",
+      "facts": {
+        "year": 2015,
+        "genres": [
+          "Simulation",
+          "Strategy"
+        ],
+        "tags": []
+      },
+      "marketplace": true,
+      "compareTo": "Steam",
+      "score": 7.3,
+      "discountRank": 6,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 4,
+        "lowest": false,
+        "since": "2026-10-13"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/kinguin/cities-skylines/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-16",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 6 of 15"
+      ]
+    }
+  ],
+  "gogNews": [],
+  "topical": [],
+  "topics": [],
+  "left": {
+    "otherStore": 28,
+    "hidden": 0,
+    "notNiche": 0,
+    "noFacts": 0,
+    "taken": 0,
+    "smallDiscount": 0,
+    "ended": 0,
+    "endsTooSoon": 0,
+    "oldPrice": 0
+  },
+  "sources": {
+    "total": 11,
+    "failed": []
+  },
+  "posts": {
+    "bluesky": {
+      "text": "Detroit: Become Human: $6.59 at Kinguin, 84% below the current Steam price ($39.99).\nMarketplace key from an independent seller, so check the seller and region. Price checked Oct 16.\n\nhttps://saveandplay.com/deals/kinguin/detroit-become-human/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-16\n\n#PCGaming #GameDeals #Kinguin\nAd",
+      "length": 243,
+      "max": 300,
+      "link": "https://saveandplay.com/deals/kinguin/detroit-become-human/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-16",
+      "deal": "kinguin-detroit-become-human"
+    },
+    "mastodon": {
+      "text": "Detroit: Become Human: $6.59 at Kinguin\n84% below the current Steam price ($39.99).\nMarketplace key from an independent seller: check the seller's rating and the region before you buy.\nPrice checked Oct 16.\n\nhttps://saveandplay.com/deals/kinguin/detroit-become-human/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-16\n\n#GameDeals #PCGaming #Kinguin #Detroit\nAd",
+      "length": 274,
+      "max": 500,
+      "link": "https://saveandplay.com/deals/kinguin/detroit-become-human/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-16",
+      "deal": "kinguin-detroit-become-human"
+    }
+  }
+}

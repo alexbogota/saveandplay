@@ -1,71 +1,10 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-10-15T11:23:51.714Z",
-  "builtBy": "commit c187b76, schedule, run #16 attempt 1",
-  "pricesCheckedAt": "2026-10-15T10:03:18.085Z",
+  "generatedAt": "2026-10-16T11:23:52.921Z",
+  "builtBy": "commit 9f92d5c, schedule, run #17 attempt 1",
+  "pricesCheckedAt": "2026-10-16T10:02:20.016Z",
   "warnings": [],
   "candidates": [
-    {
-      "id": "indiegala-monster-hunter-rise",
-      "kind": "deal",
-      "title": "MONSTER HUNTER RISE",
-      "store": "IndieGala",
-      "price": 3.99,
-      "was": 39.99,
-      "discount": 90,
-      "endsAt": "2026-10-16T23:59:00Z",
-      "endsInHours": 37,
-      "priceCheckedAt": "2026-10-15T10:03:18.085Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1446780/header.jpg?t=1768870444",
-      "drminfo": "Steam key",
-      "coverAlt": "Cover art for MONSTER HUNTER RISE",
-      "score": 11,
-      "discountRank": 6,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 10,
-        "lowest": false,
-        "since": "2026-10-05"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/indiegala/monster-hunter-rise/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-15",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "sale ends in 37 h",
-        "deepest-discount rank 6 of 28"
-      ]
-    },
-    {
-      "id": "gog-outward-definitive-edition",
-      "kind": "deal",
-      "title": "Outward Definitive Edition",
-      "store": "GOG",
-      "price": 1.99,
-      "was": 39.99,
-      "discount": 95,
-      "endsAt": "2026-10-22T16:00:00+03:00",
-      "endsInHours": 170,
-      "priceCheckedAt": "2026-10-15T10:03:10.663Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/794260/header.jpg?t=1787229712",
-      "drminfo": null,
-      "coverAlt": "Cover art for Outward Definitive Edition",
-      "score": 10.5,
-      "discountRank": 1,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 10,
-        "lowest": false,
-        "since": "2026-10-05"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/outward-definitive-edition/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-15",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "deepest-discount rank 1 of 28"
-      ]
-    },
     {
       "id": "gog-deponia",
       "kind": "deal",
@@ -75,25 +14,52 @@
       "was": 9.99,
       "discount": 90,
       "endsAt": "2026-10-18T09:59:00+03:00",
-      "endsInHours": 68,
-      "priceCheckedAt": "2026-10-15T10:03:10.663Z",
+      "endsInHours": 44,
+      "priceCheckedAt": "2026-10-16T10:02:10.620Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/214340/header.jpg?t=1789381815",
       "drminfo": null,
       "coverAlt": "Cover art for Deponia",
-      "score": 10,
+      "facts": {
+        "year": 2012,
+        "genres": [
+          "Modern",
+          "Adventure",
+          "Point-and-click"
+        ],
+        "tags": [
+          "Adventure",
+          "Indie",
+          "Story Rich",
+          "2D",
+          "Puzzle",
+          "Classic",
+          "Science",
+          "Great Soundtrack",
+          "Funny",
+          "Point&Click",
+          "Modern",
+          "Dystopian",
+          "Hidden Object",
+          "Steampunk"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 12,
       "discountRank": 5,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 8,
+        "days": 9,
         "lowest": false,
         "since": "2026-10-08"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/deponia/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-15",
+      "link": "https://saveandplay.com/deals/gog/deponia/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-16",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 5 of 28"
+        "sale ends in 44 h",
+        "deepest-discount rank 5 of 26"
       ]
     },
     {
@@ -105,25 +71,53 @@
       "was": 14.99,
       "discount": 90,
       "endsAt": "2026-10-18T09:59:00+03:00",
-      "endsInHours": 68,
-      "priceCheckedAt": "2026-10-15T10:03:10.663Z",
+      "endsInHours": 44,
+      "priceCheckedAt": "2026-10-16T10:02:10.620Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108710/9c1728f937c2a7e632b447b02e442f6a5d88515c/header.jpg?t=1769717716",
       "drminfo": null,
       "coverAlt": "Cover art for Alan Wake",
-      "score": 10,
+      "facts": {
+        "year": 2012,
+        "genres": [
+          "Action",
+          "Adventure",
+          "Horror"
+        ],
+        "tags": [
+          "Adventure",
+          "Action",
+          "Story Rich",
+          "Atmospheric",
+          "Classic",
+          "Dark",
+          "Horror",
+          "Great Soundtrack",
+          "Third Person",
+          "Mystery",
+          "Survival",
+          "Survival Horror",
+          "Psychological Horror",
+          "Supernatural",
+          "Thriller"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 12,
       "discountRank": 2,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 10,
+        "days": 11,
         "lowest": false,
         "since": "2026-10-05"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/alan-wake/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-15",
+      "link": "https://saveandplay.com/deals/gog/alan-wake/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-16",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 2 of 28"
+        "sale ends in 44 h",
+        "deepest-discount rank 2 of 26"
       ]
     },
     {
@@ -135,45 +129,203 @@
       "was": 19.99,
       "discount": 90,
       "endsAt": "2026-10-18T09:59:00+03:00",
-      "endsInHours": 68,
-      "priceCheckedAt": "2026-10-15T10:03:10.663Z",
+      "endsInHours": 44,
+      "priceCheckedAt": "2026-10-16T10:02:10.620Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24880/header.jpg?t=1777484749",
       "drminfo": null,
       "coverAlt": "Cover art for The Saboteur",
-      "score": 10,
+      "facts": {
+        "year": 2009,
+        "genres": [
+          "Action",
+          "TPP",
+          "Stealth"
+        ],
+        "tags": [
+          "Action",
+          "Classic",
+          "Third Person",
+          "Stealth"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 12,
       "discountRank": 3,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 11,
+        "lowest": false,
+        "since": "2026-10-05"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/the-saboteur/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-16",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "sale ends in 44 h",
+        "deepest-discount rank 3 of 26"
+      ]
+    },
+    {
+      "id": "gog-shadow-tactics-blades-of-the-shogun",
+      "kind": "deal",
+      "title": "Shadow Tactics: Blades of the Shogun",
+      "store": "GOG",
+      "price": 3.99,
+      "was": 39.99,
+      "discount": 90,
+      "endsAt": "2026-10-18T09:59:00+03:00",
+      "endsInHours": 44,
+      "priceCheckedAt": "2026-10-16T10:02:10.620Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
+      "drminfo": null,
+      "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
+      "facts": {
+        "year": 2016,
+        "genres": [
+          "Strategy",
+          "Real-time",
+          "Stealth"
+        ],
+        "tags": [
+          "Indie",
+          "Atmospheric",
+          "Strategy",
+          "Puzzle",
+          "Great Soundtrack",
+          "Tactical",
+          "Third Person",
+          "Historical",
+          "Survival",
+          "Violent",
+          "Real-Time",
+          "Difficult",
+          "Isometric",
+          "RTS",
+          "Stealth",
+          "Ninja"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 12,
+      "discountRank": 4,
       "sites": 0,
       "mentions": [],
       "history": {
         "days": 10,
         "lowest": false,
-        "since": "2026-10-05"
+        "since": "2026-10-07"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/the-saboteur/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-15",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-16",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 3 of 28"
+        "sale ends in 44 h",
+        "deepest-discount rank 4 of 26"
+      ]
+    },
+    {
+      "id": "gog-darkest-dungeon",
+      "kind": "deal",
+      "title": "Darkest Dungeon",
+      "store": "GOG",
+      "price": 3.75,
+      "was": 24.99,
+      "discount": 85,
+      "endsAt": "2026-10-18T09:59:00+03:00",
+      "endsInHours": 44,
+      "priceCheckedAt": "2026-10-16T10:02:10.620Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187",
+      "drminfo": null,
+      "coverAlt": "Cover art for Darkest Dungeon",
+      "facts": {
+        "year": 2016,
+        "genres": [
+          "Role-playing",
+          "Turn-based",
+          "Fantasy"
+        ],
+        "tags": [
+          "Indie",
+          "Fantasy",
+          "Atmospheric",
+          "Role-playing",
+          "2D",
+          "Turn-Based",
+          "Dark",
+          "Horror",
+          "Difficult",
+          "Roguelike",
+          "Roguelite",
+          "Dungeon Crawler",
+          "Lovecraftian",
+          "Perma Death",
+          "Petting Dogs"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 11.5,
+      "discountRank": 7,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 10,
+        "lowest": false,
+        "since": "2026-10-07"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-16",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "sale ends in 44 h",
+        "deepest-discount rank 7 of 26"
       ]
     }
   ],
   "gogNews": [],
   "topical": [
     {
-      "title": "Get a FREE Steam key with KeyXP's Puzzle Game Giveaway",
-      "source": "gg.deals Freebies",
-      "link": "https://gg.deals/freebie/get-a-free-steam-key-with-keyxps-puzzle-game-giveaway/",
-      "t": 1792052100000,
-      "keyword": "free",
-      "summary": "KeyXP is giving away 10,000 keys for five different puzzle games!"
+      "title": "Monster Hunter Rise is up to 92% off on PC! Grab Capcom's hit RPG for a tiny price",
+      "source": "gg.deals News",
+      "link": "https://gg.deals/deal/monster-hunter-rise-is-up-to-92-off-on-pc-grab-capcoms-hit-rpg-for-a-tiny-price/",
+      "t": 1792146600000,
+      "keyword": "price",
+      "summary": "A big discount for a big game!"
     },
     {
-      "title": "Humble IGN 30th Anniversary Bundle – ENDS SOON",
-      "source": "Indie Game Bundles",
-      "link": "https://www.indiegamebundles.com/humble-ign-30th-anniversary-bundle/",
-      "t": 1792000997000,
-      "keyword": "bundle",
-      "summary": "September is a big month for many reasons—and this September is even bigger, because we’re celebrating IGN’s 30th Anniversary! The post Humble IGN 30th Anniver…"
+      "title": "FREE-to-play Arknights: Endfield is out on Steam! Keep your progress and grab free rewards",
+      "source": "gg.deals Freebies",
+      "link": "https://gg.deals/freebie/free-to-play-arknights-endfield-is-out-on-steam/",
+      "t": 1792140300000,
+      "keyword": "free",
+      "summary": "The wait is over! Arknights: Endfield is finally available on Steam, and it's completely free to play."
+    },
+    {
+      "title": "US lawmaker calls videogame purchases rentals disguised as sales: 'When you pay for a game, you should own it'",
+      "source": "PC Gamer",
+      "link": "https://www.pcgamer.com/gaming-industry/us-lawmaker-calls-videogame-purchases-rentals-disguised-as-sales-when-you-pay-for-a-game-you-should-own-it/",
+      "t": 1792109325000,
+      "keyword": "sales",
+      "summary": "US Representative Ritchie Torres, a Democrat from New York City, announced today that he will introduce the \"Power To The Players Act.\" If it becomes law, the …"
+    },
+    {
+      "title": "Last chance to buy the Valve Index VR headset as clearance sale begins",
+      "source": "gg.deals News",
+      "link": "https://gg.deals/deal/last-chance-to-buy-the-valve-index-vr-headset-as-clearance-sale-begins/",
+      "t": 1792094171000,
+      "keyword": "sale",
+      "summary": "Don't miss out!"
+    },
+    {
+      "title": "The Humble Store's Noir Thrills Sale offers up to 95% off popular games",
+      "source": "gg.deals News",
+      "link": "https://gg.deals/deal/the-humble-stores-noir-thrills-sale-offers-up-to-95-off-popular-games/",
+      "t": 1792090920000,
+      "keyword": "sale",
+      "summary": "The sale features Resident Evil games and more!"
     }
   ],
   "topics": [
@@ -205,65 +357,38 @@
       ]
     },
     {
-      "headline": "'My idea of a Netflix for games doesn't work': Garry's Mod successor is getting 'sweeping changes'",
-      "score": 10,
-      "sites": [
-        "pcgamer.com",
-        "rockpapershotgun.com"
-      ],
-      "keywords": [
-        "free",
-        "free to play"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "PC Gamer",
-          "title": "'My idea of a Netflix for games doesn't work': Garry's Mod successor is getting 'sweeping changes'",
-          "link": "https://www.pcgamer.com/software/platforms/my-idea-of-a-netflix-for-games-doesnt-work-garrys-mod-successor-is-getting-sweeping-changes/",
-          "published": "2026-10-14T21:54:25.000Z"
-        },
-        {
-          "source": "Rock Paper Shotgun",
-          "title": "\"My idea of a Netflix for games doesn’t work\": Garry's Mod creator says struggling spiritual successor S&box will go free to play as part of major rethink",
-          "link": "https://www.rockpapershotgun.com/my-idea-of-a-netflix-for-games-doesnt-work-garrys-mod-creator-says-struggling-spiritual-successor-sbox-will-go-free-to-play-as-part-of-major-rethink",
-          "published": "2026-10-14T10:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Ubisoft are making layoffs at Assassin's Creed Black Flag Resynced studio Ubisoft Singapore while closing Trials creators Redlynx",
+      "headline": "Grand Theft Auto 6 launch trailer suddenly drops, showing a saucy shower scene, a tense police chase, and high-flying heists",
       "score": 9,
       "sites": [
+        "gg.deals",
         "pcgamer.com",
-        "rockpapershotgun.com",
         "eurogamer.net"
       ],
       "keywords": [],
       "games": [],
       "items": [
         {
-          "source": "PC Gamer",
-          "title": "Assassin's Creed Black Flag Resynced was a big hit, and now it's time for big layoffs at the studio that made it",
-          "link": "https://www.pcgamer.com/gaming-industry/assassins-creed-black-flag-resynced-was-a-big-hit-and-now-its-time-for-big-layoffs-at-the-studio-that-made-it/",
-          "published": "2026-10-14T16:02:03.000Z"
+          "source": "gg.deals News",
+          "title": "Rockstar drops surprise Grand Theft Auto VI launch trailer, includes raunchy shower scene",
+          "link": "https://gg.deals/gaming-news/rockstar-drops-surprise-grand-theft-auto-vi-launch-trailer-including-a-raunchy-shower-scene/",
+          "published": "2026-10-15T14:43:00.000Z"
         },
         {
-          "source": "Rock Paper Shotgun",
-          "title": "Ubisoft are making layoffs at Assassin's Creed Black Flag Resynced studio Ubisoft Singapore while closing Trials creators Redlynx",
-          "link": "https://www.rockpapershotgun.com/ubisoft-are-making-layoffs-at-assassins-creed-black-flag-resynced-studio-ubisoft-singapore-while-closing-trials-creators-redlynx-according-to-report",
-          "published": "2026-10-14T10:43:55.000Z"
+          "source": "PC Gamer",
+          "title": "The Grand Theft Auto 6 launch trailer is here",
+          "link": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-launch-trailer/",
+          "published": "2026-10-15T13:43:12.000Z"
         },
         {
           "source": "Eurogamer",
-          "title": "Ubisoft closing Trials developer RedLynx and downsizing Assassin's Creed: Black Flag Resynced team in Singapore",
-          "link": "https://www.eurogamer.net/ubisoft-closing-trials-studio-redlyx-layoffs-singapore-black-flag",
-          "published": "2026-10-14T12:30:49.000Z"
+          "title": "Grand Theft Auto 6 launch trailer suddenly drops, showing a saucy shower scene, a tense police chase, and high-flying heists",
+          "link": "https://www.eurogamer.net/grand-theft-auto-6-launch-trailer",
+          "published": "2026-10-15T13:24:51.000Z"
         }
       ]
     },
     {
-      "headline": "Green Man Gaming The Darksiders Collection Bundle",
+      "headline": "Get 10 Steam Games for $24.99 with the PlayForEveryChild Charity Bundle Supporting UNICEF",
       "score": 8,
       "sites": [
         "gg.deals",
@@ -276,35 +401,67 @@
       "items": [
         {
           "source": "gg.deals News",
-          "title": "GMG's Darksiders Collection Bundle offers 4 Steam games for $9.99",
-          "link": "https://gg.deals/bundle/gmg-darksiders-collection-bundle/",
-          "published": "2026-10-13T15:00:00.000Z"
+          "title": "Get 10 Steam games worth $230 for just $24.99 with PlanetPlay's charity bundle!",
+          "link": "https://gg.deals/bundle/planetplay-playforeverychild-charity-game-bundle/",
+          "published": "2026-10-15T14:35:00.000Z"
         },
         {
           "source": "Indie Game Bundles",
-          "title": "Green Man Gaming The Darksiders Collection Bundle",
-          "link": "https://www.indiegamebundles.com/green-man-gaming-the-darksiders-collection-bundle/",
-          "published": "2026-10-13T16:22:20.000Z"
+          "title": "Get 10 Steam Games for $24.99 with the PlayForEveryChild Charity Bundle Supporting UNICEF",
+          "link": "https://www.indiegamebundles.com/get-10-steam-games-for-24-99-with-the-playforeverychild-charity-bundle-supporting-unicef/",
+          "published": "2026-10-15T17:26:19.000Z"
         }
       ]
     },
     {
-      "headline": "Humble’s The Factory Must Grow Bundle keeps the assembly lines rolling with 8 games",
-      "score": 7,
+      "headline": "Bad Cheese is free on Epic Games Store this week only",
+      "score": 8,
       "sites": [
-        "gg.deals"
+        "gamerpower.com",
+        "indiegamebundles.com"
       ],
       "keywords": [
-        "bundle",
-        "humble"
+        "free"
       ],
       "games": [],
       "items": [
         {
-          "source": "gg.deals News",
-          "title": "Humble’s The Factory Must Grow Bundle keeps the assembly lines rolling with 8 games",
-          "link": "https://gg.deals/bundle/humbles-the-factory-must-grow-bundle-keeps-the-assembly-lines-rolling-with-8-games/",
-          "published": "2026-10-14T18:55:38.000Z"
+          "source": "GamerPower (PC)",
+          "title": "Bad Cheese (Epic Games) Giveaway",
+          "link": "https://www.gamerpower.com/bad-cheese-epic-games-giveaway",
+          "published": "2026-10-15T15:00:06.000Z"
+        },
+        {
+          "source": "Indie Game Bundles",
+          "title": "Bad Cheese is free on Epic Games Store this week only",
+          "link": "https://www.indiegamebundles.com/bad-cheese-is-free-on-epic-games-store-this-week-only/",
+          "published": "2026-10-15T15:56:24.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Agent A: A puzzle in disguise is free on Epic Games Store — time for some retro spy work",
+      "score": 8,
+      "sites": [
+        "gamerpower.com",
+        "indiegamebundles.com"
+      ],
+      "keywords": [
+        "free"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "GamerPower (PC)",
+          "title": "Agent A: A puzzle in disguise (Epic Games) Giveaway",
+          "link": "https://www.gamerpower.com/agent-a-a-puzzle-in-disguise-epic-games-giveaway",
+          "published": "2026-10-15T15:04:37.000Z"
+        },
+        {
+          "source": "Indie Game Bundles",
+          "title": "Agent A: A puzzle in disguise is free on Epic Games Store — time for some retro spy work",
+          "link": "https://www.indiegamebundles.com/agent-a-a-puzzle-in-disguise-is-free-on-epic-games/",
+          "published": "2026-10-15T15:52:32.000Z"
         }
       ]
     }
@@ -312,6 +469,9 @@
   "left": {
     "otherStore": 15,
     "hidden": 0,
+    "notNiche": 0,
+    "noFacts": 0,
+    "taken": 2,
     "smallDiscount": 0,
     "ended": 0,
     "endsTooSoon": 0,

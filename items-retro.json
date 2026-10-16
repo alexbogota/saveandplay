@@ -1,9 +1,160 @@
 {
  "account": "Retro game deals",
- "generatedAt": "2026-10-15T22:30:00.000Z",
+ "generatedAt": "2026-10-16T11:23:52.921Z",
  "windowHours": 48,
- "count": 124,
+ "count": 123,
  "items": [
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "CD Projekt Red says its mysterious Hadar game is its \"biggest project to date\", but even after \"several good years\" it's seemingly a long way off",
+   "link": "https://www.eurogamer.net/cd-projekt-red-project-hadar-sirius-witcher",
+   "published": "2026-10-16T11:09:05.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Control Resonant becomes the fastest-selling game in Remedy's history, outpacing Alan Wake 2 and the original Control",
+   "link": "https://www.eurogamer.net/control-resonant-sales-remedy-entertainment",
+   "published": "2026-10-16T11:00:24.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "'Little Tim is so obsessed with Gabe': Former Valve writer baffled by Epic CEO Tim Sweeney's attempts to compete with Steam via vibe coding",
+   "link": "https://www.pcgamer.com/software/platforms/little-tim-is-so-obsessed-with-gabe-former-valve-writer-baffled-by-epic-ceo-tim-sweeneys-attempts-to-compete-with-steam-via-vibe-coding/",
+   "published": "2026-10-16T10:52:32.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Semifinals: The brutal war to determine the best RTS unit of all time needs your votes",
+   "link": "https://www.pcgamer.com/games/rts/semifinals-the-brutal-war-to-determine-the-best-rts-unit-of-all-time-needs-your-votes/",
+   "published": "2026-10-16T10:44:42.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Peter Molyneux explains why Black & White 3 remains MIA, and then drops a tantalising teaser: 'It's such a difficult, difficult, challenging title to develop'",
+   "link": "https://www.pcgamer.com/games/strategy/peter-molyneux-explains-why-black-and-white-3-remains-mia-and-then-drops-a-tantalising-teaser-its-such-a-difficult-difficult-challenging-title-to-develop/",
+   "published": "2026-10-16T10:34:30.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "New fear dropped: Amazon scammer seems to have delidded an $889 AMD chip, transplanted it on old Intel chip, and got it through return inspection",
+   "link": "https://www.pcgamer.com/hardware/processors/new-fear-dropped-amazon-scammer-seems-to-have-delidded-an-usd889-amd-chip-transplanted-it-on-old-intel-chip-and-got-it-through-return-inspection/",
+   "published": "2026-10-16T10:30:59.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Monster Hunter Rise is up to 92% off on PC! Grab Capcom's hit RPG for a tiny price",
+   "link": "https://gg.deals/deal/monster-hunter-rise-is-up-to-92-off-on-pc-grab-capcoms-hit-rpg-for-a-tiny-price/",
+   "published": "2026-10-16T10:30:00.000Z",
+   "status": "topic-below-cut",
+   "score": 6
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "Valve roll out Steam Achievement Sets in beta, splitting up games’ perpetually growing trophy masses into DLC and season buckets",
+   "link": "https://www.rockpapershotgun.com/valve-roll-out-steam-achievement-sets-in-beta-splitting-up-games-perpetually-growing-trophy-masses-into-dlc-and-season-buckets",
+   "published": "2026-10-16T10:23:52.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Steam is fixing one of the most annoying problems with achievements!",
+   "link": "https://gg.deals/gaming-news/steam-is-fixing-one-of-the-most-annoying-problems-with-achievements/",
+   "published": "2026-10-16T09:35:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Jagex cancels RuneScape Reignited less than two weeks after it was announced, due to \"a ton\" of player feedback",
+   "link": "https://www.eurogamer.net/runescape-reignited-cancelled-two-weeks-player-feedback",
+   "published": "2026-10-16T09:07:10.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals Freebies",
+   "domain": "gg.deals",
+   "title": "FREE-to-play Arknights: Endfield is out on Steam! Keep your progress and grab free rewards",
+   "link": "https://gg.deals/freebie/free-to-play-arknights-endfield-is-out-on-steam/",
+   "published": "2026-10-16T08:45:00.000Z",
+   "status": "dropped",
+   "storyHeadline": "FREE-to-play Arknights: Endfield is out on Steam! Keep your progress and grab free rewards",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "FREE-to-play Arknights: Endfield is out on Steam! Keep your progress and grab free rewards",
+   "link": "https://gg.deals/freebie/free-to-play-arknights-endfield-is-out-on-steam/",
+   "published": "2026-10-16T08:45:00.000Z",
+   "status": "dropped",
+   "storyHeadline": "FREE-to-play Arknights: Endfield is out on Steam! Keep your progress and grab free rewards",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Controversial Battlefield 6 XP changes have been reversed, with Battlefield Studios saying they were \"unintended\"",
+   "link": "https://www.eurogamer.net/battlefield-6-xp-cap-season-5-reverted",
+   "published": "2026-10-16T08:37:38.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "CD Projekt is in \"a really dangerous place\", says Anthem's executive producer, pointing to ballooning costs of making games of that scope and quality",
+   "link": "https://www.rockpapershotgun.com/cd-projekt-is-in-a-really-dangerous-place-says-anthems-executive-producer-pointing-to-ballooning-costs-of-making-games-of-that-scope-and-quality",
+   "published": "2026-10-16T08:15:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Call of Duty: MW4 early access starts today! Here's how to play the campaign before release",
+   "link": "https://gg.deals/new-game/how-to-get-call-of-duty-mw4-early-access/",
+   "published": "2026-10-16T08:01:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
   {
    "source": "PC Gamer",
    "domain": "pcgamer.com",
@@ -458,9 +609,9 @@
    "title": "\"Total War: Shogun 2 Complete Edition has fallen short of both your expectations and our own standards\", Sega say as they pull it from stores and restore the original",
    "link": "https://www.rockpapershotgun.com/total-war-shogun-2-complete-edition-has-fallen-short-of-both-your-expectations-and-our-own-standards-sega-say-as-they-pull-it-from-stores-and-restore-the-original",
    "published": "2026-10-15T14:27:58.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "\"Total War: Shogun 2 Complete Edition has fallen short of both your expectations and our own standards\", Sega say as they pull it from stores and restore the original",
-   "score": 6
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
   },
   {
    "source": "PC Gamer",
@@ -865,26 +1016,6 @@
    "note": "one site, no keyword of the account, not about a game we list"
   },
   {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Capcom Autumn Sale hits Nintendo eShop with discounts of up to 85%",
-   "link": "https://gg.deals/deal/capcom-autumn-sale-hits-nintendo-eshop-with-discounts-of-up-to-85/",
-   "published": "2026-10-14T17:51:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "PS Plus Extra and Premium October 2026 games: The full lineup has been revealed",
-   "link": "https://gg.deals/subscription-news/ps-plus-extra-and-premium-october-2026-games-the-full-lineup-has-been-revealed/",
-   "published": "2026-10-14T17:08:22.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "PS Plus Extra and Premium October 2026 games: The full lineup has been revealed",
-   "score": 6
-  },
-  {
    "source": "Rock Paper Shotgun",
    "domain": "rockpapershotgun.com",
    "title": "Living world, god-mind or \"something far more terrifying\": Etre is an eye-melting, Control-inspired action game about reshaping a cosmic brain",
@@ -900,9 +1031,9 @@
    "title": "Here are our PS Plus Premium and Extra games for October",
    "link": "https://www.eurogamer.net/playstation-plus-october-2026-games",
    "published": "2026-10-14T16:51:54.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "PS Plus Extra and Premium October 2026 games: The full lineup has been revealed",
-   "score": 6
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
   },
   {
    "source": "Rock Paper Shotgun",
@@ -921,18 +1052,6 @@
    "link": "https://gg.deals/freebie/lenovo-gamings-buissons-steam-key-giveaway-has-begun/",
    "published": "2026-10-14T16:08:40.000Z",
    "status": "dropped",
-   "storyHeadline": "Lenovo Gaming’s Buissons Steam key giveaway has begun!",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Lenovo Gaming’s Buissons Steam key giveaway has begun!",
-   "link": "https://gg.deals/freebie/lenovo-gamings-buissons-steam-key-giveaway-has-begun/",
-   "published": "2026-10-14T16:08:40.000Z",
-   "status": "dropped",
-   "storyHeadline": "Lenovo Gaming’s Buissons Steam key giveaway has begun!",
    "score": 3,
    "note": "one site, no keyword of the account, not about a game we list"
   },
@@ -945,16 +1064,6 @@
    "status": "dropped",
    "score": 3,
    "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Shameful display: Total War Shogun 2 Complete Edition debuts to brutal Steam reviews",
-   "link": "https://gg.deals/gaming-news/shameful-display-total-war-shogun-2-complete-edition-debuts-to-brutal-steam-reviews/",
-   "published": "2026-10-14T15:47:39.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "\"Total War: Shogun 2 Complete Edition has fallen short of both your expectations and our own standards\", Sega say as they pull it from stores and restore the original",
-   "score": 6
   },
   {
    "source": "Rock Paper Shotgun",
@@ -1092,9 +1201,9 @@
    "title": "Ubisoft closing Trials developer RedLynx and downsizing Assassin's Creed: Black Flag Resynced team in Singapore",
    "link": "https://www.eurogamer.net/ubisoft-closing-trials-studio-redlyx-layoffs-singapore-black-flag",
    "published": "2026-10-14T12:30:49.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "Ubisoft closing Trials developer RedLynx and downsizing Assassin's Creed: Black Flag Resynced team in Singapore",
-   "score": 6
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
   },
   {
    "source": "Rock Paper Shotgun",
@@ -1125,122 +1234,6 @@
    "status": "dropped",
    "score": 3,
    "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "With the Steam Frame becoming Valve's new favourite VR child, they're selling off their last Index headset stock",
-   "link": "https://www.rockpapershotgun.com/with-the-steam-frame-becoming-valves-new-favourite-vr-child-theyre-selling-off-their-last-index-headset-stock",
-   "published": "2026-10-14T11:20:34.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "Ubisoft are making layoffs at Assassin's Creed Black Flag Resynced studio Ubisoft Singapore while closing Trials creators Redlynx",
-   "link": "https://www.rockpapershotgun.com/ubisoft-are-making-layoffs-at-assassins-creed-black-flag-resynced-studio-ubisoft-singapore-while-closing-trials-creators-redlynx-according-to-report",
-   "published": "2026-10-14T10:43:55.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "Ubisoft closing Trials developer RedLynx and downsizing Assassin's Creed: Black Flag Resynced team in Singapore",
-   "score": 6
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "Destiny 1 project, which aims to port the game to PC, seemingly gets a nod from Bungie boss",
-   "link": "https://www.eurogamer.net/destiny-1-project-golden-age-pc-revival-bungie-nod",
-   "published": "2026-10-14T10:36:37.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "\"My idea of a Netflix for games doesn’t work\": Garry's Mod creator says struggling spiritual successor S&box will go free to play as part of major rethink",
-   "link": "https://www.rockpapershotgun.com/my-idea-of-a-netflix-for-games-doesnt-work-garrys-mod-creator-says-struggling-spiritual-successor-sbox-will-go-free-to-play-as-part-of-major-rethink",
-   "published": "2026-10-14T10:00:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "\"You don't listen to the loudest people in the room\" - World of Warcraft: Forever boss discusses how to approach a deluge of feedback",
-   "link": "https://www.eurogamer.net/world-of-warcraft-forever-feedback-blizzard-listening",
-   "published": "2026-10-14T09:59:22.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals Freebies",
-   "domain": "gg.deals",
-   "title": "S&box goes free-to-play in late 2026, but what about those who already paid?",
-   "link": "https://gg.deals/freebie/garrys-mod-successor-sbox-is-going-free-to-play/",
-   "published": "2026-10-14T09:55:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "Former game-seller Zavvi enters administration again and \"is unable to fulfil any outstanding orders or pre-orders\"",
-   "link": "https://www.eurogamer.net/zavvi-administration-2026-orders",
-   "published": "2026-10-14T09:54:26.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "If you've sworn off genAI Crazy Taxi and dislike all the twerking in GTA 6, consider Shifu: Traffic Masters, a jolly open world driving game set in 1990s China",
-   "link": "https://www.rockpapershotgun.com/if-youve-sworn-off-genai-crazy-taxi-and-dislike-all-the-twerking-in-gta-6-consider-shifu-traffic-masters-a-jolly-open-world-driving-game-set-in-1990s-china",
-   "published": "2026-10-14T09:28:34.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "Planet Zoo 2 is a beautiful sequel and a fine management sim, but it's the animals that steal the show",
-   "link": "https://www.eurogamer.net/planet-zoo-2-now-playing",
-   "published": "2026-10-14T09:09:02.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "GOG front page",
-   "domain": "gog.com",
-   "title": "Release: FIRE AND ASHES",
-   "link": "http://www.gog.com/news/release_fire_and_ashes",
-   "published": "2026-10-14T08:37:34.000Z",
-   "status": "store-own-news"
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "Xbox announces what sounds like a generative AI-focused game-making department, Xbox Labs, while avoiding mentioning AI",
-   "link": "https://www.eurogamer.net/xbox-labs-genai-game-ports-vibe-code",
-   "published": "2026-10-14T08:35:47.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "GOG front page",
-   "domain": "gog.com",
-   "title": "Release: Thank You Bus Driver",
-   "link": "http://www.gog.com/news/release_thank_you_bus_driver",
-   "published": "2026-10-14T08:09:07.000Z",
-   "status": "store-own-news"
   }
  ]
 }

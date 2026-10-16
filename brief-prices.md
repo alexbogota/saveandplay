@@ -1,5 +1,5 @@
-# Brief: Honest prices (@saveandplay.com), 2026-10-15 11:23 UTC
-Prices checked 2026-10-15 10:03 UTC (1 h ago). News: 11 of 11 sources read, 119 items from the last 48 h, 0 of 28 offered deals mentioned.
+# Brief: Honest prices (@saveandplay.com), 2026-10-16 11:23 UTC
+Prices checked 2026-10-16 10:02 UTC (1 h ago). News: 11 of 11 sources read, 123 items from the last 48 h, 1 of 28 offered deals mentioned.
 
 Write ONE post about the first item below (take another one only if it looks wrong, and say why).
 Rules:
@@ -10,71 +10,76 @@ Rules:
 - Text up to 270 characters (the link adds about 25). Say lowest price we've tracked only if the brief says so; never write lowest ever.
 - Attach the cover image and put the Alt text from the brief in the picture's alt field (if the brief says no cover, post without a picture). The link card under the post also shows the game from our page.
 
-## 1. MONSTER HUNTER RISE: IndieGala $3.99 (was $39.99, -90%)
-Sale ends 2026-10-16 23:59 UTC (in 37 h). Price checked 2026-10-15 10:03 UTC. Score 11.
-Why today: sale ends in 37 h; deepest-discount rank 6 of 28.
-Link for the post (link to our site): https://saveandplay.com/deals/indiegala/monster-hunter-rise/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-15
-Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1446780/header.jpg?t=1768870444
-Alt text: Cover art for MONSTER HUNTER RISE
+## 1. Deponia: GOG $0.99 (was $9.99, -90%)
+Sale ends 2026-10-18 06:59 UTC (in 44 h). Price checked 2026-10-16 10:02 UTC. Score 12.
+Why today: sale ends in 44 h; deepest-discount rank 5 of 28.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/deponia/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-16
+Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/214340/header.jpg?t=1789381815
+Alt text: Cover art for Deponia
 
 ## 2. Alan Wake: GOG $1.49 (was $14.99, -90%)
-Sale ends 2026-10-18 06:59 UTC (in 3 days). Price checked 2026-10-15 10:03 UTC. Score 10.
-Why today: deepest-discount rank 2 of 28.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/alan-wake/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-15
+Sale ends 2026-10-18 06:59 UTC (in 44 h). Price checked 2026-10-16 10:02 UTC. Score 12.
+Why today: sale ends in 44 h; deepest-discount rank 2 of 28.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/alan-wake/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-16
 Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108710/9c1728f937c2a7e632b447b02e442f6a5d88515c/header.jpg?t=1769717716
 Alt text: Cover art for Alan Wake
 
 ## 3. The Saboteur: GOG $1.99 (was $19.99, -90%)
-Sale ends 2026-10-18 06:59 UTC (in 3 days). Price checked 2026-10-15 10:03 UTC. Score 10.
-Why today: deepest-discount rank 3 of 28.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/the-saboteur/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-15
+Sale ends 2026-10-18 06:59 UTC (in 44 h). Price checked 2026-10-16 10:02 UTC. Score 12.
+Why today: sale ends in 44 h; deepest-discount rank 3 of 28.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/the-saboteur/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-16
 Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24880/header.jpg?t=1777484749
 Alt text: Cover art for The Saboteur
 
 ## 4. Shadow Tactics: Blades of the Shogun: GOG $3.99 (was $39.99, -90%)
-Sale ends 2026-10-18 06:59 UTC (in 3 days). Price checked 2026-10-15 10:03 UTC. Score 10.
-Why today: deepest-discount rank 4 of 28.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-15
+Sale ends 2026-10-18 06:59 UTC (in 44 h). Price checked 2026-10-16 10:02 UTC. Score 12.
+Why today: sale ends in 44 h; deepest-discount rank 4 of 28.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-16
 Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696
 Alt text: Cover art for Shadow Tactics: Blades of the Shogun
 
-## 5. XCOM 2: GOG $2.99 (was $19.99, -85%)
-Sale ends 2026-10-27 07:59 UTC (in 12 days). Price checked 2026-10-15 10:03 UTC. Score 9.5.
-Why today: deepest-discount rank 11 of 28.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/xcom-2/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-15
-Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268500/header.jpg?t=1772813016
-Alt text: Cover art for XCOM 2
+## 5. Darkest Dungeon: GOG $3.75 (was $24.99, -85%)
+Sale ends 2026-10-18 06:59 UTC (in 44 h). Price checked 2026-10-16 10:02 UTC. Score 11.5.
+Why today: sale ends in 44 h; deepest-discount rank 7 of 28.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-16
+Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187
+Alt text: Cover art for Darkest Dungeon
 
 ## GOG news without a price (use only if no deal fits; do not mention any price)
-- Release: FIRE AND ASHES (Oct 14). Link for the post (affiliate link): https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Ffire_and_ashes
-- Release: Thank You Bus Driver (Oct 14). Link for the post (affiliate link): https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fthank_you_bus_driver
+- The Elder Scrolls IV: Oblivion joins the GOG Preservation Program, alongside Ghostwire: Tokyo (Oct 14). Link for the post (affiliate link): https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Felder_scrolls_iv_oblivion_game_of_the_year_edition_deluxe_the
+- Release: Odd Town (Oct 14). Link for the post (affiliate link): https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fodd_town
+- Release: Anima Gate of Memories: I&II Remaster (Oct 14). Link for the post (affiliate link): https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fanima_gate_of_memories_i_ii_remaster
 
 ## News on the topic (no deal)
-- gg.deals Freebies, Oct 15: "Get a FREE Steam key with KeyXP's Puzzle Game Giveaway" https://gg.deals/freebie/get-a-free-steam-key-with-keyxps-puzzle-game-giveaway/ | KeyXP is giving away 10,000 keys for five different puzzle games!
-- Indie Game Bundles, Oct 14: "Humble IGN 30th Anniversary Bundle – ENDS SOON" https://www.indiegamebundles.com/humble-ign-30th-anniversary-bundle/ | September is a big month for many reasons—and this September is even bigger, because we’re celebrating IGN’s 30th Anniversary! The post Humble IGN 30th Anniver…
+- gg.deals News, Oct 16: "Monster Hunter Rise is up to 92% off on PC! Grab Capcom's hit RPG for a tiny price" https://gg.deals/deal/monster-hunter-rise-is-up-to-92-off-on-pc-grab-capcoms-hit-rpg-for-a-tiny-price/ | A big discount for a big game!
+- gg.deals Freebies, Oct 16: "FREE-to-play Arknights: Endfield is out on Steam! Keep your progress and grab free rewards" https://gg.deals/freebie/free-to-play-arknights-endfield-is-out-on-steam/ | The wait is over! Arknights: Endfield is finally available on Steam, and it's completely free to play.
+- PC Gamer, Oct 16: "US lawmaker calls videogame purchases rentals disguised as sales: 'When you pay for a game, you sho…" https://www.pcgamer.com/gaming-industry/us-lawmaker-calls-videogame-purchases-rentals-disguised-as-sales-when-you-pay-for-a-game-you-should-own-it/ | US Representative Ritchie Torres, a Democrat from New York City, announced today that he will introduce the "Power To The Players Act." If it becomes law, the …
+- gg.deals News, Oct 15: "Last chance to buy the Valve Index VR headset as clearance sale begins" https://gg.deals/deal/last-chance-to-buy-the-valve-index-vr-headset-as-clearance-sale-begins/ | Don't miss out!
+- gg.deals News, Oct 15: "The Humble Store's Noir Thrills Sale offers up to 95% off popular games" https://gg.deals/deal/the-humble-stores-noir-thrills-sale-offers-up-to-95-off-popular-games/ | The sale features Resident Evil games and more!
 
 ## Topics for articles (stories without a deal; headlines and links only. Write an article only if the owner asks)
 1. Humble's Fright or Fight Halloween Bundle is a scare fest with 8 horror games for $12 (updated) (score 10)
 Why now: 2 sites wrote about it in the last 48 h (gg.deals, indiegamebundles.com); matches keywords: bundle, humble; newest Oct 15.
 - gg.deals News, Oct 15: "Humble's Fright or Fight Halloween Bundle is a scare fest with 8 horror games for $12 (updated)" https://gg.deals/bundle/humbles-fright-or-fight-halloween-bundle-is-a-scare-fest-with-7-horror-games-for-12/
 - Indie Game Bundles, Oct 14: "Humble Hamble’s Fright or Fight Halloween Bundle" https://www.indiegamebundles.com/humble-hambles-fright-or-fight-halloween-bundle/
-2. 'My idea of a Netflix for games doesn't work': Garry's Mod successor is getting 'sweeping changes' (score 10)
-Why now: 2 sites wrote about it in the last 48 h (pcgamer.com, rockpapershotgun.com); matches keywords: free, free to play; newest Oct 14.
-- PC Gamer, Oct 14: "'My idea of a Netflix for games doesn't work': Garry's Mod successor is getting 'sweeping changes'" https://www.pcgamer.com/software/platforms/my-idea-of-a-netflix-for-games-doesnt-work-garrys-mod-successor-is-getting-sweeping-changes/
-- Rock Paper Shotgun, Oct 14: ""My idea of a Netflix for games doesn’t work": Garry's Mod creator says struggling spiritual succes…" https://www.rockpapershotgun.com/my-idea-of-a-netflix-for-games-doesnt-work-garrys-mod-creator-says-struggling-spiritual-successor-sbox-will-go-free-to-play-as-part-of-major-rethink
-3. Ubisoft are making layoffs at Assassin's Creed Black Flag Resynced studio Ubisoft Singapore while closing Tri… (score 9)
-Why now: 3 sites wrote about it in the last 48 h (pcgamer.com, rockpapershotgun.com, eurogamer.net); newest Oct 14.
-- PC Gamer, Oct 14: "Assassin's Creed Black Flag Resynced was a big hit, and now it's time for big layoffs at the studio…" https://www.pcgamer.com/gaming-industry/assassins-creed-black-flag-resynced-was-a-big-hit-and-now-its-time-for-big-layoffs-at-the-studio-that-made-it/
-- Eurogamer, Oct 14: "Ubisoft closing Trials developer RedLynx and downsizing Assassin's Creed: Black Flag Resynced team …" https://www.eurogamer.net/ubisoft-closing-trials-studio-redlyx-layoffs-singapore-black-flag
-- Rock Paper Shotgun, Oct 14: "Ubisoft are making layoffs at Assassin's Creed Black Flag Resynced studio Ubisoft Singapore while c…" https://www.rockpapershotgun.com/ubisoft-are-making-layoffs-at-assassins-creed-black-flag-resynced-studio-ubisoft-singapore-while-closing-trials-creators-redlynx-according-to-report
-4. Green Man Gaming The Darksiders Collection Bundle (score 8)
-Why now: 2 sites wrote about it in the last 48 h (gg.deals, indiegamebundles.com); matches keywords: bundle; newest Oct 13.
-- Indie Game Bundles, Oct 13: "Green Man Gaming The Darksiders Collection Bundle" https://www.indiegamebundles.com/green-man-gaming-the-darksiders-collection-bundle/
-- gg.deals News, Oct 13: "GMG's Darksiders Collection Bundle offers 4 Steam games for $9.99" https://gg.deals/bundle/gmg-darksiders-collection-bundle/
-5. Humble’s The Factory Must Grow Bundle keeps the assembly lines rolling with 8 games (score 7)
-Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: bundle, humble; newest Oct 14.
-- gg.deals News, Oct 14: "Humble’s The Factory Must Grow Bundle keeps the assembly lines rolling with 8 games" https://gg.deals/bundle/humbles-the-factory-must-grow-bundle-keeps-the-assembly-lines-rolling-with-8-games/
+2. Grand Theft Auto 6 launch trailer suddenly drops, showing a saucy shower scene, a tense police chase, and hig… (score 9)
+Why now: 3 sites wrote about it in the last 48 h (gg.deals, pcgamer.com, eurogamer.net); newest Oct 15.
+- gg.deals News, Oct 15: "Rockstar drops surprise Grand Theft Auto VI launch trailer, includes raunchy shower scene" https://gg.deals/gaming-news/rockstar-drops-surprise-grand-theft-auto-vi-launch-trailer-including-a-raunchy-shower-scene/
+- PC Gamer, Oct 15: "The Grand Theft Auto 6 launch trailer is here" https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-launch-trailer/
+- Eurogamer, Oct 15: "Grand Theft Auto 6 launch trailer suddenly drops, showing a saucy shower scene, a tense police chas…" https://www.eurogamer.net/grand-theft-auto-6-launch-trailer
+3. Get 10 Steam Games for $24.99 with the PlayForEveryChild Charity Bundle Supporting UNICEF (score 8)
+Why now: 2 sites wrote about it in the last 48 h (gg.deals, indiegamebundles.com); matches keywords: bundle; newest Oct 15.
+- Indie Game Bundles, Oct 15: "Get 10 Steam Games for $24.99 with the PlayForEveryChild Charity Bundle Supporting UNICEF" https://www.indiegamebundles.com/get-10-steam-games-for-24-99-with-the-playforeverychild-charity-bundle-supporting-unicef/
+- gg.deals News, Oct 15: "Get 10 Steam games worth $230 for just $24.99 with PlanetPlay's charity bundle!" https://gg.deals/bundle/planetplay-playforeverychild-charity-game-bundle/
+4. Bad Cheese is free on Epic Games Store this week only (score 8)
+Why now: 2 sites wrote about it in the last 48 h (gamerpower.com, indiegamebundles.com); matches keywords: free; newest Oct 15.
+- Indie Game Bundles, Oct 15: "Bad Cheese is free on Epic Games Store this week only" https://www.indiegamebundles.com/bad-cheese-is-free-on-epic-games-store-this-week-only/
+- GamerPower (PC), Oct 15: "Bad Cheese (Epic Games) Giveaway" https://www.gamerpower.com/bad-cheese-epic-games-giveaway
+5. Agent A: A puzzle in disguise is free on Epic Games Store — time for some retro spy work (score 8)
+Why now: 2 sites wrote about it in the last 48 h (gamerpower.com, indiegamebundles.com); matches keywords: free; newest Oct 15.
+- Indie Game Bundles, Oct 15: "Agent A: A puzzle in disguise is free on Epic Games Store — time for some retro spy work" https://www.indiegamebundles.com/agent-a-a-puzzle-in-disguise-is-free-on-epic-games/
+- GamerPower (PC), Oct 15: "Agent A: A puzzle in disguise (Epic Games) Giveaway" https://www.gamerpower.com/agent-a-a-puzzle-in-disguise-epic-games-giveaway
 
 Left out: 15 other-store deals, 0 hidden duplicates, 0 under 50%, 0 ended, 0 ending within 6 h, 0 old prices.
 Sources not read: none.
-Built by: commit c187b76, schedule, run #16 attempt 1.
+Built by: commit 9f92d5c, schedule, run #17 attempt 1.
