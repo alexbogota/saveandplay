@@ -51,7 +51,7 @@ export function loadShown(id) {
   return keys;
 }
 
-const DEFAULTS = { platform: 'bluesky', feeds: [], enabled: true, language: 'en', maxAgeHours: 30, minChars: 30, maxChars: 600, queriesPerRun: 4, perQuery: 40, pages: 1, maxCandidates: 12, maxHeated: 3, minScore: 5 };
+const DEFAULTS = { platform: 'bluesky', feeds: [], enabled: true, language: 'en', maxAgeHours: 30, minChars: 30, maxChars: 600, queriesPerRun: 4, perQuery: 40, pages: 1, maxCandidates: 12, maxHeated: 3, minScore: 5, showLimit: 8 };
 export const withDefaults = (a) => {
   const handle = String(a.handle ?? '').replace(/^@/, '');
   const platform = a.platform ?? DEFAULTS.platform;
@@ -105,6 +105,8 @@ export function configProblems(a) {
   if (!a.handle) p.push('handle is missing');
   else if (mastodon && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(a.handle)) p.push('handle must look like name@server (for example saveandplay@mastodon.social)');
   if (!mastodon && !a.passwordEnv) p.push('passwordEnv is missing (the name of the variable that holds the app password)');
+  if (a.loginAs != null && (mastodon || typeof a.loginAs !== 'string' || !a.loginAs.trim())) p.push('loginAs must be a Bluesky handle (the account whose login is used to search), and only for Bluesky');
+  if (a.showLimit != null && (!Number.isInteger(a.showLimit) || a.showLimit < 1)) p.push('showLimit must be a whole number (how many posts the chat shows at once)');
   const g = a.groups;
   if (!g || !Object.keys(g).length) p.push('groups is empty');
   else for (const [k, v] of Object.entries(g)) {
@@ -412,6 +414,7 @@ export function evaluate(post, cfg, { now = Date.now(), group = null, query = nu
   if (links > 1) return no('many links');
   const tags = Math.max(features.filter((x) => String(x?.$type).endsWith('#tag')).length, (text.match(/#[\p{L}\p{N}_]+/gu) ?? []).length);
   if (links >= 1 && tags >= 3) return no('promo (link and hashtags)');
+  if (cfg.maxHashtags != null && tags > cfg.maxHashtags) return no('too many hashtags'); // niche accounts: a post with a pile of hashtags is a creator's content, not a conversation
 
   const likes = post.likeCount ?? 0;
   const replies = post.replyCount ?? 0;
@@ -419,6 +422,7 @@ export function evaluate(post, cfg, { now = Date.now(), group = null, query = nu
   const question = text.includes('?') || !!hasAny(low, cfg.questionWords);
   // Mastodon hashtag timelines are full of news and shop posts with a link; a real person with a question rarely adds a link.
   if (cfg.skipLinkPosts && links >= 1 && !question) return no('link post, not a question');
+  if (g.requireQuestion && !question) return no('not a question'); // a group or a feed may accept only posts that ask something (feeds are full of creators' content)
   const topic = !!hasAny(low, cfg.topicWords);
   let score = (g.weight ?? 1);
   if (question) score += 3;

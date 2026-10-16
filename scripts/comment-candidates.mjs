@@ -55,9 +55,9 @@ async function runAccount({ id, account }) {
     }
     api = createApi();
     try {
-      await api.login(account.handle, password);
+      await api.login(account.loginAs ?? account.handle, password); // loginAs: a niche account (cozy, retro) searches under the login of the main account; it only reads
     } catch (e) {
-      say(`PROBLEM: login as @${account.handle} failed: ${e.message}. ${hint(e)}`.trim());
+      say(`PROBLEM: login as @${account.loginAs ?? account.handle} failed: ${e.message}. ${hint(e)}`.trim());
       return { ok: false, lines };
     }
   }
