@@ -181,7 +181,7 @@ await test('factTags: a tag from the facts appears only for a game that has the 
   assert.throws(() => channelWithDefaults('x', 'bluesky', { ...accountsFile.accounts.cozy.channels.bluesky, factTags: { a: '#Bad' } }), /not a valid tag/);
 });
 
-await test('the real settings: Cozy and Retro are valid, have no Kinguin, Retro takes GOG only and is off until its account exists; mirrors share the family of "prices"', () => {
+await test('the real settings: Cozy and Retro are valid, have no Kinguin, Retro takes GOG only, its Mastodon channel waits for an account; mirrors share the family of "prices"', () => {
   const a = accountsFile.accounts;
   for (const id of ['cozy', 'retro']) {
     const acc = withDefaults(id, a[id]);
@@ -191,7 +191,7 @@ await test('the real settings: Cozy and Retro are valid, have no Kinguin, Retro 
     assert.ok(acc.subid.startsWith('bluesky-'));
   }
   assert.deepEqual(a.retro.stores, ['GOG']);
-  assert.equal(a.retro.enabled, false);
+  assert.equal(a.retro.enabled, true, 'the Bluesky account of Retro exists (16 October)');
   assert.equal(a.retro.channels.mastodon.enabled, false, 'the Mastodon channel of Retro waits for its account');
   assert.equal(a.retro.channels.bluesky.subid, 'bluesky-retro');
   assert.equal(a.retro.channels.mastodon.subid, 'mastodon-retro');

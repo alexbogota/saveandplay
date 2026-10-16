@@ -218,7 +218,7 @@
       ]
     },
     "retro": {
-      "enabled": false,
+      "enabled": true,
       "name": "Retro game deals",
       "handle": "@retrogamedeals.bsky.social",
       "topic": "prices",
@@ -284,7 +284,7 @@
       "rules": [
         "English only. One post, plain and honest, no hype. Voice: a friend who checks prices.",
         "Retro = games released in 2007 or earlier (the year of the game, from the GOG catalog, in data/game-facts.json). GOG only, because Steam shows the date of a re-release as the year.",
-        "The account is off until the owner has created it: set enabled to true here and on the Mastodon channel when its account exists.",
+        "The Bluesky account exists and is on (16 October). The Mastodon channel stays off until the owner creates the Mastodon account: then set enabled to true on that channel.",
         "If no game fits today, the post file says NO POST TODAY. Never take any game just to fill the day.",
         "Use only the numbers in this brief (price, was, discount, dates). Never invent or round prices. The last line is Ad (plain text, not a hashtag)."
       ]

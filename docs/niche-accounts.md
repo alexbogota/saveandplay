@@ -11,7 +11,7 @@
 | Аккаунт | Магазины | Правило | Сегодня подходит |
 |---|---|---|---|
 | `cozy` (Bluesky `@cozygame.bsky.social`), включён | GOG, IndieGala | спокойные жанры (Cozy, Relaxing, Casual, Family Friendly, Building, City builder, Point&Click, Puzzle, Simulation и др.), без Action, Shooter, Horror, Violent, Gore, Survival, Fighting, Racing, Difficult, Dark и без mature | 4: Deponia, Syberia II, SimCity 4, RollerCoaster Tycoon 3 |
-| `retro` (Bluesky `@retrogamedeals.bsky.social`), ВЫКЛЮЧЕН | GOG | игра вышла в 2007 году или раньше | 8: System Shock, Prince of Persia (3 части), SimCity 4, Syberia II, RollerCoaster Tycoon 3, FlatOut 2 |
+| `retro` (Bluesky `@retrogamedeals.bsky.social`), включён 16 октября, канал Mastodon выключен | GOG | игра вышла в 2007 году или раньше | 8: System Shock, Prince of Persia (3 части), SimCity 4, Syberia II, RollerCoaster Tycoon 3, FlatOut 2 |
 
 Kinguin в эти аккаунты не входит (правило 11 октября: только `prices-kinguin`). Retro только GOG, потому что Steam показывает год переиздания, а не выхода. Порог 2007 выбран по данным (между 2006 и 2008 в списке пусто; Dead Space 2008 и The Saboteur 2009 уже не ретро).
 
@@ -26,4 +26,4 @@ Kinguin в эти аккаунты не входит (правило 11 октя
 Скопировать блок `cozy` в `data/accounts.json`, поменять ключ, `name`, `handle`, `subid`, `stores`, `select` и теги. Кода менять не нужно. Включить: `enabled: true`. Правило `select` описано в поле `about` того же файла.
 
 ## Что осталось владельцу
-Создать аккаунт Retro, потом в `accounts.json` поставить `enabled: true` у блока `retro` (и у его канала `mastodon`, если нужен Mastodon). Страницы сайта `/cozy/` и `/retro/` и короткие адреса профилей: задание 2 в [tasks-cozy-retro-claudecode.md](tasks-cozy-retro-claudecode.md).
+Если нужен Mastodon для Retro: создать аккаунт и сказать мне, я включу канал `mastodon` в блоке `retro`. Страницы сайта `/cozy/` и `/retro/` и короткие адреса профилей: задание 2 в [tasks-cozy-retro-claudecode.md](tasks-cozy-retro-claudecode.md).
