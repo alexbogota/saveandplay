@@ -20,7 +20,7 @@
 // Good-citizen rules for the feeds are in scripts/lib/feeds.mjs (robots.txt, one request per feed, honest User-Agent).
 //
 // For tests the files and times can be set in the environment: ACCOUNTS_FILE, SOURCES_FILE, DEALS_FILE, HISTORY_FILE,
-// LOG_FILE, STATE_FILE, OUT_DIR, BRIEF_NOW, FEED_TIMEOUT_MS, FEED_PAUSE_MS.
+// LOG_FILE, STATE_FILE, FACTS_FILE, OUT_DIR, BRIEF_NOW, FEED_TIMEOUT_MS, FEED_PAUSE_MS.
 
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { appendFileSync } from 'node:fs';
@@ -31,6 +31,7 @@ import { clean, hasName, nameVariants } from './lib/titles.mjs';
 import { articleTopics } from './lib/topics.mjs';
 import { slug as slugOf, dealPagePath as pagePathOf } from './lib/deal-paths.mjs';
 import { channelWithDefaults, buildPost } from './lib/posts.mjs';
+import { nicheMiss, selectProblems } from './lib/facts.mjs';
 
 const UA = 'SaveAndPlay-brief/1.0 (+https://saveandplay.com)';
 const TIMEOUT_MS = Number(process.env.FEED_TIMEOUT_MS) || 20000;
@@ -48,7 +49,7 @@ const LOWEST_BONUS = 1; // lowest price we have tracked (needs at least the acco
 const REPEAT_PENALTY = 8; // was the top pick of an earlier brief, or drafted, within repeatDays
 
 // What an account gets when data/accounts.json does not say otherwise.
-const DEFAULTS = { minDiscount: 50, windowHours: 48, maxPriceAgeHours: 48, minHoursLeft: 6, repeatDays: 7, maxCandidates: 5, minHistoryDays: 14, dealsWithoutNews: true, gogNews: false, keywords: [], maxTopics: 5, rules: [], cadence: null };
+const DEFAULTS = { minDiscount: 50, windowHours: 48, maxPriceAgeHours: 48, minHoursLeft: 6, repeatDays: 7, maxCandidates: 5, minHistoryDays: 14, dealsWithoutNews: true, gogNews: false, keywords: [], maxTopics: 5, rules: [], cadence: null, select: null, family: null };
 const REQUIRED = ['name', 'handle', 'topic', 'subid', 'stores'];
 export function withDefaults(id, account) {
   const missing = REQUIRED.filter((k) => !account[k] || (Array.isArray(account[k]) && !account[k].length));
@@ -57,7 +58,28 @@ export function withDefaults(id, account) {
   if (c && (!Number.isInteger(c.everyDays) || c.everyDays < 1 || !/^\d{4}-\d{2}-\d{2}$/.test(c.startDay ?? '') || Number.isNaN(Date.parse(c.startDay)))) {
     throw new Error(`Account "${id}" in data/accounts.json: cadence must look like { "everyDays": 2, "startDay": "2026-10-16" } (a whole number of days, and the first day of posting).`);
   }
+  if (account.select) {
+    const bad = selectProblems(account.select);
+    if (bad.length) throw new Error(`Account "${id}" in data/accounts.json: select: ${bad.join('; ')}.`);
+  }
   return { ...DEFAULTS, ...account };
+}
+
+// "family": accounts of one family are one voice on other networks (Bluesky, Nostr, Lemmy, Tumblr of "Honest prices") and may post the same game on the same
+// day. Accounts of different families never do (Cozy, Retro, the main account): the one that comes first in data/accounts.json takes the game.
+// No family = the account is its own family.
+export const familyOf = (id, account) => account?.family || id;
+
+// The games (gameKey) that accounts of OTHER families have already taken today, from the picks saved in the state of the brief.
+export function takenToday({ state, accounts, deals, id, today }) {
+  const me = familyOf(id, accounts.get(id));
+  const byId = new Map(deals.map((d) => [dealId(d), d]));
+  const taken = new Set();
+  for (const [other, mem] of Object.entries(state.top ?? {})) {
+    if (other === id || !accounts.has(other) || familyOf(other, accounts.get(other)) === me) continue;
+    for (const [pick, day] of Object.entries(mem)) if (day === today && byId.has(pick)) taken.add(gameKey(byId.get(pick)));
+  }
+  return taken;
 }
 
 // "cadence": { everyDays, startDay } = the account posts only on startDay and then every everyDays days (UTC days, like the rest of the brief).
@@ -131,22 +153,30 @@ export function visibleIds(deals) {
 }
 
 // Which deals may be offered to this account, and why the others are left out.
-export function eligibleDeals(deals, account, now, offered) {
-  const left = { otherStore: 0, hidden: 0, smallDiscount: 0, ended: 0, endsTooSoon: 0, oldPrice: 0 };
+// ctx.facts = data/game-facts.json (for an account with "select"), ctx.taken = games other families took today (see takenToday).
+// fit = how many games of the account's stores pass its niche rule, before the price and date checks (for the report).
+export function eligibleDeals(deals, account, now, offered, ctx = {}) {
+  const left = { otherStore: 0, hidden: 0, notNiche: 0, noFacts: 0, taken: 0, smallDiscount: 0, ended: 0, endsTooSoon: 0, oldPrice: 0 };
   const onSite = visibleIds(deals);
   const eligible = [];
+  let fit = 0;
   for (const d of deals) {
     const id = dealId(d);
     const last = offered[id];
+    const mine = account.stores.includes(d.store) && onSite.has(id);
+    const miss = mine ? nicheMiss(ctx.facts?.[id], account.select) : '';
+    if (mine && !miss) fit++;
     if (!account.stores.includes(d.store)) left.otherStore++;
     else if (!onSite.has(id)) left.hidden++;
+    else if (miss) left[miss]++;
+    else if (ctx.taken?.has(gameKey(d))) left.taken++;
     else if (d.discountPct < account.minDiscount) left.smallDiscount++;
     else if (d.endsAt && new Date(d.endsAt) < now) left.ended++;
     else if (d.endsAt && new Date(d.endsAt) - now < account.minHoursLeft * HOUR) left.endsTooSoon++; // over before anyone can use the post
     else if (!d.checkedAt || now - new Date(d.checkedAt) > account.maxPriceAgeHours * HOUR) left.oldPrice++;
     else eligible.push({ deal: d, id, offeredOn: last && last !== isoDay(now) && (now - Date.parse(last)) / DAY < account.repeatDays ? last : null });
   }
-  return { eligible, left };
+  return { eligible, left, fit };
 }
 
 // ---------- news ----------
@@ -240,7 +270,7 @@ export function historyFacts(rows, price, today, minDays) {
   return { days, lowest, since: rows[0]?.date ?? null };
 }
 
-export function buildCandidates({ eligible, mentions, history, account, links, now }) {
+export function buildCandidates({ eligible, mentions, history, account, links, now, gameFacts = {} }) {
   const today = isoDay(now);
   const byDiscount = [...eligible].sort((a, b) => b.deal.discountPct - a.deal.discountPct);
   const list = eligible.map(({ deal: d, id, offeredOn }) => {
@@ -268,6 +298,7 @@ export function buildCandidates({ eligible, mentions, history, account, links, n
       cover: d.image ?? null,
       drminfo: d.drminfo ?? null, // from the IndieGala feed; a post may use it for a note (see storeNote in data/accounts.json)
       coverAlt: d.image ? coverAlt(d) : null,
+      facts: gameFacts[id] ? { year: gameFacts[id].year, genres: gameFacts[id].genres, tags: gameFacts[id].tags } : null, // for the tags of the post (factTags in data/accounts.json)
       marketplace: !!d.marketplace, // Kinguin: the post must say Marketplace key and compare with compareTo (see posts.mjs)
       compareTo: d.compareTo ?? null,
       score: Math.round(parts.reduce((a, b) => a + b, 0) * 10) / 10,
@@ -302,14 +333,14 @@ export function whyClauses(c, account, offeredCount) {
   return why;
 }
 
-export function buildBrief({ account, links, deals, history, offered, feeds, sources, now }) {
+export function buildBrief({ account, links, deals, history, offered, feeds, sources, now, facts = {}, taken = new Set() }) {
   const windowMs = account.windowHours * HOUR;
   const mine = pickSources(sources, account);
   const failed = mine.filter((s) => feeds.get(s.id)?.kind !== 'OK').map((s) => ({ name: s.name, why: feeds.get(s.id)?.note || 'not read' }));
   const items = recentItems(feeds, mine, now, windowMs);
-  const { eligible, left } = eligibleDeals(deals, account, now, offered);
+  const { eligible, left, fit } = eligibleDeals(deals, account, now, offered, { facts, taken });
   const mentions = matchNews(items, eligible);
-  const all = buildCandidates({ eligible, mentions, history, account, links, now });
+  const all = buildCandidates({ eligible, mentions, history, account, links, now, gameFacts: facts });
   const candidates = all.slice(0, account.maxCandidates);
   for (const c of candidates) c.whyToday = whyClauses(c, account, eligible.length);
   const news = account.gogNews ? gogNews(items, deals).map((n) => ({ ...n, link: gogLink(links, n.url, account.subid) })) : [];
@@ -331,9 +362,14 @@ export function buildBrief({ account, links, deals, history, offered, feeds, sou
   const checked = deals.map((d) => d.checkedAt).filter(Boolean).sort().at(-1);
   const warnings = [];
   if (!deals.length) warnings.push('data/deals.json is empty.');
-  else if (!eligible.length) {
+  else if (!eligible.length && account.select) {
+    // A niche account says so and posts nothing: it never takes any other game to fill the day.
     warnings.push(
-      `No deal passes the rules (${left.oldPrice} prices older than ${account.maxPriceAgeHours} h, ${left.ended + left.endsTooSoon} sales over or ending within ${account.minHoursLeft} h, ${left.smallDiscount} under ${account.minDiscount}%). The prices in data/deals.json probably need a refresh; then run the brief again.`,
+      `No game fits the niche today (${fit} fit the rule, ${left.notNiche} do not, ${left.noFacts} have no facts yet, ${left.taken} were taken by another account today, ${left.smallDiscount} under ${account.minDiscount}%, ${left.oldPrice} prices older than ${account.maxPriceAgeHours} h, ${left.ended + left.endsTooSoon} sales over or ending soon).`,
+    );
+  } else if (!eligible.length) {
+    warnings.push(
+      `No deal passes the rules (${left.oldPrice} prices older than ${account.maxPriceAgeHours} h, ${left.ended + left.endsTooSoon} sales over or ending within ${account.minHoursLeft} h, ${left.smallDiscount} under ${account.minDiscount}%${left.taken ? `, ${left.taken} taken by another account today` : ''}). The prices in data/deals.json probably need a refresh; then run the brief again.`,
     );
   } else if (checked && now - new Date(checked) > account.maxPriceAgeHours * HOUR * 0.75) {
     warnings.push(`Prices are getting old (${hoursText(now - new Date(checked))}); soon they will be too old to offer.`);
@@ -348,6 +384,7 @@ export function buildBrief({ account, links, deals, history, offered, feeds, sou
     `Prices checked ${checked ? `${stampOf(new Date(checked))} (${hoursText(now - new Date(checked))} ago)` : 'unknown'}. ` +
       `News: ${mine.length - failed.length} of ${mine.length} sources read, ${items.length} items from the last ${account.windowHours} h, ${mentions.size} of ${eligible.length} offered deals mentioned.`,
   );
+  if (account.select) push(`Niche ${account.select.label ?? account.name}: ${fit} games fit the rule today (${eligible.length} of them can be posted now).`);
   for (const w of warnings) push(`WARNING: ${w}`);
   push('', 'Write ONE post about the first item below (take another one only if it looks wrong, and say why).');
   if (account.rules?.length) push('Rules:', ...account.rules.map((r) => `- ${r}`));
@@ -390,12 +427,12 @@ export function buildBrief({ account, links, deals, history, offered, feeds, sou
   }
   push(
     '',
-    `Left out: ${left.otherStore} other-store deals, ${left.hidden} hidden duplicates, ${left.smallDiscount} under ${account.minDiscount}%, ${left.ended} ended, ${left.endsTooSoon} ending within ${account.minHoursLeft} h, ${left.oldPrice} old prices.`,
+    `Left out: ${left.otherStore} other-store deals, ${left.hidden} hidden duplicates, ${left.smallDiscount} under ${account.minDiscount}%, ${left.ended} ended, ${left.endsTooSoon} ending within ${account.minHoursLeft} h, ${left.oldPrice} old prices${account.select ? `, ${left.notNiche} outside the niche, ${left.noFacts} without facts` : ''}${left.taken ? `, ${left.taken} taken by another account today` : ''}.`,
     `Sources not read: ${failed.length ? failed.map((f) => `${f.name} (${f.why})`).join(', ') : 'none'}.`,
     `Built by: ${buildInfo()}.`,
   );
 
-  return { md: lines.join('\n') + '\n', json: { account: account.name, generatedAt: new Date(now).toISOString(), builtBy: buildInfo(), pricesCheckedAt: checked ?? null, warnings, candidates, gogNews: news, topical, topics: topics.map((s) => ({ headline: s.lead.title, score: s.score, sites: s.domains, keywords: s.hits, games: s.games, items: s.items.map((i) => ({ source: i.source, title: i.title, link: i.link ?? null, published: new Date(i.t).toISOString() })) })), left, sources: { total: mine.length, failed } }, top: candidates[0] ?? null, itemRecords };
+  return { md: lines.join('\n') + '\n', json: { account: account.name, generatedAt: new Date(now).toISOString(), builtBy: buildInfo(), pricesCheckedAt: checked ?? null, warnings, ...(account.select ? { niche: { label: account.select.label ?? account.name, fit, postable: eligible.length } } : {}), candidates, gogNews: news, topical, topics: topics.map((s) => ({ headline: s.lead.title, score: s.score, sites: s.domains, keywords: s.hits, games: s.games, items: s.items.map((i) => ({ source: i.source, title: i.title, link: i.link ?? null, published: new Date(i.t).toISOString() })) })), left, sources: { total: mine.length, failed } }, top: candidates[0] ?? null, itemRecords };
 }
 
 // ---------- ready posts ----------
@@ -444,6 +481,7 @@ async function main() {
   const sources = (await readJson(path('SOURCES_FILE', '../data/sources.json'))).sources;
   const deals = await readJson(path('DEALS_FILE', '../data/deals.json'));
   const history = await readJson(path('HISTORY_FILE', '../data/history.json'), {});
+  const facts = await readJson(path('FACTS_FILE', '../data/game-facts.json'), {});
   const log = await readJson(path('LOG_FILE', '../data/drafts-log.json'), {});
   const state = await readJson(path('STATE_FILE', '../drafts/brief-state.json'), { top: {} });
 
@@ -460,6 +498,9 @@ async function main() {
   await mkdir(outDir, { recursive: true });
   const today = isoDay(now);
   state.top ??= {};
+  // A new run replaces today's picks of every account it makes, so an earlier run of the same day cannot take a game away from an account.
+  for (const [id] of accounts) for (const [k, day] of Object.entries(state.top[id] ?? {})) if (day === today) delete state.top[id][k];
+  const byId = new Map(accounts);
   for (const [id, account] of accounts) {
     if (!isPostDay(account.cadence, now)) {
       // Off day of an account with a cadence: no brief, no pick (so nothing is marked as used), and the post files say why.
@@ -475,7 +516,8 @@ async function main() {
     const mem = (state.top[id] ??= {});
     for (const [k, day] of Object.entries(mem)) if (day === today) delete mem[k]; // a second run on the same day replaces today's pick
     const offered = { ...log, ...Object.fromEntries(Object.entries(mem).filter(([, day]) => day !== today)) }; // earlier briefs' top picks and manual drafts
-    const { md, json, top, itemRecords } = buildBrief({ account, links: cfg.links, deals, history, offered, feeds, sources, now });
+    const taken = takenToday({ state, accounts: byId, deals, id, today });
+    const { md, json, top, itemRecords } = buildBrief({ account, links: cfg.links, deals, history, offered, feeds, sources, now, facts, taken });
     if (top?.kind === 'deal') mem[top.id] = today;
     for (const [k, day] of Object.entries(mem)) if ((now - Date.parse(day)) / DAY > 30) delete mem[k];
     const posts = makePosts({ id, account, brief: json, links: cfg.links, now });

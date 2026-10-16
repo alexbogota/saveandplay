@@ -224,8 +224,8 @@ test('a new channel is only a block in the settings (no code change)', () => {
 
 test('tag research: the tags of accounts.json are collected, the statistics are only what the server said', () => {
   const tags = collectTags(accounts).map((t) => t.tag);
-  assert.deepEqual(tags, ['DRMFree', 'GameDeals', 'Gaming', 'GOG', 'IndieGala', 'IndieGames', 'Kinguin', 'PCGaming', 'VideoGames']);
-  assert.ok(collectTags(accounts).find((t) => t.tag === 'GameDeals').where.length === 4, 'used by the channels of both accounts (prices and prices-kinguin)');
+  assert.deepEqual(tags, ['CityBuilder', 'CozyGames', 'DRMFree', 'FarmingSim', 'GameDeals', 'Gaming', 'GOG', 'IndieGala', 'IndieGames', 'Kinguin', 'PCGaming', 'PointAndClick', 'RetroGames', 'RetroGaming', 'VideoGames']);
+  assert.ok(collectTags(accounts).find((t) => t.tag === 'GameDeals').where.length === 7, 'used by the channels of prices (2), prices-kinguin (2), cozy (1) and retro (2)');
   assert.deepEqual(gameTagsOf([{ title: 'Shadow Tactics: Blades' }, { title: 'Go' }, { title: 'Shadow Tactics 2' }]).map((t) => t.tag), ['ShadowTactics', 'ShadowTactics2']);
   const now = Date.parse('2026-10-09T10:00:00Z');
   const day = (iso, uses, accounts) => ({ day: String(Date.parse(iso) / 1000), uses: String(uses), accounts: String(accounts) });

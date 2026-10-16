@@ -1,5 +1,5 @@
 {
-  "about": "Аккаунты соцсетей, для которых программа scripts/daily-brief.mjs (npm run brief) каждый день собирает материал для ОДНОГО поста. Чтобы добавить новый аккаунт, скопируйте блок prices, смените ключ (например cozy), name, handle, topic (одна из тем в data/sources.json), subid и правила. Кода менять не нужно. Обязательные поля: name, handle, topic, subid, stores. Остальные можно не писать, тогда берутся значения по умолчанию (как в блоке prices). Поля: enabled = включён ли аккаунт; topic = читаем только источники с этой темой; subid = метка для партнёрских ссылок и UTM; stores = магазины, про которые можно писать; minDiscount = минимальная скидка, %; windowHours = какие новости считаем свежими; maxPriceAgeHours = цену старше этого не предлагаем; minHoursLeft = скидку, которая закончится раньше чем через столько часов, не предлагаем; repeatDays = сколько дней не предлагать ту же игру снова; maxCandidates = сколько вариантов показать; minHistoryDays = сколько дней должна копиться история цен ЭТОЙ игры (дней с записанной ценой в data/history.json), чтобы бриф и посты вообще могли сказать Lowest price we've tracked (по умолчанию 14; пока дней меньше, фразы в посте нет, баллов за «самую низкую цену» тоже нет); dealsWithoutNews = true: можно предложить скидку и без новости (по цене), false: только скидки, о которых писали источники; gogNews = показывать новости GOG про игры без скидки; keywords = слова темы аккаунта: по ним новости без нашей скидки идут в варианты поста, и они же добавляют баллы темам для статей (пусто = не нужны); maxTopics = сколько тем для статей показать в блоке «Topics for articles» (по умолчанию 5; блок собирается из новостей, не связанных со скидками, показываются только заголовки и ссылки); rules = правила поста для брифа (читает Claude, если пост нужно писать вручную); channels = готовые посты: список каналов аккаунта (bluesky, mastodon), по одному файлу drafts/post-<аккаунт>-<канал>.md на канал, из одной и той же выбранной скидки (первой в брифе), без нейросети. Новый канал или аккаунт = новый блок здесь, код не меняется. Поля канала: enabled (false выключает), subid и utmSource (метка канала в ссылке, по умолчанию utmSource = subid; сейчас в ссылку идёт utmSource), maxChars (максимум знаков в посте вместе с тегами и строкой disclosure: Bluesky 300, Mastodon 500), linkChars (сколько знаков занимает ссылка: у Bluesky около 25, у Mastodon всегда 23), dateFormat (формат дат, MMM D даёт Oct 8; части YYYY, MM, DD, MMM, D), disclosure (пометка рекламы ОБЫЧНЫМ ТЕКСТОМ, не тегом, сейчас Ad; всегда последняя строка поста; её знаки входят в лимит; решение владельца от 8 октября, тег #ad не используется). Теги (все пишутся без решётки, в CamelCase; выбор зависит от дня, а не случайный): baseTags (всегда), storeTags (магазин: тег магазина), nicheTags (магазин: тег ниши, например GOG: DRMFree), gameTag (true: тег игры делается из названия, часть до двоеточия, только буквы и цифры, CamelCase; короче 4 или длиннее 25 знаков не ставится), rotatingTags (пул для ротации: обычные теги вроде Gaming и имена {store}, {niche}, {game} для производных тегов; производный тег, которого НЕТ в пуле, ставится в каждый пост, а тот, что в пуле, идёт только по очереди; каждый день берётся следующий тег пула, а тот, которого для этой игры нет или который уже стоит, пропускается), maxTags (сколько тегов максимум; ротационный отпадает первым). savings (необязательно: строка вида «You save {amount}», где {amount} = старая цена минус цена, считается в центах из цен скидки; строки нет, если экономии нет; сейчас только у Mastodon, у Bluesky мало места), storeNote (необязательно: заметка по магазину, пара «магазин: заметка»; заметка бывает двух видов: короткий текст на одной строке без #, одинаковый для всех игр магазина, как у GOG, или правило «взять из данных игры»: field (сейчас только drminfo, поле из ленты IndieGala, хранится в data/deals.json) и notes (значение поля: заметка). Значение сравнивается без учёта заглавных букв, дефисов и пробелов, так что «DRM free» и «DRM-free» одно и то же; значения нет или его нет в списке notes, значит и заметки нет, ничего не угадывается. Пример для IndieGala в блоке mastodon: «Steam key» даёт заметку Steam key, «DRM free» даёт DRM-free. Магазина нет в списке, значит и строки нет). template (список абзацев; в них можно писать {title} {store} {discount} {price} {was} {checked} {ends} {lowest} {why} {savings} {storeNote} {link} {tags} {disclosure}; {ends}, {lowest}, {why}, {savings} и {storeNote} пустые, если нечего сказать, и пустая строка в пост не попадает; нужны {tags}, {link} и {disclosure}, а {disclosure} обязан быть последней строкой шаблона).Ссылка в посте всегда на нашу страницу игры (/deals/<магазин>/<название>/ с метками utm_source=<utmSource>, utm_medium=social, utm_campaign=deals-ГГГГ-ММ-ДД), прямые партнёрские ссылки магазинов в пост не ставятся. В текст идут только цифры из data/deals.json; фраза Lowest price we've tracked только если история цен это подтверждает. Если скидки на сегодня нет, в файл пишется NO POST TODAY с причиной. Автопубликации нет, публикует владелец. Аккаунт без channels (Nostr) постов здесь не получает. links = общие ссылки проекта. Аккаунты Nostr (блок nostr): здесь у них только то, что нужно ежедневной программе, то есть какие скидки брать и как делать ссылку (handle = npub, его пишет npm run nostr:keygen). Всё остальное про Nostr (профиль, autopost, секрет ключа, теги, часовой пояс) лежит отдельно, в data/nostr-accounts.json, реле в data/nostr-relays.json; к Bluesky они отношения не имеют. Ключ блока здесь и в data/nostr-accounts.json должен совпадать. Аккаунт Lemmy (блок lemmy): то же самое, здесь только правила подбора скидок для брифа (какие магазины, минимальная скидка, subid, правила поста); сообщества, пароль, профиль и autopost лежат в data/lemmy-accounts.json, ключ блока должен совпадать. handle здесь только для вида, настоящее имя берётся из data/lemmy-accounts.json. Аккаунт Tumblr (блок tumblr): так же, здесь только правила подбора скидок для брифа; блог, теги, секреты и autopost лежат в data/tumblr-accounts.json, ключ блока должен совпадать.",
+  "about": "Аккаунты соцсетей, для которых программа scripts/daily-brief.mjs (npm run brief) каждый день собирает материал для ОДНОГО поста. Чтобы добавить новый аккаунт, скопируйте блок prices, смените ключ (например cozy), name, handle, topic (одна из тем в data/sources.json), subid и правила. Кода менять не нужно. Обязательные поля: name, handle, topic, subid, stores. Остальные можно не писать, тогда берутся значения по умолчанию (как в блоке prices). Поля: enabled = включён ли аккаунт; topic = читаем только источники с этой темой; subid = метка для партнёрских ссылок и UTM; stores = магазины, про которые можно писать; minDiscount = минимальная скидка, %; windowHours = какие новости считаем свежими; maxPriceAgeHours = цену старше этого не предлагаем; minHoursLeft = скидку, которая закончится раньше чем через столько часов, не предлагаем; repeatDays = сколько дней не предлагать ту же игру снова; maxCandidates = сколько вариантов показать; minHistoryDays = сколько дней должна копиться история цен ЭТОЙ игры (дней с записанной ценой в data/history.json), чтобы бриф и посты вообще могли сказать Lowest price we've tracked (по умолчанию 14; пока дней меньше, фразы в посте нет, баллов за «самую низкую цену» тоже нет); dealsWithoutNews = true: можно предложить скидку и без новости (по цене), false: только скидки, о которых писали источники; gogNews = показывать новости GOG про игры без скидки; keywords = слова темы аккаунта: по ним новости без нашей скидки идут в варианты поста, и они же добавляют баллы темам для статей (пусто = не нужны); maxTopics = сколько тем для статей показать в блоке «Topics for articles» (по умолчанию 5; блок собирается из новостей, не связанных со скидками, показываются только заголовки и ссылки); rules = правила поста для брифа (читает Claude, если пост нужно писать вручную); channels = готовые посты: список каналов аккаунта (bluesky, mastodon), по одному файлу drafts/post-<аккаунт>-<канал>.md на канал, из одной и той же выбранной скидки (первой в брифе), без нейросети. Новый канал или аккаунт = новый блок здесь, код не меняется. Поля канала: enabled (false выключает), subid и utmSource (метка канала в ссылке, по умолчанию utmSource = subid; сейчас в ссылку идёт utmSource), maxChars (максимум знаков в посте вместе с тегами и строкой disclosure: Bluesky 300, Mastodon 500), linkChars (сколько знаков занимает ссылка: у Bluesky около 25, у Mastodon всегда 23), dateFormat (формат дат, MMM D даёт Oct 8; части YYYY, MM, DD, MMM, D), disclosure (пометка рекламы ОБЫЧНЫМ ТЕКСТОМ, не тегом, сейчас Ad; всегда последняя строка поста; её знаки входят в лимит; решение владельца от 8 октября, тег #ad не используется). Теги (все пишутся без решётки, в CamelCase; выбор зависит от дня, а не случайный): baseTags (всегда), storeTags (магазин: тег магазина), nicheTags (магазин: тег ниши, например GOG: DRMFree), gameTag (true: тег игры делается из названия, часть до двоеточия, только буквы и цифры, CamelCase; короче 4 или длиннее 25 знаков не ставится), rotatingTags (пул для ротации: обычные теги вроде Gaming и имена {store}, {niche}, {game} для производных тегов; производный тег, которого НЕТ в пуле, ставится в каждый пост, а тот, что в пуле, идёт только по очереди; каждый день берётся следующий тег пула, а тот, которого для этой игры нет или который уже стоит, пропускается), maxTags (сколько тегов максимум; ротационный отпадает первым). savings (необязательно: строка вида «You save {amount}», где {amount} = старая цена минус цена, считается в центах из цен скидки; строки нет, если экономии нет; сейчас только у Mastodon, у Bluesky мало места), storeNote (необязательно: заметка по магазину, пара «магазин: заметка»; заметка бывает двух видов: короткий текст на одной строке без #, одинаковый для всех игр магазина, как у GOG, или правило «взять из данных игры»: field (сейчас только drminfo, поле из ленты IndieGala, хранится в data/deals.json) и notes (значение поля: заметка). Значение сравнивается без учёта заглавных букв, дефисов и пробелов, так что «DRM free» и «DRM-free» одно и то же; значения нет или его нет в списке notes, значит и заметки нет, ничего не угадывается. Пример для IndieGala в блоке mastodon: «Steam key» даёт заметку Steam key, «DRM free» даёт DRM-free. Магазина нет в списке, значит и строки нет). template (список абзацев; в них можно писать {title} {store} {discount} {price} {was} {checked} {ends} {lowest} {why} {savings} {storeNote} {link} {tags} {disclosure}; {ends}, {lowest}, {why}, {savings} и {storeNote} пустые, если нечего сказать, и пустая строка в пост не попадает; нужны {tags}, {link} и {disclosure}, а {disclosure} обязан быть последней строкой шаблона).Ссылка в посте всегда на нашу страницу игры (/deals/<магазин>/<название>/ с метками utm_source=<utmSource>, utm_medium=social, utm_campaign=deals-ГГГГ-ММ-ДД), прямые партнёрские ссылки магазинов в пост не ставятся. В текст идут только цифры из data/deals.json; фраза Lowest price we've tracked только если история цен это подтверждает. Если скидки на сегодня нет, в файл пишется NO POST TODAY с причиной. Автопубликации нет, публикует владелец. Аккаунт без channels (Nostr) постов здесь не получает. links = общие ссылки проекта. Аккаунты Nostr (блок nostr): здесь у них только то, что нужно ежедневной программе, то есть какие скидки брать и как делать ссылку (handle = npub, его пишет npm run nostr:keygen). Всё остальное про Nostr (профиль, autopost, секрет ключа, теги, часовой пояс) лежит отдельно, в data/nostr-accounts.json, реле в data/nostr-relays.json; к Bluesky они отношения не имеют. Ключ блока здесь и в data/nostr-accounts.json должен совпадать. Аккаунт Lemmy (блок lemmy): то же самое, здесь только правила подбора скидок для брифа (какие магазины, минимальная скидка, subid, правила поста); сообщества, пароль, профиль и autopost лежат в data/lemmy-accounts.json, ключ блока должен совпадать. handle здесь только для вида, настоящее имя берётся из data/lemmy-accounts.json. Аккаунт Tumblr (блок tumblr): так же, здесь только правила подбора скидок для брифа; блог, теги, секреты и autopost лежат в data/tumblr-accounts.json, ключ блока должен совпадать. Ниши и дубли (15 октября): select = правило ниши по жанрам и году выхода (файл data/game-facts.json, его пишет scripts/enrich-facts.mjs, npm run facts): label (имя ниши), maxYear и minYear (год игры), anyOf (хотя бы одно слово среди жанров и тегов игры), noneOf (ни одного из слов), notMature (true: без игр с насилием, кровью, наготой). Игра без известных фактов в нишу не попадает, ничего не угадывается; если ни одна игра не подходит, пост пишет NO POST TODAY. family = семья аккаунтов: аккаунты одной семьи (Honest prices в Nostr, Lemmy, Tumblr, это тот же голос в других сетях) могут в один день писать про одну игру, аккаунты разных семей (основной, Cozy, Retro, prices-kinguin) никогда: игру забирает тот, кто раньше стоит в этом файле. Нет family = аккаунт сам себе семья. factTags в канале = { слово из жанров или тегов игры: Тег }: тег добавляется в пост только если у самой игры есть это слово.",
   "links": {
     "site": "https://saveandplay.com",
     "gogDeeplink": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/"
@@ -165,8 +165,133 @@
         "Use only the numbers of the deal. The last line is Ad (plain text). The link goes to our own page of the game."
       ]
     },
+    "cozy": {
+      "enabled": true,
+      "name": "Cozy and calm games",
+      "handle": "@cozygame.bsky.social",
+      "topic": "prices",
+      "subid": "bluesky-cozy",
+      "stores": ["GOG", "IndieGala"],
+      "select": {
+        "label": "Cozy",
+        "anyOf": ["Cozy", "Relaxing", "Wholesome", "Cute", "Farming", "Casual", "Family Friendly", "Building", "City builder", "Point&Click", "Puzzle", "Simulation"],
+        "noneOf": ["Action", "Shooter", "Horror", "Violent", "Gore", "Survival", "Fighting", "Racing", "Difficult", "Dark"],
+        "notMature": true
+      },
+      "minDiscount": 50,
+      "windowHours": 48,
+      "maxPriceAgeHours": 48,
+      "minHoursLeft": 6,
+      "repeatDays": 7,
+      "maxCandidates": 5,
+      "minHistoryDays": 14,
+      "dealsWithoutNews": true,
+      "gogNews": false,
+      "maxTopics": 0,
+      "channels": {
+        "bluesky": {
+          "enabled": true,
+          "subid": "bluesky-cozy",
+          "utmSource": "bluesky-cozy",
+          "maxChars": 300,
+          "linkChars": 25,
+          "dateFormat": "MMM D",
+          "disclosure": "Ad",
+          "baseTags": ["GameDeals", "PCGaming"],
+          "storeTags": { "GOG": "GOG", "IndieGala": "IndieGala" },
+          "factTags": { "cozy": "CozyGames", "relaxing": "CozyGames", "farming": "FarmingSim", "city builder": "CityBuilder", "point&click": "PointAndClick" },
+          "gameTag": true,
+          "rotatingTags": ["{store}", "{game}"],
+          "maxTags": 4,
+          "template": [
+            "{title}: -{discount}% at {store}\n{price} (was {was})\nPrice checked {checked}.{ends}{lowest}",
+            "{link}",
+            "{tags}\n{disclosure}"
+          ]
+        }
+      },
+      "rules": [
+        "English only. One post, calm and honest, no hype. Voice: a friend who checks prices.",
+        "This account picks calm games by genre (data/game-facts.json), not only cozy ones. Never write the word cozy about a game that is not cozy; the template does not say it, and a tag like CozyGames is added only when the game itself has that tag.",
+        "If no game fits today, the post file says NO POST TODAY. Never take any game just to fill the day.",
+        "Use only the numbers in this brief (price, was, discount, dates). Never invent or round prices. The last line is Ad (plain text, not a hashtag)."
+      ]
+    },
+    "retro": {
+      "enabled": false,
+      "name": "Retro game deals",
+      "handle": "@retrogamedeals.bsky.social",
+      "topic": "prices",
+      "subid": "bluesky-retro",
+      "stores": ["GOG"],
+      "select": {
+        "label": "Retro",
+        "maxYear": 2007
+      },
+      "minDiscount": 50,
+      "windowHours": 48,
+      "maxPriceAgeHours": 48,
+      "minHoursLeft": 6,
+      "repeatDays": 7,
+      "maxCandidates": 5,
+      "minHistoryDays": 14,
+      "dealsWithoutNews": true,
+      "gogNews": false,
+      "maxTopics": 0,
+      "channels": {
+        "bluesky": {
+          "enabled": true,
+          "subid": "bluesky-retro",
+          "utmSource": "bluesky-retro",
+          "maxChars": 300,
+          "linkChars": 25,
+          "dateFormat": "MMM D",
+          "disclosure": "Ad",
+          "baseTags": ["RetroGaming", "GameDeals"],
+          "storeTags": { "GOG": "GOG" },
+          "gameTag": true,
+          "rotatingTags": ["{store}", "PCGaming", "{game}"],
+          "maxTags": 3,
+          "template": [
+            "{title}: -{discount}% at {store}\n{price} (was {was})\nPrice checked {checked}.{ends}{lowest}",
+            "{link}",
+            "{tags}\n{disclosure}"
+          ]
+        },
+        "mastodon": {
+          "enabled": false,
+          "subid": "mastodon-retro",
+          "utmSource": "mastodon-retro",
+          "maxChars": 500,
+          "linkChars": 23,
+          "dateFormat": "MMM D",
+          "disclosure": "Ad",
+          "baseTags": ["RetroGaming", "GameDeals"],
+          "storeTags": { "GOG": "GOG" },
+          "nicheTags": { "GOG": "DRMFree" },
+          "gameTag": true,
+          "rotatingTags": ["{game}", "RetroGames", "PCGaming"],
+          "maxTags": 5,
+          "savings": "You save {amount}",
+          "storeNote": { "GOG": "DRM-free" },
+          "template": [
+            "{title}: -{discount}% at {store}\n{price} (was {was})\n{savings}\n{storeNote}\nPrice checked {checked}.{ends}{lowest}\n{why}",
+            "{link}",
+            "{tags}\n{disclosure}"
+          ]
+        }
+      },
+      "rules": [
+        "English only. One post, plain and honest, no hype. Voice: a friend who checks prices.",
+        "Retro = games released in 2007 or earlier (the year of the game, from the GOG catalog, in data/game-facts.json). GOG only, because Steam shows the date of a re-release as the year.",
+        "The account is off until the owner has created it: set enabled to true here and on the Mastodon channel when its account exists.",
+        "If no game fits today, the post file says NO POST TODAY. Never take any game just to fill the day.",
+        "Use only the numbers in this brief (price, was, discount, dates). Never invent or round prices. The last line is Ad (plain text, not a hashtag)."
+      ]
+    },
     "nostr": {
       "enabled": true,
+      "family": "prices",
       "name": "Honest prices",
       "handle": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
       "topic": "prices",
@@ -194,6 +319,7 @@
     },
     "lemmy": {
       "enabled": true,
+      "family": "prices",
       "name": "Honest prices",
       "handle": "@saveandplay@lemmy.zip",
       "topic": "prices",
@@ -220,6 +346,7 @@
     },
     "tumblr": {
       "enabled": true,
+      "family": "prices",
       "name": "Honest prices",
       "handle": "saveandplay.tumblr.com",
       "topic": "prices",

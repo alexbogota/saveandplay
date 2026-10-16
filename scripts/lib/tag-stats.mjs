@@ -19,6 +19,7 @@ export function collectTags(accounts) {
       for (const t of ch.baseTags ?? []) add(t, `${at}: base`);
       for (const [store, t] of Object.entries(ch.storeTags ?? {})) add(t, `${at}: store ${store}`);
       for (const [store, t] of Object.entries(ch.nicheTags ?? {})) add(t, `${at}: niche ${store}`);
+      for (const [word, t] of Object.entries(ch.factTags ?? {})) add(t, `${at}: only for games with "${word}"`);
       for (const t of ch.rotatingTags ?? []) if (!t.startsWith('{')) add(t, `${at}: rotation`);
     }
   }

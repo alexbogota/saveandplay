@@ -14,6 +14,8 @@
 //   baseTags      always.
 //   storeTags     { store: tag }   the tag of the store of the deal.
 //   nicheTags     { store: tag }   a tag of the niche of that store (GOG: DRMFree, IndieGala: IndieGames).
+//   factTags      { "genre or tag of the game": "Tag" }  a tag that is added only when the game itself has that genre or tag in data/game-facts.json
+//                 (for example "city builder": "CityBuilder"). Nothing is added for a game whose facts we do not have. Comes after the tags above, before the rotating one.
 //   gameTag       true: a tag made from the title of the game (the part before ":", letters and digits only, CamelCase, 4-25 characters).
 //   rotatingTags  the pool for the rotation. It holds literal tags (Gaming) and the names {store}, {niche}, {game} for the derived tags.
 //                 A derived tag that is NOT in the pool is added to every post; one that IS in the pool comes only in its turn.
@@ -30,9 +32,10 @@
 //                   capitals, hyphens or spaces; a value that is not listed, or no value, gives no note. Nothing is guessed.
 
 import { slug, dealPagePath } from './deal-paths.mjs';
+import { labelsOf } from './facts.mjs';
 
 const NOTE_FIELDS = ['drminfo']; // fields of a deal a storeNote rule may read
-const CHANNEL_DEFAULTS = { enabled: true, dateFormat: 'MMM D', linkChars: 25, storeTags: {}, nicheTags: {}, gameTag: false, rotatingTags: [], savings: '', storeNote: {} };
+const CHANNEL_DEFAULTS = { enabled: true, dateFormat: 'MMM D', linkChars: 25, storeTags: {}, nicheTags: {}, gameTag: false, factTags: {}, rotatingTags: [], savings: '', storeNote: {} };
 const REQUIRED = ['subid', 'maxChars', 'disclosure', 'baseTags', 'maxTags', 'template'];
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 const PLACEHOLDERS = ['title', 'store', 'discount', 'price', 'was', 'checked', 'ends', 'lowest', 'why', 'savings', 'storeNote', 'link', 'tags', 'disclosure'];
@@ -62,7 +65,9 @@ export function channelWithDefaults(accountId, name, channel) {
     } else if (!oneLine(note)) throw new Error(`${where}: the storeNote of ${store} must be a short plain text on one line, without #, or a rule with "field" and "notes".`);
   }
   for (const t of c.rotatingTags) if (t.startsWith('{') && !DERIVED.includes(t)) throw new Error(`${where}: "${t}" in rotatingTags is unknown; allowed: ${DERIVED.join(' ')}.`);
-  const literal = [...c.baseTags, ...Object.values(c.storeTags), ...Object.values(c.nicheTags), ...c.rotatingTags.filter((t) => !DERIVED.includes(t))];
+  if (typeof c.factTags !== 'object' || Array.isArray(c.factTags)) throw new Error(`${where}: factTags must look like { "city builder": "CityBuilder" }.`);
+  for (const [word, tag] of Object.entries(c.factTags)) if (!word.trim() || typeof tag !== 'string') throw new Error(`${where}: factTags "${word}" must point to a tag written without #.`);
+  const literal = [...c.baseTags, ...Object.values(c.storeTags), ...Object.values(c.nicheTags), ...Object.values(c.factTags), ...c.rotatingTags.filter((t) => !DERIVED.includes(t))];
   for (const t of literal) if (!tagName.test(t)) throw new Error(`${where}: "${t}" is not a valid tag. Write tags without #, in CamelCase (PCGaming, GameDeals).`);
   for (const m of c.template.join('\n').matchAll(/\{(\w+)\}/g)) if (!PLACEHOLDERS.includes(m[1])) throw new Error(`${where}: the template has {${m[1]}}; allowed: ${PLACEHOLDERS.map((p) => `{${p}}`).join(' ')}.`);
   for (const need of ['tags', 'link', 'disclosure']) if (!c.template.some((p) => p.includes(`{${need}}`))) throw new Error(`${where}: the template needs {${need}}.`);
@@ -113,6 +118,8 @@ export function chooseTags({ c, channel, day }) {
   };
   const pool = channel.rotatingTags;
   for (const key of DERIVED) if (!pool.includes(key) && derived[key] && !has(derived[key])) tags.push(derived[key]); // not in the rotation: on every post
+  const labels = labelsOf(c.facts); // the genres and tags of THIS game; a game without facts gets no tag from factTags
+  for (const [word, tag] of Object.entries(channel.factTags)) if (labels.has(word.toLowerCase().replace(/\s+/g, ' ').trim()) && !has(tag)) tags.push(tag);
   let rotating = null;
   if (pool.length) {
     const start = ((dayNumber(day) % pool.length) + pool.length) % pool.length;
