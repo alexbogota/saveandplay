@@ -1,112 +1,108 @@
 # Comment candidates: prices (@saveandplay.com)
-Made 2026-10-15T18:45Z. Searched: seasonal: horror games recommend | ai: generative AI games steam | broadPlaying: "hours in" game pc | broadAsk: "best co-op" game | waitForSale: "wait for a sale" | backlog: steam backlog | deck: handheld PC games | bundles: itch.io bundle | practical: steam refund | genres: co-op games pc | pcGaming: feed | gamingLiked: feed.
-Posts below: 25 + 3 heated. Dropped in this run: bot, shop or studio 47, low score 10, console only 2, skip word 67, not about games 21, replies are limited 7, promo (link and hashtags) 14, adult or graphic label 1, too short 1, other language (text) 13.
+Made 2026-10-16T00:48Z. Searched: seasonal: halloween games pc | ai: steam AI disclosure | broadPlaying: "beat" game "last night" | broadAsk: "what to play" pc | waitForSale: "should I buy" steam | backlog: "what should I play" steam | deck: steam deck games | bundles: pay what you want games | practical: "game pass" vs buying | genres: city builder recommendations | pcGaming: feed | gamingLiked: feed.
+Posts below: 25 + 3 heated. Dropped in this run: skip word 55, low score 3, replies are limited 4, not about games 6, bot, shop or studio 49, other language (text) 10, too short 2, already shown 2, promo (link and hashtags) 12, many links 1, console only 2, earlier finds: low score 1.
 
 ## Posts
-1. @bobbinsu.bsky.social (Bobbins.bsky.social) · 4h · likes 1 · replies 0 · question · waitForSale
+1. @mikeymakescontent.bsky.social (MikeyMakesContent) · 3h · likes 5 · replies 0 · question · pcGaming
+   https://bsky.app/profile/mikeymakescontent.bsky.social/post/3mxx3abvgrk2z
+   What's going on with the Firemen in the town of Harvest?! I started playing HARVESTER - a 90's FMV horror game. Watch along with my Lives throughout October as I make my way through this insane, crazy, dated game. #harvester #gaming #90s #pcgaming #horror
+   [video, no description]
+2. @midtown-solutions.bsky.social (Midtown Solutions) · 3h · likes 1 · replies 0 · question · pcGaming
+   https://bsky.app/profile/midtown-solutions.bsky.social/post/3mxx2s24sls2k
+   New in MidBooster, the Windows app that tunes your PC for each game — Fixes and improvements. Already using it? Say “install the update” to Middy. Try MidBooster free on Windows: midtown-solutions.lemonsqueezy.com/chec… #PCGaming #Gaming
+   [link card: MidBooster — try it free]
+3. @bobbinsu.bsky.social (Bobbins.bsky.social) · 10h · likes 1 · replies 0 · question · waitForSale
    https://bsky.app/profile/bobbinsu.bsky.social/post/3mxwdfs5iy22i
    This for me was one of the most anticipated games in a decade. A rare 'Dont wait for a sale in 12 months time' game. A 'fork out to upgrade your PC to play on decent settings' game. Now, I feel exactly the same as you and I'm totally gutted.
-2. @dullardthedull.bsky.social (DullardtheDull) · 2h · likes 1 · replies 0 · question · pcGaming
+4. @leftymushroom.bsky.social · 19h · likes 1 · replies 0 · question · waitForSale
+   https://bsky.app/profile/leftymushroom.bsky.social/post/3mxvdsursy22g
+   It's an interesting game the combat is very mid 2000's if that makes sense feels like it didn't get all the time it needed but the story is actually really solid for hellraiser standards it's like a 30 dollar game though wait for a sale if any of you do want it
+5. @animaniac89.bsky.social (Grim ⸸ Spector ⸸ Jerrod ⸸ LazⒶrus 🏳️‍⚧) · 20h · likes 1 · replies 1 · question · waitForSale
+   https://bsky.app/profile/animaniac89.bsky.social/post/3mxvaa5nnoc2q
+   Question, I'm curious what the "hashtag" gamers think of the recently released Silver Pines and Castlevania: Belmont's Curse. They both very much seem like my jam, but I want to know which I should prioritize getting or if they're better to wait for a sale.
+6. @pluckthedragon.bsky.social (Pluck The Dragon | Twitch Streamer 🍐🐉) · 3h · likes 0 · replies 0 · question · pcGaming
+   https://bsky.app/profile/pluckthedragon.bsky.social/post/3mxx2epeays2f
+   Sony: Goodbye, VR. 😢 Meta: VR + Glasses 🤔 Valve: Is our frames going to fail us? Others: #vr #virtualreality #meta #valve #steamframe #sony #psvr
+7. @dullardthedull.bsky.social (DullardtheDull) · 8h · likes 2 · replies 0 · question · pcGaming
    https://bsky.app/profile/dullardthedull.bsky.social/post/3mxwk43v57224
    Tech people please help. My venerable PC has ctrl alted it's last delete and fixing it will cost too much/be a pure ball ache so I want a new toy that I can also do admit and stuff on is the steam machine any cop? HELP! #steammachine #techhelp #I'mclueless #Benicetoamoron #pcgami
-3. @stickeralchemist.bsky.social (The Sticker Alchemist) · 5h · likes 1 · replies 0 · question · pcGaming
+8. @stickeralchemist.bsky.social (The Sticker Alchemist) · 11h · likes 1 · replies 0 · question · pcGaming
    https://bsky.app/profile/stickeralchemist.bsky.social/post/3mxw7vmtyqq2s
    Taking the long way to New Vegas again? Warn your companion with handmade Fallout themed stickers in your choice of finish!⚠️ #fallout #falloutnewvegas #gamingmemes #pcgaming #gamergifts
    [video, no description]
-4. @leftymushroom.bsky.social · 13h · likes 1 · replies 0 · question · waitForSale
-   https://bsky.app/profile/leftymushroom.bsky.social/post/3mxvdsursy22g
-   It's an interesting game the combat is very mid 2000's if that makes sense feels like it didn't get all the time it needed but the story is actually really solid for hellraiser standards it's like a 30 dollar game though wait for a sale if any of you do want it
-5. @animaniac89.bsky.social (Grim ⸸ Spector ⸸ Jerrod ⸸ LazⒶrus 🏳️‍⚧) · 14h · likes 1 · replies 1 · question · waitForSale
-   https://bsky.app/profile/animaniac89.bsky.social/post/3mxvaa5nnoc2q
-   Question, I'm curious what the "hashtag" gamers think of the recently released Silver Pines and Castlevania: Belmont's Curse. They both very much seem like my jam, but I want to know which I should prioritize getting or if they're better to wait for a sale.
-6. @onlycans.bsky.social (onlycans) · 9h · likes 1 · replies 1 · question · practical
+9. @onlycans.bsky.social (onlycans) · 15h · likes 1 · replies 1 · question · practical
    https://bsky.app/profile/onlycans.bsky.social/post/3mxvqfm55ek2r
    i can probably still get a steam refund. i haven't actually played it yet. maybe they'll make it actually good? they've fucked every single total war game launch.
-7. @dynamicgamingtwinz.bsky.social (Dynamic-Gaming-Twinz) · 10h · likes 8 · replies 1 · question · seasonal
+10. @diningandcooking.bsky.social (Dining and Cooking) · 11h · likes 0 · replies 0 · question · deck
+   https://bsky.app/profile/diningandcooking.bsky.social/post/3mxwale7rbz2i
+   Steam Cooking Fest Sale Steam Deck Game Recommendations https://www.diningandcooking.com/2859354/steam-cooking-fest-sale-steam-deck-game-recommendations/ The Steam Cooking Fest sale has some great Steam Deck games on sale, so here are some recommendations of must-have portable ti
+   [link card: Steam Cooking Fest Sale Steam Deck Game Recommendations - Dining and Cooking | DiningAndCooking.com]
+11. @dynamicgamingtwinz.bsky.social (Dynamic-Gaming-Twinz) · 16h · likes 8 · replies 1 · question · seasonal
    https://bsky.app/profile/dynamicgamingtwinz.bsky.social/post/3mxvnzdykdk2p
    🌄 Morning Since it's #Halloween season, we've been going console to console looking for games suiting the theme, though they're not always horror themed These are the only two that come close which we own for CD-32. Recommend any true CD-32 horror games we should get? #GamersUni
    [image, no description]
-8. @gamerbait.bsky.social (GamerBait) · 17h · likes 0 · replies 0 · question · backlog
+12. @gamerbait.bsky.social (GamerBait) · 24h · likes 0 · replies 0 · question · backlog
    https://bsky.app/profile/gamerbait.bsky.social/post/3mxuv7qx5s72o
    Time to do the unthinkable and share our hidden shame: how many unplayed games are in your Steam backlog? I'll go first: a whopping 159. In my defense, my Steam account is 22 years old, so that's only about 7 a year. Can anyone beat my shame? #BacklogConfession #SteamBacklog #Pla
    [image: Steam library filter menu with the Play State filter set to Unplayed, alongside unchecked options for players, hardware support, features, language and genre]
-9. @gaminglionsnl.bsky.social (Gaming Lions) · 2h · likes 1 · replies 0 · pcGaming
-   https://bsky.app/profile/gaminglionsnl.bsky.social/post/3mxwilzeyqd2a
-   WARDOGS Season 2 is NU beschikbaar! #WARDOGS #BULKHEAD #Team17 #Steam
-   [link card: WARDOGS Season 2 is NU beschikbaar!]
-10. @trevorsideas.bsky.social (Trevor 🇨🇦) · 3h · likes 1 · replies 0 · backlog
-   https://bsky.app/profile/trevorsideas.bsky.social/post/3mxwhadfv2c2w
-   Unfortunately as of this moment Frosthaven is available on Steam but not GoG. Gloomhaven was available on GoG but it was made by a different developer so not sure about the ultimate status there. I've got a huge backlog and in no rush so I'm going to hold off to see the GoG of it
-11. @feed.igeek.gamer-geek-news.com.ap.brid.gy (input) · 5h · likes 2 · replies 0 · pcGaming
-   https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3mxw6wzuuoct2
-   📰 **DREADMOOR launches in Early Access on November 9** Dark first-person fishing adventure game DREADMOOR will launch in Early Access for PC via Steam … 📰 Source: Gematsu 🔗 Link: https://www.gematsu.com/2026/10/dreadmoor-launches-in-early-access-on-november-9 #SteamDeck #PCGam
+13. @feed.igeek.gamer-geek-news.com.ap.brid.gy (input) · 4h · likes 1 · replies 0 · pcGaming
+   https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3mxwwrhhpmbm2
+   📰 **Appulse launches November 26** Roguelite pinball shooter Appulse will launch for PC via Steam on November 26, publisher Raw … 📰 Source: Gematsu 🔗 Link: https://www.gematsu.com/2026/10/appulse-launches-november-26 #SteamDeck #PCGaming
    [link card: ]
-12. @feed.igeek.gamer-geek-news.com.ap.brid.gy (input) · 6h · likes 1 · replies 0 · pcGaming
-   https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3mxw4wnon5lw2
-   🎮 **2023’s Best Shooter Gets a Killer Sequel — And You Can Play Right Now** El Paso, Elsewhere 2 just got its first demo ahead of Steam Next Fest, and it signals another fierce shooter. 📰 Source: Polygon.com 🔗 Link: https://www.polygon.com/el-paso-elsewhere-2-preview/ #SteamDe
-   [image: Image for: 2023’s Best Shooter Gets a Killer Sequel — And You Can Play Right Now]
-13. @adr.mastodon.social.ap.brid.gy (john fink ok!! :ghost:) · 1h · likes 0 · replies 0 · pcGaming
-   https://bsky.app/profile/adr.mastodon.social.ap.brid.gy/post/3mxwlj53yox52
-   I am not in the target market at the moment because I am not in a position to drop like fifteen hundred smackadoodles for a #steamframe but one thing that is VERY FRUSTRATING is I can't seem to find information as to whether or not the Frame can, like, stream games off the goddan
-   [link card: Original post on mastodon.social]
-14. @endorphinssc.bsky.social (Drew Debessonet) · 2h · likes 0 · replies 0 · backlog
-   https://bsky.app/profile/endorphinssc.bsky.social/post/3mxwi3fffm22a
-   Day 1 buy in 2019. Got the platinum. Replaying control ultimate on pc (yes that is an eww for me normally) picking up Control Resonant. Only buying physical if possible + switch 2 and steam if i have to buy digital. Haha, you all enjoy GTA. Gonna vibe with Ocarina and C:R and bac
-15. @worldsfinest.bsky.social (James Harvey @ The World's Finest) · 3h · likes 24 · replies 1 · gamingLiked
-   https://bsky.app/profile/worldsfinest.bsky.social/post/3mxwgm4a64c2m
-   The "Batman: Vengeance" video game was released on this day (Oct. 15) in 2001! Featuring the voice cast and characters designs from BTAS, and garnering mostly positive reviews, this entertaining game finds Batman investigating the apparent demise of The Joker! #BatmanTAS #Batman 
+14. @shadowgh057.bsky.social (ShadowGH057) · 4h · likes 1 · replies 0 · pcGaming
+   https://bsky.app/profile/shadowgh057.bsky.social/post/3mxwv4djfk22t
+   Ground Based Arc never de-agros in PVE mode 😭 #arcraiders #pcgaming #embark #extract #arcraidersgame
+   [video, no description]
+15. @afterpat.ch (afterpatch) · 5h · likes 1 · replies 0 · pcGaming
+   https://bsky.app/profile/afterpat.ch/post/3mxwrtp4t6s2q
+   Enshrouded 1.0 is out, and the week is warmer than usual: Oct 9–15: 91% positive, the game's usual is 82%. One review: “Custom mode keeps me playing.” The 90-day curve is on the page. #Enshrouded #Steam
+   [link card: Enshrouded - afterpatch]
+16. @vaddix-gaming.bsky.social (Vaddix Gaming) · 5h · likes 1 · replies 0 · pcGaming
+   https://bsky.app/profile/vaddix-gaming.bsky.social/post/3mxwrqysut222
+   Final boss against Nemesis! Similar to the Plant 43 fight, he has two arms that smash down at you so run to the sides. Destroy the three red orbs then he’ll fall over, revealing a bunch of more orbs. Destroy them to do major damage #residentevilrequiem #steam #pc #gaming #gamer
    [4 images, no description]
-16. @playminesweeper.bsky.social (Play Minesweeper) · 3h · likes 3 · replies 3 · pcGaming
-   https://bsky.app/profile/playminesweeper.bsky.social/post/3mxwfvpp27p2r
-   Turn 2 · 3 players moved 🏅 @direprism.bsky.social +3 · @mschlasn.bsky.social +3 · @conantheyossarian.bsky.social +3 62 cells left, 3 spares, 6 flagged. Reply a coordinate, A1 to K11. Everyone who replies opens one. 30 min. #Minesweeper #retrogames #pcgaming #maths #puzzle #board
-   [image: Minesweeper, turn 2. 11 by 11 grid, rows A to K, columns 1 to 11. 24 mines. 35 of 97 safe cells opened, 6 flagged. Reading each row left to right: a digit is h…]
-17. @urazon1.bsky.social · 4h · likes 0 · replies 0 · pcGaming
-   https://bsky.app/profile/urazon1.bsky.social/post/3mxwdx5h6z72w
-   Assetto Corsa EVO & Rally Bundle pairs two Steam racing sims — EVO and Rally — in one Global key. €56.13 on Urazon with instant digital delivery. https://urazon.com/Assetto-Corsa-EVO-Rally-Bundle-Steam-Key-Global #PCGaming #RacingGames
-   [image: Urazon promo for Assetto Corsa EVO & Rally Bundle Steam Key Global: original game cover with the price €56.13.]
-18. @wingersttv.bsky.social · 4h · likes 0 · replies 0 · pcGaming
-   https://bsky.app/profile/wingersttv.bsky.social/post/3mxwbwvjsj62v
-   Battlestate Games is turning 12! 🎉 Claim your anniversary gift in the account center—available across all game modes. Get it now! 🎁 #BattlestateGames #EscapeFromTarkov #12YearAnniversary #FreeGift #GamingCommunity #TarkovCommunity #BSG #EFT #Steam #Tarkov
-   [image, no description]
-19. @rramsay.bsky.social (RAMSAY) · 5h · likes 0 · replies 0 · bundles
-   https://bsky.app/profile/rramsay.bsky.social/post/3mxwa4qg5ts2b
-   A bundle by RRFreelance, $10.00 for 13 games itch.io/s/204738/eve...
-   [link card: Everything must GO!!! by RRFreelance]
-20. @rootnationen.bsky.social (RootNationEN) · 5h · likes 0 · replies 0 · pcGaming
-   https://bsky.app/profile/rootnationen.bsky.social/post/3mxw67mk7v52z
-   Nearly Three Times More Pixels Per Eye: Valve Is Developing an Enhanced OLED Version of the Steam Frame VR Headset #SteamFrame #VRHeadset #Valve #OLED #VirtualReality
-   [link card: Nearly Three Times More Pixels Per Eye: Valve Is Developing an Enhanced OLED Version of the Steam F…]
-21. @rramsay.bsky.social (RAMSAY) · 8h · likes 1 · replies 1 · bundles
-   https://bsky.app/profile/rramsay.bsky.social/post/3mxvvhy2mg226
-   A bundle by polytricity, $20.00 for 5 games itch.io/s/204717/all...
-   [link card: All the Dev Tools by polytricity]
-22. @mintypup.bsky.social (Minty! ΘΔ) · 10h · likes 4 · replies 0 · backlog
-   https://bsky.app/profile/mintypup.bsky.social/post/3mxvpajdk622s
-   Btw if you got RimWorld sittin' somewhere in your steam backlog, they just released a beta for vers1.7 that upgrades the engine from Unity to a built in-house engine to improve load times + tickrate. Also, all mods from 1.6 work bc the devs brought in ~20 mod devs to make sure it
-   [image: A labrador retriever from the colony simulation game Rimworld]
-23. @securityonline.bsky.social (Daily CyberSecurity) · 14h · likes 1 · replies 0 · pcGaming
-   https://bsky.app/profile/securityonline.bsky.social/post/3mxv7sunoyb22
-   Microsoft fixes the frustrating Windows 11 mouse stutter and cursor drift issues in games with the new KB5127648 update for versions 24H2, 25H2, and 26H2. #Windows11 #KB5127648 #PCGaming #Microsoft #TechNews
-   [link card: Windows 11 Mouse Stutter Fixed in KB5127648 Update]
-24. @securityonline.bsky.social (Daily CyberSecurity) · 15h · likes 1 · replies 0 · pcGaming
-   https://bsky.app/profile/securityonline.bsky.social/post/3mxv6oimr532y
-   The new Epic Games Launcher update adds native Linux support and faster speeds, but its Vibe Coding marketing sparked massive backlash after recent layoffs. #EpicGames #VibeCoding #LinuxGaming #Steam #TechNews
-   [link card: Epic Games Launcher Update Sparks Vibe Coding Backlash]
-25. @gerowen.bsky.social (Marcus) · 15h · likes 2 · replies 0 · pcGaming
-   https://bsky.app/profile/gerowen.bsky.social/post/3mxv6oe2qr22s
-   One of the recent updates to #Steam added a screensaver that kicks in when you go AFK for a bit, that seems to cycle thru your screenshots, title art for games you have installed, etc., so that's pretty cool. It has options for "Game Slideshow" or "Bouncing logo". #Gaming #PCGami
-   [image: A screenshot of the Steam settings for the screensaver.]
+17. @feed.igeek.gamer-geek-news.com.ap.brid.gy (input) · 6h · likes 1 · replies 0 · pcGaming
+   https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3mxwqszppesx2
+   🎮 **2026's Bloodiest Game Just Got a Release Date** Acts of Blood is a The Raid-inspired beat-'em-up. It will arrive on Steam in December and on consoles in 2027. 📰 Source: Polygon.com 🔗 Link: https://www.polygon.com/acts-of-blood-steam-release-date-console-launch-announced/ #
+   [image: Image for: 2026's Bloodiest Game Just Got a Release Date]
+18. @urazon1.bsky.social · 6h · likes 2 · replies 0 · pcGaming
+   https://bsky.app/profile/urazon1.bsky.social/post/3mxwqpy6d3k25
+   NBA 2K27 is Visual Concepts’ basketball simulation, published by 2K. NBA 2K27 (Steam) is €46.26 on Urazon. Instant digital delivery. https://urazon.com/NBA-2K27-Steam-Key-ROW #NBA2K27 #PCGaming
+   [image: Urazon promo for NBA 2K27 Steam Key ROW: original game cover with the price €46.26.]
+19. @jimorian.bsky.social (Jimorian) · 1h · likes 0 · replies 0 · deck
+   https://bsky.app/profile/jimorian.bsky.social/post/3mxx7ltvywc22
+   There are other open source options (feel free to list them below), but I think when I have a bit of time to play with it, I'll try this one out. Would be helpful to have my GOG and Epic games listed in one place, since they're usually out of sight, out of mind. heroicgameslaunch
+   [link card: Heroic Games Launcher — Free Epic, GOG & Amazon Games Launcher]
+20. @shadowgh057.bsky.social (ShadowGH057) · 2h · likes 0 · replies 0 · pcGaming
+   https://bsky.app/profile/shadowgh057.bsky.social/post/3mxx5dp2pcc2t
+   Recoil Test #arcraiders #extract #embark #pcgaming #arcraidersgame
+   [video, no description]
+21. @nyxbits.bsky.social (NyxByte ~ AI Vtuber ~) · 2h · likes 0 · replies 0 · pcGaming
+   https://bsky.app/profile/nyxbits.bsky.social/post/3mxx4sjg7bc2f
+   🐱 Free to keep this week: Bad Cheese + Agent A: A puzzle in disguise (Epic, $33 value) — claim by Oct 22. Next week: Sker Ritual + Home (Epic). Steam has nothing but DLC. #FreeGames #EpicGames #PCGaming
+22. @heartofamerica.bsky.social (Heart of America) · 3h · likes 0 · replies 0 · pcGaming
+   https://bsky.app/profile/heartofamerica.bsky.social/post/3mxx2uyp2ck2d
+   "We’re back at Maxfield Elementary! 🔧💡 Made possible by St. Paul Promise Neighborhood, 3M, Proto Labs, Wilder Foundation, Saint Paul Public Schools and HOA. #FutureMakers #STEAM #HeartOfAmerica
+   [4 images, no description]
+23. @yamdasrd.bsky.social (Yamdasrd) · 3h · likes 0 · replies 0 · deck
+   https://bsky.app/profile/yamdasrd.bsky.social/post/3mxwzzj5zyc2e
+   The one Blizzard game that would make sense on Steam is Blizzard Arcade Collection and they’re keeping it on battle.net. Would be nice on the Steam Deck.
+   [link card: Home | Battle.net]
+24. @tarminslamero.bsky.social (Tarmin Slamero) · 4h · likes 0 · replies 0 · pcGaming
+   https://bsky.app/profile/tarminslamero.bsky.social/post/3mxwwnba4nk2d
+   #Fallout 3 & #NewVegas. Last played… 2019 Maybe if I ever get advanced from the waitlist and get the #SteamMachine for real (I’m not certain #Valve hasn’t forgotten us who were screwed by their reservation lottery), I may go back and remind myself what I have not been missing.
+25. @deckpointer.bsky.social (Deck Pointer — Steam Deck Mouse & Keyboa) · 4h · likes 0 · replies 0 · deck
+   https://bsky.app/profile/deckpointer.bsky.social/post/3mxwwg2ztia2q
+   15 games are free with Amazon Prime right now, $315 at regular Steam prices. DOOM + DOOM II is Deck Verified, High on Life is 89% positive. Three leave on Oct 15. Free games with Deck verdicts in the app: https://deckpointer.com/go/bsky-post-m01-22 #SteamDeck #PrimeGaming
+   [video: Vertical video: a table of all 15 free Prime Gaming games sorted by Steam rating, then the top games one by one with their Steam Deck verdicts, ending on the D…]
 
 ## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @elanis.eu (Elanis) · 25h · likes 3 · replies 1 · question · ai
-   https://bsky.app/profile/elanis.eu/post/3mxu3dy3hc22n
-   Okay, it may not lead to some long term project ... but I've been trying to write something tonight. I always felt the "AI Generated Content Disclosure" on Steam wasn't great. So maybe I can make something?
-   [3 images: Behold! The Slop-Inator! / Arc raiders annotated by my extension / Logistik annotated by my extension]
-2. @savepointgaming.bsky.social (SavePoint Gaming) · 17h · likes 1 · replies 0 · pcGaming
-   https://bsky.app/profile/savepointgaming.bsky.social/post/3mxuxmekp5c2t
-   🤖 Epic has released its rebuilt Games Launcher Preview and says it reaches the Store around 46% faster in its testing. It was also developed heavily with AI tools, something Epic is openly calling “vibe coding”. #EpicGames #EpicGamesStore #PCGaming
-   [link card: Epic Games Store Gets a Faster New Launcher Built With AI-Assisted ‘Vibe Coding’ | SavePoint Gaming]
-3. @sleepyhart.bsky.social (sleepyhart 🦌🏳️‍🌈) · 19h · likes 4 · replies 2 · deck
-   https://bsky.app/profile/sleepyhart.bsky.social/post/3mxuok77or227
-   If youre getting started, gamenative is probs easiest for running PC games as it auto applies working configs. Caveat is dev wants you to shove AI slop agent at you so make sure you it off, turn off ads and dont give hum your money. Hopefully someone forks it away from the AI chu
-   [link card: GameNative - Play Steam, Epic & GOG Games on Android]
+1. @leahocarina.bsky.social (Leah Ocarina) · 5h · likes 2 · replies 0 · question · ai
+   https://bsky.app/profile/leahocarina.bsky.social/post/3mxwshpfr5c26
+   Steam’s Gen AI disclosure should really be at the top of the page. If they don’t see anything wrong with using it, why are they so scared of showing it? Steam shouldn’t give them the out of people needing to look through the whole damn blurb to see it. Tired of vetting everything
+2. @whawilshere.bsky.social (Will Wilshere) · 6h · likes 0 · replies 1 · question · ai
+   https://bsky.app/profile/whawilshere.bsky.social/post/3mxwpllylq226
+   Surprised by the choice to fully withdraw it, either the backlash has been that strong they do not think they can recover the position they have now, or something major has come up. I saw some speculation that the obvious AI upscaling may have breached Steam AI-disclosure rules, 
+3. @fleofynx.bsky.social (Fleo Fynx) · 3h · likes 2 · replies 2 · ai
+   https://bsky.app/profile/fleofynx.bsky.social/post/3mxx2zpbmx22j
+   I want a mod or something for Steam that moves the AI disclosure to the top of the page so I don't have to waste any time looking further if it's there.

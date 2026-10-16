@@ -1,25 +1,25 @@
 {
-  "cursor": 2,
+  "cursor": 1,
   "next": {
-    "waitForSale": 2,
+    "waitForSale": 3,
     "backlog": 1,
-    "deck": 3,
-    "bundles": 3,
-    "practical": 2,
-    "genres": 1,
-    "seasonal": 3,
-    "broadPlaying": 1,
-    "broadAsk": 2
+    "deck": 1,
+    "bundles": 1,
+    "practical": 3,
+    "genres": 2,
+    "seasonal": 1,
+    "broadPlaying": 2,
+    "broadAsk": 3
   },
   "sources": {
     "waitForSale": {
-      "runs": 7,
-      "posts": 280,
+      "runs": 8,
+      "posts": 320,
       "fit": 0,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-15T18:45:46.707Z"
+        "at": "2026-10-16T00:48:14.471Z"
       }
     },
     "backlog": {
@@ -33,95 +33,77 @@
       }
     },
     "deck": {
-      "runs": 6,
-      "posts": 400,
-      "fit": 6,
+      "runs": 7,
+      "posts": 520,
+      "fit": 10,
       "last": {
-        "posts": 40,
-        "fit": 0,
-        "at": "2026-10-15T12:50:23.779Z"
+        "posts": 120,
+        "fit": 4,
+        "at": "2026-10-16T00:48:14.471Z"
       }
     },
     "bundles": {
-      "runs": 6,
-      "posts": 240,
+      "runs": 7,
+      "posts": 280,
       "fit": 0,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-15T18:45:46.707Z"
+        "at": "2026-10-16T00:48:14.471Z"
       }
     },
     "practical": {
-      "runs": 6,
-      "posts": 280,
+      "runs": 7,
+      "posts": 320,
       "fit": 6,
       "last": {
         "posts": 40,
-        "fit": 1,
-        "at": "2026-10-15T18:45:46.707Z"
+        "fit": 0,
+        "at": "2026-10-16T00:48:14.471Z"
       }
     },
     "genres": {
-      "runs": 6,
-      "posts": 240,
+      "runs": 7,
+      "posts": 280,
       "fit": 2,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-15T18:45:46.707Z"
+        "at": "2026-10-16T00:48:14.471Z"
       }
     },
     "seasonal": {
-      "runs": 6,
-      "posts": 226,
+      "runs": 7,
+      "posts": 266,
       "fit": 1,
       "last": {
-        "posts": 33,
+        "posts": 40,
         "fit": 0,
-        "at": "2026-10-15T18:45:46.707Z"
+        "at": "2026-10-16T00:48:14.471Z"
       }
     },
     "broadPlaying": {
-      "runs": 6,
-      "posts": 640,
-      "fit": 16,
+      "runs": 7,
+      "posts": 760,
+      "fit": 20,
       "last": {
         "posts": 120,
-        "fit": 7,
-        "at": "2026-10-15T18:45:46.707Z"
+        "fit": 4,
+        "at": "2026-10-16T00:48:14.471Z"
       }
     },
     "broadAsk": {
-      "runs": 6,
-      "posts": 106,
+      "runs": 7,
+      "posts": 122,
       "fit": 0,
       "last": {
-        "posts": 5,
+        "posts": 16,
         "fit": 0,
-        "at": "2026-10-15T18:45:46.707Z"
+        "at": "2026-10-16T00:48:14.471Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@geekrealmhub/117439997423668700": {
-      "uri": "https://mastodon.social/@geekrealmhub/117439997423668700",
-      "url": "https://mastodon.social/@geekrealmhub/117439997423668700",
-      "handle": "geekrealmhub@mastodon.social",
-      "name": "Geek Realm Hub",
-      "text": "Fortnite is coming to Linux! Epic is rebuilding Easy Anti-Cheat as EAC Linux v2, aiming for Windows-level protection. Fortnite will test it first, with support for other multiplayer games to follow. The #EpicGames Launcher is already in #Linux preview, but #Fortnite has no release date yet. Secure Boot and TPM 2.0 are among the planned security requirements. #LinuxGaming #GeekRealmHub",
-      "createdAt": "2026-10-14T15:35:48.197Z",
-      "likes": 0,
-      "replies": 1,
-      "group": "practical",
-      "query": "linuxgaming",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "image, no description",
-      "firstSeen": "2026-10-15T00:47:53.838Z"
-    },
     "https://mastodon.social/@73CC@social.tchncs.de/117443759486154526": {
       "uri": "https://mastodon.social/@73CC@social.tchncs.de/117443759486154526",
       "url": "https://mastodon.social/@73CC@social.tchncs.de/117443759486154526",
@@ -152,7 +134,7 @@
       "replies": 2,
       "group": "broadPlaying",
       "query": "pcgaming",
-      "score": 9,
+      "score": 8,
       "question": true,
       "heated": false,
       "isReply": false,
@@ -171,7 +153,7 @@
       "replies": 0,
       "group": "broadPlaying",
       "query": "pcgaming",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -188,9 +170,9 @@
       "createdAt": "2026-10-15T10:31:01.487Z",
       "likes": 1,
       "replies": 1,
-      "group": "broadPlaying",
-      "query": "pcgaming",
-      "score": 5,
+      "group": "deck",
+      "query": "steamdeck",
+      "score": 6,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -206,9 +188,9 @@
       "createdAt": "2026-10-15T10:30:08.320Z",
       "likes": 1,
       "replies": 1,
-      "group": "broadPlaying",
-      "query": "pcgaming",
-      "score": 5,
+      "group": "deck",
+      "query": "steamdeck",
+      "score": 6,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -269,6 +251,117 @@
       "isReply": false,
       "media": "image, no description",
       "firstSeen": "2026-10-15T18:45:46.707Z"
+    },
+    "https://mastodon.social/@pitcrewgg/117446529901262151": {
+      "uri": "https://mastodon.social/@pitcrewgg/117446529901262151",
+      "url": "https://mastodon.social/@pitcrewgg/117446529901262151",
+      "handle": "pitcrewgg@mastodon.social",
+      "name": "PitCrew",
+      "text": "🔄 Heroic Games Launcher - Hotfix 2.22.4 Hotfix fixes GOG login and UMU, adds ARM64 build support, unsets Cloudflare user agent, and updates i18n. 1/2 #HeroicLauncher #EGS #EpicGames #GOG #PrimeGaming #Linux #LinuxGaming #PCGaming #OpenSource #LegionGo2 #LegionGoS #SteamDeck #SteamFrame #SteamMachine #SteamOS",
+      "createdAt": "2026-10-15T19:17:05.889Z",
+      "likes": 2,
+      "replies": 1,
+      "group": "deck",
+      "query": "steamdeck",
+      "score": 7,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image, no description",
+      "firstSeen": "2026-10-16T00:48:14.471Z"
+    },
+    "https://mastodon.social/@adr/117446096459814245": {
+      "uri": "https://mastodon.social/@adr/117446096459814245",
+      "url": "https://mastodon.social/@adr/117446096459814245",
+      "handle": "adr@mastodon.social",
+      "name": "john fink ok!!",
+      "text": "I am not in the target market at the moment because I am not in a position to drop like fifteen hundred smackadoodles for a #steamframe but one thing that is VERY FRUSTRATING is I can't seem to find information as to whether or not the Frame can, like, stream games off the goddang #steamdeck like come on. that should be first order compatibility.",
+      "createdAt": "2026-10-15T17:26:52.102Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "deck",
+      "query": "steamdeck",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": null,
+      "firstSeen": "2026-10-16T00:48:14.471Z"
+    },
+    "https://mastodon.social/@CognitiveCaveat@pixelfed.social/117447442439121182": {
+      "uri": "https://mastodon.social/@CognitiveCaveat@pixelfed.social/117447442439121182",
+      "url": "https://mastodon.social/@CognitiveCaveat@pixelfed.social/117447442439121182",
+      "handle": "CognitiveCaveat@pixelfed.social",
+      "name": "David Bricker",
+      "text": "#GearsOfWarEDay #Gaming #CognitiveCaveat #XboxShare #XboxGamePass",
+      "createdAt": "2026-10-15T23:09:07.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "gaming",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://pixelfed.social/p/CognitiveCaveat/1016485159074192183",
+      "media": "image, no description",
+      "firstSeen": "2026-10-16T00:48:14.471Z"
+    },
+    "https://mastodon.social/@CognitiveCaveat@mastodon.sdf.org/117447440756854301": {
+      "uri": "https://mastodon.social/@CognitiveCaveat@mastodon.sdf.org/117447440756854301",
+      "url": "https://mastodon.social/@CognitiveCaveat@mastodon.sdf.org/117447440756854301",
+      "handle": "CognitiveCaveat@mastodon.sdf.org",
+      "name": "Dave Bricker \"CognitiveCaveat\"",
+      "text": "#GearsOfWarEDay #Gaming #CognitiveCaveat #XboxShare #XboxGamePass",
+      "createdAt": "2026-10-15T23:08:08.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "gaming",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://mastodon.sdf.org/@CognitiveCaveat/117447438360618534",
+      "media": "image, no description",
+      "firstSeen": "2026-10-16T00:48:14.471Z"
+    },
+    "https://mastodon.social/@s3rvant@fosstodon.org/117447431220551059": {
+      "uri": "https://mastodon.social/@s3rvant@fosstodon.org/117447431220551059",
+      "url": "https://mastodon.social/@s3rvant@fosstodon.org/117447431220551059",
+      "handle": "s3rvant@fosstodon.org",
+      "name": "David",
+      "text": "I try to visit an FLGS while traveling and this week stopped by Krakens Keep in Kitty Hawk, NC finally picking up a copy of Brass Birmingham Unfortunately I don't have my usual gaming crew with me currently so my 10yr son got to experience \"a big game\" 😊 He did fairly well too (with some coaching of course) scoring 109 points to my 126; he managed a ton of high value trains while I was distracted with building 🤔 #boardgames #gaming",
+      "createdAt": "2026-10-15T23:06:17.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "gaming",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://fosstodon.org/@s3rvant/117447431135879510",
+      "media": "image: Black gaming mat with a completed 2-player game of Brass Birmingham using silver and purple player components. Some trains have already been removed for the fi…",
+      "firstSeen": "2026-10-16T00:48:14.471Z"
+    },
+    "https://mastodon.social/@ChrisJagged/117447411897253542": {
+      "uri": "https://mastodon.social/@ChrisJagged/117447411897253542",
+      "url": "https://mastodon.social/@ChrisJagged/117447411897253542",
+      "handle": "ChrisJagged@mastodon.social",
+      "name": "Jags-O-Lantern",
+      "text": "\"What do you want to do when you grow up, young Belmont?\" \"I wanna be an astronaut, daddy!\" \"Haha, well, sucks to be you then, doesn't it, kid?\" The true Belmont's Curse #gaming #Castlevania #BelmontsCurse",
+      "createdAt": "2026-10-15T23:01:24.084Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "gaming",
+      "score": 7,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "media": null,
+      "firstSeen": "2026-10-16T00:48:14.471Z"
     }
   }
 }
