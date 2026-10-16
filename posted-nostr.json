@@ -572,6 +572,54 @@
             "id": "55b53fd5a74ce91f9f5b7801e687066b5bdc73a12eee7b2528fbb4a1bd84179a",
             "sig": "f6fe1ba509b2697f2a09a8bef283ef45b9437b63a123d0f9d804a1315b8763be0b12861fff3f82defb916427958464f4a83e0f3f1b9b61904aa2e584e73bb874"
           }
+        },
+        "article": {
+          "status": "done",
+          "kind": "article",
+          "id": "a35b08f5f7109f24143f40b777e64fc80b842499d191f474668e84d456582354",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "article": "why-game-prices-differ-by-country",
+          "postedAt": "2026-10-16T17:19:02.000Z",
+          "accepted": [
+            "wss://relay.damus.io",
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [],
+          "event": {
+            "kind": 1,
+            "created_at": 1792171142,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-article"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://saveandplay.com/og/why-game-prices-differ-by-country.png",
+                "m image/png",
+                "alt Diagram: a developer sets a price in each of 37 Steam currencies, with 4 region groups of discounted USD prices for countries without a local currency, and a 30-day pause on discounts after a price increase."
+              ]
+            ],
+            "content": "Why a PC game costs a different amount in each country\n\nSteam shows prices in 37 currencies and developers set each one. Here is how regional pricing works, what it means for you, and what the rules say about buying across borders.\n\n#pcgaming #gamedeals\n\nhttps://saveandplay.com/og/why-game-prices-differ-by-country.png\n\nhttps://saveandplay.com/guides/why-game-prices-differ-by-country/?utm_source=nostr-prices&utm_medium=social&utm_campaign=why-game-prices-differ-by-country",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "a35b08f5f7109f24143f40b777e64fc80b842499d191f474668e84d456582354",
+            "sig": "957666ef7287a56280012d6f0a678399028e00746954f08289427e68b3c622deda17c60a0fbe7c684a3310c57cf3a1a987a62482dee82343e0b2b2237ec9f7b4"
+          }
         }
       }
     }
@@ -593,6 +641,10 @@
       "is-a-game-bundle-worth-it": {
         "day": "2026-10-14",
         "id": "7211d900f05b2fbc0cb93ee48abecf72d6bd2b739f936a263b85bbd13df30c6b"
+      },
+      "why-game-prices-differ-by-country": {
+        "day": "2026-10-16",
+        "id": "a35b08f5f7109f24143f40b777e64fc80b842499d191f474668e84d456582354"
       }
     }
   },
