@@ -13,4 +13,8 @@
   RedirectMatch 302 ^/go/lemmy/?$ https://saveandplay.com/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=profile
   RedirectMatch 302 ^/go/quora/?$ https://saveandplay.com/?utm_source=quora&utm_medium=social&utm_campaign=profile
   RedirectMatch 302 ^/go/tumblr/?$ https://saveandplay.com/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=profile
+  # Niche accounts (Cozy, Retro). Until the pages /cozy/ and /retro/ exist they lead to the home page with the marks of the account; then the target changes to the page.
+  RedirectMatch 302 ^/go/bsky-cozy/?$ https://saveandplay.com/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=profile
+  RedirectMatch 302 ^/go/bsky-retro/?$ https://saveandplay.com/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=profile
+  RedirectMatch 302 ^/go/mastodon-retro/?$ https://saveandplay.com/?utm_source=mastodon-retro&utm_medium=social&utm_campaign=profile
 </IfModule>
