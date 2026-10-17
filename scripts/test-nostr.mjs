@@ -794,8 +794,8 @@ test('short profile links: the website of the profile is a short address that pu
   assert.ok(bsky, 'public/go/.htaccess has no rule for /go/bsky');
   assert.equal(new URL(bsky.split(/\s+/)[3]).searchParams.get('utm_source'), realAccounts.accounts.prices.subid);
   assert.ok(!rules.some((l) => l.includes('/go/bluesky')), 'the old /go/bluesky is gone');
-  // every rule: our site, 302, marks present
-  for (const l of rules) {
+  // every profile rule: our site, 302, marks present (store links like /go/loaded go to the store and are tested in test-loaded.mjs)
+  for (const l of rules.filter((x) => !/\^\/go\/loaded\//.test(x))) {
     const [, st, pat, tg] = l.split(/\s+/);
     assert.equal(st, '302');
     assert.ok(/^\^\/go\/[a-z0-9-]+\/\?\$$/.test(pat), l);

@@ -107,7 +107,7 @@ export function updateKinguin({ deals, rules, now, file, isExcluded }) {
 
   const existing = deals.filter((d) => d.store === STORE);
   const others = deals.filter((d) => d.store !== STORE);
-  const official = new Set(others.map(steamIdOf).filter(Boolean)); // a game that an official store already sells is not shown from a marketplace
+  const official = new Set(others.filter((d) => !d.marketplace).map(steamIdOf).filter(Boolean)); // a game that an official store already sells is not shown from a marketplace (another key seller does not count)
   const oldById = new Map(existing.map((d) => [d.kinguinId, d]));
   out.inFile = file.deals.length;
 

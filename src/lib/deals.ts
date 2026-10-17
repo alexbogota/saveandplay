@@ -17,10 +17,12 @@ export interface Deal {
   marketplace?: boolean;
   compareTo?: string;
   region?: string;
+  // Loaded: the price on their page is the price for this region (the region of the key itself is not known).
+  priceRegion?: string;
   steamId?: number;
 }
 
-interface RawDeal { store: string; title: string; was: number; price: number; discountPct: number; url: string; image?: string; checkedAt?: string; endsAt?: string; affiliateUrl?: string; steamId?: number; marketplace?: boolean; compareTo?: string; region?: string }
+interface RawDeal { store: string; title: string; was: number; price: number; discountPct: number; url: string; image?: string; checkedAt?: string; endsAt?: string; affiliateUrl?: string; steamId?: number; marketplace?: boolean; compareTo?: string; region?: string; priceRegion?: string }
 
 export const slug = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
@@ -67,6 +69,7 @@ const toDeal = (d: RawDeal): Deal => ({
   marketplace: d.marketplace || undefined,
   compareTo: d.compareTo,
   region: d.region,
+  priceRegion: d.priceRegion,
   steamId: d.steamId,
 });
 
@@ -101,14 +104,25 @@ export const featuredDeal: Deal | undefined = official[0];
 
 export const money = (n: number) => `$${n.toFixed(2)}`;
 
-// Words about marketplace keys, in one place: the card, the deal page and the list use the same text.
-export const marketplaceTag = 'Marketplace key';
-export const marketplaceNotice = (store: string) => [
-  `${store} is a marketplace. This key may be sold by an independent seller, not by ${store} itself or by the game's publisher.`,
-  `Check the seller's rating and the region on the ${store} page before you pay.`,
-  'Sellers can cancel orders, and a key can be refused when you activate it.',
-  'The price at checkout can differ from the price here, for example because of a payment fee.',
-];
+// Words about keys from a seller other than Steam or the publisher, in one place: the card, the deal page and the list use the same text.
+// Kinguin is a marketplace (independent sellers); Loaded is a key store. Both are compared with the CURRENT Steam price.
+export const marketplaceTag = (store: string) => (store === 'Kinguin' ? 'Marketplace key' : 'Third-party key');
+export const marketplaceNotice = (store: string) =>
+  store === 'Kinguin'
+    ? [
+        `${store} is a marketplace. This key may be sold by an independent seller, not by ${store} itself or by the game's publisher.`,
+        `Check the seller's rating and the region on the ${store} page before you pay.`,
+        'Sellers can cancel orders, and a key can be refused when you activate it.',
+        'The price at checkout can differ from the price here, for example because of a payment fee.',
+      ]
+    : [
+        `${store} is not Steam and not the game's publisher. You buy a key from ${store} and activate it on Steam yourself.`,
+        `Check the region and the activation notes on the ${store} page before you pay.`,
+        `${store}'s own terms, refund and support rules apply, not Steam's.`,
+        'The price at checkout can differ from the price here, for example because of taxes or a payment fee.',
+      ];
+// The line under the title of a card: the store, what kind of key it is, and the region of the price when the store says one.
+export const storeLine = (d: Deal) => [d.store, d.marketplace && marketplaceTag(d.store), d.priceRegion && `${d.priceRegion} price`].filter(Boolean).join(' · ');
 export const steamPageUrl = (steamId: number) => `https://store.steampowered.com/app/${steamId}/`;
 
 // All outgoing buttons go through our own redirect, so the affiliate network can be swapped in one place.

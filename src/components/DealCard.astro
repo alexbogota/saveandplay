@@ -1,5 +1,5 @@
 ---
-import { goUrl, money, marketplaceTag, type Deal } from '../lib/deals';
+import { goUrl, money, storeLine, type Deal } from '../lib/deals';
 const { deal } = Astro.props as { deal: Deal };
 // A real <img> (not a CSS background) so the picture has alt text and search engines and screen readers can see it.
 // A marketplace key (Kinguin) is compared with the CURRENT price in another store (compareTo, now Steam). That price is shown as a label, not as a crossed-out "old price".
@@ -14,7 +14,7 @@ const coverBg = deal.cover ? 'background: #1C2430' : `background: ${deal.tone ??
   <div class="body">
     <div>
       <h3>{deal.title}</h3>
-      <div class="store">{deal.store}{deal.marketplace && ` · ${marketplaceTag}`}</div>
+      <div class="store">{storeLine(deal)}</div>
     </div>
     <div class="row">
       <div class="prices">

@@ -6,6 +6,9 @@ dist/
 # generated drafts (made by npm run drafts)
 drafts/
 
+# the daily reading of the Loaded deals page (scripts/loaded-fetch.mjs); it lives only inside a workflow run
+data/loaded.json
+
 # secrets: never commit these
 .env
 .env.*

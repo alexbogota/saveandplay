@@ -14,7 +14,10 @@
 //   Kinguin    reads the small ready list data/kinguin.json of the PUBLIC repo saveandplay-feeds (that repo reads the big Kinguin feed
 //              and compares every key with the current Steam price; the address is in data/deals-rules.json). Here the list is checked
 //              again with our own rules (scripts/lib/kinguin.mjs) and only a few games a day are added (maxNew, maxTotal).
-//              Runs last, so a game that GOG or IndieGala already sell is not shown from Kinguin.
+//              Runs after GOG and IndieGala, so a game that they already sell is not shown from Kinguin.
+//   Loaded     reads the small file data/loaded.json (name, price, address of PC Steam keys), written once a day by scripts/loaded-fetch.mjs from
+//              the deals page of Loaded. Every game is matched with Steam by the exact name; the key is shown only when it is cheaper than the
+//              CURRENT Steam price by minSavings %. Rules: scripts/lib/loaded.mjs. Switched on by "loaded.enabled" in data/deals-rules.json. Runs last.
 // Then: games listed in "exclude" are removed, a price nobody checked for dropOlderThanHours is removed (we show nothing
 // rather than an old price), one price snapshot per deal per day goes to data/history.json.
 // Covers (the "image" field) are filled by "npm run covers", the GitHub workflow runs it after this program.
@@ -23,7 +26,7 @@
 // dropOlderThanHours). Prices are never guessed. Nothing is published.
 //
 // For tests: DEALS_FILE, HISTORY_FILE, RULES_FILE, ACCOUNTS_FILE, REPORT_DIR, INDIEGALA_SCRIPT, INDIEGALA_OUT,
-// STEAM_MOCK_FILE, UPDATE_NOW, FEED_TIMEOUT_MS, FEED_PAUSE_MS, GOG_CATALOG_URL, GOG_PAGE_ORIGIN, KINGUIN_FILE (a local copy of kinguin.json).
+// STEAM_MOCK_FILE, UPDATE_NOW, FEED_TIMEOUT_MS, FEED_PAUSE_MS, GOG_CATALOG_URL, GOG_PAGE_ORIGIN, KINGUIN_FILE (a local copy of kinguin.json), LOADED_FILE (a local copy of loaded.json).
 
 import { readFile, writeFile, mkdir, rm } from 'node:fs/promises';
 import { appendFileSync } from 'node:fs';
@@ -32,6 +35,7 @@ import { fileURLToPath } from 'node:url';
 import { resolve } from 'node:path';
 import { makeClient, lookup, topDiscounted, endDate } from './lib/gog.mjs';
 import { updateKinguin } from './lib/kinguin.mjs';
+import { updateLoaded, affiliateLink as loadedLink } from './lib/loaded.mjs';
 
 const UA = 'SaveAndPlay-prices/1.0 (+https://saveandplay.com)';
 const HOUR = 3600e3;
@@ -235,6 +239,27 @@ async function loadKinguin(k) {
   throw new Error(`файл ${k.source} не открылся: ${last.message}`);
 }
 
+// ---------- Loaded ----------
+
+// The small file written by scripts/loaded-fetch.mjs (or a local file for tests).
+async function loadLoaded(k) {
+  return readJson(process.env.LOADED_FILE ? resolve(process.env.LOADED_FILE) : fileURLToPath(new URL(`../${k.file}`, import.meta.url)));
+}
+
+// Steam lookups for the title and the price (the tests give a mock file: titles -> info, "price:<appid>" -> dollars).
+let steamTools;
+async function getSteam() {
+  if (steamTools) return steamTools;
+  if (process.env.STEAM_MOCK_FILE) {
+    const mock = await readJson(resolve(process.env.STEAM_MOCK_FILE));
+    steamTools = { steam: async (title) => (title in mock ? mock[title] : null), steamPrice: async (appid) => mock[`price:${appid}`] ?? null };
+  } else {
+    const { steamInfo, steamPriceUsd } = await import('./steam.mjs');
+    steamTools = { steam: (title) => steamInfo(title), steamPrice: (appid) => steamPriceUsd(appid) };
+  }
+  return steamTools;
+}
+
 // ---------- clean-up and history ----------
 
 // Final checks on the whole list. Returns the list and what was removed.
@@ -265,7 +290,7 @@ export function snapshot(history, deals, today) {
 
 // ---------- the report ----------
 
-export function report({ now, dry, before, after, ig, gog, kg, removed, errors }) {
+export function report({ now, dry, before, after, ig, gog, kg, ld, removed, errors }) {
   const L = [];
   const list = (title, items) => items.length && L.push(`${title} (${items.length}):`, ...items.map((i) => `- ${i}`), '');
   L.push(`# Обновление цен, ${new Date(now).toISOString().slice(0, 16).replace('T', ' ')} UTC${dry ? ' (пробный запуск, ничего не записано)' : ''}`, '');
@@ -296,6 +321,16 @@ export function report({ now, dry, before, after, ig, gog, kg, removed, errors }
     const sk = o.skipped;
     L.push(`В файле ${o.inFile} игр (ему ${o.fileAgeHours} ч), прошли наши правила ${o.valid}. Не прошли: запись повреждена ${sk.invalid}, скидка к Steam вне границ ${sk.savings}, мало отзывов ${sk.fewReviews}, низкая оценка ${sk.lowScore}, нет региона ${sk.noRegion}, ссылка не прошла проверку ${sk.badLink}, в списке exclude ${sk.excluded}, игру уже продаёт обычный магазин ${sk.officialHasIt}, повтор ${sk.duplicate}.`, '');
   }
+  if (ld) {
+    const o = ld.out;
+    L.push(`## Loaded: обновлено ${o.refreshed.length}, добавлено ${o.added.length}, убрано ${o.dropped.length}`, '');
+    list('Новые', o.added);
+    list('Убраны', o.dropped);
+    list('Цены', o.refreshed);
+    list('Замечания', o.problems);
+    const sk = o.skipped;
+    L.push(`В файле ${o.inFile} игр (ему ${o.fileAgeHours} ч), проверено в Steam ${o.checked}, прошли наши правила ${o.valid}. Не прошли: запись повреждена ${sk.invalid}, ссылка не прошла проверку ${sk.badLink}, нет в Steam ${sk.notOnSteam}, название не совпало точно ${sk.notSameName}, мало отзывов ${sk.fewReviews}, низкая оценка ${sk.lowScore}, взрослый контент ${sk.adult}, игру уже продаёт обычный магазин ${sk.officialHasIt}, нет цены Steam ${sk.noSteamPrice}, ключ не дешевле Steam на нужную долю ${sk.notCheaper}, слишком дёшево (подозрительно) ${sk.tooGood}, в списке exclude ${sk.excluded}, Steam не ответил ${sk.steamError}, повтор ${sk.duplicate}, не успели проверить (лимит за запуск) ${sk.notChecked}.`, '');
+  }
   list('Убрано как исключённое (data/deals-rules.json)', removed.excluded);
   list('Убрано как некорректное', removed.invalid);
   list('Убрано: цену слишком давно не проверяли', removed.stale);
@@ -321,6 +356,7 @@ async function main() {
   let ig = null;
   let gog = null;
   let kg = null;
+  let ld = null;
   let updatedStores = 0;
 
   if (rules.indiegala?.enabled) {
@@ -378,8 +414,28 @@ async function main() {
     }
   }
 
+  // Loaded goes after Kinguin; both are key sellers, so neither hides the other (only an official store does).
+  if (rules.loaded?.enabled) {
+    try {
+      const file = await loadLoaded(rules.loaded);
+      const base = accounts.links?.loadedDeeplink;
+      if (!base) throw new Error('в data/accounts.json нет links.loadedDeeplink');
+      const link = (url) => loadedLink(base, url, rules.loaded.linkHosts, rules.loaded.subid);
+      const r = await updateLoaded({ deals, rules, now, file, isExcluded, ...(await getSteam()), link });
+      if (r.ok) {
+        deals = r.deals;
+        ld = r;
+        updatedStores++;
+      } else {
+        errors.push(`Loaded: ${r.out.problems.join('; ')}. Записи оставлены как были`);
+      }
+    } catch (e) {
+      errors.push(`Loaded: ${e.message}. Записи оставлены как были`);
+    }
+  }
+
   const { deals: finalDeals, removed } = tidy(deals, rules, now);
-  const md = report({ now, dry, before: original.length, after: finalDeals.length, ig, gog, kg, removed, errors });
+  const md = report({ now, dry, before: original.length, after: finalDeals.length, ig, gog, kg, ld, removed, errors });
   console.log(md);
 
   const reportDir = path('REPORT_DIR', '../drafts/');

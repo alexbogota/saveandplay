@@ -32,6 +32,8 @@
     "tumblr:test": "node scripts/test-tumblr.mjs",
     "posts:test": "node scripts/test-posts.mjs",
     "kinguin:test": "node scripts/test-kinguin.mjs",
+    "loaded:fetch": "node scripts/loaded-fetch.mjs",
+    "loaded:test": "node scripts/test-loaded.mjs",
     "articles:test": "node --test scripts/test-articles.mjs",
     "comments:find": "node scripts/comment-candidates.mjs",
     "comments:test": "node --test scripts/test-comments.mjs scripts/test-comments-mastodon.mjs scripts/test-comments-niche.mjs",

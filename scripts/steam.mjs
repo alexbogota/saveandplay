@@ -126,3 +126,20 @@ export async function steamInfo(title, hint) {
     await writeFile(CACHE_FILE, JSON.stringify(cache, null, 1) + '\n');
   }
 }
+
+// The CURRENT US price of an app, in dollars. null = free, not sold, or Steam does not say. Unlike names and reviews, a price is
+// remembered for one day only (it is the number a deal is compared with). A failed answer is not remembered.
+export async function steamPriceUsd(appid) {
+  const cached = cache.apps[appid];
+  if (cached?.priceAt === today() && 'priceUsd' in cached) return cached.priceUsd;
+  try {
+    const data = (await getJson(`https://store.steampowered.com/api/appdetails?appids=${appid}&filters=price_overview&cc=us&l=english`))?.[appid];
+    if (!data?.success) return null;
+    const p = data.data?.price_overview;
+    const priceUsd = p?.currency === 'USD' && Number.isFinite(p.final) && p.final > 0 ? p.final / 100 : null;
+    cache.apps[appid] = { ...cache.apps[appid], priceUsd, priceAt: today() };
+    return priceUsd;
+  } finally {
+    await writeFile(CACHE_FILE, JSON.stringify(cache, null, 1) + '\n');
+  }
+}

@@ -38,6 +38,12 @@ jobs:
           key: steam-cache-${{ github.run_id }}
           restore-keys: steam-cache-
 
+      # Loaded: their deals page is read once a day into data/loaded.json (name, price, address). If the site shows a guard page
+      # or the page looks different, nothing is written and the Summary says so. A failure here must not stop the other prices.
+      - name: Read the Loaded deals page
+        continue-on-error: true
+        run: node scripts/loaded-fetch.mjs
+
       - name: Update prices
         run: node scripts/update-deals.mjs
 

@@ -1,6 +1,6 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
-import { dealPages, dealPath, goUrl, money, slug, marketplaceTag, marketplaceNotice, steamPageUrl } from '../../../lib/deals';
+import { dealPages, dealPath, goUrl, money, slug, storeLine, marketplaceNotice, steamPageUrl } from '../../../lib/deals';
 
 // One page per offer in data/deals.json: /deals/<store>/<game>/. Mostly there so a link in a social post shows
 // the game's title and cover in its preview card.
@@ -20,7 +20,7 @@ const ends = when(deal.endsAt);
 const vs = deal.compareTo;
 const heading = vs ? `${deal.title} key at ${deal.store}, ${deal.discount}% below ${vs}` : `${deal.title} deal at ${deal.store}`;
 const description = vs
-  ? `${deal.title} costs ${money(deal.price)} at ${deal.store}, ${deal.discount}% below the ${vs} price of ${money(deal.was)} when we checked. This is a marketplace key, often from an independent seller: read the notes before you buy.`
+  ? `${deal.title} costs ${money(deal.price)} at ${deal.store}, ${deal.discount}% below the ${vs} price of ${money(deal.was)} when we checked. This is a key from a third-party seller, not a sale by Steam or the publisher: read the notes before you buy.`
   : `${deal.title} is on sale at ${deal.store}, ${deal.discount}% off. See the current price and when we last checked it.`;
 const cover = deal.cover;
 const coverAlt = `Cover art for ${deal.title}`;
@@ -34,7 +34,7 @@ const buy = deal.affiliateUrl ?? deal.url ?? goUrl(deal);
       <span class="off">-{deal.discount}%{vs ? ` vs ${vs}` : ''}</span>
     </div>
     <h1>{deal.title}</h1>
-    <p class="store">{deal.store}{deal.marketplace && ` · ${marketplaceTag}`}</p>
+    <p class="store">{storeLine(deal)}</p>
 
     <div class="row">
       <div class="prices">
@@ -46,7 +46,7 @@ const buy = deal.affiliateUrl ?? deal.url ?? goUrl(deal);
 
     {deal.marketplace && (
       <div class="notice" role="note">
-        <strong>Before you buy a marketplace key</strong>
+        <strong>Before you buy a key from {deal.store}</strong>
         <ul>{marketplaceNotice(deal.store).map((line) => <li>{line}</li>)}</ul>
         <a class="text-link" href="/disclosure/#marketplaces">How we treat these deals</a>
       </div>
@@ -55,6 +55,7 @@ const buy = deal.affiliateUrl ?? deal.url ?? goUrl(deal);
       {checked && <li>Price checked: <time datetime={deal.updatedAt}>{checked}</time></li>}
       {vs && <li>{vs} price: the US price in dollars on the day we checked, with any {vs} sale included.{deal.steamId && vs === 'Steam' && <> <a class="text-link" href={steamPageUrl(deal.steamId)} rel="nofollow noopener" target="_blank">See it on Steam</a></>}</li>}
       {deal.region && <li>Region: {deal.region}, as listed by {deal.store}</li>}
+      {deal.priceRegion && <li>Key from {deal.store}. The price is for the {deal.priceRegion} region. The region of the key itself may be different: check the {deal.store} page.</li>}
       {ends && <li>Sale ends: <time datetime={deal.endsAt} id="ends">{ends}</time></li>}
     </ul>
     <p class="ended" id="ended" hidden>This sale may already be over. Check the price in the store before you buy.</p>
