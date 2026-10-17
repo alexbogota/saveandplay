@@ -621,6 +621,61 @@
             "sig": "957666ef7287a56280012d6f0a678399028e00746954f08289427e68b3c622deda17c60a0fbe7c684a3310c57cf3a1a987a62482dee82343e0b2b2237ec9f7b4"
           }
         }
+      },
+      "2026-10-17": {
+        "deal": {
+          "status": "done",
+          "kind": "deal",
+          "id": "670ed0a2dcee42d92a509f45031bfaa2000fef39d7520b9850cb1beeb99bbd14",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "deal": "gog-alan-wake",
+          "title": "Alan Wake",
+          "postedAt": "2026-10-17T11:49:33.000Z",
+          "accepted": [
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [
+            {
+              "url": "wss://relay.damus.io",
+              "reason": "error: internal error"
+            }
+          ],
+          "event": {
+            "kind": 1,
+            "created_at": 1792237773,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-deal"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108710/9c1728f937c2a7e632b447b02e442f6a5d88515c/header.jpg?t=1769717716",
+                "m image/jpeg",
+                "alt Cover art for Alan Wake"
+              ]
+            ],
+            "content": "Alan Wake: -90% at GOG\n$1.49 (was $14.99)\nPrice checked 2026-10-17 09:55 UTC. Sale ends 2026-10-18 06:59 UTC.\nWhy today: sale ends in 20 h; deepest-discount rank 2 of 23.\nAd: we may earn a commission if you buy.\n\n#pcgaming #gamedeals\n\nhttps://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108710/9c1728f937c2a7e632b447b02e442f6a5d88515c/header.jpg?t=1769717716\n\nhttps://saveandplay.com/deals/gog/alan-wake/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-17",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "670ed0a2dcee42d92a509f45031bfaa2000fef39d7520b9850cb1beeb99bbd14",
+            "sig": "013abd4add51e42850ed02209320928bca1089433ee1756a29ae878e2dc05e32dd1af96351602afc2a3c99e48909f9094e0af1afb5fbe5f5f7a15555b70fad88"
+          }
+        }
       }
     }
   },
