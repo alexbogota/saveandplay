@@ -1,75 +1,75 @@
 {
-  "cursor": 7,
+  "cursor": 6,
   "next": {
-    "waitForSale": 5,
-    "backlog": 4,
-    "deck": 1,
-    "bundles": 1,
-    "practical": 2,
-    "genres": 5,
+    "waitForSale": 1,
+    "backlog": 5,
+    "deck": 2,
+    "bundles": 2,
+    "practical": 3,
+    "genres": 1,
     "seasonal": 1,
-    "broadPlaying": 4,
-    "broadAsk": 1
+    "broadPlaying": 5,
+    "broadAsk": 2
   },
   "sources": {
     "waitForSale": {
-      "runs": 10,
-      "posts": 400,
+      "runs": 11,
+      "posts": 440,
       "fit": 0,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-16T18:43:31.312Z"
+        "at": "2026-10-17T00:49:37.115Z"
       }
     },
     "backlog": {
-      "runs": 10,
-      "posts": 270,
+      "runs": 11,
+      "posts": 292,
       "fit": 0,
       "last": {
-        "posts": 40,
+        "posts": 22,
         "fit": 0,
-        "at": "2026-10-16T18:43:31.312Z"
+        "at": "2026-10-17T00:49:37.115Z"
       }
     },
     "deck": {
-      "runs": 10,
-      "posts": 720,
+      "runs": 11,
+      "posts": 760,
       "fit": 11,
       "last": {
-        "posts": 120,
-        "fit": 1,
-        "at": "2026-10-16T18:43:31.312Z"
+        "posts": 40,
+        "fit": 0,
+        "at": "2026-10-17T00:49:37.115Z"
       }
     },
     "bundles": {
-      "runs": 10,
-      "posts": 400,
+      "runs": 11,
+      "posts": 440,
       "fit": 0,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-16T18:43:31.312Z"
+        "at": "2026-10-17T00:49:37.115Z"
       }
     },
     "practical": {
-      "runs": 10,
-      "posts": 480,
+      "runs": 11,
+      "posts": 520,
       "fit": 11,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-16T18:43:31.312Z"
+        "at": "2026-10-17T00:49:37.115Z"
       }
     },
     "genres": {
-      "runs": 10,
-      "posts": 400,
+      "runs": 11,
+      "posts": 440,
       "fit": 2,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-16T18:43:31.312Z"
+        "at": "2026-10-17T00:49:37.115Z"
       }
     },
     "seasonal": {
@@ -83,82 +83,25 @@
       }
     },
     "broadPlaying": {
-      "runs": 9,
-      "posts": 1000,
+      "runs": 10,
+      "posts": 1040,
       "fit": 25,
-      "last": {
-        "posts": 120,
-        "fit": 5,
-        "at": "2026-10-16T12:49:12.282Z"
-      }
-    },
-    "broadAsk": {
-      "runs": 9,
-      "posts": 162,
-      "fit": 0,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-16T18:43:31.312Z"
+        "at": "2026-10-17T00:49:37.115Z"
+      }
+    },
+    "broadAsk": {
+      "runs": 10,
+      "posts": 167,
+      "fit": 0,
+      "last": {
+        "posts": 5,
+        "fit": 0,
+        "at": "2026-10-17T00:49:37.115Z"
       }
     }
   },
-  "pool": {
-    "https://mastodon.social/@adr/117446096459814245": {
-      "uri": "https://mastodon.social/@adr/117446096459814245",
-      "url": "https://mastodon.social/@adr/117446096459814245",
-      "handle": "adr@mastodon.social",
-      "name": "john fink ok!!",
-      "text": "I am not in the target market at the moment because I am not in a position to drop like fifteen hundred smackadoodles for a #steamframe but one thing that is VERY FRUSTRATING is I can't seem to find information as to whether or not the Frame can, like, stream games off the goddang #steamdeck like come on. that should be first order compatibility.",
-      "createdAt": "2026-10-15T17:26:52.102Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "deck",
-      "query": "steamdeck",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": null,
-      "firstSeen": "2026-10-16T00:48:14.471Z"
-    },
-    "https://mastodon.social/@rakuno@gamepad.club/117447693445801297": {
-      "uri": "https://mastodon.social/@rakuno@gamepad.club/117447693445801297",
-      "url": "https://mastodon.social/@rakuno@gamepad.club/117447693445801297",
-      "handle": "rakuno@gamepad.club",
-      "name": "Rakuno 🐀",
-      "text": "Just finished chapter 1 of Trails in the Sky 1st Chapter. It is probably my favorite one in this game. So many great characters introduced during this chapter alone! Now on to the next town! #TrailsInTheSky #JRPG #VideoGames",
-      "createdAt": "2026-10-16T00:12:59.000Z",
-      "likes": 2,
-      "replies": 1,
-      "group": "broadPlaying",
-      "query": "videogames",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://gamepad.club/@rakuno/117447693376591786",
-      "media": null,
-      "firstSeen": "2026-10-16T12:49:12.282Z"
-    },
-    "https://mastodon.social/@BmeBenji@mstdn.social/117451575575673015": {
-      "uri": "https://mastodon.social/@BmeBenji@mstdn.social/117451575575673015",
-      "url": "https://mastodon.social/@BmeBenji@mstdn.social/117451575575673015",
-      "handle": "BmeBenji@mstdn.social",
-      "name": "Big Ben",
-      "text": "@feed It seems cool, but would be cooler if it ran on Linux or the #SteamDeck. Do not hashtag the Steam Deck to advertise a game for which the publisher actively chose to break Steam Deck support.",
-      "createdAt": "2026-10-16T16:40:16.000Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "deck",
-      "query": "steamdeck",
-      "score": 7,
-      "question": false,
-      "heated": false,
-      "isReply": true,
-      "origin": "https://mstdn.social/@BmeBenji/117451575545426098",
-      "media": null,
-      "firstSeen": "2026-10-16T18:43:31.312Z"
-    }
-  }
+  "pool": {}
 }
