@@ -1,104 +1,86 @@
 {
   "cursor": 0,
   "next": {
-    "askCozy": 6,
-    "stardew": 1,
-    "evening": 2,
-    "wholesome": 3,
-    "deck": 3,
-    "seasonal": 3
+    "askCozy": 1,
+    "stardew": 2,
+    "evening": 3,
+    "wholesome": 1,
+    "deck": 1,
+    "seasonal": 1
   },
   "sources": {
     "askCozy": {
-      "runs": 6,
-      "posts": 23,
-      "fit": 8,
-      "last": {
-        "posts": 1,
-        "fit": 1,
-        "at": "2026-10-17T12:41:26.614Z"
-      }
-    },
-    "stardew": {
-      "runs": 6,
-      "posts": 142,
-      "fit": 69,
-      "last": {
-        "posts": 39,
-        "fit": 23,
-        "at": "2026-10-17T12:41:26.614Z"
-      }
-    },
-    "evening": {
-      "runs": 6,
-      "posts": 138,
-      "fit": 38,
-      "last": {
-        "posts": 3,
-        "fit": 0,
-        "at": "2026-10-17T12:41:26.614Z"
-      }
-    },
-    "wholesome": {
-      "runs": 6,
-      "posts": 67,
-      "fit": 25,
-      "last": {
-        "posts": 0,
-        "fit": 0,
-        "at": "2026-10-17T12:41:26.614Z"
-      }
-    },
-    "deck": {
-      "runs": 6,
-      "posts": 3,
-      "fit": 2,
-      "last": {
-        "posts": 0,
-        "fit": 0,
-        "at": "2026-10-17T12:41:26.614Z"
-      }
-    },
-    "seasonal": {
-      "runs": 6,
+      "runs": 7,
       "posts": 25,
       "fit": 8,
       "last": {
-        "posts": 4,
-        "fit": 3,
-        "at": "2026-10-17T12:41:26.614Z"
+        "posts": 2,
+        "fit": 0,
+        "at": "2026-10-17T18:37:19.407Z"
+      }
+    },
+    "stardew": {
+      "runs": 7,
+      "posts": 148,
+      "fit": 69,
+      "last": {
+        "posts": 6,
+        "fit": 0,
+        "at": "2026-10-17T18:37:19.407Z"
+      }
+    },
+    "evening": {
+      "runs": 7,
+      "posts": 178,
+      "fit": 45,
+      "last": {
+        "posts": 40,
+        "fit": 7,
+        "at": "2026-10-17T18:37:19.407Z"
+      }
+    },
+    "wholesome": {
+      "runs": 7,
+      "posts": 75,
+      "fit": 25,
+      "last": {
+        "posts": 8,
+        "fit": 0,
+        "at": "2026-10-17T18:37:19.407Z"
+      }
+    },
+    "deck": {
+      "runs": 7,
+      "posts": 4,
+      "fit": 3,
+      "last": {
+        "posts": 1,
+        "fit": 1,
+        "at": "2026-10-17T18:37:19.407Z"
+      }
+    },
+    "seasonal": {
+      "runs": 7,
+      "posts": 26,
+      "fit": 8,
+      "last": {
+        "posts": 1,
+        "fit": 0,
+        "at": "2026-10-17T18:37:19.407Z"
       }
     },
     "cozyFeed": {
-      "runs": 6,
-      "posts": 275,
-      "fit": 5,
+      "runs": 7,
+      "posts": 320,
+      "fit": 7,
       "last": {
-        "posts": 48,
+        "posts": 45,
         "fit": 2,
-        "at": "2026-10-17T12:41:26.614Z"
+        "at": "2026-10-17T18:37:19.407Z"
       }
     }
   },
   "pool": {
-    "at://did:plc:rfecrmxxq7if3qkflr6tj563/app.bsky.feed.post/3mxy6k44bss2v": {
-      "uri": "at://did:plc:rfecrmxxq7if3qkflr6tj563/app.bsky.feed.post/3mxy6k44bss2v",
-      "url": "https://bsky.app/profile/thezephyrberry.bsky.social/post/3mxy6k44bss2v",
-      "handle": "thezephyrberry.bsky.social",
-      "name": "Zephyrberry 🍓",
-      "text": "Today I shared my Steam Library with my mother, to introduce her to some games I think she’ll like. She gets 100+ games, including Ace Attorney, Blue Prince, Hidden Folks, Stardew Valley, and Undertale. In exchange, I get the one game she owns on Steam…SNOOD! I think I win here",
-      "createdAt": "2026-10-16T08:41:07.802Z",
-      "likes": 1,
-      "replies": 1,
-      "group": "stardew",
-      "query": "games like stardew valley",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": null,
-      "firstSeen": "2026-10-16T12:49:21.627Z"
-    },
     "at://did:plc:zvazypp5lqllxasuphagc5xt/app.bsky.feed.post/3mxz6vtbfjc2b": {
       "uri": "at://did:plc:zvazypp5lqllxasuphagc5xt/app.bsky.feed.post/3mxz6vtbfjc2b",
       "url": "https://bsky.app/profile/puffikyu.bsky.social/post/3mxz6vtbfjc2b",
@@ -171,42 +153,6 @@
       "media": null,
       "firstSeen": "2026-10-16T18:43:42.290Z"
     },
-    "at://did:plc:bbhmwgadhlrpps6e6mrjj2q5/app.bsky.feed.post/3mxyjzgwcjk26": {
-      "uri": "at://did:plc:bbhmwgadhlrpps6e6mrjj2q5/app.bsky.feed.post/3mxyjzgwcjk26",
-      "url": "https://bsky.app/profile/daddysden.bsky.social/post/3mxyjzgwcjk26",
-      "handle": "daddysden.bsky.social",
-      "name": "Keith 🇵🇷",
-      "text": "*plays Hellraiser for 3 straight days* THIS IS MY ELEMENT! *opens Stardew Valley* This is me for the next month.",
-      "createdAt": "2026-10-16T12:06:33.623Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "stardew",
-      "query": "stardew",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": null,
-      "firstSeen": "2026-10-16T18:43:42.290Z"
-    },
-    "at://did:plc:zj6kgd73alcvaa7sgzo3nw23/app.bsky.feed.post/3mxyjcaico227": {
-      "uri": "at://did:plc:zj6kgd73alcvaa7sgzo3nw23/app.bsky.feed.post/3mxyjcaico227",
-      "url": "https://bsky.app/profile/friction.bsky.social/post/3mxyjcaico227",
-      "handle": "friction.bsky.social",
-      "name": "Niiiick Howling",
-      "text": "Stardew Valley x Welcome To Nightvale, highly recommend. Also recommend just walking out of your flesh and slowly becoming a huge skeleton when you retire. store.steampowered.com/app/3195440/...",
-      "createdAt": "2026-10-16T11:53:35.120Z",
-      "likes": 3,
-      "replies": 0,
-      "group": "stardew",
-      "query": "stardew",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": true,
-      "media": "link card: Welcome to Elderfield on Steam",
-      "firstSeen": "2026-10-16T18:43:42.290Z"
-    },
     "at://did:plc:oxgecvyu2upwscfzldzcfnfu/app.bsky.feed.post/3mxz6ypeoph2e": {
       "uri": "at://did:plc:oxgecvyu2upwscfzldzcfnfu/app.bsky.feed.post/3mxz6ypeoph2e",
       "url": "https://bsky.app/profile/denyally.bsky.social/post/3mxz6ypeoph2e",
@@ -224,42 +170,6 @@
       "isReply": true,
       "media": null,
       "firstSeen": "2026-10-16T18:43:42.290Z"
-    },
-    "at://did:plc:wayend2eje6gsrkgfoyy3abx/app.bsky.feed.post/3mxyizn2zbk2b": {
-      "uri": "at://did:plc:wayend2eje6gsrkgfoyy3abx/app.bsky.feed.post/3mxyizn2zbk2b",
-      "url": "https://bsky.app/profile/shardna92.bsky.social/post/3mxyizn2zbk2b",
-      "handle": "shardna92.bsky.social",
-      "name": "Shardna",
-      "text": "I've made some proper glams just for this year's Halloween event (but I'll be keeping the one on the right for my Hrothgar alt). My EU main as Anby from Zenless Zone Zero and my NA alt as Mulan with the blue dragon minion acting as Mushu. Happy Halloween 2026 all or a very cozy Autumn month!",
-      "createdAt": "2026-10-16T11:48:46.326Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "seasonal",
-      "query": "cozy halloween games",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "2 images: My EU Lala main Shard glammed as Anby from the gatcha game Zenless Zone Zero (please don't bash me for it as its one of the few gatcha games I like in terms of… / My NA Hrothgar glammed as Mulan (Disney animation version mind you!) with the blue dragon minion *acting* as Mushu. I'll be keeping this look for her as it act…",
-      "firstSeen": "2026-10-16T18:43:42.290Z"
-    },
-    "at://did:plc:4ftsyov564etomo3bitcp4az/app.bsky.feed.post/3my2hgcatgs2j": {
-      "uri": "at://did:plc:4ftsyov564etomo3bitcp4az/app.bsky.feed.post/3my2hgcatgs2j",
-      "url": "https://bsky.app/profile/elliamvi.bsky.social/post/3my2hgcatgs2j",
-      "handle": "elliamvi.bsky.social",
-      "name": "Eric M",
-      "text": "Coral Island is so good!!! I know you don't really need recommendations right now, but if you like a cozy magical life sim, maybe add Little Witch in the Woods to your list",
-      "createdAt": "2026-10-17T06:25:23.182Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "stardew",
-      "query": "life sim",
-      "score": 8,
-      "question": true,
-      "heated": false,
-      "isReply": true,
-      "media": null,
-      "firstSeen": "2026-10-17T06:43:22.944Z"
     },
     "at://did:plc:ag67e73eyirta5dcfl2yx3ao/app.bsky.feed.post/3my2e7zac4227": {
       "uri": "at://did:plc:ag67e73eyirta5dcfl2yx3ao/app.bsky.feed.post/3my2e7zac4227",
@@ -531,24 +441,6 @@
       "media": null,
       "firstSeen": "2026-10-17T06:43:22.944Z"
     },
-    "at://did:plc:qqk2pgu2uyqnbdp5jldvb3f2/app.bsky.feed.post/3mxzhqhfrsk24": {
-      "uri": "at://did:plc:qqk2pgu2uyqnbdp5jldvb3f2/app.bsky.feed.post/3mxzhqhfrsk24",
-      "url": "https://bsky.app/profile/subspacedboy.subjugated.club/post/3mxzhqhfrsk24",
-      "handle": "subspacedboy.subjugated.club",
-      "name": "Subspaced Boy",
-      "text": "Lady Etherial had me questioning my choices. I desperately need a cozy game break now. The last several have all been brutally hard 🤣",
-      "createdAt": "2026-10-16T20:58:24.395Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "evening",
-      "query": "cozy game",
-      "score": 9,
-      "question": true,
-      "heated": false,
-      "isReply": true,
-      "media": null,
-      "firstSeen": "2026-10-17T06:43:22.944Z"
-    },
     "at://did:plc:zhmpke4sr4yxp6t7fyedop3q/app.bsky.feed.post/3mxzggfgy6k25": {
       "uri": "at://did:plc:zhmpke4sr4yxp6t7fyedop3q/app.bsky.feed.post/3mxzggfgy6k25",
       "url": "https://bsky.app/profile/depresseddeveloper.bsky.social/post/3mxzggfgy6k25",
@@ -565,24 +457,6 @@
       "heated": false,
       "isReply": false,
       "media": null,
-      "firstSeen": "2026-10-17T06:43:22.944Z"
-    },
-    "at://did:plc:yfcz56st4bs44who3pddlad5/app.bsky.feed.post/3mxzfzlblic2f": {
-      "uri": "at://did:plc:yfcz56st4bs44who3pddlad5/app.bsky.feed.post/3mxzfzlblic2f",
-      "url": "https://bsky.app/profile/brightwillowgame.bsky.social/post/3mxzfzlblic2f",
-      "handle": "brightwillowgame.bsky.social",
-      "name": "Bright Willow Game",
-      "text": "Day 1 vs Day 2 of learning pixel art. I'm making a cozy/creepy witch game, Bright Willow, where the mist hides dangers and the village's bright tree is failing. I've never made pixel art before this week, so I'm sharing the whole journey, starting from the very beginning. What should I draw next?",
-      "createdAt": "2026-10-16T20:27:42.957Z",
-      "likes": 2,
-      "replies": 0,
-      "group": "evening",
-      "query": "cozy game",
-      "score": 9,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "4 images, no description",
       "firstSeen": "2026-10-17T06:43:22.944Z"
     },
     "at://did:plc:si5fffdmv2bk2svl2ktf43qn/app.bsky.feed.post/3my2ezyc4zs2w": {
@@ -636,24 +510,6 @@
       "question": false,
       "heated": false,
       "isReply": true,
-      "media": null,
-      "firstSeen": "2026-10-17T06:43:22.944Z"
-    },
-    "at://did:plc:6hpz7a76p4ezrujnzty4qjs3/app.bsky.feed.post/3mxzthqash22n": {
-      "uri": "at://did:plc:6hpz7a76p4ezrujnzty4qjs3/app.bsky.feed.post/3mxzthqash22n",
-      "url": "https://bsky.app/profile/aliciaaarnio.solar/post/3mxzthqash22n",
-      "handle": "aliciaaarnio.solar",
-      "name": "just some Alicia",
-      "text": "ok so I'm late to this, but. the fact that the fallout 4 theme ends a half step up from where it starts? i think is a big part of what makes the game hopeful rather than entirely tragedy. (nooooo i'm def not just trying to justify why this is a comfort game for me..)",
-      "createdAt": "2026-10-17T00:28:16.581Z",
-      "likes": 1,
-      "replies": 1,
-      "group": "wholesome",
-      "query": "comfort game",
-      "score": 8,
-      "question": true,
-      "heated": false,
-      "isReply": false,
       "media": null,
       "firstSeen": "2026-10-17T06:43:22.944Z"
     },
@@ -747,60 +603,6 @@
       "media": "link card: 20 Best Cozy Spooky Games to Play This Halloween (2026)",
       "firstSeen": "2026-10-17T06:43:22.944Z"
     },
-    "at://did:plc:faf66finsheihqrtzy2s5apd/app.bsky.feed.post/3my27fssqik2j": {
-      "uri": "at://did:plc:faf66finsheihqrtzy2s5apd/app.bsky.feed.post/3my27fssqik2j",
-      "url": "https://bsky.app/profile/stardewvalleyapp.bsky.social/post/3my27fssqik2j",
-      "handle": "stardewvalleyapp.bsky.social",
-      "name": "olivia smith",
-      "text": "Your next Pelican Town adventure could start on your iPhone. Curious about touch controls or offline farming? Explore our Stardew Valley iOS guide: stardewvalleyapk.app/for-ios/ #StardewValley #CozyGames",
-      "createdAt": "2026-10-17T04:01:57.056Z",
-      "likes": 2,
-      "replies": 0,
-      "group": "stardew",
-      "query": "stardew valley",
-      "score": 9,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "image: Stardew Valley chest and inventory displaying fish, seaweed, shells, tools, and supplies, with the text “Stardew Valley For iOS.”",
-      "firstSeen": "2026-10-17T06:43:22.944Z"
-    },
-    "at://did:plc:np6wru4mwnis6kj7xmnz4fiq/app.bsky.feed.post/3mxzvhtylsc2h": {
-      "uri": "at://did:plc:np6wru4mwnis6kj7xmnz4fiq/app.bsky.feed.post/3mxzvhtylsc2h",
-      "url": "https://bsky.app/profile/princessshallot.bsky.social/post/3mxzvhtylsc2h",
-      "handle": "princessshallot.bsky.social",
-      "name": "Princess Shallot",
-      "text": "The Witch's Bakery is such a lovely little game about helping people unlock their emotions through the power of magic and pastries. Saturday morning cartoon vibes. Recommend checking it out if you're looking for something witchy, but wholesome ✨",
-      "createdAt": "2026-10-17T01:04:07.989Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "askCozy",
-      "query": "wholesome game recommend",
-      "score": 9,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": null,
-      "firstSeen": "2026-10-17T12:41:26.614Z"
-    },
-    "at://did:plc:gwzp3nlr7jjang3mbrli6i7e/app.bsky.feed.post/3my2yawf2bc22": {
-      "uri": "at://did:plc:gwzp3nlr7jjang3mbrli6i7e/app.bsky.feed.post/3my2yawf2bc22",
-      "url": "https://bsky.app/profile/thoughtcast.bsky.social/post/3my2yawf2bc22",
-      "handle": "thoughtcast.bsky.social",
-      "name": "Updog",
-      "text": "yeah like this is just a low-effort asset flip game chasing a trend. There's never going to be an LLM-slop version of, idk, Expedition 33 or Stardew Valley that will be in any way convincing. ChatGPT can't actually replace game developers; they're lying when they claim that it can.",
-      "createdAt": "2026-10-17T11:26:36.577Z",
-      "likes": 2,
-      "replies": 0,
-      "group": "stardew",
-      "query": "stardew valley",
-      "score": 7,
-      "question": false,
-      "heated": true,
-      "isReply": true,
-      "media": null,
-      "firstSeen": "2026-10-17T12:41:26.614Z"
-    },
     "at://did:plc:rqv2nejccpa5zrjdsfafc77s/app.bsky.feed.post/3my2y6r5gu22f": {
       "uri": "at://did:plc:rqv2nejccpa5zrjdsfafc77s/app.bsky.feed.post/3my2y6r5gu22f",
       "url": "https://bsky.app/profile/marrenvale.co.uk/post/3my2y6r5gu22f",
@@ -812,7 +614,7 @@
       "replies": 0,
       "group": "stardew",
       "query": "stardew valley",
-      "score": 7,
+      "score": 6,
       "question": false,
       "heated": false,
       "isReply": true,
@@ -942,24 +744,6 @@
       "question": false,
       "heated": false,
       "isReply": false,
-      "media": null,
-      "firstSeen": "2026-10-17T12:41:26.614Z"
-    },
-    "at://did:plc:d6hk4elo6fkc7dgzukfqeyfg/app.bsky.feed.post/3mxzv6enfw22b": {
-      "uri": "at://did:plc:d6hk4elo6fkc7dgzukfqeyfg/app.bsky.feed.post/3mxzv6enfw22b",
-      "url": "https://bsky.app/profile/pbcm.bsky.social/post/3mxzv6enfw22b",
-      "handle": "pbcm.bsky.social",
-      "name": "Jesus Died for Arsons",
-      "text": "In life or in stardew valley? 😅",
-      "createdAt": "2026-10-17T00:58:49.904Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "stardew",
-      "query": "stardew valley",
-      "score": 8,
-      "question": true,
-      "heated": false,
-      "isReply": true,
       "media": null,
       "firstSeen": "2026-10-17T12:41:26.614Z"
     },
@@ -1170,23 +954,149 @@
       "createdAt": "2026-10-17T05:17:13.704Z",
       "likes": 5,
       "replies": 0,
-      "group": "seasonal",
-      "query": "cozy halloween games",
-      "score": 5,
+      "group": "evening",
+      "query": "cozy gaming",
+      "score": 6,
       "question": false,
       "heated": false,
       "isReply": false,
       "media": "link card: Inside the Rise of Cozy Horror Games",
       "firstSeen": "2026-10-17T12:41:26.614Z"
     },
-    "at://did:plc:wj57vdyq5tdv5btqdott2457/app.bsky.feed.post/3my2nyh7sms26": {
-      "uri": "at://did:plc:wj57vdyq5tdv5btqdott2457/app.bsky.feed.post/3my2nyh7sms26",
-      "url": "https://bsky.app/profile/juceycooch2006.bsky.social/post/3my2nyh7sms26",
-      "handle": "juceycooch2006.bsky.social",
-      "name": "⋆˙ elle ♡",
-      "text": "looking to meet new people on here!! my name is Elle. im a trans woman 🏳️‍⚧️ studying esthetics/mua. I love cozy games like sims, cities skylines, etc. trying to read more books and live a slower pace life. I deal with anxiety/ocd disorder. feel free to follow if you'd like 🩷☺️",
-      "createdAt": "2026-10-17T08:22:54.810Z",
+    "at://did:plc:kjmgdmarljt6vciosyexsdve/app.bsky.feed.post/3my3l5ftmj22z": {
+      "uri": "at://did:plc:kjmgdmarljt6vciosyexsdve/app.bsky.feed.post/3my3l5ftmj22z",
+      "url": "https://bsky.app/profile/roseofbattle.com/post/3my3l5ftmj22z",
+      "handle": "roseofbattle.com",
+      "name": "Rose of Battle",
+      "text": "It's commentate and regrout a bathroom day, and this guy here is just having a cozy gaming day",
+      "createdAt": "2026-10-17T17:04:39.650Z",
+      "likes": 16,
+      "replies": 0,
+      "group": "evening",
+      "query": "cozy gaming",
+      "score": 7,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image, no description",
+      "firstSeen": "2026-10-17T18:37:19.407Z"
+    },
+    "at://did:plc:hblwpw776ty2kkdnuzu3vetx/app.bsky.feed.post/3my3jd7y6dkd2": {
+      "uri": "at://did:plc:hblwpw776ty2kkdnuzu3vetx/app.bsky.feed.post/3my3jd7y6dkd2",
+      "url": "https://bsky.app/profile/renwillis.mstdn.social.ap.brid.gy/post/3my3jd7y6dkd2",
+      "handle": "renwillis.mstdn.social.ap.brid.gy",
+      "name": "ren (a they/them) 🌈🎶",
+      "text": "Chlly out = Cozy season. I’ve waited long enough. Trails in the Sky 1st Chapter, let’s go! #trailsinthesky #jrpg #gaming #videogames",
+      "createdAt": "2026-10-17T16:31:59.000Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "evening",
+      "query": "cozy gaming",
+      "score": 7,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "4 images: Screenshot from Trails in the Sky 1st Chapter / Screenshot from Trails in the Sky 1st Chapter / Screenshot from Trails in the Sky 1st Chapter / Screenshot from Trails in the Sky 1st Chapter",
+      "firstSeen": "2026-10-17T18:37:19.407Z"
+    },
+    "at://did:plc:i3wk3gdn2akqhqolv5brp5x2/app.bsky.feed.post/3my3b54cj322k": {
+      "uri": "at://did:plc:i3wk3gdn2akqhqolv5brp5x2/app.bsky.feed.post/3my3b54cj322k",
+      "url": "https://bsky.app/profile/parmparm.bsky.social/post/3my3b54cj322k",
+      "handle": "parmparm.bsky.social",
+      "name": "Parm",
+      "text": "I complained about it being 90F/32C every day so far in October and the universe said let me lock in and fix that for you. We are so back 😭 Fall time cozy gaming weather is coming.",
+      "createdAt": "2026-10-17T14:05:32.242Z",
+      "likes": 14,
+      "replies": 1,
+      "group": "evening",
+      "query": "cozy gaming",
+      "score": 7,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image, no description",
+      "firstSeen": "2026-10-17T18:37:19.407Z"
+    },
+    "at://did:plc:tjytkfs7a3yum376ftaatbro/app.bsky.feed.post/3my2maqpgn22t": {
+      "uri": "at://did:plc:tjytkfs7a3yum376ftaatbro/app.bsky.feed.post/3my2maqpgn22t",
+      "url": "https://bsky.app/profile/verachannel.bsky.social/post/3my2maqpgn22t",
+      "handle": "verachannel.bsky.social",
+      "name": "VerA 🦑🦌",
+      "text": "RE4 remake is real peak cozy gaming hours, thanks for hanging all! See you Sunday for more scares!",
+      "createdAt": "2026-10-17T07:51:45.723Z",
+      "likes": 4,
+      "replies": 0,
+      "group": "evening",
+      "query": "cozy gaming",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "link card: Resident Evil 4: Leon, Ashley & Dog Animation",
+      "firstSeen": "2026-10-17T18:37:19.407Z"
+    },
+    "at://did:plc:oxgecvyu2upwscfzldzcfnfu/app.bsky.feed.post/3my24737zu62r": {
+      "uri": "at://did:plc:oxgecvyu2upwscfzldzcfnfu/app.bsky.feed.post/3my24737zu62r",
+      "url": "https://bsky.app/profile/denyally.bsky.social/post/3my24737zu62r",
+      "handle": "denyally.bsky.social",
+      "name": "Deny Ally",
+      "text": "Absolutely immaculate cozy-gaming weather. Add snacks and a blanket and that's basically the whole itinerary.",
+      "createdAt": "2026-10-17T03:04:29.627Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "evening",
+      "query": "cozy gaming",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": true,
+      "media": null,
+      "firstSeen": "2026-10-17T18:37:19.407Z"
+    },
+    "at://did:plc:mjyrcs556nijtuukw2e3dvmt/app.bsky.feed.post/3mxzxmoizt227": {
+      "uri": "at://did:plc:mjyrcs556nijtuukw2e3dvmt/app.bsky.feed.post/3mxzxmoizt227",
+      "url": "https://bsky.app/profile/gwbycer.bsky.social/post/3mxzxmoizt227",
+      "handle": "gwbycer.bsky.social",
+      "name": "Josh Bycer",
+      "text": "I've been playing Burn With Me store.steampowered.com/app/2954010/... and going to get a review up for it soon. A very different take on deck building, almost more puzzle-like than roguelike, if you're someone looking for something different to do with deck building.",
+      "createdAt": "2026-10-17T01:42:37.493Z",
+      "likes": 5,
+      "replies": 0,
+      "group": "deck",
+      "query": "cozy steam deck",
+      "score": 8,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "media": "link card: Save 34% on Burn With Me on Steam",
+      "firstSeen": "2026-10-17T18:37:19.407Z"
+    },
+    "at://did:plc:d5aoi62wf6rv267k4wwr4orb/app.bsky.feed.post/3my3nnn4qvk23": {
+      "uri": "at://did:plc:d5aoi62wf6rv267k4wwr4orb/app.bsky.feed.post/3my3nnn4qvk23",
+      "url": "https://bsky.app/profile/bfwriter.bsky.social/post/3my3nnn4qvk23",
+      "handle": "bfwriter.bsky.social",
+      "name": "barefootwriter",
+      "text": "Left-Wing Transgender Witch sounds like a fun cozy game. someone please make it so I can play it?",
+      "createdAt": "2026-10-17T17:49:31.654Z",
       "likes": 2,
+      "replies": 1,
+      "group": "cozyFeed",
+      "query": "feed",
+      "score": 9,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "media": "quotes @atrupar.com: Ted Cruz: \"Right now, if you are left-wing transgender witch, you hate Donald Trump\"",
+      "firstSeen": "2026-10-17T18:37:19.407Z"
+    },
+    "at://did:plc:aqn5j7sz6bcmxhozr6ar7uv7/app.bsky.feed.post/3my35lrxy552l": {
+      "uri": "at://did:plc:aqn5j7sz6bcmxhozr6ar7uv7/app.bsky.feed.post/3my35lrxy552l",
+      "url": "https://bsky.app/profile/outof.games/post/3my35lrxy552l",
+      "handle": "outof.games",
+      "name": "Out of Games",
+      "text": "Humble's Cozy After Dark bundle: 10 spooky-cozy games for CA$11.40. #CozyGames https://outof.games/news/10147-the-cozy-after-dark-showcase-bundle-serves-up-us176-of-spooky-cozy-games-for-ca1140/?utm_source=bluesky&utm_medium=social&utm_campaign=auto-article",
+      "createdAt": "2026-10-17T13:02:09.556Z",
+      "likes": 1,
       "replies": 0,
       "group": "cozyFeed",
       "query": "feed",
@@ -1195,7 +1105,7 @@
       "heated": false,
       "isReply": false,
       "media": null,
-      "firstSeen": "2026-10-17T12:41:26.614Z"
+      "firstSeen": "2026-10-17T18:37:19.407Z"
     }
   }
 }

@@ -1,53 +1,56 @@
 # Comment candidates: retro (@retrogamedeals.bsky.social)
-Made 2026-10-17T12:41Z. Searched: childhood: games from my childhood | classicPC: old pc games | holdUp: still worth playing old game | gogOld: old games modern pc | nostalgia: favorite retro game | askRetro: best retro games | retroFeed: feed.
-Posts below: 12 + 1 heated. Dropped in this run: bot, shop or studio 6, not about games 8, own post 3, skip word 4, replies are limited 1, already shown 1, other language 29, not a question 6, other language (text) 5, too short 2, promo (link and hashtags) 1.
+Made 2026-10-17T18:37Z. Searched: childhood: first video game | classicPC: dos games | holdUp: old games hold up | gogOld: good old games | nostalgia: nostalgia video game | askRetro: best old games | retroFeed: feed.
+Posts below: 12 + 2 heated. Dropped in this run: skip word 27, not about games 35, promo (link and hashtags) 2, bot, shop or studio 11, too short 4, other language (text) 13, low score 3, own post 1, replies are limited 2, already answered 1, already shown 1, too many hashtags 3, other language 23, not a question 11.
 
 ## Posts
-1. @sanakism.bsky.social (Sanakism) · 1h · likes 4 · replies 1 · classicPC
-   https://bsky.app/profile/sanakism.bsky.social/post/3my2xvyjy3c2g
-   Apparently Sonic the Hedgehog is a blue hedgehog with a black nose and green eyes who wears red shoes with a white stripe on them, who looks angry all the time. According to my eight-year-old son, anyway. I don't know, I grew up playing PC games.
-   [image: A picture of a blue hedgehog with a black nose and green eyes wearing red shoes with a white stripe. He looks angry right now, I can't vouch for his expression…]
-2. @tamachan2299.bsky.social · 9h · likes 1 · replies 0 · question · retroFeed
-   https://bsky.app/profile/tamachan2299.bsky.social/post/3my27qv4vrs2h
-   This one, I have no idea why and probably never will. The ending of Monopoly on the NES. I remember I could not go to bed if I got this ending. The only thing that could be it is I thought I cursed myself or my family. I also cried at Glinda the good witch's intro in the classic 
-   [image, no description; quotes @hexxyscaletailvt.bsky.social: here's a goofy one. when I was like 3 years old, I played Flintstones: The Rescue of Dino and Hoppy on NES. There's a "Dracula's Castle" ty…]
-3. @jrodbad.bsky.social (Jared, Excited Comic Guy) · 9h · likes 2 · replies 0 · classicPC
-   https://bsky.app/profile/jrodbad.bsky.social/post/3my27v4sek22d
-   Two things: A fleet of retro laptops to play old PC games on A fleet of collections of defunct card games and whatever I need to proxy up any fan made sets for those games
-   [quotes @notalawyer.bsky.social: question for the audience: if you were ultra rich (let’s say $25M), what completely frivolous thing are you buying?]
-4. @ooccouchgags.bsky.social (Out of Context Simpsons Treehouse of Hor) · 14h · likes 48 · replies 4 · question · nostalgia
-   https://bsky.app/profile/ooccouchgags.bsky.social/post/3mxzngkhk422a
-   Out of everything in the Toy Story Retro Round Up, playing the Bug's Life game is nostalgic as I remember playing this on PS1 growing up
-   [video, no description]
-5. @zackryin.bsky.social (Zak ✨) · 14h · likes 2 · replies 2 · classicPC
-   https://bsky.app/profile/zackryin.bsky.social/post/3mxzmmggqb22y
-   Honestly, I'm one of those people who don't pick up many new games & thrive off of my backlog. This, alongside having a relatively lower end PC & a passion for making old technology work, I'm completely comfortable never buying a new console, lmao. My PC was FARRRR less than 1k, 
-6. @therunepony.bsky.social (𝔇𝔢𝔢𝔭 𝔇𝔢𝔩𝔳𝔢𝔯 ☽⛤☾ ℌ𝔬𝔴𝔩 𝔚𝔦𝔱) · 24h · likes 1 · replies 1 · classicPC
-   https://bsky.app/profile/therunepony.bsky.social/post/3mxylt6pr422h
-   Probably a tie between those old Commodore joysticks that had like 8 buttons even though 99% of games could only register one, and this Logitech PC controller I had back in the day that was kinda like a PS2 controller, but the sticks had square gates and the face buttons had a te
-7. @stufftv.bsky.social (Stuff) · 1h · likes 0 · replies 0 · question · retroFeed
-   https://bsky.app/profile/stufftv.bsky.social/post/3my2ymfdsqf2i
-   Analogue revives the 16-bit era with cute SNES and MegaDrive consoles – now where are all my cartridges? ift.tt/4plqCSJ
-   [image, no description]
-8. @catholick.bsky.social (tradwife becca 🐺🔻👑) · 13h · likes 0 · replies 0 · classicPC
-   https://bsky.app/profile/catholick.bsky.social/post/3mxzpgd67nk2f
-   I'm gonna say something but under no circumstances should one "gotta hand it" to A.I., the only example of it ever coming close to that is those vibecoded ports of old console games onto PC, frankly ngl that cuts a lot of decoding time and is cool but nothing to give a dollar to
-9. @feed.igeek.gamer-geek-news.com.ap.brid.gy (input) · 20h · likes 0 · replies 0 · classicPC
-   https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3mxz34akutst2
-   📰 **My career as a weed farmer was derailed by my unslakeable lust for golf** Same old story. 📰 Source: Latest from PC Gamer 🔗 Link: https://www.pcgamer.com/games/grand-theft-auto/my-career-as-a-weed-farmer-was-derailed-by-my-unslakeable-lust-for-golf/
-   [image: Image for: My career as a weed farmer was derailed by my unslakeable lust for golf]
-10. @drumbeatvideo.bsky.social (Don Finsbury) · 27h · likes 0 · replies 1 · askRetro
-   https://bsky.app/profile/drumbeatvideo.bsky.social/post/3mxyakk4iwk2h
-   Ok fair enough. Not a purist with retro stuff by any means but I do think the experience of playing the carts specifically (not NGCD) on OG hardware/sticks etc is the best NG experience. Same with any old arcade games imo. May look and sound better but I think ‘something’ is lost
-11. @drillknight.bsky.social (GiGORE) · 18h · likes 1 · replies 1 · childhood
-   https://bsky.app/profile/drillknight.bsky.social/post/3mxz755p3a22m
-   Ever since the first video game, Road Rash for the Atari Jaguar, was released, no one would ever think that video games would come to a point like this
-   [image: Gravity Circuit 2 screenshot where Kai is facing off against a robot whale that looks familiar]
-12. @tommyreinking.bsky.social (Tommy Reinking) · 19h · likes 1 · replies 0 · childhood
-   https://bsky.app/profile/tommyreinking.bsky.social/post/3mxz3jxfugs27
-   Oh man, as someone who has played the first hour three different times, that's a video game!
+1. @sharkabytes.bsky.social (Sasha's Retrobytes 🏳️‍⚧️) · 29h · likes 2 · replies 0 · question · classicPC
+   https://bsky.app/profile/sharkabytes.bsky.social/post/3mxypgbjflc2j
+   Aha, yes it is. It feels uncanny sometimes though, like when I see DOS DOOM blazing along at 60fps. Or games I remember chugging and then see running butter smooth on what would have been a dream PC.
+2. @nashmuhandes.bsky.social (Nash Muhandes) · 13h · likes 6 · replies 0 · question · gogOld
+   https://bsky.app/profile/nashmuhandes.bsky.social/post/3my2dx7tcwc2a
+   See this is the good thing about genuinely enjoying old games. AAA crash? Cool, I got literal 2 or 3 lifetimes of games to play in my Steam account. Like seriously I don't think I'll end up playing more than 50% of my library before I die
+3. @nozomugames.com (Nozomu) · 2h · likes 1 · replies 0 · childhood
+   https://bsky.app/profile/nozomugames.com/post/3my3l3qqejs2u
+   Finally released a second patch for Burn With Me - fixed those 3 buggy achievements! 🎉 Also - we want to test a big important fix for game crashing on launch, but for that we need your small help (if you have windows and 5-10 minutes). Info here~ store.steampowered.com/news/app/
+   [link card: Burn With Me - Hotfix 1.0.3 + help needed! - Steam News]
+4. @ds-wen.bsky.social (wen👩🏻‍💻) · 7h · likes 1 · replies 0 · question · childhood
+   https://bsky.app/profile/ds-wen.bsky.social/post/3my2z37tgsc26
+   The Making of Grand Theft Auto VI How did Rockstar Games build what is expected to be the biggest video game blockbuster of all time? First it had to rebuild itself www.bloomberg.com/features/202...
+   [link card: The Making of Grand Theft Auto VI]
+5. @tobysaunders94.bsky.social (Toby Saunders) · 59m · likes 1 · replies 1 · question · retroFeed
+   https://bsky.app/profile/tobysaunders94.bsky.social/post/3my3n23inds2q
+   What are the best aesthetics in videogames and why is it Nintendo DS games?
+6. @fact-snack.bsky.social (Fact Snack) · 3h · likes 0 · replies 0 · childhood
+   https://bsky.app/profile/fact-snack.bsky.social/post/3my3fwhn7fh2q
+   Nintendo was founded in 1889, while Vincent van Gogh was still alive. The Kyoto company began by making hanafuda, handmade Japanese playing cards, nearly a century before it released its first home video game console.
+7. @olhardigital01.bsky.social (Olhar Digital) · 4h · likes 0 · replies 0 · classicPC
+   https://bsky.app/profile/olhardigital01.bsky.social/post/2mcbmag6li5mw
+   Mais de 85% dos desenvolvedores japoneses de games já utilizam IA generativa
+   [link card: Mais de 85% dos desenvolvedores japoneses de games já utilizam IA generativa]
+8. @jimtrinca.bsky.social (Jim Trinca) · 22h · likes 10 · replies 2 · askRetro
+   https://bsky.app/profile/jimtrinca.bsky.social/post/3mxzexh3fac2j
+   Steam probably does more than any other storefront to funnel the right games to the right users. Playstation shows me any old shit. Steam knows what I like. It has the best meta tagging. It has curators, events, etc etc etc etc. I don't know how you can better tacklethe discovery
+9. @dantendigitalis.bsky.social (Spooky D (Sunny D)) · 29h · likes 1 · replies 1 · classicPC
+   https://bsky.app/profile/dantendigitalis.bsky.social/post/3mxynqyq3jk2t
+   Monkey Island 2 is an absolute gem. You're missing out. There's a whole bunch of DOS games I've never played. I held so dearly onto Amiga gaming, that I was loathe to try anything else. That said, I've never played the "Best" Ultima. Ultima IV - Quest of The Avatar. Played UV & U
+   [image: And I wasn't overly taken by Ultima VII. Much preferred Ultima V and Ultima VI. Enjoyed Ultima's VIII & VIIII much, much more than The "Bestest" one Sheven.]
+10. @bigmommaark.bsky.social (Arkveveen) · 22m · likes 0 · replies 1 · nostalgia
+   https://bsky.app/profile/bigmommaark.bsky.social/post/3my3p4bmmdc2u
+   I think Townfall hits my nostalgia so hard because it takes place in the 90s! In 1996! I was growing up in the 90s, after all. It's just a shame that I didn't really see any retro video game stuff in Silent Hill: Townfall, but it was retro tech that appeared to be lovingly render
+11. @vinegarmike.bsky.social (VinegarMike) · 28m · likes 6 · replies 0 · childhood
+   https://bsky.app/profile/vinegarmike.bsky.social/post/3my3oqkmcks22
+   This article is 4 days old so I can't be the first person to make this observation, but for the record, I would absolutely play any video game with 10,000 Randy Newman songs.
+   [quotes @theonion.com: Rockstar Announces ‘GTA VI’ Soundtrack Contains 10,000 Songs By Randy Newman]
+12. @sdlcommits.libsdl.org (SDL Commits) · 41m · likes 0 · replies 0 · question · retroFeed
+   https://bsky.app/profile/sdlcommits.libsdl.org/post/3my3nzze3tw2b
+   SDL: Fixed potential crash looking for "NES Controller"
+   [link card: SDL: Fixed potential crash looking for "NES Controller"]
 
 ## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @otterboy1999.bsky.social (IanTheBuizel) · 49m · likes 0 · replies 0 · classicPC
-   https://bsky.app/profile/otterboy1999.bsky.social/post/3my2zofgxpk2m
-   The problem I have with AI decompiled/AI coded fan PC ports of old games is security concerns. While I tried the Silent Hill fan PC port that was "vibe coded", I didn't link to the download of it because it started triggering Windows Defender, saying the launcher was some sort of
+1. @thedescenters.bsky.social (Mx Maddison Stoff) · 9h · likes 10 · replies 1 · question · classicPC
+   https://bsky.app/profile/thedescenters.bsky.social/post/3my2stnhr4223
+   Almost posted a video of an old dos game with a caption like "someone should just make another game that works this" upon remembering those "put this on a t-shirt" bots on twitter and realizing that it won't be long before we see them show up to help people make slop versions of 
+2. @dukebadgerart.bsky.social (DukeBadger) · 1h · likes 12 · replies 2 · childhood
+   https://bsky.app/profile/dukebadgerart.bsky.social/post/3my3m6sbpjc2l
+   A decade has passed since Del Piero’s camp classic film launched a show, a re-novelization of the film adaptation, an action-platformer video game, and a sequel film. Vito Vital amassed a niche of science fiction fans. Triangolo Rosa found themselves in the middle of a new politi
+   [image: A digital flat comic with a CRT filter over it. The comic depicts a lizard and a badger in a confrontation. In the first panel, a fat badger stands between pri…; quotes @dukebadgerart.bsky.social: Following the success of the film, Triangolo Rosa Studios developed an animated series, progressing the story beyond Moriero’s original sto…]
