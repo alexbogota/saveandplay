@@ -1,108 +1,106 @@
 # Comment candidates: prices (@saveandplay.com)
-Made 2026-10-17T00:49Z. Searched: seasonal: spooky games steam | ai: steam AI disclosure | broadPlaying: "what are you playing" this week | broadAsk: "hidden gem" games | waitForSale: "wait for the sale" | backlog: "my backlog" games | deck: "steam deck" recommendations | bundles: itch.io bundle | practical: "game pass" vs buying | genres: co-op games pc | pcGaming: feed | gamingLiked: feed.
-Posts below: 25 + 3 heated. Dropped in this run: replies are limited 9, skip word 67, already shown 10, low score 10, console only 4, not about games 24, adult or graphic label 1, too short 1, bot, shop or studio 42, promo (link and hashtags) 11, many links 1, other language (text) 6, earlier finds: low score 4.
+Made 2026-10-17T06:43Z. Searched: seasonal: horror games recommend | ai: generative AI games steam | broadPlaying: "best game" "this year" played | broadAsk: "games like" recommend | waitForSale: "worth it" "on sale" game | backlog: "need a game" recommendation | deck: handheld PC games | bundles: pay what you want games | practical: DRM-free games | genres: city builder recommendations | pcGaming: feed | gamingLiked: feed.
+Posts below: 25 + 2 heated. Dropped in this run: low score 12, already shown 12, not about games 5, already answered 1, other language (text) 5, bot, shop or studio 44, own post 2, skip word 48, promo (link and hashtags) 9, many links 1, console only 3, replies are limited 2, adult or graphic label 1, earlier finds: low score 4.
 
 ## Posts
-1. @woofes.bsky.social (Woofes) · 2h · likes 1 · replies 0 · question · pcGaming
-   https://bsky.app/profile/woofes.bsky.social/post/3mxzmspm3es2f
-   Why can’t people understand that Valve is like every other multi-billion-dollar company? They’re no exception. They want your money as much as the next corporation. #valve #tf2 #cs2 #csgo #steam
-2. @jexams.bsky.social (Jex) · 26h · likes 1 · replies 1 · question · backlog
-   https://bsky.app/profile/jexams.bsky.social/post/3mxx5e4dvqk2m
-   As an aside the weirdest side effect of streaming is your brain now going "is this something I wanna stream or just play by myself?" And often the answer is I wanna stream it but let's be real: my backlog of stream games is already so so so long lmao
-3. @itzthatnerdjames.bsky.social (ItzThatNerdJames) · 5h · likes 1 · replies 0 · question · pcGaming
-   https://bsky.app/profile/itzthatnerdjames.bsky.social/post/3mxzcyopwnc2p
-   How's your Friday Night Going? This is my chill time, Videos & Call of Duty: Vanguard Campaign #nerd #gaming #smallstreamer #twitchstreamer #pcgaming
-   [image, no description]
-4. @makkoryn.social (ryn🦊❤️‍🔥🏳️‍⚧️) · 9h · likes 0 · replies 0 · question · backlog
-   https://bsky.app/profile/makkoryn.social/post/3mxywxl43wc23
-   Guess I need to clear these games I'm already playing on stream out of my backlog. Which Crash is like maybe 45 minutes of stream time. Spyro is gonna be a pain in the ass. Ratchet is... 3-4 hours? I really don't remember how much is left in RAC1
-5. @vomma94.bsky.social (VoMAA 🎮⌨️🖱🇨🇦) · 10h · likes 3 · replies 0 · question · seasonal
-   https://bsky.app/profile/vomma94.bsky.social/post/3mxys3cd26223
-   I'm looking for smaller games to fill the time between now and Resonance. It's still Spooktober, so I'm gonna give Ad Infinitum a try as it was dirt cheap on the Steam Store, and I do love my spooky walking simulators. Tonight, watching the last episode of Flannagan's Carrie show
-6. @spvcevvitch.bsky.social (✨Donny T✨) · 37m · likes 1 · replies 0 · pcGaming
-   https://bsky.app/profile/spvcevvitch.bsky.social/post/3mxzsl4jq7c2y
-   Put together some outfits from my closet inspired by Calico, Graves, and the Venator from Deadlock. Obsessed with the game right now and wanted to do some closet fits! If you want to see me do more outfits like this for other games let me know! #deadlock #gaming #videogames #fash
+1. @hewnix.com (Hewnix.com) · 5h · likes 4 · replies 0 · question · practical
+   https://bsky.app/profile/hewnix.com/post/3mxzxrzwzlc2q
+   Sad that you have to create a bill on this. The reason I don't buy new games is because I "know" I don't own it and I can't also play it offline. Want an offline game? Check out GOG.com. They have affordable classic games that you actually own with no DRM.
+   [link card: Welcome to GOG.com | best PC games DRM-free]
+2. @playze.io (playze.io — PC game price comparison) · 1h · likes 0 · replies 0 · question · pcGaming
+   https://bsky.app/profile/playze.io/post/3my2e7msv5e2d
+   Boltgun 2 price: buy the sequel, or the cheap first game? The Boltgun 2 price has no cheaper route on launch day — our record shows one listing, unmoved since September. The first game is the bargain, but a smaller one than it was. playze.io/news/boltgun-2-price #PCGaming
+   [link card: Boltgun 2 price: buy the sequel, or the cheap first game?]
+3. @sunnycastform.bsky.social (Shelby Ratliff) · 22m · likes 1 · replies 0 · pcGaming
+   https://bsky.app/profile/sunnycastform.bsky.social/post/3my2h6pcrvs2x
+   finally got 1400 on Aion 2 :) #aion2 #pcgaming #steam
+4. @shojoaie.bsky.social (shojo_aie) · 3h · likes 2 · replies 0 · pcGaming
+   https://bsky.app/profile/shojoaie.bsky.social/post/3my26fazhjk2w
+   🎀🏃🏼‍♀️💨 #grounded2 #steam #twitchstreamer #gamergirl #videogames @quotednevermore.bsky.social
    [video, no description]
-7. @x84-game.bsky.social (x84) · 2h · likes 1 · replies 0 · pcGaming
-   https://bsky.app/profile/x84-game.bsky.social/post/3mxzmyeuues2x
-   Oferta #Fallout4 Game of The Year 9,90€ #Steam
-   [link card: Fallout 4: Game of the Year Edition]
-8. @zackryin.bsky.social (Zak ✨) · 2h · likes 1 · replies 1 · backlog
-   https://bsky.app/profile/zackryin.bsky.social/post/3mxzmmggqb22y
-   Honestly, I'm one of those people who don't pick up many new games & thrive off of my backlog. This, alongside having a relatively lower end PC & a passion for making old technology work, I'm completely comfortable never buying a new console, lmao. My PC was FARRRR less than 1k, 
-9. @mastertrendinfo.bsky.social (MasterTrend Info) · 8h · likes 1 · replies 0 · question · pcGaming
-   https://bsky.app/profile/mastertrendinfo.bsky.social/post/3mxzejfuoqs2m
-   Duración De La Pasta Térmica Y Su Impacto En El Rendimiento Del PC ¿Sabías que la pasta térmica dura entre 1 y 3 años? Renovarla a tiempo evita sobrecalentamiento y mantiene tu PC al máximo rendimiento. ¡No esperes a que el calor te sorprenda! 🔧💻 #Tecnología #PCGaming #Mantenim
-   [link card: Duración De La Pasta Térmica Y Su Impacto En El Rendimiento Del PC]
-10. @afterpat.ch (afterpatch) · 3h · likes 0 · replies 0 · pcGaming
-   https://bsky.app/profile/afterpat.ch/post/3mxzkxyyi2z2e
-   Street Fighter™ 6 closed Oct 10–16 at 52% positive, the game's usual is 70%, and Arjun arrived midweek, on Oct 13. In the reviews, the same complaint keeps coming back: “Character hits through block.” More reviews than usual came in. #StreetFighter6 #Steam #pcgaming
-   [link card: Street Fighter™ 6: player mood dropped — afterpatch]
-11. @a3l41.bsky.social (𝐍𝐎𝐓✦𝐀𝐋 @ VGEN) · 3h · likes 0 · replies 0 · backlog
-   https://bsky.app/profile/a3l41.bsky.social/post/3mxzjco7upk2s
-   so many games this week 😭 staring at two more i wanna get but i want to finish a few more in my backlog first
-12. @deckpointer.bsky.social (Deck Pointer — Steam Deck Mouse & Keyboa) · 4h · likes 0 · replies 0 · pcGaming
-   https://bsky.app/profile/deckpointer.bsky.social/post/3mxzhgo72bv2l
-   The Rockstar Games Launcher asks for an email code on the #SteamDeck, and your email is on your phone. Copy it there, paste it into the Deck as keystrokes. Full setup is in the guide: https://deckpointer.com/go/bsky-post-11 #GTAV
-   [video: Vertical video: a Steam Deck showing the Rockstar Games Launcher asking for an email code, and a phone copying the code and pasting it into the Deck, with ring…]
-13. @katespeace.northsky.social (♡Scary Kate. 🇵🇸) · 8h · likes 9 · replies 2 · backlog
-   https://bsky.app/profile/katespeace.northsky.social/post/3mxz2n7abnk2g
-   so many games to play in my backlog. A (fun) hell of my own making from the past 12 years lmao. Yes. A collection built up from 12 years, woah.
-14. @gibbs.bsky.social (Superb Owl 🦉) · 8h · likes 2 · replies 0 · backlog
-   https://bsky.app/profile/gibbs.bsky.social/post/3mxyyg5fqbs26
-   Apparently I am eligible for monetization on twitch now. Maybe I'll start doing random streams again playing old games from my backlog
-15. @bubblyblu.bsky.social (ʙᴜʙʙʟʏ ᴍᴏᴏɴᴛʜ 🌷🌙 | COMMS CLOSED) · 10h · likes 1 · replies 1 · backlog
-   https://bsky.app/profile/bubblyblu.bsky.social/post/3mxytnhyafs2n
-   yassss come here *hugs 💖💖💖 Waaaaa DOGI's VA,so cooool! I'll check the other games, my backlog is... almost infinite and we still have to make that Baldur's run 👀
-16. @ladiesgamers.bsky.social (LadiesGamers.com) · 21h · likes 1 · replies 0 · pcGaming
-   https://bsky.app/profile/ladiesgamers.bsky.social/post/3mxxotw6azb2e
-   The Witch's Bakery is about a witch who opens a bakery in modern Paris. She has one special power- she can see into people's hearts and heal their emotions. @sunnylabgames.bsky.social @pressengine.net #TheWitchsBakery #Steam wp.me/p70tPw-tJK
+5. @chrismonka.bsky.social (Chris Monka) · 7h · likes 54 · replies 0 · question · gamingLiked
+   https://bsky.app/profile/chrismonka.bsky.social/post/3mxzrk6x7x22r
+   Is that Gucci?! 😳 (re-run) Game: Yakuza 0 by RGG Studio/SEGA #clips #gaming #beatemup #rggstudio #sega #likeadragon #yakuza #yakuza0
+   [video: Gameplay footage of the game Yakuza 0 by RGG Studio/SEGA (PC/Steam version)]
+6. @maxkoo.bsky.social (Max Kooijmans) · 21m · likes 0 · replies 0 · pcGaming
+   https://bsky.app/profile/maxkoo.bsky.social/post/3my2h7pvpwk2e
+   GOOD MORNING "A day without a challenge, is like a day without steam". Photo: Niels Groenendijk #steam #stoom #trains #trein #dampf
    [image, no description]
-17. @popgeeks.bsky.social (PopGeeks) · 22h · likes 2 · replies 0 · pcGaming
-   https://bsky.app/profile/popgeeks.bsky.social/post/3mxxmbbsezh25
-   You Probably Shouldn’t Store Your Credit Card Info On The Epic Games Store: Whenever people rag on the Epic Games Store, I remind them competition is a good thing and that if they lean on one market (like Steam) for everything, Steam will… #EpicGamesStore #Gaming #CreditCardSafet
-   [link card: You Probably Shouldn’t Store Your Credit Card Info On The Epic Games Store]
-18. @feed.igeek.gamer-geek-news.com.ap.brid.gy (input) · 22h · likes 1 · replies 0 · pcGaming
-   https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3mxxlumxgqyu2
-   📰 **Dementium II coming to Steam on October 20** Atooi will release horror first-person shooter sequel Dementium II for PC via Steam on October … 📰 Source: Gematsu 🔗 Link: https://www.gematsu.com/2026/10/dementium-ii-coming-to-steam-on-october-20 #SteamDeck #PCGaming
-   [link card: ]
-19. @urazon1.bsky.social · 22h · likes 2 · replies 0 · pcGaming
-   https://bsky.app/profile/urazon1.bsky.social/post/3mxxlhtqggu25
-   Now on Urazon: Resident Evil Requiem (Steam) for €42.98, with instant digital delivery. https://urazon.com/Resident-Evil-Requiem-Steam-Key-RoW #ResidentEvilRequiem #PCGaming
-   [image: Urazon promo for Resident Evil Requiem Steam Key RoW: original game cover with the price €42.98.]
-20. @siriuspowerpc.bsky.social · 23h · likes 2 · replies 0 · pcGaming
-   https://bsky.app/profile/siriuspowerpc.bsky.social/post/3mxxid7bofe25
-   Know what’s inside before you buy. Sirius Power PC focuses on named-brand parts, quality cooling, and balanced builds with no cheap hidden corners. #CustomPC #PrebuiltGamingPC #PCBuilder #BuiltForGamers #PCGaming #MinecraftPC #FortnitePC #RobloxPC #GamingPC #GamingSetup
-   [image, no description]
-21. @playminesweeper.bsky.social (Play Minesweeper) · 23h · likes 4 · replies 2 · pcGaming
-   https://bsky.app/profile/playminesweeper.bsky.social/post/3mxxhgn3xwu2q
-   Turn 22 · 1 player moved 🏅 @mschlasn.bsky.social +3 7 cells left, 1 spare, 22 flagged. Reply a coordinate, A1 to K11. Everyone who replies opens one. 30 min. #Minesweeper #oldschoolgaming #retrogames #pcgaming #solodevelopment #cozygames
-   [image: Minesweeper, turn 22. 11 by 11 grid, rows A to K, columns 1 to 11. 24 mines. 90 of 97 safe cells opened, 22 flagged. Reading each row left to right: a digit is…]
-22. @wyntersolaria.bsky.social (Wynter Solaria🍵❄️🎮FEFW Cai's Path) · 25h · likes 1 · replies 0 · backlog
-   https://bsky.app/profile/wyntersolaria.bsky.social/post/3mxx7wcis4c2b
-   I love taking time with games. With the DLC coming out, I wont be bored any time soon. Especially with how many games I have in my backlog but I can see FEFW being the longest game played after Crimson Desert (for console games). Im curious what the new classes are.
-23. @jimorian.bsky.social (Jimorian) · 25h · likes 3 · replies 0 · deck
-   https://bsky.app/profile/jimorian.bsky.social/post/3mxx7ltvywc22
-   There are other open source options (feel free to list them below), but I think when I have a bit of time to play with it, I'll try this one out. Would be helpful to have my GOG and Epic games listed in one place, since they're usually out of sight, out of mind. heroicgameslaunch
-   [link card: Heroic Games Launcher — Free Epic, GOG & Amazon Games Launcher]
-24. @teapartycrasher.bsky.social (itsteaparty) · 27h · likes 2 · replies 1 · bundles
-   https://bsky.app/profile/teapartycrasher.bsky.social/post/3mxx33mcfa22r
-   A short hike is good af, I was able to get it from that itch.io bundle for racial justice. If we could refocus like 50% of indie roguelike developers onto modern collectathon platformers it would be a huge net gain for the world
-25. @minneyar.fuzzyfox.social (Min, but Spooky) · 27h · likes 3 · replies 0 · practical
-   https://bsky.app/profile/minneyar.fuzzyfox.social/post/3mxx2ywflcs2i
-   I find it very interesting when there's a massive discrepancy in a game's overall Steam review score and the score among people who played it longer than the refund period
-   [2 images: A screenshot showing the aggregate Steam review score for Castlevania: Belmont's Curse for all reviews, currently 60% (Mixed) / A screenshot showing the review score if you only include reviews from people who have spent longer than 2 hours playing the game, which is 88% (very positive)]
+7. @chase-omega.bsky.social (Chase Omega) · 1h · likes 0 · replies 1 · deck
+   https://bsky.app/profile/chase-omega.bsky.social/post/3my2eidy6k226
+   An important thing to know for getting into PC gaming for the first time is you absolutely don't need the absolute biggest most high-spec machine to run good games. Starting small is absolutely valid, you can get a gaming laptop or a handheld. You can get the big powerful desktop
+   [link card: TF2 Engineer Gaming Dance]
+8. @playze.io (playze.io — PC game price comparison) · 1h · likes 0 · replies 0 · pcGaming
+   https://bsky.app/profile/playze.io/post/3my2e7oh5j322
+   Starfield price history: the sub-$20 window, and who set it Our Starfield price history shows one reseller set the all-time low over five weeks in late summer 2026. What a good price looks like now, and why Game Pass comes first. playze.io/news/starfield-price-history #PCGaming
+   [link card: Starfield price history: the sub-$20 window, and who set it]
+9. @jamler.bsky.social (J) · 3h · likes 5 · replies 0 · seasonal
+   https://bsky.app/profile/jamler.bsky.social/post/3my275j7rp225
+   Finished Lily's World last night. I'm a big fan of horror interface games, and this one hit me with the right combo of nostalgia, realism, and fright. It had varied mechanics and stuck the landing in a way that was very well-timed. Definitely recommend. store.steampowered.com/app
+   [link card: lily's world XD on Steam]
+10. @urazon1.bsky.social · 4h · likes 0 · replies 0 · pcGaming
+   https://bsky.app/profile/urazon1.bsky.social/post/3my242l4rvp25
+   Hideo Kojima's genre-defying journey continues in Death Stranding 2: On the Beach. Get it for Steam at €58.00 on Urazon, with instant digital delivery. https://urazon.com/Death-Stranding-2-On-the-Beach-RoW-PC-Steam-CD-Key #DeathStranding2 #PCGaming
+   [image: Urazon promo for Death Stranding 2: On the Beach RoW PC Steam CD Key: original game cover with the price €58.00.]
+11. @shadowgh057.bsky.social (ShadowGH057) · 5h · likes 0 · replies 0 · pcGaming
+   https://bsky.app/profile/shadowgh057.bsky.social/post/3mxzxlcw63c2t
+   Instant Karma lol 😂 #arcraiders #pcgaming #embark #extract #arcraidersgame
+   [video, no description]
+12. @spaceybat.bsky.social (Spacey Batotelli ⏱️) · 7h · likes 27 · replies 0 · bundles
+   https://bsky.app/profile/spaceybat.bsky.social/post/3mxzqnalci224
+   I'm happy to share that both Freedom Planet games are included in the Humble 2D Rewind Collection! There are tiers based on how much you pay, and a minimum of $14 USD gets you 13 games including ours! 💪 www.humblebundle.com/games/2d-rew...
+   [link card: 2D Rewind Collection from S2 Games]
+13. @dantendigitalis.bsky.social (Spooky D (Sunny D)) · 12h · likes 1 · replies 1 · practical
+   https://bsky.app/profile/dantendigitalis.bsky.social/post/3mxzanyiymc2s
+   Such a great game! Everyone should play it. I reckon everyone should put down their Xbox 650s & download The Secret of Monkey Island too onto their PC ( via Gog.com, or summat) Alternatively, buy an ancient PC (486'll do) & install it the way it used to be done. (With Punch cards
+   [link card: Welcome to GOG.com | best PC games DRM-free; quotes @leonardeuler.bsky.social: I think drowning there the only way to actually die in MI 1.]
+14. @playminesweeper.bsky.social (Play Minesweeper) · 5h · likes 2 · replies 1 · pcGaming
+   https://bsky.app/profile/playminesweeper.bsky.social/post/3mxzw7voyek2l
+   Turn 3 · nobody moved, so I opened E2. 🧠 The 2 at F3 already has all 2 of its mines (F2 and F4), so E2 is clear. 54 cells left, 3 spares, 2 flagged. Everyone who replies opens a cell. A mine takes you out of this board — you can still flag. 30 min. #Minesweeper #bsky #procedural
+   [image: Minesweeper, turn 3. 11 by 11 grid, rows A to K, columns 1 to 11. 24 mines. 43 of 97 safe cells opened, 2 flagged. Reading each row left to right: a digit is h…]
+15. @firstsecond.bsky.social (First Second) · 10h · likes 13 · replies 3 · bundles
+   https://bsky.app/profile/firstsecond.bsky.social/post/3mxzhbntjbs22
+   $8 for most of Double Fine's best games is a crazy good deal. I actually had a dream last night about Brutal Legend 2 being a metroidvania for some reason. www.humblebundle.com/games/double...
+   [link card: Double Fine Publisher Bundle]
+16. @esgeeks.bsky.social (EsGeeks) · 11h · likes 0 · replies 0 · pcGaming
+   https://bsky.app/profile/esgeeks.bsky.social/post/3mxzvl3mubx2w
+   NODE: PROTOCOL: qué trae su demo gratuita y qué equipo pide #Hacking #Juegos #Steam
+   [link card: NODE: PROTOCOL: qué trae su demo gratuita y qué equipo pide]
+17. @patate4.bsky.social (Patate4 / Kataklysm 🍁/ 🌟🇫🇷) · 11h · likes 2 · replies 1 · broadAsk
+   https://bsky.app/profile/patate4.bsky.social/post/3mxzdsgw3cc2b
+   If they are curious by nature, I can recommend games like Chants Of Sennaar, where you have to decipher languages in fun ways! (Has puzzles) In the DnD side, I can recommend Esoteric Ebb, a great game about exploration and encounters! (But just so you know, there's alot of text a
+18. @riascastle.xyz (Ria 🏳️‍⚧️) · 11h · likes 2 · replies 1 · broadAsk
+   https://bsky.app/profile/riascastle.xyz/post/3mxzdrtbur22s
+   snapdragon 8 elite gen 5 tablets can run lots of games at lower res upscaled to 1080p. For example the Xiaomi pad 8 (snapdragon 8s gen 4) can run games like red dead redemption 2 at 30 fps. But again the user experience might differ depending if u use game native or gamehub. So I
+19. @mrhopsribbitking.bsky.social (Mr. Hops the Ribbit King) · 12h · likes 0 · replies 0 · backlog
+   https://bsky.app/profile/mrhopsribbitking.bsky.social/post/3mxz7bnzbhc2d
+   I feel this on a spiritual level, games need to slow the fuck down by so much. It’s like a non stop content machine and it’s so overwhelming right now. The worst part is a lot of this stuff is REALLY GOOD which is horrible for me, my time, and my wallet, at this rate my backlog w
+20. @amandafarough.ca (Manda Farough 🔜 AdventureX | Causeway S) · 12h · likes 27 · replies 2 · gamingLiked
+   https://bsky.app/profile/amandafarough.ca/post/3mxz77ghlwc27
+   Indie games are the absolute best, folks. This is where the creative heart of our industry beats, no matter which country, continent, or culture they’re from. #MIGW gave me so much hope for the future of indie games. I won’t lose that. Bless indie devs and indie games and indie f
+21. @lumpley.bsky.social (lumpley) · 17h · likes 57 · replies 0 · bundles
+   https://bsky.app/profile/lumpley.bsky.social/post/3mxyphj5yck2z
+   Here at lumpley games, we love to make fun, spooky-themed casual rpgs and party games. Here are a few on sale, for your spooky-themed October get-togethers! itch.io/s/205552/spo... (With community copies, in case you find the skyrocketing price of trick or treat candy as terrifyi
+   [link card: Spooky October Games by Meguey & Vincent Baker, et al]
+22. @urazon1.bsky.social · 20h · likes 0 · replies 0 · pcGaming
+   https://bsky.app/profile/urazon1.bsky.social/post/3mxygsubfre2v
+   First-person psychological horror on foggy St. Amelia — a self-contained Silent Hill story from Simon Ordell's eyes. SILENT HILL: Townfall (Steam) is €39.16 on Urazon. Instant digital delivery. https://urazon.com/SILENT-HILL-Townfall-Steam-Key-EU #SILENTHILLTownfall #PCGaming
+   [image: Urazon promo for SILENT HILL: Townfall Steam Key EU: original game cover with the price €39.16.]
+23. @kastark.bsky.social (Katherine Stark) · 21h · likes 28 · replies 2 · gamingLiked
+   https://bsky.app/profile/kastark.bsky.social/post/3mxyd46mmzs25
+   Been thinking a lot about that "what if you had a $10,000 budget to make a TTRPG" post this morning and I can't figure out whether my main takeaway is that everyone in this industry is horribly underpaid, or if the majority of indie games only exist because designers do most of t
+24. @alienmelon.bsky.social (Nathalie Lawhead) · 21h · likes 7 · replies 1 · broadAsk
+   https://bsky.app/profile/alienmelon.bsky.social/post/3mxyawmzlbc2p
+   🚨hidden gem alert🚨 Floor Plan: Slap Out Of It! by far the goofiest cutest game that will make you laugh a ton. this needs to be on your radar if you love comedy in games. store.steampowered.com/app/3564410/...
+   [link card: Floor Plan: Slap Out Of It! on Steam]
+25. @thefurrybarista.bsky.social (Tucker @ BLFC) · 23h · likes 10 · replies 1 · broadPlaying
+   https://bsky.app/profile/thefurrybarista.bsky.social/post/3mxy3tzxfuc2n
+   Just finished the #BLFC bowling tournament. I bowled really well during match play, shooting 237 and 278 to make the finals. Then my finals opponent shoots 278 in our title match to win, while I still have a respectable 245 game Fun times. Always next year! I bowled well and it w
 
 ## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @xyzzysqrl.bsky.social (Xyzzifer K. Q. Sqrlmoggington) · 3h · likes 0 · replies 0 · question · ai
-   https://bsky.app/profile/xyzzysqrl.bsky.social/post/3mxzlnkfwxc2d
-   Just don't use the AI disclosure field if possible? Having the disclosure field puts you on the SteamDB "has AI content" list, and also (if people are using browser filters) has a BIG POP-UP that will... say you aren't using it, but I've already closed the browser tab without rea
-   [2 images: The "Crime Scene Cleaner" Steam page, which (with my browser plugin) pops up a large AI-GENERATED CONTENT DISCLOSURE to say they... don't use it. / The "AI Content Disclosed" list on SteamDB]
-2. @shawnisstilltired.bsky.social (Shawn) · 3h · likes 0 · replies 0 · question · ai
-   https://bsky.app/profile/shawnisstilltired.bsky.social/post/3mxzjzwfvk22b
-   Who is going to be held accountable? No Steam AI disclosure. No QA. Someone took a shit and you took the original down and threw this turd up for sale in naked bad faith.
-   [video, no description]
-3. @chazcheeto.bsky.social · 1h · likes 0 · replies 1 · ai
-   https://bsky.app/profile/chazcheeto.bsky.social/post/3mxzqmrbmkk2i
-   Unfortunately, they have multiple steam games with generative AI disclosures. They're just not games people in the West discuss. eBaseball Pro Spirit and an upcoming Yu Gi Oh game, for example.
-   [2 images: AI disclosure for Japanese language commentary in eBaseball™: PRO SPIRIT / AI disclosures for Yu-Gi-Oh! TAG FORCE GX for translated text generation]
+1. @pastelhermit.bsky.social (Pastel Hermit) · 14h · likes 1 · replies 0 · ai
+   https://bsky.app/profile/pastelhermit.bsky.social/post/3mxz2f6inb22z
+   The Steam AI disclosure requirement is great for helping people be informed, but even it can't kill the nagging doubts of "what if they're just lying though".
+2. @lykanthrope.bsky.social (lykanthrope) · 25h · likes 18 · replies 5 · practical
+   https://bsky.app/profile/lykanthrope.bsky.social/post/3mxxuufa2nk2n
+   I don't usually put in for Steam refunds, but the Rogue Genesia dev adding in slop-code post-release is unprecedented. I doubt I'll get a refund (100+hrs) I want them to know they don't get my support. I hope the reviewer might see the 'bait and switch' and let me redirect the fu

@@ -1,45 +1,45 @@
 # Comment candidates: cozy (@cozygame.bsky.social)
-Made 2026-10-17T00:49Z. Searched: askCozy: cozy games steam | stardew: farming sim | evening: chill game tonight | wholesome: wholesome games | deck: cozy steam deck | seasonal: cozy autumn game | cozyFeed: feed.
-Posts below: 12. Dropped in this run: skip word 39, bot, shop or studio 15, other language (text) 2, replies are limited 2, console only 2, low score 1, already shown 1, not a question 4, promo (link and hashtags) 2, too many hashtags 1, too short 1, other language 2, earlier finds: low score 1.
+Made 2026-10-17T06:43Z. Searched: askCozy: recommend cozy game | stardew: life sim | evening: cozy game | wholesome: comfort game | deck: steam deck relaxing games | seasonal: cozy spooky games | cozyFeed: feed.
+Posts below: 12. Dropped in this run: console only 2, low score 10, not about games 2, already answered 1, skip word 53, bot, shop or studio 15, too short 3, replies are limited 2, already shown 1, adult or graphic label 2, not a question 4, too many hashtags 2, other language 2, promo (link and hashtags) 2.
 
 ## Posts
-1. @weredawgz.blacksky.app (Danny Lore) · 5h · likes 5 · replies 2 · stardew
-   https://bsky.app/profile/weredawgz.blacksky.app/post/3mxzdzpgpv22u
-   This game is a delight and has one of my favorite art styles in a farming life sim
-   [quotes @coralislandgame.bsky.social: Coral Island is coming to Nintendo Switch 2 this Winter, alongside the 1.4 “Kids Grow Up” update! 🪸 🏝️ 🎉 Check out the details in our bl…]
-2. @kalypsiivt.bsky.social (Kalypsii) · 22h · likes 0 · replies 0 · question · cozyFeed
-   https://bsky.app/profile/kalypsiivt.bsky.social/post/3mxxlyr52q22g
-   How did I do? #dresstober #dressmaker #maomao #cozygame
-   [video, no description]
-3. @2dguy.bsky.social (2Dguy🏳️‍🌈) · 8h · likes 2 · replies 1 · stardew
-   https://bsky.app/profile/2dguy.bsky.social/post/3mxz3coy5m22o
-   Ye, it's a game trying something new based on something outside of games and people like it. It's almost like making new types of games is a good thing to do instead of making 2131321th stardew valley clone. I don't know why so many people want to debate me on the validity of a k
-4. @stfubrenna.bsky.social (Bren 🎀🧸) · 8h · likes 1 · replies 0 · stardew
-   https://bsky.app/profile/stfubrenna.bsky.social/post/3mxz2nmzmp22o
-   I watched a video where someone made dresses inspired by each of the stardew bachelorettes, and now I want to try it. I already have ideas 💡
-5. @kokirikina.bsky.social (Kina) · 9h · likes 1 · replies 0 · stardew
-   https://bsky.app/profile/kokirikina.bsky.social/post/3mxyvbmgvf22s
-   Im never letting my husband choose my favorite thing again lmfao #stardewvalley
-   [image: Player at the stardew valley fair receiving a star drop. Their mind is filled with thoughts of... bouncing on it.]
-6. @ellie.wubrgsky.org (Ellie, Who Slows the Sunset) · 10h · likes 1 · replies 1 · stardew
-   https://bsky.app/profile/ellie.wubrgsky.org/post/3mxytp5u3ik2e
-   Islands & Trains if you just want a calm creation game. Stardew Valley, Balatro, Slay the Spire all good for a strong reward loop.
-7. @gravebride.bsky.social (Ama~Lucky!) · 10h · likes 1 · replies 1 · stardew
-   https://bsky.app/profile/gravebride.bsky.social/post/3mxyt6yicdk2n
-   I'm sure someone could tell me the characters are actually very interesting but I've said before I'm at least a bit shallow and aesthetics are always going to be important to me and Stardew was doomed to just never rope me into caring when i dont care for its artstyle or characte
-8. @arkhangel79.bsky.social (Arkhangel | Two Point Campus) · 10h · likes 2 · replies 1 · evening
-   https://bsky.app/profile/arkhangel79.bsky.social/post/3mxyspkdfnc2n
-   I totally get that!! Gaming is our main hobby when we have time. She’s heavier on reading than me these days. She loves cozy games and RPGs. She’s playing WoW and Metaphor atm.
-9. @joeybuckaroo.pmd.social (Joey (Ratta-Suited) ΘΔ) · 11h · likes 2 · replies 0 · stardew
-   https://bsky.app/profile/joeybuckaroo.pmd.social/post/3mxyqam4a4u2f
-   I will be streaming Morrowind this evening though. And I like to keep my Stardew Sundays going. But also, gosh, if I am feeling in the moment that "hey this game I planned out a week in advance is just not something in the mood for" I wanna be able to switch it and not feel bad a
-10. @onigirival.bsky.social (🍙 Valoo) · 12h · likes 2 · replies 0 · evening
-   https://bsky.app/profile/onigirival.bsky.social/post/3mxynocfk5s2l
-   debating if we should play Outlast 2 tonight ooooorrrrr start the other game i thought could fill in the rest of spoopy month... hmmmmm... (it's not scary tbh, something's just a little off) ..................... or we could play more mistria and make it a full chill week HAHAHAH
-11. @lordofwhales.bsky.social (Lord of Whales) · 12h · likes 1 · replies 1 · stardew
-   https://bsky.app/profile/lordofwhales.bsky.social/post/3mxynnrm5uk25
-   Stardew is a very solid pick that I would probably recommend myself. It just has so much to offer without being overly complicated
-12. @amaamaamai.bsky.social (SugarySweet (scary)) · 12h · likes 2 · replies 0 · stardew
-   https://bsky.app/profile/amaamaamai.bsky.social/post/3mxylx76urc2a
-   Streaming Stardew Valley today, mostly as a test to see how my computer handles it, I'm gonna play on the scary farm so it's still fitting for the month.
-   [link card: sugarysweet666 - Live on Twitch]
+1. @elliamvi.bsky.social (Eric M) · 18m · likes 0 · replies 0 · question · stardew
+   https://bsky.app/profile/elliamvi.bsky.social/post/3my2hgcatgs2j
+   Coral Island is so good!!! I know you don't really need recommendations right now, but if you like a cozy magical life sim, maybe add Little Witch in the Woods to your list
+2. @stardewvalleyapp.bsky.social (olivia smith) · 3h · likes 1 · replies 0 · question · cozyFeed
+   https://bsky.app/profile/stardewvalleyapp.bsky.social/post/3my27fssqik2j
+   Your next Pelican Town adventure could start on your iPhone. Curious about touch controls or offline farming? Explore our Stardew Valley iOS guide: stardewvalleyapk.app/for-ios/ #StardewValley #CozyGames
+   [image: Stardew Valley chest and inventory displaying fish, seaweed, shells, tools, and supplies, with the text “Stardew Valley For iOS.”]
+3. @subspacedboy.subjugated.club (Subspaced Boy) · 10h · likes 1 · replies 0 · question · evening
+   https://bsky.app/profile/subspacedboy.subjugated.club/post/3mxzhqhfrsk24
+   Lady Etherial had me questioning my choices. I desperately need a cozy game break now. The last several have all been brutally hard 🤣
+4. @brightwillowgame.bsky.social (Bright Willow Game) · 10h · likes 2 · replies 0 · question · evening
+   https://bsky.app/profile/brightwillowgame.bsky.social/post/3mxzfzlblic2f
+   Day 1 vs Day 2 of learning pixel art. I'm making a cozy/creepy witch game, Bright Willow, where the mist hides dangers and the village's bright tree is failing. I've never made pixel art before this week, so I'm sharing the whole journey, starting from the very beginning. What sh
+   [4 images, no description]
+5. @aliciaaarnio.solar (just some Alicia) · 6h · likes 1 · replies 1 · question · wholesome
+   https://bsky.app/profile/aliciaaarnio.solar/post/3mxzthqash22n
+   ok so I'm late to this, but. the fact that the fallout 4 theme ends a half step up from where it starts? i think is a big part of what makes the game hopeful rather than entirely tragedy. (nooooo i'm def not just trying to justify why this is a comfort game for me..)
+6. @runwithskizzers.bsky.social (Preeti Chhibber) · 8h · likes 11 · replies 14 · question · evening
+   https://bsky.app/profile/runwithskizzers.bsky.social/post/3mxzmvv7wx22i
+   video game rec request! I'm looking for either a narrative game I can get through in about two weeks OR a game that is easy to put down (likely non-narrative, cozy maybe) when OoT comes out next month
+7. @auroracosmos.bsky.social (Aurora B(oo) Cosmos) · 1h · likes 1 · replies 0 · stardew
+   https://bsky.app/profile/auroracosmos.bsky.social/post/3my2e7zac4227
+   Nosferatu: Symphony of Horror (2023) is in Yucky Tier “More or less a remake of the original. It feels unnecessary, the main thing is adding sound and green screen effects that make it feel like an FMV game. It’s not even symphonic.”
+   [4 images: “Nosferatu, A Symphony of Horror” A photo rod Count Orlock looking intensely though a window. The frame is very red. / A spreadsheet with 2 categories color coded. Tiers from top to bottom will be labeled with their name and color. Peak is Red, Tasty is Orange, Below are the li… / A spreadsheet with 2 categories color coded. Tiers from top to bottom will be labeled with their name and color. Fresh is Yellow, It’s Alright is Green Below a… / A spreadsheet with 3 categories color coded. Stale is lightly blue, yucky is dark blue, and Peam is purple. Below are the list of all tiers and content Stale: …]
+8. @edgeyberzerker.bsky.social (EdgeyBerzerker) · 2h · likes 5 · replies 0 · evening
+   https://bsky.app/profile/edgeyberzerker.bsky.social/post/3my2dec2lfk2q
+   Thank you friends for indulging my love for Dead or Alive 6: Last Round - the ultimate cozy game!
+   [link card: Marie Rose in Dead or Alive 6]
+9. @lbdxiii.bsky.social (Light Between Darkness) · 5h · likes 2 · replies 0 · evening
+   https://bsky.app/profile/lbdxiii.bsky.social/post/3mxzyrys62s2u
+   Is spending 10s of hours grinding levels and gold cozy… yes, yes it is, Dragon Quest is absolutely a cozy game.
+10. @luosqeu.bsky.social (Rasqeu | Luo Bonghe 🍁) · 5h · likes 1 · replies 2 · evening
+   https://bsky.app/profile/luosqeu.bsky.social/post/3mxzypzl7os2i
+   [Tomodachi Life!] Shen Yuan likes the cozy farming game Eggplant Parmigiana Deluxe Edition and i find this funny
+11. @esdeath.bsky.social (Artemis) · 5h · likes 2 · replies 1 · stardew
+   https://bsky.app/profile/esdeath.bsky.social/post/3mxzxrdy3gs2y
+   Outside of combat ive thoroughly been enjoying the life sim stuff and growing my army and making friendships I knew id like this bc of how much I love mass effect but its still worth mentioning I do wish the game was a little more open to your character moving to magic, but ill f
+12. @barawerewolf.bsky.social (i'm buppy?) · 1h · likes 9 · replies 1 · wholesome
+   https://bsky.app/profile/barawerewolf.bsky.social/post/3my2ezyc4zs2w
+   funny how silent hill 2 has kinda become my comfort game it's the antithesis of "comfy" but there's something... kind of comforting about the idea of physically fighting the manifestations of your demons

@@ -1,104 +1,86 @@
 {
   "cursor": 0,
   "next": {
-    "childhood": 4,
-    "classicPC": 4,
-    "holdUp": 1,
-    "gogOld": 1,
-    "nostalgia": 1,
-    "askRetro": 4
+    "childhood": 1,
+    "classicPC": 5,
+    "holdUp": 2,
+    "gogOld": 2,
+    "nostalgia": 2,
+    "askRetro": 1
   },
   "sources": {
     "childhood": {
-      "runs": 4,
-      "posts": 60,
+      "runs": 5,
+      "posts": 64,
       "fit": 19,
       "last": {
-        "posts": 8,
-        "fit": 1,
-        "at": "2026-10-17T00:49:47.398Z"
+        "posts": 4,
+        "fit": 0,
+        "at": "2026-10-17T06:43:27.577Z"
       }
     },
     "classicPC": {
-      "runs": 4,
-      "posts": 47,
+      "runs": 5,
+      "posts": 52,
       "fit": 18,
       "last": {
-        "posts": 16,
-        "fit": 4,
-        "at": "2026-10-17T00:49:47.398Z"
+        "posts": 5,
+        "fit": 0,
+        "at": "2026-10-17T06:43:27.577Z"
       }
     },
     "holdUp": {
-      "runs": 4,
-      "posts": 4,
+      "runs": 5,
+      "posts": 7,
       "fit": 0,
       "last": {
-        "posts": 0,
+        "posts": 3,
         "fit": 0,
-        "at": "2026-10-17T00:49:47.398Z"
+        "at": "2026-10-17T06:43:27.577Z"
       }
     },
     "gogOld": {
-      "runs": 4,
-      "posts": 69,
-      "fit": 15,
+      "runs": 5,
+      "posts": 71,
+      "fit": 16,
       "last": {
-        "posts": 34,
-        "fit": 7,
-        "at": "2026-10-17T00:49:47.398Z"
+        "posts": 2,
+        "fit": 1,
+        "at": "2026-10-17T06:43:27.577Z"
       }
     },
     "nostalgia": {
-      "runs": 4,
-      "posts": 39,
-      "fit": 7,
+      "runs": 5,
+      "posts": 58,
+      "fit": 9,
       "last": {
-        "posts": 8,
-        "fit": 1,
-        "at": "2026-10-17T00:49:47.398Z"
+        "posts": 19,
+        "fit": 2,
+        "at": "2026-10-17T06:43:27.577Z"
       }
     },
     "askRetro": {
-      "runs": 4,
+      "runs": 5,
       "posts": 18,
       "fit": 7,
       "last": {
-        "posts": 3,
-        "fit": 1,
-        "at": "2026-10-17T00:49:47.398Z"
+        "posts": 0,
+        "fit": 0,
+        "at": "2026-10-17T06:43:27.577Z"
       }
     },
     "retroFeed": {
-      "runs": 4,
-      "posts": 197,
-      "fit": 6,
+      "runs": 5,
+      "posts": 247,
+      "fit": 7,
       "last": {
         "posts": 50,
-        "fit": 2,
-        "at": "2026-10-17T00:49:47.398Z"
+        "fit": 1,
+        "at": "2026-10-17T06:43:27.577Z"
       }
     }
   },
   "pool": {
-    "at://did:plc:etv6lxbwvhtiby7izetzea3x/app.bsky.feed.post/3mxx2gvjins2g": {
-      "uri": "at://did:plc:etv6lxbwvhtiby7izetzea3x/app.bsky.feed.post/3mxx2gvjins2g",
-      "url": "https://bsky.app/profile/sigmanerd.bsky.social/post/3mxx2gvjins2g",
-      "handle": "sigmanerd.bsky.social",
-      "name": "Veronica R.A. Le'Peltér Esq.🌹₊˚🪻",
-      "text": "Gaming is actually a ridiculously affordable hobby, especially if you can buy a gaming PC off a friend, get a laptop on sale, or I suppose buy a console. Maybe play retro games with an old system gotten off an older relative. I, as a rule, prefer higher quality products that cost more.",
-      "createdAt": "2026-10-15T21:55:05.532Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "classicPC",
-      "query": "old pc games",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": true,
-      "media": null,
-      "firstSeen": "2026-10-16T06:47:55.751Z"
-    },
     "at://did:plc:kvwhxksgy2xfdv7h7byr25b6/app.bsky.feed.post/3mxxhxfhbjk2k": {
       "uri": "at://did:plc:kvwhxksgy2xfdv7h7byr25b6/app.bsky.feed.post/3mxxhxfhbjk2k",
       "url": "https://bsky.app/profile/satsy.bsky.social/post/3mxxhxfhbjk2k",
@@ -135,24 +117,6 @@
       "media": null,
       "firstSeen": "2026-10-16T06:47:55.751Z"
     },
-    "at://did:plc:7pnz5l2ubwnzfpk7kfc6kyog/app.bsky.feed.post/3mxwutocs622e": {
-      "uri": "at://did:plc:7pnz5l2ubwnzfpk7kfc6kyog/app.bsky.feed.post/3mxwutocs622e",
-      "url": "https://bsky.app/profile/vilegentleman.bsky.social/post/3mxwutocs622e",
-      "handle": "vilegentleman.bsky.social",
-      "name": "JeЯemy Complains",
-      "text": "I'm enjoying it so far but man does it take a while to get going. I miss the old games being like \"happy 12th birthday! Here's a dangerous animal that could easily kill you. Now go explore the world unsupervised. Good luck!\"",
-      "createdAt": "2026-10-15T20:14:51.729Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "gogOld",
-      "query": "good old games",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": true,
-      "media": null,
-      "firstSeen": "2026-10-16T06:47:55.751Z"
-    },
     "at://did:plc:3nv2wkyxtoavcrh6vh7i5jxa/app.bsky.feed.post/3mxxs3k2rbs26": {
       "uri": "at://did:plc:3nv2wkyxtoavcrh6vh7i5jxa/app.bsky.feed.post/3mxxs3k2rbs26",
       "url": "https://bsky.app/profile/archsagejulz.bsky.social/post/3mxxs3k2rbs26",
@@ -171,60 +135,6 @@
       "media": null,
       "firstSeen": "2026-10-16T06:47:55.751Z"
     },
-    "at://did:plc:xnrjhxvdk3f7rpax3c67i5zf/app.bsky.feed.post/3mxxfni6ij22i": {
-      "uri": "at://did:plc:xnrjhxvdk3f7rpax3c67i5zf/app.bsky.feed.post/3mxxfni6ij22i",
-      "url": "https://bsky.app/profile/ministerofdoom.bsky.social/post/3mxxfni6ij22i",
-      "handle": "ministerofdoom.bsky.social",
-      "name": "MinisterofDOOM",
-      "text": "I bought so many Magic cards and DOS games at K-Mart.",
-      "createdAt": "2026-10-16T01:15:37.578Z",
-      "likes": 2,
-      "replies": 0,
-      "group": "classicPC",
-      "query": "dos games",
-      "score": 7,
-      "question": false,
-      "heated": false,
-      "isReply": true,
-      "media": null,
-      "firstSeen": "2026-10-16T12:49:27.779Z"
-    },
-    "at://did:plc:il5bjyjxf6p33rceymiwl27c/app.bsky.feed.post/3mxx5t5266222": {
-      "uri": "at://did:plc:il5bjyjxf6p33rceymiwl27c/app.bsky.feed.post/3mxx5t5266222",
-      "url": "https://bsky.app/profile/elissablack.com/post/3mxx5t5266222",
-      "handle": "elissablack.com",
-      "name": "Elissa",
-      "text": "Sound clips from DOS games that have never left my head, 30 years on: - \"Don't have time to play with myself.\" - \"Xatrix Entertainment! Yup.\" - \"Under my guidance, Britannia will *flourish*!\" - [Monkey Island theme on PC Speaker] - \"From God to Cain to Seth... I am his right hand.\"",
-      "createdAt": "2026-10-15T22:55:37.296Z",
-      "likes": 28,
-      "replies": 10,
-      "group": "classicPC",
-      "query": "dos games",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": null,
-      "firstSeen": "2026-10-16T12:49:27.779Z"
-    },
-    "at://did:plc:2y7c64ib4qyfgw7zx4uhkwk2/app.bsky.feed.post/3mxwwgkqdzk2w": {
-      "uri": "at://did:plc:2y7c64ib4qyfgw7zx4uhkwk2/app.bsky.feed.post/3mxwwgkqdzk2w",
-      "url": "https://bsky.app/profile/pifalcao.com/post/3mxwwgkqdzk2w",
-      "handle": "pifalcao.com",
-      "name": "Pedro Falcão",
-      "text": "isso é um reflexo de um número grande de brasileiros jornalistas/criadores de conteúdo de games que continuam ignorando o que se produz no Brasil para boa parte dessa galera, os direitos dos consumidores vêm antes dos trabalhadores",
-      "createdAt": "2026-10-15T20:43:19.255Z",
-      "likes": 24,
-      "replies": 1,
-      "group": "classicPC",
-      "query": "dos games",
-      "score": 7,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "quotes @rinaaaquela.bsky.social: ",
-      "firstSeen": "2026-10-16T12:49:27.779Z"
-    },
     "at://did:plc:em4ecqj5uhtm3t4bkr6bflmj/app.bsky.feed.post/3mxykpphvvc27": {
       "uri": "at://did:plc:em4ecqj5uhtm3t4bkr6bflmj/app.bsky.feed.post/3mxykpphvvc27",
       "url": "https://bsky.app/profile/nttw.bsky.social/post/3mxykpphvvc27",
@@ -241,24 +151,6 @@
       "heated": false,
       "isReply": false,
       "media": "image, no description",
-      "firstSeen": "2026-10-16T12:49:27.779Z"
-    },
-    "at://did:plc:s32m6jjwnp4nmbfg4q76ftbx/app.bsky.feed.post/3mxygzautlc2m": {
-      "uri": "at://did:plc:s32m6jjwnp4nmbfg4q76ftbx/app.bsky.feed.post/3mxygzautlc2m",
-      "url": "https://bsky.app/profile/amphy516.bsky.social/post/3mxygzautlc2m",
-      "handle": "amphy516.bsky.social",
-      "name": "Amphy",
-      "text": "One of my favorite Pokémon games ever. Top 2 alongside USUM, even. I honestly adore this game and love it so much. The new Megas are amazing, the characters are so loveable, the unique battle style is really fun, the city is nostalgic… I just love this game a whole lot.",
-      "createdAt": "2026-10-16T11:12:46.057Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "nostalgia",
-      "query": "nostalgic game",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "quotes @serebiiotd.bsky.social: On this day in 2025, 1 year ago, Pokémon Legends: Z-A first released. This game was located entirely in Lumiose City with a more real-time …",
       "firstSeen": "2026-10-16T12:49:27.779Z"
     },
     "at://did:plc:gihlm7mqaljxpji2gqlf7ckr/app.bsky.feed.post/3mxyakk4iwk2h": {
@@ -387,24 +279,6 @@
       "media": null,
       "firstSeen": "2026-10-16T18:43:44.763Z"
     },
-    "at://did:plc:d44bx3cs6m57lch6io7eomtu/app.bsky.feed.post/3mxxi7haoxs2q": {
-      "uri": "at://did:plc:d44bx3cs6m57lch6io7eomtu/app.bsky.feed.post/3mxxi7haoxs2q",
-      "url": "https://bsky.app/profile/spikestuff.bsky.social/post/3mxxi7haoxs2q",
-      "handle": "spikestuff.bsky.social",
-      "name": "Spikestuff (Zoë/Taco)",
-      "text": "Wait... I recognise that slight little water on a CD case with a bit of mountain in the Magpie Room Classic Games... IT'S MYST AT PAX! Now if only it was installed on the computer. #PAXAus #PaxAUS26",
-      "createdAt": "2026-10-16T02:00:48.054Z",
-      "likes": 2,
-      "replies": 1,
-      "group": "classicPC",
-      "query": "classic pc games",
-      "score": 7,
-      "question": false,
-      "heated": false,
-      "isReply": true,
-      "media": "2 images: Bunch of PC Games stacked upon each other. Myst is barely visible. / MYST at the Magpie Room of PAX. We rejoice in the greatness of Classic Games getting a larger space at PAX this year.",
-      "firstSeen": "2026-10-16T18:43:44.763Z"
-    },
     "at://did:plc:r6kqkg7ymjzeyqrgqje57yej/app.bsky.feed.post/3mxyhxiuq3s26": {
       "uri": "at://did:plc:r6kqkg7ymjzeyqrgqje57yej/app.bsky.feed.post/3mxyhxiuq3s26",
       "url": "https://bsky.app/profile/polishgames.bsky.social/post/3mxyhxiuq3s26",
@@ -477,114 +351,6 @@
       "media": "3 images, no description",
       "firstSeen": "2026-10-17T00:49:47.398Z"
     },
-    "at://did:plc:oxnhpsag25kcbr6mfkgyzpca/app.bsky.feed.post/3mxzlh72ds22a": {
-      "uri": "at://did:plc:oxnhpsag25kcbr6mfkgyzpca/app.bsky.feed.post/3mxzlh72ds22a",
-      "url": "https://bsky.app/profile/everythingaction.bsky.social/post/3mxzlh72ds22a",
-      "handle": "everythingaction.bsky.social",
-      "name": "Everything Action",
-      "text": "Just in time for Halloween, Tenebris Somnia brings old-school survival horror to PC and consoles.",
-      "createdAt": "2026-10-16T22:04:48.608Z",
-      "likes": 10,
-      "replies": 0,
-      "group": "classicPC",
-      "query": "old pc game",
-      "score": 8,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "link card: Tenebris Somnia Brings Retro Survival Horror and Live-Action Nightmares to PC and Consoles - Everyt…",
-      "firstSeen": "2026-10-17T00:49:47.398Z"
-    },
-    "at://did:plc:22boo37vcs2onn7midxafku4/app.bsky.feed.post/3mxzgok7fo22r": {
-      "uri": "at://did:plc:22boo37vcs2onn7midxafku4/app.bsky.feed.post/3mxzgok7fo22r",
-      "url": "https://bsky.app/profile/juntarhenogu.bsky.social/post/3mxzgok7fo22r",
-      "handle": "juntarhenogu.bsky.social",
-      "name": "Juntarhenogu (COMMS CLOSED)",
-      "text": "That sounds like such a fun idea! I kinda imagine the gameplay style would be like an old PC game I loved, Majesty, where you make the units and can coax them to do stuff for gold/rewards, but they ultimately make their own decisions Though the army of gnomes sounds tempting...",
-      "createdAt": "2026-10-16T20:39:26.480Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "classicPC",
-      "query": "old pc game",
-      "score": 7,
-      "question": false,
-      "heated": false,
-      "isReply": true,
-      "media": null,
-      "firstSeen": "2026-10-17T00:49:47.398Z"
-    },
-    "at://did:plc:im5ro3khkbj2zkiy6owv2mia/app.bsky.feed.post/3mxzaew3g3c2z": {
-      "uri": "at://did:plc:im5ro3khkbj2zkiy6owv2mia/app.bsky.feed.post/3mxzaew3g3c2z",
-      "url": "https://bsky.app/profile/tudsworthington.bsky.social/post/3mxzaew3g3c2z",
-      "handle": "tudsworthington.bsky.social",
-      "name": "- ̗̀  🏳️‍🌈🏳️‍⚧️Tuddy   ̖́-",
-      "text": "I'm enjoying my time with it, but I also FULLY get why it's rubbing some folk the wrong way and like also that PC port is kinda fuckin doo doo garbage for being a port of a game targeting The Nintendo Switch 1, a 9 year old console based on 14 year old architecture.",
-      "createdAt": "2026-10-16T18:46:40.938Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "classicPC",
-      "query": "old pc game",
-      "score": 7,
-      "question": false,
-      "heated": false,
-      "isReply": true,
-      "media": null,
-      "firstSeen": "2026-10-17T00:49:47.398Z"
-    },
-    "at://did:plc:yggp5wr45dpjcstwqf2oygpc/app.bsky.feed.post/3mxywrhwrdk2f": {
-      "uri": "at://did:plc:yggp5wr45dpjcstwqf2oygpc/app.bsky.feed.post/3mxywrhwrdk2f",
-      "url": "https://bsky.app/profile/zebesianfrontflip.bsky.social/post/3mxywrhwrdk2f",
-      "handle": "zebesianfrontflip.bsky.social",
-      "name": "Zebesiansomersault",
-      "text": "The whole ai decomp/recomp thing kinda takes the fun out of waiting for a really polished conversion of an old game to work on PC. Yeah, it’s faster, but GOD does it take away some fun of it. You had dudes working their asses off for majora but now claude does it all. Feels wrong, wasteful as well.",
-      "createdAt": "2026-10-16T15:54:44.888Z",
-      "likes": 0,
-      "replies": 1,
-      "group": "classicPC",
-      "query": "old pc game",
-      "score": 6,
-      "question": false,
-      "heated": true,
-      "isReply": false,
-      "media": null,
-      "firstSeen": "2026-10-17T00:49:47.398Z"
-    },
-    "at://did:plc:tha265elv4teqilakl7ohq26/app.bsky.feed.post/3mxzcq6b3pk2r": {
-      "uri": "at://did:plc:tha265elv4teqilakl7ohq26/app.bsky.feed.post/3mxzcq6b3pk2r",
-      "url": "https://bsky.app/profile/puppy.bzky.team/post/3mxzcq6b3pk2r",
-      "handle": "puppy.bzky.team",
-      "name": "Gock Socket",
-      "text": "I keep trying out old games that I'm sure are just carried by nostalgia and they're legit super good? Made me realize that a lot of my engagement with current media was hype driven more than anything. Think we need a big economic overhaul to make meaningful solutions, sadly.",
-      "createdAt": "2026-10-16T19:28:46.094Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "gogOld",
-      "query": "good old games",
-      "score": 9,
-      "question": true,
-      "heated": false,
-      "isReply": true,
-      "media": null,
-      "firstSeen": "2026-10-17T00:49:47.398Z"
-    },
-    "at://did:plc:ede4yv6jnvgva3rppe4lxaoj/app.bsky.feed.post/3mxyts6mgis2x": {
-      "uri": "at://did:plc:ede4yv6jnvgva3rppe4lxaoj/app.bsky.feed.post/3mxyts6mgis2x",
-      "url": "https://bsky.app/profile/seangardnerxiv.bsky.social/post/3mxyts6mgis2x",
-      "handle": "seangardnerxiv.bsky.social",
-      "name": "Sean Gardner",
-      "text": "there’s a sense of continuity (going back to the story’s beginning with the rest of the games’ stories in mind) and narrative here that wasn’t really present in the old games for the sake of focus on gameplay, I think someone worked out that a fun game and a good story aren’t mutually exclusive.",
-      "createdAt": "2026-10-16T15:01:27.438Z",
-      "likes": 4,
-      "replies": 0,
-      "group": "gogOld",
-      "query": "good old games",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": true,
-      "media": null,
-      "firstSeen": "2026-10-17T00:49:47.398Z"
-    },
     "at://did:plc:ajw3jw2wiz6tdkft26ds6olr/app.bsky.feed.post/3mxyt6gikj22x": {
       "uri": "at://did:plc:ajw3jw2wiz6tdkft26ds6olr/app.bsky.feed.post/3mxyt6gikj22x",
       "url": "https://bsky.app/profile/metalmouse85.bsky.social/post/3mxyt6gikj22x",
@@ -603,59 +369,59 @@
       "media": null,
       "firstSeen": "2026-10-17T00:49:47.398Z"
     },
-    "at://did:plc:vslm7x5yish3dnu7nuwipzoe/app.bsky.feed.post/3mxyiyra2js25": {
-      "uri": "at://did:plc:vslm7x5yish3dnu7nuwipzoe/app.bsky.feed.post/3mxyiyra2js25",
-      "url": "https://bsky.app/profile/md0v0bm.bsky.social/post/3mxyiyra2js25",
-      "handle": "md0v0bm.bsky.social",
-      "name": "",
-      "text": "The Picture of Elon \"Dorian\" Musk. What kind of messed up lunatic do you have to be to over 10 years old and lie about being good at video games? And to say your trans kid is dead? And advocate so only white South Africans are acceptable refugees? And toss out nazi salutes?",
-      "createdAt": "2026-10-16T11:48:17.125Z",
-      "likes": 3,
-      "replies": 0,
-      "group": "gogOld",
-      "query": "good old games",
+    "at://did:plc:e6bgpkdom5zlzs5sxy5piaqy/app.bsky.feed.post/3mxzngkhk422a": {
+      "uri": "at://did:plc:e6bgpkdom5zlzs5sxy5piaqy/app.bsky.feed.post/3mxzngkhk422a",
+      "url": "https://bsky.app/profile/ooccouchgags.bsky.social/post/3mxzngkhk422a",
+      "handle": "ooccouchgags.bsky.social",
+      "name": "Out of Context Simpsons Treehouse of Horror 🎃",
+      "text": "Out of everything in the Toy Story Retro Round Up, playing the Bug's Life game is nostalgic as I remember playing this on PS1 growing up",
+      "createdAt": "2026-10-16T22:40:14.470Z",
+      "likes": 48,
+      "replies": 4,
+      "group": "nostalgia",
+      "query": "nostalgic game",
       "score": 7,
       "question": true,
       "heated": false,
-      "isReply": true,
-      "media": null,
-      "firstSeen": "2026-10-17T00:49:47.398Z"
+      "isReply": false,
+      "media": "video, no description",
+      "firstSeen": "2026-10-17T06:43:27.577Z"
     },
-    "at://did:plc:v5u3yomwf7prargedwuq3b34/app.bsky.feed.post/3mxzods5hpc2d": {
-      "uri": "at://did:plc:v5u3yomwf7prargedwuq3b34/app.bsky.feed.post/3mxzods5hpc2d",
-      "url": "https://bsky.app/profile/benjedwards.com/post/3mxzods5hpc2d",
-      "handle": "benjedwards.com",
-      "name": "Benj Edwards",
-      "text": "I lost my NES Four Score somewhere in storage, so I was thinking about cracking open a minty fresh one I bought at Toys R Us on clearance in the 1990s Should I do it",
-      "createdAt": "2026-10-16T22:56:35.631Z",
-      "likes": 15,
-      "replies": 4,
-      "group": "retroFeed",
-      "query": "feed",
-      "score": 8,
-      "question": true,
+    "at://did:plc:bj3upncgmq7z7xr2eboj6zm7/app.bsky.feed.post/3mxz3bo6bkb2q": {
+      "uri": "at://did:plc:bj3upncgmq7z7xr2eboj6zm7/app.bsky.feed.post/3mxz3bo6bkb2q",
+      "url": "https://bsky.app/profile/laronskigeek.bsky.social/post/3mxz3bo6bkb2q",
+      "handle": "laronskigeek.bsky.social",
+      "name": "LaronskiGeek",
+      "text": "🚀 This GitHub project, Arrmada, is basically a web-based version of the classic game Asteroids—only way more polished and with some slick UI touches. It’s like if someone took the 80s arcade game and gave it a 2024 make-over, but somehow it still feels nostalgic. 🎮",
+      "createdAt": "2026-10-16T17:15:21.487Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "nostalgia",
+      "query": "nostalgic game",
+      "score": 5,
+      "question": false,
       "heated": false,
       "isReply": false,
-      "media": "2 images: Four Score box / Old price tag:$2.98",
-      "firstSeen": "2026-10-17T00:49:47.398Z"
+      "media": "image, no description",
+      "firstSeen": "2026-10-17T06:43:27.577Z"
     },
-    "at://did:plc:7r7xtmrwiz663mkeiwhuxdse/app.bsky.feed.post/3mxzoaf4yts2x": {
-      "uri": "at://did:plc:7r7xtmrwiz663mkeiwhuxdse/app.bsky.feed.post/3mxzoaf4yts2x",
-      "url": "https://bsky.app/profile/markichin.bsky.social/post/3mxzoaf4yts2x",
-      "handle": "markichin.bsky.social",
-      "name": "Markichin",
-      "text": "Tonight it's going to be Castlevania...but silly? We'll be playing the NES spinoff Kid Dracula as our fifth entry from the Castlevania Anniversary Collection.",
-      "createdAt": "2026-10-16T22:54:41.331Z",
-      "likes": 0,
+    "at://did:plc:uhwosvnoz3t3iq45uatdfzvc/app.bsky.feed.post/3my27qv4vrs2h": {
+      "uri": "at://did:plc:uhwosvnoz3t3iq45uatdfzvc/app.bsky.feed.post/3my27qv4vrs2h",
+      "url": "https://bsky.app/profile/tamachan2299.bsky.social/post/3my27qv4vrs2h",
+      "handle": "tamachan2299.bsky.social",
+      "name": "",
+      "text": "This one, I have no idea why and probably never will. The ending of Monopoly on the NES. I remember I could not go to bed if I got this ending. The only thing that could be it is I thought I cursed myself or my family. I also cried at Glinda the good witch's intro in the classic movie.",
+      "createdAt": "2026-10-17T04:08:08.567Z",
+      "likes": 1,
       "replies": 0,
       "group": "retroFeed",
       "query": "feed",
-      "score": 6,
+      "score": 9,
       "question": true,
       "heated": false,
       "isReply": false,
-      "media": "image: Japanese Famicom box art for Kid Dracula.",
-      "firstSeen": "2026-10-17T00:49:47.398Z"
+      "media": "image, no description; quotes @hexxyscaletailvt.bsky.social: here's a goofy one. when I was like 3 years old, I played Flintstones: The Rescue of Dino and Hoppy on NES. There's a \"Dracula's Castle\" ty…",
+      "firstSeen": "2026-10-17T06:43:27.577Z"
     }
   }
 }
