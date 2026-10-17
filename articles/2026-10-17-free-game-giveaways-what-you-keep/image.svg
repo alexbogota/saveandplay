@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#0D1117"/>
+<rect x="56" y="22" width="1088" height="586" rx="28" fill="#161B22" stroke="#262D38"/>
+<text x="100" y="105" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="46" font-weight="800" fill="#FFFFFF">Free game giveaways:</text>
+<text x="100" y="160" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="46" font-weight="800" fill="#FFFFFF">what you keep</text>
+<rect x="100" y="215" width="440" height="150" rx="16" fill="none" stroke="#3DDC97" stroke-width="4"/>
+<text x="124" y="270" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="32" font-weight="700" fill="#E8ECF1">Bad Cheese</text>
+<text x="124" y="320" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="28" fill="#9AA5B4">Full game, free to claim</text>
+<rect x="660" y="215" width="440" height="150" rx="16" fill="none" stroke="#3DDC97" stroke-width="4"/>
+<text x="684" y="270" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="32" font-weight="700" fill="#E8ECF1">Agent A</text>
+<text x="684" y="320" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="28" fill="#9AA5B4">Full game, free to claim</text>
+<rect x="100" y="410" width="1000" height="70" rx="14" fill="#FFB454"/>
+<text x="130" y="456" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="32" font-weight="800" fill="#1B1203">Claim Oct 15 to Oct 22, 3:00 PM UTC</text>
+<text x="100" y="535" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="30" fill="#E8ECF1">Once claimed, it stays in your library.</text>
+<text x="100" y="580" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="26" fill="#9AA5B4">Still a license on your account.</text>
+</svg>
