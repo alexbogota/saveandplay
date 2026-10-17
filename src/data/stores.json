@@ -22,5 +22,10 @@
   {
     "name": "Kinguin",
     "note": "Marketplace: keys from independent sellers"
+  },
+  {
+    "name": "Loaded",
+    "note": "Game keys and gift cards (formerly CDKeys)",
+    "go": "/go/loaded"
   }
 ]

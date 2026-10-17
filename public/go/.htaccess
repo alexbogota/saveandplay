@@ -17,4 +17,6 @@
   RedirectMatch 302 ^/go/bsky-cozy/?$ https://saveandplay.com/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=profile
   RedirectMatch 302 ^/go/bsky-retro/?$ https://saveandplay.com/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=profile
   RedirectMatch 302 ^/go/mastodon-retro/?$ https://saveandplay.com/?utm_source=mastodon-retro&utm_medium=social&utm_campaign=profile
+  # Store links (not profiles): the shop itself, through the Admitad deeplink, subid=site. To swap the network, change only this line.
+  RedirectMatch 302 ^/go/loaded/?$ "https://naiawork.com/g/jxwhtgojymc9990a3d5971c672ef31/?subid=site&ulp=https%3A%2F%2Fwww.loaded.com%2F"
 </IfModule>

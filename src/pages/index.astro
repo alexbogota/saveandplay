@@ -6,6 +6,8 @@ import stores from '../data/stores.json';
 import { deals, allDeals, storeList, lastChecked, featuredDeal, goUrl, money } from '../lib/deals';
 
 const storeNotes: Record<string, string> = Object.fromEntries(stores.map((s) => [s.name, s.note]));
+// Stores with a "go" link in stores.json but no deals yet get a tile that goes to the store itself (through our own /go/ redirect).
+const linkOnlyStores = stores.filter((s) => 'go' in s && !storeList.some((l) => l.name === s.name));
 
 const steps = [
   { n: '1', title: 'Spot a deal', text: "We list current discounts from PC game stores, so you don't have to check each one yourself." },
@@ -94,6 +96,13 @@ const coverBg = (x: { cover?: string; tone?: string }) =>
               <div class="store-name">{s.name}</div>
               <div class="meta">{storeNotes[s.name] ?? ''}</div>
               <div class="store-cta">View {s.count} deals →</div>
+            </a>
+          ))}
+          {linkOnlyStores.map((s) => (
+            <a class="tile store" href={s.go} rel="sponsored nofollow noopener" target="_blank">
+              <div class="store-name">{s.name}</div>
+              <div class="meta">{s.note}</div>
+              <div class="store-cta">Visit {s.name} →</div>
             </a>
           ))}
         </div>
