@@ -1,8 +1,8 @@
 {
   "account": "Retro game deals",
-  "generatedAt": "2026-10-16T11:23:52.921Z",
-  "builtBy": "commit 9f92d5c, schedule, run #17 attempt 1",
-  "pricesCheckedAt": "2026-10-16T10:02:20.016Z",
+  "generatedAt": "2026-10-17T11:18:15.539Z",
+  "builtBy": "commit 879f0e1, schedule, run #18 attempt 1",
+  "pricesCheckedAt": "2026-10-17T09:57:05.257Z",
   "warnings": [],
   "niche": {
     "label": "Retro",
@@ -10,63 +10,6 @@
     "postable": 7
   },
   "candidates": [
-    {
-      "id": "gog-prince-of-persia-warrior-within",
-      "kind": "deal",
-      "title": "Prince of Persia: Warrior Within",
-      "store": "GOG",
-      "price": 1.99,
-      "was": 9.99,
-      "discount": 80,
-      "endsAt": "2026-10-18T09:59:00+03:00",
-      "endsInHours": 44,
-      "priceCheckedAt": "2026-10-16T10:02:10.620Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13500/header.jpg?t=1720535324",
-      "drminfo": null,
-      "coverAlt": "Cover art for Prince of Persia: Warrior Within",
-      "facts": {
-        "year": 2004,
-        "genres": [
-          "Action",
-          "TPP",
-          "Fantasy"
-        ],
-        "tags": [
-          "Action",
-          "Fantasy",
-          "Story Rich",
-          "Atmospheric",
-          "Puzzle",
-          "Classic",
-          "Dark",
-          "Great Soundtrack",
-          "Third Person",
-          "Open World",
-          "Platformer",
-          "Gore",
-          "Hack and Slash",
-          "Time Manipulation"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 11,
-      "discountRank": 2,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 8,
-        "lowest": false,
-        "since": "2026-10-09"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/prince-of-persia-warrior-within/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-16",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "sale ends in 44 h",
-        "deepest-discount rank 2 of 7"
-      ]
-    },
     {
       "id": "gog-prince-of-persia-the-two-thrones",
       "kind": "deal",
@@ -76,8 +19,8 @@
       "was": 9.99,
       "discount": 80,
       "endsAt": "2026-10-18T09:59:00+03:00",
-      "endsInHours": 44,
-      "priceCheckedAt": "2026-10-16T10:02:10.620Z",
+      "endsInHours": 20,
+      "priceCheckedAt": "2026-10-17T09:55:55.983Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13530/header.jpg?t=1720535330",
       "drminfo": null,
       "coverAlt": "Cover art for Prince of Persia: The Two Thrones",
@@ -105,20 +48,20 @@
       "marketplace": false,
       "compareTo": null,
       "score": 11,
-      "discountRank": 4,
+      "discountRank": 5,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 6,
+        "days": 7,
         "lowest": false,
         "since": "2026-10-11"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/prince-of-persia-the-two-thrones/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-16",
+      "link": "https://saveandplay.com/deals/gog/prince-of-persia-the-two-thrones/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-17",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 44 h",
-        "deepest-discount rank 4 of 7"
+        "sale ends in 20 h",
+        "deepest-discount rank 5 of 7"
       ]
     },
     {
@@ -130,8 +73,8 @@
       "was": 9.99,
       "discount": 80,
       "endsAt": "2026-10-18T09:59:00+03:00",
-      "endsInHours": 44,
-      "priceCheckedAt": "2026-10-16T10:02:10.620Z",
+      "endsInHours": 20,
+      "priceCheckedAt": "2026-10-17T09:55:55.983Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990/header.jpg?t=1765237363",
       "drminfo": null,
       "coverAlt": "Cover art for FlatOut 2",
@@ -159,74 +102,80 @@
       "marketplace": false,
       "compareTo": null,
       "score": 11,
-      "discountRank": 5,
+      "discountRank": 6,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 5,
+        "days": 6,
         "lowest": false,
         "since": "2026-10-12"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/flatout-2/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-16",
+      "link": "https://saveandplay.com/deals/gog/flatout-2/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-17",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 44 h",
-        "deepest-discount rank 5 of 7"
+        "sale ends in 20 h",
+        "deepest-discount rank 6 of 7"
       ]
     },
     {
-      "id": "gog-simcity-4-deluxe-edition",
+      "id": "gog-syberia-ii",
       "kind": "deal",
-      "title": "SimCity 4 Deluxe Edition",
+      "title": "Syberia II",
       "store": "GOG",
-      "price": 4.99,
-      "was": 19.99,
-      "discount": 75,
+      "price": 2.59,
+      "was": 12.99,
+      "discount": 80,
       "endsAt": "2026-10-18T09:59:00+03:00",
-      "endsInHours": 44,
-      "priceCheckedAt": "2026-10-16T10:02:10.620Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
+      "endsInHours": 20,
+      "priceCheckedAt": "2026-10-17T09:55:55.983Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/46510/header.jpg?t=1743167581",
       "drminfo": null,
-      "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
+      "coverAlt": "Cover art for Syberia II",
       "facts": {
-        "year": 2003,
+        "year": 2004,
         "genres": [
-          "Simulation",
-          "Building",
-          "Managerial"
+          "Adventure",
+          "Point-and-click",
+          "Detective-mystery"
         ],
         "tags": [
+          "Adventure",
+          "Story Rich",
           "Atmospheric",
-          "Simulation",
+          "Exploration",
+          "Puzzle",
           "Classic",
+          "Female Protagonist",
           "Great Soundtrack",
-          "Management",
-          "Sandbox",
-          "Real-Time",
-          "Isometric",
-          "Building",
-          "Managerial",
-          "City builder"
+          "Third Person",
+          "Mystery",
+          "Point&Click",
+          "Logic",
+          "Emotional",
+          "Investigation",
+          "Detective-mystery",
+          "Hidden Object",
+          "Steampunk"
         ]
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 10.5,
-      "discountRank": 6,
+      "score": 11,
+      "discountRank": 1,
       "sites": 0,
       "mentions": [],
       "history": {
         "days": 10,
         "lowest": false,
-        "since": "2026-10-07"
+        "since": "2026-10-08"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-16",
+      "link": "https://saveandplay.com/deals/gog/syberia-ii/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-17",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 44 h",
-        "deepest-discount rank 6 of 7"
+        "sale ends in 20 h",
+        "deepest-discount rank 1 of 7"
       ]
     },
     {
@@ -238,8 +187,8 @@
       "was": 9.99,
       "discount": 80,
       "endsAt": "2026-10-20T09:59:00+03:00",
-      "endsInHours": 92,
-      "priceCheckedAt": "2026-10-16T10:02:10.620Z",
+      "endsInHours": 68,
+      "priceCheckedAt": "2026-10-17T09:55:55.983Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/410710/header.jpg?t=1774275834",
       "drminfo": null,
       "coverAlt": "Cover art for System Shock: Enhanced Edition",
@@ -262,19 +211,72 @@
       "marketplace": false,
       "compareTo": null,
       "score": 9,
-      "discountRank": 3,
+      "discountRank": 4,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 7,
+        "days": 8,
         "lowest": false,
         "since": "2026-10-10"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/system-shock-enhanced-edition/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-16",
+      "link": "https://saveandplay.com/deals/gog/system-shock-enhanced-edition/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-17",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 3 of 7"
+        "deepest-discount rank 4 of 7"
+      ]
+    },
+    {
+      "id": "gog-rollercoaster-tycoon-3-complete-edition",
+      "kind": "deal",
+      "title": "RollerCoaster Tycoon 3: Complete Edition",
+      "store": "GOG",
+      "price": 4.99,
+      "was": 19.99,
+      "discount": 75,
+      "endsAt": "2026-10-20T09:59:00+03:00",
+      "endsInHours": 68,
+      "priceCheckedAt": "2026-10-17T09:55:55.983Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368820/header.jpg?t=1779306991",
+      "drminfo": null,
+      "coverAlt": "Cover art for RollerCoaster Tycoon 3: Complete Edition",
+      "facts": {
+        "year": 2006,
+        "genres": [
+          "Simulation",
+          "Building",
+          "Managerial"
+        ],
+        "tags": [
+          "Simulation",
+          "Classic",
+          "Casual",
+          "Funny",
+          "Management",
+          "Sandbox",
+          "Family Friendly",
+          "Building",
+          "Cartoony",
+          "Managerial",
+          "City builder"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 8.5,
+      "discountRank": 7,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 8,
+        "lowest": false,
+        "since": "2026-10-10"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/rollercoaster-tycoon-3-complete-edition/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-17",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 7 of 7"
       ]
     }
   ],
@@ -282,7 +284,7 @@
   "topical": [],
   "topics": [],
   "left": {
-    "otherStore": 19,
+    "otherStore": 16,
     "hidden": 0,
     "notNiche": 16,
     "noFacts": 0,
@@ -298,11 +300,11 @@
   },
   "posts": {
     "bluesky": {
-      "text": "Prince of Persia: Warrior Within: -80% at GOG\n$1.99 (was $9.99)\nPrice checked Oct 16. Sale ends Oct 18.\n\nhttps://saveandplay.com/deals/gog/prince-of-persia-warrior-within/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-16\n\n#RetroGaming #GameDeals #GOG\nAd",
-      "length": 163,
+      "text": "Prince of Persia: The Two Thrones: -80% at GOG\n$1.99 (was $9.99)\nPrice checked Oct 17. Sale ends Oct 18.\n\nhttps://saveandplay.com/deals/gog/prince-of-persia-the-two-thrones/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-17\n\n#RetroGaming #GameDeals #PCGaming\nAd",
+      "length": 169,
       "max": 300,
-      "link": "https://saveandplay.com/deals/gog/prince-of-persia-warrior-within/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-16",
-      "deal": "gog-prince-of-persia-warrior-within"
+      "link": "https://saveandplay.com/deals/gog/prince-of-persia-the-two-thrones/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-17",
+      "deal": "gog-prince-of-persia-the-two-thrones"
     }
   }
 }
