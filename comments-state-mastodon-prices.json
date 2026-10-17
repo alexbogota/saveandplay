@@ -1,55 +1,55 @@
 {
-  "cursor": 5,
+  "cursor": 4,
   "next": {
-    "waitForSale": 2,
-    "backlog": 6,
-    "deck": 3,
-    "bundles": 3,
+    "waitForSale": 3,
+    "backlog": 1,
+    "deck": 1,
+    "bundles": 1,
     "practical": 4,
-    "genres": 1,
-    "seasonal": 2,
-    "broadPlaying": 1,
-    "broadAsk": 3
+    "genres": 2,
+    "seasonal": 3,
+    "broadPlaying": 2,
+    "broadAsk": 4
   },
   "sources": {
     "waitForSale": {
-      "runs": 12,
-      "posts": 480,
+      "runs": 13,
+      "posts": 520,
       "fit": 0,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-17T06:43:16.151Z"
+        "at": "2026-10-17T12:41:16.979Z"
       }
     },
     "backlog": {
-      "runs": 12,
-      "posts": 302,
+      "runs": 13,
+      "posts": 342,
       "fit": 0,
       "last": {
-        "posts": 10,
+        "posts": 40,
         "fit": 0,
-        "at": "2026-10-17T06:43:16.151Z"
+        "at": "2026-10-17T12:41:16.979Z"
       }
     },
     "deck": {
-      "runs": 12,
-      "posts": 800,
-      "fit": 11,
+      "runs": 13,
+      "posts": 920,
+      "fit": 12,
       "last": {
-        "posts": 40,
-        "fit": 0,
-        "at": "2026-10-17T06:43:16.151Z"
+        "posts": 120,
+        "fit": 1,
+        "at": "2026-10-17T12:41:16.979Z"
       }
     },
     "bundles": {
-      "runs": 12,
-      "posts": 480,
+      "runs": 13,
+      "posts": 520,
       "fit": 0,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-17T06:43:16.151Z"
+        "at": "2026-10-17T12:41:16.979Z"
       }
     },
     "practical": {
@@ -63,43 +63,43 @@
       }
     },
     "genres": {
-      "runs": 11,
-      "posts": 440,
+      "runs": 12,
+      "posts": 480,
       "fit": 2,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-17T00:49:37.115Z"
+        "at": "2026-10-17T12:41:16.979Z"
       }
     },
     "seasonal": {
-      "runs": 11,
-      "posts": 419,
+      "runs": 12,
+      "posts": 452,
       "fit": 1,
       "last": {
-        "posts": 40,
+        "posts": 33,
         "fit": 0,
-        "at": "2026-10-17T06:43:16.151Z"
+        "at": "2026-10-17T12:41:16.979Z"
       }
     },
     "broadPlaying": {
-      "runs": 11,
-      "posts": 1160,
-      "fit": 29,
+      "runs": 12,
+      "posts": 1280,
+      "fit": 33,
       "last": {
         "posts": 120,
         "fit": 4,
-        "at": "2026-10-17T06:43:16.151Z"
+        "at": "2026-10-17T12:41:16.979Z"
       }
     },
     "broadAsk": {
-      "runs": 11,
+      "runs": 12,
       "posts": 183,
       "fit": 0,
       "last": {
-        "posts": 16,
+        "posts": 0,
         "fit": 0,
-        "at": "2026-10-17T06:43:16.151Z"
+        "at": "2026-10-17T12:41:16.979Z"
       }
     }
   },
@@ -115,7 +115,7 @@
       "replies": 1,
       "group": "practical",
       "query": "linuxgaming",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -232,6 +232,100 @@
       "origin": "https://social.gaute.space/objects/a06837c3-19ff-47e1-9deb-ca0ac37a4589",
       "media": "image: Easy Anti-Cheat (EAC) has supported native Linux game clients since 2014. In 2021, we added support for running Windows game builds on Linux via Wine/Proton. H…",
       "firstSeen": "2026-10-17T06:43:16.151Z"
+    },
+    "https://mastodon.social/@musicvsartstuff@techhub.social/117455853306127342": {
+      "uri": "https://mastodon.social/@musicvsartstuff@techhub.social/117455853306127342",
+      "url": "https://mastodon.social/@musicvsartstuff@techhub.social/117455853306127342",
+      "handle": "musicvsartstuff@techhub.social",
+      "name": "Nicole Marie T",
+      "text": "🎮 Just upgraded to make the laser go faster to get through those layers. Mining resources in this game is so satisfying! 😍💪 #thelastcatintheuniverse #nintendoswitch #gamer #gaming",
+      "createdAt": "2026-10-17T10:48:04.000Z",
+      "likes": 3,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "gaming",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://techhub.social/@musicvsartstuff/117455852956461155",
+      "media": "video, no description",
+      "firstSeen": "2026-10-17T12:41:16.979Z"
+    },
+    "https://mastodon.social/@ShiiraiRyu@retro.pizza/117455604930719100": {
+      "uri": "https://mastodon.social/@ShiiraiRyu@retro.pizza/117455604930719100",
+      "url": "https://mastodon.social/@ShiiraiRyu@retro.pizza/117455604930719100",
+      "handle": "ShiiraiRyu@retro.pizza",
+      "name": "リュウ",
+      "text": "Since I'm someone who loves RPGs, I have a gigantic backlog of them to play. So I decided to create a list with 20 games tagging each one with its subgenre to organize myself a little bit more instead and focusing on a little backlog, not on a gigantic one. Currently, I'm playing #FinalFantasy 12. This isn't listed by priorities, by the way. I can finish FF12 and then go to any other one. #gaming #retrogaming #rpg",
+      "createdAt": "2026-10-17T09:44:58.000Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "gaming",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://retro.pizza/@ShiiraiRyu/117455604832630936",
+      "media": "image, no description",
+      "firstSeen": "2026-10-17T12:41:16.979Z"
+    },
+    "https://mastodon.social/@lazysupper@famichiki.jp/117455487540691820": {
+      "uri": "https://mastodon.social/@lazysupper@famichiki.jp/117455487540691820",
+      "url": "https://mastodon.social/@lazysupper@famichiki.jp/117455487540691820",
+      "handle": "lazysupper@famichiki.jp",
+      "name": "salguod, man 🍂🍁 lazysupper",
+      "text": "Civ lovers should check out Old World. It's 90% off in Steam right now. And it's made by the lead designer on Civ IV (who left to form his own company). I've only done a few tutorials so far, but it's good. Definitely worth 4 bucks Canadian. :P #Gaming #civ",
+      "createdAt": "2026-10-17T09:15:04.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "gaming",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://famichiki.jp/@lazysupper/117455487256727314",
+      "media": "image: screenshot of Old World store page in the Steam desktop app.",
+      "firstSeen": "2026-10-17T12:41:16.979Z"
+    },
+    "https://mastodon.social/@monkeydom/117455349838597614": {
+      "uri": "https://mastodon.social/@monkeydom/117455349838597614",
+      "url": "https://mastodon.social/@monkeydom/117455349838597614",
+      "handle": "monkeydom@mastodon.social",
+      "name": "monkeydom, Ar.T",
+      "text": "I never played any Castlevania. Now that Belmont's curse is out should i go for it? I finally need to fill some *vania shaped holes in my Metroidvania experience. #Gaming",
+      "createdAt": "2026-10-17T08:40:07.456Z",
+      "likes": 0,
+      "replies": 3,
+      "group": "broadPlaying",
+      "query": "gaming",
+      "score": 5,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "media": null,
+      "firstSeen": "2026-10-17T12:41:16.979Z"
+    },
+    "https://mastodon.social/@renedario@raphus.social/117454403757523931": {
+      "uri": "https://mastodon.social/@renedario@raphus.social/117454403757523931",
+      "url": "https://mastodon.social/@renedario@raphus.social/117454403757523931",
+      "handle": "renedario@raphus.social",
+      "name": "•?((¯°·._.• ᖇέ𝓃é ᗪ𝔸ᖇι๏ •._.·°¯))؟•",
+      "text": "getting started on playing Batman Arkham Knight on the #SteamDeck",
+      "createdAt": "2026-10-17T04:39:30.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "deck",
+      "query": "steamdeck",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://raphus.social/@renedario/117454403697797133",
+      "media": null,
+      "firstSeen": "2026-10-17T12:41:16.979Z"
     }
   }
 }

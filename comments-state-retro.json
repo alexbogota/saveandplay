@@ -1,140 +1,86 @@
 {
   "cursor": 0,
   "next": {
-    "childhood": 1,
-    "classicPC": 5,
-    "holdUp": 2,
-    "gogOld": 2,
-    "nostalgia": 2,
-    "askRetro": 1
+    "childhood": 2,
+    "classicPC": 1,
+    "holdUp": 3,
+    "gogOld": 3,
+    "nostalgia": 3,
+    "askRetro": 2
   },
   "sources": {
     "childhood": {
-      "runs": 5,
-      "posts": 64,
+      "runs": 6,
+      "posts": 70,
       "fit": 19,
       "last": {
-        "posts": 4,
+        "posts": 6,
         "fit": 0,
-        "at": "2026-10-17T06:43:27.577Z"
+        "at": "2026-10-17T12:41:31.190Z"
       }
     },
     "classicPC": {
-      "runs": 5,
-      "posts": 52,
-      "fit": 18,
+      "runs": 6,
+      "posts": 65,
+      "fit": 25,
       "last": {
-        "posts": 5,
-        "fit": 0,
-        "at": "2026-10-17T06:43:27.577Z"
+        "posts": 13,
+        "fit": 7,
+        "at": "2026-10-17T12:41:31.190Z"
       }
     },
     "holdUp": {
-      "runs": 5,
+      "runs": 6,
       "posts": 7,
       "fit": 0,
       "last": {
-        "posts": 3,
+        "posts": 0,
         "fit": 0,
-        "at": "2026-10-17T06:43:27.577Z"
+        "at": "2026-10-17T12:41:31.190Z"
       }
     },
     "gogOld": {
-      "runs": 5,
-      "posts": 71,
+      "runs": 6,
+      "posts": 73,
       "fit": 16,
       "last": {
         "posts": 2,
-        "fit": 1,
-        "at": "2026-10-17T06:43:27.577Z"
+        "fit": 0,
+        "at": "2026-10-17T12:41:31.190Z"
       }
     },
     "nostalgia": {
-      "runs": 5,
-      "posts": 58,
-      "fit": 9,
+      "runs": 6,
+      "posts": 61,
+      "fit": 10,
       "last": {
-        "posts": 19,
-        "fit": 2,
-        "at": "2026-10-17T06:43:27.577Z"
+        "posts": 3,
+        "fit": 1,
+        "at": "2026-10-17T12:41:31.190Z"
       }
     },
     "askRetro": {
-      "runs": 5,
-      "posts": 18,
-      "fit": 7,
+      "runs": 6,
+      "posts": 20,
+      "fit": 8,
       "last": {
-        "posts": 0,
-        "fit": 0,
-        "at": "2026-10-17T06:43:27.577Z"
+        "posts": 2,
+        "fit": 1,
+        "at": "2026-10-17T12:41:31.190Z"
       }
     },
     "retroFeed": {
-      "runs": 5,
-      "posts": 247,
-      "fit": 7,
+      "runs": 6,
+      "posts": 297,
+      "fit": 8,
       "last": {
         "posts": 50,
         "fit": 1,
-        "at": "2026-10-17T06:43:27.577Z"
+        "at": "2026-10-17T12:41:31.190Z"
       }
     }
   },
   "pool": {
-    "at://did:plc:kvwhxksgy2xfdv7h7byr25b6/app.bsky.feed.post/3mxxhxfhbjk2k": {
-      "uri": "at://did:plc:kvwhxksgy2xfdv7h7byr25b6/app.bsky.feed.post/3mxxhxfhbjk2k",
-      "url": "https://bsky.app/profile/satsy.bsky.social/post/3mxxhxfhbjk2k",
-      "handle": "satsy.bsky.social",
-      "name": "Matted with Satsy",
-      "text": "Alright the android device is set up for retro games, Gamecube, some Android specific games, and a whole pile of Steam games are downloaded. This should NOT have been done at 1am but it's all good! Still can't decide what to do with the old ORAS save though. TOMORROW THOUGHTS!",
-      "createdAt": "2026-10-16T01:56:57.749Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "gogOld",
-      "query": "good old games",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": null,
-      "firstSeen": "2026-10-16T06:47:55.751Z"
-    },
-    "at://did:plc:gbvdwn4juwv36xcectobaqn3/app.bsky.feed.post/3mxxemgyfz22z": {
-      "uri": "at://did:plc:gbvdwn4juwv36xcectobaqn3/app.bsky.feed.post/3mxxemgyfz22z",
-      "url": "https://bsky.app/profile/cynetrunner.bsky.social/post/3mxxemgyfz22z",
-      "handle": "cynetrunner.bsky.social",
-      "name": "CyNetrunner",
-      "text": "You don't understand. I WILL push through a game on normal difficulty even if it's frustrating so I can reach the end as the devs intended, but be better able to voice my criticism. And for old games, add to my experience of seeing how good we have it nowadays. 😌",
-      "createdAt": "2026-10-16T00:57:09.037Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "gogOld",
-      "query": "good old games",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": true,
-      "media": null,
-      "firstSeen": "2026-10-16T06:47:55.751Z"
-    },
-    "at://did:plc:3nv2wkyxtoavcrh6vh7i5jxa/app.bsky.feed.post/3mxxs3k2rbs26": {
-      "uri": "at://did:plc:3nv2wkyxtoavcrh6vh7i5jxa/app.bsky.feed.post/3mxxs3k2rbs26",
-      "url": "https://bsky.app/profile/archsagejulz.bsky.social/post/3mxxs3k2rbs26",
-      "handle": "archsagejulz.bsky.social",
-      "name": "Archsage",
-      "text": "OoT Remake for all the hype and it's looks just will not make the sales figures that BoTW did. The scale of nostalgia bros to today's current video game modern audience is so far apart it's hilarious. That is what will dictate the sales. Not loyalty and dedication.",
-      "createdAt": "2026-10-16T04:58:11.974Z",
-      "likes": 0,
-      "replies": 1,
-      "group": "nostalgia",
-      "query": "nostalgia video game",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": true,
-      "media": null,
-      "firstSeen": "2026-10-16T06:47:55.751Z"
-    },
     "at://did:plc:em4ecqj5uhtm3t4bkr6bflmj/app.bsky.feed.post/3mxykpphvvc27": {
       "uri": "at://did:plc:em4ecqj5uhtm3t4bkr6bflmj/app.bsky.feed.post/3mxykpphvvc27",
       "url": "https://bsky.app/profile/nttw.bsky.social/post/3mxykpphvvc27",
@@ -163,7 +109,7 @@
       "likes": 0,
       "replies": 1,
       "group": "askRetro",
-      "query": "best old games",
+      "query": "best retro games",
       "score": 6,
       "question": false,
       "heated": false,
@@ -297,24 +243,6 @@
       "media": null,
       "firstSeen": "2026-10-16T18:43:44.763Z"
     },
-    "at://did:plc:ntc4siuxqjcyysytbhjik4t3/app.bsky.feed.post/3mxxlo22ahk2c": {
-      "uri": "at://did:plc:ntc4siuxqjcyysytbhjik4t3/app.bsky.feed.post/3mxxlo22ahk2c",
-      "url": "https://bsky.app/profile/blueswim.bsky.social/post/3mxxlo22ahk2c",
-      "handle": "blueswim.bsky.social",
-      "name": "BlueSwim TV on YouTube",
-      "text": "You know the PS2 had an outstanding library when narrowing your favorites down to ten is a tough task. Here’s my top 10 in no particular order with a little blurb for each on why in the alt text.",
-      "createdAt": "2026-10-16T03:03:18.754Z",
-      "likes": 5,
-      "replies": 1,
-      "group": "askRetro",
-      "query": "old game recommend",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "quotes @jdogtoocool.bsky.social: QTP with your top PS2 games 🎮",
-      "firstSeen": "2026-10-16T18:43:44.763Z"
-    },
     "at://did:plc:7h5qmvpxyeylc7chxj7eaynv/app.bsky.feed.post/3mxz332mznh23": {
       "uri": "at://did:plc:7h5qmvpxyeylc7chxj7eaynv/app.bsky.feed.post/3mxz332mznh23",
       "url": "https://bsky.app/profile/microfilosofia.bsky.social/post/3mxz332mznh23",
@@ -416,12 +344,156 @@
       "replies": 0,
       "group": "retroFeed",
       "query": "feed",
-      "score": 9,
+      "score": 8,
       "question": true,
       "heated": false,
       "isReply": false,
       "media": "image, no description; quotes @hexxyscaletailvt.bsky.social: here's a goofy one. when I was like 3 years old, I played Flintstones: The Rescue of Dino and Hoppy on NES. There's a \"Dracula's Castle\" ty…",
       "firstSeen": "2026-10-17T06:43:27.577Z"
+    },
+    "at://did:plc:otfy3dwch3z5iuivg3gfvnc2/app.bsky.feed.post/3my2zofgxpk2m": {
+      "uri": "at://did:plc:otfy3dwch3z5iuivg3gfvnc2/app.bsky.feed.post/3my2zofgxpk2m",
+      "url": "https://bsky.app/profile/otterboy1999.bsky.social/post/3my2zofgxpk2m",
+      "handle": "otterboy1999.bsky.social",
+      "name": "IanTheBuizel",
+      "text": "The problem I have with AI decompiled/AI coded fan PC ports of old games is security concerns. While I tried the Silent Hill fan PC port that was \"vibe coded\", I didn't link to the download of it because it started triggering Windows Defender, saying the launcher was some sort of bad downloader.",
+      "createdAt": "2026-10-17T11:52:02.319Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "classicPC",
+      "query": "old pc games",
+      "score": 7,
+      "question": false,
+      "heated": true,
+      "isReply": false,
+      "media": null,
+      "firstSeen": "2026-10-17T12:41:31.190Z"
+    },
+    "at://did:plc:nmprqvsx7dbbcxf4wxpvblaj/app.bsky.feed.post/3my2xvyjy3c2g": {
+      "uri": "at://did:plc:nmprqvsx7dbbcxf4wxpvblaj/app.bsky.feed.post/3my2xvyjy3c2g",
+      "url": "https://bsky.app/profile/sanakism.bsky.social/post/3my2xvyjy3c2g",
+      "handle": "sanakism.bsky.social",
+      "name": "Sanakism",
+      "text": "Apparently Sonic the Hedgehog is a blue hedgehog with a black nose and green eyes who wears red shoes with a white stripe on them, who looks angry all the time. According to my eight-year-old son, anyway. I don't know, I grew up playing PC games.",
+      "createdAt": "2026-10-17T11:20:29.725Z",
+      "likes": 4,
+      "replies": 1,
+      "group": "classicPC",
+      "query": "old pc games",
+      "score": 8,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image: A picture of a blue hedgehog with a black nose and green eyes wearing red shoes with a white stripe. He looks angry right now, I can't vouch for his expression…",
+      "firstSeen": "2026-10-17T12:41:31.190Z"
+    },
+    "at://did:plc:fbjctr3ksmvvysq76olqxm5g/app.bsky.feed.post/3my27v4sek22d": {
+      "uri": "at://did:plc:fbjctr3ksmvvysq76olqxm5g/app.bsky.feed.post/3my27v4sek22d",
+      "url": "https://bsky.app/profile/jrodbad.bsky.social/post/3my27v4sek22d",
+      "handle": "jrodbad.bsky.social",
+      "name": "Jared, Excited Comic Guy",
+      "text": "Two things: A fleet of retro laptops to play old PC games on A fleet of collections of defunct card games and whatever I need to proxy up any fan made sets for those games",
+      "createdAt": "2026-10-17T04:10:30.849Z",
+      "likes": 2,
+      "replies": 0,
+      "group": "classicPC",
+      "query": "old pc games",
+      "score": 7,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "quotes @notalawyer.bsky.social: question for the audience: if you were ultra rich (let’s say $25M), what completely frivolous thing are you buying?",
+      "firstSeen": "2026-10-17T12:41:31.190Z"
+    },
+    "at://did:plc:xs3iydprkj7hi2eb7ko2d7ca/app.bsky.feed.post/3mxzpgd67nk2f": {
+      "uri": "at://did:plc:xs3iydprkj7hi2eb7ko2d7ca/app.bsky.feed.post/3mxzpgd67nk2f",
+      "url": "https://bsky.app/profile/catholick.bsky.social/post/3mxzpgd67nk2f",
+      "handle": "catholick.bsky.social",
+      "name": "tradwife becca 🐺🔻👑",
+      "text": "I'm gonna say something but under no circumstances should one \"gotta hand it\" to A.I., the only example of it ever coming close to that is those vibecoded ports of old console games onto PC, frankly ngl that cuts a lot of decoding time and is cool but nothing to give a dollar to",
+      "createdAt": "2026-10-16T23:15:54.342Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "classicPC",
+      "query": "old pc games",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": null,
+      "firstSeen": "2026-10-17T12:41:31.190Z"
+    },
+    "at://did:plc:xkxdg5mjjaorl2jymn5f7cq5/app.bsky.feed.post/3mxzmmggqb22y": {
+      "uri": "at://did:plc:xkxdg5mjjaorl2jymn5f7cq5/app.bsky.feed.post/3mxzmmggqb22y",
+      "url": "https://bsky.app/profile/zackryin.bsky.social/post/3mxzmmggqb22y",
+      "handle": "zackryin.bsky.social",
+      "name": "Zak ✨",
+      "text": "Honestly, I'm one of those people who don't pick up many new games & thrive off of my backlog. This, alongside having a relatively lower end PC & a passion for making old technology work, I'm completely comfortable never buying a new console, lmao. My PC was FARRRR less than 1k, as well.",
+      "createdAt": "2026-10-16T22:25:37.869Z",
+      "likes": 2,
+      "replies": 2,
+      "group": "classicPC",
+      "query": "old pc games",
+      "score": 7,
+      "question": false,
+      "heated": false,
+      "isReply": true,
+      "media": null,
+      "firstSeen": "2026-10-17T12:41:31.190Z"
+    },
+    "at://did:plc:m2yuqynl2cttvi4k5453yegh/app.bsky.feed.post/3mxz34akutst2": {
+      "uri": "at://did:plc:m2yuqynl2cttvi4k5453yegh/app.bsky.feed.post/3mxz34akutst2",
+      "url": "https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3mxz34akutst2",
+      "handle": "feed.igeek.gamer-geek-news.com.ap.brid.gy",
+      "name": "input",
+      "text": "📰 **My career as a weed farmer was derailed by my unslakeable lust for golf** Same old story. 📰 Source: Latest from PC Gamer 🔗 Link: https://www.pcgamer.com/games/grand-theft-auto/my-career-as-a-weed-farmer-was-derailed-by-my-unslakeable-lust-for-golf/",
+      "createdAt": "2026-10-16T17:11:29.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "classicPC",
+      "query": "old pc games",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image: Image for: My career as a weed farmer was derailed by my unslakeable lust for golf",
+      "firstSeen": "2026-10-17T12:41:31.190Z"
+    },
+    "at://did:plc:ys7yp3hgr7iundbn4ukxk4qa/app.bsky.feed.post/3mxylt6pr422h": {
+      "uri": "at://did:plc:ys7yp3hgr7iundbn4ukxk4qa/app.bsky.feed.post/3mxylt6pr422h",
+      "url": "https://bsky.app/profile/therunepony.bsky.social/post/3mxylt6pr422h",
+      "handle": "therunepony.bsky.social",
+      "name": "𝔇𝔢𝔢𝔭 𝔇𝔢𝔩𝔳𝔢𝔯 ☽⛤☾ ℌ𝔬𝔴𝔩 𝔚𝔦𝔱𝔥 𝔐𝔢",
+      "text": "Probably a tie between those old Commodore joysticks that had like 8 buttons even though 99% of games could only register one, and this Logitech PC controller I had back in the day that was kinda like a PS2 controller, but the sticks had square gates and the face buttons had a tendency to jam.",
+      "createdAt": "2026-10-16T12:38:51.177Z",
+      "likes": 1,
+      "replies": 1,
+      "group": "classicPC",
+      "query": "old pc games",
+      "score": 7,
+      "question": false,
+      "heated": false,
+      "isReply": true,
+      "media": null,
+      "firstSeen": "2026-10-17T12:41:31.190Z"
+    },
+    "at://did:plc:i7ggc752rvsw2rtdzp4pawsw/app.bsky.feed.post/3my2ymfdsqf2i": {
+      "uri": "at://did:plc:i7ggc752rvsw2rtdzp4pawsw/app.bsky.feed.post/3my2ymfdsqf2i",
+      "url": "https://bsky.app/profile/stufftv.bsky.social/post/3my2ymfdsqf2i",
+      "handle": "stufftv.bsky.social",
+      "name": "Stuff",
+      "text": "Analogue revives the 16-bit era with cute SNES and MegaDrive consoles – now where are all my cartridges? ift.tt/4plqCSJ",
+      "createdAt": "2026-10-17T11:33:01.341Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "retroFeed",
+      "query": "feed",
+      "score": 6,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "media": "image, no description",
+      "firstSeen": "2026-10-17T12:41:31.190Z"
     }
   }
 }
