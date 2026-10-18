@@ -676,6 +676,57 @@
             "sig": "013abd4add51e42850ed02209320928bca1089433ee1756a29ae878e2dc05e32dd1af96351602afc2a3c99e48909f9094e0af1afb5fbe5f5f7a15555b70fad88"
           }
         }
+      },
+      "2026-10-18": {
+        "deal": {
+          "status": "done",
+          "kind": "deal",
+          "id": "6f04df97d9af4c75e558a39e0f4a5f0e196f6cffd1ae0b3ea3c70ed05c0ddec8",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "deal": "gog-system-shock-enhanced-edition",
+          "title": "System Shock: Enhanced Edition",
+          "postedAt": "2026-10-18T11:49:09.000Z",
+          "accepted": [
+            "wss://relay.damus.io",
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [],
+          "event": {
+            "kind": 1,
+            "created_at": 1792324149,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-deal"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/410710/header.jpg?t=1774275834",
+                "m image/jpeg",
+                "alt Cover art for System Shock: Enhanced Edition"
+              ]
+            ],
+            "content": "System Shock: Enhanced Edition: -80% at GOG\n$1.99 (was $9.99)\nPrice checked 2026-10-18 09:55 UTC. Sale ends 2026-10-20 06:59 UTC.\nWhy today: sale ends in 44 h.\nAd: we may earn a commission if you buy.\n\n#pcgaming #gamedeals\n\nhttps://shared.akamai.steamstatic.com/store_item_assets/steam/apps/410710/header.jpg?t=1774275834\n\nhttps://saveandplay.com/deals/gog/system-shock-enhanced-edition/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-18",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "6f04df97d9af4c75e558a39e0f4a5f0e196f6cffd1ae0b3ea3c70ed05c0ddec8",
+            "sig": "e53fd3114a9682994d3cb3e44577c4ce14c002d737c4dd625a987cd54625fc28e451448d3fcd0f552e3d66cd8f74f367200b17d44a1b05ddc470502bc8e8e764"
+          }
+        }
       }
     }
   },
