@@ -831,5 +831,146 @@
   "tags": [],
   "mature": true,
   "at": "2026-10-16"
+ },
+ "gog-stellaris": {
+  "source": "gog",
+  "year": 2016,
+  "genres": [
+   "Strategy",
+   "Real-time",
+   "Sci-fi"
+  ],
+  "tags": [
+   "Atmospheric",
+   "Strategy",
+   "Exploration",
+   "Sci-fi",
+   "Science",
+   "Great Soundtrack",
+   "Management",
+   "Multiplayer",
+   "Sandbox",
+   "Real-Time",
+   "Space",
+   "Procedural Generation",
+   "Military",
+   "Grand Strategy",
+   "4X"
+  ],
+  "mature": false,
+  "at": "2026-10-18"
+ },
+ "gog-disco-elysium-the-final-cut": {
+  "source": "gog",
+  "year": 2019,
+  "genres": [
+   "Role-playing",
+   "Fantasy",
+   "Point-and-click"
+  ],
+  "tags": [
+   "Indie",
+   "Fantasy",
+   "Story Rich",
+   "Atmospheric",
+   "Role-playing",
+   "Exploration",
+   "Choices Matter",
+   "Funny",
+   "Open World",
+   "Visual Novel",
+   "Point&Click",
+   "Sexual Content",
+   "Isometric",
+   "Investigation",
+   "Surreal",
+   "LGBTQ+",
+   "CRPG",
+   "Noir"
+  ],
+  "mature": true,
+  "at": "2026-10-18"
+ },
+ "gog-metro-exodus": {
+  "source": "gog",
+  "year": 2019,
+  "genres": [
+   "Shooter",
+   "FPP",
+   "Sci-fi"
+  ],
+  "tags": [
+   "Story Rich",
+   "Atmospheric",
+   "Sci-fi",
+   "First-Person",
+   "Science",
+   "Horror",
+   "Mature",
+   "Nudity",
+   "Survival",
+   "Violent",
+   "Gore",
+   "FPS",
+   "Shooter",
+   "Post-apocalyptic",
+   "Stealth",
+   "Survival Horror",
+   "Psychological Horror"
+  ],
+  "mature": true,
+  "at": "2026-10-18"
+ },
+ "gog-dragon-s-dogma-dark-arisen": {
+  "source": "gog",
+  "year": 2016,
+  "genres": [
+   "Role-playing",
+   "Action",
+   "Open World"
+  ],
+  "tags": [
+   "Action",
+   "Fantasy",
+   "Story Rich",
+   "Atmospheric",
+   "Role-playing",
+   "Exploration",
+   "Great Soundtrack",
+   "Third Person",
+   "Open World",
+   "Multiplayer",
+   "Difficult",
+   "JRPG",
+   "Magic",
+   "Hack and Slash"
+  ],
+  "mature": false,
+  "at": "2026-10-18"
+ },
+ "gog-rebel-galaxy": {
+  "source": "gog",
+  "year": 2015,
+  "genres": [
+   "Action",
+   "Adventure",
+   "Open World"
+  ],
+  "tags": [
+   "Adventure",
+   "Action",
+   "Atmospheric",
+   "2D",
+   "Exploration",
+   "Science",
+   "Great Soundtrack",
+   "Third Person",
+   "Open World",
+   "Sandbox",
+   "Space",
+   "Trading"
+  ],
+  "mature": false,
+  "at": "2026-10-18"
  }
 }
