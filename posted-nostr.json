@@ -726,6 +726,54 @@
             "id": "6f04df97d9af4c75e558a39e0f4a5f0e196f6cffd1ae0b3ea3c70ed05c0ddec8",
             "sig": "e53fd3114a9682994d3cb3e44577c4ce14c002d737c4dd625a987cd54625fc28e451448d3fcd0f552e3d66cd8f74f367200b17d44a1b05ddc470502bc8e8e764"
           }
+        },
+        "article": {
+          "status": "done",
+          "kind": "article",
+          "id": "c964d798677be627a038b93b904ae6462d649506e3f9c4d68f9d9c4339a82908",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "article": "steam-wishlist-and-sale-calendar",
+          "postedAt": "2026-10-18T17:15:59.000Z",
+          "accepted": [
+            "wss://relay.damus.io",
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [],
+          "event": {
+            "kind": 1,
+            "created_at": 1792343759,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-article"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://saveandplay.com/og/steam-wishlist-and-sale-calendar.png",
+                "m image/png",
+                "alt Timeline of Steam events from October 2026 to July 2027: Steam Scream V (October 26 to November 2, 2026), Winter Sale (December 17, 2026 to January 4, 2027), Spring Sale (March 18 to 25, 2027) and Summer Sale (June 24 to July 8, 2027)."
+              ]
+            ],
+            "content": "Wishlist and the Steam sale calendar: when it makes sense to wait\n\nSteam announces its big sales months ahead, and a wishlist tells you when a game drops 20% or more. Here is what the official pages say, and how to decide whether to wait.\n\n#pcgaming #gamedeals\n\nhttps://saveandplay.com/og/steam-wishlist-and-sale-calendar.png\n\nhttps://saveandplay.com/guides/steam-wishlist-and-sale-calendar/?utm_source=nostr-prices&utm_medium=social&utm_campaign=steam-wishlist-and-sale-calendar",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "c964d798677be627a038b93b904ae6462d649506e3f9c4d68f9d9c4339a82908",
+            "sig": "1ca5331507fbe77fe738254b1141f1090a9b28c67ab5d3314de51731eff8212b5f2af5bf84eb2941611e85edbc309c04e30cb1cd2b5d5bd0de78821a20fd7fbc"
+          }
         }
       }
     }
@@ -751,6 +799,10 @@
       "why-game-prices-differ-by-country": {
         "day": "2026-10-16",
         "id": "a35b08f5f7109f24143f40b777e64fc80b842499d191f474668e84d456582354"
+      },
+      "steam-wishlist-and-sale-calendar": {
+        "day": "2026-10-18",
+        "id": "c964d798677be627a038b93b904ae6462d649506e3f9c4d68f9d9c4339a82908"
       }
     }
   },
