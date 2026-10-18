@@ -1,294 +1,27 @@
 {
   "account": "Retro game deals",
-  "generatedAt": "2026-10-17T11:18:15.539Z",
-  "builtBy": "commit 879f0e1, schedule, run #18 attempt 1",
-  "pricesCheckedAt": "2026-10-17T09:57:05.257Z",
-  "warnings": [],
+  "generatedAt": "2026-10-18T11:18:10.116Z",
+  "builtBy": "commit 2ed9ed2, schedule, run #19 attempt 1",
+  "pricesCheckedAt": "2026-10-18T09:55:39.038Z",
+  "warnings": [
+    "NOTHING TO OFFER today.",
+    "No game fits the niche today (2 fit the rule, 11 do not, 0 have no facts yet, 2 were taken by another account today, 0 under 50%, 0 prices older than 48 h, 0 sales over or ending soon)."
+  ],
   "niche": {
     "label": "Retro",
-    "fit": 8,
-    "postable": 7
+    "fit": 2,
+    "postable": 0
   },
-  "candidates": [
-    {
-      "id": "gog-prince-of-persia-the-two-thrones",
-      "kind": "deal",
-      "title": "Prince of Persia: The Two Thrones",
-      "store": "GOG",
-      "price": 1.99,
-      "was": 9.99,
-      "discount": 80,
-      "endsAt": "2026-10-18T09:59:00+03:00",
-      "endsInHours": 20,
-      "priceCheckedAt": "2026-10-17T09:55:55.983Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13530/header.jpg?t=1720535330",
-      "drminfo": null,
-      "coverAlt": "Cover art for Prince of Persia: The Two Thrones",
-      "facts": {
-        "year": 2005,
-        "genres": [
-          "Action",
-          "TPP",
-          "Fantasy"
-        ],
-        "tags": [
-          "Action",
-          "Fantasy",
-          "Story Rich",
-          "Atmospheric",
-          "Classic",
-          "Great Soundtrack",
-          "Third Person",
-          "Platformer",
-          "Hack and Slash",
-          "Stealth",
-          "Time Manipulation"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 11,
-      "discountRank": 5,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 7,
-        "lowest": false,
-        "since": "2026-10-11"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/prince-of-persia-the-two-thrones/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-17",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "sale ends in 20 h",
-        "deepest-discount rank 5 of 7"
-      ]
-    },
-    {
-      "id": "gog-flatout-2",
-      "kind": "deal",
-      "title": "FlatOut 2",
-      "store": "GOG",
-      "price": 1.99,
-      "was": 9.99,
-      "discount": 80,
-      "endsAt": "2026-10-18T09:59:00+03:00",
-      "endsInHours": 20,
-      "priceCheckedAt": "2026-10-17T09:55:55.983Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990/header.jpg?t=1765237363",
-      "drminfo": null,
-      "coverAlt": "Cover art for FlatOut 2",
-      "facts": {
-        "year": 2006,
-        "genres": [
-          "Racing",
-          "Arcade",
-          "Off-road"
-        ],
-        "tags": [
-          "Atmospheric",
-          "Classic",
-          "Casual",
-          "Great Soundtrack",
-          "Funny",
-          "Multiplayer",
-          "Arcade",
-          "Local Multiplayer",
-          "Physics",
-          "Racing",
-          "Off-road"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 11,
-      "discountRank": 6,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 6,
-        "lowest": false,
-        "since": "2026-10-12"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/flatout-2/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-17",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "sale ends in 20 h",
-        "deepest-discount rank 6 of 7"
-      ]
-    },
-    {
-      "id": "gog-syberia-ii",
-      "kind": "deal",
-      "title": "Syberia II",
-      "store": "GOG",
-      "price": 2.59,
-      "was": 12.99,
-      "discount": 80,
-      "endsAt": "2026-10-18T09:59:00+03:00",
-      "endsInHours": 20,
-      "priceCheckedAt": "2026-10-17T09:55:55.983Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/46510/header.jpg?t=1743167581",
-      "drminfo": null,
-      "coverAlt": "Cover art for Syberia II",
-      "facts": {
-        "year": 2004,
-        "genres": [
-          "Adventure",
-          "Point-and-click",
-          "Detective-mystery"
-        ],
-        "tags": [
-          "Adventure",
-          "Story Rich",
-          "Atmospheric",
-          "Exploration",
-          "Puzzle",
-          "Classic",
-          "Female Protagonist",
-          "Great Soundtrack",
-          "Third Person",
-          "Mystery",
-          "Point&Click",
-          "Logic",
-          "Emotional",
-          "Investigation",
-          "Detective-mystery",
-          "Hidden Object",
-          "Steampunk"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 11,
-      "discountRank": 1,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 10,
-        "lowest": false,
-        "since": "2026-10-08"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/syberia-ii/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-17",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "sale ends in 20 h",
-        "deepest-discount rank 1 of 7"
-      ]
-    },
-    {
-      "id": "gog-system-shock-enhanced-edition",
-      "kind": "deal",
-      "title": "System Shock: Enhanced Edition",
-      "store": "GOG",
-      "price": 1.99,
-      "was": 9.99,
-      "discount": 80,
-      "endsAt": "2026-10-20T09:59:00+03:00",
-      "endsInHours": 68,
-      "priceCheckedAt": "2026-10-17T09:55:55.983Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/410710/header.jpg?t=1774275834",
-      "drminfo": null,
-      "coverAlt": "Cover art for System Shock: Enhanced Edition",
-      "facts": {
-        "year": 1994,
-        "genres": [
-          "Shooter",
-          "FPP",
-          "Sci-fi"
-        ],
-        "tags": [
-          "Sci-fi",
-          "Classic",
-          "First-Person",
-          "Science",
-          "FPS",
-          "Shooter"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 9,
-      "discountRank": 4,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 8,
-        "lowest": false,
-        "since": "2026-10-10"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/system-shock-enhanced-edition/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-17",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "deepest-discount rank 4 of 7"
-      ]
-    },
-    {
-      "id": "gog-rollercoaster-tycoon-3-complete-edition",
-      "kind": "deal",
-      "title": "RollerCoaster Tycoon 3: Complete Edition",
-      "store": "GOG",
-      "price": 4.99,
-      "was": 19.99,
-      "discount": 75,
-      "endsAt": "2026-10-20T09:59:00+03:00",
-      "endsInHours": 68,
-      "priceCheckedAt": "2026-10-17T09:55:55.983Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368820/header.jpg?t=1779306991",
-      "drminfo": null,
-      "coverAlt": "Cover art for RollerCoaster Tycoon 3: Complete Edition",
-      "facts": {
-        "year": 2006,
-        "genres": [
-          "Simulation",
-          "Building",
-          "Managerial"
-        ],
-        "tags": [
-          "Simulation",
-          "Classic",
-          "Casual",
-          "Funny",
-          "Management",
-          "Sandbox",
-          "Family Friendly",
-          "Building",
-          "Cartoony",
-          "Managerial",
-          "City builder"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 8.5,
-      "discountRank": 7,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 8,
-        "lowest": false,
-        "since": "2026-10-10"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/rollercoaster-tycoon-3-complete-edition/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-17",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "deepest-discount rank 7 of 7"
-      ]
-    }
-  ],
+  "candidates": [],
   "gogNews": [],
   "topical": [],
   "topics": [],
   "left": {
     "otherStore": 16,
     "hidden": 0,
-    "notNiche": 16,
+    "notNiche": 11,
     "noFacts": 0,
-    "taken": 1,
+    "taken": 2,
     "smallDiscount": 0,
     "ended": 0,
     "endsTooSoon": 0,
@@ -300,11 +33,7 @@
   },
   "posts": {
     "bluesky": {
-      "text": "Prince of Persia: The Two Thrones: -80% at GOG\n$1.99 (was $9.99)\nPrice checked Oct 17. Sale ends Oct 18.\n\nhttps://saveandplay.com/deals/gog/prince-of-persia-the-two-thrones/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-17\n\n#RetroGaming #GameDeals #PCGaming\nAd",
-      "length": 169,
-      "max": 300,
-      "link": "https://saveandplay.com/deals/gog/prince-of-persia-the-two-thrones/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-17",
-      "deal": "gog-prince-of-persia-the-two-thrones"
+      "none": "No deal passes the rules today. NOTHING TO OFFER today. No game fits the niche today (2 fit the rule, 11 do not, 0 have no facts yet, 2 were taken by another account today, 0 under 50%, 0 prices older than 48 h, 0 sales over or ending soon)."
     }
   }
 }

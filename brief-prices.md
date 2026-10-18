@@ -1,5 +1,5 @@
-# Brief: Honest prices (@saveandplay.com), 2026-10-17 11:18 UTC
-Prices checked 2026-10-17 09:57 UTC (1 h ago). News: 11 of 11 sources read, 119 items from the last 48 h, 0 of 25 offered deals mentioned.
+# Brief: Honest prices (@saveandplay.com), 2026-10-18 11:18 UTC
+Prices checked 2026-10-18 09:55 UTC (1 h ago). News: 11 of 11 sources read, 70 items from the last 48 h, 0 of 14 offered deals mentioned.
 
 Write ONE post about the first item below (take another one only if it looks wrong, and say why).
 Rules:
@@ -10,72 +10,67 @@ Rules:
 - Text up to 270 characters (the link adds about 25). Say lowest price we've tracked only if the brief says so; never write lowest ever.
 - Attach the cover image and put the Alt text from the brief in the picture's alt field (if the brief says no cover, post without a picture). The link card under the post also shows the game from our page.
 
-## 1. Alan Wake: GOG $1.49 (was $14.99, -90%)
-Sale ends 2026-10-18 06:59 UTC (in 20 h). Price checked 2026-10-17 09:55 UTC. Score 12.
-Why today: sale ends in 20 h; deepest-discount rank 2 of 25.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/alan-wake/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-17
-Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108710/9c1728f937c2a7e632b447b02e442f6a5d88515c/header.jpg?t=1769717716
-Alt text: Cover art for Alan Wake
+## 1. System Shock: Enhanced Edition: GOG $1.99 (was $9.99, -80%)
+Sale ends 2026-10-20 06:59 UTC (in 44 h). Price checked 2026-10-18 09:55 UTC. Score 11.
+Why today: sale ends in 44 h; deepest-discount rank 9 of 14.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/system-shock-enhanced-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-18
+Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/410710/header.jpg?t=1774275834
+Alt text: Cover art for System Shock: Enhanced Edition
 
-## 2. The Saboteur: GOG $1.99 (was $19.99, -90%)
-Sale ends 2026-10-18 06:59 UTC (in 20 h). Price checked 2026-10-17 09:55 UTC. Score 12.
-Why today: sale ends in 20 h; deepest-discount rank 3 of 25.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/the-saboteur/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-17
-Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24880/header.jpg?t=1777484749
-Alt text: Cover art for The Saboteur
+## 2. RollerCoaster Tycoon 3: Complete Edition: GOG $4.99 (was $19.99, -75%)
+Sale ends 2026-10-20 06:59 UTC (in 44 h). Price checked 2026-10-18 09:55 UTC. Score 10.5.
+Why today: sale ends in 44 h; deepest-discount rank 12 of 14.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/rollercoaster-tycoon-3-complete-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-18
+Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368820/header.jpg?t=1779306991
+Alt text: Cover art for RollerCoaster Tycoon 3: Complete Edition
 
-## 3. Shadow Tactics: Blades of the Shogun: GOG $3.99 (was $39.99, -90%)
-Sale ends 2026-10-18 06:59 UTC (in 20 h). Price checked 2026-10-17 09:55 UTC. Score 12.
-Why today: sale ends in 20 h; deepest-discount rank 4 of 25.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-17
-Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696
-Alt text: Cover art for Shadow Tactics: Blades of the Shogun
+## 3. Rebel Galaxy: GOG $1.99 (was $19.99, -90%)
+Sale ends 2026-10-27 07:59 UTC (in 9 days). Price checked 2026-10-18 09:55 UTC. Score 10.
+Why today: deepest-discount rank 3 of 14.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/rebel-galaxy/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-18
+Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/290300/header.jpg?t=1778077786
+Alt text: Cover art for Rebel Galaxy
 
-## 4. Darkest Dungeon: GOG $3.75 (was $24.99, -85%)
-Sale ends 2026-10-18 06:59 UTC (in 20 h). Price checked 2026-10-17 09:55 UTC. Score 11.5.
-Why today: sale ends in 20 h; deepest-discount rank 6 of 25.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-17
-Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187
-Alt text: Cover art for Darkest Dungeon
+## 4. Metro Exodus: GOG $2.99 (was $29.99, -90%)
+Sale ends 2026-10-27 07:59 UTC (in 9 days). Price checked 2026-10-18 09:55 UTC. Score 10.
+Why today: deepest-discount rank 2 of 14.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-18
+Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804
+Alt text: Cover art for Metro Exodus
 
-## 5. Hotline Miami: GOG $1.99 (was $9.99, -80%)
-Sale ends 2026-10-18 06:59 UTC (in 20 h). Price checked 2026-10-17 09:55 UTC. Score 11.
-Why today: sale ends in 20 h; deepest-discount rank 17 of 25.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/hotline-miami/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-17
-Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/219150/header.jpg?t=1785434922
-Alt text: Cover art for Hotline Miami
-
-## GOG news without a price (use only if no deal fits; do not mention any price)
-- Release: Tenebris Somnia (Oct 15). Link for the post (affiliate link): https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Ftenebris_somnia
-- Release: Penguin Colony (Oct 15). Link for the post (affiliate link): https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fpenguin_colony
-- Coming soon: I Want to Play the Villain! (Oct 15). Link for the post (affiliate link): https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fi_want_to_play_the_villain
+## 5. Sifu: IndieGala $8.58 (was $39.99, -79%)
+Sale ends 2026-10-19 23:59 UTC (in 37 h). Price checked 2026-10-18 09:55 UTC. Score 9.9.
+Why today: sale ends in 37 h; deepest-discount rank 11 of 14.
+Link for the post (link to our site): https://saveandplay.com/deals/indiegala/sifu/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-18
+Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138710/header.jpg?t=1782742326
+Alt text: Cover art for Sifu
 
 ## News on the topic (no deal)
-- gg.deals News, Oct 16: "The latest Free Play Days includes titles for PC and console players!" https://gg.deals/subscription-news/the-latest-free-play-days-includes-titles-for-pc-and-console-players/ | There are six games included in the October 15-18 XBOX Free Play Days weekend.
-- gg.deals News, Oct 16: "Fanatical's Cook Up Your Own Culinary Capers Bundle serves up 11 cooking games to choose from!" https://gg.deals/bundle/fanaticals-cook-up-your-own-culinary-capers/ | Aspiring virtual chefs, don't miss out on this bundle!
+- Eurogamer, Oct 17: "Sega pulls Total War: Shogun 2 - Complete Edition from sale amid AI accusations, admitting it has "…" https://www.eurogamer.net/total-war-shogun-2-complete-edition-pulled-from-sale | Sega and Creative Assembly are temporarily removing Total War: Shogun 2 - Complete Edition from sale just days after release. Read more
+- PC Gamer, Oct 17: "Ghostwire: Tokyo joins GOG Preservation Program, which means you don't have to deal with Bethesda.N…" https://www.pcgamer.com/games/action/ghostwire-tokyo-joins-gog-preservation-program-which-means-you-dont-have-to-deal-with-bethesda-net-anymore/ | Ghostwire: Tokyo, Tango Gameworks' spooky, neon-drenched action-adventure game, is now officially a good old game. Granted, it's not that old, but 'good' seems…
+- gg.deals Freebies, Oct 17: "New FREE games this weekend: your comprehensive roundup" https://gg.deals/freebie/new-free-games-this-weekend-your-comprehensive-roundup/ | Looking for something new to play this weekend? Plenty of fresh free games have popped up since our last roundup, and you can find them all right here.
+- gg.deals News, Oct 17: "New feature: see which Steam games are in Game Pass with the GG.deals Extension" https://gg.deals/announcement/new-feature-see-which-steam-games-are-in-game-pass-with-the-ggdeals-extension/ | Game Pass, EA Play, PlayStation Plus, and Ubisoft+ availability, all in one bar.
 
 ## Topics for articles (stories without a deal; headlines and links only. Write an article only if the owner asks)
 1. This all-new Humble Bundle gets you 16 games for just $12! (score 10)
 Why now: 2 sites wrote about it in the last 48 h (gg.deals, indiegamebundles.com); matches keywords: bundle, humble; newest Oct 16.
 - gg.deals News, Oct 16: "This all-new Humble Bundle gets you 16 games for just $12!" https://gg.deals/bundle/this-all-new-humble-bundle-gets-you-16-games-for-just-12/
 - Indie Game Bundles, Oct 16: "Humble Bundle’s The Factory Must Grow Bundle: 8 Steam Games for $12" https://www.indiegamebundles.com/humble-bundles-the-factory-must-grow-bundle-8-steam-games-for-12/
-2. Grand Theft Auto 6 launch trailer suddenly drops, showing a saucy shower scene, a tense police chase, and hig… (score 9)
-Why now: 3 sites wrote about it in the last 48 h (gg.deals, pcgamer.com, eurogamer.net); newest Oct 15.
-- gg.deals News, Oct 15: "Rockstar drops surprise Grand Theft Auto VI launch trailer, includes raunchy shower scene" https://gg.deals/gaming-news/rockstar-drops-surprise-grand-theft-auto-vi-launch-trailer-including-a-raunchy-shower-scene/
-- PC Gamer, Oct 15: "The Grand Theft Auto 6 launch trailer is here" https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-launch-trailer/
-- Eurogamer, Oct 15: "Grand Theft Auto 6 launch trailer suddenly drops, showing a saucy shower scene, a tense police chas…" https://www.eurogamer.net/grand-theft-auto-6-launch-trailer
-3. Bad Cheese is free on Epic Games Store this week only (score 8)
-Why now: 2 sites wrote about it in the last 48 h (gamerpower.com, indiegamebundles.com); matches keywords: free; newest Oct 15.
-- Indie Game Bundles, Oct 15: "Bad Cheese is free on Epic Games Store this week only" https://www.indiegamebundles.com/bad-cheese-is-free-on-epic-games-store-this-week-only/
-- GamerPower (PC), Oct 15: "Bad Cheese (Epic Games) Giveaway" https://www.gamerpower.com/bad-cheese-epic-games-giveaway
-4. Agent A: A puzzle in disguise is free on Epic Games Store — time for some retro spy work (score 8)
-Why now: 2 sites wrote about it in the last 48 h (gamerpower.com, indiegamebundles.com); matches keywords: free; newest Oct 15.
-- Indie Game Bundles, Oct 15: "Agent A: A puzzle in disguise is free on Epic Games Store — time for some retro spy work" https://www.indiegamebundles.com/agent-a-a-puzzle-in-disguise-is-free-on-epic-games/
-- GamerPower (PC), Oct 15: "Agent A: A puzzle in disguise (Epic Games) Giveaway" https://www.gamerpower.com/agent-a-a-puzzle-in-disguise-epic-games-giveaway
-5. Bag Humble's Double Fine Bundle and get 8 Steam keys for $11! (score 7)
+2. Fanatical’s Culinary Capers Bundle: Build Your Own Cooking Games Bundle from $6.99 (score 8)
+Why now: 2 sites wrote about it in the last 48 h (gg.deals, indiegamebundles.com); matches keywords: bundle; newest Oct 17.
+- Indie Game Bundles, Oct 17: "Fanatical’s Culinary Capers Bundle: Build Your Own Cooking Games Bundle from $6.99" https://www.indiegamebundles.com/fanaticals-culinary-capers-bundle-build-your-own-cooking-games-bundle-from-6-99/
+- gg.deals News, Oct 16: "Fanatical's Cook Up Your Own Culinary Capers Bundle serves up 11 cooking games to choose from!" https://gg.deals/bundle/fanaticals-cook-up-your-own-culinary-capers/
+3. Steam deals of the week (October 12–18): 50 great games at prices worth checking out (score 7)
+Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: prices, deals; newest Oct 18.
+- gg.deals News, Oct 18: "Steam deals of the week (October 12–18): 50 great games at prices worth checking out" https://gg.deals/deal/steam-deals-of-the-week-october-12-18/
+4. Bag Humble's Double Fine Bundle and get 8 Steam keys for $11! (score 7)
 Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: bundle, humble; newest Oct 16.
 - gg.deals News, Oct 16: "Bag Humble's Double Fine Bundle and get 8 Steam keys for $11!" https://gg.deals/bundle/bag-humbles-double-fine-bundle-and-get-8-steam-keys-for-11/
+5. The Blood of Dawnwalker's first major update will add directional animal petting and a new story mode that's … (score 6)
+Why now: 2 sites wrote about it in the last 48 h (pcgamer.com, eurogamer.net); newest Oct 17.
+- PC Gamer, Oct 17: "The Blood of Dawnwalker's first major update will add directional animal petting and a new story mo…" https://www.pcgamer.com/games/rpg/the-blood-of-dawnwalkers-first-major-update-will-add-directional-animal-petting-and-a-new-story-mode-thats-easier-than-the-previous-story-mode/
+- Eurogamer, Oct 17: "The Blood of Dawnwalker Update 1.1 adds an easier Story mode, a respec potion and animal petting" https://www.eurogamer.net/blood-of-dawnwalker-update-1-1-story-mode-pet-animals
 
 Left out: 15 other-store deals, 0 hidden duplicates, 0 under 50%, 0 ended, 0 ending within 6 h, 0 old prices.
 Sources not read: none.
-Built by: commit 879f0e1, schedule, run #18 attempt 1.
+Built by: commit 2ed9ed2, schedule, run #19 attempt 1.
