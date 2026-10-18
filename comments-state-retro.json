@@ -1,82 +1,82 @@
 {
   "cursor": 0,
   "next": {
-    "childhood": 1,
-    "classicPC": 4,
-    "holdUp": 3,
-    "gogOld": 3,
-    "nostalgia": 3,
-    "askRetro": 1
+    "childhood": 2,
+    "classicPC": 5,
+    "holdUp": 1,
+    "gogOld": 1,
+    "nostalgia": 1,
+    "askRetro": 2
   },
   "sources": {
     "childhood": {
-      "runs": 9,
-      "posts": 122,
-      "fit": 36,
+      "runs": 10,
+      "posts": 128,
+      "fit": 37,
       "last": {
-        "posts": 4,
-        "fit": 0,
-        "at": "2026-10-18T06:43:27.785Z"
+        "posts": 6,
+        "fit": 1,
+        "at": "2026-10-18T12:41:07.482Z"
       }
     },
     "classicPC": {
-      "runs": 9,
-      "posts": 107,
-      "fit": 34,
+      "runs": 10,
+      "posts": 113,
+      "fit": 36,
       "last": {
-        "posts": 7,
-        "fit": 1,
-        "at": "2026-10-18T06:43:27.785Z"
+        "posts": 6,
+        "fit": 2,
+        "at": "2026-10-18T12:41:07.482Z"
       }
     },
     "holdUp": {
-      "runs": 9,
+      "runs": 10,
       "posts": 12,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-10-18T06:43:27.785Z"
+        "at": "2026-10-18T12:41:07.482Z"
       }
     },
     "gogOld": {
-      "runs": 9,
-      "posts": 111,
-      "fit": 23,
+      "runs": 10,
+      "posts": 133,
+      "fit": 24,
       "last": {
-        "posts": 1,
-        "fit": 0,
-        "at": "2026-10-18T06:43:27.785Z"
+        "posts": 22,
+        "fit": 1,
+        "at": "2026-10-18T12:41:07.482Z"
       }
     },
     "nostalgia": {
-      "runs": 9,
-      "posts": 90,
-      "fit": 18,
+      "runs": 10,
+      "posts": 96,
+      "fit": 19,
       "last": {
-        "posts": 4,
+        "posts": 6,
         "fit": 1,
-        "at": "2026-10-18T06:43:27.785Z"
+        "at": "2026-10-18T12:41:07.482Z"
       }
     },
     "askRetro": {
-      "runs": 9,
-      "posts": 33,
-      "fit": 10,
+      "runs": 10,
+      "posts": 38,
+      "fit": 11,
       "last": {
-        "posts": 1,
-        "fit": 0,
-        "at": "2026-10-18T06:43:27.785Z"
+        "posts": 5,
+        "fit": 1,
+        "at": "2026-10-18T12:41:07.482Z"
       }
     },
     "retroFeed": {
-      "runs": 9,
-      "posts": 445,
-      "fit": 15,
+      "runs": 10,
+      "posts": 495,
+      "fit": 16,
       "last": {
         "posts": 50,
-        "fit": 3,
-        "at": "2026-10-18T06:43:27.785Z"
+        "fit": 1,
+        "at": "2026-10-18T12:41:07.482Z"
       }
     }
   },
@@ -232,46 +232,10 @@
       "name": "Mike (AOLP podcaster)",
       "text": "Hopefully related but also people saying \"oh, X game is dead because there won't be new stuff added anymore\" Mate I'm still playing 30 year old games that have yet to change. We're good, just enjoy the thing!",
       "createdAt": "2026-10-17T11:56:49.059Z",
-      "likes": 2,
+      "likes": 3,
       "replies": 1,
       "group": "gogOld",
       "query": "good old games",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": true,
-      "media": null,
-      "firstSeen": "2026-10-17T18:37:22.774Z"
-    },
-    "at://did:plc:xyzd63rjzmw7nqsqthlybazz/app.bsky.feed.post/3my2axljuqc2u": {
-      "uri": "at://did:plc:xyzd63rjzmw7nqsqthlybazz/app.bsky.feed.post/3my2axljuqc2u",
-      "url": "https://bsky.app/profile/azureskysm.bsky.social/post/3my2axljuqc2u",
-      "handle": "azureskysm.bsky.social",
-      "name": "how come meteors always be landing in craters",
-      "text": "Another thing I keep seeing in regards to situations like this is \"are we going to pretend x part of the y old games was actually good\" and \"if x part of y games was so good they would have kept making them like this\" so filled with ignorance and contempt that you can't really even approach",
-      "createdAt": "2026-10-17T04:29:47.141Z",
-      "likes": 8,
-      "replies": 1,
-      "group": "gogOld",
-      "query": "good old games",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "quotes @azureskysm.bsky.social: it's crazy how \"you only think the old stuff is better than the new stuff cause you're depressed and trying to recapture what you felt as a…",
-      "firstSeen": "2026-10-17T18:37:22.774Z"
-    },
-    "at://did:plc:y7gjn3w6c726xcy245rgpiwd/app.bsky.feed.post/3my235vglts2h": {
-      "uri": "at://did:plc:y7gjn3w6c726xcy245rgpiwd/app.bsky.feed.post/3my235vglts2h",
-      "url": "https://bsky.app/profile/mcbiohazard.bsky.social/post/3my235vglts2h",
-      "handle": "mcbiohazard.bsky.social",
-      "name": "MCBiohazard",
-      "text": "I don't think the beat 'em up revival had any legs to actually revitalize the genre but we got a lot of pretty good games out of it before it petered itself out. tbh, the old games only had a handful of standouts too, a lot of it was coin-op pablum at best.",
-      "createdAt": "2026-10-17T02:45:56.404Z",
-      "likes": 0,
-      "replies": 1,
-      "group": "askRetro",
-      "query": "best old games",
       "score": 6,
       "question": false,
       "heated": false,
@@ -367,24 +331,6 @@
       "heated": false,
       "isReply": false,
       "media": null,
-      "firstSeen": "2026-10-18T00:49:27.907Z"
-    },
-    "at://did:plc:o4wypxnxuhjr5kz7uv22z6pu/app.bsky.feed.post/3mxzxrzwzlc2q": {
-      "uri": "at://did:plc:o4wypxnxuhjr5kz7uv22z6pu/app.bsky.feed.post/3mxzxrzwzlc2q",
-      "url": "https://bsky.app/profile/hewnix.com/post/3mxzxrzwzlc2q",
-      "handle": "hewnix.com",
-      "name": "Hewnix.com",
-      "text": "Sad that you have to create a bill on this. The reason I don't buy new games is because I \"know\" I don't own it and I can't also play it offline. Want an offline game? Check out GOG.com. They have affordable classic games that you actually own with no DRM.",
-      "createdAt": "2026-10-17T01:45:37.258Z",
-      "likes": 8,
-      "replies": 0,
-      "group": "classicPC",
-      "query": "classic pc games",
-      "score": 10,
-      "question": true,
-      "heated": false,
-      "isReply": true,
-      "media": "link card: Welcome to GOG.com | best PC games DRM-free",
       "firstSeen": "2026-10-18T00:49:27.907Z"
     },
     "at://did:plc:zk4dllvdo4wjqmonamx7l5bb/app.bsky.feed.post/3my3lghiyms25": {
@@ -560,7 +506,7 @@
       "replies": 0,
       "group": "nostalgia",
       "query": "favorite retro game",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -578,7 +524,7 @@
       "replies": 0,
       "group": "retroFeed",
       "query": "feed",
-      "score": 6,
+      "score": 5,
       "question": true,
       "heated": false,
       "isReply": false,
@@ -596,7 +542,7 @@
       "replies": 0,
       "group": "retroFeed",
       "query": "feed",
-      "score": 6,
+      "score": 5,
       "question": true,
       "heated": false,
       "isReply": false,
@@ -614,12 +560,102 @@
       "replies": 0,
       "group": "retroFeed",
       "query": "feed",
-      "score": 8,
+      "score": 7,
       "question": true,
       "heated": false,
       "isReply": false,
       "media": null,
       "firstSeen": "2026-10-18T06:43:27.785Z"
+    },
+    "at://did:plc:poozq7zex7evsnmsrokeheue/app.bsky.feed.post/3my56ydepgc2v": {
+      "uri": "at://did:plc:poozq7zex7evsnmsrokeheue/app.bsky.feed.post/3my56ydepgc2v",
+      "url": "https://bsky.app/profile/aegisthewolf.bsky.social/post/3my56ydepgc2v",
+      "handle": "aegisthewolf.bsky.social",
+      "name": "Aegis The Wolf",
+      "text": "He's ruining my childhood... he's mocking this up like he's making the racing drones, silencerz, and acting like dr peter Tesla all from acceleracers... Can fascists stop souring everything. people in those communities of racing games are referencing this and I feel I can't like things anymore.",
+      "createdAt": "2026-10-18T08:32:23.877Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "childhood",
+      "query": "games from my childhood",
+      "score": 8,
+      "question": false,
+      "heated": false,
+      "isReply": true,
+      "media": null,
+      "firstSeen": "2026-10-18T12:41:07.482Z"
+    },
+    "at://did:plc:pu5mshtynxhqcnztvngnga56/app.bsky.feed.post/3my3r2w5sss24": {
+      "uri": "at://did:plc:pu5mshtynxhqcnztvngnga56/app.bsky.feed.post/3my3r2w5sss24",
+      "url": "https://bsky.app/profile/pbastronaut.bsky.social/post/3my3r2w5sss24",
+      "handle": "pbastronaut.bsky.social",
+      "name": "Madeadeleine 💀",
+      "text": "You'd think given my modest collection of 30 year old games and pre-occupation with the past that I'd have all kinds of retro gaming knowledge or like a separate PC to run it all on but no.",
+      "createdAt": "2026-10-17T18:50:38.559Z",
+      "likes": 1,
+      "replies": 1,
+      "group": "classicPC",
+      "query": "retro pc gaming",
+      "score": 7,
+      "question": false,
+      "heated": false,
+      "isReply": true,
+      "media": null,
+      "firstSeen": "2026-10-18T12:41:07.482Z"
+    },
+    "at://did:plc:dvd2sryg3tfbewpwc7z6hwrv/app.bsky.feed.post/3my3ghicet22m": {
+      "uri": "at://did:plc:dvd2sryg3tfbewpwc7z6hwrv/app.bsky.feed.post/3my3ghicet22m",
+      "url": "https://bsky.app/profile/majuuorthrus.bsky.social/post/3my3ghicet22m",
+      "handle": "majuuorthrus.bsky.social",
+      "name": "Max",
+      "text": "I am so glad I maintain a retro PC for the purpose of retro gaming, because it also has a retro copy of MS Office Which will be good if I ever get a novel to publication-ready, because that Office will be close enough to industry standard to work, but absolutely no AI",
+      "createdAt": "2026-10-17T15:40:49.071Z",
+      "likes": 2,
+      "replies": 1,
+      "group": "classicPC",
+      "query": "retro pc gaming",
+      "score": 7,
+      "question": false,
+      "heated": true,
+      "isReply": true,
+      "media": null,
+      "firstSeen": "2026-10-18T12:41:07.482Z"
+    },
+    "at://did:plc:m2yuqynl2cttvi4k5453yegh/app.bsky.feed.post/3my3dei7dvnd2": {
+      "uri": "at://did:plc:m2yuqynl2cttvi4k5453yegh/app.bsky.feed.post/3my3dei7dvnd2",
+      "url": "https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3my3dei7dvnd2",
+      "handle": "feed.igeek.gamer-geek-news.com.ap.brid.gy",
+      "name": "input",
+      "text": "🎮 **Analogue Brings Back Its Perfect SNES And Sega Genesis Replacements** Analogue's Super Nt and Mega Sg models are back with significant improvements, making these consoles the best way to enjoy retro games. 📰 Source: Polygon.com 🔗 Link […] [Original post on igeek.gamer-geek-news.com]",
+      "createdAt": "2026-10-17T14:45:19.000Z",
+      "likes": 2,
+      "replies": 0,
+      "group": "askRetro",
+      "query": "best retro games",
+      "score": 7,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image: Image for: Analogue Brings Back Its Perfect SNES And Sega Genesis Replacements",
+      "firstSeen": "2026-10-18T12:41:07.482Z"
+    },
+    "at://did:plc:pez26h2rw6tb3jts6j4uoklx/app.bsky.feed.post/3my5hdqw3xb22": {
+      "uri": "at://did:plc:pez26h2rw6tb3jts6j4uoklx/app.bsky.feed.post/3my5hdqw3xb22",
+      "url": "https://bsky.app/profile/accommunity.bsky.social/post/3my5hdqw3xb22",
+      "handle": "accommunity.bsky.social",
+      "name": "Animal Crossing Community",
+      "text": "The NES released in North America 41 years ago, launching with classics such as Super Mario Bros. and lead the way for The Legend of Zelda and Metriod. Anyone still have this console?",
+      "createdAt": "2026-10-18T11:01:56.915Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "retroFeed",
+      "query": "feed",
+      "score": 9,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "media": "image, no description",
+      "firstSeen": "2026-10-18T12:41:07.482Z"
     }
   }
 }
