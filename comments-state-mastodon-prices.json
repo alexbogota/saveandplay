@@ -1,35 +1,35 @@
 {
-  "cursor": 3,
+  "cursor": 2,
   "next": {
-    "waitForSale": 4,
-    "backlog": 2,
+    "waitForSale": 5,
+    "backlog": 3,
     "deck": 2,
-    "bundles": 1,
-    "practical": 1,
-    "genres": 3,
-    "seasonal": 1,
-    "broadPlaying": 3,
-    "broadAsk": 1
+    "bundles": 2,
+    "practical": 2,
+    "genres": 4,
+    "seasonal": 2,
+    "broadPlaying": 4,
+    "broadAsk": 2
   },
   "sources": {
     "waitForSale": {
-      "runs": 14,
-      "posts": 560,
+      "runs": 15,
+      "posts": 600,
       "fit": 0,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-17T18:37:08.186Z"
+        "at": "2026-10-18T00:49:17.375Z"
       }
     },
     "backlog": {
-      "runs": 14,
+      "runs": 15,
       "posts": 382,
       "fit": 0,
       "last": {
-        "posts": 40,
+        "posts": 0,
         "fit": 0,
-        "at": "2026-10-17T18:37:08.186Z"
+        "at": "2026-10-18T00:49:17.375Z"
       }
     },
     "deck": {
@@ -43,63 +43,63 @@
       }
     },
     "bundles": {
-      "runs": 13,
-      "posts": 520,
+      "runs": 14,
+      "posts": 560,
       "fit": 0,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-17T12:41:16.979Z"
+        "at": "2026-10-18T00:49:17.375Z"
       }
     },
     "practical": {
-      "runs": 13,
-      "posts": 640,
+      "runs": 14,
+      "posts": 680,
       "fit": 16,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-17T18:37:08.186Z"
+        "at": "2026-10-18T00:49:17.375Z"
       }
     },
     "genres": {
-      "runs": 13,
-      "posts": 520,
+      "runs": 14,
+      "posts": 560,
       "fit": 2,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-17T18:37:08.186Z"
+        "at": "2026-10-18T00:49:17.375Z"
       }
     },
     "seasonal": {
-      "runs": 13,
-      "posts": 492,
+      "runs": 14,
+      "posts": 532,
       "fit": 1,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-17T18:37:08.186Z"
+        "at": "2026-10-18T00:49:17.375Z"
       }
     },
     "broadPlaying": {
-      "runs": 13,
-      "posts": 1400,
-      "fit": 40,
+      "runs": 14,
+      "posts": 1520,
+      "fit": 48,
       "last": {
         "posts": 120,
-        "fit": 7,
-        "at": "2026-10-17T18:37:08.186Z"
+        "fit": 8,
+        "at": "2026-10-18T00:49:17.375Z"
       }
     },
     "broadAsk": {
-      "runs": 13,
-      "posts": 223,
+      "runs": 14,
+      "posts": 228,
       "fit": 0,
       "last": {
-        "posts": 40,
+        "posts": 5,
         "fit": 0,
-        "at": "2026-10-17T18:37:08.186Z"
+        "at": "2026-10-18T00:49:17.375Z"
       }
     }
   },
@@ -122,24 +122,6 @@
       "media": "image, no description",
       "firstSeen": "2026-10-17T06:43:16.151Z"
     },
-    "https://mastodon.social/@Madfox_Timmy/117451663010096627": {
-      "uri": "https://mastodon.social/@Madfox_Timmy/117451663010096627",
-      "url": "https://mastodon.social/@Madfox_Timmy/117451663010096627",
-      "handle": "Madfox_Timmy@mastodon.social",
-      "name": "Timmy the Madfox",
-      "text": "In other news: Friends... ...Krystal Fox somehow found her way into my copy of Half-Life 2! 😅😅😅 🔵 🦊 🥹🥹🥹💖💖💖 A mod by Gagnetar on Steam. #PCGaming #Valve #HalfLife2 #Mods #StarFox #Krystal",
-      "createdAt": "2026-10-16T17:02:30.914Z",
-      "likes": 2,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "pcgaming",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "3 images, no description",
-      "firstSeen": "2026-10-17T06:43:16.151Z"
-    },
     "https://mastodon.social/@renedario@raphus.social/117454403757523931": {
       "uri": "https://mastodon.social/@renedario@raphus.social/117454403757523931",
       "url": "https://mastodon.social/@renedario@raphus.social/117454403757523931",
@@ -159,155 +141,152 @@
       "media": null,
       "firstSeen": "2026-10-17T12:41:16.979Z"
     },
-    "https://mastodon.social/@Judeau@mas.to/117456837921642444": {
-      "uri": "https://mastodon.social/@Judeau@mas.to/117456837921642444",
-      "url": "https://mastodon.social/@Judeau@mas.to/117456837921642444",
-      "handle": "Judeau@mas.to",
-      "name": "Judeau (EatTheRich)",
-      "text": "I really like a good thumb operated #trackball mouse like the #Protoarc EM01 and the old #Logitech one with the green ball that I have used for years. It's still a pain however needing to occasionally pop the ball out and clean the sensors and that got me to thinking... Do they make a trackball mouse like these but in place of the ball is a thumb pad / track pad like on the Steam Deck? Even better if it also includes haptic feedback like the #SteamDeck. I feel like this would be the perfect mouse. If this is not a thing, is there any good reason that it does not exist? #AskFedi #Steam",
-      "createdAt": "2026-10-17T14:58:33.000Z",
-      "likes": 0,
+    "https://mastodon.social/@retro_brewz/117458964731635251": {
+      "uri": "https://mastodon.social/@retro_brewz/117458964731635251",
+      "url": "https://mastodon.social/@retro_brewz/117458964731635251",
+      "handle": "retro_brewz@mastodon.social",
+      "name": "Retro Brewz",
+      "text": "Cheers 🍻 #Castlevania #CraftBeer #Beer #RetroGames #VideoGames",
+      "createdAt": "2026-10-17T23:59:26.342Z",
+      "likes": 5,
       "replies": 0,
       "group": "broadPlaying",
-      "query": "steam",
-      "score": 8,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://mas.to/@Judeau/117456837878389606",
-      "media": null,
-      "firstSeen": "2026-10-17T18:37:08.186Z"
-    },
-    "https://mastodon.social/@johncormier@cosocial.ca/117456744068570726": {
-      "uri": "https://mastodon.social/@johncormier@cosocial.ca/117456744068570726",
-      "url": "https://mastodon.social/@johncormier@cosocial.ca/117456744068570726",
-      "handle": "johncormier@cosocial.ca",
-      "name": "John Cormier 🇨🇦",
-      "text": "Started playing Solasta: Crown of the Magister last night. The character creation process is decent, though I didn’t appreciate how some interesting classes and species are greyed out. There’s no obvious rationale, so I assume it’s so the developers can rake in a few extra $. Not far in yet, but really enjoying the game. #videogames #steam",
-      "createdAt": "2026-10-17T14:33:54.000Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "steam",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://cosocial.ca/@johncormier/117456740949443132",
-      "media": null,
-      "firstSeen": "2026-10-17T18:37:08.186Z"
-    },
-    "https://mastodon.social/@altlazybear@mas.to/117456735814338350": {
-      "uri": "https://mastodon.social/@altlazybear@mas.to/117456735814338350",
-      "url": "https://mastodon.social/@altlazybear@mas.to/117456735814338350",
-      "handle": "altlazybear@mas.to",
-      "name": "Eli the Solitary Lazy Bear",
-      "text": "If it weren't for gmod, I'd prolly be the most boring person to exist in the whole world. I miss 2020. Genuinely wanted real life to be like this game when the pandemic started and also ditched social media. #gmod #halflife2 #left4dead2 #halflife #cs2 #steam #valve #proton #gaming #linuxgaming",
-      "createdAt": "2026-10-17T14:32:34.000Z",
-      "likes": 2,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "steam",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://mas.to/@altlazybear/117456735713741189",
-      "media": "image: So much stuff in this image foreground and background it's hard to describe.",
-      "firstSeen": "2026-10-17T18:37:08.186Z"
-    },
-    "https://mastodon.social/@altlazybear@mas.to/117456503989898897": {
-      "uri": "https://mastodon.social/@altlazybear@mas.to/117456503989898897",
-      "url": "https://mastodon.social/@altlazybear@mas.to/117456503989898897",
-      "handle": "altlazybear@mas.to",
-      "name": "Eli the Solitary Lazy Bear",
-      "text": "⚠️ Here they come... #left4dead2 #steam #valve #proton #gmod #garrysmod #mastodon #gaming #linuxgaming",
-      "createdAt": "2026-10-17T13:33:37.000Z",
-      "likes": 1,
-      "replies": 1,
-      "group": "broadPlaying",
-      "query": "steam",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://mas.to/@altlazybear/117456503916237680",
-      "media": "image, no description",
-      "firstSeen": "2026-10-17T18:37:08.186Z"
-    },
-    "https://mastodon.social/@Neongamerex@ani.work/117456407742895571": {
-      "uri": "https://mastodon.social/@Neongamerex@ani.work/117456407742895571",
-      "url": "https://mastodon.social/@Neongamerex@ani.work/117456407742895571",
-      "handle": "Neongamerex@ani.work",
-      "name": "Neongamerex",
-      "text": "Hey we used this super controversial and widely unpopular thing to make our launcher that nobody uses with an already terrible reputation even worse What could possibly go wrong ¯\\_(ツ)_/¯ But seriously how hard it is to provide a good service and move on with your life without thinking about Steam/Gabe just how far are you going to keep shooting yourself in the foot. #Steam #Valve #Epicgames",
-      "createdAt": "2026-10-17T13:09:07.000Z",
-      "likes": 2,
-      "replies": 1,
-      "group": "broadPlaying",
-      "query": "steam",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://ani.work/@Neongamerex/117456407578362028",
-      "media": "image, no description",
-      "firstSeen": "2026-10-17T18:37:08.186Z"
-    },
-    "https://mastodon.social/@JakobFel@retro-gaiden.com/117455387759534272": {
-      "uri": "https://mastodon.social/@JakobFel@retro-gaiden.com/117455387759534272",
-      "url": "https://mastodon.social/@JakobFel@retro-gaiden.com/117455387759534272",
-      "handle": "JakobFel@retro-gaiden.com",
-      "name": "Jakob Fel",
-      "text": "Has anyone played the Gothic remake yet? I haven't had the chance to play it or the original, but I do have almost all of Piranha Bytes' games in my Steam library and I'm trying to decide whether I should try to tweak/mod the original Gothic or just play the remake. I've heard people say the remake is amazing and I've also heard you need quite a few mods to make the original work correctly. :odysee_thinking: #RetroGames #rpg #2000s #Steam #pcgaming",
-      "createdAt": "2026-10-17T08:49:44.000Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "steam",
-      "score": 8,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://retro-gaiden.com/@JakobFel/117455387642975309",
-      "media": "2 images, no description",
-      "firstSeen": "2026-10-17T18:37:08.186Z"
-    },
-    "https://mastodon.social/@pitcrewgg/117455255244786616": {
-      "uri": "https://mastodon.social/@pitcrewgg/117455255244786616",
-      "url": "https://mastodon.social/@pitcrewgg/117455255244786616",
-      "handle": "pitcrewgg@mastodon.social",
-      "name": "PitCrew",
-      "text": "🔄 Steam Frame - Client Update (October 15) Steam Frame update fixes pairing, shows initial connection progress, adds Playtime Mode icon, resolves WiFi sleep at boot, and prevents adapter crashes. 1/2 #SteamFrame #SteamOS #Linux #LinuxGaming #PCGaming #Steam #ValveSoftware #OpenXR #SteamVR #VirtualReality #VR",
-      "createdAt": "2026-10-17T08:16:04.075Z",
-      "likes": 1,
-      "replies": 1,
-      "group": "deck",
-      "query": "steamos",
+      "query": "videogames",
       "score": 6,
       "question": false,
       "heated": false,
       "isReply": false,
       "media": "image, no description",
-      "firstSeen": "2026-10-17T18:37:08.186Z"
+      "firstSeen": "2026-10-18T00:49:17.375Z"
     },
-    "https://mastodon.social/@BossRushNetwork/117456855131716565": {
-      "uri": "https://mastodon.social/@BossRushNetwork/117456855131716565",
-      "url": "https://mastodon.social/@BossRushNetwork/117456855131716565",
-      "handle": "BossRushNetwork@mastodon.social",
-      "name": "The Boss Rush Network",
-      "text": "In this clip from the Boss Rush Podcast, Nick Dimitrescu, Corey Dirrig, and LeRon Dawkins explore Steam OS's open-source Linux sandbox and Valve's ambitious push toward ARM architecture support. While Nick acknowledges how huge an ARM-compatible Steam OS could be for mobile and handheld gaming, he weighs in on whether claims that Steam OS will completely replace Windows are realistic or overly ambitious. #BossRushPodcast #BossRushLive #SteamOS #LinuxGaming #PCGaming",
-      "createdAt": "2026-10-17T15:02:56.406Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "deck",
-      "query": "steamos",
+    "https://mastodon.social/@ItalianSkeletonGaming/117458178305304525": {
+      "uri": "https://mastodon.social/@ItalianSkeletonGaming/117458178305304525",
+      "url": "https://mastodon.social/@ItalianSkeletonGaming/117458178305304525",
+      "handle": "ItalianSkeletonGaming@mastodon.social",
+      "name": "Italian Skeleton",
+      "text": "I've grown tired of Populous the beginning (happens often to me when I play bullfrog games due to difficulty spikes) so I've jumped (and finished) the #pointandclick #LostInPlay In short, this is a game for parents to play with their child on their laps: cute graphics, simple story (the game has no dialogues, everything is transmitted through drawings) silly humor, and very condensed run time of three hours #gaming #videogames #pcgaming #indiegaming",
+      "createdAt": "2026-10-17T20:39:26.430Z",
+      "likes": 1,
+      "replies": 1,
+      "group": "broadPlaying",
+      "query": "videogames",
       "score": 6,
       "question": false,
       "heated": false,
       "isReply": false,
       "media": "video, no description",
-      "firstSeen": "2026-10-17T18:37:08.186Z"
+      "firstSeen": "2026-10-18T00:49:17.375Z"
+    },
+    "https://mastodon.social/@MatmarSpace/117457886080814988": {
+      "uri": "https://mastodon.social/@MatmarSpace/117457886080814988",
+      "url": "https://mastodon.social/@MatmarSpace/117457886080814988",
+      "handle": "MatmarSpace@mastodon.social",
+      "name": "Matmar Space",
+      "text": "Wait... What? Epic Games allows you to sign in with Autodesk??? 😅👀 #meme #memes #humor #humour #epicgames #epicgamesstore #autodesk #dev #development #authentication #programming #it #games #videogames",
+      "createdAt": "2026-10-17T19:25:07.437Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "videogames",
+      "score": 9,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "media": "image, no description",
+      "firstSeen": "2026-10-18T00:49:17.375Z"
+    },
+    "https://mastodon.social/@jamesjoelrussell@kolektiva.social/117457848818760576": {
+      "uri": "https://mastodon.social/@jamesjoelrussell@kolektiva.social/117457848818760576",
+      "url": "https://mastodon.social/@jamesjoelrussell@kolektiva.social/117457848818760576",
+      "handle": "jamesjoelrussell@kolektiva.social",
+      "name": "James Russell",
+      "text": "\"Selfie!\" *immediately no, kicked* The Headliners #gaming #videogames #theheadliners",
+      "createdAt": "2026-10-17T19:15:07.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "videogames",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://kolektiva.social/@jamesjoelrussell/117457846785456250",
+      "media": "video, no description",
+      "firstSeen": "2026-10-18T00:49:17.375Z"
+    },
+    "https://mastodon.social/@hazz223@mstdn.social/117457619276656916": {
+      "uri": "https://mastodon.social/@hazz223@mstdn.social/117457619276656916",
+      "url": "https://mastodon.social/@hazz223@mstdn.social/117457619276656916",
+      "handle": "hazz223@mstdn.social",
+      "name": "Harry W.",
+      "text": "So… Galactic Racer is pretty darn fun #galacticracer #StarWars #videogames",
+      "createdAt": "2026-10-17T18:17:13.000Z",
+      "likes": 1,
+      "replies": 1,
+      "group": "broadPlaying",
+      "query": "videogames",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://mstdn.social/@hazz223/117457619083964406",
+      "media": null,
+      "firstSeen": "2026-10-18T00:49:17.375Z"
+    },
+    "https://mastodon.social/@Punzie/117456885551369494": {
+      "uri": "https://mastodon.social/@Punzie/117456885551369494",
+      "url": "https://mastodon.social/@Punzie/117456885551369494",
+      "handle": "Punzie@mastodon.social",
+      "name": "Pu(mpki)nzie 🎃",
+      "text": "All set up for #Brighton bazaar today. It’s chilly enough for me add the #scarves to the offerings #handmade #knitting #videogames #amigurumi #boston",
+      "createdAt": "2026-10-17T15:10:40.570Z",
+      "likes": 3,
+      "replies": 1,
+      "group": "broadPlaying",
+      "query": "videogames",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "4 images: Vendor table with a display tree covered in knit bats and birds, and shelving covered in other knit plush like pokemon, Pac-Man ghosts, and octorocks. Across t… / Knit scarves based on Pokemon, a white mage, and a Mario question block / OCTOBER SAT 17th & SUN 18th 2026 11AM -5PM THE BRIGHTON BAZAAR ART, VINYL, VINTAGE, & MORE! THE BRIGHTON ELKS LODGE 326 WASHINGTON ST BRIGHTON, BOSTON, MA 0213… / Punzie Makes Things October Markets: 4: Open Streets Brighton Ave, Allston 10/11: Northshore Horror Fest Danvers 17: Brighton Bazaar Brighton Elks Lodge 18: Op…",
+      "firstSeen": "2026-10-18T00:49:17.375Z"
+    },
+    "https://mastodon.social/@BreakingImpossible/117456753440619399": {
+      "uri": "https://mastodon.social/@BreakingImpossible/117456753440619399",
+      "url": "https://mastodon.social/@BreakingImpossible/117456753440619399",
+      "handle": "BreakingImpossible@mastodon.social",
+      "name": "China.Gamer.Guy 神州电玩游士",
+      "text": "Bumped into The Big Man himself. Honored! #VideoGames #BiliBili #China #PhotoSafari #MyPhoto",
+      "createdAt": "2026-10-17T14:37:04.719Z",
+      "likes": 7,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "videogames",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image, no description",
+      "firstSeen": "2026-10-18T00:49:17.375Z"
+    },
+    "https://mastodon.social/@quester@mementomori.social/117456618729303558": {
+      "uri": "https://mastodon.social/@quester@mementomori.social/117456618729303558",
+      "url": "https://mastodon.social/@quester@mementomori.social/117456618729303558",
+      "handle": "quester@mementomori.social",
+      "name": "Quester the Quester ⛅",
+      "text": "#FFIX #VideoGames 2/2 I now also have Freya, or as I call her, Friidu. She won the festival of hunting, as I ran out of time before reaching a big monster threatening a couple of kids. I am now a bit stuck looking for a way to the next area but I don’t mind grinding some exp.",
+      "createdAt": "2026-10-17T14:02:46.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "videogames",
+      "score": 7,
+      "question": true,
+      "heated": false,
+      "isReply": true,
+      "origin": "https://mementomori.social/@quester/117456618523202948",
+      "media": "2 images: Just in time snapped shot before the fight screen faded fully black. Freya, another mage, has joined our band. / Zidane, Freya and Vivi fighting a weird hot pink creature.",
+      "firstSeen": "2026-10-18T00:49:17.375Z"
     }
   }
 }
