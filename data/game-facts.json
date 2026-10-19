@@ -972,5 +972,143 @@
   ],
   "mature": false,
   "at": "2026-10-18"
+ },
+ "gog-mad-max": {
+  "source": "gog",
+  "year": 2015,
+  "genres": [
+   "Action",
+   "Adventure",
+   "Survival"
+  ],
+  "tags": [
+   "Adventure",
+   "Action",
+   "Story Rich",
+   "Atmospheric",
+   "Exploration",
+   "Third Person",
+   "Open World",
+   "Survival",
+   "Post-apocalyptic",
+   "Survival Horror",
+   "Good Old Game"
+  ],
+  "mature": false,
+  "at": "2026-10-19"
+ },
+ "gog-this-war-of-mine": {
+  "source": "gog",
+  "year": 2014,
+  "genres": [
+   "Action",
+   "Adventure",
+   "Survival"
+  ],
+  "tags": [
+   "Adventure",
+   "Action",
+   "Indie",
+   "Story Rich",
+   "Atmospheric",
+   "Choices Matter",
+   "Management",
+   "Survival",
+   "Resource Management",
+   "Real-Time",
+   "War",
+   "Crafting",
+   "Base Building",
+   "Emotional",
+   "Post-apocalyptic",
+   "Stealth",
+   "Psychological"
+  ],
+  "mature": false,
+  "at": "2026-10-19"
+ },
+ "gog-doom-2016": {
+  "source": "gog",
+  "year": 2016,
+  "genres": [
+   "Shooter",
+   "FPP",
+   "Sci-fi"
+  ],
+  "tags": [
+   "Atmospheric",
+   "Sci-fi",
+   "First-Person",
+   "Science",
+   "Horror",
+   "Great Soundtrack",
+   "Multiplayer",
+   "Violent",
+   "Difficult",
+   "Gore",
+   "FPS",
+   "Shooter",
+   "Remake"
+  ],
+  "mature": true,
+  "at": "2026-10-19"
+ },
+ "gog-trine-2-complete-story": {
+  "source": "gog",
+  "year": 2013,
+  "genres": [
+   "Action",
+   "Adventure",
+   "Puzzle"
+  ],
+  "tags": [
+   "Adventure",
+   "Action",
+   "Indie",
+   "Fantasy",
+   "Atmospheric",
+   "2D",
+   "Puzzle",
+   "Classic",
+   "Casual",
+   "Great Soundtrack",
+   "Multiplayer",
+   "Platformer",
+   "Logic",
+   "Local Co-Op",
+   "Puzzle Platformer",
+   "Physics"
+  ],
+  "mature": false,
+  "at": "2026-10-19"
+ },
+ "gog-graveyard-keeper": {
+  "source": "gog",
+  "year": 2018,
+  "genres": [
+   "Simulation",
+   "Adventure",
+   "Mystery"
+  ],
+  "tags": [
+   "Adventure",
+   "Indie",
+   "Fantasy",
+   "Story Rich",
+   "2D",
+   "Simulation",
+   "Pixel Graphics",
+   "Dark",
+   "Management",
+   "Mystery",
+   "Sandbox",
+   "Violent",
+   "Gore",
+   "Medieval",
+   "Crafting",
+   "Cozy"
+  ],
+  "mature": true,
+  "at": "2026-10-19"
  }
 }
