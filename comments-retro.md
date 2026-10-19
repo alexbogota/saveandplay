@@ -1,45 +1,48 @@
 # Comment candidates: retro (@retrogamedeals.bsky.social)
-Made 2026-10-19T00:50Z. Searched: childhood: played this as a kid game | classicPC: dos games | holdUp: still worth playing old game | gogOld: old games modern pc | nostalgia: favorite retro game | askRetro: old game recommend | retroFeed: feed.
-Posts below: 12. Dropped in this run: skip word 17, not about games 10, other language (text) 6, bot, shop or studio 1, already shown 1, not a question 22, too short 3, other language 9, promo (link and hashtags) 2, too many hashtags 1, earlier finds: low score 2.
+Made 2026-10-19T06:51Z. Searched: childhood: childhood favorite game | classicPC: classic pc games | holdUp: old games hold up | gogOld: good old games | nostalgia: nostalgia video game | askRetro: retro games recommend | retroFeed: feed.
+Posts below: 12. Dropped in this run: not about games 16, adult or graphic label 2, skip word 10, bot, shop or studio 4, low score 3, replies are limited 3, already shown 1, too short 3, other language 16, other language (text) 8, not a question 13.
 
 ## Posts
-1. @toxinenjoyer.bsky.social (Like Diadems Of Canine Teeth) · 2h · likes 1 · replies 0 · classicPC
-   https://bsky.app/profile/toxinenjoyer.bsky.social/post/3my6q7ayngs2g
-   it games flopping killed the series it woulda been over after Dos
-2. @sanctuaryofmoss.bsky.social (Mausoleum of Moss) · 2h · likes 0 · replies 1 · childhood
-   https://bsky.app/profile/sanctuaryofmoss.bsky.social/post/3my6oylj2w22b
-   IVE FOUND IT. After over a decade of searching I found Hurkle Hunt (1989)! I played this DOS game as a kid and have been searching on and off for over a decade, and today I stumbled upon it!
-   [image: Hurkle Hunt - DOS Game where you trap a Hurkle by clicking on a grid, removing one square at a time. When you do though, the Hurkle moves. Try to capture it wi…]
-3. @purejornalismo.bsky.social (Jornal Purê) · 5h · likes 0 · replies 0 · classicPC
-   https://bsky.app/profile/purejornalismo.bsky.social/post/3my6fmrgel72i
-   A indústria dos games segundo tentando interferir na eleição brasileira.
-4. @drmitchpdx.bsky.social (mitch (he/him)) · 6h · likes 21 · replies 3 · classicPC
-   https://bsky.app/profile/drmitchpdx.bsky.social/post/3my6c36r2ok2v
-   men would rather read about how to build an old x86 DOS box to run old DOS games instead of go to therapy
-5. @enikofox.com (Eniko Fox) · 8h · likes 8 · replies 0 · classicPC
-   https://bsky.app/profile/enikofox.com/post/3my63iiszks2o
-   meanwhile i'm basically building a technological equivalent of a nuclear bunker with DOS games that do software rendering and making a VM/OS that can run on any host OS including stuff like FreeDOS
-6. @babyshoes4cash.com (lydelle BLEAAAH!ster) · 10h · likes 8 · replies 0 · classicPC
-   https://bsky.app/profile/babyshoes4cash.com/post/3my5uh4bnz22i
-   i say "over", but win 3.1 ran on top of DOS- so i played the hell out of DOS games, i just didn't use it as my main OS because it couldn't play Civ 2 or have a notepad exe running the same time as a game exe- at least, i didn't know how to do that, i was learning modem stuff, ver
-7. @rubyranger.bsky.social (RUBY RANGER : QUAKE DAD) · 29h · likes 5 · replies 1 · classicPC
-   https://bsky.app/profile/rubyranger.bsky.social/post/3my3vuzdgas2c
-   Wacky Wheels was one of the first DOS games I played on my very own PC. Up until 93/94 we didn't have a powerful enough computer to run new games, so I played on my friends PCs. This game is a hoot and deserves the praise.
-   [quotes @apogeeent.com: Happy Anniversary to Wacky Wheels! On this day in 1994, Apogee brought animal powered kart racing to MS-DOS PCs!]
-8. @maxsilhouette.bsky.social (MaxSilhouette) · 13h · likes 1 · replies 0 · nostalgia
-   https://bsky.app/profile/maxsilhouette.bsky.social/post/3my5joeww4k24
-   I did NOD know that is who made Theme Park. Such a nostalgic little game on PlayStation for me 😎
-9. @jegriva.bsky.social (Jeg Riva, the Marked. 🇪🇺) · 18h · likes 0 · replies 1 · classicPC
-   https://bsky.app/profile/jegriva.bsky.social/post/3my4zslcj7k2e
-   These games were also usually completely dubbed in the all the major european languages, so I think the nostalgia factors for many 40 years old today is exhalted by hearing those voices too. Somehow in Italy PC games were translated more often the console games.
-10. @tonyawolfe.bsky.social (tonyawoooo, werewolf of portland) · 22h · likes 0 · replies 1 · classicPC
-   https://bsky.app/profile/tonyawolfe.bsky.social/post/3my4lytfyuk2f
-   christ we're basically repeating the era of bad PC ports of console games from first principles everything old is new again
-11. @rumbleminze.bsky.social (Rumbleminze) · 24h · likes 2 · replies 1 · question · retroFeed
-   https://bsky.app/profile/rumbleminze.bsky.social/post/3my4dsb5xls2j
-   How does NES hide the bottom of the dog on this screen? Most games I've seen do this by turning off sprites on that line with a sprite 0 hit triggered write. However Duck Hunt does it with 0 writes to any hardware registers outside of vblank! Answer in thread!
-   [image: A screenshot of the 2nd level of the Arcade Vs version of duckhunt with a green mountainous background and a laughing dog popping up from behind the HUD]
-12. @feed.igeek.gamer-geek-news.com.ap.brid.gy (input) · 26h · likes 0 · replies 0 · classicPC
-   https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3my47cehl3cw2
-   📰 **2026 Retrocomputing Challenge: Dollhouse Arcade Cabinet Runs Remote DOS Games** Classic DOS games never ran from within stand-up arcade cabinets in dollhouses, but [Juha Lilja] imagines a world in which they did. His Micro DOS arcade cabinet is […] [Original post on igeek.ga
-   [image: Image for: 2026 Retrocomputing Challenge: Dollhouse Arcade Cabinet Runs Remote DOS Games]
+1. @dare0451.bsky.social (dare0451) · 12h · likes 0 · replies 0 · question · childhood
+   https://bsky.app/profile/dare0451.bsky.social/post/3my6d4c5nzc2l
+   playing flyknight and its really fucking stylish and honestly maybe the first game in a while thats made me feel so engaged so consistently, feels like itdve been a childhood favorite, but oh my god its so baby easy?? im on zone 3 and ive died exactly once
+2. @xxsethxx.bsky.social (Seth.ElChicoDeYaoi.) · 13h · likes 0 · replies 1 · question · gogOld
+   https://bsky.app/profile/xxsethxx.bsky.social/post/3my674pzx422s
+   I guess the game is was thinking of was Chaturanga. A super, super old game from India that is the parent of games like chess. I've remember this game... because the name sounds good! Lol!
+   [image: Wikipedia page for Chaturanga.]
+3. @gigsintoon.bsky.social (Gigsintoon) · 17m · likes 1 · replies 0 · question · retroFeed
+   https://bsky.app/profile/gigsintoon.bsky.social/post/3my7ivfb73d2z
+   On this day in 1992, Therapy? released the single Teethgrinder from their album, Nurse. It stormed into number 30 in the UK album charts and was included in the soundtrack to the game Road Rash on Playstation & Sega Saturn!
+   [image, no description]
+4. @atgonzalez.bsky.social (A.T. Gonzalez) · 16h · likes 2 · replies 1 · childhood
+   https://bsky.app/profile/atgonzalez.bsky.social/post/3my5sympfkc2m
+   Yes, it was a childhood favorite. I honestly prefer the whole game to the previous Ken Griffey Jr game.
+   [quotes @essemkato.bsky.social: are we all familiar with the nearly seven minute UK techno heater from ken griffey jr.'s winning run for super nintendo youtu.be/hUcmkDTuU_I]
+5. @fiirewalkwithme.bsky.social (Dungeon Crawler Keith) · 23h · likes 5 · replies 1 · childhood
+   https://bsky.app/profile/fiirewalkwithme.bsky.social/post/3my53le5rbc25
+   QTP with a video game that transports you back to your childhood ⏳ Princess Peach was my favorite to play. Obviously. I'm old! 😭
+   [link card: Mario Princess; quotes @tampire.bsky.social: QTP with a video game that transports you back to your childhood ⏳]
+6. @programme-tv.net (Télé Loisirs) · 8m · likes 0 · replies 0 · question · retroFeed
+   https://bsky.app/profile/programme-tv.net/post/3my7jefic6c2f
+   Interstellar : Pourquoi de nombreuses scènes du film avec Timothée Chalamet ont-elles été coupées au montage ? - Télé-Loisirs ➡️ https://l.programme-tv.net/jP9
+   [image: Stranger Things : Des scènes de la saison 5 ont-elles été coupées ? Les créateurs répondent sans détour]
+7. @larrythedemon.bsky.social (Your Sleep Paralysis Demon) · 3h · likes 0 · replies 0 · gogOld
+   https://bsky.app/profile/larrythedemon.bsky.social/post/3my77lypda22u
+   Just finished Silent Hill Townfall and it's really dang good. They really captured the essence of silent hill without feeling like a repeat of the old games
+8. @sugariimarii.bsky.social (sugariimarii) · 9h · likes 6 · replies 1 · nostalgia
+   https://bsky.app/profile/sugariimarii.bsky.social/post/3my6la4tcjs2k
+   Can we make out and make trans games with retro visuals to invoke a feeling of nostalgia, unconventional game design, its something convent that's twisted around into the abstract idea of a video game, it doesn't feel like it doesn't exist, but because it doesn't exist, that mean
+9. @alphaalexander.bsky.social (Alpha Alexander) · 12h · likes 1 · replies 0 · gogOld
+   https://bsky.app/profile/alphaalexander.bsky.social/post/3my6bjo6x5k2p
+   Played like 2/3rd of PoR but lost interest. Related though: Symphony of War on steam is good. I didn’t finish it but felt like a truer successor to old FE games than actual FE games.
+10. @niwashihiram.bsky.social (Hiram 🐗🌱) · 5h · likes 6 · replies 0 · gogOld
+   https://bsky.app/profile/niwashihiram.bsky.social/post/3my6xzdnuy22v
+   me and my good friend @ginger31.bsky.social staying up late and playing old video games together uwu
+   [image: drawing of my fursona Hiram, a orange and silver colored boar, and my friend Kyuu , a brown bat, playing video games in a dark room, illuminated by the glow of…]
+11. @popeguilty.bsky.social (Night of the Abigail) · 16h · likes 1 · replies 1 · askRetro
+   https://bsky.app/profile/popeguilty.bsky.social/post/3my5vdhtktc2j
+   I had a book, Fatal Distractions by David Gerrold, that was basically an excuse to sell a CD-ROM full of shareware games but also a pile of old text adventures and roguelikes. Got it at a going out of business sale - by far and away the best dollar I ever spent!
+12. @historyachannel.bsky.social (History Chrono) · 17h · likes 4 · replies 0 · childhood
+   https://bsky.app/profile/historyachannel.bsky.social/post/3my5rcnoafo2m
+   #onthisday in 1958, visitors to Brookhaven National Laboratory got their first go at Tennis for Two, physicist William Higinbotham's game on an analog computer with a 5-inch oscilloscope screen. By some definitions, it was the first video game. #ITHistory
+   [3 images, no description]

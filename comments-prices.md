@@ -1,101 +1,107 @@
 # Comment candidates: prices (@saveandplay.com)
-Made 2026-10-19T00:50Z. Searched: seasonal: halloween games pc | ai: steam AI disclosure | broadPlaying: "just finished" game | broadAsk: "recommend me" game | waitForSale: "wait for the sale" | backlog: "my backlog" games | deck: steam deck games | bundles: "bundle" worth it games | practical: "game pass" vs buying | genres: cozy games pc | pcGaming: feed | gamingLiked: feed.
-Posts below: 25 + 2 heated. Dropped in this run: skip word 70, already shown 9, low score 11, console only 9, bot, shop or studio 51, not about games 8, replies are limited 5, promo (link and hashtags) 7, own post 1, already answered 5, other language (text) 1, earlier finds: low score 1.
+Made 2026-10-19T06:51Z. Searched: seasonal: spooky games steam | ai: generative AI games steam | broadPlaying: "currently playing" game | broadAsk: "best indie games" | waitForSale: "worth it" "on sale" game | backlog: "need a game" recommendation | deck: "steam deck" recommendations | bundles: Fanatical bundle | practical: DRM-free games | genres: metroidvania recommendations | pcGaming: feed | gamingLiked: feed.
+Posts below: 25 + 3 heated. Dropped in this run: low score 9, skip word 57, console only 3, bot, shop or studio 36, promo (link and hashtags) 5, other language (text) 4, not about games 2, already answered 3, already shown 9, replies are limited 2, earlier finds: low score 3.
 
 ## Posts
-1. @dreamerandschemer.bsky.social · 1h · likes 1 · replies 0 · question · backlog
-   https://bsky.app/profile/dreamerandschemer.bsky.social/post/3my6r43lwkk2w
-   Oh hell no, I'm out. I have enough old consoles and old games in my backlog to last me the rest of my life. Not an exaggeration. If I really need something new, I have Steam. Beyond that, I am done. I am not paying a down payment on a new car to play reheated COD 23 and a 1/3rd.
-2. @kammechi.bsky.social (Kamme(comms open)) · 5h · likes 5 · replies 1 · question · pcGaming
-   https://bsky.app/profile/kammechi.bsky.social/post/3my6dbhlgfs2d
-   🎮 MY FIRST STREAM! (It will be in Russian) This Monday, October 19, at 7:00 p.m., I’ll be hosting my first gaming stream! I’m a little nervous, but I’m really looking forward to seeing you all! See you then! 💚 #art #steam #pngtuber #streamer #artist #drawing
-   [image, no description]
-3. @thejapanhobbyist.bsky.social (TheJapanHobbyist) · 1h · likes 0 · replies 1 · question · backlog
-   https://bsky.app/profile/thejapanhobbyist.bsky.social/post/3my6rspdiys26
-   Maybe it's because I'm overwhelmed. Might just be that my kanji/vocab study isn't keeping up. That being said I do like how much progress I’ve been making on my backlog. I should knock out 3 games total by next week, possibly 4. Maybe I should try playing shorter gaming sessions 
-4. @pdelahanty.bsky.social (Patrick Delahanty) · 10h · likes 2 · replies 2 · question · deck
-   https://bsky.app/profile/pdelahanty.bsky.social/post/3my5tvmmk7k2w
-   PS5 has been out HOW LONG and there’s still only 2 or 3 games I’d want. Hard to justify the previous console price for that…and the current price. …and PS6 will be insanely priced? Forget it. I’d be more likely to get something capable of playing the Steam games I already paid fo
-5. @bitsubachi.bsky.social (Bits) · 14h · likes 2 · replies 1 · question · deck
-   https://bsky.app/profile/bitsubachi.bsky.social/post/3my5i7yrzns26
-   I got Vesperia and Symphonia recently on steam to play on my deck and still got abyss on my 3ds. What do you all think? Don't wanna go back and look for where I put the ps3 and games lol
-6. @alphabetagamer.bsky.social (Alpha Beta Gamer) · 2h · likes 32 · replies 2 · question · gamingLiked
-   https://bsky.app/profile/alphabetagamer.bsky.social/post/3my6qd47bis2s
-   Would you let these adorable animals in your shelter? Adopt Me Please is a mimic horror game where some of these pets are im-paw-sters! Coming to PC and Switch: store.steampowered.com/app/4417910/... a game by indie dev Joyever Studio #gaming
+1. @voylin.bsky.social (Voylin) · 2h · likes 2 · replies 0 · question · pcGaming
+   https://bsky.app/profile/voylin.bsky.social/post/3my7bunlnts2c
+   Somebody has advice? I don't have access to my files in my application on Steam. Thought it was a mistake on my side so I tried Godot on Steam, same thing! Steam Linux Runtime 1.0 - 3.0 don't give me file access, only the legacy runtime! No idea how to fix this issue :/ #godot #s
+2. @spikedigital.bsky.social (Spike Digital) · 3h · likes 0 · replies 0 · question · pcGaming
+   https://bsky.app/profile/spikedigital.bsky.social/post/3my77hdn7oc26
+   I just realized, if you asked me at any time, what apps are consistently up and running while I'm on pc? A browser, image editor, and almost always Steam. Even if I'm not gaming, which is probably the best review I could give. Even when I'm not using you, I give you my precious r
+3. @respawnwire.bsky.social (Respawnwire Gaming) · 4h · likes 0 · replies 0 · question · pcGaming
+   https://bsky.app/profile/respawnwire.bsky.social/post/3my737fnjt72q
+   🔥 THIS IS HUGE: Don Bradman Cricket Jr Announced for PC and Consoles Thoughts? 1. Hyped 🔥 2. Skeptical 🤨 3. Neutral 😐 4. Don't care 💤 #SteamDeck
+   [link card: Don Bradman Cricket Jr Announced for PC and Consoles]
+4. @feed.igeek.gamer-geek-news.com.ap.brid.gy (input) · 6h · likes 1 · replies 0 · question · pcGaming
+   https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3my6vdma6duz2
+   🎮 **Is Boltgun 2 Steam Deck Verified?** Learn how Warhammer 40,000: Boltgun 2 runs on Steam Deck and what Valve's compatibility rating covers. 📰 Source: Gamepur 🔗 Link: https://www.gamepur.com/guides/is-boltgun-2-steam-deck-verified #SteamDeck #PCGaming
+5. @urazon1.bsky.social · 4h · likes 1 · replies 0 · pcGaming
+   https://bsky.app/profile/urazon1.bsky.social/post/3my74sqzy6m2i
+   Return to Los Santos with Grand Theft Auto V Enhanced. Grand Theft Auto V Enhanced (Rockstar Games Launcher, EU) is €11.37 on Urazon. Instant digital delivery. https://urazon.com/Grand-Theft-Auto-V-Enhanced-Rockstar-Games-Launcher-Key-EU #PCGaming #ActionGames
+   [image: Urazon promo for Grand Theft Auto V Enhanced Rockstar Games Launcher Key EU: original game cover with the price €11.37.]
+6. @abbymcraft.bsky.social (Abbymcraft🦇🕸️) · 6h · likes 13 · replies 0 · pcGaming
+   https://bsky.app/profile/abbymcraft.bsky.social/post/3my6x4ho7ws2e
+   These two though🤩🤩🤩 #dressmaker #steam #steamgames #steamdressmaker#fashiongames #cozygames #gaming
+   [2 images: A dressmaker screenshot of a green dress with short puffy sleeves with light green accents / A dressmaker screenshot of a pink dress with Juliet sleeves with blue accents and white lace trim]
+7. @yogomi.com (Yogomi) · 2h · likes 0 · replies 0 · pcGaming
+   https://bsky.app/profile/yogomi.com/post/3my7el3ddz222
+   I unbox the latest gaming controller from @valvesoftware.com @steampowered.com , announced in November 2025, take a closer look at its design and features, and connect it to my gaming PC to get everything set up. #pcgaming #PCGamingSetup #SteamController #Unboxing #Valve
    [video, no description]
-7. @zoviazzg.bsky.social (Dark Zovia) · 4h · likes 51 · replies 1 · question · gamingLiked
-   https://bsky.app/profile/zoviazzg.bsky.social/post/3my6hjzyvwk2n
-   A little compilation of my Street Fighter September photos for #scanlinesunday. Movie? Phooey! Video game. 🫡 #crt #retrogaming #gaming #streetfighter #photography
-   [4 images: Having nobly entered the World Warrior competition to raise money for victims of imperialism, mystic warrior Dhalsim is coerced into traveling to the (recently… / Having rudely intruded upon the stoic sumo warrior E. Honda during his private-time in a traditional bathhouse, obnoxious westerner Ken Masters immediately rec… / Seeking justice for the wicked cruelty so wrongly inflicted upon him at the culmination of the first World Warrior Tournament, Muay Thai master Sagat finally c… / Leaving her badge and morals at home, Special Investigator Chun Li assaults the Spanish underground cage-fighting scene in her bloody quest for revenge on the …]
-8. @serunie.bsky.social (Serunie🌸🪽) · 6h · likes 0 · replies 0 · question · broadPlaying
-   https://bsky.app/profile/serunie.bsky.social/post/3my6cpnhsj22c
-   Just finished Timespinner! Liked it a lot. Turns out Metroidvania's might actually be the greatest genre of game ever invented???
-9. @retropipes.org (RetroPipes) · 34m · likes 4 · replies 0 · backlog
-   https://bsky.app/profile/retropipes.org/post/3my6tq6nna22p
-   I admit that I have been too busy playing games to be making any lately. At least my backlog is shrinking.
-10. @leftistlogician.bsky.social (Leftist Logician (she/her)) · 2h · likes 1 · replies 0 · deck
-   https://bsky.app/profile/leftistlogician.bsky.social/post/3my6qbus5zs3k
-   I'm personally just thankful that my Chromebook and Steam Deck are still in good working order and I mostly play indie and AA games anyways.
-11. @ndlessvoid.bsky.social (liz ₊˚ෆ) · 3h · likes 1 · replies 1 · deck
-   https://bsky.app/profile/ndlessvoid.bsky.social/post/3my6kwp47nc22
-   was considering a steam deck since i find myself playing the games that my laptop can handle in bed most of the time,,
-12. @jamesoncrumpet.bsky.social (James___UK 🌱) · 4h · likes 2 · replies 1 · pcGaming
-   https://bsky.app/profile/jamesoncrumpet.bsky.social/post/3my6ju5egfc2k
-   #pcgaming I just played the demo for Militsioner and it's an utterly fascinating concept. How do I describe this, it's a stealth/exploration kind of game where you interact and sometimes evade a giant cop who sits next to the town. Worth a look store.steampowered.com/app/4627010/
+8. @satelenight.bsky.social (Nyte) · 4h · likes 0 · replies 0 · pcGaming
+   https://bsky.app/profile/satelenight.bsky.social/post/3my73jybouc2w
+   I told myself I would play #Aion2 until I got bored of the game and I think im starting to hit that point soon. I atleast want to work on my Spiritmaster next before making a final decision. The game is certainly fun but not fun enough for me to continue playing. #MMORPG #AION2 #
+9. @worm.gay (Emma 🪱) · 18h · likes 1 · replies 0 · deck
+   https://bsky.app/profile/worm.gay/post/3my5ndluobc2i
+   Finally got around to playing Wrenny Lee: Witch-for-Hire! by @bitebitebited.bsky.social Very cute game! You should try it too maybe if you like games that are cute, or have six extra dollars you don't want because they're cursed or smell weird or something
+   [image: screenshot i did not steal from the store page because i was too lazy to transfer a screenshot from my steam deck to my laptop]
+10. @aggroveggie13.bsky.social (Aggro Veggie) · 19h · likes 2 · replies 0 · backlog
+   https://bsky.app/profile/aggroveggie13.bsky.social/post/3my5iptgfkk2d
+   Hey friends! Been so busy with a lot of things! Hehehe! But, Aside from watching spooky movies and shows, I am searching through my backlog of games for my spooky season game! 👻I will be sharing what game I end up choosing or maybe purchasing soon.😀 Have and awesome day!
+11. @ladiesgamers.bsky.social (LadiesGamers.com) · 27h · likes 1 · replies 0 · pcGaming
+   https://bsky.app/profile/ladiesgamers.bsky.social/post/3my4protqyo2l
+   Over the Hill is a casual adventure game where you drive a 4x4 car over bumpy roads, trails and across forests. It’s about the journey, not the destination. @gamedrivenl.bsky.social #OverTheHill #Steam wp.me/p70tPw-tJq
    [image, no description]
-13. @lavadropeu.bsky.social (Lavadrop) · 4h · likes 1 · replies 0 · pcGaming
-   https://bsky.app/profile/lavadropeu.bsky.social/post/3my6ik67bvs25
-   #Steam #NextFest starts tomorrow! And as you enjoy your new supply of demos, if you're in the mood for new adventures you should check out Ollie and the Merchant of Dreams. Now at an all time reduced price. x.com/LavadropEU/s...
-   [link card: Lavadrop Entertainment (@LavadropEU) on X]
-14. @zefirohowls.bsky.social (zeffy 🌼) · 4h · likes 1 · replies 1 · backlog
-   https://bsky.app/profile/zefirohowls.bsky.social/post/3my6ho5tmxc2q
-   i mainly see three avenues i can go on one of my backlog clearing sprees, where i start clearing a bunch of shorter games one after another to rly clear the backlog i can go back to working on the DQ series and play the DQ7 remake OR i can go back to FE and play the DS FE3 remake
-15. @midtown-solutions.bsky.social (Midtown Solutions) · 5h · likes 3 · replies 0 · pcGaming
-   https://bsky.app/profile/midtown-solutions.bsky.social/post/3my6fi4hlpe22
-   MidBooster tunes clocks, power and fans for each game while you play, and puts every change back afterwards. There's a free six-month license for up to 5 PCs — boosting, fans and cooling are full from day one. Try MidBooster free on Windows: midtown-solutions.lemonsqueezy.com/che
-   [link card: MidBooster — try it free]
-16. @denyally.bsky.social (Deny Ally) · 6m · likes 0 · replies 0 · backlog
-   https://bsky.app/profile/denyally.bsky.social/post/3my6vdmdj5f2l
-   Same here—my backlog has no concept of weather. If anything, seasonal games just make me want to replay the cozy ones.
-17. @sc00pdawh00p.bsky.social (Jesse) · 50m · likes 0 · replies 0 · pcGaming
-   https://bsky.app/profile/sc00pdawh00p.bsky.social/post/3my6su55xwk2y
-   Okay, I finally found out what the glitch was in little nightmares 2, and it's so stupid. If you're wearing a bear mask, the key will not appear. Stupid, but I was finally able to play It again, an beat it and it was... good #littlenightmare2 #TarsierStudios #nerd #gamer #steam �
-   [link card: Little Nightmares 2: Mono and Six Holding Hands]
-18. @splatbri.bsky.social (Bri🏳️‍⚧️🐻‍❄️) · 3h · likes 2 · replies 0 · broadPlaying
-   https://bsky.app/profile/splatbri.bsky.social/post/3my6lgpxsk226
-   So i just finished my 10th mastery on Retroachievements so i made an teirlist showing how hard each game was in my opinion.
+12. @vaddix-gaming.bsky.social (Vaddix Gaming) · 27h · likes 1 · replies 0 · pcGaming
+   https://bsky.app/profile/vaddix-gaming.bsky.social/post/3my4pn7j3i22z
+   Been wanting to play this since the demo so starting up Pragmata! #pragmata #steam #pc #gaming #gamer
+   [4 images, no description]
+13. @watcherrat.bsky.social (Watcher 🐀 🔜 LVFC 2027) · 27h · likes 1 · replies 0 · bundles
+   https://bsky.app/profile/watcherrat.bsky.social/post/3my4oyold6s2a
+   Freedom Planet 2 is one of the games on sale for a humble bundle right now, and it reminded me of a drawing I did once of one of the characters, Carol Tea!
    [image, no description]
-19. @afterpat.ch (afterpatch) · 4h · likes 0 · replies 0 · pcGaming
-   https://bsky.app/profile/afterpat.ch/post/3my6hcnm4bx27
-   After Store Update 2.1.0 on Oct 13, ARC Raiders reviews ran far warmer than usual: 78% positive for Oct 12–18, the game's usual is 53%. Far more reviews than usual came in, and many name PvE. One review: “I'll quit without PvE.” #ARCRaiders #Steam #pcgaming
-   [link card: ARC Raiders: player mood spiked — afterpatch]
-20. @skylorbeck.website (Skylor Beck) · 4h · likes 2 · replies 1 · broadPlaying
-   https://bsky.app/profile/skylorbeck.website/post/3my6glq4eyc2g
-   Just finished a month of editing. Please enjoy my experience making Make It Count for the S&Box Game Jam III
-   [link card: I Lost A Game Jam To AI]
-21. @staticmm.bsky.social (Static Multimedia) · 6h · likes 1 · replies 0 · pcGaming
-   https://bsky.app/profile/staticmm.bsky.social/post/3my6bdxgtk325
-   #Steam Week in Review: October 12–18, 2026 #videogames
-   [link card: Steam Week in Review: October 12–18, 2026]
-22. @poltergeist47.bsky.social (Poltergeist) · 9h · likes 1 · replies 0 · backlog
-   https://bsky.app/profile/poltergeist47.bsky.social/post/3my5yq2geek2p
-   I really like the RE4 remake and played it in VR too! But I still prefer the Original from 2005, wich is one of my favorite games of all time. Never finished Seperate Ways, that’s still on my backlog.
-23. @feed.igeek.gamer-geek-news.com.ap.brid.gy (input) · 9h · likes 3 · replies 0 · deck
-   https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3my5wzxmsbzf2
-   📰 **Fortnite is coming to Linux so we may soon be able to play it and other games like Apex Legends on Steam Deck and Steam Machine** Epic Games is officially working on bringing its battle royale shooter Fortnite to Linux. The announcement was […] [Original post on igeek.gamer-
-   [image: Image for: Fortnite is coming to Linux so we may soon be able to play it and other games like Apex Legends on Steam Deck and Steam Machine]
-24. @bitsubachi.bsky.social (Bits) · 11h · likes 1 · replies 2 · backlog
-   https://bsky.app/profile/bitsubachi.bsky.social/post/3my5roy6ax225
-   I'm switching a lot between games atm bc my concentration differs from day to day rn...mostly bc of work/how my days play out...some are easier for reading/vns, some make me want to experience a story, others are for repetitive gameplay...but I wanna get through my backlog! Event
-25. @stephiesparda.bsky.social (Skeletal Stephie 🏳️‍⚧️) · 12h · likes 2 · replies 0 · backlog
-   https://bsky.app/profile/stephiesparda.bsky.social/post/3my5ogzpf5c2n
-   I got a whole bunch of vehicle based sandbox games in my backlog that are probably worth my time more. I've heard some great things about Sleeping Dogs. lol
+14. @abbymcraft.bsky.social (Abbymcraft🦇🕸️) · 27h · likes 2 · replies 1 · pcGaming
+   https://bsky.app/profile/abbymcraft.bsky.social/post/3my4oygj7gc2z
+   absolutely love how these two dresses came out, absolutely in love with the sparkly fabric!! 🤩 #dressmaker #steam #steamgames #steamdressmaker#fashiongames #cozygames #gaming
+   [2 images: A Dressmaker screenshot of a long black gown with black sparkles on the front of the dress and black lacy short flowing sleeves / A Dressmaker screenshot of a long black sparkling mermaid gown with a keyhole neckline and black lace elements on the skirt of the dress and at the ends of the…]
+15. @jamesmarshall92.bsky.social · 27h · likes 1 · replies 0 · pcGaming
+   https://bsky.app/profile/jamesmarshall92.bsky.social/post/3my4ogf6zls26
+   ​Used to listen to the PC Gamer podcast to prep for my PC build, but stopped when it & all my other favorite PC gaming shows went inactive. Got the itch 2 days ago, opened Pocket Casts for a games show, and found The Veteran Gamers. Void filled! ​ #GamingPodcast #PCGamer #PCGamin
+   [image, no description]
+16. @popgeeks.bsky.social (PopGeeks) · 28h · likes 1 · replies 0 · pcGaming
+   https://bsky.app/profile/popgeeks.bsky.social/post/3my4nbinox22x
+   ICYMI: You Probably Shouldn’t Store Your Credit Card Info On The Epic Games Store: Whenever people rag on the Epic Games Store, I remind them competition is a good thing and that if they lean on one market (like Steam) for… #EpicGamesStore #CreditCardSecurity #GamingCommunity #St
+   [link card: You Probably Shouldn’t Store Your Credit Card Info On The Epic Games Store]
+17. @feed.igeek.gamer-geek-news.com.ap.brid.gy (input) · 28h · likes 1 · replies 0 · pcGaming
+   https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3my4mxwqn4zt2
+   📰 **Dementium II coming to Steam on October 20** Atooi will release horror first-person shooter sequel Dementium II for PC via Steam on October … 📰 Source: Gematsu 🔗 Link: https://www.gematsu.com/2026/10/dementium-ii-coming-to-steam-on-october-20 #SteamDeck #PCGaming
+   [link card: ]
+18. @urazon1.bsky.social · 28h · likes 3 · replies 1 · pcGaming
+   https://bsky.app/profile/urazon1.bsky.social/post/3my4mrmnvbr25
+   Real-time roguelike battles with deck-building and a roster of fighters to grow. Now on Urazon: Sun Halo (Steam, Global key) for €3.94, with instant digital delivery. https://urazon.com/Sun-Halo-Steam-Key-Global #SunHalo #PCGaming
+   [image: Urazon promo for Sun Halo Steam Key Global: original game cover with the price €3.94.]
+19. @mintyroot.bsky.social (Minty Root) · 28h · likes 1 · replies 0 · deck
+   https://bsky.app/profile/mintyroot.bsky.social/post/3my4koscef22p
+   For video games, I wouldn't be surprised if it comes down to people playing early games that either ran at 540p and scaled up to 720p, or 720p games that used filtering to smooth out artifacts. I got a Steam Deck and games look great on that low res display.
+20. @draycun64.blacksky.app (🐲☀️Draycûn||Comms Open 0/4 ☀️🐲) · 30h · likes 1 · replies 0 · bundles
+   https://bsky.app/profile/draycun64.blacksky.app/post/3my4gatfmnk2h
+   Got Psychonauts 2 from a friend's humble bundle deal and im enjoying the game already. I love the humor carried over from the first game and the extended lore about how the psychonauts came to be is really neato to know about
+21. @mrmartini.bsky.social (MrMartini) · 2h · likes 0 · replies 0 · broadPlaying
+   https://bsky.app/profile/mrmartini.bsky.social/post/3my7bxq5qj225
+   Looks cool but not my kind of game, said the guy currently playing Nighthawks.
+22. @maotenno.bsky.social (Mao Mao!) · 7h · likes 3 · replies 0 · broadAsk
+   https://bsky.app/profile/maotenno.bsky.social/post/3my6qqskrf22r
+   Umarangi Generation was one the best indie games I've ever played. The sheer rage in the ending of the DLC just...yeah picking this up this month for sure.
+23. @yayforzig.bsky.social (Cody Ziglar) · 9h · likes 21 · replies 2 · gamingLiked
+   https://bsky.app/profile/yayforzig.bsky.social/post/3my6mnzulfs22
+   No AAA game could dream of coming close to this level of game design!!!
+   [quotes @timeproof.games: Riding Fight (Arcade, Taito, 1992)]
+24. @hayleymulch.com (hylyween 🎃🍭) · 12h · likes 2 · replies 0 · broadPlaying
+   https://bsky.app/profile/hayleymulch.com/post/3my6axnnyws2p
+   Just finished my yearly rewatching of this whole game. #FAITHtheUnholyTrinity #ArtSky #HylysArt #VideoGames
+   [quotes @hayleymulch.com: CW: gore, blood, horror it's that time of year again where I like to share my FAITH fan art cos I adore these games (even if I perhaps enjo…]
+25. @wearywraith.bsky.social (Weary Wraith 😴🏳️‍⚧️) · 13h · likes 2 · replies 0 · broadPlaying
+   https://bsky.app/profile/wearywraith.bsky.social/post/3my65e3a7lc2d
+   I should probably get back into Fortunes Weave but the motivation kinda died after I finished Leda's path I fucking loved it but I feel like I just finished a complete FE game and want to do something different but I have this feeling in the back of my head that I know it's not d
 
 ## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @vikintor.bsky.social (⛧Vikintor⛧ 🇧🇷) · 5h · likes 40 · replies 0 · question · broadAsk
-   https://bsky.app/profile/vikintor.bsky.social/post/3my6fwhs7i327
-   Youtube video: "I turned this classic game into ****** style" Me: "Cool, let's check it out how it was made" Youtube: "...Using AI" Me: *clicks on 'Do not recommend me this channel'
-2. @miikarin.bsky.social (miika) · 7h · likes 10 · replies 1 · question · ai
-   https://bsky.app/profile/miikarin.bsky.social/post/3my65icfzec2b
-   I was installing demos for my next fest stream and this one went: install demo, scroll down on page, uninstall demo. I have too many demos I want to play and not enough time to spare for games that use AI generated content. want to know some of the demos I will be playing? see th
-   [image: a screenshot of an AI Generated Content Disclosure from Steam saying that the developers used AI generated content]
+1. @codedanexe.bsky.social (CodeDanEXE 💻🎙) · 12h · likes 4 · replies 1 · question · ai
+   https://bsky.app/profile/codedanexe.bsky.social/post/3my6beykiok2l
+   This week is Steam Next Fest! That means I'll be streaming every night around 8 PM ET! I'm already seeing some great demos that will be available but I'm always open to requests and suggestions! As usual, I will not be playing any games that use generative AI! See you guys then! 
+   [image, no description]
+2. @mitha.northsky.social (MithaVT 🏳️‍⚧️) · 1h · likes 9 · replies 0 · ai
+   https://bsky.app/profile/mitha.northsky.social/post/3my7fn3yyp22c
+   Epic Games is pro-generative AI and Harry Potter. Steam is not. Trans people and trans allies should not give any money or airtime to Epic Games or Fortnite. Dump Epic Games. #transrights #translivesmatter
+3. @mitha.vt.social.ap.brid.gy (Mitha) · 1h · likes 0 · replies 0 · ai
+   https://bsky.app/profile/mitha.vt.social.ap.brid.gy/post/3my7f6jxbud72
+   Epic Games is pro-generative AI and Harry Potter. Steam is not. Trans people and trans allies should not give any money or airtime to Epic Games or Fortnite. Dump Epic Games.
