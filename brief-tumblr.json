@@ -1,59 +1,10 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-10-18T11:18:10.116Z",
-  "builtBy": "commit 2ed9ed2, schedule, run #19 attempt 1",
-  "pricesCheckedAt": "2026-10-18T09:55:39.038Z",
+  "generatedAt": "2026-10-19T11:25:43.778Z",
+  "builtBy": "commit 5d4e630, schedule, run #20 attempt 1",
+  "pricesCheckedAt": "2026-10-19T10:08:11.342Z",
   "warnings": [],
   "candidates": [
-    {
-      "id": "gog-system-shock-enhanced-edition",
-      "kind": "deal",
-      "title": "System Shock: Enhanced Edition",
-      "store": "GOG",
-      "price": 1.99,
-      "was": 9.99,
-      "discount": 80,
-      "endsAt": "2026-10-20T09:59:00+03:00",
-      "endsInHours": 44,
-      "priceCheckedAt": "2026-10-18T09:55:31.427Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/410710/header.jpg?t=1774275834",
-      "drminfo": null,
-      "coverAlt": "Cover art for System Shock: Enhanced Edition",
-      "facts": {
-        "year": 1994,
-        "genres": [
-          "Shooter",
-          "FPP",
-          "Sci-fi"
-        ],
-        "tags": [
-          "Sci-fi",
-          "Classic",
-          "First-Person",
-          "Science",
-          "FPS",
-          "Shooter"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 11,
-      "discountRank": 9,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 9,
-        "lowest": false,
-        "since": "2026-10-10"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/system-shock-enhanced-edition/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-18",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "sale ends in 44 h",
-        "deepest-discount rank 9 of 13"
-      ]
-    },
     {
       "id": "gog-outward-definitive-edition",
       "kind": "deal",
@@ -63,8 +14,8 @@
       "was": 39.99,
       "discount": 95,
       "endsAt": "2026-10-22T16:00:00+03:00",
-      "endsInHours": 98,
-      "priceCheckedAt": "2026-10-18T09:55:31.427Z",
+      "endsInHours": 74,
+      "priceCheckedAt": "2026-10-19T10:08:02.722Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/794260/header.jpg?t=1787229712",
       "drminfo": null,
       "coverAlt": "Cover art for Outward Definitive Edition",
@@ -95,20 +46,21 @@
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 10.5,
+      "score": 11.5,
       "discountRank": 1,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 13,
-        "lowest": false,
+        "days": 14,
+        "lowest": true,
         "since": "2026-10-05"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/outward-definitive-edition/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-18",
+      "link": "https://saveandplay.com/deals/gog/outward-definitive-edition/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-19",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 1 of 13"
+        "lowest price we've tracked (14 days of data)",
+        "deepest-discount rank 1 of 17"
       ]
     },
     {
@@ -120,8 +72,8 @@
       "was": 19.99,
       "discount": 90,
       "endsAt": "2026-10-27T09:59:00+02:00",
-      "endsInHours": 213,
-      "priceCheckedAt": "2026-10-18T09:55:31.427Z",
+      "endsInHours": 189,
+      "priceCheckedAt": "2026-10-19T10:08:02.722Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/290300/header.jpg?t=1778077786",
       "drminfo": null,
       "coverAlt": "Cover art for Rebel Galaxy",
@@ -154,15 +106,15 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 1,
+        "days": 2,
         "lowest": false,
         "since": "2026-10-18"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/rebel-galaxy/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-18",
+      "link": "https://saveandplay.com/deals/gog/rebel-galaxy/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-19",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 3 of 13"
+        "deepest-discount rank 3 of 17"
       ]
     },
     {
@@ -174,8 +126,8 @@
       "was": 29.99,
       "discount": 90,
       "endsAt": "2026-10-27T09:59:00+02:00",
-      "endsInHours": 213,
-      "priceCheckedAt": "2026-10-18T09:55:31.427Z",
+      "endsInHours": 189,
+      "priceCheckedAt": "2026-10-19T10:08:02.722Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804",
       "drminfo": null,
       "coverAlt": "Cover art for Metro Exodus",
@@ -213,15 +165,15 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 1,
+        "days": 2,
         "lowest": false,
         "since": "2026-10-18"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-18",
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-19",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 2 of 13"
+        "deepest-discount rank 2 of 17"
       ]
     },
     {
@@ -233,8 +185,8 @@
       "was": 39.99,
       "discount": 79,
       "endsAt": "2026-10-19T23:59:00Z",
-      "endsInHours": 37,
-      "priceCheckedAt": "2026-10-18T09:55:39.038Z",
+      "endsInHours": 13,
+      "priceCheckedAt": "2026-10-19T10:08:11.342Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138710/header.jpg?t=1782742326",
       "drminfo": "Steam key",
       "coverAlt": "Cover art for Sifu",
@@ -249,64 +201,103 @@
       "marketplace": false,
       "compareTo": null,
       "score": 9.9,
-      "discountRank": 11,
+      "discountRank": 15,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 10,
+        "days": 11,
         "lowest": false,
         "since": "2026-10-05"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/indiegala/sifu/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-18",
+      "link": "https://saveandplay.com/deals/indiegala/sifu/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-19",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 37 h",
-        "deepest-discount rank 11 of 13"
+        "sale ends in 13 h",
+        "deepest-discount rank 15 of 17"
+      ]
+    },
+    {
+      "id": "gog-xcom-2",
+      "kind": "deal",
+      "title": "XCOM 2",
+      "store": "GOG",
+      "price": 2.99,
+      "was": 19.99,
+      "discount": 85,
+      "endsAt": "2026-10-27T09:59:00+02:00",
+      "endsInHours": 189,
+      "priceCheckedAt": "2026-10-19T10:08:02.722Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268500/header.jpg?t=1772813016",
+      "drminfo": null,
+      "coverAlt": "Cover art for XCOM 2",
+      "facts": {
+        "year": 2016,
+        "genres": [
+          "Strategy",
+          "Turn-based",
+          "Sci-fi"
+        ],
+        "tags": [
+          "Strategy",
+          "Sci-fi",
+          "Turn-Based",
+          "Science",
+          "Tactical",
+          "Perma Death"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 9.5,
+      "discountRank": 7,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 7,
+        "lowest": false,
+        "since": "2026-10-13"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/xcom-2/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-19",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 7 of 17"
       ]
     }
   ],
   "gogNews": [],
   "topical": [
     {
-      "title": "Sega pulls Total War: Shogun 2 - Complete Edition from sale amid AI accusations, admitting it has \"fallen short\"",
-      "source": "Eurogamer",
-      "link": "https://www.eurogamer.net/total-war-shogun-2-complete-edition-pulled-from-sale",
-      "t": 1792258088000,
-      "keyword": "sale",
-      "summary": "Sega and Creative Assembly are temporarily removing Total War: Shogun 2 - Complete Edition from sale just days after release. Read more"
-    },
-    {
-      "title": "Ghostwire: Tokyo joins GOG Preservation Program, which means you don't have to deal with Bethesda.NET anymore",
+      "title": "Man moved to tears by RTX 5090 on his wedding day - $9000+ price tag brings a tear to my eye too",
       "source": "PC Gamer",
-      "link": "https://www.pcgamer.com/games/action/ghostwire-tokyo-joins-gog-preservation-program-which-means-you-dont-have-to-deal-with-bethesda-net-anymore/",
-      "t": 1792251938000,
-      "keyword": "deal",
-      "summary": "Ghostwire: Tokyo, Tango Gameworks' spooky, neon-drenched action-adventure game, is now officially a good old game. Granted, it's not that old, but 'good' seems…"
+      "link": "https://www.pcgamer.com/hardware/graphics-cards/man-moved-to-tears-by-rtx-5090-on-his-wedding-day-usd9000-price-tag-brings-a-tear-to-my-eye-too/",
+      "t": 1792405755000,
+      "keyword": "price",
+      "summary": "@news.com.au ♬ original sound - News.com.au"
     },
     {
-      "title": "New FREE games this weekend: your comprehensive roundup",
-      "source": "gg.deals Freebies",
-      "link": "https://gg.deals/freebie/new-free-games-this-weekend-your-comprehensive-roundup/",
-      "t": 1792242720000,
-      "keyword": "free",
-      "summary": "Looking for something new to play this weekend? Plenty of fresh free games have popped up since our last roundup, and you can find them all right here."
-    },
-    {
-      "title": "New feature: see which Steam games are in Game Pass with the GG.deals Extension",
+      "title": "Save on AC Black Flag Resynced and more Ubisoft hits in Gamesplanet's latest sale!",
       "source": "gg.deals News",
-      "link": "https://gg.deals/announcement/new-feature-see-which-steam-games-are-in-game-pass-with-the-ggdeals-extension/",
-      "t": 1792242000000,
-      "keyword": "deals",
-      "summary": "Game Pass, EA Play, PlayStation Plus, and Ubisoft+ availability, all in one bar."
+      "link": "https://gg.deals/deal/gamesplanet-ubisoft-promo-october-2026/",
+      "t": 1792396860000,
+      "keyword": "sale",
+      "summary": "Gamesplanet is offering discounts on nearly 200 items, including Assassin's Creed games, Star Wars Outlaws, and plenty more."
+    },
+    {
+      "title": "23 devs teamed up to make a free game of 'innovative yet questionable volume sliders,' and it feels like browser-based WarioWare",
+      "source": "PC Gamer",
+      "link": "https://www.pcgamer.com/games/23-devs-teamed-up-to-make-a-free-game-of-innovative-yet-questionable-volume-sliders-and-it-feels-like-browser-based-warioware/",
+      "t": 1792362982000,
+      "keyword": "free",
+      "summary": "Volume.art is a nice, free, cool thing on the internet, and I just think that's something worth celebrating these days. The microgame collection sees you manip…"
     }
   ],
   "topics": [
     {
-      "headline": "This all-new Humble Bundle gets you 16 games for just $12!",
-      "score": 10,
+      "headline": "Humble Serenity Forge Emotional Impact Bundle: 18 Steam Items for Just $12",
+      "score": 7,
       "sites": [
-        "gg.deals",
         "indiegamebundles.com"
       ],
       "keywords": [
@@ -316,42 +307,30 @@
       "games": [],
       "items": [
         {
-          "source": "gg.deals News",
-          "title": "This all-new Humble Bundle gets you 16 games for just $12!",
-          "link": "https://gg.deals/bundle/this-all-new-humble-bundle-gets-you-16-games-for-just-12/",
-          "published": "2026-10-16T19:49:00.000Z"
-        },
-        {
           "source": "Indie Game Bundles",
-          "title": "Humble Bundle’s The Factory Must Grow Bundle: 8 Steam Games for $12",
-          "link": "https://www.indiegamebundles.com/humble-bundles-the-factory-must-grow-bundle-8-steam-games-for-12/",
-          "published": "2026-10-16T17:14:07.000Z"
+          "title": "Humble Serenity Forge Emotional Impact Bundle: 18 Steam Items for Just $12",
+          "link": "https://www.indiegamebundles.com/humble-serenity-forge-emotional-impact-bundle-18-steam-items-for-just-12/",
+          "published": "2026-10-18T17:11:08.000Z"
         }
       ]
     },
     {
-      "headline": "Fanatical’s Culinary Capers Bundle: Build Your Own Cooking Games Bundle from $6.99",
-      "score": 8,
+      "headline": "Humble Double Fine Publisher Bundle: 11 Steam Games for Just $8",
+      "score": 7,
       "sites": [
-        "gg.deals",
         "indiegamebundles.com"
       ],
       "keywords": [
-        "bundle"
+        "bundle",
+        "humble"
       ],
       "games": [],
       "items": [
         {
-          "source": "gg.deals News",
-          "title": "Fanatical's Cook Up Your Own Culinary Capers Bundle serves up 11 cooking games to choose from!",
-          "link": "https://gg.deals/bundle/fanaticals-cook-up-your-own-culinary-capers/",
-          "published": "2026-10-16T14:30:00.000Z"
-        },
-        {
           "source": "Indie Game Bundles",
-          "title": "Fanatical’s Culinary Capers Bundle: Build Your Own Cooking Games Bundle from $6.99",
-          "link": "https://www.indiegamebundles.com/fanaticals-culinary-capers-bundle-build-your-own-cooking-games-bundle-from-6-99/",
-          "published": "2026-10-17T11:16:00.000Z"
+          "title": "Humble Double Fine Publisher Bundle: 11 Steam Games for Just $8",
+          "link": "https://www.indiegamebundles.com/humble-double-fine-publisher-bundle-11-steam-games-for-just-8/",
+          "published": "2026-10-18T16:52:45.000Z"
         }
       ]
     },
@@ -376,46 +355,45 @@
       ]
     },
     {
-      "headline": "Bag Humble's Double Fine Bundle and get 8 Steam keys for $11!",
-      "score": 7,
+      "headline": "Life has once again found a way in Athanasia, an \"immersive\" dinosaur FPS that feels like comfort food for Dino Crisis and System Shock players alike",
+      "score": 6,
       "sites": [
-        "gg.deals"
+        "rockpapershotgun.com"
       ],
-      "keywords": [
-        "bundle",
-        "humble"
+      "keywords": [],
+      "games": [
+        "System Shock: Enhanced Edition"
       ],
-      "games": [],
       "items": [
         {
-          "source": "gg.deals News",
-          "title": "Bag Humble's Double Fine Bundle and get 8 Steam keys for $11!",
-          "link": "https://gg.deals/bundle/bag-humbles-double-fine-bundle-and-get-8-steam-keys-for-11/",
-          "published": "2026-10-16T20:18:00.000Z"
+          "source": "Rock Paper Shotgun",
+          "title": "Life has once again found a way in Athanasia, an \"immersive\" dinosaur FPS that feels like comfort food for Dino Crisis and System Shock players alike",
+          "link": "https://www.rockpapershotgun.com/life-has-once-again-found-a-way-in-athanasia-an-immersive-dinosaur-fps-that-feels-like-comfort-food-for-dino-crisis-and-system-shock-players-alike",
+          "published": "2026-10-19T11:17:27.000Z"
         }
       ]
     },
     {
-      "headline": "The Blood of Dawnwalker's first major update will add directional animal petting and a new story mode that's easier than the previous story mode",
+      "headline": "Vampire: The Masquerade - Bloodlines remaster or remake rumours begin to flow, reportedly in part thanks to a metal band from the original's score",
       "score": 6,
       "sites": [
-        "pcgamer.com",
+        "rockpapershotgun.com",
         "eurogamer.net"
       ],
       "keywords": [],
       "games": [],
       "items": [
         {
-          "source": "PC Gamer",
-          "title": "The Blood of Dawnwalker's first major update will add directional animal petting and a new story mode that's easier than the previous story mode",
-          "link": "https://www.pcgamer.com/games/rpg/the-blood-of-dawnwalkers-first-major-update-will-add-directional-animal-petting-and-a-new-story-mode-thats-easier-than-the-previous-story-mode/",
-          "published": "2026-10-17T13:53:20.000Z"
+          "source": "Rock Paper Shotgun",
+          "title": "Vampire: The Masquerade - Bloodlines remaster or remake rumours begin to flow, reportedly in part thanks to a metal band from the original's score",
+          "link": "https://www.rockpapershotgun.com/vampire-the-masquerade-bloodlines-remaster-or-remake-rumours-begin-to-flow-reportedly-in-part-thanks-to-a-metal-band-from-the-originals-score",
+          "published": "2026-10-19T10:41:01.000Z"
         },
         {
           "source": "Eurogamer",
-          "title": "The Blood of Dawnwalker Update 1.1 adds an easier Story mode, a respec potion and animal petting",
-          "link": "https://www.eurogamer.net/blood-of-dawnwalker-update-1-1-story-mode-pet-animals",
-          "published": "2026-10-17T11:18:21.000Z"
+          "title": "Vampire: The Masquerade - Bloodlines remaster rumoured, with leaker insisting it's not a remake",
+          "link": "https://www.eurogamer.net/vampire-the-masquerade-bloodlines-remaster-rumour",
+          "published": "2026-10-17T18:28:40.000Z"
         }
       ]
     }
@@ -425,7 +403,7 @@
     "hidden": 0,
     "notNiche": 0,
     "noFacts": 0,
-    "taken": 1,
+    "taken": 2,
     "smallDiscount": 0,
     "ended": 0,
     "endsTooSoon": 0,

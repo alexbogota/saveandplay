@@ -1,8 +1,6 @@
-# Brief: Retro game deals (@retrogamedeals.bsky.social), 2026-10-18 11:18 UTC
-Prices checked 2026-10-18 09:55 UTC (1 h ago). News: 11 of 11 sources read, 70 items from the last 48 h, 0 of 0 offered deals mentioned.
-Niche Retro: 2 games fit the rule today (0 of them can be posted now).
-WARNING: NOTHING TO OFFER today.
-WARNING: No game fits the niche today (2 fit the rule, 11 do not, 0 have no facts yet, 2 were taken by another account today, 0 under 50%, 0 prices older than 48 h, 0 sales over or ending soon).
+# Brief: Retro game deals (@retrogamedeals.bsky.social), 2026-10-19 11:25 UTC
+Prices checked 2026-10-19 10:08 UTC (1 h ago). News: 11 of 11 sources read, 58 items from the last 48 h, 1 of 1 offered deals mentioned.
+Niche Retro: 2 games fit the rule today (1 of them can be posted now).
 
 Write ONE post about the first item below (take another one only if it looks wrong, and say why).
 Rules:
@@ -12,6 +10,14 @@ Rules:
 - If no game fits today, the post file says NO POST TODAY. Never take any game just to fill the day.
 - Use only the numbers in this brief (price, was, discount, dates). Never invent or round prices. The last line is Ad (plain text, not a hashtag).
 
-Left out: 16 other-store deals, 0 hidden duplicates, 0 under 50%, 0 ended, 0 ending within 6 h, 0 old prices, 11 outside the niche, 0 without facts, 2 taken by another account today.
+## 1. System Shock: Enhanced Edition: GOG $1.99 (was $9.99, -80%)
+Sale ends 2026-10-20 06:59 UTC (in 20 h). Price checked 2026-10-19 10:08 UTC. Score 14.
+Why today: 1 news site wrote about the game in the last 48 h; sale ends in 20 h; deepest-discount rank 1 of 1.
+- Rock Paper Shotgun, Oct 19: "Life has once again found a way in Athanasia, an "immersive" dinosaur FPS that feels like…" https://www.rockpapershotgun.com/life-has-once-again-found-a-way-in-athanasia-an-immersive-dinosaur-fps-that-feels-like-comfort-food-for-dino-crisis-and-system-shock-players-alike
+Link for the post (link to our site): https://saveandplay.com/deals/gog/system-shock-enhanced-edition/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-19
+Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/410710/header.jpg?t=1774275834
+Alt text: Cover art for System Shock: Enhanced Edition
+
+Left out: 16 other-store deals, 0 hidden duplicates, 0 under 50%, 0 ended, 0 ending within 6 h, 0 old prices, 16 outside the niche, 0 without facts, 1 taken by another account today.
 Sources not read: none.
-Built by: commit 2ed9ed2, schedule, run #19 attempt 1.
+Built by: commit 5d4e630, schedule, run #20 attempt 1.

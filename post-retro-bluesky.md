@@ -1,1 +1,8 @@
-NO POST TODAY: No deal passes the rules today. NOTHING TO OFFER today. No game fits the niche today (2 fit the rule, 11 do not, 0 have no facts yet, 2 were taken by another account today, 0 under 50%, 0 prices older than 48 h, 0 sales over or ending soon).
+System Shock: Enhanced Edition: -80% at GOG
+$1.99 (was $9.99)
+Price checked Oct 19. Sale ends Oct 20.
+
+https://saveandplay.com/deals/gog/system-shock-enhanced-edition/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-19
+
+#RetroGaming #GameDeals #GOG
+Ad
