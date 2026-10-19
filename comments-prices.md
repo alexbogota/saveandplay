@@ -1,106 +1,113 @@
 # Comment candidates: prices (@saveandplay.com)
-Made 2026-10-19T12:48Z. Searched: seasonal: horror games recommend | ai: steam AI disclosure | broadPlaying: "what are you playing" this week | broadAsk: "hidden gem" games | waitForSale: "is it worth" "full price" game | backlog: "something to play" steam | deck: handheld PC games | bundles: itch.io bundle | practical: "physical vs digital" games | genres: co-op games pc | pcGaming: feed | gamingLiked: feed.
-Posts below: 25 + 2 heated. Dropped in this run: low score 7, replies are limited 3, not about games 23, skip word 61, already shown 6, console only 3, bot, shop or studio 35, many links 2, promo (link and hashtags) 9, other language (text) 4, earlier finds: low score 2.
+Made 2026-10-19T18:47Z. Searched: seasonal: halloween games pc | ai: generative AI games steam | broadPlaying: "best game" "this year" played | broadAsk: "games like" recommend | waitForSale: "wait for a sale" | backlog: steam backlog | deck: steam deck games | bundles: pay what you want games | practical: steam refund | genres: city builder recommendations | pcGaming: feed | gamingLiked: feed.
+Posts below: 25 + 3 heated. Dropped in this run: bot, shop or studio 42, already shown 11, low score 7, not about games 8, skip word 66, own post 4, replies are limited 5, already answered 4, promo (link and hashtags) 10, too short 3, many links 1, other language (text) 4, console only 2, earlier finds: low score 1.
 
 ## Posts
-1. @voylin.bsky.social (Voylin) · 8h · likes 3 · replies 0 · question · pcGaming
-   https://bsky.app/profile/voylin.bsky.social/post/3my7bunlnts2c
-   Somebody has advice? I don't have access to my files in my application on Steam. Thought it was a mistake on my side so I tried Godot on Steam, same thing! Steam Linux Runtime 1.0 - 3.0 don't give me file access, only the legacy runtime! No idea how to fix this issue :/ #godot #s
-2. @feed.igeek.gamer-geek-news.com.ap.brid.gy (input) · 12h · likes 2 · replies 0 · question · pcGaming
-   https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3my6vdma6duz2
-   🎮 **Is Boltgun 2 Steam Deck Verified?** Learn how Warhammer 40,000: Boltgun 2 runs on Steam Deck and what Valve's compatibility rating covers. 📰 Source: Gamepur 🔗 Link: https://www.gamepur.com/guides/is-boltgun-2-steam-deck-verified #SteamDeck #PCGaming
-3. @gamizm.com (Gamizm) · 6h · likes 0 · replies 0 · question · pcGaming
-   https://bsky.app/profile/gamizm.com/post/3my7ja623222f
-   Steam Next Fest 19 Ekim 20.00'de başlıyor, 26 Ekim 20.00'ye (TSİ) kadar sürüyor. Henüz çıkmamış yüzlerce oyunun ücretsiz demosu ve geliştirici yayınları festivalde. İlk hangi demoyu deneyeceksin? #SteamNextFest #Steam
-   [image: Steam Next Fest Ekim 2026]
-4. @spikedigital.bsky.social (Spike Digital) · 9h · likes 0 · replies 0 · question · pcGaming
-   https://bsky.app/profile/spikedigital.bsky.social/post/3my77hdn7oc26
-   I just realized, if you asked me at any time, what apps are consistently up and running while I'm on pc? A browser, image editor, and almost always Steam. Even if I'm not gaming, which is probably the best review I could give. Even when I'm not using you, I give you my precious r
-5. @respawnwire.bsky.social (Respawnwire Gaming) · 10h · likes 0 · replies 0 · question · pcGaming
-   https://bsky.app/profile/respawnwire.bsky.social/post/3my737fnjt72q
-   🔥 THIS IS HUGE: Don Bradman Cricket Jr Announced for PC and Consoles Thoughts? 1. Hyped 🔥 2. Skeptical 🤨 3. Neutral 😐 4. Don't care 💤 #SteamDeck
-   [link card: Don Bradman Cricket Jr Announced for PC and Consoles]
-6. @hauntedfxrest.bsky.social (⁺₊‧⁺˖𖤐𝙱 𝙾 𝙽 𝙴 𝚂𖤐˖⁺‧₊⁺) · 14h · likes 5 · replies 1 · question · genres
-   https://bsky.app/profile/hauntedfxrest.bsky.social/post/3my6psoqee22q
-   Looking for moots! 🩵🦋✨ 🩵| 🔃 | 💬 | follows welcomed-🦋 Drumroll for #promosky ✨ ✨Streamer ✨Artist ✨Noodles/Sushi ✨TLOU 1&2 ✨Oui’d 🍃 ✨Witchcraft ✨Dead By Daylight ✨Gaming/PC ✨Ghost hunting ✨Garfield ✨Horror movies ✨R.E.P.O. ✨Wet specimens / Oddities ✨Co-op games ~ Lots O 🩵✨
-7. @redwolfspecter.bsky.social (RedWolfSpecter) · 4h · likes 2 · replies 0 · pcGaming
-   https://bsky.app/profile/redwolfspecter.bsky.social/post/3my7rj62cf227
-   Fortnite fans! Please show some love to my friend’s map by using the code: 8342-4019-5172. Play test/feedback will help him out. #fortnite #gamers #videogames #videogames #pcgaming #consolegaming #gamerlife
+1. @nate-buck.bsky.social (Nate Buck) · 2h · likes 5 · replies 0 · question · pcGaming
+   https://bsky.app/profile/nate-buck.bsky.social/post/3myakfulfpc2b
+   Looking for deep, tactical games in #Steam #NextFest? Chaos Coin is a roguelike coinbuilder with 1D combat. 🟡⚪ 2 actions per coin. Upgrade them independently! 🦊🦆 2 characters per run. Mix and match their coins! ⚔️🕑 Lane-based battles. Slot sequences of coins. store.steampower
    [video, no description]
-8. @astrariumdigital.bsky.social (Astrarium Digital) · 4h · likes 3 · replies 1 · pcGaming
-   https://bsky.app/profile/astrariumdigital.bsky.social/post/3my7r2hsl6l2y
-   An infinite #scifi runner, with a tragic storyline... #Buy Orbital on #Steam right now! #play the amazing #demo to get you started! #marketingmonday #indie #game #pc #infiniterunner #2d
+2. @2ladiesgame.bsky.social (2SouthernLadiesGame) · 3h · likes 1 · replies 0 · question · pcGaming
+   https://bsky.app/profile/2ladiesgame.bsky.social/post/3myaiu57l7c2z
+   Hey y'all! We're back. Loulou is still out, so Kit will be solo this week. She's going to play #dressmaker today. If you have recommendations for games please let us know #goodvibes #pcgaming #femalestreamer #wholesomelyunhinged #girlgamer #pngtuber #disabilityawareness #gaming
+   [link card: Jack Sparrow Says SPOOKY - Johnny Depp]
+3. @indiegamebrief.bsky.social (Indie Game Brief) · 3h · likes 1 · replies 1 · question · pcGaming
+   https://bsky.app/profile/indiegamebrief.bsky.social/post/3myaiq2d74c2w
+   Online: 404 makes you survive with a smartphone, not a magic crafting menu. Which one sounded most real to you? #gaming #Online404 #Steam
    [video, no description]
-9. @urazon1.bsky.social · 6h · likes 1 · replies 0 · pcGaming
-   https://bsky.app/profile/urazon1.bsky.social/post/3my7kg4xudm2w
-   Travel the realms while Odin’s forces prepare a prophesied battle. God of War Ragnarök (Steam) is €37.05 on Urazon. Instant digital delivery. https://urazon.com/God-of-War-Ragnaroek-Steam-Key-EU #GodOfWarRagnarok #PCGaming
-   [image: Urazon promo for God of War Ragnarök Steam Key EU: original game cover with the price €37.05.]
-10. @checrawford.bsky.social (The Immortal Think Tank) · 42m · likes 27 · replies 0 · gamingLiked
-   https://bsky.app/profile/checrawford.bsky.social/post/3mya3gcojm22g
-   How turned based games sometimes feel 😆 inspired by today’s DnDtober prompt ‘movement.’ #dnd #ttrpg #dungeonsanddragons #comics #Gaming
+4. @plaster.gay (Plaster) · 4h · likes 2 · replies 1 · question · pcGaming
+   https://bsky.app/profile/plaster.gay/post/3myafgi7pc22x
+   My #steamframe now #frame is now ready to #steam play wired #vr, isn't it epic??
+   [image: Steamed frame but with a bunch of shit attached to it (Logitech chorus, usb c port replicator dongle, usb Ethernet dongle connected to ethernet eith the lights…; quotes @plaster.gay: We got steam frame index audio strap at home While using the Logitech chorus for this kind of works (not with this wiring), valve wasn't ly…]
+5. @quorniya.bsky.social (quorniya) · 21h · likes 16 · replies 2 · question · backlog
+   https://bsky.app/profile/quorniya.bsky.social/post/3my6mavovos2t
+   lmao who is actually going to buy console at these prices?? i’ll stick with my steam backlog and switch 2, thanks.
+   [quotes @videogameschronicle.com: PlayStation 6’s memory costs alone exceed $680 per console, it’s claimed, potentially suggesting an unprecedented price tag for the next-ge…]
+6. @huelebicho.bsky.social (franoween 👻🎃) · 24h · likes 1 · replies 2 · question · backlog
+   https://bsky.app/profile/huelebicho.bsky.social/post/3my6avo4erc2p
+   i'm thinking of buying either a PS4 or 5 secondhand, bc i do have a few PS4 games just gathering dust that i don't want to sell 😅 Steam is a good shout but maybe as a last resort i'm more of a console girlie. at least until i get a proper good computer! i also have such a large 
+7. @phusion.bsky.social (phusion) · 2h · likes 1 · replies 0 · question · pcGaming
+   https://bsky.app/profile/phusion.bsky.social/post/3myamdwvf422z
+   In the time of #RAMAgeddon this is a pretty nice deal if you're stuck looking for a new prebuilt after prices went through the roof. This is a mostly solid 1440p build. #PCGaming www.tomshardware.com/desktops/gam...
+   [link card: Save $500 on this 1440p gaming PC with an RTX 5070, now under $1,800 — ABS Flux II Aqua rig ships w…]
+8. @lieutenantwinslow.bsky.social (lt. winslow) · 27h · likes 3 · replies 0 · question · broadPlaying
+   https://bsky.app/profile/lieutenantwinslow.bsky.social/post/3my5ydwoses22
+   we were walking out of the stadium last night, FSU fans talking about him getting fired, I'm like FIRED?!!?!??! that's the best game anyone has played against Miami this year
+9. @lukathemouse.gay (🐁 Luka The Mouse - SQUEAKROSS 🧩) · 1h · likes 3 · replies 2 · deck
+   https://bsky.app/profile/lukathemouse.gay/post/3myao4zbjyk2c
+   Prerolled is made by another dev friend @qaqelol.bsky.social , it's a roguelike dice(deck)builder, I love roguelite games, it's addictive to play, the art is incrediblely cute and I just can't wait for the release!! store.steampowered.com/app/4476380/...
+   [link card: Prerolled Demo on Steam]
+10. @staticmm.bsky.social (Static Multimedia) · 1h · likes 1 · replies 0 · pcGaming
+   https://bsky.app/profile/staticmm.bsky.social/post/3myanoflris2q
+   Ashfield Hollow Launches Hardcore Survival Challenge for #Steam #NextFest #videogames
+   [link card: Ashfield Hollow Launches Hardcore Survival Challenge for Steam Next Fest]
+11. @joshuamcvey.bsky.social · 1h · likes 1 · replies 0 · deck
+   https://bsky.app/profile/joshuamcvey.bsky.social/post/3myankce23s2c
+   Agree, but with Souls games…which I play on my Steam Deck connected to my TV
+12. @feles-machina.bsky.social (Cat) · 1h · likes 5 · replies 0 · pcGaming
+   https://bsky.app/profile/feles-machina.bsky.social/post/3myanfklez22v
+   Steam's NextFest is live and the DEEP SIX demo has the corner on the market for WW1 Stealth games. Literally the only one by those filters! store.steampowered.com/app/3556510/... #NextFest #Steam
    [image, no description]
-11. @urazon1.bsky.social · 2h · likes 0 · replies 0 · pcGaming
-   https://bsky.app/profile/urazon1.bsky.social/post/3my7y255f3524
-   Majima sails as a pirate, with Mad Dog and Sea Dog styles and cannon fights. Like a Dragon: Pirate Yakuza in Hawaii on Steam, now €6.57 on Urazon with instant digital delivery. https://urazon.com/Like-a-Dragon-Pirate-Yakuza-in-Hawaii-Steam-Key-RoW #LikeADragon #PCGaming
-   [image: Urazon promo for Like a Dragon: Pirate Yakuza in Hawaii Steam Key RoW: original game cover with the price €6.57.]
-12. @horseynight9.bsky.social (HorseyNight (a shy gamer and Fallout fan) · 2h · likes 0 · replies 1 · pcGaming
-   https://bsky.app/profile/horseynight9.bsky.social/post/3my7w2fnpsc2j
-   Layla could use quick snacks on the Monday morning that Fallout New Vegas turns 16 years old. #SteamDeck #FalloutNewVegas
-   [2 images, no description]
-13. @umbramoonlight.bsky.social (Umbra Moonlight  🐈‍⬛ 🦇 🌙) · 5h · likes 8 · replies 4 · pcGaming
-   https://bsky.app/profile/umbramoonlight.bsky.social/post/3my7mdjgmck2e
-   Please be mindful if you are looking to enjoy the Steam Frame and you wear glasses. I tried mine and there is no way my frames sit at all when wearing the set. I can’t see without my glasses so I’m having to get a refund and send it back. Disappointed with Steam tbh….. >.< #steam
-14. @maxkoo.bsky.social (Max Kooijmans) · 6h · likes 1 · replies 0 · pcGaming
-   https://bsky.app/profile/maxkoo.bsky.social/post/3my7iifas7k7l
-   GOOD MORNING "A day without a challenge, is like a day without steam". Photo: Rocco Kadow #steam #stoom #trains #trein #dampf
+13. @geekrealmhub.bsky.social (Geek Realm Hub) · 3h · likes 1 · replies 0 · pcGaming
+   https://bsky.app/profile/geekrealmhub.bsky.social/post/3myaj7ubpks2r
+   Denuvo gets court approval to unmask “voices38”! Discord, Valve and Reddit can now be subpoenaed for identifying information linked to the alleged game cracker. The revised requests target 9 accounts, with records due by Nov. 3. #Denuvo #PCGaming #GeekRealmHub
    [image, no description]
-15. @jamesmarshall92.bsky.social · 7h · likes 2 · replies 0 · pcGaming
-   https://bsky.app/profile/jamesmarshall92.bsky.social/post/3my7gn7xrj22u
-   ​The trailers gave off big GTA mystery vibes, but actually watching gameplay was a snooze. Totally mediocre story and a button-mashing, QTE-heavy combat system straight out of the 360 era. No wonder it couldn't sustain itself. 📉 ​ #Samson #gaming #LiquidSwords #PCGaming #VideoGa
-   [quotes @videogameschronicle.com: Samson developer Liquid Swords has reportedly been declared bankrupt after its developers went unpaid for several months. www.videogameschr…]
-16. @yogomi.com (Yogomi) · 8h · likes 1 · replies 0 · pcGaming
-   https://bsky.app/profile/yogomi.com/post/3my7el3ddz222
-   I unbox the latest gaming controller from @valvesoftware.com @steampowered.com , announced in November 2025, take a closer look at its design and features, and connect it to my gaming PC to get everything set up. #pcgaming #PCGamingSetup #SteamController #Unboxing #Valve
+14. @urazon1.bsky.social · 4h · likes 1 · replies 0 · pcGaming
+   https://bsky.app/profile/urazon1.bsky.social/post/3myafopwwln27
+   Follow Cloud beyond Midgar in FINAL FANTASY VII REBIRTH. Now on Urazon: FINAL FANTASY VII REBIRTH (Steam) for €15.88, with instant digital delivery. https://urazon.com/FINAL-FANTASY-VII-REBIRTH-Steam-Key-RoW #FINALFANTASYVIIREBIRTH #PCGaming
+   [image: Urazon promo for FINAL FANTASY VII REBIRTH Steam Key RoW: original game cover with the price €15.88.]
+15. @karaman.is (Georgios Karamanis) · 4h · likes 1 · replies 0 · pcGaming
+   https://bsky.app/profile/karaman.is/post/3myadto3wr22j
+   Bringing climate anxiety to your gaming breaks! Stripes, my warming stripes screensaver, now runs on the Steam Deck. Steam added custom screensavers last week, and Stripes draws the same ten styles as on the Mac karaman.is/blog/2026/10... #SteamDeck #ShowYourStripes
+   [video: A Steam Deck lying on a wooden table. Its screen shows the global warming stripes, one thin vertical stripe per year, running from dark and pale blues on the l…]
+16. @onepercentlows.bsky.social (One Percent Lows) · 54m · likes 0 · replies 0 · deck
+   https://bsky.app/profile/onepercentlows.bsky.social/post/3myaoqzhpeo2h
+   An open-source project named Xodus Nexus allows Linux and Steam Deck users to play Microsoft Store and PC Game Pass games directly on their systems. #Microsoft
+   [link card: Xodus Nexus launcher lets Linux and Steam Deck users play PC Game Pass locally]
+17. @vettv.bsky.social (VetTV Studios) · 1h · likes 0 · replies 0 · deck
+   https://bsky.app/profile/vettv.bsky.social/post/3myanq2xl4c2t
+   Xodus Nexus is an unofficial, open-source launcher that downloads Microsoft Store/PC Game Pass games and runs them via a patched Proton, no cloud. Deck support is experimental, tested on virtual SteamOS. Not from Microsoft or Valve. #SteamDeck #GamePass vettv-studios.github.io/ve
+   [link card: Xodus Nexus: Unofficial PC Game Pass Launcher for Steam Deck | VetTV Handheld News]
+18. @neilturner.me.uk (Neil Turner) · 2h · likes 0 · replies 0 · bundles
+   https://bsky.app/profile/neilturner.me.uk/post/3myam3zgwwc2p
+   There's a Humble Bundle for the newly-independent Double Fine game studio. 11 games for a minimum payment of about £8.
+   [link card: Double Fine Publisher Bundle]
+19. @afterpat.ch (afterpatch) · 2h · likes 0 · replies 0 · pcGaming
+   https://bsky.app/profile/afterpat.ch/post/3myajydm7tr2q
+   Call of Duty® players are writing about the campaign, and warmly: 79% positive for Oct 13–19, the game's usual is 63%. Far more reviews than usual came in. One review: “The rawest, most hardcore campaign.” #CallOfDuty #Steam #pcgaming
+   [link card: Call of Duty®: player mood spiked — afterpatch]
+20. @vettv.bsky.social (VetTV Studios) · 3h · likes 0 · replies 0 · pcGaming
+   https://bsky.app/profile/vettv.bsky.social/post/3myaggh33lk2m
+   SteamOS & Proton Watch: Decky Loader 3.3.0 fixes breakage from Steam's Oct 13 update and warns on unvetted plugins. GE-Proton11-10 targets a slowdown since 11-8 (fix not yet confirmed in-game). Enshrouded is Deck Verified. #SteamDeck #Proton vettv-studios.github.io/vettv-handhe..
+   [link card: Decky Loader 3.3.0, GE-Proton11-10 and Enshrouded Deck Verified | VetTV Handheld News]
+21. @shaunaitcheson.bsky.social (Shaun Aitcheson) · 9h · likes 18 · replies 2 · deck
+   https://bsky.app/profile/shaunaitcheson.bsky.social/post/3my7trpw26k2y
+   I've been unwell this weekend which gave me the delightful bonus of spending the whole time in bed playing Tenebris Somnia and Penguin Colony on the Steam Deck. Brilliantly crafted games, had a ball with them.
+22. @ischai.xyz (C 🦇 H 🎃 A 👻 I 🐝) · 18h · likes 6 · replies 0 · backlog
+   https://bsky.app/profile/ischai.xyz/post/3my6vy7rcq22l
+   My favorite game on steam is watching my backlog grow
+23. @jakelava.bsky.social (Jake ) · 25h · likes 1 · replies 0 · backlog
+   https://bsky.app/profile/jakelava.bsky.social/post/3my665johrc26
+   Clearing out thee backlog, 19/100 - Animal Well I took my steam deck on holiday with me recently and played most of this on the flights to and from, had a great time. Extremely solid metroidvania that does everything right. 8.5/10
+   [image, no description]
+24. @radiobeartime.com (Mark O’Neill 🐻) · 26h · likes 2 · replies 1 · bundles
+   https://bsky.app/profile/radiobeartime.com/post/3my63whhxlk2r
+   Lads I've finally started hallucinating www.humblebundle.com/books/gamers...
+   [link card: Humble Cookbook Bundle: Gamer's Kitchen Cookbooks by Insight Editions]
+25. @sleepysirenlock.bsky.social (Lock) · 1h · likes 2 · replies 0 · pcGaming
+   https://bsky.app/profile/sleepysirenlock.bsky.social/post/3myanftq56c2m
+   Hey so...that is not packaged meat my guy. #horror #gaming #horrorgaming #pcgaming #spookyseason
    [video, no description]
-17. @urazon1.bsky.social · 10h · likes 2 · replies 0 · pcGaming
-   https://bsky.app/profile/urazon1.bsky.social/post/3my74sqzy6m2i
-   Return to Los Santos with Grand Theft Auto V Enhanced. Grand Theft Auto V Enhanced (Rockstar Games Launcher, EU) is €11.37 on Urazon. Instant digital delivery. https://urazon.com/Grand-Theft-Auto-V-Enhanced-Rockstar-Games-Launcher-Key-EU #PCGaming #ActionGames
-   [image: Urazon promo for Grand Theft Auto V Enhanced Rockstar Games Launcher Key EU: original game cover with the price €11.37.]
-18. @satelenight.bsky.social (Nyte) · 10h · likes 1 · replies 0 · pcGaming
-   https://bsky.app/profile/satelenight.bsky.social/post/3my73jybouc2w
-   I told myself I would play #Aion2 until I got bored of the game and I think im starting to hit that point soon. I atleast want to work on my Spiritmaster next before making a final decision. The game is certainly fun but not fun enough for me to continue playing. #MMORPG #AION2 #
-19. @abbymcraft.bsky.social (Abbymcraft🦇🕸️) · 12h · likes 14 · replies 0 · pcGaming
-   https://bsky.app/profile/abbymcraft.bsky.social/post/3my6x4ho7ws2e
-   These two though🤩🤩🤩 #dressmaker #steam #steamgames #steamdressmaker#fashiongames #cozygames #gaming
-   [2 images: A dressmaker screenshot of a green dress with short puffy sleeves with light green accents / A dressmaker screenshot of a pink dress with Juliet sleeves with blue accents and white lace trim]
-20. @qzproductions.bsky.social (QZ Productions) · 20h · likes 3 · replies 0 · bundles
-   https://bsky.app/profile/qzproductions.bsky.social/post/3my62gcowts26
-   Added a progress bar in the hopes of getting Pavane on Steam :) Every bit counts!! Get the Game + Soundtrack bundle for $1 off through Halloween here: itch.io/s/204549/pav...
-   [image, no description]
-21. @worm.gay (Emma 🪱) · 24h · likes 1 · replies 0 · deck
-   https://bsky.app/profile/worm.gay/post/3my5ndluobc2i
-   Finally got around to playing Wrenny Lee: Witch-for-Hire! by @bitebitebited.bsky.social Very cute game! You should try it too maybe if you like games that are cute, or have six extra dollars you don't want because they're cursed or smell weird or something
-   [image: screenshot i did not steal from the store page because i was too lazy to transfer a screenshot from my steam deck to my laptop]
-22. @aggroveggie13.bsky.social (Aggro Veggie) · 25h · likes 2 · replies 0 · backlog
-   https://bsky.app/profile/aggroveggie13.bsky.social/post/3my5iptgfkk2d
-   Hey friends! Been so busy with a lot of things! Hehehe! But, Aside from watching spooky movies and shows, I am searching through my backlog of games for my spooky season game! 👻I will be sharing what game I end up choosing or maybe purchasing soon.😀 Have and awesome day!
-23. @felipepepe.bsky.social (Felipe Pepe) · 2h · likes 33 · replies 1 · gamingLiked
-   https://bsky.app/profile/felipepepe.bsky.social/post/3my7voj5f7s2a
-   I like how these games are breaking out of Roblox & mobile into the same stores & platforms as "core" / AAA gaming. AAA games are often stale products that claim relevance simply for being the biggest games around, but this makes it clear that no, they aren't - not even in their 
-   [quotes @verticalslice.news: How to Fish reels in 10 million players in two months The absurd angling simulator was developed by Dazed Studios with support from Evil La…]
-24. @securityonline.bsky.social (Daily CyberSecurity) · 6h · likes 0 · replies 0 · pcGaming
-   https://bsky.app/profile/securityonline.bsky.social/post/3my7i2yljp52m
-   Call of Duty: Modern Warfare 4 Steam early access surpasses Black Ops 7 with over 108,000 concurrent players and overwhelmingly positive user reviews. #ModernWarfare4 #CallOfDuty #Steam #GamingNews
-   [link card: Modern Warfare 4 Steam Players Surpass Black Ops 7]
-25. @maotenno.bsky.social (Mao Mao!) · 13h · likes 3 · replies 0 · broadAsk
-   https://bsky.app/profile/maotenno.bsky.social/post/3my6qqskrf22r
-   Umarangi Generation was one the best indie games I've ever played. The sheer rage in the ending of the DLC just...yeah picking this up this month for sure.
 
 ## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @codedanexe.bsky.social (CodeDanEXE 💻🎙) · 18h · likes 4 · replies 1 · question · ai
-   https://bsky.app/profile/codedanexe.bsky.social/post/3my6beykiok2l
-   This week is Steam Next Fest! That means I'll be streaming every night around 8 PM ET! I'm already seeing some great demos that will be available but I'm always open to requests and suggestions! As usual, I will not be playing any games that use generative AI! See you guys then! 
-   [image, no description]
-2. @mitha.northsky.social (MithaVT 🏳️‍⚧️) · 7h · likes 9 · replies 0 · ai
-   https://bsky.app/profile/mitha.northsky.social/post/3my7fn3yyp22c
-   Epic Games is pro-generative AI and Harry Potter. Steam is not. Trans people and trans allies should not give any money or airtime to Epic Games or Fortnite. Dump Epic Games. #transrights #translivesmatter
+1. @jeremyjackson.bsky.social (Jeremy // Making Star Spark) · 6h · likes 9 · replies 2 · question · ai
+   https://bsky.app/profile/jeremyjackson.bsky.social/post/3mya4pumwqk2l
+   I'm sorry, **8000+** demos? That's... wow. That's uh... that's a lot. www.eurogamer.net/steam-next-f...
+   [link card: Steam Next Fest 2026 has more than double the number of demos than it did last year, as generative …]
+2. @abriael.bsky.social (Giuseppe Nelva) · 5h · likes 5 · replies 2 · pcGaming
+   https://bsky.app/profile/abriael.bsky.social/post/3myabhaepvs2o
+   The folks at @steampowered.com have the perfect opportunity to give the coup de grâce to the Epic Games Store. Proactively BAN AI slop from the platform. Discoverability on #Steam will improve for legitimate developers, while AI slop "developers" will flock to the EGS,
+3. @foxonsilverfur.bsky.social (Foxon Silverfur) · 2h · likes 0 · replies 0 · ai
+   https://bsky.app/profile/foxonsilverfur.bsky.social/post/3myamavsafc2p
+   If you suspect gen aI, read the discussions. Read negative reviews. Someone might bring it up with sources. Steam needs to make disclosures absolutely required (at minimum). Generative AI shouldn't be even on the platform. Remove all games that use it and Steam would immediately 
+   [quotes @zappshot.live: Steam Next Fest starts today so here's your reminder: There WILL be AI garbage everywhere, demos are *not* required to disclose it--tread c…]

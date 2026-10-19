@@ -1,54 +1,53 @@
 # Comment candidates: cozy (@cozygame.bsky.social)
-Made 2026-10-19T12:48Z. Searched: askCozy: relaxing games | stardew: farming sim | evening: something cozy play | wholesome: comfort game | deck: steam deck relaxing games | seasonal: cozy spooky games | cozyFeed: feed.
-Posts below: 12 + 1 heated. Dropped in this run: skip word 32, console only 4, replies are limited 4, bot, shop or studio 5, adult or graphic label 2, own post 1, other language (text) 1, low score 5, not about games 3, not a question 9, other language 9.
+Made 2026-10-19T18:47Z. Searched: askCozy: cozy game recommendation | stardew: life sim | evening: cozy gaming | wholesome: cottagecore game | deck: steam deck farming sim | seasonal: cozy halloween games | cozyFeed: feed.
+Posts below: 12 + 1 heated. Dropped in this run: skip word 56, low score 3, not about games 3, console only 3, other language (text) 1, bot, shop or studio 11, replies are limited 3, adult or graphic label 1, already shown 2, other language 6, not a question 2, promo (link and hashtags) 1.
 
 ## Posts
-1. @cyclogon.com (Cheezeburger 🍔) · 50m · likes 1 · replies 0 · question · cozyFeed
-   https://bsky.app/profile/cyclogon.com/post/3mya2xu7k7s26
-   How dark can a cozy game get, before it's no longer cozy? You decide the path Noko will take. Warmth, or darkness. @weirddaysevent.bsky.social #WeirdTober
-   [video, no description]
-2. @stardewvalleyapp.bsky.social (olivia smith) · 9h · likes 1 · replies 1 · question · stardew
-   https://bsky.app/profile/stardewvalleyapp.bsky.social/post/3my7b2u7t522l
-   Which Stardew Valley update feels most nostalgic to you? From earlier farm life to Ginger Island and Meadowlands, explore how the game changed: stardewvalleyapk.app/old-version/ #StardewValley
-   [image: Stardew Valley gameplay showing a player on an overgrown farm with trees, rocks, fallen branches, stumps, and a small pond. A banner reads “Stardew Valley APK …]
-3. @haestians.bsky.social (𖤓 robin.ᐟ 𖤓) · 11h · likes 1 · replies 1 · question · stardew
-   https://bsky.app/profile/haestians.bsky.social/post/3my72ewhglk2f
-   haley from stardew valley yeah? bc if so WOOOOOOOOOO 🎉🎉🎉🎉🎉🎉🎉
-4. @dravenheart.bsky.social (Dravenheart) · 11h · likes 3 · replies 1 · question · stardew
-   https://bsky.app/profile/dravenheart.bsky.social/post/3my6zruvqx22n
-   Survived another day in Caregiving Heck. The Paladin-in-training zonked out hard for the night after bath time. Old man Kitty has been fed, and sister-in-law does not need anything. Time to unwind with a lil Stardew in bed before sleeps.
+1. @chaplaincharlie.bsky.social (Jaxon Astel) · 15m · likes 0 · replies 1 · question · stardew
+   https://bsky.app/profile/chaplaincharlie.bsky.social/post/3myaqxa56gk2b
+   Has shown no prior thoughts signs or desires to be trans suddenly being made that way in a way (like how they say people are “turned” trans) that not only doesn’t explain how or why they realized that it far too often just turns into conservative life sim where she marries harry 
+2. @rosevidz.bsky.social (🌹Rose| Cozy Gamer 🎮) · 4h · likes 0 · replies 0 · question · cozyFeed
+   https://bsky.app/profile/rosevidz.bsky.social/post/3myaf7xu22k2z
+   🌱💖 Plushie alert in Palia! 🥹✨ Meet my newest addition: the Lil Sprout Plush! 🌿🧸 Another cute little treasure for the collection! 🌸 How can you NOT love these adorable plushies?! 😍💚 #Palia #CozyGaming
    [image, no description]
-5. @hawifi.bsky.social (Hawifi) · 13h · likes 6 · replies 0 · question · evening
-   https://bsky.app/profile/hawifi.bsky.social/post/3my6t6gdtw22n
-   Dude, that first page is already so domestic. They're wearing planned outfits and chilling in a cozy cafe with their equally dressed-up pup between their legs. Clearly an old married couple. BUT HEY, Logan's flirting game? Man's still got it!
-6. @metallicsweet.bsky.social (ferdinand von 🐍) · 14h · likes 1 · replies 0 · question · stardew
-   https://bsky.app/profile/metallicsweet.bsky.social/post/3my6pmjrspk2n
-   Farming? Check. Dungeons? Check. Animal wrangling and care? Check. Driven by family drama? Check. At least it lacks the dating sim element (for the most part) because that would be too creepy
-7. @feed.igeek.gamer-geek-news.com.ap.brid.gy (input) · 16h · likes 0 · replies 0 · question · askCozy
-   https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3my6hiyoq5he2
-   📰 **10 Little-Known Cozy Games From Famous Developers** If you're looking for relaxing experiences with guaranteed quality, I recommend these ten little-known cozy games from famous developers. 📰 Source: DualShockers 🔗 Link […] [Original post on igeek.gamer-geek-news.com]
-   [image: Image for: 10 Little-Known Cozy Games From Famous Developers]
-8. @woes-n-wanderlust.bsky.social (🎭 Wicker 🦄🩷 The Jester Bard 🎭) · 17h · likes 0 · replies 1 · question · askCozy
-   https://bsky.app/profile/woes-n-wanderlust.bsky.social/post/3my6fgsc5fd27
-   But also I don't rush to do things. I am pretty good at farming stuff like I did 10 faction grinds in a day in WoW recently and it took 6 hours. That was relaxing to me??? I think? My friends are always surprised by how much I get done in games and I'm just over here feeling like
-9. @culturecombine.bsky.social (Culture Combine) · 9h · likes 1 · replies 0 · question · seasonal
-   https://bsky.app/profile/culturecombine.bsky.social/post/3my7abjknx22x
-   Hey fellow night owl #horror and #Halloween lovers alike! We're all cozy in our mothman pjs. Wanna talk about cryptids?
-   [link card: 31 Days of Horror: Terrifying Cryptids and Where to Find Them]
-10. @nysandra.bsky.social (Nysandra) · 9h · likes 1 · replies 1 · question · cozyFeed
-   https://bsky.app/profile/nysandra.bsky.social/post/3my77zekjfc2l
-   I’m so looking forward to Hela: Of Mice and Magic!!! I really enjoyed playing the demo this weekend. The graphics are absolutely stunning and the mice are so adorable. I can’t wait to play with my friends!!! December 1st please hurry!!! #HelaTheGame #CozyGames
-   [image, no description]
-11. @bullythelsb.bsky.social (Boo-ly, Little Ghost Bull 👻🐮) · 9h · likes 23 · replies 1 · askCozy
-   https://bsky.app/profile/bullythelsb.bsky.social/post/3my75xejjo226
-   I had a pretty good relaxing day today. Sat on the couch between Randi and Jubilee, watched episodes of Michael's Sheen's House of Games and read a Peanuts book (1978-1980) and made salmon with vegetables and salad for dinner. Hope your day was as lightweight and restful as mine.
-   [image: Bully with a tin of googly eyes.]
-12. @msfulofgrace.bsky.social (Mollie Grace) · 22h · likes 16 · replies 1 · askCozy
-   https://bsky.app/profile/msfulofgrace.bsky.social/post/3my5vimajg22v
-   #vss365 #sneakers Soft soled shoes designed for playing sports and games Helpful when engaged in heisting art from frames Sneakers made for fun Enable one to run Assisting in relaxing and wicked aims
+3. @rachie-tano.bsky.social (🦇 Rachie 🦇) · 11h · likes 29 · replies 7 · question · evening
+   https://bsky.app/profile/rachie-tano.bsky.social/post/3my7nbwrx5k2i
+   Good morning 🎃 Happy Monday!! I'm having a cozy day since it's raining and I don't need to leave the house. I'm hoping to get some gaming done and a little bit of colouring. What are your plans for today?
+   [link card: Cardcaptor Sakura: Keroberos's Happy Moment]
+4. @merrysims.bsky.social (Merry UnBirthday) · 39m · likes 0 · replies 0 · question · stardew
+   https://bsky.app/profile/merrysims.bsky.social/post/3myapn52yxs2z
+   SimsGPT - simsgpt.itch.io/simsgpt "SimsGPT lets you personally write what your active Sim says to another Sim and lets that NPC answer for themselves". - I'm still reading about this. Would you use it? #Sims4
+   [link card: SimsGPT - AI Stories for The Sims 4 by simsGPT]
+5. @nakaflake.bsky.social (Naka) · 50m · likes 1 · replies 0 · stardew
+   https://bsky.app/profile/nakaflake.bsky.social/post/3myap26itxs2r
+   I think part of it is that the life sim and jrpg elements are blended better than they’ve been since persona 3. Like this martira plot dungeon only took me one in game day but im not even sweating it because ive got 2 other dungeons with significant rewards to bang about in after
+6. @lephys.bsky.social (Lephys of the Punforge 🕹️) · 2h · likes 3 · replies 1 · stardew
+   https://bsky.app/profile/lephys.bsky.social/post/3myalxcsjym2s
+   Thanks for sharing! I will always have a weakness for cozy/farming/life sim games, so I like to keep up with them. ^_^
+7. @pinksmores.vtubers.social (vee 🍫🎀) · 7h · likes 3 · replies 1 · evening
+   https://bsky.app/profile/pinksmores.vtubers.social/post/3mya3ysxugs2b
+   🍫 STREAM SCHEDULE 19/10 🍫 gonna try doing stream schedules again! first we'll be taking a sneak peak at loftia which is coming out next month, then probably some cozy gaming the rest of the week! 🎨: funaru on vgen 🗓️: #NikkiGZ0
+   [image: stream schedule 19th of october 2026. tuesday, loftia demo, 7:30 PM GMT+8, friday: dressmaker, 7:30pm GMT+8, sunday: streaming at 7:30pm GMT+8. schedule templa…]
+8. @kyrio.bsky.social (Kyrio) · 12h · likes 5 · replies 1 · evening
+   https://bsky.app/profile/kyrio.bsky.social/post/3my7ic2zdcc2s
+   The manly urge to make a cozy bakery game.
+9. @thewassy153.bsky.social (aston machan no. 1 fan 🧸🐐☕️) · 13h · likes 5 · replies 0 · evening
+   https://bsky.app/profile/thewassy153.bsky.social/post/3my7hjb5pbs2k
+   seeing dressmaker and all those cozy console repair games makes me yearn for a foam blaster modification and repair game. it’s one of my favorite hobbies but it’s such a pain to do irl cus i don’t have a decent workbench or budget to do it consistently and without back issues
+10. @erdbok.bsky.social (Erdbok) · 13h · likes 1 · replies 0 · evening
+   https://bsky.app/profile/erdbok.bsky.social/post/3my7govuyk22q
+   store.steampowered.com/app/4019220/... #consider My brother in law helped make this game. It has exploded since launch.
+   [link card: Dressmaker on Steam]
+11. @snigglegros.bsky.social (Droogle) · 13h · likes 1 · replies 0 · evening
+   https://bsky.app/profile/snigglegros.bsky.social/post/3my7fkucxjc2x
+   big news, they are releasing a Barbie game collection store.steampowered.com/app/4082030/...
+   [link card: Barbie™ Rewind on Steam]
+12. @zeitwire.bsky.social (Zeitwire Editorial) · 13h · likes 1 · replies 0 · evening
+   https://bsky.app/profile/zeitwire.bsky.social/post/3my7fhggm3c22
+   Selling a horror game as a totally normal fish feeding sim is such a good bait and switch, those cozy premise games that slowly turn wrong are some of the best indie horror around.
 
 ## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @platoevolved.bsky.social (Plato Evolved) · 27h · likes 0 · replies 0 · askCozy
-   https://bsky.app/profile/platoevolved.bsky.social/post/3my5d2aiupg2r
-   Hey folks in Create Games with AI! My brain decided 3 AM was the perfect time to drop a game idea: Pretty Fishy. It's going to be a relaxing game, and I'm already thinking about multiplayer. Check out the initial post and let me... #CreateGamesWithAI www.skool.com/ai-craft/pr... 
-   [image, no description]
+1. @stinebrunson.bsky.social (Christine Brewson (Comms Open)) · 4h · likes 0 · replies 0 · stardew
+   https://bsky.app/profile/stinebrunson.bsky.social/post/3myadc2pdps2q
+   If you want to try your hand at romance and politics for yourself, check out Your Crown is Mine! store.steampowered.com/app/3541340/...
+   [link card: Your Crown Is Mine on Steam]
