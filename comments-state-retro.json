@@ -1,140 +1,86 @@
 {
   "cursor": 0,
   "next": {
-    "childhood": 1,
-    "classicPC": 3,
-    "holdUp": 1,
-    "gogOld": 1,
-    "nostalgia": 1,
-    "askRetro": 1
+    "childhood": 2,
+    "classicPC": 4,
+    "holdUp": 2,
+    "gogOld": 2,
+    "nostalgia": 2,
+    "askRetro": 2
   },
   "sources": {
     "childhood": {
-      "runs": 13,
-      "posts": 178,
+      "runs": 14,
+      "posts": 183,
       "fit": 49,
       "last": {
-        "posts": 3,
-        "fit": 3,
-        "at": "2026-10-19T06:51:39.967Z"
+        "posts": 5,
+        "fit": 0,
+        "at": "2026-10-19T12:48:53.830Z"
       }
     },
     "classicPC": {
-      "runs": 13,
-      "posts": 147,
-      "fit": 50,
+      "runs": 14,
+      "posts": 157,
+      "fit": 51,
       "last": {
-        "posts": 3,
-        "fit": 0,
-        "at": "2026-10-19T06:51:39.967Z"
+        "posts": 10,
+        "fit": 1,
+        "at": "2026-10-19T12:48:53.830Z"
       }
     },
     "holdUp": {
-      "runs": 13,
-      "posts": 17,
+      "runs": 14,
+      "posts": 19,
       "fit": 0,
       "last": {
-        "posts": 0,
+        "posts": 2,
         "fit": 0,
-        "at": "2026-10-19T06:51:39.967Z"
+        "at": "2026-10-19T12:48:53.830Z"
       }
     },
     "gogOld": {
-      "runs": 13,
+      "runs": 14,
       "posts": 163,
       "fit": 29,
       "last": {
-        "posts": 28,
-        "fit": 4,
-        "at": "2026-10-19T06:51:39.967Z"
+        "posts": 0,
+        "fit": 0,
+        "at": "2026-10-19T12:48:53.830Z"
       }
     },
     "nostalgia": {
-      "runs": 13,
-      "posts": 119,
-      "fit": 26,
+      "runs": 14,
+      "posts": 138,
+      "fit": 29,
       "last": {
-        "posts": 5,
-        "fit": 1,
-        "at": "2026-10-19T06:51:39.967Z"
+        "posts": 19,
+        "fit": 3,
+        "at": "2026-10-19T12:48:53.830Z"
       }
     },
     "askRetro": {
-      "runs": 13,
-      "posts": 49,
+      "runs": 14,
+      "posts": 52,
       "fit": 12,
       "last": {
-        "posts": 0,
+        "posts": 3,
         "fit": 0,
-        "at": "2026-10-19T06:51:39.967Z"
+        "at": "2026-10-19T12:48:53.830Z"
       }
     },
     "retroFeed": {
-      "runs": 13,
-      "posts": 641,
-      "fit": 18,
+      "runs": 14,
+      "posts": 690,
+      "fit": 19,
       "last": {
-        "posts": 50,
-        "fit": 2,
-        "at": "2026-10-19T06:51:39.967Z"
+        "posts": 49,
+        "fit": 1,
+        "at": "2026-10-19T12:48:53.830Z"
       }
     }
   },
   "pool": {
-    "at://did:plc:dcgjp3oywyjpyxum26oxylfd/app.bsky.feed.post/3my4gr4hrvc2e": {
-      "uri": "at://did:plc:dcgjp3oywyjpyxum26oxylfd/app.bsky.feed.post/3my4gr4hrvc2e",
-      "url": "https://bsky.app/profile/dianap72.bsky.social/post/3my4gr4hrvc2e",
-      "handle": "dianap72.bsky.social",
-      "name": "Diana Prudence Eden",
-      "text": "Also arrived: the infamous E.T. for Atari 2600. E.T. has been one of my favorite movies since I was a kid. The game while fun, is also a lil frustrating. Now to track down that book sequel. #et #atari #retro #gamer",
-      "createdAt": "2026-10-18T01:18:51.947Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "nostalgia",
-      "query": "favorite retro game",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "image, no description",
-      "firstSeen": "2026-10-18T06:43:27.785Z"
-    },
-    "at://did:plc:lis5wwxo3fl4zieehblfxufv/app.bsky.feed.post/3my4wshwfwg2o": {
-      "uri": "at://did:plc:lis5wwxo3fl4zieehblfxufv/app.bsky.feed.post/3my4wshwfwg2o",
-      "url": "https://bsky.app/profile/tamagochivibe.bsky.social/post/3my4wshwfwg2o",
-      "handle": "tamagochivibe.bsky.social",
-      "name": "Tamagotchi Vibe 🎮",
-      "text": "I remember taping down my NES’s reset button so I could keep playing Zelda after a crash. Duct tape solved everything back then. Now I just stare at my own server logs. What’s the jankiest fix you ever pulled off?",
-      "createdAt": "2026-10-18T06:05:57.189Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "retroFeed",
-      "query": "feed",
-      "score": 5,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": null,
-      "firstSeen": "2026-10-18T06:43:27.785Z"
-    },
-    "at://did:plc:yzy6lla7osmamq4fbzsm52sm/app.bsky.feed.post/3my4vr5rbql2e": {
-      "uri": "at://did:plc:yzy6lla7osmamq4fbzsm52sm/app.bsky.feed.post/3my4vr5rbql2e",
-      "url": "https://bsky.app/profile/sdlcommits.libsdl.org/post/3my4vr5rbql2e",
-      "handle": "sdlcommits.libsdl.org",
-      "name": "SDL Commits",
-      "text": "SDL: [release-3.4.x] Fixed potential crash looking for \"NES Controller\"",
-      "createdAt": "2026-10-18T05:47:19.000Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "retroFeed",
-      "query": "feed",
-      "score": 5,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "link card: SDL: [release-3.4.x] Fixed potential crash looking for \"NES Controller\"",
-      "firstSeen": "2026-10-18T06:43:27.785Z"
-    },
     "at://did:plc:7asaetnt35uztzegz6mtuegv/app.bsky.feed.post/3my5rcnoafo2m": {
       "uri": "at://did:plc:7asaetnt35uztzegz6mtuegv/app.bsky.feed.post/3my5rcnoafo2m",
       "url": "https://bsky.app/profile/historyachannel.bsky.social/post/3my5rcnoafo2m",
@@ -272,29 +218,11 @@
       "replies": 0,
       "group": "gogOld",
       "query": "good old games",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": null,
-      "firstSeen": "2026-10-19T06:51:39.967Z"
-    },
-    "at://did:plc:fcf3dvrea3ksvwsncmijgjfh/app.bsky.feed.post/3my6xzdnuy22v": {
-      "uri": "at://did:plc:fcf3dvrea3ksvwsncmijgjfh/app.bsky.feed.post/3my6xzdnuy22v",
-      "url": "https://bsky.app/profile/niwashihiram.bsky.social/post/3my6xzdnuy22v",
-      "handle": "niwashihiram.bsky.social",
-      "name": "Hiram 🐗🌱",
-      "text": "me and my good friend @ginger31.bsky.social staying up late and playing old video games together uwu",
-      "createdAt": "2026-10-19T01:33:01.013Z",
-      "likes": 6,
-      "replies": 0,
-      "group": "gogOld",
-      "query": "good old games",
       "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
-      "media": "image: drawing of my fursona Hiram, a orange and silver colored boar, and my friend Kyuu , a brown bat, playing video games in a dark room, illuminated by the glow of…",
+      "media": null,
       "firstSeen": "2026-10-19T06:51:39.967Z"
     },
     "at://did:plc:5me5d3ew3mt6kktcm3xq6hoe/app.bsky.feed.post/3my6bjo6x5k2p": {
@@ -362,7 +290,7 @@
       "replies": 0,
       "group": "retroFeed",
       "query": "feed",
-      "score": 6,
+      "score": 5,
       "question": true,
       "heated": false,
       "isReply": false,
@@ -380,12 +308,102 @@
       "replies": 0,
       "group": "retroFeed",
       "query": "feed",
-      "score": 7,
+      "score": 6,
       "question": true,
       "heated": false,
       "isReply": false,
       "media": "image, no description",
       "firstSeen": "2026-10-19T06:51:39.967Z"
+    },
+    "at://did:plc:har5lftry7xhqjr533zod2wq/app.bsky.feed.post/3my5juuwmk227": {
+      "uri": "at://did:plc:har5lftry7xhqjr533zod2wq/app.bsky.feed.post/3my5juuwmk227",
+      "url": "https://bsky.app/profile/letelyre.bsky.social/post/3my5juuwmk227",
+      "handle": "letelyre.bsky.social",
+      "name": "lete lyre@C108乙",
+      "text": "Opening up a vintage bottle of 33-year-old doujin soft for PC-98: 秘密俱楽部's Hey! Bunny（ヘイ！バニー）from 1993 Bring your knowledge of Japanese cultural references from the 80s–90s; you'll need them for these crosswords! Freshly archived by the Certifiably Excellent @krugman.net (Thank goodness for YAHDI)",
+      "createdAt": "2026-10-18T11:47:19.231Z",
+      "likes": 23,
+      "replies": 1,
+      "group": "classicPC",
+      "query": "old pc game",
+      "score": 7,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "4 images: Title splash for 1993 doujin game Hey! Bunny for the NEC PC-98, featuring one of the bunny girls in question. The game logo is stylishly bilingual, and the ima… / Dark CLI screen as the game is loaded. \"[Hey! Bunny Ver1.01] Copyright (c) 1993 Secret Club / Hoehoe-Daimyoujin\" / The Stage 6 crossword puzzle. This puzzle is themed around contemporary-ish anime. The clue for 27-down is \"Mirai Keisatsu (blank)man\". The answer is 1983 anim… / The pre-color-reveal reward CG for Stage 1, painted in appropriately moody dark blue and purple tones. If you want to see the bunny girl art in its complete an…",
+      "firstSeen": "2026-10-19T12:48:53.830Z"
+    },
+    "at://did:plc:l6323lk2d4vx5mv4m2ss6soi/app.bsky.feed.post/3my7jsy76ek2c": {
+      "uri": "at://did:plc:l6323lk2d4vx5mv4m2ss6soi/app.bsky.feed.post/3my7jsy76ek2c",
+      "url": "https://bsky.app/profile/brasshammerz.bsky.social/post/3my7jsy76ek2c",
+      "handle": "brasshammerz.bsky.social",
+      "name": "Joe Ghasthammerz",
+      "text": "QTP with a video game that transports you back to your childhood ⌛ (Discworld II: Mortality Bytes!)",
+      "createdAt": "2026-10-19T06:51:35.026Z",
+      "likes": 6,
+      "replies": 3,
+      "group": "nostalgia",
+      "query": "nostalgic game",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "link card: Discworld 2 OST - Susan's Room; quotes @redheadpinupreader.bsky.social: QTP with a video game that transports you back to your childhood ⌛",
+      "firstSeen": "2026-10-19T12:48:53.830Z"
+    },
+    "at://did:plc:cnmr7jz6y2gozggs6f4ibojv/app.bsky.feed.post/3my7gkbrsak2v": {
+      "uri": "at://did:plc:cnmr7jz6y2gozggs6f4ibojv/app.bsky.feed.post/3my7gkbrsak2v",
+      "url": "https://bsky.app/profile/serapheon.bsky.social/post/3my7gkbrsak2v",
+      "handle": "serapheon.bsky.social",
+      "name": "serapheon",
+      "text": "Day 16 - Favorite vocal theme - Time from Persona 3 Portable FEMC route. I really love this song and honestly all songs from this route. They sound futuristic but nostalgic at the same time & I adore the the contrast between the melancholic lyrics and upbeat sound of it! HM: Way of Life (same game)",
+      "createdAt": "2026-10-19T05:53:01.859Z",
+      "likes": 2,
+      "replies": 1,
+      "group": "nostalgia",
+      "query": "nostalgic game",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": true,
+      "media": "link card: Persona 3 Portable: Time",
+      "firstSeen": "2026-10-19T12:48:53.830Z"
+    },
+    "at://did:plc:cpd6yjvz5z4l3axt7o67more/app.bsky.feed.post/3my6tkrwbas2i": {
+      "uri": "at://did:plc:cpd6yjvz5z4l3axt7o67more/app.bsky.feed.post/3my6tkrwbas2i",
+      "url": "https://bsky.app/profile/kirigen.bsky.social/post/3my6tkrwbas2i",
+      "handle": "kirigen.bsky.social",
+      "name": "Kirigen",
+      "text": "👉👈 i don't think it's the usual type of game you might showcase but there's a demo for a cute game by a local dev here that I think is just so charming store.steampowered.com/app/3031750/...",
+      "createdAt": "2026-10-19T00:13:17.688Z",
+      "likes": 2,
+      "replies": 1,
+      "group": "nostalgia",
+      "query": "nostalgic game",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": true,
+      "media": "link card: Dino Cleanup on Steam",
+      "firstSeen": "2026-10-19T12:48:53.830Z"
+    },
+    "at://did:plc:ffhfzwr3igtwt4y7zdompvjv/app.bsky.feed.post/3mya3375q3w2z": {
+      "uri": "at://did:plc:ffhfzwr3igtwt4y7zdompvjv/app.bsky.feed.post/3mya3375q3w2z",
+      "url": "https://bsky.app/profile/stocktitan.net/post/3mya3375q3w2z",
+      "handle": "stocktitan.net",
+      "name": "StockTitan",
+      "text": "#SNES SenesTech Reports 88% Reduction in Rat Activity in Chicago Pilot, Building on Record $1.1 Million Quarterly Revenue Milestone https://www.stocktitan.net/news/SNES/senes-tech-reports-88-reduction-in-rat-activity-in-chicago-pilot-a40qx2mkn4vx.html?utm_source=stocktitan-bluesky&utm_medium=social",
+      "createdAt": "2026-10-19T12:00:24.322Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "retroFeed",
+      "query": "feed",
+      "score": 6,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "media": "link card: SenesTech Reports 88% Reduction in Rat Activity in Chicago Pilot, Building on Record $1.1 Million Q…",
+      "firstSeen": "2026-10-19T12:48:53.830Z"
     }
   }
 }
