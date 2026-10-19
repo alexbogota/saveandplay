@@ -452,7 +452,7 @@ export function makePosts({ id, account, brief, links, now }) {
         continue;
       }
       const channel = channelWithDefaults(id, name, raw);
-      posts.push({ channel: name, deal: c.id, title: c.title, ...buildPost({ candidate: c, channel, links, day }) });
+      posts.push({ channel: name, deal: c.id, title: c.title, ...buildPost({ candidate: c, channel, links, day, every: account.cadence?.everyDays ?? 1 }) });
     } catch (e) {
       posts.push({ channel: name, none: e.message });
     }

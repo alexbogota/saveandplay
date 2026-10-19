@@ -19,8 +19,11 @@
 //   gameTag       true: a tag made from the title of the game (the part before ":", letters and digits only, CamelCase, 4-25 characters).
 //   rotatingTags  the pool for the rotation. It holds literal tags (Gaming) and the names {store}, {niche}, {game} for the derived tags.
 //                 A derived tag that is NOT in the pool is added to every post; one that IS in the pool comes only in its turn.
-//                 Each day takes the next tag of the pool; one that does not exist for this deal (no game tag) or is already used is skipped.
-//   maxTags       the most tags in a post (the rotating one is the first to go).
+//                 Each day takes the next tag(s) of the pool; one that does not exist for this deal (no game tag) or is already used is skipped.
+//   rotatingCount how many tags of the pool a post takes (default 1). The pool is read like a ring and each day moves on by this many places
+//                 (day number x rotatingCount), so two days in a row do not share a rotating tag and every tag of the pool comes in its turn.
+//                 With 7 tags in the pool and rotatingCount 3, the pool is used up in 7 days and each tag appears on 3 days of 7.
+//   maxTags       the most tags in a post (the rotating ones are the first to go).
 //
 // Two optional lines (a channel with enough room, like Mastodon; a channel without them is not changed):
 //   savings       "You save {amount}": {amount} = old price minus price, counted from the prices of the deal (in cents, so 39.99 - 5.99 = $34.00).
@@ -35,7 +38,7 @@ import { slug, dealPagePath } from './deal-paths.mjs';
 import { labelsOf } from './facts.mjs';
 
 const NOTE_FIELDS = ['drminfo']; // fields of a deal a storeNote rule may read
-const CHANNEL_DEFAULTS = { enabled: true, dateFormat: 'MMM D', linkChars: 25, storeTags: {}, nicheTags: {}, gameTag: false, factTags: {}, rotatingTags: [], savings: '', storeNote: {} };
+const CHANNEL_DEFAULTS = { enabled: true, dateFormat: 'MMM D', linkChars: 25, storeTags: {}, nicheTags: {}, gameTag: false, factTags: {}, rotatingTags: [], rotatingCount: 1, savings: '', storeNote: {} };
 const REQUIRED = ['subid', 'maxChars', 'disclosure', 'baseTags', 'maxTags', 'template'];
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 const PLACEHOLDERS = ['title', 'store', 'discount', 'price', 'was', 'checked', 'ends', 'lowest', 'why', 'savings', 'storeNote', 'link', 'tags', 'disclosure'];
@@ -65,6 +68,8 @@ export function channelWithDefaults(accountId, name, channel) {
     } else if (!oneLine(note)) throw new Error(`${where}: the storeNote of ${store} must be a short plain text on one line, without #, or a rule with "field" and "notes".`);
   }
   for (const t of c.rotatingTags) if (t.startsWith('{') && !DERIVED.includes(t)) throw new Error(`${where}: "${t}" in rotatingTags is unknown; allowed: ${DERIVED.join(' ')}.`);
+  if (!Number.isInteger(c.rotatingCount) || c.rotatingCount < 1) throw new Error(`${where}: rotatingCount must be a whole number (1 or more).`);
+  if (c.rotatingTags.length && c.rotatingCount > c.rotatingTags.length) throw new Error(`${where}: rotatingCount is ${c.rotatingCount} but rotatingTags has only ${c.rotatingTags.length} tags.`);
   if (typeof c.factTags !== 'object' || Array.isArray(c.factTags)) throw new Error(`${where}: factTags must look like { "city builder": "CityBuilder" }.`);
   for (const [word, tag] of Object.entries(c.factTags)) if (!word.trim() || typeof tag !== 'string') throw new Error(`${where}: factTags "${word}" must point to a tag written without #.`);
   const literal = [...c.baseTags, ...Object.values(c.storeTags), ...Object.values(c.nicheTags), ...Object.values(c.factTags), ...c.rotatingTags.filter((t) => !DERIVED.includes(t))];
@@ -107,8 +112,10 @@ export function gameTag(title) {
 
 const dayNumber = (day) => Math.floor(Date.parse(`${day}T00:00:00Z`) / 864e5);
 
-// The tags of the post, in order, without the "#". Returns { tags, rotating } (rotating = the tag the rotation chose, or null).
-export function chooseTags({ c, channel, day }) {
+// The tags of the post, in order, without the "#". Returns { tags, rotating } (rotating = the tags the rotation chose, a list, empty when none).
+// `every` = how many days apart the posts of this account are (cadence.everyDays of data/accounts.json; 1 = every day). The ring of the rotation
+// moves on by one step per POST, not per calendar day, so an account that posts every second day still goes through the whole pool.
+export function chooseTags({ c, channel, day, every = 1 }) {
   const tags = [...channel.baseTags];
   const has = (t) => tags.some((x) => x.toLowerCase() === t.toLowerCase());
   const derived = {
@@ -120,23 +127,19 @@ export function chooseTags({ c, channel, day }) {
   for (const key of DERIVED) if (!pool.includes(key) && derived[key] && !has(derived[key])) tags.push(derived[key]); // not in the rotation: on every post
   const labels = labelsOf(c.facts); // the genres and tags of THIS game; a game without facts gets no tag from factTags
   for (const [word, tag] of Object.entries(channel.factTags)) if (labels.has(word.toLowerCase().replace(/\s+/g, ' ').trim()) && !has(tag)) tags.push(tag);
-  let rotating = null;
+  const rotating = [];
   if (pool.length) {
-    const start = ((dayNumber(day) % pool.length) + pool.length) % pool.length;
-    for (let k = 0; k < pool.length; k++) {
+    const count = channel.rotatingCount;
+    const want = Math.min(count, Math.max(0, channel.maxTags - tags.length)); // maxTags cuts the rotating tags first
+    const slot = Math.floor(dayNumber(day) / every); // the number of the post: +1 for each post, also when the posts are `every` days apart
+    const start = (((slot * count) % pool.length) + pool.length) % pool.length; // the ring moves on by `count` places a post
+    for (let k = 0; k < pool.length && rotating.length < want; k++) {
       const item = pool[(start + k) % pool.length];
       const tag = DERIVED.includes(item) ? derived[item] : item;
-      if (tag && !has(tag)) {
-        rotating = tag;
-        break;
-      }
+      if (tag && !has(tag) && !rotating.some((r) => r.toLowerCase() === tag.toLowerCase())) rotating.push(tag);
     }
   }
-  const room = channel.maxTags - tags.length;
-  const kept = tags.slice(0, channel.maxTags);
-  if (rotating && room > 0) kept.push(rotating);
-  else rotating = null;
-  return { tags: kept, rotating };
+  return { tags: [...tags.slice(0, channel.maxTags), ...rotating], rotating };
 }
 
 // The address of the post link: our page of the game with the marks of the channel.
@@ -176,11 +179,11 @@ function check(c) {
 }
 
 // Returns { text, length, max, tags, link, warnings }. Throws when the post cannot be made honestly (the caller writes "no post today" and the reason).
-export function buildPost({ candidate: c, channel, links, day }) {
+export function buildPost({ candidate: c, channel, links, day, every = 1 }) {
   check(c);
   const warnings = [];
   const link = postLink(links, c, channel, day);
-  const { tags } = chooseTags({ c, channel, day });
+  const { tags } = chooseTags({ c, channel, day, every });
   const tagsText = tags.map((t) => `#${t}`).join(' ');
   const saved = channel.savings ? savingsInCents(c) : 0; // cents; 0 = nothing to show
 

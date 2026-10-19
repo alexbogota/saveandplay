@@ -44,7 +44,7 @@ test('text: only the numbers of the deal, dates by the channel format, disclosur
   assert.equal(p.text, [
     'Control Ultimate Edition: -85% at IndieGala\n$5.99 (was $39.99)\nPrice checked Oct 7. Sale ends Oct 8.',
     'https://saveandplay.com/deals/indiegala/control-ultimate-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-08',
-    '#PCGaming #GameDeals #Gaming\nAd',
+    '#PCGaming #GameDeals #IndieGala #Gaming #ControlUltimateEdition\nAd',
   ].join('\n\n'));
   assert.ok(p.length <= 300);
 });
@@ -94,16 +94,85 @@ test('game tag: the part before ":", letters and digits, CamelCase, 4 to 25 char
   assert.equal(gameTag('神之天平'), null, 'no letters or digits we can use');
 });
 
-test('Bluesky tags: PCGaming GameDeals and a third one by the day: store, Gaming, game (rotation, not random)', () => {
-  const third = (d, n) => chooseTags({ c: d, channel: bluesky, day: `2026-10-${String(n).padStart(2, '0')}` }).tags;
-  const seq = [8, 9, 10, 11, 12, 13].map((n) => third(gog, n).at(-1));
-  assert.deepEqual(seq, ['Gaming', 'ShadowTactics', 'GOG', 'Gaming', 'ShadowTactics', 'GOG']);
-  for (const n of [8, 9, 10]) assert.deepEqual(third(gog, n).slice(0, 2), ['PCGaming', 'GameDeals']);
-  assert.deepEqual(third(gog, 9), third(gog, 9), 'the same day gives the same tags');
-  for (const n of [8, 9, 10, 11]) assert.ok(third(gog, n).length <= 3);
-  // a game with no usable tag: the rotation goes on to the next tag of the pool
+test('Bluesky tags: PCGaming GameDeals always, three more from a ring of seven (no rotating tag two days in a row, every tag comes in turn)', () => {
+  const on = (d, n) => chooseTags({ c: d, channel: bluesky, day: `2026-10-${String(n).padStart(2, '0')}` });
+  assert.equal(bluesky.rotatingCount, 3);
+  assert.equal(bluesky.maxTags, 5);
+  assert.deepEqual([8, 9, 10, 11].map((n) => on(gog, n).tags), [
+    ['PCGaming', 'GameDeals', 'GOG', 'Gaming', 'ShadowTactics'],
+    ['PCGaming', 'GameDeals', 'VideoGames', 'DRMFree', 'Games'],
+    ['PCGaming', 'GameDeals', 'PCGames', 'GOG', 'Gaming'],
+    ['PCGaming', 'GameDeals', 'ShadowTactics', 'VideoGames', 'DRMFree'],
+  ]);
+  assert.deepEqual(on(gog, 9), on(gog, 9), 'the same day gives the same tags');
+  // 14 days: five tags each, the first two always the same, the other three never the same as the day before, no tag twice in a post
+  const counts = new Map();
+  let before = [];
+  for (let n = 8; n <= 21; n++) {
+    const { tags, rotating } = on(gog, n);
+    assert.equal(tags.length, 5);
+    assert.deepEqual(tags.slice(0, 2), ['PCGaming', 'GameDeals']);
+    assert.deepEqual(rotating, tags.slice(2));
+    assert.equal(new Set(tags.map((x) => x.toLowerCase())).size, 5, 'no tag twice');
+    assert.ok(rotating.every((r) => !before.includes(r)), `day ${n}: ${rotating} repeats the day before`);
+    before = rotating;
+    for (const r of rotating) counts.set(r, (counts.get(r) ?? 0) + 1);
+  }
+  // seven tags in the ring, three a day, 14 days: each tag exactly 6 times
+  assert.deepEqual([...counts.keys()].sort(), ['DRMFree', 'GOG', 'Games', 'Gaming', 'PCGames', 'ShadowTactics', 'VideoGames']);
+  assert.ok([...counts.values()].every((v) => v === 6), JSON.stringify([...counts]));
+  // an IndieGala game takes the IndieGala tags (store and niche), so the account does not look like a GOG-only one
+  assert.ok([8, 9, 10, 11, 12, 13, 14].some((n) => on(deal, n).tags.includes('IndieGames')));
+  // a game with no usable tag: the ring goes on to the next tag, still five different tags
   const none = { ...gog, title: 'Go' };
-  assert.deepEqual([8, 9, 10, 11].map((n) => third(none, n).at(-1)), ['Gaming', 'GOG', 'GOG', 'Gaming']);
+  for (let n = 8; n <= 21; n++) {
+    const tags = on(none, n).tags;
+    assert.equal(tags.length, 5);
+    assert.equal(new Set(tags).size, 5);
+  }
+});
+
+test('rotatingCount: the ring moves by that many places for each post; maxTags cuts the rotating tags first; bad values are refused', () => {
+  const ring = (extra) => channelWithDefaults('x', 'c', { ...accounts.prices.channels.bluesky, baseTags: ['PCGaming'], storeTags: {}, nicheTags: {}, gameTag: false, rotatingTags: ['Aaaa', 'Bbbb', 'Cccc', 'Dddd', 'Eeee'], rotatingCount: 2, maxTags: 3, ...extra });
+  const g = { title: 'Go', store: 'GOG' };
+  const run = (ch, days, every = 1) => days.map((n) => chooseTags({ c: g, channel: ch, day: `2026-10-${String(n).padStart(2, '0')}`, every }).rotating);
+  for (const [days, every] of [[[8, 9, 10, 11, 12, 13], 1], [[8, 10, 12, 14, 16, 18], 2]]) {
+    const seq = run(ring(), days, every);
+    assert.ok(seq.every((r) => r.length === 2));
+    for (let i = 1; i < seq.length; i++) assert.ok(seq[i].every((t) => !seq[i - 1].includes(t)), `every ${every}: ${seq[i]} repeats ${seq[i - 1]}`);
+    const first5 = seq.slice(0, 5).flat();
+    assert.deepEqual([...new Set(first5)].sort(), ['Aaaa', 'Bbbb', 'Cccc', 'Dddd', 'Eeee']);
+    assert.equal(first5.length, 10, 'two tags a post, five posts: every tag twice');
+  }
+  assert.ok(run(ring({ maxTags: 2 }), [8, 9]).every((r) => r.length === 1), 'room for one: only the first tag of the day stays');
+  assert.ok(run(ring({ maxTags: 1 }), [8, 9]).every((r) => r.length === 0), 'no room: no rotating tag');
+  assert.equal(mastodon.rotatingCount, 1, 'a channel without the setting rotates one tag, as before');
+  assert.throws(() => ring({ rotatingCount: 0 }), /rotatingCount must be a whole number/);
+  assert.throws(() => ring({ rotatingCount: 1.5 }), /rotatingCount must be a whole number/);
+  assert.throws(() => ring({ rotatingCount: 6 }), /rotatingCount is 6 but rotatingTags has only 5/);
+});
+
+test('Bluesky post of the worst case (longest game tag, sale end, lowest price, IndieGala) fits 300 characters for 14 days', () => {
+  const worst = { ...deal, title: 'Extraordinary Adventures: The Very Long Remastered Edition', endsAt: '2026-10-30T23:59:00Z', history: { days: 30, lowest: true } };
+  for (const ch of [bluesky, channelWithDefaults('prices-kinguin', 'bluesky', accounts['prices-kinguin'].channels.bluesky)]) {
+    for (let n = 8; n <= 21; n++) {
+      const p = buildPost({ candidate: ch === bluesky ? worst : { ...worst, store: 'Kinguin', marketplace: true, compareTo: 'Steam' }, channel: ch, links, day: `2026-10-${String(n).padStart(2, '0')}` });
+      assert.ok(p.length <= 300, `day ${n}: ${p.length}`);
+      assert.equal(p.text.split('\n').at(-1), 'Ad');
+    }
+  }
+});
+
+test('an account that posts every second day goes through the whole ring (the step is one per post)', () => {
+  const kinguin = channelWithDefaults('prices-kinguin', 'bluesky', accounts['prices-kinguin'].channels.bluesky);
+  const k = { title: 'Cyberpunk 2077', store: 'Kinguin' };
+  const posts = [16, 18, 20, 22, 24, 26].map((n) => chooseTags({ c: k, channel: kinguin, day: `2026-10-${n}`, every: 2 }).tags);
+  assert.deepEqual(posts.slice(0, 3), [
+    ['PCGaming', 'GameDeals', 'Kinguin', 'Gaming'],
+    ['PCGaming', 'GameDeals', 'Cyberpunk2077', 'VideoGames'],
+    ['PCGaming', 'GameDeals', 'Games', 'PCGames'],
+  ]);
+  assert.deepEqual(posts.slice(3), posts.slice(0, 3), 'six tags, two a post: the ring is used up in three posts');
 });
 
 test('Mastodon tags: GameDeals PCGaming, store, niche and one by the day: game, Gaming, VideoGames; at most 5', () => {
@@ -224,7 +293,7 @@ test('a new channel is only a block in the settings (no code change)', () => {
 
 test('tag research: the tags of accounts.json are collected, the statistics are only what the server said', () => {
   const tags = collectTags(accounts).map((t) => t.tag);
-  assert.deepEqual(tags, ['CityBuilder', 'CozyGames', 'DRMFree', 'FarmingSim', 'GameDeals', 'Gaming', 'GOG', 'IndieGala', 'IndieGames', 'Kinguin', 'PCGaming', 'PointAndClick', 'RetroGames', 'RetroGaming', 'VideoGames']);
+  assert.deepEqual(tags, ['CityBuilder', 'CozyGames', 'DRMFree', 'FarmingSim', 'GameDeals', 'Games', 'Gaming', 'GOG', 'IndieGala', 'IndieGames', 'Kinguin', 'PCGames', 'PCGaming', 'PointAndClick', 'RetroGames', 'RetroGaming', 'VideoGames']);
   assert.ok(collectTags(accounts).find((t) => t.tag === 'GameDeals').where.length === 7, 'used by the channels of prices (2), prices-kinguin (2), cozy (1) and retro (2)');
   assert.deepEqual(gameTagsOf([{ title: 'Shadow Tactics: Blades' }, { title: 'Go' }, { title: 'Shadow Tactics 2' }]).map((t) => t.tag), ['ShadowTactics', 'ShadowTactics2']);
   const now = Date.parse('2026-10-09T10:00:00Z');
@@ -388,12 +457,20 @@ const kinguin = {
 const kBluesky = channelWithDefaults('prices-kinguin', 'bluesky', accounts['prices-kinguin'].channels.bluesky);
 const kMastodon = channelWithDefaults('prices-kinguin', 'mastodon', accounts['prices-kinguin'].channels.mastodon);
 
+test('makePosts gives the cadence of the account to the rotation: Kinguin posts every second day and its tags still change with each post', () => {
+  const brief = { candidates: [kinguin], warnings: [] };
+  const run = (iso) => makePosts({ id: 'prices-kinguin', account: accounts['prices-kinguin'], brief, links, now: Date.parse(iso) }).find((p) => p.channel === 'bluesky');
+  assert.deepEqual(run('2026-10-16T12:00:00Z').tags, ['PCGaming', 'GameDeals', 'Kinguin', 'Gaming']);
+  assert.deepEqual(run('2026-10-18T12:00:00Z').tags, ['PCGaming', 'GameDeals', 'BlackMyth', 'VideoGames']);
+  assert.deepEqual(run('2026-10-20T12:00:00Z').tags, ['PCGaming', 'GameDeals', 'Games', 'PCGames']);
+});
+
 test('Kinguin post: "below the current Steam price", Marketplace key, no "was", Ad last, link to our page', () => {
-  const b = buildPost({ candidate: kinguin, channel: kBluesky, links, day: '2026-10-16' });
+  const b = buildPost({ candidate: kinguin, channel: kBluesky, links, day: '2026-10-16', every: 2 });
   assert.equal(b.text, [
     'Black Myth: Wukong: $38.39 at Kinguin, 36% below the current Steam price ($59.99).\nMarketplace key from an independent seller, so check the seller and region. Price checked Oct 15.',
     'https://saveandplay.com/deals/kinguin/black-myth-wukong/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-16',
-    '#PCGaming #GameDeals #Kinguin\nAd',
+    '#PCGaming #GameDeals #Kinguin #Gaming\nAd',
   ].join('\n\n'));
   const m = buildPost({ candidate: kinguin, channel: kMastodon, links, day: '2026-10-16' });
   assert.ok(m.text.startsWith('Black Myth: Wukong: $38.39 at Kinguin\n36% below the current Steam price ($59.99).\nMarketplace key from an independent seller:'));
