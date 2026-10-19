@@ -775,6 +775,61 @@
             "sig": "1ca5331507fbe77fe738254b1141f1090a9b28c67ab5d3314de51731eff8212b5f2af5bf84eb2941611e85edbc309c04e30cb1cd2b5d5bd0de78821a20fd7fbc"
           }
         }
+      },
+      "2026-10-19": {
+        "deal": {
+          "status": "done",
+          "kind": "deal",
+          "id": "ac7dbe74c0a38451ecdc69dd25df625a5ca8575953ed3d9f0066546c5312b2e2",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "deal": "gog-outward-definitive-edition",
+          "title": "Outward Definitive Edition",
+          "postedAt": "2026-10-19T12:00:36.000Z",
+          "accepted": [
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [
+            {
+              "url": "wss://relay.damus.io",
+              "reason": "connection failed"
+            }
+          ],
+          "event": {
+            "kind": 1,
+            "created_at": 1792411236,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-deal"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/794260/header.jpg?t=1787229712",
+                "m image/jpeg",
+                "alt Cover art for Outward Definitive Edition"
+              ]
+            ],
+            "content": "Outward Definitive Edition: -95% at GOG\n$1.99 (was $39.99)\nPrice checked 2026-10-19 10:08 UTC. Sale ends 2026-10-22 13:00 UTC.\nWhy today: lowest price we've tracked (14 days of data); deepest-discount rank 1 of 17.\nAd: we may earn a commission if you buy.\n\n#pcgaming #gamedeals\n\nhttps://shared.akamai.steamstatic.com/store_item_assets/steam/apps/794260/header.jpg?t=1787229712\n\nhttps://saveandplay.com/deals/gog/outward-definitive-edition/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-19",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "ac7dbe74c0a38451ecdc69dd25df625a5ca8575953ed3d9f0066546c5312b2e2",
+            "sig": "6edfad1bc3321ec85d013afca9f1c265cd0be7670dd7fb7a16be51bdd355dc70fde2b203fa00eda97b3ca2970eca34dffa7b69438ca5cb50a9f6d75712e3c5e0"
+          }
+        }
       }
     }
   },
