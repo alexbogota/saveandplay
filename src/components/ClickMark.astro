@@ -1,0 +1,53 @@
+---
+// Marks REAL clicks on the outgoing "View deal" buttons for the affiliate network (Admitad).
+// Why: every button on the site carries the same mark (subid=site), so the network's statistics cannot tell a person from a bot.
+// How: on the first page of a visit the script remembers where the visitor came from (the utm_source of our own post links,
+// e.g. bluesky-prices, otherwise the referring site, otherwise "direct"). When the visitor really clicks a button (a click made by a
+// person, event.isTrusted), the address gets one more mark: subid1=<where from>. A bot only reads the address and never clicks,
+// so its clicks keep the plain subid=site with no subid1.
+// In Admitad: Reports > On SubID > "Show by" SubID1 = real clicks by source. New accounts and niches need no change here:
+// the source is taken from the link of the post (utm_source = the subid of the account in data/accounts.json).
+// Works without cookies and without Google Analytics: only sessionStorage with a short word, nothing personal.
+---
+<script is:inline>
+  (function () {
+    var KEY = 'sp-src';
+    function clean(s) { return String(s || '').toLowerCase().replace(/[^a-z0-9._-]/g, '').slice(0, 50); }
+    function read() { try { return sessionStorage.getItem(KEY) || ''; } catch (e) { return ''; } }
+    function write(v) { try { sessionStorage.setItem(KEY, v); } catch (e) {} }
+    function bare(h) { return String(h || '').replace(/^www\./, ''); }
+
+    var src = '';
+    try { src = clean(new URLSearchParams(location.search).get('utm_source')); } catch (e) {}
+    if (!src) src = read();
+    if (!src) {
+      try {
+        if (document.referrer) {
+          var host = bare(new URL(document.referrer).hostname);
+          if (host && host !== bare(location.hostname)) src = clean(host);
+        }
+      } catch (e) {}
+    }
+    if (!src) src = 'direct';
+    write(src);
+
+    function mark(e) {
+      if (!e.isTrusted) return;
+      var a = e.target && e.target.closest && e.target.closest('a[data-deal]');
+      if (!a) return;
+      var href = a.getAttribute('href') || '';
+      // Only Admitad links (the site gives them subid=site); direct links such as IndieGala are left alone.
+      if (!/^https?:\/\//i.test(href) || !/[?&]subid=/.test(href) || /[?&]subid1=/.test(href)) return;
+      try { if (new URL(href).hostname === location.hostname) return; } catch (x) { return; }
+      var hash = '';
+      var i = href.indexOf('#');
+      if (i > -1) { hash = href.slice(i); href = href.slice(0, i); }
+      a.setAttribute('href', href + (href.indexOf('?') > -1 ? '&' : '?') + 'subid1=' + encodeURIComponent(src) + hash);
+    }
+    // click: mouse, finger, keyboard. auxclick: middle button. contextmenu: right button (open in a new tab).
+    // Capture phase, so the address is final before the browser follows it.
+    document.addEventListener('click', mark, true);
+    document.addEventListener('auxclick', mark, true);
+    document.addEventListener('contextmenu', mark, true);
+  })();
+</script>
