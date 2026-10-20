@@ -830,6 +830,57 @@
             "sig": "6edfad1bc3321ec85d013afca9f1c265cd0be7670dd7fb7a16be51bdd355dc70fde2b203fa00eda97b3ca2970eca34dffa7b69438ca5cb50a9f6d75712e3c5e0"
           }
         }
+      },
+      "2026-10-20": {
+        "deal": {
+          "status": "done",
+          "kind": "deal",
+          "id": "c8793321a01f32586d6e829d14d35d9c8ba5b3445a6e694b4076fe17e79b12da",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "deal": "gog-frostpunk",
+          "title": "Frostpunk",
+          "postedAt": "2026-10-20T11:57:55.000Z",
+          "accepted": [
+            "wss://relay.damus.io",
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [],
+          "event": {
+            "kind": 1,
+            "created_at": 1792497475,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-deal"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323190/abcd2bf3c275092d637d7dd98e0061dbdd2fd2da/header.jpg?t=1784897899",
+                "m image/jpeg",
+                "alt Cover art for Frostpunk"
+              ]
+            ],
+            "content": "Frostpunk: -85% at GOG\n$4.49 (was $29.99)\nPrice checked 2026-10-20 10:02 UTC. Sale ends 2026-10-23 06:59 UTC.\nWhy today: 1 news site wrote about the game in the last 48 h.\nAd: we may earn a commission if you buy.\n\n#pcgaming #gamedeals\n\nhttps://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323190/abcd2bf3c275092d637d7dd98e0061dbdd2fd2da/header.jpg?t=1784897899\n\nhttps://saveandplay.com/deals/gog/frostpunk/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-20",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "c8793321a01f32586d6e829d14d35d9c8ba5b3445a6e694b4076fe17e79b12da",
+            "sig": "c45982066cca419a49fc7a3e2a38a86c09eebbd79f5446261f889b091c8f6ed441fa1031959094b13f2aff82dc1b92046624d2f3c78a96e3cbe8d1b0084a5d0e"
+          }
+        }
       }
     }
   },
