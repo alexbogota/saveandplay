@@ -1,0 +1,112 @@
+name: Send comments
+
+# Sends the replies the owner approved in the chat ("ок"), and once a day counts the likes and replies our replies got.
+# Nothing is sent without his "ок": the program sends ONLY the texts of comments-approved-*.json on the "comments" branch, exactly as approved,
+# and checks each one again right before it goes (text rules, the post still exists, replies are open, we have not answered it yet, the daily limit).
+# A reply nobody approved is never sent: Bluesky's developer guidelines call automated replies spam (decided 20 Oct 2026, docs/decisions.md).
+#
+# The chat starts it right after the owner's "ок":  gh workflow run "Send comments" -R alexbogota/saveandplay --ref main
+# By hand: Actions -> Send comments -> Run workflow (tick "dry run" to only check: nothing is posted, nothing is saved).
+# Pauses between replies: 1-3 minutes while the repository is public (GitHub minutes are free), 15-30 seconds when it is private
+# (settings "send" in data/comments-accounts.json). The result is the Summary of the run (in Russian) and comments-sent-*.json on the branch.
+# Secrets: BSKY_APP_PASSWORD (the main account; it is already there for the search). Cozy and Retro will need their own app passwords
+# (BSKY_APP_PASSWORD_COZY, BSKY_APP_PASSWORD_RETRO) only when their sending is switched on; a missing secret is simply empty.
+# (A copy of this file lives in scripts/ because the chat cannot write to .github: Claude Code copies it to .github/workflows/comments-send.yml when the owner says /publish.)
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Only check the approved replies: post nothing'
+        type: boolean
+        default: false
+  schedule:
+    - cron: '23 12 * * *' # 12:23 UTC = 07:23 Bogota: the daily numbers of our replies (likes, replies). Sends nothing.
+
+# Writing is needed only to save what was sent (and the numbers) on the "comments" branch.
+permissions:
+  contents: write
+
+# One sending at a time, so a reply can never go twice from two runs at once.
+concurrency:
+  group: send-comments
+  cancel-in-progress: false
+
+jobs:
+  send:
+    if: ${{ github.event_name == 'workflow_dispatch' }}
+    runs-on: ubuntu-latest
+    # long pauses only while the repository is public; a private one stops early, so a stuck run cannot eat the free minutes
+    timeout-minutes: ${{ github.event.repository.private && 25 || 90 }}
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v4
+        with:
+          # Always the newest main. Without this, "Re-run jobs" on an old run uses the old commit and so the old code.
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Get the approved replies
+        run: bash scripts/comments-branch.sh load
+
+      - name: Send them
+        id: send
+        # A failure must not stop the next step from saving what was already sent: the failure is reported by the last step.
+        continue-on-error: true
+        env:
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+          BSKY_APP_PASSWORD_COZY: ${{ secrets.BSKY_APP_PASSWORD_COZY }}
+          BSKY_APP_PASSWORD_RETRO: ${{ secrets.BSKY_APP_PASSWORD_RETRO }}
+          REPO_PRIVATE: ${{ github.event.repository.private }}
+          DRY_RUN: ${{ inputs.dry_run }}
+          COMMENTS_CANCEL_FROM_GIT: '1'
+        run: node scripts/comments-send.mjs
+
+      - name: Save what was sent on the comments branch
+        # always(): also when the run was stopped, so a reply that went out is never forgotten
+        if: ${{ always() }}
+        run: |
+          if [ -s drafts/.comments-new-files ]; then bash scripts/comments-branch.sh save $(cat drafts/.comments-new-files); else echo "Nothing new to save."; fi
+
+      - name: Fail if sending had a problem
+        if: ${{ always() && steps.send.outcome == 'failure' }}
+        run: |
+          echo "::error::Sending stopped with a problem. See the step 'Send them' above and the Summary."
+          exit 1
+
+  stats:
+    if: ${{ github.event_name == 'schedule' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Get the earlier files
+        run: bash scripts/comments-branch.sh load
+
+      - name: Count likes and replies of our replies
+        id: stats
+        continue-on-error: true
+        run: node scripts/comments-stats.mjs
+
+      - name: Save the numbers on the comments branch
+        if: ${{ always() }}
+        run: |
+          if [ -s drafts/.comments-new-files ]; then bash scripts/comments-branch.sh save $(cat drafts/.comments-new-files); else echo "Nothing new to save."; fi
+
+      - name: Fail if counting had a problem
+        if: ${{ always() && steps.stats.outcome == 'failure' }}
+        run: |
+          echo "::error::Counting failed for at least one account. See the step above."
+          exit 1
