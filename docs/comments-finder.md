@@ -103,3 +103,12 @@
 - **Первый живой запуск (16 октября, ночью по США, поэтому постов мало):** Cozy 12 постов в списке (поиск: stardew 18 подошло из 40, cozy game 16 из 39, wholesome 1 из 7, steam deck 3 из 3; лента Cozy Games 1 из 45), Retro 12 постов (old pc games 3 из 10, good old games 7 из 35, childhood 2 из 7, nostalgia 2 из 7; лента RetroGaming 1 из 50). Лист шумный, чат выбирает несколько. Ленты `cozyFeed` и `retroFeed` пробные, решать по строке Sources so far через несколько запусков.
 - Чат: фраза «комментарии saveandplay» берёт ВСЕ включённые аккаунты сразу (`scripts/comments-show.mjs --all`, порядок в `docs/comments-saveandplay.md`, раздел «All accounts in one run»); «комментарии cozy» и «комментарии retro» только свой аккаунт; правила ответов `docs/comments-cozy.md`, `docs/comments-retro.md`.
 - Mastodon Retro (пункт 8 задания) не сделан: аккаунта на Mastodon ещё нет. Когда он появится: блок `mastodon-retro` с `extends: prices`, `platform: "mastodon"`, хэштегами `retrogaming` и `retrogames` по образцу `mastodon-prices`.
+
+## Шире поиск (20 октября 2026)
+Владелец: «мало комментариев выходит». Причина: за запуск бралось по одному запросу из каждой группы, каждый запрос работал раз в 1–2 дня, а оживлённые хэштеги Mastodon читались раз в 30 часов. Теперь:
+- `queriesPerGroup` (по умолчанию 1): сколько запросов из каждой группы идёт за запуск. Основной Bluesky 4, Mastodon 13 (все теги), Cozy и Retro 4 (наследуют).
+- Bluesky `search` читает до 100 постов за страницу и несколько страниц (`pages`); `perQuery` у основного, Cozy и Retro 100.
+- У группы может быть своя глубина `pages` (Mastodon `broadPlaying`: 6).
+- Больше простых запросов без кавычек, больше хэштегов Mastodon, лента `pcGaming` читается на 3 страницы.
+- Mastodon `waitForSale` и `bundles` выключены (0 подошедших за 23 запуска); вернуть: убрать `enabled: false`.
+Смотреть результат: строка «Sources so far» в логе запуска и число постов в списке. Не подошли теги или запросы: убрать их из настроек, код не трогать.
