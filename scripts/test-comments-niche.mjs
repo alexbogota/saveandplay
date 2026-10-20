@@ -332,9 +332,9 @@ test('prices-wide: a post the main mode showed is not shown again, the wide mode
   const main = await show(root, ['--account', 'prices']);
   assert.ok(!main.out.includes(k(2).url), 'shown in the wide mode, so not again in the main mode');
   assert.ok(main.out.includes(k(4).url));
-  // "all" does not include the wide mode
+  // the normal "all" does not include the wide mode
   const all = await show(root, ['--all']);
-  assert.ok(!/=+ prices-wide /.test(all.out), 'the wide mode is asked for by name only');
+  assert.ok(!/=+ [\w-]+-wide /.test(all.out) && !/=+ prices-wide /.test(all.out), 'the wide mode is asked for with --wide only');
   assert.deepEqual([...all.out.matchAll(/^=+ ([\w-]+) \(/gm)].map((m) => m[1]), IDS);
 });
 
@@ -357,4 +357,50 @@ test('end to end: the finder run of prices-wide logs in as the main account and 
   } finally {
     server.close();
   }
+});
+
+test('wide mode covers every account: one wide block each, sharing the memory of its normal block', () => {
+  const wides = { 'prices-wide': 'prices', 'mastodon-prices-wide': 'mastodon-prices', 'cozy-wide': 'cozy', 'retro-wide': 'retro' };
+  for (const [id, base] of Object.entries(wides)) {
+    const w = cfg(id), b = cfg(base);
+    assert.deepEqual(configProblems(w), [], id);
+    assert.equal(w.onDemand, true, id);
+    assert.equal(w.shownAs, base, `${id} shares the memory of ${base}`);
+    assert.equal(w.handle, b.handle, `${id}: same account as ${base}`);
+    assert.equal(w.platform, b.platform);
+    assert.equal(w.loginAs, b.loginAs);
+    assert.ok(w.minScore < b.minScore, `${id}: lower threshold`);
+    assert.deepEqual(w.skipWords, b.skipWords, `${id}: the safety rules are those of ${base}`);
+    assert.deepEqual(w.skipAuthorWords, b.skipAuthorWords);
+    assert.deepEqual(w.consoleWords, b.consoleWords);
+  }
+  // Mastodon wide reads only hashtags the normal block does not read (one public server, about 300 requests per 5 minutes)
+  const normal = new Set(Object.values(cfg('mastodon-prices').groups).flatMap((g) => g.queries));
+  const mine = Object.values(cfg('mastodon-prices-wide').groups).flatMap((g) => g.queries);
+  assert.ok(mine.length >= 15 && mine.every((t) => !normal.has(t)), 'no hashtag is read twice');
+  for (const id of ['cozy-wide', 'retro-wide']) {
+    const base = cfg(wides[id]);
+    for (const g of Object.keys(base.groups)) assert.deepEqual(cfg(id).groups[g], base.groups[g], `${id}: inherits ${g}`);
+    assert.ok(Object.keys(cfg(id).groups).length > Object.keys(base.groups).length, `${id}: new groups`);
+  }
+});
+
+test('show --all --wide: only the wide blocks, one per account, each writing into the memory of its normal block', async () => {
+  const root = showRoot({});
+  const WIDE = ['prices-wide', 'mastodon-prices-wide', 'cozy-wide', 'retro-wide'];
+  for (const id of WIDE) {
+    const normal = Array.from({ length: 30 }, (_, i) => listPost(id, i + 1));
+    writeFileSync(join(root, 'drafts', `comments-${id}.json`), JSON.stringify({ madeAt: ago(1), normal, heated: [] }));
+  }
+  // one post of cozy-wide was already shown by the NORMAL cozy mode
+  writeFileSync(join(root, 'drafts', 'comments-shown-cozy-20261020-090000.json'), JSON.stringify([listPost('cozy-wide', 1).url]));
+  const r = await show(root, ['--all', '--wide', '--record-new-all', STAMP]);
+  assert.equal(r.code, 0, r.out);
+  assert.deepEqual([...r.out.matchAll(/^=+ ([\w-]+) \(/gm)].map((m) => m[1]), WIDE, 'only the wide blocks, in the order of the settings');
+  const count = (id) => (r.out.match(new RegExp(`https://bsky\\.app/profile/${id}\\d+\\.bsky\\.social`, 'g')) || []).length;
+  assert.deepEqual([count('prices-wide'), count('mastodon-prices-wide'), count('cozy-wide'), count('retro-wide')], [25, 12, 12, 12]);
+  assert.ok(!r.out.includes(listPost('cozy-wide', 1).url), 'shown by the normal cozy mode, so not again');
+  const written = readdirSync(join(root, 'drafts')).filter((f) => f.includes(STAMP)).sort();
+  assert.deepEqual(written, [`comments-shown-cozy-${STAMP}.json`, `comments-shown-mastodon-prices-${STAMP}.json`, `comments-shown-prices-${STAMP}.json`, `comments-shown-retro-${STAMP}.json`], 'the memory files carry the names of the normal blocks');
+  assert.match(r.out, /bash scripts\/comments-branch\.sh save drafts\/comments-shown-prices-/);
 });
