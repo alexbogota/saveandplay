@@ -51,7 +51,7 @@ export function loadShown(id) {
   return keys;
 }
 
-const DEFAULTS = { platform: 'bluesky', feeds: [], enabled: true, language: 'en', maxAgeHours: 30, minChars: 30, maxChars: 600, queriesPerRun: 4, perQuery: 40, pages: 1, maxCandidates: 12, maxHeated: 3, minScore: 5, showLimit: 8 };
+const DEFAULTS = { platform: 'bluesky', feeds: [], enabled: true, language: 'en', maxAgeHours: 30, minChars: 30, maxChars: 600, queriesPerRun: 4, queriesPerGroup: 1, perQuery: 40, pages: 1, maxCandidates: 12, maxHeated: 3, minScore: 5, showLimit: 8 };
 export const withDefaults = (a) => {
   const handle = String(a.handle ?? '').replace(/^@/, '');
   const platform = a.platform ?? DEFAULTS.platform;
@@ -155,9 +155,17 @@ export function createApi({ fetchImpl = globalThis.fetch, base = process.env.BSK
       jwt = j?.accessJwt || null;
       if (!jwt) throw Object.assign(new Error('login gave no token'), { code: 'auth' });
     },
-    async search(q, { since, limit = 40, lang = 'en' } = {}) {
-      const j = await call('app.bsky.feed.searchPosts', { params: { q, sort: 'latest', limit, lang, since } });
-      return j?.posts ?? [];
+    // The newest posts for a search phrase, up to `pages` pages of `limit` posts (the server allows at most 100 per page).
+    async search(q, { since, limit = 40, lang = 'en', pages = 1 } = {}) {
+      const out = [];
+      let cursor;
+      for (let i = 0; i < Math.max(1, pages); i++) {
+        const j = await call('app.bsky.feed.searchPosts', { params: { q, sort: 'latest', limit: Math.min(100, limit), lang, since, cursor } });
+        out.push(...(j?.posts ?? []));
+        cursor = j?.cursor;
+        if (!cursor || !(j?.posts ?? []).length) break;
+      }
+      return out;
     },
     // The newest posts of a custom feed (somebody else's list of posts by topic). A feed address is a bsky.app link.
     async feedPosts(url, { limit = 100, pages = 1 } = {}) {
@@ -440,20 +448,24 @@ export function evaluate(post, cfg, { now = Date.now(), group = null, query = nu
 }
 
 // ---- rotation, pool, report -------------------------------------------------------------------------------------
-// One query from each of n DIFFERENT groups per run; the next run goes on with the next groups and the next query of each group.
+// Up to `queriesPerGroup` queries (default 1) from each of n DIFFERENT groups per run; the next run goes on with the next groups and the next queries of each group.
+// A group can set its own `pages` (how deep to read a busy search or hashtag), it is passed on with the query.
 export function pickQueries(cfg, state, n = cfg.queriesPerRun) {
   const names = Object.keys(cfg.groups).filter((g) => cfg.groups[g].enabled !== false);
   if (!names.length) return [];
   state.cursor ??= 0;
   state.next ??= {};
   const take = Math.min(n, names.length);
+  const per = Math.max(1, Math.floor(Number(cfg.queriesPerGroup) || 1));
   const out = [];
   for (let i = 0; i < take; i++) {
     const g = names[(state.cursor + i) % names.length];
     const qs = cfg.groups[g].queries;
-    const k = (state.next[g] ?? 0) % qs.length;
-    out.push({ group: g, query: qs[k] });
-    state.next[g] = k + 1;
+    for (let j = 0; j < Math.min(per, qs.length); j++) {
+      const k = (state.next[g] ?? 0) % qs.length;
+      out.push({ group: g, query: qs[k], ...(cfg.groups[g].pages ? { pages: cfg.groups[g].pages } : {}) });
+      state.next[g] = k + 1;
+    }
   }
   state.cursor = (state.cursor + take) % names.length;
   return out;

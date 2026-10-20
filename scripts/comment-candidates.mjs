@@ -94,7 +94,7 @@ async function runAccount({ id, account }) {
   };
   for (const q of queries) {
     try {
-      const posts = await api.search(q.query, { since, limit: account.perQuery, lang: account.language, pages: account.pages });
+      const posts = await api.search(q.query, { since, limit: account.perQuery, lang: account.language, pages: q.pages ?? account.pages });
       const fit = take(posts, q.group, q.query);
       count(q.group, posts.length, fit);
       say(`  ${q.group}: ${q.query}: ${posts.length} posts, ${fit} fit`);

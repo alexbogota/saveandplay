@@ -144,7 +144,7 @@ test('end to end: cozy searches under the login of the main account, reads its O
     assert.equal(r.code, 0, r.out);
     assert.deepEqual([...new Set(logins)], ['saveandplay.com'], 'the login is the main account, no second password');
     assert.deepEqual([...new Set(authorFeeds)], ['cozygame.bsky.social'], 'the answered posts are read from the niche account itself');
-    assert.ok(searched.length >= 1 && searched.length <= cozy.queriesPerRun, 'only its own, smaller set of queries');
+    assert.ok(searched.length >= 1 && searched.length <= cozy.queriesPerRun * (cozy.queriesPerGroup ?? 1), 'only its own, smaller set of queries');
     assert.ok(Object.values(cozy.groups).flatMap((g) => g.queries).some((q) => searched.includes(q)), 'the queries are cozy queries');
     assert.ok(readFileSync(join(root, 'drafts', 'comments-cozy.md'), 'utf8').includes(found.author.handle));
     const files = readdirSync(join(root, 'drafts')).sort();

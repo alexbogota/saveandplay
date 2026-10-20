@@ -372,18 +372,20 @@ test('end to end: the list has only the right posts, links open on our server, n
     assert.match(md, /already answered/);
     // what was asked: public timelines of hashtags from the groups, the account lookup, no login, no token
     const tags = [...new Set(calls.filter((c) => c.path.startsWith('/api/v1/timelines/tag/')).map((c) => c.path.split('/').pop()))];
-    assert.deepEqual(tags, ['steamsale', 'backlog', 'steamdeck', 'humblebundle', 'drmfree', 'roguelike', 'horrorgames', 'pcgaming'], 'one hashtag from each of 8 different groups');
+    const wanted = Object.values(mcfg.groups).filter((g) => g.enabled !== false).flatMap((g) => g.queries);
+    assert.deepEqual([...tags].sort(), [...new Set(wanted)].sort(), 'every hashtag of every switched-on group (queriesPerGroup), none of the switched-off groups');
+    assert.ok(!tags.includes('steamsale') && !tags.includes('humblebundle'), 'the groups switched off on 20 Oct 2026 are not searched');
     assert.ok(calls.every((c) => c.auth === null), 'no login or token is sent');
     assert.ok(calls.every((c) => c.path.startsWith('/api/v1/')));
     assert.ok(existsSync(join(root, 'drafts', 'comments-state-mastodon-prices.json')));
     assert.ok(!existsSync(join(root, 'drafts', 'comments-prices.md')), 'the Bluesky list is not touched');
-    // a second run goes on with other hashtags and keeps the fresh post
+    // a second run keeps the fresh post
     const r2 = await runProgram(env, ['--account', 'mastodon-prices']);
     assert.equal(r2.code, 0, r2.out);
     assert.ok(readFileSync(join(root, 'drafts', 'comments-mastodon-prices.md'), 'utf8').includes('/7001'));
     const state = JSON.parse(readFileSync(join(root, 'drafts', 'comments-state-mastodon-prices.json'), 'utf8'));
-    assert.equal(state.sources.waitForSale.runs, 2);
-    assert.ok(state.sources.waitForSale.fit >= 2);
+    assert.equal(state.sources.deck.runs, 2 * mcfg.groups.deck.queries.length, "every hashtag of the group is read in every run");
+    assert.ok(state.sources.deck.fit >= 2);
     assert.match(r2.out, /Sources so far/);
     // once the owner was shown the post, it never comes back
     writeFileSync(join(root, 'drafts', 'comments-shown-mastodon-prices-20261013-1000.json'), JSON.stringify(['https://mastodon.social/@goodperson@other.example/7001']));

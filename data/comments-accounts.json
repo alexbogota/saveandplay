@@ -10,8 +10,8 @@
       "minChars": 30,
       "maxChars": 600,
       "queriesPerRun": 10,
-      "perQuery": 40,
-      "maxCandidates": 25,
+      "perQuery": 100,
+      "maxCandidates": 40,
       "maxHeated": 3,
       "minScore": 5,
       "groups": {
@@ -25,7 +25,13 @@
             "\"should I buy\" game",
             "\"wait for the sale\"",
             "\"worth it\" \"on sale\" game",
-            "\"is it worth\" \"full price\" game"
+            "\"is it worth\" \"full price\" game",
+            "should i buy steam",
+            "worth buying game",
+            "waiting for a sale",
+            "game on sale steam",
+            "is it worth it game",
+            "steam sale"
           ]
         },
         "backlog": {
@@ -38,7 +44,13 @@
             "\"what should I play next\"",
             "\"my backlog\" games",
             "\"need a game\" recommendation",
-            "\"something to play\" steam"
+            "\"something to play\" steam",
+            "what should i play",
+            "game recommendations",
+            "pc game recommendations",
+            "games like",
+            "what to play next",
+            "need game recommendations"
           ]
         },
         "deck": {
@@ -46,7 +58,11 @@
           "queries": [
             "steam deck games",
             "\"steam deck\" recommendations",
-            "handheld PC games"
+            "handheld PC games",
+            "steam deck",
+            "best steam deck games",
+            "steam deck game",
+            "steam deck recommendations"
           ]
         },
         "bundles": {
@@ -56,7 +72,11 @@
             "\"bundle\" worth it games",
             "Fanatical bundle",
             "itch.io bundle",
-            "pay what you want games"
+            "pay what you want games",
+            "humble bundle",
+            "game bundle",
+            "indiegala",
+            "fanatical"
           ]
         },
         "practical": {
@@ -65,7 +85,11 @@
             "steam refund",
             "\"game pass\" vs buying",
             "DRM-free games",
-            "\"physical vs digital\" games"
+            "\"physical vs digital\" games",
+            "gog games",
+            "steam library",
+            "steam price",
+            "game price"
           ]
         },
         "genres": {
@@ -75,7 +99,13 @@
             "cozy games pc",
             "metroidvania recommendations",
             "co-op games pc",
-            "city builder recommendations"
+            "city builder recommendations",
+            "rpg recommendations",
+            "strategy games pc",
+            "indie games pc",
+            "puzzle games recommend",
+            "survival games recommend",
+            "simulation games pc"
           ]
         },
         "seasonal": {
@@ -83,7 +113,10 @@
           "queries": [
             "spooky games steam",
             "horror games recommend",
-            "halloween games pc"
+            "halloween games pc",
+            "horror games pc",
+            "scary games steam",
+            "halloween steam"
           ]
         },
         "ai": {
@@ -107,7 +140,11 @@
             "\"playing tonight\" game",
             "\"hours in\" game pc",
             "\"beat\" game \"last night\"",
-            "\"on my steam deck\""
+            "\"on my steam deck\"",
+            "just finished game",
+            "currently playing steam",
+            "playing on pc",
+            "started game steam"
           ]
         },
         "broadAsk": {
@@ -123,7 +160,11 @@
             "\"games similar to\"",
             "\"best co-op\" game",
             "\"what to play\" pc",
-            "\"cozy game\" recommend"
+            "\"cozy game\" recommend",
+            "recommend game",
+            "game recommendation",
+            "looking for game",
+            "any good games"
           ]
         }
       },
@@ -133,14 +174,14 @@
           "url": "https://bsky.app/profile/phusion.bsky.social/feed/aaadmtxc3akja",
           "weight": 2,
           "limit": 100,
-          "pages": 1
+          "pages": 3
         },
         {
           "name": "gamingLiked",
           "url": "https://bsky.app/profile/steinmakesgames.bsky.social/feed/aaagbemgqcwfa",
           "weight": 1,
           "limit": 50,
-          "pages": 1
+          "pages": 2
         },
         {
           "name": "videogames",
@@ -367,14 +408,15 @@
         "politic",
         "boycott"
       ],
-      "showLimit": 15
+      "showLimit": 15,
+      "queriesPerGroup": 4
     },
     "mastodon-prices": {
       "extends": "prices",
       "platform": "mastodon",
       "handle": "saveandplay@mastodon.social",
       "passwordEnv": null,
-      "queriesPerRun": 8,
+      "queriesPerRun": 9,
       "maxCandidates": 12,
       "feeds": [],
       "pages": 3,
@@ -388,7 +430,9 @@
             "gamedeals",
             "gamesale",
             "steamdeals"
-          ]
+          ],
+          "enabled": false,
+          "note": "off 20 Oct 2026: 960 posts, 0 fit in 23 runs (deal and shop tags hold only news and shops)"
         },
         "backlog": {
           "weight": 2,
@@ -406,7 +450,9 @@
           "queries": [
             "steamdeck",
             "steamos",
-            "handheldgaming"
+            "handheldgaming",
+            "steamdecklife",
+            "steamdeckoled"
           ]
         },
         "bundles": {
@@ -415,7 +461,9 @@
             "humblebundle",
             "fanatical",
             "bundle+games"
-          ]
+          ],
+          "enabled": false,
+          "note": "off 20 Oct 2026: 920 posts, 0 fit in 23 runs"
         },
         "practical": {
           "weight": 2,
@@ -433,7 +481,12 @@
             "cozygames",
             "metroidvania",
             "coopgames",
-            "citybuilder"
+            "citybuilder",
+            "strategygames",
+            "survivalgames",
+            "horrorgaming",
+            "cozygaming",
+            "puzzlegames"
           ]
         },
         "seasonal": {
@@ -452,8 +505,17 @@
             "gaming",
             "steam",
             "videogames",
-            "currentlyplaying"
-          ]
+            "currentlyplaying",
+            "indiegames",
+            "indiegame",
+            "pcgames",
+            "steamgames",
+            "gamer",
+            "games",
+            "rpg",
+            "jrpg"
+          ],
+          "pages": 6
         },
         "broadAsk": {
           "weight": 1,
@@ -462,7 +524,11 @@
             "hiddengem",
             "underratedgames",
             "gamesuggestions",
-            "recommendmeagame"
+            "recommendmeagame",
+            "gamerecommendation",
+            "recommendagame",
+            "whattoplay",
+            "gamesuggestion"
           ]
         }
       },
@@ -498,14 +564,15 @@
         "bots dni",
         "bots will be blocked"
       ],
-      "showLimit": 8
+      "showLimit": 8,
+      "queriesPerGroup": 13
     },
     "cozy": {
       "extends": "prices",
       "passwordEnv": "BSKY_APP_PASSWORD",
       "loginAs": "saveandplay.com",
       "queriesPerRun": 6,
-      "perQuery": 40,
+      "perQuery": 100,
       "maxCandidates": 12,
       "maxHeated": 2,
       "showLimit": 8,
@@ -559,7 +626,10 @@
             "cozy game recommendation",
             "cozy games steam",
             "recommend cozy game",
-            "wholesome game recommend"
+            "wholesome game recommend",
+            "cozy games",
+            "cozy game recommendations",
+            "cozy games recommend"
           ]
         },
         "stardew": {
@@ -569,7 +639,9 @@
             "games like stardew valley",
             "stardew",
             "farming sim",
-            "life sim"
+            "life sim",
+            "stardew valley recommendations",
+            "farming games"
           ]
         },
         "evening": {
@@ -578,7 +650,9 @@
             "cozy game",
             "something cozy play",
             "cozy gaming",
-            "chill game tonight"
+            "chill game tonight",
+            "cozy games tonight",
+            "cozy gaming evening"
           ]
         },
         "wholesome": {
@@ -612,7 +686,7 @@
           "url": "https://bsky.app/profile/closestghost.bsky.social/feed/aaakm7yl3dym4",
           "weight": 1,
           "limit": 50,
-          "pages": 1,
+          "pages": 2,
           "note": "Пробная лента (39 лайков, 16 октября 2026): много стримеров и магазинов, фильтры их отсеивают. Решать по строке Sources so far.",
           "requireQuestion": true
         }
@@ -688,7 +762,7 @@
       "passwordEnv": "BSKY_APP_PASSWORD",
       "loginAs": "saveandplay.com",
       "queriesPerRun": 6,
-      "perQuery": 40,
+      "perQuery": 100,
       "maxCandidates": 12,
       "maxHeated": 2,
       "showLimit": 8,
@@ -740,7 +814,10 @@
             "childhood favorite game",
             "games from my childhood",
             "first video game",
-            "played this as a kid game"
+            "played this as a kid game",
+            "first pc game",
+            "childhood game",
+            "game from my childhood"
           ]
         },
         "classicPC": {
@@ -750,7 +827,9 @@
             "dos games",
             "classic pc games",
             "old pc game",
-            "retro pc gaming"
+            "retro pc gaming",
+            "dos game",
+            "classic pc game"
           ]
         },
         "holdUp": {
@@ -783,7 +862,9 @@
             "retro games recommend",
             "best retro games",
             "best old games",
-            "old game recommend"
+            "old game recommend",
+            "retro game recommendations",
+            "old games recommend"
           ]
         }
       },
@@ -793,7 +874,7 @@
           "url": "https://bsky.app/profile/redherring32.com/feed/aaacdps7yadba",
           "weight": 1,
           "limit": 50,
-          "pages": 1,
+          "pages": 2,
           "note": "Пробная лента (459 лайков, 16 октября 2026): много ROM-постов, ботов и чужих языков, фильтры их отсеивают. Решать по строке Sources so far.",
           "requireQuestion": true
         }

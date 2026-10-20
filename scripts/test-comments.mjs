@@ -8,7 +8,7 @@ import { mkdtempSync, mkdirSync, copyFileSync, readFileSync, writeFileSync, exis
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { commentAccounts, looksNotEnglish, parseFeedUrl, describeEmbed, evaluate, pickQueries, updatePool, renderReport, readEnvValue, configProblems, loadShown, postKey, file } from './lib/comments.mjs';
+import { commentAccounts, createApi, looksNotEnglish, parseFeedUrl, describeEmbed, evaluate, pickQueries, updatePool, renderReport, readEnvValue, configProblems, loadShown, postKey, file } from './lib/comments.mjs';
 
 const NOW = Date.parse('2026-10-13T15:00:00Z');
 const ago = (h) => new Date(NOW - h * 36e5).toISOString();
@@ -166,6 +166,37 @@ test('queries rotate over different groups and then over the queries of each gro
   assert.deepEqual(r1, ['a1', 'b1']);
   assert.deepEqual(r2, ['c1', 'a2']);
   assert.deepEqual(r3, ['b1', 'c2']);
+});
+
+test('queriesPerGroup takes several queries from each group per run and passes the group depth on', () => {
+  const small = { queriesPerRun: 3, queriesPerGroup: 2, groups: { a: { queries: ['a1', 'a2', 'a3'] }, b: { queries: ['b1'], pages: 6 }, off: { enabled: false, queries: ['x'] } } };
+  const state = {};
+  const r1 = pickQueries(small, state, 3);
+  assert.deepEqual(r1.map((q) => q.query), ['a1', 'a2', 'b1'], 'two from a, the only one from b, none from the switched-off group');
+  assert.equal(r1.find((q) => q.query === 'b1').pages, 6, 'the depth of the group goes with its queries');
+  assert.equal(r1.find((q) => q.query === 'a1').pages, undefined);
+  const r2 = pickQueries(small, state, 3);
+  assert.deepEqual(r2.map((q) => q.query), ['a3', 'a1', 'b1'], 'the next run goes on where the last one stopped');
+  // without the setting nothing changes: one query per group
+  assert.equal(pickQueries({ queriesPerRun: 5, groups: { a: { queries: ['a1', 'a2'] }, b: { queries: ['b1'] } } }, {}, 5).length, 2);
+});
+
+test('a Bluesky search reads several pages with the cursor and asks for at most 100 posts per page', async () => {
+  const asked = [];
+  const pagesOfPosts = { undefined: { posts: [{ uri: 'u1' }, { uri: 'u2' }], cursor: 'c2' }, c2: { posts: [{ uri: 'u3' }], cursor: undefined } };
+  const fetchImpl = async (url) => {
+    const u = new URL(url);
+    asked.push({ limit: u.searchParams.get('limit'), cursor: u.searchParams.get('cursor') });
+    const body = JSON.stringify(pagesOfPosts[u.searchParams.get('cursor') ?? 'undefined']);
+    return { ok: true, status: 200, text: async () => body };
+  };
+  const api = createApi({ fetchImpl, base: 'http://x.test' });
+  const posts = await api.search('steam deck', { limit: 250, pages: 3 });
+  assert.deepEqual(posts.map((p) => p.uri), ['u1', 'u2', 'u3']);
+  assert.deepEqual(asked, [{ limit: '100', cursor: null }, { limit: '100', cursor: 'c2' }], 'it stops when there is no cursor, and never asks for more than 100');
+  asked.length = 0;
+  assert.equal((await api.search('steam deck', { limit: 40 })).length, 2, 'one page by default');
+  assert.equal(asked.length, 1);
 });
 
 test('broad groups (general game talk) are in the settings, give usable posts, and can be switched off', () => {
