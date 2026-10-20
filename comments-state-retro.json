@@ -1,122 +1,86 @@
 {
   "cursor": 0,
   "next": {
-    "childhood": 1,
-    "classicPC": 2,
-    "holdUp": 2,
-    "gogOld": 2,
-    "nostalgia": 2,
-    "askRetro": 1
+    "childhood": 2,
+    "classicPC": 3,
+    "holdUp": 3,
+    "gogOld": 3,
+    "nostalgia": 3,
+    "askRetro": 2
   },
   "sources": {
     "childhood": {
-      "runs": 17,
-      "posts": 235,
-      "fit": 66,
+      "runs": 18,
+      "posts": 244,
+      "fit": 68,
       "last": {
-        "posts": 3,
-        "fit": 1,
-        "at": "2026-10-20T06:46:37.289Z"
+        "posts": 9,
+        "fit": 2,
+        "at": "2026-10-20T12:48:45.065Z"
       }
     },
     "classicPC": {
-      "runs": 17,
-      "posts": 182,
-      "fit": 62,
+      "runs": 18,
+      "posts": 186,
+      "fit": 64,
       "last": {
-        "posts": 11,
-        "fit": 6,
-        "at": "2026-10-20T06:46:37.289Z"
+        "posts": 4,
+        "fit": 2,
+        "at": "2026-10-20T12:48:45.065Z"
       }
     },
     "holdUp": {
-      "runs": 17,
+      "runs": 18,
       "posts": 23,
       "fit": 0,
       "last": {
-        "posts": 3,
+        "posts": 0,
         "fit": 0,
-        "at": "2026-10-20T06:46:37.289Z"
+        "at": "2026-10-20T12:48:45.065Z"
       }
     },
     "gogOld": {
-      "runs": 17,
+      "runs": 18,
       "posts": 189,
       "fit": 31,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-10-20T06:46:37.289Z"
+        "at": "2026-10-20T12:48:45.065Z"
       }
     },
     "nostalgia": {
-      "runs": 17,
-      "posts": 168,
+      "runs": 18,
+      "posts": 169,
       "fit": 31,
-      "last": {
-        "posts": 22,
-        "fit": 2,
-        "at": "2026-10-20T06:46:37.289Z"
-      }
-    },
-    "askRetro": {
-      "runs": 17,
-      "posts": 59,
-      "fit": 15,
       "last": {
         "posts": 1,
         "fit": 0,
-        "at": "2026-10-20T06:46:37.289Z"
+        "at": "2026-10-20T12:48:45.065Z"
+      }
+    },
+    "askRetro": {
+      "runs": 18,
+      "posts": 64,
+      "fit": 16,
+      "last": {
+        "posts": 5,
+        "fit": 1,
+        "at": "2026-10-20T12:48:45.065Z"
       }
     },
     "retroFeed": {
-      "runs": 17,
-      "posts": 836,
-      "fit": 31,
+      "runs": 18,
+      "posts": 886,
+      "fit": 32,
       "last": {
-        "posts": 49,
-        "fit": 3,
-        "at": "2026-10-20T06:46:37.289Z"
+        "posts": 50,
+        "fit": 1,
+        "at": "2026-10-20T12:48:45.065Z"
       }
     }
   },
   "pool": {
-    "at://did:plc:j3uzp7g5xoueynsklf5vexvg/app.bsky.feed.post/3my77lypda22u": {
-      "uri": "at://did:plc:j3uzp7g5xoueynsklf5vexvg/app.bsky.feed.post/3my77lypda22u",
-      "url": "https://bsky.app/profile/larrythedemon.bsky.social/post/3my77lypda22u",
-      "handle": "larrythedemon.bsky.social",
-      "name": "Your Sleep Paralysis Demon",
-      "text": "Just finished Silent Hill Townfall and it's really dang good. They really captured the essence of silent hill without feeling like a repeat of the old games",
-      "createdAt": "2026-10-19T03:48:43.256Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "gogOld",
-      "query": "good old games",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": null,
-      "firstSeen": "2026-10-19T06:51:39.967Z"
-    },
-    "at://did:plc:ue3jglcjdawtvkwjmqhqwf6k/app.bsky.feed.post/3my7jefic6c2f": {
-      "uri": "at://did:plc:ue3jglcjdawtvkwjmqhqwf6k/app.bsky.feed.post/3my7jefic6c2f",
-      "url": "https://bsky.app/profile/programme-tv.net/post/3my7jefic6c2f",
-      "handle": "programme-tv.net",
-      "name": "Télé Loisirs",
-      "text": "Interstellar : Pourquoi de nombreuses scènes du film avec Timothée Chalamet ont-elles été coupées au montage ? - Télé-Loisirs ➡️ https://l.programme-tv.net/jP9",
-      "createdAt": "2026-10-19T06:43:22.000Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "retroFeed",
-      "query": "feed",
-      "score": 5,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "image: Stranger Things : Des scènes de la saison 5 ont-elles été coupées ? Les créateurs répondent sans détour",
-      "firstSeen": "2026-10-19T06:51:39.967Z"
-    },
     "at://did:plc:jnnwe54nckxx5ctxfcjicd6f/app.bsky.feed.post/3myannzximc2h": {
       "uri": "at://did:plc:jnnwe54nckxx5ctxfcjicd6f/app.bsky.feed.post/3myannzximc2h",
       "url": "https://bsky.app/profile/nowstartthegame.bsky.social/post/3myannzximc2h",
@@ -387,42 +351,6 @@
       "media": null,
       "firstSeen": "2026-10-20T06:46:37.289Z"
     },
-    "at://did:plc:r47vaxudw2xuvge6hjul73xl/app.bsky.feed.post/3my7fsoo5w22h": {
-      "uri": "at://did:plc:r47vaxudw2xuvge6hjul73xl/app.bsky.feed.post/3my7fsoo5w22h",
-      "url": "https://bsky.app/profile/nostalgiajon.bsky.social/post/3my7fsoo5w22h",
-      "handle": "nostalgiajon.bsky.social",
-      "name": "Jon of the 80s",
-      "text": "Yeah there was time I could grab one for like 25 to 50 now the dang things are over 200. I just want one cause I have a few game disc.that only run on DOS hahaha. Also looking for a older desktop with like window 95 again for games hahaha",
-      "createdAt": "2026-10-19T05:39:50.064Z",
-      "likes": 1,
-      "replies": 1,
-      "group": "classicPC",
-      "query": "dos games",
-      "score": 10,
-      "question": true,
-      "heated": false,
-      "isReply": true,
-      "media": null,
-      "firstSeen": "2026-10-20T06:46:37.289Z"
-    },
-    "at://did:plc:zponcoilrgyseh44recl4z4b/app.bsky.feed.post/3my7bshrauk2l": {
-      "uri": "at://did:plc:zponcoilrgyseh44recl4z4b/app.bsky.feed.post/3my7bshrauk2l",
-      "url": "https://bsky.app/profile/pedrozambarda.bsky.social/post/3my7bshrauk2l",
-      "handle": "pedrozambarda.bsky.social",
-      "name": "Pedro Zambarda",
-      "text": "ÁRIDA e o Marco Legal dos Games no Palácio do Planalto dropsdejogos.uai.com.br/noticias/ind...",
-      "createdAt": "2026-10-19T04:28:07.859Z",
-      "likes": 6,
-      "replies": 0,
-      "group": "classicPC",
-      "query": "dos games",
-      "score": 7,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "link card: ÁRIDA e o Marco Legal dos Games no Palácio do Planalto - Drops de Jogos",
-      "firstSeen": "2026-10-20T06:46:37.289Z"
-    },
     "at://did:plc:xlf6e7s4pfh76yslk7mv4cpu/app.bsky.feed.post/3mybxe2rdi22q": {
       "uri": "at://did:plc:xlf6e7s4pfh76yslk7mv4cpu/app.bsky.feed.post/3mybxe2rdi22q",
       "url": "https://bsky.app/profile/alucardx60.bsky.social/post/3mybxe2rdi22q",
@@ -434,7 +362,7 @@
       "replies": 1,
       "group": "nostalgia",
       "query": "nostalgic game",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": true,
@@ -452,7 +380,7 @@
       "replies": 0,
       "group": "nostalgia",
       "query": "nostalgic game",
-      "score": 7,
+      "score": 6,
       "question": false,
       "heated": false,
       "isReply": true,
@@ -470,7 +398,7 @@
       "replies": 0,
       "group": "retroFeed",
       "query": "feed",
-      "score": 6,
+      "score": 5,
       "question": true,
       "heated": false,
       "isReply": false,
@@ -488,7 +416,7 @@
       "replies": 2,
       "group": "retroFeed",
       "query": "feed",
-      "score": 7,
+      "score": 6,
       "question": true,
       "heated": false,
       "isReply": false,
@@ -506,12 +434,120 @@
       "replies": 1,
       "group": "retroFeed",
       "query": "feed",
-      "score": 6,
+      "score": 5,
       "question": true,
       "heated": false,
       "isReply": false,
       "media": null,
       "firstSeen": "2026-10-20T06:46:37.289Z"
+    },
+    "at://did:plc:6ma6lvb73ry3ozf7ptoq46tx/app.bsky.feed.post/3mybeweaems2b": {
+      "uri": "at://did:plc:6ma6lvb73ry3ozf7ptoq46tx/app.bsky.feed.post/3mybeweaems2b",
+      "url": "https://bsky.app/profile/fadedskillset.com/post/3mybeweaems2b",
+      "handle": "fadedskillset.com",
+      "name": "FadedSkillSet",
+      "text": "...was tough to pick out of the massive amount of games the Megadive had but these were certainly the ones I remember most from my childhood",
+      "createdAt": "2026-10-20T00:29:19.073Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "childhood",
+      "query": "games from my childhood",
+      "score": 9,
+      "question": true,
+      "heated": false,
+      "isReply": true,
+      "media": null,
+      "firstSeen": "2026-10-20T12:48:45.065Z"
+    },
+    "at://did:plc:d5icb5bkrz32ulgtne3hbrkl/app.bsky.feed.post/3myaekq7wia62": {
+      "uri": "at://did:plc:d5icb5bkrz32ulgtne3hbrkl/app.bsky.feed.post/3myaekq7wia62",
+      "url": "https://bsky.app/profile/a-puma01.meow.social.ap.brid.gy/post/3myaekq7wia62",
+      "handle": "a-puma01.meow.social.ap.brid.gy",
+      "name": "El Cougarino",
+      "text": "I was addicted to video games right from the start. It was an escape from my abusive childhood.",
+      "createdAt": "2026-10-19T14:50:03.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "childhood",
+      "query": "games from my childhood",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": null,
+      "firstSeen": "2026-10-20T12:48:45.065Z"
+    },
+    "at://did:plc:m2yuqynl2cttvi4k5453yegh/app.bsky.feed.post/3myae3ozju7l2": {
+      "uri": "at://did:plc:m2yuqynl2cttvi4k5453yegh/app.bsky.feed.post/3myae3ozju7l2",
+      "url": "https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3myae3ozju7l2",
+      "handle": "feed.igeek.gamer-geek-news.com.ap.brid.gy",
+      "name": "input",
+      "text": "📰 **Monkey Island 2: LeChuck's Revenge & Indiana Jones and the Fate of Atlantis - Classic Adventure games by LucasArts gets an AI PC-Amiga AGA port** Classic LucasArts adventures Monkey Island 2: LeChuck's Revenge and Indiana Jones and the Fate of Atlantis have received lovely new 256-colour […]",
+      "createdAt": "2026-10-19T14:40:26.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "classicPC",
+      "query": "classic pc games",
+      "score": 6,
+      "question": false,
+      "heated": true,
+      "isReply": false,
+      "media": "link card: Original post on igeek.gamer-geek-news.com",
+      "firstSeen": "2026-10-20T12:48:45.065Z"
+    },
+    "at://did:plc:rbugrcxqaajofr2s4vwrluq2/app.bsky.feed.post/3myabososrc2d": {
+      "uri": "at://did:plc:rbugrcxqaajofr2s4vwrluq2/app.bsky.feed.post/3myabososrc2d",
+      "url": "https://bsky.app/profile/aprats.bsky.social/post/3myabososrc2d",
+      "handle": "aprats.bsky.social",
+      "name": "Aprats",
+      "text": "First I check whether the game is available on www.gog.com; if I have no luck, I try Steam.",
+      "createdAt": "2026-10-19T13:58:44.833Z",
+      "likes": 3,
+      "replies": 0,
+      "group": "classicPC",
+      "query": "classic pc games",
+      "score": 7,
+      "question": false,
+      "heated": false,
+      "isReply": true,
+      "media": "link card: Welcome to GOG.com | best PC games DRM-free",
+      "firstSeen": "2026-10-20T12:48:45.065Z"
+    },
+    "at://did:plc:p2ynffrvyi3hfebgyzkhznc2/app.bsky.feed.post/3mybgyf6uos26": {
+      "uri": "at://did:plc:p2ynffrvyi3hfebgyzkhznc2/app.bsky.feed.post/3mybgyf6uos26",
+      "url": "https://bsky.app/profile/valyriann.bsky.social/post/3mybgyf6uos26",
+      "handle": "valyriann.bsky.social",
+      "name": "ValyriaN",
+      "text": "And lets not forget what Castlevania Symphony of the night has done for gaming man. That shit is to this day seen as one of the best retro games there ever was by many. So all these people saying that it's not my Castlevania are owned lol.",
+      "createdAt": "2026-10-20T01:06:14.669Z",
+      "likes": 3,
+      "replies": 0,
+      "group": "askRetro",
+      "query": "best retro games",
+      "score": 10,
+      "question": true,
+      "heated": false,
+      "isReply": true,
+      "media": null,
+      "firstSeen": "2026-10-20T12:48:45.065Z"
+    },
+    "at://did:plc:xoczhhwmhuvtyzntdn5yk6it/app.bsky.feed.post/3mycmsyqiik2x": {
+      "uri": "at://did:plc:xoczhhwmhuvtyzntdn5yk6it/app.bsky.feed.post/3mycmsyqiik2x",
+      "url": "https://bsky.app/profile/vgmaps.bsky.social/post/3mycmsyqiik2x",
+      "handle": "vgmaps.bsky.social",
+      "name": " Jonathan Leung (VGMaps.com / YT: JonLeung1)",
+      "text": "Halloween post #20: Is it neat or freaky to have a mirror smashable into space in both Shadowgate (NES) and Beyond Shadowgate (PC)? I always thought this was a cool thing to keep between both games. The purple planet is a reference to \"Infested\", another game by GrahfMetal.",
+      "createdAt": "2026-10-20T12:23:16.034Z",
+      "likes": 3,
+      "replies": 0,
+      "group": "retroFeed",
+      "query": "feed",
+      "score": 9,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "media": "video, no description",
+      "firstSeen": "2026-10-20T12:48:45.065Z"
     }
   }
 }

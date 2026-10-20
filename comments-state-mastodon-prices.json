@@ -1,25 +1,25 @@
 {
-  "cursor": 2,
+  "cursor": 1,
   "next": {
-    "waitForSale": 3,
+    "waitForSale": 4,
     "backlog": 5,
-    "deck": 1,
-    "bundles": 1,
-    "practical": 2,
-    "genres": 2,
-    "seasonal": 1,
-    "broadPlaying": 2,
-    "broadAsk": 2
+    "deck": 2,
+    "bundles": 2,
+    "practical": 3,
+    "genres": 3,
+    "seasonal": 2,
+    "broadPlaying": 3,
+    "broadAsk": 3
   },
   "sources": {
     "waitForSale": {
-      "runs": 23,
-      "posts": 920,
+      "runs": 24,
+      "posts": 960,
       "fit": 0,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-20T06:46:25.344Z"
+        "at": "2026-10-20T12:48:34.146Z"
       }
     },
     "backlog": {
@@ -33,73 +33,73 @@
       }
     },
     "deck": {
-      "runs": 22,
-      "posts": 1400,
-      "fit": 23,
-      "last": {
-        "posts": 80,
-        "fit": 4,
-        "at": "2026-10-20T00:50:33.641Z"
-      }
-    },
-    "bundles": {
-      "runs": 22,
-      "posts": 880,
-      "fit": 0,
-      "last": {
-        "posts": 40,
-        "fit": 0,
-        "at": "2026-10-20T06:46:25.344Z"
-      }
-    },
-    "practical": {
-      "runs": 22,
-      "posts": 1080,
+      "runs": 23,
+      "posts": 1440,
       "fit": 24,
       "last": {
         "posts": 40,
         "fit": 1,
-        "at": "2026-10-20T06:46:25.344Z"
+        "at": "2026-10-20T12:48:34.146Z"
+      }
+    },
+    "bundles": {
+      "runs": 23,
+      "posts": 920,
+      "fit": 0,
+      "last": {
+        "posts": 40,
+        "fit": 0,
+        "at": "2026-10-20T12:48:34.146Z"
+      }
+    },
+    "practical": {
+      "runs": 23,
+      "posts": 1120,
+      "fit": 24,
+      "last": {
+        "posts": 40,
+        "fit": 0,
+        "at": "2026-10-20T12:48:34.146Z"
       }
     },
     "genres": {
-      "runs": 22,
-      "posts": 880,
+      "runs": 23,
+      "posts": 920,
       "fit": 5,
       "last": {
         "posts": 40,
-        "fit": 1,
-        "at": "2026-10-20T06:46:25.344Z"
+        "fit": 0,
+        "at": "2026-10-20T12:48:34.146Z"
       }
     },
     "seasonal": {
-      "runs": 22,
-      "posts": 835,
+      "runs": 23,
+      "posts": 875,
       "fit": 1,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-20T06:46:25.344Z"
+        "at": "2026-10-20T12:48:34.146Z"
       }
     },
     "broadPlaying": {
-      "runs": 22,
-      "posts": 2320,
-      "fit": 75,
+      "runs": 23,
+      "posts": 2440,
+      "fit": 76,
       "last": {
         "posts": 120,
-        "fit": 4,
-        "at": "2026-10-20T06:46:25.344Z"
+        "fit": 1,
+        "at": "2026-10-20T12:48:34.146Z"
       }
     },
     "broadAsk": {
-      "runs": 22,
-      "posts": 350,
+      "runs": 23,
+      "posts": 366,
       "fit": 0,
       "last": {
-        "posts": 5,
+        "posts": 16,
         "fit": 0,
-        "at": "2026-10-20T06:46:25.344Z"
+        "at": "2026-10-20T12:48:34.146Z"
       }
     }
   },
@@ -133,31 +133,12 @@
       "replies": 0,
       "group": "genres",
       "query": "cozygames",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
       "origin": "https://mastodon.world/@suburbantimewaster/117470880539153310",
       "media": "video, no description",
-      "firstSeen": "2026-10-20T06:46:25.344Z"
-    },
-    "https://mastodon.social/@KazuShuSora@social.tchncs.de/117471463687908717": {
-      "uri": "https://mastodon.social/@KazuShuSora@social.tchncs.de/117471463687908717",
-      "url": "https://mastodon.social/@KazuShuSora@social.tchncs.de/117471463687908717",
-      "handle": "KazuShuSora@social.tchncs.de",
-      "name": "Nico",
-      "text": "Ngl, Hush looks pretty damn interesting and she might make me boot up Valorant, again 👀 #Hush #Valorant #Gaming #VideoGames #ShareYourGames",
-      "createdAt": "2026-10-20T04:58:04.000Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "gaming",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://social.tchncs.de/@KazuShuSora/117471463642501370",
-      "media": null,
       "firstSeen": "2026-10-20T06:46:25.344Z"
     },
     "https://mastodon.social/@Mickytankbank@mstdn.party/117471247570870516": {
@@ -171,7 +152,7 @@
       "replies": 0,
       "group": "broadPlaying",
       "query": "gaming",
-      "score": 8,
+      "score": 7,
       "question": true,
       "heated": false,
       "isReply": false,
@@ -189,13 +170,31 @@
       "likes": 0,
       "replies": 0,
       "group": "broadPlaying",
-      "query": "gaming",
-      "score": 8,
+      "query": "steam",
+      "score": 7,
       "question": true,
       "heated": false,
       "isReply": false,
       "media": null,
       "firstSeen": "2026-10-20T06:46:25.344Z"
+    },
+    "https://mastodon.social/@vetgaming/117469893484411908": {
+      "uri": "https://mastodon.social/@vetgaming/117469893484411908",
+      "url": "https://mastodon.social/@vetgaming/117469893484411908",
+      "handle": "vetgaming@mastodon.social",
+      "name": "VetTV Studios",
+      "text": "JESUS ... 321.4GB download for Call of Duty to test via the XODUS Gaming app on SteamOS / Bazzite ... OOFTAH #SteamOS #VetTVStudios #Xodus #Bazzite @bazzite.gg",
+      "createdAt": "2026-10-19T22:18:45.878Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "deck",
+      "query": "steamos",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image, no description",
+      "firstSeen": "2026-10-20T12:48:34.146Z"
     }
   }
 }
