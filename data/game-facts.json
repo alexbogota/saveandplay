@@ -1110,5 +1110,88 @@
   ],
   "mature": true,
   "at": "2026-10-19"
+ },
+ "gog-hitman-absolution": {
+  "source": "gog",
+  "year": 2012,
+  "genres": [
+   "Action",
+   "TPP",
+   "Stealth"
+  ],
+  "tags": [
+   "Action",
+   "Story Rich",
+   "Atmospheric",
+   "Classic",
+   "Tactical",
+   "Third Person",
+   "Mature",
+   "Difficult",
+   "Stealth",
+   "Crime"
+  ],
+  "mature": true,
+  "at": "2026-10-20"
+ },
+ "gog-fallout-new-vegas-ultimate-edition": {
+  "source": "gog",
+  "year": 2010,
+  "genres": [
+   "Role-playing",
+   "Action",
+   "Open World"
+  ],
+  "tags": [
+   "Action",
+   "Story Rich",
+   "Atmospheric",
+   "Role-playing",
+   "Exploration",
+   "Sci-fi",
+   "Classic",
+   "First-Person",
+   "Great Soundtrack",
+   "Choices Matter",
+   "Third Person",
+   "Open World",
+   "Gore",
+   "FPS",
+   "Post-apocalyptic",
+   "Modern",
+   "Good Old Game",
+   "Western"
+  ],
+  "mature": true,
+  "at": "2026-10-20"
+ },
+ "gog-saints-row-iv-re-elected": {
+  "source": "gog",
+  "year": 2013,
+  "genres": [
+   "Action",
+   "TPP",
+   "Open World"
+  ],
+  "tags": [
+   "Action",
+   "Classic",
+   "Third Person",
+   "Open World"
+  ],
+  "mature": false,
+  "at": "2026-10-20"
+ },
+ "kinguin-hollow-knight": {
+  "source": "steam",
+  "year": 2017,
+  "genres": [
+   "Action",
+   "Adventure",
+   "Indie"
+  ],
+  "tags": [],
+  "mature": false,
+  "at": "2026-10-20"
  }
 }
