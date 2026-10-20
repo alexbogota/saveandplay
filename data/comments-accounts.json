@@ -411,6 +411,102 @@
       "showLimit": 15,
       "queriesPerGroup": 4
     },
+    "prices-wide": {
+      "extends": "prices",
+      "note": "Wide mode of the main account (20 Oct 2026), the phrase \"комментарии saveandplay 2\". Same Bluesky account and the same memory \"shown\" as `prices` (shownAs), so no post is shown twice. Lower threshold, more query groups with plain words, more queries per group. Not part of \"комментарии saveandplay\" (onDemand). Switch off with enabled: false.",
+      "onDemand": true,
+      "shownAs": "prices",
+      "minScore": 3,
+      "showLimit": 25,
+      "maxCandidates": 60,
+      "queriesPerRun": 18,
+      "queriesPerGroup": 6,
+      "groups+": {
+        "justBought": {
+          "weight": 2,
+          "queries": [
+            "just bought game",
+            "bought on sale steam",
+            "picked up game steam",
+            "finally bought game",
+            "got this game on sale"
+          ]
+        },
+        "priceTalk": {
+          "weight": 2,
+          "queries": [
+            "game too expensive",
+            "game price",
+            "full price game",
+            "cheap games steam",
+            "price drop game",
+            "steam game price"
+          ]
+        },
+        "freeStuff": {
+          "weight": 1,
+          "queries": [
+            "free games steam",
+            "free game pc",
+            "free to play recommend",
+            "epic free game"
+          ]
+        },
+        "buyingHelp": {
+          "weight": 3,
+          "queries": [
+            "which game should i buy",
+            "what game to buy",
+            "should i get this game",
+            "is it worth buying",
+            "worth the money game",
+            "buy or wait game"
+          ]
+        },
+        "playingNow": {
+          "weight": 1,
+          "broad": true,
+          "queries": [
+            "playing on pc",
+            "playing steam deck",
+            "can't stop playing game",
+            "game of the year pc",
+            "new favorite game"
+          ]
+        },
+        "libraryChat": {
+          "weight": 1,
+          "broad": true,
+          "queries": [
+            "steam library",
+            "my steam library",
+            "too many games",
+            "games backlog",
+            "unplayed games"
+          ]
+        },
+        "stores": {
+          "weight": 1,
+          "queries": [
+            "epic games store",
+            "game pass pc",
+            "gog sale",
+            "itch.io games"
+          ]
+        },
+        "bestOf": {
+          "weight": 1,
+          "queries": [
+            "best rpg pc",
+            "best strategy game",
+            "best indie game",
+            "best horror game",
+            "best story game",
+            "best simulator game"
+          ]
+        }
+      }
+    },
     "mastodon-prices": {
       "extends": "prices",
       "platform": "mastodon",
@@ -566,6 +662,66 @@
       ],
       "showLimit": 8,
       "queriesPerGroup": 13
+    },
+    "mastodon-prices-wide": {
+      "extends": "mastodon-prices",
+      "note": "Wide mode (20 Oct 2026), part of \"комментарии saveandplay 2\". Reads ONLY hashtags the normal block does not read (mastodon.social allows about 300 requests per 5 minutes, the normal block already makes up to ~190). The threshold is lower, but most Mastodon posts fall to the filters (bots, shops, language, age), not to the score. Shares the memory \"shown\" of mastodon-prices.",
+      "onDemand": true,
+      "shownAs": "mastodon-prices",
+      "minScore": 3,
+      "showLimit": 12,
+      "maxCandidates": 30,
+      "queriesPerRun": 6,
+      "queriesPerGroup": 8,
+      "pages": 3,
+      "groups": {
+        "moreGaming": {
+          "weight": 1,
+          "broad": true,
+          "queries": [
+            "videogame",
+            "gamingcommunity",
+            "gamenight",
+            "fps",
+            "openworld",
+            "simulationgames",
+            "strategygame",
+            "mmorpg"
+          ]
+        },
+        "moreAsk": {
+          "weight": 2,
+          "broad": true,
+          "queries": [
+            "gamehelp",
+            "gamingquestion",
+            "whatgameshouldiplay",
+            "gamingrecommendations",
+            "steamrecommendations"
+          ]
+        },
+        "moreRetro": {
+          "weight": 1,
+          "queries": [
+            "retrogaming",
+            "retrogames",
+            "dosgames",
+            "classicgames",
+            "oldgames"
+          ]
+        },
+        "morePlaying": {
+          "weight": 1,
+          "broad": true,
+          "queries": [
+            "nowplayinggame",
+            "justfinishedgame",
+            "gamingtonight",
+            "currentlygaming",
+            "steamlibrary"
+          ]
+        }
+      }
     },
     "cozy": {
       "extends": "prices",
@@ -756,6 +912,59 @@
         "any cozy"
       ],
       "maxHashtags": 4
+    },
+    "cozy-wide": {
+      "extends": "cozy",
+      "note": "Wide mode (20 Oct 2026), part of \"комментарии saveandplay 2\". Lower threshold, more plain-word queries. Shares the memory \"shown\" of cozy.",
+      "onDemand": true,
+      "shownAs": "cozy",
+      "minScore": 3,
+      "showLimit": 12,
+      "maxCandidates": 40,
+      "queriesPerRun": 12,
+      "queriesPerGroup": 5,
+      "groups+": {
+        "cozyBuying": {
+          "weight": 2,
+          "queries": [
+            "cozy game worth buying",
+            "cozy game sale",
+            "cozy games discount",
+            "cozy game steam sale",
+            "should i buy cozy game"
+          ]
+        },
+        "cozyPlaying": {
+          "weight": 1,
+          "queries": [
+            "playing cozy game",
+            "cozy game tonight",
+            "my cozy farm",
+            "cozy night in game",
+            "new cozy game"
+          ]
+        },
+        "cozyAsk": {
+          "weight": 3,
+          "queries": [
+            "games like animal crossing",
+            "games like stardew",
+            "games like spiritfarer",
+            "relaxing game recommendation",
+            "chill game recommendation"
+          ]
+        },
+        "cozyGenres": {
+          "weight": 1,
+          "queries": [
+            "farming sim pc",
+            "life sim recommendation",
+            "puzzle game relaxing",
+            "crafting game cozy",
+            "cozy city builder"
+          ]
+        }
+      }
     },
     "retro": {
       "extends": "prices",
@@ -979,6 +1188,59 @@
         "ps1",
         "ps2"
       ]
+    },
+    "retro-wide": {
+      "extends": "retro",
+      "note": "Wide mode (20 Oct 2026), part of \"комментарии saveandplay 2\". Lower threshold, more plain-word queries. Shares the memory \"shown\" of retro.",
+      "onDemand": true,
+      "shownAs": "retro",
+      "minScore": 3,
+      "showLimit": 12,
+      "maxCandidates": 40,
+      "queriesPerRun": 12,
+      "queriesPerGroup": 5,
+      "groups+": {
+        "retroBuying": {
+          "weight": 2,
+          "queries": [
+            "gog classic",
+            "old game on sale",
+            "classic game sale",
+            "retro game steam",
+            "old pc game worth buying"
+          ]
+        },
+        "retroPlaying": {
+          "weight": 1,
+          "queries": [
+            "replaying old game",
+            "replaying classic game",
+            "playing old game",
+            "childhood game pc",
+            "old game nostalgia pc"
+          ]
+        },
+        "retroAsk": {
+          "weight": 3,
+          "queries": [
+            "best dos games",
+            "best old pc games",
+            "old game recommend pc",
+            "games like diablo",
+            "games like age of empires"
+          ]
+        },
+        "retroTalk": {
+          "weight": 1,
+          "queries": [
+            "old school pc",
+            "90s pc games",
+            "2000s pc games",
+            "pc gaming memories",
+            "first pc game"
+          ]
+        }
+      }
     }
   }
 }

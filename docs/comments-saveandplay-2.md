@@ -1,0 +1,33 @@
+# Comments playbook: wide mode, ALL accounts ("комментарии saveandplay 2")
+
+Written 20 Oct 2026 at the owner's request: "too few comments come out per day". The owner's phrase "комментарии saveandplay 2" means the same run as "комментарии saveandplay" (Bluesky main, Mastodon, Cozy, Retro) but in the WIDE mode. The same accounts, the same style rules as in each account's own file; a lower threshold, more search words, more posts per visit. The owner sends replies manually. Claude only drafts replies, never publishes.
+
+## Which phrase does what
+- "комментарии saveandplay 2" = all four accounts in the wide mode (this file).
+- "комментарии saveandplay" (no 2) = all four accounts in the normal mode (docs/comments-saveandplay.md, "All accounts in one run").
+- Each wide block shares the memory "already shown" of its normal block, so a post shown in one mode never comes back in the other.
+
+## The wide blocks (data/comments-accounts.json; each extends its normal block, `onDemand: true`, `minScore` 3 instead of 5)
+- `prices-wide` (Bluesky @saveandplay.com): 8 more groups of plain-word queries, 6 per group per run, up to 25 posts.
+- `mastodon-prices-wide` (@saveandplay@mastodon.social): reads ONLY hashtags the normal block does not read (mastodon.social allows about 300 requests per 5 minutes and the normal block already makes many), up to 12 posts. Honest note: on Mastodon most posts fall to the filters (bots, shops, language, age), not to the score, so expect a smaller gain than on Bluesky.
+- `cozy-wide` and `retro-wide` (Bluesky niche accounts): the normal groups plus 4 new groups each, up to 12 posts each.
+- The finder builds the lists for all of them every 6 hours (`comments-<id>.json` on the branch `comments`), together with the normal lists.
+
+## Process
+Read this file. For the drafts read ONLY the style files of the accounts that have posts: the main Bluesky account docs/comments-saveandplay.md (Style, Which posts to pick, Pictures, video, quotes), Mastodon docs/comments-saveandplay-mastodon.md (no hashtags, never start with @name, two links per post), Cozy docs/comments-cozy.md, Retro docs/comments-retro.md. Do NOT read comments-*-wide.md lists.
+1. `add_repo` and the clone exactly as in Process step 1 of docs/comments-saveandplay.md. The check here: `grep -c '"retro-wide"' REPO/data/comments-accounts.json` and `grep -c -- '--wide' REPO/scripts/comments-show.mjs`; if either prints 0, the wide mode is not published yet: tell the owner (Russian) to say `/publish` to Claude Code, and stop.
+2. ONE shell command: `cd REPO && bash scripts/comments-branch.sh load && node scripts/comments-show.mjs --all --wide --record-new-all $(date -u +%Y%m%d-%H%M%S)`. One block per account, each with the posts not shown before; the new shown files carry the names of the NORMAL blocks (comments-shown-prices-..., -mastodon-prices-..., -cozy-..., -retro-...), which is what shares the memory. The last lines give the ONE command that saves them all.
+   - `STALE LIST` or `NO LIST` (right after the first `/publish` the wide lists do not exist yet): start the workflow ONCE as in Process step 2 of docs/comments-saveandplay.md (one run makes every list), wait for it, then run the command again with `--partial` added. Tell the owner in one line which account was skipped.
+3. Draft in English, one block per account that has posts, by its own style file. The threshold is lower, so the lists hold weaker posts: take those where one true, specific thing can be said; skip the rest (they are remembered as shown and never come back). Do not relax any content rule: real people, PC games only (Retro may answer console memories with a human reaction only), no links, no site or tool names, no promo, no invented prices or facts, never "buy it". For a statement without a question a friendly reaction plus one true detail is enough.
+   - Bluesky groups: `buyingHelp`, `priceTalk`: neutral help ("check the price history", "read the reviews first"), never a price you did not check. `justBought`: congratulate, one short true detail, no deal talk. `freeStuff`, `stores`: plain verified facts only (say "verify" to the owner if unsure). `playingNow`, `libraryChat`, `bestOf`: broad talk, a different reply for every post.
+   - Cozy: `cozyAsk` and `cozyBuying` first (calm, kind, no hype, no deals pitch). Retro: `retroAsk` and `retroBuying` first (a true detail about a classic, GOG DRM-free as a plain fact; never emulation or ROMs).
+4. Show the owner per account: direct post link, handle, draft (and "verify" where needed). Publish nothing.
+5. Save the memory right away, before the owner answers, even if every post was skipped: run the ONE command printed under SAVE. It must print `Saved to the comments branch.`; if not, tell the owner it failed (the next chat may repeat these posts).
+6. Owner sends manually. If he edits a draft, note the change and offer to update the playbook.
+
+## Limits
+Meant for a couple of days (the owner's decision 20 Oct 2026). About 30-35 replies a day on the main Bluesky account in total, spread over the day, never in a burst; Mastodon about 10-15; Cozy and Retro 10-15 each. A new account with many same-looking replies can get reported. Every reply is written for that one post, never a template. Say this only if he asks or sends many at once.
+Stop the wide mode: use only "комментарии saveandplay" again; to stop the finder from building the wide lists too, set `enabled: false` in the four `*-wide` blocks.
+
+## Reply format to the owner (Russian, short)
+What was done, what's next, what is needed from him.

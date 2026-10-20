@@ -6,6 +6,7 @@
 //   node scripts/comments-show.mjs --limit 8 --record OUT.json         also writes the full "shown" list (old ones + these) to OUT.json (the owner's computer)
 //   node scripts/comments-show.mjs --account NAME --max-age 30 --stale 8      --stale N: the oldest list allowed, in hours (default 8: the list is made every 6 hours)
 //   node scripts/comments-show.mjs --all --record-new-all STAMP        EVERY enabled account of data/comments-accounts.json in one go (the phrase "комментарии saveandplay")
+//   node scripts/comments-show.mjs --all --wide --record-new-all STAMP    the wide mode of EVERY account (the phrase "комментарии saveandplay 2"): the blocks marked onDemand (prices-wide, mastodon-prices-wide, cozy-wide, retro-wide); each shares the memory "shown" of its normal block (shownAs)
 //   node scripts/comments-show.mjs --all --partial --record-new-all STAMP     same, but an account whose list is missing or stale is only reported and skipped
 //
 // Why it exists: the finder skips shown posts only at the moment it makes a list, but a list is read several times. This step skips them on every read.
@@ -26,6 +27,7 @@ const args = process.argv.slice(2);
 const arg = (name) => (args.includes(name) ? args[args.indexOf(name) + 1] : null);
 const all = args.includes('--all');
 const partial = args.includes('--partial');
+const wide = args.includes('--wide');
 const limitArg = arg('--limit');
 const record = arg('--record');
 const recordNew = arg('--record-new');
@@ -72,7 +74,7 @@ function readList(id) {
 // The posts of one account that may be shown now. { text (the report), shown: [candidates], shownMap }
 function pickPosts(id, list, ageH, limit) {
   const maxAgeHours = Number(arg('--max-age') ?? 0) || accountOf(id)?.maxAgeHours || 30;
-  const shown = loadShownMap(id);
+  const shown = loadShownMap(accountOf(id)?.shownAs ?? id); // shownAs: shares the memory of another block, so no post is shown twice across the two modes
   const dropped = { shown: 0, old: 0 };
   const fresh = (c) => {
     if (shown.has(postKey(c.url))) { dropped.shown++; return false; }
@@ -121,7 +123,8 @@ function single() {
 
 // ---- every enabled account ----
 function everyone() {
-  const accounts = commentAccounts().filter(({ account }) => account.enabled !== false);
+  // onDemand blocks (the wide mode, "комментарии saveandplay 2") are not part of the normal "all". With --wide the run takes ONLY them (one wide block per account).
+  const accounts = commentAccounts().filter(({ account }) => account.enabled !== false && (wide ? account.onDemand : !account.onDemand));
   const lists = accounts.map((a) => ({ ...a, ...readList(a.id) }));
   const bad = lists.filter((l) => l.problem);
   if (bad.length && !partial) {
@@ -137,7 +140,7 @@ function everyone() {
     const { text, posts } = pickPosts(l.id, l.list, l.ageH, limit);
     out.push(text);
     if (recordNewAll && posts.length) {
-      const path = `drafts/comments-shown-${l.id}-${recordNewAll}.json`;
+      const path = `drafts/comments-shown-${l.account.shownAs ?? l.id}-${recordNewAll}.json`;
       writeNew(file(path), posts);
       written.push(path);
       out.push(`REMEMBERED: ${posts.length} posts of ${l.id} in ${path}.`);

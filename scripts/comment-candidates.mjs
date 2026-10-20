@@ -65,7 +65,7 @@ async function runAccount({ id, account }) {
   let ownReplied = new Set();
   try { ownReplied = await api.ownReplied(account.handle); } catch (e) { say(`Note: could not read our own replies (${e.message}), so answered posts may show up again.`); }
 
-  const shown = loadShown(id);
+  const shown = loadShown(account.shownAs ?? id); // shownAs: a block that shares the memory of another one (the wide mode of the main account)
   const statePath = file('drafts', `comments-state-${id}.json`);
   const state = readJson(statePath, {});
   const now = Date.now();
