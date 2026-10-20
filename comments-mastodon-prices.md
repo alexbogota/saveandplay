@@ -1,34 +1,24 @@
 # Comment candidates: mastodon-prices (@saveandplay@mastodon.social)
-Made 2026-10-20T00:50Z. Searched: practical: drmfree | genres: roguelike | seasonal: halloweengames | broadPlaying: pcgaming | broadAsk: hiddengem | waitForSale: steam+sale | backlog: gamerecommendations | deck: steamdeck.
-Posts below: 7. Dropped in this run: own post 11, too old 207, already shown 3, other language 40, bot, shop or studio 109, promo (link and hashtags) 27, skip word 11, link post, not a question 7, not about games 6, low score 3, other language (text) 1.
+Made 2026-10-20T06:46Z. Searched: bundles: humblebundle | practical: gog | genres: cozygames | seasonal: horrorgames | broadPlaying: gaming | broadAsk: underratedgames | waitForSale: gamedeals | backlog: gamerecs.
+Posts below: 5. Dropped in this run: bot, shop or studio 48, promo (link and hashtags) 12, too old 172, own post 11, too long 2, already shown 4, skip word 13, link post, not a question 2, console only 4, other language (text) 55, other language 12, not about games 3, low score 2, many links 1.
 
 ## Posts
-1. @Tugboater203@lemmy.world (Tug) · 12h · likes 0 · replies 4 · question · deck
-   https://mastodon.social/@Tugboater203@lemmy.world/117467702242688040
-   original: https://lemmy.world/post/53330109
-   Problem with Discord on the Deck? https://lemmy.world/post/53330109
-   [link card: Problem with Discord on the Deck? - Lemmy.World]
-2. @ItalianSkeletonGaming@mastodon.social (Italian Skeleton) · 5h · likes 1 · replies 0 · broadPlaying
-   https://mastodon.social/@ItalianSkeletonGaming/117469220610125476
-   #TheHolyGoshDarn was such an enjoyable experience that I devoured it in just two days, the humor based on a rational person dealing with the continuous rants from everyone enchanted me from the first lines #gaming #videogames #pcgaming #indiegaming
+1. @Mickytankbank@mstdn.party (Mickytankbank) · 3h · likes 0 · replies 0 · question · broadPlaying
+   https://mastodon.social/@Mickytankbank@mstdn.party/117471247570870516
+   original: https://mstdn.party/@Mickytankbank/117471247511151243
+   The Fame Game II: LA Heartbreaker is here! 🎮💔 If you enjoy watching bad cheesy movies and looking and pretty girls doing stuff, this might be the game you're looking for! #TheFameGameII #LAHeartbreaker #FMV #GameReview #InteractiveDrama #Blog #Gaming #Review
+2. @stabby@mastodon.social (Stabby) · 3h · likes 0 · replies 0 · question · broadPlaying
+   https://mastodon.social/@stabby/117471095719856062
+   Lol I heard someone call vibe coding cuck coding earlier. I guess Epic cuck coded their new launcher? It was only a matter of time before someone found something catchy to replace "vibe", touché anon! #vibecoding #fuckai #cuckcoding #gaming #steam
+3. @suburbantimewaster@mastodon.world (Suburban Timewaster) · 4h · likes 1 · replies 0 · genres
+   https://mastodon.social/@suburbantimewaster@mastodon.world/117470880674475657
+   original: https://mastodon.world/@suburbantimewaster/117470880539153310
+   Light and Misa have a daughter! Another addition to the Kira family! #tomodachilife #deathnote #videogames #gaming #cozygames #short #clip
    [video, no description]
-3. @pitcrewgg@mastodon.social (PitCrew) · 7h · likes 1 · replies 1 · deck
-   https://mastodon.social/@pitcrewgg/117468891233054583
-   🔄 GE-Proton - Version 11-10 Release Wine adds syscall emulation and fixes, DXVK 3.1.1-134 improvements, controller input updates, Wayland HDR per monitor, and Star Citizen AMD AGS loading. 1/2 #ProtonGE #GloriousEggroll #Linux #LinuxGaming #PCGaming #OpenSource #Steam #ValveSoft
-   [image, no description]
-4. @pitcrewgg@mastodon.social (PitCrew) · 9h · likes 1 · replies 1 · deck
-   https://mastodon.social/@pitcrewgg/117468484524966021
-   🔄 Gamescope - Version 3.16.30.1 Jupiter 3.9 receives a branched release with hotfixes. 1/2 #Gamescope #Linux #LinuxGaming #PCGaming #AMD #Intel #Mesa #Radeon #Vulkan #CUDA #GeForce #NVIDIA #RTXOn #Vulkan #OpenSource #LegionGo2 #LegionGoS #SteamDeck #SteamFrame #SteamMachine #Ste
-   [image, no description]
-5. @pitcrewgg@mastodon.social (PitCrew) · 9h · likes 1 · replies 1 · deck
-   https://mastodon.social/@pitcrewgg/117468473527137082
-   🔄 Steam - Beta Client Update: October 16 Steam Client update to Preview/Beta adds startup performance boosts and fixes for error dialogs, BC friend dates, installables, and voice chat volume persistence. 1/2 #Linux #LinuxGaming #PCGaming #Steam #ValveSoftware #LegionGo2 #LegionG
-   [image, no description]
-6. @pitcrewgg@mastodon.social (PitCrew) · 8h · likes 1 · replies 1 · broadPlaying
-   https://mastodon.social/@pitcrewgg/117468517134284037
-   🚨 War Thunder - Challenger League Major III Concludes; Finals Next WTCS Challenger Major III ends with Team VAN on 130 points, MVP Scarabé rose, EnyoProxy runner up, eight teams advance to the Challenger Grand Finals in November. 1/2 #WarThunder #Linux #LinuxGaming #PCGaming #Fl
-   [image, no description]
-7. @geekrealmhub@mastodon.social (Geek Realm Hub) · 9h · likes 1 · replies 0 · broadPlaying
-   https://mastodon.social/@geekrealmhub/117468457089784471
-   Denuvo gets court approval to unmask “voices38”! Discord, Valve and Reddit can now be subpoenaed for identifying information linked to the alleged game cracker. The revised requests target 9 accounts, with records due by Nov. 3. #Denuvo #PCGaming #GeekRealmHub
-   [image, no description]
+4. @Asapin@mastodon.social · 18h · likes 2 · replies 1 · practical
+   https://mastodon.social/@Asapin/117467690605391966
+   @crissi Also, buying a tiny minipc (bought it 3 years ago when they were cheap) and setting it up as a homelab with #forgejo , renovate, CI/CD, and migrating all my projects off of GitHub was quite fun and honestly made me a little bit happier. Now I'm slowly building my own libr
+5. @KazuShuSora@social.tchncs.de (Nico) · 2h · likes 0 · replies 0 · broadPlaying
+   https://mastodon.social/@KazuShuSora@social.tchncs.de/117471463687908717
+   original: https://social.tchncs.de/@KazuShuSora/117471463642501370
+   Ngl, Hush looks pretty damn interesting and she might make me boot up Valorant, again 👀 #Hush #Valorant #Gaming #VideoGames #ShareYourGames

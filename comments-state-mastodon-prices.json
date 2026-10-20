@@ -1,35 +1,35 @@
 {
-  "cursor": 3,
+  "cursor": 2,
   "next": {
-    "waitForSale": 2,
-    "backlog": 4,
+    "waitForSale": 3,
+    "backlog": 5,
     "deck": 1,
-    "bundles": 3,
-    "practical": 1,
-    "genres": 1,
-    "seasonal": 3,
-    "broadPlaying": 1,
-    "broadAsk": 1
+    "bundles": 1,
+    "practical": 2,
+    "genres": 2,
+    "seasonal": 1,
+    "broadPlaying": 2,
+    "broadAsk": 2
   },
   "sources": {
     "waitForSale": {
-      "runs": 22,
-      "posts": 880,
+      "runs": 23,
+      "posts": 920,
       "fit": 0,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-20T00:50:33.641Z"
+        "at": "2026-10-20T06:46:25.344Z"
       }
     },
     "backlog": {
-      "runs": 22,
-      "posts": 574,
+      "runs": 23,
+      "posts": 596,
       "fit": 0,
       "last": {
-        "posts": 40,
+        "posts": 22,
         "fit": 0,
-        "at": "2026-10-20T00:50:33.641Z"
+        "at": "2026-10-20T06:46:25.344Z"
       }
     },
     "deck": {
@@ -43,193 +43,159 @@
       }
     },
     "bundles": {
-      "runs": 21,
-      "posts": 840,
+      "runs": 22,
+      "posts": 880,
       "fit": 0,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-19T18:47:11.784Z"
+        "at": "2026-10-20T06:46:25.344Z"
       }
     },
     "practical": {
-      "runs": 21,
-      "posts": 1040,
-      "fit": 23,
+      "runs": 22,
+      "posts": 1080,
+      "fit": 24,
       "last": {
         "posts": 40,
-        "fit": 0,
-        "at": "2026-10-20T00:50:33.641Z"
+        "fit": 1,
+        "at": "2026-10-20T06:46:25.344Z"
       }
     },
     "genres": {
-      "runs": 21,
-      "posts": 840,
-      "fit": 4,
+      "runs": 22,
+      "posts": 880,
+      "fit": 5,
       "last": {
         "posts": 40,
-        "fit": 0,
-        "at": "2026-10-20T00:50:33.641Z"
+        "fit": 1,
+        "at": "2026-10-20T06:46:25.344Z"
       }
     },
     "seasonal": {
-      "runs": 21,
-      "posts": 795,
+      "runs": 22,
+      "posts": 835,
       "fit": 1,
-      "last": {
-        "posts": 35,
-        "fit": 0,
-        "at": "2026-10-20T00:50:33.641Z"
-      }
-    },
-    "broadPlaying": {
-      "runs": 21,
-      "posts": 2200,
-      "fit": 71,
-      "last": {
-        "posts": 120,
-        "fit": 6,
-        "at": "2026-10-20T00:50:33.641Z"
-      }
-    },
-    "broadAsk": {
-      "runs": 21,
-      "posts": 345,
-      "fit": 0,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-20T00:50:33.641Z"
+        "at": "2026-10-20T06:46:25.344Z"
+      }
+    },
+    "broadPlaying": {
+      "runs": 22,
+      "posts": 2320,
+      "fit": 75,
+      "last": {
+        "posts": 120,
+        "fit": 4,
+        "at": "2026-10-20T06:46:25.344Z"
+      }
+    },
+    "broadAsk": {
+      "runs": 22,
+      "posts": 350,
+      "fit": 0,
+      "last": {
+        "posts": 5,
+        "fit": 0,
+        "at": "2026-10-20T06:46:25.344Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@ItalianSkeletonGaming/117469220610125476": {
-      "uri": "https://mastodon.social/@ItalianSkeletonGaming/117469220610125476",
-      "url": "https://mastodon.social/@ItalianSkeletonGaming/117469220610125476",
-      "handle": "ItalianSkeletonGaming@mastodon.social",
-      "name": "Italian Skeleton",
-      "text": "#TheHolyGoshDarn was such an enjoyable experience that I devoured it in just two days, the humor based on a rational person dealing with the continuous rants from everyone enchanted me from the first lines #gaming #videogames #pcgaming #indiegaming",
-      "createdAt": "2026-10-19T19:27:38.629Z",
+    "https://mastodon.social/@Asapin/117467690605391966": {
+      "uri": "https://mastodon.social/@Asapin/117467690605391966",
+      "url": "https://mastodon.social/@Asapin/117467690605391966",
+      "handle": "Asapin@mastodon.social",
+      "name": "",
+      "text": "@crissi Also, buying a tiny minipc (bought it 3 years ago when they were cheap) and setting it up as a homelab with #forgejo , renovate, CI/CD, and migrating all my projects off of GitHub was quite fun and honestly made me a little bit happier. Now I'm slowly building my own library of software and games from #gog . And jailbreaking all my shit to get control back from corpos",
+      "createdAt": "2026-10-19T12:58:32.608Z",
+      "likes": 2,
+      "replies": 1,
+      "group": "practical",
+      "query": "gog",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": true,
+      "media": null,
+      "firstSeen": "2026-10-20T06:46:25.344Z"
+    },
+    "https://mastodon.social/@suburbantimewaster@mastodon.world/117470880674475657": {
+      "uri": "https://mastodon.social/@suburbantimewaster@mastodon.world/117470880674475657",
+      "url": "https://mastodon.social/@suburbantimewaster@mastodon.world/117470880674475657",
+      "handle": "suburbantimewaster@mastodon.world",
+      "name": "Suburban Timewaster",
+      "text": "Light and Misa have a daughter! Another addition to the Kira family! #tomodachilife #deathnote #videogames #gaming #cozygames #short #clip",
+      "createdAt": "2026-10-20T02:29:47.000Z",
       "likes": 1,
       "replies": 0,
-      "group": "broadPlaying",
-      "query": "pcgaming",
+      "group": "genres",
+      "query": "cozygames",
       "score": 6,
       "question": false,
       "heated": false,
       "isReply": false,
+      "origin": "https://mastodon.world/@suburbantimewaster/117470880539153310",
       "media": "video, no description",
-      "firstSeen": "2026-10-20T00:50:33.641Z"
+      "firstSeen": "2026-10-20T06:46:25.344Z"
     },
-    "https://mastodon.social/@pitcrewgg/117468891233054583": {
-      "uri": "https://mastodon.social/@pitcrewgg/117468891233054583",
-      "url": "https://mastodon.social/@pitcrewgg/117468891233054583",
-      "handle": "pitcrewgg@mastodon.social",
-      "name": "PitCrew",
-      "text": "🔄 GE-Proton - Version 11-10 Release Wine adds syscall emulation and fixes, DXVK 3.1.1-134 improvements, controller input updates, Wayland HDR per monitor, and Star Citizen AMD AGS loading. 1/2 #ProtonGE #GloriousEggroll #Linux #LinuxGaming #PCGaming #OpenSource #Steam #ValveSoftware #LegionGo2 #LegionGoS #SteamDeck #SteamFrame #SteamMachine #SteamOS #OpenXR #SteamVR #VirtualReality #VR",
-      "createdAt": "2026-10-19T18:03:52.734Z",
-      "likes": 1,
-      "replies": 1,
-      "group": "deck",
-      "query": "steamdeck",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "image, no description",
-      "firstSeen": "2026-10-20T00:50:33.641Z"
-    },
-    "https://mastodon.social/@pitcrewgg/117468517134284037": {
-      "uri": "https://mastodon.social/@pitcrewgg/117468517134284037",
-      "url": "https://mastodon.social/@pitcrewgg/117468517134284037",
-      "handle": "pitcrewgg@mastodon.social",
-      "name": "PitCrew",
-      "text": "🚨 War Thunder - Challenger League Major III Concludes; Finals Next WTCS Challenger Major III ends with Team VAN on 130 points, MVP Scarabé rose, EnyoProxy runner up, eight teams advance to the Challenger Grand Finals in November. 1/2 #WarThunder #Linux #LinuxGaming #PCGaming #FlightSim #FreeTrack #HeadTracking #MetaQuest #OpenXR #PICO #Pimax #SteamFrame #SteamVR #VirtualReality #VR",
-      "createdAt": "2026-10-19T16:28:44.550Z",
-      "likes": 1,
-      "replies": 1,
-      "group": "broadPlaying",
-      "query": "pcgaming",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "image, no description",
-      "firstSeen": "2026-10-20T00:50:33.641Z"
-    },
-    "https://mastodon.social/@pitcrewgg/117468484524966021": {
-      "uri": "https://mastodon.social/@pitcrewgg/117468484524966021",
-      "url": "https://mastodon.social/@pitcrewgg/117468484524966021",
-      "handle": "pitcrewgg@mastodon.social",
-      "name": "PitCrew",
-      "text": "🔄 Gamescope - Version 3.16.30.1 Jupiter 3.9 receives a branched release with hotfixes. 1/2 #Gamescope #Linux #LinuxGaming #PCGaming #AMD #Intel #Mesa #Radeon #Vulkan #CUDA #GeForce #NVIDIA #RTXOn #Vulkan #OpenSource #LegionGo2 #LegionGoS #SteamDeck #SteamFrame #SteamMachine #SteamOS",
-      "createdAt": "2026-10-19T16:20:26.862Z",
-      "likes": 1,
-      "replies": 1,
-      "group": "deck",
-      "query": "steamdeck",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "image, no description",
-      "firstSeen": "2026-10-20T00:50:33.641Z"
-    },
-    "https://mastodon.social/@pitcrewgg/117468473527137082": {
-      "uri": "https://mastodon.social/@pitcrewgg/117468473527137082",
-      "url": "https://mastodon.social/@pitcrewgg/117468473527137082",
-      "handle": "pitcrewgg@mastodon.social",
-      "name": "PitCrew",
-      "text": "🔄 Steam - Beta Client Update: October 16 Steam Client update to Preview/Beta adds startup performance boosts and fixes for error dialogs, BC friend dates, installables, and voice chat volume persistence. 1/2 #Linux #LinuxGaming #PCGaming #Steam #ValveSoftware #LegionGo2 #LegionGoS #SteamDeck #SteamFrame #SteamMachine #SteamOS",
-      "createdAt": "2026-10-19T16:17:39.048Z",
-      "likes": 1,
-      "replies": 1,
-      "group": "deck",
-      "query": "steamdeck",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "image, no description",
-      "firstSeen": "2026-10-20T00:50:33.641Z"
-    },
-    "https://mastodon.social/@geekrealmhub/117468457089784471": {
-      "uri": "https://mastodon.social/@geekrealmhub/117468457089784471",
-      "url": "https://mastodon.social/@geekrealmhub/117468457089784471",
-      "handle": "geekrealmhub@mastodon.social",
-      "name": "Geek Realm Hub",
-      "text": "Denuvo gets court approval to unmask “voices38”! Discord, Valve and Reddit can now be subpoenaed for identifying information linked to the alleged game cracker. The revised requests target 9 accounts, with records due by Nov. 3. #Denuvo #PCGaming #GeekRealmHub",
-      "createdAt": "2026-10-19T16:13:28.245Z",
-      "likes": 1,
+    "https://mastodon.social/@KazuShuSora@social.tchncs.de/117471463687908717": {
+      "uri": "https://mastodon.social/@KazuShuSora@social.tchncs.de/117471463687908717",
+      "url": "https://mastodon.social/@KazuShuSora@social.tchncs.de/117471463687908717",
+      "handle": "KazuShuSora@social.tchncs.de",
+      "name": "Nico",
+      "text": "Ngl, Hush looks pretty damn interesting and she might make me boot up Valorant, again 👀 #Hush #Valorant #Gaming #VideoGames #ShareYourGames",
+      "createdAt": "2026-10-20T04:58:04.000Z",
+      "likes": 0,
       "replies": 0,
       "group": "broadPlaying",
-      "query": "pcgaming",
+      "query": "gaming",
       "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
-      "media": "image, no description",
-      "firstSeen": "2026-10-20T00:50:33.641Z"
+      "origin": "https://social.tchncs.de/@KazuShuSora/117471463642501370",
+      "media": null,
+      "firstSeen": "2026-10-20T06:46:25.344Z"
     },
-    "https://mastodon.social/@Tugboater203@lemmy.world/117467702242688040": {
-      "uri": "https://mastodon.social/@Tugboater203@lemmy.world/117467702242688040",
-      "url": "https://mastodon.social/@Tugboater203@lemmy.world/117467702242688040",
-      "handle": "Tugboater203@lemmy.world",
-      "name": "Tug",
-      "text": "Problem with Discord on the Deck? https://lemmy.world/post/53330109",
-      "createdAt": "2026-10-19T13:01:30.123Z",
+    "https://mastodon.social/@Mickytankbank@mstdn.party/117471247570870516": {
+      "uri": "https://mastodon.social/@Mickytankbank@mstdn.party/117471247570870516",
+      "url": "https://mastodon.social/@Mickytankbank@mstdn.party/117471247570870516",
+      "handle": "Mickytankbank@mstdn.party",
+      "name": "Mickytankbank",
+      "text": "The Fame Game II: LA Heartbreaker is here! 🎮💔 If you enjoy watching bad cheesy movies and looking and pretty girls doing stuff, this might be the game you're looking for! #TheFameGameII #LAHeartbreaker #FMV #GameReview #InteractiveDrama #Blog #Gaming #Review",
+      "createdAt": "2026-10-20T04:03:06.000Z",
       "likes": 0,
-      "replies": 4,
-      "group": "deck",
-      "query": "steamdeck",
-      "score": 7,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "gaming",
+      "score": 8,
       "question": true,
       "heated": false,
       "isReply": false,
-      "origin": "https://lemmy.world/post/53330109",
-      "media": "link card: Problem with Discord on the Deck? - Lemmy.World",
-      "firstSeen": "2026-10-20T00:50:33.641Z"
+      "origin": "https://mstdn.party/@Mickytankbank/117471247511151243",
+      "media": null,
+      "firstSeen": "2026-10-20T06:46:25.344Z"
+    },
+    "https://mastodon.social/@stabby/117471095719856062": {
+      "uri": "https://mastodon.social/@stabby/117471095719856062",
+      "url": "https://mastodon.social/@stabby/117471095719856062",
+      "handle": "stabby@mastodon.social",
+      "name": "Stabby",
+      "text": "Lol I heard someone call vibe coding cuck coding earlier. I guess Epic cuck coded their new launcher? It was only a matter of time before someone found something catchy to replace \"vibe\", touché anon! #vibecoding #fuckai #cuckcoding #gaming #steam",
+      "createdAt": "2026-10-20T03:24:30.533Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "gaming",
+      "score": 8,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "media": null,
+      "firstSeen": "2026-10-20T06:46:25.344Z"
     }
   }
 }
