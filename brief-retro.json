@@ -1,84 +1,27 @@
 {
   "account": "Retro game deals",
-  "generatedAt": "2026-10-19T11:25:43.778Z",
-  "builtBy": "commit 5d4e630, schedule, run #20 attempt 1",
-  "pricesCheckedAt": "2026-10-19T10:08:11.342Z",
-  "warnings": [],
+  "generatedAt": "2026-10-20T11:24:54.324Z",
+  "builtBy": "commit 348682a, schedule, run #21 attempt 1",
+  "pricesCheckedAt": "2026-10-20T10:02:28.400Z",
+  "warnings": [
+    "NOTHING TO OFFER today.",
+    "No game fits the niche today (0 fit the rule, 19 do not, 0 have no facts yet, 0 were taken by another account today, 0 under 50%, 0 prices older than 48 h, 0 sales over or ending soon)."
+  ],
   "niche": {
     "label": "Retro",
-    "fit": 2,
-    "postable": 1
+    "fit": 0,
+    "postable": 0
   },
-  "candidates": [
-    {
-      "id": "gog-system-shock-enhanced-edition",
-      "kind": "deal",
-      "title": "System Shock: Enhanced Edition",
-      "store": "GOG",
-      "price": 1.99,
-      "was": 9.99,
-      "discount": 80,
-      "endsAt": "2026-10-20T09:59:00+03:00",
-      "endsInHours": 20,
-      "priceCheckedAt": "2026-10-19T10:08:02.722Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/410710/header.jpg?t=1774275834",
-      "drminfo": null,
-      "coverAlt": "Cover art for System Shock: Enhanced Edition",
-      "facts": {
-        "year": 1994,
-        "genres": [
-          "Shooter",
-          "FPP",
-          "Sci-fi"
-        ],
-        "tags": [
-          "Sci-fi",
-          "Classic",
-          "First-Person",
-          "Science",
-          "FPS",
-          "Shooter"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 14,
-      "discountRank": 1,
-      "sites": 1,
-      "mentions": [
-        {
-          "source": "Rock Paper Shotgun",
-          "domain": "rockpapershotgun.com",
-          "title": "Life has once again found a way in Athanasia, an \"immersive\" dinosaur FPS that feels like comfort food for Dino Crisis and System Shock players alike",
-          "link": "https://www.rockpapershotgun.com/life-has-once-again-found-a-way-in-athanasia-an-immersive-dinosaur-fps-that-feels-like-comfort-food-for-dino-crisis-and-system-shock-players-alike",
-          "t": 1792408647000,
-          "how": "title"
-        }
-      ],
-      "history": {
-        "days": 10,
-        "lowest": false,
-        "since": "2026-10-10"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/system-shock-enhanced-edition/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-19",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "1 news site wrote about the game in the last 48 h",
-        "sale ends in 20 h",
-        "deepest-discount rank 1 of 1"
-      ]
-    }
-  ],
+  "candidates": [],
   "gogNews": [],
   "topical": [],
   "topics": [],
   "left": {
     "otherStore": 16,
     "hidden": 0,
-    "notNiche": 16,
+    "notNiche": 19,
     "noFacts": 0,
-    "taken": 1,
+    "taken": 0,
     "smallDiscount": 0,
     "ended": 0,
     "endsTooSoon": 0,
@@ -90,11 +33,7 @@
   },
   "posts": {
     "bluesky": {
-      "text": "System Shock: Enhanced Edition: -80% at GOG\n$1.99 (was $9.99)\nPrice checked Oct 19. Sale ends Oct 20.\n\nhttps://saveandplay.com/deals/gog/system-shock-enhanced-edition/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-19\n\n#RetroGaming #GameDeals #GOG\nAd",
-      "length": 161,
-      "max": 300,
-      "link": "https://saveandplay.com/deals/gog/system-shock-enhanced-edition/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-19",
-      "deal": "gog-system-shock-enhanced-edition"
+      "none": "No deal passes the rules today. NOTHING TO OFFER today. No game fits the niche today (0 fit the rule, 19 do not, 0 have no facts yet, 0 were taken by another account today, 0 under 50%, 0 prices older than 48 h, 0 sales over or ending soon)."
     }
   }
 }

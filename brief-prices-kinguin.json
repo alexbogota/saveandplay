@@ -1,8 +1,242 @@
 {
   "account": "Honest prices (Kinguin keys)",
-  "generatedAt": "2026-10-19T11:25:43.778Z",
-  "offDay": true,
-  "nextPostDay": "2026-10-20",
-  "candidates": [],
-  "posts": {}
+  "generatedAt": "2026-10-20T11:24:54.324Z",
+  "builtBy": "commit 348682a, schedule, run #21 attempt 1",
+  "pricesCheckedAt": "2026-10-20T10:02:28.400Z",
+  "warnings": [],
+  "candidates": [
+    {
+      "id": "kinguin-subnautica",
+      "kind": "deal",
+      "title": "Subnautica",
+      "store": "Kinguin",
+      "price": 5.06,
+      "was": 29.99,
+      "discount": 83,
+      "endsAt": null,
+      "endsInHours": null,
+      "priceCheckedAt": "2026-10-20T09:08:40.254Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/header.jpg?t=1777456112",
+      "drminfo": null,
+      "coverAlt": "Cover art for Subnautica",
+      "facts": {
+        "year": 2018,
+        "genres": [
+          "Adventure",
+          "Indie"
+        ],
+        "tags": []
+      },
+      "marketplace": true,
+      "compareTo": "Steam",
+      "score": 8.3,
+      "discountRank": 3,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 9,
+        "lowest": false,
+        "since": "2026-10-12"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/kinguin/subnautica/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-20",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 3 of 15"
+      ]
+    },
+    {
+      "id": "kinguin-resident-evil-2",
+      "kind": "deal",
+      "title": "Resident Evil 2",
+      "store": "Kinguin",
+      "price": 9.63,
+      "was": 39.99,
+      "discount": 76,
+      "endsAt": null,
+      "endsInHours": null,
+      "priceCheckedAt": "2026-10-20T09:08:25.186Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/883710/header.jpg?t=1779433152",
+      "drminfo": null,
+      "coverAlt": "Cover art for Resident Evil 2",
+      "facts": {
+        "year": 2019,
+        "genres": [
+          "Action"
+        ],
+        "tags": []
+      },
+      "marketplace": true,
+      "compareTo": "Steam",
+      "score": 7.6,
+      "discountRank": 4,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 6,
+        "lowest": false,
+        "since": "2026-10-15"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/kinguin/resident-evil-2/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-20",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 4 of 15"
+      ]
+    },
+    {
+      "id": "kinguin-ultrakill",
+      "kind": "deal",
+      "title": "ULTRAKILL",
+      "store": "Kinguin",
+      "price": 8.08,
+      "was": 29.99,
+      "discount": 73,
+      "endsAt": null,
+      "endsInHours": null,
+      "priceCheckedAt": "2026-10-20T09:08:47.703Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1229490/header.jpg?t=1783942574",
+      "drminfo": null,
+      "coverAlt": "Cover art for ULTRAKILL",
+      "facts": {
+        "year": 2020,
+        "genres": [
+          "Action",
+          "Indie",
+          "Early Access"
+        ],
+        "tags": []
+      },
+      "marketplace": true,
+      "compareTo": "Steam",
+      "score": 7.3,
+      "discountRank": 6,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 7,
+        "lowest": false,
+        "since": "2026-10-14"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/kinguin/ultrakill/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-20",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 6 of 15"
+      ]
+    },
+    {
+      "id": "kinguin-deep-rock-galactic",
+      "kind": "deal",
+      "title": "Deep Rock Galactic",
+      "store": "Kinguin",
+      "price": 8.12,
+      "was": 29.99,
+      "discount": 73,
+      "endsAt": null,
+      "endsInHours": null,
+      "priceCheckedAt": "2026-10-20T09:08:47.703Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/548430/37b58a6c4816ee60b0ca97cb6724d6e904c58c41/header.jpg?t=1791554128",
+      "drminfo": null,
+      "coverAlt": "Cover art for Deep Rock Galactic",
+      "facts": {
+        "year": 2020,
+        "genres": [
+          "Action"
+        ],
+        "tags": []
+      },
+      "marketplace": true,
+      "compareTo": "Steam",
+      "score": 7.3,
+      "discountRank": 5,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 9,
+        "lowest": false,
+        "since": "2026-10-12"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/kinguin/deep-rock-galactic/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-20",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 5 of 15"
+      ]
+    },
+    {
+      "id": "kinguin-no-man-s-sky",
+      "kind": "deal",
+      "title": "No Man's Sky",
+      "store": "Kinguin",
+      "price": 17.33,
+      "was": 59.99,
+      "discount": 71,
+      "endsAt": null,
+      "endsInHours": null,
+      "priceCheckedAt": "2026-10-20T09:08:17.902Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/2c6e38b43a5309dfcd3cc0f0134e222b0fa2d1b1/header_alt_assets_25.jpg?t=1789479023",
+      "drminfo": null,
+      "coverAlt": "Cover art for No Man's Sky",
+      "facts": {
+        "year": 2016,
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "tags": []
+      },
+      "marketplace": true,
+      "compareTo": "Steam",
+      "score": 7.1,
+      "discountRank": 7,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 9,
+        "lowest": false,
+        "since": "2026-10-12"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/kinguin/no-man-s-sky/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-20",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 7 of 15"
+      ]
+    }
+  ],
+  "gogNews": [],
+  "topical": [],
+  "topics": [],
+  "left": {
+    "otherStore": 20,
+    "hidden": 0,
+    "notNiche": 0,
+    "noFacts": 0,
+    "taken": 0,
+    "smallDiscount": 0,
+    "ended": 0,
+    "endsTooSoon": 0,
+    "oldPrice": 0
+  },
+  "sources": {
+    "total": 11,
+    "failed": []
+  },
+  "posts": {
+    "bluesky": {
+      "text": "Subnautica: $5.06 at Kinguin, 83% below the current Steam price ($29.99).\nMarketplace key from an independent seller, so check the seller and region. Price checked Oct 20.\n\nhttps://saveandplay.com/deals/kinguin/subnautica/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-20\n\n#PCGaming #GameDeals #Games #PCGames\nAd",
+      "length": 239,
+      "max": 300,
+      "link": "https://saveandplay.com/deals/kinguin/subnautica/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-20",
+      "deal": "kinguin-subnautica"
+    },
+    "mastodon": {
+      "text": "Subnautica: $5.06 at Kinguin\n83% below the current Steam price ($29.99).\nMarketplace key from an independent seller: check the seller's rating and the region before you buy.\nPrice checked Oct 20.\n\nhttps://saveandplay.com/deals/kinguin/subnautica/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-20\n\n#GameDeals #PCGaming #Kinguin #VideoGames\nAd",
+      "length": 266,
+      "max": 500,
+      "link": "https://saveandplay.com/deals/kinguin/subnautica/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-20",
+      "deal": "kinguin-subnautica"
+    }
+  }
 }

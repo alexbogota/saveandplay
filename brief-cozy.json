@@ -1,77 +1,25 @@
 {
   "account": "Cozy and calm games",
-  "generatedAt": "2026-10-19T11:25:43.778Z",
-  "builtBy": "commit 5d4e630, schedule, run #20 attempt 1",
-  "pricesCheckedAt": "2026-10-19T10:08:11.342Z",
-  "warnings": [],
+  "generatedAt": "2026-10-20T11:24:54.324Z",
+  "builtBy": "commit 348682a, schedule, run #21 attempt 1",
+  "pricesCheckedAt": "2026-10-20T10:02:28.400Z",
+  "warnings": [
+    "NOTHING TO OFFER today.",
+    "No game fits the niche today (0 fit the rule, 20 do not, 0 have no facts yet, 0 were taken by another account today, 0 under 50%, 0 prices older than 48 h, 0 sales over or ending soon)."
+  ],
   "niche": {
     "label": "Cozy",
-    "fit": 1,
-    "postable": 1
+    "fit": 0,
+    "postable": 0
   },
-  "candidates": [
-    {
-      "id": "gog-rollercoaster-tycoon-3-complete-edition",
-      "kind": "deal",
-      "title": "RollerCoaster Tycoon 3: Complete Edition",
-      "store": "GOG",
-      "price": 4.99,
-      "was": 19.99,
-      "discount": 75,
-      "endsAt": "2026-10-20T09:59:00+03:00",
-      "endsInHours": 20,
-      "priceCheckedAt": "2026-10-19T10:08:02.722Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368820/header.jpg?t=1779306991",
-      "drminfo": null,
-      "coverAlt": "Cover art for RollerCoaster Tycoon 3: Complete Edition",
-      "facts": {
-        "year": 2006,
-        "genres": [
-          "Simulation",
-          "Building",
-          "Managerial"
-        ],
-        "tags": [
-          "Simulation",
-          "Classic",
-          "Casual",
-          "Funny",
-          "Management",
-          "Sandbox",
-          "Family Friendly",
-          "Building",
-          "Cartoony",
-          "Managerial",
-          "City builder"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 2.5,
-      "discountRank": 1,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 10,
-        "lowest": false,
-        "since": "2026-10-10"
-      },
-      "offeredOn": "2026-10-18",
-      "link": "https://saveandplay.com/deals/gog/rollercoaster-tycoon-3-complete-edition/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=deals-2026-10-19",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "sale ends in 20 h",
-        "deepest-discount rank 1 of 1"
-      ]
-    }
-  ],
+  "candidates": [],
   "gogNews": [],
   "topical": [],
   "topics": [],
   "left": {
     "otherStore": 15,
     "hidden": 0,
-    "notNiche": 18,
+    "notNiche": 20,
     "noFacts": 0,
     "taken": 0,
     "smallDiscount": 0,
@@ -85,11 +33,7 @@
   },
   "posts": {
     "bluesky": {
-      "text": "RollerCoaster Tycoon 3: Complete Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Oct 19. Sale ends Oct 20.\n\nhttps://saveandplay.com/deals/gog/rollercoaster-tycoon-3-complete-edition/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=deals-2026-10-19\n\n#GameDeals #PCGaming #CityBuilder #RollerCoasterTycoon3\nAd",
-      "length": 199,
-      "max": 300,
-      "link": "https://saveandplay.com/deals/gog/rollercoaster-tycoon-3-complete-edition/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=deals-2026-10-19",
-      "deal": "gog-rollercoaster-tycoon-3-complete-edition"
+      "none": "No deal passes the rules today. NOTHING TO OFFER today. No game fits the niche today (0 fit the rule, 20 do not, 0 have no facts yet, 0 were taken by another account today, 0 under 50%, 0 prices older than 48 h, 0 sales over or ending soon)."
     }
   }
 }

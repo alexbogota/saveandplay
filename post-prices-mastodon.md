@@ -1,11 +1,11 @@
-Outward Definitive Edition: -95% at GOG
-$1.99 (was $39.99)
-You save $38.00
+Frostpunk: -85% at GOG
+$4.49 (was $29.99)
+You save $25.50
 DRM-free
-Price checked Oct 19. Sale ends Oct 22. Lowest price we've tracked.
-Why today: deepest-discount rank 1 of 19.
+Price checked Oct 20. Sale ends Oct 23.
+Why today: 1 news site wrote about the game in the last 48 h.
 
-https://saveandplay.com/deals/gog/outward-definitive-edition/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-19
+https://saveandplay.com/deals/gog/frostpunk/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-20
 
-#GameDeals #PCGaming #GOG #DRMFree #OutwardDefinitiveEdition
+#GameDeals #PCGaming #GOG #DRMFree #Gaming
 Ad

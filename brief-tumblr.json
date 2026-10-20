@@ -1,66 +1,76 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-10-19T11:25:43.778Z",
-  "builtBy": "commit 5d4e630, schedule, run #20 attempt 1",
-  "pricesCheckedAt": "2026-10-19T10:08:11.342Z",
+  "generatedAt": "2026-10-20T11:24:54.324Z",
+  "builtBy": "commit 348682a, schedule, run #21 attempt 1",
+  "pricesCheckedAt": "2026-10-20T10:02:28.400Z",
   "warnings": [],
   "candidates": [
     {
-      "id": "gog-outward-definitive-edition",
+      "id": "gog-frostpunk",
       "kind": "deal",
-      "title": "Outward Definitive Edition",
+      "title": "Frostpunk",
       "store": "GOG",
-      "price": 1.99,
-      "was": 39.99,
-      "discount": 95,
-      "endsAt": "2026-10-22T16:00:00+03:00",
-      "endsInHours": 74,
-      "priceCheckedAt": "2026-10-19T10:08:02.722Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/794260/header.jpg?t=1787229712",
+      "price": 4.49,
+      "was": 29.99,
+      "discount": 85,
+      "endsAt": "2026-10-23T09:59:00+03:00",
+      "endsInHours": 68,
+      "priceCheckedAt": "2026-10-20T10:02:28.400Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323190/abcd2bf3c275092d637d7dd98e0061dbdd2fd2da/header.jpg?t=1784897899",
       "drminfo": null,
-      "coverAlt": "Cover art for Outward Definitive Edition",
+      "coverAlt": "Cover art for Frostpunk",
       "facts": {
-        "year": 2022,
+        "year": 2018,
         "genres": [
-          "Role-playing",
-          "Fantasy",
+          "Strategy",
+          "Simulation",
           "Survival"
         ],
         "tags": [
-          "Fantasy",
+          "Indie",
           "Atmospheric",
-          "Role-playing",
-          "Exploration",
-          "Third Person",
-          "Open World",
-          "Multiplayer",
+          "Strategy",
+          "Simulation",
+          "Dark",
+          "Great Soundtrack",
+          "Choices Matter",
+          "Management",
           "Survival",
-          "Violent",
           "Resource Management",
           "Difficult",
-          "Magic",
-          "Local Co-Op",
-          "Souls-like",
-          "Split Screen"
+          "Base Building",
+          "Post-apocalyptic",
+          "City builder",
+          "Survival Horror",
+          "Steampunk"
         ]
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 11.5,
-      "discountRank": 1,
-      "sites": 0,
-      "mentions": [],
+      "score": 12.5,
+      "discountRank": 7,
+      "sites": 1,
+      "mentions": [
+        {
+          "source": "gg.deals News",
+          "domain": "gg.deals",
+          "title": "Gamesplanet's Weekly Deals are looking good! Save up to 87% on Frostpunk, DREDGE, and more",
+          "link": "https://gg.deals/deal/gamesplanets-weekly-deals-october-19-2026/",
+          "t": 1792421400000,
+          "how": "title"
+        }
+      ],
       "history": {
-        "days": 14,
-        "lowest": true,
-        "since": "2026-10-05"
+        "days": 8,
+        "lowest": false,
+        "since": "2026-10-13"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/outward-definitive-edition/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-19",
+      "link": "https://saveandplay.com/deals/gog/frostpunk/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-20",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (14 days of data)",
-        "deepest-discount rank 1 of 17"
+        "1 news site wrote about the game in the last 48 h",
+        "deepest-discount rank 7 of 19"
       ]
     },
     {
@@ -72,8 +82,8 @@
       "was": 19.99,
       "discount": 90,
       "endsAt": "2026-10-27T09:59:00+02:00",
-      "endsInHours": 189,
-      "priceCheckedAt": "2026-10-19T10:08:02.722Z",
+      "endsInHours": 165,
+      "priceCheckedAt": "2026-10-20T10:02:28.400Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/290300/header.jpg?t=1778077786",
       "drminfo": null,
       "coverAlt": "Cover art for Rebel Galaxy",
@@ -106,15 +116,67 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 2,
+        "days": 3,
         "lowest": false,
         "since": "2026-10-18"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/rebel-galaxy/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-19",
+      "link": "https://saveandplay.com/deals/gog/rebel-galaxy/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-20",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 3 of 17"
+        "deepest-discount rank 3 of 19"
+      ]
+    },
+    {
+      "id": "gog-hitman-absolution",
+      "kind": "deal",
+      "title": "Hitman: Absolution",
+      "store": "GOG",
+      "price": 1.99,
+      "was": 19.99,
+      "discount": 90,
+      "endsAt": "2026-10-29T09:59:00+02:00",
+      "endsInHours": 213,
+      "priceCheckedAt": "2026-10-20T10:02:28.400Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203140/header.jpg?t=1734461136",
+      "drminfo": null,
+      "coverAlt": "Cover art for Hitman: Absolution",
+      "facts": {
+        "year": 2012,
+        "genres": [
+          "Action",
+          "TPP",
+          "Stealth"
+        ],
+        "tags": [
+          "Action",
+          "Story Rich",
+          "Atmospheric",
+          "Classic",
+          "Tactical",
+          "Third Person",
+          "Mature",
+          "Difficult",
+          "Stealth",
+          "Crime"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 10,
+      "discountRank": 4,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 1,
+        "lowest": false,
+        "since": "2026-10-20"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/hitman-absolution/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-20",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 4 of 19"
       ]
     },
     {
@@ -126,8 +188,8 @@
       "was": 29.99,
       "discount": 90,
       "endsAt": "2026-10-27T09:59:00+02:00",
-      "endsInHours": 189,
-      "priceCheckedAt": "2026-10-19T10:08:02.722Z",
+      "endsInHours": 165,
+      "priceCheckedAt": "2026-10-20T10:02:28.400Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804",
       "drminfo": null,
       "coverAlt": "Cover art for Metro Exodus",
@@ -165,56 +227,15 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 2,
+        "days": 3,
         "lowest": false,
         "since": "2026-10-18"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-19",
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-20",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 2 of 17"
-      ]
-    },
-    {
-      "id": "indiegala-sifu",
-      "kind": "deal",
-      "title": "Sifu",
-      "store": "IndieGala",
-      "price": 8.58,
-      "was": 39.99,
-      "discount": 79,
-      "endsAt": "2026-10-19T23:59:00Z",
-      "endsInHours": 13,
-      "priceCheckedAt": "2026-10-19T10:08:11.342Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138710/header.jpg?t=1782742326",
-      "drminfo": "Steam key",
-      "coverAlt": "Cover art for Sifu",
-      "facts": {
-        "year": 2023,
-        "genres": [
-          "Action",
-          "Indie"
-        ],
-        "tags": []
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 9.9,
-      "discountRank": 15,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 11,
-        "lowest": false,
-        "since": "2026-10-05"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/indiegala/sifu/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-19",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "sale ends in 13 h",
-        "deepest-discount rank 15 of 17"
+        "deepest-discount rank 2 of 19"
       ]
     },
     {
@@ -226,8 +247,8 @@
       "was": 19.99,
       "discount": 85,
       "endsAt": "2026-10-27T09:59:00+02:00",
-      "endsInHours": 189,
-      "priceCheckedAt": "2026-10-19T10:08:02.722Z",
+      "endsInHours": 165,
+      "priceCheckedAt": "2026-10-20T10:02:28.400Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268500/header.jpg?t=1772813016",
       "drminfo": null,
       "coverAlt": "Cover art for XCOM 2",
@@ -250,150 +271,168 @@
       "marketplace": false,
       "compareTo": null,
       "score": 9.5,
-      "discountRank": 7,
+      "discountRank": 8,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 7,
+        "days": 8,
         "lowest": false,
         "since": "2026-10-13"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/xcom-2/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-19",
+      "link": "https://saveandplay.com/deals/gog/xcom-2/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-20",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 7 of 17"
+        "deepest-discount rank 8 of 19"
       ]
     }
   ],
   "gogNews": [],
   "topical": [
     {
-      "title": "Man moved to tears by RTX 5090 on his wedding day - $9000+ price tag brings a tear to my eye too",
-      "source": "PC Gamer",
-      "link": "https://www.pcgamer.com/hardware/graphics-cards/man-moved-to-tears-by-rtx-5090-on-his-wedding-day-usd9000-price-tag-brings-a-tear-to-my-eye-too/",
-      "t": 1792405755000,
-      "keyword": "price",
-      "summary": "@news.com.au ♬ original sound - News.com.au"
-    },
-    {
-      "title": "Save on AC Black Flag Resynced and more Ubisoft hits in Gamesplanet's latest sale!",
+      "title": "[Pricing glitch?] PowerWash Simulator 2 drops to just $9.99 on Epic Games Store!",
       "source": "gg.deals News",
-      "link": "https://gg.deals/deal/gamesplanet-ubisoft-promo-october-2026/",
-      "t": 1792396860000,
-      "keyword": "sale",
-      "summary": "Gamesplanet is offering discounts on nearly 200 items, including Assassin's Creed games, Star Wars Outlaws, and plenty more."
+      "link": "https://gg.deals/deal/pricing-glitch-powerwash-simulator-2-drops-to-just-999-on-epic-games-store/",
+      "t": 1792492800000,
+      "keyword": "pricing",
+      "summary": "Could this deal be too good to last?"
     },
     {
-      "title": "23 devs teamed up to make a free game of 'innovative yet questionable volume sliders,' and it feels like browser-based WarioWare",
-      "source": "PC Gamer",
-      "link": "https://www.pcgamer.com/games/23-devs-teamed-up-to-make-a-free-game-of-innovative-yet-questionable-volume-sliders-and-it-feels-like-browser-based-warioware/",
-      "t": 1792362982000,
+      "title": "Penguin Colony is not messing around with its statement on the Palestinian genocide, banning sale in Israel and calling out the games industry in-game",
+      "source": "Rock Paper Shotgun",
+      "link": "https://www.rockpapershotgun.com/penguin-colony-is-not-messing-around-with-its-statement-on-the-palestinian-genocide-banning-sale-in-israel-and-calling-out-the-games-industry-in-game",
+      "t": 1792492027000,
+      "keyword": "sale",
+      "summary": "You might remember 2021's Umurangi Generation , developed by M&amacr;ori studio Origame Digital. It placed its focus on its first-person photography system as …"
+    },
+    {
+      "title": "Fanatical’s Fantasy Ages Bundle: Choose 3 Steam Games for $4.95",
+      "source": "Indie Game Bundles",
+      "link": "https://www.indiegamebundles.com/fanaticals-fantasy-ages-bundle-choose-3-steam-games-for-4-95/",
+      "t": 1792484845000,
+      "keyword": "bundle",
+      "summary": "Fanatical has launched the Build Your Own Fantasy Ages Bundle, featuring 18 games and collections covering fantasy RPGs, dungeon crawlers, strategy games, and …"
+    },
+    {
+      "title": "Get Free Copies of a Horror Puzzle Game “Last Room” for PC",
+      "source": "Indie Game Bundles",
+      "link": "https://www.indiegamebundles.com/get-free-copies-of-a-horror-puzzle-game-last-room-for-pc/",
+      "t": 1792444315000,
       "keyword": "free",
-      "summary": "Volume.art is a nice, free, cool thing on the internet, and I just think that's something worth celebrating these days. The microgame collection sees you manip…"
+      "summary": "Step into the enigmatic world of \"Last Room,\" a thrilling adventure that merges horror, fantasy, and darkness. Grab Last Room at IndieGala for a limited time! …"
     }
   ],
   "topics": [
     {
-      "headline": "Humble Serenity Forge Emotional Impact Bundle: 18 Steam Items for Just $12",
-      "score": 7,
+      "headline": "Spooky escape room adventure Last Room is FREE on IndieGala right now",
+      "score": 8,
       "sites": [
-        "indiegamebundles.com"
+        "gamerpower.com",
+        "gg.deals"
       ],
       "keywords": [
-        "bundle",
-        "humble"
+        "free"
       ],
       "games": [],
       "items": [
         {
-          "source": "Indie Game Bundles",
-          "title": "Humble Serenity Forge Emotional Impact Bundle: 18 Steam Items for Just $12",
-          "link": "https://www.indiegamebundles.com/humble-serenity-forge-emotional-impact-bundle-18-steam-items-for-just-12/",
-          "published": "2026-10-18T17:11:08.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Humble Double Fine Publisher Bundle: 11 Steam Games for Just $8",
-      "score": 7,
-      "sites": [
-        "indiegamebundles.com"
-      ],
-      "keywords": [
-        "bundle",
-        "humble"
-      ],
-      "games": [],
-      "items": [
+          "source": "GamerPower (PC)",
+          "title": "Last Room (IndieGala) Giveaway",
+          "link": "https://www.gamerpower.com/last-room-pc-giveaway",
+          "published": "2026-10-19T15:58:10.000Z"
+        },
         {
-          "source": "Indie Game Bundles",
-          "title": "Humble Double Fine Publisher Bundle: 11 Steam Games for Just $8",
-          "link": "https://www.indiegamebundles.com/humble-double-fine-publisher-bundle-11-steam-games-for-just-8/",
-          "published": "2026-10-18T16:52:45.000Z"
+          "source": "gg.deals Freebies",
+          "title": "Spooky escape room adventure Last Room is FREE on IndieGala right now",
+          "link": "https://gg.deals/freebie/spooky-escape-room-adventure-last-room-is-free-on-indiegala-right-now/",
+          "published": "2026-10-19T15:24:24.000Z"
+        },
+        {
+          "source": "gg.deals News",
+          "title": "Spooky escape room adventure Last Room is FREE on IndieGala right now",
+          "link": "https://gg.deals/freebie/spooky-escape-room-adventure-last-room-is-free-on-indiegala-right-now/",
+          "published": "2026-10-19T15:24:24.000Z"
         }
       ]
     },
     {
-      "headline": "Steam deals of the week (October 12–18): 50 great games at prices worth checking out",
+      "headline": "Humble slashes prices on survival games by up to 90% in its Crafted Survival Deals!",
       "score": 7,
       "sites": [
         "gg.deals"
       ],
       "keywords": [
         "prices",
+        "deals",
+        "humble"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Humble slashes prices on survival games by up to 90% in its Crafted Survival Deals!",
+          "link": "https://gg.deals/deal/humble-crafted-survival-deals/",
+          "published": "2026-10-20T08:56:00.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Steam’s new Weeklong Sale goes big with 7,000+ deals: Grab PC games at up to 95% off!",
+      "score": 7,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "sale",
         "deals"
       ],
       "games": [],
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Steam deals of the week (October 12–18): 50 great games at prices worth checking out",
-          "link": "https://gg.deals/deal/steam-deals-of-the-week-october-12-18/",
-          "published": "2026-10-18T10:15:00.000Z"
+          "title": "Steam’s new Weeklong Sale goes big with 7,000+ deals: Grab PC games at up to 95% off!",
+          "link": "https://gg.deals/deal/steams-new-weeklong-sale-goes-big-with-7000-deals-grab-pc-games-at-up-to-95-off/",
+          "published": "2026-10-19T18:44:33.000Z"
         }
       ]
     },
     {
-      "headline": "Life has once again found a way in Athanasia, an \"immersive\" dinosaur FPS that feels like comfort food for Dino Crisis and System Shock players alike",
-      "score": 6,
+      "headline": "Cyberpunk 2077 and Cronos: The New Dawn lead the latest eShop sale with deep discounts",
+      "score": 7,
       "sites": [
-        "rockpapershotgun.com"
+        "gg.deals"
       ],
-      "keywords": [],
-      "games": [
-        "System Shock: Enhanced Edition"
+      "keywords": [
+        "sale",
+        "discounts"
       ],
-      "items": [
-        {
-          "source": "Rock Paper Shotgun",
-          "title": "Life has once again found a way in Athanasia, an \"immersive\" dinosaur FPS that feels like comfort food for Dino Crisis and System Shock players alike",
-          "link": "https://www.rockpapershotgun.com/life-has-once-again-found-a-way-in-athanasia-an-immersive-dinosaur-fps-that-feels-like-comfort-food-for-dino-crisis-and-system-shock-players-alike",
-          "published": "2026-10-19T11:17:27.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Vampire: The Masquerade - Bloodlines remaster or remake rumours begin to flow, reportedly in part thanks to a metal band from the original's score",
-      "score": 6,
-      "sites": [
-        "rockpapershotgun.com",
-        "eurogamer.net"
-      ],
-      "keywords": [],
       "games": [],
       "items": [
         {
-          "source": "Rock Paper Shotgun",
-          "title": "Vampire: The Masquerade - Bloodlines remaster or remake rumours begin to flow, reportedly in part thanks to a metal band from the original's score",
-          "link": "https://www.rockpapershotgun.com/vampire-the-masquerade-bloodlines-remaster-or-remake-rumours-begin-to-flow-reportedly-in-part-thanks-to-a-metal-band-from-the-originals-score",
-          "published": "2026-10-19T10:41:01.000Z"
-        },
+          "source": "gg.deals News",
+          "title": "Cyberpunk 2077 and Cronos: The New Dawn lead the latest eShop sale with deep discounts",
+          "link": "https://gg.deals/deal/cyberpunk-2077-and-cronos-the-new-dawn-lead-the-latest-eshop-sale-with-deep-discounts/",
+          "published": "2026-10-19T17:23:00.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Epic Games Store Halloween Sale 2026 brings over 2,000 spookily good deals",
+      "score": 7,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "sale",
+        "deals"
+      ],
+      "games": [],
+      "items": [
         {
-          "source": "Eurogamer",
-          "title": "Vampire: The Masquerade - Bloodlines remaster rumoured, with leaker insisting it's not a remake",
-          "link": "https://www.eurogamer.net/vampire-the-masquerade-bloodlines-remaster-rumour",
-          "published": "2026-10-17T18:28:40.000Z"
+          "source": "gg.deals News",
+          "title": "Epic Games Store Halloween Sale 2026 brings over 2,000 spookily good deals",
+          "link": "https://gg.deals/deal/epic-games-store-halloween-sale-2026/",
+          "published": "2026-10-19T16:59:00.000Z"
         }
       ]
     }
@@ -403,9 +442,9 @@
     "hidden": 0,
     "notNiche": 0,
     "noFacts": 0,
-    "taken": 2,
+    "taken": 0,
     "smallDiscount": 0,
-    "ended": 0,
+    "ended": 1,
     "endsTooSoon": 0,
     "oldPrice": 0
   },
