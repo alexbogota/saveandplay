@@ -880,6 +880,58 @@
             "id": "c8793321a01f32586d6e829d14d35d9c8ba5b3445a6e694b4076fe17e79b12da",
             "sig": "c45982066cca419a49fc7a3e2a38a86c09eebbd79f5446261f889b091c8f6ed441fa1031959094b13f2aff82dc1b92046624d2f3c78a96e3cbe8d1b0084a5d0e"
           }
+        },
+        "article": {
+          "status": "done",
+          "kind": "article",
+          "id": "7089d2c2e82ce868479d80e0737dce1149b9263d2d959161651816f8e804dab3",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "article": "free-game-giveaways-what-you-keep",
+          "postedAt": "2026-10-20T17:28:41.000Z",
+          "accepted": [
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [
+            {
+              "url": "wss://relay.damus.io",
+              "reason": "connection failed"
+            }
+          ],
+          "event": {
+            "kind": 1,
+            "created_at": 1792517321,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-article"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://saveandplay.com/og/free-game-giveaways-what-you-keep.png",
+                "m image/png",
+                "alt Timeline of two free Epic Games Store giveaways read on October 17, 2026: Bad Cheese and Agent A, both claimable from October 15 to October 22, 2026 at 3:00 PM UTC. The claim is a click; the game then stays in the library."
+              ]
+            ],
+            "content": "Free PC game giveaways: what you actually keep, and what to check first\n\nA free game on a store giveaway is a license on your account, not a file you own. What the sources say, what a claim does and doesn't cover, and four checks before you click.\n\n#pcgaming #gamedeals\n\nhttps://saveandplay.com/og/free-game-giveaways-what-you-keep.png\n\nhttps://saveandplay.com/guides/free-game-giveaways-what-you-keep/?utm_source=nostr-prices&utm_medium=social&utm_campaign=free-game-giveaways-what-you-keep",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "7089d2c2e82ce868479d80e0737dce1149b9263d2d959161651816f8e804dab3",
+            "sig": "92bf6b7b85d24552a8eb7afa126fc6d8946e96a32bd7dab88ee0858b8bf804d4e50d05c770d173fd5cfd47abbf0a387d15359fd213348eaa0c5fbe709b6c59f9"
+          }
         }
       }
     }
@@ -909,6 +961,10 @@
       "steam-wishlist-and-sale-calendar": {
         "day": "2026-10-18",
         "id": "c964d798677be627a038b93b904ae6462d649506e3f9c4d68f9d9c4339a82908"
+      },
+      "free-game-giveaways-what-you-keep": {
+        "day": "2026-10-20",
+        "id": "7089d2c2e82ce868479d80e0737dce1149b9263d2d959161651816f8e804dab3"
       }
     }
   },
