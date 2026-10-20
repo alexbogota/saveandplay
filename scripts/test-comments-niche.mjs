@@ -295,3 +295,66 @@ test('the workflow runs every enabled account (no --account), and the copy in .g
   assert.match(copy, /run: node scripts\/comment-candidates\.mjs\s*$/m, 'no --account: every enabled block is searched, new ones included');
   assert.match(copy, /BSKY_APP_PASSWORD: \$\{\{ secrets\.BSKY_APP_PASSWORD \}\}/, 'the one existing secret is enough');
 });
+
+// ---- the wide mode of the main account: "комментарии saveandplay 2" (20 Oct 2026) ------------------------------------
+test('prices-wide: the same account, a lower threshold, more groups, and a memory shared with the main block', () => {
+  const prices = cfg('prices');
+  const w = cfg('prices-wide');
+  assert.deepEqual(configProblems(w), []);
+  assert.equal(w.handle, prices.handle, 'replies go out from the same account');
+  assert.equal(w.shownAs, 'prices', 'one memory "shown" for both modes: no post is shown twice');
+  assert.equal(w.onDemand, true, 'not part of "комментарии saveandplay"');
+  assert.ok(w.minScore < prices.minScore, 'a lower threshold');
+  assert.ok(w.showLimit > prices.showLimit);
+  for (const g of Object.keys(prices.groups)) assert.deepEqual(w.groups[g], prices.groups[g], `${g}: the main groups are inherited unchanged`);
+  const extra = Object.keys(w.groups).filter((g) => !prices.groups[g]);
+  assert.ok(extra.length >= 6, 'new groups with new words');
+  for (const g of extra) assert.ok(w.groups[g].queries.length >= 4 && w.groups[g].queries.every((q) => !q.includes('"')), `${g}: plain words, no quotes`);
+  assert.ok(w.queriesPerRun >= Object.keys(w.groups).length, 'every group is searched in every run');
+  assert.deepEqual(w.skipWords, prices.skipWords, 'the safety rules (skip words, authors, promo) are the main ones');
+  assert.deepEqual(w.skipAuthorWords, prices.skipAuthorWords);
+});
+
+test('prices-wide: a post the main mode showed is not shown again, the wide mode is not in --all, and it writes into the shared memory', async () => {
+  const root = showRoot({ prices: 2, cozy: 1, retro: 1, 'mastodon-prices': 1 });
+  const k = (i) => listPost('wide', i);
+  writeFileSync(join(root, 'drafts', 'comments-prices-wide.json'), JSON.stringify({ madeAt: ago(1), normal: [k(1), k(2), k(3)], heated: [] }));
+  // the main mode showed post 1 earlier (its memory file is named after `prices`)
+  writeFileSync(join(root, 'drafts', 'comments-shown-prices-20261020-100000.json'), JSON.stringify([k(1).url]));
+  const rec = join(root, 'drafts', 'comments-shown-prices-wide-20261020-110000.json');
+  const r = await show(root, ['--account', 'prices-wide', '--record-new', rec]);
+  assert.equal(r.code, 0, r.out);
+  assert.match(r.out, /NEW POSTS: 2/);
+  assert.ok(!r.out.includes('widee1') && !r.out.includes(k(1).url), 'the post shown by the main mode is gone');
+  assert.ok(r.out.includes(k(2).url) && r.out.includes(k(3).url));
+  // the file the wide mode writes is read by the MAIN mode as its own memory (same prefix), so the main list does not offer them either
+  writeFileSync(join(root, 'drafts', 'comments-prices.json'), JSON.stringify({ madeAt: ago(1), normal: [k(2), k(4)], heated: [] }));
+  const main = await show(root, ['--account', 'prices']);
+  assert.ok(!main.out.includes(k(2).url), 'shown in the wide mode, so not again in the main mode');
+  assert.ok(main.out.includes(k(4).url));
+  // "all" does not include the wide mode
+  const all = await show(root, ['--all']);
+  assert.ok(!/=+ prices-wide /.test(all.out), 'the wide mode is asked for by name only');
+  assert.deepEqual([...all.out.matchAll(/^=+ ([\w-]+) \(/gm)].map((m) => m[1]), IDS);
+});
+
+test('end to end: the finder run of prices-wide logs in as the main account and skips what the main mode already showed', async () => {
+  const { server, logins, found } = fakeServer();
+  await new Promise((r) => server.listen(0, '127.0.0.1', r));
+  const root = tempRoot();
+  const env = { COMMENTS_ROOT: root, BSKY_API_BASE: `http://127.0.0.1:${server.address().port}`, BSKY_APP_PASSWORD: PASSWORD, COMMENTS_RETRY_MS: '1' };
+  try {
+    const r = await run('./comment-candidates.mjs', env, ['--account', 'prices-wide']);
+    assert.equal(r.code, 0, r.out);
+    assert.deepEqual([...new Set(logins)], ['saveandplay.com']);
+    assert.ok(existsSync(join(root, 'drafts', 'comments-prices-wide.json')) && existsSync(join(root, 'drafts', 'comments-state-prices-wide.json')), 'its own list and state');
+    assert.ok(!existsSync(join(root, 'drafts', 'comments-prices.json')), 'the main list is not touched');
+    // the main mode showed this post: the wide mode must not list it any more (shared memory, file named after prices)
+    writeFileSync(join(root, 'drafts', 'comments-shown-prices-20261020-1000.json'), JSON.stringify([found.uri]));
+    const r2 = await run('./comment-candidates.mjs', env, ['--account', 'prices-wide']);
+    assert.equal(r2.code, 0, r2.out);
+    assert.ok(!readFileSync(join(root, 'drafts', 'comments-prices-wide.md'), 'utf8').includes(found.author.handle), 'already shown by the main mode, so gone from the wide list');
+  } finally {
+    server.close();
+  }
+});

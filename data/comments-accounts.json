@@ -411,6 +411,102 @@
       "showLimit": 15,
       "queriesPerGroup": 4
     },
+    "prices-wide": {
+      "extends": "prices",
+      "note": "Wide mode of the main account (20 Oct 2026), the phrase \"комментарии saveandplay 2\". Same Bluesky account and the same memory \"shown\" as `prices` (shownAs), so no post is shown twice. Lower threshold, more query groups with plain words, more queries per group. Not part of \"комментарии saveandplay\" (onDemand). Switch off with enabled: false.",
+      "onDemand": true,
+      "shownAs": "prices",
+      "minScore": 3,
+      "showLimit": 25,
+      "maxCandidates": 60,
+      "queriesPerRun": 18,
+      "queriesPerGroup": 6,
+      "groups+": {
+        "justBought": {
+          "weight": 2,
+          "queries": [
+            "just bought game",
+            "bought on sale steam",
+            "picked up game steam",
+            "finally bought game",
+            "got this game on sale"
+          ]
+        },
+        "priceTalk": {
+          "weight": 2,
+          "queries": [
+            "game too expensive",
+            "game price",
+            "full price game",
+            "cheap games steam",
+            "price drop game",
+            "steam game price"
+          ]
+        },
+        "freeStuff": {
+          "weight": 1,
+          "queries": [
+            "free games steam",
+            "free game pc",
+            "free to play recommend",
+            "epic free game"
+          ]
+        },
+        "buyingHelp": {
+          "weight": 3,
+          "queries": [
+            "which game should i buy",
+            "what game to buy",
+            "should i get this game",
+            "is it worth buying",
+            "worth the money game",
+            "buy or wait game"
+          ]
+        },
+        "playingNow": {
+          "weight": 1,
+          "broad": true,
+          "queries": [
+            "playing on pc",
+            "playing steam deck",
+            "can't stop playing game",
+            "game of the year pc",
+            "new favorite game"
+          ]
+        },
+        "libraryChat": {
+          "weight": 1,
+          "broad": true,
+          "queries": [
+            "steam library",
+            "my steam library",
+            "too many games",
+            "games backlog",
+            "unplayed games"
+          ]
+        },
+        "stores": {
+          "weight": 1,
+          "queries": [
+            "epic games store",
+            "game pass pc",
+            "gog sale",
+            "itch.io games"
+          ]
+        },
+        "bestOf": {
+          "weight": 1,
+          "queries": [
+            "best rpg pc",
+            "best strategy game",
+            "best indie game",
+            "best horror game",
+            "best story game",
+            "best simulator game"
+          ]
+        }
+      }
+    },
     "mastodon-prices": {
       "extends": "prices",
       "platform": "mastodon",

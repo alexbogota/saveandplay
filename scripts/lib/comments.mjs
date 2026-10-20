@@ -60,7 +60,8 @@ export const withDefaults = (a) => {
 };
 
 // A block can start from another one: "extends": "prices" takes all its settings; what the block writes itself replaces them.
-// A key that ends with "+" adds to the inherited list instead of replacing it ("skipWords+": ["x"] = the inherited skipWords and x).
+// A key that ends with "+" adds to the inherited list instead of replacing it ("skipWords+": ["x"] = the inherited skipWords and x);
+// for an object it adds entries ("groups+": { "newGroup": {...} } = the inherited groups and newGroup).
 function resolveBlock(all, id, trail = []) {
   const raw = all[id];
   if (!raw) throw new Error(`no account "${id}" in data/comments-accounts.json`);
@@ -70,7 +71,11 @@ function resolveBlock(all, id, trail = []) {
   const out = { ...base };
   for (const [k, v] of Object.entries(raw)) {
     if (k === 'extends') continue;
-    if (k.endsWith('+')) out[k.slice(0, -1)] = [...(base[k.slice(0, -1)] ?? []), ...v];
+    if (k.endsWith('+')) {
+      const name = k.slice(0, -1);
+      // a list adds to the inherited list; an object adds its entries to the inherited object (new groups next to the inherited ones)
+      out[name] = Array.isArray(v) ? [...(base[name] ?? []), ...v] : { ...(base[name] ?? {}), ...v };
+    }
     else out[k] = v;
   }
   return out;

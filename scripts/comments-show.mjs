@@ -6,6 +6,7 @@
 //   node scripts/comments-show.mjs --limit 8 --record OUT.json         also writes the full "shown" list (old ones + these) to OUT.json (the owner's computer)
 //   node scripts/comments-show.mjs --account NAME --max-age 30 --stale 8      --stale N: the oldest list allowed, in hours (default 8: the list is made every 6 hours)
 //   node scripts/comments-show.mjs --all --record-new-all STAMP        EVERY enabled account of data/comments-accounts.json in one go (the phrase "комментарии saveandplay")
+//   node scripts/comments-show.mjs --account prices-wide --record-new drafts/comments-shown-prices-STAMP.json    the wide mode of the main account (the phrase "комментарии saveandplay 2"); it shares the memory "shown" of `prices` (shownAs)
 //   node scripts/comments-show.mjs --all --partial --record-new-all STAMP     same, but an account whose list is missing or stale is only reported and skipped
 //
 // Why it exists: the finder skips shown posts only at the moment it makes a list, but a list is read several times. This step skips them on every read.
@@ -72,7 +73,7 @@ function readList(id) {
 // The posts of one account that may be shown now. { text (the report), shown: [candidates], shownMap }
 function pickPosts(id, list, ageH, limit) {
   const maxAgeHours = Number(arg('--max-age') ?? 0) || accountOf(id)?.maxAgeHours || 30;
-  const shown = loadShownMap(id);
+  const shown = loadShownMap(accountOf(id)?.shownAs ?? id); // shownAs: shares the memory of another block, so no post is shown twice across the two modes
   const dropped = { shown: 0, old: 0 };
   const fresh = (c) => {
     if (shown.has(postKey(c.url))) { dropped.shown++; return false; }
@@ -121,7 +122,8 @@ function single() {
 
 // ---- every enabled account ----
 function everyone() {
-  const accounts = commentAccounts().filter(({ account }) => account.enabled !== false);
+  // onDemand blocks (the wide mode, "комментарии saveandplay 2") are not part of "all": the owner asks for them by name.
+  const accounts = commentAccounts().filter(({ account }) => account.enabled !== false && !account.onDemand);
   const lists = accounts.map((a) => ({ ...a, ...readList(a.id) }));
   const bad = lists.filter((l) => l.problem);
   if (bad.length && !partial) {
@@ -137,7 +139,7 @@ function everyone() {
     const { text, posts } = pickPosts(l.id, l.list, l.ageH, limit);
     out.push(text);
     if (recordNewAll && posts.length) {
-      const path = `drafts/comments-shown-${l.id}-${recordNewAll}.json`;
+      const path = `drafts/comments-shown-${l.account.shownAs ?? l.id}-${recordNewAll}.json`;
       writeNew(file(path), posts);
       written.push(path);
       out.push(`REMEMBERED: ${posts.length} posts of ${l.id} in ${path}.`);
