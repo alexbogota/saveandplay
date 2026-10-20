@@ -23,23 +23,23 @@
       }
     },
     "backlog": {
-      "runs": 29,
-      "posts": 748,
+      "runs": 35,
+      "posts": 900,
       "fit": 0,
       "last": {
         "posts": 22,
         "fit": 0,
-        "at": "2026-10-20T14:22:38.169Z"
+        "at": "2026-10-20T18:44:04.671Z"
       }
     },
     "deck": {
-      "runs": 28,
-      "posts": 1681,
+      "runs": 33,
+      "posts": 1922,
       "fit": 24,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-20T14:22:38.169Z"
+        "at": "2026-10-20T18:44:04.671Z"
       }
     },
     "bundles": {
@@ -53,76 +53,57 @@
       }
     },
     "practical": {
-      "runs": 27,
-      "posts": 1280,
-      "fit": 25,
+      "runs": 31,
+      "posts": 1480,
+      "fit": 28,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-20T14:22:38.169Z"
+        "at": "2026-10-20T18:44:04.671Z"
       }
     },
     "genres": {
-      "runs": 33,
-      "posts": 1320,
+      "runs": 43,
+      "posts": 1720,
       "fit": 5,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-20T14:22:38.169Z"
+        "at": "2026-10-20T18:44:04.671Z"
       }
     },
     "seasonal": {
-      "runs": 26,
-      "posts": 990,
+      "runs": 29,
+      "posts": 1105,
       "fit": 1,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-20T14:22:38.169Z"
+        "at": "2026-10-20T18:44:04.671Z"
       }
     },
     "broadPlaying": {
-      "runs": 36,
-      "posts": 4240,
-      "fit": 95,
+      "runs": 49,
+      "posts": 6120,
+      "fit": 114,
       "last": {
         "posts": 240,
-        "fit": 7,
-        "at": "2026-10-20T14:22:38.169Z"
+        "fit": 2,
+        "at": "2026-10-20T18:44:04.671Z"
       }
     },
     "broadAsk": {
-      "runs": 31,
-      "posts": 489,
+      "runs": 39,
+      "posts": 612,
       "fit": 0,
       "last": {
         "posts": 16,
         "fit": 0,
-        "at": "2026-10-20T14:22:38.169Z"
+        "at": "2026-10-20T18:44:04.671Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@0xKesh@hachyderm.io/117472969992557594": {
-      "uri": "https://mastodon.social/@0xKesh@hachyderm.io/117472969992557594",
-      "url": "https://mastodon.social/@0xKesh@hachyderm.io/117472969992557594",
-      "handle": "0xKesh@hachyderm.io",
-      "name": "Keshara",
-      "text": "One of my last screenshots from the WoW Forever beta. Running through Ashenvale in cat form with the new lighting is a vibe I cannot wait to return to upon launch! I do have some thoughts about the game, I might post those later with my final screenshot I took. All in all though, so pumped for WoW Forever launch!! #gaming #pcgaming #mmo #mmorpg #wow #wowforever #worldofwarcraft #linuxgaming #GamingOnLinux",
-      "createdAt": "2026-10-20T11:21:08.000Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "practical",
-      "query": "linuxgaming",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://hachyderm.io/@0xKesh/117472969902796419",
-      "media": "image: An in game screenshot from World of Warcraft Forever beta. The screenshot is of a Druid player character in cat form along a path in Ashenvale at night. God ra…",
-      "firstSeen": "2026-10-20T14:22:38.169Z"
-    },
     "https://mastodon.social/@wizardneedsfood@retro.pizza/117472930305568573": {
       "uri": "https://mastodon.social/@wizardneedsfood@retro.pizza/117472930305568573",
       "url": "https://mastodon.social/@wizardneedsfood@retro.pizza/117472930305568573",
@@ -134,31 +115,12 @@
       "replies": 0,
       "group": "broadPlaying",
       "query": "videogames",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
       "origin": "https://retro.pizza/@wizardneedsfood/117472930185181306",
       "media": null,
-      "firstSeen": "2026-10-20T14:22:38.169Z"
-    },
-    "https://mastodon.social/@jordan@mastodon.subj.am/117470584972106583": {
-      "uri": "https://mastodon.social/@jordan@mastodon.subj.am/117470584972106583",
-      "url": "https://mastodon.social/@jordan@mastodon.subj.am/117470584972106583",
-      "handle": "jordan@mastodon.subj.am",
-      "name": "Jordan (Temporarily Spooky)",
-      "text": "Time to unwind with a little detective work! Still looking for a good deal on an SVGA CRT monitor... don't judge ;) #carmensandiego #dos #pentium #pc #retrocomputing #retrogaming #Videogames",
-      "createdAt": "2026-10-20T01:14:31.000Z",
-      "likes": 10,
-      "replies": 1,
-      "group": "broadPlaying",
-      "query": "videogames",
-      "score": 8,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://mastodon.subj.am/@jordan/117470584574208813",
-      "media": "image, no description",
       "firstSeen": "2026-10-20T14:22:38.169Z"
     },
     "https://mastodon.social/@BlowUpRadio@gardenstate.social/117470428765894609": {
@@ -344,6 +306,246 @@
       "origin": "https://mylittlefedi.capella-ember.uk/@greylinux/01a15515-e561-7a24-b45c-7e586938381c",
       "media": null,
       "firstSeen": "2026-10-20T14:22:38.169Z"
+    },
+    "https://mastodon.social/@pitcrewgg/117474353801348511": {
+      "uri": "https://mastodon.social/@pitcrewgg/117474353801348511",
+      "url": "https://mastodon.social/@pitcrewgg/117474353801348511",
+      "handle": "pitcrewgg@mastodon.social",
+      "name": "PitCrew",
+      "text": "🔄 American Truck Simulator - Road Trip Update: Tourist Boards American Truck Simulator 1.62 expands Atlas with new Tourist Boards and a Route 66 Cross-Border Board with rewards, while Ford Road Trip DLC is out and RAM Dodge DLC is incoming. 1/2 #AmericanTruckSimulator #ATS #BestCommunityEver #Linux #LinuxGaming #PCGaming #FreeTrack #HeadTracking #TruckSim #MetaQuest #OpenXR #PICO #Pimax #SteamFrame #SteamVR #VirtualReality #VR",
+      "createdAt": "2026-10-20T17:13:04.914Z",
+      "likes": 2,
+      "replies": 2,
+      "group": "practical",
+      "query": "linuxgaming",
+      "score": 7,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image, no description",
+      "firstSeen": "2026-10-20T18:44:04.671Z"
+    },
+    "https://mastodon.social/@pitcrewgg/117473697181225194": {
+      "uri": "https://mastodon.social/@pitcrewgg/117473697181225194",
+      "url": "https://mastodon.social/@pitcrewgg/117473697181225194",
+      "handle": "pitcrewgg@mastodon.social",
+      "name": "PitCrew",
+      "text": "🔄 BeamNG - Version 0.40 Version 0.40 adds local split screen for up to 64 players, a new Cherrier Percheron, occupants, upscaling tech, VR, Windows on Arm and UI plus performance upgrades. 1/2 #BeamNG #CarSim #Linux #LinuxGaming #PCGaming #FreeTrack #HeadTracking #MetaQuest #OpenXR #PICO #Pimax #SteamFrame #SteamVR #VirtualReality #VR",
+      "createdAt": "2026-10-20T14:26:05.683Z",
+      "likes": 1,
+      "replies": 1,
+      "group": "practical",
+      "query": "linuxgaming",
+      "score": 7,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image, no description",
+      "firstSeen": "2026-10-20T18:44:04.671Z"
+    },
+    "https://mastodon.social/@Dontics/117473839773535178": {
+      "uri": "https://mastodon.social/@Dontics/117473839773535178",
+      "url": "https://mastodon.social/@Dontics/117473839773535178",
+      "handle": "Dontics@mastodon.social",
+      "name": "Hyperdontia",
+      "text": "Very smart & cool guy who thinks overthrowing the new top God who very recently had vastly improved the universe would be \"a good thing, actually\". #art #oc #sd #solitudediffusion #gog #spacedevilknight #fat #oldman #chub #humanoid #villain",
+      "createdAt": "2026-10-20T15:02:21.470Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "practical",
+      "query": "gog",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image: Some drawings & details of Gog, a \"space devil knight\" attempting to overthrow Shax, as massively improving the universe for everyone was BAD, ACTUALLY. He see…",
+      "firstSeen": "2026-10-20T18:44:04.671Z"
+    },
+    "https://mastodon.social/@FlashMobOfOne@mstdn.social/117474408121958016": {
+      "uri": "https://mastodon.social/@FlashMobOfOne@mstdn.social/117474408121958016",
+      "url": "https://mastodon.social/@FlashMobOfOne@mstdn.social/117474408121958016",
+      "handle": "FlashMobOfOne@mstdn.social",
+      "name": "Flash Mob Of One",
+      "text": "It's so interesting being a PC gamer when GTA6 is about to drop. I feel like I've heard nothing about it but I know objectively it's the most anticipated game of the year. But I'm also one of the few who doesn't care for GTA at all on the planet. #GTA6 #Gaming #VideoGames",
+      "createdAt": "2026-10-20T17:26:52.000Z",
+      "likes": 1,
+      "replies": 1,
+      "group": "broadPlaying",
+      "query": "videogames",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://mstdn.social/@FlashMobOfOne/117474408070568078",
+      "media": null,
+      "firstSeen": "2026-10-20T18:44:04.671Z"
+    },
+    "https://mastodon.social/@TalesoftheRaven/117474319952248285": {
+      "uri": "https://mastodon.social/@TalesoftheRaven/117474319952248285",
+      "url": "https://mastodon.social/@TalesoftheRaven/117474319952248285",
+      "handle": "TalesoftheRaven@mastodon.social",
+      "name": "Reed Faster",
+      "text": "It has been an absolute busy wreck of a month, but your Drag Cryptid is still hanging in there. Next week, I will be back with a review of the game Well Dweller, where you play as a tiny bird trying to rescue his family. #videogames",
+      "createdAt": "2026-10-20T17:04:28.415Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "videogames",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image, no description",
+      "firstSeen": "2026-10-20T18:44:04.671Z"
+    },
+    "https://mastodon.social/@coa100/117474178775361334": {
+      "uri": "https://mastodon.social/@coa100/117474178775361334",
+      "url": "https://mastodon.social/@coa100/117474178775361334",
+      "handle": "coa100@mastodon.social",
+      "name": "Coa art",
+      "text": "Check out Evorin MMO it has simple satifying 3D battle system! #gaming #mmo #videogames #retro",
+      "createdAt": "2026-10-20T16:28:34.225Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "videogames",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image, no description",
+      "firstSeen": "2026-10-20T18:44:04.671Z"
+    },
+    "https://mastodon.social/@alexanderniki@techhub.social/117474069941395288": {
+      "uri": "https://mastodon.social/@alexanderniki@techhub.social/117474069941395288",
+      "url": "https://mastodon.social/@alexanderniki@techhub.social/117474069941395288",
+      "handle": "alexanderniki@techhub.social",
+      "name": "alexanderniki",
+      "text": "Epic Games. I wonder what's on their minds that they are like \"Let's make custom window decorations! Everybody loves custom window decorations, especially, Linux users!\" If you make some stuff for Linux, pleeease leave things as is by default. -- #game #games #epic #epicgames #linux #app #design #ux",
+      "createdAt": "2026-10-20T16:00:50.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "games",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://techhub.social/@alexanderniki/117474069751252261",
+      "media": "image, no description",
+      "firstSeen": "2026-10-20T18:44:04.671Z"
+    },
+    "https://mastodon.social/@alexanderniki@techhub.social/117474035557147405": {
+      "uri": "https://mastodon.social/@alexanderniki@techhub.social/117474035557147405",
+      "url": "https://mastodon.social/@alexanderniki@techhub.social/117474035557147405",
+      "handle": "alexanderniki@techhub.social",
+      "name": "alexanderniki",
+      "text": "Sometimes I play games and occasionally share random screenshots from whatever I'm playing. Cloudpunk -- #pc #steam #game #games #shareyourgames #play #screenshot #cloudpunk #cyberpunk #night #nightcity #digital #digitalart #photomode",
+      "createdAt": "2026-10-20T15:52:04.000Z",
+      "likes": 2,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "games",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": true,
+      "origin": "https://techhub.social/@alexanderniki/117474035273711252",
+      "media": "image, no description",
+      "firstSeen": "2026-10-20T18:44:04.671Z"
+    },
+    "https://mastodon.social/@BossRushNetwork/117473846039083495": {
+      "uri": "https://mastodon.social/@BossRushNetwork/117473846039083495",
+      "url": "https://mastodon.social/@BossRushNetwork/117473846039083495",
+      "handle": "BossRushNetwork@mastodon.social",
+      "name": "The Boss Rush Network",
+      "text": "The classic turn-based JRPG experience is making a glorious comeback with a modern twist! In this clip from the Boss Rush Gamescast, Patrick Klein shares his first impressions of the new Final Fantasy Resonance demo. From breathtaking HD-2D cutscenes to fast-paced, nostalgic combat, this chapter preview shows why Square Enix's latest release is capturing the magic of old-school Final Fantasy. #FinalFantasy #FinalFantasyResonance #NintendoSwitch #JRPG #GamingCommunity",
+      "createdAt": "2026-10-20T15:03:57.072Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "jrpg",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "video, no description",
+      "firstSeen": "2026-10-20T18:44:04.671Z"
+    },
+    "https://mastodon.social/@ravanon@mastodon.scot/117474673289027042": {
+      "uri": "https://mastodon.social/@ravanon@mastodon.scot/117474673289027042",
+      "url": "https://mastodon.social/@ravanon@mastodon.scot/117474673289027042",
+      "handle": "ravanon@mastodon.scot",
+      "name": "Ravanon",
+      "text": "Day 20 of #Arttrober is Tifa Lockhart of Final Fantasy VII. I liked FF7 back when I originally played it along with many of the other Final Fantasies, but haven't been enticed back by FF7 Remake or Rebirth as of yet. I've seen a little of both in play, but I think I'd spend a bit too much time comparing notes between versions rather than enjoying the newer games for what they are. #Drawtober #Inktober #Arttrober2026 #MastoArt #FediArt #Gaming #FinalFantasy #FinalFantasy7 #TifaLockhart",
+      "createdAt": "2026-10-20T18:34:16.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "gaming",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": true,
+      "origin": "https://mastodon.scot/@ravanon/117474673097914033",
+      "media": "image: A drawing of Tifa Lockhart, a character in the videogame Final Fantasy 7. Tifa is a woman with brown eyes and long dark hair tied at the end. She's wearing a c…",
+      "firstSeen": "2026-10-20T18:44:04.671Z"
+    },
+    "https://mastodon.social/@NicksWorld@mastodon.stickbear.me/117474544991629733": {
+      "uri": "https://mastodon.social/@NicksWorld@mastodon.stickbear.me/117474544991629733",
+      "url": "https://mastodon.social/@NicksWorld@mastodon.stickbear.me/117474544991629733",
+      "handle": "NicksWorld@mastodon.stickbear.me",
+      "name": "Nicks World",
+      "text": "According to Electronic art's Twitter, the game fight night is coming back with a new instalment. #Gaming",
+      "createdAt": "2026-10-20T18:01:39.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "gaming",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://mastodon.stickbear.me/@NicksWorld/117474544823671959",
+      "media": null,
+      "firstSeen": "2026-10-20T18:44:04.671Z"
+    },
+    "https://mastodon.social/@Lanceroy/117474425751849498": {
+      "uri": "https://mastodon.social/@Lanceroy/117474425751849498",
+      "url": "https://mastodon.social/@Lanceroy/117474425751849498",
+      "handle": "Lanceroy@mastodon.social",
+      "name": "Lanceroy",
+      "text": "Hard Games Make Every Rerun Better (Difficulty creates replay value by making improvement visible) #retrogaming #gaming #nostalgia #retroreloaded",
+      "createdAt": "2026-10-20T17:31:22.791Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "gaming",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "video, no description",
+      "firstSeen": "2026-10-20T18:44:04.671Z"
+    },
+    "https://mastodon.social/@weebdeluxe@urusai.social/117474284782365770": {
+      "uri": "https://mastodon.social/@weebdeluxe@urusai.social/117474284782365770",
+      "url": "https://mastodon.social/@weebdeluxe@urusai.social/117474284782365770",
+      "handle": "weebdeluxe@urusai.social",
+      "name": "Weebdeluxe",
+      "text": "Every few years or so I think to myself: Yeah, let^'s play some Xcom. Only to be reminded how much horseshit that game is. #gaming",
+      "createdAt": "2026-10-20T16:55:28.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "gaming",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://urusai.social/@weebdeluxe/117474284561389222",
+      "media": null,
+      "firstSeen": "2026-10-20T18:44:04.671Z"
     }
   }
 }
