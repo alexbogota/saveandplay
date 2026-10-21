@@ -1,0 +1,23 @@
+{
+  "madeAt": "2026-10-21T18:38:37.226Z",
+  "run": "39654548155",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices-2|2026-10-21|/deals/gog/rebel-galaxy/",
+      "account": "prices-2",
+      "handle": "saveandplay.com",
+      "n": 2,
+      "link": "https://saveandplay.com/deals/gog/rebel-galaxy/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-21",
+      "text": "Rebel Galaxy: -90% at GOG\n$1.99 (was $19.99)\nPrice checked Oct 21. Sale ends Oct 27.\n\nhttps://saveandplay.com/deals/gog/rebel-galaxy/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-21\n\n#PCGaming #GameDeals #VideoGames #Gaming #RebelGalaxy\nAd",
+      "approvedFile": "posts-approved-20261021-144445.json",
+      "approvedAt": "2026-10-21T14:44:45.545Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-21T18:38:39.900Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3myfsb626vl2e",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3myfsb626vl2e",
+      "picture": true
+    }
+  ]
+}
