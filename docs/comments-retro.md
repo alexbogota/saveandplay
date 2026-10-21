@@ -2,7 +2,7 @@
 
 Applies ONLY to https://bsky.app/profile/retrogamedeals.bsky.social (retro and classic PC game deals). Written 16 Oct 2026 (task 3 of docs/tasks-cozy-retro-claudecode.md).
 Phrases: "комментарии saveandplay" = ALL accounts at once, Retro is one block of that run (process in docs/comments-saveandplay.md, section "All accounts in one run"); "комментарии retro" = this account only (process below).
-Replies of this account are SENT BY THE PROGRAM after the owner's «ок» (since 20 Oct 2026, same way and same checks as the main account: docs/comments-saveandplay.md, "Sending through the program"): the app password of this account is the GitHub secret BSKY_APP_PASSWORD_RETRO, at most 10 replies a day. Claude drafts, saves the drafts with `node scripts/comments-drafts.mjs new --account retro --stamp STAMP --in FILE`, shows them exactly as printed, and never posts anything itself. If `new` prints SENT BY HAND, the program does not send for this account yet: the owner sends by hand as before.
+Replies of this account are SENT BY THE PROGRAM after the owner's «ок» (since 20 Oct 2026, same way and same checks as the main account: docs/comments-saveandplay.md, "Sending through the program"): the app password of this account is the GitHub secret BSKY_APP_PASSWORD_RETRO, at most 30 replies a day. Claude drafts, saves the drafts with `node scripts/comments-drafts.mjs new --account retro --stamp STAMP --in FILE`, shows them exactly as printed, and never posts anything itself. If `new` prints SENT BY HAND, the program does not send for this account yet: the owner sends by hand as before.
 
 ## Where the posts come from
 A PROGRAM finds them, as for the main account (docs/comments-finder.md): the "Comment candidates" workflow on GitHub, every 6 hours, block `retro` of `data/comments-accounts.json`, list `comments-retro.md/json` on the branch `comments`. It searches under the login of the main account (read only, no extra password) and reads the account's own replies from its public feed. Do NOT search Bluesky yourself.
@@ -37,7 +37,7 @@ These show the tone and the length only. Every game fact in a real reply must be
 - (only a console memory, no PC angle) -> "That intro music is stuck in my head now." or skip.
 
 ## Limits
-Start modest: 5-10 replies a day for this account (the program never sends more than 10 in 24 hours), spread over the day; raise it after two weeks if the account gets likes and follows. Every reply is written for that one post, never a template. Nothing is published without the owner's "ok".
+Start modest: 5-10 replies a day for this account (the program never sends more than 30 in 24 hours), spread over the day; raise it after two weeks if the account gets likes and follows. Every reply is written for that one post, never a template. Nothing is published without the owner's "ok".
 
 ## Reply format to the owner (Russian, short)
 What was done, what's next, what is needed from him.

@@ -22,12 +22,12 @@ test('settings: Bluesky accounts send with their own password; Mastodon inherits
   const by = Object.fromEntries(commentAccounts().map(({ id, account }) => [id, sendSettings(account)]));
   assert.equal(by.prices.enabled, true);
   assert.equal(by['prices-wide'].enabled, true, 'the wide mode is the same account');
-  assert.equal(by['prices-wide'].dailyLimit, 35, 'the wide mode allows more replies a day');
-  assert.equal(by.prices.dailyLimit, 25);
+  assert.equal(by['prices-wide'].dailyLimit, 30, 'the wide mode has the same ceiling of 30 a day');
+  assert.equal(by.prices.dailyLimit, 30);
   for (const [id, env] of [['cozy', 'BSKY_APP_PASSWORD_COZY'], ['retro', 'BSKY_APP_PASSWORD_RETRO'], ['cozy-wide', 'BSKY_APP_PASSWORD_COZY'], ['retro-wide', 'BSKY_APP_PASSWORD_RETRO']]) {
     assert.equal(by[id].enabled, true, `${id} sends`);
     assert.equal(by[id].passwordEnv, env, `${id} uses the app password of its own account, never the main one`);
-    assert.equal(by[id].dailyLimit, 10, `${id}: a new quiet account sends at most 10 a day`);
+    assert.equal(by[id].dailyLimit, 30, `${id}: the ceiling is 30 a day`);
     assert.equal(by[id].allowLinks, false, `${id} keeps the text rules of the main account`);
     assert.ok(by[id].blockNames.includes('gg.deals'), `${id} keeps the list of names that are never written`);
   }
@@ -198,7 +198,7 @@ test('drafts: checked, numbered and saved BEFORE they are shown; the list shows 
   for (const it of d.items) assert.ok(r.out.includes(`   Reply: ${it.text}`), 'the exact text is printed');
   assert.match(r.out, /VERIFY: проверить/);
   assert.match(r.out, /Add drafts\/comments-drafts-prices-20261020-150000\.json to the SAVE command/);
-  assert.match(r.out, /Room now: 25/);
+  assert.match(r.out, /Room now: 30/);
   // saved drafts never change: the same stamp again is refused
   const again = await drafts(root, ['new', '--account', 'prices', '--stamp', '20261020-150000', '--in', join(root, 'in.json')]);
   assert.equal(again.code, 1);
@@ -278,8 +278,8 @@ test('approve: old drafts cannot be approved, and the daily limit is told in adv
   let r = await drafts(root, ['approve', '--account', 'prices', '--ok', 'all']);
   assert.equal(r.code, 1);
   assert.match(r.out, /TOO OLD/);
-  // 24 replies went out in the last 24 h: only one more fits
-  const sent = Array.from({ length: 24 }, (_, i) => ({ block: 'prices', handle: 'saveandplay.com', n: i + 1, uri: `at://did:plc:x/app.bsky.feed.post/old${i}`, author: `p${i}.bsky.social`, text: `old reply ${i}`, status: 'sent', at: new Date(Date.now() - 36e5).toISOString() }));
+  // 29 replies went out in the last 24 h: only one more fits
+  const sent = Array.from({ length: 29 }, (_, i) => ({ block: 'prices', handle: 'saveandplay.com', n: i + 1, uri: `at://did:plc:x/app.bsky.feed.post/old${i}`, author: `p${i}.bsky.social`, text: `old reply ${i}`, status: 'sent', at: new Date(Date.now() - 36e5).toISOString() }));
   put(root, 'comments-sent-20261020-090000.json', { madeAt: new Date().toISOString(), entries: sent });
   assert.equal((await drafts(root, ['new', '--account', 'prices', '--stamp', '20261020-150000', '--in', join(root, 'in.json')])).code, 0);
   r = await drafts(root, ['approve', '--account', 'prices', '--ok', '1,2,4']);
@@ -387,7 +387,7 @@ test('sender: the daily limit, an old approval, a "стоп", a changed rule and
   const root = tempRoot();
   const ps = Array.from({ length: 5 }, () => mkPost());
   const fake = fakeBluesky({ posts: ps });
-  const earlier = Array.from({ length: 24 }, (_, i) => ({ block: 'prices', handle: 'saveandplay.com', n: i + 1, uri: `at://did:plc:x/app.bsky.feed.post/e${i}`, author: `e${i}.bsky.social`, text: `earlier reply number ${i} about something else entirely`, status: 'sent', at: new Date(Date.now() - 2 * 36e5).toISOString() }));
+  const earlier = Array.from({ length: 29 }, (_, i) => ({ block: 'prices', handle: 'saveandplay.com', n: i + 1, uri: `at://did:plc:x/app.bsky.feed.post/e${i}`, author: `e${i}.bsky.social`, text: `earlier reply number ${i} about something else entirely`, status: 'sent', at: new Date(Date.now() - 2 * 36e5).toISOString() }));
   earlier.push({ block: 'prices', handle: 'saveandplay.com', n: 99, uri: 'at://did:plc:x/app.bsky.feed.post/e99', author: 'e99.bsky.social', text: T[0], status: 'sent', at: new Date(Date.now() - 30 * 36e5).toISOString() });
   put(root, 'comments-sent-20261020-080000.json', { madeAt: new Date().toISOString(), entries: earlier });
   approvedFile(root, [item(1, ps[0], T[0].replace('real low', 'good low'))], { stamp: '20261020-090000', agoMin: 30 * 60 });
@@ -401,7 +401,7 @@ test('sender: the daily limit, an old approval, a "стоп", a changed rule and
     assert.equal(by[ps[1].uri], 'sent: sent');
     assert.match(by[ps[2].uri], /^skipped: text: has "use code"/);
     assert.match(by[ps[3].uri], /^skipped: text: too similar to an earlier reply/);
-    assert.equal(by[ps[4].uri], 'waiting: daily limit (25 in 24 h)', '24 earlier ones in 24 h + 1 now = the limit of 25 (the reply of 30 h ago does not count)');
+    assert.equal(by[ps[4].uri], 'waiting: daily limit (30 in 24 h)', '29 earlier ones in 24 h + 1 now = the limit of 30 (the reply of 30 h ago does not count)');
     assert.equal(fake.created.length, 1);
   });
 
@@ -431,8 +431,8 @@ test('sender: replies the owner sent by hand count too (the daily limit, one rep
   const root = tempRoot();
   const ps = [mkPost(), mkPost(), mkPost()];
   const ours = (i, to, ageH) => ({ post: { uri: `at://${ME.did}/app.bsky.feed.post/m${i}`, author: { did: ME.did, handle: ME.handle }, record: { text: `manual ${i}`, createdAt: new Date(Date.now() - ageH * 36e5).toISOString(), reply: { parent: { uri: 'x' }, root: { uri: 'x' } } } }, reply: { parent: { author: { handle: to } } } });
-  // by hand today: one reply to the author of the first post, and 23 others; one more yesterday that does not count
-  const feed = [ours(0, ps[0].author.handle, 3), ...Array.from({ length: 23 }, (_, i) => ours(i + 1, `m${i}.bsky.social`, 5)), ours(99, 'old.bsky.social', 30),
+  // by hand today: one reply to the author of the first post, and 28 others; one more yesterday that does not count
+  const feed = [ours(0, ps[0].author.handle, 3), ...Array.from({ length: 28 }, (_, i) => ours(i + 1, `m${i}.bsky.social`, 5)), ours(99, 'old.bsky.social', 30),
     { post: { uri: 'at://did:plc:me/app.bsky.feed.post/top', author: { did: ME.did }, record: { text: 'our own post', createdAt: new Date().toISOString() } } }];
   approvedFile(root, [item(1, ps[0], T[0]), item(2, ps[1], T[1]), item(3, ps[2], T[2])]);
   const fake = fakeBluesky({ posts: ps, feed });
@@ -442,7 +442,7 @@ test('sender: replies the owner sent by hand count too (the daily limit, one rep
     const es = read(root, files(root, 'comments-sent-')[0]).entries;
     assert.deepEqual(es.map((e) => e.status), ['skipped', 'sent', 'waiting'], r.out);
     assert.match(es[0].reason, /we replied to @author\d+\.bsky\.social less than 24 h ago/);
-    assert.equal(es[2].reason, 'daily limit (25 in 24 h)', '24 by hand + 1 now = 25');
+    assert.equal(es[2].reason, 'daily limit (30 in 24 h)', '29 by hand + 1 now = 30');
   });
 });
 
@@ -579,7 +579,7 @@ test('stats: likes and replies of our replies; reposts, own posts, old and fresh
     // the chat sees it
     const s = await drafts(root, ['status']);
     assert.equal(s.code, 0, s.out);
-    assert.match(s.out, /SENDING @saveandplay\.com \(prices: limit 25 in 24 h, prices-wide: limit 35 in 24 h\)/);
+    assert.match(s.out, /SENDING @saveandplay\.com \(prices: limit 30 in 24 h, prices-wide: limit 30 in 24 h\)/);
     assert.match(s.out, /QUALITY .*: 3 replies, 2 with a like \(67%\), 1 got a reply from a person/);
     assert.match(s.out, /likes 3, replies 1: "A reply that worked very well" \(to @to1\.bsky\.social\)/);
     assert.match(s.out, /Last run .*: 1 sent/);

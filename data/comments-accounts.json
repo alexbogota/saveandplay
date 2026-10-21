@@ -415,8 +415,8 @@
         "enabled": true,
         "handle": "saveandplay.com",
         "passwordEnv": "BSKY_APP_PASSWORD",
-        "dailyLimit": 25,
-        "maxPerRun": 25,
+        "dailyLimit": 30,
+        "maxPerRun": 30,
         "gapSeconds": [60, 180],
         "gapSecondsPrivate": [15, 30],
         "maxPostAgeHours": 48,
@@ -488,7 +488,7 @@
       "queriesPerRun": 18,
       "queriesPerGroup": 6,
       "send+": {
-        "dailyLimit": 35
+        "dailyLimit": 30
       },
       "groups+": {
         "justBought": {
@@ -842,12 +842,12 @@
       ],
       "handle": "cozygame.bsky.social",
       "send+": {
-        "note": "Отправка ответов Cozy (решение владельца 20 октября 2026): те же правила и проверки, что у основного аккаунта (send этого блока дополняет send блока prices). Свой пароль приложения Bluesky в секрете BSKY_APP_PASSWORD_COZY (поиск идёт под основным аккаунтом, отправка под этим). Новый тихий аккаунт: не больше 10 ответов в сутки. Выключить: enabled false.",
+        "note": "Отправка ответов Cozy (решение владельца 20 октября 2026): те же правила и проверки, что у основного аккаунта (send этого блока дополняет send блока prices). Свой пароль приложения Bluesky в секрете BSKY_APP_PASSWORD_COZY (поиск идёт под основным аккаунтом, отправка под этим). Потолок 30 ответов в сутки (решение владельца 20 октября 2026). Выключить: enabled false.",
         "enabled": true,
         "handle": "cozygame.bsky.social",
         "passwordEnv": "BSKY_APP_PASSWORD_COZY",
-        "dailyLimit": 10,
-        "maxPerRun": 10
+        "dailyLimit": 30,
+        "maxPerRun": 30
       },
       "note": "Cozy games (Bluesky @cozygame.bsky.social), 16 октября 2026. Ищет под входом основного аккаунта (loginAs): отдельный пароль не нужен. Консольные посты отсеиваются как у основного (consoleWords), но Stardew Valley и подобное на ПК проходят.",
       "groups": {
@@ -1093,12 +1093,12 @@
       ],
       "handle": "retrogamedeals.bsky.social",
       "send+": {
-        "note": "Отправка ответов Retro (решение владельца 20 октября 2026): те же правила и проверки, что у основного аккаунта (send этого блока дополняет send блока prices). Свой пароль приложения Bluesky в секрете BSKY_APP_PASSWORD_RETRO (поиск идёт под основным аккаунтом, отправка под этим). Новый тихий аккаунт: не больше 10 ответов в сутки. Выключить: enabled false.",
+        "note": "Отправка ответов Retro (решение владельца 20 октября 2026): те же правила и проверки, что у основного аккаунта (send этого блока дополняет send блока prices). Свой пароль приложения Bluesky в секрете BSKY_APP_PASSWORD_RETRO (поиск идёт под основным аккаунтом, отправка под этим). Потолок 30 ответов в сутки (решение владельца 20 октября 2026). Выключить: enabled false.",
         "enabled": true,
         "handle": "retrogamedeals.bsky.social",
         "passwordEnv": "BSKY_APP_PASSWORD_RETRO",
-        "dailyLimit": 10,
-        "maxPerRun": 10
+        "dailyLimit": 30,
+        "maxPerRun": 30
       },
       "note": "Retro games (Bluesky @retrogamedeals.bsky.social), 16 октября 2026. Ищет под входом основного аккаунта (loginAs). Консоли НЕ отсеиваются (consoleWords пустой): в ретро-разговорах много консолей. Отвечаем по правилам основного аккаунта: польза, без рекламы, ссылка только если игра есть у нас (docs/comments-retro.md).",
       "groups": {
