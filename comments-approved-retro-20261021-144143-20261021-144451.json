@@ -1,0 +1,18 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-retro-20261021-144143.json",
+  "approvedAt": "2026-10-21T14:44:51.700Z",
+  "items": [
+    {
+      "n": 2,
+      "uri": "at://did:plc:pnbzlrrss7k35fo4tt7hb3nt/app.bsky.feed.post/3mydyoqapos25",
+      "url": "https://bsky.app/profile/marymajora.bsky.social/post/3mydyoqapos25",
+      "author": "marymajora.bsky.social",
+      "context": "I’m not a Star Wars person but I really want to play Dark Forces again!! This was my first video game I ever played on pc. Maybe a stream of this soon? 👀\nimage, no description",
+      "text": "Dark Forces as a first PC game is a great start. There's a remaster from 2024 that runs on modern PCs, so no DOS fiddling needed.",
+      "edited": false
+    }
+  ]
+}
