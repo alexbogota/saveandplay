@@ -18,13 +18,20 @@ const main = commentAccounts('prices')[0].account;
 const S = sendSettings(main);
 
 // ---- the text rules -----------------------------------------------------------------------------------------------
-test('settings: only the main account sends; Mastodon, Cozy and Retro inherit the settings but never send', () => {
+test('settings: Bluesky accounts send with their own password; Mastodon inherits the settings but never sends', () => {
   const by = Object.fromEntries(commentAccounts().map(({ id, account }) => [id, sendSettings(account)]));
   assert.equal(by.prices.enabled, true);
   assert.equal(by['prices-wide'].enabled, true, 'the wide mode is the same account');
   assert.equal(by['prices-wide'].dailyLimit, 35, 'the wide mode allows more replies a day');
   assert.equal(by.prices.dailyLimit, 25);
-  for (const id of ['mastodon-prices', 'cozy', 'retro', 'cozy-wide', 'retro-wide', 'mastodon-prices-wide']) {
+  for (const [id, env] of [['cozy', 'BSKY_APP_PASSWORD_COZY'], ['retro', 'BSKY_APP_PASSWORD_RETRO'], ['cozy-wide', 'BSKY_APP_PASSWORD_COZY'], ['retro-wide', 'BSKY_APP_PASSWORD_RETRO']]) {
+    assert.equal(by[id].enabled, true, `${id} sends`);
+    assert.equal(by[id].passwordEnv, env, `${id} uses the app password of its own account, never the main one`);
+    assert.equal(by[id].dailyLimit, 10, `${id}: a new quiet account sends at most 10 a day`);
+    assert.equal(by[id].allowLinks, false, `${id} keeps the text rules of the main account`);
+    assert.ok(by[id].blockNames.includes('gg.deals'), `${id} keeps the list of names that are never written`);
+  }
+  for (const id of ['mastodon-prices', 'mastodon-prices-wide']) {
     assert.equal(by[id].enabled, false, `${id} does not send`);
     assert.equal(by[id].inherited, true, `${id} only inherited the settings`);
   }
@@ -224,9 +231,9 @@ test('drafts: one reply per person, and an account without its own sending is se
   const r = await drafts(root, ['new', '--account', 'prices', '--stamp', '20261020-150002', '--in', join(root, 'two.json')]);
   assert.equal(r.code, 1);
   assert.match(r.out, /2: a second draft for @author\d+\.bsky\.social in this batch/);
-  const cozy = await drafts(root, ['new', '--account', 'cozy', '--stamp', '20261020-150003', '--in', join(root, 'two.json')]);
-  assert.equal(cozy.code, 4);
-  assert.match(cozy.out, /SENT BY HAND/);
+  const mastodon = await drafts(root, ['new', '--account', 'mastodon-prices', '--stamp', '20261020-150003', '--in', join(root, 'two.json')]);
+  assert.equal(mastodon.code, 4);
+  assert.match(mastodon.out, /SENT BY HAND/);
 });
 
 test('approve: "ок" takes every draft except VERIFY ones; numbers, skips and the owner\'s own texts work', async () => {

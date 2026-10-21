@@ -1,5 +1,5 @@
 // The chat's step for the replies that the program sends (accounts with their own "send" settings in data/comments-accounts.json:
-// the main Bluesky account for now). The other accounts are sent by hand as before.
+// the main Bluesky account, Cozy and Retro). The other accounts (Mastodon) are sent by hand as before.
 //
 //   node scripts/comments-drafts.mjs new --account prices --stamp STAMP --in FILE.json
 //        FILE.json: [{ "post": "<the post link from the list>", "text": "<the reply>", "verify": "<what the owner must check; leave out if nothing>" }, ...]

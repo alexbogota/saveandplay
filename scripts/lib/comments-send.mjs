@@ -26,7 +26,7 @@ export const brief = (s, n) => { const t = String(s ?? '').replace(/\s+/g, ' ').
 // ---- settings ---------------------------------------------------------------------------------------------------
 export const SEND_DEFAULTS = {
   enabled: false,
-  handle: null,                // the account these settings belong to. A block that inherits "send" from another account (Mastodon, Cozy and Retro extend prices) does not send.
+  handle: null,                // the account these settings belong to. A block that inherits "send" from another account without its own handle (Mastodon extends prices) does not send; Cozy and Retro add their own handle and password with "send+".
   passwordEnv: null,           // the secret with the app password of THIS account (never the search login of another account)
   dailyLimit: 20,              // replies in 24 hours (a rolling day), both modes of the account together
   maxPerRun: 25,
