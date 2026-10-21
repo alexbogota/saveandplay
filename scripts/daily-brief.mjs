@@ -82,6 +82,17 @@ export function takenToday({ state, accounts, deals, id, today }) {
   return taken;
 }
 
+// What counts as already offered to this account: the manual drafts (log), its own picks of earlier days (mem) and, with
+// "avoidRepeatsOf": ["prices"], the picks of those accounts on earlier days too (the second deal of the day of the main account must not
+// repeat what the main account posted yesterday). The newest day wins.
+export function offeredFor({ log = {}, mem = {}, state = { top: {} }, account, today }) {
+  const offered = { ...log, ...Object.fromEntries(Object.entries(mem).filter(([, day]) => day !== today)) };
+  for (const other of account.avoidRepeatsOf ?? []) {
+    for (const [k, day] of Object.entries(state.top?.[other] ?? {})) if (day !== today && (!offered[k] || day > offered[k])) offered[k] = day;
+  }
+  return offered;
+}
+
 // "cadence": { everyDays, startDay } = the account posts only on startDay and then every everyDays days (UTC days, like the rest of the brief).
 // No cadence = every day. On the other days the account gets no brief and its posts say "NO POST TODAY" with the next day.
 const dayNo = (iso) => Math.floor(Date.parse(`${iso}T00:00:00Z`) / (24 * 3600e3));
@@ -515,7 +526,7 @@ async function main() {
     }
     const mem = (state.top[id] ??= {});
     for (const [k, day] of Object.entries(mem)) if (day === today) delete mem[k]; // a second run on the same day replaces today's pick
-    const offered = { ...log, ...Object.fromEntries(Object.entries(mem).filter(([, day]) => day !== today)) }; // earlier briefs' top picks and manual drafts
+    const offered = offeredFor({ log, mem, state, account, today });
     const taken = takenToday({ state, accounts: byId, deals, id, today });
     const { md, json, top, itemRecords } = buildBrief({ account, links: cfg.links, deals, history, offered, feeds, sources, now, facts, taken });
     if (top?.kind === 'deal') mem[top.id] = today;

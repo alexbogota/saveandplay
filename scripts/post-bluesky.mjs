@@ -21,13 +21,17 @@ import { createPoster, stampOf, uniqueName, brief } from './lib/comments-send.mj
 import {
   publishAccounts, publishProblems, readBriefPost, parseBriefPost, postProblems, shortenForPost, facetsOf, loadCard, gapMs, dayKey, itemKey,
   loadApproved, loadCancels, loadSent, pendingPosts, FINAL, isCancelled, sleep, lc,
+  readSchedule, scheduleProblems, scheduleItems, isDue, parseArticlePost, articleProblems, articleKey, waitingArticles,
 } from './lib/bsky-posts.mjs';
+import { parsePosts, splitArticle } from './article-tools.mjs';
 
 const args = process.argv.slice(2);
 const cmd = args[0];
 const arg = (name) => { const i = args.indexOf(name); return i >= 0 ? args[i + 1] ?? null : null; };
 const dryRun = args.includes('--dry-run') || process.env.DRY_RUN === 'true';
 const only = arg('--account');
+const articleAccount = 'prices'; // the account whose Bluesky profile posts about the guides
+const noArticle = args.includes('--no-article');
 const now = Date.now();
 const done = (text, code = 0) => { console.log(text); process.exit(code); };
 
@@ -45,7 +49,7 @@ function numbers(s) {
 }
 
 // ---- the posts of today, numbered (the chat: show and approve) -------------------------------------------------------------------
-function todaysPosts() {
+async function todaysPosts() {
   const deals = readDeals();
   const sent = loadSent();
   const pending = pendingPosts({ approved: loadApproved(), sent, cancels: loadCancels() }).filter((p) => !p.cancelled);
@@ -67,14 +71,33 @@ function todaysPosts() {
     else if (key && pending.some((p) => p.key === key)) problems.push('already approved and waiting for the sender');
     list.push({ acc, post, key, problems, n: ++n });
   }
+  // The post about a guide: the oldest draft of the daily writer that is not on the site yet (or the one named with --article <slug>).
+  const main = publishAccounts(articleAccount).find((a) => a.settings.enabled);
+  if (main && !noArticle) {
+    const { list: drafts, note } = await waitingArticles({ parsePosts, splitArticle });
+    const wanted = arg('--article');
+    const draft = wanted ? drafts.find((d) => d.slug === wanted) : drafts.find((d) => !d.onSite);
+    if (wanted && !draft) done(`PROBLEM: no draft of the guide "${wanted}" on the "articles" branch.`, 1);
+    if (!draft) list.push({ acc: main, kind: 'article', noPost: note ?? 'no guide is waiting: the daily writer has no draft that is not on the site yet', n: ++n });
+    else {
+      const post = parseArticlePost(draft.text);
+      const problems = post.noPost ? [post.noPost] : articleProblems(post, { acc: main });
+      if (post.slug && post.slug !== draft.slug) problems.push(`the link goes to the guide "${post.slug}", not to "${draft.slug}"`);
+      const key = post.path ? articleKey(main.id, post.path) : null;
+      const was = key ? sent.find((e) => e.key === key && FINAL.has(e.status)) : null;
+      if (was) problems.push(was.status === 'sent' ? `already posted (${was.postUrl ?? 'see the sent report'})` : `already handled by the sender: ${was.reason}`);
+      else if (key && pending.some((p) => p.key === key)) problems.push('already approved and waiting for the sender');
+      list.push({ acc: main, kind: 'article', post, key, problems, title: draft.title, onSite: draft.onSite, n: ++n });
+    }
+  }
   return list;
 }
 
-function cmdShow() {
-  const list = todaysPosts();
+async function cmdShow() {
+  const list = await todaysPosts();
   if (!list.length) done('NO ACCOUNT is posted by the program yet (publish.enabled in data/accounts.json, channel bluesky).');
   for (const it of list) {
-    console.log(`\n## ${it.n}. ${it.acc.id} (@${it.acc.handle})`);
+    console.log(`\n## ${it.n}. ${it.kind === 'article' ? `GUIDE POST${it.title ? `: ${it.title}` : ''}${it.onSite === false ? ' (the guide is not on the site yet: publish it first or right after the approval)' : ''} of ` : ''}${it.acc.id} (@${it.acc.handle})`);
     if (it.noPost) { console.log(`   NO POST TODAY: ${it.noPost}`); continue; }
     console.log(it.post.text.split('\n').map((l) => `   | ${l}`).join('\n'));
     console.log(`   link: ${it.post.link}`);
@@ -83,28 +106,35 @@ function cmdShow() {
   console.log('\nShow the owner these posts EXACTLY as printed (the program posts only these texts). Approve: node scripts/post-bluesky.mjs approve --ok all');
 }
 
-function cmdApprove() {
-  const list = todaysPosts();
+async function cmdApprove() {
+  const list = await todaysPosts();
   const ok = arg('--ok');
-  if (!ok) done('Usage: node scripts/post-bluesky.mjs approve --ok all|1,3 [--skip 2]', 1);
+  if (!ok) done('Usage: node scripts/post-bluesky.mjs approve --ok all|1,3 [--skip 2] [--now]', 1);
   const chosen = ok === 'all' ? new Set(list.map((l) => l.n)) : new Set(numbers(ok));
   for (const n of numbers(arg('--skip') ?? '')) chosen.delete(n);
   const items = [];
   const refused = [];
   for (const it of list) {
     if (!chosen.has(it.n)) continue;
-    if (it.noPost || it.problems.length) { refused.push(`${it.n}. ${it.acc.id}: ${it.noPost ?? it.problems.join('; ')}`); continue; }
-    items.push({ n: it.n, account: it.acc.id, handle: it.acc.handle, text: it.post.text, link: it.post.link, day: it.post.day, key: it.key });
+    if (it.noPost || it.problems.length) { refused.push(`${it.n}. ${it.kind === 'article' ? 'guide post' : it.acc.id}: ${it.noPost ?? it.problems.join('; ')}`); continue; }
+    items.push({ n: it.n, kind: it.kind ?? 'deal', account: it.acc.id, handle: it.acc.handle, text: it.post.text, link: it.post.link, day: it.post.day ?? null, key: it.key });
   }
   for (const n of chosen) if (!list.some((l) => l.n === n)) refused.push(`${n}: no such post`);
   if (!items.length) done(`NOTHING APPROVED.${refused.length ? `\nNot approved: ${refused.join(' | ')}` : ''}`, 1);
+  const schedule = readSchedule();
+  const bad = scheduleProblems(schedule);
+  if (bad.length) done(`PROBLEM: data/post-schedule.json: ${bad.join('; ')}.`, 1);
+  const timed = scheduleItems(items, { now, schedule, immediate: args.includes('--now') });
   mkdirSync(file('drafts'), { recursive: true });
   const name = uniqueName(`posts-approved-${stampOf(now)}`);
-  writeFileSync(file('drafts', name), JSON.stringify({ approvedAt: new Date(now).toISOString(), items }, null, 2));
-  console.log(`APPROVED ${items.length}: ${items.map((i) => `${i.n} (${i.account})`).join(', ')}. Saved as drafts/${name}.`);
+  writeFileSync(file('drafts', name), JSON.stringify({ approvedAt: new Date(now).toISOString(), items: timed }, null, 2));
+  console.log(`APPROVED ${timed.length}: ${timed.map((i) => `${i.n} (${i.kind === 'article' ? 'guide' : i.account})`).join(', ')}. Saved as drafts/${name}.`);
+  const clock = (iso) => new Intl.DateTimeFormat('ru-RU', { timeZone: 'America/Bogota', hour: '2-digit', minute: '2-digit' }).format(new Date(iso));
+  console.log('Hours (Bogota time; the sender looks every hour, so a post goes out within about an hour after its time):');
+  for (const i of timed) console.log(`  ${i.n}. ${i.kind === 'article' ? 'guide post' : i.account} (@${i.handle}): ${Date.parse(i.notBefore) <= now + 60000 ? 'now' : `from ${clock(i.notBefore)}`}`);
   if (refused.length) console.log(`Not approved: ${refused.join(' | ')}`);
   console.log(`\nNEXT, ONE command: bash scripts/comments-branch.sh save drafts/${name} && gh workflow run "Post to Bluesky" -R alexbogota/saveandplay --ref main`);
-  console.log('Then tell the owner (in Russian, short): how many posts go, that the result (with links) is in the Summary of the run (Actions, Post to Bluesky), and that he can say "стоп".');
+  console.log('Then tell the owner (in Russian, short): which post goes at what hour (Bogota), that the result (with links) is in the Summary of the runs (Actions, Post to Bluesky), and that he can say "стоп". If a guide post is approved and the guide is not on the site yet, publish the guide now (/publish, "ок, статья дня"): its post waits until the page opens.');
 }
 
 function cmdCancel() {
@@ -124,9 +154,10 @@ function cmdCancel() {
 // ---- the sender -------------------------------------------------------------------------------------------------------------------
 const isPrivate = process.env.REPO_PRIVATE !== 'false';
 const stamp = stampOf(now);
-const sentName = `posts-sent-${stamp}.json`;
+const sentName = uniqueName(`posts-sent-${stamp}`); // a run in the same second as another one never replaces its report
 const entries = [];
 const summary = [];
+const later = []; // approved posts whose hour has not come yet
 const RU = {
   'cancelled by the owner': 'остановлен вашим «стоп»',
   'the sender is off for this account': 'для этого аккаунта публикация выключена',
@@ -195,8 +226,8 @@ async function sendFor(handle, items, sent) {
     const t = Date.now();
     if (it.cancelled) { mark(it, 'skipped', 'cancelled by the owner'); continue; }
     if (t - Date.parse(it.approvedAt) > s.maxApprovalAgeHours * 36e5) { mark(it, 'skipped', `approval older than ${s.maxApprovalAgeHours} h`); continue; }
-    const post = parseBriefPost(it.text);
-    const problems = postProblems(post, { acc, deals, now: t });
+    const post = it.kind === 'article' ? parseArticlePost(it.text) : parseBriefPost(it.text);
+    const problems = it.kind === 'article' ? articleProblems(post, { acc }) : postProblems(post, { acc, deals, now: t });
     if (problems.length) { mark(it, 'skipped', `text: ${problems.join('; ')}`); continue; }
     const path = post.path;
     const early = [...sent, ...entries].find((e) => e.status === 'sent' && lc(e.handle) === lc(handle) && e.key !== it.key && String(e.link ?? '').includes(path) && t - Date.parse(e.at) < s.duplicateHours * 36e5);
@@ -230,7 +261,7 @@ async function sendFor(handle, items, sent) {
 
 function writeSummary() {
   const out = [`## Публикация постов в Bluesky${dryRun ? ' (проверка, ничего не опубликовано)' : ''}`, ''];
-  if (!entries.length && !summary.length) out.push('Ничего не ждёт публикации: одобренных и ещё не опубликованных постов нет.');
+  if (!entries.length && !summary.length) out.push(later.length ? 'Сейчас публиковать нечего: у одобренных постов ещё не пришёл час.' : 'Ничего не ждёт публикации: одобренных и ещё не опубликованных постов нет.');
   for (const h of [...new Set(entries.map((e) => e.handle))]) {
     const es = entries.filter((e) => e.handle === h);
     const n = (st) => es.filter((e) => e.status === st).length;
@@ -242,6 +273,12 @@ function writeSummary() {
     }
     out.push('');
   }
+  if (later.length) {
+    const clock = (iso) => new Intl.DateTimeFormat('ru-RU', { timeZone: 'America/Bogota', hour: '2-digit', minute: '2-digit' }).format(new Date(iso));
+    out.push('### Ждут своего часа', '', '| № | Аккаунт | Что | Не раньше (Богота) |', '|---|---|---|---|');
+    for (const it of later) out.push(`| ${it.n} | ${it.account} | ${it.kind === 'article' ? 'пост к статье' : 'скидка'} | ${clock(it.notBefore)} |`);
+    out.push('');
+  }
   out.push(...summary);
   const text = out.join('\n') + '\n';
   if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, text);
@@ -250,9 +287,12 @@ function writeSummary() {
 
 async function cmdSend() {
   const sent = loadSent();
-  let pending = pendingPosts({ approved: loadApproved(), sent, cancels: loadCancels() });
-  if (only) pending = pending.filter((p) => p.account === only);
-  console.log(`Post to Bluesky${dryRun ? ' (DRY RUN: nothing is posted)' : ''}: ${pending.length} approved post(s) waiting.`);
+  let waiting = pendingPosts({ approved: loadApproved(), sent, cancels: loadCancels() });
+  if (only) waiting = waiting.filter((p) => p.account === only);
+  // A post goes only when its hour has come (notBefore); a dry run checks them all.
+  const pending = dryRun ? waiting : waiting.filter((p) => p.cancelled || isDue(p, now));
+  later.push(...waiting.filter((p) => !pending.includes(p)));
+  console.log(`Post to Bluesky${dryRun ? ' (DRY RUN: nothing is posted)' : ''}: ${pending.length} approved post(s) to look at now${later.length ? `, ${later.length} wait for their hour` : ''}.`);
   let code = 0;
   for (const handle of [...new Set(pending.map((p) => lc(p.handle)))]) {
     console.log(`@${handle}:`);
@@ -267,8 +307,8 @@ async function cmdSend() {
   return code;
 }
 
-if (cmd === 'show') cmdShow();
-else if (cmd === 'approve') cmdApprove();
+if (cmd === 'show') await cmdShow();
+else if (cmd === 'approve') await cmdApprove();
 else if (cmd === 'cancel') cmdCancel();
 else if (cmd === 'send') {
   process.exitCode = await cmdSend();

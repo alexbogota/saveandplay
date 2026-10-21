@@ -81,6 +81,55 @@
         "Attach the cover image and put the Alt text from the brief in the picture's alt field (if the brief says no cover, post without a picture). The link card under the post also shows the game from our page."
       ]
     },
+    "prices-2": {
+      "enabled": true,
+      "name": "Honest prices (second deal of the day)",
+      "handle": "@saveandplay.com",
+      "topic": "prices",
+      "subid": "bluesky-prices",
+      "stores": ["GOG", "IndieGala"],
+      "avoidRepeatsOf": ["prices"],
+      "minDiscount": 50,
+      "windowHours": 48,
+      "maxPriceAgeHours": 48,
+      "minHoursLeft": 6,
+      "repeatDays": 7,
+      "maxCandidates": 5,
+      "minHistoryDays": 14,
+      "dealsWithoutNews": true,
+      "gogNews": false,
+      "maxTopics": 0,
+      "channels": {
+        "bluesky": {
+          "enabled": true,
+          "publish": { "enabled": true, "passwordEnv": "BSKY_APP_PASSWORD" },
+          "subid": "bluesky-prices",
+          "utmSource": "bluesky-prices",
+          "maxChars": 300,
+          "linkChars": 25,
+          "dateFormat": "MMM D",
+          "disclosure": "Ad",
+          "baseTags": ["PCGaming", "GameDeals"],
+          "storeTags": { "GOG": "GOG", "IndieGala": "IndieGala" },
+          "nicheTags": { "GOG": "DRMFree", "IndieGala": "IndieGames" },
+          "gameTag": true,
+          "rotatingTags": ["Games", "{niche}", "PCGames", "{store}", "VideoGames", "Gaming", "{game}"],
+          "rotatingCount": 3,
+          "maxTags": 5,
+          "template": [
+            "{title}: -{discount}% at {store}\n{price} (was {was})\nPrice checked {checked}.{ends}{lowest}",
+            "{link}",
+            "{tags}\n{disclosure}"
+          ]
+        }
+      },
+      "rules": [
+        "English only. One post, plain and honest, no hype. Voice: a friend who checks prices.",
+        "This is the SECOND deal of the day for the main account (another game than the first one; the program takes care of that).",
+        "Use only the numbers in this brief (price, was, discount, dates). Never invent or round prices.",
+        "The last line is Ad (plain text, not a hashtag)."
+      ]
+    },
     "prices-kinguin": {
       "enabled": true,
       "name": "Honest prices (Kinguin keys)",

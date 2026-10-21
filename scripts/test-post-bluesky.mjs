@@ -10,7 +10,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { file } from './lib/comments.mjs';
-import { shortLink, shortenForPost, facetsOf, parseBriefPost, postProblems, publishAccounts, publishProblems, dayKey, graphemes } from './lib/bsky-posts.mjs';
+import { shortLink, shortenForPost, facetsOf, parseBriefPost, postProblems, publishAccounts, publishProblems, dayKey, graphemes, scheduleItems, isDue, parseArticlePost, articleProblems } from './lib/bsky-posts.mjs';
 
 const PW = 'test-password-not-real';
 const DAY = dayKey();
@@ -42,7 +42,7 @@ function run(args, root, env = {}) {
   const path = fileURLToPath(new URL('./post-bluesky.mjs', import.meta.url));
   return new Promise((resolve) => {
     const p = spawn(process.execPath, [path, ...args], {
-      env: { ...process.env, COMMENTS_ROOT: root, POSTS_BRIEF_DIR: join(root, 'brief'), COMMENTS_RETRY_MS: '1', COMMENTS_GAP_SCALE: '0', GITHUB_STEP_SUMMARY: '', DRY_RUN: '', ...env },
+      env: { ...process.env, COMMENTS_ROOT: root, POSTS_BRIEF_DIR: join(root, 'brief'), ARTICLE_DRAFTS_DIR: join(root, 'articles'), COMMENTS_RETRY_MS: '1', COMMENTS_GAP_SCALE: '0', GITHUB_STEP_SUMMARY: '', DRY_RUN: '', ...env },
       stdio: ['ignore', 'pipe', 'pipe'],
     });
     let out = '';
@@ -130,9 +130,11 @@ test('brief file: NO POST TODAY is told, a post gives its link, day and path', (
   assert.equal(p.links, 1);
 });
 
-test('settings: the four Bluesky accounts publish with the app password of their own account; the rules are checked', () => {
+test('settings: the five Bluesky posts (main, second deal, Kinguin, Cozy, Retro) publish with the app password of their own account; the rules are checked', () => {
   const acc = Object.fromEntries(publishAccounts().map((a) => [a.id, a]));
-  assert.deepEqual(Object.keys(acc).sort(), ['cozy', 'prices', 'prices-kinguin', 'retro']);
+  assert.deepEqual(Object.keys(acc).sort(), ['cozy', 'prices', 'prices-2', 'prices-kinguin', 'retro']);
+  assert.equal(acc['prices-2'].settings.passwordEnv, 'BSKY_APP_PASSWORD');
+  assert.equal(acc['prices-2'].handle, acc.prices.handle, 'the second deal is posted by the main account');
   assert.equal(acc.prices.settings.passwordEnv, 'BSKY_APP_PASSWORD');
   assert.equal(acc['prices-kinguin'].settings.passwordEnv, 'BSKY_APP_PASSWORD');
   assert.equal(acc.cozy.settings.passwordEnv, 'BSKY_APP_PASSWORD_COZY');
@@ -166,12 +168,15 @@ test('show and approve: the posts are numbered, a post with a problem cannot be 
   let r = await run(['show'], root);
   assert.equal(r.code, 0, r.out);
   assert.match(r.out, /## 1\. prices \(@saveandplay\.com\)[\s\S]*Frostpunk: -85% at GOG[\s\S]*OK: can be approved/);
-  assert.match(r.out, /## 2\. prices-kinguin[\s\S]*NO POST TODAY: No deal passes the rules today\./);
-  assert.match(r.out, /## 3\. cozy[\s\S]*PROBLEMS \(cannot be approved\): the price in the post is not the current price/);
+  assert.match(r.out, /## 2\. prices-2[\s\S]*NO POST TODAY: no post file of the brief/);
+  assert.match(r.out, /## 3\. prices-kinguin[\s\S]*NO POST TODAY: No deal passes the rules today\./);
+  assert.match(r.out, /## 4\. cozy[\s\S]*PROBLEMS \(cannot be approved\): the price in the post is not the current price/);
   r = await run(['approve', '--ok', 'all'], root);
   assert.equal(r.code, 0, r.out);
   assert.match(r.out, /APPROVED 1: 1 \(prices\)/);
-  assert.match(r.out, /Not approved: 2\. prices-kinguin: .*NO POST TODAY|Not approved: .*3\. cozy/);
+  assert.match(r.out, /Not approved: .*3\. prices-kinguin: No deal passes/);
+  assert.match(r.out, /Not approved: .*4\. cozy/);
+  assert.match(r.out, /6\. guide post: no guide is waiting/);
   assert.match(r.out, /bash scripts\/comments-branch\.sh save drafts\/posts-approved-\d{8}-\d{6}\.json && gh workflow run "Post to Bluesky"/);
   const [name] = files(root, 'posts-approved-');
   const a = read(root, name);
@@ -230,7 +235,7 @@ test('sender: posts exactly the approved text like the app, with facets and a li
     // the second run: everything is done already
     const r2 = await run(['send'], root, env(base));
     assert.equal(r2.code, 0, r2.out);
-    assert.match(r2.out, /0 approved post\(s\) waiting/);
+    assert.match(r2.out, /0 approved post\(s\) to look at now/);
     assert.equal(world.created.length, 2, 'nothing is posted twice');
   });
 });
@@ -325,10 +330,160 @@ test('sender: a missing or wrong password sends nothing and says why; a refusal 
   });
 });
 
-test('workflow: only by hand, the owner\'s "ок" starts it; secrets of the three accounts; saves the report even when the run fails', () => {
+// ---- the hours of the day and the post about a guide -------------------------------------------------------------------------
+const GUIDE = '/guides/foo-guide/';
+const guideLink = `https://saveandplay.com${GUIDE}?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-foo`;
+const guideText = `Why a cheap key can cost more than a sale.\n\n${guideLink}\n\n#PCGaming #Steam`;
+function addGuide(root, text = guideText) {
+  mkdirSync(join(root, 'articles', '2026-10-21-foo-guide'), { recursive: true });
+  writeFileSync(join(root, 'articles', '2026-10-21-foo-guide', 'article.md'), '---\ntitle: "Foo guide"\nimage: /og/foo-guide.png\nimageAlt: "x"\n---\nBody\n');
+  writeFileSync(join(root, 'articles', '2026-10-21-foo-guide', 'posts.md'), `## Bluesky\n\n\`\`\`text\n${text}\n\`\`\`\n\n## Mastodon\n\n\`\`\`text\nM\n\`\`\`\n`);
+}
+const pagesWithGuide = () => ({ ...pages(), [GUIDE]: PAGE('Foo guide | SaveAndPlay', 'A guide') });
+function setHour(root, fn) { // moves the hour of approved posts (the tests cannot wait three hours)
+  for (const name of files(root, 'posts-approved-')) {
+    const a = read(root, name);
+    a.items = a.items.map((it) => ({ ...it, notBefore: fn(it) ?? it.notBefore }));
+    put(root, 'drafts', name, a);
+  }
+}
+
+test('hours: the posts of one account go 3 hours apart in the order of data/post-schedule.json; other accounts do not wait for it; --now is all at once', () => {
+  const now = Date.parse('2026-10-21T14:00:00Z');
+  const sch = { spacingHours: 3, order: ['prices', 'prices-2', 'article', 'prices-kinguin'] };
+  const items = [
+    { n: 1, account: 'prices', kind: 'deal', handle: 'saveandplay.com' },
+    { n: 2, account: 'prices-2', kind: 'deal', handle: '@saveandplay.com' },
+    { n: 3, account: 'prices-kinguin', kind: 'deal', handle: 'saveandplay.com' },
+    { n: 4, account: 'cozy', kind: 'deal', handle: 'cozygame.bsky.social' },
+    { n: 5, account: 'prices', kind: 'article', handle: 'saveandplay.com' },
+    { n: 6, account: 'unknown', kind: 'deal', handle: 'saveandplay.com' },
+  ];
+  const hours = (list) => Object.fromEntries(list.map((i) => [i.n, (Date.parse(i.notBefore) - now) / 36e5]));
+  assert.deepEqual(hours(scheduleItems(items.map((i) => ({ ...i, handle: i.handle.replace(/^@/, '') })), { now, schedule: sch })), { 1: 0, 2: 3, 3: 9, 4: 0, 5: 6, 6: 12 }, 'deal, deal, guide, Kinguin, then the unknown one; Cozy has its own line');
+  assert.ok(Object.values(hours(scheduleItems(items.map((i) => ({ ...i, handle: i.handle.replace(/^@/, '') })), { now, schedule: sch, immediate: true }))).every((h) => h === 0));
+  assert.equal(isDue({ notBefore: '2026-10-21T14:00:00Z' }, now), true);
+  assert.equal(isDue({ notBefore: '2026-10-21T14:00:01Z' }, now), false);
+  assert.equal(isDue({}, now), true, 'an approval without an hour (made before the schedule existed) goes at once');
+});
+
+test('guide post: one link to a guide of ours with utm marks, no Ad line, English, within 300; each problem is named', () => {
+  const acc = publishAccounts('prices')[0];
+  const check = (t) => articleProblems(parseArticlePost(t), { acc }).join(' | ');
+  assert.equal(check(guideText), '');
+  assert.match(check(guideText + '\nAd'), /no "Ad" line/);
+  assert.match(check(guideText.replace('/guides/foo-guide/', '/deals/gog/frostpunk/')), /exactly one link, to a guide of ours/);
+  assert.match(check(guideText.replace('&utm_medium=social', '')), /utm_medium=social/);
+  assert.match(check(guideText.replace(guideLink, `see ${guideLink}`)), /alone on its own line/);
+  assert.match(check(guideText + ' #ad'), /#ad/);
+  assert.match(check(guideText.replace('Why', 'Это lowest ever. Why').replace('Это ', '')), /lowest ever/);
+  assert.match(check('Почему так: ' + guideText), /English only/);
+  assert.match(check(guideText.replace('Why a cheap', 'x'.repeat(300))), /characters, Bluesky allows 300/);
+  assert.equal(parseArticlePost(guideText).slug, 'foo-guide');
+});
+
+test('the morning: show lists the deals and the guide of the day, approve gives each its hour, the sender posts only what is due, and the dry run looks at all', async () => {
+  const root = tempRoot();
+  put(root, 'brief', 'post-prices-bluesky.md', brief('Frostpunk', 'GOG', '4.49', '29.99', FROST));
+  put(root, 'brief', 'post-prices-2-bluesky.md', brief('Hades', 'GOG', '9.99', '24.99', HADES, '#PCGaming #GameDeals #Games'));
+  addGuide(root);
+  let r = await run(['show'], root);
+  assert.equal(r.code, 0, r.out);
+  assert.match(r.out, /## 1\. prices[\s\S]*Frostpunk[\s\S]*## 2\. prices-2[\s\S]*Hades[\s\S]*## 6\. GUIDE POST: Foo guide[\s\S]*not on the site yet[\s\S]*Why a cheap key/);
+  r = await run(['approve', '--ok', 'all'], root);
+  assert.equal(r.code, 0, r.out);
+  assert.match(r.out, /APPROVED 3: 1 \(prices\), 2 \(prices-2\), 6 \(guide\)/);
+  assert.match(r.out, /1\. prices \(@saveandplay\.com\): now[\s\S]*2\. prices-2 \(@saveandplay\.com\): from \d\d:\d\d[\s\S]*6\. guide post \(@saveandplay\.com\): from \d\d:\d\d/);
+  const [name] = files(root, 'posts-approved-');
+  const items = read(root, name).items;
+  const h = Object.fromEntries(items.map((i) => [i.n, Math.round((Date.parse(i.notBefore) - Date.parse(read(root, name).approvedAt)) / 36e5)]));
+  assert.deepEqual(h, { 1: 0, 2: 3, 6: 6 });
+  assert.equal(items.find((i) => i.n === 6).kind, 'article');
+  assert.equal(items.find((i) => i.n === 6).key, 'prices|article|/guides/foo-guide/');
+
+  const world = fakeWorld({ pages: pagesWithGuide() });
+  await withWorld(world, async (base) => {
+    // a dry run looks at all three, posts nothing
+    r = await run(['send', '--dry-run'], root, env(base));
+    assert.equal(r.code, 0, r.out);
+    assert.match(r.out, /3 approved post\(s\) to look at now/);
+    assert.equal(world.created.length, 0);
+    // the first hour: only the first deal goes
+    const summaryFile = join(root, 'summary.md');
+    r = await run(['send'], root, env(base, { GITHUB_STEP_SUMMARY: summaryFile }));
+    assert.equal(r.code, 0, r.out);
+    assert.match(r.out, /1 approved post\(s\) to look at now, 2 wait for their hour/);
+    assert.equal(world.created.length, 1);
+    assert.match(world.created[0].record.text, /^Frostpunk/);
+    assert.match(readFileSync(summaryFile, 'utf8'), /Ждут своего часа[\s\S]*prices-2[\s\S]*скидка[\s\S]*пост к статье/);
+    // an hour later nothing new is due: nothing is posted, nothing is written
+    r = await run(['send'], root, env(base));
+    assert.match(r.out, /0 approved post\(s\) to look at now, 2 wait/);
+    assert.equal(world.created.length, 1);
+    // the second hour comes: the second deal goes, the guide still waits
+    setHour(root, (it) => (it.n === 2 ? new Date(Date.now() - 60000).toISOString() : null));
+    r = await run(['send'], root, env(base));
+    assert.equal(world.created.length, 2, r.out);
+    assert.match(world.created[1].record.text, /^Hades/);
+    // the third hour: the guide, with its own card, without an Ad line
+    setHour(root, (it) => (it.n === 6 ? new Date(Date.now() - 60000).toISOString() : null));
+    r = await run(['send'], root, env(base));
+    assert.equal(world.created.length, 3, r.out);
+    const g = world.created[2];
+    assert.equal(g.record.text, shortenForPost(guideText, guideLink));
+    assert.ok(!/\nAd$/.test(g.record.text));
+    assert.equal(g.record.embed.external.uri, guideLink);
+    assert.equal(g.record.embed.external.title, 'Foo guide | SaveAndPlay');
+    assert.ok(g.record.embed.external.thumb?.ref);
+    assert.equal(g.record.facets.find((x) => x.features[0].$type.endsWith('#link')).features[0].uri, guideLink);
+    assert.deepEqual(g.record.facets.filter((x) => x.features[0].$type.endsWith('#tag')).map((x) => x.features[0].tag), ['PCGaming', 'Steam']);
+    r = await run(['send'], root, env(base));
+    assert.equal(world.created.length, 3, 'nothing is posted twice');
+  });
+});
+
+test('the morning: a guide that is not on the site yet waits for its page; "стоп" stops the hours that have not come; --now posts all at once', async () => {
+  const root = tempRoot();
+  put(root, 'brief', 'post-prices-bluesky.md', brief('Frostpunk', 'GOG', '4.49', '29.99', FROST));
+  addGuide(root);
+  let r = await run(['approve', '--ok', '1,6', '--now'], root);
+  assert.equal(r.code, 0, r.out);
+  assert.match(r.out, /1\. prices \(@saveandplay\.com\): now[\s\S]*6\. guide post \(@saveandplay\.com\): now/);
+  const closed = fakeWorld({ pages: pages() }); // the page of the guide does not open yet
+  await withWorld(closed, async (base) => {
+    r = await run(['send'], root, env(base, { BSKY_APP_PASSWORD_COZY: '' }));
+    assert.equal(closed.created.length, 1, r.out);
+    assert.match(r.out, /our page answers 404/);
+    const e = read(root, files(root, 'posts-sent-')[0]).entries;
+    assert.equal(e.find((x) => x.status === 'failed').key, 'prices|article|/guides/foo-guide/', 'the guide waits for the next hour');
+  });
+  const open = fakeWorld({ pages: pagesWithGuide() });
+  await withWorld(open, async (base) => {
+    r = await run(['send'], root, env(base));
+    assert.equal(open.created.length, 1, r.out); // the guide goes once its page opens; the deal was posted before
+    assert.equal(open.created[0].record.embed.external.uri, guideLink);
+  });
+  // "стоп" also stops the posts whose hour has not come
+  const root2 = tempRoot();
+  put(root2, 'brief', 'post-prices-bluesky.md', brief('Frostpunk', 'GOG', '4.49', '29.99', FROST));
+  put(root2, 'brief', 'post-prices-2-bluesky.md', brief('Hades', 'GOG', '9.99', '24.99', HADES, '#PCGaming #GameDeals #Games'));
+  assert.equal((await run(['approve', '--ok', 'all'], root2)).code, 0);
+  r = await run(['cancel'], root2);
+  assert.match(r.out, /CANCELLED 2/);
+  const w = fakeWorld({ pages: pages() });
+  await withWorld(w, async (base) => {
+    r = await run(['send'], root2, env(base));
+    assert.equal(w.created.length, 0, r.out);
+    assert.equal(read(root2, files(root2, 'posts-sent-')[0]).entries.filter((x) => x.reason === 'cancelled by the owner').length, 2);
+  });
+});
+
+test('workflow: started by the "ок" or by the hourly look at the approved hours; secrets of the three accounts; saves the report even when the run fails', () => {
   const wf = readFileSync(new URL('../.github/workflows/post-bluesky.yml', import.meta.url), 'utf8');
   assert.match(wf, /workflow_dispatch:/);
-  assert.ok(!/\n\s*schedule:/.test(wf), 'no schedule: nothing is posted without the owner');
+  // The hourly run posts only what the owner approved and whose hour has come; with nothing approved it does nothing.
+  assert.match(wf, /schedule:\s*\n\s*- cron: '7 12-23 \* \* \*'/);
+  assert.ok(!/\n\s*- cron: .*\n\s*- cron/.test(wf), 'one schedule only');
   for (const s of ['BSKY_APP_PASSWORD', 'BSKY_APP_PASSWORD_COZY', 'BSKY_APP_PASSWORD_RETRO']) assert.ok(wf.includes(`secrets.${s}`), s);
   assert.match(wf, /node scripts\/post-bluesky\.mjs send/);
   assert.match(wf, /if: \$\{\{ always\(\) \}\}/);

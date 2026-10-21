@@ -7,10 +7,15 @@ name: Post to Bluesky
 #
 # The chat starts it right after the owner's "ок":  gh workflow run "Post to Bluesky" -R alexbogota/saveandplay --ref main
 # By hand: Actions -> Post to Bluesky -> Run workflow (tick "dry run" to only check: nothing is posted, nothing is saved).
+# Every hour from 07:07 to 18:07 Bogota time it also runs by itself and posts the approved posts whose hour has come (data/post-schedule.json:
+# the owner approves everything in the morning, the posts of one account go out 3 hours apart). With nothing approved and due it does nothing.
+# Cost: 12 short runs a day (about a minute each). The repository is public now (free minutes); count them before it is closed again.
 # The result is the Summary of the run (in Russian, with the link of every post) and posts-sent-*.json on the "comments" branch.
 # Secrets: BSKY_APP_PASSWORD (@saveandplay.com, already there), BSKY_APP_PASSWORD_COZY, BSKY_APP_PASSWORD_RETRO (the app passwords of those accounts,
 # the same ones the reply sender uses); a missing secret is simply empty and that account is skipped with a clear message.
 on:
+  schedule:
+    - cron: '7 12-23 * * *'
   workflow_dispatch:
     inputs:
       dry_run:

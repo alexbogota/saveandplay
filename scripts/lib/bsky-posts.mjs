@@ -204,6 +204,110 @@ export async function loadCard(link, { fetchImpl = globalThis.fetch, timeoutMs =
   return { ok: true, title: title ?? 'SaveAndPlay', description, image };
 }
 
+// ---- the hours of the day (data/post-schedule.json) -------------------------------------------------------------------
+// The owner approves everything at once in the morning; the posts of ONE Bluesky account go out one after another, spacingHours apart
+// (first now, then +3 h, +6 h ...), in the order of "order" (account ids; "article" = the post about a guide). The sender (GitHub, every hour)
+// posts what is due. Each approved post carries its own "notBefore".
+export const SCHEDULE_DEFAULTS = { spacingHours: 3, order: ['prices', 'prices-2', 'article', 'prices-kinguin'] };
+
+export function readSchedule() {
+  let raw = {};
+  try { raw = JSON.parse(readFileSync(file('data', 'post-schedule.json'), 'utf8')); } catch { /* the defaults are used */ }
+  return { ...SCHEDULE_DEFAULTS, ...raw };
+}
+
+export function scheduleProblems(sch) {
+  const p = [];
+  if (!(Number(sch.spacingHours) >= 0)) p.push('spacingHours must be 0 or more');
+  if (!Array.isArray(sch.order) || sch.order.some((x) => typeof x !== 'string')) p.push('order must be a list of account ids (and "article")');
+  return p;
+}
+
+const slotOf = (it) => (it.kind === 'article' ? 'article' : it.account);
+
+// Gives every item its "notBefore" (ISO time). immediate = true: everything may go now. Items of different Bluesky accounts do not wait for each other.
+export function scheduleItems(items, { now = Date.now(), schedule = readSchedule(), immediate = false } = {}) {
+  const byHandle = new Map();
+  for (const it of items) byHandle.set(lc(it.handle), [...(byHandle.get(lc(it.handle)) ?? []), it]);
+  const out = [];
+  for (const list of byHandle.values()) {
+    const rank = (it) => { const i = schedule.order.indexOf(slotOf(it)); return i < 0 ? schedule.order.length : i; };
+    list.sort((a, b) => rank(a) - rank(b) || (a.n ?? 0) - (b.n ?? 0));
+    list.forEach((it, i) => out.push({ ...it, notBefore: new Date(now + (immediate ? 0 : i * schedule.spacingHours * 36e5)).toISOString() }));
+  }
+  return out.sort((a, b) => (a.n ?? 0) - (b.n ?? 0));
+}
+
+// An item without "notBefore" (approved before the schedule existed) is due at once.
+export const isDue = (it, now = Date.now()) => !it.notBefore || Date.parse(it.notBefore) <= now;
+
+// ---- the post about a guide (kind "article") ------------------------------------------------------------------------------
+// The text comes from the draft of the daily writer (branch "articles", posts.md, the "Bluesky" block) or from drafts/social/post-NN-<slug>.md that
+// `article-tools.mjs take` writes. The link goes to /guides/<slug>/ with utm marks; there is no Ad line (the guide has no affiliate links).
+export function parseArticlePost(raw) {
+  const text = String(raw ?? '').replace(/\r/g, '').trim();
+  if (!text) return { noPost: 'the file is empty' };
+  const links = text.match(/https:\/\/saveandplay\.com\/guides\/[^\s]+/g) ?? [];
+  const link = links[0] ?? null;
+  let path = null;
+  try { path = link ? new URL(link).pathname : null; } catch { /* reported by articleProblems */ }
+  const slug = path?.match(/^\/guides\/([a-z0-9-]+)\/$/)?.[1] ?? null;
+  return { text, link, path, slug, links: (text.match(/https?:\/\/\S+/g) ?? []).length, kind: 'article' };
+}
+
+export function articleProblems(post, { acc }) {
+  const p = [];
+  const text = post.text ?? '';
+  if (!text) return ['the post is empty'];
+  if (post.links !== 1 || !post.link || !post.slug) p.push(`the post must have exactly one link, to a guide of ours: ${SITE}/guides/<slug>/ (it has ${post.links ?? 0})`);
+  else {
+    if (!post.link.includes('utm_medium=social')) p.push('the link needs utm_medium=social');
+    if (!text.split('\n').some((l) => l.trim() === post.link)) p.push('the link must stand alone on its own line');
+  }
+  const disclosure = acc.channel.disclosure ?? 'Ad';
+  if (text.split('\n').map((l) => l.trim()).filter(Boolean).at(-1) === disclosure) p.push(`no "${disclosure}" line: the guide has no affiliate links`);
+  if (/#ad\b/i.test(text)) p.push('the tag #ad is not used');
+  if (/lowest (price )?ever|all[- ]time low|best price ever/i.test(text)) p.push('"lowest ever" is not allowed');
+  if (/[\u0400-\u04FF]/.test(text)) p.push('English only');
+  const shown = shortenForPost(text, post.link);
+  if (graphemes(shown) > MAX_GRAPHEMES) p.push(`the post is ${graphemes(shown)} characters, Bluesky allows ${MAX_GRAPHEMES}`);
+  return p;
+}
+
+export const articleKey = (account, path) => itemKey(account, 'article', path);
+
+// Guide drafts of the daily writer that are not on the site yet, with their Bluesky text: [{ slug, title, name, text }].
+// Reads the "articles" branch with git (or ARTICLE_DRAFTS_DIR in tests: folders <name>/article.md + posts.md). A broken draft is left out.
+export async function waitingArticles({ parsePosts, splitArticle }) {
+  const dirs = [];
+  const onSite = (slug) => existsSync(file('src', 'pages', 'guides', `${slug}.md`));
+  if (process.env.ARTICLE_DRAFTS_DIR) {
+    const root = process.env.ARTICLE_DRAFTS_DIR;
+    for (const name of existsSync(root) ? readdirSync(root).sort() : []) {
+      try { dirs.push({ name, article: readFileSync(`${root}/${name}/article.md`, 'utf8'), posts: readFileSync(`${root}/${name}/posts.md`, 'utf8') }); } catch { /* skipped */ }
+    }
+  } else {
+    const git = (...a) => spawnSync('git', a, { encoding: 'utf8', timeout: 60000, cwd: file('.'), maxBuffer: 64 * 1024 * 1024 });
+    if (git('fetch', '--quiet', 'origin', 'articles').status !== 0) return { list: [], note: 'the "articles" branch cannot be read (no drafts yet, or no network)' };
+    const names = (git('ls-tree', '--name-only', 'FETCH_HEAD:articles').stdout ?? '').split('\n').filter(Boolean).sort();
+    for (const name of names) {
+      const a = git('show', `FETCH_HEAD:articles/${name}/article.md`);
+      const b = git('show', `FETCH_HEAD:articles/${name}/posts.md`);
+      if (a.status === 0 && b.status === 0) dirs.push({ name, article: a.stdout, posts: b.stdout });
+    }
+  }
+  const list = [];
+  for (const d of dirs) {
+    try {
+      const { fm } = splitArticle(d.article);
+      const slug = String(fm?.image ?? '').replace(/^\/og\//, '').replace(/\.png$/, '');
+      const text = parsePosts(d.posts).bluesky;
+      if (slug && text) list.push({ slug, title: fm?.title ?? d.name, name: d.name, text, onSite: onSite(slug) });
+    } catch { /* a broken draft is left out */ }
+  }
+  return { list, note: null };
+}
+
 // ---- files on the branch (copied into drafts/ by scripts/comments-branch.sh load) --------------------------------
 function loadFiles(prefix) {
   const dir = file('drafts');

@@ -16,7 +16,7 @@ import { collectTags, gameTagsOf, summarizeHistory } from './lib/tag-stats.mjs';
 
 process.env.DAILY_BRIEF_AS_MODULE = '1';
 process.env.UPDATE_DEALS_AS_MODULE = '1';
-const { makePosts, withDefaults, historyFacts, buildCandidates, visibleIds, isPostDay, nextPostDay } = await import('./daily-brief.mjs');
+const { offeredFor, takenToday, makePosts, withDefaults, historyFacts, buildCandidates, visibleIds, isPostDay, nextPostDay } = await import('./daily-brief.mjs');
 const { mergeIndieGala } = await import('./update-deals.mjs');
 
 const links = { site: 'https://saveandplay.com' };
@@ -294,7 +294,7 @@ test('a new channel is only a block in the settings (no code change)', () => {
 test('tag research: the tags of accounts.json are collected, the statistics are only what the server said', () => {
   const tags = collectTags(accounts).map((t) => t.tag);
   assert.deepEqual(tags, ['CityBuilder', 'CozyGames', 'DRMFree', 'FarmingSim', 'GameDeals', 'Games', 'Gaming', 'GOG', 'IndieGala', 'IndieGames', 'Kinguin', 'PCGames', 'PCGaming', 'PointAndClick', 'RetroGames', 'RetroGaming', 'VideoGames']);
-  assert.ok(collectTags(accounts).find((t) => t.tag === 'GameDeals').where.length === 7, 'used by the channels of prices (2), prices-kinguin (2), cozy (1) and retro (2)');
+  assert.ok(collectTags(accounts).find((t) => t.tag === 'GameDeals').where.length === 8, 'used by the channels of prices (2), prices-2 (1), prices-kinguin (2), cozy (1) and retro (2)');
   assert.deepEqual(gameTagsOf([{ title: 'Shadow Tactics: Blades' }, { title: 'Go' }, { title: 'Shadow Tactics 2' }]).map((t) => t.tag), ['ShadowTactics', 'ShadowTactics2']);
   const now = Date.parse('2026-10-09T10:00:00Z');
   const day = (iso, uses, accounts) => ({ day: String(Date.parse(iso) / 1000), uses: String(uses), accounts: String(accounts) });
@@ -541,6 +541,31 @@ test('the real data/accounts.json: the Kinguin account is valid, only Kinguin, a
     }
   }
   assert.ok(!accounts.prices.stores.includes('Kinguin'), 'the first post of the day stays GOG and IndieGala only');
+});
+
+// ---------- the second deal of the day (account "prices-2") ----------
+
+test('prices-2: the second deal of the day for the main account, Bluesky only, never the game the main account posted before', () => {
+  const second = withDefaults('prices-2', accounts['prices-2']);
+  assert.deepEqual(second.stores, accounts.prices.stores);
+  assert.deepEqual(second.avoidRepeatsOf, ['prices']);
+  assert.deepEqual(Object.keys(second.channels), ['bluesky'], 'the Mastodon post stays one a day, made by hand');
+  assert.equal(second.handle, accounts.prices.handle);
+  assert.equal(second.channels.bluesky.publish.passwordEnv, accounts.prices.channels.bluesky.publish.passwordEnv);
+  const state = { top: { prices: { 'gog:1': '2026-10-19', 'gog:2': '2026-10-20' }, 'prices-2': { 'gog:3': '2026-10-18' } } };
+  const offered = offeredFor({ log: { 'gog:4': '2026-10-01' }, mem: { 'gog:3': '2026-10-18', 'gog:9': '2026-10-21' }, state, account: second, today: '2026-10-21' });
+  assert.deepEqual(offered, { 'gog:4': '2026-10-01', 'gog:3': '2026-10-18', 'gog:1': '2026-10-19', 'gog:2': '2026-10-20' }, "yesterday's picks of the main account count, today's own pick does not");
+  assert.deepEqual(offeredFor({ mem: { a: '2026-10-20' }, state, account: accounts.prices, today: '2026-10-21' }), { a: '2026-10-20' }, 'an account without avoidRepeatsOf is not changed');
+  // the tags of the two posts of one day are mostly not the same ones
+  const g = { title: 'Shadow Tactics: Blades', store: 'GOG' };
+  let same = 0;
+  for (let n = 1; n <= 21; n++) {
+    const day = `2026-10-${String(n).padStart(2, '0')}`;
+    const a = chooseTags({ c: g, channel: channelWithDefaults('prices', 'bluesky', accounts.prices.channels.bluesky), day }).rotating.join();
+    const b = chooseTags({ c: g, channel: channelWithDefaults('prices-2', 'bluesky', accounts['prices-2'].channels.bluesky), day }).rotating.join();
+    if (a === b) same++;
+  }
+  assert.ok(same <= 3, `the two posts of a day share their rotating tags on ${same} of 21 days`);
 });
 
 console.log(`\n${ran} tests passed.`);
