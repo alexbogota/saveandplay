@@ -66,7 +66,7 @@ const RU = {
 };
 const ru = (reason) => RU[reason]
   ?? reason.replace(/^approval older than (\d+) h$/, 'одобрение старше $1 ч')
-    .replace(/^daily limit \((\d+) in 24 h\)$/, 'дневной лимит ($1 за 24 ч)')
+    .replace(/^daily limit \((\d+) in 24 h\)$/, 'дневной лимит ($1 за 24 ч), ждёт места в следующем запуске')
     .replace(/^the run limit \((\d+)\): waits for the next run$/, 'лимит одного запуска ($1), ждёт следующего')
     .replace(/^we replied to @(\S+) less than (\d+) h ago$/, 'этому человеку (@$1) уже отвечали меньше $2 ч назад')
     .replace(/^the post is older than (\d+) h$/, 'пост старше $1 ч')
@@ -121,7 +121,7 @@ async function sendFor(handle, items, sent) {
     if (it.cancelled) { mark(it, 'skipped', 'cancelled by the owner'); continue; }
     if (!s.enabled) { mark(it, 'skipped', 'sending is off for this account'); continue; }
     if (t - Date.parse(it.approvedAt) > s.maxApprovalAgeHours * 36e5) { mark(it, 'skipped', `approval older than ${s.maxApprovalAgeHours} h`); continue; }
-    if (repliesIn(all, 24, t) >= s.dailyLimit) { mark(it, 'skipped', `daily limit (${s.dailyLimit} in 24 h)`); continue; }
+    if (repliesIn(all, 24, t) >= s.dailyLimit) { mark(it, 'waiting', `daily limit (${s.dailyLimit} in 24 h)`); continue; }
     if (sentNow + checked().length >= s.maxPerRun) { mark(it, 'waiting', `the run limit (${s.maxPerRun}): waits for the next run`); continue; }
     if (s.perAuthorHours > 0 && answered(all, it.author, s.perAuthorHours, t)) { mark(it, 'skipped', `we replied to @${it.author} less than ${s.perAuthorHours} h ago`); continue; }
     let post;

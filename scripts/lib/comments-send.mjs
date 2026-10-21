@@ -194,7 +194,10 @@ export const loadSent = () => filesWith('comments-sent-').flatMap((x) => (Array.
 // One approved reply is known by the account and the post: a post is never answered twice, whatever file approved it.
 export const itemKey = (handle, uri) => `${lc(handle)}|${postKey(uri)}`;
 export const FINAL = new Set(['sent', 'skipped']);
-export const finalKeys = (sent) => new Set(sent.filter((e) => FINAL.has(e.status)).map((e) => itemKey(e.handle, e.uri)));
+// A reply held back only by the daily limit is not final: it waits for room (the approval still expires after maxApprovalAgeHours).
+// Older reports wrote that case as "skipped", so those are read as waiting too.
+const heldByLimit = (e) => e.status === 'waiting' || (e.status === 'skipped' && /^daily limit \(/.test(String(e.reason ?? '')));
+export const finalKeys = (sent) => new Set(sent.filter((e) => FINAL.has(e.status) && !heldByLimit(e)).map((e) => itemKey(e.handle, e.uri)));
 export const sentWithin = (sent, handle, hours, now) => sent.filter((e) => e.status === 'sent' && lc(e.handle) === lc(handle) && now - Date.parse(e.at) < hours * 36e5);
 
 // A "стоп" of the owner (a cancel file) stops every approved reply of the account that was approved before it (or only the listed ones).

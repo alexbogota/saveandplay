@@ -401,7 +401,7 @@ test('sender: the daily limit, an old approval, a "стоп", a changed rule and
     assert.equal(by[ps[1].uri], 'sent: sent');
     assert.match(by[ps[2].uri], /^skipped: text: has "use code"/);
     assert.match(by[ps[3].uri], /^skipped: text: too similar to an earlier reply/);
-    assert.equal(by[ps[4].uri], 'skipped: daily limit (25 in 24 h)', '24 earlier ones in 24 h + 1 now = the limit of 25 (the reply of 30 h ago does not count)');
+    assert.equal(by[ps[4].uri], 'waiting: daily limit (25 in 24 h)', '24 earlier ones in 24 h + 1 now = the limit of 25 (the reply of 30 h ago does not count)');
     assert.equal(fake.created.length, 1);
   });
 
@@ -419,6 +419,14 @@ test('sender: the daily limit, an old approval, a "стоп", a changed rule and
   });
 });
 
+test('pending: a reply held back by the daily limit is tried again later, a normal skip is final', () => {
+  const approved = [{ name: 'a.json', data: { handle: 'x.bsky.social', account: 'cozy', approvedAt: '2026-10-20T00:00:00Z', items: [{ n: 1, uri: 'at://u/1' }, { n: 2, uri: 'at://u/2' }, { n: 3, uri: 'at://u/3' }, { n: 4, uri: 'at://u/4' }] } }];
+  const e = (uri, status, reason) => ({ handle: 'x.bsky.social', uri, status, reason });
+  const sent = [e('at://u/1', 'skipped', 'daily limit (10 in 24 h)'), e('at://u/2', 'waiting', 'daily limit (10 in 24 h)'), e('at://u/3', 'skipped', 'the post is deleted or hidden'), e('at://u/4', 'sent', 'sent')];
+  const left = pendingItems({ approved, sent, cancels: [] }).map((i) => i.n);
+  assert.deepEqual(left, [1, 2], 'old "skipped: daily limit" reports and "waiting" are tried again; a real skip and a sent reply are done');
+});
+
 test('sender: replies the owner sent by hand count too (the daily limit, one reply per person)', async () => {
   const root = tempRoot();
   const ps = [mkPost(), mkPost(), mkPost()];
@@ -432,7 +440,7 @@ test('sender: replies the owner sent by hand count too (the daily limit, one rep
     const r = await run('comments-send.mjs', root, { env: sendEnv(base) });
     assert.equal(r.code, 0, r.out);
     const es = read(root, files(root, 'comments-sent-')[0]).entries;
-    assert.deepEqual(es.map((e) => e.status), ['skipped', 'sent', 'skipped'], r.out);
+    assert.deepEqual(es.map((e) => e.status), ['skipped', 'sent', 'waiting'], r.out);
     assert.match(es[0].reason, /we replied to @author\d+\.bsky\.social less than 24 h ago/);
     assert.equal(es[2].reason, 'daily limit (25 in 24 h)', '24 by hand + 1 now = 25');
   });
