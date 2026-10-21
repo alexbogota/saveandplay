@@ -40,7 +40,7 @@
 ## Где главное
 - `data/accounts.json`: всё про аккаунты и каналы (правила выбора скидок, шаблоны постов, теги, пометка `Ad`, лимиты). Новый канал или аккаунт = новый блок, код не меняется.
 - `data/deals.json`, `data/history.json`: скидки и история цен, их пишет бот. `scripts/daily-brief.mjs`, `scripts/update-deals.mjs`, `scripts/lib/posts.mjs`: ежедневные программы и сборка постов. `scripts/article-tools.mjs`, `data/articles.json`, `docs/article-writer.md`: автор статей.
-- `src/` сайт, `.github/workflows/` расписания, `docs/` длинные записи (Quora: `docs/quora.md`), `NOSTR.md` всё про Nostr, `LEMMY.md` всё про Lemmy, `TUMBLR.md` всё про Tumblr. `CLAUDE.md` дизайн и правила, `PROJECT.md` оглавление, `SOURCES.md` источники новостей.
+- `src/` сайт, `.github/workflows/` расписания, `docs/` длинные записи (Quora: `docs/quora.md`), `NOSTR.md` всё про Nostr, `LEMMY.md` всё про Lemmy, `TUMBLR.md` всё про Tumblr. `docs/add-account.md` как добавить новый аккаунт Bluesky, `CLAUDE.md` дизайн и правила, `PROJECT.md` оглавление, `SOURCES.md` источники новостей.
 
 ## Как запускать
 - `npm run build` собрать сайт, `npm run dev` посмотреть его. `npm run brief` локально собрать бриф и посты в `drafts/`. `npm run update-deals -- --dry-run` пробное обновление цен.
