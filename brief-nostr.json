@@ -1,130 +1,68 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-10-20T11:24:54.324Z",
-  "builtBy": "commit 348682a, schedule, run #21 attempt 1",
-  "pricesCheckedAt": "2026-10-20T10:02:28.400Z",
+  "generatedAt": "2026-10-21T11:25:14.318Z",
+  "builtBy": "commit 7af3343, schedule, run #22 attempt 1",
+  "pricesCheckedAt": "2026-10-21T10:04:15.440Z",
   "warnings": [],
   "candidates": [
     {
-      "id": "gog-frostpunk",
+      "id": "gog-this-war-of-mine",
       "kind": "deal",
-      "title": "Frostpunk",
+      "title": "This War of Mine",
       "store": "GOG",
-      "price": 4.49,
-      "was": 29.99,
+      "price": 2.99,
+      "was": 19.99,
       "discount": 85,
       "endsAt": "2026-10-23T09:59:00+03:00",
-      "endsInHours": 68,
-      "priceCheckedAt": "2026-10-20T10:02:28.400Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323190/abcd2bf3c275092d637d7dd98e0061dbdd2fd2da/header.jpg?t=1784897899",
+      "endsInHours": 44,
+      "priceCheckedAt": "2026-10-21T10:04:15.440Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
       "drminfo": null,
-      "coverAlt": "Cover art for Frostpunk",
+      "coverAlt": "Cover art for This War of Mine",
       "facts": {
-        "year": 2018,
+        "year": 2014,
         "genres": [
-          "Strategy",
-          "Simulation",
+          "Action",
+          "Adventure",
           "Survival"
         ],
         "tags": [
+          "Adventure",
+          "Action",
           "Indie",
+          "Story Rich",
           "Atmospheric",
-          "Strategy",
-          "Simulation",
-          "Dark",
-          "Great Soundtrack",
           "Choices Matter",
           "Management",
           "Survival",
           "Resource Management",
-          "Difficult",
+          "Real-Time",
+          "War",
+          "Crafting",
           "Base Building",
+          "Emotional",
           "Post-apocalyptic",
-          "City builder",
-          "Survival Horror",
-          "Steampunk"
+          "Stealth",
+          "Psychological"
         ]
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 12.5,
-      "discountRank": 7,
-      "sites": 1,
-      "mentions": [
-        {
-          "source": "gg.deals News",
-          "domain": "gg.deals",
-          "title": "Gamesplanet's Weekly Deals are looking good! Save up to 87% on Frostpunk, DREDGE, and more",
-          "link": "https://gg.deals/deal/gamesplanets-weekly-deals-october-19-2026/",
-          "t": 1792421400000,
-          "how": "title"
-        }
-      ],
-      "history": {
-        "days": 8,
-        "lowest": false,
-        "since": "2026-10-13"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/frostpunk/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-20",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "1 news site wrote about the game in the last 48 h",
-        "deepest-discount rank 7 of 19"
-      ]
-    },
-    {
-      "id": "gog-rebel-galaxy",
-      "kind": "deal",
-      "title": "Rebel Galaxy",
-      "store": "GOG",
-      "price": 1.99,
-      "was": 19.99,
-      "discount": 90,
-      "endsAt": "2026-10-27T09:59:00+02:00",
-      "endsInHours": 165,
-      "priceCheckedAt": "2026-10-20T10:02:28.400Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/290300/header.jpg?t=1778077786",
-      "drminfo": null,
-      "coverAlt": "Cover art for Rebel Galaxy",
-      "facts": {
-        "year": 2015,
-        "genres": [
-          "Action",
-          "Adventure",
-          "Open World"
-        ],
-        "tags": [
-          "Adventure",
-          "Action",
-          "Atmospheric",
-          "2D",
-          "Exploration",
-          "Science",
-          "Great Soundtrack",
-          "Third Person",
-          "Open World",
-          "Sandbox",
-          "Space",
-          "Trading"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 10,
-      "discountRank": 3,
+      "score": 11.5,
+      "discountRank": 10,
       "sites": 0,
       "mentions": [],
       "history": {
         "days": 3,
         "lowest": false,
-        "since": "2026-10-18"
+        "since": "2026-10-19"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/rebel-galaxy/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-20",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-21",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 3 of 19"
+        "sale ends in 44 h",
+        "deepest-discount rank 10 of 21"
       ]
     },
     {
@@ -136,8 +74,8 @@
       "was": 19.99,
       "discount": 90,
       "endsAt": "2026-10-29T09:59:00+02:00",
-      "endsInHours": 213,
-      "priceCheckedAt": "2026-10-20T10:02:28.400Z",
+      "endsInHours": 189,
+      "priceCheckedAt": "2026-10-21T10:04:15.440Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203140/header.jpg?t=1734461136",
       "drminfo": null,
       "coverAlt": "Cover art for Hitman: Absolution",
@@ -164,19 +102,19 @@
       "marketplace": false,
       "compareTo": null,
       "score": 10,
-      "discountRank": 4,
+      "discountRank": 3,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 1,
+        "days": 2,
         "lowest": false,
         "since": "2026-10-20"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/hitman-absolution/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-20",
+      "link": "https://saveandplay.com/deals/gog/hitman-absolution/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-21",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 4 of 19"
+        "deepest-discount rank 3 of 21"
       ]
     },
     {
@@ -188,8 +126,8 @@
       "was": 29.99,
       "discount": 90,
       "endsAt": "2026-10-27T09:59:00+02:00",
-      "endsInHours": 165,
-      "priceCheckedAt": "2026-10-20T10:02:28.400Z",
+      "endsInHours": 141,
+      "priceCheckedAt": "2026-10-21T10:04:15.440Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804",
       "drminfo": null,
       "coverAlt": "Cover art for Metro Exodus",
@@ -227,15 +165,73 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 3,
+        "days": 4,
         "lowest": false,
         "since": "2026-10-18"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-20",
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-21",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 2 of 19"
+        "deepest-discount rank 2 of 21"
+      ]
+    },
+    {
+      "id": "gog-shadow-tactics-blades-of-the-shogun",
+      "kind": "deal",
+      "title": "Shadow Tactics: Blades of the Shogun",
+      "store": "GOG",
+      "price": 3.99,
+      "was": 39.99,
+      "discount": 90,
+      "endsAt": "2026-10-28T15:59:00+02:00",
+      "endsInHours": 171,
+      "priceCheckedAt": "2026-10-21T10:04:15.440Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
+      "drminfo": null,
+      "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
+      "facts": {
+        "year": 2016,
+        "genres": [
+          "Strategy",
+          "Real-time",
+          "Stealth"
+        ],
+        "tags": [
+          "Indie",
+          "Atmospheric",
+          "Strategy",
+          "Puzzle",
+          "Great Soundtrack",
+          "Tactical",
+          "Third Person",
+          "Historical",
+          "Survival",
+          "Violent",
+          "Real-Time",
+          "Difficult",
+          "Isometric",
+          "RTS",
+          "Stealth",
+          "Ninja"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 10,
+      "discountRank": 4,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 12,
+        "lowest": false,
+        "since": "2026-10-07"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-21",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 4 of 21"
       ]
     },
     {
@@ -247,8 +243,8 @@
       "was": 19.99,
       "discount": 85,
       "endsAt": "2026-10-27T09:59:00+02:00",
-      "endsInHours": 165,
-      "priceCheckedAt": "2026-10-20T10:02:28.400Z",
+      "endsInHours": 141,
+      "priceCheckedAt": "2026-10-21T10:04:15.440Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268500/header.jpg?t=1772813016",
       "drminfo": null,
       "coverAlt": "Cover art for XCOM 2",
@@ -275,56 +271,181 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 8,
+        "days": 9,
         "lowest": false,
         "since": "2026-10-13"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/xcom-2/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-20",
+      "link": "https://saveandplay.com/deals/gog/xcom-2/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-21",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 8 of 19"
+        "deepest-discount rank 8 of 21"
       ]
     }
   ],
   "gogNews": [],
   "topical": [
     {
-      "title": "[Pricing glitch?] PowerWash Simulator 2 drops to just $9.99 on Epic Games Store!",
-      "source": "gg.deals News",
-      "link": "https://gg.deals/deal/pricing-glitch-powerwash-simulator-2-drops-to-just-999-on-epic-games-store/",
-      "t": 1792492800000,
-      "keyword": "pricing",
-      "summary": "Could this deal be too good to last?"
+      "title": "80% of Samsung's data center memory is already sold for 2027, meaning yet another double-digit price increase for RAM expected and more likely to come",
+      "source": "PC Gamer",
+      "link": "https://www.pcgamer.com/hardware/memory/80-percent-of-samsungs-data-center-memory-is-already-sold-for-2027-meaning-yet-another-double-digit-price-increase-for-ram-expected-and-more-likely-to-come/",
+      "t": 1792581264000,
+      "keyword": "price",
+      "summary": "I'm clinging to the hope that the memory supply crisis resolves sooner rather than later as much as the next PC gamer. Unfortunately, judging by how much of ne…"
     },
     {
-      "title": "Penguin Colony is not messing around with its statement on the Palestinian genocide, banning sale in Israel and calling out the games industry in-game",
-      "source": "Rock Paper Shotgun",
-      "link": "https://www.rockpapershotgun.com/penguin-colony-is-not-messing-around-with-its-statement-on-the-palestinian-genocide-banning-sale-in-israel-and-calling-out-the-games-industry-in-game",
-      "t": 1792492027000,
-      "keyword": "sale",
-      "summary": "You might remember 2021's Umurangi Generation , developed by M&amacr;ori studio Origame Digital. It placed its focus on its first-person photography system as …"
-    },
-    {
-      "title": "Fanatical’s Fantasy Ages Bundle: Choose 3 Steam Games for $4.95",
-      "source": "Indie Game Bundles",
-      "link": "https://www.indiegamebundles.com/fanaticals-fantasy-ages-bundle-choose-3-steam-games-for-4-95/",
-      "t": 1792484845000,
-      "keyword": "bundle",
-      "summary": "Fanatical has launched the Build Your Own Fantasy Ages Bundle, featuring 18 games and collections covering fantasy RPGs, dungeon crawlers, strategy games, and …"
-    },
-    {
-      "title": "Get Free Copies of a Horror Puzzle Game “Last Room” for PC",
-      "source": "Indie Game Bundles",
-      "link": "https://www.indiegamebundles.com/get-free-copies-of-a-horror-puzzle-game-last-room-for-pc/",
-      "t": 1792444315000,
+      "title": "Football Manager 27 will be free to play for five days before its full release, in \"industry first\" for a game of its kind",
+      "source": "Eurogamer",
+      "link": "https://www.eurogamer.net/football-manager-27-free-to-play-five-days",
+      "t": 1792580400000,
       "keyword": "free",
-      "summary": "Step into the enigmatic world of \"Last Room,\" a thrilling adventure that merges horror, fantasy, and darkness. Grab Last Room at IndieGala for a limited time! …"
+      "summary": "You can play Football Manager 27 on PC and Mac for free this year for five full days later this month, in a first for the series and apparently an \"industry fi…"
+    },
+    {
+      "title": "The Wolf Among Us Remastered rewards loyal fans with 50% off, but not everyone gets the same deal",
+      "source": "gg.deals News",
+      "link": "https://gg.deals/deal/the-wolf-among-us-remastered-rewards-loyal-fans-with-50-off-but-not-everyone-gets-the-same-deal/",
+      "t": 1792579846000,
+      "keyword": "deal",
+      "summary": "The Big Bad Wolf is (almost) back."
+    },
+    {
+      "title": "PlayStation's Halloween Sale 2026 is massive! Over 3,700 games and add-ons are on sale",
+      "source": "gg.deals News",
+      "link": "https://gg.deals/deal/playstations-halloween-sale-2026/",
+      "t": 1792576079000,
+      "keyword": "sale",
+      "summary": "PRAGMATA, Blue Prince, REANIMAL, and plenty of other fantastic titles are included!"
+    },
+    {
+      "title": "Cartomancy Anthology was $24.99, now it’s permanently free on Steam",
+      "source": "Indie Game Bundles",
+      "link": "https://www.indiegamebundles.com/cartomancy-anthology-was-24-99-now-its-permanently-free-on-steam/",
+      "t": 1792525864000,
+      "keyword": "free",
+      "summary": "Cartomancy Anthology has dropped its $24.99 price tag and is now permanently free on Steam. The post Cartomancy Anthology was $24.99, now it’s permanently free…"
     }
   ],
   "topics": [
     {
-      "headline": "Spooky escape room adventure Last Room is FREE on IndieGala right now",
+      "headline": "Xbox's latest sale has Deep Rock Galactic at 70% off and more tempting deals!",
+      "score": 10,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "sale",
+        "deals"
+      ],
+      "games": [
+        "Deep Rock Galactic"
+      ],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Xbox's latest sale has Deep Rock Galactic at 70% off and more tempting deals!",
+          "link": "https://gg.deals/deal/xbox-latest-deals-october-20-2026/",
+          "published": "2026-10-20T12:39:14.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "\"It doesn’t have to always be triple-A\": Galactic Racer and Zero Company’s success has Lucasfilms wanting more smaller-scale Star Wars games",
+      "score": 9,
+      "sites": [
+        "pcgamer.com",
+        "rockpapershotgun.com",
+        "eurogamer.net"
+      ],
+      "keywords": [],
+      "games": [],
+      "items": [
+        {
+          "source": "PC Gamer",
+          "title": "Star Wars Zero Company adds new difficulty options that can bring it closer to XCOM",
+          "link": "https://www.pcgamer.com/games/strategy/star-wars-zero-company-adds-new-difficulty-options-that-can-bring-it-closer-to-xcom/",
+          "published": "2026-10-19T21:47:17.000Z"
+        },
+        {
+          "source": "PC Gamer",
+          "title": "Lucasfilm wants to do more Star Wars games like Zero Company and Galactic Racer: 'We’ve tried to be more flexible about who we’re willing to take pitches from'",
+          "link": "https://www.pcgamer.com/gaming-industry/lucasfilm-wants-to-do-more-star-wars-games-like-zero-company-and-galactic-racer-weve-tried-to-be-more-flexible-about-who-were-willing-to-take-pitches-from/",
+          "published": "2026-10-19T21:46:23.000Z"
+        },
+        {
+          "source": "Rock Paper Shotgun",
+          "title": "\"It doesn’t have to always be triple-A\": Galactic Racer and Zero Company’s success has Lucasfilms wanting more smaller-scale Star Wars games",
+          "link": "https://www.rockpapershotgun.com/it-doesnt-have-to-always-be-triple-a-galactic-racer-and-zero-companys-success-has-lucasfilms-wanting-more-smaller-scale-star-wars-games",
+          "published": "2026-10-20T15:00:36.000Z"
+        },
+        {
+          "source": "Eurogamer",
+          "title": "Star Wars Zero Company review",
+          "link": "https://www.eurogamer.net/star-wars-zero-company-review",
+          "published": "2026-10-19T13:05:47.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Mortal Shell 2 FREE Rotten Autumn update adds photo mode, new dungeons & more decaying content",
+      "score": 8,
+      "sites": [
+        "gg.deals",
+        "rockpapershotgun.com"
+      ],
+      "keywords": [
+        "free"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals Freebies",
+          "title": "Mortal Shell 2 FREE Rotten Autumn update adds photo mode, new dungeons & more decaying content",
+          "link": "https://gg.deals/freebie/mortal-shell-2-rotten-autumn-update/",
+          "published": "2026-10-20T16:45:00.000Z"
+        },
+        {
+          "source": "gg.deals News",
+          "title": "Mortal Shell 2 FREE Rotten Autumn update adds photo mode, new dungeons & more decaying content",
+          "link": "https://gg.deals/freebie/mortal-shell-2-rotten-autumn-update/",
+          "published": "2026-10-20T16:45:00.000Z"
+        },
+        {
+          "source": "Rock Paper Shotgun",
+          "title": "Steady yourself, Mortal Shell 2's Rotten Autumn update comes packed with 15 new dungeons, a photo mode, an alternative soundtrack, and a neat pumpkin helmet",
+          "link": "https://www.rockpapershotgun.com/steady-yourself-mortal-shell-2s-rotten-autumn-update-comes-packed-with-15-new-dungeons-a-photo-mode-an-alternative-soundtrack-and-a-neat-pumpkin-helmet",
+          "published": "2026-10-20T16:03:25.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "10 Of Our Favourite Demos From Steam Next Fest October 2026",
+      "score": 8,
+      "sites": [
+        "gg.deals",
+        "greenmangaming.com"
+      ],
+      "keywords": [
+        "free"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals Freebies",
+          "title": "Steam Next Fest October 2026 is now live, with thousands of FREE demos to enjoy!",
+          "link": "https://gg.deals/freebie/steam-next-fest-october-2026-is-now-live-with-thousands-of-free-demos-to-enjoy/",
+          "published": "2026-10-19T17:12:00.000Z"
+        },
+        {
+          "source": "Green Man Gaming blog",
+          "title": "10 Of Our Favourite Demos From Steam Next Fest October 2026",
+          "link": "https://www.greenmangaming.com/blog/10-of-our-favourite-demos-from-steam-next-fest-october-2026/",
+          "published": "2026-10-20T12:42:53.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Last Room (IndieGala) Giveaway",
       "score": 8,
       "sites": [
         "gamerpower.com",
@@ -346,93 +467,6 @@
           "title": "Spooky escape room adventure Last Room is FREE on IndieGala right now",
           "link": "https://gg.deals/freebie/spooky-escape-room-adventure-last-room-is-free-on-indiegala-right-now/",
           "published": "2026-10-19T15:24:24.000Z"
-        },
-        {
-          "source": "gg.deals News",
-          "title": "Spooky escape room adventure Last Room is FREE on IndieGala right now",
-          "link": "https://gg.deals/freebie/spooky-escape-room-adventure-last-room-is-free-on-indiegala-right-now/",
-          "published": "2026-10-19T15:24:24.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Humble slashes prices on survival games by up to 90% in its Crafted Survival Deals!",
-      "score": 7,
-      "sites": [
-        "gg.deals"
-      ],
-      "keywords": [
-        "prices",
-        "deals",
-        "humble"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "Humble slashes prices on survival games by up to 90% in its Crafted Survival Deals!",
-          "link": "https://gg.deals/deal/humble-crafted-survival-deals/",
-          "published": "2026-10-20T08:56:00.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Steam’s new Weeklong Sale goes big with 7,000+ deals: Grab PC games at up to 95% off!",
-      "score": 7,
-      "sites": [
-        "gg.deals"
-      ],
-      "keywords": [
-        "sale",
-        "deals"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "Steam’s new Weeklong Sale goes big with 7,000+ deals: Grab PC games at up to 95% off!",
-          "link": "https://gg.deals/deal/steams-new-weeklong-sale-goes-big-with-7000-deals-grab-pc-games-at-up-to-95-off/",
-          "published": "2026-10-19T18:44:33.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Cyberpunk 2077 and Cronos: The New Dawn lead the latest eShop sale with deep discounts",
-      "score": 7,
-      "sites": [
-        "gg.deals"
-      ],
-      "keywords": [
-        "sale",
-        "discounts"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "Cyberpunk 2077 and Cronos: The New Dawn lead the latest eShop sale with deep discounts",
-          "link": "https://gg.deals/deal/cyberpunk-2077-and-cronos-the-new-dawn-lead-the-latest-eshop-sale-with-deep-discounts/",
-          "published": "2026-10-19T17:23:00.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Epic Games Store Halloween Sale 2026 brings over 2,000 spookily good deals",
-      "score": 7,
-      "sites": [
-        "gg.deals"
-      ],
-      "keywords": [
-        "sale",
-        "deals"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "Epic Games Store Halloween Sale 2026 brings over 2,000 spookily good deals",
-          "link": "https://gg.deals/deal/epic-games-store-halloween-sale-2026/",
-          "published": "2026-10-19T16:59:00.000Z"
         }
       ]
     }
@@ -442,7 +476,7 @@
     "hidden": 0,
     "notNiche": 0,
     "noFacts": 0,
-    "taken": 0,
+    "taken": 2,
     "smallDiscount": 0,
     "ended": 1,
     "endsTooSoon": 0,

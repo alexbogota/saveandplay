@@ -1,8 +1,6 @@
-# Brief: Cozy and calm games (@cozygame.bsky.social), 2026-10-20 11:24 UTC
-Prices checked 2026-10-20 10:02 UTC (1 h ago). News: 11 of 11 sources read, 101 items from the last 48 h, 0 of 0 offered deals mentioned.
-Niche Cozy: 0 games fit the rule today (0 of them can be posted now).
-WARNING: NOTHING TO OFFER today.
-WARNING: No game fits the niche today (0 fit the rule, 20 do not, 0 have no facts yet, 0 were taken by another account today, 0 under 50%, 0 prices older than 48 h, 0 sales over or ending soon).
+# Brief: Cozy and calm games (@cozygame.bsky.social), 2026-10-21 11:25 UTC
+Prices checked 2026-10-21 10:04 UTC (1 h ago). News: 11 of 11 sources read, 134 items from the last 48 h, 0 of 1 offered deals mentioned.
+Niche Cozy: 1 games fit the rule today (1 of them can be posted now).
 
 Write ONE post about the first item below (take another one only if it looks wrong, and say why).
 Rules:
@@ -11,6 +9,14 @@ Rules:
 - If no game fits today, the post file says NO POST TODAY. Never take any game just to fill the day.
 - Use only the numbers in this brief (price, was, discount, dates). Never invent or round prices. The last line is Ad (plain text, not a hashtag).
 
-Left out: 15 other-store deals, 0 hidden duplicates, 0 under 50%, 0 ended, 0 ending within 6 h, 0 old prices, 20 outside the niche, 0 without facts.
+## 1. SimCity 4 Deluxe Edition: GOG $4.99 (was $19.99, -75%)
+Sale ends 2026-10-28 13:59 UTC (in 7 days). Price checked 2026-10-21 10:04 UTC. Score 0.5.
+Why today: deepest-discount rank 1 of 1.
+Note: suggested on 2026-10-17, already used recently.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=deals-2026-10-21
+Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586
+Alt text: Cover art for SimCity 4 Deluxe Edition
+
+Left out: 15 other-store deals, 0 hidden duplicates, 0 under 50%, 0 ended, 0 ending within 6 h, 0 old prices, 23 outside the niche, 0 without facts.
 Sources not read: none.
-Built by: commit 348682a, schedule, run #21 attempt 1.
+Built by: commit 7af3343, schedule, run #22 attempt 1.

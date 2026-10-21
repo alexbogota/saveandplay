@@ -1,0 +1,307 @@
+{
+  "account": "Honest prices (second deal of the day)",
+  "generatedAt": "2026-10-21T11:25:14.318Z",
+  "builtBy": "commit 7af3343, schedule, run #22 attempt 1",
+  "pricesCheckedAt": "2026-10-21T10:04:15.440Z",
+  "warnings": [],
+  "candidates": [
+    {
+      "id": "gog-rebel-galaxy",
+      "kind": "deal",
+      "title": "Rebel Galaxy",
+      "store": "GOG",
+      "price": 1.99,
+      "was": 19.99,
+      "discount": 90,
+      "endsAt": "2026-10-27T09:59:00+02:00",
+      "endsInHours": 141,
+      "priceCheckedAt": "2026-10-21T10:04:15.440Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/290300/header.jpg?t=1778077786",
+      "drminfo": null,
+      "coverAlt": "Cover art for Rebel Galaxy",
+      "facts": {
+        "year": 2015,
+        "genres": [
+          "Action",
+          "Adventure",
+          "Open World"
+        ],
+        "tags": [
+          "Adventure",
+          "Action",
+          "Atmospheric",
+          "2D",
+          "Exploration",
+          "Science",
+          "Great Soundtrack",
+          "Third Person",
+          "Open World",
+          "Sandbox",
+          "Space",
+          "Trading"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 10,
+      "discountRank": 3,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 4,
+        "lowest": false,
+        "since": "2026-10-18"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/rebel-galaxy/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-21",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 3 of 22"
+      ]
+    },
+    {
+      "id": "gog-hitman-absolution",
+      "kind": "deal",
+      "title": "Hitman: Absolution",
+      "store": "GOG",
+      "price": 1.99,
+      "was": 19.99,
+      "discount": 90,
+      "endsAt": "2026-10-29T09:59:00+02:00",
+      "endsInHours": 189,
+      "priceCheckedAt": "2026-10-21T10:04:15.440Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203140/header.jpg?t=1734461136",
+      "drminfo": null,
+      "coverAlt": "Cover art for Hitman: Absolution",
+      "facts": {
+        "year": 2012,
+        "genres": [
+          "Action",
+          "TPP",
+          "Stealth"
+        ],
+        "tags": [
+          "Action",
+          "Story Rich",
+          "Atmospheric",
+          "Classic",
+          "Tactical",
+          "Third Person",
+          "Mature",
+          "Difficult",
+          "Stealth",
+          "Crime"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 10,
+      "discountRank": 4,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 2,
+        "lowest": false,
+        "since": "2026-10-20"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/hitman-absolution/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-21",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 4 of 22"
+      ]
+    },
+    {
+      "id": "gog-metro-exodus",
+      "kind": "deal",
+      "title": "Metro Exodus",
+      "store": "GOG",
+      "price": 2.99,
+      "was": 29.99,
+      "discount": 90,
+      "endsAt": "2026-10-27T09:59:00+02:00",
+      "endsInHours": 141,
+      "priceCheckedAt": "2026-10-21T10:04:15.440Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804",
+      "drminfo": null,
+      "coverAlt": "Cover art for Metro Exodus",
+      "facts": {
+        "year": 2019,
+        "genres": [
+          "Shooter",
+          "FPP",
+          "Sci-fi"
+        ],
+        "tags": [
+          "Story Rich",
+          "Atmospheric",
+          "Sci-fi",
+          "First-Person",
+          "Science",
+          "Horror",
+          "Mature",
+          "Nudity",
+          "Survival",
+          "Violent",
+          "Gore",
+          "FPS",
+          "Shooter",
+          "Post-apocalyptic",
+          "Stealth",
+          "Survival Horror",
+          "Psychological Horror"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 10,
+      "discountRank": 2,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 4,
+        "lowest": false,
+        "since": "2026-10-18"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-21",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 2 of 22"
+      ]
+    },
+    {
+      "id": "gog-shadow-tactics-blades-of-the-shogun",
+      "kind": "deal",
+      "title": "Shadow Tactics: Blades of the Shogun",
+      "store": "GOG",
+      "price": 3.99,
+      "was": 39.99,
+      "discount": 90,
+      "endsAt": "2026-10-28T15:59:00+02:00",
+      "endsInHours": 171,
+      "priceCheckedAt": "2026-10-21T10:04:15.440Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
+      "drminfo": null,
+      "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
+      "facts": {
+        "year": 2016,
+        "genres": [
+          "Strategy",
+          "Real-time",
+          "Stealth"
+        ],
+        "tags": [
+          "Indie",
+          "Atmospheric",
+          "Strategy",
+          "Puzzle",
+          "Great Soundtrack",
+          "Tactical",
+          "Third Person",
+          "Historical",
+          "Survival",
+          "Violent",
+          "Real-Time",
+          "Difficult",
+          "Isometric",
+          "RTS",
+          "Stealth",
+          "Ninja"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 10,
+      "discountRank": 5,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 12,
+        "lowest": false,
+        "since": "2026-10-07"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-21",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 5 of 22"
+      ]
+    },
+    {
+      "id": "gog-xcom-2",
+      "kind": "deal",
+      "title": "XCOM 2",
+      "store": "GOG",
+      "price": 2.99,
+      "was": 19.99,
+      "discount": 85,
+      "endsAt": "2026-10-27T09:59:00+02:00",
+      "endsInHours": 141,
+      "priceCheckedAt": "2026-10-21T10:04:15.440Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268500/header.jpg?t=1772813016",
+      "drminfo": null,
+      "coverAlt": "Cover art for XCOM 2",
+      "facts": {
+        "year": 2016,
+        "genres": [
+          "Strategy",
+          "Turn-based",
+          "Sci-fi"
+        ],
+        "tags": [
+          "Strategy",
+          "Sci-fi",
+          "Turn-Based",
+          "Science",
+          "Tactical",
+          "Perma Death"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 9.5,
+      "discountRank": 9,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 9,
+        "lowest": false,
+        "since": "2026-10-13"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/xcom-2/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-21",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 9 of 22"
+      ]
+    }
+  ],
+  "gogNews": [],
+  "topical": [],
+  "topics": [],
+  "left": {
+    "otherStore": 15,
+    "hidden": 0,
+    "notNiche": 0,
+    "noFacts": 0,
+    "taken": 1,
+    "smallDiscount": 0,
+    "ended": 1,
+    "endsTooSoon": 0,
+    "oldPrice": 0
+  },
+  "sources": {
+    "total": 11,
+    "failed": []
+  },
+  "posts": {
+    "bluesky": {
+      "text": "Rebel Galaxy: -90% at GOG\n$1.99 (was $19.99)\nPrice checked Oct 21. Sale ends Oct 27.\n\nhttps://saveandplay.com/deals/gog/rebel-galaxy/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-21\n\n#PCGaming #GameDeals #VideoGames #Gaming #RebelGalaxy\nAd",
+      "length": 169,
+      "max": 300,
+      "link": "https://saveandplay.com/deals/gog/rebel-galaxy/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-21",
+      "deal": "gog-rebel-galaxy"
+    }
+  }
+}

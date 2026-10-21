@@ -1,11 +1,11 @@
-Frostpunk: -85% at GOG
-$4.49 (was $29.99)
-You save $25.50
+This War of Mine: -85% at GOG
+$2.99 (was $19.99)
+You save $17.00
 DRM-free
-Price checked Oct 20. Sale ends Oct 23.
-Why today: 1 news site wrote about the game in the last 48 h.
+Price checked Oct 21. Sale ends Oct 23.
+Why today: sale ends in 44 h.
 
-https://saveandplay.com/deals/gog/frostpunk/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-20
+https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-21
 
-#GameDeals #PCGaming #GOG #DRMFree #Gaming
+#GameDeals #PCGaming #GOG #DRMFree #VideoGames
 Ad

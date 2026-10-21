@@ -1,25 +1,76 @@
 {
   "account": "Cozy and calm games",
-  "generatedAt": "2026-10-20T11:24:54.324Z",
-  "builtBy": "commit 348682a, schedule, run #21 attempt 1",
-  "pricesCheckedAt": "2026-10-20T10:02:28.400Z",
-  "warnings": [
-    "NOTHING TO OFFER today.",
-    "No game fits the niche today (0 fit the rule, 20 do not, 0 have no facts yet, 0 were taken by another account today, 0 under 50%, 0 prices older than 48 h, 0 sales over or ending soon)."
-  ],
+  "generatedAt": "2026-10-21T11:25:14.318Z",
+  "builtBy": "commit 7af3343, schedule, run #22 attempt 1",
+  "pricesCheckedAt": "2026-10-21T10:04:15.440Z",
+  "warnings": [],
   "niche": {
     "label": "Cozy",
-    "fit": 0,
-    "postable": 0
+    "fit": 1,
+    "postable": 1
   },
-  "candidates": [],
+  "candidates": [
+    {
+      "id": "gog-simcity-4-deluxe-edition",
+      "kind": "deal",
+      "title": "SimCity 4 Deluxe Edition",
+      "store": "GOG",
+      "price": 4.99,
+      "was": 19.99,
+      "discount": 75,
+      "endsAt": "2026-10-28T15:59:00+02:00",
+      "endsInHours": 171,
+      "priceCheckedAt": "2026-10-21T10:04:15.440Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
+      "drminfo": null,
+      "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
+      "facts": {
+        "year": 2003,
+        "genres": [
+          "Simulation",
+          "Building",
+          "Managerial"
+        ],
+        "tags": [
+          "Atmospheric",
+          "Simulation",
+          "Classic",
+          "Great Soundtrack",
+          "Management",
+          "Sandbox",
+          "Real-Time",
+          "Isometric",
+          "Building",
+          "Managerial",
+          "City builder"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 0.5,
+      "discountRank": 1,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 12,
+        "lowest": false,
+        "since": "2026-10-07"
+      },
+      "offeredOn": "2026-10-17",
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=deals-2026-10-21",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 1 of 1"
+      ]
+    }
+  ],
   "gogNews": [],
   "topical": [],
   "topics": [],
   "left": {
     "otherStore": 15,
     "hidden": 0,
-    "notNiche": 20,
+    "notNiche": 23,
     "noFacts": 0,
     "taken": 0,
     "smallDiscount": 0,
@@ -33,7 +84,11 @@
   },
   "posts": {
     "bluesky": {
-      "none": "No deal passes the rules today. NOTHING TO OFFER today. No game fits the niche today (0 fit the rule, 20 do not, 0 have no facts yet, 0 were taken by another account today, 0 under 50%, 0 prices older than 48 h, 0 sales over or ending soon)."
+      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Oct 21. Sale ends Oct 28.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=deals-2026-10-21\n\n#GameDeals #PCGaming #CityBuilder #SimCity4DeluxeEdition\nAd",
+      "length": 184,
+      "max": 300,
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=deals-2026-10-21",
+      "deal": "gog-simcity-4-deluxe-edition"
     }
   }
 }

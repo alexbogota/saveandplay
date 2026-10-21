@@ -11,7 +11,8 @@
       "gog-prince-of-persia-warrior-within": "2026-10-14",
       "gog-alan-wake": "2026-10-17",
       "gog-system-shock-enhanced-edition": "2026-10-18",
-      "gog-frostpunk": "2026-10-20"
+      "gog-frostpunk": "2026-10-20",
+      "gog-this-war-of-mine": "2026-10-21"
     },
     "nostr": {
       "indiegala-monster-hunter-rise": "2026-10-15",
@@ -23,7 +24,8 @@
       "gog-prince-of-persia-warrior-within": "2026-10-14",
       "gog-alan-wake": "2026-10-17",
       "gog-system-shock-enhanced-edition": "2026-10-18",
-      "gog-frostpunk": "2026-10-20"
+      "gog-frostpunk": "2026-10-20",
+      "gog-this-war-of-mine": "2026-10-21"
     },
     "lemmy": {
       "gog-prince-of-persia-the-sands-of-time": "2026-10-13",
@@ -33,7 +35,8 @@
       "gog-alan-wake": "2026-10-17",
       "gog-system-shock-enhanced-edition": "2026-10-18",
       "gog-outward-definitive-edition": "2026-10-19",
-      "gog-frostpunk": "2026-10-20"
+      "gog-frostpunk": "2026-10-20",
+      "gog-this-war-of-mine": "2026-10-21"
     },
     "tumblr": {
       "gog-prince-of-persia-the-sands-of-time": "2026-10-13",
@@ -43,12 +46,13 @@
       "gog-alan-wake": "2026-10-17",
       "gog-system-shock-enhanced-edition": "2026-10-18",
       "gog-outward-definitive-edition": "2026-10-19",
-      "gog-frostpunk": "2026-10-20"
+      "gog-frostpunk": "2026-10-20",
+      "gog-this-war-of-mine": "2026-10-21"
     },
     "cozy": {
       "gog-deponia": "2026-10-15",
       "gog-syberia-ii": "2026-10-16",
-      "gog-simcity-4-deluxe-edition": "2026-10-17",
+      "gog-simcity-4-deluxe-edition": "2026-10-21",
       "gog-rollercoaster-tycoon-3-complete-edition": "2026-10-19"
     },
     "retro": {
@@ -61,6 +65,9 @@
       "kinguin-detroit-become-human": "2026-10-16",
       "kinguin-borderlands-2": "2026-10-18",
       "kinguin-subnautica": "2026-10-20"
+    },
+    "prices-2": {
+      "gog-rebel-galaxy": "2026-10-21"
     }
   }
 }
