@@ -1,164 +1,158 @@
 # Comment candidates: retro-wide (@retrogamedeals.bsky.social)
-Made 2026-10-21T00:52Z. Searched: childhood: played this as a kid game | childhood: first pc game | childhood: childhood game | childhood: game from my childhood | childhood: childhood favorite game | classicPC: old pc game | classicPC: retro pc gaming | classicPC: dos game | classicPC: classic pc game | classicPC: old pc games | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: retro game recommendations | askRetro: old games recommend | askRetro: retro games recommend | askRetro: best retro games | askRetro: best old games | retroBuying: gog classic | retroBuying: old game on sale | retroBuying: classic game sale | retroBuying: retro game steam | retroBuying: old pc game worth buying | retroPlaying: replaying old game | retroPlaying: replaying classic game | retroPlaying: playing old game | retroPlaying: childhood game pc | retroPlaying: old game nostalgia pc | retroAsk: best dos games | retroAsk: best old pc games | retroAsk: old game recommend pc | retroAsk: games like diablo | retroAsk: games like age of empires | retroTalk: old school pc | retroTalk: 90s pc games | retroTalk: 2000s pc games | retroTalk: pc gaming memories | retroTalk: first pc game | retroFeed: feed.
-Posts below: 40 + 2 heated. Dropped in this run: not about games 136, skip word 94, too short 13, replies are limited 14, already shown 7, bot, shop or studio 23, already answered 6, other language (text) 7, adult or graphic label 1, too many hashtags 3, low score 1, not a question 29, other language 20.
+Made 2026-10-21T06:49Z. Searched: childhood: games from my childhood | childhood: first video game | childhood: played this as a kid game | childhood: first pc game | childhood: childhood game | classicPC: dos games | classicPC: classic pc games | classicPC: old pc game | classicPC: retro pc gaming | classicPC: dos game | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: old game recommend | askRetro: retro game recommendations | askRetro: old games recommend | askRetro: retro games recommend | askRetro: best retro games | retroBuying: gog classic | retroBuying: old game on sale | retroBuying: classic game sale | retroBuying: retro game steam | retroBuying: old pc game worth buying | retroPlaying: replaying old game | retroPlaying: replaying classic game | retroPlaying: playing old game | retroPlaying: childhood game pc | retroPlaying: old game nostalgia pc | retroAsk: best dos games | retroAsk: best old pc games | retroAsk: old game recommend pc | retroAsk: games like diablo | retroAsk: games like age of empires | retroTalk: old school pc | retroTalk: 90s pc games | retroTalk: 2000s pc games | retroTalk: pc gaming memories | retroTalk: first pc game | retroFeed: feed.
+Posts below: 40 + 1 heated. Dropped in this run: skip word 115, not about games 118, bot, shop or studio 28, empty 2, replies are limited 13, too short 16, other language (text) 15, promo (link and hashtags) 1, already shown 23, own post 3, already answered 6, adult or graphic label 1, too many hashtags 4, low score 2, other language 17, not a question 36, date in the future 1, earlier finds: low score 1.
 
 ## Posts
-1. @how-are-u.bsky.social · 29m · likes 1 · replies 0 · question · classicPC
-   https://bsky.app/profile/how-are-u.bsky.social/post/3myduzj7j6s2v
-   I play like 3 or 4 PC games, all at least 5 years old if not far older. I'm very glad to be content with that because yeesh, who has that kind of money to spend?
-2. @boobachu.bsky.social (The T.C.) · 2h · likes 1 · replies 0 · question · childhood
-   https://bsky.app/profile/boobachu.bsky.social/post/3mydpelywpc2a
-   qtp with a video game that transports you back to your childhood (I never got Sonic 3, we rented it sometimes, but there's no Sonic & Knuckles gifs??????)
-   [link card: Knuckles Peeks in Sonic 3 Forest; quotes @ooccouchgags.bsky.social: qtp with a video game that transports you back to your childhood]
-3. @tekchip.hathouse.us (Tekchip) · 1h · likes 1 · replies 0 · question · retroBuying
-   https://bsky.app/profile/tekchip.hathouse.us/post/3mydsg5jq4c24
-   I play one, or both, every year. So good! @doublefine.com couldn't help but notice your buy link doesn't include GOG. What the hey!? www.gog.com/en/games?que...
-   [link card: Best Video games, DRM-free | GOG.COM; quotes @doublefine.com: Today is COSTUME QUEST's birthday! The Amazing Dorian predicts you will collect many treats this Halloween, and encounter not one single Kr…]
-4. @retroware.bsky.social (Retroware) · 5h · likes 3 · replies 1 · question · retroBuying
-   https://bsky.app/profile/retroware.bsky.social/post/3mydezj66fk2e
-   Fly like an eagle 🦅 Eagle Island Twist is in the GOG Git Gud sale, now $7.99 (20% off)! Can you git gud at this classic Retroware game? Grab it while you can (sale ends October 27th)! #pcgaming #modernretro
+1. @magnulast.bsky.social (Magnulast) · 4h · likes 1 · replies 1 · question · gogOld
+   https://bsky.app/profile/magnulast.bsky.social/post/3mye4neiax224
+   I'd say it doesn't really matter as much as before. It's more of a competition against PC and good old games or the forbidden flag. As for later gens it's either new funny stuff or same old with reskin. I love Xbox bc because games like burnout revenge can load quickly compared t
+2. @marymajora.bsky.social (ScaryMajora 👻) · 5h · likes 21 · replies 6 · question · childhood
+   https://bsky.app/profile/marymajora.bsky.social/post/3mydyoqapos25
+   I’m not a Star Wars person but I really want to play Dark Forces again!! This was my first video game I ever played on pc. Maybe a stream of this soon? 👀
    [image, no description]
-5. @nfinit.bsky.social (Nfinit) · 58m · likes 1 · replies 0 · question · retroPlaying
-   https://bsky.app/profile/nfinit.bsky.social/post/3mydtg3x73s2v
-   In the meantime, could I propose that you Play Old Games? MiSTer is quite lovely, very close to being consolized, and there's affordable, all-in-one solutions nowadays. And I assure you, you could spend your entire life playing games you've yet to play and never once year a singl
-   [image: It's the SuperStation One in a rather nice 90's-era transparent blue. I got the classic grey version myself and will spend the rest of my life kicking myself f…]
-6. @jamesbjones.com (James B. Jones) · 2h · likes 2 · replies 1 · question · retroFeed
-   https://bsky.app/profile/jamesbjones.com/post/3mydojhmbfk2o
-   I spent that much on my HTPC/Steam Machine. I will never spend that on another game box. If anything, I’d pitch that companies would be wise to look back at their old hardware. For as dope as the new Analogue Sg+ is, if Sega announced that they were reissuing the Genesis? Sheeeee
-   [quotes @futterish.fsquared.biz: GTFO. This isn’t a console. It’s a joke. arstechnica.com/gaming/2026/...]
-7. @feed.igeek.gamer-geek-news.com.ap.brid.gy (input) · 4h · likes 0 · replies 0 · question · nostalgia
-   https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3mydi4yoxjxu2
-   📰 **Shrek 2 Remastered Takes PS5 to a 'Nostalgic Era of Gaming' This November** It's so ogre.Back when basically every movie got a tie-in game, Shrek 2 released on PS2, and it's fondly remembered by fans despite its rough edges.Well, if you want to […] [Original post on igeek.ga
-   [image: Image for: Shrek 2 Remastered Takes PS5 to a 'Nostalgic Era of Gaming' This November]
-8. @nolmol.bsky.social (nolmol 𓅂) · 5h · likes 0 · replies 0 · question · gogOld
-   https://bsky.app/profile/nolmol.bsky.social/post/3mydecrthf22v
-   I'd suggest that you adapt whatever works for you for getting inspiration for your regular art! Maybe root around and find UI designs from the past that you really really like, and pay extra attention to them. Some old games like these have great and artful UIs. (check the alttex
-   [2 images: Ultima Underworld: The Hi-res pixel art used for the whole UI here is just awesome, and nearly all of it is functional too! It's antiquated for sure, but this … / Metroid Prime 2: I know this one is goofy as hell, but I think that having the menu options orbit around a sphere was so cool and intuitive. It's also just fre…]
-9. @feed.igeek.gamer-geek-news.com.ap.brid.gy (input) · 9h · likes 0 · replies 0 · question · childhood
-   https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3mycz3o3uy342
-   🕹️ **How Many ZX Spectrum Heroes Can You Name in This Fun Cycle of 8-Bit Superstars?** 'Sidhe!'.For veteran video game fans, perhaps nothing sparks the nostalgia quite like seeing the iconic sprites from your favourite childhood games. These are […] [Original post on igeek.gamer
-   [image: Image for: How Many ZX Spectrum Heroes Can You Name in This Fun Cycle of 8-Bit Superstars?]
-10. @mythmastermao.bsky.social · 29h · likes 0 · replies 0 · question · childhood
-   https://bsky.app/profile/mythmastermao.bsky.social/post/3myav33f65l2w
-   Or is picking Zoe meant to be a punishment like how not picking Bianca is meant to make you feel bad (to a much lesser extent in the DS version anyway) in SNES/Super Fami? Is Mia meant to be our childhood friend in this situation or is Zoe? The mind boggles, and all this before t
-11. @mariosimpson64.bsky.social (Slavko ShyGuy) · 12m · likes 1 · replies 0 · childhood
-   https://bsky.app/profile/mariosimpson64.bsky.social/post/3mydvyzi3yc27
+3. @bisexualkaiju.myatproto.social (Bisexual Kaiju) · 1h · likes 1 · replies 0 · question · childhood
+   https://bsky.app/profile/bisexualkaiju.myatproto.social/post/3myegiudn722e
+   Some of the inclusions of info on Elon are weird, like, we have whole video game cutscenes of his weird power fantasies but no mention of his weird technofascist grandfather who moved the family to South Africa in the first place???
+4. @archiru.bsky.social (abbi // creature-thing) · 5h · likes 5 · replies 1 · question · retroFeed
+   https://bsky.app/profile/archiru.bsky.social/post/3mye2sv6h6c2o
+   gang should i actually get into retro consoles i still have my n64 and a heap of games but like... i want a ps1 and a snes and a crt and some nice way to display everything and i should pick a cheaper hobby huh
+5. @overwhelmedgamer.bsky.social (Overwhelmed Gamer) · 5h · likes 4 · replies 0 · question · retroFeed
+   https://bsky.app/profile/overwhelmedgamer.bsky.social/post/3mydysdnrgf2a
+   👹 Is Demon's Crest one of the SNES's most underrated games? Tonight I'm kicking off my first full playthrough of this spooky 16-bit classic! 🎃 🔴 LIVE at 10 PM CT on YouTube, Facebook, Twitch & TikTok! Come hang out! #RetroGaming
+   [image, no description]
+6. @nathanplante.bsky.social (When It Happens, I'm Getting Wasted.) · 27m · likes 1 · replies 0 · childhood
+   https://bsky.app/profile/nathanplante.bsky.social/post/3myej55nh6s23
    qtp with a video game that transports you back to your childhood
-   [link card: Diddy Kong in Donkey Kong 64 with Banana; quotes @asodesigner.bsky.social: qtp with a video game that transports you back to your childhood]
-12. @justinpykehistory.bsky.social (Justin Pyke) · 1h · likes 5 · replies 1 · classicPC
-   https://bsky.app/profile/justinpykehistory.bsky.social/post/3mydsc7iin22h
-   Yup. It's the median PC gamer curse of pushing everything up to "ultra" and then getting mad when their couple year old mid-range GPU doesn't give them [insert arbitrary high frame rate here]. A lot of angry Steam reviews about performance in a given game are often unintentional 
-13. @gundroog.bsky.social (Gundroog) · 2h · likes 2 · replies 0 · childhood
-   https://bsky.app/profile/gundroog.bsky.social/post/3mydqxxjwc22k
-   Was surprised to hear that Fakku of all companies is doing a PC-98 game port/localization/remaster. Turns out their first game on Steam was also a PC-98 re-release.
-14. @dosnostalgic.bsky.social (Anatoly Shashkin💾) · 2h · likes 18 · replies 1 · classicPC
-   https://bsky.app/profile/dosnostalgic.bsky.social/post/3mydqizh6ps2t
-   The Colony, a 1988 3D first person action-adventure game, is now officially available on Zoom Platform for *FREE*. Original Mac, color Mac, and DOS versions are included: www.zoom-platform.com/product/the-...
-   [link card: The Colony]
-15. @busterhearts-type9.bsky.social (Type-9 Pixel Artist) · 2h · likes 2 · replies 1 · classicPC
-   https://bsky.app/profile/busterhearts-type9.bsky.social/post/3mydqgu7wzk2f
-   Honestly, I've already decided to not buy anymore consoles, and there's a hard limit on what games my PC can play. So nowadays, I'm just buying old games that I missed out on or the occasional indie.... And even then I'm mostly just playing the same 10 games most of the time 😕
-16. @blitzer18150.bsky.social · 2h · likes 1 · replies 0 · childhood
-   https://bsky.app/profile/blitzer18150.bsky.social/post/3mydq5a7pmc2e
+   [link card: Super Smash Bros Brawl Assemble; quotes @ooccouchgags.bsky.social: qtp with a video game that transports you back to your childhood]
+7. @jlrmarin.bsky.social (Jorge Rivera Marín) · 60m · likes 1 · replies 0 · classicPC
+   https://bsky.app/profile/jlrmarin.bsky.social/post/3myehd7bfe22u
+   That was the last SimCity I played, interestingly enough. On my old Mac desktop. I never quite got the hang of it, but it was a fun game. I think the SNES one broke my brain as to what to expect, and the PC version really seemed complicated in comparison to teenage me.
+8. @juliaminamata.bsky.social (Julia Minamata) · 1h · likes 5 · replies 0 · classicPC
+   https://bsky.app/profile/juliaminamata.bsky.social/post/3myeh5w54xs2l
+   Done for the night! Cabot trail road trip & agate-hunting, Nancy Maple + DOS Double Dragon, plus we visit a shrine in Tantei Jingūji Saburō 1! Thanks @toad22484.bsky.social & @sclarkeo.bsky.social for the raids. I raided @goatistream.bsky.social to celebrate his birthday! Happy C
+   [image: Screencap of my livestream, with "Happy Crimson C'Tuesday" handwritten across the bottom. A screenshot my Mini-Maple Mystery game is in the background. It's th…]
+9. @holbrookairline.bsky.social · 1h · likes 1 · replies 0 · childhood
+   https://bsky.app/profile/holbrookairline.bsky.social/post/3myeh5bunyk2z
    qtp with a video game that transports you back to your childhood
-   [link card: Stronghold Crusader Wolf Taunt (волк насмешка); quotes @fimbulwinterfrost.bsky.social: qtp with a video game that transports you back to your childhood]
-17. @yegpah.com (Edmonton Pets and Handlers) · 2h · likes 1 · replies 0 · askRetro
-   https://bsky.app/profile/yegpah.com/post/3mydoywrvx22m
-   Hi critters and gamers! This Saturday we’re doing a drop in at Arkadium in Sherwood Park at 1 pm. Come and enjoy the beeps and boops! Admission is paid at the door directly to them Gear level 1 www.arkadiumretroarcade.com 130 Broadway Blvd Unit 180, Sherwood Park
-   [link card: Arcade in Sherwood Park, Alberta | Family Fun & Games | Corporate | Arkadium Retro Arcade]
-18. @starryfinita.bsky.social (Starry Finita) · 3h · likes 4 · replies 0 · childhood
-   https://bsky.app/profile/starryfinita.bsky.social/post/3mydo5mngsk2y
+   [image, no description; quotes @ooccouchgags.bsky.social: qtp with a video game that transports you back to your childhood]
+10. @kanekisaragi.bsky.social (Kane Kisaragi) · 2h · likes 0 · replies 0 · question · retroFeed
+   https://bsky.app/profile/kanekisaragi.bsky.social/post/3myee7gz6b22y
+   Can you craft an entire SNES-era JRPG out of garbage puns? Yes That's what Kingdoms of the Dump is. It's so fucking good! store.steampowered.com/app/2159270?...
+   [link card: Kingdoms of the Dump on Steam]
+11. @katsuragiissexy.bsky.social (TheStuffMan) · 2h · likes 1 · replies 0 · childhood
+   https://bsky.app/profile/katsuragiissexy.bsky.social/post/3myedtqyfbs2u
    qtp with a video game that transports you back to your childhood
-   [link card: Kirby Dedede; quotes @pryexel48.bsky.social: qtp with a video game that transports you back to your childhood]
-19. @hadair.bsky.social (Hadair) · 3h · likes 1 · replies 0 · classicPC
-   https://bsky.app/profile/hadair.bsky.social/post/3mydnziccfc2j
-   I watched a whole playthrough of the 2nd game when recovering from surgery a long time ago. Very funny and very wonky (just look at how Twinsen runs in the DOS version). Never did try the remake though I have it. It does look good though, hoping it captures the original vibe.
-20. @ronintheshadow.bsky.social (Ronin The Shadow) · 3h · likes 3 · replies 0 · classicPC
-   https://bsky.app/profile/ronintheshadow.bsky.social/post/3mydn673y3s2d
-   At that point just get a PC. It'll last longer than a console because gens do not matter. You can play your old games, you can play new games. AND Xbox games are gonna be on PC anyway so there's no real point in buying their consoles
-21. @yoshiyukijrpg.bsky.social (Yoshiyuki-San) · 3h · likes 1 · replies 0 · childhood
-   https://bsky.app/profile/yoshiyukijrpg.bsky.social/post/3mydmeo7hys27
+   [link card: Donkey Kong & Diddy Kong Mine Cart Carnage; quotes @fimbulwinterfrost.bsky.social: qtp with a video game that transports you back to your childhood]
+12. @nexusgoblin.bsky.social (Michelle) · 2h · likes 2 · replies 0 · classicPC
+   https://bsky.app/profile/nexusgoblin.bsky.social/post/3myedolybg22d
+   Murder Meet Cute A game where you fix computers, snoop around their files, and check out forum posts; all while a murderer is on the loose. The demo is short but it has a ton of style, a snarky MC, a cool FMV style direction, & an interesting puzzle mechanic store.steampowered.co
+   [4 images: Amy is talking to a guy labeled 'Tall, dark, and handsome' He asked "do you do the work yourself?" and the options are Shoot your fingerguns at him. That surpr… / A 90's/early 00's style computer screen with both a instant messenger chat window and a forum open / A DOS style screen with files, some corrupted, and a 'Corruption detect. Beginning analysis process.' pop up / Amy holds her hand to her chin in thought and is saying "It's definitely a virus, but my cracker isn't effecting it.."]
+13. @tropicalfreeze21.bsky.social (Tropicalfreeze21 (In Canadaland)) · 3h · likes 5 · replies 2 · classicPC
+   https://bsky.app/profile/tropicalfreeze21.bsky.social/post/3myebtsdjsc2u
+   I didn't even know what a Playstation was but I was in a KB Toys and heard the Crash Bandicoot title screen around the corner. I picked up the controller and was blown away. I only had a snes and dos games so I didn't know games could look like that. I ended up with one for Chris
+   [quotes @retroblastpod.com: Do you remember the first time you played the original SONY PlayStation? What was the very first game you ever played on it?]
+14. @ozoufgarrison918.bsky.social (Ozouf Garrison) · 3h · likes 1 · replies 0 · childhood
+   https://bsky.app/profile/ozoufgarrison918.bsky.social/post/3mye77oz6r22o
    qtp with a video game that transports you back to your childhood
-   [link card: Super Smash Bros N64 Character Rush; quotes @michirumelody.bsky.social: qtp with a video game that transports you back to your childhood]
-22. @wbhwrites.bsky.social (William B Hell) · 3h · likes 1 · replies 1 · classicPC
-   https://bsky.app/profile/wbhwrites.bsky.social/post/3mydm2hfsil22
-   The game console -as a concept- still has a place in this market, but it is currently suffering from capitalist hunger for infinite growth. I still prefer to game on a console. I don’t play on a PC unless the game is old as fuck. I make things on my computer. I play on a console.
-23. @nocturnalbelmont.bsky.social (Trefor 🗡) · 4h · likes 1 · replies 1 · question · gogOld
-   https://bsky.app/profile/nocturnalbelmont.bsky.social/post/3mydkdyxexk22
-   iiii'm sorry, HOW MUCH? Fuck it, I'm going back to my physical games that they can't take away. I've actually been shopping around for old Xbox 360s and PS2/PS3. Take me back to the good times 😭
-24. @myabandonware.com (My Abandonware) · 4h · likes 8 · replies 0 · classicPC
-   https://bsky.app/profile/myabandonware.com/post/3mydcyn576d2x
-   New release: Kidsongs: Musical Mystery (1996 - DOS/Win/Win 3.x/Mac) - https://www.myabandonware.com/game/kidsongs-musical-mystery-11lp #abandonware
-   [image: Kidsongs: Musical Mystery in game screenshot]
-25. @rainofdauwo.bsky.social (Rainofdauwo) · 4h · likes 1 · replies 0 · childhood
-   https://bsky.app/profile/rainofdauwo.bsky.social/post/3mydjdy4ams22
+   [link card: Frank Woods in Call of Duty Black Ops; quotes @pepperstripes.bsky.social: qtp with a video game that transports you back to your childhood]
+15. @missmuddymama.bsky.social (Momther of Mud) · 3h · likes 2 · replies 1 · childhood
+   https://bsky.app/profile/missmuddymama.bsky.social/post/3mye765c4p22b
    qtp with a video game that transports you back to your childhood
-   [link card: happy wheels tuff; quotes @projectfuntime.bsky.social: qtp with a video game that transports you back to your childhood]
-26. @mrlechkar.bsky.social (Mr. Lechkar - Commissions Open! (0/4)) · 4h · likes 1 · replies 0 · childhood
-   https://bsky.app/profile/mrlechkar.bsky.social/post/3mydjbmcxas2l
+   [link card: Liu Kang vs Scorpion Mortal Kombat Fight; quotes @blitzer18150.bsky.social: qtp with a video game that transports you back to your childhood]
+16. @anonthemarten.bsky.social (AnonTheMarten (COMMS CLOSED)) · 4h · likes 2 · replies 0 · childhood
+   https://bsky.app/profile/anonthemarten.bsky.social/post/3mye6fat3qc2t
    qtp with a video game that transports you back to your childhood
-   [link card: Mr Driller Namco; quotes @mlptmntfan2000.bsky.social: qtp with a video game that transports you back to your childhood]
-27. @wither.bsky.social (🦊ШЇTHЄЯ🦊) · 4h · likes 1 · replies 0 · childhood
-   https://bsky.app/profile/wither.bsky.social/post/3mydifs7do22w
+   [link card: Sonic Sonic The Hedgehog; quotes @fimbulwinterfrost.bsky.social: qtp with a video game that transports you back to your childhood]
+17. @pepperstripes.bsky.social (Pepper-stripes 🌸🐼ペッパー-ストライプ Commission) · 4h · likes 7 · replies 0 · childhood
+   https://bsky.app/profile/pepperstripes.bsky.social/post/3mye5cnjti22q
    qtp with a video game that transports you back to your childhood
-   [link card: The Sims 1: Grim Reaper & House Fire; quotes @vibeformnet.com: qtp with a video game that transports you back to your childhood]
-28. @thisisbonafidebsky.bsky.social (BonaFIDE 🏳️‍🌈 #FuckTrump #ICEOut #Free) · 4h · likes 1 · replies 0 · childhood
-   https://bsky.app/profile/thisisbonafidebsky.bsky.social/post/3mydhwhhdds2l
-   QTP with a video game that transports you back to your childhood
-   [link card: Mario Kart Wii: Dry Bowser Character Select; quotes @anthonialoud.bsky.social: QTP with a video game that transports you back to your childhood]
-29. @anthonialoud.bsky.social (👻💀Anthonia Loud🎃🖤 (Spooky Month)) · 4h · likes 6 · replies 0 · childhood
-   https://bsky.app/profile/anthonialoud.bsky.social/post/3mydhsixkzk2t
-   QTP with a video game that transports you back to your childhood
-   [link card: Sa2 Sonic Adventure 2; quotes @d4rthsp4rt4n.bsky.social: QTP with a video game that transports you back to your childhood]
-30. @derrickmalikjohnson.com (Derrick Malik Johnson) · 5h · likes 15 · replies 0 · classicPC
-   https://bsky.app/profile/derrickmalikjohnson.com/post/3mydgndflp22b
-   At this point modern gaming is a rich luxury and companies are exploiting this. Theres a reason why retro consoles and pc investment (prebuild) are on the rise because these companies that weaken the market for parts will use that for customers to pay the difference and it fuckin
-   [quotes @wario64.bsky.social: 'the price of the [Xbox] Helix console has internally been projected to cost consumers between $1,200 and $1,800, unless Microsoft decides …]
-31. @crystalskyes.me (CrystalSkyes) · 5h · likes 1 · replies 0 · childhood
-   https://bsky.app/profile/crystalskyes.me/post/3mydgh5w24c2h
-   Thats cool to have but thats hardly the first game to hit US shores. Multiple Hokuto No Ken games, Golgo 13, Ranma 1/2 etc. Even "Cliff Hanger" in arcades before that. For PC JAST beat them with 3 Sisters and Season of Sakura. Tokyopop bluster at its peak lol.
-32. @thatonehalfgayguy.bsky.social (That One Spoky Half Gay Guy) · 5h · likes 1 · replies 0 · childhood
-   https://bsky.app/profile/thatonehalfgayguy.bsky.social/post/3mydge3gnf22m
+   [video, no description; quotes @surrealatorium.bsky.social: qtp with a video game that transports you back to your childhood]
+18. @coilslover.bsky.social (Coiled bliss) · 4h · likes 4 · replies 0 · childhood
+   https://bsky.app/profile/coilslover.bsky.social/post/3mye52euc3k2g
+   bsky.app/profile/fimb... qtp with a video game that transports you back to your childhood
+   [video, no description; quotes @fimbulwinterfrost.bsky.social: qtp with a video game that transports you back to your childhood]
+19. @surrealatorium.bsky.social (Surrealatorium) · 4h · likes 7 · replies 0 · childhood
+   https://bsky.app/profile/surrealatorium.bsky.social/post/3mye4z4rr322x
    qtp with a video game that transports you back to your childhood
-   [link card: Twilight Princess; quotes @ooccouchgags.bsky.social: qtp with a video game that transports you back to your childhood]
-33. @hypnonut005.bsky.social (HypnoNut005) · 5h · likes 1 · replies 0 · childhood
-   https://bsky.app/profile/hypnonut005.bsky.social/post/3mydfvqb4ys2l
+   [link card: Luigi Scared in Luigi's Mansion; quotes @blitzer18150.bsky.social: qtp with a video game that transports you back to your childhood]
+20. @mecha-togekiss.bsky.social (Mecha) · 4h · likes 1 · replies 0 · childhood
+   https://bsky.app/profile/mecha-togekiss.bsky.social/post/3mye3z3kc7c2e
    qtp with a video game that transports you back to your childhood
-   [link card: Super Smash Bros Brawl Characters; quotes @hypnoscream.bsky.social: qtp with a video game that transports you back to your childhood]
-34. @anthonialoud.bsky.social (👻💀Anthonia Loud🎃🖤 (Spooky Month)) · 5h · likes 4 · replies 0 · childhood
-   https://bsky.app/profile/anthonialoud.bsky.social/post/3mydfrvfw6c2t
+   [link card: Lego Star Wars: Obi-Wan Kenobi Smiling; quotes @meza.bsky.social: qtp with a video game that transports you back to your childhood]
+21. @weirdburner.bsky.social (kanaya) · 5h · likes 2 · replies 1 · askRetro
+   https://bsky.app/profile/weirdburner.bsky.social/post/3mye3bfkojc2j
+   my whole life has been the best of retro games
+22. @desertmechanic.bsky.social (The Mechanic (🎂 Oct 12th)) · 5h · likes 3 · replies 0 · childhood
+   https://bsky.app/profile/desertmechanic.bsky.social/post/3mye32xkuzc2y
    qtp with a video game that transports you back to your childhood
-   [link card: Sonic The Hedgehog Glides in Sonic Adventure 2; quotes @jobower.bsky.social: qtp with a video game that transports you back to your childhood]
-35. @jobower.bsky.social (Jo Bower :3) · 5h · likes 6 · replies 0 · childhood
-   https://bsky.app/profile/jobower.bsky.social/post/3mydfqh5cc22v
+   [link card: Battle For Bikini Bottom Bfbb; quotes @ooccouchgags.bsky.social: qtp with a video game that transports you back to your childhood]
+23. @meza.bsky.social (Meza) · 5h · likes 3 · replies 0 · childhood
+   https://bsky.app/profile/meza.bsky.social/post/3mye2nnmj5c27
    qtp with a video game that transports you back to your childhood
-   [link card: Luigi's Mansion: Luigi Scared by Ghosts; quotes @illcitvirus115.bsky.social: qtp with a video game that transports you back to your childhood]
-36. @wordshere.bsky.social (WordsHere) · 5h · likes 1 · replies 0 · classicPC
-   https://bsky.app/profile/wordshere.bsky.social/post/3mydfkyz7nk25
-   Finally created a Backloggd. I've been adding everything from Steam and also wracking my brain for everything I ever owned on PC CD-ROM, DOS floppy disks, Nintendo, PS1... backloggd.com/u/WordsHere/
-   [link card: WordsHere's profile | Backloggd]
-37. @mlptmntfan2000.bsky.social (Tyrik "Reekie" Walters) · 5h · likes 3 · replies 0 · childhood
-   https://bsky.app/profile/mlptmntfan2000.bsky.social/post/3mydff7eg6k2c
+   [link card: Tony Hawk's Pro Skater - Ok And Meme; quotes @ooccouchgags.bsky.social: qtp with a video game that transports you back to your childhood]
+24. @activenick.bsky.social (Nick Landry) · 5h · likes 1 · replies 0 · classicPC
+   https://bsky.app/profile/activenick.bsky.social/post/3mydzfx3iq22f
+   I'm really enjoying Tenebris Somnia by @newblood.games. Whether you're a GenX gamer like me who grew up on Sierra games, or you're someone looking to experience a fresh modern take on classic adventure games, this is for you. On console & PC via XBOX Play Anywhere. 💚 👏 www.xbox
+   [4 images, no description]
+25. @arditb2006.bsky.social (ArditB2006) · 5h · likes 4 · replies 0 · childhood
+   https://bsky.app/profile/arditb2006.bsky.social/post/3mydysuict22j
    qtp with a video game that transports you back to your childhood
-   [link card: Spyro Spyro Ps1; quotes @ooccouchgags.bsky.social: qtp with a video game that transports you back to your childhood]
-38. @gentlemanmaniac.bsky.social (Gray Dickson) · 5h · likes 1 · replies 0 · childhood
-   https://bsky.app/profile/gentlemanmaniac.bsky.social/post/3mydf3vtk7k2h
+   [video, no description; quotes @mvlakai.bsky.social: qtp with a video game that transports you back to your childhood]
+26. @fixorbricks.bsky.social (Fix or Bricks) · 5h · likes 2 · replies 0 · classicPC
+   https://bsky.app/profile/fixorbricks.bsky.social/post/3mydyb6og5k2l
+   Honestly I think console gaming outside of the switch is toast in the near future. PC, pc handhelds, and retro is taking over for sure. Not to mention real Linux support is nearly here with game anti cheat finally being ported over.
+27. @starrydoesstuff.bsky.social (🌟 Starry Does Stuff 🌟 JAPAN IN 14 DAYS) · 6h · likes 4 · replies 0 · childhood
+   https://bsky.app/profile/starrydoesstuff.bsky.social/post/3mydxxojky22o
    qtp with a video game that transports you back to your childhood
-   [link card: Eddy Ed Edd And Eddy; quotes @ooccouchgags.bsky.social: qtp with a video game that transports you back to your childhood]
-39. @vibeformnet.com (Vibey 🎃 (HORRORMAGEDDON 2026)) · 5h · likes 4 · replies 0 · childhood
-   https://bsky.app/profile/vibeformnet.com/post/3mydf2zzoms2r
+   [link card: Kirby Superstar: King Dedede Boss Fight; quotes @mariosimpson64.bsky.social: qtp with a video game that transports you back to your childhood]
+28. @tanookivicky.bsky.social (Vicky Janelle) · 6h · likes 1 · replies 0 · childhood
+   https://bsky.app/profile/tanookivicky.bsky.social/post/3mydxlwasc223
    qtp with a video game that transports you back to your childhood
-   [link card: LBP Sackboy Holding a Globe; quotes @ooccouchgags.bsky.social: qtp with a video game that transports you back to your childhood]
-40. @pat3nted.bsky.social (Chaos Theorist #NewDeal4Animation #FreeP) · 5h · likes 2 · replies 0 · childhood
-   https://bsky.app/profile/pat3nted.bsky.social/post/3mydexyanps2u
+   [link card: Super Mario Bros. 3: Raccoon Mario Key; quotes @mariosimpson64.bsky.social: qtp with a video game that transports you back to your childhood]
+29. @glossybuckthorn.bsky.social (Glossy Buckthorn) · 7h · likes 4 · replies 1 · question · childhood
+   https://bsky.app/profile/glossybuckthorn.bsky.social/post/3mydu7g4pck2c
+   I haven't started a new game in a few days. In fact, I haven't really played a video game in a few days ._. It's a tossup between starting the first Splinter Cell game, and The Chronicles of Riddick game. What do y'all think?
+30. @tanookris.bsky.social (Tanooki Hearts) · 7h · likes 2 · replies 1 · question · childhood
+   https://bsky.app/profile/tanookris.bsky.social/post/3mydrwlpqds2z
+   I think it’s a combination of the fact I watched a LOT of Winnie the Pooh growing up, learning about Kingdom Hearts because I was looking for a Pooh game for the family PS2, and Kingdom Hearts being like the first video game I played. But man these minigames are just really comfy
+31. @feralknifegirl.northsky.social (jane atreides) · 13h · likes 50 · replies 2 · question · nostalgia
+   https://bsky.app/profile/feralknifegirl.northsky.social/post/3myd7rmtvks2o
+   i dont think its helpful to ask "who is nostalgic for this" because like, you kidding me? I'm nostalgic for the dogshit ps2 Madagascar tie in game but i do think it's hopelessly cynical to drop a shrek 2 tie in game remaster as a very obvious like, hype cycle builder for the upco
+32. @empirenine.bsky.social (Empire Nine) · 14h · likes 1 · replies 2 · question · retroPlaying
+   https://bsky.app/profile/empirenine.bsky.social/post/3myd4qjndak24
+   I would hate that so much being tone deaf. I remember playing Myst, which is a really old game and I'm not going to tell you guys about it, iykyk, and having to get my grandmother to help me with the auditory puzzles because I'm too tone deaf. I like the idea. I just know I would
+33. @kaly.myatproto.social (KaL the GhouLecKo) · 16h · likes 2 · replies 0 · question · childhood
+   https://bsky.app/profile/kaly.myatproto.social/post/3mycv3laeus2z
+   it's a video game magazine how much could it cost? $20?
+   [image: a cropped auction listing for the first edition of the Official PlaySation Magazine in the UK, it is not $20 also the disc sleeve was in shit condition - this …]
+34. @freezingicekirby.bsky.social (FreezingIceKirby) · 16h · likes 1 · replies 0 · question · retroPlaying
+   https://bsky.app/profile/freezingicekirby.bsky.social/post/3mycu67mptk2j
+   "You're... playing a 30 year old game... and you're not asking for likes, subscriptions OR donations to continue playing it???" - YouTuber, before fainting.
+35. @scraftycraft.bsky.social (Spooky Furry Artist 🎨 🐍🐇 🎃) · 38m · likes 0 · replies 0 · childhood
+   https://bsky.app/profile/scraftycraft.bsky.social/post/3myeijrybyc2v
+   Qtp with a video game that transport you back to your childhood
+   [link card: Luigi Racing in Mario Kart Double Dash GameCube; quotes @pepperstripes.bsky.social: qtp with a video game that transports you back to your childhood]
+36. @missthorn.bsky.social (little treat 🏳️‍⚧️) · 1h · likes 1 · replies 1 · retroBuying
+   https://bsky.app/profile/missthorn.bsky.social/post/3myeh5dtqkc2p
+   store.steampowered.com/app/3810510/... Never has there been a stronger alien vibe... Its like if Doom 3 was a ps1 game
+   [link card: DERELIKT on Steam]
+37. @coreybrickley.bsky.social (Corey Brickley * Blight's Hollow Dot Com) · 2h · likes 1 · replies 0 · gogOld
+   https://bsky.app/profile/coreybrickley.bsky.social/post/3myed6jwjss22
+   yeah but that's one of those good game innovations that plays well with old games
+38. @kingoftheheartless.bsky.social ( 👑💜💛kingoftheheartless💜💛👑) · 2h · likes 0 · replies 0 · childhood
+   https://bsky.app/profile/kingoftheheartless.bsky.social/post/3myecwifjvk2c
    qtp with a video game that transports you back to your childhood
-   [link card: Sly Cooper from Sly2 Animated Close-Up; quotes @ooccouchgags.bsky.social: qtp with a video game that transports you back to your childhood]
+   [video, no description; quotes @ooccouchgags.bsky.social: qtp with a video game that transports you back to your childhood]
+39. @kasur1309.bsky.social (Kasur) · 3h · likes 2 · replies 0 · nostalgia
+   https://bsky.app/profile/kasur1309.bsky.social/post/3myebzabf7s2z
+   Another Steam Next Fest Highlight so far is PRISON OF HUSKS. The game is heavily inspired by Dark Souls but finds his own twist to it. The demo does feel a little bit clunky but the vibes are there. Definitely a game that is now on my radar. store.steampowered.com/app/3746300/...
+   [link card: PRISON OF HUSKS Demo on Steam]
+40. @neon-brain.itch.io (Neon Rain - Metroidvania FPS yo) · 3h · likes 3 · replies 0 · retroBuying
+   https://bsky.app/profile/neon-brain.itch.io/post/3myea2ikbyk2n
+   store.steampowered.com/app/5381170/...
+   [link card: False Oath Demo on Steam]
 
 ## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @7evenseas.bsky.social (Sickening Pessimist) · 10h · likes 3 · replies 0 · classicPC
-   https://bsky.app/profile/7evenseas.bsky.social/post/3mycttpse2c2n
-   Waiter, Waiter! More ai coded slop of PC ""ports"" of old video games please!
-2. @utsuseminokage.bsky.social · 3h · likes 0 · replies 1 · nostalgia
-   https://bsky.app/profile/utsuseminokage.bsky.social/post/3mydlljpif22v
-   It's required, but it isn't enforced. One recent one I ran into was Cleared Hot, and you can see it for yourself. store.steampowered.com/app/1710820/... The game has no AI Disclosure, which would mean they have none.
-   [link card: Save 20% on Cleared Hot on Steam]
+1. @poggins.bsky.social (Poggins) · 1h · likes 3 · replies 2 · childhood
+   https://bsky.app/profile/poggins.bsky.social/post/3myeg6rkixs27
+   Artists are one of the most important parts of video game development. The usage of AI art in video games in my opinion is a disgrace to the medium. To remove artists from the equation your removing a huge part of what makes these video games, video games in the first place.

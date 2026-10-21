@@ -1,57 +1,53 @@
 # Comment candidates: mastodon-prices (@saveandplay@mastodon.social)
-Made 2026-10-21T00:50Z. Searched: deck: handheldgaming | deck: steamdecklife | deck: steamdeckoled | deck: steamdeck | deck: steamos | practical: linuxgaming | practical: drmfree | practical: gog | practical: protondb | genres: coopgames | genres: citybuilder | genres: strategygames | genres: survivalgames | genres: horrorgaming | genres: cozygaming | genres: puzzlegames | genres: roguelike | genres: cozygames | genres: metroidvania | seasonal: halloweengames | seasonal: horrorgames | seasonal: spooktober | broadPlaying: videogames | broadPlaying: currentlyplaying | broadPlaying: indiegames | broadPlaying: indiegame | broadPlaying: pcgames | broadPlaying: steamgames | broadPlaying: gamer | broadPlaying: games | broadPlaying: rpg | broadPlaying: jrpg | broadPlaying: pcgaming | broadPlaying: gaming | broadPlaying: steam | broadAsk: recommendmeagame | broadAsk: gamerecommendation | broadAsk: recommendagame | broadAsk: whattoplay | broadAsk: gamesuggestion | broadAsk: hiddengem | broadAsk: underratedgames | broadAsk: gamesuggestions | backlog: gamingbacklog | backlog: backlog | backlog: pileofshame | backlog: whatshouldiplay | backlog: gamerecommendations | backlog: gamerecs.
-Posts below: 12. Dropped in this run: skip word 208, promo (link and hashtags) 102, too old 1213, other language 259, bot, shop or studio 890, link post, not a question 18, other language (text) 189, profile says no bots or promo 3, already shown 23, already answered 2, low score 8, own post 19, console only 15, too long 17, content warning 7, not about games 27, many links 2, earlier finds: low score 6.
+Made 2026-10-21T06:48Z. Searched: deck: handheldgaming | deck: steamdecklife | deck: steamdeckoled | deck: steamdeck | deck: steamos | practical: linuxgaming | practical: drmfree | practical: gog | practical: protondb | genres: coopgames | genres: citybuilder | genres: strategygames | genres: survivalgames | genres: horrorgaming | genres: cozygaming | genres: puzzlegames | genres: roguelike | genres: cozygames | genres: metroidvania | seasonal: halloweengames | seasonal: horrorgames | seasonal: spooktober | broadPlaying: videogames | broadPlaying: currentlyplaying | broadPlaying: indiegames | broadPlaying: indiegame | broadPlaying: pcgames | broadPlaying: steamgames | broadPlaying: gamer | broadPlaying: games | broadPlaying: rpg | broadPlaying: jrpg | broadPlaying: pcgaming | broadPlaying: gaming | broadPlaying: steam | broadAsk: recommendmeagame | broadAsk: gamerecommendation | broadAsk: recommendagame | broadAsk: whattoplay | broadAsk: gamesuggestion | broadAsk: hiddengem | broadAsk: underratedgames | broadAsk: gamesuggestions | backlog: gamingbacklog | backlog: backlog | backlog: pileofshame | backlog: whatshouldiplay | backlog: gamerecommendations | backlog: gamerecs.
+Posts below: 12. Dropped in this run: skip word 180, promo (link and hashtags) 102, too old 1182, bot, shop or studio 793, other language 213, not about games 29, link post, not a question 22, other language (text) 295, profile says no bots or promo 6, already shown 27, already answered 2, low score 14, own post 21, console only 18, too long 16, content warning 7, many links 2, earlier finds: low score 6.
 
 ## Posts
-1. @ami_angelwings@urusai.social (Ami Angelwings) · 2h · likes 1 · replies 6 · question · broadPlaying
-   https://mastodon.social/@ami_angelwings@urusai.social/117475793355329310
-   original: https://urusai.social/@ami_angelwings/117475792913508231
-   #QuestionOfTheDay what's an adaptation of a work you like in another medium that's superior to the original? #fiction #books #movies #film #TV #television #anime #manga #comics #musicals #videogames #gaming
-2. @paparatti@phire.place (🕷️🕸️👻🎃 natalieek! 🎃👻🕸️🕷️) · 3h · likes 2 · replies 2 · question · broadPlaying
-   https://mastodon.social/@paparatti@phire.place/117475482463340074
-   original: https://phire.place/@paparatti/117475482114617682
-   I logged into WoW for the first time in 7? years for a spec check and it took me a very long time to remember playing that Pandaren Warrior. The Shadow Priest though??? My best girl. #gaming #WoW
-   [image: A screenshot of the character profile screen in World of Warcraft. One is a Troll Shadow Priest called Sarisen, the other is a Pandaren Warrior called Yeoh.]
-3. @BlowUpRadio@gardenstate.social (BlowUpRadio.com) · 24h · likes 3 · replies 3 · question · broadPlaying
-   https://mastodon.social/@BlowUpRadio@gardenstate.social/117470428765894609
-   original: https://gardenstate.social/@BlowUpRadio/117470428512968727
-   Okay... if there is anything I have learned from years of playing video games is that if I line up the manhole cover with the street lines one of the following will happen 1. I will get treasure 2. A portal will open Should I line up the manhole cover? #VideoGames
-   [image: a street with double yellow lines with a manhole cover in the middle of it with the lines on the manhole cover running perpendicular to the street]
-4. @ami_angelwings@urusai.social (Ami Angelwings) · 25h · likes 7 · replies 8 · question · broadPlaying
-   https://mastodon.social/@ami_angelwings@urusai.social/117470288475549462
-   original: https://urusai.social/@ami_angelwings/117470287976542898
-   #QuestionOfTheDay what's a work that, in your opinion, is really hurt by having a horribly written female character? #fiction #scifi #fantasy #romance #comics #webcomics #anime #manga #videogames #gaming #ccgs #ttrpg #TV #television #film #movies #musicals #books
-5. @killyourfm@layer8.space (Jason Evangelho 🌊🐧) · 28h · likes 7 · replies 6 · question · broadPlaying
-   https://mastodon.social/@killyourfm@layer8.space/117469438183411735
-   original: https://layer8.space/@killyourfm/117469437642393111
-   Be honest: how long had you used #Steam before realizing you could download multiple games at once? (It was SEVERAL years for me... I decline to divulge exactly how many!)
-   [image: A game installation window lists five games and their file sizes, with the “bazzite” drive selected and the Install button visible.]
-6. @coa100@mastodon.social (Coa art) · 29m · likes 1 · replies 0 · broadPlaying
-   https://mastodon.social/@coa100/117476037843913522
-   Experience Evorin MMO in your browser!! #videogames #gaming #mmo #retro
-   [image, no description]
-7. @LeftReddit2@lemmy.world · 5h · likes 0 · replies 2 · question · broadPlaying
-   https://mastodon.social/@LeftReddit2@lemmy.world/117475090201582064
-   original: https://lemmy.world/post/53390674
-   What were the best moments you ever had in gaming? https://lemmy.world/post/53390674
-   [image, no description]
-8. @lashman@mastodon.social (lashman) · 5h · likes 3 · replies 0 · broadPlaying
-   https://mastodon.social/@lashman/117474947019226752
-   Developer: Aspyr Media Publisher: Aspyr Media Release date: 10 Nov, 2026 Screenshots: #steam #gaming #videoGames #steamStorePage
-   [4 images: Screenshot 1 from DreamWorks Shrek 2 Remastered / Screenshot 2 from DreamWorks Shrek 2 Remastered / Screenshot 3 from DreamWorks Shrek 2 Remastered / Screenshot 4 from DreamWorks Shrek 2 Remastered]
-9. @lashman@mastodon.social (lashman) · 5h · likes 3 · replies 0 · broadPlaying
-   https://mastodon.social/@lashman/117474946501188406
-   Developer: Luminara Game Studio Publisher: Luminara Game Studio Release date: Coming soon Screenshots: #steam #gaming #videoGames #steamStorePage
-   [4 images: Screenshot 1 from Fading Luna / Screenshot 2 from Fading Luna / Screenshot 3 from Fading Luna / Screenshot 4 from Fading Luna]
-10. @tardis@tardis.pw (Mira) · 6h · likes 0 · replies 0 · question · broadPlaying
-   https://mastodon.social/@tardis@tardis.pw/117474830767955291
-   original: https://tardis.pw/@tardis/statuses/01M5DBRX523CV8FGQMZ1FSM3RV
-   Does anyone know how to setup OBS on macOS, with accessibility settings like #VoiceOver turned on? I'd be grateful if you could point towards guides, posts, etc. Thanks lots #AccessibleGaming #Gaming #OBS
-11. @pitcrewgg@mastodon.social (PitCrew) · 8h · likes 2 · replies 2 · practical
+1. @coa100@mastodon.social (Coa art) · 6h · likes 1 · replies 0 · broadPlaying
+   https://mastodon.social/@coa100/117476258167222652
+   you can pick flowers for health potions in this game :S #videogames #gaming #mmo #retro
+2. @mrsombrapr@mastodon.social (MrSombraPR) · 6h · likes 1 · replies 0 · broadPlaying
+   https://mastodon.social/@mrsombrapr/117476216321218161
+   #fallguys #fallguysclips #gaming #gamer #mrsombrapr
+   [video, no description]
+3. @coa100@mastodon.social (Coa art) · 6h · likes 1 · replies 0 · broadPlaying
+   https://mastodon.social/@coa100/117476215141855668
+   the new #mastodon ui looks ok but i wish i could move the menu bar to the right side #videogames #music #art
+4. @suburbantimewaster@mastodon.world (Suburban Timewaster) · 6h · likes 1 · replies 0 · genres
+   https://mastodon.social/@suburbantimewaster@mastodon.world/117476171229883337
+   original: https://mastodon.world/@suburbantimewaster/117476171080916809
+   Mello wants to order but finds himself having restaurant trouble. #tomodachilife #deathnote #videogames #gaming #cozygames #short #clip
+   [video, no description]
+5. @jordan@mastodon.subj.am (Jordan (Temporarily Spooky)) · 6h · likes 1 · replies 0 · broadPlaying
+   https://mastodon.social/@jordan@mastodon.subj.am/117476167694442178
+   original: https://mastodon.subj.am/@jordan/117476167150175693
+   I restored a "Double Dragon" (1987) arcade cabinet about 20 years ago. There's a glitch where if you're able to get the box from Mission 2 into Mission 3, it changes colors from tan to purple because of a color palette change. My family and I have been seeing how far we can get t
+   [image: A picture taken of a Double Dragon arcade game, with Jimmy carrying a glitched purple box in Mission 3 due to color palette change. The background is a tree, l…]
+6. @pitcrewgg@mastodon.social (PitCrew) · 14h · likes 2 · replies 2 · practical
    https://mastodon.social/@pitcrewgg/117474353801348511
    🔄 American Truck Simulator - Road Trip Update: Tourist Boards American Truck Simulator 1.62 expands Atlas with new Tourist Boards and a Route 66 Cross-Border Board with rewards, while Ford Road Trip DLC is out and RAM Dodge DLC is incoming. 1/2 #AmericanTruckSimulator #ATS #Best
    [image, no description]
-12. @pitcrewgg@mastodon.social (PitCrew) · 10h · likes 1 · replies 1 · practical
+7. @Dontics@mastodon.social (Hyperdontia) · 16h · likes 1 · replies 0 · practical
+   https://mastodon.social/@Dontics/117473839773535178
+   Very smart & cool guy who thinks overthrowing the new top God who very recently had vastly improved the universe would be "a good thing, actually". #art #oc #sd #solitudediffusion #gog #spacedevilknight #fat #oldman #chub #humanoid #villain
+   [image: Some drawings & details of Gog, a "space devil knight" attempting to overthrow Shax, as massively improving the universe for everyone was BAD, ACTUALLY. He see…]
+8. @pitcrewgg@mastodon.social (PitCrew) · 16h · likes 1 · replies 1 · practical
    https://mastodon.social/@pitcrewgg/117473697181225194
    🔄 BeamNG - Version 0.40 Version 0.40 adds local split screen for up to 64 players, a new Cherrier Percheron, occupants, upscaling tech, VR, Windows on Arm and UI plus performance upgrades. 1/2 #BeamNG #CarSim #Linux #LinuxGaming #PCGaming #FreeTrack #HeadTracking #MetaQuest #Ope
    [image, no description]
+9. @lashman@mastodon.social (lashman) · 38m · likes 0 · replies 0 · broadPlaying
+   https://mastodon.social/@lashman/117477412250067877
+   Developer: COSMICPUP STUDIO Publisher: COSMICPUP STUDIO Release date: To be announced Screenshots: #steam #gaming #videoGames #steamStorePage
+   [4 images: Screenshot 1 from Ordinary Oddness / Screenshot 2 from Ordinary Oddness / Screenshot 3 from Ordinary Oddness / Screenshot 4 from Ordinary Oddness]
+10. @lashman@mastodon.social (lashman) · 11h · likes 3 · replies 0 · broadPlaying
+   https://mastodon.social/@lashman/117474946501188406
+   Developer: Luminara Game Studio Publisher: Luminara Game Studio Release date: Coming soon Screenshots: #steam #gaming #videoGames #steamStorePage
+   [4 images: Screenshot 1 from Fading Luna / Screenshot 2 from Fading Luna / Screenshot 3 from Fading Luna / Screenshot 4 from Fading Luna]
+11. @tardis@tardis.pw (Mira) · 12h · likes 0 · replies 0 · question · broadPlaying
+   https://mastodon.social/@tardis@tardis.pw/117474830767955291
+   original: https://tardis.pw/@tardis/statuses/01M5DBRX523CV8FGQMZ1FSM3RV
+   Does anyone know how to setup OBS on macOS, with accessibility settings like #VoiceOver turned on? I'd be grateful if you could point towards guides, posts, etc. Thanks lots #AccessibleGaming #Gaming #OBS
+12. @FlashMobOfOne@mstdn.social (Flash Mob Of One) · 13h · likes 1 · replies 1 · broadPlaying
+   https://mastodon.social/@FlashMobOfOne@mstdn.social/117474408121958016
+   original: https://mstdn.social/@FlashMobOfOne/117474408070568078
+   It's so interesting being a PC gamer when GTA6 is about to drop. I feel like I've heard nothing about it but I know objectively it's the most anticipated game of the year. But I'm also one of the few who doesn't care for GTA at all on the planet. #GTA6 #Gaming #VideoGames
