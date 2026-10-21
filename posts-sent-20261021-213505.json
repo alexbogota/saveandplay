@@ -1,0 +1,23 @@
+{
+  "madeAt": "2026-10-21T21:35:05.257Z",
+  "run": "39679956332",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices|article|/guides/steam-demos-and-next-fest/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 6,
+      "link": "https://saveandplay.com/guides/steam-demos-and-next-fest/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-demos-next-fest",
+      "text": "Steam Next Fest runs three times a year, and the current one ends October 26, 2026. Developers decide whether a demo stays up afterwards. Our 5 checks before you trust a demo:\nhttps://saveandplay.com/guides/steam-demos-and-next-fest/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-demos-next-fest\n#PCGaming #GameDeals #Steam",
+      "approvedFile": "posts-approved-20261021-144445.json",
+      "approvedAt": "2026-10-21T14:44:45.545Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-21T21:35:08.607Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3myg44qad3l2q",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3myg44qad3l2q",
+      "picture": true
+    }
+  ]
+}
