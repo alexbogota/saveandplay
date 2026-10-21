@@ -25,7 +25,7 @@ load() {
     local f n=0
     for f in $(git ls-tree --name-only FETCH_HEAD); do
       case "$f" in
-        comments-*.json|comments-*.md) git show "FETCH_HEAD:$f" > "drafts/$f"; n=$((n + 1)) ;;
+        comments-*.json|comments-*.md|posts-*.json) git show "FETCH_HEAD:$f" > "drafts/$f"; n=$((n + 1)) ;;
       esac
     done
     echo "Loaded $n files from the $BRANCH branch."

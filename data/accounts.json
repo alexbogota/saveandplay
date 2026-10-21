@@ -25,6 +25,7 @@
       "channels": {
         "bluesky": {
           "enabled": true,
+          "publish": { "enabled": true, "passwordEnv": "BSKY_APP_PASSWORD" },
           "subid": "bluesky-prices",
           "utmSource": "bluesky-prices",
           "maxChars": 300,
@@ -106,6 +107,7 @@
       "channels": {
         "bluesky": {
           "enabled": true,
+          "publish": { "enabled": true, "passwordEnv": "BSKY_APP_PASSWORD" },
           "subid": "bluesky-prices",
           "utmSource": "bluesky-prices",
           "maxChars": 300,
@@ -198,6 +200,7 @@
       "channels": {
         "bluesky": {
           "enabled": true,
+          "publish": { "enabled": true, "passwordEnv": "BSKY_APP_PASSWORD_COZY" },
           "subid": "bluesky-cozy",
           "utmSource": "bluesky-cozy",
           "maxChars": 300,
@@ -248,6 +251,7 @@
       "channels": {
         "bluesky": {
           "enabled": true,
+          "publish": { "enabled": true, "passwordEnv": "BSKY_APP_PASSWORD_RETRO" },
           "subid": "bluesky-retro",
           "utmSource": "bluesky-retro",
           "maxChars": 300,

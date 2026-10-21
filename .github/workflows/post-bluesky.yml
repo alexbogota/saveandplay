@@ -1,0 +1,72 @@
+name: Post to Bluesky
+
+# Posts the ready posts of the daily brief to Bluesky, but ONLY the ones the owner approved in the chat ("ок").
+# Nothing is posted without his "ок": the program posts the exact text he saw, and checks each post again right before it goes (the approval is young,
+# the deal is still listed at that price, the sale is not over, our page of the game opens, nothing like it was posted already, no "стоп").
+# The text of a post is made by the daily brief from data/deals.json (scripts/daily-brief.mjs), never by a model.
+#
+# The chat starts it right after the owner's "ок":  gh workflow run "Post to Bluesky" -R alexbogota/saveandplay --ref main
+# By hand: Actions -> Post to Bluesky -> Run workflow (tick "dry run" to only check: nothing is posted, nothing is saved).
+# The result is the Summary of the run (in Russian, with the link of every post) and posts-sent-*.json on the "comments" branch.
+# Secrets: BSKY_APP_PASSWORD (@saveandplay.com, already there), BSKY_APP_PASSWORD_COZY, BSKY_APP_PASSWORD_RETRO (the app passwords of those accounts,
+# the same ones the reply sender uses); a missing secret is simply empty and that account is skipped with a clear message.
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Only check the approved posts: post nothing'
+        type: boolean
+        default: false
+
+# Writing is needed only to save what was posted on the "comments" branch.
+permissions:
+  contents: write
+
+# One posting at a time, so a post can never go twice from two runs at once.
+concurrency:
+  group: post-bluesky
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v4
+        with:
+          # Always the newest main (its data/deals.json is the newest too). Without this, "Re-run jobs" on an old run uses the old commit.
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Get the approved posts
+        run: bash scripts/comments-branch.sh load
+
+      - name: Post them
+        id: post
+        # A failure must not stop the next step from saving what was already posted: the failure is reported by the last step.
+        continue-on-error: true
+        env:
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+          BSKY_APP_PASSWORD_COZY: ${{ secrets.BSKY_APP_PASSWORD_COZY }}
+          BSKY_APP_PASSWORD_RETRO: ${{ secrets.BSKY_APP_PASSWORD_RETRO }}
+          REPO_PRIVATE: ${{ github.event.repository.private }}
+          DRY_RUN: ${{ inputs.dry_run }}
+          COMMENTS_CANCEL_FROM_GIT: '1'
+        run: node scripts/post-bluesky.mjs send
+
+      - name: Save what was posted on the comments branch
+        # always(): also when the run was stopped, so a post that went out is never forgotten
+        if: ${{ always() }}
+        run: |
+          if [ -s drafts/.comments-new-files ]; then bash scripts/comments-branch.sh save $(cat drafts/.comments-new-files); else echo "Nothing new to save."; fi
+
+      - name: Fail if posting had a problem
+        if: ${{ always() && steps.post.outcome == 'failure' }}
+        run: |
+          echo "::error::Posting stopped with a problem. See the step 'Post them' above and the Summary."
+          exit 1

@@ -320,6 +320,53 @@ export function createPoster({ fetchImpl = globalThis.fetch, base = process.env.
       const record = { $type: 'app.bsky.feed.post', text, createdAt: new Date().toISOString(), ...(langs?.length ? { langs } : {}), reply: { root, parent }, ...(facets?.length ? { facets } : {}) };
       return authed('com.atproto.repo.createRecord', { method: 'POST', body: { repo: me.did, collection: 'app.bsky.feed.post', record }, retry: false });
     },
+    // Our own posts of the last `hours` hours (not replies, not reposts), by hand or by the program: [{ at, uri, text, links }]
+    // (links = every address the post points to: in the link facets and in the card). Used to see that a post was made already.
+    async recentPosts(hours, maxPages = 2) {
+      const since = Date.now() - hours * 36e5;
+      const out = [];
+      let cursor;
+      for (let i = 0; i < maxPages; i++) {
+        const j = await authed('app.bsky.feed.getAuthorFeed', { params: { actor: me.did, filter: 'posts_no_replies', limit: 50, cursor } });
+        let older = false;
+        for (const it of j?.feed ?? []) {
+          const p = it?.post;
+          if (!p || it.reason || p.author?.did !== me.did) continue;
+          const at = Date.parse(p.record?.createdAt ?? p.indexedAt ?? '');
+          if (!(at >= since)) { older = true; continue; }
+          const links = [
+            ...(p.record?.facets ?? []).flatMap((f) => (f.features ?? []).map((x) => x.uri).filter(Boolean)),
+            ...(p.record?.embed?.external?.uri ? [p.record.embed.external.uri] : []),
+          ];
+          out.push({ at: new Date(at).toISOString(), uri: p.uri, text: String(p.record?.text ?? ''), links });
+        }
+        cursor = j?.cursor;
+        if (!cursor || older || !(j?.feed ?? []).length) break;
+      }
+      return out;
+    },
+    // A picture for a link card (at most about 1 MB). Returns the blob to put in the card.
+    async uploadBlob(bytes, mime) {
+      const send = async () => {
+        const res = await fetchImpl(new URL('/xrpc/com.atproto.repo.uploadBlob', host), { method: 'POST', headers: { 'content-type': mime, authorization: `Bearer ${jwt}` }, body: bytes });
+        const json = await res.json().catch(() => null);
+        if (!res.ok) throw Object.assign(new Error(json?.message || json?.error || `HTTP ${res.status}`), { code: json?.error === 'ExpiredToken' ? 'expired' : res.status === 401 ? 'auth' : `http-${res.status}`, status: res.status });
+        return json?.blob ?? null;
+      };
+      try { return await send(); } catch (e) {
+        if (e.code !== 'expired' || !creds) throw e;
+        await login(creds.identifier, creds.password);
+        return send();
+      }
+    },
+    // One post of our own (not a reply) with its facets and, if there is one, a link card. Never repeated by itself on an error: a second try could post it twice.
+    async createPost({ text, facets, langs, card }) {
+      const record = {
+        $type: 'app.bsky.feed.post', text, createdAt: new Date().toISOString(), ...(langs?.length ? { langs } : {}), ...(facets?.length ? { facets } : {}),
+        ...(card ? { embed: { $type: 'app.bsky.embed.external', external: card } } : {}),
+      };
+      return authed('com.atproto.repo.createRecord', { method: 'POST', body: { repo: me.did, collection: 'app.bsky.feed.post', record }, retry: false });
+    },
   };
 }
 
