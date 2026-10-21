@@ -1193,5 +1193,29 @@
   "tags": [],
   "mature": false,
   "at": "2026-10-20"
+ },
+ "gog-torchlight-ii": {
+  "source": "gog",
+  "year": 2012,
+  "genres": [
+   "Role-playing",
+   "Action",
+   "Fantasy"
+  ],
+  "tags": [
+   "Action",
+   "Indie",
+   "Fantasy",
+   "Atmospheric",
+   "Role-playing",
+   "Classic",
+   "Multiplayer",
+   "Isometric",
+   "Hack and Slash",
+   "Dungeon Crawler",
+   "Steampunk"
+  ],
+  "mature": false,
+  "at": "2026-10-21"
  }
 }
