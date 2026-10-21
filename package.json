@@ -47,7 +47,8 @@
     "tags:research": "node scripts/tag-research.mjs",
     "facts": "node scripts/enrich-facts.mjs",
     "niche:test": "node scripts/test-niche.mjs",
-    "bskyposts:test": "node --test scripts/test-post-bluesky.mjs"
+    "bskyposts:test": "node --test scripts/test-post-bluesky.mjs",
+    "morning:test": "node --test scripts/test-morning.mjs"
   },
   "dependencies": {
     "astro": "^7.3.5",
