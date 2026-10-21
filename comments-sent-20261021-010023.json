@@ -1,0 +1,55 @@
+{
+  "madeAt": "2026-10-21T01:00:23.366Z",
+  "run": "39524715634",
+  "private": false,
+  "entries": [
+    {
+      "block": "prices",
+      "handle": "saveandplay.com",
+      "n": 1,
+      "uri": "at://did:plc:gan3ycbgo4qmh3mevps7ovfc/app.bsky.feed.post/3mydshal2wc2z",
+      "url": "https://bsky.app/profile/exentio.sexy/post/3mydshal2wc2z",
+      "author": "exentio.sexy",
+      "text": "Ha, the Steam backlog strikes again. At least now the game has a good reason to finally get played.",
+      "approvedFile": "comments-approved-prices-20261021-005705-20261021-005921.json",
+      "approvedAt": "2026-10-21T00:59:21.112Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-21T01:00:25.180Z",
+      "replyUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mydx4vch7p2j",
+      "replyUrl": "https://bsky.app/profile/saveandplay.com/post/3mydx4vch7p2j"
+    },
+    {
+      "block": "prices",
+      "handle": "saveandplay.com",
+      "n": 2,
+      "uri": "at://did:plc:z4j7svldxamtdsdngucojsgd/app.bsky.feed.post/3mydljtva3c2c",
+      "url": "https://bsky.app/profile/cosmocommand.bsky.social/post/3mydljtva3c2c",
+      "author": "cosmocommand.bsky.social",
+      "text": "Game Boy absolutely counts. Handhelds are handhelds, and the Deck is a great way to keep that habit going.",
+      "approvedFile": "comments-approved-prices-20261021-005705-20261021-005921.json",
+      "approvedAt": "2026-10-21T00:59:21.112Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-21T01:01:32.715Z",
+      "replyUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mydx6vpfip2x",
+      "replyUrl": "https://bsky.app/profile/saveandplay.com/post/3mydx6vpfip2x"
+    },
+    {
+      "block": "prices",
+      "handle": "saveandplay.com",
+      "n": 3,
+      "uri": "at://did:plc:rocsccli2x7nnftfscqr6dny/app.bsky.feed.post/3myduwdbv4k2s",
+      "url": "https://bsky.app/profile/thetruewisegamer.bsky.social/post/3myduwdbv4k2s",
+      "author": "thetruewisegamer.bsky.social",
+      "text": "From what I know, Deadlock is still an invite-only playtest, so access goes through invites from friends who already play. Worth checking its Steam page for the latest, in case that has changed.",
+      "approvedFile": "comments-approved-prices-20261021-005705-20261021-005921.json",
+      "approvedAt": "2026-10-21T00:59:21.112Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-21T01:02:59.005Z",
+      "replyUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mydxbhytze2n",
+      "replyUrl": "https://bsky.app/profile/saveandplay.com/post/3mydxbhytze2n"
+    }
+  ]
+}
