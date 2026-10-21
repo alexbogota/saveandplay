@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#0D1117"/>
+<rect x="56" y="22" width="1088" height="586" rx="28" fill="#161B22" stroke="#262D38"/>
+<text x="100" y="100" font-size="44" font-weight="800" fill="#FFFFFF" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">Steam demos and Next Fest</text>
+<text x="100" y="146" font-size="28" fill="#9AA5B4" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">A free demo is its own App ID, and it can be switched off</text>
+<rect x="100" y="190" width="400" height="90" rx="16" fill="none" stroke="#3DDC97" stroke-width="4"/>
+<text x="300" y="248" font-size="32" font-weight="700" text-anchor="middle" fill="#E8ECF1" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">Demo (free)</text>
+<line x1="500" y1="235" x2="700" y2="235" stroke="#9AA5B4" stroke-width="4" stroke-dasharray="10 8"/>
+<rect x="700" y="190" width="400" height="90" rx="16" fill="#FFB454"/>
+<text x="900" y="248" font-size="32" font-weight="700" text-anchor="middle" fill="#1B1203" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">Full game</text>
+<text x="600" y="220" font-size="26" text-anchor="middle" fill="#9AA5B4" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">linked</text>
+<text x="100" y="360" font-size="30" font-weight="700" fill="#FFFFFF" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">Next Fest, three times a year</text>
+<text x="100" y="420" font-size="30" fill="#E8ECF1" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">Oct 19 – 26, 2026 (now)</text>
+<text x="100" y="470" font-size="30" fill="#E8ECF1" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">Feb 22 – Mar 1, 2027</text>
+<text x="100" y="520" font-size="30" fill="#E8ECF1" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">Jun 14 – 21, 2027</text>
+<text x="100" y="578" font-size="26" fill="#9AA5B4" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">Source: Steamworks docs, read Oct 21, 2026</text>
+</svg>
