@@ -8,43 +8,43 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 32,
-      "posts": 1320,
-      "fit": 9,
+      "runs": 40,
+      "posts": 1640,
+      "fit": 11,
       "last": {
         "posts": 40,
-        "fit": 0,
-        "at": "2026-10-21T06:49:22.450Z"
+        "fit": 1,
+        "at": "2026-10-21T12:52:55.759Z"
       }
     },
     "moreAsk": {
-      "runs": 20,
-      "posts": 180,
+      "runs": 25,
+      "posts": 225,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-10-21T06:49:22.450Z"
+        "at": "2026-10-21T12:52:55.759Z"
       }
     },
     "moreRetro": {
-      "runs": 20,
-      "posts": 1320,
-      "fit": 30,
+      "runs": 25,
+      "posts": 1640,
+      "fit": 34,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-21T06:49:22.450Z"
+        "at": "2026-10-21T12:52:55.759Z"
       }
     },
     "morePlaying": {
-      "runs": 20,
-      "posts": 84,
+      "runs": 25,
+      "posts": 105,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-10-21T06:49:22.450Z"
+        "at": "2026-10-21T12:52:55.759Z"
       }
     }
   },
@@ -60,7 +60,7 @@
       "replies": 0,
       "group": "moreGaming",
       "query": "videogame",
-      "score": 5,
+      "score": 4,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -74,7 +74,7 @@
       "name": "Chris Coats",
       "text": "He tells no lies #retrogaming #RazingCore #shmups #stunningshemp #twitch",
       "createdAt": "2026-10-21T04:18:47.436Z",
-      "likes": 0,
+      "likes": 1,
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
@@ -96,7 +96,7 @@
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 4,
+      "score": 3,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -115,13 +115,68 @@
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
       "origin": "https://mastodon.subj.am/@jordan/117476167150175693",
       "media": "image: A picture taken of a Double Dragon arcade game, with Jimmy carrying a glitched purple box in Mission 3 due to color palette change. The background is a tree, l…",
       "firstSeen": "2026-10-21T06:49:22.450Z"
+    },
+    "https://mastodon.social/@Dvalin/117477991128260133": {
+      "uri": "https://mastodon.social/@Dvalin/117477991128260133",
+      "url": "https://mastodon.social/@Dvalin/117477991128260133",
+      "handle": "Dvalin@mastodon.social",
+      "name": "Dvalin Gaming",
+      "text": "Early Name Reservation for World of Warcraft: Forever officially begins October 27th. Eligible players can reserve up to 3 character names across all rulesets on a first-come, first-served basis. What name are you racing to secure first? #worldofwarcraft #warcraft #mmo #mmorpg #gaming",
+      "createdAt": "2026-10-21T08:38:06.117Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "moreGaming",
+      "query": "mmorpg",
+      "score": 7,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "media": "image: Early Name Reservation for World of Warcraft: Forever officially begins October 27th. Eligible players can reserve up to 3 character names across all rulesets …",
+      "firstSeen": "2026-10-21T12:52:55.759Z"
+    },
+    "https://mastodon.social/@troispieces/117478815831393347": {
+      "uri": "https://mastodon.social/@troispieces/117478815831393347",
+      "url": "https://mastodon.social/@troispieces/117478815831393347",
+      "handle": "troispieces@mastodon.social",
+      "name": "",
+      "text": "#retrogaming #shenmue #retro #videogames #gaming",
+      "createdAt": "2026-10-21T12:07:50.086Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image: Dude complaining about his job as a forklift driver while playing Shenmue on his free time.",
+      "firstSeen": "2026-10-21T12:52:55.759Z"
+    },
+    "https://mastodon.social/@haitchfive@oldbytes.space/117478521377915666": {
+      "uri": "https://mastodon.social/@haitchfive@oldbytes.space/117478521377915666",
+      "url": "https://mastodon.social/@haitchfive@oldbytes.space/117478521377915666",
+      "handle": "haitchfive@oldbytes.space",
+      "name": "@haitchfive",
+      "text": "Zenplay in progress #zenplay #ZXSpectrum #Speccy #Spectrum #retrogaming #pixelart #golang #foss #retrocomputing",
+      "createdAt": "2026-10-21T10:52:22.000Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 4,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://oldbytes.space/@haitchfive/117478519121982809",
+      "media": "video, no description",
+      "firstSeen": "2026-10-21T12:52:55.759Z"
     }
   }
 }
