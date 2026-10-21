@@ -269,7 +269,7 @@ test('dates', () => {
 test('makePosts: one post per channel, same deal; no channels = nothing (Nostr); no deal = "none" with the reason', () => {
   const account = withDefaults('prices', accounts.prices);
   const posts = makePosts({ id: 'prices', account, brief: { candidates: [deal], warnings: [] }, links, now: Date.parse('2026-10-08T12:00:00Z') });
-  assert.deepEqual(posts.map((p) => p.channel), ['bluesky', 'mastodon']);
+  assert.deepEqual(posts.map((p) => p.channel), ['x', 'bluesky', 'mastodon']);
   assert.ok(posts.every((p) => p.deal === deal.id && !p.none));
   assert.deepEqual(makePosts({ id: 'nostr', account: withDefaults('nostr', accounts.nostr), brief: { candidates: [deal], warnings: [] }, links, now: 0 }), []);
   const none = makePosts({ id: 'prices', account, brief: { candidates: [], warnings: ['Prices are old.'] }, links, now: 0 });
@@ -294,7 +294,7 @@ test('a new channel is only a block in the settings (no code change)', () => {
 test('tag research: the tags of accounts.json are collected, the statistics are only what the server said', () => {
   const tags = collectTags(accounts).map((t) => t.tag);
   assert.deepEqual(tags, ['CityBuilder', 'CozyGames', 'DRMFree', 'FarmingSim', 'GameDeals', 'Games', 'Gaming', 'GOG', 'IndieGala', 'IndieGames', 'Kinguin', 'PCGames', 'PCGaming', 'PointAndClick', 'RetroGames', 'RetroGaming', 'VideoGames']);
-  assert.ok(collectTags(accounts).find((t) => t.tag === 'GameDeals').where.length === 8, 'used by the channels of prices (2), prices-2 (1), prices-kinguin (2), cozy (1) and retro (2)');
+  assert.ok(collectTags(accounts).find((t) => t.tag === 'GameDeals').where.length === 10, 'used by the channels of prices (3, with X), prices-2 (2, with X), prices-kinguin (2), cozy (1) and retro (2)');
   assert.deepEqual(gameTagsOf([{ title: 'Shadow Tactics: Blades' }, { title: 'Go' }, { title: 'Shadow Tactics 2' }]).map((t) => t.tag), ['ShadowTactics', 'ShadowTactics2']);
   const now = Date.parse('2026-10-09T10:00:00Z');
   const day = (iso, uses, accounts) => ({ day: String(Date.parse(iso) / 1000), uses: String(uses), accounts: String(accounts) });
@@ -549,7 +549,7 @@ test('prices-2: the second deal of the day for the main account, Bluesky only, n
   const second = withDefaults('prices-2', accounts['prices-2']);
   assert.deepEqual(second.stores, accounts.prices.stores);
   assert.deepEqual(second.avoidRepeatsOf, ['prices']);
-  assert.deepEqual(Object.keys(second.channels), ['bluesky'], 'the Mastodon post stays one a day, made by hand');
+  assert.deepEqual(Object.keys(second.channels), ['x', 'bluesky'], 'Bluesky and X only; the Mastodon post stays one a day, made by hand');
   assert.equal(second.handle, accounts.prices.handle);
   assert.equal(second.channels.bluesky.publish.passwordEnv, accounts.prices.channels.bluesky.publish.passwordEnv);
   const state = { top: { prices: { 'gog:1': '2026-10-19', 'gog:2': '2026-10-20' }, 'prices-2': { 'gog:3': '2026-10-18' } } };

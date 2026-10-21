@@ -42,6 +42,9 @@ jobs:
       - name: Make the brief
         run: node scripts/daily-brief.mjs
 
+      - name: Collect the posts for X (the Google Sheet reads this list)
+        run: node scripts/x-sheet.mjs
+
       - name: Save the brief on the brief branch
         run: bash scripts/brief-branch.sh save
 
@@ -54,4 +57,5 @@ jobs:
             drafts/brief-*
             drafts/items-*
             drafts/post-*
+            drafts/x-posts.*
           if-no-files-found: ignore

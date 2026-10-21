@@ -1,4 +1,4 @@
-# Short links for the profiles of our social accounts (saveandplay.com/go/nostr, /go/bsky, /go/mastodon, /go/lemmy, /go/quora).
+# Short links for the profiles of our social accounts (saveandplay.com/go/nostr, /go/bsky, /go/mastodon, /go/lemmy, /go/quora, /go/x).
 # Why: the profile of a network shows the link as text, and a link with utm marks is long and ugly. A short address on our own site
 # sends the visitor (302, not 301, so a changed mark is never stuck in a browser) to the home page WITH the marks of that network,
 # so the visits from a profile can be told apart in Google Analytics (Source / medium: nostr-prices / social, Campaign: profile).
@@ -12,6 +12,7 @@
   RedirectMatch 302 ^/go/mastodon/?$ https://saveandplay.com/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=profile
   RedirectMatch 302 ^/go/lemmy/?$ https://saveandplay.com/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=profile
   RedirectMatch 302 ^/go/quora/?$ https://saveandplay.com/?utm_source=quora&utm_medium=social&utm_campaign=profile
+  RedirectMatch 302 ^/go/x/?$ https://saveandplay.com/?utm_source=x-prices&utm_medium=social&utm_campaign=profile
   RedirectMatch 302 ^/go/tumblr/?$ https://saveandplay.com/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=profile
   # Niche accounts (Cozy, Retro). Until the pages /cozy/ and /retro/ exist they lead to the home page with the marks of the account; then the target changes to the page.
   RedirectMatch 302 ^/go/bsky-cozy/?$ https://saveandplay.com/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=profile

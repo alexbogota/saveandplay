@@ -23,6 +23,26 @@
       "dealsWithoutNews": true,
       "gogNews": true,
       "channels": {
+        "x": {
+          "enabled": true,
+          "subid": "x-prices",
+          "utmSource": "x-prices",
+          "maxChars": 270,
+          "linkChars": 23,
+          "dateFormat": "MMM D",
+          "disclosure": "Ad",
+          "baseTags": ["PCGaming"],
+          "storeTags": {"GOG": "GOG", "IndieGala": "IndieGala"},
+          "gameTag": true,
+          "rotatingTags": ["{store}", "{game}", "GameDeals"],
+          "rotatingCount": 1,
+          "maxTags": 2,
+          "template": [
+            "{title}: -{discount}% at {store}\n{price} (was {was})\nPrice checked {checked}.{ends}{lowest}",
+            "{link}",
+            "{tags}\n{disclosure}"
+          ]
+        },
         "bluesky": {
           "enabled": true,
           "publish": { "enabled": true, "passwordEnv": "BSKY_APP_PASSWORD" },
@@ -100,6 +120,26 @@
       "gogNews": false,
       "maxTopics": 0,
       "channels": {
+        "x": {
+          "enabled": true,
+          "subid": "x-prices",
+          "utmSource": "x-prices",
+          "maxChars": 270,
+          "linkChars": 23,
+          "dateFormat": "MMM D",
+          "disclosure": "Ad",
+          "baseTags": ["PCGaming"],
+          "storeTags": {"GOG": "GOG", "IndieGala": "IndieGala"},
+          "gameTag": true,
+          "rotatingTags": ["{store}", "{game}", "GameDeals"],
+          "rotatingCount": 1,
+          "maxTags": 2,
+          "template": [
+            "{title}: -{discount}% at {store}\n{price} (was {was})\nPrice checked {checked}.{ends}{lowest}",
+            "{link}",
+            "{tags}\n{disclosure}"
+          ]
+        },
         "bluesky": {
           "enabled": true,
           "publish": { "enabled": true, "passwordEnv": "BSKY_APP_PASSWORD" },
@@ -247,6 +287,27 @@
       "gogNews": false,
       "maxTopics": 0,
       "channels": {
+        "x": {
+          "enabled": true,
+          "subid": "x-cozy",
+          "utmSource": "x-cozy",
+          "maxChars": 270,
+          "linkChars": 23,
+          "dateFormat": "MMM D",
+          "disclosure": "Ad",
+          "baseTags": ["PCGaming"],
+          "storeTags": {"GOG": "GOG", "IndieGala": "IndieGala"},
+          "factTags": { "cozy": "CozyGames", "relaxing": "CozyGames", "farming": "FarmingSim", "city builder": "CityBuilder", "point&click": "PointAndClick" },
+          "gameTag": true,
+          "rotatingTags": ["{store}", "{game}"],
+          "rotatingCount": 1,
+          "maxTags": 2,
+          "template": [
+            "{title}: -{discount}% at {store}\n{price} (was {was})\nPrice checked {checked}.{ends}{lowest}",
+            "{link}",
+            "{tags}\n{disclosure}"
+          ]
+        },
         "bluesky": {
           "enabled": true,
           "publish": { "enabled": true, "passwordEnv": "BSKY_APP_PASSWORD_COZY" },
@@ -298,6 +359,26 @@
       "gogNews": false,
       "maxTopics": 0,
       "channels": {
+        "x": {
+          "enabled": true,
+          "subid": "x-retro",
+          "utmSource": "x-retro",
+          "maxChars": 270,
+          "linkChars": 23,
+          "dateFormat": "MMM D",
+          "disclosure": "Ad",
+          "baseTags": ["RetroGaming"],
+          "storeTags": {"GOG": "GOG"},
+          "gameTag": true,
+          "rotatingTags": ["{store}", "PCGaming", "{game}"],
+          "rotatingCount": 1,
+          "maxTags": 2,
+          "template": [
+            "{title}: -{discount}% at {store}\n{price} (was {was})\nPrice checked {checked}.{ends}{lowest}",
+            "{link}",
+            "{tags}\n{disclosure}"
+          ]
+        },
         "bluesky": {
           "enabled": true,
           "publish": { "enabled": true, "passwordEnv": "BSKY_APP_PASSWORD_RETRO" },

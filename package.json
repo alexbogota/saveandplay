@@ -30,6 +30,8 @@
     "tumblr:auth": "node scripts/tumblr-auth.mjs",
     "tumblr:secret": "node scripts/tumblr-secret.mjs",
     "tumblr:test": "node scripts/test-tumblr.mjs",
+    "x:test": "node --test scripts/test-x-sheet.mjs",
+    "x:sheet": "node scripts/x-sheet.mjs",
     "posts:test": "node scripts/test-posts.mjs",
     "kinguin:test": "node scripts/test-kinguin.mjs",
     "loaded:fetch": "node scripts/loaded-fetch.mjs",

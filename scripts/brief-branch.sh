@@ -2,7 +2,7 @@
 # Keeps the daily brief on its own git branch called "brief", so the main branch (and the site deploy) is never touched.
 #
 #   bash scripts/brief-branch.sh load    before the brief: get yesterday's state (drafts/brief-state.json)
-#   bash scripts/brief-branch.sh save    after the brief: put drafts/brief-*.md, brief-*.json, items-*.json and the ready posts post-*.md on the branch and push it
+#   bash scripts/brief-branch.sh save    after the brief: put drafts/brief-*.md, brief-*.json, items-*.json, the ready posts post-*.md and the list for X (x-posts.json, x-posts.csv) on the branch and push it
 #
 # Used by the "Daily brief" workflow on GitHub. Every day is one commit, so the branch history is an archive of all briefs.
 # Environment: BRIEF_BRANCH (default "brief"), BRIEF_REMOTE (default "origin").
@@ -16,6 +16,8 @@ load() {
   if git fetch --quiet "$REMOTE" "$BRANCH" 2>/dev/null && git cat-file -e FETCH_HEAD:brief-state.json 2>/dev/null; then
     mkdir -p drafts
     git show FETCH_HEAD:brief-state.json > drafts/brief-state.json
+    # the list of posts for X keeps the last 7 days (scripts/x-sheet.mjs), so a missed day is still in the Google Sheet
+    git cat-file -e FETCH_HEAD:x-posts.json 2>/dev/null && git show FETCH_HEAD:x-posts.json > drafts/x-posts.json
     echo "Loaded the earlier state from the $BRANCH branch."
   else
     echo "No earlier state yet (first run)."
@@ -24,7 +26,7 @@ load() {
 
 save() {
   shopt -s nullglob
-  local files=(drafts/brief-*.md drafts/brief-*.json drafts/items-*.json drafts/post-*.md)
+  local files=(drafts/brief-*.md drafts/brief-*.json drafts/items-*.json drafts/post-*.md drafts/x-posts.json drafts/x-posts.csv)
   if [ ${#files[@]} -eq 0 ]; then
     echo "No brief files in drafts/, nothing to save." >&2
     exit 1
