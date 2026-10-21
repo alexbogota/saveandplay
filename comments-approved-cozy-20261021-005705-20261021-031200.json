@@ -1,0 +1,36 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-cozy-20261021-005705.json",
+  "approvedAt": "2026-10-21T03:12:00.444Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:f6a7qqj5ozreodnhbubgp3xh/app.bsky.feed.post/3mydpm6njis5p",
+      "url": "https://bsky.app/profile/1001cranes.bsky.social/post/3mydpm6njis5p",
+      "author": "1001cranes.bsky.social",
+      "context": "Aster Initiative - do we have a good category yet for these desktop sim puzzle types? well, I love them, & this one is REALLY well done. its a meticulous 1990s recreation. you play as Joanne, and have 5 days (well, hopefully) to figure out whats up while navigating your personal life #SteamNextFest\n4 images, no description",
+      "text": "\"Desktop sim\" is the closest label I know, though it doesn't quite capture the 1990s detail. Sounds like a lovely way to spend an evening.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:g6dj7aksyzhdkselr7vvakck/app.bsky.feed.post/3mydfyozfa22o",
+      "url": "https://bsky.app/profile/8bittanookisuit.bsky.social/post/3mydfyozfa22o",
+      "author": "8bittanookisuit.bsky.social",
+      "context": "Where to even start? - Final Fantasy 6,7,8 and 9. - Skyrim - Oblivion - Resident Evil 1 & 2, except from the different boss music, that stresses me out. - Stardew Valley To name some.",
+      "text": "Stardew fits right in on a list like that. A short session still leaves you with a tiny harvest to look forward to tomorrow.",
+      "edited": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:bfx7zi52ak36o63il6nkfhn4/app.bsky.feed.post/3mydf34qa5s2x",
+      "url": "https://bsky.app/profile/blazed-little-fae.bsky.social/post/3mydf34qa5s2x",
+      "author": "blazed-little-fae.bsky.social",
+      "context": "Does anyone maybe wanna play coop on Stardew Valley with me? 🥹",
+      "text": "Hope someone joins you, it's a lovely one to share. Small tip: on PC each player needs their own copy, and co-op starts from the Co-op button on the title screen.",
+      "edited": false
+    }
+  ]
+}

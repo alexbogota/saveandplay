@@ -1,0 +1,39 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261021-005705",
+  "madeAt": "2026-10-21T03:11:47.412Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:eerxuxgmejvuapxrcqdvmxse/app.bsky.feed.post/3myduzj7j6s2v",
+      "url": "https://bsky.app/profile/how-are-u.bsky.social/post/3myduzj7j6s2v",
+      "author": "how-are-u.bsky.social",
+      "context": "I play like 3 or 4 PC games, all at least 5 years old if not far older. I'm very glad to be content with that because yeesh, who has that kind of money to spend?",
+      "text": "Nothing wrong with that, old PC games hold up and most run fine on modest hardware. A lot of the classics are sold DRM-free on GOG too, so you keep the installer.",
+      "group": "classicPC",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:nb22azmvkphsepw5ok2jmdll/app.bsky.feed.post/3mydpelywpc2a",
+      "url": "https://bsky.app/profile/boobachu.bsky.social/post/3mydpelywpc2a",
+      "author": "boobachu.bsky.social",
+      "context": "qtp with a video game that transports you back to your childhood (I never got Sonic 3, we rented it sometimes, but there's no Sonic & Knuckles gifs??????)\nlink card: Knuckles Peeks in Sonic 3 Forest; quotes @ooccouchgags.bsky.social: qtp with a video game that transports you back to your childhood",
+      "text": "Renting a game for the weekend and trying to see everything before Monday is a very specific childhood memory.",
+      "group": "childhood",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:tuqih62mmu6kaif5faesmvur/app.bsky.feed.post/3mydvyzi3yc27",
+      "url": "https://bsky.app/profile/mariosimpson64.bsky.social/post/3mydvyzi3yc27",
+      "author": "mariosimpson64.bsky.social",
+      "context": "qtp with a video game that transports you back to your childhood\nlink card: Diddy Kong in Donkey Kong 64 with Banana; quotes @asodesigner.bsky.social: qtp with a video game that transports you back to your childhood",
+      "text": "Donkey Kong 64 is a big one, that game felt endless back then.",
+      "group": "childhood",
+      "heated": false
+    }
+  ]
+}
