@@ -1,0 +1,39 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "stamp": "20261021-144143",
+  "madeAt": "2026-10-21T14:42:34.722Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:k35nqx4lyphiqcrvuxpy5lqn/app.bsky.feed.post/3myevgacfeu2z",
+      "url": "https://bsky.app/profile/gamebrief.bsky.social/post/3myevgacfeu2z",
+      "author": "gamebrief.bsky.social",
+      "context": "Do you finish games or sample them? A backlog of 200 isn't a failure, it's a library. What's your rule for deciding a game isn't for you and moving on? #backlog #gaming #steam",
+      "text": "A simple rule that works for a lot of people: give a game two hours. If it hasn't hooked you by then, move on. That also happens to match Steam's refund playtime limit, so you find out early whether it clicks.",
+      "group": "practical",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:pgvvzwgtpqdirhw2v43nk2nm/app.bsky.feed.post/3myeu5eg3qk2z",
+      "url": "https://bsky.app/profile/meikuio.bsky.social/post/3myeu5eg3qk2z",
+      "author": "meikuio.bsky.social",
+      "context": "When you buy a game, which matters more: the lowest price, playing offline, or knowing you can still access it years from now? What would make you choose a physical copy?\nimage: Editorial illustration of a hand holding an unmarked game cartridge beside a locked glass cabinet with a luminous game tile and a handheld console nearby.",
+      "text": "Access years from now is the one that price can't fix later. DRM-free games, like the ones on GOG, cover a lot of it: you keep the installer, it plays offline, and it doesn't depend on a launcher or an account.",
+      "group": "practical",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:vdg627mda3cytlf3thvm6nkm/app.bsky.feed.post/3myenhgj7nc2b",
+      "url": "https://bsky.app/profile/taylorrrr94.bsky.social/post/3myenhgj7nc2b",
+      "author": "taylorrrr94.bsky.social",
+      "context": "Should I download Red Dead Redemption 2 for my Steam Deck? 🤔",
+      "text": "Fair question, it's a huge install. Check the Steam Deck compatibility badge on the store page and your free storage first, and an SD card helps if the internal drive is tight.",
+      "group": "deck",
+      "heated": false
+    }
+  ]
+}

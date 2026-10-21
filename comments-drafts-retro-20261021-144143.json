@@ -1,0 +1,30 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261021-144143",
+  "madeAt": "2026-10-21T14:42:34.999Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:7pnz5l2ubwnzfpk7kfc6kyog/app.bsky.feed.post/3myf6t6knx22l",
+      "url": "https://bsky.app/profile/vilegentleman.bsky.social/post/3myf6t6knx22l",
+      "author": "vilegentleman.bsky.social",
+      "context": "The first I remember playing is that tanks game on DoS where each player has a tank on opposite sides of the screen and you take turns fine-tuning the angle to fire at your opponent first. Cant find a gif because I don't remember the title but it was the first game I remember that made me want more",
+      "text": "Sounds like the DOS artillery duels, where you tune the angle and power and hope. Scorched Earth is the best known of them, in case that's the one you're thinking of.",
+      "verify": "Название Scorched Earth — моя догадка по описанию («танки, угол и сила, по очереди»); автор сам название не помнит. Текст осторожный («in case»), но проверьте, что вас это устраивает.",
+      "group": "classicPC",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:pnbzlrrss7k35fo4tt7hb3nt/app.bsky.feed.post/3mydyoqapos25",
+      "url": "https://bsky.app/profile/marymajora.bsky.social/post/3mydyoqapos25",
+      "author": "marymajora.bsky.social",
+      "context": "I’m not a Star Wars person but I really want to play Dark Forces again!! This was my first video game I ever played on pc. Maybe a stream of this soon? 👀\nimage, no description",
+      "text": "Dark Forces as a first PC game is a great start. There's a remaster from 2024 that runs on modern PCs, so no DOS fiddling needed.",
+      "group": "childhood",
+      "heated": false
+    }
+  ]
+}

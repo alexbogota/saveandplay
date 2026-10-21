@@ -1,0 +1,19 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261021-144143",
+  "madeAt": "2026-10-21T14:42:34.895Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:ir3ml2kmzltci75vxbxaazm4/app.bsky.feed.post/3mydzlhauac2d",
+      "url": "https://bsky.app/profile/kaaboose.bsky.social/post/3mydzlhauac2d",
+      "author": "kaaboose.bsky.social",
+      "context": "Choose this game browsing through Steam Next Fest and promptly lost hours of my life. Can you really put Cozy and Dystopian together? Because that what it felt like. Papers please but with not time and running a store. I'll be getting the full version when available.\nlink card: Probably Stolen - Cyberpunk Shopkeeper Sim on Steam",
+      "text": "A Papers, Please shopkeeper is a fun way to put it. Since you're planning on the full version, wishlisting it on Steam means you get a notification when it releases.",
+      "group": "evening",
+      "heated": false
+    }
+  ]
+}
