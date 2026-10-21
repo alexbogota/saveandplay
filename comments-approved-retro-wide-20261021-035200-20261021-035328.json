@@ -1,0 +1,36 @@
+{
+  "account": "retro-wide",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-retro-wide-20261021-035200.json",
+  "approvedAt": "2026-10-21T03:53:28.183Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:7wuerz4cqoccxdx7piwj7yyt/app.bsky.feed.post/3mydqgu7wzk2f",
+      "url": "https://bsky.app/profile/busterhearts-type9.bsky.social/post/3mydqgu7wzk2f",
+      "author": "busterhearts-type9.bsky.social",
+      "context": "Honestly, I've already decided to not buy anymore consoles, and there's a hard limit on what games my PC can play. So nowadays, I'm just buying old games that I missed out on or the occasional indie.... And even then I'm mostly just playing the same 10 games most of the time 😕",
+      "text": "Classics are a good use of a PC with limits, they barely ask for anything. And playing the same ten favorites is a hobby of its own.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:i5vz2ke64srmny2jzwi7x7x6/app.bsky.feed.post/3mydnziccfc2j",
+      "url": "https://bsky.app/profile/hadair.bsky.social/post/3mydnziccfc2j",
+      "author": "hadair.bsky.social",
+      "context": "I watched a whole playthrough of the 2nd game when recovering from surgery a long time ago. Very funny and very wonky (just look at how Twinsen runs in the DOS version). Never did try the remake though I have it. It does look good though, hoping it captures the original vibe.",
+      "text": "Twinsen's run in the DOS version is half the charm. Wonky in the best way.",
+      "edited": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:jnktebhsjjr4laipcdw7pog5/app.bsky.feed.post/3mydq5a7pmc2e",
+      "url": "https://bsky.app/profile/blitzer18150.bsky.social/post/3mydq5a7pmc2e",
+      "author": "blitzer18150.bsky.social",
+      "context": "qtp with a video game that transports you back to your childhood\nlink card: Stronghold Crusader Wolf Taunt (волк насмешка); quotes @fimbulwinterfrost.bsky.social: qtp with a video game that transports you back to your childhood",
+      "text": "The Wolf's taunts were half the fun of Crusader.",
+      "edited": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "account": "cozy-wide",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-cozy-wide-20261021-035200.json",
+  "approvedAt": "2026-10-21T03:53:28.054Z",
+  "items": [
+    {
+      "n": 2,
+      "uri": "at://did:plc:pagj73k25vtrduru3ep3zomh/app.bsky.feed.post/3mydm2louac2m",
+      "url": "https://bsky.app/profile/tickingtpk.bsky.social/post/3mydm2louac2m",
+      "author": "tickingtpk.bsky.social",
+      "context": "What's a game you can replay a dozen times and still have a good time with? I need to know what everybody's comfort games are. #GamingCommunity #VideoGames",
+      "text": "Stardew Valley is mine. Each season gives a replay a slightly different shape, so it never feels like the same evening twice.",
+      "edited": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:ndycsxzb6kgiz6ji3otv2jgn/app.bsky.feed.post/3myds56whnc2p",
+      "url": "https://bsky.app/profile/sometimes.bsky.social/post/3myds56whnc2p",
+      "author": "sometimes.bsky.social",
+      "context": "What about a life sim for the gamers without a Microsoft operating system or device?",
+      "text": "Stardew Valley has a native Linux version and runs well on Steam Deck, if that helps.",
+      "edited": false
+    }
+  ]
+}
