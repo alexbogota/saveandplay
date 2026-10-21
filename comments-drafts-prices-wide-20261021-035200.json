@@ -1,0 +1,39 @@
+{
+  "account": "prices-wide",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "stamp": "20261021-035200",
+  "madeAt": "2026-10-21T03:52:31.024Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:6qwew4woo7kldtjk6ubbfuut/app.bsky.feed.post/3mydlukfils24",
+      "url": "https://bsky.app/profile/kimmasters.bsky.social/post/3mydlukfils24",
+      "author": "kimmasters.bsky.social",
+      "context": "Is this some kind of scam that I don’t know about?￼I keep getting emailed receipts for stuff I didn’t buy, but the charges don’t show up on my credit card accounts. There are no particular links to click so I don’t know what the game is. ￼",
+      "text": "Fake receipts for things you never bought are a common email scam: the goal is to get you to click or call. Ignore the links, check your purchase history by logging in to the store directly, and report the email as phishing.",
+      "group": "buyingHelp",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:quf2ilkhtz6cq3xmqodnug6a/app.bsky.feed.post/3mydlsev4vs27",
+      "url": "https://bsky.app/profile/erikaherschel.bsky.social/post/3mydlsev4vs27",
+      "author": "erikaherschel.bsky.social",
+      "context": "I haven’t been excited for a Final Fantasy game since I was a teenager. It feels so nostalgic to be looking forward to one of these. I loved the demo so much, too.",
+      "text": "Good to hear the demo landed that well. That feeling of looking forward to a game again is hard to beat.",
+      "group": "broadAsk",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:rdfqh4rbqceo7byjlvg6erlh/app.bsky.feed.post/3mydkfsyfrc26",
+      "url": "https://bsky.app/profile/ilyiseepy.bsky.social/post/3mydkfsyfrc26",
+      "author": "ilyiseepy.bsky.social",
+      "context": "Funny story; I left a note in that PTO request saying something to the effect of \"new videogame coming out, making a long weekend of it\" and my boss approached me today asking what game it was. We proceeded to yap for like 40 minutes about WoW, and how we're both looking forward to Forever :)",
+      "text": "A boss who turns a PTO note into 40 minutes of game talk is a keeper. Enjoy the long weekend.",
+      "group": "broadAsk",
+      "heated": false
+    }
+  ]
+}

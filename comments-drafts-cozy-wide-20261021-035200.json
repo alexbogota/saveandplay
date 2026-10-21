@@ -1,0 +1,40 @@
+{
+  "account": "cozy-wide",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261021-035200",
+  "madeAt": "2026-10-21T03:52:31.136Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:kf54ju7yc7llvyvctnaxe7jf/app.bsky.feed.post/3mydaphwgk22k",
+      "url": "https://bsky.app/profile/nuggethumanperson.bsky.social/post/3mydaphwgk22k",
+      "author": "nuggethumanperson.bsky.social",
+      "context": "Any of y'all play Moonstone Island? Is it worth getting for the deck building elements if I wasn't a fan of games like stardew valley?",
+      "text": "From what I know, the deck building is part of the creature battles, and the life sim side is still a big part of the game. Worth checking recent reviews on whether that mix suits you.",
+      "verify": "Moonstone Island: проверить, что это питомцы + карточные бои + жизнь-симулятор (по моим знаниям так, свежие отзывы не смотрел).",
+      "group": "cozyAsk",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:pagj73k25vtrduru3ep3zomh/app.bsky.feed.post/3mydm2louac2m",
+      "url": "https://bsky.app/profile/tickingtpk.bsky.social/post/3mydm2louac2m",
+      "author": "tickingtpk.bsky.social",
+      "context": "What's a game you can replay a dozen times and still have a good time with? I need to know what everybody's comfort games are. #GamingCommunity #VideoGames",
+      "text": "Stardew Valley is mine. Each season gives a replay a slightly different shape, so it never feels like the same evening twice.",
+      "group": "wholesome",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:ndycsxzb6kgiz6ji3otv2jgn/app.bsky.feed.post/3myds56whnc2p",
+      "url": "https://bsky.app/profile/sometimes.bsky.social/post/3myds56whnc2p",
+      "author": "sometimes.bsky.social",
+      "context": "What about a life sim for the gamers without a Microsoft operating system or device?",
+      "text": "Stardew Valley has a native Linux version and runs well on Steam Deck, if that helps.",
+      "group": "stardew",
+      "heated": false
+    }
+  ]
+}
