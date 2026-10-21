@@ -1,0 +1,40 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "stamp": "20261021-005705",
+  "madeAt": "2026-10-21T00:58:12.503Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:gan3ycbgo4qmh3mevps7ovfc/app.bsky.feed.post/3mydshal2wc2z",
+      "url": "https://bsky.app/profile/exentio.sexy/post/3mydshal2wc2z",
+      "author": "exentio.sexy",
+      "context": "One of my favorite artists has their Skeb open and within my budget‼️ I've been looking forward to playing the game they illustrated, and then I bought it and kept it rotting in my Steam library lol",
+      "text": "Ha, the Steam backlog strikes again. At least now the game has a good reason to finally get played.",
+      "group": "practical",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:z4j7svldxamtdsdngucojsgd/app.bsky.feed.post/3mydljtva3c2c",
+      "url": "https://bsky.app/profile/cosmocommand.bsky.social/post/3mydljtva3c2c",
+      "author": "cosmocommand.bsky.social",
+      "context": "I've only played the Switch (and now Steam Deck / Switch 2) for a decade anyway. Well, and the Game Boy obviously. That counts right?",
+      "text": "Game Boy absolutely counts. Handhelds are handhelds, and the Deck is a great way to keep that habit going.",
+      "group": "deck",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:rocsccli2x7nnftfscqr6dny/app.bsky.feed.post/3myduwdbv4k2s",
+      "url": "https://bsky.app/profile/thetruewisegamer.bsky.social/post/3myduwdbv4k2s",
+      "author": "thetruewisegamer.bsky.social",
+      "context": "maybe someone smarter than me can explain why deadlock is like still not freely available? like i know a lot about the game and i feel like doing a whole song and dance to just play it is not worth that and kinda insulting.",
+      "text": "From what I know, Deadlock is still an invite-only playtest, so access goes through invites from friends who already play. Worth checking its Steam page for the latest, in case that has changed.",
+      "verify": "Проверить на странице Deadlock в Steam, что игра всё ещё только по приглашениям (Википедия на май 2026 так пишет, свежее не нашёл).",
+      "group": "waitForSale",
+      "heated": false
+    }
+  ]
+}
