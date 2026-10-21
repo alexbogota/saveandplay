@@ -8,43 +8,43 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 40,
-      "posts": 1640,
-      "fit": 11,
+      "runs": 48,
+      "posts": 1960,
+      "fit": 14,
       "last": {
         "posts": 40,
         "fit": 1,
-        "at": "2026-10-21T12:52:55.759Z"
+        "at": "2026-10-21T18:46:42.834Z"
       }
     },
     "moreAsk": {
-      "runs": 25,
-      "posts": 225,
+      "runs": 30,
+      "posts": 270,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-10-21T12:52:55.759Z"
+        "at": "2026-10-21T18:46:42.834Z"
       }
     },
     "moreRetro": {
-      "runs": 25,
-      "posts": 1640,
-      "fit": 34,
+      "runs": 30,
+      "posts": 1960,
+      "fit": 40,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-21T12:52:55.759Z"
+        "at": "2026-10-21T18:46:42.834Z"
       }
     },
     "morePlaying": {
-      "runs": 25,
-      "posts": 105,
+      "runs": 30,
+      "posts": 126,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-10-21T12:52:55.759Z"
+        "at": "2026-10-21T18:46:42.834Z"
       }
     }
   },
@@ -123,42 +123,6 @@
       "media": "image: A picture taken of a Double Dragon arcade game, with Jimmy carrying a glitched purple box in Mission 3 due to color palette change. The background is a tree, l…",
       "firstSeen": "2026-10-21T06:49:22.450Z"
     },
-    "https://mastodon.social/@Dvalin/117477991128260133": {
-      "uri": "https://mastodon.social/@Dvalin/117477991128260133",
-      "url": "https://mastodon.social/@Dvalin/117477991128260133",
-      "handle": "Dvalin@mastodon.social",
-      "name": "Dvalin Gaming",
-      "text": "Early Name Reservation for World of Warcraft: Forever officially begins October 27th. Eligible players can reserve up to 3 character names across all rulesets on a first-come, first-served basis. What name are you racing to secure first? #worldofwarcraft #warcraft #mmo #mmorpg #gaming",
-      "createdAt": "2026-10-21T08:38:06.117Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreGaming",
-      "query": "mmorpg",
-      "score": 7,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "image: Early Name Reservation for World of Warcraft: Forever officially begins October 27th. Eligible players can reserve up to 3 character names across all rulesets …",
-      "firstSeen": "2026-10-21T12:52:55.759Z"
-    },
-    "https://mastodon.social/@troispieces/117478815831393347": {
-      "uri": "https://mastodon.social/@troispieces/117478815831393347",
-      "url": "https://mastodon.social/@troispieces/117478815831393347",
-      "handle": "troispieces@mastodon.social",
-      "name": "",
-      "text": "#retrogaming #shenmue #retro #videogames #gaming",
-      "createdAt": "2026-10-21T12:07:50.086Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "image: Dude complaining about his job as a forklift driver while playing Shenmue on his free time.",
-      "firstSeen": "2026-10-21T12:52:55.759Z"
-    },
     "https://mastodon.social/@haitchfive@oldbytes.space/117478521377915666": {
       "uri": "https://mastodon.social/@haitchfive@oldbytes.space/117478521377915666",
       "url": "https://mastodon.social/@haitchfive@oldbytes.space/117478521377915666",
@@ -170,13 +134,104 @@
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 4,
+      "score": 3,
       "question": false,
       "heated": false,
       "isReply": false,
       "origin": "https://oldbytes.space/@haitchfive/117478519121982809",
       "media": "video, no description",
       "firstSeen": "2026-10-21T12:52:55.759Z"
+    },
+    "https://mastodon.social/@followerspanda/117479849701788293": {
+      "uri": "https://mastodon.social/@followerspanda/117479849701788293",
+      "url": "https://mastodon.social/@followerspanda/117479849701788293",
+      "handle": "followerspanda@mastodon.social",
+      "name": "Followerspanda",
+      "text": "Asmongold was Twitch's most-watched streamer in September 2026. He pulled nearly 10 million hours watched, up 189% from August, riding long World of Warcraft sessions during the game's resurgence. Lesson for creators: when your main game gets a big moment, go all in and stream it consistently. Source: Streams Charts (Sep 2026) #FollowersPanda #Asmongold #Twitch #TwitchStreamer #WorldOfWarcraft #WoW #StreamerNews #LiveStreaming #StreamerLife #ContentCreator #GrowOnTwitch #GamingCommunity #Twit",
+      "createdAt": "2026-10-21T16:30:45.698Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "moreGaming",
+      "query": "gamingcommunity",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image, no description",
+      "firstSeen": "2026-10-21T18:46:42.834Z"
+    },
+    "https://mastodon.social/@Dvalin/117480255033273244": {
+      "uri": "https://mastodon.social/@Dvalin/117480255033273244",
+      "url": "https://mastodon.social/@Dvalin/117480255033273244",
+      "handle": "Dvalin@mastodon.social",
+      "name": "Dvalin Gaming",
+      "text": "The World of Warcraft: Forever Stress Test is happening today, October 21st, and it's 100% free for everyone, no active sub or beta invite required. Just install the \"WoW Forever Stress Test\" In BattleNet, hop in, and help melt the servers #worldofwarcraft #warcraft #mmo #mmorpg #gaming",
+      "createdAt": "2026-10-21T18:13:50.565Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "moreGaming",
+      "query": "mmorpg",
+      "score": 6,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "media": "image, no description",
+      "firstSeen": "2026-10-21T18:46:42.834Z"
+    },
+    "https://mastodon.social/@robavince/117479763064242102": {
+      "uri": "https://mastodon.social/@robavince/117479763064242102",
+      "url": "https://mastodon.social/@robavince/117479763064242102",
+      "handle": "robavince@mastodon.social",
+      "name": "robavince",
+      "text": "Tower of *laser* power! #retrogaming",
+      "createdAt": "2026-10-21T16:08:43.713Z",
+      "likes": 3,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 4,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image: Pioneer LaserActive turned on its side lol",
+      "firstSeen": "2026-10-21T18:46:42.834Z"
+    },
+    "https://mastodon.social/@BossRushNetwork/117479511541707501": {
+      "uri": "https://mastodon.social/@BossRushNetwork/117479511541707501",
+      "url": "https://mastodon.social/@BossRushNetwork/117479511541707501",
+      "handle": "BossRushNetwork@mastodon.social",
+      "name": "The Boss Rush Network",
+      "text": "What happens when the games we love disappear forever? 🎮 In this clip from the Boss Rush Podcast, Corey Dirrig, LeRon Dawkins, and Andre Wilson explore the growing fight to preserve video game history as digital storefronts close, licenses expire, and online servers shut down. Should publishers control access to older games, or should players have a way to keep these experiences alive for future generations? #BossRushPodcast #GamePreservation #RetroGaming #GamingNews #VideoGames",
+      "createdAt": "2026-10-21T15:04:45.783Z",
+      "likes": 2,
+      "replies": 1,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 9,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "media": "video, no description",
+      "firstSeen": "2026-10-21T18:46:42.834Z"
+    },
+    "https://mastodon.social/@kuroneko@socials.thundercleess.com/117479104298410420": {
+      "uri": "https://mastodon.social/@kuroneko@socials.thundercleess.com/117479104298410420",
+      "url": "https://mastodon.social/@kuroneko@socials.thundercleess.com/117479104298410420",
+      "handle": "kuroneko@socials.thundercleess.com",
+      "name": "Blackcat",
+      "text": "🎃 10 Days of Horror — Day 10/10 — October 21 Lead: Vampire: The Masquerade – Bloodlines 2 (2025) is the long-awaited return to World of Darkness. It's a vampire RPG of politics, blood, and bad decisions in Seattle's night. Also released today: 📅 2015: DISTRAINT 📅 2003: Nosferatu: The Wrath of Malachi 📅 2013: Eldritch #Gaming #OnThisDay #RetroGaming #Horror #Spooktober #VampireTheMasqueradeBloodlines2",
+      "createdAt": "2026-10-21T13:21:07.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 3,
+      "question": false,
+      "heated": true,
+      "isReply": false,
+      "origin": "https://socials.thundercleess.com/@kuroneko/117479104019532480",
+      "media": "4 images: Artwork for Vampire: The Masquerade – Bloodlines 2 / Artwork for DISTRAINT / Artwork for Nosferatu: The Wrath of Malachi / Artwork for Eldritch",
+      "firstSeen": "2026-10-21T18:46:42.834Z"
     }
   }
 }
