@@ -1,0 +1,67 @@
+{
+  "block": "cozy",
+  "handle": "cozygame.bsky.social",
+  "madeAt": "2026-10-21T13:12:38.203Z",
+  "days": 14,
+  "total": 29,
+  "mature": {
+    "count": 20,
+    "withLike": 15,
+    "withReply": 4,
+    "likes": 17,
+    "replies": 4,
+    "byProgram": 0
+  },
+  "top": [
+    {
+      "uri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3mybqukajzc2h",
+      "url": "https://bsky.app/profile/cozygame.bsky.social/post/3mybqukajzc2h",
+      "text": "Tiny Glade is such a gentle one. If you like that calm building feel, Townscaper and Dorfromantik are both worth a look, very low-pressure.",
+      "at": "2026-10-20T04:03:03.169Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "vgpunx.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3my6gnobeh22p",
+      "url": "https://bsky.app/profile/cozygame.bsky.social/post/3my6gnobeh22p",
+      "text": "A redemption arc that ends in parsnips, I love it. Shane or Sebastian might suit someone with a past, since both have quiet, slower heart events.",
+      "at": "2026-10-18T20:22:15.877Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "interfaceleader.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3my6glunkik2f",
+      "url": "https://bsky.app/profile/cozygame.bsky.social/post/3my6glunkik2f",
+      "text": "Oh, that sounds like a lovely way to spend a few evenings. The Next Fest page lets you filter by tag, so searching for Cozy or Farming Sim narrows it down fast. Wishlisting what you like keeps it for later",
+      "at": "2026-10-18T20:21:15.459Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "rosevidz.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3my477szccs2x",
+      "url": "https://bsky.app/profile/cozygame.bsky.social/post/3my477szccs2x",
+      "text": "Perfect season for it. It’s a slow, character-focused start, so there’s no need to rush.",
+      "at": "2026-10-17T23:03:55.423Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "renwillis.mstdn.social.ap.brid.gy"
+    },
+    {
+      "uri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3my4773yebs23",
+      "url": "https://bsky.app/profile/cozygame.bsky.social/post/3my4773yebs23",
+      "text": "A Short Hike is a few gentle hours, Unpacking tells a whole story in an evening or two, and Dorfromantik is easy to put down and pick up again.",
+      "at": "2026-10-17T23:03:31.276Z",
+      "likes": 2,
+      "replies": 0,
+      "reposts": 0,
+      "to": "runwithskizzers.bsky.social"
+    }
+  ]
+}
