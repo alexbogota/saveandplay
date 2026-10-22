@@ -8,43 +8,43 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 56,
-      "posts": 2320,
-      "fit": 18,
+      "runs": 64,
+      "posts": 2640,
+      "fit": 22,
       "last": {
-        "posts": 80,
+        "posts": 40,
         "fit": 1,
-        "at": "2026-10-22T00:51:27.373Z"
+        "at": "2026-10-22T06:49:34.491Z"
       }
     },
     "moreAsk": {
-      "runs": 35,
-      "posts": 315,
+      "runs": 40,
+      "posts": 360,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-10-22T00:51:27.373Z"
+        "at": "2026-10-22T06:49:34.491Z"
       }
     },
     "moreRetro": {
-      "runs": 35,
-      "posts": 2280,
-      "fit": 49,
+      "runs": 40,
+      "posts": 2600,
+      "fit": 58,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-22T00:51:27.373Z"
+        "at": "2026-10-22T06:49:34.491Z"
       }
     },
     "morePlaying": {
-      "runs": 35,
-      "posts": 147,
+      "runs": 40,
+      "posts": 168,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-10-22T00:51:27.373Z"
+        "at": "2026-10-22T06:49:34.491Z"
       }
     }
   },
@@ -196,24 +196,6 @@
       "media": "image: Pioneer LaserActive turned on its side lol",
       "firstSeen": "2026-10-21T18:46:42.834Z"
     },
-    "https://mastodon.social/@BossRushNetwork/117479511541707501": {
-      "uri": "https://mastodon.social/@BossRushNetwork/117479511541707501",
-      "url": "https://mastodon.social/@BossRushNetwork/117479511541707501",
-      "handle": "BossRushNetwork@mastodon.social",
-      "name": "The Boss Rush Network",
-      "text": "What happens when the games we love disappear forever? 🎮 In this clip from the Boss Rush Podcast, Corey Dirrig, LeRon Dawkins, and Andre Wilson explore the growing fight to preserve video game history as digital storefronts close, licenses expire, and online servers shut down. Should publishers control access to older games, or should players have a way to keep these experiences alive for future generations? #BossRushPodcast #GamePreservation #RetroGaming #GamingNews #VideoGames",
-      "createdAt": "2026-10-21T15:04:45.783Z",
-      "likes": 2,
-      "replies": 1,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 8,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "video, no description",
-      "firstSeen": "2026-10-21T18:46:42.834Z"
-    },
     "https://mastodon.social/@scottymarinara@jorts.horse/117480583331861019": {
       "uri": "https://mastodon.social/@scottymarinara@jorts.horse/117480583331861019",
       "url": "https://mastodon.social/@scottymarinara@jorts.horse/117480583331861019",
@@ -225,7 +207,7 @@
       "replies": 0,
       "group": "moreGaming",
       "query": "videogame",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -244,7 +226,7 @@
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 7,
+      "score": 6,
       "question": true,
       "heated": false,
       "isReply": false,
@@ -263,7 +245,7 @@
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -282,12 +264,31 @@
       "replies": 1,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 7,
+      "score": 6,
       "question": true,
       "heated": false,
       "isReply": false,
       "media": "image: Special Agent Leon S. Kennedy fixes his steely gaze upon his prey, lips flush with the excitement of mortal peril. Drill me, Leon. Pop me like a fucking balloo…",
       "firstSeen": "2026-10-22T00:51:27.373Z"
+    },
+    "https://mastodon.social/@mvu@sunny.garden/117482593321893744": {
+      "uri": "https://mastodon.social/@mvu@sunny.garden/117482593321893744",
+      "url": "https://mastodon.social/@mvu@sunny.garden/117482593321893744",
+      "handle": "mvu@sunny.garden",
+      "name": "MVU",
+      "text": "I beat Oracle of Seasons and moved onto Oracle of Ages -- the latter is definitely better so far with more interesting dungeons and a more lively game world. They've held up great~ #retrogaming #gameboycolor",
+      "createdAt": "2026-10-22T04:08:28.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://sunny.garden/@mvu/117482593252728695",
+      "media": null,
+      "firstSeen": "2026-10-22T06:49:34.491Z"
     }
   }
 }
