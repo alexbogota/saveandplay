@@ -1,8 +1,8 @@
 {
   "account": "Cozy and calm games",
-  "generatedAt": "2026-10-21T11:25:14.318Z",
-  "builtBy": "commit 7af3343, schedule, run #22 attempt 1",
-  "pricesCheckedAt": "2026-10-21T10:04:15.440Z",
+  "generatedAt": "2026-10-22T11:25:56.402Z",
+  "builtBy": "commit 695a9a1, schedule, run #23 attempt 1",
+  "pricesCheckedAt": "2026-10-22T10:07:10.056Z",
   "warnings": [],
   "niche": {
     "label": "Cozy",
@@ -19,8 +19,8 @@
       "was": 19.99,
       "discount": 75,
       "endsAt": "2026-10-28T15:59:00+02:00",
-      "endsInHours": 171,
-      "priceCheckedAt": "2026-10-21T10:04:15.440Z",
+      "endsInHours": 147,
+      "priceCheckedAt": "2026-10-22T10:07:04.006Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
       "drminfo": null,
       "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
@@ -52,12 +52,12 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 12,
+        "days": 13,
         "lowest": false,
         "since": "2026-10-07"
       },
-      "offeredOn": "2026-10-17",
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=deals-2026-10-21",
+      "offeredOn": "2026-10-21",
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=deals-2026-10-22",
       "linkKind": "link to our site",
       "whyToday": [
         "deepest-discount rank 1 of 1"
@@ -70,7 +70,7 @@
   "left": {
     "otherStore": 15,
     "hidden": 0,
-    "notNiche": 23,
+    "notNiche": 24,
     "noFacts": 0,
     "taken": 0,
     "smallDiscount": 0,
@@ -83,11 +83,18 @@
     "failed": []
   },
   "posts": {
+    "x": {
+      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Oct 22. Sale ends Oct 28.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=x-cozy&utm_medium=social&utm_campaign=deals-2026-10-22\n\n#PCGaming #CityBuilder\nAd",
+      "length": 148,
+      "max": 270,
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=x-cozy&utm_medium=social&utm_campaign=deals-2026-10-22",
+      "deal": "gog-simcity-4-deluxe-edition"
+    },
     "bluesky": {
-      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Oct 21. Sale ends Oct 28.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=deals-2026-10-21\n\n#GameDeals #PCGaming #CityBuilder #SimCity4DeluxeEdition\nAd",
-      "length": 184,
+      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Oct 22. Sale ends Oct 28.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=deals-2026-10-22\n\n#GameDeals #PCGaming #CityBuilder #GOG\nAd",
+      "length": 166,
       "max": 300,
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=deals-2026-10-21",
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=deals-2026-10-22",
       "deal": "gog-simcity-4-deluxe-edition"
     }
   }

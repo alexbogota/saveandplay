@@ -1,68 +1,69 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-10-21T11:25:14.318Z",
-  "builtBy": "commit 7af3343, schedule, run #22 attempt 1",
-  "pricesCheckedAt": "2026-10-21T10:04:15.440Z",
+  "generatedAt": "2026-10-22T11:25:56.402Z",
+  "builtBy": "commit 695a9a1, schedule, run #23 attempt 1",
+  "pricesCheckedAt": "2026-10-22T10:07:10.056Z",
   "warnings": [],
   "candidates": [
     {
-      "id": "gog-this-war-of-mine",
+      "id": "gog-fallout-new-vegas-ultimate-edition",
       "kind": "deal",
-      "title": "This War of Mine",
+      "title": "Fallout: New Vegas Ultimate Edition",
       "store": "GOG",
-      "price": 2.99,
+      "price": 4.99,
       "was": 19.99,
-      "discount": 85,
-      "endsAt": "2026-10-23T09:59:00+03:00",
+      "discount": 75,
+      "endsAt": "2026-10-24T10:00:00+03:00",
       "endsInHours": 44,
-      "priceCheckedAt": "2026-10-21T10:04:15.440Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
+      "priceCheckedAt": "2026-10-22T10:07:04.006Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22380/header.jpg?t=1765992876",
       "drminfo": null,
-      "coverAlt": "Cover art for This War of Mine",
+      "coverAlt": "Cover art for Fallout: New Vegas Ultimate Edition",
       "facts": {
-        "year": 2014,
+        "year": 2010,
         "genres": [
+          "Role-playing",
           "Action",
-          "Adventure",
-          "Survival"
+          "Open World"
         ],
         "tags": [
-          "Adventure",
           "Action",
-          "Indie",
           "Story Rich",
           "Atmospheric",
+          "Role-playing",
+          "Exploration",
+          "Sci-fi",
+          "Classic",
+          "First-Person",
+          "Great Soundtrack",
           "Choices Matter",
-          "Management",
-          "Survival",
-          "Resource Management",
-          "Real-Time",
-          "War",
-          "Crafting",
-          "Base Building",
-          "Emotional",
+          "Third Person",
+          "Open World",
+          "Gore",
+          "FPS",
           "Post-apocalyptic",
-          "Stealth",
-          "Psychological"
+          "Modern",
+          "Good Old Game",
+          "Western"
         ]
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 11.5,
-      "discountRank": 11,
+      "score": 10.5,
+      "discountRank": 19,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 3,
+        "days": 5,
         "lowest": false,
-        "since": "2026-10-19"
+        "since": "2026-10-05"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-21",
+      "link": "https://saveandplay.com/deals/gog/fallout-new-vegas-ultimate-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-22",
       "linkKind": "link to our site",
       "whyToday": [
         "sale ends in 44 h",
-        "deepest-discount rank 11 of 23"
+        "deepest-discount rank 19 of 24"
       ]
     },
     {
@@ -74,8 +75,8 @@
       "was": 19.99,
       "discount": 90,
       "endsAt": "2026-10-27T09:59:00+02:00",
-      "endsInHours": 141,
-      "priceCheckedAt": "2026-10-21T10:04:15.440Z",
+      "endsInHours": 117,
+      "priceCheckedAt": "2026-10-22T10:07:04.006Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/290300/header.jpg?t=1778077786",
       "drminfo": null,
       "coverAlt": "Cover art for Rebel Galaxy",
@@ -104,19 +105,19 @@
       "marketplace": false,
       "compareTo": null,
       "score": 10,
-      "discountRank": 3,
+      "discountRank": 2,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 4,
+        "days": 5,
         "lowest": false,
         "since": "2026-10-18"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/rebel-galaxy/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-21",
+      "link": "https://saveandplay.com/deals/gog/rebel-galaxy/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-22",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 3 of 23"
+        "deepest-discount rank 2 of 24"
       ]
     },
     {
@@ -128,8 +129,8 @@
       "was": 19.99,
       "discount": 90,
       "endsAt": "2026-10-29T09:59:00+02:00",
-      "endsInHours": 189,
-      "priceCheckedAt": "2026-10-21T10:04:15.440Z",
+      "endsInHours": 165,
+      "priceCheckedAt": "2026-10-22T10:07:04.006Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203140/header.jpg?t=1734461136",
       "drminfo": null,
       "coverAlt": "Cover art for Hitman: Absolution",
@@ -156,19 +157,19 @@
       "marketplace": false,
       "compareTo": null,
       "score": 10,
-      "discountRank": 4,
+      "discountRank": 3,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 2,
+        "days": 3,
         "lowest": false,
         "since": "2026-10-20"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/hitman-absolution/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-21",
+      "link": "https://saveandplay.com/deals/gog/hitman-absolution/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-22",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 4 of 23"
+        "deepest-discount rank 3 of 24"
       ]
     },
     {
@@ -180,8 +181,8 @@
       "was": 29.99,
       "discount": 90,
       "endsAt": "2026-10-27T09:59:00+02:00",
-      "endsInHours": 141,
-      "priceCheckedAt": "2026-10-21T10:04:15.440Z",
+      "endsInHours": 117,
+      "priceCheckedAt": "2026-10-22T10:07:04.006Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804",
       "drminfo": null,
       "coverAlt": "Cover art for Metro Exodus",
@@ -215,19 +216,19 @@
       "marketplace": false,
       "compareTo": null,
       "score": 10,
-      "discountRank": 2,
+      "discountRank": 1,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 4,
+        "days": 5,
         "lowest": false,
         "since": "2026-10-18"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-21",
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-22",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 2 of 23"
+        "deepest-discount rank 1 of 24"
       ]
     },
     {
@@ -239,8 +240,8 @@
       "was": 39.99,
       "discount": 90,
       "endsAt": "2026-10-28T15:59:00+02:00",
-      "endsInHours": 171,
-      "priceCheckedAt": "2026-10-21T10:04:15.440Z",
+      "endsInHours": 147,
+      "priceCheckedAt": "2026-10-22T10:07:04.006Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
       "drminfo": null,
       "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
@@ -273,147 +274,175 @@
       "marketplace": false,
       "compareTo": null,
       "score": 10,
-      "discountRank": 5,
+      "discountRank": 4,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 12,
+        "days": 13,
         "lowest": false,
         "since": "2026-10-07"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-21",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-22",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 5 of 23"
+        "deepest-discount rank 4 of 24"
       ]
     }
   ],
   "gogNews": [
     {
-      "title": "Release: Servant of the Lake",
-      "game": "servant_of_the_lake",
-      "url": "https://www.gog.com/en/game/servant_of_the_lake",
-      "newsLink": "http://www.gog.com/news/release_servant_of_the_lake",
-      "t": 1792483401000,
-      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fservant_of_the_lake"
+      "title": "Release: Terrinoth®: Heroes of Descent",
+      "game": "terrinoth_heroes_of_descent",
+      "url": "https://www.gog.com/en/game/terrinoth_heroes_of_descent",
+      "newsLink": "http://www.gog.com/news/release_terrinoth_r_heroes_of_descent",
+      "t": 1792661353000,
+      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fterrinoth_heroes_of_descent"
     },
     {
-      "title": "Release: Sector Unknown",
-      "game": "sector_unknown",
-      "url": "https://www.gog.com/en/game/sector_unknown",
-      "newsLink": "http://www.gog.com/news/release_sector_unknown",
-      "t": 1792482931000,
-      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fsector_unknown"
+      "title": "Release: Dimhaven - The Lost Source",
+      "game": "dimhaven_the_lost_source",
+      "url": "https://www.gog.com/en/game/dimhaven_the_lost_source",
+      "newsLink": "http://www.gog.com/news/release_dimhaven_the_lost_source",
+      "t": 1792575196000,
+      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fdimhaven_the_lost_source"
     },
     {
-      "title": "Coming soon: Drill Keeper",
-      "game": "drill_keeper",
-      "url": "https://www.gog.com/en/game/drill_keeper",
-      "newsLink": "http://www.gog.com/news/coming_soon_drill_keeper",
-      "t": 1792482823000,
-      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fdrill_keeper"
+      "title": "Pre-Order: Stellaris: Willpower",
+      "game": "stellaris_willpower",
+      "url": "https://www.gog.com/en/game/stellaris_willpower",
+      "newsLink": "http://www.gog.com/news/pre_order_stellaris_willpower",
+      "t": 1792574880000,
+      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fstellaris_willpower"
     }
   ],
   "topical": [
     {
-      "title": "80% of Samsung's data center memory is already sold for 2027, meaning yet another double-digit price increase for RAM expected and more likely to come",
+      "title": "Microsoft reveals Xbox Cloud Playtime prices, starting at $3.99",
+      "source": "gg.deals News",
+      "link": "https://gg.deals/gaming-news/microsoft-reveals-xbox-cloud-playtime-prices-starting-at-399/",
+      "t": 1792665289000,
+      "keyword": "prices",
+      "summary": "Wondering how much extra Xbox Cloud Gaming time will cost?"
+    },
+    {
+      "title": "Best Black Friday controller deals",
       "source": "PC Gamer",
-      "link": "https://www.pcgamer.com/hardware/memory/80-percent-of-samsungs-data-center-memory-is-already-sold-for-2027-meaning-yet-another-double-digit-price-increase-for-ram-expected-and-more-likely-to-come/",
-      "t": 1792581264000,
-      "keyword": "price",
-      "summary": "I'm clinging to the hope that the memory supply crisis resolves sooner rather than later as much as the next PC gamer. Unfortunately, judging by how much of ne…"
+      "link": "https://www.pcgamer.com/hardware/controllers/black-friday-controller-deals/",
+      "t": 1792663478000,
+      "keyword": "deals",
+      "summary": "If there's one thing I'm sure of this November, it's that there will be some great Black Friday controller deals going around. It's going to still be tough to …"
     },
     {
-      "title": "Football Manager 27 will be free to play for five days before its full release, in \"industry first\" for a game of its kind",
-      "source": "Eurogamer",
-      "link": "https://www.eurogamer.net/football-manager-27-free-to-play-five-days",
-      "t": 1792580400000,
+      "title": "Everyone gets a free ticket to World of Warcraft: Forever today as Blizzard stress tests the servers ahead of launch day",
+      "source": "PC Gamer",
+      "link": "https://www.pcgamer.com/games/world-of-warcraft/everyone-gets-a-free-ticket-to-world-of-warcraft-forever-today-as-blizzard-stress-tests-the-servers-ahead-of-launch-day/",
+      "t": 1792612716000,
       "keyword": "free",
-      "summary": "You can play Football Manager 27 on PC and Mac for free this year for five full days later this month, in a first for the series and apparently an \"industry fi…"
-    },
-    {
-      "title": "The Wolf Among Us Remastered rewards loyal fans with 50% off, but not everyone gets the same deal",
-      "source": "gg.deals News",
-      "link": "https://gg.deals/deal/the-wolf-among-us-remastered-rewards-loyal-fans-with-50-off-but-not-everyone-gets-the-same-deal/",
-      "t": 1792579846000,
-      "keyword": "deal",
-      "summary": "The Big Bad Wolf is (almost) back."
-    },
-    {
-      "title": "PlayStation's Halloween Sale 2026 is massive! Over 3,700 games and add-ons are on sale",
-      "source": "gg.deals News",
-      "link": "https://gg.deals/deal/playstations-halloween-sale-2026/",
-      "t": 1792576079000,
-      "keyword": "sale",
-      "summary": "PRAGMATA, Blue Prince, REANIMAL, and plenty of other fantastic titles are included!"
-    },
-    {
-      "title": "Cartomancy Anthology was $24.99, now it’s permanently free on Steam",
-      "source": "Indie Game Bundles",
-      "link": "https://www.indiegamebundles.com/cartomancy-anthology-was-24-99-now-its-permanently-free-on-steam/",
-      "t": 1792525864000,
-      "keyword": "free",
-      "summary": "Cartomancy Anthology has dropped its $24.99 price tag and is now permanently free on Steam. The post Cartomancy Anthology was $24.99, now it’s permanently free…"
+      "summary": "In anticipation of the full launch of World of Warcraft: Forever next month, Blizzard is throwing the gates wide open on the throwback MMO to stress test the s…"
     }
   ],
   "topics": [
     {
-      "headline": "Xbox's latest sale has Deep Rock Galactic at 70% off and more tempting deals!",
+      "headline": "Humble 15th Anniversary Sci-Fi Exposure Bundle: 8 Steam Games Including Marathon, RoboCop, and Crysis for $25",
       "score": 10,
       "sites": [
-        "gg.deals"
+        "gg.deals",
+        "indiegamebundles.com"
       ],
       "keywords": [
-        "sale",
-        "deals"
+        "bundle",
+        "humble"
       ],
-      "games": [
-        "Deep Rock Galactic"
-      ],
+      "games": [],
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Xbox's latest sale has Deep Rock Galactic at 70% off and more tempting deals!",
-          "link": "https://gg.deals/deal/xbox-latest-deals-october-20-2026/",
-          "published": "2026-10-20T12:39:14.000Z"
+          "title": "Humble's Sci-Fi Exposure Bundle gets you Marathon + 7 more games!",
+          "link": "https://gg.deals/bundle/humbles-sci-fi-exposure-bundle-gets-you-marathon-7-more-games/",
+          "published": "2026-10-21T18:46:18.000Z"
+        },
+        {
+          "source": "Indie Game Bundles",
+          "title": "Humble 15th Anniversary Sci-Fi Exposure Bundle: 8 Steam Games Including Marathon, RoboCop, and Crysis for $25",
+          "link": "https://www.indiegamebundles.com/humble-15th-anniversary-sci-fi-exposure-bundle/",
+          "published": "2026-10-21T21:46:33.000Z"
         }
       ]
     },
     {
-      "headline": "\"It doesn’t have to always be triple-A\": Galactic Racer and Zero Company’s success has Lucasfilms wanting more smaller-scale Star Wars games",
+      "headline": "Football Manager 27 will be FREE to play for 5 days! Here's what you need to know",
+      "score": 10,
+      "sites": [
+        "gg.deals",
+        "eurogamer.net"
+      ],
+      "keywords": [
+        "free",
+        "free to play"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals Freebies",
+          "title": "Football Manager 27 will be FREE to play for 5 days! Here's what you need to know",
+          "link": "https://gg.deals/freebie/football-manager-27-free-to-play-for-5-days/",
+          "published": "2026-10-21T13:16:00.000Z"
+        },
+        {
+          "source": "gg.deals News",
+          "title": "Football Manager 27 will be FREE to play for 5 days! Here's what you need to know",
+          "link": "https://gg.deals/freebie/football-manager-27-free-to-play-for-5-days/",
+          "published": "2026-10-21T13:16:00.000Z"
+        },
+        {
+          "source": "Eurogamer",
+          "title": "Football Manager 27 will be free to play for five days before its full release, in \"industry first\" for a game of its kind",
+          "link": "https://www.eurogamer.net/football-manager-27-free-to-play-five-days",
+          "published": "2026-10-21T11:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Modern Warfare 4 players declare 'broken' on DMZ perk that lets you self-revive after full death",
       "score": 9,
       "sites": [
+        "gg.deals",
         "pcgamer.com",
-        "rockpapershotgun.com",
         "eurogamer.net"
       ],
       "keywords": [],
       "games": [],
       "items": [
         {
-          "source": "PC Gamer",
-          "title": "Star Wars Zero Company adds new difficulty options that can bring it closer to XCOM",
-          "link": "https://www.pcgamer.com/games/strategy/star-wars-zero-company-adds-new-difficulty-options-that-can-bring-it-closer-to-xcom/",
-          "published": "2026-10-19T21:47:17.000Z"
+          "source": "gg.deals News",
+          "title": "Call of Duty: Modern Warfare 4 DMZ early access is live! Here's how to jump in",
+          "link": "https://gg.deals/new-game/call-of-duty-modern-warfare-4-dmz-early-access-is-live/",
+          "published": "2026-10-21T08:28:11.000Z"
         },
         {
           "source": "PC Gamer",
-          "title": "Lucasfilm wants to do more Star Wars games like Zero Company and Galactic Racer: 'We’ve tried to be more flexible about who we’re willing to take pitches from'",
-          "link": "https://www.pcgamer.com/gaming-industry/lucasfilm-wants-to-do-more-star-wars-games-like-zero-company-and-galactic-racer-weve-tried-to-be-more-flexible-about-who-were-willing-to-take-pitches-from/",
-          "published": "2026-10-19T21:46:23.000Z"
+          "title": "How to clear a compound in Modern Warfare 4 DMZ",
+          "link": "https://www.pcgamer.com/games/call-of-duty/dmz-clear-a-compound-no-one-left/",
+          "published": "2026-10-22T11:10:00.000Z"
         },
         {
-          "source": "Rock Paper Shotgun",
-          "title": "\"It doesn’t have to always be triple-A\": Galactic Racer and Zero Company’s success has Lucasfilms wanting more smaller-scale Star Wars games",
-          "link": "https://www.rockpapershotgun.com/it-doesnt-have-to-always-be-triple-a-galactic-racer-and-zero-companys-success-has-lucasfilms-wanting-more-smaller-scale-star-wars-games",
-          "published": "2026-10-20T15:00:36.000Z"
+          "source": "PC Gamer",
+          "title": "How to get electronic sensors in Modern Warfare 4 DMZ",
+          "link": "https://www.pcgamer.com/games/call-of-duty/dmz-electronic-sensors-location/",
+          "published": "2026-10-22T10:26:58.000Z"
+        },
+        {
+          "source": "PC Gamer",
+          "title": "Modern Warfare 4 players declare 'broken' on DMZ perk that lets you self-revive after full death",
+          "link": "https://www.pcgamer.com/games/call-of-duty/modern-warfare-4-players-declare-broken-on-dmz-perk-that-lets-you-self-revive-after-full-death/",
+          "published": "2026-10-21T21:36:47.000Z"
         },
         {
           "source": "Eurogamer",
-          "title": "Star Wars Zero Company review",
-          "link": "https://www.eurogamer.net/star-wars-zero-company-review",
-          "published": "2026-10-19T13:05:47.000Z"
+          "title": "COD: Modern Warfare 4 DMZ players are spawning in the middle of a road and being flattened before they can do anything",
+          "link": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-dmz-spawn-runover",
+          "published": "2026-10-21T13:21:37.000Z"
         }
       ]
     },
@@ -450,54 +479,22 @@
       ]
     },
     {
-      "headline": "10 Of Our Favourite Demos From Steam Next Fest October 2026",
-      "score": 8,
+      "headline": "Xbox cloud gaming prices revealed, with 50 hours of ad-free game-time priced $11.99",
+      "score": 7,
       "sites": [
-        "gg.deals",
-        "greenmangaming.com"
+        "eurogamer.net"
       ],
       "keywords": [
+        "prices",
         "free"
       ],
       "games": [],
       "items": [
         {
-          "source": "gg.deals Freebies",
-          "title": "Steam Next Fest October 2026 is now live, with thousands of FREE demos to enjoy!",
-          "link": "https://gg.deals/freebie/steam-next-fest-october-2026-is-now-live-with-thousands-of-free-demos-to-enjoy/",
-          "published": "2026-10-19T17:12:00.000Z"
-        },
-        {
-          "source": "Green Man Gaming blog",
-          "title": "10 Of Our Favourite Demos From Steam Next Fest October 2026",
-          "link": "https://www.greenmangaming.com/blog/10-of-our-favourite-demos-from-steam-next-fest-october-2026/",
-          "published": "2026-10-20T12:42:53.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Last Room (IndieGala) Giveaway",
-      "score": 8,
-      "sites": [
-        "gamerpower.com",
-        "gg.deals"
-      ],
-      "keywords": [
-        "free"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "GamerPower (PC)",
-          "title": "Last Room (IndieGala) Giveaway",
-          "link": "https://www.gamerpower.com/last-room-pc-giveaway",
-          "published": "2026-10-19T15:58:10.000Z"
-        },
-        {
-          "source": "gg.deals Freebies",
-          "title": "Spooky escape room adventure Last Room is FREE on IndieGala right now",
-          "link": "https://gg.deals/freebie/spooky-escape-room-adventure-last-room-is-free-on-indiegala-right-now/",
-          "published": "2026-10-19T15:24:24.000Z"
+          "source": "Eurogamer",
+          "title": "Xbox cloud gaming prices revealed, with 50 hours of ad-free game-time priced $11.99",
+          "link": "https://www.eurogamer.net/xbox-cloud-gaming-prices-revealed",
+          "published": "2026-10-22T09:10:43.000Z"
         }
       ]
     }
@@ -509,8 +506,8 @@
     "noFacts": 0,
     "taken": 0,
     "smallDiscount": 0,
-    "ended": 1,
-    "endsTooSoon": 0,
+    "ended": 0,
+    "endsTooSoon": 1,
     "oldPrice": 0
   },
   "sources": {
@@ -518,19 +515,26 @@
     "failed": []
   },
   "posts": {
+    "x": {
+      "text": "Fallout: New Vegas Ultimate Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Oct 22. Sale ends Oct 24.\n\nhttps://saveandplay.com/deals/gog/fallout-new-vegas-ultimate-edition/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-22\n\n#PCGaming #GOG\nAd",
+      "length": 151,
+      "max": 270,
+      "link": "https://saveandplay.com/deals/gog/fallout-new-vegas-ultimate-edition/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-22",
+      "deal": "gog-fallout-new-vegas-ultimate-edition"
+    },
     "bluesky": {
-      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nPrice checked Oct 21. Sale ends Oct 23.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-21\n\n#PCGaming #GameDeals #DRMFree #Games #PCGames\nAd",
-      "length": 165,
+      "text": "Fallout: New Vegas Ultimate Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Oct 22. Sale ends Oct 24.\n\nhttps://saveandplay.com/deals/gog/fallout-new-vegas-ultimate-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-22\n\n#PCGaming #GameDeals #GOG #Gaming #Fallout\nAd",
+      "length": 181,
       "max": 300,
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-21",
-      "deal": "gog-this-war-of-mine"
+      "link": "https://saveandplay.com/deals/gog/fallout-new-vegas-ultimate-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-22",
+      "deal": "gog-fallout-new-vegas-ultimate-edition"
     },
     "mastodon": {
-      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nYou save $17.00\nDRM-free\nPrice checked Oct 21. Sale ends Oct 23.\nWhy today: sale ends in 44 h.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-21\n\n#GameDeals #PCGaming #GOG #DRMFree #VideoGames\nAd",
-      "length": 219,
+      "text": "Fallout: New Vegas Ultimate Edition: -75% at GOG\n$4.99 (was $19.99)\nYou save $15.00\nDRM-free\nPrice checked Oct 22. Sale ends Oct 24.\nWhy today: sale ends in 44 h.\n\nhttps://saveandplay.com/deals/gog/fallout-new-vegas-ultimate-edition/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-22\n\n#GameDeals #PCGaming #GOG #DRMFree #Fallout\nAd",
+      "length": 235,
       "max": 500,
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-21",
-      "deal": "gog-this-war-of-mine"
+      "link": "https://saveandplay.com/deals/gog/fallout-new-vegas-ultimate-edition/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-22",
+      "deal": "gog-fallout-new-vegas-ultimate-edition"
     }
   }
 }

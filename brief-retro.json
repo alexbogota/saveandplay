@@ -1,11 +1,11 @@
 {
   "account": "Retro game deals",
-  "generatedAt": "2026-10-21T11:25:14.318Z",
-  "builtBy": "commit 7af3343, schedule, run #22 attempt 1",
-  "pricesCheckedAt": "2026-10-21T10:04:15.440Z",
+  "generatedAt": "2026-10-22T11:25:56.402Z",
+  "builtBy": "commit 695a9a1, schedule, run #23 attempt 1",
+  "pricesCheckedAt": "2026-10-22T10:07:10.056Z",
   "warnings": [
     "NOTHING TO OFFER today.",
-    "No game fits the niche today (1 fit the rule, 22 do not, 0 have no facts yet, 1 were taken by another account today, 0 under 50%, 0 prices older than 48 h, 0 sales over or ending soon)."
+    "No game fits the niche today (1 fit the rule, 23 do not, 0 have no facts yet, 1 were taken by another account today, 0 under 50%, 0 prices older than 48 h, 0 sales over or ending soon)."
   ],
   "niche": {
     "label": "Retro",
@@ -19,7 +19,7 @@
   "left": {
     "otherStore": 16,
     "hidden": 0,
-    "notNiche": 22,
+    "notNiche": 23,
     "noFacts": 0,
     "taken": 1,
     "smallDiscount": 0,
@@ -32,8 +32,11 @@
     "failed": []
   },
   "posts": {
+    "x": {
+      "none": "No deal passes the rules today. NOTHING TO OFFER today. No game fits the niche today (1 fit the rule, 23 do not, 0 have no facts yet, 1 were taken by another account today, 0 under 50%, 0 prices older than 48 h, 0 sales over or ending soon)."
+    },
     "bluesky": {
-      "none": "No deal passes the rules today. NOTHING TO OFFER today. No game fits the niche today (1 fit the rule, 22 do not, 0 have no facts yet, 1 were taken by another account today, 0 under 50%, 0 prices older than 48 h, 0 sales over or ending soon)."
+      "none": "No deal passes the rules today. NOTHING TO OFFER today. No game fits the niche today (1 fit the rule, 23 do not, 0 have no facts yet, 1 were taken by another account today, 0 under 50%, 0 prices older than 48 h, 0 sales over or ending soon)."
     }
   }
 }
