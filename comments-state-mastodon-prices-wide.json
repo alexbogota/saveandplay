@@ -8,121 +8,47 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 64,
-      "posts": 2640,
-      "fit": 22,
+      "runs": 72,
+      "posts": 2960,
+      "fit": 26,
       "last": {
         "posts": 40,
         "fit": 1,
-        "at": "2026-10-22T06:49:34.491Z"
+        "at": "2026-10-22T12:49:44.994Z"
       }
     },
     "moreAsk": {
-      "runs": 40,
-      "posts": 360,
+      "runs": 45,
+      "posts": 405,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-10-22T06:49:34.491Z"
+        "at": "2026-10-22T12:49:44.994Z"
       }
     },
     "moreRetro": {
-      "runs": 40,
-      "posts": 2600,
-      "fit": 58,
+      "runs": 45,
+      "posts": 2920,
+      "fit": 68,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-22T06:49:34.491Z"
+        "at": "2026-10-22T12:49:44.994Z"
       }
     },
     "morePlaying": {
-      "runs": 40,
-      "posts": 168,
+      "runs": 45,
+      "posts": 189,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-10-22T06:49:34.491Z"
+        "at": "2026-10-22T12:49:44.994Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@elikp_william/117476865971146107": {
-      "uri": "https://mastodon.social/@elikp_william/117476865971146107",
-      "url": "https://mastodon.social/@elikp_william/117476865971146107",
-      "handle": "elikp_william@mastodon.social",
-      "name": "Eli K.P. William",
-      "text": "For over two years I’ve been working on a video game as a writer and story consultant. Yesterday I visited the development studio to try a beta version of the game. It's come a long way since the last time I tried it; the cutscenes are intense and the gameplay is something special. Overall lots of fun to play. #videogame #writing",
-      "createdAt": "2026-10-21T03:51:57.586Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "moreGaming",
-      "query": "videogame",
-      "score": 4,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": null,
-      "firstSeen": "2026-10-21T06:49:22.450Z"
-    },
-    "https://mastodon.social/@stunningshemp/117476971474280820": {
-      "uri": "https://mastodon.social/@stunningshemp/117476971474280820",
-      "url": "https://mastodon.social/@stunningshemp/117476971474280820",
-      "handle": "stunningshemp@mastodon.social",
-      "name": "Chris Coats",
-      "text": "He tells no lies #retrogaming #RazingCore #shmups #stunningshemp #twitch",
-      "createdAt": "2026-10-21T04:18:47.436Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "video, no description",
-      "firstSeen": "2026-10-21T06:49:22.450Z"
-    },
-    "https://mastodon.social/@haitchfive@oldbytes.space/117476370120994739": {
-      "uri": "https://mastodon.social/@haitchfive@oldbytes.space/117476370120994739",
-      "url": "https://mastodon.social/@haitchfive@oldbytes.space/117476370120994739",
-      "handle": "haitchfive@oldbytes.space",
-      "name": "@haitchfive",
-      "text": "Zenplay in progress #zenplay #ZXSpectrum #Speccy #Spectrum #retrogaming #pixelart #golang #foss #retrocomputing",
-      "createdAt": "2026-10-21T01:45:16.000Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://oldbytes.space/@haitchfive/117476367838065086",
-      "media": "video, no description",
-      "firstSeen": "2026-10-21T06:49:22.450Z"
-    },
-    "https://mastodon.social/@jordan@mastodon.subj.am/117476167694442178": {
-      "uri": "https://mastodon.social/@jordan@mastodon.subj.am/117476167694442178",
-      "url": "https://mastodon.social/@jordan@mastodon.subj.am/117476167694442178",
-      "handle": "jordan@mastodon.subj.am",
-      "name": "Jordan (Temporarily Spooky)",
-      "text": "I restored a \"Double Dragon\" (1987) arcade cabinet about 20 years ago. There's a glitch where if you're able to get the box from Mission 2 into Mission 3, it changes colors from tan to purple because of a color palette change. My family and I have been seeing how far we can get the box. It's hard because for some reason the enemies go after it like it's filled with money! We've resorted to one player carrying the box, and the other guarding him. #arcade #doubledragon #retrogaming #videogames",
-      "createdAt": "2026-10-21T00:54:14.000Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://mastodon.subj.am/@jordan/117476167150175693",
-      "media": "image: A picture taken of a Double Dragon arcade game, with Jimmy carrying a glitched purple box in Mission 3 due to color palette change. The background is a tree, l…",
-      "firstSeen": "2026-10-21T06:49:22.450Z"
-    },
     "https://mastodon.social/@haitchfive@oldbytes.space/117478521377915666": {
       "uri": "https://mastodon.social/@haitchfive@oldbytes.space/117478521377915666",
       "url": "https://mastodon.social/@haitchfive@oldbytes.space/117478521377915666",
@@ -278,7 +204,7 @@
       "name": "MVU",
       "text": "I beat Oracle of Seasons and moved onto Oracle of Ages -- the latter is definitely better so far with more interesting dungeons and a more lively game world. They've held up great~ #retrogaming #gameboycolor",
       "createdAt": "2026-10-22T04:08:28.000Z",
-      "likes": 0,
+      "likes": 1,
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
@@ -289,6 +215,61 @@
       "origin": "https://sunny.garden/@mvu/117482593252728695",
       "media": null,
       "firstSeen": "2026-10-22T06:49:34.491Z"
+    },
+    "https://mastodon.social/@Gamrok/117483965937439097": {
+      "uri": "https://mastodon.social/@Gamrok/117483965937439097",
+      "url": "https://mastodon.social/@Gamrok/117483965937439097",
+      "handle": "Gamrok@mastodon.social",
+      "name": "Thomas Leroy 🍣🐈‍⬛",
+      "text": "Who remembers NetStorm: Islands at War? (1997) A strategy game where you conquered islands floating in the sky 🌩️ 💥 I remember playing the demo back then and really enjoying it 😀 #NetStorm #NetStormIslandsAtWar #Activision #RTS #StrategyGame #RetroGaming",
+      "createdAt": "2026-10-22T09:57:34.470Z",
+      "likes": 1,
+      "replies": 1,
+      "group": "moreGaming",
+      "query": "strategygame",
+      "score": 9,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "media": "image: Title screen of the game NetStorm: Islands at War (developed by Titanic Entertainment and published by Activision in November 1997)",
+      "firstSeen": "2026-10-22T12:49:44.994Z"
+    },
+    "https://mastodon.social/@neongod@mstdn.social/117484340583068577": {
+      "uri": "https://mastodon.social/@neongod@mstdn.social/117484340583068577",
+      "url": "https://mastodon.social/@neongod@mstdn.social/117484340583068577",
+      "handle": "neongod@mstdn.social",
+      "name": "neongod",
+      "text": "Finally had some time to open the Game Gear up. It’s a VA1 and it looks like there is no capacitor leak damage, at least for the first glance, which is good. I think it was recapped some time ago, but the work doesn’t look particularly nice. I ordered an SMD capacitor kit, will see if I can do a nicer job. Also, the volume seems too loud even on the lowest setting, and I’m not sure yet why is that. Maybe the potmeter needs a replacement. #retrogaming #sega #gamegear",
+      "createdAt": "2026-10-22T11:32:49.000Z",
+      "likes": 4,
+      "replies": 1,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://mstdn.social/@neongod/117484340452583076",
+      "media": "image: Sega Game Gear disassembled, the upper half of the case and the main board visible",
+      "firstSeen": "2026-10-22T12:49:44.994Z"
+    },
+    "https://mastodon.social/@BobTop/117483521958623161": {
+      "uri": "https://mastodon.social/@BobTop/117483521958623161",
+      "url": "https://mastodon.social/@BobTop/117483521958623161",
+      "handle": "BobTop@mastodon.social",
+      "name": "",
+      "text": "A rather interesting game, albeit with primitive graphics. Once the player realizes that zombies can be wiped out not just by shooting them with a shotgun, but also by using the butt of the gun, the game becomes genuinely enjoyable. It runs on the N-Gage. #Nokia #Symbian #NGage #retrogaming",
+      "createdAt": "2026-10-22T08:04:39.888Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "4 images: Screenshot / Screenshot 2 / Screenshot 3 / Screenshot 4",
+      "firstSeen": "2026-10-22T12:49:44.994Z"
     }
   }
 }
