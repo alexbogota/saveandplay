@@ -1038,6 +1038,54 @@
             "id": "2dbd3ccfbdccb6b0b000db63b22576a430c03bea4114fce9fa479c7c9dc9faf0",
             "sig": "093d6101422183ff1be088cb2a3dcbcd412bc219f5140bdad2bd501e43757fb1fccb3af814d0bac5429dc2d49805d2836e81579c70ce0094fe61c82d3b9927df"
           }
+        },
+        "article": {
+          "status": "done",
+          "kind": "article",
+          "id": "72ba00557c33540649116ed9f5d361bfb1e7c71cff9dc84f0de6ce3184ebd934",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "article": "steam-key-reseller-risks",
+          "postedAt": "2026-10-22T17:21:43.000Z",
+          "accepted": [
+            "wss://relay.damus.io",
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [],
+          "event": {
+            "kind": 1,
+            "created_at": 1792689703,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-article"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://saveandplay.com/og/steam-key-reseller-risks.png",
+                "m image/png",
+                "alt Two boxes. Bought on Steam: refund offer within two weeks and under two hours of playtime. Bought elsewhere: Valve says it cannot provide refunds for purchases made outside of Steam, so you ask the seller."
+              ]
+            ],
+            "content": "Buying a Steam key from a reseller: what can go wrong and who helps you\n\nThird-party Steam keys can be cheaper, but the store refund button does not cover them. Here is what Steam's own pages say, and a five-minute check before you pay.\n\n#pcgaming #gamedeals\n\nhttps://saveandplay.com/og/steam-key-reseller-risks.png\n\nhttps://saveandplay.com/guides/steam-key-reseller-risks/?utm_source=nostr-prices&utm_medium=social&utm_campaign=steam-key-reseller-risks",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "72ba00557c33540649116ed9f5d361bfb1e7c71cff9dc84f0de6ce3184ebd934",
+            "sig": "5ca9e57c2d31bdb516b810a3cd574c56961ad12cbf03539526177386e4693c479112685ffff1d27595ffc37eb89db701e52093057ac2be61662e82be6b519dce"
+          }
         }
       }
     }
@@ -1071,6 +1119,10 @@
       "free-game-giveaways-what-you-keep": {
         "day": "2026-10-20",
         "id": "7089d2c2e82ce868479d80e0737dce1149b9263d2d959161651816f8e804dab3"
+      },
+      "steam-key-reseller-risks": {
+        "day": "2026-10-22",
+        "id": "72ba00557c33540649116ed9f5d361bfb1e7c71cff9dc84f0de6ce3184ebd934"
       }
     }
   },
