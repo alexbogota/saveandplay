@@ -1,0 +1,67 @@
+{
+  "block": "prices",
+  "handle": "saveandplay.com",
+  "madeAt": "2026-10-22T13:13:19.410Z",
+  "days": 14,
+  "total": 117,
+  "mature": {
+    "count": 109,
+    "withLike": 43,
+    "withReply": 20,
+    "likes": 47,
+    "replies": 21,
+    "byProgram": 6
+  },
+  "top": [
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mxp3tpmeg22j",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3mxp3tpmeg22j",
+      "text": "A thousand games, respect. One trick that helps: sort the pile by how long each game takes to finish and clear the short ones first, so the number drops fast.",
+      "at": "2026-10-12T17:58:51.377Z",
+      "likes": 1,
+      "replies": 2,
+      "reposts": 0,
+      "to": "nerevar-born-again.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mybqr3rd2s2n",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3mybqr3rd2s2n",
+      "text": "Capping is worth it. Setting it at or just below your monitor’s refresh rate keeps the PC cooler and quieter, and frame pacing often feels smoother.",
+      "at": "2026-10-20T04:01:07.328Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "midtown-solutions.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3myaokphadc2p",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3myaokphadc2p",
+      "text": "Trying the class you’re curious about first is a fair way to call it. That way you quit knowing exactly what you tried.",
+      "at": "2026-10-19T17:49:05.865Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "satelenight.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3myaoifigzk25",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3myaoifigzk25",
+      "text": "Cute pick! Tip for next time: screenshots you upload from the Deck show up in Steam’s screenshot manager on your laptop, so no file shuffling.",
+      "at": "2026-10-19T17:47:48.310Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "worm.gay"
+    },
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3my6gdik3jk2b",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3my6gdik3jk2b",
+      "text": "That sounds frustrating. Since the game connects through Xbox services, it’s worth checking the official Xbox status page to see if it’s a server-side problem. If it is, nothing on your end will fix it.",
+      "at": "2026-10-18T20:16:34.327Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "alludra.bsky.social"
+    }
+  ]
+}
