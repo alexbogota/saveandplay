@@ -1,0 +1,40 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261022-141939",
+  "madeAt": "2026-10-22T14:20:25.177Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:sqs66tv7kzpfdzfcr5q2rcfc/app.bsky.feed.post/3mygsl3u32k2q",
+      "url": "https://bsky.app/profile/redhojelah.bsky.social/post/3mygsl3u32k2q",
+      "author": "redhojelah.bsky.social",
+      "context": "Yeah I think even if you DO want to play something in bed it should be something relaxing, like one of those word games or sth. That was my only bedtime routine because I know that would put me to sleep after a few rounds. I'm trying not to bring my tablet either so I'm not tempted to draw in bed",
+      "text": "Short word-game rounds are a nice wind-down. Easy to stop whenever you start feeling sleepy.",
+      "group": "askCozy",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:emcs62xrdvegxbbegj22bswd/app.bsky.feed.post/3myhkykrymk2h",
+      "url": "https://bsky.app/profile/duinath.bsky.social/post/3myhkykrymk2h",
+      "author": "duinath.bsky.social",
+      "context": "is the php thing why the #stardew wiki is being so fucky and should i be turning my pumpkins into pickles or juice i have so many hundreds of pumpkins",
+      "text": "Juice usually sells for a bit more than pickles per pumpkin, but kegs are slower. With a big pile, splitting between jars and kegs works well.",
+      "verify": "Проверьте в игре или на официальной вики Stardew: цену сока и пикулей из тыквы и время работы бочки и банки. Вики сейчас может быть недоступна.",
+      "group": "stardew",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:ydhpiiw53llqgixzqnn5t4y2/app.bsky.feed.post/3mygv3a567c2j",
+      "url": "https://bsky.app/profile/kimista.bsky.social/post/3mygv3a567c2j",
+      "author": "kimista.bsky.social",
+      "context": "Same. I really wish it was in Autumn. And it bothers me that games like Hello Kitty Island Adventure have events and seasons following the Northern hemisphere. It feels so wrong to be playing a game getting cozy for Winter when it's 30°c outside. I wish they'd flip it around for us.",
+      "text": "That's a fair wish. Stardew Valley keeps its own calendar, so Autumn arrives whenever your farm gets there, whatever the real-world season is.",
+      "group": "evening",
+      "heated": false
+    }
+  ]
+}

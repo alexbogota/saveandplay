@@ -1,0 +1,49 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "stamp": "20261022-141939",
+  "madeAt": "2026-10-22T14:20:25.072Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:z3yzepmq7jum672m6nlhc4ju/app.bsky.feed.post/3myho5zvjn222",
+      "url": "https://bsky.app/profile/forgottenworlds.bsky.social/post/3myho5zvjn222",
+      "author": "forgottenworlds.bsky.social",
+      "context": "“Actual 256 colour VGA screens.” I don’t know if Crime Wave is any good, but those digitised VGA screen shots looked amazing back in the day. #PCgaming #RetroGames #VGAgraphics #RetroGaming\nimage, no description",
+      "text": "Digitised VGA art really stood out back then. 256 colours was a big jump from the 16-colour screens of the EGA days.",
+      "group": "pcGaming",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:tmej6dlshvm7maqqfhwvmagd/app.bsky.feed.post/3myhmr3m36k2f",
+      "url": "https://bsky.app/profile/lunaarcanos.bsky.social/post/3myhmr3m36k2f",
+      "author": "lunaarcanos.bsky.social",
+      "context": "Like it sucks the game is down but...go...do...something else??? Catch up on your other games, chores, art, whatever.",
+      "text": "Fair point. A server outage is a decent excuse to finally start something from the backlog.",
+      "group": "backlog",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:b6x2x34453gd2pkgx3m7gmbg/app.bsky.feed.post/3myhgyfbeks2y",
+      "url": "https://bsky.app/profile/anyrei.bsky.social/post/3myhgyfbeks2y",
+      "author": "anyrei.bsky.social",
+      "context": "I can't say that I'm surprised that #EA shut down #BioWare. It still sucks. I was really looking forward to a new Mass Effect game. ME and DA are one of my fav franchises and I loved spending time in those worlds. Thank you @bioware.bsky.social for so many years of fun and 🌈 inclusiveness ♥️",
+      "text": "Same here, those worlds meant a lot. The Mass Effect trilogy still holds up well on a replay.",
+      "group": "broadAsk",
+      "heated": false
+    },
+    {
+      "n": 4,
+      "uri": "at://did:plc:fsi2uedsc4doikcoe36sznx3/app.bsky.feed.post/3myh4yf6zm226",
+      "url": "https://bsky.app/profile/twilightfaze.bsky.social/post/3myh4yf6zm226",
+      "author": "twilightfaze.bsky.social",
+      "context": "Starting to play Tales of Eternia Remastered. The original was a game my late mother gifted me for no reason. Music, graphics, and sound is cleaned up, but what surprised me most was the new voice acting and widescreen redrawing of some of the cutscenes! I'm looking forward to this ❤️",
+      "text": "What a lovely story behind this game. Hope the remaster feels like coming home.",
+      "group": "broadAsk",
+      "heated": false
+    }
+  ]
+}

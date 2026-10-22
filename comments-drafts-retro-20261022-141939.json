@@ -1,0 +1,39 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261022-141939",
+  "madeAt": "2026-10-22T14:20:25.280Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:zfdbl6he76ofe7ygldgo6kf3/app.bsky.feed.post/3mygexqer322j",
+      "url": "https://bsky.app/profile/chocobomoshpit.bsky.social/post/3mygexqer322j",
+      "author": "chocobomoshpit.bsky.social",
+      "context": "i think that was the first video game i was able to buy on the day it came out. also got a GBA SP on the same day. in retrospect, that might be a top 5 gaming day for me now that i think about it?",
+      "text": "A new game and a new handheld on release day, that's a day worth remembering.",
+      "group": "childhood",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:mtkkak33dpeeiwkeefjcv5kw/app.bsky.feed.post/3myhf2hyx3k2y",
+      "url": "https://bsky.app/profile/jffro.bsky.social/post/3myhf2hyx3k2y",
+      "author": "jffro.bsky.social",
+      "context": "And KOTOR? Mission was one of my first video game crushes. Also, you can't beat that twist. It's up there with Vader being Luke's father",
+      "text": "Mission is a great companion, and that twist still lands. KOTOR holds up really well.",
+      "group": "childhood",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:x3js3zl7fzvaxnserh6qyfrc/app.bsky.feed.post/3myfzndsq7k23",
+      "url": "https://bsky.app/profile/phoenix.omg.lol/post/3myfzndsq7k23",
+      "author": "phoenix.omg.lol",
+      "context": "genuinely heartbroken by the closing of BioWare. DA:O was my first real AAA game and my intro to \"holy shit, video games can do this??\" re: its storytelling. devastated for the production teams and so sad we won't ever get to see any more of thedas.",
+      "text": "Dragon Age: Origins really was special. Its storytelling still holds up if you ever want to revisit it.",
+      "group": "childhood",
+      "heated": false
+    }
+  ]
+}
