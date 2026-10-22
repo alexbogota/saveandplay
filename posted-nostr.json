@@ -988,6 +988,57 @@
             "sig": "f67f538edac35522e3c011f1a9c9996124cdbe405d5caaac69bdfd2f9e6ba471be3afe97dda2af767b41f0e26bcbdc431b1a9536d0ede836aaebcac2b4746ac3"
           }
         }
+      },
+      "2026-10-22": {
+        "deal": {
+          "status": "done",
+          "kind": "deal",
+          "id": "2dbd3ccfbdccb6b0b000db63b22576a430c03bea4114fce9fa479c7c9dc9faf0",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "deal": "gog-fallout-new-vegas-ultimate-edition",
+          "title": "Fallout: New Vegas Ultimate Edition",
+          "postedAt": "2026-10-22T11:58:56.000Z",
+          "accepted": [
+            "wss://relay.damus.io",
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [],
+          "event": {
+            "kind": 1,
+            "created_at": 1792670336,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-deal"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22380/header.jpg?t=1765992876",
+                "m image/jpeg",
+                "alt Cover art for Fallout: New Vegas Ultimate Edition"
+              ]
+            ],
+            "content": "Fallout: New Vegas Ultimate Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked 2026-10-22 10:07 UTC. Sale ends 2026-10-24 07:00 UTC.\nWhy today: sale ends in 44 h.\nAd: we may earn a commission if you buy.\n\n#pcgaming #gamedeals\n\nhttps://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22380/header.jpg?t=1765992876\n\nhttps://saveandplay.com/deals/gog/fallout-new-vegas-ultimate-edition/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-22",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "2dbd3ccfbdccb6b0b000db63b22576a430c03bea4114fce9fa479c7c9dc9faf0",
+            "sig": "093d6101422183ff1be088cb2a3dcbcd412bc219f5140bdad2bd501e43757fb1fccb3af814d0bac5429dc2d49805d2836e81579c70ce0094fe61c82d3b9927df"
+          }
+        }
       }
     }
   },
