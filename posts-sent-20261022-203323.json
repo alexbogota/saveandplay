@@ -1,0 +1,23 @@
+{
+  "madeAt": "2026-10-22T20:33:23.812Z",
+  "run": "39849853168",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices-kinguin|2026-10-22|/deals/kinguin/tomb-raider-game-of-the-year/",
+      "account": "prices-kinguin",
+      "handle": "saveandplay.com",
+      "n": 3,
+      "link": "https://saveandplay.com/deals/kinguin/tomb-raider-game-of-the-year/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-22",
+      "text": "Tomb Raider Game of the Year: $3.19 at Kinguin, 84% below the current Steam price ($19.99).\nMarketplace key from an independent seller, so check the seller and region. Price checked Oct 22.\n\nhttps://saveandplay.com/deals/kinguin/tomb-raider-game-of-the-year/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-22\n\n#PCGaming #GameDeals #Kinguin #Gaming\nAd",
+      "approvedFile": "posts-approved-20261022-142333.json",
+      "approvedAt": "2026-10-22T14:23:33.752Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-22T20:33:26.807Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3myij5dfiqh25",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3myij5dfiqh25",
+      "picture": true
+    }
+  ]
+}
