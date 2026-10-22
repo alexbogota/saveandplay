@@ -8,43 +8,43 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 48,
-      "posts": 1960,
-      "fit": 14,
+      "runs": 56,
+      "posts": 2320,
+      "fit": 18,
       "last": {
-        "posts": 40,
+        "posts": 80,
         "fit": 1,
-        "at": "2026-10-21T18:46:42.834Z"
+        "at": "2026-10-22T00:51:27.373Z"
       }
     },
     "moreAsk": {
-      "runs": 30,
-      "posts": 270,
+      "runs": 35,
+      "posts": 315,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-10-21T18:46:42.834Z"
+        "at": "2026-10-22T00:51:27.373Z"
       }
     },
     "moreRetro": {
-      "runs": 30,
-      "posts": 1960,
-      "fit": 40,
+      "runs": 35,
+      "posts": 2280,
+      "fit": 49,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-21T18:46:42.834Z"
+        "at": "2026-10-22T00:51:27.373Z"
       }
     },
     "morePlaying": {
-      "runs": 30,
-      "posts": 126,
+      "runs": 35,
+      "posts": 147,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-10-21T18:46:42.834Z"
+        "at": "2026-10-22T00:51:27.373Z"
       }
     }
   },
@@ -153,7 +153,7 @@
       "replies": 0,
       "group": "moreGaming",
       "query": "gamingcommunity",
-      "score": 5,
+      "score": 4,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -171,7 +171,7 @@
       "replies": 0,
       "group": "moreGaming",
       "query": "mmorpg",
-      "score": 6,
+      "score": 5,
       "question": true,
       "heated": false,
       "isReply": false,
@@ -185,11 +185,11 @@
       "name": "robavince",
       "text": "Tower of *laser* power! #retrogaming",
       "createdAt": "2026-10-21T16:08:43.713Z",
-      "likes": 3,
+      "likes": 4,
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 4,
+      "score": 3,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -207,31 +207,87 @@
       "replies": 1,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 9,
+      "score": 8,
       "question": true,
       "heated": false,
       "isReply": false,
       "media": "video, no description",
       "firstSeen": "2026-10-21T18:46:42.834Z"
     },
-    "https://mastodon.social/@kuroneko@socials.thundercleess.com/117479104298410420": {
-      "uri": "https://mastodon.social/@kuroneko@socials.thundercleess.com/117479104298410420",
-      "url": "https://mastodon.social/@kuroneko@socials.thundercleess.com/117479104298410420",
-      "handle": "kuroneko@socials.thundercleess.com",
-      "name": "Blackcat",
-      "text": "🎃 10 Days of Horror — Day 10/10 — October 21 Lead: Vampire: The Masquerade – Bloodlines 2 (2025) is the long-awaited return to World of Darkness. It's a vampire RPG of politics, blood, and bad decisions in Seattle's night. Also released today: 📅 2015: DISTRAINT 📅 2003: Nosferatu: The Wrath of Malachi 📅 2013: Eldritch #Gaming #OnThisDay #RetroGaming #Horror #Spooktober #VampireTheMasqueradeBloodlines2",
-      "createdAt": "2026-10-21T13:21:07.000Z",
-      "likes": 0,
+    "https://mastodon.social/@scottymarinara@jorts.horse/117480583331861019": {
+      "uri": "https://mastodon.social/@scottymarinara@jorts.horse/117480583331861019",
+      "url": "https://mastodon.social/@scottymarinara@jorts.horse/117480583331861019",
+      "handle": "scottymarinara@jorts.horse",
+      "name": "scotty marinara",
+      "text": "ewww oh noooo eff you #ea!!!! RIP #masseffect and #bioware, thanks for all the memories! #videogame #gaming #scifi",
+      "createdAt": "2026-10-21T19:37:18.000Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "moreGaming",
+      "query": "videogame",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://jorts.horse/@scottymarinara/117480583245773264",
+      "media": null,
+      "firstSeen": "2026-10-22T00:51:27.373Z"
+    },
+    "https://mastodon.social/@fwaggle@moodoo.org/117481148113653876": {
+      "uri": "https://mastodon.social/@fwaggle@moodoo.org/117481148113653876",
+      "url": "https://mastodon.social/@fwaggle@moodoo.org/117481148113653876",
+      "handle": "fwaggle@moodoo.org",
+      "name": "fraggLe!",
+      "text": "Fwoar, I don't need it but the Morph4k scaler looks sweet. Low latency *rotation* for tate mode? Sorcery. I definitely don't need a third scaler, even if I could afford it. #retrogaming",
+      "createdAt": "2026-10-21T22:00:47.000Z",
+      "likes": 1,
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": true,
+      "score": 7,
+      "question": true,
+      "heated": false,
       "isReply": false,
-      "origin": "https://socials.thundercleess.com/@kuroneko/117479104019532480",
-      "media": "4 images: Artwork for Vampire: The Masquerade – Bloodlines 2 / Artwork for DISTRAINT / Artwork for Nosferatu: The Wrath of Malachi / Artwork for Eldritch",
-      "firstSeen": "2026-10-21T18:46:42.834Z"
+      "origin": "https://moodoo.org/@fwaggle/117481147401387891",
+      "media": null,
+      "firstSeen": "2026-10-22T00:51:27.373Z"
+    },
+    "https://mastodon.social/@andyvaisey@oldbytes.space/117481055836240882": {
+      "uri": "https://mastodon.social/@andyvaisey@oldbytes.space/117481055836240882",
+      "url": "https://mastodon.social/@andyvaisey@oldbytes.space/117481055836240882",
+      "handle": "andyvaisey@oldbytes.space",
+      "name": "aNdy",
+      "text": "After much coding and bug hunting, CityLab on the #C64 now has traffic congestion and Godzilla trampling the player's city! @c64 @EC64 #Commodore #retrogaming #retrogames #8bit",
+      "createdAt": "2026-10-21T21:37:27.000Z",
+      "likes": 2,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://oldbytes.space/@andyvaisey/117481055690805775",
+      "media": "image, no description",
+      "firstSeen": "2026-10-22T00:51:27.373Z"
+    },
+    "https://mastodon.social/@zoviazzg/117480650454712623": {
+      "uri": "https://mastodon.social/@zoviazzg/117480650454712623",
+      "url": "https://mastodon.social/@zoviazzg/117480650454712623",
+      "handle": "zoviazzg@mastodon.social",
+      "name": "zoviazzg",
+      "text": "Need a man who will look at me like this (like he wants to kill me with a knife) #crt #retrogaming #gaming #residentevil #photography",
+      "createdAt": "2026-10-21T19:54:24.303Z",
+      "likes": 3,
+      "replies": 1,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 7,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "media": "image: Special Agent Leon S. Kennedy fixes his steely gaze upon his prey, lips flush with the excitement of mortal peril. Drill me, Leon. Pop me like a fucking balloo…",
+      "firstSeen": "2026-10-22T00:51:27.373Z"
     }
   }
 }

@@ -1,45 +1,56 @@
 # Comment candidates: retro (@retrogamedeals.bsky.social)
-Made 2026-10-21T18:47Z. Searched: childhood: games from my childhood | childhood: first video game | childhood: played this as a kid game | childhood: first pc game | classicPC: classic pc games | classicPC: old pc game | classicPC: retro pc gaming | classicPC: dos game | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: retro game recommendations | askRetro: old games recommend | askRetro: retro games recommend | askRetro: best retro games | retroFeed: feed.
-Posts below: 12. Dropped in this run: not about games 81, skip word 69, bot, shop or studio 28, replies are limited 8, other language (text) 13, too short 6, promo (link and hashtags) 2, many links 1, already shown 14, empty 2, already answered 3, low score 3, own post 4, adult or graphic label 1, too many hashtags 5, other language 26, not a question 26.
+Made 2026-10-22T00:51Z. Searched: childhood: childhood game | childhood: game from my childhood | childhood: childhood favorite game | childhood: games from my childhood | classicPC: classic pc game | classicPC: old pc games | classicPC: dos games | classicPC: classic pc games | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: best old games | askRetro: old game recommend | askRetro: retro game recommendations | askRetro: old games recommend | retroFeed: feed.
+Posts below: 12 + 1 heated. Dropped in this run: not about games 130, skip word 58, adult or graphic label 1, replies are limited 10, already shown 10, bot, shop or studio 21, own post 4, too short 6, already answered 2, other language (text) 16, low score 3, too many hashtags 2, other language 20, not a question 31, promo (link and hashtags) 1, earlier finds: low score 7.
 
 ## Posts
-1. @fabiahan.bsky.social (Val👻🧟) · 21m · likes 0 · replies 1 · question · classicPC
+1. @cosmocommand.bsky.social (Cosmo Command) · 8h · likes 5 · replies 1 · question · childhood
+   https://bsky.app/profile/cosmocommand.bsky.social/post/3myfm3gks322h
+   Quote post with a video game that takes you back to your childhood. --- I had to pick this one didn't I? But various early Final Fantasies could've easily taken this spot.
+   [link card: Star Fox Arwing; quotes @srkah.bsky.social: Quote post with a video game that takes you back to your childhood. --- Still great to this day.]
+2. @barbarabrown-00.bsky.social (Adena) · 10h · likes 4 · replies 0 · question · childhood
+   https://bsky.app/profile/barbarabrown-00.bsky.social/post/3myfgskdal22m
+   Do you remember riding bikes until sunset? No phones, no internet, just friends and endless summer days. What was your favorite childhood game? #Nostalgia #GoodOldDays
+   [image, no description]
+3. @sandwichfrank.northsky.social (J. Frank "Ham" von Sandwich (b. 1886, Kr) · 6h · likes 3 · replies 1 · question · askRetro
+   https://bsky.app/profile/sandwichfrank.northsky.social/post/3myftv3k7ts2j
+   Games don’t really /need/ to look better than PlayStation 2, right? Maybe Wii? I know that’s a severe old man opinion but if you hired the best writers and artists the hardware limitations kinda don’t matter, right?
+4. @fabiahan.bsky.social (Val👻🧟) · 6h · likes 0 · replies 1 · question · classicPC
    https://bsky.app/profile/fabiahan.bsky.social/post/3myfrlcmizk25
    Gen question. What Sudios dos EA even own anymore?? I feel like they killed all of their game devs.
    [quotes @alexdz.bsky.social: It finally happened]
-2. @midtown-solutions.bsky.social (Midtown Solutions) · 43m · likes 0 · replies 0 · question · childhood
+5. @midtown-solutions.bsky.social (Midtown Solutions) · 7h · likes 0 · replies 0 · question · childhood
    https://bsky.app/profile/midtown-solutions.bsky.social/post/3myfqe7iaum2o
    Questions about MidBooster (a Windows app that tunes your PC for each game) before you buy — or after? Ask in the Midtown Solutions Discord. Members get 10% off their first payment. Join the Discord: discord.gg/xUrmtdZJEK #PCGaming #Gaming
    [link card: Midtown Solutions on Discord]
-3. @bigstupidgrin.bsky.social (bigstupidgrin ♎) · 6m · likes 0 · replies 0 · question · gogOld
-   https://bsky.app/profile/bigstupidgrin.bsky.social/post/3myfsg7yczc2n
-   Have you tried GOG? They try to make old games work on modern hardware.
-4. @sesel.bsky.social (some street rat with a coy smile) · 10m · likes 2 · replies 1 · question · childhood
-   https://bsky.app/profile/sesel.bsky.social/post/3myfs6i4csc2w
-   guys im like actually kind of devastated rn i know bioware was REALLY waning in quality ever since me3 but like. mass effect was the first game i ever played that made me go OH FUCK VIDEO GAMES CAN HAVE LIKE EMOTIONALLY IMPACTFUL STORIES AND AREN'T JUST NINTENDO PARTY GAMES? so t
-5. @enddaysengine.bsky.social (Chris H | End Days Engine (he/him)) · 36m · likes 6 · replies 1 · question · childhood
-   https://bsky.app/profile/enddaysengine.bsky.social/post/3myfqr4ceis2l
-   First Ubisoft Halifax gets shuttered for unionizing. Now EA pulls the plug on Bioware. Hey @mark-carney.bsky.social, you know how we support Canadian film and television? How about we do more to protect and support Canadian video game companies so this never happens again?
-   [quotes @solorunstudio.bsky.social: Very sorry to see BioWare end. I have a lot of memories from the stellar games they made. EA continues to be a scourge that destroys all it…]
-6. @barolas.bsky.social (Adam W) · 58m · likes 6 · replies 1 · question · childhood
-   https://bsky.app/profile/barolas.bsky.social/post/3myfpj3frqc2u
-   Liara is the first “big” moment I can remember with her and FemShep. Dorien was the first video game character I ever was able to romance as a gay man in a fantasy game. I could FINALLY be a spellcaster, a hero, *and* be loved for who I am instead of forced into a het romance.
-7. @lcneonyeenpunk.bsky.social (LC YEEN (Punk Hyena Pup🏳️‍⚧️♿)) · 1h · likes 1 · replies 1 · question · childhood
-   https://bsky.app/profile/lcneonyeenpunk.bsky.social/post/3myfohymjkd2d
-   I do remember then! But probably not, but only because I was busy helping run The First United Church of Nintendo at the time. A little socialist video game sharing club.
-8. @iamdoof.bsky.social (doof) · 1h · likes 9 · replies 0 · question · childhood
-   https://bsky.app/profile/iamdoof.bsky.social/post/3myfo7tivns2u
-   Remember when he was totally incapable of playing a video game without eating shit and dying to the first enemy I’m supposed to be afraid of that guy? lol
-9. @mattcaulder.com (BatsCaulder (They/He)) · 1h · likes 7 · replies 0 · question · childhood
-   https://bsky.app/profile/mattcaulder.com/post/3myfnsccvoc2d
-   Like, there's never been a time that I've been INTO video games that I didn't love a Bioware game. The first Game Informer cover I remember being REALLY excited about was Jade Empire. I beat Mass Effect 1 a dozen times. As a 7/10 sicko KOTOR2 is a foundational text.
-10. @ohiowater.blacksky.app (OhioWater ⚦) · 4h · likes 1 · replies 0 · question · childhood
-   https://bsky.app/profile/ohiowater.blacksky.app/post/3myfgbozv7s2d
-   I think Penguin Colony is the first game by such a distinct culture that I've ever played? They really rep their history in the game and it's so fucking cool and refreshing to see. I want to learn more about the Māori because of that art. I love video games.
-11. @isahypergeist.bsky.social (ISA) · 5h · likes 1 · replies 0 · question · childhood
-   https://bsky.app/profile/isahypergeist.bsky.social/post/3myfcse667s2a
-   Wanna create or do some energy work tonight First I sleep Sun has already been up for hours Been stuck inside myself tending old wounds I need an actual day off where I just dont do anything Hell maybe I pick up a video game for the first time in in about 6 months
-12. @lisamelton.bsky.social (Lisa Melton) · 37m · likes 0 · replies 0 · question · childhood
-   https://bsky.app/profile/lisamelton.bsky.social/post/3myfqp6bb2s2s
-   Remember me writing that I would start streaming those dangerous video games all the kids are playing now? That happens today! Read all about it and how you can watch here: lisamelton.net/2026/10/21/a...
-   [link card: An invitation to Forever]
+6. @seanmadson.bsky.social (Sean Madson) · 13m · likes 0 · replies 0 · question · retroFeed
+   https://bsky.app/profile/seanmadson.bsky.social/post/3myggfce5q22g
+   🎮DEMO RELEASE🎮 The demo for Love: Fall in Death is now live for Steam Next Fest, with the full game dropping on 10/29! If you miss the Sega CD era of FMV games like I do, you should check it out!
+   [image, no description; quotes @seanmadson.bsky.social: 📣ROLE ANNOUNCEMENT📣 You can hear me voice the Director as well as some of the bar patrons in the English dub of Love: Fall in Death, an u…]
+7. @mdegree819.bsky.social (MoistDegree819) · 2h · likes 1 · replies 0 · childhood
+   https://bsky.app/profile/mdegree819.bsky.social/post/3mygbo42npk2r
+   qtp with a video game that transports you back to your childhood
+   [link card: Gran Turismo 4: Ford GT Race Car; quotes @jobower.bsky.social: qtp with a video game that transports you back to your childhood]
+8. @dahliatheweremoth.bsky.social (That Moth Girl) · 3h · likes 2 · replies 0 · childhood
+   https://bsky.app/profile/dahliatheweremoth.bsky.social/post/3myg5mbystc2r
+   QTP with a video game that transports you back to your childhood
+   [link card: Pixel Gun 3d Pg3d; quotes @roxas2099zxa.bsky.social: QTP with a video game that transports you back to your childhood]
+9. @tannarts.bsky.social (TannArts) · 4h · likes 2 · replies 1 · childhood
+   https://bsky.app/profile/tannarts.bsky.social/post/3myg36yxr3k2h
+   Quote post with a video game that takes you back to your childhood
+   [link card: Sonic & Shadow in Sonic Adventure 2; quotes @srkah.bsky.social: Quote post with a video game that takes you back to your childhood. --- Still great to this day.]
+10. @jackrat-bit.bsky.social (Jack) · 4h · likes 3 · replies 0 · askRetro
+   https://bsky.app/profile/jackrat-bit.bsky.social/post/3myg26eoli22j
+   Obscure is an old PS2 horror game that's a little wonky but fun. It got a steam rerelease a long time ago. The original clock tower for SNES is also a blast to play. It also got a steam rerelease as Clock Tower: Rewind. If you haven't played Faith: The unholy trilogy I highly rec
+11. @roxas2099zxa.bsky.social (Roxas2099ZXA) · 4h · likes 6 · replies 1 · childhood
+   https://bsky.app/profile/roxas2099zxa.bsky.social/post/3myfzjza5k227
+   QTP with a video game that transports you back to your childhood
+   [link card: Skylanders Spyro'S Adventure Title; quotes @readysetfish.bsky.social: QTP with a video game that transports you back to your childhood]
+12. @readysetfish.bsky.social (Ready Set Fish) · 4h · likes 3 · replies 0 · childhood
+   https://bsky.app/profile/readysetfish.bsky.social/post/3myfzama5vs2o
+   QTP with a video game that transports you back to your childhood
+   [link card: Burnout Paradise; quotes @hypnoscream.bsky.social: qtp with a video game that transports you back to your childhood]
+
+## Heated topics (AI debates etc.): reply only neutrally, with facts
+1. @cruxbatface.bsky.social (Crux 🦇) · 7h · likes 25 · replies 3 · childhood
+   https://bsky.app/profile/cruxbatface.bsky.social/post/3myfpam2hjk2x
+   Hey it is a terrifying era to be a video game industry employee right now. Nobody is safe. My childhood dream has been achieved at the worst time possible. If you have gamedev friends, reach out. We are all at an all-time low, whether it be because of AI rotting our craft, layoff
