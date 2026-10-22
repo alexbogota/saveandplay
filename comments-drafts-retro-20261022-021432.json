@@ -1,0 +1,39 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261022-021432",
+  "madeAt": "2026-10-22T02:15:15.330Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:z4j7svldxamtdsdngucojsgd/app.bsky.feed.post/3myfm3gks322h",
+      "url": "https://bsky.app/profile/cosmocommand.bsky.social/post/3myfm3gks322h",
+      "author": "cosmocommand.bsky.social",
+      "context": "Quote post with a video game that takes you back to your childhood. --- I had to pick this one didn't I? But various early Final Fantasies could've easily taken this spot.\nlink card: Star Fox Arwing; quotes @srkah.bsky.social: Quote post with a video game that takes you back to your childhood. --- Still great to this day.",
+      "text": "Star Fox and the early Final Fantasies both feel like a whole era. The music alone from those games brings it all back.",
+      "group": "childhood",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:t742hrp46fgfq4kmxqz5vesj/app.bsky.feed.post/3myftv3k7ts2j",
+      "url": "https://bsky.app/profile/sandwichfrank.northsky.social/post/3myftv3k7ts2j",
+      "author": "sandwichfrank.northsky.social",
+      "context": "Games don’t really /need/ to look better than PlayStation 2, right? Maybe Wii? I know that’s a severe old man opinion but if you hired the best writers and artists the hardware limitations kinda don’t matter, right?",
+      "text": "A strong art style ages far better than raw detail, and that goes for PC classics from that era too. Plenty of them still look great today.",
+      "group": "askRetro",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:pceqxabfqvpagsqupbikcxd5/app.bsky.feed.post/3mygbo42npk2r",
+      "url": "https://bsky.app/profile/mdegree819.bsky.social/post/3mygbo42npk2r",
+      "author": "mdegree819.bsky.social",
+      "context": "qtp with a video game that transports you back to your childhood\nlink card: Gran Turismo 4: Ford GT Race Car; quotes @jobower.bsky.social: qtp with a video game that transports you back to your childhood",
+      "text": "Gran Turismo 4 is a great pick. Those license tests and the huge garage of cars made it hard to put down.",
+      "group": "childhood",
+      "heated": false
+    }
+  ]
+}
