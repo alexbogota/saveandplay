@@ -1,0 +1,18 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-prices-20261023-135444.json",
+  "approvedAt": "2026-10-23T13:57:17.923Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:hveuq5q35hmu4zpqpbmkc4mu/app.bsky.feed.post/3myjnovp6kk24",
+      "url": "https://bsky.app/profile/flacoelcielito5.bsky.social/post/3myjnovp6kk24",
+      "author": "flacoelcielito5.bsky.social",
+      "context": "Oh damn 😭 did you buy lots of games on sale? Ill admit i dont have a steam account yet! But that’s gonna change in a few weeks 👀 so ik I gotta be careful",
+      "text": "Smart to be careful before the first account. Once you have it, wishlist whatever catches your eye: Steam tells you when something on it goes on sale, so there's no pressure to buy on impulse.",
+      "edited": false
+    }
+  ]
+}
