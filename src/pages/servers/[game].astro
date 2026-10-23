@@ -1,0 +1,58 @@
+---
+// One page per game from data/coop-games.json: /servers/<slug>/. A new game = a new block in that file, this page needs no edit.
+// The Bluesky posts "play together" (scripts/lib/coop-posts.mjs) link here, so the card of the post shows the game's cover.
+import Layout from '../../layouts/Layout.astro';
+import ProviderCard from '../../components/ProviderCard.astro';
+import { coopGames, hostsOf, type CoopGame } from '../../lib/coop-games';
+
+export function getStaticPaths() {
+  return coopGames.map((game) => ({ params: { game: game.slug }, props: { game } }));
+}
+
+const { game } = Astro.props as { game: CoopGame };
+const hosts = hostsOf(game);
+const heading = `Play ${game.title} with friends on your own server`;
+const description = `How to play ${game.title} with friends on a game server: what the game supports in co-op and what a rented server gives you.`;
+const coverAlt = `Cover art for ${game.title}`;
+const sources = [...new Map(game.facts.map((f) => [f.url, f])).values()];
+---
+<Layout title={`${heading} | SaveAndPlay`} description={description} ogTitle={heading} ogImage={game.image} ogImageAlt={coverAlt}>
+  <main class="page prose">
+    <div class="eyebrow"><a href="/servers/">Game servers</a></div>
+    <h1>{heading}</h1>
+    <p class="updated">Facts checked: {game.checkedOn}</p>
+    <p class="aff-box">This page links to game server hosts through affiliate links. We may earn a commission if you buy through them, at no extra cost to you. <a class="text-link" href="/disclosure/">Learn more</a></p>
+
+    <div class="cover"><img src={game.image} alt={coverAlt} width="460" height="215" /></div>
+    <p>{game.intro}</p>
+
+    <h2>Playing together</h2>
+    <ul>{game.facts.map((f) => <li>{f.text} <span class="src">({f.source})</span></li>)}</ul>
+
+    <h2>Why a server</h2>
+    <p>Without a server, one player hosts the world from their own computer, so the others can only join while that player is online. A rented server keeps the world online all the time: friends join when they like, and the host's computer can be off.</p>
+    <p>New to this? Read <a href="/servers/start-a-game-server-for-friends/">how to start a game server for friends</a> and <a href="/servers/rent-a-server-or-host-at-home/">whether to rent a server or host at home</a>.</p>
+
+    {hosts.map((h) => <ProviderCard host={h.host} href={h.href} game={game.title} gameFacts={h.facts} />)}
+
+    <h2>Sources</h2>
+    <ul class="sources">
+      {sources.map((s) => <li><a href={s.url} rel="noopener">{game.title} on {s.source.replace(/ page$/, '')}</a>, checked {game.checkedOn}</li>)}
+      {hosts.map((h) => <li><a href={`${h.host.site}${h.path}`} rel="noopener nofollow">{h.host.name}: {game.title} servers</a>, checked {game.checkedOn}</li>)}
+    </ul>
+  </main>
+</Layout>
+
+<style>
+  .prose .eyebrow a { color: inherit; }
+  .updated { font-size: 14px; color: var(--muted); }
+  .cover { border-radius: 14px; overflow: hidden; border: 1px solid var(--border); background: #1C2430; aspect-ratio: 460 / 215; margin: 0 0 20px; }
+  .cover img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .src { color: var(--muted); font-size: 14px; }
+  /* the same look as the Markdown guides (src/layouts/Article.astro) */
+  .aff-box { padding: 14px 16px; margin: 0 0 32px; font-size: 14px; background: var(--panel); border: 1px solid var(--border); border-radius: 10px; color: var(--muted); }
+  ul { margin: 0 0 16px; padding-left: 22px; color: var(--body-muted); }
+  li { margin: 6px 0; }
+  main > p a, li a, .aff-box a { color: var(--accent-text); text-decoration: underline; }
+  .sources { font-size: 14px; }
+</style>

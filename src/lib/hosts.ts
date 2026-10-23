@@ -8,6 +8,8 @@ export interface Host {
   games: string;
   locations: string;
   facts: string[];
+  // The affiliate link to the page of one game on the host's site (path from data/coop-games.json). Hosts without it are not used on game pages.
+  gameUrl?: (path: string) => string;
 }
 
 // Admitad link (see docs/partners.md, section 4). subid=site tells us the click came from the website.
@@ -34,6 +36,8 @@ export const survivalServers: Host = {
   name: 'Survival Servers',
   site: 'https://www.survivalservers.com',
   affiliateUrl: 'https://www.survivalservers.com/?ref=alex70&trckit=site',
+  // The ref mark works on any page of their site (checked October 22, 2026: the affiliate cookie is set on a game page too).
+  gameUrl: (path) => `https://www.survivalservers.com${path}?ref=alex70&trckit=site`,
   checkedOn: 'October 22, 2026',
   games: 'More than 100 games, including cozy co-op games such as Stardew Valley, Core Keeper, Terraria and Necesse, plus Valheim, Palworld, Enshrouded and Minecraft.',
   locations: 'USA (Los Angeles, Seattle, Dallas, New York, Miami), Germany, France, Singapore.',
@@ -47,3 +51,6 @@ export const survivalServers: Host = {
 
 // Cards shown on /servers/ and under every server guide, in this order.
 export const hosts: Host[] = [survivalServers, godlike];
+
+// The same hosts by the key used in data/coop-games.json ("hosts": { "survivalServers": ... }).
+export const hostsByKey: Record<string, Host> = { survivalServers, godlike };

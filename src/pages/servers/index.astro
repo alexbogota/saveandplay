@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import ProviderCard from '../../components/ProviderCard.astro';
 import ArticleList from '../../components/ArticleList.astro';
 import { hosts } from '../../lib/hosts';
+import { coopGames } from '../../lib/coop-games';
 ---
 <Layout
   title="Game servers: guides for playing with friends | SaveAndPlay"
@@ -13,6 +14,16 @@ import { hosts } from '../../lib/hosts';
     <h1>Play with friends on your own server</h1>
     <p class="intro">A game server keeps a world online so that you and your friends can join it any time, even when your own computer is off. These short guides explain how it works and what to check before you rent one.</p>
     <p class="aff-note">Some links are affiliate links: we may earn a commission when you buy, at no extra cost to you. <a href="/disclosure/">Learn more</a></p>
+
+    <h2>Games to play together</h2>
+    <div class="games">
+      {coopGames.map((g) => (
+        <a class="game" href={`/servers/${g.slug}/`}>
+          <img src={g.image} alt={`Cover art for ${g.title}`} width="460" height="215" loading="lazy" />
+          <span class="name">{g.title}</span>
+        </a>
+      ))}
+    </div>
 
     <h2>Guides</h2>
     <ArticleList section="servers" />
@@ -27,4 +38,9 @@ import { hosts } from '../../lib/hosts';
 <style>
   .intro { font-size: 18px; }
   .aff-note { font-size: 14px; color: var(--muted); }
+  .games { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; margin: 0 0 8px; }
+  .game { display: block; background: var(--panel); border: 1px solid var(--border); border-radius: 14px; overflow: hidden; }
+  .game:hover { border-color: var(--border-hover); }
+  .game img { display: block; width: 100%; height: auto; aspect-ratio: 460 / 215; object-fit: cover; }
+  .name { display: block; padding: 12px 16px; min-height: 44px; font-family: var(--font-head); font-weight: 600; font-size: 18px; color: var(--heading); }
 </style>

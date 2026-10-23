@@ -1,7 +1,8 @@
 ---
 import { godlike, type Host } from '../lib/hosts';
-interface Props { host?: Host }
-const { host = godlike } = Astro.props;
+// On a game page (src/pages/servers/[game].astro) the card gets the link to the host's page of that game and what that page says.
+interface Props { host?: Host; href?: string; game?: string; gameFacts?: string[] }
+const { host = godlike, href = host.affiliateUrl, game, gameFacts = [] } = Astro.props;
 const titleId = `provider-${host.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
 ---
 <section class="provider" aria-labelledby={titleId}>
@@ -10,7 +11,7 @@ const titleId = `provider-${host.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}
       <div class="label">Where to rent</div>
       <h2 id={titleId}>{host.name}</h2>
     </div>
-    <a class="btn sp-btn" href={host.affiliateUrl} rel="sponsored nofollow noopener" target="_blank" data-deal={`${host.name} game servers`} data-store={host.name}>Visit {host.name}</a>
+    <a class="btn sp-btn" href={href} rel="sponsored nofollow noopener" target="_blank" data-deal={`${host.name} ${game ?? 'game'} servers`} data-store={host.name}>{game ? `${game} servers at ${host.name}` : `Visit ${host.name}`}</a>
   </div>
   <dl>
     <dt>Games</dt>
@@ -18,6 +19,9 @@ const titleId = `provider-${host.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}
     <dt>Locations</dt>
     <dd>{host.locations}</dd>
   </dl>
+  {game && gameFacts.length > 0 && <h3>On its {game} page</h3>}
+  {game && gameFacts.length > 0 && <ul>{gameFacts.map((f) => <li>{f}</li>)}</ul>}
+  {game && <h3>For every server</h3>}
   <ul>{host.facts.map((f) => <li>{f}</li>)}</ul>
   <p class="note">This is what the provider says on its own website (checked {host.checkedOn}). We have not tested its servers. Prices change, so check the current price on their site.</p>
   <p class="note">Affiliate link: we may earn a commission if you buy through it, at no extra cost to you. <a class="text-link" href="/disclosure/">Learn more</a></p>
@@ -34,6 +38,7 @@ const titleId = `provider-${host.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}
   dd { margin: 0; color: var(--body-muted); }
   ul { margin: 16px 0 0; padding-left: 20px; color: var(--body-muted); font-size: 15px; }
   li { margin: 4px 0; }
+  .provider h3 { margin: 20px 0 0; font-size: 15px; font-weight: 700; color: var(--heading); }
   .note { margin: 14px 0 0; font-size: 13px; color: var(--muted); }
   @media (max-width: 560px) { dl { grid-template-columns: 1fr; gap: 2px; } dd { margin-bottom: 10px; } }
 </style>

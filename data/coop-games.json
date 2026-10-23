@@ -1,0 +1,120 @@
+{
+  "about": "Games to play with friends on a rented server. Each game gets its own page /servers/<slug>/ (src/pages/servers/[game].astro) and, for the accounts that ask for it, a Bluesky post 'play together' (coop block in data/accounts.json, scripts/lib/coop-posts.mjs). A new game = one more block here, no code change. Every fact is copied from the named source on checkedOn; no prices (they change). tags decide which accounts may post the game (coop.anyTags of the account). hosts: key = a host from src/lib/hosts.ts, path = the page of this game on the host's site (the affiliate mark is added by the code), facts = what that page says. posts = ready English lines for the post (no link, no tags, no Ad: the template of the account adds them); they rotate. image = Steam header picture (taken from Steam's own appdetails answer, like the deal covers).",
+  "games": [
+    {
+      "slug": "stardew-valley",
+      "title": "Stardew Valley",
+      "tags": ["cozy", "farming"],
+      "hashtag": "StardewValley",
+      "steamAppId": 413150,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1786554168",
+      "checkedOn": "October 22, 2026",
+      "intro": "A farming life game: you inherit an old farm plot, grow crops, raise animals and get to know the people of the valley.",
+      "facts": [
+        { "text": "Up to 8 players can farm together: the host invites 1 to 7 friends to the valley online.", "source": "Steam store page", "url": "https://store.steampowered.com/app/413150/" },
+        { "text": "Steam lists online co-op, LAN co-op and split-screen co-op.", "source": "Steam store page", "url": "https://store.steampowered.com/app/413150/" }
+      ],
+      "hosts": {
+        "survivalServers": {
+          "path": "/services/game_servers/stardew_valley/",
+          "facts": [
+            "A built-in SMAPI mod manager with one-click installs.",
+            "A live farm map and a console in the control panel.",
+            "A server password, so only your friends can join."
+          ]
+        }
+      },
+      "posts": [
+        "Stardew Valley is up to 8-player farming: the host invites 1 to 7 friends to the valley online.\nA rented server keeps the farm open when the host logs off.",
+        "One farm, up to 8 farmers. Stardew Valley lets you share a farm online with up to 7 friends.\nWith your own server, nobody has to stay online so the others can play.",
+        "Planting season with friends? Stardew Valley has online co-op for up to 8 players.\nHere is what a Stardew Valley server gives you, in plain words."
+      ]
+    },
+    {
+      "slug": "core-keeper",
+      "title": "Core Keeper",
+      "tags": ["cozy", "sandbox"],
+      "hashtag": "CoreKeeper",
+      "steamAppId": 1621690,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1621690/header.jpg?t=1791454740",
+      "checkedOn": "October 22, 2026",
+      "intro": "A mining sandbox adventure in a huge underground cavern: you dig, build a base, farm, craft and explore at your own pace.",
+      "facts": [
+        { "text": "Online co-op for 2 to 8 players, drop-in and drop-out.", "source": "Steam store page", "url": "https://store.steampowered.com/app/1621690/" },
+        { "text": "The game itself mentions hosting your own dedicated server.", "source": "Steam store page", "url": "https://store.steampowered.com/app/1621690/" }
+      ],
+      "hosts": {
+        "survivalServers": {
+          "path": "/services/game_servers/core_keeper/",
+          "facts": [
+            "Database backups every 30 minutes, kept for 5 days.",
+            "Admins can be added in one click.",
+            "A server password, so only your friends can join."
+          ]
+        }
+      },
+      "posts": [
+        "Core Keeper is a mining sandbox for 2 to 8 players, with drop-in, drop-out online co-op.\nA rented server keeps your underground base online for the whole group.",
+        "Dig, farm and build a base together: Core Keeper has online co-op for up to 8 players.\nWith your own server, friends can drop in any time, even when you are offline.",
+        "Want a shared Core Keeper world that is always there? The game supports dedicated servers.\nHere is what a Core Keeper server gives you, in plain words."
+      ]
+    },
+    {
+      "slug": "terraria",
+      "title": "Terraria",
+      "tags": ["sandbox", "adventure"],
+      "hashtag": "Terraria",
+      "steamAppId": 105600,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1792530636",
+      "checkedOn": "October 22, 2026",
+      "intro": "A 2D sandbox adventure: dig, fight, explore and build in a world where the journey is up to you.",
+      "facts": [
+        { "text": "Steam lists online co-op and online PvP.", "source": "Steam store page", "url": "https://store.steampowered.com/app/105600/" }
+      ],
+      "hosts": {
+        "survivalServers": {
+          "path": "/services/game_servers/terraria/",
+          "facts": [
+            "Ready for Terraria 1.4.5, according to the host.",
+            "tModLoader mod support and easy mod installs.",
+            "Database backups every 30 minutes, kept for 5 days."
+          ]
+        }
+      },
+      "posts": [
+        "Terraria with friends, any time: a rented server keeps your world online when you log off.\nSteam lists online co-op and PvP.",
+        "Building a Terraria base with friends? Your own server means nobody has to host from their own PC.",
+        "Modded Terraria with friends? Some hosts support tModLoader on their servers.\nHere is what a Terraria server gives you, in plain words."
+      ]
+    },
+    {
+      "slug": "necesse",
+      "title": "Necesse",
+      "tags": ["sandbox", "colony"],
+      "hashtag": "Necesse",
+      "steamAppId": 1169040,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1169040/4b2e7f5253b4595a523e5c8b27a8ea6214e14ac6/header_alt_assets_5.jpg?t=1790679641",
+      "checkedOn": "October 22, 2026",
+      "intro": "Build a settlement in an endless generated world, recruit settlers, explore dungeons and fight bosses.",
+      "facts": [
+        { "text": "You can play alone, in co-op, or set up a dedicated server with hundreds of other players.", "source": "Steam store page", "url": "https://store.steampowered.com/app/1169040/" },
+        { "text": "Steam lists online co-op and LAN co-op.", "source": "Steam store page", "url": "https://store.steampowered.com/app/1169040/" }
+      ],
+      "hosts": {
+        "survivalServers": {
+          "path": "/services/game_servers/necesse/",
+          "facts": [
+            "Plans with up to 20 player slots for co-op.",
+            "A full server config editor in the control panel.",
+            "A server password, so only your friends can join."
+          ]
+        }
+      },
+      "posts": [
+        "Necesse lets you build one big settlement together, or run a dedicated server for many players.\nA rented server keeps the colony running when you log off.",
+        "Colony building with friends: Necesse supports co-op and dedicated servers.\nHere is what a Necesse server gives you, in plain words.",
+        "Want your Necesse settlement online for the whole group? Your own server means nobody has to host from their own PC."
+      ]
+    }
+  ]
+}
