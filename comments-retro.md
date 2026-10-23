@@ -1,54 +1,59 @@
 # Comment candidates: retro (@retrogamedeals.bsky.social)
-Made 2026-10-23T12:49Z. Searched: childhood: games from my childhood | childhood: first video game | childhood: played this as a kid game | childhood: first pc game | classicPC: classic pc games | classicPC: old pc game | classicPC: retro pc gaming | classicPC: dos game | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: best old games | askRetro: old game recommend | askRetro: retro game recommendations | askRetro: old games recommend | retroFeed: feed.
-Posts below: 12 + 1 heated. Dropped in this run: not about games 78, skip word 83, bot, shop or studio 20, promo (link and hashtags) 3, replies are limited 13, low score 9, empty 4, too short 8, already shown 6, other language (text) 14, already answered 1, adult or graphic label 1, too many hashtags 5, other language 25, not a question 20.
+Made 2026-10-23T18:47Z. Searched: childhood: childhood game | childhood: game from my childhood | childhood: childhood favorite game | childhood: games from my childhood | classicPC: classic pc game | classicPC: old pc games | classicPC: dos games | classicPC: classic pc games | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: retro games recommend | askRetro: best retro games | askRetro: best old games | askRetro: old game recommend | retroFeed: feed.
+Posts below: 12 + 1 heated. Dropped in this run: skip word 62, not about games 96, replies are limited 13, too short 6, already shown 5, bot, shop or studio 6, own post 2, other language (text) 17, low score 3, already answered 2, promo (link and hashtags) 3, empty 2, not a question 30, other language 23, earlier finds: low score 3.
 
 ## Posts
-1. @handlebarorionx.bsky.social (Handlebar-Orion X.🟦ᴺᵉʳᵈʸ ᵖʳᵒᵍʳᵉˢˢᶦᵛᵉ ᵠᵘ) · 3h · likes 1 · replies 0 · question · childhood
-   https://bsky.app/profile/handlebarorionx.bsky.social/post/3myjwuj63lk26
-   At first I was like whose The 8-Bit Guy? Sounds like the name of every other video game enthusiast youtube channel in 2014 and then I looked him up and thought oh that guy! I've actually seen a small few of his retrospectives for obscure computers! Awww man not surprising
-2. @starhound.bsky.social (Rhodie the Starhound) · 10h · likes 2 · replies 1 · question · childhood
-   https://bsky.app/profile/starhound.bsky.social/post/3myj5m6id4k2l
-   Going off that "First video game" post, my real question for everyone of 80s era childhood How many of you remember Video Smarts? With Teachin' Teddy?
-   [2 images, no description]
-3. @smashvillekp.bsky.social (Kev In Your Area 🖤🩷♦️🧡💜⚔️ 케빈) · 12h · likes 2 · replies 0 · question · childhood
-   https://bsky.app/profile/smashvillekp.bsky.social/post/3myiyoktqos2d
-   I would like to humbly apologize to Sir Tom Jones. My entire childhood and adolescence, I always thought he was the “What’s New Pussycat?” Guy. I was not familiar with the absolute game my man has. Not had, Has. He still sounds exactly like this. What a damn singer.
-   [link card: Tom Jones - (It Looks Like) I'll Never Fall In Love Again (The Dusty Springfield Show, 5th Sep 1967)]
-4. @nabrahams.bsky.social (Noah AbraAAAUGHHhhhh...) · 25m · likes 5 · replies 1 · question · childhood
-   https://bsky.app/profile/nabrahams.bsky.social/post/3myk6ayhpm225
-   Not only do I remember my first video game, I remember the restaurant I played it in. (It was Lum's in 1980)
-   [image: A standup arcade cabinet of Pac Man.; quotes @sophianyx.bsky.social: Name the first videogame you played.]
-5. @cm30.bsky.social (CM30) · 3h · likes 6 · replies 1 · question · childhood
-   https://bsky.app/profile/cm30.bsky.social/post/3myjwsvw25c2l
-   Name the first video game I played? This iconic Game Boy title!
-   [link card: Super Mario Land 2d Platformer; quotes @sophianyx.bsky.social: Name the first videogame you played.]
-6. @meganpaasch.bsky.social (Megan Paasch) · 10h · likes 1 · replies 0 · question · gogOld
-   https://bsky.app/profile/meganpaasch.bsky.social/post/3myj7akueik25
-   Right?? I'm hoping if they take them away, GOG (Good Old Games) will preserve them and make them available on their site. They already have DA: Origins and Jade Empire on there.
-7. @projectazar.com (Project Azar) · 10h · likes 0 · replies 0 · question · classicPC
-   https://bsky.app/profile/projectazar.com/post/3myj6upyyas2j
-   The first I remember is Halloween Harry/Alien Carnage, but I've been playing since at least age 3 so it might be something closer to a whack a mole DOS game.
-   [quotes @sophianyx.bsky.social: Name the first videogame you played.]
-8. @1000whitecats.bsky.social (Heatseeking Pitbull) · 21h · likes 0 · replies 0 · question · classicPC
-   https://bsky.app/profile/1000whitecats.bsky.social/post/3myi2ep7hgk2r
-   Do I pay $5k for a PC that runs new games I might not even like and decade old games I've been playing for a decade?
-9. @lizardky.bsky.social (Lizard) · 38m · likes 0 · replies 1 · question · childhood
-   https://bsky.app/profile/lizardky.bsky.social/post/3myk5j42mpu2u
-   Oh, your first video game was on a *screen*?
-   [image: Image of a teletype with an inset of the text based "Star Trek" game from the early 1970s.]
-10. @cotton-pastel.bsky.social (blupp.) · 3h · likes 5 · replies 1 · childhood
-   https://bsky.app/profile/cotton-pastel.bsky.social/post/3myjuul226s2s
-   “disney’s aladdin” <3 but i doubt i came to scenes like below, i was way too small and probably kept dying even before encountering any goons. this was on my father’s pc Name the first video game you played.
-   [image: a screenshot from the NES game “Disney’s Aladdin” where Aladdin jumps high in an ordinary town scene in Agrabah. a palace guard is falling out behind him, prob…; quotes @sophianyx.bsky.social: Name the first videogame you played.]
-11. @pnwpotato.bsky.social (Savannah) · 4h · likes 2 · replies 0 · classicPC
-   https://bsky.app/profile/pnwpotato.bsky.social/post/3myjrazcbvs2c
-   I got similarly a bit wigged out by this old PC game called Mindmaze
-   [image: Screenshot of an old PC game called Mindmaze. You are in a slightly dungeon looking area in a castle, and the bottom of the screen shows a partially completed …]
-12. @bruceski.bsky.social (Bruceski) · 5h · likes 1 · replies 1 · classicPC
-   https://bsky.app/profile/bruceski.bsky.social/post/3myjp4kn5lc2a
-   Either Nibbles (came with dos as a QBasic demo) or Think Quick (early edutainment game of mazes and pattern recognition). I'd have to look up publication dates.
+1. @sharkabytes.bsky.social (Sasha's Retrobytes 🏳️‍⚧️) · 2h · likes 29 · replies 0 · question · classicPC
+   https://bsky.app/profile/sharkabytes.bsky.social/post/3mykldq6wws2c
+   *go away ;w; There's some really nice presentation flair for their first game, with pre-rendered mission hubs and some pretty solid texture mapping and polygonal graphics. And an immersive rendered cockpit. I remember picking this up cheap while catching up on DOS games with my f
+   [2 images: A briefing chamber with a holographic pillar in the middle and Babylon 5-like airlock doors. / A snap of the first-person gameplay with a pre-rendered mech cockpit and a gun turret tower in front opening fire.]
+2. @wincenworks.bsky.social (Kim Wincen) · 11h · likes 32 · replies 2 · question · askRetro
+   https://bsky.app/profile/wincenworks.bsky.social/post/3myjnest2ms26
+   If you haven't already, check out The Last Exterminator - it feels like how you want to remember Duke Nukem 3D (without the misogyny cringe). store.steampowered.com/app/811760/T...
+   [link card: The Last Exterminator on Steam]
+3. @drcouzelis.bsky.social (David Couzelis) · 44m · likes 0 · replies 0 · question · retroFeed
+   https://bsky.app/profile/drcouzelis.bsky.social/post/3mykr7xomnk2q
+   Gun.Smoke for #NES is so fun! 😊 ...but Capcom why you gotta make me cry when I lose my horse????? 😭
+   [video, no description]
+4. @abastedo-writing.bsky.social (A. Bastedo is Spoopin Around) · 1h · likes 1 · replies 0 · childhood
+   https://bsky.app/profile/abastedo-writing.bsky.social/post/3mykq4kvkwc26
+   Quote post with a video game that transports you back to your childhood Oh that first sweet summer when everything was possible
+   [link card: Pokemon Emerald: Rayquaza Opening Animation; quotes @conradelliot.bsky.social: Quote post with a video game that transports you back to your childhood My bro & I shared an original gameboy. He had pokemon red, I had bl…]
+5. @danrfrazier.bsky.social (Dan Frazier) · 2h · likes 1 · replies 0 · question · gogOld
+   https://bsky.app/profile/danrfrazier.bsky.social/post/3mykoflhqps2z
+   www.nytimes.com/2026/10/22/w... I have lots of questions. Are there movies that are especially good at depicting this? How were those scenes filmed? What would a top performer in this field do to demonstrate his or her prowess? How do modern performers compare to their historic c
+   [link card: Archers Mount Their Steeds in Pursuit of Centuries-Old Warrior Spirit (Gift Article)]
+6. @aura-olympian.bsky.social (Aura 🏳️‍⚧️🏳️‍🌈 🇺🇦 🇵🇸 🇹🇼🏴󠁧󠁢󠁳) · 2h · likes 1 · replies 0 · childhood
+   https://bsky.app/profile/aura-olympian.bsky.social/post/3mykmldmnmk2z
+   QTP with a video game that transports you back to your childhood
+   [link card: Final Fantasy VI (FF6) Pixel Art; quotes @jmweaverauthor.bsky.social: QTP with a video game that transports you back to your childhood ⏳]
+7. @photofan9000.bsky.social (AT) · 3h · likes 6 · replies 0 · childhood
+   https://bsky.app/profile/photofan9000.bsky.social/post/3mykkhq5fa224
+   qtp with a video game that transports you back to your childhood 🖤
+   [link card: Space Bob Lemmings Classic Gameplay; quotes @billpensioner.bsky.social: qtp with a video game that transports you back to your childhood 🖤]
+8. @cm30.bsky.social (CM30) · 5h · likes 4 · replies 0 · askRetro
+   https://bsky.app/profile/cm30.bsky.social/post/3mykdpz5m6s2j
+   QTP with your top 3DS games! Honestly I’m kinda boring… the games I enjoyed the most were generally spinoffs in the Mario series. Also Mario Kart 7 has the best selection of retro tracks in the series outside of Tour and the Booster Course Pass.
+   [4 images: The box art for The Legend of Zelda: A Link Between Worlds / The box art for Luigi’s Mansion: Dark Moon (Luigi’s Mansion 2 in Europe) / The box art for WarioWare: Gold / The box art for Mario Kart 7; quotes @watcherjoshua.bsky.social: QTP with your top 3DS games! (I'm realizing that the 3DS doesn't actually have tons of games I care about.)]
+9. @ladyholmes.bsky.social (The Illustrations of Caitlin Abele) · 5h · likes 1 · replies 0 · childhood
+   https://bsky.app/profile/ladyholmes.bsky.social/post/3mykdbywip22s
+   QTP with a video game that transports you back to your childhood⏳
+   [link card: Super Smash Bros N64 Character Rush; quotes @valtsaber.bsky.social: QTP with a video game that transports you back to your childhood⏳]
+10. @conradelliot.bsky.social (conrad 🏳️‍⚧️🏳️‍🌈✝️📿) · 5h · likes 7 · replies 0 · childhood
+   https://bsky.app/profile/conradelliot.bsky.social/post/3mykd2e5me22v
+   Quote post with a video game that transports you back to your childhood My bro & I shared an original gameboy. He had pokemon red, I had blue version. We had to take turns playing. Often when driving an hour to my grandparents at night, I'd try playing every time we passed under 
+   [link card: Pokemon Red: Youngster's Iconic Shorts Quote; quotes @gaudynight78.bsky.social: Quote post with a video game that transports you back to your childhood]
+11. @aravensjubilee.bsky.social (Ravensjubilee) · 5h · likes 1 · replies 0 · childhood
+   https://bsky.app/profile/aravensjubilee.bsky.social/post/3mykbhrkmvk2x
+   QTP with a video game that transports you back to your childhood
+   [link card: Turtles In Time Tmnt; quotes @lusankya.bsky.social: QTP with a video game that transports you back to your childhood]
+12. @impette.bsky.social (Impette 🍄🌲) · 6h · likes 1 · replies 0 · childhood
+   https://bsky.app/profile/impette.bsky.social/post/3myk7rfwc6k2x
+   qtp with a video game that transports you back to your childhood
+   [link card: Primal Rage - Characters Select; quotes @magicalvivii.bsky.social: qtp with a video game that transports you back to your childhood]
 
 ## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @itsabbie.nekoweb.org (AHHbbie) · 25h · likes 13 · replies 1 · childhood
-   https://bsky.app/profile/itsabbie.nekoweb.org/post/3myhmk4xwjk2u
-   it's happening. first it was video game mods and some people thought it was cool and interesting (not me) but its slowly turning into entire security systems being decompiled and hacked into. just imagine banks being robbed using ai, tv channels getting hijacked, airlines cancell
+1. @glairedaggers.bsky.social (GlaireDaggers🍉🏳️‍⚧️🎃) · 1h · likes 8 · replies 2 · question · retroFeed
+   https://bsky.app/profile/glairedaggers.bsky.social/post/3mykprcqzrd24
+   Seeing Pokemon Red, Blue, and Yellow at the top is making me really think about just how *many* AI projects I've seen redoing work that has already been done. SNES Doom recomp -> Doom is already open source KH: ReCoM PC port -> Literally on Steam already And now these translation
+   [quotes @krokodyl.bsky.social: I looked through the last 100 English fan translations published on RHDN (over 3 weeks), and at least 74 are AI translations. I didn't real…]

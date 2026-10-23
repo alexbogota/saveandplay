@@ -1,52 +1,57 @@
 # Comment candidates: mastodon-prices (@saveandplay@mastodon.social)
-Made 2026-10-23T12:47Z. Searched: deck: handheldgaming | deck: steamdecklife | deck: steamdeckoled | deck: steamdeck | deck: steamos | practical: linuxgaming | practical: drmfree | practical: gog | practical: protondb | genres: coopgames | genres: citybuilder | genres: strategygames | genres: survivalgames | genres: horrorgaming | genres: cozygaming | genres: puzzlegames | genres: roguelike | genres: cozygames | genres: metroidvania | seasonal: halloweengames | seasonal: horrorgames | seasonal: spooktober | broadPlaying: videogames | broadPlaying: currentlyplaying | broadPlaying: indiegames | broadPlaying: indiegame | broadPlaying: pcgames | broadPlaying: steamgames | broadPlaying: gamer | broadPlaying: games | broadPlaying: rpg | broadPlaying: jrpg | broadPlaying: pcgaming | broadPlaying: gaming | broadPlaying: steam | broadAsk: recommendmeagame | broadAsk: gamerecommendation | broadAsk: recommendagame | broadAsk: whattoplay | broadAsk: gamesuggestion | broadAsk: hiddengem | broadAsk: underratedgames | broadAsk: gamesuggestions | backlog: gamingbacklog | backlog: backlog | backlog: pileofshame | backlog: whatshouldiplay | backlog: gamerecommendations | backlog: gamerecs.
-Posts below: 12. Dropped in this run: bot, shop or studio 908, too old 1189, other language 240, promo (link and hashtags) 127, skip word 156, already shown 21, other language (text) 184, low score 16, own post 21, not about games 45, link post, not a question 20, too long 15, console only 10, hidden from search 7, profile says no bots or promo 2, many links 2, too short 1, earlier finds: low score 9.
+Made 2026-10-23T18:45Z. Searched: deck: handheldgaming | deck: steamdecklife | deck: steamdeckoled | deck: steamdeck | deck: steamos | practical: linuxgaming | practical: drmfree | practical: gog | practical: protondb | genres: coopgames | genres: citybuilder | genres: strategygames | genres: survivalgames | genres: horrorgaming | genres: cozygaming | genres: puzzlegames | genres: roguelike | genres: cozygames | genres: metroidvania | seasonal: halloweengames | seasonal: horrorgames | seasonal: spooktober | broadPlaying: videogames | broadPlaying: currentlyplaying | broadPlaying: indiegames | broadPlaying: indiegame | broadPlaying: pcgames | broadPlaying: steamgames | broadPlaying: gamer | broadPlaying: games | broadPlaying: rpg | broadPlaying: jrpg | broadPlaying: pcgaming | broadPlaying: gaming | broadPlaying: steam | broadAsk: recommendmeagame | broadAsk: gamerecommendation | broadAsk: recommendagame | broadAsk: whattoplay | broadAsk: gamesuggestion | broadAsk: hiddengem | broadAsk: underratedgames | broadAsk: gamesuggestions | backlog: gamingbacklog | backlog: backlog | backlog: pileofshame | backlog: whatshouldiplay | backlog: gamerecommendations | backlog: gamerecs.
+Posts below: 12. Dropped in this run: bot, shop or studio 992, too old 1186, other language 230, promo (link and hashtags) 151, skip word 173, already shown 34, too long 15, low score 24, many links 3, other language (text) 103, own post 24, profile says no bots or promo 7, not about games 43, console only 16, link post, not a question 18, hidden from search 5, content warning 12, too short 1, earlier finds: low score 3.
 
 ## Posts
-1. @coinkedpath.wordpress.com@coinkedpath.wordpress.com (coinkedpath) · 5m · likes 0 · replies 0 · question · broadPlaying
-   https://mastodon.social/@coinkedpath.wordpress.com@coinkedpath.wordpress.com/117490281295307771
-   original: https://coinkedpath.wordpress.com/2026/10/23/above-the-view/
-   Above the view Puppets are given a string to pull, and this allows the play. What does the puppet mean in a dream found in the Dreaming Meaning covered? Now, for the game. Secrets are hidden in color. https://coinkedpath.wordpress.com/2026/10/23/above-the-view/
-   [3 images: A set of three game pieces labeled perplexed is called the scribbles. The set of three game pieces is for spot-the-difference. / A set of three game pieces labeled perplexed is called the scribbles. The set of three game pieces is for spot-the-difference. / A set of three game pieces labeled perplexed is called the scribbles. The set of three game pieces is for spot-the-difference.]
-2. @nomxd@mastodon.social (Nom__XD, 飲ん,诺穆 (They/Them)🐈‍⬛) · 3h · likes 0 · replies 1 · question · broadPlaying
-   https://mastodon.social/@nomxd/117489522097229671
-   So I've been doing a bit of the Frontier Event and I feel my first impressions about it were right. The costs are way too high. Beat stage 19? and awakening 5 champions for a 3 star soul? (5>3) Not worth it. #raidshadowlegends #gamer #gaming 🐾
-   [image: frontier event]
-3. @gamerspherenz@mastodon.social (GamersphereNZ) · 9h · likes 1 · replies 0 · question · genres
-   https://mastodon.social/@gamerspherenz/117488104756901746
-   Co-operative games create their own language. How does your group share ideas without one person taking over the whole plan? #CoopGames #TabletopCommunity
-4. @ami_angelwings@urusai.social (Ami Angelwings) · 11h · likes 3 · replies 10 · question · broadPlaying
-   https://mastodon.social/@ami_angelwings@urusai.social/117487674682915817
-   original: https://urusai.social/@ami_angelwings/117487674244862033
-   #QuestionOfTheDay what's a work you like that gets stuff wrong about a hobby/topic you have expertise on? And what do they get wrong? #fiction #TV #television #comics #videogames #gaming #anime #manga #webcomics #books #film #movies #documentary #ttrpg #ccgs
-5. @lashman@mastodon.social (lashman) · 41m · likes 1 · replies 0 · broadPlaying
-   https://mastodon.social/@lashman/117490134917520428
-   Developer: Mindware Publisher: Mindware Release date: 5 Nov, 2026 Screenshots: #steam #gaming #videoGames #steamStorePage
-   [4 images: Screenshot 1 from Lot Lot Lot Lot / Screenshot 2 from Lot Lot Lot Lot / Screenshot 3 from Lot Lot Lot Lot / Screenshot 4 from Lot Lot Lot Lot]
-6. @Ofihombre@mastodon.social (Ofihombre) · 2h · likes 1 · replies 0 · broadPlaying
-   https://mastodon.social/@Ofihombre/117489936285242414
-   30 years I've been doing this, and I've seen a lot of other games come and go. - Wreck-It Ralph #Gaming #Videogames #SKG #phrases
-7. @fkftsh@fkft.sh (FKFTSH) · 6h · likes 2 · replies 1 · broadPlaying
-   https://mastodon.social/@fkftsh@fkft.sh/117488887699212403
-   original: https://fkft.sh/@fkftsh/117488887335396297
-   if you had told me yesterday that bioware fans would be making mass effect memes about the houthis bombing saudi arabia in support of the houthis i would NOT have fucking believed you #games #gaming #masseffect
-8. @pitcrewgg@mastodon.social (PitCrew) · 19h · likes 1 · replies 1 · practical
-   https://mastodon.social/@pitcrewgg/117485706011951201
-   🔄 Euro Truck Simulator 2 - Edinburgh UK Rework Edinburgh rework for Euro Truck Simulator 2 highlights historic Old Town, castle and Arthur's Seat plus Leith port and UK Rework updates. 1/2 #BestCommunityEver #ETS2 #EuroTruckSimulator #Linux #LinuxGaming #PCGaming #FreeTrack #Hea
+1. @itguyeric@mastodon.social (Eric The IT Guy) · 5h · likes 2 · replies 3 · question · broadPlaying
+   https://mastodon.social/@itguyeric/117490604745134603
+   Friday question: what's the least justifiable thing running in your homelab? Mine is a whole VM for game servers. Valheim, Palworld, Starbound and ARK, plus Foundry for tabletop nights. #homelab #selfhosted #gaming #Linux
    [image, no description]
-9. @lashman@mastodon.social (lashman) · 41m · likes 0 · replies 0 · broadPlaying
-   https://mastodon.social/@lashman/117490136463778331
-   Developer: Mauvaise Herbe Studio Publisher: Supinfogame Rubika Release date: Coming soon Screenshots: #steam #gaming #videoGames #steamStorePage
-   [4 images: Screenshot 1 from Echoes of the Forest / Screenshot 2 from Echoes of the Forest / Screenshot 3 from Echoes of the Forest / Screenshot 4 from Echoes of the Forest]
-10. @nomxd@mastodon.social (Nom__XD, 飲ん,诺穆 (They/Them)🐈‍⬛) · 45m · likes 0 · replies 1 · broadPlaying
-   https://mastodon.social/@nomxd/117490120973855682
-   This one is a better event than Frontier ngl lol really fun #raidshadowlegends #gamer 🐾
-   [image: find the pumpkin]
-11. @lashman@mastodon.social (lashman) · 45m · likes 0 · replies 1 · broadPlaying
-   https://mastodon.social/@lashman/117490118898222708
-   Developer: LHD Games Publisher: EDGE Games Release date: October 2026 Screenshots: #steam #gaming #videoGames #steamStorePage
-   [4 images: Screenshot 1 from Fairlight 1&2 / Screenshot 2 from Fairlight 1&2 / Screenshot 3 from Fairlight 1&2 / Screenshot 4 from Fairlight 1&2]
-12. @troberts@theblower.au (Dread Pirate (Tom) Roberts) · 3h · likes 0 · replies 0 · broadPlaying
-   https://mastodon.social/@troberts@theblower.au/117489608305959427
-   original: https://theblower.au/@troberts/117489608062997633
-   I have been playing a bit of Final Fantasy Resonance and the HD-2D aesthetic has never looked more spectacular. #FinalFantasy #Videogames
+2. @Travinatorisme@mastodon.world (Travinatorisme) · 2h · likes 1 · replies 0 · practical
+   https://mastodon.social/@Travinatorisme@mastodon.world/117491283818709050
+   original: https://mastodon.world/@Travinatorisme/117491283631473661
+   I'm just past the first Atreus section, I'm enjoying the slower pace to things. Just allows for a moment of being able to sit back and enjoy the sprawling vistas this game has on offer. #GodofWar #GodofWarRagnarok #pcgaming #linuxgaming #videogames
+   [video, no description]
+3. @WhyNotZoidberg@topspicy.social (Why Not Zoidberg? 🦑) · 3h · likes 0 · replies 3 · question · broadPlaying
+   https://mastodon.social/@WhyNotZoidberg@topspicy.social/117491008155124764
+   original: https://topspicy.social/@WhyNotZoidberg/117491007924396460
+   I know I am the odd one out since Idol Culture has never been psychologically captivating for me. I see people actually posting how they are GRIEVING for Bioware and for me that is just a... what? Some of them are even starting to sound like soccer fanatics and that's an extra le
+4. @raster@retro-gaiden.com (Raster) · 4h · likes 1 · replies 1 · question · broadPlaying
+   https://mastodon.social/@raster@retro-gaiden.com/117490710897278216
+   original: https://retro-gaiden.com/@raster/117490710799981121
+   The Vega card memory allocation in work here. It's not magical, but if you hit the memory ceiling you don't have a devastating performance drop you have on more modern cards. On Windows you have need to enable the function manually, with a performace hit (because windows is crap)
+   [link card: AMD 8GB VRAM is better (sort of) | HBCC on RX Vega overview in 2023 | Comparison with RTX 3070]
+5. @gerowen@mastodon.social (Marcus Adams) · 56m · likes 1 · replies 1 · broadPlaying
+   https://mastodon.social/@gerowen/117491484650227896
+   #Valve also seems to have updated their built-in video editor for #Steam gameplay footage to include support for in-game events. #Deadlock, for example, shows loading screens with a striped texture on the timeline, and also places markers on the timeline for all kinds of events s
+   [image: A screenshot of the Steam video clip editor, showing various markers along the timeline.]
+6. @lashman@mastodon.social (lashman) · 1h · likes 3 · replies 0 · broadPlaying
+   https://mastodon.social/@lashman/117491404986630985
+   Developer: Blimey Publisher: Blimey Release date: Coming soon Screenshots: #steam #gaming #videoGames #steamStorePage
+   [4 images: Screenshot 1 from Winterover / Screenshot 2 from Winterover / Screenshot 3 from Winterover / Screenshot 4 from Winterover]
+7. @Gamrok@mastodon.social (Thomas Leroy 🍣🐈‍⬛) · 3h · likes 6 · replies 0 · broadPlaying
+   https://mastodon.social/@Gamrok/117490968610939351
+   Still my favorite game made with BioWare's Infinity Engine 🧡 #PlanescapeTorment #BlackIsleStudios #Interplay #InfinityEngine #BioWare #BigBoxGames #RetroGaming #RPG
+   [image: French edition of Planescape: Torment (1999, Interplay/Black Isle Studios) featuring a large sticker that reads "From the creators of Baldur's Gate".]
+8. @lashman@mastodon.social (lashman) · 3h · likes 1 · replies 0 · broadPlaying
+   https://mastodon.social/@lashman/117490926730762417
+   Developer: NEVERMIND Publisher: NEVERMIND Release date: Coming soon Screenshots: #steam #gaming #videoGames #steamStorePage
+   [4 images: Screenshot 1 from Val Fortuna / Screenshot 2 from Val Fortuna / Screenshot 3 from Val Fortuna / Screenshot 4 from Val Fortuna]
+9. @TomSellers@infosec.exchange (Tom Sellers) · 4h · likes 1 · replies 0 · broadPlaying
+   https://mastodon.social/@TomSellers@infosec.exchange/117490761923588855
+   original: https://infosec.exchange/@TomSellers/117490761883513263
+   Hey Steam users, on Wednesday Valve released a new version of the Steam client which updates the CRL for the eMudhra bullshit. #Security #Steam
+10. @glen_malley@mstdn.ca (Glen Malley) · 5h · likes 1 · replies 1 · broadPlaying
+   https://mastodon.social/@glen_malley@mstdn.ca/117490510485701915
+   original: https://mstdn.ca/@glen_malley/117490510442170841
+   Anyway, I'm sticking with #Enshrouded for my #gaming tonight, now that the performance issues are fixed. I forgot how fun this damn game is. I'll return to DD2: Dark Arisen when I have more of a need to smash things than explore them.
+11. @ravanon@mastodon.scot (Ravanon) · 46m · likes 0 · replies 0 · broadPlaying
+   https://mastodon.social/@ravanon@mastodon.scot/117491523160301715
+   original: https://mastodon.scot/@ravanon/117491523035966671
+   Day 23 of #Arttrober is Kang-Jin Star from Black Myth: Wukong. I haven't played Black Myth myself, as Souls-like games aren't something I generally play and there are only so many games I can devote my attention to (and I play too many *long* games as well). I quite enjoyed drawi
+   [image: A drawing of Kang-Jin Star, a character (and boss) from the videogame Black Myth: Wukong. Kang-Jin Star appears as a very pale skinned woman with long straight…]
+12. @Pixalisk@mastodon.art (Pixalisk) · 1h · likes 0 · replies 1 · broadPlaying
+   https://mastodon.social/@Pixalisk@mastodon.art/117491373437809804
+   original: https://mastodon.art/@Pixalisk/117491373340607540
+   Arttrober 23: Kang-Jin Star (Black Myth: Wukong) I know absolutely nothing about this game. But today, I like how this turned out. Held myself rather close to the source-template, including lighting, only using a custom pose. #Arttrober #Arttrober2026 #DigitalArt #Fanart #MastoAr
+   [image: Digital Drawing of a young woman wearing a red Kimono. She has very bluish-pale skin and shining white eyes.]
