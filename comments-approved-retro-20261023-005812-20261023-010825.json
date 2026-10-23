@@ -1,0 +1,18 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-retro-20261023-005812.json",
+  "approvedAt": "2026-10-23T01:08:25.190Z",
+  "items": [
+    {
+      "n": 2,
+      "uri": "at://did:plc:sv524cvckefuardkofllsz44/app.bsky.feed.post/3myhy6g7qn22h",
+      "url": "https://bsky.app/profile/eyesack.bsky.social/post/3myhy6g7qn22h",
+      "author": "eyesack.bsky.social",
+      "context": "Does anyone else remember a very basic roller coaster designer game from the MS-DOS era? I think there were only two height levels, low poly 3d graphics, first person ridethrough. I played the heck out of it on a school computer",
+      "text": "Can't place that one, but it sounds like a great school-computer memory. Anything you recall about the title screen or the ride camera helps narrow down old DOS games.",
+      "edited": false
+    }
+  ]
+}
