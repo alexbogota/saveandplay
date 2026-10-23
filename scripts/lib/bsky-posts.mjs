@@ -223,7 +223,8 @@ export function scheduleProblems(sch) {
   return p;
 }
 
-const slotOf = (it) => (it.kind === 'article' ? 'article' : it.account);
+// "coop" (a play-together post) is not in the order list on purpose: it goes after the account's own deal post.
+const slotOf = (it) => (it.kind === 'article' ? 'article' : it.kind === 'coop' ? 'coop' : it.account);
 
 // Gives every item its "notBefore" (ISO time). immediate = true: everything may go now. Items of different Bluesky accounts do not wait for each other.
 export function scheduleItems(items, { now = Date.now(), schedule = readSchedule(), immediate = false } = {}) {

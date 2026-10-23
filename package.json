@@ -31,6 +31,7 @@
     "tumblr:secret": "node scripts/tumblr-secret.mjs",
     "tumblr:test": "node scripts/test-tumblr.mjs",
     "x:test": "node --test scripts/test-x-sheet.mjs",
+    "coop:test": "node --test scripts/test-coop.mjs",
     "x:sheet": "node scripts/x-sheet.mjs",
     "posts:test": "node scripts/test-posts.mjs",
     "kinguin:test": "node scripts/test-kinguin.mjs",

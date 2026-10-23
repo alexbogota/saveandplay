@@ -24,6 +24,7 @@ import {
   readSchedule, scheduleProblems, scheduleItems, isDue, parseArticlePost, articleProblems, articleKey, waitingArticles,
 } from './lib/bsky-posts.mjs';
 import { parsePosts, splitArticle } from './article-tools.mjs';
+import { coopSettings, coopSettingsProblems, coopPostFor, parseCoopPost, coopProblems, readCoopGames } from './lib/coop-posts.mjs';
 
 const args = process.argv.slice(2);
 const cmd = args[0];
@@ -90,6 +91,23 @@ async function todaysPosts() {
       list.push({ acc: main, kind: 'article', post, key, problems, title: draft.title, onSite: draft.onSite, n: ++n });
     }
   }
+  // "Play together" posts (a game from data/coop-games.json, a link to /servers/<game>/): every account with coop.enabled (scripts/lib/coop-posts.mjs).
+  const games = readCoopGames();
+  const keys = [...sent.filter((e) => FINAL.has(e.status)).map((e) => e.key), ...pending.map((p) => p.key)];
+  for (const acc of publishAccounts(only)) {
+    const cs = coopSettings(acc);
+    if (!acc.settings.enabled || !cs?.enabled) continue;
+    const bad = coopSettingsProblems(cs);
+    if (bad.length) { list.push({ acc, kind: 'coop', problems: [`settings: ${bad.join('; ')}`], n: ++n }); continue; }
+    const made = coopPostFor(acc, { games, keys, now });
+    if (made.noPost) { list.push({ acc, kind: 'coop', noPost: made.noPost, n: ++n }); continue; }
+    const post = parseCoopPost(made.text);
+    const problems = coopProblems(post, { acc, games, now });
+    const was = sent.find((e) => e.key === made.key && FINAL.has(e.status));
+    if (was) problems.push(was.status === 'sent' ? `already posted (${was.postUrl ?? 'see the sent report'})` : `already handled by the sender: ${was.reason}`);
+    else if (pending.some((p) => p.key === made.key)) problems.push('already approved and waiting for the sender');
+    list.push({ acc, kind: 'coop', post, key: made.key, problems, title: made.game, n: ++n });
+  }
   return list;
 }
 
@@ -97,7 +115,9 @@ async function cmdShow() {
   const list = await todaysPosts();
   if (!list.length) done('NO ACCOUNT is posted by the program yet (publish.enabled in data/accounts.json, channel bluesky).');
   for (const it of list) {
-    console.log(`\n## ${it.n}. ${it.kind === 'article' ? `GUIDE POST${it.title ? `: ${it.title}` : ''}${it.onSite === false ? ' (the guide is not on the site yet: publish it first or right after the approval)' : ''} of ` : ''}${it.acc.id} (@${it.acc.handle})`);
+    const label = it.kind === 'article' ? `GUIDE POST${it.title ? `: ${it.title}` : ''}${it.onSite === false ? ' (the guide is not on the site yet: publish it first or right after the approval)' : ''} of `
+      : it.kind === 'coop' ? `PLAY TOGETHER${it.title ? `: ${it.title}` : ''} (game server page, affiliate) of ` : '';
+    console.log(`\n## ${it.n}. ${label}${it.acc.id} (@${it.acc.handle})`);
     if (it.noPost) { console.log(`   NO POST TODAY: ${it.noPost}`); continue; }
     console.log(it.post.text.split('\n').map((l) => `   | ${l}`).join('\n'));
     console.log(`   link: ${it.post.link}`);
@@ -116,7 +136,7 @@ async function cmdApprove() {
   const refused = [];
   for (const it of list) {
     if (!chosen.has(it.n)) continue;
-    if (it.noPost || it.problems.length) { refused.push(`${it.n}. ${it.kind === 'article' ? 'guide post' : it.acc.id}: ${it.noPost ?? it.problems.join('; ')}`); continue; }
+    if (it.noPost || it.problems.length) { refused.push(`${it.n}. ${it.kind === 'article' ? 'guide post' : it.kind === 'coop' ? `play together (${it.acc.id})` : it.acc.id}: ${it.noPost ?? it.problems.join('; ')}`); continue; }
     items.push({ n: it.n, kind: it.kind ?? 'deal', account: it.acc.id, handle: it.acc.handle, text: it.post.text, link: it.post.link, day: it.post.day ?? null, key: it.key });
   }
   for (const n of chosen) if (!list.some((l) => l.n === n)) refused.push(`${n}: no such post`);
@@ -128,10 +148,11 @@ async function cmdApprove() {
   mkdirSync(file('drafts'), { recursive: true });
   const name = uniqueName(`posts-approved-${stampOf(now)}`);
   writeFileSync(file('drafts', name), JSON.stringify({ approvedAt: new Date(now).toISOString(), items: timed }, null, 2));
-  console.log(`APPROVED ${timed.length}: ${timed.map((i) => `${i.n} (${i.kind === 'article' ? 'guide' : i.account})`).join(', ')}. Saved as drafts/${name}.`);
+  const what = (i, guide = 'guide post') => (i.kind === 'article' ? guide : i.kind === 'coop' ? `play together, ${i.account}` : i.account);
+  console.log(`APPROVED ${timed.length}: ${timed.map((i) => `${i.n} (${what(i, 'guide')})`).join(', ')}. Saved as drafts/${name}.`);
   const clock = (iso) => new Intl.DateTimeFormat('ru-RU', { timeZone: 'America/Bogota', hour: '2-digit', minute: '2-digit' }).format(new Date(iso));
   console.log('Hours (Bogota time; the sender looks every hour, so a post goes out within about an hour after its time):');
-  for (const i of timed) console.log(`  ${i.n}. ${i.kind === 'article' ? 'guide post' : i.account} (@${i.handle}): ${Date.parse(i.notBefore) <= now + 60000 ? 'now' : `from ${clock(i.notBefore)}`}`);
+  for (const i of timed) console.log(`  ${i.n}. ${what(i)} (@${i.handle}): ${Date.parse(i.notBefore) <= now + 60000 ? 'now' : `from ${clock(i.notBefore)}`}`);
   if (refused.length) console.log(`Not approved: ${refused.join(' | ')}`);
   console.log(`\nNEXT, ONE command: bash scripts/comments-branch.sh save drafts/${name} && gh workflow run "Post to Bluesky" -R alexbogota/saveandplay --ref main`);
   console.log('Then tell the owner (in Russian, short): which post goes at what hour (Bogota), that the result (with links) is in the Summary of the runs (Actions, Post to Bluesky), and that he can say "стоп". If a guide post is approved and the guide is not on the site yet, publish the guide now (/publish, "ок, статья дня"): its post waits until the page opens.');
@@ -226,8 +247,8 @@ async function sendFor(handle, items, sent) {
     const t = Date.now();
     if (it.cancelled) { mark(it, 'skipped', 'cancelled by the owner'); continue; }
     if (t - Date.parse(it.approvedAt) > s.maxApprovalAgeHours * 36e5) { mark(it, 'skipped', `approval older than ${s.maxApprovalAgeHours} h`); continue; }
-    const post = it.kind === 'article' ? parseArticlePost(it.text) : parseBriefPost(it.text);
-    const problems = it.kind === 'article' ? articleProblems(post, { acc }) : postProblems(post, { acc, deals, now: t });
+    const post = it.kind === 'article' ? parseArticlePost(it.text) : it.kind === 'coop' ? parseCoopPost(it.text) : parseBriefPost(it.text);
+    const problems = it.kind === 'article' ? articleProblems(post, { acc }) : it.kind === 'coop' ? coopProblems(post, { acc, now: t }) : postProblems(post, { acc, deals, now: t });
     if (problems.length) { mark(it, 'skipped', `text: ${problems.join('; ')}`); continue; }
     const path = post.path;
     const early = [...sent, ...entries].find((e) => e.status === 'sent' && lc(e.handle) === lc(handle) && e.key !== it.key && String(e.link ?? '').includes(path) && t - Date.parse(e.at) < s.duplicateHours * 36e5);
@@ -276,7 +297,7 @@ function writeSummary() {
   if (later.length) {
     const clock = (iso) => new Intl.DateTimeFormat('ru-RU', { timeZone: 'America/Bogota', hour: '2-digit', minute: '2-digit' }).format(new Date(iso));
     out.push('### Ждут своего часа', '', '| № | Аккаунт | Что | Не раньше (Богота) |', '|---|---|---|---|');
-    for (const it of later) out.push(`| ${it.n} | ${it.account} | ${it.kind === 'article' ? 'пост к статье' : 'скидка'} | ${clock(it.notBefore)} |`);
+    for (const it of later) out.push(`| ${it.n} | ${it.account} | ${it.kind === 'article' ? 'пост к статье' : it.kind === 'coop' ? 'играем вместе' : 'скидка'} | ${clock(it.notBefore)} |`);
     out.push('');
   }
   out.push(...summary);

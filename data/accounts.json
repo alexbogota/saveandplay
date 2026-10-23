@@ -46,6 +46,7 @@
         "bluesky": {
           "enabled": true,
           "publish": { "enabled": true, "passwordEnv": "BSKY_APP_PASSWORD" },
+          "coop": { "enabled": false, "anyTags": ["sandbox"], "everyDays": 3, "baseTags": ["PCGaming"], "template": ["{text}", "{link}", "{tags}\n{disclosure}"] },
           "subid": "bluesky-prices",
           "utmSource": "bluesky-prices",
           "maxChars": 300,
@@ -311,6 +312,7 @@
         "bluesky": {
           "enabled": true,
           "publish": { "enabled": true, "passwordEnv": "BSKY_APP_PASSWORD_COZY" },
+          "coop": { "enabled": true, "anyTags": ["cozy"], "everyDays": 2, "baseTags": ["CozyGames"], "template": ["{text}", "{link}", "{tags}\n{disclosure}"] },
           "subid": "bluesky-cozy",
           "utmSource": "bluesky-cozy",
           "maxChars": 300,
