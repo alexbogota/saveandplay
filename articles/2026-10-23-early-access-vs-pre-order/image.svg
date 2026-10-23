@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#0D1117"/>
+<rect x="56" y="22" width="1088" height="586" rx="28" fill="#161B22" stroke="#262D38"/>
+<g font-family="Inter, 'DejaVu Sans', Arial, sans-serif">
+<text x="100" y="105" font-size="44" font-weight="800" fill="#FFFFFF">Early Access or pre-order?</text>
+<text x="100" y="150" font-size="28" fill="#9AA5B4">When the Steam refund clock starts</text>
+<text x="100" y="240" font-size="30" font-weight="700" fill="#FFFFFF">Early Access</text>
+<rect x="100" y="260" width="440" height="70" rx="12" fill="none" stroke="#3DDC97" stroke-width="4"/>
+<text x="120" y="304" font-size="28" fill="#E8ECF1">14 days from purchase</text>
+<text x="580" y="304" font-size="28" fill="#9AA5B4">full purchase, playable now</text>
+<text x="100" y="410" font-size="30" font-weight="700" fill="#FFFFFF">Pre-purchase</text>
+<rect x="100" y="430" width="440" height="70" rx="12" fill="#FFB454"/>
+<text x="120" y="474" font-size="28" fill="#1B1203">14 days from release date</text>
+<text x="580" y="474" font-size="28" fill="#9AA5B4">a promise until launch</text>
+<text x="100" y="565" font-size="28" fill="#E8ECF1">Both: under 2 hours of playtime</text>
+</g>
+</svg>
