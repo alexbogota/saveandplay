@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import ProviderCard from '../../components/ProviderCard.astro';
 import ArticleList from '../../components/ArticleList.astro';
+import { hosts } from '../../lib/hosts';
 ---
 <Layout
   title="Game servers: guides for playing with friends | SaveAndPlay"
@@ -16,7 +17,7 @@ import ArticleList from '../../components/ArticleList.astro';
     <h2>Guides</h2>
     <ArticleList section="servers" />
 
-    <ProviderCard />
+    {hosts.map((h) => <ProviderCard host={h} />)}
 
     <h2>How we write these guides</h2>
     <p>We take numbers from the games' own guides and wikis and name the source on every page. When we describe a host, we only repeat what the host says on its website and show the date we checked. We have not tested any host's servers, and we do not print prices because they change often.</p>

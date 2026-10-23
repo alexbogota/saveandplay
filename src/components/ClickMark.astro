@@ -36,6 +36,11 @@
       var a = e.target && e.target.closest && e.target.closest('a[data-deal]');
       if (!a) return;
       var href = a.getAttribute('href') || '';
+      // Direct programs with one campaign mark (Survival Servers: trckit=site, src/lib/hosts.ts): a real click swaps "site" for the source.
+      if (/[?&]trckit=site(&|#|$)/.test(href)) {
+        a.setAttribute('href', href.replace(/([?&]trckit=)site(?=&|#|$)/, '$1' + encodeURIComponent(src)));
+        return;
+      }
       // Only Admitad links (the site gives them subid=site); direct links such as IndieGala are left alone.
       if (!/^https?:\/\//i.test(href) || !/[?&]subid=/.test(href) || /[?&]subid1=/.test(href)) return;
       try { if (new URL(href).hostname === location.hostname) return; } catch (x) { return; }

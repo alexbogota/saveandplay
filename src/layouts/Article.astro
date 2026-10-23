@@ -5,6 +5,7 @@
 // Optional link-card picture (Bluesky, Mastodon): image: /og/<name>.png (a file in public/og/, 1200x630) and imageAlt: short description. Without image the card uses the site-wide picture.
 import Layout from './Layout.astro';
 import ProviderCard from '../components/ProviderCard.astro';
+import { hosts } from '../lib/hosts';
 
 const { frontmatter } = Astro.props;
 const ogImage = frontmatter.image ? new URL(frontmatter.image, Astro.site).href : undefined;
@@ -20,10 +21,10 @@ const updated = new Date(frontmatter.updated).toLocaleDateString('en-US', { year
     {isGuide ? (
       <p class="aff-box">This guide has no affiliate links. SaveAndPlay earns a commission from some store links elsewhere on the site, at no extra cost to you. <a class="text-link" href="/disclosure/">Learn more</a></p>
     ) : (
-      <p class="aff-box">This guide links to a game server host through an affiliate link. We may earn a commission if you buy through it, at no extra cost to you. <a class="text-link" href="/disclosure/">Learn more</a></p>
+      <p class="aff-box">This guide links to game server hosts through affiliate links. We may earn a commission if you buy through them, at no extra cost to you. <a class="text-link" href="/disclosure/">Learn more</a></p>
     )}
     <slot />
-    {!isGuide && <ProviderCard />}
+    {!isGuide && hosts.map((h) => <ProviderCard host={h} />)}
   </main>
 </Layout>
 

@@ -27,3 +27,23 @@ export const godlike: Host = {
     "The front page mentions a 3-day money-back guarantee. Check its terms before you buy.",
   ],
 };
+
+// Direct affiliate program (no network, see docs/partners.md). ref = our account, trckit = campaign mark:
+// "site" for every button; src/components/ClickMark.astro swaps it for the visit source on a real click (bots keep "site").
+export const survivalServers: Host = {
+  name: 'Survival Servers',
+  site: 'https://www.survivalservers.com',
+  affiliateUrl: 'https://www.survivalservers.com/?ref=alex70&trckit=site',
+  checkedOn: 'October 22, 2026',
+  games: 'More than 100 games, including cozy co-op games such as Stardew Valley, Core Keeper, Terraria and Necesse, plus Valheim, Palworld, Enshrouded and Minecraft.',
+  locations: 'USA (Los Angeles, Seattle, Dallas, New York, Miami), Germany, France, Singapore.',
+  facts: [
+    'Servers are listed as set up instantly after payment.',
+    'DDoS protection is listed for every server; automated off-site backups for selected games.',
+    'You can switch the server location at any time, according to the feature list.',
+    'Support is by ticket and email, with a community forum and a staff wiki.',
+  ],
+};
+
+// Cards shown on /servers/ and under every server guide, in this order.
+export const hosts: Host[] = [survivalServers, godlike];

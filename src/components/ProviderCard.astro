@@ -2,12 +2,13 @@
 import { godlike, type Host } from '../lib/hosts';
 interface Props { host?: Host }
 const { host = godlike } = Astro.props;
+const titleId = `provider-${host.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
 ---
-<section class="provider" aria-labelledby="provider-title">
+<section class="provider" aria-labelledby={titleId}>
   <div class="top">
     <div>
       <div class="label">Where to rent</div>
-      <h2 id="provider-title">{host.name}</h2>
+      <h2 id={titleId}>{host.name}</h2>
     </div>
     <a class="btn sp-btn" href={host.affiliateUrl} rel="sponsored nofollow noopener" target="_blank" data-deal={`${host.name} game servers`} data-store={host.name}>Visit {host.name}</a>
   </div>
