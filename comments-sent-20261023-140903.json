@@ -1,0 +1,23 @@
+{
+  "madeAt": "2026-10-23T14:09:03.620Z",
+  "run": "39965972522",
+  "private": false,
+  "entries": [
+    {
+      "block": "prices",
+      "handle": "saveandplay.com",
+      "n": 2,
+      "uri": "at://did:plc:hsexms5sto2ujxvickjz3ov7/app.bsky.feed.post/3myjqcrrkqk2b",
+      "url": "https://bsky.app/profile/jayveesto.bsky.social/post/3myjqcrrkqk2b",
+      "author": "jayveesto.bsky.social",
+      "text": "Ugh, 50GB hiding out of sight is frustrating. The Storage page in the Deck settings shows what's taking up space, which is a good first stop when something doesn't add up.",
+      "approvedFile": "comments-approved-prices-20261023-135444-20261023-140025.json",
+      "approvedAt": "2026-10-23T14:00:25.642Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-23T14:09:04.941Z",
+      "replyUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3myke4xuida2x",
+      "replyUrl": "https://bsky.app/profile/saveandplay.com/post/3myke4xuida2x"
+    }
+  ]
+}
