@@ -1,0 +1,49 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261023-135444",
+  "madeAt": "2026-10-23T13:55:23.821Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:cwwcoprxc5eikcg4j2nvtvuk/app.bsky.feed.post/3myk6ayhpm225",
+      "url": "https://bsky.app/profile/nabrahams.bsky.social/post/3myk6ayhpm225",
+      "author": "nabrahams.bsky.social",
+      "context": "Not only do I remember my first video game, I remember the restaurant I played it in. (It was Lum's in 1980)\nimage: A standup arcade cabinet of Pac Man.; quotes @sophianyx.bsky.social: Name the first videogame you played.",
+      "text": "Pac-Man in 1980, and you remember the restaurant too. That's a great first one.",
+      "group": "childhood",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:idc552hj7r7epvka4yyji276/app.bsky.feed.post/3myjwsvw25c2l",
+      "url": "https://bsky.app/profile/cm30.bsky.social/post/3myjwsvw25c2l",
+      "author": "cm30.bsky.social",
+      "context": "Name the first video game I played? This iconic Game Boy title!\nlink card: Super Mario Land 2d Platformer; quotes @sophianyx.bsky.social: Name the first videogame you played.",
+      "text": "Super Mario Land is a great first game. Short levels, easy to pick up, and the Game Boy made it feel like a tiny magic box.",
+      "group": "childhood",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:cfnawyb6vw3mjrikjxvohrbu/app.bsky.feed.post/3myj7akueik25",
+      "url": "https://bsky.app/profile/meganpaasch.bsky.social/post/3myj7akueik25",
+      "author": "meganpaasch.bsky.social",
+      "context": "Right?? I'm hoping if they take them away, GOG (Good Old Games) will preserve them and make them available on their site. They already have DA: Origins and Jade Empire on there.",
+      "text": "Keeping old games playable is a big part of what GOG does, and since the installers are DRM-free you can also back up your own copy.",
+      "group": "gogOld",
+      "heated": false
+    },
+    {
+      "n": 4,
+      "uri": "at://did:plc:mlmmqj55ov7vrxqk44f4vmy5/app.bsky.feed.post/3myj6upyyas2j",
+      "url": "https://bsky.app/profile/projectazar.com/post/3myj6upyyas2j",
+      "author": "projectazar.com",
+      "context": "The first I remember is Halloween Harry/Alien Carnage, but I've been playing since at least age 3 so it might be something closer to a whack a mole DOS game.\nquotes @sophianyx.bsky.social: Name the first videogame you played.",
+      "text": "Alien Carnage is a proper deep cut. A jetpack and a flamethrower at age three is quite the start.",
+      "group": "classicPC",
+      "heated": false
+    }
+  ]
+}

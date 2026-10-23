@@ -1,0 +1,49 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261023-135444",
+  "madeAt": "2026-10-23T13:55:23.664Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:zfjp2crh77bqy23oxbjlrskr/app.bsky.feed.post/3myjgvnldu22v",
+      "url": "https://bsky.app/profile/trashochist.bsky.social/post/3myjgvnldu22v",
+      "author": "trashochist.bsky.social",
+      "context": "My steam deck is a slow burn for me cause when i first got it im like, man why did i buy this again? I dont go out often, i could just play games in my PC. But now im unable to play games that is not on my steam deck, which means i can only play cozy/simple roguelikes games",
+      "text": "That's the Deck's sweet spot, honestly. Cozy and simple roguelikes fit it well because you can put it to sleep mid-run and pick up right where you left off.",
+      "group": "askCozy",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:52k423c2svtmmqvgwzeovrie/app.bsky.feed.post/3myjx4lso6c2g",
+      "url": "https://bsky.app/profile/stillsaneshane.bsky.social/post/3myjx4lso6c2g",
+      "author": "stillsaneshane.bsky.social",
+      "context": "What Stardew Brew would you consume? www.tiktok.com/t/ZPLAmR4rV/\nlink card: TikTok - Make Your Day",
+      "text": "Coffee, easily. Nothing beats the speed boost on a long farm day, though a Pale Ale after the chores feels very Stardew.",
+      "group": "stardew",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:fp3ppq7zv5mwwgx63ojkgyvq/app.bsky.feed.post/3myjneeqsgc2r",
+      "url": "https://bsky.app/profile/gaymervillage.bsky.social/post/3myjneeqsgc2r",
+      "author": "gaymervillage.bsky.social",
+      "context": "Been looking for a new cozy game to play with my friends and I am loving the #LoftiaDemo right now. Early access is coming on 3rd November. Can't wait to have a good old explore when we can access more areas.\nimage, no description",
+      "text": "Exploring a demo together sounds like a lovely evening. Hope early access lives up to it.",
+      "group": "cozyFeed",
+      "heated": false
+    },
+    {
+      "n": 4,
+      "uri": "at://did:plc:mju6jn43cogfszcwl6oicf2o/app.bsky.feed.post/3myjbx5zw522s",
+      "url": "https://bsky.app/profile/spookyomo.bsky.social/post/3myjbx5zw522s",
+      "author": "spookyomo.bsky.social",
+      "context": "Do i start a new stardew save to stave off my boredom? Mmmm yes i think so. Now what farm do i go with?",
+      "text": "A fresh save is a great cure for boredom. If you want something different from the standard farm, Forest is lovely for foraging and Riverland suits anyone who likes fishing.",
+      "group": "stardew",
+      "heated": false
+    }
+  ]
+}
