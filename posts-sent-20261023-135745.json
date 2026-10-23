@@ -1,0 +1,39 @@
+{
+  "madeAt": "2026-10-23T13:57:45.135Z",
+  "run": "39965546121",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices|2026-10-23|/deals/gog/shadow-tactics-blades-of-the-shogun/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 1,
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-23",
+      "text": "Shadow Tactics: Blades of the Shogun: -90% at GOG\n$3.99 (was $39.99)\nPrice checked Oct 23. Sale ends Oct 28. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-23\n\n#PCGaming #GameDeals #VideoGames #DRMFree #Games\nAd",
+      "approvedFile": "posts-approved-20261023-135714.json",
+      "approvedAt": "2026-10-23T13:57:14.874Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-23T13:57:47.888Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mykdirksro2w",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3mykdirksro2w",
+      "picture": true
+    },
+    {
+      "key": "cozy|2026-10-23|/deals/gog/simcity-4-deluxe-edition/",
+      "account": "cozy",
+      "handle": "cozygame.bsky.social",
+      "n": 4,
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=deals-2026-10-23",
+      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Oct 23. Sale ends Oct 28. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=deals-2026-10-23\n\n#GameDeals #PCGaming #CityBuilder #SimCity4DeluxeEdition\nAd",
+      "approvedFile": "posts-approved-20261023-135714.json",
+      "approvedAt": "2026-10-23T13:57:14.874Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-23T13:57:49.702Z",
+      "postUri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3mykditwlhy2h",
+      "postUrl": "https://bsky.app/profile/cozygame.bsky.social/post/3mykditwlhy2h",
+      "picture": true
+    }
+  ]
+}
