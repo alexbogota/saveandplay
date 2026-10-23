@@ -208,7 +208,7 @@ export async function loadCard(link, { fetchImpl = globalThis.fetch, timeoutMs =
 // The owner approves everything at once in the morning; the posts of ONE Bluesky account go out one after another, spacingHours apart
 // (first now, then +3 h, +6 h ...), in the order of "order" (account ids; "article" = the post about a guide). The sender (GitHub, every hour)
 // posts what is due. Each approved post carries its own "notBefore".
-export const SCHEDULE_DEFAULTS = { spacingHours: 3, order: ['prices', 'prices-2', 'article', 'prices-kinguin'] };
+export const SCHEDULE_DEFAULTS = { spacingHours: 2, order: ['prices', 'prices-2', 'article', 'coop:prices', 'prices-kinguin'] };
 
 export function readSchedule() {
   let raw = {};
@@ -223,8 +223,8 @@ export function scheduleProblems(sch) {
   return p;
 }
 
-// "coop" (a play-together post) is not in the order list on purpose: it goes after the account's own deal post.
-const slotOf = (it) => (it.kind === 'article' ? 'article' : it.kind === 'coop' ? 'coop' : it.account);
+// A play-together post has its own place per account: "coop:<account>" (an account that is not in the order list goes after its own deal posts).
+const slotOf = (it) => (it.kind === 'article' ? 'article' : it.kind === 'coop' ? `coop:${it.account}` : it.account);
 
 // Gives every item its "notBefore" (ISO time). immediate = true: everything may go now. Items of different Bluesky accounts do not wait for each other.
 export function scheduleItems(items, { now = Date.now(), schedule = readSchedule(), immediate = false } = {}) {

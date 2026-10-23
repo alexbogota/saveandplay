@@ -397,7 +397,8 @@ test('the morning: show lists the deals and the guide of the day, approve gives 
   const [name] = files(root, 'posts-approved-');
   const items = read(root, name).items;
   const h = Object.fromEntries(items.map((i) => [i.n, Math.round((Date.parse(i.notBefore) - Date.parse(read(root, name).approvedAt)) / 36e5)]));
-  assert.deepEqual(h, { 1: 0, 2: 3, 6: 6 });
+  const sp = JSON.parse(readFileSync(new URL('../data/post-schedule.json', import.meta.url), 'utf8')).spacingHours; // the real setting: the test follows it
+  assert.deepEqual(h, { 1: 0, 2: sp, 6: 2 * sp });
   assert.equal(items.find((i) => i.n === 6).kind, 'article');
   assert.equal(items.find((i) => i.n === 6).key, 'prices|article|/guides/foo-guide/');
 

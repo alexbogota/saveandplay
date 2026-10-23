@@ -46,7 +46,7 @@
         "bluesky": {
           "enabled": true,
           "publish": { "enabled": true, "passwordEnv": "BSKY_APP_PASSWORD" },
-          "coop": { "enabled": false, "anyTags": ["sandbox"], "everyDays": 3, "baseTags": ["PCGaming"], "template": ["{text}", "{link}", "{tags}\n{disclosure}"] },
+          "coop": { "enabled": true, "anyTags": ["*"], "everyDays": 2, "baseTags": ["PCGaming"], "template": ["{text}", "{link}", "{tags}\n{disclosure}"] },
           "subid": "bluesky-prices",
           "utmSource": "bluesky-prices",
           "maxChars": 300,
