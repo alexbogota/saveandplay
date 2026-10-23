@@ -1,0 +1,19 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-prices-20261023-135444.json",
+  "approvedAt": "2026-10-23T14:00:25.642Z",
+  "items": [
+    {
+      "n": 2,
+      "uri": "at://did:plc:hsexms5sto2ujxvickjz3ov7/app.bsky.feed.post/3myjqcrrkqk2b",
+      "url": "https://bsky.app/profile/jayveesto.bsky.social/post/3myjqcrrkqk2b",
+      "author": "jayveesto.bsky.social",
+      "context": "wondered what took up so much space on my steamdeck, turned out it never properly deleted asssassins creed unity. i know this is a common deck issue with non steam games but i still blame ubisoft cause why the fuck are that game together with your launcher a ridiculous 50gb???!!",
+      "text": "Ugh, 50GB hiding out of sight is frustrating. The Storage page in the Deck settings shows what's taking up space, which is a good first stop when something doesn't add up.",
+      "edited": false,
+      "verify": "Проверьте, что в настройках Steam Deck есть раздел Storage, где виден занятый объём."
+    }
+  ]
+}
