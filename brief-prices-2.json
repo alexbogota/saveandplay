@@ -1,60 +1,66 @@
 {
   "account": "Honest prices (second deal of the day)",
-  "generatedAt": "2026-10-22T11:25:56.402Z",
-  "builtBy": "commit 695a9a1, schedule, run #23 attempt 1",
-  "pricesCheckedAt": "2026-10-22T10:07:10.056Z",
+  "generatedAt": "2026-10-23T11:25:46.509Z",
+  "builtBy": "commit 67ec11f, schedule, run #24 attempt 1",
+  "pricesCheckedAt": "2026-10-23T10:05:03.791Z",
   "warnings": [],
   "candidates": [
     {
-      "id": "gog-hitman-absolution",
+      "id": "gog-darkest-dungeon",
       "kind": "deal",
-      "title": "Hitman: Absolution",
+      "title": "Darkest Dungeon",
       "store": "GOG",
-      "price": 1.99,
-      "was": 19.99,
-      "discount": 90,
-      "endsAt": "2026-10-29T09:59:00+02:00",
-      "endsInHours": 165,
-      "priceCheckedAt": "2026-10-22T10:07:04.006Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203140/header.jpg?t=1734461136",
+      "price": 3.75,
+      "was": 24.99,
+      "discount": 85,
+      "endsAt": "2026-10-28T15:59:00+02:00",
+      "endsInHours": 123,
+      "priceCheckedAt": "2026-10-23T10:04:10.736Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187",
       "drminfo": null,
-      "coverAlt": "Cover art for Hitman: Absolution",
+      "coverAlt": "Cover art for Darkest Dungeon",
       "facts": {
-        "year": 2012,
+        "year": 2016,
         "genres": [
-          "Action",
-          "TPP",
-          "Stealth"
+          "Role-playing",
+          "Turn-based",
+          "Fantasy"
         ],
         "tags": [
-          "Action",
-          "Story Rich",
+          "Indie",
+          "Fantasy",
           "Atmospheric",
-          "Classic",
-          "Tactical",
-          "Third Person",
-          "Mature",
+          "Role-playing",
+          "2D",
+          "Turn-Based",
+          "Dark",
+          "Horror",
           "Difficult",
-          "Stealth",
-          "Crime"
+          "Roguelike",
+          "Roguelite",
+          "Dungeon Crawler",
+          "Lovecraftian",
+          "Perma Death",
+          "Petting Dogs"
         ]
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 10,
-      "discountRank": 3,
+      "score": 10.5,
+      "discountRank": 11,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 3,
-        "lowest": false,
-        "since": "2026-10-20"
+        "days": 14,
+        "lowest": true,
+        "since": "2026-10-07"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/hitman-absolution/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-22",
+      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-23",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 3 of 23"
+        "lowest price we've tracked (14 days of data)",
+        "deepest-discount rank 11 of 24"
       ]
     },
     {
@@ -66,8 +72,8 @@
       "was": 29.99,
       "discount": 90,
       "endsAt": "2026-10-27T09:59:00+02:00",
-      "endsInHours": 117,
-      "priceCheckedAt": "2026-10-22T10:07:04.006Z",
+      "endsInHours": 93,
+      "priceCheckedAt": "2026-10-23T10:04:10.736Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804",
       "drminfo": null,
       "coverAlt": "Cover art for Metro Exodus",
@@ -101,77 +107,19 @@
       "marketplace": false,
       "compareTo": null,
       "score": 10,
-      "discountRank": 1,
+      "discountRank": 2,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 5,
+        "days": 6,
         "lowest": false,
         "since": "2026-10-18"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-22",
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-23",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 1 of 23"
-      ]
-    },
-    {
-      "id": "gog-shadow-tactics-blades-of-the-shogun",
-      "kind": "deal",
-      "title": "Shadow Tactics: Blades of the Shogun",
-      "store": "GOG",
-      "price": 3.99,
-      "was": 39.99,
-      "discount": 90,
-      "endsAt": "2026-10-28T15:59:00+02:00",
-      "endsInHours": 147,
-      "priceCheckedAt": "2026-10-22T10:07:04.006Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
-      "drminfo": null,
-      "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
-      "facts": {
-        "year": 2016,
-        "genres": [
-          "Strategy",
-          "Real-time",
-          "Stealth"
-        ],
-        "tags": [
-          "Indie",
-          "Atmospheric",
-          "Strategy",
-          "Puzzle",
-          "Great Soundtrack",
-          "Tactical",
-          "Third Person",
-          "Historical",
-          "Survival",
-          "Violent",
-          "Real-Time",
-          "Difficult",
-          "Isometric",
-          "RTS",
-          "Stealth",
-          "Ninja"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 10,
-      "discountRank": 4,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 13,
-        "lowest": false,
-        "since": "2026-10-07"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-22",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "deepest-discount rank 4 of 23"
+        "deepest-discount rank 2 of 24"
       ]
     },
     {
@@ -183,8 +131,8 @@
       "was": 19.99,
       "discount": 85,
       "endsAt": "2026-10-27T09:59:00+02:00",
-      "endsInHours": 117,
-      "priceCheckedAt": "2026-10-22T10:07:04.006Z",
+      "endsInHours": 93,
+      "priceCheckedAt": "2026-10-23T10:04:10.736Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268500/header.jpg?t=1772813016",
       "drminfo": null,
       "coverAlt": "Cover art for XCOM 2",
@@ -211,15 +159,15 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 10,
+        "days": 11,
         "lowest": false,
         "since": "2026-10-13"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/xcom-2/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-22",
+      "link": "https://saveandplay.com/deals/gog/xcom-2/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-23",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 8 of 23"
+        "deepest-discount rank 8 of 24"
       ]
     },
     {
@@ -231,8 +179,8 @@
       "was": 19.99,
       "discount": 85,
       "endsAt": "2026-10-26T09:59:00+02:00",
-      "endsInHours": 93,
-      "priceCheckedAt": "2026-10-22T10:07:04.006Z",
+      "endsInHours": 69,
+      "priceCheckedAt": "2026-10-23T10:04:10.736Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/234140/header.jpg?t=1780595138",
       "drminfo": null,
       "coverAlt": "Cover art for Mad Max",
@@ -264,15 +212,69 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 4,
+        "days": 5,
         "lowest": false,
         "since": "2026-10-19"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/mad-max/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-22",
+      "link": "https://saveandplay.com/deals/gog/mad-max/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-23",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 9 of 23"
+        "deepest-discount rank 9 of 24"
+      ]
+    },
+    {
+      "id": "gog-homeworld-remastered-collection",
+      "kind": "deal",
+      "title": "Homeworld Remastered Collection",
+      "store": "GOG",
+      "price": 5.25,
+      "was": 34.99,
+      "discount": 85,
+      "endsAt": "2026-10-27T09:59:00+02:00",
+      "endsInHours": 93,
+      "priceCheckedAt": "2026-10-23T10:04:10.736Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244160/header.jpg?t=1781819205",
+      "drminfo": null,
+      "coverAlt": "Cover art for Homeworld Remastered Collection",
+      "facts": {
+        "year": 2015,
+        "genres": [
+          "Strategy",
+          "Real-time",
+          "Sci-fi"
+        ],
+        "tags": [
+          "Story Rich",
+          "Atmospheric",
+          "Strategy",
+          "Sci-fi",
+          "Classic",
+          "Science",
+          "Great Soundtrack",
+          "Tactical",
+          "Real-Time",
+          "Space",
+          "RTS",
+          "Remake"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 9.5,
+      "discountRank": 6,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 12,
+        "lowest": false,
+        "since": "2026-10-07"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/homeworld-remastered-collection/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-23",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 6 of 24"
       ]
     }
   ],
@@ -287,7 +289,7 @@
     "taken": 1,
     "smallDiscount": 0,
     "ended": 0,
-    "endsTooSoon": 1,
+    "endsTooSoon": 0,
     "oldPrice": 0
   },
   "sources": {
@@ -296,18 +298,18 @@
   },
   "posts": {
     "x": {
-      "text": "Hitman: Absolution: -90% at GOG\n$1.99 (was $19.99)\nPrice checked Oct 22. Sale ends Oct 29.\n\nhttps://saveandplay.com/deals/gog/hitman-absolution/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-22\n\n#PCGaming #GOG\nAd",
-      "length": 134,
+      "text": "Darkest Dungeon: -85% at GOG\n$3.75 (was $24.99)\nPrice checked Oct 23. Sale ends Oct 28. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-23\n\n#PCGaming #DarkestDungeon\nAd",
+      "length": 170,
       "max": 270,
-      "link": "https://saveandplay.com/deals/gog/hitman-absolution/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-22",
-      "deal": "gog-hitman-absolution"
+      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-23",
+      "deal": "gog-darkest-dungeon"
     },
     "bluesky": {
-      "text": "Hitman: Absolution: -90% at GOG\n$1.99 (was $19.99)\nPrice checked Oct 22. Sale ends Oct 29.\n\nhttps://saveandplay.com/deals/gog/hitman-absolution/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-22\n\n#PCGaming #GameDeals #Games #DRMFree #PCGames\nAd",
-      "length": 167,
+      "text": "Darkest Dungeon: -85% at GOG\n$3.75 (was $24.99)\nPrice checked Oct 23. Sale ends Oct 28. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-23\n\n#PCGaming #GameDeals #GOG #VideoGames #Gaming\nAd",
+      "length": 192,
       "max": 300,
-      "link": "https://saveandplay.com/deals/gog/hitman-absolution/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-22",
-      "deal": "gog-hitman-absolution"
+      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-23",
+      "deal": "gog-darkest-dungeon"
     }
   }
 }

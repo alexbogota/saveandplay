@@ -1,5 +1,5 @@
-# Brief: Honest prices (saveandplay.tumblr.com), 2026-10-22 11:25 UTC
-Prices checked 2026-10-22 10:07 UTC (1 h ago). News: 11 of 11 sources read, 105 items from the last 48 h, 1 of 22 offered deals mentioned.
+# Brief: Honest prices (saveandplay.tumblr.com), 2026-10-23 11:25 UTC
+Prices checked 2026-10-23 10:05 UTC (1 h ago). News: 11 of 11 sources read, 120 items from the last 48 h, 0 of 23 offered deals mentioned.
 
 Write ONE post about the first item below (take another one only if it looks wrong, and say why).
 Rules:
@@ -10,68 +10,67 @@ Rules:
 - Say lowest price we've tracked only if the brief says so; never write lowest ever.
 - The post is made by scripts/post-tumblr.mjs from a template, without AI. This account is automated and some links are affiliate links; the blog description says so.
 
-## 1. Fallout: New Vegas Ultimate Edition: GOG $4.99 (was $19.99, -75%)
-Sale ends 2026-10-24 07:00 UTC (in 44 h). Price checked 2026-10-22 10:07 UTC. Score 10.5.
-Why today: sale ends in 44 h; deepest-discount rank 18 of 22.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/fallout-new-vegas-ultimate-edition/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-22
-Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22380/header.jpg?t=1765992876
-Alt text: Cover art for Fallout: New Vegas Ultimate Edition
-
-## 2. Rebel Galaxy: GOG $1.99 (was $19.99, -90%)
-Sale ends 2026-10-27 07:59 UTC (in 5 days). Price checked 2026-10-22 10:07 UTC. Score 10.
-Why today: deepest-discount rank 2 of 22.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/rebel-galaxy/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-22
-Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/290300/header.jpg?t=1778077786
-Alt text: Cover art for Rebel Galaxy
-
-## 3. Metro Exodus: GOG $2.99 (was $29.99, -90%)
-Sale ends 2026-10-27 07:59 UTC (in 5 days). Price checked 2026-10-22 10:07 UTC. Score 10.
-Why today: deepest-discount rank 1 of 22.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/metro-exodus/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-22
-Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804
-Alt text: Cover art for Metro Exodus
-
-## 4. Shadow Tactics: Blades of the Shogun: GOG $3.99 (was $39.99, -90%)
-Sale ends 2026-10-28 13:59 UTC (in 6 days). Price checked 2026-10-22 10:07 UTC. Score 10.
-Why today: deepest-discount rank 3 of 22.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-22
+## 1. Shadow Tactics: Blades of the Shogun: GOG $3.99 (was $39.99, -90%)
+Sale ends 2026-10-28 13:59 UTC (in 5 days). Price checked 2026-10-23 10:04 UTC. Score 11.
+Why today: lowest price we've tracked (14 days of data); deepest-discount rank 5 of 23.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-23
 Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696
 Alt text: Cover art for Shadow Tactics: Blades of the Shogun
 
+## 2. Rebel Galaxy: GOG $1.99 (was $19.99, -90%)
+Sale ends 2026-10-27 07:59 UTC (in 4 days). Price checked 2026-10-23 10:04 UTC. Score 10.
+Why today: deepest-discount rank 3 of 23.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/rebel-galaxy/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-23
+Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/290300/header.jpg?t=1778077786
+Alt text: Cover art for Rebel Galaxy
+
+## 3. Hitman: Absolution: GOG $1.99 (was $19.99, -90%)
+Sale ends 2026-10-29 07:59 UTC (in 6 days). Price checked 2026-10-23 10:04 UTC. Score 10.
+Why today: deepest-discount rank 4 of 23.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/hitman-absolution/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-23
+Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203140/header.jpg?t=1734461136
+Alt text: Cover art for Hitman: Absolution
+
+## 4. Metro Exodus: GOG $2.99 (was $29.99, -90%)
+Sale ends 2026-10-27 07:59 UTC (in 4 days). Price checked 2026-10-23 10:04 UTC. Score 10.
+Why today: deepest-discount rank 2 of 23.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/metro-exodus/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-23
+Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804
+Alt text: Cover art for Metro Exodus
+
 ## 5. XCOM 2: GOG $2.99 (was $19.99, -85%)
-Sale ends 2026-10-27 07:59 UTC (in 5 days). Price checked 2026-10-22 10:07 UTC. Score 9.5.
-Why today: deepest-discount rank 7 of 22.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/xcom-2/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-22
+Sale ends 2026-10-27 07:59 UTC (in 4 days). Price checked 2026-10-23 10:04 UTC. Score 9.5.
+Why today: deepest-discount rank 9 of 23.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/xcom-2/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-23
 Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268500/header.jpg?t=1772813016
 Alt text: Cover art for XCOM 2
 
 ## News on the topic (no deal)
-- gg.deals News, Oct 22: "Microsoft reveals Xbox Cloud Playtime prices, starting at $3.99" https://gg.deals/gaming-news/microsoft-reveals-xbox-cloud-playtime-prices-starting-at-399/ | Wondering how much extra Xbox Cloud Gaming time will cost?
-- PC Gamer, Oct 22: "Best Black Friday controller deals" https://www.pcgamer.com/hardware/controllers/black-friday-controller-deals/ | If there's one thing I'm sure of this November, it's that there will be some great Black Friday controller deals going around. It's going to still be tough to …
-- PC Gamer, Oct 21: "Everyone gets a free ticket to World of Warcraft: Forever today as Blizzard stress tests the server…" https://www.pcgamer.com/games/world-of-warcraft/everyone-gets-a-free-ticket-to-world-of-warcraft-forever-today-as-blizzard-stress-tests-the-servers-ahead-of-launch-day/ | In anticipation of the full launch of World of Warcraft: Forever next month, Blizzard is throwing the gates wide open on the throwback MMO to stress test the s…
+- gg.deals Freebies, Oct 22: "The FREE METRO Redux Next-Gen Update is LIVE NOW!" https://gg.deals/freebie/the-free-metro-redux-next-gen-update-is-live-now-across-pc-and-console/ | The post-apocalypse has never looked this good.
+- gg.deals News, Oct 22: "Nintendo’s Halloween Sale 2026 brings up to 96% off across the eShop (Europe)" https://gg.deals/deal/nintendos-halloween-sale-2026-brings-up-to-96-off-across-the-eshop-europe/ | Handheld horror under the covers in the dead of night? Now we&rsquo;re talking.
+- gg.deals News, Oct 22: "This week's XBOX FREE Play Days offers up 6 games, including Dying Light 2: Stay Human!" https://gg.deals/subscription-news/this-weeks-xbox-free-play-days-offers-up-6-games-including-dying-light-2-stay-human/ | With 3 of those titles available for all XBOX players to enjoy, without the need of a Game Pass subscription.
 
 ## Topics for articles (stories without a deal; headlines and links only. Write an article only if the owner asks)
-1. Humble 15th Anniversary Sci-Fi Exposure Bundle: 8 Steam Games Including Marathon, RoboCop, and Crysis for $25 (score 10)
+1. FREE Cyberpunk 2077 Update 2.5 is here, bringing dual-wielding, Edgerunners 2 content, and more (score 14)
+Why now: 4 sites wrote about it in the last 48 h (gg.deals, pcgamer.com, rockpapershotgun.com, eurogamer.net); matches keywords: free; newest Oct 23.
+- Rock Paper Shotgun, Oct 23: "Cyberpunk 2077's new dual wielding has already been modded to include shotguns and rifles, provided…" https://www.rockpapershotgun.com/cyberpunk-2077s-new-dual-wielding-has-already-been-modded-to-include-shotguns-and-rifles-provided-youre-down-to-get-janky-and-wildly-overpowered
+- PC Gamer, Oct 22: "How to dual wield in Cyberpunk 2077" https://www.pcgamer.com/games/rpg/how-to-dual-wield-in-cyberpunk-2077/
+- gg.deals Freebies, Oct 22: "FREE Cyberpunk 2077 Update 2.5 is here, bringing dual-wielding, Edgerunners 2 content, and more" https://gg.deals/freebie/free-cyberpunk-2077-update-2-5-is-here/
+2. Humble 15th Anniversary Sci-Fi Exposure Bundle: 8 Steam Games Including Marathon, RoboCop, and Crysis for $25 (score 10)
 Why now: 2 sites wrote about it in the last 48 h (gg.deals, indiegamebundles.com); matches keywords: bundle, humble; newest Oct 21.
 - Indie Game Bundles, Oct 21: "Humble 15th Anniversary Sci-Fi Exposure Bundle: 8 Steam Games Including Marathon, RoboCop, and Crys…" https://www.indiegamebundles.com/humble-15th-anniversary-sci-fi-exposure-bundle/
 - gg.deals News, Oct 21: "Humble's Sci-Fi Exposure Bundle gets you Marathon + 7 more games!" https://gg.deals/bundle/humbles-sci-fi-exposure-bundle-gets-you-marathon-7-more-games/
-2. Football Manager 27 will be FREE to play for 5 days! Here's what you need to know (score 10)
-Why now: 2 sites wrote about it in the last 48 h (gg.deals, eurogamer.net); matches keywords: free, free to play; newest Oct 21.
-- gg.deals Freebies, Oct 21: "Football Manager 27 will be FREE to play for 5 days! Here's what you need to know" https://gg.deals/freebie/football-manager-27-free-to-play-for-5-days/
-- Eurogamer, Oct 21: "Football Manager 27 will be free to play for five days before its full release, in "industry first"…" https://www.eurogamer.net/football-manager-27-free-to-play-five-days
-3. Modern Warfare 4 players declare 'broken' on DMZ perk that lets you self-revive after full death (score 9)
-Why now: 3 sites wrote about it in the last 48 h (gg.deals, pcgamer.com, eurogamer.net); newest Oct 22.
-- PC Gamer, Oct 22: "How to clear a compound in Modern Warfare 4 DMZ" https://www.pcgamer.com/games/call-of-duty/dmz-clear-a-compound-no-one-left/
-- Eurogamer, Oct 21: "COD: Modern Warfare 4 DMZ players are spawning in the middle of a road and being flattened before t…" https://www.eurogamer.net/call-of-duty-modern-warfare-4-dmz-spawn-runover
-- gg.deals News, Oct 21: "Call of Duty: Modern Warfare 4 DMZ early access is live! Here's how to jump in" https://gg.deals/new-game/call-of-duty-modern-warfare-4-dmz-early-access-is-live/
-4. Mortal Shell 2 FREE Rotten Autumn update adds photo mode, new dungeons & more decaying content (score 8)
-Why now: 2 sites wrote about it in the last 48 h (gg.deals, rockpapershotgun.com); matches keywords: free; newest Oct 20.
-- gg.deals Freebies, Oct 20: "Mortal Shell 2 FREE Rotten Autumn update adds photo mode, new dungeons & more decaying content" https://gg.deals/freebie/mortal-shell-2-rotten-autumn-update/
-- Rock Paper Shotgun, Oct 20: "Steady yourself, Mortal Shell 2's Rotten Autumn update comes packed with 15 new dungeons, a photo m…" https://www.rockpapershotgun.com/steady-yourself-mortal-shell-2s-rotten-autumn-update-comes-packed-with-15-new-dungeons-a-photo-mode-an-alternative-soundtrack-and-a-neat-pumpkin-helmet
-5. Xbox cloud gaming prices revealed, with 50 hours of ad-free game-time priced $11.99 (score 7)
-Why now: 1 site wrote about it in the last 48 h (eurogamer.net); matches keywords: prices, free; newest Oct 22.
-- Eurogamer, Oct 22: "Xbox cloud gaming prices revealed, with 50 hours of ad-free game-time priced $11.99" https://www.eurogamer.net/xbox-cloud-gaming-prices-revealed
+3. Sker Ritual (Epic Games) Giveaway (score 8)
+Why now: 2 sites wrote about it in the last 48 h (gamerpower.com, indiegamebundles.com); matches keywords: free; newest Oct 22.
+- GamerPower (PC), Oct 22: "Sker Ritual (Epic Games) Giveaway" https://www.gamerpower.com/sker-ritual
+- Indie Game Bundles, Oct 22: "Sker Ritual is free on Epic Games Store This Week Only" https://www.indiegamebundles.com/sker-ritual-is-free-on-epic-games-store-this-week-only/
+4. DeadPoly is FREE to play on Steam this weekend! Try this zombie survival sandbox until October 26 (score 7)
+Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: free, free to play; newest Oct 23.
+- gg.deals Freebies, Oct 23: "DeadPoly is FREE to play on Steam this weekend! Try this zombie survival sandbox until October 26" https://gg.deals/freebie/deadpoly-is-free-to-play-on-steam-this-weekend-try-this-zombie-survival-sandbox-until-october-26/
+5. Humble’s Halloween Sale 2026 opens the crypt on spooky season savings (score 7)
+Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: sale, humble; newest Oct 22.
+- gg.deals News, Oct 22: "Humble’s Halloween Sale 2026 opens the crypt on spooky season savings" https://gg.deals/deal/humbles-halloween-sale-2026/
 
-Left out: 15 other-store deals, 0 hidden duplicates, 0 under 50%, 0 ended, 1 ending within 6 h, 0 old prices, 2 taken by another account today.
+Left out: 15 other-store deals, 0 hidden duplicates, 0 under 50%, 0 ended, 0 ending within 6 h, 0 old prices, 2 taken by another account today.
 Sources not read: none.
-Built by: commit 695a9a1, schedule, run #23 attempt 1.
+Built by: commit 67ec11f, schedule, run #24 attempt 1.

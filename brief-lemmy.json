@@ -1,69 +1,67 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-10-22T11:25:56.402Z",
-  "builtBy": "commit 695a9a1, schedule, run #23 attempt 1",
-  "pricesCheckedAt": "2026-10-22T10:07:10.056Z",
+  "generatedAt": "2026-10-23T11:25:46.509Z",
+  "builtBy": "commit 67ec11f, schedule, run #24 attempt 1",
+  "pricesCheckedAt": "2026-10-23T10:05:03.791Z",
   "warnings": [],
   "candidates": [
     {
-      "id": "gog-fallout-new-vegas-ultimate-edition",
+      "id": "gog-shadow-tactics-blades-of-the-shogun",
       "kind": "deal",
-      "title": "Fallout: New Vegas Ultimate Edition",
+      "title": "Shadow Tactics: Blades of the Shogun",
       "store": "GOG",
-      "price": 4.99,
-      "was": 19.99,
-      "discount": 75,
-      "endsAt": "2026-10-24T10:00:00+03:00",
-      "endsInHours": 44,
-      "priceCheckedAt": "2026-10-22T10:07:04.006Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22380/header.jpg?t=1765992876",
+      "price": 3.99,
+      "was": 39.99,
+      "discount": 90,
+      "endsAt": "2026-10-28T15:59:00+02:00",
+      "endsInHours": 123,
+      "priceCheckedAt": "2026-10-23T10:04:10.736Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
       "drminfo": null,
-      "coverAlt": "Cover art for Fallout: New Vegas Ultimate Edition",
+      "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
       "facts": {
-        "year": 2010,
+        "year": 2016,
         "genres": [
-          "Role-playing",
-          "Action",
-          "Open World"
+          "Strategy",
+          "Real-time",
+          "Stealth"
         ],
         "tags": [
-          "Action",
-          "Story Rich",
+          "Indie",
           "Atmospheric",
-          "Role-playing",
-          "Exploration",
-          "Sci-fi",
-          "Classic",
-          "First-Person",
+          "Strategy",
+          "Puzzle",
           "Great Soundtrack",
-          "Choices Matter",
+          "Tactical",
           "Third Person",
-          "Open World",
-          "Gore",
-          "FPS",
-          "Post-apocalyptic",
-          "Modern",
-          "Good Old Game",
-          "Western"
+          "Historical",
+          "Survival",
+          "Violent",
+          "Real-Time",
+          "Difficult",
+          "Isometric",
+          "RTS",
+          "Stealth",
+          "Ninja"
         ]
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 10.5,
-      "discountRank": 18,
+      "score": 11,
+      "discountRank": 5,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 5,
-        "lowest": false,
-        "since": "2026-10-05"
+        "days": 14,
+        "lowest": true,
+        "since": "2026-10-07"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/fallout-new-vegas-ultimate-edition/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-22",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-23",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 44 h",
-        "deepest-discount rank 18 of 22"
+        "lowest price we've tracked (14 days of data)",
+        "deepest-discount rank 5 of 23"
       ]
     },
     {
@@ -75,8 +73,8 @@
       "was": 19.99,
       "discount": 90,
       "endsAt": "2026-10-27T09:59:00+02:00",
-      "endsInHours": 117,
-      "priceCheckedAt": "2026-10-22T10:07:04.006Z",
+      "endsInHours": 93,
+      "priceCheckedAt": "2026-10-23T10:04:10.736Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/290300/header.jpg?t=1778077786",
       "drminfo": null,
       "coverAlt": "Cover art for Rebel Galaxy",
@@ -105,19 +103,71 @@
       "marketplace": false,
       "compareTo": null,
       "score": 10,
-      "discountRank": 2,
+      "discountRank": 3,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 5,
+        "days": 6,
         "lowest": false,
         "since": "2026-10-18"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/rebel-galaxy/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-22",
+      "link": "https://saveandplay.com/deals/gog/rebel-galaxy/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-23",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 2 of 22"
+        "deepest-discount rank 3 of 23"
+      ]
+    },
+    {
+      "id": "gog-hitman-absolution",
+      "kind": "deal",
+      "title": "Hitman: Absolution",
+      "store": "GOG",
+      "price": 1.99,
+      "was": 19.99,
+      "discount": 90,
+      "endsAt": "2026-10-29T09:59:00+02:00",
+      "endsInHours": 141,
+      "priceCheckedAt": "2026-10-23T10:04:10.736Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203140/header.jpg?t=1734461136",
+      "drminfo": null,
+      "coverAlt": "Cover art for Hitman: Absolution",
+      "facts": {
+        "year": 2012,
+        "genres": [
+          "Action",
+          "TPP",
+          "Stealth"
+        ],
+        "tags": [
+          "Action",
+          "Story Rich",
+          "Atmospheric",
+          "Classic",
+          "Tactical",
+          "Third Person",
+          "Mature",
+          "Difficult",
+          "Stealth",
+          "Crime"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 10,
+      "discountRank": 4,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 4,
+        "lowest": false,
+        "since": "2026-10-20"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/hitman-absolution/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-23",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 4 of 23"
       ]
     },
     {
@@ -129,8 +179,8 @@
       "was": 29.99,
       "discount": 90,
       "endsAt": "2026-10-27T09:59:00+02:00",
-      "endsInHours": 117,
-      "priceCheckedAt": "2026-10-22T10:07:04.006Z",
+      "endsInHours": 93,
+      "priceCheckedAt": "2026-10-23T10:04:10.736Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804",
       "drminfo": null,
       "coverAlt": "Cover art for Metro Exodus",
@@ -164,77 +214,19 @@
       "marketplace": false,
       "compareTo": null,
       "score": 10,
-      "discountRank": 1,
+      "discountRank": 2,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 5,
+        "days": 6,
         "lowest": false,
         "since": "2026-10-18"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-22",
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-23",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 1 of 22"
-      ]
-    },
-    {
-      "id": "gog-shadow-tactics-blades-of-the-shogun",
-      "kind": "deal",
-      "title": "Shadow Tactics: Blades of the Shogun",
-      "store": "GOG",
-      "price": 3.99,
-      "was": 39.99,
-      "discount": 90,
-      "endsAt": "2026-10-28T15:59:00+02:00",
-      "endsInHours": 147,
-      "priceCheckedAt": "2026-10-22T10:07:04.006Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
-      "drminfo": null,
-      "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
-      "facts": {
-        "year": 2016,
-        "genres": [
-          "Strategy",
-          "Real-time",
-          "Stealth"
-        ],
-        "tags": [
-          "Indie",
-          "Atmospheric",
-          "Strategy",
-          "Puzzle",
-          "Great Soundtrack",
-          "Tactical",
-          "Third Person",
-          "Historical",
-          "Survival",
-          "Violent",
-          "Real-Time",
-          "Difficult",
-          "Isometric",
-          "RTS",
-          "Stealth",
-          "Ninja"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 10,
-      "discountRank": 3,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 13,
-        "lowest": false,
-        "since": "2026-10-07"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-22",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "deepest-discount rank 3 of 22"
+        "deepest-discount rank 2 of 23"
       ]
     },
     {
@@ -246,8 +238,8 @@
       "was": 19.99,
       "discount": 85,
       "endsAt": "2026-10-27T09:59:00+02:00",
-      "endsInHours": 117,
-      "priceCheckedAt": "2026-10-22T10:07:04.006Z",
+      "endsInHours": 93,
+      "priceCheckedAt": "2026-10-23T10:04:10.736Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268500/header.jpg?t=1772813016",
       "drminfo": null,
       "coverAlt": "Cover art for XCOM 2",
@@ -270,50 +262,102 @@
       "marketplace": false,
       "compareTo": null,
       "score": 9.5,
-      "discountRank": 7,
+      "discountRank": 9,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 10,
+        "days": 11,
         "lowest": false,
         "since": "2026-10-13"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/xcom-2/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-22",
+      "link": "https://saveandplay.com/deals/gog/xcom-2/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-23",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 7 of 22"
+        "deepest-discount rank 9 of 23"
       ]
     }
   ],
   "gogNews": [],
   "topical": [
     {
-      "title": "Microsoft reveals Xbox Cloud Playtime prices, starting at $3.99",
-      "source": "gg.deals News",
-      "link": "https://gg.deals/gaming-news/microsoft-reveals-xbox-cloud-playtime-prices-starting-at-399/",
-      "t": 1792665289000,
-      "keyword": "prices",
-      "summary": "Wondering how much extra Xbox Cloud Gaming time will cost?"
-    },
-    {
-      "title": "Best Black Friday controller deals",
-      "source": "PC Gamer",
-      "link": "https://www.pcgamer.com/hardware/controllers/black-friday-controller-deals/",
-      "t": 1792663478000,
-      "keyword": "deals",
-      "summary": "If there's one thing I'm sure of this November, it's that there will be some great Black Friday controller deals going around. It's going to still be tough to …"
-    },
-    {
-      "title": "Everyone gets a free ticket to World of Warcraft: Forever today as Blizzard stress tests the servers ahead of launch day",
-      "source": "PC Gamer",
-      "link": "https://www.pcgamer.com/games/world-of-warcraft/everyone-gets-a-free-ticket-to-world-of-warcraft-forever-today-as-blizzard-stress-tests-the-servers-ahead-of-launch-day/",
-      "t": 1792612716000,
+      "title": "The FREE METRO Redux Next-Gen Update is LIVE NOW!",
+      "source": "gg.deals Freebies",
+      "link": "https://gg.deals/freebie/the-free-metro-redux-next-gen-update-is-live-now-across-pc-and-console/",
+      "t": 1792693620000,
       "keyword": "free",
-      "summary": "In anticipation of the full launch of World of Warcraft: Forever next month, Blizzard is throwing the gates wide open on the throwback MMO to stress test the s…"
+      "summary": "The post-apocalypse has never looked this good."
+    },
+    {
+      "title": "Nintendo’s Halloween Sale 2026 brings up to 96% off across the eShop (Europe)",
+      "source": "gg.deals News",
+      "link": "https://gg.deals/deal/nintendos-halloween-sale-2026-brings-up-to-96-off-across-the-eshop-europe/",
+      "t": 1792690560000,
+      "keyword": "sale",
+      "summary": "Handheld horror under the covers in the dead of night? Now we&rsquo;re talking."
+    },
+    {
+      "title": "This week's XBOX FREE Play Days offers up 6 games, including Dying Light 2: Stay Human!",
+      "source": "gg.deals News",
+      "link": "https://gg.deals/subscription-news/this-weeks-xbox-free-play-days-offers-up-6-games-including-dying-light-2-stay-human/",
+      "t": 1792687500000,
+      "keyword": "free",
+      "summary": "With 3 of those titles available for all XBOX players to enjoy, without the need of a Game Pass subscription."
     }
   ],
   "topics": [
+    {
+      "headline": "FREE Cyberpunk 2077 Update 2.5 is here, bringing dual-wielding, Edgerunners 2 content, and more",
+      "score": 14,
+      "sites": [
+        "gg.deals",
+        "pcgamer.com",
+        "rockpapershotgun.com",
+        "eurogamer.net"
+      ],
+      "keywords": [
+        "free"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals Freebies",
+          "title": "FREE Cyberpunk 2077 Update 2.5 is here, bringing dual-wielding, Edgerunners 2 content, and more",
+          "link": "https://gg.deals/freebie/free-cyberpunk-2077-update-2-5-is-here/",
+          "published": "2026-10-22T15:30:00.000Z"
+        },
+        {
+          "source": "gg.deals News",
+          "title": "FREE Cyberpunk 2077 Update 2.5 is here, bringing dual-wielding, Edgerunners 2 content, and more",
+          "link": "https://gg.deals/freebie/free-cyberpunk-2077-update-2-5-is-here/",
+          "published": "2026-10-22T15:30:00.000Z"
+        },
+        {
+          "source": "PC Gamer",
+          "title": "How to dual wield in Cyberpunk 2077",
+          "link": "https://www.pcgamer.com/games/rpg/how-to-dual-wield-in-cyberpunk-2077/",
+          "published": "2026-10-22T19:35:48.000Z"
+        },
+        {
+          "source": "Rock Paper Shotgun",
+          "title": "Cyberpunk 2077's new dual wielding has already been modded to include shotguns and rifles, provided you're down to get \"janky and wildly overpowered\"",
+          "link": "https://www.rockpapershotgun.com/cyberpunk-2077s-new-dual-wielding-has-already-been-modded-to-include-shotguns-and-rifles-provided-youre-down-to-get-janky-and-wildly-overpowered",
+          "published": "2026-10-23T09:30:58.000Z"
+        },
+        {
+          "source": "Rock Paper Shotgun",
+          "title": "Cyberpunk 2077's Edgerunners 2 update adds two new quests, handgun dual wielding and the ability to pimp your mantis blades",
+          "link": "https://www.rockpapershotgun.com/cyberpunk-2077s-edgerunners-2-update-adds-two-new-quests-handgun-dual-wielding-and-the-ability-to-pimp-your-mantis-blades",
+          "published": "2026-10-21T16:09:58.000Z"
+        },
+        {
+          "source": "Eurogamer",
+          "title": "CD Projekt Red details new Cyberpunk 2077 update - adding dual-wielding, cross-platform mods, Edgerunners story quests, and more",
+          "link": "https://www.eurogamer.net/cyberpunk-2077-update-edgerunners-2-mod-support",
+          "published": "2026-10-21T16:03:54.000Z"
+        }
+      ]
+    },
     {
       "headline": "Humble 15th Anniversary Sci-Fi Exposure Bundle: 8 Steam Games Including Marathon, RoboCop, and Crysis for $25",
       "score": 10,
@@ -342,11 +386,36 @@
       ]
     },
     {
-      "headline": "Football Manager 27 will be FREE to play for 5 days! Here's what you need to know",
-      "score": 10,
+      "headline": "Sker Ritual (Epic Games) Giveaway",
+      "score": 8,
       "sites": [
-        "gg.deals",
-        "eurogamer.net"
+        "gamerpower.com",
+        "indiegamebundles.com"
+      ],
+      "keywords": [
+        "free"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "GamerPower (PC)",
+          "title": "Sker Ritual (Epic Games) Giveaway",
+          "link": "https://www.gamerpower.com/sker-ritual",
+          "published": "2026-10-22T15:19:05.000Z"
+        },
+        {
+          "source": "Indie Game Bundles",
+          "title": "Sker Ritual is free on Epic Games Store This Week Only",
+          "link": "https://www.indiegamebundles.com/sker-ritual-is-free-on-epic-games-store-this-week-only/",
+          "published": "2026-10-22T14:59:00.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "DeadPoly is FREE to play on Steam this weekend! Try this zombie survival sandbox until October 26",
+      "score": 7,
+      "sites": [
+        "gg.deals"
       ],
       "keywords": [
         "free",
@@ -356,116 +425,35 @@
       "items": [
         {
           "source": "gg.deals Freebies",
-          "title": "Football Manager 27 will be FREE to play for 5 days! Here's what you need to know",
-          "link": "https://gg.deals/freebie/football-manager-27-free-to-play-for-5-days/",
-          "published": "2026-10-21T13:16:00.000Z"
+          "title": "DeadPoly is FREE to play on Steam this weekend! Try this zombie survival sandbox until October 26",
+          "link": "https://gg.deals/freebie/deadpoly-is-free-to-play-on-steam-this-weekend-try-this-zombie-survival-sandbox-until-october-26/",
+          "published": "2026-10-23T09:31:51.000Z"
         },
         {
           "source": "gg.deals News",
-          "title": "Football Manager 27 will be FREE to play for 5 days! Here's what you need to know",
-          "link": "https://gg.deals/freebie/football-manager-27-free-to-play-for-5-days/",
-          "published": "2026-10-21T13:16:00.000Z"
-        },
-        {
-          "source": "Eurogamer",
-          "title": "Football Manager 27 will be free to play for five days before its full release, in \"industry first\" for a game of its kind",
-          "link": "https://www.eurogamer.net/football-manager-27-free-to-play-five-days",
-          "published": "2026-10-21T11:00:00.000Z"
+          "title": "DeadPoly is FREE to play on Steam this weekend! Try this zombie survival sandbox until October 26",
+          "link": "https://gg.deals/freebie/deadpoly-is-free-to-play-on-steam-this-weekend-try-this-zombie-survival-sandbox-until-october-26/",
+          "published": "2026-10-23T09:31:51.000Z"
         }
       ]
     },
     {
-      "headline": "Modern Warfare 4 players declare 'broken' on DMZ perk that lets you self-revive after full death",
-      "score": 9,
-      "sites": [
-        "gg.deals",
-        "pcgamer.com",
-        "eurogamer.net"
-      ],
-      "keywords": [],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "Call of Duty: Modern Warfare 4 DMZ early access is live! Here's how to jump in",
-          "link": "https://gg.deals/new-game/call-of-duty-modern-warfare-4-dmz-early-access-is-live/",
-          "published": "2026-10-21T08:28:11.000Z"
-        },
-        {
-          "source": "PC Gamer",
-          "title": "How to clear a compound in Modern Warfare 4 DMZ",
-          "link": "https://www.pcgamer.com/games/call-of-duty/dmz-clear-a-compound-no-one-left/",
-          "published": "2026-10-22T11:10:00.000Z"
-        },
-        {
-          "source": "PC Gamer",
-          "title": "How to get electronic sensors in Modern Warfare 4 DMZ",
-          "link": "https://www.pcgamer.com/games/call-of-duty/dmz-electronic-sensors-location/",
-          "published": "2026-10-22T10:26:58.000Z"
-        },
-        {
-          "source": "PC Gamer",
-          "title": "Modern Warfare 4 players declare 'broken' on DMZ perk that lets you self-revive after full death",
-          "link": "https://www.pcgamer.com/games/call-of-duty/modern-warfare-4-players-declare-broken-on-dmz-perk-that-lets-you-self-revive-after-full-death/",
-          "published": "2026-10-21T21:36:47.000Z"
-        },
-        {
-          "source": "Eurogamer",
-          "title": "COD: Modern Warfare 4 DMZ players are spawning in the middle of a road and being flattened before they can do anything",
-          "link": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-dmz-spawn-runover",
-          "published": "2026-10-21T13:21:37.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Mortal Shell 2 FREE Rotten Autumn update adds photo mode, new dungeons & more decaying content",
-      "score": 8,
-      "sites": [
-        "gg.deals",
-        "rockpapershotgun.com"
-      ],
-      "keywords": [
-        "free"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals Freebies",
-          "title": "Mortal Shell 2 FREE Rotten Autumn update adds photo mode, new dungeons & more decaying content",
-          "link": "https://gg.deals/freebie/mortal-shell-2-rotten-autumn-update/",
-          "published": "2026-10-20T16:45:00.000Z"
-        },
-        {
-          "source": "gg.deals News",
-          "title": "Mortal Shell 2 FREE Rotten Autumn update adds photo mode, new dungeons & more decaying content",
-          "link": "https://gg.deals/freebie/mortal-shell-2-rotten-autumn-update/",
-          "published": "2026-10-20T16:45:00.000Z"
-        },
-        {
-          "source": "Rock Paper Shotgun",
-          "title": "Steady yourself, Mortal Shell 2's Rotten Autumn update comes packed with 15 new dungeons, a photo mode, an alternative soundtrack, and a neat pumpkin helmet",
-          "link": "https://www.rockpapershotgun.com/steady-yourself-mortal-shell-2s-rotten-autumn-update-comes-packed-with-15-new-dungeons-a-photo-mode-an-alternative-soundtrack-and-a-neat-pumpkin-helmet",
-          "published": "2026-10-20T16:03:25.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Xbox cloud gaming prices revealed, with 50 hours of ad-free game-time priced $11.99",
+      "headline": "Humble’s Halloween Sale 2026 opens the crypt on spooky season savings",
       "score": 7,
       "sites": [
-        "eurogamer.net"
+        "gg.deals"
       ],
       "keywords": [
-        "prices",
-        "free"
+        "sale",
+        "humble"
       ],
       "games": [],
       "items": [
         {
-          "source": "Eurogamer",
-          "title": "Xbox cloud gaming prices revealed, with 50 hours of ad-free game-time priced $11.99",
-          "link": "https://www.eurogamer.net/xbox-cloud-gaming-prices-revealed",
-          "published": "2026-10-22T09:10:43.000Z"
+          "source": "gg.deals News",
+          "title": "Humble’s Halloween Sale 2026 opens the crypt on spooky season savings",
+          "link": "https://gg.deals/deal/humbles-halloween-sale-2026/",
+          "published": "2026-10-22T18:53:19.000Z"
         }
       ]
     }
@@ -478,7 +466,7 @@
     "taken": 2,
     "smallDiscount": 0,
     "ended": 0,
-    "endsTooSoon": 1,
+    "endsTooSoon": 0,
     "oldPrice": 0
   },
   "sources": {

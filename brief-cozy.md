@@ -1,5 +1,5 @@
-# Brief: Cozy and calm games (@cozygame.bsky.social), 2026-10-22 11:25 UTC
-Prices checked 2026-10-22 10:07 UTC (1 h ago). News: 11 of 11 sources read, 105 items from the last 48 h, 0 of 1 offered deals mentioned.
+# Brief: Cozy and calm games (@cozygame.bsky.social), 2026-10-23 11:25 UTC
+Prices checked 2026-10-23 10:05 UTC (1 h ago). News: 11 of 11 sources read, 120 items from the last 48 h, 0 of 1 offered deals mentioned.
 Niche Cozy: 1 games fit the rule today (1 of them can be posted now).
 
 Write ONE post about the first item below (take another one only if it looks wrong, and say why).
@@ -10,13 +10,13 @@ Rules:
 - Use only the numbers in this brief (price, was, discount, dates). Never invent or round prices. The last line is Ad (plain text, not a hashtag).
 
 ## 1. SimCity 4 Deluxe Edition: GOG $4.99 (was $19.99, -75%)
-Sale ends 2026-10-28 13:59 UTC (in 6 days). Price checked 2026-10-22 10:07 UTC. Score 0.5.
-Why today: deepest-discount rank 1 of 1.
-Note: suggested on 2026-10-21, already used recently.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=deals-2026-10-22
+Sale ends 2026-10-28 13:59 UTC (in 5 days). Price checked 2026-10-23 10:04 UTC. Score 1.5.
+Why today: lowest price we've tracked (14 days of data); deepest-discount rank 1 of 1.
+Note: suggested on 2026-10-22, already used recently.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=deals-2026-10-23
 Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586
 Alt text: Cover art for SimCity 4 Deluxe Edition
 
 Left out: 15 other-store deals, 0 hidden duplicates, 0 under 50%, 0 ended, 0 ending within 6 h, 0 old prices, 24 outside the niche, 0 without facts.
 Sources not read: none.
-Built by: commit 695a9a1, schedule, run #23 attempt 1.
+Built by: commit 67ec11f, schedule, run #24 attempt 1.

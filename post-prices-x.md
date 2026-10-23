@@ -1,8 +1,8 @@
-Fallout: New Vegas Ultimate Edition: -75% at GOG
-$4.99 (was $19.99)
-Price checked Oct 22. Sale ends Oct 24.
+Shadow Tactics: Blades of the Shogun: -90% at GOG
+$3.99 (was $39.99)
+Price checked Oct 23. Sale ends Oct 28. Lowest price we've tracked.
 
-https://saveandplay.com/deals/gog/fallout-new-vegas-ultimate-edition/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-22
+https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-23
 
-#PCGaming #GOG
+#PCGaming #ShadowTactics
 Ad
