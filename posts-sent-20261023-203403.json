@@ -1,0 +1,23 @@
+{
+  "madeAt": "2026-10-23T20:34:03.827Z",
+  "run": "40020199340",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices|coop-2026-10-23|/servers/stardew-valley/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 7,
+      "link": "https://saveandplay.com/servers/stardew-valley/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-10-23",
+      "text": "Stardew Valley is up to 8-player farming: the host invites 1 to 7 friends to the valley online.\nA rented server keeps the farm open when the host logs off.\n\nhttps://saveandplay.com/servers/stardew-valley/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-10-23\n\n#PCGaming #StardewValley\nAd",
+      "approvedFile": "posts-approved-20261023-135714.json",
+      "approvedAt": "2026-10-23T13:57:14.874Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-23T20:34:05.933Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mykzng5d3v2j",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3mykzng5d3v2j",
+      "picture": true
+    }
+  ]
+}
