@@ -1,0 +1,35 @@
+---
+// Every game of data/coop-games.json with a server page, in one list. The pages of games made by the program (auto) are not offered to
+// search engines, and neither is this list; people reach it from /servers/ and from the posts.
+import Layout from '../../layouts/Layout.astro';
+import { coopGames } from '../../lib/coop-games';
+---
+<Layout
+  title="All games with a server page | SaveAndPlay"
+  description="Every game we have a game server page for, with what Steam lists about its multiplayer modes."
+  noindex={true}
+>
+  <main class="page">
+    <div class="eyebrow"><a href="/servers/">Game servers</a></div>
+    <h1>All games with a server page</h1>
+    <p class="intro">{coopGames.length} games. Each page shows what Steam lists about the game's multiplayer modes and links to a host that rents servers for it. Some links are affiliate links: we may earn a commission when you buy, at no extra cost to you. <a href="/disclosure/">Learn more</a></p>
+    <div class="games">
+      {coopGames.map((g) => (
+        <a class="game" href={`/servers/${g.slug}/`}>
+          <img src={g.image} alt={`Cover art for ${g.title}`} width="460" height="215" loading="lazy" />
+          <span class="name">{g.title}</span>
+        </a>
+      ))}
+    </div>
+  </main>
+</Layout>
+
+<style>
+  .intro { font-size: 16px; color: var(--body-muted); }
+  .eyebrow a { color: inherit; }
+  .games { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 14px; margin: 24px 0 0; }
+  .game { display: block; background: var(--panel); border: 1px solid var(--border); border-radius: 14px; overflow: hidden; }
+  .game:hover { border-color: var(--border-hover); }
+  .game img { display: block; width: 100%; height: auto; aspect-ratio: 460 / 215; object-fit: cover; }
+  .name { display: block; padding: 10px 14px; min-height: 44px; font-family: var(--font-head); font-weight: 600; font-size: 16px; color: var(--heading); }
+</style>

@@ -16,7 +16,7 @@ const description = `How to play ${game.title} with friends on a game server: wh
 const coverAlt = `Cover art for ${game.title}`;
 const sources = [...new Map(game.facts.map((f) => [f.url, f])).values()];
 ---
-<Layout title={`${heading} | SaveAndPlay`} description={description} ogTitle={heading} ogImage={game.image} ogImageAlt={coverAlt}>
+<Layout title={`${heading} | SaveAndPlay`} description={description} noindex={Boolean(game.auto)} ogTitle={heading} ogImage={game.image} ogImageAlt={coverAlt}>
   <main class="page prose">
     <div class="eyebrow"><a href="/servers/">Game servers</a></div>
     <h1>{heading}</h1>
@@ -30,7 +30,11 @@ const sources = [...new Map(game.facts.map((f) => [f.url, f])).values()];
     <ul>{game.facts.map((f) => <li>{f.text} <span class="src">({f.source})</span></li>)}</ul>
 
     <h2>Why a server</h2>
-    <p>Without a server, one player hosts the world from their own computer, so the others can only join while that player is online. A rented server keeps the world online all the time: friends join when they like, and the host's computer can be off.</p>
+    {game.auto ? (
+      <p>A rented server keeps your own world or community online around the clock: friends join when they like, and nobody has to leave a computer switched on. How a server works depends on the game, so read the host's page for this game before you buy.</p>
+    ) : (
+      <p>Without a server, one player hosts the world from their own computer, so the others can only join while that player is online. A rented server keeps the world online all the time: friends join when they like, and the host's computer can be off.</p>
+    )}
     <p>New to this? Read <a href="/servers/start-a-game-server-for-friends/">how to start a game server for friends</a> and <a href="/servers/rent-a-server-or-host-at-home/">whether to rent a server or host at home</a>.</p>
 
     {hosts.map((h) => <ProviderCard host={h.host} href={h.href} game={game.title} gameFacts={h.facts} />)}

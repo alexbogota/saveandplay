@@ -17,13 +17,15 @@ import { coopGames } from '../../lib/coop-games';
 
     <h2>Games to play together</h2>
     <div class="games">
-      {coopGames.map((g) => (
+      {coopGames.filter((g) => !g.auto).map((g) => (
         <a class="game" href={`/servers/${g.slug}/`}>
           <img src={g.image} alt={`Cover art for ${g.title}`} width="460" height="215" loading="lazy" />
           <span class="name">{g.title}</span>
         </a>
       ))}
     </div>
+
+    <p class="all"><a href="/servers/games/">See all {coopGames.length} games with servers →</a></p>
 
     <h2>Guides</h2>
     <ArticleList section="servers" />
@@ -38,6 +40,8 @@ import { coopGames } from '../../lib/coop-games';
 <style>
   .intro { font-size: 18px; }
   .aff-note { font-size: 14px; color: var(--muted); }
+  .all { margin: 12px 0 0; font-weight: 700; }
+  .all a { color: var(--accent-text); }
   .games { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; margin: 0 0 8px; }
   .game { display: block; background: var(--panel); border: 1px solid var(--border); border-radius: 14px; overflow: hidden; }
   .game:hover { border-color: var(--border-hover); }

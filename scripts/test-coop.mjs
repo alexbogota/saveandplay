@@ -2,7 +2,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { coopPostFor, parseCoopPost, coopProblems, coopHistory, coopSettingsProblems, COOP_DEFAULTS, readCoopGames } from './lib/coop-posts.mjs';
+import { coopPostFor, parseCoopPost, coopProblems, coopHistory, coopSettingsProblems, COOP_DEFAULTS, readCoopGames, postLines, autoLines } from './lib/coop-posts.mjs';
 import { graphemes, shortenForPost, MAX_GRAPHEMES } from './lib/bsky-posts.mjs';
 
 const games = [
@@ -54,6 +54,26 @@ test('posts of other accounts do not count', () => {
   assert.equal(coopPostFor(acc(), { games, keys: ['retro|coop-2026-10-10|/servers/farm-a/'], now: day(10) }).slug, 'farm-a');
 });
 
+test('anyTags "*" takes every game; a program game (auto) gets lines made from what Steam lists', () => {
+  const auto = [
+    { slug: 'big-co-op', title: 'Big Co-op', tags: ['server'], hashtag: 'BigCoOp', auto: true, steam: { coop: true, onlineCoop: true }, posts: [] },
+    { slug: 'pvp-only', title: 'Pvp Only', tags: ['server'], hashtag: '', auto: true, steam: { pvp: true }, posts: [] },
+  ];
+  const all = [...games, ...auto];
+  const a = acc({ anyTags: ['*'] });
+  const keys = [];
+  const seen = [];
+  for (let d = 1; d <= 11; d += 2) { const r = coopPostFor(a, { games: all, keys, now: day(d) }); seen.push(r.slug); keys.push(r.key); }
+  assert.deepEqual(seen, ['farm-a', 'mine-b', 'war-c', 'big-co-op', 'pvp-only', 'farm-a']);
+  assert.match(autoLines(auto[0])[0], /^Big Co-op has online co-op on Steam\./);
+  assert.doesNotMatch(autoLines(auto[1]).join(' '), /co-op/); // nothing is claimed that Steam does not list
+  const r = coopPostFor(a, { games: all, keys: [], now: day(1), }); // farm-a first
+  assert.equal(r.slug, 'farm-a');
+  const noTag = coopPostFor(a, { games: [auto[1]], keys: [], now: day(3) }); // no hashtag of its own: only the account's tags
+  assert.match(noTag.text, /#CozyGames\nAd$/);
+  assert.deepEqual(postLines({ title: 'X', auto: false, posts: [] }), []); // a hand-made game without lines is never posted
+});
+
 test('no game with the tags: NO POST with the reason', () => {
   assert.match(coopPostFor(acc({ anyTags: ['retro'] }), { games, now: day(10) }).noPost, /no game/);
 });
@@ -85,15 +105,15 @@ test('data/coop-games.json: every game is complete and every ready post fits Blu
     assert.match(g.image, /^https:\/\//);
     assert.ok(g.facts.length && g.facts.every((f) => f.text && f.source && /^https:\/\//.test(f.url)), `${g.slug}: facts need text, source and url`);
     assert.ok(Object.keys(g.hosts).length, `${g.slug}: no host`);
-    assert.ok(g.posts.length, `${g.slug}: no posts`);
-    for (const line of g.posts) assert.ok(!/\$\d|https?:|#|lowest/i.test(line), `${g.slug}: a post line has a price, a link, a tag or "lowest": ${line}`);
+    assert.ok(g.auto || g.posts.length, `${g.slug}: no posts`);
+    for (const line of postLines(g)) assert.ok(!/\$\d|https?:|#|lowest/i.test(line), `${g.slug}: a post line has a price, a link, a tag or "lowest": ${line}`);
   }
   for (const [id, a] of Object.entries(accounts)) {
     const coop = a.channels?.bluesky?.coop;
     if (!coop) continue;
     const ac = { id, settings: { maxDayAge: 1 }, channel: { ...a.channels.bluesky, coop: { ...coop, enabled: true } } };
-    for (const g of real.filter((x) => x.tags.some((t) => coop.anyTags.includes(t)))) {
-      g.posts.forEach((_, i) => {
+    for (const g of real.filter((x) => coop.anyTags.includes('*') || x.tags.some((t) => coop.anyTags.includes(t)))) {
+      postLines(g).forEach((_, i) => {
         const keys = Array.from({ length: i }, (_, k) => `${id}|coop-2026-01-${String(k + 1).padStart(2, '0')}|/servers/${g.slug}/`);
         const r = coopPostFor(ac, { games: [g], keys, now: day(23) });
         const shown = shortenForPost(r.text, r.link);

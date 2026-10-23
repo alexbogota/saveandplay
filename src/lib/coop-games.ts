@@ -15,7 +15,10 @@ export interface CoopGame {
   intro: string;
   facts: CoopFact[];
   hosts: Record<string, { path: string; facts: string[] }>;
-  posts: string[];
+  posts?: string[];
+  // Made by scripts/coop-build.mjs from Steam's own answer (never edited by hand): its pages are not offered to search engines.
+  auto?: boolean;
+  popularity?: number;
 }
 
 export const coopGames = data.games as CoopGame[];

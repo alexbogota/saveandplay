@@ -4,12 +4,13 @@
 //
 // Settings (data/accounts.json): accounts.<id>.channels.bluesky.coop = {
 //   enabled: true,
-//   anyTags: ["cozy"],          the account takes games that have at least one of these tags (data/coop-games.json, "tags")
+//   anyTags: ["cozy"],          the account takes games that have at least one of these tags (data/coop-games.json, "tags"); ["*"] = every game
 //   everyDays: 2,               at most one such post every N days (the day in Bogota)
 //   baseTags: ["CozyGames"],    hashtags of every such post; the game's own "hashtag" is added
 //   template: ["{text}", "{link}", "{tags}\n{disclosure}"]   blocks joined with an empty line
 // }
-// The game: the one this account posted least recently (never posted first, then the order of the file). The line: the next one of its "posts".
+// The game: the one this account posted least recently (never posted first, then the order of the file: hand-made games, then the most reviewed).
+// The line: the next one of its "posts"; a game made by the program (auto) has none and gets lines from what Steam lists (autoLines).
 // The link has utm_campaign=coop-YYYY-MM-DD: the day of the post (an old approval is refused) and the mark that it is a "play together" post.
 
 import { readFileSync } from 'node:fs';
@@ -21,6 +22,26 @@ export const COOP_DEFAULTS = { enabled: false, anyTags: [], everyDays: 2, baseTa
 export function readCoopGames() {
   try { return JSON.parse(readFileSync(file('data', 'coop-games.json'), 'utf8')).games ?? []; } catch { return []; }
 }
+
+// Ready lines of a game: its own "posts", or for a program game the lines made from Steam's multiplayer flags (nothing else is claimed).
+export function autoLines(g) {
+  const t = g.title;
+  const f = g.steam ?? {};
+  if (f.coop || f.onlineCoop) {
+    const co = f.onlineCoop ? 'online co-op' : 'co-op';
+    return [
+      `${t} has ${co} on Steam.\nA rented server keeps your world online when the host logs off.`,
+      `Playing ${t} with friends? Steam lists ${co}.\nA game server means nobody has to host from their own PC.`,
+      `A shared ${t} world that is always online: that is what a rented server is for.\nSteam lists ${co} for the game.`,
+    ];
+  }
+  return [
+    `${t} is a multiplayer game on Steam.\nA rented server keeps your own world or community online around the clock.`,
+    `Want your own ${t} server? A rented one stays online when you log off.`,
+    `Running a ${t} server for friends or a community? Here is what a rented server gives you.`,
+  ];
+}
+export const postLines = (g) => ((g.posts ?? []).length ? g.posts : g.auto ? autoLines(g) : []);
 
 export const coopSettings = (acc) => (acc?.channel?.coop ? { ...COOP_DEFAULTS, ...acc.channel.coop } : null);
 
@@ -60,12 +81,13 @@ export function coopPostFor(acc, { games = readCoopGames(), keys = [], now = Dat
   const last = before.map((h) => h.day).sort().at(-1);
   if (last && daysBetween(last, today) < s.everyDays) return { noPost: `the last "play together" post was on ${last}; the next one is due on ${addDays(last, s.everyDays)} (coop.everyDays = ${s.everyDays})` };
   const want = new Set(s.anyTags.map((t) => String(t).toLowerCase()));
-  const eligible = games.filter((g) => (g.tags ?? []).some((t) => want.has(String(t).toLowerCase())) && (g.posts ?? []).length);
+  const eligible = games.filter((g) => (want.has('*') || (g.tags ?? []).some((t) => want.has(String(t).toLowerCase()))) && postLines(g).length);
   if (!eligible.length) return { noPost: `no game in data/coop-games.json has one of the tags ${s.anyTags.join(', ')}` };
   const lastOf = (slug) => before.filter((h) => h.slug === slug).map((h) => h.day).sort().at(-1) ?? '';
   const game = [...eligible].sort((a, b) => lastOf(a.slug).localeCompare(lastOf(b.slug)) || eligible.indexOf(a) - eligible.indexOf(b))[0];
   const times = before.filter((h) => h.slug === game.slug).length;
-  const text0 = game.posts[times % game.posts.length];
+  const lines = postLines(game);
+  const text0 = lines[times % lines.length];
   const utm = acc.channel.utmSource ?? acc.channel.subid ?? acc.id;
   const path = `/servers/${game.slug}/`;
   const link = `${SITE}${path}?utm_source=${encodeURIComponent(utm)}&utm_medium=social&utm_campaign=coop-${today}`;
