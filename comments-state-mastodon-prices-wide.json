@@ -8,66 +8,47 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 96,
-      "posts": 4040,
-      "fit": 47,
+      "runs": 104,
+      "posts": 4360,
+      "fit": 55,
       "last": {
-        "posts": 80,
+        "posts": 40,
         "fit": 0,
-        "at": "2026-10-23T06:48:37.657Z"
+        "at": "2026-10-23T12:48:28.037Z"
       }
     },
     "moreAsk": {
-      "runs": 60,
-      "posts": 540,
+      "runs": 65,
+      "posts": 585,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-10-23T06:48:37.657Z"
+        "at": "2026-10-23T12:48:28.037Z"
       }
     },
     "moreRetro": {
-      "runs": 60,
-      "posts": 3880,
-      "fit": 119,
+      "runs": 65,
+      "posts": 4200,
+      "fit": 134,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-23T06:48:37.657Z"
+        "at": "2026-10-23T12:48:28.037Z"
       }
     },
     "morePlaying": {
-      "runs": 60,
-      "posts": 252,
+      "runs": 65,
+      "posts": 273,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-10-23T06:48:37.657Z"
+        "at": "2026-10-23T12:48:28.037Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@mvu@sunny.garden/117482593321893744": {
-      "uri": "https://mastodon.social/@mvu@sunny.garden/117482593321893744",
-      "url": "https://mastodon.social/@mvu@sunny.garden/117482593321893744",
-      "handle": "mvu@sunny.garden",
-      "name": "MVU",
-      "text": "I beat Oracle of Seasons and moved onto Oracle of Ages -- the latter is definitely better so far with more interesting dungeons and a more lively game world. They've held up great~ #retrogaming #gameboycolor",
-      "createdAt": "2026-10-22T04:08:28.000Z",
-      "likes": 1,
-      "replies": 1,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://sunny.garden/@mvu/117482593252728695",
-      "media": null,
-      "firstSeen": "2026-10-22T06:49:34.491Z"
-    },
     "https://mastodon.social/@Gamrok/117483965937439097": {
       "uri": "https://mastodon.social/@Gamrok/117483965937439097",
       "url": "https://mastodon.social/@Gamrok/117483965937439097",
@@ -371,7 +352,7 @@
       "text": "Me, playing #UFOEnemyUnknown: \"I guess this is #RetroGaming, I played this in 1994 when it came out, 20 years ago!\" My brain: \"Actually it came out 30 years ago.\" #NeverDoTheMaths #XComUFODefense",
       "createdAt": "2026-10-22T19:29:24.000Z",
       "likes": 3,
-      "replies": 0,
+      "replies": 1,
       "group": "moreRetro",
       "query": "retrogaming",
       "score": 3,
@@ -393,7 +374,7 @@
       "replies": 0,
       "group": "moreGaming",
       "query": "videogame",
-      "score": 8,
+      "score": 7,
       "question": true,
       "heated": false,
       "isReply": false,
@@ -412,7 +393,7 @@
       "replies": 1,
       "group": "moreGaming",
       "query": "gamingcommunity",
-      "score": 5,
+      "score": 4,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -426,8 +407,8 @@
       "name": "Scott Lahteine",
       "text": "Using #HermesAgent with Ghidra and Capstone made short work of recovering the code and assets for the two #Amiga games I wrote in 1990-1991, \"Dino Wars\" and \"Bill & Ted's Excellent Adventure.\" Already fixed all known bugs and will remaster and port as time allows! #retrogames",
       "createdAt": "2026-10-23T04:21:41.000Z",
-      "likes": 0,
-      "replies": 0,
+      "likes": 1,
+      "replies": 1,
       "group": "moreRetro",
       "query": "retrogames",
       "score": 5,
@@ -437,6 +418,61 @@
       "origin": "https://fosstodon.org/@thinkyhead/117488307519808013",
       "media": "image: Some assets from Dino Wars and Bill & Ted",
       "firstSeen": "2026-10-23T06:48:37.657Z"
+    },
+    "https://mastodon.social/@serigala_tropis@lgbtqia.space/117489618237473610": {
+      "uri": "https://mastodon.social/@serigala_tropis@lgbtqia.space/117489618237473610",
+      "url": "https://mastodon.social/@serigala_tropis@lgbtqia.space/117489618237473610",
+      "handle": "serigala_tropis@lgbtqia.space",
+      "name": "Wendy",
+      "text": "I've been playing Saints Row (the remake) and I still feel bad of killing two NPCs of civilians just to check out the ability of a gun. I don't feel bad in killing and slaughtering enemies in the video game, as they are gang members and corrupt law enforcement. Also curiously, I drive recklessly and I don't feel that bad causing damage to properties and damaging other cars. #saintsrow #videogame",
+      "createdAt": "2026-10-23T09:55:00.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "moreGaming",
+      "query": "videogame",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://lgbtqia.space/@serigala_tropis/117489618168470937",
+      "media": null,
+      "firstSeen": "2026-10-23T12:48:28.037Z"
+    },
+    "https://mastodon.social/@stunningshemp/117490121920203434": {
+      "uri": "https://mastodon.social/@stunningshemp/117490121920203434",
+      "url": "https://mastodon.social/@stunningshemp/117490121920203434",
+      "handle": "stunningshemp@mastodon.social",
+      "name": "Chris Coats",
+      "text": "Alis is a terrible liar #retrogaming #phantasystar #rpg #stunningshemp #twitch",
+      "createdAt": "2026-10-23T12:03:07.309Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 3,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "video, no description",
+      "firstSeen": "2026-10-23T12:48:28.037Z"
+    },
+    "https://mastodon.social/@forgottenarchai/117490077620036677": {
+      "uri": "https://mastodon.social/@forgottenarchai/117490077620036677",
+      "url": "https://mastodon.social/@forgottenarchai/117490077620036677",
+      "handle": "forgottenarchai@mastodon.social",
+      "name": "Forgotten Archive",
+      "text": "Grand Theft Auto Adverts · 1997–1998 The age limit was the selling point. GTA’s March 1998 *PC Zone* advert made a huge red 18 certificate its centrepiece, signing off with: “Sorry kids. Grow up and see what you’re missing.” #ForgottenArchive #GrandTheftAuto #GameAds #PCZone #RetroGaming",
+      "createdAt": "2026-10-23T11:51:51.347Z",
+      "likes": 1,
+      "replies": 1,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image: Full-page black Grand Theft Auto advertisement with a large red BBFC 18 certificate surrounded by four small coloured cars. The headline says the game won a ce…",
+      "firstSeen": "2026-10-23T12:48:28.037Z"
     }
   }
 }
