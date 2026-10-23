@@ -1,0 +1,67 @@
+{
+  "block": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "madeAt": "2026-10-23T13:07:50.241Z",
+  "days": 14,
+  "total": 47,
+  "mature": {
+    "count": 43,
+    "withLike": 5,
+    "withReply": 1,
+    "likes": 7,
+    "replies": 1,
+    "byProgram": 10
+  },
+  "top": [
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3mxzy3b4lfc2z",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3mxzy3b4lfc2z",
+      "text": "Same here, a lot of old games hold up better than expected. GOG has many classics DRM-free with fixes included, so they run on a modern PC",
+      "at": "2026-10-17T01:50:46.769Z",
+      "likes": 0,
+      "replies": 1,
+      "reposts": 0,
+      "to": "puppy.bzky.team"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3mxzo36u4c22h",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3mxzo36u4c22h",
+      "text": "Shovel Knight is a great classic-style platformer, and Sea of Stars scratches the SNES JRPG itch. Both are pixel art, so they should go easy on a weak GPU, but check each store page’s requirements first",
+      "at": "2026-10-16T22:51:46.977Z",
+      "likes": 2,
+      "replies": 0,
+      "reposts": 0,
+      "to": "mentoch.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3mxyoqrh2o22k",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3mxyoqrh2o22k",
+      "text": "Sly Cooper 2 and 3 are great picks. That PS2 shelf was hard to beat",
+      "at": "2026-10-16T13:31:11.377Z",
+      "likes": 2,
+      "replies": 0,
+      "reposts": 0,
+      "to": "gameipedia.itch.io"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3myab3c3f4c2i",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3myab3c3f4c2i",
+      "text": "Great pick. Eric Idle’s Rincewind and those gloriously absurd puzzles are pure 90s adventure game. That music alone sends you straight back.",
+      "at": "2026-10-19T13:47:49.885Z",
+      "likes": 1,
+      "replies": 0,
+      "reposts": 0,
+      "to": "brasshammerz.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3mxzo4mpr522n",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3mxzo4mpr522n",
+      "text": "OoT really did change what people thought games could be. That soundtrack never leaves you",
+      "at": "2026-10-16T22:52:35.069Z",
+      "likes": 1,
+      "replies": 0,
+      "reposts": 0,
+      "to": "peachia.bsky.social"
+    }
+  ]
+}
