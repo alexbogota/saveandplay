@@ -1,0 +1,39 @@
+{
+  "madeAt": "2026-10-23T16:38:30.064Z",
+  "run": "39988446154",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices-2|2026-10-23|/deals/gog/darkest-dungeon/",
+      "account": "prices-2",
+      "handle": "saveandplay.com",
+      "n": 2,
+      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-23",
+      "text": "Darkest Dungeon: -85% at GOG\n$3.75 (was $24.99)\nPrice checked Oct 23. Sale ends Oct 28. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-23\n\n#PCGaming #GameDeals #GOG #VideoGames #Gaming\nAd",
+      "approvedFile": "posts-approved-20261023-135714.json",
+      "approvedAt": "2026-10-23T13:57:14.874Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-23T16:38:33.601Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mykmiaivhl2z",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3mykmiaivhl2z",
+      "picture": true
+    },
+    {
+      "key": "cozy|coop-2026-10-23|/servers/stardew-valley/",
+      "account": "cozy",
+      "handle": "cozygame.bsky.social",
+      "n": 8,
+      "link": "https://saveandplay.com/servers/stardew-valley/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=coop-2026-10-23",
+      "text": "Stardew Valley is up to 8-player farming: the host invites 1 to 7 friends to the valley online.\nA rented server keeps the farm open when the host logs off.\n\nhttps://saveandplay.com/servers/stardew-valley/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=coop-2026-10-23\n\n#CozyGames #StardewValley\nAd",
+      "approvedFile": "posts-approved-20261023-135714.json",
+      "approvedAt": "2026-10-23T13:57:14.874Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-23T16:38:35.920Z",
+      "postUri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3mykmicryj327",
+      "postUrl": "https://bsky.app/profile/cozygame.bsky.social/post/3mykmicryj327",
+      "picture": true
+    }
+  ]
+}
