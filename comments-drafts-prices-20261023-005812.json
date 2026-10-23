@@ -1,0 +1,42 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "stamp": "20261023-005812",
+  "madeAt": "2026-10-23T00:59:00.294Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:eq4vypewakclmbgx3zgtjysl/app.bsky.feed.post/3myi46p6pws2z",
+      "url": "https://bsky.app/profile/psiyoshi.bsky.social/post/3myi46p6pws2z",
+      "author": "psiyoshi.bsky.social",
+      "context": "The Apothecary Diaries game is $80 noooooo Guess that'll be a \"wait for a sale\" one.\nimage, no description",
+      "text": "Waiting is a fair call at that price. Wishlisting it on the store you'd buy from usually pings you when the price drops.",
+      "verify": "Картинка без описания, платформа не ясна: проверь, что игра есть на PC.",
+      "group": "waitForSale",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:zn27kfrngy74o2sydwa5x4pm/app.bsky.feed.post/3myhwrnjrds24",
+      "url": "https://bsky.app/profile/nekobekoneko.bsky.social/post/3myhwrnjrds24",
+      "author": "nekobekoneko.bsky.social",
+      "context": "Is Final Fantasy 7 Remake worth it? I heard some people say the game is mostly cutscenes and gets boring quick. Opinions? #ff7 #ff7remake #finalfantasy #gaming",
+      "text": "It only covers the Midgar part of the original story, so it's more linear and character-driven than open-ended. Knowing that going in helps you decide if it's your style.",
+      "verify": "Проверь, что FF7 Remake есть на PC (Steam или Epic).",
+      "group": "waitForSale",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:xg6oplehzbwvh2xork22pdb7/app.bsky.feed.post/3myijhtuywc2u",
+      "url": "https://bsky.app/profile/maplealcesia.bsky.social/post/3myijhtuywc2u",
+      "author": "maplealcesia.bsky.social",
+      "context": "kind of a weird and specific question but: can anyone recommend spooky/horror-focused games that are more job-focused / process-following? stuff like: - home safety hotline - carbon steel from unsorted horror - voices of the void but maybe less spooky lol",
+      "text": "The Mortuary Assistant fits that well: you follow embalming steps while things get creepy around you. I'm on Observation Duty is another, built around checking cameras and spotting what's off.",
+      "verify": "Проверь, что The Mortuary Assistant и I'm on Observation Duty есть в Steam и подходят под «работа по процедуре».",
+      "group": "seasonal",
+      "heated": false
+    }
+  ]
+}

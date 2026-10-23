@@ -1,0 +1,19 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261023-005812",
+  "madeAt": "2026-10-23T00:59:00.394Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:dadnngq7hpnuglhxm556wgzi/app.bsky.feed.post/3myivh53uys26",
+      "url": "https://bsky.app/profile/drunk.moe/post/3myivh53uys26",
+      "author": "drunk.moe",
+      "context": "my most played game on steam is stardew valley. i play games like pokemon and animal crossing. it’s ok im a girl gamer too",
+      "text": "Stardew is a lovely one to have as your most played. It works for ten calm minutes or a whole evening, whichever you've got.",
+      "group": "stardew",
+      "heated": false
+    }
+  ]
+}
