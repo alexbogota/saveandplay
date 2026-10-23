@@ -1291,5 +1291,15 @@
   "tags": [],
   "mature": false,
   "at": "2026-10-22"
+ },
+ "kinguin-doom-eternal": {
+  "source": "steam",
+  "year": 2020,
+  "genres": [
+   "Action"
+  ],
+  "tags": [],
+  "mature": true,
+  "at": "2026-10-23"
  }
 }
