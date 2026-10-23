@@ -24,3 +24,6 @@ Posts the approved text like the app: the link shortened to 25 characters (the f
 
 ## Reply format to the owner (Russian, short)
 What was done, what is next, what is needed from him.
+
+## Play-together posts (added 22 Oct 2026)
+`show` also prints a PLAY TOGETHER post for every account with `channels.bluesky.coop.enabled` (now Cozy): a game from `data/coop-games.json`, one link to `/servers/<game>/` (utm_campaign=coop-YYYY-MM-DD), `Ad` last, no prices. It is approved with the others and goes after the account's deal post. Details in Russian: `docs/coop-games.md`.
