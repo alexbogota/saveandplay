@@ -1,0 +1,8 @@
+{
+  "about": "Hand-made answers for scripts/coop-build.mjs, which matches a game of the host (data/coop-host-games.json) to its Steam page. Key = the host's slug. Value = the Steam app number (the number in store.steampowered.com/app/<number>/) when the automatic name match is wrong or empty, or {\"skip\": \"reason\"} when the game must not get a page and posts. The program lists every game it could not match, with the names Steam offered, in data/coop-build-report.md: put the answers here. A number written here always wins.",
+  "grand_theft_auto_5": { "skip": "servers for this game are modded role-play servers (FiveM), not the game's own multiplayer" },
+  "red_dead_redemption_2": { "skip": "servers for this game are modded role-play servers (RedM), not the game's own multiplayer" },
+  "minecraft": { "skip": "not on Steam: no Steam facts and no cover we may use (add a hand-made block in data/coop-games.json to include it)" },
+  "hytale": { "skip": "not on Steam: no Steam facts and no cover we may use" },
+  "skyrim_together": { "skip": "a mod, not a game on Steam" }
+}

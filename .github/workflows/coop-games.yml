@@ -1,0 +1,56 @@
+name: Update co-op games
+
+# Builds the games of data/coop-games.json that the program makes (pages /servers/<game>/ and the "play together" posts) from the host's
+# list of games and Steam: scripts/coop-build.mjs. Every Monday at 05:30 Bogota time, by hand (Actions -> "Update co-op games" -> Run workflow),
+# and when the hand-made answers (data/coop-steam-ids.json) or the host's list (data/coop-host-games.json) are pushed.
+# It saves the result to the branch it ran on; on main it also starts the site deploy. What it found is in data/coop-build-report.md
+# (and in the Summary of the run): games that need an answer from a human are listed there, with the names Steam offered.
+on:
+  schedule:
+    - cron: '30 10 * * 1' # Monday 10:30 UTC = 05:30 Bogota
+  workflow_dispatch:
+  push:
+    paths:
+      - 'data/coop-steam-ids.json'
+      - 'data/coop-host-games.json'
+
+permissions:
+  contents: write # to save data/coop-games.json
+  actions: write # to start the deploy
+
+concurrency:
+  group: coop-games
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Build the games
+        run: node scripts/coop-build.mjs
+
+      - name: Save to the branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          git config user.name "saveandplay-bot"
+          git config user.email "bot@saveandplay.com"
+          git add data/coop-games.json data/coop-host-games.json data/coop-build-report.md
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git commit -m "Update co-op games $(date -u +%F)"
+          git pull --rebase --autostash origin "$BRANCH"
+          git push origin "HEAD:$BRANCH"
+          if [ "$BRANCH" = "main" ]; then gh workflow run deploy.yml --ref main; fi
