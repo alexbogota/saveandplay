@@ -1,0 +1,23 @@
+{
+  "madeAt": "2026-10-23T18:38:44.094Z",
+  "run": "40004975223",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices|article|/guides/early-access-vs-pre-order/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 6,
+      "link": "https://saveandplay.com/guides/early-access-vs-pre-order/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-early-access",
+      "text": "On Steam, Early Access is a full purchase, so the 14-day refund clock starts when you pay. For a pre-purchase it starts on the release date. Both count 2 hours of playtime. Our 5 checks:\nhttps://saveandplay.com/guides/early-access-vs-pre-order/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-early-access\n#PCGaming #GameDeals #Steam",
+      "approvedFile": "posts-approved-20261023-135714.json",
+      "approvedAt": "2026-10-23T13:57:14.874Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-23T18:38:47.432Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mykt7a3jmz2r",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3mykt7a3jmz2r",
+      "picture": true
+    }
+  ]
+}
