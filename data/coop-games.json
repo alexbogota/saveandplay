@@ -417,7 +417,7 @@
         "pvp": false,
         "mmo": true
       },
-      "popularity": 588532,
+      "popularity": 588533,
       "hosts": {
         "survivalServers": {
           "path": "/services/game_servers/ark_survival_evolved/",
@@ -1227,7 +1227,7 @@
         "pvp": false,
         "mmo": false
       },
-      "popularity": 119230,
+      "popularity": 119231,
       "hosts": {
         "survivalServers": {
           "path": "/services/game_servers/astroneer/",
@@ -1542,7 +1542,7 @@
         "pvp": false,
         "mmo": false
       },
-      "popularity": 97042,
+      "popularity": 97052,
       "hosts": {
         "survivalServers": {
           "path": "/services/game_servers/enshrouded/",
@@ -1587,7 +1587,7 @@
         "pvp": true,
         "mmo": false
       },
-      "popularity": 91664,
+      "popularity": 91663,
       "hosts": {
         "survivalServers": {
           "path": "/services/game_servers/mordhau/",
@@ -1992,7 +1992,7 @@
         "pvp": false,
         "mmo": false
       },
-      "popularity": 48555,
+      "popularity": 48553,
       "hosts": {
         "survivalServers": {
           "path": "/services/game_servers/windrose/",
@@ -2037,7 +2037,7 @@
         "pvp": false,
         "mmo": false
       },
-      "popularity": 48107,
+      "popularity": 48108,
       "hosts": {
         "survivalServers": {
           "path": "/services/game_servers/team_fortress_2/",
@@ -2082,7 +2082,7 @@
         "pvp": false,
         "mmo": false
       },
-      "popularity": 42722,
+      "popularity": 42725,
       "hosts": {
         "survivalServers": {
           "path": "/services/game_servers/abiotic_factor/",
@@ -2262,7 +2262,7 @@
         "pvp": false,
         "mmo": false
       },
-      "popularity": 32361,
+      "popularity": 32365,
       "hosts": {
         "survivalServers": {
           "path": "/services/game_servers/runescape_dragonwilds/",
@@ -4147,7 +4147,7 @@
         "pvp": false,
         "mmo": false
       },
-      "popularity": 2803,
+      "popularity": 2801,
       "hosts": {
         "survivalServers": {
           "path": "/services/game_servers/dimraeth/",
