@@ -1,0 +1,39 @@
+{
+  "madeAt": "2026-10-23T01:08:41.889Z",
+  "run": "39882296522",
+  "private": false,
+  "entries": [
+    {
+      "block": "cozy",
+      "handle": "cozygame.bsky.social",
+      "n": 1,
+      "uri": "at://did:plc:dadnngq7hpnuglhxm556wgzi/app.bsky.feed.post/3myivh53uys26",
+      "url": "https://bsky.app/profile/drunk.moe/post/3myivh53uys26",
+      "author": "drunk.moe",
+      "text": "Stardew is a lovely one to have as your most played. It works for ten calm minutes or a whole evening, whichever you've got.",
+      "approvedFile": "comments-approved-cozy-20261023-005812-20261023-010825.json",
+      "approvedAt": "2026-10-23T01:08:25.089Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-23T01:08:43.053Z",
+      "replyUri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3myiyjl2vrb25",
+      "replyUrl": "https://bsky.app/profile/cozygame.bsky.social/post/3myiyjl2vrb25"
+    },
+    {
+      "block": "retro",
+      "handle": "retrogamedeals.bsky.social",
+      "n": 2,
+      "uri": "at://did:plc:sv524cvckefuardkofllsz44/app.bsky.feed.post/3myhy6g7qn22h",
+      "url": "https://bsky.app/profile/eyesack.bsky.social/post/3myhy6g7qn22h",
+      "author": "eyesack.bsky.social",
+      "text": "Can't place that one, but it sounds like a great school-computer memory. Anything you recall about the title screen or the ride camera helps narrow down old DOS games.",
+      "approvedFile": "comments-approved-retro-20261023-005812-20261023-010825.json",
+      "approvedAt": "2026-10-23T01:08:25.190Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-23T01:08:43.898Z",
+      "replyUri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3myiyjlulm72q",
+      "replyUrl": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3myiyjlulm72q"
+    }
+  ]
+}
