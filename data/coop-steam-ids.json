@@ -1,8 +1,48 @@
 {
   "about": "Hand-made answers for scripts/coop-build.mjs, which matches a game of the host (data/coop-host-games.json) to its Steam page. Key = the host's slug. Value = the Steam app number (the number in store.steampowered.com/app/<number>/) when the automatic name match is wrong or empty, or {\"skip\": \"reason\"} when the game must not get a page and posts. The program lists every game it could not match, with the names Steam offered, in data/coop-build-report.md: put the answers here. A number written here always wins.",
-  "grand_theft_auto_5": { "skip": "servers for this game are modded role-play servers (FiveM), not the game's own multiplayer" },
-  "red_dead_redemption_2": { "skip": "servers for this game are modded role-play servers (RedM), not the game's own multiplayer" },
-  "minecraft": { "skip": "not on Steam: no Steam facts and no cover we may use (add a hand-made block in data/coop-games.json to include it)" },
-  "hytale": { "skip": "not on Steam: no Steam facts and no cover we may use" },
-  "skyrim_together": { "skip": "a mod, not a game on Steam" }
+  "grand_theft_auto_5": {
+    "skip": "servers for this game are modded role-play servers (FiveM), not the game's own multiplayer"
+  },
+  "red_dead_redemption_2": {
+    "skip": "servers for this game are modded role-play servers (RedM), not the game's own multiplayer"
+  },
+  "minecraft": {
+    "skip": "not on Steam: no Steam facts and no cover we may use (add a hand-made block in data/coop-games.json to include it)"
+  },
+  "hytale": {
+    "skip": "not on Steam: no Steam facts and no cover we may use"
+  },
+  "skyrim_together": {
+    "skip": "a mod, not a game on Steam"
+  },
+  "arma2": 33930,
+  "arma3": 107410,
+  "grounded2": 2661300,
+  "holdfast": 589290,
+  "motor_town": 1369670,
+  "warband": 48700,
+  "mount_and_blade_2_bannerlord": 261550,
+  "mxbikes": 655500,
+  "smalland": 768200,
+  "stormworks": 573090,
+  "atlas": 834910,
+  "sbox": 590830,
+  "conan_exiles": {
+    "skip": "the same Steam page as conan_exiles_enhanced (Steam renamed the game): one page is enough"
+  },
+  "counter_strike_global_offensive": {
+    "skip": "the same Steam page as counter_strike_2 (Steam renamed the game): one page is enough"
+  },
+  "path_of_titans": {
+    "skip": "no Steam page found by name; put its Steam number here if it has one"
+  },
+  "rune_ragnarok": {
+    "skip": "no Steam page found by name; put its Steam number here if it has one"
+  },
+  "veloren": {
+    "skip": "not on Steam"
+  },
+  "vintage_story": {
+    "skip": "not on Steam"
+  }
 }
