@@ -1,62 +1,55 @@
 # Comment candidates: mastodon-prices (@saveandplay@mastodon.social)
-Made 2026-10-22T18:45Z. Searched: deck: handheldgaming | deck: steamdecklife | deck: steamdeckoled | deck: steamdeck | deck: steamos | practical: linuxgaming | practical: drmfree | practical: gog | practical: protondb | genres: coopgames | genres: citybuilder | genres: strategygames | genres: survivalgames | genres: horrorgaming | genres: cozygaming | genres: puzzlegames | genres: roguelike | genres: cozygames | genres: metroidvania | seasonal: halloweengames | seasonal: horrorgames | seasonal: spooktober | broadPlaying: videogames | broadPlaying: currentlyplaying | broadPlaying: indiegames | broadPlaying: indiegame | broadPlaying: pcgames | broadPlaying: steamgames | broadPlaying: gamer | broadPlaying: games | broadPlaying: rpg | broadPlaying: jrpg | broadPlaying: pcgaming | broadPlaying: gaming | broadPlaying: steam | broadAsk: recommendmeagame | broadAsk: gamerecommendation | broadAsk: recommendagame | broadAsk: whattoplay | broadAsk: gamesuggestion | broadAsk: hiddengem | broadAsk: underratedgames | broadAsk: gamesuggestions | backlog: gamingbacklog | backlog: backlog | backlog: pileofshame | backlog: whatshouldiplay | backlog: gamerecommendations | backlog: gamerecs.
-Posts below: 12 + 1 heated. Dropped in this run: console only 13, too old 1145, other language 241, bot, shop or studio 988, promo (link and hashtags) 105, other language (text) 181, skip word 182, not about games 42, already shown 33, low score 33, too long 13, many links 8, already answered 1, own post 22, profile says no bots or promo 8, link post, not a question 19, hidden from search 3, content warning 7, earlier finds: low score 7.
+Made 2026-10-23T00:52Z. Searched: deck: handheldgaming | deck: steamdecklife | deck: steamdeckoled | deck: steamdeck | deck: steamos | practical: linuxgaming | practical: drmfree | practical: gog | practical: protondb | genres: coopgames | genres: citybuilder | genres: strategygames | genres: survivalgames | genres: horrorgaming | genres: cozygaming | genres: puzzlegames | genres: roguelike | genres: cozygames | genres: metroidvania | seasonal: halloweengames | seasonal: horrorgames | seasonal: spooktober | broadPlaying: videogames | broadPlaying: currentlyplaying | broadPlaying: indiegames | broadPlaying: indiegame | broadPlaying: pcgames | broadPlaying: steamgames | broadPlaying: gamer | broadPlaying: games | broadPlaying: rpg | broadPlaying: jrpg | broadPlaying: pcgaming | broadPlaying: gaming | broadPlaying: steam | broadAsk: recommendmeagame | broadAsk: gamerecommendation | broadAsk: recommendagame | broadAsk: whattoplay | broadAsk: gamesuggestion | broadAsk: hiddengem | broadAsk: underratedgames | broadAsk: gamesuggestions | backlog: gamingbacklog | backlog: backlog | backlog: pileofshame | backlog: whatshouldiplay | backlog: gamerecommendations | backlog: gamerecs.
+Posts below: 12. Dropped in this run: console only 12, too old 1138, bot, shop or studio 945, other language 197, skip word 206, promo (link and hashtags) 106, other language (text) 173, already shown 25, low score 31, too long 17, already answered 1, own post 21, not about games 42, link post, not a question 21, profile says no bots or promo 6, hidden from search 6, many links 3, content warning 1, earlier finds: low score 3.
 
 ## Posts
-1. @SorosFootSoldier@hexbear.net (SorosFootSoldier [he/him, they/them]) · 4h · likes 0 · replies 0 · question · broadPlaying
+1. @flwwhtrbt@mastodon.social (dash) · 4h · likes 22 · replies 1 · deck
+   https://mastodon.social/@flwwhtrbt/117486554097341183
+   I've noticed that my home feed is looking bare here, so I think it is time for a re #introduction of sorts (even though I've been here forever) I'm a gaming journalist who covers handheld gaming mostly. So if you're interested in: #gaming #emulation #RetroGaming #Linux #OpenSourc
+2. @Dariusmiles2123@sh.itjust.works (Dariusmiles2123) · 5h · likes 0 · replies 6 · question · broadPlaying
+   https://mastodon.social/@Dariusmiles2123@sh.itjust.works/117486234713826118
+   original: https://sh.itjust.works/post/68762030
+   Should I update my PS5 to enjoy a game or should I keep it on the same firmware in the hope of transforming it into a Steam Machine? https://sh.itjust.works/post/68762030
+   [link card: Should I update my PS5 to enjoy a game or should I keep it on the same firmware in the hope of tran…]
+3. @SorosFootSoldier@hexbear.net (SorosFootSoldier [he/him, they/them]) · 10h · likes 0 · replies 0 · question · broadPlaying
    https://mastodon.social/@SorosFootSoldier@hexbear.net/117485072759691510
    original: https://hexbear.net/post/9852713
    gog-games is down, is appnetica trustworthy? https://hexbear.net/post/9852713
-2. @troispieces@mastodon.social · 5h · likes 0 · replies 0 · question · broadPlaying
+4. @troispieces@mastodon.social · 11h · likes 0 · replies 0 · question · broadPlaying
    https://mastodon.social/@troispieces/117484832083398845
    What if the Mad Angels hate Mark only because he makes his teammates get up extra early and come in outside of working hours to take part in unpaid team-building events ? #retrogaming #shenmue #gaming #videogames #dreamcast
    [image: Mark from Shenmue.]
-3. @nomxd@mastodon.social (Nom__XD, 飲ん,诺穆 (They/Them)🐈‍⬛) · 6h · likes 0 · replies 1 · question · broadPlaying
+5. @nomxd@mastodon.social (Nom__XD, 飲ん,诺穆 (They/Them)🐈‍⬛) · 12h · likes 0 · replies 1 · question · broadPlaying
    https://mastodon.social/@nomxd/117484738064393006
    I love the new Halloween decor, but I will skip this event. I have 3 epics to fully rank besides Scarecrow. They will help me against the hateful crab, and other bosses. 🐾🏳️‍🌈😽 #raidshadowlegends #gamer #gaming (and I got a headache today, so no stream)
    [image: rsl Halloween decor]
-4. @pitcrewgg@mastodon.social (PitCrew) · 1h · likes 1 · replies 1 · practical
+6. @mentalmars@mastodon.social (MentalMars) · 2h · likes 0 · replies 0 · question · broadPlaying
+   https://mastodon.social/@mentalmars/117487046702636315
+   This Week’s #Borderlands4 Wild Card 🎯Mission: Old Lads 😱Modifiers: Vampiric, Armored, Strong 🔫Loot: Golden God Ripper Shotgun What do you think about this week’s loot reward: Keep, Buff, or Delete? #Borderlands #Gaming
+   [image, no description]
+7. @lashman@mastodon.social (lashman) · 3h · likes 1 · replies 0 · broadPlaying
+   https://mastodon.social/@lashman/117486850577533005
+   Developer: Future Tech Lab Co., Ltd., Bandai Namco Entertainment Publisher: Bandai Namco Entertainment Inc. Release date: 22 Oct, 2026 Screenshots: #steam #gaming #videoGames #steamStorePage
+   [4 images: Screenshot 1 from ACE COMBAT ZERO: THE BELKAN WAR / Screenshot 2 from ACE COMBAT ZERO: THE BELKAN WAR / Screenshot 3 from ACE COMBAT ZERO: THE BELKAN WAR / Screenshot 4 from ACE COMBAT ZERO: THE BELKAN WAR]
+8. @RxBrad@mastodon.rxbrad.com (RxBrad's Spooky Ghost 👻) · 5h · likes 1 · replies 0 · broadPlaying
+   https://mastodon.social/@RxBrad@mastodon.rxbrad.com/117486254604984979
+   original: https://mastodon.rxbrad.com/@RxBrad/117486254209648355
+   Dammit, the leaked Mass Effect trailer looked good... You know that was going to drop in a couple weeks on November 7th... #videogames #MassEffect
+9. @pitcrewgg@mastodon.social (PitCrew) · 8h · likes 1 · replies 1 · practical
    https://mastodon.social/@pitcrewgg/117485706011951201
    🔄 Euro Truck Simulator 2 - Edinburgh UK Rework Edinburgh rework for Euro Truck Simulator 2 highlights historic Old Town, castle and Arthur's Seat plus Leith port and UK Rework updates. 1/2 #BestCommunityEver #ETS2 #EuroTruckSimulator #Linux #LinuxGaming #PCGaming #FreeTrack #Hea
    [image, no description]
-5. @geektown@mastodonapp.uk (Geektown) · 3h · likes 0 · replies 0 · question · broadPlaying
-   https://mastodon.social/@geektown@mastodonapp.uk/117485359445849089
-   original: https://mastodonapp.uk/@geektown/117485359414030878
-   EA Closes BioWare, But Had The Studio Behind Mass Effect And Dragon Age Already Disappeared? There are certain names in gaming that mean something beyond the logo on the box. For RPG fans, BioWare was one of them. From Baldur's Gate and Star Wars: Knights of the Old Republic to M
-6. @lashman@mastodon.social (lashman) · 3h · likes 2 · replies 0 · broadPlaying
-   https://mastodon.social/@lashman/117485252786217671
-   Developer: Zen Studios Publisher: Zen Studios Release date: Oct 22, 2026 Screenshots: #steam #gaming #videoGames #steamStorePage
-   [4 images: Screenshot 1 from Pinball FX VR - Williams Pinball: Judge Dredd / Screenshot 2 from Pinball FX VR - Williams Pinball: Judge Dredd / Screenshot 3 from Pinball FX VR - Williams Pinball: Judge Dredd / Screenshot 4 from Pinball FX VR - Williams Pinball: Judge Dredd]
-7. @ChristianKrebel@ohai.social (Christian Krebel ⁂) · 5h · likes 0 · replies 0 · deck
-   https://mastodon.social/@ChristianKrebel@ohai.social/117484816094332671
-   original: https://ohai.social/@ChristianKrebel/117484816056085569
-   I'm saying it: I like my #Switch2 😄 Now that I have both, it and the original LCD #SteamDeck, I want a mix of both for the Steam Deck 2 🤔
-8. @cyhwuhx@mastodon.nl (Vincent Leeuw) · 1h · likes 0 · replies 0 · broadPlaying
-   https://mastodon.social/@cyhwuhx@mastodon.nl/117485766909916986
-   original: https://mastodon.nl/@cyhwuhx/117485766840349901
-   Finally, some good fucking Fantasy. #videogames
-   [image: Final Fantasy Resonance title screen.]
-9. @paparatti@phire.place (🕷️🕸️👻🎃 natalieek! 🎃👻🕸️🕷️) · 1h · likes 0 · replies 0 · broadPlaying
-   https://mastodon.social/@paparatti@phire.place/117485760403816229
-   original: https://phire.place/@paparatti/117485760243309524
-   I will definitely be resubscribing in a week or two and rolling a Tauren Warrior/Troll Shadow Priest duo again, but I will NOT be playing four hours in a row. It was a great reset for my brain, but also felt kind of taxing! And the game doesn't actually ask a player to do that! #
-10. @badnetmask@hachyderm.io (Mauricio Teixeira 👨‍💻☁️🐧) · 2h · likes 0 · replies 0 · broadPlaying
-   https://mastodon.social/@badnetmask@hachyderm.io/117485630370343915
-   original: https://hachyderm.io/@badnetmask/117485630231007544
-   The "Unknown" area in the Control Resonant game requires an absurd amount of gravity shifting. It's still a great game, I'm not gonna give up on it, but this area is a little bit headache inducing. 😵‍💫 #Gaming #ControlResonant #RemedyEntertainment
-11. @9th_Sage@indieverse.social (9th 💜 Sage) · 2h · likes 0 · replies 0 · broadPlaying
-   https://mastodon.social/@9th_Sage@indieverse.social/117485590423952329
-   original: https://indieverse.social/@9th_Sage/117485590393351743
-   I'm gonna try CONTROL Resonant on my ROG Ally. I feel like this isn't going to go well haha but no harm in trying. :blobcatgooglyholdingitsheadinitshands: This is a heavy game even on my PC which has leagues better hardware. #gaming #linux #CONTROL #CONTROLresonant
-12. @hush404@mstdn.ca (hush404) · 9h · likes 3 · replies 1 · broadPlaying
-   https://mastodon.social/@hush404@mstdn.ca/117484025381679128
-   original: https://mstdn.ca/@hush404/117484025292321979
-   Very sad, but not terribly surprised that EA has shut down #bioware. EA has been a mess for a while... Their recent buyout, I expect, is just further running it into the ground. That's fine. I've not cared much for EA of recent mind, but bioware is an ol fave. Mass Effect was and
+10. @suburbantimewaster@mastodon.world (Suburban Timewaster) · 10m · likes 0 · replies 0 · genres
+   https://mastodon.social/@suburbantimewaster@mastodon.world/117487447848132314
+   original: https://mastodon.world/@suburbantimewaster/117487447443781622
+   It’s a dark day on Fanfic Island as two psychopaths unite. That’s right, Light and Ramsay are officially friends. #tomodachilife #deathnote #gameofthrones #videogames #gaming #cozygames #short #clip
+   [video, no description]
+11. @scottymarinara@jorts.horse (scotty marinara) · 1h · likes 0 · replies 0 · broadPlaying
+   https://mastodon.social/@scottymarinara@jorts.horse/117487181087081422
+   original: https://jorts.horse/@scottymarinara/117487181007160623
+   among other things, i wish my #covid #stroke didnt mush the part of my brain that let me enjoy pc #gaming. theres an awesome very very in depth strategic wargame, i used to love. i miss it greatly but it does nothing for me currently. :((((
+12. @Oregon_Pacifist@retro-gaiden.com (Oregon Pacifist) · 3h · likes 2 · replies 3 · broadPlaying
+   https://mastodon.social/@Oregon_Pacifist@retro-gaiden.com/117486772798161283
+   original: https://retro-gaiden.com/@Oregon_Pacifist/117486772031816608
+   Warhammer 40,000: Space Marines II is on sale right now on Steam for $15 (normally $60) so I pulled the trigger on it (pun intended). This is the first Warhammer game I’ve ever played and my initial impressions are: Holy moly this game is awesome! And unlike Gears of War: E-Day, 
    [image, no description]
-
-## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @Memes4u@defcon.social (Memes4u) · 24h · likes 1 · replies 0 · broadPlaying
-   https://mastodon.social/@Memes4u@defcon.social/117480321396995679
-   original: https://defcon.social/@Memes4u/117480320925126958
-   The #Playstation #dilemma... #meme #piracy #game #gamer #gaming #rockstar #gta #ai #reverseEngeneering #Software #pc #piracy #entertainment #future #pirateparty #filesharing #economy #fans #nerd #humor #just4fun
-   [video: The Playstation dilemma...]
