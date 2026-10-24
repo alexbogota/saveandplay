@@ -1,0 +1,23 @@
+{
+  "madeAt": "2026-10-24T17:30:00.542Z",
+  "run": "40116379428",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices-kinguin|2026-10-24|/deals/kinguin/ultrakill/",
+      "account": "prices-kinguin",
+      "handle": "saveandplay.com",
+      "n": 3,
+      "link": "https://saveandplay.com/deals/kinguin/ultrakill/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-24",
+      "text": "ULTRAKILL: $8.04 at Kinguin, 73% below the current Steam price ($29.99).\nMarketplace key from an independent seller, so check the seller and region. Price checked Oct 23.\n\nhttps://saveandplay.com/deals/kinguin/ultrakill/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-24\n\n#PCGaming #GameDeals #Ultrakill #VideoGames\nAd",
+      "approvedFile": "posts-approved-20261024-124641.json",
+      "approvedAt": "2026-10-24T12:46:41.443Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-24T17:30:03.648Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3myn7tauypa2p",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3myn7tauypa2p",
+      "picture": true
+    }
+  ]
+}
