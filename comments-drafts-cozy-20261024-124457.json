@@ -1,0 +1,39 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261024-124457",
+  "madeAt": "2026-10-24T12:45:43.471Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:ytyfa7uz3yvqw4i5wso4cpgg/app.bsky.feed.post/3mykw6pfsds2p",
+      "url": "https://bsky.app/profile/social-strategist.bsky.social/post/3mykw6pfsds2p",
+      "author": "social-strategist.bsky.social",
+      "context": "Should I start a new Stardew save that's a speed run of marrying everyone possible?",
+      "text": "A themed save is a nice way to make Stardew feel fresh again. Keep a little list of everyone's favorite gifts nearby, you'll want it.",
+      "group": "stardew",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:lmvlnpzuxnncew2vnp5k3gld/app.bsky.feed.post/3mykvtjguq22r",
+      "url": "https://bsky.app/profile/realitycece.bsky.social/post/3mykvtjguq22r",
+      "author": "realitycece.bsky.social",
+      "context": "I need a name for my first chicken of this save (stardew)",
+      "text": "Congrats on the new coop. Something small and homey like Biscuit or Dumpling would suit a first chicken.",
+      "group": "stardew",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:4s37iazuhyuc5wjvtu4fq3ko/app.bsky.feed.post/3mylddevmns2i",
+      "url": "https://bsky.app/profile/oceanlani.bsky.social/post/3mylddevmns2i",
+      "author": "oceanlani.bsky.social",
+      "context": "I haven't been on here much at all since the last storm. Got into reading a new book that I'm still not sure how I feel about, playing my stardew valley, doing a lot at work (when am I not?) to wrap up the FY, and paying attention in the public sphere (submitted public comments re: solar). TIREDT.",
+      "text": "Stardew sounds like a good calm corner after a busy stretch. Hope the year-end wrap-up goes smoothly.",
+      "group": "stardew",
+      "heated": false
+    }
+  ]
+}

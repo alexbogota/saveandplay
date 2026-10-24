@@ -1,0 +1,29 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "stamp": "20261024-124457",
+  "madeAt": "2026-10-24T12:45:43.377Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:lokqwhdc3dihfjxf5fiif33w/app.bsky.feed.post/3mym2r6en5s24",
+      "url": "https://bsky.app/profile/alycore.bsky.social/post/3mym2r6en5s24",
+      "author": "alycore.bsky.social",
+      "context": "You ever feel like some multiplatform games just feel like they belong on one platform, above all the others? Examples for me would be Baldur’s Gate 3 feels like a PC game Cyberpunk 2077 feels like a Xbox game Dark Souls feels like a PlayStation game FF Resonance feels like a Nintendo game",
+      "text": "Baldur's Gate 3 on PC does feel right, mostly because mouse and keyboard make juggling a whole party so smooth. Total War games give me the same feeling.",
+      "group": "backlog",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:sazx45qtutagkppium6rmg7t/app.bsky.feed.post/3mylzcx3abs2x",
+      "url": "https://bsky.app/profile/natapfel.bsky.social/post/3mylzcx3abs2x",
+      "author": "natapfel.bsky.social",
+      "context": "BioWare games were the first I came across that had queer representation. May have been the only ones back then that did? Ive loved games since I was a toddler, but I think playing these games was the first time I ever saw myself in them. It made me feel like I could belong and add to this industry.",
+      "text": "Glad those games were there for you. Seeing yourself in a story can make a game feel like home.",
+      "group": "backlog",
+      "heated": false
+    }
+  ]
+}

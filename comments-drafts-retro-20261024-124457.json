@@ -1,0 +1,49 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261024-124457",
+  "madeAt": "2026-10-24T12:45:43.559Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:cipv3arp27zug6ugyk7fv76o/app.bsky.feed.post/3myllvesufs2e",
+      "url": "https://bsky.app/profile/pogue.omg.lol/post/3myllvesufs2e",
+      "author": "pogue.omg.lol",
+      "context": "i remember i showed everyone on my 8th grade computer class how to play gorillas.bas in MS-DOS www.kongregate.com/en/games/mol...\nlink card: Gorillas.bas on Kongregate – Play Now",
+      "text": "Gorillas was a great one to show off. Tuning the angle and speed against the wind was oddly addictive.",
+      "group": "classicPC",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:hibx2u4ltsnhovoqvwfygtoi/app.bsky.feed.post/3myjnest2ms26",
+      "url": "https://bsky.app/profile/wincenworks.bsky.social/post/3myjnest2ms26",
+      "author": "wincenworks.bsky.social",
+      "context": "If you haven't already, check out The Last Exterminator - it feels like how you want to remember Duke Nukem 3D (without the misogyny cringe). store.steampowered.com/app/811760/T...\nlink card: The Last Exterminator on Steam",
+      "text": "Nice rec. Duke Nukem 3D's twisty levels packed with secrets are a hard feeling to recapture, so I'm curious how it does.",
+      "group": "askRetro",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:pxudyclykdahi5rcf3eqb6nv/app.bsky.feed.post/3myltvquatk26",
+      "url": "https://bsky.app/profile/talkingmoviebubble.bsky.social/post/3myltvquatk26",
+      "author": "talkingmoviebubble.bsky.social",
+      "context": "My first ever video game is this Blue’s Clues pc game\nlink card: Blues Clues: Blues Treasure Hunt Game; quotes @sophianyx.bsky.social: Name the first videogame you played.",
+      "text": "What a sweet first game. A lot of us started out on a family PC like that.",
+      "group": "childhood",
+      "heated": false
+    },
+    {
+      "n": 4,
+      "uri": "at://did:plc:ju44ggeweof6y6scp3lmbwh3/app.bsky.feed.post/3mylxx7aois2c",
+      "url": "https://bsky.app/profile/clproper.bsky.social/post/3mylxx7aois2c",
+      "author": "clproper.bsky.social",
+      "context": "Quote post with a video game that takes you back to your childhood. My favourite Zelda game and a 6th Grade Completion gift from my Parents back in the year 2000.\nlink card: Young Link Gets Boss Key in Majora's Mask; quotes @rockawaycarter.bsky.social: Quote post with a video game that takes you back to your childhood. One of the GOATS of the Beat Em Up genre",
+      "text": "Majora's Mask is such a memorable pick, and what a great gift for finishing 6th grade.",
+      "group": "childhood",
+      "heated": false
+    }
+  ]
+}
