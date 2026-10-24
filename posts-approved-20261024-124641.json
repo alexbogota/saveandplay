@@ -1,0 +1,49 @@
+{
+  "approvedAt": "2026-10-24T12:46:41.443Z",
+  "items": [
+    {
+      "n": 1,
+      "kind": "deal",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "text": "Hitman: Absolution: -90% at GOG\n$1.99 (was $19.99)\nPrice checked Oct 24. Sale ends Oct 29.\n\nhttps://saveandplay.com/deals/gog/hitman-absolution/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-24\n\n#PCGaming #GameDeals #PCGames #GOG #Gaming\nAd",
+      "link": "https://saveandplay.com/deals/gog/hitman-absolution/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-24",
+      "day": "2026-10-24",
+      "key": "prices|2026-10-24|/deals/gog/hitman-absolution/",
+      "notBefore": "2026-10-24T12:46:41.443Z"
+    },
+    {
+      "n": 2,
+      "kind": "deal",
+      "account": "prices-2",
+      "handle": "saveandplay.com",
+      "text": "Mad Max: -85% at GOG\n$2.99 (was $19.99)\nPrice checked Oct 24. Sale ends Oct 26.\n\nhttps://saveandplay.com/deals/gog/mad-max/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-24\n\n#PCGaming #GameDeals #MadMax #Games #DRMFree\nAd",
+      "link": "https://saveandplay.com/deals/gog/mad-max/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-24",
+      "day": "2026-10-24",
+      "key": "prices-2|2026-10-24|/deals/gog/mad-max/",
+      "notBefore": "2026-10-24T14:46:41.443Z"
+    },
+    {
+      "n": 3,
+      "kind": "deal",
+      "account": "prices-kinguin",
+      "handle": "saveandplay.com",
+      "text": "ULTRAKILL: $8.04 at Kinguin, 73% below the current Steam price ($29.99).\nMarketplace key from an independent seller, so check the seller and region. Price checked Oct 23.\n\nhttps://saveandplay.com/deals/kinguin/ultrakill/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-24\n\n#PCGaming #GameDeals #Ultrakill #VideoGames\nAd",
+      "link": "https://saveandplay.com/deals/kinguin/ultrakill/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-24",
+      "day": "2026-10-24",
+      "key": "prices-kinguin|2026-10-24|/deals/kinguin/ultrakill/",
+      "notBefore": "2026-10-24T16:46:41.443Z"
+    },
+    {
+      "n": 4,
+      "kind": "deal",
+      "account": "cozy",
+      "handle": "cozygame.bsky.social",
+      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Oct 24. Sale ends Oct 28. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=deals-2026-10-24\n\n#GameDeals #PCGaming #CityBuilder #GOG\nAd",
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=deals-2026-10-24",
+      "day": "2026-10-24",
+      "key": "cozy|2026-10-24|/deals/gog/simcity-4-deluxe-edition/",
+      "notBefore": "2026-10-24T12:46:41.443Z"
+    }
+  ]
+}
