@@ -8,103 +8,47 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 128,
-      "posts": 5360,
-      "fit": 68,
+      "runs": 136,
+      "posts": 5680,
+      "fit": 69,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-24T06:45:41.932Z"
+        "at": "2026-10-24T12:45:01.653Z"
       }
     },
     "moreAsk": {
-      "runs": 80,
-      "posts": 720,
+      "runs": 85,
+      "posts": 765,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-10-24T06:45:41.932Z"
+        "at": "2026-10-24T12:45:01.653Z"
       }
     },
     "moreRetro": {
-      "runs": 80,
-      "posts": 5160,
-      "fit": 182,
+      "runs": 85,
+      "posts": 5480,
+      "fit": 198,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-24T06:45:41.932Z"
+        "at": "2026-10-24T12:45:01.653Z"
       }
     },
     "morePlaying": {
-      "runs": 80,
-      "posts": 336,
+      "runs": 85,
+      "posts": 357,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-10-24T06:45:41.932Z"
+        "at": "2026-10-24T12:45:01.653Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@Capheind@tilde.zone/117487546493840042": {
-      "uri": "https://mastodon.social/@Capheind@tilde.zone/117487546493840042",
-      "url": "https://mastodon.social/@Capheind@tilde.zone/117487546493840042",
-      "handle": "Capheind@tilde.zone",
-      "name": "Capheind",
-      "text": "Is there a Field #Hockey #videogame? Like the NHL 94 of #FieldHockey?",
-      "createdAt": "2026-10-23T01:08:05.000Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "moreGaming",
-      "query": "videogame",
-      "score": 7,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://tilde.zone/@Capheind/117487546250299435",
-      "media": null,
-      "firstSeen": "2026-10-23T06:48:37.657Z"
-    },
-    "https://mastodon.social/@BossRushNetwork/117487520993557701": {
-      "uri": "https://mastodon.social/@BossRushNetwork/117487520993557701",
-      "url": "https://mastodon.social/@BossRushNetwork/117487520993557701",
-      "handle": "BossRushNetwork@mastodon.social",
-      "name": "The Boss Rush Network",
-      "text": "Sometimes, focusing on one game makes the experience even better! Andre Wilson shares how he spent four and a half months playing Final Fantasy VII Rebirth and almost nothing else. By giving the game his full attention, he explored every area, completed side quests, and connected more deeply with its characters. #NintendoPowBlock #FinalFantasyVIIRebirth #FinalFantasy #GamingCommunity #GamingShorts",
-      "createdAt": "2026-10-23T01:01:40.318Z",
-      "likes": 0,
-      "replies": 1,
-      "group": "moreGaming",
-      "query": "gamingcommunity",
-      "score": 4,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "video, no description",
-      "firstSeen": "2026-10-23T06:48:37.657Z"
-    },
-    "https://mastodon.social/@thinkyhead@fosstodon.org/117488307622793671": {
-      "uri": "https://mastodon.social/@thinkyhead@fosstodon.org/117488307622793671",
-      "url": "https://mastodon.social/@thinkyhead@fosstodon.org/117488307622793671",
-      "handle": "thinkyhead@fosstodon.org",
-      "name": "Scott Lahteine",
-      "text": "Using #HermesAgent with Ghidra and Capstone made short work of recovering the code and assets for the two #Amiga games I wrote in 1990-1991, \"Dino Wars\" and \"Bill & Ted's Excellent Adventure.\" Already fixed all known bugs and will remaster and port as time allows! #retrogames",
-      "createdAt": "2026-10-23T04:21:41.000Z",
-      "likes": 1,
-      "replies": 1,
-      "group": "moreRetro",
-      "query": "retrogames",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://fosstodon.org/@thinkyhead/117488307519808013",
-      "media": "image: Some assets from Dino Wars and Bill & Ted",
-      "firstSeen": "2026-10-23T06:48:37.657Z"
-    },
     "https://mastodon.social/@serigala_tropis@lgbtqia.space/117489618237473610": {
       "uri": "https://mastodon.social/@serigala_tropis@lgbtqia.space/117489618237473610",
       "url": "https://mastodon.social/@serigala_tropis@lgbtqia.space/117489618237473610",
@@ -242,7 +186,7 @@
       "text": "@flwwhtrbt I keep thinking I must find a way to get these running on my Linux workhorse #RetroGaming #Infocom #MagneticScrolls",
       "createdAt": "2026-10-23T14:47:08.000Z",
       "likes": 1,
-      "replies": 0,
+      "replies": 1,
       "group": "moreRetro",
       "query": "retrogaming",
       "score": 3,
@@ -335,8 +279,8 @@
       "name": "Thalia Archibald",
       "text": "What are some games that never redraw the screen—only draw additively—and can be represented as text or ASCII art? This is the class of games that can be played on a teletype, besides the obvious text adventures. With reverse line feed like the Teletype Model 37, a game board can be filled in, play by play. * Minesweeper * Picross * Sudoku * Voltorb Flip * crossword * regular expression crossword * virus war / Paper Tactics * tic-tac-toe * hangman #retrocomputing #retrogaming #teletype",
       "createdAt": "2026-10-24T00:08:39.000Z",
-      "likes": 19,
-      "replies": 9,
+      "likes": 21,
+      "replies": 10,
       "group": "moreRetro",
       "query": "retrogaming",
       "score": 7,
@@ -437,6 +381,24 @@
       "isReply": false,
       "media": "image, no description",
       "firstSeen": "2026-10-24T00:56:20.395Z"
+    },
+    "https://mastodon.social/@stunningshemp/117495769166161442": {
+      "uri": "https://mastodon.social/@stunningshemp/117495769166161442",
+      "url": "https://mastodon.social/@stunningshemp/117495769166161442",
+      "handle": "stunningshemp@mastodon.social",
+      "name": "Chris Coats",
+      "text": "You said it Odin, not me #retrogaming #phantasystar #rpg #stunningshemp #twitch",
+      "createdAt": "2026-10-24T11:59:17.450Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 3,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "video, no description",
+      "firstSeen": "2026-10-24T12:45:01.653Z"
     }
   }
 }
