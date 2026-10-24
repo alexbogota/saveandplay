@@ -1,0 +1,27 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-retro-20261024-020041.json",
+  "approvedAt": "2026-10-24T02:02:28.531Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:jj3u5hfyn24ryfdvtlvb3d7p/app.bsky.feed.post/3myl7uegytk2z",
+      "url": "https://bsky.app/profile/msvugraduate.bsky.social/post/3myl7uegytk2z",
+      "author": "msvugraduate.bsky.social",
+      "context": "First video game. Pong. Does that even count?",
+      "text": "It counts for sure. Pong was a first for a lot of people, and it still shows how far simple rules can go.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:kj4ebminsvdykmdxpxoh432l/app.bsky.feed.post/3myl7ogagdc2l",
+      "url": "https://bsky.app/profile/nessachan.bsky.social/post/3myl7ogagdc2l",
+      "author": "nessachan.bsky.social",
+      "context": "I can't remember the first video game I played because I have been playing them my whole conscious life. We had a huge arcade in town called Space Port and also an Aladdin's Castle. I had to stand on a milk crate. I remember Frogger, Ms. Pac-Man and Q-Bert.",
+      "text": "The milk crate detail is perfect. Frogger, Ms. Pac-Man and Q*bert is a great arcade trio to grow up on.",
+      "edited": false
+    }
+  ]
+}

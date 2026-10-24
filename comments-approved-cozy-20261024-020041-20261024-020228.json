@@ -1,0 +1,45 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-cozy-20261024-020041.json",
+  "approvedAt": "2026-10-24T02:02:28.429Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:3hoc32t4aetrjwsm3akmnwun/app.bsky.feed.post/3myl2ctb7k22l",
+      "url": "https://bsky.app/profile/sizeablecat.bsky.social/post/3myl2ctb7k22l",
+      "author": "sizeablecat.bsky.social",
+      "context": "It's good to see games like this have a deeper impact. Cuety/relaxing games like this can hit so far outside of the 'normal' gaming community.\nquotes @alexgorlando.bsky.social: Not the top Steam review of Dressmaker making me cry this morning!",
+      "text": "Agreed, gentle games often reach people who don't usually play anything. The quiet ones tend to stick with you.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:f6a7qqj5ozreodnhbubgp3xh/app.bsky.feed.post/3mykvmttq4k2u",
+      "url": "https://bsky.app/profile/1001cranes.bsky.social/post/3mykvmttq4k2u",
+      "author": "1001cranes.bsky.social",
+      "context": "i love a cozy, simple, linear, un-failable little ~3 hour nugget of a game. i will play this next to a (fake) fireplace with some cocoa, and I am genuinely looking forward to that.",
+      "text": "A short, can't-fail game by a (fake) fireplace with cocoa sounds like the perfect evening. Hope it's as good as you're expecting.",
+      "edited": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:s3altkz35grfxoziyrorfepf/app.bsky.feed.post/3myknehr43s25",
+      "url": "https://bsky.app/profile/nihilnihilnihil.bsky.social/post/3myknehr43s25",
+      "author": "nihilnihilnihil.bsky.social",
+      "context": "Mysteries Under Lake Ophelia and Creature Kitchen are both examples of games that are both incredibly relaxing but have a slight horror edge. Anyone know of any others?",
+      "text": "Dredge is the one that comes to mind: calm fishing by day, a little uneasy once night falls.",
+      "edited": false
+    },
+    {
+      "n": 4,
+      "uri": "at://did:plc:irnjzfcayuzrmo3effrw4afg/app.bsky.feed.post/3mykmb3fuqs2a",
+      "url": "https://bsky.app/profile/m-vixn.bsky.social/post/3mykmb3fuqs2a",
+      "author": "m-vixn.bsky.social",
+      "context": "dude I need more cozy horror/cozy creepy games like Dredge and Creature Kitchen 😭",
+      "text": "Strange Horticulture has a spooky occult mood but it's a calm plant-shop puzzle game, and Cozy Grove is gentle and a bit eerie too. Neither is really scary.",
+      "edited": false
+    }
+  ]
+}

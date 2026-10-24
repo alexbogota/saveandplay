@@ -1,0 +1,63 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-prices-20261024-020041.json",
+  "approvedAt": "2026-10-24T02:02:28.323Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:s7zqy442ggopg7qjsvo6waxy/app.bsky.feed.post/3myl6k4e6ky2c",
+      "url": "https://bsky.app/profile/midtown-solutions.bsky.social/post/3myl6k4e6ky2c",
+      "author": "midtown-solutions.bsky.social",
+      "context": "What's your go-to fix when a game starts stuttering? #PCGaming #Gaming",
+      "text": "Driver update first, then cap the frame rate a few fps below your monitor's refresh rate. That alone smooths out a lot of stutter.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:tshft4xl6fnzxpb633tnpe7n/app.bsky.feed.post/3myl5kslp5226",
+      "url": "https://bsky.app/profile/miaretroready.bsky.social/post/3myl5kslp5226",
+      "author": "miaretroready.bsky.social",
+      "context": "Remember when PC magazines used to give out whole ass games? #nostalgia #pcgaming #nostalgiacore\nvideo, no description",
+      "text": "Cover discs were such a good way to find games. A lot of those older classics ended up on GOG, DRM-free.",
+      "edited": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:zzt6wwjyap24oy4zgt3plzlm/app.bsky.feed.post/3myijyx4xqc2l",
+      "url": "https://bsky.app/profile/baritengineer.bsky.social/post/3myijyx4xqc2l",
+      "author": "baritengineer.bsky.social",
+      "context": "It's great, but it is a story based game, it can wait for a sale/payday. Demo awaits if you need to be sold on it further.",
+      "text": "Story games hold up well on a sale, the plot isn't going anywhere. A demo is a nice way to check it clicks first.",
+      "edited": false
+    },
+    {
+      "n": 4,
+      "uri": "at://did:plc:nuxhq6qk65ez4ae3k4ofer55/app.bsky.feed.post/3mylbo2zbj22k",
+      "url": "https://bsky.app/profile/jaconian.bsky.social/post/3mylbo2zbj22k",
+      "author": "jaconian.bsky.social",
+      "context": "What am I playing this weekend? which system? Steam Deck: Still Wakes the Deep Switch 1: Final Fantasy III Pixel Remaster Switch 2: Fire Emblem: Fortune's Weave Laptop (subpar) Ace Combat 8\nquotes @minnmax.com: What are you playing this weekend? Here's the Discord's Top 10! 1. Castlevania: Belmont'S Curse 2. Control Resonant 3. Star Wars: Galactic …",
+      "text": "Nice mix. Still Wakes the Deep is a tense one, hope it makes the weekend a good one.",
+      "edited": false
+    },
+    {
+      "n": 5,
+      "uri": "at://did:plc:lvndftzsde72dt6gkxocwvpe/app.bsky.feed.post/3myky3vq7k22h",
+      "url": "https://bsky.app/profile/cassmoney.bsky.social/post/3myky3vq7k22h",
+      "author": "cassmoney.bsky.social",
+      "context": "Has anyone played Dressmaker on Steam Deck? How is it, controls wise?",
+      "text": "Haven't tried it myself, but the Steam page shows its Deck status, and searching the reviews for \"Deck\" usually turns up comments on the controls.",
+      "edited": false
+    },
+    {
+      "n": 6,
+      "uri": "at://did:plc:5onl2gtsuk4a7cta4nzrgikn/app.bsky.feed.post/3mykrvtmabs2x",
+      "url": "https://bsky.app/profile/vaneshi.bsky.social/post/3mykrvtmabs2x",
+      "author": "vaneshi.bsky.social",
+      "context": "Yeah but I want them to *know* they've been shot their. Wonder if GoG has the Sniper Elite games on sale?",
+      "text": "Easiest check is to search the game on GOG's store, the price and any discount show right on its page. If it's not on sale yet, wishlist it.",
+      "edited": false
+    }
+  ]
+}
