@@ -1,8 +1,252 @@
 {
   "account": "Honest prices (Kinguin keys)",
-  "generatedAt": "2026-10-23T11:25:46.509Z",
-  "offDay": true,
-  "nextPostDay": "2026-10-24",
-  "candidates": [],
-  "posts": {}
+  "generatedAt": "2026-10-24T11:19:52.571Z",
+  "builtBy": "commit 1da5641, schedule, run #25 attempt 1",
+  "pricesCheckedAt": "2026-10-24T09:58:08.034Z",
+  "warnings": [],
+  "candidates": [
+    {
+      "id": "kinguin-ultrakill",
+      "kind": "deal",
+      "title": "ULTRAKILL",
+      "store": "Kinguin",
+      "price": 8.04,
+      "was": 29.99,
+      "discount": 73,
+      "endsAt": null,
+      "endsInHours": null,
+      "priceCheckedAt": "2026-10-23T09:11:17.303Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1229490/header.jpg?t=1783942574",
+      "drminfo": null,
+      "coverAlt": "Cover art for ULTRAKILL",
+      "facts": {
+        "year": 2020,
+        "genres": [
+          "Action",
+          "Indie",
+          "Early Access"
+        ],
+        "tags": []
+      },
+      "marketplace": true,
+      "compareTo": "Steam",
+      "score": 7.3,
+      "discountRank": 5,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 11,
+        "lowest": false,
+        "since": "2026-10-14"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/kinguin/ultrakill/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-24",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 5 of 15"
+      ]
+    },
+    {
+      "id": "kinguin-doom-eternal",
+      "kind": "deal",
+      "title": "DOOM Eternal",
+      "store": "Kinguin",
+      "price": 9.09,
+      "was": 29.99,
+      "discount": 70,
+      "endsAt": null,
+      "endsInHours": null,
+      "priceCheckedAt": "2026-10-23T09:11:52.751Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/782330/feaf8293bcd2d078422faa547bc0d707c08f606e/header.jpg?t=1783432602",
+      "drminfo": null,
+      "coverAlt": "Cover art for DOOM Eternal",
+      "facts": {
+        "year": 2020,
+        "genres": [
+          "Action"
+        ],
+        "tags": []
+      },
+      "marketplace": true,
+      "compareTo": "Steam",
+      "score": 7,
+      "discountRank": 6,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 2,
+        "lowest": false,
+        "since": "2026-10-23"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/kinguin/doom-eternal/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-24",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 6 of 15"
+      ]
+    },
+    {
+      "id": "kinguin-squad",
+      "kind": "deal",
+      "title": "Squad",
+      "store": "Kinguin",
+      "price": 15.4,
+      "was": 39.99,
+      "discount": 61,
+      "endsAt": null,
+      "endsInHours": null,
+      "priceCheckedAt": "2026-10-23T09:08:51.176Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393380/0b19b50aabea356bd8f534fbe7d6db9bd227810a/header.jpg?t=1790892056",
+      "drminfo": null,
+      "coverAlt": "Cover art for Squad",
+      "facts": {
+        "year": 2020,
+        "genres": [
+          "Action",
+          "Indie",
+          "Massively Multiplayer",
+          "Strategy"
+        ],
+        "tags": []
+      },
+      "marketplace": true,
+      "compareTo": "Steam",
+      "score": 6.1,
+      "discountRank": 8,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 11,
+        "lowest": false,
+        "since": "2026-10-14"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/kinguin/squad/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-24",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 8 of 15"
+      ]
+    },
+    {
+      "id": "kinguin-mount-blade-ii-bannerlord",
+      "kind": "deal",
+      "title": "Mount & Blade II: Bannerlord",
+      "store": "Kinguin",
+      "price": 19.36,
+      "was": 49.99,
+      "discount": 61,
+      "endsAt": null,
+      "endsInHours": null,
+      "priceCheckedAt": "2026-10-23T09:07:20.467Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/261550/header.jpg?t=1764252300",
+      "drminfo": null,
+      "coverAlt": "Cover art for Mount & Blade II: Bannerlord",
+      "facts": {
+        "year": 2022,
+        "genres": [
+          "Action",
+          "Indie",
+          "RPG",
+          "Simulation",
+          "Strategy"
+        ],
+        "tags": []
+      },
+      "marketplace": true,
+      "compareTo": "Steam",
+      "score": 6.1,
+      "discountRank": 7,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 12,
+        "lowest": false,
+        "since": "2026-10-13"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/kinguin/mount-blade-ii-bannerlord/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-24",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 7 of 15"
+      ]
+    },
+    {
+      "id": "kinguin-7-days-to-die",
+      "kind": "deal",
+      "title": "7 Days to Die",
+      "store": "Kinguin",
+      "price": 17.94,
+      "was": 44.99,
+      "discount": 60,
+      "endsAt": null,
+      "endsInHours": null,
+      "priceCheckedAt": "2026-10-23T09:07:21.921Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/251570/header.jpg?t=1788209289",
+      "drminfo": null,
+      "coverAlt": "Cover art for 7 Days to Die",
+      "facts": {
+        "year": 2024,
+        "genres": [
+          "Action",
+          "Adventure",
+          "Indie",
+          "RPG",
+          "Simulation",
+          "Strategy"
+        ],
+        "tags": []
+      },
+      "marketplace": true,
+      "compareTo": "Steam",
+      "score": 6,
+      "discountRank": 9,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 13,
+        "lowest": false,
+        "since": "2026-10-12"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/kinguin/7-days-to-die/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-24",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 9 of 15"
+      ]
+    }
+  ],
+  "gogNews": [],
+  "topical": [],
+  "topics": [],
+  "left": {
+    "otherStore": 24,
+    "hidden": 0,
+    "notNiche": 0,
+    "noFacts": 0,
+    "taken": 0,
+    "smallDiscount": 0,
+    "ended": 0,
+    "endsTooSoon": 0,
+    "oldPrice": 0
+  },
+  "sources": {
+    "total": 11,
+    "failed": []
+  },
+  "posts": {
+    "bluesky": {
+      "text": "ULTRAKILL: $8.04 at Kinguin, 73% below the current Steam price ($29.99).\nMarketplace key from an independent seller, so check the seller and region. Price checked Oct 23.\n\nhttps://saveandplay.com/deals/kinguin/ultrakill/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-24\n\n#PCGaming #GameDeals #Ultrakill #VideoGames\nAd",
+      "length": 245,
+      "max": 300,
+      "link": "https://saveandplay.com/deals/kinguin/ultrakill/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-24",
+      "deal": "kinguin-ultrakill"
+    },
+    "mastodon": {
+      "text": "ULTRAKILL: $8.04 at Kinguin\n73% below the current Steam price ($29.99).\nMarketplace key from an independent seller: check the seller's rating and the region before you buy.\nPrice checked Oct 23.\n\nhttps://saveandplay.com/deals/kinguin/ultrakill/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-24\n\n#GameDeals #PCGaming #Kinguin #Gaming\nAd",
+      "length": 261,
+      "max": 500,
+      "link": "https://saveandplay.com/deals/kinguin/ultrakill/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-24",
+      "deal": "kinguin-ultrakill"
+    }
+  }
 }

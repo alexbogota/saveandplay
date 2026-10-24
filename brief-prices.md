@@ -1,5 +1,5 @@
-# Brief: Honest prices (@saveandplay.com), 2026-10-23 11:25 UTC
-Prices checked 2026-10-23 10:05 UTC (1 h ago). News: 11 of 11 sources read, 120 items from the last 48 h, 0 of 25 offered deals mentioned.
+# Brief: Honest prices (@saveandplay.com), 2026-10-24 11:19 UTC
+Prices checked 2026-10-24 09:58 UTC (1 h ago). News: 11 of 11 sources read, 124 items from the last 48 h, 1 of 24 offered deals mentioned.
 
 Write ONE post about the first item below (take another one only if it looks wrong, and say why).
 Rules:
@@ -10,71 +10,71 @@ Rules:
 - Text up to 270 characters (the link adds about 25). Say lowest price we've tracked only if the brief says so; never write lowest ever.
 - Attach the cover image and put the Alt text from the brief in the picture's alt field (if the brief says no cover, post without a picture). The link card under the post also shows the game from our page.
 
-## 1. Shadow Tactics: Blades of the Shogun: GOG $3.99 (was $39.99, -90%)
-Sale ends 2026-10-28 13:59 UTC (in 5 days). Price checked 2026-10-23 10:04 UTC. Score 11.
-Why today: lowest price we've tracked (14 days of data); deepest-discount rank 5 of 25.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-23
-Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696
-Alt text: Cover art for Shadow Tactics: Blades of the Shogun
-
-## 2. Darkest Dungeon: GOG $3.75 (was $24.99, -85%)
-Sale ends 2026-10-28 13:59 UTC (in 5 days). Price checked 2026-10-23 10:04 UTC. Score 10.5.
-Why today: lowest price we've tracked (14 days of data); deepest-discount rank 12 of 25.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-23
-Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187
-Alt text: Cover art for Darkest Dungeon
-
-## 3. Rebel Galaxy: GOG $1.99 (was $19.99, -90%)
-Sale ends 2026-10-27 07:59 UTC (in 4 days). Price checked 2026-10-23 10:04 UTC. Score 10.
-Why today: deepest-discount rank 3 of 25.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/rebel-galaxy/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-23
-Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/290300/header.jpg?t=1778077786
-Alt text: Cover art for Rebel Galaxy
-
-## 4. Hitman: Absolution: GOG $1.99 (was $19.99, -90%)
-Sale ends 2026-10-29 07:59 UTC (in 6 days). Price checked 2026-10-23 10:04 UTC. Score 10.
-Why today: deepest-discount rank 4 of 25.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/hitman-absolution/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-23
+## 1. Hitman: Absolution: GOG $1.99 (was $19.99, -90%)
+Sale ends 2026-10-29 07:59 UTC (in 5 days). Price checked 2026-10-24 09:58 UTC. Score 13.
+Why today: 1 news site wrote about the game in the last 48 h; deepest-discount rank 4 of 24.
+- gg.deals Freebies, Oct 23: "Get Hitman Absolution's Switch 2 upgrade FREE even if you don't own the game!" https://gg.deals/freebie/get-hitman-absolutions-switch-2-upgrade-free-even-if-you-dont-own-the-game/
+- gg.deals News, Oct 23: "Get Hitman Absolution's Switch 2 upgrade FREE even if you don't own the game!" https://gg.deals/freebie/get-hitman-absolutions-switch-2-upgrade-free-even-if-you-dont-own-the-game/
+Link for the post (link to our site): https://saveandplay.com/deals/gog/hitman-absolution/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-24
 Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203140/header.jpg?t=1734461136
 Alt text: Cover art for Hitman: Absolution
 
-## 5. Metro Exodus: GOG $2.99 (was $29.99, -90%)
-Sale ends 2026-10-27 07:59 UTC (in 4 days). Price checked 2026-10-23 10:04 UTC. Score 10.
-Why today: deepest-discount rank 2 of 25.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-23
-Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804
-Alt text: Cover art for Metro Exodus
+## 2. Mad Max: GOG $2.99 (was $19.99, -85%)
+Sale ends 2026-10-26 07:59 UTC (in 45 h). Price checked 2026-10-24 09:58 UTC. Score 11.5.
+Why today: sale ends in 45 h; deepest-discount rank 10 of 24.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/mad-max/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-24
+Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/234140/header.jpg?t=1780595138
+Alt text: Cover art for Mad Max
+
+## 3. Dragon's Dogma: Dark Arisen: GOG $4.79 (was $29.99, -84%)
+Sale ends 2026-10-26 07:59 UTC (in 45 h). Price checked 2026-10-24 09:58 UTC. Score 11.4.
+Why today: sale ends in 45 h; deepest-discount rank 13 of 24.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/dragon-s-dogma-dark-arisen/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-24
+Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367500/header.jpg?t=1768870344
+Alt text: Cover art for Dragon's Dogma: Dark Arisen
+
+## 4. Darkest Dungeon: GOG $3.75 (was $24.99, -85%)
+Sale ends 2026-10-28 13:59 UTC (in 4 days). Price checked 2026-10-24 09:58 UTC. Score 10.5.
+Why today: lowest price we've tracked (15 days of data); deepest-discount rank 12 of 24.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-24
+Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187
+Alt text: Cover art for Darkest Dungeon
+
+## 5. Control Ultimate Edition: GOG $5.99 (was $39.99, -85%)
+Sale ends 2026-10-27 07:59 UTC (in 3 days). Price checked 2026-10-24 09:58 UTC. Score 10.5.
+Why today: lowest price we've tracked (14 days of data); deepest-discount rank 6 of 24.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/control-ultimate-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-24
+Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/870780/ec621653454cdad232187af4eb79f23c05aceca5/header.jpg?t=1781607969
+Alt text: Cover art for Control Ultimate Edition
 
 ## GOG news without a price (use only if no deal fits; do not mention any price)
-- Coming soon: Eternity (Oct 23). Link for the post (affiliate link): https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Feternity
-- Release: Terrinoth®: Heroes of Descent (Oct 22). Link for the post (affiliate link): https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fterrinoth_heroes_of_descent
+- Release: Duskpunk (Oct 23). Link for the post (affiliate link): https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fduskpunk
 
 ## News on the topic (no deal)
-- gg.deals Freebies, Oct 22: "The FREE METRO Redux Next-Gen Update is LIVE NOW!" https://gg.deals/freebie/the-free-metro-redux-next-gen-update-is-live-now-across-pc-and-console/ | The post-apocalypse has never looked this good.
-- gg.deals News, Oct 22: "Nintendo’s Halloween Sale 2026 brings up to 96% off across the eShop (Europe)" https://gg.deals/deal/nintendos-halloween-sale-2026-brings-up-to-96-off-across-the-eshop-europe/ | Handheld horror under the covers in the dead of night? Now we&rsquo;re talking.
-- gg.deals News, Oct 22: "This week's XBOX FREE Play Days offers up 6 games, including Dying Light 2: Stay Human!" https://gg.deals/subscription-news/this-weeks-xbox-free-play-days-offers-up-6-games-including-dying-light-2-stay-human/ | With 3 of those titles available for all XBOX players to enjoy, without the need of a Game Pass subscription.
+- gg.deals Freebies, Oct 24: "New FREE games this weekend (October 24-25): your comprehensive roundup" https://gg.deals/freebie/new-free-games-this-weekend-october-24-25-your-comprehensive-roundup/ | Free to keep, yours to try, new subscription additions&hellip; and demos. Lots and lots of demos. All gathered in one place.
+- gg.deals News, Oct 23: "Humble’s Phunkier Physics Bundle gives you 10 games to build, break, and experiment with" https://gg.deals/bundle/humbles-phunkier-physics-bundle-gives-you-10-games-to-build-break-and-experiment-with/ | Check out some physics-based goodness from Humble.
+- Eurogamer, Oct 23: "With Minecraft and Diablo shows already on the way, Netflix reportedly offered Xbox $500m for a big…" https://www.eurogamer.net/netflix-500m-xbox-film-tv-rights | A deal between Netflix and Xbox has supposedly fallen through because of one minor quibble: Netflix wanted to adapt the console maker's games for $500m, not $8…
 
 ## Topics for articles (stories without a deal; headlines and links only. Write an article only if the owner asks)
-1. FREE Cyberpunk 2077 Update 2.5 is here, bringing dual-wielding, Edgerunners 2 content, and more (score 14)
-Why now: 4 sites wrote about it in the last 48 h (gg.deals, pcgamer.com, rockpapershotgun.com, eurogamer.net); matches keywords: free; newest Oct 23.
+1. Cyberpunk 2077's new dual wielding has already been modded to include shotguns and rifles, provided you're do… (score 11)
+Why now: 3 sites wrote about it in the last 48 h (gg.deals, pcgamer.com, rockpapershotgun.com); matches keywords: free; newest Oct 23.
 - Rock Paper Shotgun, Oct 23: "Cyberpunk 2077's new dual wielding has already been modded to include shotguns and rifles, provided…" https://www.rockpapershotgun.com/cyberpunk-2077s-new-dual-wielding-has-already-been-modded-to-include-shotguns-and-rifles-provided-youre-down-to-get-janky-and-wildly-overpowered
 - PC Gamer, Oct 22: "How to dual wield in Cyberpunk 2077" https://www.pcgamer.com/games/rpg/how-to-dual-wield-in-cyberpunk-2077/
 - gg.deals Freebies, Oct 22: "FREE Cyberpunk 2077 Update 2.5 is here, bringing dual-wielding, Edgerunners 2 content, and more" https://gg.deals/freebie/free-cyberpunk-2077-update-2-5-is-here/
-2. Humble 15th Anniversary Sci-Fi Exposure Bundle: 8 Steam Games Including Marathon, RoboCop, and Crysis for $25 (score 10)
-Why now: 2 sites wrote about it in the last 48 h (gg.deals, indiegamebundles.com); matches keywords: bundle, humble; newest Oct 21.
-- Indie Game Bundles, Oct 21: "Humble 15th Anniversary Sci-Fi Exposure Bundle: 8 Steam Games Including Marathon, RoboCop, and Crys…" https://www.indiegamebundles.com/humble-15th-anniversary-sci-fi-exposure-bundle/
-- gg.deals News, Oct 21: "Humble's Sci-Fi Exposure Bundle gets you Marathon + 7 more games!" https://gg.deals/bundle/humbles-sci-fi-exposure-bundle-gets-you-marathon-7-more-games/
+2. Steam’s Tomb Raider 30th Anniversary Sale cuts up to 90% off Lara’s adventures (score 8)
+Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: sale; about a game we list: Tomb Raider Game of the Year; newest Oct 23.
+- gg.deals News, Oct 23: "Steam’s Tomb Raider 30th Anniversary Sale cuts up to 90% off Lara’s adventures" https://gg.deals/deal/steams-tomb-raider-30th-anniversary-sale/
 3. Sker Ritual (Epic Games) Giveaway (score 8)
 Why now: 2 sites wrote about it in the last 48 h (gamerpower.com, indiegamebundles.com); matches keywords: free; newest Oct 22.
 - GamerPower (PC), Oct 22: "Sker Ritual (Epic Games) Giveaway" https://www.gamerpower.com/sker-ritual
 - Indie Game Bundles, Oct 22: "Sker Ritual is free on Epic Games Store This Week Only" https://www.indiegamebundles.com/sker-ritual-is-free-on-epic-games-store-this-week-only/
-4. DeadPoly is FREE to play on Steam this weekend! Try this zombie survival sandbox until October 26 (score 7)
-Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: free, free to play; newest Oct 23.
-- gg.deals Freebies, Oct 23: "DeadPoly is FREE to play on Steam this weekend! Try this zombie survival sandbox until October 26" https://gg.deals/freebie/deadpoly-is-free-to-play-on-steam-this-weekend-try-this-zombie-survival-sandbox-until-october-26/
-5. Humble’s Halloween Sale 2026 opens the crypt on spooky season savings (score 7)
-Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: sale, humble; newest Oct 22.
-- gg.deals News, Oct 22: "Humble’s Halloween Sale 2026 opens the crypt on spooky season savings" https://gg.deals/deal/humbles-halloween-sale-2026/
+4. Humble Puzzlers to Puzzle You Bundle: 8 Steam Games Including INDIKA, Braid, and Dungeons of Hinterberg for $… (score 7)
+Why now: 1 site wrote about it in the last 48 h (indiegamebundles.com); matches keywords: bundle, humble; newest Oct 23.
+- Indie Game Bundles, Oct 23: "Humble Puzzlers to Puzzle You Bundle: 8 Steam Games Including INDIKA, Braid, and Dungeons of Hinter…" https://www.indiegamebundles.com/humble-puzzlers-to-puzzle-you/
+5. Humble Phunkier Physics Bundle: 10 Steam Games Including Space Engineers and Besiege for $18 (score 7)
+Why now: 1 site wrote about it in the last 48 h (indiegamebundles.com); matches keywords: bundle, humble; newest Oct 23.
+- Indie Game Bundles, Oct 23: "Humble Phunkier Physics Bundle: 10 Steam Games Including Space Engineers and Besiege for $18" https://www.indiegamebundles.com/humble-phunkier-physics-bundle/
 
 Left out: 15 other-store deals, 0 hidden duplicates, 0 under 50%, 0 ended, 0 ending within 6 h, 0 old prices.
 Sources not read: none.
-Built by: commit 67ec11f, schedule, run #24 attempt 1.
+Built by: commit 1da5641, schedule, run #25 attempt 1.
