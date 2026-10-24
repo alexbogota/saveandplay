@@ -1,53 +1,66 @@
 # Comment candidates: mastodon-prices (@saveandplay@mastodon.social)
-Made 2026-10-24T12:44Z. Searched: deck: handheldgaming | deck: steamdecklife | deck: steamdeckoled | deck: steamdeck | deck: steamos | practical: linuxgaming | practical: drmfree | practical: gog | practical: protondb | genres: coopgames | genres: citybuilder | genres: strategygames | genres: survivalgames | genres: horrorgaming | genres: cozygaming | genres: puzzlegames | genres: roguelike | genres: cozygames | genres: metroidvania | seasonal: halloweengames | seasonal: horrorgames | seasonal: spooktober | broadPlaying: videogames | broadPlaying: currentlyplaying | broadPlaying: indiegames | broadPlaying: indiegame | broadPlaying: pcgames | broadPlaying: steamgames | broadPlaying: gamer | broadPlaying: games | broadPlaying: rpg | broadPlaying: jrpg | broadPlaying: pcgaming | broadPlaying: gaming | broadPlaying: steam | broadAsk: recommendmeagame | broadAsk: gamerecommendation | broadAsk: recommendagame | broadAsk: whattoplay | broadAsk: gamesuggestion | broadAsk: hiddengem | broadAsk: underratedgames | broadAsk: gamesuggestions | backlog: gamingbacklog | backlog: backlog | backlog: pileofshame | backlog: whatshouldiplay | backlog: gamerecommendations | backlog: gamerecs.
-Posts below: 12. Dropped in this run: bot, shop or studio 871, too old 1255, other language 213, not about games 31, promo (link and hashtags) 139, link post, not a question 15, already shown 29, too long 12, skip word 143, low score 24, many links 3, own post 21, content warning 8, profile says no bots or promo 6, console only 17, too short 2, other language (text) 83, hidden from search 3, empty 1, earlier finds: low score 1.
+Made 2026-10-24T18:39Z. Searched: deck: handheldgaming | deck: steamdecklife | deck: steamdeckoled | deck: steamdeck | deck: steamos | practical: linuxgaming | practical: drmfree | practical: gog | practical: protondb | genres: coopgames | genres: citybuilder | genres: strategygames | genres: survivalgames | genres: horrorgaming | genres: cozygaming | genres: puzzlegames | genres: roguelike | genres: cozygames | genres: metroidvania | seasonal: halloweengames | seasonal: horrorgames | seasonal: spooktober | broadPlaying: videogames | broadPlaying: currentlyplaying | broadPlaying: indiegames | broadPlaying: indiegame | broadPlaying: pcgames | broadPlaying: steamgames | broadPlaying: gamer | broadPlaying: games | broadPlaying: rpg | broadPlaying: jrpg | broadPlaying: pcgaming | broadPlaying: gaming | broadPlaying: steam | broadAsk: recommendmeagame | broadAsk: gamerecommendation | broadAsk: recommendagame | broadAsk: whattoplay | broadAsk: gamesuggestion | broadAsk: hiddengem | broadAsk: underratedgames | broadAsk: gamesuggestions | backlog: gamingbacklog | backlog: backlog | backlog: pileofshame | backlog: whatshouldiplay | backlog: gamerecommendations | backlog: gamerecs.
+Posts below: 12 + 2 heated. Dropped in this run: too old 1248, bot, shop or studio 863, link post, not a question 23, skip word 154, other language 200, not about games 27, promo (link and hashtags) 126, too long 12, already shown 34, other language (text) 177, low score 20, many links 2, own post 21, content warning 14, profile says no bots or promo 4, console only 12, too short 2, hidden from search 3, empty 1, earlier finds: low score 5.
 
 ## Posts
-1. @coa100@mastodon.social (Coa art) · 4h · likes 0 · replies 0 · question · broadPlaying
+1. @ChrisJagged@mastodon.social (Jags-O-Lantern) · 40m · likes 1 · replies 2 · question · broadPlaying
+   https://mastodon.social/@ChrisJagged/117497182398929221
+   #GamersOfMastodon, what is your GOTY so far? Asking before the GTA steamroller rolls in and stops this question being fun. #gaming #videoGames
+2. @navidrome@mastodon.social (Navidrome) · 4h · likes 2 · replies 0 · question · broadPlaying
+   https://mastodon.social/@navidrome/117496494645547083
+   In Vice City we could upload our own mp3 files to play our own radio station when driving around. Are we going to be able to stream from our Navidrome collection in GTA VI? 😃 #gtavi #videogames
+   [image: GTA VI will have in-game podcasts and at least six radio stationsYou can preview the game’s first six radio stations now, including everything from rap to coun…]
+3. @The_Picard_Maneuver@lemmy.world (The Picard Maneuver) · 4h · likes 0 · replies 2 · question · broadPlaying
+   https://mastodon.social/@The_Picard_Maneuver@lemmy.world/117496506398128739
+   original: https://lemmy.world/post/53538932
+   Wanna play the game I'm based on? https://lemmy.world/post/53538932
+   [image, no description]
+4. @serigala_tropis@lgbtqia.space (Wendy) · 4h · likes 0 · replies 0 · question · broadPlaying
+   https://mastodon.social/@serigala_tropis@lgbtqia.space/117496355219782016
+   original: https://lgbtqia.space/@serigala_tropis/117496355153351050
+   Looking for 100% achievements in Rise of the Tomb Raider and how much I despise a side mission that requires me to throw pumpkins into some targets in a badly designed physics in video game. #videogame #gaming #tombraider #riseofthetombraider #rotr
+5. @kekoakiki@vt.social (Kekoa Kiki 🎣 Cozy Brat VTuber) · 6h · likes 0 · replies 2 · question · broadPlaying
+   https://mastodon.social/@kekoakiki@vt.social/117495996058896754
+   original: https://vt.social/@kekoakiki/117495996009870194
+   #Playdate users: Who uses Playdate Mirror to play on PC? Fullscreen mode seems to cut off pixels. It doesn't hide the taskbar either. Any way around that? #gaming #videogames #Vtuber
+6. @coa100@mastodon.social (Coa art) · 10h · likes 0 · replies 0 · question · broadPlaying
    https://mastodon.social/@coa100/117494893525885481
    looking for people who can apriciate my awesome community site Vasnic made by myself and is totally #indie #videogames #gaming #music #art #programming #php
-2. @coa100@mastodon.social (Coa art) · 5h · likes 0 · replies 0 · question · broadPlaying
+7. @coa100@mastodon.social (Coa art) · 11h · likes 0 · replies 0 · question · broadPlaying
    https://mastodon.social/@coa100/117494843566681509
    have a look at games by myself ive posted on Vasnic Community all free to play browser games with option to support them. https://vasnic.wtnet9.site/?p=&s=gamesbycoa #videogames #pcgaming
    [link card: gamesbycoa - Posts - Vasnic]
-3. @YUART@lemmy.zip · 5h · likes 0 · replies 1 · question · broadPlaying
+8. @YUART@lemmy.zip · 11h · likes 0 · replies 1 · question · broadPlaying
    https://mastodon.social/@YUART@lemmy.zip/117494733103308088
    original: https://lemmy.zip/post/73797768
    Browser extension that improves your Steam recommendations https://lemmy.zip/post/73797768
    [link card: Browser extension that improves your Steam recommendations]
-4. @pitcrewgg@mastodon.social (PitCrew) · 1h · likes 1 · replies 1 · deck
-   https://mastodon.social/@pitcrewgg/117495673942062698
-   🔄 Steam - Beta Client Update: October 22 Preview/Beta Steam Client adds Remote Play HDR revamp with new settings, including Steam Deck OLED, PipeWire on Linux, and Android 15 via Steam Link beta. 1/2 #Linux #LinuxGaming #PCGaming #Steam #ValveSoftware #LegionGo2 #LegionGoS #Stea
+9. @monstanner@pixelfed.social (Monstanner🐧) · 2h · likes 1 · replies 0 · broadPlaying
+   https://mastodon.social/@monstanner@pixelfed.social/117496755045112887
+   original: https://pixelfed.social/p/monstanner/1019641152003721250
+   World of Warcraft is still my favorite MMORPG. It just has its own charm. #worldofwarcraft #wow #teldrasil #elf #nigtelf #videogames #games #gaming #rpg #mmorpg #fantasy #alliance
+   [4 images: In this picture you can see one of the Moonwells in Teldrasil in the game World of Warcraft. / In this picture you can see the Moonwell again, but my character Ciri is standing there, who is a night elf. / In this picture you can see the same as in the picture before, only zoomed in a bit. / In this picture you can see the same as in the picture before, only zoomed in a bit.]
+10. @BreakingImpossible@mastodon.social (China.Gamer.Guy 神州电玩游士) · 3h · likes 5 · replies 0 · broadPlaying
+   https://mastodon.social/@BreakingImpossible/117496739845554692
+   Turns out, many many folks enjoy "Dora the Exploder" look #China #VideoGames #TravelPhotography #PhotoSafari #MyPhoto
    [image, no description]
-5. @exochromatic@mastodon.social (Exochromatic) · 3h · likes 0 · replies 0 · question · practical
-   https://mastodon.social/@exochromatic/117495294856451449
-   Finally upgraded from my 2000s Logitech Extreme 3D Pro and keyboard to #HOSAS! Fantastic. Saving up a bit more to get one of the other modules so I don't even have to hit my keyboard for the other little controls. #EliteDangerous #LinuxGaming Anyone with any #VKB sticks and runni
-   [image: A photo of Elite Dangerous on an ultrawide monitor and EDDiscovery on a smaller monitor above it. A keyboard backlit with blue and purple is on the desk, and t…]
-6. @kyonshi@dice.camp (random stranger) · 3h · likes 0 · replies 5 · question · broadPlaying
-   https://mastodon.social/@kyonshi@dice.camp/117495285753547565
-   original: https://dice.camp/@kyonshi/117495285646696905
-   checked out the age ratings for World of Warships. it's PEGI 16. because of... Sex? #videogames
-   [image: pegi 16 badge from steam store regerencing the reasons as Sex, In-game purchases, and paid random items]
-7. @pitcrewgg@mastodon.social (PitCrew) · 4h · likes 1 · replies 1 · practical
-   https://mastodon.social/@pitcrewgg/117494891396234480
-   🔄 War Thunder - Grand Finals Twitch Drops And Tricolor Smoke Eight teams chase the 2026 War Thunder Grand Finals with a 15k prize, including DODEC Voyager AVReS JinX FiveSticks Invictus MRCLS LEET, plus Twitch Drops. 1/2 #WarThunder #Linux #LinuxGaming #PCGaming #FlightSim #Free
-   [image, no description]
-8. @coa100@mastodon.social (Coa art) · 7h · likes 0 · replies 0 · question · broadPlaying
-   https://mastodon.social/@coa100/117494376246298911
-   have a look at music posted on Vasnic Community if you like https://vasnic.wtnet9.site/?p=&s=Music #music #videogames
-   [link card: gamesbycoa - Posts - Vasnic]
-9. @nedjordan@mastodon.social (Ned Jordan) · 10h · likes 0 · replies 0 · question · broadPlaying
-   https://mastodon.social/@nedjordan/117493503399803346
-   Game Review: Silent Hill: Townfall - Silent Hill Townfall is a decent SH game, but it needs more variety outside of sneaking around enemies. #games #SilentHill https://www.gamerstemple.com/reviews/silent-hill-townfall-review?utm_source=dlvr.it&utm_medium=mastodon
-10. @vanni@mibl.vannilla.org (Alessio Vanni) · 11h · likes 0 · replies 0 · question · broadPlaying
-   https://mastodon.social/@vanni@mibl.vannilla.org/117493268792071254
-   original: https://mibl.vannilla.org/@vanni/statuses/01M5NR2S4FGDK92M3V98ZKT0VT
-   3 AM thoughts: Has anyone made a "President Evil" video game yet? ...let's sleep. #videogames #late_night_nonsense #parody_titles
-11. @selea@social.linux.pizza (𝕤𝕖𝕝𝕖𝕒👻) · 10m · likes 0 · replies 1 · question · broadPlaying
-   https://mastodon.social/@selea@social.linux.pizza/117495906691396933
-   original: https://social.linux.pizza/@selea/117495906421873010
-   Hey fedi I am in need of a STUN server in order to make UPnP work during an event. Do you have any up and running that I can use during this event? The event is a LAN Party with 100 players age 6 to 16. #askfedi #askfediverse #stun #gaming
-12. @pitcrewgg@mastodon.social (PitCrew) · 7h · likes 1 · replies 1 · practical
-   https://mastodon.social/@pitcrewgg/117494348562582877
-   🚨 War Thunder - Haunting Grounds Screenshot Contest War Thunder launches the 247th Steam Screenshot Competition with Halloween. Submit a night image with #WTscreen247 by Oct 30 for a 300 GE prize, six winners. 1/2 #WarThunder #Linux #LinuxGaming #PCGaming #FlightSim #FreeTrack #
-   [image, no description]
+11. @scottymarinara@jorts.horse (scotty marinara) · 5h · likes 1 · replies 0 · broadPlaying
+   https://mastodon.social/@scottymarinara@jorts.horse/117496143641389289
+   original: https://jorts.horse/@scottymarinara/117496143556566669
+   ooh lovely, someone is trying to hack into my steam account. i have a paralyzed hand from my #stroke and cannot play most #pcgames currently, so i should probably delete my account!
+12. @some@hachyderm.io (Somē) · 6h · likes 1 · replies 0 · broadPlaying
+   https://mastodon.social/@some@hachyderm.io/117495987186610474
+   original: https://hachyderm.io/@some/117495987138499961
+   I finally finished Persona 5 Royal! For the amount of trudging through that the game made me do from palaces 5 to 7, I'm kinda underwhelmed by the true ending. It didn't give me the same emotional catharsis as in Persona 4 Golden, where the circle of friends was smaller and more 
+
+## Heated topics (AI debates etc.): reply only neutrally, with facts
+1. @killyourfm@layer8.space (Jason Evangelho 🌊🐧) · 5h · likes 21 · replies 2 · question · broadPlaying
+   https://mastodon.social/@killyourfm@layer8.space/117496160560262000
+   original: https://layer8.space/@killyourfm/117496160011088195
+   "The AI infestation of the Steam Next Fest" The author uses a hilariously relevant (and sadly sobering) screenshot to illustrate how bad things are getting. Read the article: https://gardinerbryant.com/the-ai-infestation-of-the-steam-next-fest/?ref=the-main-feed-newsletter #steam
+   [image: A dark game-store list shows numerous upcoming games with “needle in a haystack” titles, cover art, platform icons, and release dates.]
+2. @monstanner@pixelfed.social (Monstanner🐧) · 2h · likes 0 · replies 0 · broadPlaying
+   https://mastodon.social/@monstanner@pixelfed.social/117496817224993303
+   original: https://pixelfed.social/p/monstanner/1019645127769404167
+   These images have been reworked by AI. However, I think they are very beautiful and wanted to share them. The original images will be uploaded later. #worldofwarcraft #wow #darkshore #elf #nigtelf #videogames #games #gaming #rpg #mmorpg #fantasy #alliance #ai
+   [4 images: In this picture you can see my WoW night elf character Ciri, standing with her back to the camera and looking into a forest on the Darkshore. The full moon shi… / In this picture you can see my WoW night elf character Ciri, kneeling on a rock in the sea and looking at the full moon. Again her turquoise hair shines. The p… / In this picture you can see my WoW night elf character Ciri, as she gracefully looks at the sea at a shipwrecked ship that drifts in the sea. In addition, the … / In this picture you can see the same as in the picture before, only Ciri's clothes are different.]

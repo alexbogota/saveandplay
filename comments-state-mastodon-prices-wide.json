@@ -8,102 +8,47 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 136,
-      "posts": 5680,
-      "fit": 69,
+      "runs": 144,
+      "posts": 6040,
+      "fit": 72,
       "last": {
-        "posts": 40,
-        "fit": 0,
-        "at": "2026-10-24T12:45:01.653Z"
+        "posts": 80,
+        "fit": 2,
+        "at": "2026-10-24T18:40:22.358Z"
       }
     },
     "moreAsk": {
-      "runs": 85,
-      "posts": 765,
+      "runs": 90,
+      "posts": 810,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-10-24T12:45:01.653Z"
+        "at": "2026-10-24T18:40:22.358Z"
       }
     },
     "moreRetro": {
-      "runs": 85,
-      "posts": 5480,
-      "fit": 198,
+      "runs": 90,
+      "posts": 5800,
+      "fit": 210,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-24T12:45:01.653Z"
+        "at": "2026-10-24T18:40:22.358Z"
       }
     },
     "morePlaying": {
-      "runs": 85,
-      "posts": 357,
+      "runs": 90,
+      "posts": 378,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-10-24T12:45:01.653Z"
+        "at": "2026-10-24T18:40:22.358Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@serigala_tropis@lgbtqia.space/117489618237473610": {
-      "uri": "https://mastodon.social/@serigala_tropis@lgbtqia.space/117489618237473610",
-      "url": "https://mastodon.social/@serigala_tropis@lgbtqia.space/117489618237473610",
-      "handle": "serigala_tropis@lgbtqia.space",
-      "name": "Wendy",
-      "text": "I've been playing Saints Row (the remake) and I still feel bad of killing two NPCs of civilians just to check out the ability of a gun. I don't feel bad in killing and slaughtering enemies in the video game, as they are gang members and corrupt law enforcement. Also curiously, I drive recklessly and I don't feel that bad causing damage to properties and damaging other cars. #saintsrow #videogame",
-      "createdAt": "2026-10-23T09:55:00.000Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "moreGaming",
-      "query": "videogame",
-      "score": 4,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://lgbtqia.space/@serigala_tropis/117489618168470937",
-      "media": null,
-      "firstSeen": "2026-10-23T12:48:28.037Z"
-    },
-    "https://mastodon.social/@stunningshemp/117490121920203434": {
-      "uri": "https://mastodon.social/@stunningshemp/117490121920203434",
-      "url": "https://mastodon.social/@stunningshemp/117490121920203434",
-      "handle": "stunningshemp@mastodon.social",
-      "name": "Chris Coats",
-      "text": "Alis is a terrible liar #retrogaming #phantasystar #rpg #stunningshemp #twitch",
-      "createdAt": "2026-10-23T12:03:07.309Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "video, no description",
-      "firstSeen": "2026-10-23T12:48:28.037Z"
-    },
-    "https://mastodon.social/@forgottenarchai/117490077620036677": {
-      "uri": "https://mastodon.social/@forgottenarchai/117490077620036677",
-      "url": "https://mastodon.social/@forgottenarchai/117490077620036677",
-      "handle": "forgottenarchai@mastodon.social",
-      "name": "Forgotten Archive",
-      "text": "Grand Theft Auto Adverts · 1997–1998 The age limit was the selling point. GTA’s March 1998 *PC Zone* advert made a huge red 18 certificate its centrepiece, signing off with: “Sorry kids. Grow up and see what you’re missing.” #ForgottenArchive #GrandTheftAuto #GameAds #PCZone #RetroGaming",
-      "createdAt": "2026-10-23T11:51:51.347Z",
-      "likes": 1,
-      "replies": 1,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "image: Full-page black Grand Theft Auto advertisement with a large red BBFC 18 certificate surrounded by four small coloured cars. The headline says the game won a ce…",
-      "firstSeen": "2026-10-23T12:48:28.037Z"
-    },
     "https://mastodon.social/@robavince/117491545577708987": {
       "uri": "https://mastodon.social/@robavince/117491545577708987",
       "url": "https://mastodon.social/@robavince/117491545577708987",
@@ -279,7 +224,7 @@
       "name": "Thalia Archibald",
       "text": "What are some games that never redraw the screen—only draw additively—and can be represented as text or ASCII art? This is the class of games that can be played on a teletype, besides the obvious text adventures. With reverse line feed like the Teletype Model 37, a game board can be filled in, play by play. * Minesweeper * Picross * Sudoku * Voltorb Flip * crossword * regular expression crossword * virus war / Paper Tactics * tic-tac-toe * hangman #retrocomputing #retrogaming #teletype",
       "createdAt": "2026-10-24T00:08:39.000Z",
-      "likes": 21,
+      "likes": 22,
       "replies": 10,
       "group": "moreRetro",
       "query": "retrogaming",
@@ -382,23 +327,100 @@
       "media": "image, no description",
       "firstSeen": "2026-10-24T00:56:20.395Z"
     },
-    "https://mastodon.social/@stunningshemp/117495769166161442": {
-      "uri": "https://mastodon.social/@stunningshemp/117495769166161442",
-      "url": "https://mastodon.social/@stunningshemp/117495769166161442",
-      "handle": "stunningshemp@mastodon.social",
-      "name": "Chris Coats",
-      "text": "You said it Odin, not me #retrogaming #phantasystar #rpg #stunningshemp #twitch",
-      "createdAt": "2026-10-24T11:59:17.450Z",
+    "https://mastodon.social/@serigala_tropis@lgbtqia.space/117496355219782016": {
+      "uri": "https://mastodon.social/@serigala_tropis@lgbtqia.space/117496355219782016",
+      "url": "https://mastodon.social/@serigala_tropis@lgbtqia.space/117496355219782016",
+      "handle": "serigala_tropis@lgbtqia.space",
+      "name": "Wendy",
+      "text": "Looking for 100% achievements in Rise of the Tomb Raider and how much I despise a side mission that requires me to throw pumpkins into some targets in a badly designed physics in video game. #videogame #gaming #tombraider #riseofthetombraider #rotr",
+      "createdAt": "2026-10-24T14:28:18.000Z",
       "likes": 0,
       "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
+      "group": "moreGaming",
+      "query": "videogame",
+      "score": 8,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://lgbtqia.space/@serigala_tropis/117496355153351050",
+      "media": null,
+      "firstSeen": "2026-10-24T18:40:22.358Z"
+    },
+    "https://mastodon.social/@monstanner@pixelfed.social/117496817224993303": {
+      "uri": "https://mastodon.social/@monstanner@pixelfed.social/117496817224993303",
+      "url": "https://mastodon.social/@monstanner@pixelfed.social/117496817224993303",
+      "handle": "monstanner@pixelfed.social",
+      "name": "Monstanner🐧",
+      "text": "These images have been reworked by AI. However, I think they are very beautiful and wanted to share them. The original images will be uploaded later. #worldofwarcraft #wow #darkshore #elf #nigtelf #videogames #games #gaming #rpg #mmorpg #fantasy #alliance #ai",
+      "createdAt": "2026-10-24T16:25:42.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "moreGaming",
+      "query": "mmorpg",
+      "score": 5,
+      "question": false,
+      "heated": true,
+      "isReply": false,
+      "origin": "https://pixelfed.social/p/monstanner/1019645127769404167",
+      "media": "4 images: In this picture you can see my WoW night elf character Ciri, standing with her back to the camera and looking into a forest on the Darkshore. The full moon shi… / In this picture you can see my WoW night elf character Ciri, kneeling on a rock in the sea and looking at the full moon. Again her turquoise hair shines. The p… / In this picture you can see my WoW night elf character Ciri, as she gracefully looks at the sea at a shipwrecked ship that drifts in the sea. In addition, the … / In this picture you can see the same as in the picture before, only Ciri's clothes are different.",
+      "firstSeen": "2026-10-24T18:40:22.358Z"
+    },
+    "https://mastodon.social/@monstanner@pixelfed.social/117496755045112887": {
+      "uri": "https://mastodon.social/@monstanner@pixelfed.social/117496755045112887",
+      "url": "https://mastodon.social/@monstanner@pixelfed.social/117496755045112887",
+      "handle": "monstanner@pixelfed.social",
+      "name": "Monstanner🐧",
+      "text": "World of Warcraft is still my favorite MMORPG. It just has its own charm. #worldofwarcraft #wow #teldrasil #elf #nigtelf #videogames #games #gaming #rpg #mmorpg #fantasy #alliance",
+      "createdAt": "2026-10-24T16:09:54.000Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "moreGaming",
+      "query": "mmorpg",
+      "score": 6,
       "question": false,
       "heated": false,
       "isReply": false,
-      "media": "video, no description",
-      "firstSeen": "2026-10-24T12:45:01.653Z"
+      "origin": "https://pixelfed.social/p/monstanner/1019641152003721250",
+      "media": "4 images: In this picture you can see one of the Moonwells in Teldrasil in the game World of Warcraft. / In this picture you can see the Moonwell again, but my character Ciri is standing there, who is a night elf. / In this picture you can see the same as in the picture before, only zoomed in a bit. / In this picture you can see the same as in the picture before, only zoomed in a bit.",
+      "firstSeen": "2026-10-24T18:40:22.358Z"
+    },
+    "https://mastodon.social/@kuroneko@socials.thundercleess.com/117496172323992670": {
+      "uri": "https://mastodon.social/@kuroneko@socials.thundercleess.com/117496172323992670",
+      "url": "https://mastodon.social/@kuroneko@socials.thundercleess.com/117496172323992670",
+      "handle": "kuroneko@socials.thundercleess.com",
+      "name": "Blackcat",
+      "text": "🎮 On This Day in Gaming — October 24 Dark Messiah of Might and Magic (2006) kicks things off: a first-person brawler where you boot enemies into spikes, off ledges and into campfires, and it still has some of the most satisfying melee combat in the genre. Also released today: 📅 2013: ENSLAVED: Odyssey to the West Premium Edition 📅 2011: Serious Sam: The Random Encounter 📅 2013: FORCED #Gaming #OnThisDay #RetroGaming #DarkMessiahOfMightAndMagic",
+      "createdAt": "2026-10-24T13:41:44.000Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 4,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://socials.thundercleess.com/@kuroneko/117496172005011548",
+      "media": "4 images: Official art of an orc warrior from Dark Messiah of Might and Magic / Official artwork for Enslaved: Odyssey to the West showing Monkey and Trip running from a giant mech / Pixel-art battle screenshot from Serious Sam: The Random Encounter / Screenshot of the FORCED skill menu and arena",
+      "firstSeen": "2026-10-24T18:40:22.358Z"
+    },
+    "https://mastodon.social/@tschak@oldbytes.space/117496000426142784": {
+      "uri": "https://mastodon.social/@tschak@oldbytes.space/117496000426142784",
+      "url": "https://mastodon.social/@tschak@oldbytes.space/117496000426142784",
+      "handle": "tschak@oldbytes.space",
+      "name": "Thomas Cherryhomes",
+      "text": "I wanted to see if we could squeeze #FujiNet Multiplayer MULE onto the #Odyssey2. Yup, barely. The cart needed Firmware changes to support up to 64K worth of bank-switching. Amazing actually. #retrocomputing #retrogaming",
+      "createdAt": "2026-10-24T12:57:56.000Z",
+      "likes": 2,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 4,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://oldbytes.space/@tschak/117495999798057476",
+      "media": "4 images, no description",
+      "firstSeen": "2026-10-24T18:40:22.358Z"
     }
   }
 }
