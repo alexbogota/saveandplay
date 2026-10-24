@@ -1188,6 +1188,54 @@
             "id": "9f37560e8f2b2b8a52969de0a9539ad3c05dbd99ce10ec15b423fdd30d685bd2",
             "sig": "48dc8fd97c12c68ec9c9bd0888788a39d515d73fe594f605e9c1f2a3ef2e57b0528b1c580843d90665f097ee3e7a36851df15afe1ae4d24ccc30eb646f074540"
           }
+        },
+        "article": {
+          "status": "done",
+          "kind": "article",
+          "id": "724f51e91540a3e24a0ad0703f450ab8ecb4d104cf9d84fc71afb9f9dc14b8a2",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "article": "steam-demos-and-next-fest",
+          "postedAt": "2026-10-24T17:17:01.000Z",
+          "accepted": [
+            "wss://relay.damus.io",
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [],
+          "event": {
+            "kind": 1,
+            "created_at": 1792862221,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-article"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://saveandplay.com/og/steam-demos-and-next-fest.png",
+                "m image/png",
+                "alt Diagram: a Steam demo is a separate App ID linked to the full game. Steam Next Fest runs October 19 to 26, 2026, February 22 to March 1, 2027 and June 14 to 21, 2027."
+              ]
+            ],
+            "content": "Steam demos and Next Fest: how to try a game before you pay\n\nA Steam demo is free and has its own App ID. Here is what Steam's own pages say about demos, Next Fest dates, wishlists and what can disappear, plus five checks.\n\n#pcgaming #gamedeals\n\nhttps://saveandplay.com/og/steam-demos-and-next-fest.png\n\nhttps://saveandplay.com/guides/steam-demos-and-next-fest/?utm_source=nostr-prices&utm_medium=social&utm_campaign=steam-demos-and-next-fest",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "724f51e91540a3e24a0ad0703f450ab8ecb4d104cf9d84fc71afb9f9dc14b8a2",
+            "sig": "59c6dd0b6122c61c594aa228d6e42e056d47ddf880756612cd4078b221b5bdaab68553971a883e093462969ea52d72cc2d99b0b33c0ccb9bdc3c295238310085"
+          }
         }
       }
     }
@@ -1225,6 +1273,10 @@
       "steam-key-reseller-risks": {
         "day": "2026-10-22",
         "id": "72ba00557c33540649116ed9f5d361bfb1e7c71cff9dc84f0de6ce3184ebd934"
+      },
+      "steam-demos-and-next-fest": {
+        "day": "2026-10-24",
+        "id": "724f51e91540a3e24a0ad0703f450ab8ecb4d104cf9d84fc71afb9f9dc14b8a2"
       }
     }
   },
