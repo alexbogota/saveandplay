@@ -1,56 +1,55 @@
 # Comment candidates: mastodon-prices (@saveandplay@mastodon.social)
-Made 2026-10-24T00:55Z. Searched: deck: handheldgaming | deck: steamdecklife | deck: steamdeckoled | deck: steamdeck | deck: steamos | practical: linuxgaming | practical: drmfree | practical: gog | practical: protondb | genres: coopgames | genres: citybuilder | genres: strategygames | genres: survivalgames | genres: horrorgaming | genres: cozygaming | genres: puzzlegames | genres: roguelike | genres: cozygames | genres: metroidvania | seasonal: halloweengames | seasonal: horrorgames | seasonal: spooktober | broadPlaying: videogames | broadPlaying: currentlyplaying | broadPlaying: indiegames | broadPlaying: indiegame | broadPlaying: pcgames | broadPlaying: steamgames | broadPlaying: gamer | broadPlaying: games | broadPlaying: rpg | broadPlaying: jrpg | broadPlaying: pcgaming | broadPlaying: gaming | broadPlaying: steam | broadAsk: recommendmeagame | broadAsk: gamerecommendation | broadAsk: recommendagame | broadAsk: whattoplay | broadAsk: gamesuggestion | broadAsk: hiddengem | broadAsk: underratedgames | broadAsk: gamesuggestions | backlog: gamingbacklog | backlog: backlog | backlog: pileofshame | backlog: whatshouldiplay | backlog: gamerecommendations | backlog: gamerecs.
-Posts below: 12. Dropped in this run: bot, shop or studio 950, too old 1209, other language 198, promo (link and hashtags) 142, link post, not a question 16, skip word 190, already shown 26, too long 15, low score 24, many links 2, other language (text) 59, own post 21, profile says no bots or promo 5, not about games 38, console only 9, too short 1, content warning 15, hidden from search 1, earlier finds: low score 8.
+Made 2026-10-24T06:44Z. Searched: deck: handheldgaming | deck: steamdecklife | deck: steamdeckoled | deck: steamdeck | deck: steamos | practical: linuxgaming | practical: drmfree | practical: gog | practical: protondb | genres: coopgames | genres: citybuilder | genres: strategygames | genres: survivalgames | genres: horrorgaming | genres: cozygaming | genres: puzzlegames | genres: roguelike | genres: cozygames | genres: metroidvania | seasonal: halloweengames | seasonal: horrorgames | seasonal: spooktober | broadPlaying: videogames | broadPlaying: currentlyplaying | broadPlaying: indiegames | broadPlaying: indiegame | broadPlaying: pcgames | broadPlaying: steamgames | broadPlaying: gamer | broadPlaying: games | broadPlaying: rpg | broadPlaying: jrpg | broadPlaying: pcgaming | broadPlaying: gaming | broadPlaying: steam | broadAsk: recommendmeagame | broadAsk: gamerecommendation | broadAsk: recommendagame | broadAsk: whattoplay | broadAsk: gamesuggestion | broadAsk: hiddengem | broadAsk: underratedgames | broadAsk: gamesuggestions | backlog: gamingbacklog | backlog: backlog | backlog: pileofshame | backlog: whatshouldiplay | backlog: gamerecommendations | backlog: gamerecs.
+Posts below: 12. Dropped in this run: bot, shop or studio 922, too old 1231, promo (link and hashtags) 144, other language 162, link post, not a question 16, already shown 34, too long 17, skip word 166, low score 24, many links 2, own post 21, profile says no bots or promo 4, console only 16, too short 2, other language (text) 54, content warning 11, not about games 23, hidden from search 1, empty 1, earlier finds: low score 3.
 
 ## Posts
-1. @ami_angelwings@urusai.social (Ami Angelwings) · 5h · likes 6 · replies 12 · question · broadPlaying
-   https://mastodon.social/@ami_angelwings@urusai.social/117492081848981407
-   original: https://urusai.social/@ami_angelwings/117492081501682268
-   #QuestionOfTheDay biggest miscast of an actor (including voice actors) in a work you enjoy? You can answer this multiple times if you want for different works. #TV #television #anime #videogames #gaming #YouTube #movies #film #musicals
-2. @jaycifer@lemmy.world · 2h · likes 0 · replies 5 · question · broadPlaying
-   https://mastodon.social/@jaycifer@lemmy.world/117492794723586261
-   original: https://lemmy.world/post/53518490
-   What demos have you been playing in the Steam Next Fest? https://lemmy.world/post/53518490
-   [link card: What demos have you been playing in the Steam Next Fest? - Lemmy.World]
-3. @itguyeric@mastodon.social (Eric The IT Guy) · 11h · likes 2 · replies 3 · question · broadPlaying
-   https://mastodon.social/@itguyeric/117490604745134603
-   Friday question: what's the least justifiable thing running in your homelab? Mine is a whole VM for game servers. Valheim, Palworld, Starbound and ARK, plus Foundry for tabletop nights. #homelab #selfhosted #gaming #Linux
+1. @coa100@mastodon.social (Coa art) · 40m · likes 0 · replies 0 · question · broadPlaying
+   https://mastodon.social/@coa100/117494376246298911
+   have a look at music posted on Vasnic Community if you like https://vasnic.wtnet9.site/?p=&s=Music #music #videogames
+   [link card: Music - Posts - Vasnic]
+2. @nedjordan@mastodon.social (Ned Jordan) · 4h · likes 0 · replies 0 · question · broadPlaying
+   https://mastodon.social/@nedjordan/117493503399803346
+   Game Review: Silent Hill: Townfall - Silent Hill Townfall is a decent SH game, but it needs more variety outside of sneaking around enemies. #games #SilentHill https://www.gamerstemple.com/reviews/silent-hill-townfall-review?utm_source=dlvr.it&utm_medium=mastodon
+3. @vanni@mibl.vannilla.org (Alessio Vanni) · 5h · likes 0 · replies 0 · question · broadPlaying
+   https://mastodon.social/@vanni@mibl.vannilla.org/117493268792071254
+   original: https://mibl.vannilla.org/@vanni/statuses/01M5NR2S4FGDK92M3V98ZKT0VT
+   3 AM thoughts: Has anyone made a "President Evil" video game yet? ...let's sleep. #videogames #late_night_nonsense #parody_titles
+4. @pitcrewgg@mastodon.social (PitCrew) · 47m · likes 0 · replies 1 · practical
+   https://mastodon.social/@pitcrewgg/117494348562582877
+   🚨 War Thunder - Haunting Grounds Screenshot Contest War Thunder launches the 247th Steam Screenshot Competition with Halloween. Submit a night image with #WTscreen247 by Oct 30 for a 300 GE prize, six winners. 1/2 #WarThunder #Linux #LinuxGaming #PCGaming #FlightSim #FreeTrack #
    [image, no description]
-4. @venya@musicians.today (Venya (he/him/dude) 🇺🇦) · 18m · likes 1 · replies 1 · broadPlaying
-   https://mastodon.social/@venya@musicians.today/117493089093133241
-   original: https://musicians.today/@venya/117493088325443019
-   My number has come up for a 512GB #Steam Machine. I have 3 days to purchase or lose my place. Guess I should decide how much gaming I plan to do for the rest of my life....
-5. @noping@mastodon.social (Noping) · 4h · likes 0 · replies 0 · question · broadPlaying
-   https://mastodon.social/@noping/117492142945619573
-   The next mission starts now! Call of Duty: Modern Warfare 4 arrives bringing more action, intense combat, and that high-octane adrenaline only this franchise delivers. Lock and load your arsenal, rally your squad, and get ready for battle. So, soldier: are you hopping into the ca
-   [4 images, no description]
-6. @fkftsh@fkft.sh (FKFTSH) · 4h · likes 1 · replies 2 · broadPlaying
-   https://mastodon.social/@fkftsh@fkft.sh/117492106216639151
-   original: https://fkft.sh/@fkftsh/117492105836482722
-   mass effect 2 is such a funny game because it's literally Side Quest: The Game - zero relevance to the fight against the reapers - zero returning romance options - zero new companions that return in the sequel and yet it's still somehow the best game in the series #games #gaming 
-7. @ItalianSkeletonGaming@mastodon.social (Italian Skeleton) · 5h · likes 3 · replies 0 · broadPlaying
-   https://mastodon.social/@ItalianSkeletonGaming/117491948173454835
-   This is a PSA for all aspiring evil masterminds: make sure your henchmen can read, or at the very least be sensible enough to NOT shoot the tanks filled with explosive gas, even if there is an intruder around #gaming #videogames #pcgaming #retrogaming #TombRaiderUnderworld #TombR
-   [video, no description]
-8. @Travinatorisme@mastodon.world (Travinatorisme) · 8h · likes 1 · replies 0 · practical
-   https://mastodon.social/@Travinatorisme@mastodon.world/117491283818709050
-   original: https://mastodon.world/@Travinatorisme/117491283631473661
-   I'm just past the first Atreus section, I'm enjoying the slower pace to things. Just allows for a moment of being able to sit back and enjoy the sprawling vistas this game has on offer. #GodofWar #GodofWarRagnarok #pcgaming #linuxgaming #videogames
-   [video, no description]
-9. @WhyNotZoidberg@topspicy.social (Why Not Zoidberg? 🦑) · 9h · likes 0 · replies 3 · question · broadPlaying
+5. @WhyNotZoidberg@topspicy.social (Why Not Zoidberg? 🦑) · 15h · likes 0 · replies 3 · question · broadPlaying
    https://mastodon.social/@WhyNotZoidberg@topspicy.social/117491008155124764
    original: https://topspicy.social/@WhyNotZoidberg/117491007924396460
    I know I am the odd one out since Idol Culture has never been psychologically captivating for me. I see people actually posting how they are GRIEVING for Bioware and for me that is just a... what? Some of them are even starting to sound like soccer fanatics and that's an extra le
-10. @raster@retro-gaiden.com (Raster) · 10h · likes 1 · replies 1 · question · broadPlaying
+6. @raster@retro-gaiden.com (Raster) · 16h · likes 1 · replies 1 · question · broadPlaying
    https://mastodon.social/@raster@retro-gaiden.com/117490710897278216
    original: https://retro-gaiden.com/@raster/117490710799981121
    The Vega card memory allocation in work here. It's not magical, but if you hit the memory ceiling you don't have a devastating performance drop you have on more modern cards. On Windows you have need to enable the function manually, with a performace hit (because windows is crap)
    [link card: AMD 8GB VRAM is better (sort of) | HBCC on RX Vega overview in 2023 | Comparison with RTX 3070]
-11. @harrk@gamenook.net (Harry) · 2h · likes 0 · replies 0 · broadPlaying
-   https://mastodon.social/@harrk@gamenook.net/117492570811033642
-   original: https://gamenook.net/@harrk/117492570774212079
-   Put some good time into #valheim tonight. My buddy and I finally moved on from the swamps after taking down Bonemass. Finding his spawn held us back far too long. Had a little gander into the mountains biome afterwards before calling it for the night. We tried to tame a wolf too 
-12. @DamonWakes@mastodon.sdf.org (Damon L. Wakes) · 3h · likes 0 · replies 0 · broadPlaying
-   https://mastodon.social/@DamonWakes@mastodon.sdf.org/117492488773392940
-   original: https://mastodon.sdf.org/@DamonWakes/117492488423917039
-   Playing Company of Heroes 2 at the moment, and while it's quite good in general I find the campaign has this really awkward setup where sometimes it's crucial to complete an objective as quickly as possible while other times benefit from clearing all enemies from the area beforeh
+7. @Chicken0Death@universeodon.com (Michael Z.) · 2h · likes 0 · replies 0 · broadPlaying
+   https://mastodon.social/@Chicken0Death@universeodon.com/117493955674175988
+   original: https://universeodon.com/@Chicken0Death/117493955613914826
+   Over the Hill is the exact game I've been searching for. Just drive around beautiful landscapes, in cute little jeeps, taking pictures of animals and scenery. #videogames #games #OvertheHill
+   [image: A little green jeep drives over a hill overlooking an icy lake surrounded by snow covered mountains.]
+8. @suburbantimewaster@mastodon.world (Suburban Timewaster) · 3h · likes 0 · replies 0 · genres
+   https://mastodon.social/@suburbantimewaster@mastodon.world/117493829226508662
+   original: https://mastodon.world/@suburbantimewaster/117493829087763786
+   The Kira Family gets to together to see who’s the VIP. In a heartwarming moment, Light and Misa vote for their daughter. #tomodachilife #deathnote #videogames #gaming #cozygames #short #clip
+   [video, no description]
+9. @gerowen@mastodon.social (Marcus Adams) · 13h · likes 1 · replies 1 · broadPlaying
+   https://mastodon.social/@gerowen/117491484650227896
+   #Valve also seems to have updated their built-in video editor for #Steam gameplay footage to include support for in-game events. #Deadlock, for example, shows loading screens with a striped texture on the timeline, and also places markers on the timeline for all kinds of events s
+   [image: A screenshot of the Steam video clip editor, showing various markers along the timeline.]
+10. @lashman@mastodon.social (lashman) · 13h · likes 3 · replies 0 · broadPlaying
+   https://mastodon.social/@lashman/117491404986630985
+   Developer: Blimey Publisher: Blimey Release date: Coming soon Screenshots: #steam #gaming #videoGames #steamStorePage
+   [4 images: Screenshot 1 from Winterover / Screenshot 2 from Winterover / Screenshot 3 from Winterover / Screenshot 4 from Winterover]
+11. @Gamrok@mastodon.social (Thomas Leroy 🍣🐈‍⬛) · 15h · likes 7 · replies 0 · broadPlaying
+   https://mastodon.social/@Gamrok/117490968610939351
+   Still my favorite game made with BioWare's Infinity Engine 🧡 #PlanescapeTorment #BlackIsleStudios #Interplay #InfinityEngine #BioWare #BigBoxGames #RetroGaming #RPG
+   [image: French edition of Planescape: Torment (1999, Interplay/Black Isle Studios) featuring a large sticker that reads "From the creators of Baldur's Gate".]
+12. @lashman@mastodon.social (lashman) · 15h · likes 1 · replies 0 · broadPlaying
+   https://mastodon.social/@lashman/117490926730762417
+   Developer: NEVERMIND Publisher: NEVERMIND Release date: Coming soon Screenshots: #steam #gaming #videoGames #steamStorePage
+   [4 images: Screenshot 1 from Val Fortuna / Screenshot 2 from Val Fortuna / Screenshot 3 from Val Fortuna / Screenshot 4 from Val Fortuna]

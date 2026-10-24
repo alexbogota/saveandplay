@@ -23,23 +23,23 @@
       }
     },
     "backlog": {
-      "runs": 113,
-      "posts": 2876,
+      "runs": 119,
+      "posts": 3028,
       "fit": 0,
       "last": {
         "posts": 22,
         "fit": 0,
-        "at": "2026-10-24T00:55:30.289Z"
+        "at": "2026-10-24T06:44:44.401Z"
       }
     },
     "deck": {
-      "runs": 98,
-      "posts": 5055,
+      "runs": 103,
+      "posts": 5296,
       "fit": 48,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-24T00:55:30.289Z"
+        "at": "2026-10-24T06:44:44.401Z"
       }
     },
     "bundles": {
@@ -53,76 +53,57 @@
       }
     },
     "practical": {
-      "runs": 83,
-      "posts": 3720,
-      "fit": 82,
+      "runs": 87,
+      "posts": 3880,
+      "fit": 84,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-24T00:55:30.289Z"
+        "at": "2026-10-24T06:44:44.401Z"
       }
     },
     "genres": {
-      "runs": 173,
-      "posts": 6920,
-      "fit": 25,
+      "runs": 183,
+      "posts": 7320,
+      "fit": 26,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-24T00:55:30.289Z"
+        "at": "2026-10-24T06:44:44.401Z"
       }
     },
     "seasonal": {
-      "runs": 68,
-      "posts": 2617,
+      "runs": 71,
+      "posts": 2734,
       "fit": 2,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-24T00:55:30.289Z"
+        "at": "2026-10-24T06:44:44.401Z"
       }
     },
     "broadPlaying": {
-      "runs": 218,
-      "posts": 29240,
-      "fit": 459,
+      "runs": 231,
+      "posts": 30920,
+      "fit": 478,
       "last": {
         "posts": 240,
-        "fit": 6,
-        "at": "2026-10-24T00:55:30.289Z"
+        "fit": 5,
+        "at": "2026-10-24T06:44:44.401Z"
       }
     },
     "broadAsk": {
-      "runs": 143,
-      "posts": 2211,
+      "runs": 151,
+      "posts": 2334,
       "fit": 0,
       "last": {
         "posts": 16,
         "fit": 0,
-        "at": "2026-10-24T00:55:30.289Z"
+        "at": "2026-10-24T06:44:44.401Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@suburbantimewaster@mastodon.world/117487447848132314": {
-      "uri": "https://mastodon.social/@suburbantimewaster@mastodon.world/117487447848132314",
-      "url": "https://mastodon.social/@suburbantimewaster@mastodon.world/117487447848132314",
-      "handle": "suburbantimewaster@mastodon.world",
-      "name": "Suburban Timewaster",
-      "text": "It’s a dark day on Fanfic Island as two psychopaths unite. That’s right, Light and Ramsay are officially friends. #tomodachilife #deathnote #gameofthrones #videogames #gaming #cozygames #short #clip",
-      "createdAt": "2026-10-23T00:42:58.000Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "genres",
-      "query": "cozygames",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://mastodon.world/@suburbantimewaster/117487447443781622",
-      "media": "video, no description",
-      "firstSeen": "2026-10-23T00:52:41.743Z"
-    },
     "https://mastodon.social/@pitcrewgg/117488281071414953": {
       "uri": "https://mastodon.social/@pitcrewgg/117488281071414953",
       "url": "https://mastodon.social/@pitcrewgg/117488281071414953",
@@ -151,32 +132,13 @@
       "likes": 1,
       "replies": 1,
       "group": "broadPlaying",
-      "query": "videogames",
+      "query": "steam",
       "score": 5,
       "question": false,
       "heated": false,
       "isReply": true,
       "media": "4 images: Screenshot 1 from Fairlight 1&2 / Screenshot 2 from Fairlight 1&2 / Screenshot 3 from Fairlight 1&2 / Screenshot 4 from Fairlight 1&2",
       "firstSeen": "2026-10-23T12:47:25.739Z"
-    },
-    "https://mastodon.social/@Travinatorisme@mastodon.world/117491283818709050": {
-      "uri": "https://mastodon.social/@Travinatorisme@mastodon.world/117491283818709050",
-      "url": "https://mastodon.social/@Travinatorisme@mastodon.world/117491283818709050",
-      "handle": "Travinatorisme@mastodon.world",
-      "name": "Travinatorisme",
-      "text": "I'm just past the first Atreus section, I'm enjoying the slower pace to things. Just allows for a moment of being able to sit back and enjoy the sprawling vistas this game has on offer. #GodofWar #GodofWarRagnarok #pcgaming #linuxgaming #videogames",
-      "createdAt": "2026-10-23T16:58:33.000Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "practical",
-      "query": "linuxgaming",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://mastodon.world/@Travinatorisme/117491283631473661",
-      "media": "video, no description",
-      "firstSeen": "2026-10-23T18:45:17.315Z"
     },
     "https://mastodon.social/@lashman/117491404986630985": {
       "uri": "https://mastodon.social/@lashman/117491404986630985",
@@ -288,24 +250,6 @@
       "media": null,
       "firstSeen": "2026-10-23T18:45:17.315Z"
     },
-    "https://mastodon.social/@itguyeric/117490604745134603": {
-      "uri": "https://mastodon.social/@itguyeric/117490604745134603",
-      "url": "https://mastodon.social/@itguyeric/117490604745134603",
-      "handle": "itguyeric@mastodon.social",
-      "name": "Eric The IT Guy",
-      "text": "Friday question: what's the least justifiable thing running in your homelab? Mine is a whole VM for game servers. Valheim, Palworld, Starbound and ARK, plus Foundry for tabletop nights. #homelab #selfhosted #gaming #Linux",
-      "createdAt": "2026-10-23T14:05:54.634Z",
-      "likes": 2,
-      "replies": 3,
-      "group": "broadPlaying",
-      "query": "gaming",
-      "score": 7,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "image, no description",
-      "firstSeen": "2026-10-23T18:45:17.315Z"
-    },
     "https://mastodon.social/@glen_malley@mstdn.ca/117490510485701915": {
       "uri": "https://mastodon.social/@glen_malley@mstdn.ca/117490510485701915",
       "url": "https://mastodon.social/@glen_malley@mstdn.ca/117490510485701915",
@@ -344,51 +288,68 @@
       "media": null,
       "firstSeen": "2026-10-23T18:45:17.315Z"
     },
-    "https://mastodon.social/@harrk@gamenook.net/117492570811033642": {
-      "uri": "https://mastodon.social/@harrk@gamenook.net/117492570811033642",
-      "url": "https://mastodon.social/@harrk@gamenook.net/117492570811033642",
-      "handle": "harrk@gamenook.net",
-      "name": "Harry",
-      "text": "Put some good time into #valheim tonight. My buddy and I finally moved on from the swamps after taking down Bonemass. Finding his spawn held us back far too long. Had a little gander into the mountains biome afterwards before calling it for the night. We tried to tame a wolf too until he just up and vanished randomly (no idea!). #videogames",
-      "createdAt": "2026-10-23T22:25:53.000Z",
+    "https://mastodon.social/@pitcrewgg/117494348562582877": {
+      "uri": "https://mastodon.social/@pitcrewgg/117494348562582877",
+      "url": "https://mastodon.social/@pitcrewgg/117494348562582877",
+      "handle": "pitcrewgg@mastodon.social",
+      "name": "PitCrew",
+      "text": "🚨 War Thunder - Haunting Grounds Screenshot Contest War Thunder launches the 247th Steam Screenshot Competition with Halloween. Submit a night image with #WTscreen247 by Oct 30 for a 300 GE prize, six winners. 1/2 #WarThunder #Linux #LinuxGaming #PCGaming #FlightSim #FreeTrack #HeadTracking #MetaQuest #OpenXR #PICO #Pimax #SteamFrame #SteamVR #VirtualReality #VR",
+      "createdAt": "2026-10-24T05:58:00.765Z",
+      "likes": 0,
+      "replies": 1,
+      "group": "practical",
+      "query": "linuxgaming",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image, no description",
+      "firstSeen": "2026-10-24T06:44:44.401Z"
+    },
+    "https://mastodon.social/@suburbantimewaster@mastodon.world/117493829226508662": {
+      "uri": "https://mastodon.social/@suburbantimewaster@mastodon.world/117493829226508662",
+      "url": "https://mastodon.social/@suburbantimewaster@mastodon.world/117493829226508662",
+      "handle": "suburbantimewaster@mastodon.world",
+      "name": "Suburban Timewaster",
+      "text": "The Kira Family gets to together to see who’s the VIP. In a heartwarming moment, Light and Misa vote for their daughter. #tomodachilife #deathnote #videogames #gaming #cozygames #short #clip",
+      "createdAt": "2026-10-24T03:45:54.000Z",
       "likes": 0,
       "replies": 0,
-      "group": "broadPlaying",
-      "query": "videogames",
+      "group": "genres",
+      "query": "cozygames",
       "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
-      "origin": "https://gamenook.net/@harrk/117492570774212079",
-      "media": null,
-      "firstSeen": "2026-10-24T00:55:30.289Z"
+      "origin": "https://mastodon.world/@suburbantimewaster/117493829087763786",
+      "media": "video, no description",
+      "firstSeen": "2026-10-24T06:44:44.401Z"
     },
-    "https://mastodon.social/@ami_angelwings@urusai.social/117492081848981407": {
-      "uri": "https://mastodon.social/@ami_angelwings@urusai.social/117492081848981407",
-      "url": "https://mastodon.social/@ami_angelwings@urusai.social/117492081848981407",
-      "handle": "ami_angelwings@urusai.social",
-      "name": "Ami Angelwings",
-      "text": "#QuestionOfTheDay biggest miscast of an actor (including voice actors) in a work you enjoy? You can answer this multiple times if you want for different works. #TV #television #anime #videogames #gaming #YouTube #movies #film #musicals",
-      "createdAt": "2026-10-23T20:21:28.000Z",
-      "likes": 6,
-      "replies": 12,
+    "https://mastodon.social/@coa100/117494376246298911": {
+      "uri": "https://mastodon.social/@coa100/117494376246298911",
+      "url": "https://mastodon.social/@coa100/117494376246298911",
+      "handle": "coa100@mastodon.social",
+      "name": "Coa art",
+      "text": "have a look at music posted on Vasnic Community if you like https://vasnic.wtnet9.site/?p=&s=Music #music #videogames",
+      "createdAt": "2026-10-24T06:05:03.182Z",
+      "likes": 0,
+      "replies": 0,
       "group": "broadPlaying",
       "query": "videogames",
       "score": 8,
       "question": true,
       "heated": false,
       "isReply": false,
-      "origin": "https://urusai.social/@ami_angelwings/117492081501682268",
-      "media": null,
-      "firstSeen": "2026-10-24T00:55:30.289Z"
+      "media": "link card: Music - Posts - Vasnic",
+      "firstSeen": "2026-10-24T06:44:44.401Z"
     },
-    "https://mastodon.social/@Bearavikas/117492029577738640": {
-      "uri": "https://mastodon.social/@Bearavikas/117492029577738640",
-      "url": "https://mastodon.social/@Bearavikas/117492029577738640",
-      "handle": "Bearavikas@mastodon.social",
-      "name": "Bearavikas",
-      "text": "Everyone knows Bungie for Halo, but my favorite Bungie game has always been Myth II: Soulblighter. #games #videogames #mythiisoulblighter",
-      "createdAt": "2026-10-23T20:08:15.854Z",
+    "https://mastodon.social/@Chicken0Death@universeodon.com/117493955674175988": {
+      "uri": "https://mastodon.social/@Chicken0Death@universeodon.com/117493955674175988",
+      "url": "https://mastodon.social/@Chicken0Death@universeodon.com/117493955674175988",
+      "handle": "Chicken0Death@universeodon.com",
+      "name": "Michael Z.",
+      "text": "Over the Hill is the exact game I've been searching for. Just drive around beautiful landscapes, in cute little jeeps, taking pictures of animals and scenery. #videogames #games #OvertheHill",
+      "createdAt": "2026-10-24T04:18:04.000Z",
       "likes": 0,
       "replies": 0,
       "group": "broadPlaying",
@@ -397,120 +358,65 @@
       "question": false,
       "heated": false,
       "isReply": false,
-      "media": null,
-      "firstSeen": "2026-10-24T00:55:30.289Z"
+      "origin": "https://universeodon.com/@Chicken0Death/117493955613914826",
+      "media": "image: A little green jeep drives over a hill overlooking an icy lake surrounded by snow covered mountains.",
+      "firstSeen": "2026-10-24T06:44:44.401Z"
     },
-    "https://mastodon.social/@ItalianSkeletonGaming/117491948173454835": {
-      "uri": "https://mastodon.social/@ItalianSkeletonGaming/117491948173454835",
-      "url": "https://mastodon.social/@ItalianSkeletonGaming/117491948173454835",
-      "handle": "ItalianSkeletonGaming@mastodon.social",
-      "name": "Italian Skeleton",
-      "text": "This is a PSA for all aspiring evil masterminds: make sure your henchmen can read, or at the very least be sensible enough to NOT shoot the tanks filled with explosive gas, even if there is an intruder around #gaming #videogames #pcgaming #retrogaming #TombRaiderUnderworld #TombRaider",
-      "createdAt": "2026-10-23T19:47:33.726Z",
-      "likes": 3,
+    "https://mastodon.social/@vanni@mibl.vannilla.org/117493268792071254": {
+      "uri": "https://mastodon.social/@vanni@mibl.vannilla.org/117493268792071254",
+      "url": "https://mastodon.social/@vanni@mibl.vannilla.org/117493268792071254",
+      "handle": "vanni@mibl.vannilla.org",
+      "name": "Alessio Vanni",
+      "text": "3 AM thoughts: Has anyone made a \"President Evil\" video game yet? ...let's sleep. #videogames #late_night_nonsense #parody_titles",
+      "createdAt": "2026-10-24T01:23:24.000Z",
+      "likes": 0,
       "replies": 0,
       "group": "broadPlaying",
       "query": "videogames",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "video, no description",
-      "firstSeen": "2026-10-24T00:55:30.289Z"
-    },
-    "https://mastodon.social/@jaycifer@lemmy.world/117492794723586261": {
-      "uri": "https://mastodon.social/@jaycifer@lemmy.world/117492794723586261",
-      "url": "https://mastodon.social/@jaycifer@lemmy.world/117492794723586261",
-      "handle": "jaycifer@lemmy.world",
-      "name": "",
-      "text": "What demos have you been playing in the Steam Next Fest? https://lemmy.world/post/53518490",
-      "createdAt": "2026-10-23T23:22:51.614Z",
-      "likes": 0,
-      "replies": 5,
-      "group": "broadPlaying",
-      "query": "games",
-      "score": 7,
+      "score": 8,
       "question": true,
       "heated": false,
       "isReply": false,
-      "origin": "https://lemmy.world/post/53518490",
-      "media": "link card: What demos have you been playing in the Steam Next Fest? - Lemmy.World",
-      "firstSeen": "2026-10-24T00:55:30.289Z"
+      "origin": "https://mibl.vannilla.org/@vanni/statuses/01M5NR2S4FGDK92M3V98ZKT0VT",
+      "media": null,
+      "firstSeen": "2026-10-24T06:44:44.401Z"
     },
-    "https://mastodon.social/@DamonWakes@mastodon.sdf.org/117492488773392940": {
-      "uri": "https://mastodon.social/@DamonWakes@mastodon.sdf.org/117492488773392940",
-      "url": "https://mastodon.social/@DamonWakes@mastodon.sdf.org/117492488773392940",
-      "handle": "DamonWakes@mastodon.sdf.org",
-      "name": "Damon L. Wakes",
-      "text": "Playing Company of Heroes 2 at the moment, and while it's quite good in general I find the campaign has this really awkward setup where sometimes it's crucial to complete an objective as quickly as possible while other times benefit from clearing all enemies from the area beforehand. It's rarely clear from the start which is which. If I have to restart a section I'm generally doing things differently based on what happens after the next cutscene, which doesn't feel terribly strategic... #games",
-      "createdAt": "2026-10-23T22:04:57.000Z",
+    "https://mastodon.social/@nedjordan/117493503399803346": {
+      "uri": "https://mastodon.social/@nedjordan/117493503399803346",
+      "url": "https://mastodon.social/@nedjordan/117493503399803346",
+      "handle": "nedjordan@mastodon.social",
+      "name": "Ned Jordan",
+      "text": "Game Review: Silent Hill: Townfall - Silent Hill Townfall is a decent SH game, but it needs more variety outside of sneaking around enemies. #games #SilentHill https://www.gamerstemple.com/reviews/silent-hill-townfall-review?utm_source=dlvr.it&utm_medium=mastodon",
+      "createdAt": "2026-10-24T02:23:04.593Z",
       "likes": 0,
       "replies": 0,
       "group": "broadPlaying",
       "query": "games",
-      "score": 5,
-      "question": false,
+      "score": 8,
+      "question": true,
       "heated": false,
       "isReply": false,
-      "origin": "https://mastodon.sdf.org/@DamonWakes/117492488423917039",
       "media": null,
-      "firstSeen": "2026-10-24T00:55:30.289Z"
+      "firstSeen": "2026-10-24T06:44:44.401Z"
     },
-    "https://mastodon.social/@fkftsh@fkft.sh/117492106216639151": {
-      "uri": "https://mastodon.social/@fkftsh@fkft.sh/117492106216639151",
-      "url": "https://mastodon.social/@fkftsh@fkft.sh/117492106216639151",
-      "handle": "fkftsh@fkft.sh",
-      "name": "FKFTSH",
-      "text": "mass effect 2 is such a funny game because it's literally Side Quest: The Game - zero relevance to the fight against the reapers - zero returning romance options - zero new companions that return in the sequel and yet it's still somehow the best game in the series #games #gaming #masseffect",
-      "createdAt": "2026-10-23T20:27:39.000Z",
+    "https://mastodon.social/@JakobFel@retro-gaiden.com/117488801032797757": {
+      "uri": "https://mastodon.social/@JakobFel@retro-gaiden.com/117488801032797757",
+      "url": "https://mastodon.social/@JakobFel@retro-gaiden.com/117488801032797757",
+      "handle": "JakobFel@retro-gaiden.com",
+      "name": "Jakob Fel",
+      "text": "I've been playing BioWare's \"golden age\" games since the announcement of their closing and man, it still hasn't sunken in just how tragic it is to lose them. Yes, modern BioWare was a mess and needed to end somehow, but their legacy ending so unceremoniously really sucks for those of us who loved their games for so long. :sad_guilded: #bioware #rpg #masseffect #dragonage",
+      "createdAt": "2026-10-23T06:27:08.000Z",
       "likes": 1,
-      "replies": 2,
+      "replies": 0,
       "group": "broadPlaying",
-      "query": "games",
-      "score": 6,
+      "query": "rpg",
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
-      "origin": "https://fkft.sh/@fkftsh/117492105836482722",
-      "media": null,
-      "firstSeen": "2026-10-24T00:55:30.289Z"
-    },
-    "https://mastodon.social/@noping/117492142945619573": {
-      "uri": "https://mastodon.social/@noping/117492142945619573",
-      "url": "https://mastodon.social/@noping/117492142945619573",
-      "handle": "noping@mastodon.social",
-      "name": "Noping",
-      "text": "The next mission starts now! Call of Duty: Modern Warfare 4 arrives bringing more action, intense combat, and that high-octane adrenaline only this franchise delivers. Lock and load your arsenal, rally your squad, and get ready for battle. So, soldier: are you hopping into the campaign first or heading straight to multiplayer? #CallOfDuty #ModernWarfare4 #COD #Gaming #NoPing",
-      "createdAt": "2026-10-23T20:37:05.717Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "gaming",
-      "score": 6,
-      "question": true,
-      "heated": false,
-      "isReply": false,
+      "origin": "https://retro-gaiden.com/@JakobFel/117488800782582323",
       "media": "4 images, no description",
-      "firstSeen": "2026-10-24T00:55:30.289Z"
-    },
-    "https://mastodon.social/@venya@musicians.today/117493089093133241": {
-      "uri": "https://mastodon.social/@venya@musicians.today/117493089093133241",
-      "url": "https://mastodon.social/@venya@musicians.today/117493089093133241",
-      "handle": "venya@musicians.today",
-      "name": "Venya (he/him/dude) 🇺🇦",
-      "text": "My number has come up for a 512GB #Steam Machine. I have 3 days to purchase or lose my place. Guess I should decide how much gaming I plan to do for the rest of my life....",
-      "createdAt": "2026-10-24T00:37:31.000Z",
-      "likes": 1,
-      "replies": 1,
-      "group": "broadPlaying",
-      "query": "steam",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://musicians.today/@venya/117493088325443019",
-      "media": null,
-      "firstSeen": "2026-10-24T00:55:30.289Z"
+      "firstSeen": "2026-10-24T06:44:44.401Z"
     }
   }
 }
