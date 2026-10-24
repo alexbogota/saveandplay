@@ -1138,6 +1138,57 @@
             "sig": "1ee0eb03c594acffc30cb17d97e71c8e7663d46c107374e5cc05bd19c267dabdf754bad772e2bf23cdbfe01547882e7910a7e202c42ce839a53b9b282a6fefac"
           }
         }
+      },
+      "2026-10-24": {
+        "deal": {
+          "status": "done",
+          "kind": "deal",
+          "id": "9f37560e8f2b2b8a52969de0a9539ad3c05dbd99ce10ec15b423fdd30d685bd2",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "deal": "gog-hitman-absolution",
+          "title": "Hitman: Absolution",
+          "postedAt": "2026-10-24T11:54:44.000Z",
+          "accepted": [
+            "wss://relay.damus.io",
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [],
+          "event": {
+            "kind": 1,
+            "created_at": 1792842884,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-deal"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203140/header.jpg?t=1734461136",
+                "m image/jpeg",
+                "alt Cover art for Hitman: Absolution"
+              ]
+            ],
+            "content": "Hitman: Absolution: -90% at GOG\n$1.99 (was $19.99)\nPrice checked 2026-10-24 09:58 UTC. Sale ends 2026-10-29 07:59 UTC.\nWhy today: 1 news site wrote about the game in the last 48 h.\nAd: we may earn a commission if you buy.\n\n#pcgaming #gamedeals\n\nhttps://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203140/header.jpg?t=1734461136\n\nhttps://saveandplay.com/deals/gog/hitman-absolution/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-24",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "9f37560e8f2b2b8a52969de0a9539ad3c05dbd99ce10ec15b423fdd30d685bd2",
+            "sig": "48dc8fd97c12c68ec9c9bd0888788a39d515d73fe594f605e9c1f2a3ef2e57b0528b1c580843d90665f097ee3e7a36851df15afe1ae4d24ccc30eb646f074540"
+          }
+        }
       }
     }
   },
