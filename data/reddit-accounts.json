@@ -1,0 +1,32 @@
+{
+  "_help": "Settings for scripts/reddit-find.mjs. One block per Reddit account (same idea as data/comments-accounts.json). Edit the lists, no code change needed. Nothing is posted: the script only reads public RSS feeds.",
+  "accounts": {
+    "main": {
+      "enabled": true,
+      "username": "",
+      "subreddits": [
+        "gamingsuggestions",
+        "SuggestAGame",
+        "patientgamers",
+        "pcgaming",
+        "IndieGaming",
+        "gog",
+        "Steam",
+        "cozygames"
+      ],
+      "maxAgeHours": 24,
+      "perRun": 10,
+      "perSubreddit": 3,
+      "minScore": 3,
+      "cues": [
+        "recommend", "suggest", "looking for", "should i", "worth it", "worth buying", "worth the",
+        "what game", "any game", "games like", "game like", "refund", "sale", "discount", "deal",
+        "bundle", "cheap", "price", "gog", "humble", "drm", "which store", "wishlist", "backlog"
+      ],
+      "blockWords": [
+        "megathread", "daily discussion", "[meta]", "piracy", "pirate", "torrent", "crack",
+        "giveaway", "nsfw", "trump", "politic", "layoff", "ai generated", "ai-generated"
+      ]
+    }
+  }
+}
