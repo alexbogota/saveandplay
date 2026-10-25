@@ -1,0 +1,23 @@
+{
+  "madeAt": "2026-10-25T17:30:30.021Z",
+  "run": "40216782572",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices|article|/guides/how-to-read-game-price-history/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 6,
+      "link": "https://saveandplay.com/guides/how-to-read-game-price-history/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-price-history",
+      "text": "A flat price line is not proof of a bargain: our record of one GOG game has 15 readings over 21 days, and the sale price never moved. How to read a price chart:\nhttps://saveandplay.com/guides/how-to-read-game-price-history/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-price-history\n#PCGaming #GameDeals",
+      "approvedFile": "posts-approved-20261025-130506.json",
+      "approvedAt": "2026-10-25T13:05:06.520Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-25T17:30:32.797Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mypqd23z2a2y",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3mypqd23z2a2y",
+      "picture": true
+    }
+  ]
+}
