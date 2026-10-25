@@ -1,0 +1,39 @@
+{
+  "madeAt": "2026-10-25T05:29:04.409Z",
+  "run": "40165682646",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices|coop-2026-10-25|/servers/core-keeper/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 7,
+      "link": "https://saveandplay.com/servers/core-keeper/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-10-25",
+      "text": "Core Keeper is a mining sandbox for 2 to 8 players, with drop-in, drop-out online co-op.\nA rented server keeps your underground base online for the whole group.\n\nhttps://saveandplay.com/servers/core-keeper/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-10-25\n\n#PCGaming #CoreKeeper\nAd",
+      "approvedFile": "posts-approved-20261025-052841.json",
+      "approvedAt": "2026-10-25T05:28:41.268Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-25T05:29:07.467Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3myohz25pwo2v",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3myohz25pwo2v",
+      "picture": true
+    },
+    {
+      "key": "cozy|coop-2026-10-25|/servers/core-keeper/",
+      "account": "cozy",
+      "handle": "cozygame.bsky.social",
+      "n": 8,
+      "link": "https://saveandplay.com/servers/core-keeper/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=coop-2026-10-25",
+      "text": "Core Keeper is a mining sandbox for 2 to 8 players, with drop-in, drop-out online co-op.\nA rented server keeps your underground base online for the whole group.\n\nhttps://saveandplay.com/servers/core-keeper/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=coop-2026-10-25\n\n#CozyGames #CoreKeeper\nAd",
+      "approvedFile": "posts-approved-20261025-052841.json",
+      "approvedAt": "2026-10-25T05:28:41.268Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-25T05:29:09.485Z",
+      "postUri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3myohz3wlgo2e",
+      "postUrl": "https://bsky.app/profile/cozygame.bsky.social/post/3myohz3wlgo2e",
+      "picture": true
+    }
+  ]
+}
