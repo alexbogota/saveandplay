@@ -1,8 +1,8 @@
-Hitman: Absolution: -90% at GOG
-$1.99 (was $19.99)
-Price checked Oct 24. Sale ends Oct 29.
+Control Ultimate Edition: -85% at GOG
+$5.99 (was $39.99)
+Price checked Oct 25. Sale ends Oct 27. Lowest price we've tracked.
 
-https://saveandplay.com/deals/gog/hitman-absolution/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-24
+https://saveandplay.com/deals/gog/control-ultimate-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-25
 
-#PCGaming #GameDeals #PCGames #GOG #Gaming
+#PCGaming #GameDeals #ControlUltimateEdition #VideoGames #DRMFree
 Ad

@@ -1,195 +1,10 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-10-24T11:19:52.571Z",
-  "builtBy": "commit 1da5641, schedule, run #25 attempt 1",
-  "pricesCheckedAt": "2026-10-24T09:58:08.034Z",
+  "generatedAt": "2026-10-25T11:20:01.616Z",
+  "builtBy": "commit a96f204, schedule, run #26 attempt 1",
+  "pricesCheckedAt": "2026-10-25T10:01:22.742Z",
   "warnings": [],
   "candidates": [
-    {
-      "id": "gog-hitman-absolution",
-      "kind": "deal",
-      "title": "Hitman: Absolution",
-      "store": "GOG",
-      "price": 1.99,
-      "was": 19.99,
-      "discount": 90,
-      "endsAt": "2026-10-29T09:59:00+02:00",
-      "endsInHours": 117,
-      "priceCheckedAt": "2026-10-24T09:58:08.034Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203140/header.jpg?t=1734461136",
-      "drminfo": null,
-      "coverAlt": "Cover art for Hitman: Absolution",
-      "facts": {
-        "year": 2012,
-        "genres": [
-          "Action",
-          "TPP",
-          "Stealth"
-        ],
-        "tags": [
-          "Action",
-          "Story Rich",
-          "Atmospheric",
-          "Classic",
-          "Tactical",
-          "Third Person",
-          "Mature",
-          "Difficult",
-          "Stealth",
-          "Crime"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 13,
-      "discountRank": 4,
-      "sites": 1,
-      "mentions": [
-        {
-          "source": "gg.deals Freebies",
-          "domain": "gg.deals",
-          "title": "Get Hitman Absolution's Switch 2 upgrade FREE even if you don't own the game!",
-          "link": "https://gg.deals/freebie/get-hitman-absolutions-switch-2-upgrade-free-even-if-you-dont-own-the-game/",
-          "t": 1792755420000,
-          "how": "title"
-        },
-        {
-          "source": "gg.deals News",
-          "domain": "gg.deals",
-          "title": "Get Hitman Absolution's Switch 2 upgrade FREE even if you don't own the game!",
-          "link": "https://gg.deals/freebie/get-hitman-absolutions-switch-2-upgrade-free-even-if-you-dont-own-the-game/",
-          "t": 1792755420000,
-          "how": "title"
-        }
-      ],
-      "history": {
-        "days": 5,
-        "lowest": false,
-        "since": "2026-10-20"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/hitman-absolution/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-24",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "1 news site wrote about the game in the last 48 h",
-        "deepest-discount rank 4 of 22"
-      ]
-    },
-    {
-      "id": "gog-dragon-s-dogma-dark-arisen",
-      "kind": "deal",
-      "title": "Dragon's Dogma: Dark Arisen",
-      "store": "GOG",
-      "price": 4.79,
-      "was": 29.99,
-      "discount": 84,
-      "endsAt": "2026-10-26T09:59:00+02:00",
-      "endsInHours": 45,
-      "priceCheckedAt": "2026-10-24T09:58:08.034Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367500/header.jpg?t=1768870344",
-      "drminfo": null,
-      "coverAlt": "Cover art for Dragon's Dogma: Dark Arisen",
-      "facts": {
-        "year": 2016,
-        "genres": [
-          "Role-playing",
-          "Action",
-          "Open World"
-        ],
-        "tags": [
-          "Action",
-          "Fantasy",
-          "Story Rich",
-          "Atmospheric",
-          "Role-playing",
-          "Exploration",
-          "Great Soundtrack",
-          "Third Person",
-          "Open World",
-          "Multiplayer",
-          "Difficult",
-          "JRPG",
-          "Magic",
-          "Hack and Slash"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 11.4,
-      "discountRank": 12,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 7,
-        "lowest": false,
-        "since": "2026-10-18"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/dragon-s-dogma-dark-arisen/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-24",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "sale ends in 45 h",
-        "deepest-discount rank 12 of 22"
-      ]
-    },
-    {
-      "id": "gog-darkest-dungeon",
-      "kind": "deal",
-      "title": "Darkest Dungeon",
-      "store": "GOG",
-      "price": 3.75,
-      "was": 24.99,
-      "discount": 85,
-      "endsAt": "2026-10-28T15:59:00+02:00",
-      "endsInHours": 99,
-      "priceCheckedAt": "2026-10-24T09:58:08.034Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187",
-      "drminfo": null,
-      "coverAlt": "Cover art for Darkest Dungeon",
-      "facts": {
-        "year": 2016,
-        "genres": [
-          "Role-playing",
-          "Turn-based",
-          "Fantasy"
-        ],
-        "tags": [
-          "Indie",
-          "Fantasy",
-          "Atmospheric",
-          "Role-playing",
-          "2D",
-          "Turn-Based",
-          "Dark",
-          "Horror",
-          "Difficult",
-          "Roguelike",
-          "Roguelite",
-          "Dungeon Crawler",
-          "Lovecraftian",
-          "Perma Death",
-          "Petting Dogs"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 10.5,
-      "discountRank": 11,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 15,
-        "lowest": true,
-        "since": "2026-10-07"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-24",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "lowest price we've tracked (15 days of data)",
-        "deepest-discount rank 11 of 22"
-      ]
-    },
     {
       "id": "gog-control-ultimate-edition",
       "kind": "deal",
@@ -199,8 +14,8 @@
       "was": 39.99,
       "discount": 85,
       "endsAt": "2026-10-27T09:59:00+02:00",
-      "endsInHours": 69,
-      "priceCheckedAt": "2026-10-24T09:58:08.034Z",
+      "endsInHours": 45,
+      "priceCheckedAt": "2026-10-25T09:57:47.578Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/870780/ec621653454cdad232187af4eb79f23c05aceca5/header.jpg?t=1781607969",
       "drminfo": null,
       "coverAlt": "Cover art for Control Ultimate Edition",
@@ -228,73 +43,248 @@
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 10.5,
+      "score": 12.5,
+      "discountRank": 5,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 15,
+        "lowest": true,
+        "since": "2026-10-05"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/control-ultimate-edition/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-25",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "sale ends in 45 h",
+        "lowest price we've tracked (15 days of data)",
+        "deepest-discount rank 5 of 22"
+      ]
+    },
+    {
+      "id": "gog-rebel-galaxy",
+      "kind": "deal",
+      "title": "Rebel Galaxy",
+      "store": "GOG",
+      "price": 1.99,
+      "was": 19.99,
+      "discount": 90,
+      "endsAt": "2026-10-27T09:59:00+02:00",
+      "endsInHours": 45,
+      "priceCheckedAt": "2026-10-25T09:57:47.578Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/290300/header.jpg?t=1778077786",
+      "drminfo": null,
+      "coverAlt": "Cover art for Rebel Galaxy",
+      "facts": {
+        "year": 2015,
+        "genres": [
+          "Action",
+          "Adventure",
+          "Open World"
+        ],
+        "tags": [
+          "Adventure",
+          "Action",
+          "Atmospheric",
+          "2D",
+          "Exploration",
+          "Science",
+          "Great Soundtrack",
+          "Third Person",
+          "Open World",
+          "Sandbox",
+          "Space",
+          "Trading"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 12,
+      "discountRank": 2,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 8,
+        "lowest": false,
+        "since": "2026-10-18"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/rebel-galaxy/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-25",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "sale ends in 45 h",
+        "deepest-discount rank 2 of 22"
+      ]
+    },
+    {
+      "id": "gog-xcom-2",
+      "kind": "deal",
+      "title": "XCOM 2",
+      "store": "GOG",
+      "price": 2.99,
+      "was": 19.99,
+      "discount": 85,
+      "endsAt": "2026-10-27T09:59:00+02:00",
+      "endsInHours": 45,
+      "priceCheckedAt": "2026-10-25T09:57:47.578Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268500/header.jpg?t=1772813016",
+      "drminfo": null,
+      "coverAlt": "Cover art for XCOM 2",
+      "facts": {
+        "year": 2016,
+        "genres": [
+          "Strategy",
+          "Turn-based",
+          "Sci-fi"
+        ],
+        "tags": [
+          "Strategy",
+          "Sci-fi",
+          "Turn-Based",
+          "Science",
+          "Tactical",
+          "Perma Death"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 11.5,
+      "discountRank": 8,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 13,
+        "lowest": false,
+        "since": "2026-10-13"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/xcom-2/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-25",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "sale ends in 45 h",
+        "deepest-discount rank 8 of 22"
+      ]
+    },
+    {
+      "id": "gog-mad-max",
+      "kind": "deal",
+      "title": "Mad Max",
+      "store": "GOG",
+      "price": 2.99,
+      "was": 19.99,
+      "discount": 85,
+      "endsAt": "2026-10-26T09:59:00+02:00",
+      "endsInHours": 21,
+      "priceCheckedAt": "2026-10-25T09:57:47.578Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/234140/header.jpg?t=1780595138",
+      "drminfo": null,
+      "coverAlt": "Cover art for Mad Max",
+      "facts": {
+        "year": 2015,
+        "genres": [
+          "Action",
+          "Adventure",
+          "Survival"
+        ],
+        "tags": [
+          "Adventure",
+          "Action",
+          "Story Rich",
+          "Atmospheric",
+          "Exploration",
+          "Third Person",
+          "Open World",
+          "Survival",
+          "Post-apocalyptic",
+          "Survival Horror",
+          "Good Old Game"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 11.5,
+      "discountRank": 9,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 7,
+        "lowest": false,
+        "since": "2026-10-19"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/mad-max/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-25",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "sale ends in 21 h",
+        "deepest-discount rank 9 of 22"
+      ]
+    },
+    {
+      "id": "gog-homeworld-remastered-collection",
+      "kind": "deal",
+      "title": "Homeworld Remastered Collection",
+      "store": "GOG",
+      "price": 5.25,
+      "was": 34.99,
+      "discount": 85,
+      "endsAt": "2026-10-27T09:59:00+02:00",
+      "endsInHours": 45,
+      "priceCheckedAt": "2026-10-25T09:57:47.578Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244160/header.jpg?t=1781819205",
+      "drminfo": null,
+      "coverAlt": "Cover art for Homeworld Remastered Collection",
+      "facts": {
+        "year": 2015,
+        "genres": [
+          "Strategy",
+          "Real-time",
+          "Sci-fi"
+        ],
+        "tags": [
+          "Story Rich",
+          "Atmospheric",
+          "Strategy",
+          "Sci-fi",
+          "Classic",
+          "Science",
+          "Great Soundtrack",
+          "Tactical",
+          "Real-Time",
+          "Space",
+          "RTS",
+          "Remake"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 11.5,
       "discountRank": 6,
       "sites": 0,
       "mentions": [],
       "history": {
         "days": 14,
-        "lowest": true,
-        "since": "2026-10-05"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/control-ultimate-edition/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-24",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "lowest price we've tracked (14 days of data)",
-        "deepest-discount rank 6 of 22"
-      ]
-    },
-    {
-      "id": "gog-saints-row-iv-re-elected",
-      "kind": "deal",
-      "title": "Saints Row IV: Re-Elected",
-      "store": "GOG",
-      "price": 4.99,
-      "was": 19.99,
-      "discount": 75,
-      "endsAt": "2026-10-26T09:59:00+02:00",
-      "endsInHours": 45,
-      "priceCheckedAt": "2026-10-24T09:58:08.034Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/206420/header.jpg?t=1764670979",
-      "drminfo": null,
-      "coverAlt": "Cover art for Saints Row IV: Re-Elected",
-      "facts": {
-        "year": 2013,
-        "genres": [
-          "Action",
-          "TPP",
-          "Open World"
-        ],
-        "tags": [
-          "Action",
-          "Classic",
-          "Third Person",
-          "Open World"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 10.5,
-      "discountRank": 19,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 5,
         "lowest": false,
-        "since": "2026-10-20"
+        "since": "2026-10-07"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/saints-row-iv-re-elected/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-24",
+      "link": "https://saveandplay.com/deals/gog/homeworld-remastered-collection/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-25",
       "linkKind": "link to our site",
       "whyToday": [
         "sale ends in 45 h",
-        "deepest-discount rank 19 of 22"
+        "deepest-discount rank 6 of 22"
       ]
     }
   ],
   "gogNews": [],
   "topical": [
+    {
+      "title": "Top 50 Steam deals for October 19–25 include Resident Evil 4, GTFO, and more",
+      "source": "gg.deals News",
+      "link": "https://gg.deals/deal/top-steam-deals-for-october-19-25/",
+      "t": 1792923000000,
+      "keyword": "deals",
+      "summary": "Another week, another batch of tempting Steam discounts!"
+    },
     {
       "title": "New FREE games this weekend (October 24-25): your comprehensive roundup",
       "source": "gg.deals Freebies",
@@ -304,103 +294,15 @@
       "summary": "Free to keep, yours to try, new subscription additions&hellip; and demos. Lots and lots of demos. All gathered in one place."
     },
     {
-      "title": "Humble’s Phunkier Physics Bundle gives you 10 games to build, break, and experiment with",
-      "source": "gg.deals News",
-      "link": "https://gg.deals/bundle/humbles-phunkier-physics-bundle-gives-you-10-games-to-build-break-and-experiment-with/",
-      "t": 1792781455000,
+      "title": "Digiphile Social Multiplayer Bundle: 7 Steam Games Including Wobbly Life and Roadside Research for $16",
+      "source": "Indie Game Bundles",
+      "link": "https://www.indiegamebundles.com/digiphile-social-multiplayer-bundle/",
+      "t": 1792833540000,
       "keyword": "bundle",
-      "summary": "Check out some physics-based goodness from Humble."
-    },
-    {
-      "title": "With Minecraft and Diablo shows already on the way, Netflix reportedly offered Xbox $500m for a bigger film and TV deal",
-      "source": "Eurogamer",
-      "link": "https://www.eurogamer.net/netflix-500m-xbox-film-tv-rights",
-      "t": 1792780737000,
-      "keyword": "deal",
-      "summary": "A deal between Netflix and Xbox has supposedly fallen through because of one minor quibble: Netflix wanted to adapt the console maker's games for $500m, not $8…"
+      "summary": "The collection focuses on co-op adventures, party games, and multiplayer simulations. The post Digiphile Social Multiplayer Bundle: 7 Steam Games Including Wob…"
     }
   ],
   "topics": [
-    {
-      "headline": "Cyberpunk 2077's new dual wielding has already been modded to include shotguns and rifles, provided you're down to get \"janky and wildly overpowered\"",
-      "score": 11,
-      "sites": [
-        "gg.deals",
-        "pcgamer.com",
-        "rockpapershotgun.com"
-      ],
-      "keywords": [
-        "free"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals Freebies",
-          "title": "FREE Cyberpunk 2077 Update 2.5 is here, bringing dual-wielding, Edgerunners 2 content, and more",
-          "link": "https://gg.deals/freebie/free-cyberpunk-2077-update-2-5-is-here/",
-          "published": "2026-10-22T15:30:00.000Z"
-        },
-        {
-          "source": "PC Gamer",
-          "title": "How to dual wield in Cyberpunk 2077",
-          "link": "https://www.pcgamer.com/games/rpg/how-to-dual-wield-in-cyberpunk-2077/",
-          "published": "2026-10-22T19:35:48.000Z"
-        },
-        {
-          "source": "Rock Paper Shotgun",
-          "title": "Cyberpunk 2077's new dual wielding has already been modded to include shotguns and rifles, provided you're down to get \"janky and wildly overpowered\"",
-          "link": "https://www.rockpapershotgun.com/cyberpunk-2077s-new-dual-wielding-has-already-been-modded-to-include-shotguns-and-rifles-provided-youre-down-to-get-janky-and-wildly-overpowered",
-          "published": "2026-10-23T09:30:58.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Steam’s Tomb Raider 30th Anniversary Sale cuts up to 90% off Lara’s adventures",
-      "score": 8,
-      "sites": [
-        "gg.deals"
-      ],
-      "keywords": [
-        "sale"
-      ],
-      "games": [
-        "Tomb Raider Game of the Year"
-      ],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "Steam’s Tomb Raider 30th Anniversary Sale cuts up to 90% off Lara’s adventures",
-          "link": "https://gg.deals/deal/steams-tomb-raider-30th-anniversary-sale/",
-          "published": "2026-10-23T17:53:17.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Sker Ritual (Epic Games) Giveaway",
-      "score": 8,
-      "sites": [
-        "gamerpower.com",
-        "indiegamebundles.com"
-      ],
-      "keywords": [
-        "free"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "GamerPower (PC)",
-          "title": "Sker Ritual (Epic Games) Giveaway",
-          "link": "https://www.gamerpower.com/sker-ritual",
-          "published": "2026-10-22T15:19:05.000Z"
-        },
-        {
-          "source": "Indie Game Bundles",
-          "title": "Sker Ritual is free on Epic Games Store This Week Only",
-          "link": "https://www.indiegamebundles.com/sker-ritual-is-free-on-epic-games-store-this-week-only/",
-          "published": "2026-10-22T14:59:00.000Z"
-        }
-      ]
-    },
     {
       "headline": "Humble Puzzlers to Puzzle You Bundle: 8 Steam Games Including INDIKA, Braid, and Dungeons of Hinterberg for $15",
       "score": 7,
@@ -440,10 +342,71 @@
           "published": "2026-10-23T21:06:18.000Z"
         }
       ]
+    },
+    {
+      "headline": "Humble’s Phunkier Physics Bundle gives you 10 games to build, break, and experiment with",
+      "score": 7,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "bundle",
+        "humble"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Humble’s Phunkier Physics Bundle gives you 10 games to build, break, and experiment with",
+          "link": "https://gg.deals/bundle/humbles-phunkier-physics-bundle-gives-you-10-games-to-build-break-and-experiment-with/",
+          "published": "2026-10-23T18:50:55.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Humble’s Puzzlers to Puzzle You Bundle offers a proper mental workout from $8",
+      "score": 7,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "bundle",
+        "humble"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Humble’s Puzzlers to Puzzle You Bundle offers a proper mental workout from $8",
+          "link": "https://gg.deals/bundle/humbles-puzzlers-to-puzzle-you-bundle-offers-a-proper-mental-workout-from-8/",
+          "published": "2026-10-23T18:26:00.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Nuuvem’s Halloween Sale brings spooky savings plus extra GG.deals discount codes!",
+      "score": 7,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "sale",
+        "discount",
+        "deals"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Nuuvem’s Halloween Sale brings spooky savings plus extra GG.deals discount codes!",
+          "link": "https://gg.deals/deal/nuuvems-halloween-sale-brings-spooky-savings-plus-extra-ggdeals-discount-codes/",
+          "published": "2026-10-23T15:56:33.000Z"
+        }
+      ]
     }
   ],
   "left": {
-    "otherStore": 15,
+    "otherStore": 0,
     "hidden": 0,
     "notNiche": 0,
     "noFacts": 0,

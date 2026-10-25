@@ -1,8 +1,8 @@
 {
   "account": "Retro game deals",
-  "generatedAt": "2026-10-24T11:19:52.571Z",
-  "builtBy": "commit 1da5641, schedule, run #25 attempt 1",
-  "pricesCheckedAt": "2026-10-24T09:58:08.034Z",
+  "generatedAt": "2026-10-25T11:20:01.616Z",
+  "builtBy": "commit a96f204, schedule, run #26 attempt 1",
+  "pricesCheckedAt": "2026-10-25T10:01:22.742Z",
   "warnings": [
     "NOTHING TO OFFER today.",
     "No game fits the niche today (1 fit the rule, 22 do not, 0 have no facts yet, 1 were taken by another account today, 0 under 50%, 0 prices older than 48 h, 0 sales over or ending soon)."
@@ -17,7 +17,7 @@
   "topical": [],
   "topics": [],
   "left": {
-    "otherStore": 16,
+    "otherStore": 1,
     "hidden": 0,
     "notNiche": 22,
     "noFacts": 0,

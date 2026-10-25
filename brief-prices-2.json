@@ -1,62 +1,172 @@
 {
   "account": "Honest prices (second deal of the day)",
-  "generatedAt": "2026-10-24T11:19:52.571Z",
-  "builtBy": "commit 1da5641, schedule, run #25 attempt 1",
-  "pricesCheckedAt": "2026-10-24T09:58:08.034Z",
+  "generatedAt": "2026-10-25T11:20:01.616Z",
+  "builtBy": "commit a96f204, schedule, run #26 attempt 1",
+  "pricesCheckedAt": "2026-10-25T10:01:22.742Z",
   "warnings": [],
   "candidates": [
     {
-      "id": "gog-mad-max",
+      "id": "gog-metro-exodus",
       "kind": "deal",
-      "title": "Mad Max",
+      "title": "Metro Exodus",
+      "store": "GOG",
+      "price": 2.99,
+      "was": 29.99,
+      "discount": 90,
+      "endsAt": "2026-10-27T09:59:00+02:00",
+      "endsInHours": 45,
+      "priceCheckedAt": "2026-10-25T09:57:47.578Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804",
+      "drminfo": null,
+      "coverAlt": "Cover art for Metro Exodus",
+      "facts": {
+        "year": 2019,
+        "genres": [
+          "Shooter",
+          "FPP",
+          "Sci-fi"
+        ],
+        "tags": [
+          "Story Rich",
+          "Atmospheric",
+          "Sci-fi",
+          "First-Person",
+          "Science",
+          "Horror",
+          "Mature",
+          "Nudity",
+          "Survival",
+          "Violent",
+          "Gore",
+          "FPS",
+          "Shooter",
+          "Post-apocalyptic",
+          "Stealth",
+          "Survival Horror",
+          "Psychological Horror"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 12,
+      "discountRank": 2,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 8,
+        "lowest": false,
+        "since": "2026-10-18"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-25",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "sale ends in 45 h",
+        "deepest-discount rank 2 of 23"
+      ]
+    },
+    {
+      "id": "gog-xcom-2",
+      "kind": "deal",
+      "title": "XCOM 2",
       "store": "GOG",
       "price": 2.99,
       "was": 19.99,
       "discount": 85,
-      "endsAt": "2026-10-26T09:59:00+02:00",
+      "endsAt": "2026-10-27T09:59:00+02:00",
       "endsInHours": 45,
-      "priceCheckedAt": "2026-10-24T09:58:08.034Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/234140/header.jpg?t=1780595138",
+      "priceCheckedAt": "2026-10-25T09:57:47.578Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268500/header.jpg?t=1772813016",
       "drminfo": null,
-      "coverAlt": "Cover art for Mad Max",
+      "coverAlt": "Cover art for XCOM 2",
       "facts": {
-        "year": 2015,
+        "year": 2016,
         "genres": [
-          "Action",
-          "Adventure",
-          "Survival"
+          "Strategy",
+          "Turn-based",
+          "Sci-fi"
         ],
         "tags": [
-          "Adventure",
-          "Action",
-          "Story Rich",
-          "Atmospheric",
-          "Exploration",
-          "Third Person",
-          "Open World",
-          "Survival",
-          "Post-apocalyptic",
-          "Survival Horror",
-          "Good Old Game"
+          "Strategy",
+          "Sci-fi",
+          "Turn-Based",
+          "Science",
+          "Tactical",
+          "Perma Death"
         ]
       },
       "marketplace": false,
       "compareTo": null,
       "score": 11.5,
-      "discountRank": 9,
+      "discountRank": 8,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 6,
+        "days": 13,
         "lowest": false,
-        "since": "2026-10-19"
+        "since": "2026-10-13"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/mad-max/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-24",
+      "link": "https://saveandplay.com/deals/gog/xcom-2/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-25",
       "linkKind": "link to our site",
       "whyToday": [
         "sale ends in 45 h",
-        "deepest-discount rank 9 of 23"
+        "deepest-discount rank 8 of 23"
+      ]
+    },
+    {
+      "id": "gog-homeworld-remastered-collection",
+      "kind": "deal",
+      "title": "Homeworld Remastered Collection",
+      "store": "GOG",
+      "price": 5.25,
+      "was": 34.99,
+      "discount": 85,
+      "endsAt": "2026-10-27T09:59:00+02:00",
+      "endsInHours": 45,
+      "priceCheckedAt": "2026-10-25T09:57:47.578Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244160/header.jpg?t=1781819205",
+      "drminfo": null,
+      "coverAlt": "Cover art for Homeworld Remastered Collection",
+      "facts": {
+        "year": 2015,
+        "genres": [
+          "Strategy",
+          "Real-time",
+          "Sci-fi"
+        ],
+        "tags": [
+          "Story Rich",
+          "Atmospheric",
+          "Strategy",
+          "Sci-fi",
+          "Classic",
+          "Science",
+          "Great Soundtrack",
+          "Tactical",
+          "Real-Time",
+          "Space",
+          "RTS",
+          "Remake"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 11.5,
+      "discountRank": 6,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 14,
+        "lowest": false,
+        "since": "2026-10-07"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/homeworld-remastered-collection/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-25",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "sale ends in 45 h",
+        "deepest-discount rank 6 of 23"
       ]
     },
     {
@@ -68,8 +178,8 @@
       "was": 29.99,
       "discount": 84,
       "endsAt": "2026-10-26T09:59:00+02:00",
-      "endsInHours": 45,
-      "priceCheckedAt": "2026-10-24T09:58:08.034Z",
+      "endsInHours": 21,
+      "priceCheckedAt": "2026-10-25T09:57:47.578Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367500/header.jpg?t=1768870344",
       "drminfo": null,
       "coverAlt": "Cover art for Dragon's Dogma: Dark Arisen",
@@ -104,179 +214,72 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 7,
+        "days": 8,
         "lowest": false,
         "since": "2026-10-18"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/dragon-s-dogma-dark-arisen/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-24",
+      "link": "https://saveandplay.com/deals/gog/dragon-s-dogma-dark-arisen/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-25",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 45 h",
+        "sale ends in 21 h",
         "deepest-discount rank 12 of 23"
       ]
     },
     {
-      "id": "gog-control-ultimate-edition",
+      "id": "gog-doom-2016",
       "kind": "deal",
-      "title": "Control Ultimate Edition",
+      "title": "DOOM (2016)",
       "store": "GOG",
-      "price": 5.99,
-      "was": 39.99,
-      "discount": 85,
+      "price": 3.99,
+      "was": 19.99,
+      "discount": 80,
       "endsAt": "2026-10-27T09:59:00+02:00",
-      "endsInHours": 69,
-      "priceCheckedAt": "2026-10-24T09:58:08.034Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/870780/ec621653454cdad232187af4eb79f23c05aceca5/header.jpg?t=1781607969",
+      "endsInHours": 45,
+      "priceCheckedAt": "2026-10-25T09:57:47.578Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/379720/header.jpg?t=1750784856",
       "drminfo": null,
-      "coverAlt": "Cover art for Control Ultimate Edition",
+      "coverAlt": "Cover art for DOOM (2016)",
       "facts": {
-        "year": 2020,
+        "year": 2016,
         "genres": [
-          "Action",
-          "Adventure",
+          "Shooter",
+          "FPP",
           "Sci-fi"
         ],
         "tags": [
-          "Adventure",
-          "Action",
-          "Story Rich",
           "Atmospheric",
           "Sci-fi",
+          "First-Person",
           "Science",
-          "Female Protagonist",
           "Horror",
-          "Third Person",
-          "Psychological Horror",
-          "Surreal",
-          "Supernatural"
+          "Great Soundtrack",
+          "Multiplayer",
+          "Violent",
+          "Difficult",
+          "Gore",
+          "FPS",
+          "Shooter",
+          "Remake"
         ]
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 10.5,
-      "discountRank": 5,
+      "score": 11,
+      "discountRank": 14,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 14,
-        "lowest": true,
+        "days": 9,
+        "lowest": false,
         "since": "2026-10-05"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/control-ultimate-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-24",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "lowest price we've tracked (14 days of data)",
-        "deepest-discount rank 5 of 23"
-      ]
-    },
-    {
-      "id": "gog-saints-row-iv-re-elected",
-      "kind": "deal",
-      "title": "Saints Row IV: Re-Elected",
-      "store": "GOG",
-      "price": 4.99,
-      "was": 19.99,
-      "discount": 75,
-      "endsAt": "2026-10-26T09:59:00+02:00",
-      "endsInHours": 45,
-      "priceCheckedAt": "2026-10-24T09:58:08.034Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/206420/header.jpg?t=1764670979",
-      "drminfo": null,
-      "coverAlt": "Cover art for Saints Row IV: Re-Elected",
-      "facts": {
-        "year": 2013,
-        "genres": [
-          "Action",
-          "TPP",
-          "Open World"
-        ],
-        "tags": [
-          "Action",
-          "Classic",
-          "Third Person",
-          "Open World"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 10.5,
-      "discountRank": 19,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 5,
-        "lowest": false,
-        "since": "2026-10-20"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/saints-row-iv-re-elected/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-24",
+      "link": "https://saveandplay.com/deals/gog/doom-2016/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-25",
       "linkKind": "link to our site",
       "whyToday": [
         "sale ends in 45 h",
-        "deepest-discount rank 19 of 23"
-      ]
-    },
-    {
-      "id": "gog-disco-elysium-the-final-cut",
-      "kind": "deal",
-      "title": "Disco Elysium - The Final Cut",
-      "store": "GOG",
-      "price": 9.99,
-      "was": 39.99,
-      "discount": 75,
-      "endsAt": "2026-10-26T09:59:00+02:00",
-      "endsInHours": 45,
-      "priceCheckedAt": "2026-10-24T09:58:08.034Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632470/816ea59d6d8ac525f79a07c3a7afa94eddb3437c/header.jpg?t=1780913406",
-      "drminfo": null,
-      "coverAlt": "Cover art for Disco Elysium - The Final Cut",
-      "facts": {
-        "year": 2019,
-        "genres": [
-          "Role-playing",
-          "Fantasy",
-          "Point-and-click"
-        ],
-        "tags": [
-          "Indie",
-          "Fantasy",
-          "Story Rich",
-          "Atmospheric",
-          "Role-playing",
-          "Exploration",
-          "Choices Matter",
-          "Funny",
-          "Open World",
-          "Visual Novel",
-          "Point&Click",
-          "Sexual Content",
-          "Isometric",
-          "Investigation",
-          "Surreal",
-          "LGBTQ+",
-          "CRPG",
-          "Noir"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 10.5,
-      "discountRank": 18,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 8,
-        "lowest": false,
-        "since": "2026-10-07"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/disco-elysium-the-final-cut/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-24",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "sale ends in 45 h",
-        "deepest-discount rank 18 of 23"
+        "deepest-discount rank 14 of 23"
       ]
     }
   ],
@@ -284,7 +287,7 @@
   "topical": [],
   "topics": [],
   "left": {
-    "otherStore": 15,
+    "otherStore": 0,
     "hidden": 0,
     "notNiche": 0,
     "noFacts": 0,
@@ -300,18 +303,18 @@
   },
   "posts": {
     "x": {
-      "text": "Mad Max: -85% at GOG\n$2.99 (was $19.99)\nPrice checked Oct 24. Sale ends Oct 26.\n\nhttps://saveandplay.com/deals/gog/mad-max/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-24\n\n#PCGaming #GameDeals\nAd",
-      "length": 129,
+      "text": "Metro Exodus: -90% at GOG\n$2.99 (was $29.99)\nPrice checked Oct 25. Sale ends Oct 27.\n\nhttps://saveandplay.com/deals/gog/metro-exodus/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-25\n\n#PCGaming #GOG\nAd",
+      "length": 128,
       "max": 270,
-      "link": "https://saveandplay.com/deals/gog/mad-max/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-24",
-      "deal": "gog-mad-max"
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-25",
+      "deal": "gog-metro-exodus"
     },
     "bluesky": {
-      "text": "Mad Max: -85% at GOG\n$2.99 (was $19.99)\nPrice checked Oct 24. Sale ends Oct 26.\n\nhttps://saveandplay.com/deals/gog/mad-max/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-24\n\n#PCGaming #GameDeals #MadMax #Games #DRMFree\nAd",
-      "length": 155,
+      "text": "Metro Exodus: -90% at GOG\n$2.99 (was $29.99)\nPrice checked Oct 25. Sale ends Oct 27.\n\nhttps://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-25\n\n#PCGaming #GameDeals #PCGames #GOG #VideoGames\nAd",
+      "length": 162,
       "max": 300,
-      "link": "https://saveandplay.com/deals/gog/mad-max/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-24",
-      "deal": "gog-mad-max"
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-25",
+      "deal": "gog-metro-exodus"
     }
   }
 }
