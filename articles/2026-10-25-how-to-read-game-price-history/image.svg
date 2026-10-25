@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#0D1117"/>
+<rect x="56" y="22" width="1088" height="586" rx="28" fill="#161B22" stroke="#262D38"/>
+<text x="100" y="95" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="44" font-weight="800" fill="#FFFFFF">How to read a game's price history</text>
+<text x="100" y="140" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="28" fill="#9AA5B4">Real readings, Control Ultimate Edition on GOG</text>
+<line x1="150" y1="230" x2="1060" y2="230" stroke="#FFB454" stroke-width="4" stroke-dasharray="14 10"/>
+<text x="150" y="214" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="28" font-weight="700" fill="#E8ECF1">Crossed-out price: $39.99</text>
+<line x1="150" y1="440" x2="1060" y2="440" stroke="#3DDC97" stroke-width="4"/>
+<g fill="#3DDC97"><circle cx="150" cy="440" r="8"/><circle cx="240" cy="440" r="8"/><circle cx="520" cy="440" r="8"/><circle cx="600" cy="440" r="8"/><circle cx="680" cy="440" r="8"/><circle cx="760" cy="440" r="8"/><circle cx="840" cy="440" r="8"/><circle cx="920" cy="440" r="8"/><circle cx="1000" cy="440" r="8"/><circle cx="1060" cy="440" r="8"/></g>
+<text x="150" y="420" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="28" font-weight="700" fill="#3DDC97">Sale price: $5.99, 15 of 15 readings</text>
+<rect x="290" y="300" width="190" height="80" rx="12" fill="none" stroke="#9AA5B4" stroke-width="2" stroke-dasharray="6 6"/>
+<text x="385" y="334" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="26" text-anchor="middle" fill="#9AA5B4">no readings</text>
+<text x="385" y="366" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="26" text-anchor="middle" fill="#9AA5B4">Oct 8 to 12</text>
+<text x="150" y="500" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="26" fill="#9AA5B4">Oct 5</text>
+<text x="1060" y="500" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="26" text-anchor="end" fill="#9AA5B4">Oct 25, 2026</text>
+<rect x="100" y="530" width="560" height="56" rx="12" fill="#FFB454"/>
+<text x="380" y="567" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#1B1203">A short history is a weak history</text>
+</svg>
