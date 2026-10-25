@@ -23,23 +23,23 @@
       }
     },
     "backlog": {
-      "runs": 143,
-      "posts": 3636,
+      "runs": 149,
+      "posts": 3788,
       "fit": 0,
       "last": {
         "posts": 22,
         "fit": 0,
-        "at": "2026-10-25T06:45:33.251Z"
+        "at": "2026-10-25T12:43:34.163Z"
       }
     },
     "deck": {
-      "runs": 123,
-      "posts": 6220,
-      "fit": 62,
+      "runs": 128,
+      "posts": 6421,
+      "fit": 68,
       "last": {
         "posts": 40,
-        "fit": 2,
-        "at": "2026-10-25T06:45:33.251Z"
+        "fit": 3,
+        "at": "2026-10-25T12:43:34.163Z"
       }
     },
     "bundles": {
@@ -53,53 +53,53 @@
       }
     },
     "practical": {
-      "runs": 103,
-      "posts": 4640,
-      "fit": 104,
+      "runs": 107,
+      "posts": 4800,
+      "fit": 111,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-25T06:45:33.251Z"
+        "at": "2026-10-25T12:43:34.163Z"
       }
     },
     "genres": {
-      "runs": 223,
-      "posts": 8920,
+      "runs": 233,
+      "posts": 9320,
       "fit": 27,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-25T06:45:33.251Z"
+        "at": "2026-10-25T12:43:34.163Z"
       }
     },
     "seasonal": {
-      "runs": 83,
-      "posts": 3202,
+      "runs": 86,
+      "posts": 3319,
       "fit": 3,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-25T06:45:33.251Z"
+        "at": "2026-10-25T12:43:34.163Z"
       }
     },
     "broadPlaying": {
-      "runs": 283,
-      "posts": 37400,
-      "fit": 612,
+      "runs": 296,
+      "posts": 38960,
+      "fit": 646,
       "last": {
-        "posts": 200,
-        "fit": 3,
-        "at": "2026-10-25T06:45:33.251Z"
+        "posts": 240,
+        "fit": 5,
+        "at": "2026-10-25T12:43:34.163Z"
       }
     },
     "broadAsk": {
-      "runs": 183,
-      "posts": 2826,
+      "runs": 191,
+      "posts": 2949,
       "fit": 0,
       "last": {
         "posts": 16,
         "fit": 0,
-        "at": "2026-10-25T06:45:33.251Z"
+        "at": "2026-10-25T12:43:34.163Z"
       }
     }
   },
@@ -294,7 +294,7 @@
       "name": "Jags-O-Lantern",
       "text": "#GamersOfMastodon, what is your GOTY so far? Asking before the GTA steamroller rolls in and stops this question being fun. #gaming #videoGames",
       "createdAt": "2026-10-24T17:58:41.666Z",
-      "likes": 1,
+      "likes": 2,
       "replies": 4,
       "group": "broadPlaying",
       "query": "videogames",
@@ -530,25 +530,6 @@
       "media": "link card: Do you keep Steam running in the background all the time? - StrawPoll",
       "firstSeen": "2026-10-25T00:46:37.220Z"
     },
-    "https://mastodon.social/@renwillis@mstdn.social/117498794459919630": {
-      "uri": "https://mastodon.social/@renwillis@mstdn.social/117498794459919630",
-      "url": "https://mastodon.social/@renwillis@mstdn.social/117498794459919630",
-      "handle": "renwillis@mstdn.social",
-      "name": "ren (a they/them) 🌈🎶",
-      "text": "First main boss fight and prologue complete! Let's head to Bose!!! Trails in the Sky 1st Chapter #trailsinthesky #jrpg #gaming #videogames",
-      "createdAt": "2026-10-25T00:48:34.000Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "videogames",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://mstdn.social/@renwillis/117498794130377667",
-      "media": "4 images: Screenshot from Trails in the Sky 1st Chapter / Screenshot from Trails in the Sky 1st Chapter / Screenshot from Trails in the Sky 1st Chapter / Screenshot from Trails in the Sky 1st Chapter",
-      "firstSeen": "2026-10-25T06:45:33.251Z"
-    },
     "https://mastodon.social/@crochetygamer@dice.camp/117499700406475139": {
       "uri": "https://mastodon.social/@crochetygamer@dice.camp/117499700406475139",
       "url": "https://mastodon.social/@crochetygamer@dice.camp/117499700406475139",
@@ -560,7 +541,7 @@
       "replies": 0,
       "group": "broadPlaying",
       "query": "rpg",
-      "score": 8,
+      "score": 7,
       "question": true,
       "heated": false,
       "isReply": false,
@@ -586,6 +567,173 @@
       "origin": "https://no.lastname.nz/post/4060669",
       "media": "link card: Do you keep Steam running in the background all the time? - StrawPoll",
       "firstSeen": "2026-10-25T06:45:33.251Z"
+    },
+    "https://mastodon.social/@pitcrewgg/117500687420804934": {
+      "uri": "https://mastodon.social/@pitcrewgg/117500687420804934",
+      "url": "https://mastodon.social/@pitcrewgg/117500687420804934",
+      "handle": "pitcrewgg@mastodon.social",
+      "name": "PitCrew",
+      "text": "🔄 SteamOS - 3.9 Update SteamOS 3.9.5 updates Arch base and Plasma 6.7.3, fixes WiFi and VRR issues, adds kernel 7.2 and default wpa_supplicant, plus early hibernation work 1/2 #Linux #LinuxGaming #PCGaming #Steam #ValveSoftware #LegionGo2 #LegionGoS #SteamDeck #SteamFrame #SteamMachine #SteamOS",
+      "createdAt": "2026-10-25T08:50:04.058Z",
+      "likes": 1,
+      "replies": 1,
+      "group": "deck",
+      "query": "steamdeck",
+      "score": 7,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image, no description",
+      "firstSeen": "2026-10-25T12:43:34.163Z"
+    },
+    "https://mastodon.social/@pitcrewgg/117500746402341518": {
+      "uri": "https://mastodon.social/@pitcrewgg/117500746402341518",
+      "url": "https://mastodon.social/@pitcrewgg/117500746402341518",
+      "handle": "pitcrewgg@mastodon.social",
+      "name": "PitCrew",
+      "text": "🔄 FlightGear - Release 2024.1.7 New release brings minor bug fixes to the free open source flight simulator. 1/2 #FlightGear #Linux #LinuxGaming #PCGaming #FlightSim #OpenSource #MetaQuest #OpenXR #PICO #Pimax #SteamFrame #SteamVR #VirtualReality #VR",
+      "createdAt": "2026-10-25T09:05:04.043Z",
+      "likes": 3,
+      "replies": 1,
+      "group": "practical",
+      "query": "linuxgaming",
+      "score": 7,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image, no description",
+      "firstSeen": "2026-10-25T12:43:34.163Z"
+    },
+    "https://mastodon.social/@repeatro/117500350755148496": {
+      "uri": "https://mastodon.social/@repeatro/117500350755148496",
+      "url": "https://mastodon.social/@repeatro/117500350755148496",
+      "handle": "repeatro@mastodon.social",
+      "name": "repeatro",
+      "text": "#RetroGuessr No. 173 🔍️️️️️️️️️️️️️️ What game's cover is this❓️️️️️️️️️️️️️️ If you can name the game shown in the picture, post it in the comments. 🤔 #retrogaming #gaming #quiz #videogames #videogaming #videogame #game #games #riddle",
+      "createdAt": "2026-10-25T07:24:26.957Z",
+      "likes": 1,
+      "replies": 5,
+      "group": "broadPlaying",
+      "query": "videogames",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image: Game case covered by a black bar. There can only be seen a small rectangular part of the cover.",
+      "firstSeen": "2026-10-25T12:43:34.163Z"
+    },
+    "https://mastodon.social/@mikelundahl@mastodon.world/117501142868722980": {
+      "uri": "https://mastodon.social/@mikelundahl@mastodon.world/117501142868722980",
+      "url": "https://mastodon.social/@mikelundahl@mastodon.world/117501142868722980",
+      "handle": "mikelundahl@mastodon.world",
+      "name": "Mike",
+      "text": "Hey gamers! What did you think about the Steam Next Fest? #SteamGames #Steam #SteamNextFest #SNF #PCGaming",
+      "createdAt": "2026-10-25T10:45:53.000Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "steamgames",
+      "score": 9,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://mastodon.world/@mikelundahl/117501142839288153",
+      "media": null,
+      "firstSeen": "2026-10-25T12:43:34.163Z"
+    },
+    "https://mastodon.social/@bat1000@sh.itjust.works/117501221359158971": {
+      "uri": "https://mastodon.social/@bat1000@sh.itjust.works/117501221359158971",
+      "url": "https://mastodon.social/@bat1000@sh.itjust.works/117501221359158971",
+      "handle": "bat1000@sh.itjust.works",
+      "name": "",
+      "text": "Neo Geo: Why Did Nobody Play These Fighting Games? https://sh.itjust.works/post/68899030",
+      "createdAt": "2026-10-25T11:05:51.977Z",
+      "likes": 0,
+      "replies": 1,
+      "group": "broadPlaying",
+      "query": "games",
+      "score": 8,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://sh.itjust.works/post/68899030",
+      "media": "link card: Neo Geo: Why Did Nobody Play These Fighting Games?",
+      "firstSeen": "2026-10-25T12:43:34.163Z"
+    },
+    "https://mastodon.social/@fkftsh@fkft.sh/117500884520093854": {
+      "uri": "https://mastodon.social/@fkftsh@fkft.sh/117500884520093854",
+      "url": "https://mastodon.social/@fkftsh@fkft.sh/117500884520093854",
+      "handle": "fkftsh@fkft.sh",
+      "name": "FKFTSH",
+      "text": "If there is any lesson to be taken from the demise of Mass Effect and Dragon Age, it should be this: we need to stop letting art be lost to corporations' IP hoards, especially art that has touched millions of people. Culture belongs to the people. #games #gaming #bioware",
+      "createdAt": "2026-10-25T09:40:05.000Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "games",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://fkft.sh/@fkftsh/117500884137160915",
+      "media": null,
+      "firstSeen": "2026-10-25T12:43:34.163Z"
+    },
+    "https://mastodon.social/@kandake@app.wafrn.net/117500711952987778": {
+      "uri": "https://mastodon.social/@kandake@app.wafrn.net/117500711952987778",
+      "url": "https://mastodon.social/@kandake@app.wafrn.net/117500711952987778",
+      "handle": "kandake@app.wafrn.net",
+      "name": "Kandake",
+      "text": "Allow me to hit you right in the nostalgia #Games #testing #isthisthingon",
+      "createdAt": "2026-10-25T08:56:18.681Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "games",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://app.wafrn.net/fediverse/post/01a17246-65f8-7479-a4f2-a1a35c5bdcb2",
+      "media": "2 images: I'm holding my Gameboy color in front of a retro carnival ride that has a sad imitation of it. / FFVI on ps vita",
+      "firstSeen": "2026-10-25T12:43:34.163Z"
+    },
+    "https://mastodon.social/@morestown/117498420759842868": {
+      "uri": "https://mastodon.social/@morestown/117498420759842868",
+      "url": "https://mastodon.social/@morestown/117498420759842868",
+      "handle": "morestown@mastodon.social",
+      "name": "MORES",
+      "text": "something random in me told me I should play slow damage so I'm working on that right now #mirbug #games",
+      "createdAt": "2026-10-24T23:13:37.554Z",
+      "likes": 1,
+      "replies": 1,
+      "group": "broadPlaying",
+      "query": "games",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": null,
+      "firstSeen": "2026-10-25T12:43:34.163Z"
+    },
+    "https://mastodon.social/@WhyNotZoidberg@topspicy.social/117500368317267191": {
+      "uri": "https://mastodon.social/@WhyNotZoidberg@topspicy.social/117500368317267191",
+      "url": "https://mastodon.social/@WhyNotZoidberg@topspicy.social/117500368317267191",
+      "handle": "WhyNotZoidberg@topspicy.social",
+      "name": "Why Not Zoidberg? 🦑",
+      "text": "Yes I restarted Cyberpunk 2077 after the new update (version 2.5 now). Anyway, I will never understand CD Project Red's choice of having the most awful lighting imaginable in the character creation screen. The skin tones don't match up with in-game lighting; this is the second palest skin tone that basically look like a ghost in the editor but is actually a dark tanned Caucasian skin color in-game (and I knew this, I am just telling you). #Gaming #Cyberpunk2077 #RPG",
+      "createdAt": "2026-10-25T07:28:48.000Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "rpg",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://topspicy.social/@WhyNotZoidberg/117500367920804716",
+      "media": "2 images: Woman standing on the edge of a balcony without railing smoking a cigarette / Woman standing with her arms crossed at the foot at some stairs in a nightclub (dark moody lights).",
+      "firstSeen": "2026-10-25T12:43:34.163Z"
     }
   }
 }

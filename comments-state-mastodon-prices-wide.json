@@ -8,43 +8,43 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 160,
-      "posts": 6680,
-      "fit": 83,
+      "runs": 168,
+      "posts": 7000,
+      "fit": 89,
       "last": {
         "posts": 40,
         "fit": 3,
-        "at": "2026-10-25T06:46:29.857Z"
+        "at": "2026-10-25T12:44:28.550Z"
       }
     },
     "moreAsk": {
-      "runs": 100,
-      "posts": 900,
+      "runs": 105,
+      "posts": 945,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-10-25T06:46:29.857Z"
+        "at": "2026-10-25T12:44:28.550Z"
       }
     },
     "moreRetro": {
-      "runs": 100,
-      "posts": 6440,
-      "fit": 230,
+      "runs": 105,
+      "posts": 6760,
+      "fit": 241,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-25T06:46:29.857Z"
+        "at": "2026-10-25T12:44:28.550Z"
       }
     },
     "morePlaying": {
-      "runs": 100,
-      "posts": 420,
+      "runs": 105,
+      "posts": 441,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-10-25T06:46:29.857Z"
+        "at": "2026-10-25T12:44:28.550Z"
       }
     }
   },
@@ -191,7 +191,7 @@
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 4,
+      "score": 3,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -205,7 +205,7 @@
       "name": "b4ux1t3 #1️⃣",
       "text": "I couldn’t help myself, I did a sort of test assembly to make sure I could get the hard parts together. I’ve done the shoulder buttons before so I’m pretty confident about those, so it should all come together pretty well tomorrow when the replacement screen comes. #nintendoDS #retroGaming #electronicsRepair",
       "createdAt": "2026-10-24T21:13:13.000Z",
-      "likes": 5,
+      "likes": 6,
       "replies": 1,
       "group": "moreRetro",
       "query": "retrogaming",
@@ -280,7 +280,7 @@
       "name": "Dr. G. Power",
       "text": "Basketbrawl may become my favourite 8 bit basketball game! The one I used to keep going back to was Basketball for the #Atari2600 Basketbrawl for the #Atari7800 is great! So much fun. #DoubleDribble was my childhood favourite but I don't play it often now. #retrogaming",
       "createdAt": "2026-10-24T19:18:50.857Z",
-      "likes": 6,
+      "likes": 7,
       "replies": 1,
       "group": "moreRetro",
       "query": "retrogaming",
@@ -290,6 +290,80 @@
       "isReply": false,
       "media": "image: Brasketbrawl Double Dribble and Basketball all side by side.",
       "firstSeen": "2026-10-25T00:47:25.385Z"
+    },
+    "https://mastodon.social/@repeatro/117500350755148496": {
+      "uri": "https://mastodon.social/@repeatro/117500350755148496",
+      "url": "https://mastodon.social/@repeatro/117500350755148496",
+      "handle": "repeatro@mastodon.social",
+      "name": "repeatro",
+      "text": "#RetroGuessr No. 173 🔍️️️️️️️️️️️️️️ What game's cover is this❓️️️️️️️️️️️️️️ If you can name the game shown in the picture, post it in the comments. 🤔 #retrogaming #gaming #quiz #videogames #videogaming #videogame #game #games #riddle",
+      "createdAt": "2026-10-25T07:24:26.957Z",
+      "likes": 1,
+      "replies": 5,
+      "group": "moreGaming",
+      "query": "videogame",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image: Game case covered by a black bar. There can only be seen a small rectangular part of the cover.",
+      "firstSeen": "2026-10-25T12:44:28.550Z"
+    },
+    "https://mastodon.social/@gpowerf/117500647835312923": {
+      "uri": "https://mastodon.social/@gpowerf/117500647835312923",
+      "url": "https://mastodon.social/@gpowerf/117500647835312923",
+      "handle": "gpowerf@mastodon.social",
+      "name": "Dr. G. Power",
+      "text": "The games I'm playing most right now. Two things worth noting: the 3D printed cart is Midnight Magic as I dropped the original and broke the case. RealSports Football is one I tried last night and I doubt I'll play for long. #Atari #retrogaming",
+      "createdAt": "2026-10-25T08:40:00.037Z",
+      "likes": 5,
+      "replies": 1,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image: A close-up image showing three vertical stacks of classic retro video game cartridges resting on a reflective black surface. In the blurry background, there is…",
+      "firstSeen": "2026-10-25T12:44:28.550Z"
+    },
+    "https://mastodon.social/@robeeshepherd@torturedsouls.com/117500443442741599": {
+      "uri": "https://mastodon.social/@robeeshepherd@torturedsouls.com/117500443442741599",
+      "url": "https://mastodon.social/@robeeshepherd@torturedsouls.com/117500443442741599",
+      "handle": "robeeshepherd@torturedsouls.com",
+      "name": "Robee? Na! 🌈",
+      "text": "The latest #Zzap64 arrived! #RetroGaming #Commodore64",
+      "createdAt": "2026-10-25T07:47:53.000Z",
+      "likes": 0,
+      "replies": 1,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 3,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://torturedsouls.com/@robeeshepherd/117500442914376338",
+      "media": "image: Zzap64 magazine with an army soldier on the cover with some blurays in the background",
+      "firstSeen": "2026-10-25T12:44:28.550Z"
+    },
+    "https://mastodon.social/@dinchenix@mastodon.art/117501357596021688": {
+      "uri": "https://mastodon.social/@dinchenix@mastodon.art/117501357596021688",
+      "url": "https://mastodon.social/@dinchenix@mastodon.art/117501357596021688",
+      "handle": "dinchenix@mastodon.art",
+      "name": "dinchen 🎨 Pixel Art",
+      "text": "forever haunted by my ghosts #pacman #pixelart #retrogames",
+      "createdAt": "2026-10-25T11:40:28.000Z",
+      "likes": 1,
+      "replies": 1,
+      "group": "moreRetro",
+      "query": "retrogames",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://mastodon.art/@dinchenix/117501357488736107",
+      "media": "image, no description",
+      "firstSeen": "2026-10-25T12:44:28.550Z"
     }
   }
 }
