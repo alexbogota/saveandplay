@@ -68,6 +68,7 @@
         },
         "mastodon": {
           "enabled": true,
+          "publish": { "enabled": false, "tokenEnv": "MASTODON_ACCESS_TOKEN", "instance": "mastodon.social", "acct": "saveandplay" },
           "subid": "mastodon-prices",
           "utmSource": "mastodon-prices",
           "maxChars": 500,
@@ -230,6 +231,7 @@
         },
         "mastodon": {
           "enabled": true,
+          "publish": { "enabled": false, "tokenEnv": "MASTODON_ACCESS_TOKEN", "instance": "mastodon.social", "acct": "saveandplay" },
           "subid": "mastodon-prices",
           "utmSource": "mastodon-prices",
           "maxChars": 500,

@@ -13,6 +13,10 @@ name: Post to Bluesky
 # The result is the Summary of the run (in Russian, with the link of every post) and posts-sent-*.json on the "comments" branch.
 # Secrets: BSKY_APP_PASSWORD (@saveandplay.com, already there), BSKY_APP_PASSWORD_COZY, BSKY_APP_PASSWORD_RETRO (the app passwords of those accounts,
 # the same ones the reply sender uses); a missing secret is simply empty and that account is skipped with a clear message.
+# Mastodon (25 Oct 2026): the same road for the posts of @saveandplay@mastodon.social: the same "ок", the same hours, the same checks; the secret
+# MASTODON_ACCESS_TOKEN (an access token of the Mastodon account with the rights read:accounts and write:statuses). It only works after
+# channels.mastodon.publish.enabled is true in data/accounts.json. "Check the Mastodon login" below tests the token and posts nothing.
+# The workflow keeps its old name on purpose: the chat and the morning command start it by that name.
 on:
   schedule:
     - cron: '7 12-23 * * *'
@@ -20,6 +24,10 @@ on:
     inputs:
       dry_run:
         description: 'Only check the approved posts: post nothing'
+        type: boolean
+        default: false
+      check_mastodon:
+        description: 'Only check that the Mastodon token works (says whose it is): post nothing'
         type: boolean
         default: false
 
@@ -51,14 +59,22 @@ jobs:
       - name: Get the approved posts
         run: bash scripts/comments-branch.sh load
 
+      - name: Check the Mastodon login
+        if: ${{ inputs.check_mastodon }}
+        env:
+          MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
+        run: node scripts/post-bluesky.mjs check-mastodon
+
       - name: Post them
         id: post
+        if: ${{ !inputs.check_mastodon }}
         # A failure must not stop the next step from saving what was already posted: the failure is reported by the last step.
         continue-on-error: true
         env:
           BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
           BSKY_APP_PASSWORD_COZY: ${{ secrets.BSKY_APP_PASSWORD_COZY }}
           BSKY_APP_PASSWORD_RETRO: ${{ secrets.BSKY_APP_PASSWORD_RETRO }}
+          MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
           REPO_PRIVATE: ${{ github.event.repository.private }}
           DRY_RUN: ${{ inputs.dry_run }}
           COMMENTS_CANCEL_FROM_GIT: '1'

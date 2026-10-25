@@ -1,4 +1,4 @@
-// Posts the ready posts of the daily brief to Bluesky after the owner's "ок" in the chat. See scripts/lib/bsky-posts.mjs and docs/decisions.md (21 Oct 2026).
+// Posts the ready posts of the daily brief to Bluesky AND Mastodon (25 Oct 2026) after the owner's "ок" in the chat. See scripts/lib/bsky-posts.mjs and docs/decisions.md (21 Oct 2026).
 //
 // The chat steps (the shell forgets everything between commands; the chat first runs `bash scripts/comments-branch.sh load`):
 //   node scripts/post-bluesky.mjs show                       today's posts of every account that is posted by the program: numbered, with the checks
@@ -24,6 +24,7 @@ import {
   readSchedule, scheduleProblems, scheduleItems, isDue, parseArticlePost, articleProblems, articleKey, waitingArticles,
 } from './lib/bsky-posts.mjs';
 import { parsePosts, splitArticle } from './article-tools.mjs';
+import { mastodonAccounts, mastodonSettingsProblems, createMastodon } from './lib/mastodon-posts.mjs';
 import { coopSettings, coopSettingsProblems, coopPostFor, parseCoopPost, coopProblems, readCoopGames } from './lib/coop-posts.mjs';
 
 const args = process.argv.slice(2);
@@ -74,8 +75,10 @@ async function todaysPosts() {
   }
   // The post about a guide: the oldest draft of the daily writer that is not on the site yet (or the one named with --article <slug>).
   const main = publishAccounts(articleAccount).find((a) => a.settings.enabled);
+  const mainMastodon = mastodonAccounts(articleAccount).find((a) => a.settings.enabled);
+  const art = (main || mainMastodon) && !noArticle ? await waitingArticles({ parsePosts, splitArticle }) : null;
   if (main && !noArticle) {
-    const { list: drafts, note } = await waitingArticles({ parsePosts, splitArticle });
+    const { list: drafts, note } = art;
     const wanted = arg('--article');
     const draft = wanted ? drafts.find((d) => d.slug === wanted) : drafts.find((d) => !d.onSite);
     if (wanted && !draft) done(`PROBLEM: no draft of the guide "${wanted}" on the "articles" branch.`, 1);
@@ -108,6 +111,43 @@ async function todaysPosts() {
     else if (pending.some((p) => p.key === made.key)) problems.push('already approved and waiting for the sender');
     list.push({ acc, kind: 'coop', post, key: made.key, problems, title: made.game, n: ++n });
   }
+  // Mastodon (the same posts, the brief's post-<account>-mastodon.md and the "Mastodon" block of the guide's posts.md). Numbered after all Bluesky posts,
+  // so the numbers of the Bluesky posts do not change when Mastodon is switched on.
+  const dealEntry = (acc) => {
+    const bad = mastodonSettingsProblems(acc);
+    if (bad.length) return { acc, problems: [`settings: ${bad.join('; ')}`] };
+    let raw;
+    try { raw = readBriefPost(acc.id, 'mastodon'); } catch (e) { done(`PROBLEM: ${e.message}.`, 1); }
+    if (raw == null) return { acc, noPost: 'no post file of the brief for this account' };
+    const post = parseBriefPost(raw);
+    if (post.noPost) return { acc, noPost: post.noPost };
+    const problems = postProblems(post, { acc, deals, now });
+    const key = post.day && post.path ? itemKey(`mastodon:${acc.id}`, post.day, post.path) : null;
+    const was = key ? sent.find((e) => e.key === key && FINAL.has(e.status)) : null;
+    if (was) problems.push(was.status === 'sent' ? `already posted (${was.postUrl ?? 'see the sent report'})` : `already handled by the sender: ${was.reason}`);
+    else if (key && pending.some((p) => p.key === key)) problems.push('already approved and waiting for the sender');
+    return { acc, post, key, problems };
+  };
+  for (const acc of mastodonAccounts(only)) {
+    if (!acc.settings.enabled) continue;
+    list.push({ ...dealEntry(acc), n: ++n });
+  }
+  if (mainMastodon && art) {
+    const wanted = arg('--article');
+    const draft = wanted ? art.list.find((d) => d.slug === wanted) : art.list.find((d) => !d.onSite);
+    if (!draft) list.push({ acc: mainMastodon, kind: 'article', noPost: art.note ?? 'no guide is waiting: the daily writer has no draft that is not on the site yet', n: ++n });
+    else {
+      const post = parseArticlePost(draft.mastodon);
+      const problems = post.noPost ? [post.noPost] : articleProblems(post, { acc: mainMastodon });
+      if (!draft.mastodon) problems.push('the draft has no "Mastodon" block in posts.md');
+      if (post.slug && post.slug !== draft.slug) problems.push(`the link goes to the guide "${post.slug}", not to "${draft.slug}"`);
+      const key = post.path ? articleKey(`mastodon:${mainMastodon.id}`, post.path) : null;
+      const was = key ? sent.find((e) => e.key === key && FINAL.has(e.status)) : null;
+      if (was) problems.push(was.status === 'sent' ? `already posted (${was.postUrl ?? 'see the sent report'})` : `already handled by the sender: ${was.reason}`);
+      else if (key && pending.some((p) => p.key === key)) problems.push('already approved and waiting for the sender');
+      list.push({ acc: mainMastodon, kind: 'article', post, key, problems, title: draft.title, onSite: draft.onSite, n: ++n });
+    }
+  }
   return list;
 }
 
@@ -117,7 +157,7 @@ async function cmdShow() {
   for (const it of list) {
     const label = it.kind === 'article' ? `GUIDE POST${it.title ? `: ${it.title}` : ''}${it.onSite === false ? ' (the guide is not on the site yet: publish it first or right after the approval)' : ''} of `
       : it.kind === 'coop' ? `PLAY TOGETHER${it.title ? `: ${it.title}` : ''} (game server page, affiliate) of ` : '';
-    console.log(`\n## ${it.n}. ${label}${it.acc.id} (@${it.acc.handle})`);
+    console.log(`\n## ${it.n}. ${it.acc.platform === 'mastodon' ? 'MASTODON ' : ''}${label}${it.acc.id} (@${it.acc.handle || '?'})`);
     if (it.noPost) { console.log(`   NO POST TODAY: ${it.noPost}`); continue; }
     console.log(it.post.text.split('\n').map((l) => `   | ${l}`).join('\n'));
     console.log(`   link: ${it.post.link}`);
@@ -136,8 +176,8 @@ async function cmdApprove() {
   const refused = [];
   for (const it of list) {
     if (!chosen.has(it.n)) continue;
-    if (it.noPost || it.problems.length) { refused.push(`${it.n}. ${it.kind === 'article' ? 'guide post' : it.kind === 'coop' ? `play together (${it.acc.id})` : it.acc.id}: ${it.noPost ?? it.problems.join('; ')}`); continue; }
-    items.push({ n: it.n, kind: it.kind ?? 'deal', account: it.acc.id, handle: it.acc.handle, text: it.post.text, link: it.post.link, day: it.post.day ?? null, key: it.key });
+    if (it.noPost || it.problems.length) { refused.push(`${it.n}. ${it.acc.platform === 'mastodon' ? 'Mastodon ' : ''}${it.kind === 'article' ? 'guide post' : it.kind === 'coop' ? `play together (${it.acc.id})` : it.acc.id}: ${it.noPost ?? it.problems.join('; ')}`); continue; }
+    items.push({ n: it.n, kind: it.kind ?? 'deal', platform: it.acc.platform ?? 'bluesky', account: it.acc.id, handle: it.acc.handle, text: it.post.text, link: it.post.link, day: it.post.day ?? null, key: it.key });
   }
   for (const n of chosen) if (!list.some((l) => l.n === n)) refused.push(`${n}: no such post`);
   if (!items.length) done(`NOTHING APPROVED.${refused.length ? `\nNot approved: ${refused.join(' | ')}` : ''}`, 1);
@@ -148,7 +188,7 @@ async function cmdApprove() {
   mkdirSync(file('drafts'), { recursive: true });
   const name = uniqueName(`posts-approved-${stampOf(now)}`);
   writeFileSync(file('drafts', name), JSON.stringify({ approvedAt: new Date(now).toISOString(), items: timed }, null, 2));
-  const what = (i, guide = 'guide post') => (i.kind === 'article' ? guide : i.kind === 'coop' ? `play together, ${i.account}` : i.account);
+  const what = (i, guide = 'guide post') => `${i.platform === 'mastodon' ? 'Mastodon ' : ''}${i.kind === 'article' ? guide : i.kind === 'coop' ? `play together, ${i.account}` : i.account}`;
   console.log(`APPROVED ${timed.length}: ${timed.map((i) => `${i.n} (${what(i, 'guide')})`).join(', ')}. Saved as drafts/${name}.`);
   const clock = (iso) => new Intl.DateTimeFormat('ru-RU', { timeZone: 'America/Bogota', hour: '2-digit', minute: '2-digit' }).format(new Date(iso));
   console.log('Hours (Bogota time; the sender looks every hour, so a post goes out within about an hour after its time):');
@@ -192,7 +232,9 @@ const ru = (r) => RU[r]
     .replace(/^Bluesky asked to slow down \(429\): the next run tries again$/, 'Bluesky попросил притормозить (429), следующий запуск попробует снова')
     .replace(/^the login stopped working: the next run tries again$/, 'вход перестал работать, следующий запуск попробует снова')
     .replace(/^network or server problem \((.*)\): .*$/, 'сбой сети или сервера ($1), следующий запуск сначала проверит ленту, потом попробует снова')
-    .replace(/^Bluesky refused it: /, 'Bluesky не принял пост: ');
+    .replace(/^Bluesky refused it: /, 'Bluesky не принял пост: ')
+    .replace(/^Mastodon asked to slow down \(429\): the next run tries again$/, 'Mastodon попросил притормозить (429), следующий запуск попробует снова')
+    .replace(/^Mastodon refused it: /, 'Mastodon не принял пост: ');
 
 function save() {
   if (dryRun || !entries.length) return;
@@ -212,6 +254,7 @@ function stoppedNow(it) {
 }
 
 async function sendFor(handle, items, sent) {
+  if (items[0].platform === 'mastodon') return sendMastodonFor(handle, items, sent);
   const say = (l) => console.log(l);
   const accOf = (id) => publishAccounts(id)[0] ?? null;
   const first = accOf(items[0].account);
@@ -280,8 +323,101 @@ async function sendFor(handle, items, sent) {
   return 0;
 }
 
+// ---- the sender for Mastodon (the same checks, the same hours; the client is scripts/lib/mastodon-posts.mjs) ---------------------------------------
+async function sendMastodonFor(handle, items, sent) {
+  const say = (l) => console.log(l);
+  const accOf = (id) => mastodonAccounts(id)[0] ?? null;
+  const first = accOf(items[0].account);
+  const mark = (it, status, reason, extra = {}) => {
+    entries.push({ key: it.key, account: it.account, platform: 'mastodon', handle, n: it.n, link: it.link, text: it.text, approvedFile: it.approvedFile, approvedAt: it.approvedAt, status, reason, at: new Date().toISOString(), ...extra });
+    save();
+    say(`  ${it.n}. Mastodon ${it.account}: ${status}${status === 'sent' ? ` ${extra.postUrl}` : ` (${reason})`}`);
+  };
+  if (!first || !first.settings.enabled) { for (const it of items) mark(it, 'skipped', 'the sender is off for this account'); return 0; }
+  const bad = mastodonSettingsProblems(first);
+  if (bad.length) { say(`PROBLEM: data/accounts.json, "${first.id}" mastodon publish: ${bad.join('; ')}. Nothing was posted for @${handle}.`); return 1; }
+  const env = first.settings.tokenEnv;
+  const token = process.env[env];
+  if (!token) {
+    say(`PROBLEM: no secret ${env} (the access token of @${handle}). Nothing was posted for @${handle}.`);
+    summary.push(`**@${handle}: ничего не опубликовано, нет секрета ${env}.** Создайте токен в Mastodon и положите его в секрет GitHub (docs/posts-bluesky.md, раздел Mastodon).`);
+    return 1;
+  }
+  const api = createMastodon({ instance: first.instance, token });
+  let me;
+  try { me = await api.login(); } catch (e) {
+    say(`PROBLEM: login to ${first.instance} failed: ${e.message}. Check the token in the secret ${env} (scopes read:accounts and write:statuses). Nothing was posted.`);
+    summary.push(`**@${handle}: вход не удался, ничего не опубликовано.** Проверьте токен в секрете ${env} (права read:accounts и write:statuses).`);
+    return 1;
+  }
+  if (me.acct !== lc(first.acct)) { say(`PROBLEM: the token belongs to @${me.acct}, not @${first.acct}: nothing was posted (a wrong token in ${env}?).`); summary.push(`**Токен чужого аккаунта (@${me.acct}), ничего не опубликовано.** Проверьте секрет ${env}.`); return 1; }
+
+  const deals = readDeals();
+  let feed = null;
+  try { feed = await api.recentPosts(Math.max(...items.map((it) => accOf(it.account)?.settings.duplicateHours ?? 36))); } catch (e) {
+    say(`Note: could not read our own recent Mastodon posts (${e.message}); only the program's own records protect against a double post.`);
+  }
+  let lastAt = 0;
+  for (const it of items) {
+    const acc = accOf(it.account) ?? first;
+    const st = acc.settings;
+    const t = Date.now();
+    if (it.cancelled) { mark(it, 'skipped', 'cancelled by the owner'); continue; }
+    if (t - Date.parse(it.approvedAt) > st.maxApprovalAgeHours * 36e5) { mark(it, 'skipped', `approval older than ${st.maxApprovalAgeHours} h`); continue; }
+    const post = it.kind === 'article' ? parseArticlePost(it.text) : parseBriefPost(it.text);
+    const problems = it.kind === 'article' ? articleProblems(post, { acc }) : postProblems(post, { acc, deals, now: t });
+    if (problems.length) { mark(it, 'skipped', `text: ${problems.join('; ')}`); continue; }
+    const path = post.path;
+    const early = [...sent, ...entries].find((e) => e.status === 'sent' && lc(e.handle) === lc(handle) && e.key !== it.key && String(e.link ?? '').includes(path) && t - Date.parse(e.at) < st.duplicateHours * 36e5);
+    const fromFeed = (feed ?? []).find((f) => f.links.some((l) => l.includes(path)) && t - Date.parse(f.at) < st.duplicateHours * 36e5);
+    if (early || fromFeed) { mark(it, 'skipped', `already posted: ${(early?.postUrl ?? fromFeed?.uri ?? '').toString()}`); continue; }
+    const card = await loadCard(post.link);
+    if (!card.ok) { mark(it, 'failed', `our page: ${card.reason}; the next run tries again`); continue; }
+    if (dryRun) { mark(it, 'checked', 'dry run: everything is fine, nothing was posted'); continue; }
+    const wait = lastAt ? Math.max(0, lastAt + gapMs(st) - Date.now()) : 0;
+    if (wait) { say(`  pause ${Math.round(wait / 1000)} s`); await sleep(wait); }
+    if (stoppedNow(it)) { mark(it, 'skipped', 'cancelled by the owner'); continue; }
+    try {
+      const r = await api.createStatus({ text: post.text, key: it.key });
+      lastAt = Date.now();
+      mark(it, 'sent', 'sent', { postUri: r.id, postUrl: r.url });
+    } catch (e) {
+      if (e.code === 'rate') { mark(it, 'failed', 'Mastodon asked to slow down (429): the next run tries again'); return 1; }
+      if (e.code === 'auth') { mark(it, 'failed', 'the login stopped working: the next run tries again'); return 1; }
+      if (e.code === 'network' || /^http-5/.test(String(e.code))) { mark(it, 'failed', `network or server problem (${e.message}): the next run checks the feed first, then tries again`); continue; }
+      mark(it, 'skipped', `Mastodon refused it: ${e.message}`);
+    }
+  }
+  return 0;
+}
+
+// The chat or the workflow (dry run): is the Mastodon token right? Logs in and says whose it is. Posts nothing.
+async function cmdCheckMastodon() {
+  const handles = new Map();
+  for (const acc of mastodonAccounts(only)) if (acc.settings.enabled && !handles.has(acc.handle)) handles.set(acc.handle, acc);
+  if (!handles.size) done('Mastodon is not switched on: no account has channels.mastodon.publish.enabled in data/accounts.json.', 1);
+  let code = 0;
+  const lines = ['## Проверка входа в Mastodon', ''];
+  for (const [handle, acc] of handles) {
+    const bad = mastodonSettingsProblems(acc);
+    const token = process.env[acc.settings.tokenEnv ?? ''];
+    let line;
+    if (bad.length) line = `settings: ${bad.join('; ')}`;
+    else if (!token) line = `no secret ${acc.settings.tokenEnv} (the access token is not set on GitHub)`;
+    else {
+      try { const me = await createMastodon({ instance: acc.instance, token }).login(); line = me.acct === lc(acc.acct) ? `OK: the token is of @${me.acct}@${acc.instance}` : `WRONG ACCOUNT: the token is of @${me.acct}, expected @${acc.acct}`; if (me.acct !== lc(acc.acct)) code = 1; }
+      catch (e) { line = `LOGIN FAILED: ${e.message}`; }
+    }
+    if (!/^OK/.test(line)) code = 1;
+    console.log(`@${handle}: ${line}`);
+    lines.push(`- @${handle}: ${/^OK/.test(line) ? '✅ ' : '❌ '}${line}`);
+  }
+  if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, `${lines.join('\n')}\n`);
+  return code;
+}
+
 function writeSummary() {
-  const out = [`## Публикация постов в Bluesky${dryRun ? ' (проверка, ничего не опубликовано)' : ''}`, ''];
+  const out = [`## Публикация постов (Bluesky и Mastodon)${dryRun ? ' (проверка, ничего не опубликовано)' : ''}`, ''];
   if (!entries.length && !summary.length) out.push(later.length ? 'Сейчас публиковать нечего: у одобренных постов ещё не пришёл час.' : 'Ничего не ждёт публикации: одобренных и ещё не опубликованных постов нет.');
   for (const h of [...new Set(entries.map((e) => e.handle))]) {
     const es = entries.filter((e) => e.handle === h);
@@ -289,7 +425,7 @@ function writeSummary() {
     out.push(`### @${h}`, '', `${dryRun ? `Проверено ${n('checked')}` : `Опубликовано ${n('sent')}`}, пропущено ${n('skipped')}${n('failed') ? `, ждут следующего запуска ${n('failed')}` : ''}.`, '');
     out.push('| № | Аккаунт | Итог | Текст |', '|---|---|---|---|');
     for (const e of es) {
-      const result = e.status === 'sent' ? `✅ [опубликован](${e.postUrl})${e.picture ? '' : ' (без картинки в карточке)'}` : e.status === 'checked' ? '🔎 можно публиковать' : e.status === 'skipped' ? `⏭ ${ru(e.reason)}` : `⏳ ${ru(e.reason)}`;
+      const result = e.status === 'sent' ? `✅ [опубликован](${e.postUrl})${e.platform === 'mastodon' || e.picture ? '' : ' (без картинки в карточке)'}` : e.status === 'checked' ? '🔎 можно публиковать' : e.status === 'skipped' ? `⏭ ${ru(e.reason)}` : `⏳ ${ru(e.reason)}`;
       out.push(`| ${e.n} | ${e.account} | ${result} | ${brief(e.text.split('\n')[0], 90).replace(/\|/g, '/')} |`);
     }
     out.push('');
@@ -297,7 +433,7 @@ function writeSummary() {
   if (later.length) {
     const clock = (iso) => new Intl.DateTimeFormat('ru-RU', { timeZone: 'America/Bogota', hour: '2-digit', minute: '2-digit' }).format(new Date(iso));
     out.push('### Ждут своего часа', '', '| № | Аккаунт | Что | Не раньше (Богота) |', '|---|---|---|---|');
-    for (const it of later) out.push(`| ${it.n} | ${it.account} | ${it.kind === 'article' ? 'пост к статье' : it.kind === 'coop' ? 'играем вместе' : 'скидка'} | ${clock(it.notBefore)} |`);
+    for (const it of later) out.push(`| ${it.n} | ${it.account} | ${it.platform === 'mastodon' ? 'Mastodon: ' : ''}${it.kind === 'article' ? 'пост к статье' : it.kind === 'coop' ? 'играем вместе' : 'скидка'} | ${clock(it.notBefore)} |`);
     out.push('');
   }
   out.push(...summary);
@@ -331,7 +467,8 @@ async function cmdSend() {
 if (cmd === 'show') await cmdShow();
 else if (cmd === 'approve') await cmdApprove();
 else if (cmd === 'cancel') cmdCancel();
+else if (cmd === 'check-mastodon') { process.exitCode = await cmdCheckMastodon(); setTimeout(() => process.exit(process.exitCode), 1000).unref(); }
 else if (cmd === 'send') {
   process.exitCode = await cmdSend();
   setTimeout(() => process.exit(process.exitCode), 3000).unref();
-} else done('Usage: node scripts/post-bluesky.mjs show | approve --ok all|1,3 | cancel | send [--dry-run]', 1);
+} else done('Usage: node scripts/post-bluesky.mjs show | approve --ok all|1,3 | cancel | send [--dry-run] | check-mastodon', 1);

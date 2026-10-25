@@ -49,7 +49,7 @@ export function publishAccounts(only = null) {
     const ch = a?.channels?.bluesky;
     if (a?.enabled === false || !ch || ch.enabled === false || !ch.publish) continue;
     const settings = { ...PUBLISH_DEFAULTS, ...ch.publish };
-    out.push({ id, name: a.name ?? id, handle: String(a.handle ?? '').replace(/^@/, ''), channel: ch, settings });
+    out.push({ id, name: a.name ?? id, platform: 'bluesky', handle: String(a.handle ?? '').replace(/^@/, ''), channel: ch, settings });
   }
   return out;
 }
@@ -76,8 +76,8 @@ export function gapMs(s, rnd = Math.random) {
 
 // ---- the post of the brief --------------------------------------------------------------------------------------
 // drafts/post-<account>-bluesky.md on the "brief" branch (read with git), or from POSTS_BRIEF_DIR in tests. null = no file.
-export function readBriefPost(id) {
-  const name = `post-${id}-bluesky.md`;
+export function readBriefPost(id, platform = 'bluesky') {
+  const name = `post-${id}-${platform}.md`;
   if (process.env.POSTS_BRIEF_DIR) {
     const p = `${process.env.POSTS_BRIEF_DIR}/${name}`;
     return existsSync(p) ? readFileSync(p, 'utf8') : null;
@@ -108,6 +108,17 @@ const daysBetween = (a, b) => Math.round((Date.parse(`${b}T00:00:00Z`) - Date.pa
 
 export const itemKey = (account, day, path) => `${account}|${day}|${path}`;
 
+// The length of a post: Bluesky counts the link as 25 characters (shortLink), Mastodon as 23 (the "linkChars" of the channel), at most "maxChars" (500).
+function lengthProblem(text, link, acc) {
+  if (acc.platform === 'mastodon') {
+    const max = Number(acc.channel.maxChars) || 500;
+    const n = graphemes(link ? text.replace(link, 'x'.repeat(acc.channel.linkChars ?? 23)) : text);
+    return n > max ? `the post is ${n} characters, Mastodon allows ${max}` : null;
+  }
+  const n = graphemes(shortenForPost(text, link));
+  return n > MAX_GRAPHEMES ? `the post is ${n} characters, Bluesky allows ${MAX_GRAPHEMES}` : null;
+}
+
 // ---- the checks -----------------------------------------------------------------------------------------------------
 // What is wrong with a post, as short plain sentences (an empty list means it may go). deals = data/deals.json (a list).
 export function postProblems(post, { acc, deals, now = Date.now() }) {
@@ -120,8 +131,8 @@ export function postProblems(post, { acc, deals, now = Date.now() }) {
   if (text.split('\n').at(-1) !== disclosure) p.push(`the last line must be "${disclosure}" (the disclosure of the ad)`);
   if (/#ad\b/i.test(text)) p.push('the tag #ad is not used: the disclosure is the plain line');
   if (/lowest (price )?ever|all[- ]time low|historical low/i.test(text)) p.push('"lowest ever" is not allowed');
-  const shown = shortenForPost(text, post.link);
-  if (graphemes(shown) > MAX_GRAPHEMES) p.push(`the post is ${graphemes(shown)} characters, Bluesky allows ${MAX_GRAPHEMES}`);
+  const len = lengthProblem(text, post.link, acc);
+  if (len) p.push(len);
   if (!post.day) p.push('the link has no date (utm_campaign=deals-YYYY-MM-DD)');
   else if (daysBetween(post.day, dayKey(now)) > s.maxDayAge) p.push(`the post is for ${post.day}, too old: wait for the next brief`);
   else if (daysBetween(post.day, dayKey(now)) < 0) p.push(`the post is for ${post.day}, a day that has not come yet`);
@@ -208,7 +219,7 @@ export async function loadCard(link, { fetchImpl = globalThis.fetch, timeoutMs =
 // The owner approves everything at once in the morning; the posts of ONE Bluesky account go out one after another, spacingHours apart
 // (first now, then +3 h, +6 h ...), in the order of "order" (account ids; "article" = the post about a guide). The sender (GitHub, every hour)
 // posts what is due. Each approved post carries its own "notBefore".
-export const SCHEDULE_DEFAULTS = { spacingHours: 2, order: ['prices', 'prices-2', 'article', 'coop:prices', 'prices-kinguin'] };
+export const SCHEDULE_DEFAULTS = { spacingHours: 2, order: ['prices', 'prices-2', 'article', 'coop:prices', 'prices-kinguin', 'mastodon:prices', 'mastodon:article', 'mastodon:prices-kinguin'] };
 
 export function readSchedule() {
   let raw = {};
@@ -224,7 +235,10 @@ export function scheduleProblems(sch) {
 }
 
 // A play-together post has its own place per account: "coop:<account>" (an account that is not in the order list goes after its own deal posts).
-const slotOf = (it) => (it.kind === 'article' ? 'article' : it.kind === 'coop' ? `coop:${it.account}` : it.account);
+const slotOf = (it) => {
+  const slot = it.kind === 'article' ? 'article' : it.kind === 'coop' ? `coop:${it.account}` : it.account;
+  return it.platform === 'mastodon' ? `mastodon:${slot}` : slot;
+};
 
 // Gives every item its "notBefore" (ISO time). immediate = true: everything may go now. Items of different Bluesky accounts do not wait for each other.
 export function scheduleItems(items, { now = Date.now(), schedule = readSchedule(), immediate = false } = {}) {
@@ -270,8 +284,8 @@ export function articleProblems(post, { acc }) {
   if (/#ad\b/i.test(text)) p.push('the tag #ad is not used');
   if (/lowest (price )?ever|all[- ]time low|best price ever/i.test(text)) p.push('"lowest ever" is not allowed');
   if (/[\u0400-\u04FF]/.test(text)) p.push('English only');
-  const shown = shortenForPost(text, post.link);
-  if (graphemes(shown) > MAX_GRAPHEMES) p.push(`the post is ${graphemes(shown)} characters, Bluesky allows ${MAX_GRAPHEMES}`);
+  const len = lengthProblem(text, post.link, acc);
+  if (len) p.push(len);
   return p;
 }
 
@@ -303,7 +317,8 @@ export async function waitingArticles({ parsePosts, splitArticle }) {
       const { fm } = splitArticle(d.article);
       const slug = String(fm?.image ?? '').replace(/^\/og\//, '').replace(/\.png$/, '');
       const text = parsePosts(d.posts).bluesky;
-      if (slug && text) list.push({ slug, title: fm?.title ?? d.name, name: d.name, text, onSite: onSite(slug) });
+      const mastodon = parsePosts(d.posts).mastodon ?? null;
+      if (slug && text) list.push({ slug, title: fm?.title ?? d.name, name: d.name, text, mastodon, onSite: onSite(slug) });
     } catch { /* a broken draft is left out */ }
   }
   return { list, note: null };
