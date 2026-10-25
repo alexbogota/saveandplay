@@ -1,0 +1,45 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-retro-20261025-130324.json",
+  "approvedAt": "2026-10-25T13:05:09.467Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:5wcp7jvjt3yo76ha7i2zhisg/app.bsky.feed.post/3myp5c2jcrk2n",
+      "url": "https://bsky.app/profile/thesharmat.bsky.social/post/3myp5c2jcrk2n",
+      "author": "thesharmat.bsky.social",
+      "context": "It’s hard to remember exactly since I was incredibly young, but my childhood friend at the time had a big bro that owned a SNES, with lots of the classics. One day after school my bud showed me A link to the Past, probably the first Nintendo game I ever saw. Loved Zelda ever since",
+      "text": "A Link to the Past is a lovely first Zelda to stumble into. Having a big brother with a SNES full of classics was how a lot of us found them.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:e4xy6dmb3hyebcmit7dzhn2q/app.bsky.feed.post/3myp55shdms2j",
+      "url": "https://bsky.app/profile/thatdudenamedbj.bsky.social/post/3myp55shdms2j",
+      "author": "thatdudenamedbj.bsky.social",
+      "context": "Another game done! Yoshi's Island (1995) [SNES] Can you tell I'm in a retro kick? 😂\nimage, no description",
+      "text": "Congrats on the finish! Yoshi's Island is a great pick for a retro kick.",
+      "edited": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:qwhi7w2zlziq63um2cflajvh/app.bsky.feed.post/3myozkpmtsk2z",
+      "url": "https://bsky.app/profile/xxgr1llmast3rxx.bsky.social/post/3myozkpmtsk2z",
+      "author": "xxgr1llmast3rxx.bsky.social",
+      "context": "likewise one of the absolute best ways to improve accessibility of classic console and PC games would be to include scans of the original manuals in the menu which often provide incredibly important guidance",
+      "text": "Agreed, old manuals often held the real guidance. Many classics on GOG come with the original manuals as extras, which is a nice touch.",
+      "edited": false
+    },
+    {
+      "n": 4,
+      "uri": "at://did:plc:kqiuzaqb7dsz6kl4i554dolr/app.bsky.feed.post/3myoryeljp22b",
+      "url": "https://bsky.app/profile/mylittleretro.bsky.social/post/3myoryeljp22b",
+      "author": "mylittleretro.bsky.social",
+      "context": "Extreme Pinball (1995) - one of the best DOS pinball games. Gravis Ultrasound PnP in action on a Pentium MMX 233 (1997). Few games really took advantage of the GUS hardware mixing, onboard RAM and interpolation. Pinball games were among the exceptions. #RetroPC #DOSGaming #GravisUltrasound\nvideo, no description",
+      "text": "That sounds like a great setup. Pinball was a perfect fit for that kind of sound hardware.",
+      "edited": false
+    }
+  ]
+}
