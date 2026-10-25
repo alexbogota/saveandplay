@@ -1,0 +1,60 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261025-052636",
+  "madeAt": "2026-10-25T05:27:39.294Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:rs265fduzwcdrq3jbzuwf6u7/app.bsky.feed.post/3mynxniauqs22",
+      "url": "https://bsky.app/profile/maddi-magpie.bsky.social/post/3mynxniauqs22",
+      "author": "maddi-magpie.bsky.social",
+      "context": "I don’t know how else to explain but I need a game like Dressmaker but with baking and cake decorating I love cozy games and baking but I hate timers! Ruins the cozy aspect for me, I love to take my time #cozygames #games #gaming",
+      "text": "No timers is the right call for a cozy game. Wanderstop is built around making tea at your own pace, so it may scratch part of that itch, even without baking.",
+      "verify": "Проверьте: в Wanderstop нет давления таймеров, и игра про чай, а не про выпечку. Если не уверены, не отправляйте.",
+      "group": "askCozy",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:gm76ptayks6z3xegr4jql27h/app.bsky.feed.post/3mynx3f4cr22z",
+      "url": "https://bsky.app/profile/annlaabs.bsky.social/post/3mynx3f4cr22z",
+      "author": "annlaabs.bsky.social",
+      "context": "WTF? Wasn't Henderson supposed to be good? Time to start fishing in Stardew Valley....\nquotes @opinionatedlab.bsky.social: Henderson was showing issues late in season. I’m not sure why he’s out here destroying Game 2 in the World Series. C’mon #Brewers",
+      "text": "Stardew is a good way to cool off after a rough game. A quiet hour fishing by the river is about as calm as it gets.",
+      "group": "stardew",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:cdhfvxtnhysaedq7wxaufalu/app.bsky.feed.post/3mynstxrb2k2u",
+      "url": "https://bsky.app/profile/woodswake.bsky.social/post/3mynstxrb2k2u",
+      "author": "woodswake.bsky.social",
+      "context": "i really need idle games to be more clearly delineated because i swear every next fest i'll go looking for cozy sim games and end up with at least one idle game",
+      "text": "Oof, that mix-up is real. The tags on each store page usually give an idle game away before you download the demo, so it's worth a quick look first.",
+      "group": "askCozy",
+      "heated": false
+    },
+    {
+      "n": 4,
+      "uri": "at://did:plc:w6uqxshudvkmad5ef5u6yc2l/app.bsky.feed.post/3myns45sbns25",
+      "url": "https://bsky.app/profile/darknessvibe.bsky.social/post/3myns45sbns25",
+      "author": "darknessvibe.bsky.social",
+      "context": "hotel night dilemma: long bath with iced matcha, or cozy bed with strawberries and games till 2am? pick one for me, i'm way too indecisive lol\nimage, no description",
+      "text": "Bath first, then bed with strawberries and games. That way you get both.",
+      "group": "askCozy",
+      "heated": false
+    },
+    {
+      "n": 5,
+      "uri": "at://did:plc:btus4xr4lpce5ayr46unqx2h/app.bsky.feed.post/3mylnuax3b22h",
+      "url": "https://bsky.app/profile/sleepisfort.bsky.social/post/3mylnuax3b22h",
+      "author": "sleepisfort.bsky.social",
+      "context": "Golf just lends itself to video games in the best way. So many good ones, from mini golf to totally normal golf game to pure Sims Designing courses is relaxing too",
+      "text": "Short rounds are what make golf so good for calm sessions. Golf With Your Friends is a relaxed mini golf pick if you ever want company.",
+      "group": "askCozy",
+      "heated": false
+    }
+  ]
+}
