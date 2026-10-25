@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>SaveAndPlay profile banner</title>
+<!-- Profile banner 1500x500 (3:1): works for Bluesky and Mastodon. Text and colours come from banners.json
+     through window.__banner (render.mjs sets it). Text on the left starts at x=350 so the round avatar that
+     overlaps the bottom-left corner and the centre crop on phones (x 250..1250) do not hide it. -->
+<style>
+  @font-face { font-family: 'Bricolage Grotesque'; src: url('fonts/bricolage-800.woff2') format('woff2'); font-weight: 800; }
+  @font-face { font-family: 'DM Sans'; src: url('fonts/dmsans-500.woff2') format('woff2'); font-weight: 500; }
+  @font-face { font-family: 'DM Sans'; src: url('fonts/dmsans-700.woff2') format('woff2'); font-weight: 700; }
+  html, body { margin: 0; padding: 0; background: #0D1117; }
+  svg { display: block; }
+  .t { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; }
+  .s { font-family: 'DM Sans', sans-serif; font-weight: 500; }
+  .b { font-family: 'DM Sans', sans-serif; font-weight: 700; }
+</style>
+</head>
+<body>
+<svg id="art" xmlns="http://www.w3.org/2000/svg" width="1500" height="500" viewBox="0 0 1500 500">
+  <defs>
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M50 0H0V50" fill="none" stroke="#1B222C" stroke-width="1.5"/>
+    </pattern>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop id="glow0" offset="0" stop-color="#FFB454" stop-opacity="0.30"/>
+      <stop id="glow1" offset="1" stop-color="#FFB454" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000" opacity="0.22"/>
+    </pattern>
+    <mask id="moonmask">
+      <rect x="1100" y="40" width="200" height="150" fill="#fff"/>
+      <circle cx="1216" cy="100" r="30" fill="#000"/>
+    </mask>
+    <linearGradient id="scanfade" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="1"/>
+    </linearGradient>
+    <mask id="scanmask"><rect x="760" y="0" width="420" height="500" fill="url(#scanfade)"/><rect x="1180" y="0" width="320" height="500" fill="#fff"/></mask>
+  </defs>
+
+  <rect width="1500" height="500" fill="#0D1117"/>
+  <rect width="1500" height="500" fill="url(#grid)"/>
+  <ellipse cx="1090" cy="250" rx="520" ry="400" fill="url(#glow)"/>
+
+  <!-- ===== text block (same for every niche) ===== -->
+  <rect class="accent" x="354" y="146" width="64" height="7" rx="3.5" fill="#3DDC97"/>
+  <text id="title" class="t" x="350" y="262" font-size="96" letter-spacing="-2" fill="#FFFFFF">Title</text>
+  <text id="subtitle" class="s" x="354" y="318" font-size="34" fill="#B4BDCA">Subtitle</text>
+  <g transform="translate(354 352)">
+    <rect width="30" height="30" rx="8" fill="#3DDC97"/>
+    <path d="M9 7v16l14-8z" fill="#06150E"/>
+  </g>
+  <text id="byline" class="b" x="396" y="376" font-size="24" letter-spacing="0.4" fill="#9AA5B4">by SaveAndPlay</text>
+
+  <!-- ===== cozy drawing: mug with a play button, plant, moon, price tag ===== -->
+  <g data-theme="cozy" transform="translate(-30 0)">
+    <circle cx="1210" cy="112" r="34" fill="#FFB454" mask="url(#moonmask)"/>
+    <circle cx="1002" cy="84" r="3" fill="#E8ECF1" opacity="0.75"/>
+    <circle cx="1280" cy="196" r="3.5" fill="#E8ECF1" opacity="0.6"/>
+    <circle cx="1118" cy="58" r="2.5" fill="#E8ECF1" opacity="0.7"/>
+    <circle cx="948" cy="236" r="2.5" fill="#E8ECF1" opacity="0.5"/>
+    <circle cx="1170" cy="196" r="4" fill="#FFB454" opacity="0.8"/>
+    <path d="M1150 150 L1153.5 161 L1165 164.5 L1153.5 168 L1150 179 L1146.5 168 L1135 164.5 L1146.5 161 Z" fill="#FFB454" opacity="0.9"/>
+    <path d="M1262 250 L1264.5 257 L1272 259.5 L1264.5 262 L1262 269 L1259.5 262 L1252 259.5 L1259.5 257 Z" fill="#5EEAA6" opacity="0.85"/>
+
+    <!-- price tag, the same motif as on the main banner -->
+    <g transform="translate(950 92) rotate(-8)">
+      <rect width="108" height="66" rx="11" fill="#1B1203" stroke="#FFB454" stroke-width="3.5"/>
+      <circle cx="17" cy="33" r="5.5" fill="none" stroke="#FFB454" stroke-width="2.5"/>
+      <text class="t" x="67" y="48" text-anchor="middle" font-size="42" fill="#FFB454">%</text>
+    </g>
+
+    <!-- mug -->
+    <path d="M1048 232 C1038 214 1060 206 1050 192" fill="none" stroke="#FFB454" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+    <path d="M1086 236 C1076 214 1100 204 1088 188" fill="none" stroke="#FFB454" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+    <path d="M1124 232 C1114 214 1136 206 1126 194" fill="none" stroke="#FFB454" stroke-width="5" stroke-linecap="round" opacity="0.4"/>
+    <path d="M1148 278 C1196 272 1196 346 1146 340" fill="none" stroke="#FFB454" stroke-width="7" stroke-linecap="round"/>
+    <rect x="1026" y="252" width="124" height="116" rx="24" fill="#161B22" stroke="#FFB454" stroke-width="7"/>
+    <path d="M1076 288 v46 l38 -23 z" fill="#3DDC97" stroke="#3DDC97" stroke-width="6" stroke-linejoin="round"/>
+    <ellipse cx="1088" cy="372" rx="98" ry="12" fill="#161B22" stroke="#2A323E" stroke-width="3"/>
+
+    <!-- plant -->
+    <ellipse cx="1228" cy="304" rx="13" ry="36" transform="rotate(-30 1228 304)" fill="#3DDC97"/>
+    <ellipse cx="1262" cy="300" rx="13" ry="38" transform="rotate(28 1262 300)" fill="#3DDC97" opacity="0.85"/>
+    <ellipse cx="1245" cy="290" rx="13" ry="42" fill="#5EEAA6"/>
+    <path d="M1218 336 H1274 L1266 380 H1226 Z" fill="#161B22" stroke="#3DDC97" stroke-width="6" stroke-linejoin="round"/>
+    <rect x="968" y="384" width="332" height="8" rx="4" fill="#1B222C"/>
+  </g>
+
+  <!-- ===== retro drawing: pixel game pad, cartridge, hearts, sparkles, scanlines ===== -->
+  <g data-theme="retro" shape-rendering="crispEdges" transform="translate(-16 0)">
+    <!-- hearts (three lives) -->
+    <g fill="#FFB454" transform="translate(-12 0)">
+      <g id="heart">
+        <rect x="954" y="118" width="5" height="5"/><rect x="959" y="113" width="5" height="5"/><rect x="964" y="113" width="5" height="5"/>
+        <rect x="969" y="118" width="5" height="5"/><rect x="974" y="113" width="5" height="5"/><rect x="979" y="113" width="5" height="5"/>
+        <rect x="984" y="118" width="5" height="5"/>
+        <rect x="954" y="123" width="35" height="5"/><rect x="954" y="128" width="35" height="5"/>
+        <rect x="959" y="133" width="25" height="5"/><rect x="964" y="138" width="15" height="5"/><rect x="969" y="143" width="5" height="5"/>
+      </g>
+      <use href="#heart" x="50"/>
+      <use href="#heart" x="100" opacity="0.35"/>
+    </g>
+
+    <!-- sparkles made of pixels -->
+    <g fill="#3DDC97">
+      <rect x="1262" y="206" width="6" height="6"/><rect x="1262" y="194" width="6" height="6"/><rect x="1262" y="218" width="6" height="6"/>
+      <rect x="1250" y="206" width="6" height="6"/><rect x="1274" y="206" width="6" height="6"/>
+    </g>
+    <g fill="#FFB454" opacity="0.85">
+      <rect x="1050" y="62" width="5" height="5"/><rect x="1050" y="52" width="5" height="5"/><rect x="1050" y="72" width="5" height="5"/>
+      <rect x="1040" y="62" width="5" height="5"/><rect x="1060" y="62" width="5" height="5"/>
+    </g>
+    <g fill="#E8ECF1" opacity="0.6">
+      <rect x="1290" y="330" width="5" height="5"/><rect x="940" y="228" width="5" height="5"/><rect x="1200" y="52" width="5" height="5"/>
+    </g>
+
+    <!-- cartridge -->
+    <g transform="translate(1104 70) rotate(7 67 84)">
+      <path d="M-5 -5 H44 V11 H90 V-5 H139 V173 H-5 Z" fill="#FFB454"/>
+      <path d="M0 0 H49 V16 H85 V0 H134 V168 H0 Z" fill="#161B22"/>
+      <rect x="18" y="38" width="98" height="82" fill="#1B1203"/>
+      <rect x="18" y="38" width="98" height="4" fill="#FFB454"/><rect x="18" y="116" width="98" height="4" fill="#FFB454"/>
+      <rect x="18" y="38" width="4" height="82" fill="#FFB454"/><rect x="112" y="38" width="4" height="82" fill="#FFB454"/>
+      <text class="t" x="67" y="101" text-anchor="middle" font-size="54" fill="#FFB454" shape-rendering="auto">%</text>
+      <g fill="#3DDC97">
+        <rect x="16" y="140" width="9" height="16"/><rect x="34" y="140" width="9" height="16"/><rect x="52" y="140" width="9" height="16"/>
+        <rect x="70" y="140" width="9" height="16"/><rect x="88" y="140" width="9" height="16"/><rect x="106" y="140" width="9" height="16"/>
+      </g>
+    </g>
+
+    <!-- game pad -->
+    <g transform="translate(934 284)">
+      <g fill="#3DDC97">
+        <rect x="4" y="-6" width="252" height="132"/>
+        <rect x="-6" y="4" width="272" height="112"/>
+      </g>
+      <g fill="#161B22">
+        <rect x="10" y="0" width="240" height="120"/>
+        <rect x="0" y="10" width="260" height="100"/>
+      </g>
+      <g fill="#3DDC97">
+        <rect x="28" y="45" width="66" height="22"/>
+        <rect x="50" y="23" width="22" height="66"/>
+      </g>
+      <g fill="#FFB454">
+        <rect x="112" y="80" width="26" height="9"/>
+        <rect x="146" y="80" width="26" height="9"/>
+      </g>
+      <rect x="186" y="62" width="30" height="30" fill="#5EEAA6"/>
+      <rect x="224" y="46" width="30" height="30" fill="#FFB454"/>
+    </g>
+
+    <rect x="760" y="0" width="740" height="500" fill="url(#scan)" mask="url(#scanmask)"/>
+  </g>
+</svg>
+
+<script>
+  (async function () {
+    const b = window.__banner || { theme: 'cozy', title: 'Cozy Games', subtitle: 'Calm picks at honest prices.', byline: 'by SaveAndPlay', accent: '#FFB454' };
+    document.getElementById('title').textContent = b.title;
+    document.getElementById('subtitle').textContent = b.subtitle;
+    document.getElementById('byline').textContent = b.byline;
+    document.querySelectorAll('[data-theme]').forEach(function (g) { g.style.display = g.getAttribute('data-theme') === b.theme ? '' : 'none'; });
+    document.querySelectorAll('.accent').forEach(function (e) { e.setAttribute('fill', b.accent); });
+    document.getElementById('glow0').setAttribute('stop-color', b.accent);
+    document.getElementById('glow1').setAttribute('stop-color', b.accent);
+    await Promise.all([
+      document.fonts.load('800 96px "Bricolage Grotesque"'),
+      document.fonts.load('500 34px "DM Sans"'),
+      document.fonts.load('700 24px "DM Sans"')
+    ]);
+    const t = document.getElementById('title');
+    let size = 96;
+    while (t.getBBox().width > 560 && size > 56) { size -= 2; t.setAttribute('font-size', size); }
+    document.documentElement.setAttribute('data-ready', '1');
+  })();
+</script>
+</body>
+</html>

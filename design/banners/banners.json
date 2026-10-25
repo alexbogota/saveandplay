@@ -1,0 +1,26 @@
+{
+  "about": "Settings of the profile banners (1500x500, the same picture works for Bluesky and Mastodon). One block per account: the key is the file name banner-<key>.png. theme = which drawing of banner.html to use (cozy or retro); title, subtitle, byline = text on the picture (English only); accent = colour of the small bar and the glow. A new niche = a new block here (and a new drawing in banner.html if none fits). Then run: node design/banners/render.mjs (needs the playwright package; one key only: node design/banners/render.mjs retro). Fonts in fonts/ are Bricolage Grotesque and DM Sans (SIL Open Font License), the same as the site. The text starts at x=330 so the round avatar in the bottom-left corner and the centre crop on phones do not hide it. Bluesky takes files up to 1 MB, Mastodon up to 2 MB.",
+  "banners": {
+    "cozy": {
+      "theme": "cozy",
+      "title": "Cozy Games",
+      "subtitle": "Calm picks at honest prices.",
+      "byline": "by SaveAndPlay",
+      "accent": "#FFB454"
+    },
+    "retro": {
+      "theme": "retro",
+      "title": "Retro Games",
+      "subtitle": "Classics at honest prices.",
+      "byline": "by SaveAndPlay",
+      "accent": "#3DDC97"
+    },
+    "x": {
+      "theme": "retro",
+      "title": "PC Game Deals",
+      "subtitle": "Honest prices. Cozy and retro too.",
+      "byline": "by SaveAndPlay",
+      "accent": "#3DDC97"
+    }
+  }
+}
