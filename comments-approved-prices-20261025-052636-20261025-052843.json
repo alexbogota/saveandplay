@@ -1,0 +1,45 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-prices-20261025-052636.json",
+  "approvedAt": "2026-10-25T05:28:43.637Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:ytwjus6ixsunfodgi4vgduoy/app.bsky.feed.post/3mynpjivwvc2v",
+      "url": "https://bsky.app/profile/truediff.dev/post/3mynpjivwvc2v",
+      "author": "truediff.dev",
+      "context": "1 hour of digging through Wine crash dumps and parsing container logs on the Steam Deck just to trace down a single missing Steamworks interface (No SteamUtils011). The fix? Switching to Proton 10.0-4. That’s it. 🫪 At least it runs now. #SteamDeck #LinuxGaming #Enshrouded",
+      "text": "An hour hunting down one missing interface, rough. Glad a Proton version swap sorted it, hope Enshrouded runs smoothly now.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:mgo4c3bw5jt6ntcm2p3xwbev/app.bsky.feed.post/3myngk5knus2k",
+      "url": "https://bsky.app/profile/kevinhaelterman.wsocial.eu/post/3myngk5knus2k",
+      "author": "kevinhaelterman.wsocial.eu",
+      "context": "Installed Morrowind again! Managed to transfer my save files from Steam Deck to Steam Machine. Might, for the first time, give Tamriel Rebuild a try. Any TR players here? #WGames\nimage, no description",
+      "text": "Morrowind with Tamriel Rebuilt is a great excuse to go back. It's a big mod, so saving often as you explore is a good habit.",
+      "edited": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:cipv3arp27zug6ugyk7fv76o/app.bsky.feed.post/3mylitdrggc2f",
+      "url": "https://bsky.app/profile/pogue.omg.lol/post/3mylitdrggc2f",
+      "author": "pogue.omg.lol",
+      "context": "they need a steam sale simulator game where i can have all the enjoyment of buying things and never playing them",
+      "text": "A Steam sale simulator would be brutally accurate: add twelve games to the wishlist, buy three, play none. At least the backlog counter would look impressive.",
+      "edited": false
+    },
+    {
+      "n": 4,
+      "uri": "at://did:plc:ylqyo2uvq4zcbnhufvo4memz/app.bsky.feed.post/3mylhbvdt422v",
+      "url": "https://bsky.app/profile/georgebsocial.bsky.social/post/3mylhbvdt422v",
+      "author": "georgebsocial.bsky.social",
+      "context": "I haven't looked yet (so have nothing to offer) but if you see any great Steam Next Fest games, link em' below for others? Or link your own, that's cool too! store.steampowered.com/sale/nextfest\nlink card: Next Fest October 2026 - LIVE NOW",
+      "text": "Good idea. One tip for anyone browsing: wishlist the demos that catch your eye, so Steam notifies you when the full game launches.",
+      "edited": false
+    }
+  ]
+}

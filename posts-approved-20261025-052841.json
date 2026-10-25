@@ -1,0 +1,27 @@
+{
+  "approvedAt": "2026-10-25T05:28:41.268Z",
+  "items": [
+    {
+      "n": 7,
+      "kind": "coop",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "text": "Core Keeper is a mining sandbox for 2 to 8 players, with drop-in, drop-out online co-op.\nA rented server keeps your underground base online for the whole group.\n\nhttps://saveandplay.com/servers/core-keeper/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-10-25\n\n#PCGaming #CoreKeeper\nAd",
+      "link": "https://saveandplay.com/servers/core-keeper/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-10-25",
+      "day": "2026-10-25",
+      "key": "prices|coop-2026-10-25|/servers/core-keeper/",
+      "notBefore": "2026-10-25T05:28:41.268Z"
+    },
+    {
+      "n": 8,
+      "kind": "coop",
+      "account": "cozy",
+      "handle": "cozygame.bsky.social",
+      "text": "Core Keeper is a mining sandbox for 2 to 8 players, with drop-in, drop-out online co-op.\nA rented server keeps your underground base online for the whole group.\n\nhttps://saveandplay.com/servers/core-keeper/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=coop-2026-10-25\n\n#CozyGames #CoreKeeper\nAd",
+      "link": "https://saveandplay.com/servers/core-keeper/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=coop-2026-10-25",
+      "day": "2026-10-25",
+      "key": "cozy|coop-2026-10-25|/servers/core-keeper/",
+      "notBefore": "2026-10-25T05:28:41.268Z"
+    }
+  ]
+}

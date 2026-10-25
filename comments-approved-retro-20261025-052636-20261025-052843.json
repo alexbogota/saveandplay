@@ -1,0 +1,27 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-retro-20261025-052636.json",
+  "approvedAt": "2026-10-25T05:28:43.867Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:k4q6hdqwd5ragiwl6qh52usj/app.bsky.feed.post/3myntkz2pc224",
+      "url": "https://bsky.app/profile/candiedcaiman.bsky.social/post/3myntkz2pc224",
+      "author": "candiedcaiman.bsky.social",
+      "context": "#Drawtober2026 Day 24: Nostalgia I was super young when I played Demon's Crest on my parent's SNES. I didn't understand the password system, so I played the first hour of the game who knows how many times, and I remember thinking Firebrand was the coolest character\nimage: Fanart of Firebrand from the video game Demon's Crest Firebrand is a red gargoyle with a sharp beak-like mouth, an elongated head, long ears, and glowing yello…",
+      "text": "Demon's Crest was a tough one to get into as a kid, and that password screen got a lot of us. Firebrand is a great character, lovely drawing.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:uul5se7zkjqpesdy7f4xzesm/app.bsky.feed.post/3mynbknbdwk2s",
+      "url": "https://bsky.app/profile/toestubian.bsky.social/post/3mynbknbdwk2s",
+      "author": "toestubian.bsky.social",
+      "context": "I've dabbled with a few and have a retro repack of a few old ones in one game on epic. I'm very open to recommendations!!",
+      "text": "If you want to try more, GOG packages many classics so they run on modern PCs without fiddling, and they're DRM-free. Fallout and Heroes of Might and Magic III are easy places to start.",
+      "edited": false
+    }
+  ]
+}
