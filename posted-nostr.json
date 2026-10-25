@@ -1237,6 +1237,57 @@
             "sig": "59c6dd0b6122c61c594aa228d6e42e056d47ddf880756612cd4078b221b5bdaab68553971a883e093462969ea52d72cc2d99b0b33c0ccb9bdc3c295238310085"
           }
         }
+      },
+      "2026-10-25": {
+        "deal": {
+          "status": "done",
+          "kind": "deal",
+          "id": "bc36b349b6987211892b544a24dfeccbcc391ba04d324d6626b86fee5d76e8f3",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "deal": "gog-control-ultimate-edition",
+          "title": "Control Ultimate Edition",
+          "postedAt": "2026-10-25T11:53:22.000Z",
+          "accepted": [
+            "wss://relay.damus.io",
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [],
+          "event": {
+            "kind": 1,
+            "created_at": 1792929202,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-deal"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/870780/ec621653454cdad232187af4eb79f23c05aceca5/header.jpg?t=1781607969",
+                "m image/jpeg",
+                "alt Cover art for Control Ultimate Edition"
+              ]
+            ],
+            "content": "Control Ultimate Edition: -85% at GOG\n$5.99 (was $39.99)\nPrice checked 2026-10-25 09:57 UTC. Sale ends 2026-10-27 07:59 UTC.\nWhy today: sale ends in 45 h; lowest price we've tracked (15 days of data).\nAd: we may earn a commission if you buy.\n\n#pcgaming #gamedeals\n\nhttps://shared.akamai.steamstatic.com/store_item_assets/steam/apps/870780/ec621653454cdad232187af4eb79f23c05aceca5/header.jpg?t=1781607969\n\nhttps://saveandplay.com/deals/gog/control-ultimate-edition/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-25",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "bc36b349b6987211892b544a24dfeccbcc391ba04d324d6626b86fee5d76e8f3",
+            "sig": "58e300bd5750daf074df86fb0ea16c7d8907945f8cf1c881f24f5f71e92bef7705e87fd77e643168de5fdfdc388e9a0ca49397b78bb36651cb9b06ead8fb7a2c"
+          }
+        }
       }
     }
   },
