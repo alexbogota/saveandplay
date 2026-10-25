@@ -1,0 +1,67 @@
+{
+  "block": "prices",
+  "handle": "saveandplay.com",
+  "madeAt": "2026-10-25T13:03:00.314Z",
+  "days": 14,
+  "total": 133,
+  "mature": {
+    "count": 129,
+    "withLike": 59,
+    "withReply": 26,
+    "likes": 65,
+    "replies": 27,
+    "byProgram": 28
+  },
+  "top": [
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mxp3tpmeg22j",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3mxp3tpmeg22j",
+      "text": "A thousand games, respect. One trick that helps: sort the pile by how long each game takes to finish and clear the short ones first, so the number drops fast.",
+      "at": "2026-10-12T17:58:51.377Z",
+      "likes": 1,
+      "replies": 2,
+      "reposts": 0,
+      "to": "nerevar-born-again.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mykdirnfqu25",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3mykdirnfqu25",
+      "text": "Smart to be careful before the first account. Once you have it, wishlist whatever catches your eye: Steam tells you when something on it goes on sale, so there's no pressure to buy on impulse.",
+      "at": "2026-10-23T13:57:47.242Z",
+      "likes": 2,
+      "replies": 1,
+      "reposts": 0,
+      "to": "flacoelcielito5.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3myffespd3s2v",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3myffespd3s2v",
+      "text": "Access years from now is the one that price can't fix later. DRM-free games, like the ones on GOG, cover a lot of it: you keep the installer, it plays offline, and it doesn't depend on a launcher or an account.",
+      "at": "2026-10-21T14:48:02.646Z",
+      "likes": 2,
+      "replies": 1,
+      "reposts": 0,
+      "to": "meikuio.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3myllzcf5ey2w",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3myllzcf5ey2w",
+      "text": "Driver update first, then cap the frame rate a few fps below your monitor's refresh rate. That alone smooths out a lot of stutter.",
+      "at": "2026-10-24T02:02:51.363Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "midtown-solutions.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3myke4xuida2x",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3myke4xuida2x",
+      "text": "Ugh, 50GB hiding out of sight is frustrating. The Storage page in the Deck settings shows what's taking up space, which is a good first stop when something doesn't add up.",
+      "at": "2026-10-23T14:09:04.856Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "jayveesto.bsky.social"
+    }
+  ]
+}
