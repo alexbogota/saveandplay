@@ -1,56 +1,56 @@
 # Comment candidates: retro (@retrogamedeals.bsky.social)
-Made 2026-10-24T18:41Z. Searched: childhood: childhood favorite game | childhood: games from my childhood | childhood: first video game | childhood: played this as a kid game | classicPC: dos games | classicPC: classic pc games | classicPC: old pc game | classicPC: retro pc gaming | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: retro game recommendations | askRetro: old games recommend | askRetro: retro games recommend | askRetro: best retro games | retroFeed: feed.
-Posts below: 12 + 1 heated. Dropped in this run: not about games 60, skip word 71, other language (text) 6, too short 6, low score 11, replies are limited 7, bot, shop or studio 17, promo (link and hashtags) 1, already answered 4, already shown 6, adult or graphic label 1, many links 1, own post 1, too many hashtags 4, not a question 29, other language 36.
+Made 2026-10-25T00:47Z. Searched: childhood: first pc game | childhood: childhood game | childhood: game from my childhood | childhood: childhood favorite game | classicPC: dos game | classicPC: classic pc game | classicPC: old pc games | classicPC: dos games | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: best old games | askRetro: old game recommend | askRetro: retro game recommendations | askRetro: old games recommend | retroFeed: feed.
+Posts below: 12 + 1 heated. Dropped in this run: not about games 108, bot, shop or studio 12, skip word 79, own post 1, already answered 4, already shown 6, too short 9, replies are limited 8, many links 2, other language (text) 8, low score 3, too many hashtags 4, not a question 25, other language 26, earlier finds: low score 4.
 
 ## Posts
-1. @toestubian.bsky.social (ToeStubian) · 40m · likes 0 · replies 0 · question · askRetro
-   https://bsky.app/profile/toestubian.bsky.social/post/3mynbknbdwk2s
-   I've dabbled with a few and have a retro repack of a few old ones in one game on epic. I'm very open to recommendations!!
-2. @raccattack.bsky.social (Sriracha! (Damon, locked till Oct 31!)) · 16h · likes 2 · replies 1 · question · childhood
+1. @irregularart248.bsky.social (Jakob Mayberry) · 3h · likes 1 · replies 1 · question · classicPC
+   https://bsky.app/profile/irregularart248.bsky.social/post/3mynmlvzef22t
+   An MS-DOS game? That’ll be sweet to see!
+2. @moonlitenigma.bsky.social (MoonlitEnigma🌃) · 57m · likes 0 · replies 0 · question · childhood
+   https://bsky.app/profile/moonlitenigma.bsky.social/post/3mynv3jedwk2w
+   Absolutely sick demo! Max Payne, Stranglehold, BloodRayne, & Control mixed into a blender.🤟IIRC, the first game is available on GOG.com, is there a chance EPE2 will release there as well with an ETA? Good luck with the rest of development. 💜
+   [link card: Welcome to GOG.com | best PC games DRM-free]
+3. @candiedcaiman.bsky.social (Candied Caiman) · 1h · likes 4 · replies 0 · question · nostalgia
+   https://bsky.app/profile/candiedcaiman.bsky.social/post/3myntkz2pc224
+   #Drawtober2026 Day 24: Nostalgia I was super young when I played Demon's Crest on my parent's SNES. I didn't understand the password system, so I played the first hour of the game who knows how many times, and I remember thinking Firebrand was the coolest character
+   [image: Fanart of Firebrand from the video game Demon's Crest Firebrand is a red gargoyle with a sharp beak-like mouth, an elongated head, long ears, and glowing yello…]
+4. @ronangeck.bsky.social (🦎RonanGeck🦎) · 10h · likes 1 · replies 2 · question · childhood
+   https://bsky.app/profile/ronangeck.bsky.social/post/3mymy32ep722j
+   What is the worst video game you played? Oh man, gonna have to dig through the brain archive here... Cant really think of many in my childhood, but the Batman Begins game comes to mind on the OG xbox. I just remember it being very clunky. Though I definitely have memories of terr
+   [quotes @ronangeck.bsky.social: Buh Tahing the day off today, streams will be back on Monday! Gonna take the weekend to clear my head a lil :D Perfect time to send me some…]
+5. @raccattack.bsky.social (Sriracha! (Damon, locked till Oct 31!)) · 22h · likes 2 · replies 1 · question · childhood
    https://bsky.app/profile/raccattack.bsky.social/post/3mylornhqz22n
    Quote post with a video game that takes you back to your childhood. What else?
    [video, no description; quotes @bigbloofrostie.bsky.social: Quote post with a video game that takes you back to your childhood. Awwr yea 💙💙]
-3. @sluts4jrackham.bsky.social (cake 🫧 rat adjacent 🎃🐁) · 18h · likes 2 · replies 1 · question · classicPC
+6. @sluts4jrackham.bsky.social (cake 🫧 rat adjacent 🎃🐁) · 24h · likes 2 · replies 1 · question · classicPC
    https://bsky.app/profile/sluts4jrackham.bsky.social/post/3mylimipwpk26
    there was a jurassic park game on DOS, i can’t remember the name, but it was third person, you had to get through the park and there were a lot of velociraptors. also you had a gun. i think i was 3 or 4 because i only got to play when my brother was at school
    [quotes @sophianyx.bsky.social: Name the first videogame you played.]
-4. @tawa2tawa.art (Tawa! (⊙▼⊙ ﾐ )Э) · 2h · likes 1 · replies 1 · question · childhood
-   https://bsky.app/profile/tawa2tawa.art/post/3myn6p7nhyki7
-   Heya! I was curious if it would be okay replicate your uma pixel art as a cross stitch pattern? The pattern would NOT be shared or sold, it'd be only a fun project like my past stitchings of video game sprites. I want to ask permission first, of course. bsky.app/profile/tawa...
-   [quotes @tawa2tawa.art: Bub from Space Puzzle Bobble cross stitch! Plus a pin and needle to show the scale of 18ct aida fabric. Was fun to stitch again! ✍️👾 #art …]
-5. @decafjedi.com (Jess Morrissette) · 3h · likes 6 · replies 2 · question · childhood
-   https://bsky.app/profile/decafjedi.com/post/3mymyyvbqfc26
-   I vividly remember hitting 500 soda machines back in 2016 and thinking, "Welp, I think we've just about got 'em all." 🤣
-   [link card: The Effervescent Genius of the Video Game Soda Machine Project]
-6. @zarkhatorfan.bsky.social (Simplord Queen The Zarkhator Lover) · 18h · likes 0 · replies 1 · question · childhood
+7. @toestubian.bsky.social (ToeStubian) · 7h · likes 0 · replies 0 · question · askRetro
+   https://bsky.app/profile/toestubian.bsky.social/post/3mynbknbdwk2s
+   I've dabbled with a few and have a retro repack of a few old ones in one game on epic. I'm very open to recommendations!!
+8. @zarkhatorfan.bsky.social (Simplord Queen The Zarkhator Lover) · 24h · likes 0 · replies 1 · question · childhood
    https://bsky.app/profile/zarkhatorfan.bsky.social/post/3mylibvoj322q
    @thecasualcooper.bsky.social Hi I'm new to your content and love what games you play, if you're chill with suggestions and if you own a Nintendo Wii, any chance you could do a let's play series on this game? Not many people know about it and it's one of my childhood games ^^
    [image, no description]
-7. @sawbossachieves.bsky.social (Sawboss Achievements) · 11m · likes 0 · replies 0 · question · retroFeed
-   https://bsky.app/profile/sawbossachieves.bsky.social/post/3mynd6k6h3k25
-   Sawboss earned the Retro Achievement "A Helpful Person!?" in "Holy Umbrella: Dondera no Mubou!!" for the SNES/Super Famicom, earning 5 points. Description: "Recruit Sakuran, a scholar girl." Game details: https://retroachievements.org/game/2674
-   [image: Achievement badge for A Helpful Person!?]
-8. @snezwriting.bsky.social (SNEZ) · 1h · likes 9 · replies 0 · childhood
-   https://bsky.app/profile/snezwriting.bsky.social/post/3myna2wtscs2u
-   One of those fake “bro helping his friend find video game secrets in the early 2000s” videos, but it’s a step by step walkthrough helping her take estrogen for the first time.
-9. @masterplayer148fun.bsky.social (Masterplayer148) · 2h · likes 1 · replies 0 · askRetro
-   https://bsky.app/profile/masterplayer148fun.bsky.social/post/3myn6lpgcys2t
-   I recommend going to retro game stores near you. They are usually sell those games unlike GameStop.
-10. @gamerbait.bsky.social (GamerBait) · 4h · likes 2 · replies 0 · classicPC
-   https://bsky.app/profile/gamerbait.bsky.social/post/3mymx6op5ov2t
-   Humble Capcom Classics Bundle (PC, Steam keys, until Oct 30) $10: Resident Evil, Resident Evil 2, Resident Evil 3: Nemesis $20: adds Dino Crisis, Dino Crisis 2, Breath of Fire IV #RetroGaming
-   [link card: Capcom Classics Bundle]
-11. @sedge.bsky.social (Sedge [ΘΔ]) · 4h · likes 2 · replies 0 · childhood
-   https://bsky.app/profile/sedge.bsky.social/post/3mymwiggezk2a
-   My main memory of this game is my childhood best friend constantly pausing other Sega games while we were playing them just to enter the CALLACAB code from this one to see if it did anything in other games. Got a little annoying, to be honest.
-   [quotes @segacity.bsky.social: 'VectorMan' was released on the SEGA Genesis 31 years ago today in the US.]
-12. @unclefishbits.bsky.social (DJ Uncle Fishbits) · 21h · likes 3 · replies 0 · question · childhood
-   https://bsky.app/profile/unclefishbits.bsky.social/post/3myl5yepcf22s
-   This is the first time it's dawned on me that the majority of people under 40 had their first time playing a video game on a console or computer, versus in an arcade. At 50, I am an aging "arcade native". =) I was approx 10 before we could afford something an NES. Or did most sta
-   [quotes @unclefishbits.bsky.social: Rabbit holing the posts is a great way to find & follow people around your same age. For me it's asteroids, tron, battlezone, qbert, space …]
+9. @1001cranes.bsky.social (the lestat configuration) · 2h · likes 2 · replies 2 · askRetro
+   https://bsky.app/profile/1001cranes.bsky.social/post/3mynssgrcas26
+   damn, another incredible one. Mr. Records!!!! you are a sweet little old man obsessed with music who has decided to open a record store. recommend music to your customers based on their tastes and clues; "learn" the music by listening to each song and playing through a rhythm gam
+10. @daftpunkyoshi.bsky.social (DaftPunkYoshi) · 2h · likes 3 · replies 1 · classicPC
+   https://bsky.app/profile/daftpunkyoshi.bsky.social/post/3mynqyb4tvc2e
+   Watching Ian stream old spooky PC games from the other day and loving his reaction to bedroom eyes Salem
+   [2 images: Brutalmoose - Salem (Sabrina the Teenage Witch) / Brutalmoose - Salem (Sabrina the Teenage Witch)]
+11. @aaronthemutt.bsky.social (Mutt) · 3h · likes 1 · replies 0 · childhood
+   https://bsky.app/profile/aaronthemutt.bsky.social/post/3mynoqr3vj22h
+   Quote post with a video game that takes you back to your childhood. I've bought this game like... five times now. There's a reason. (Also, there's like... no gifs of this game, so.)
+   [link card: Star Ocean Pixel Art; quotes @idohavjuan.bsky.social: Quote post with a video game that takes you back to your childhood. this game is still rude as hell]
+12. @neo-turbo.bsky.social (NeoTurbo) · 5h · likes 6 · replies 1 · classicPC
+   https://bsky.app/profile/neo-turbo.bsky.social/post/3myniggjkmk2e
+   Cleaning and sorting my room and look at some of these old PHYSICAL pc games I still have! #blutoid
+   [image, no description]
 
 ## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @strawberrypedo.bsky.social (Strawberry P 🍓🍓🍓) · 2h · likes 1 · replies 0 · question · retroFeed
+1. @strawberrypedo.bsky.social (Strawberry P 🍓🍓🍓) · 8h · likes 1 · replies 0 · question · retroFeed
    https://bsky.app/profile/strawberrypedo.bsky.social/post/3myn6ot43bc2z
    Remember when Ice Cube was trying to sell you a Sega Saturn?? #Sega
    [image, no description]
