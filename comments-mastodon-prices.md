@@ -1,55 +1,57 @@
 # Comment candidates: mastodon-prices (@saveandplay@mastodon.social)
-Made 2026-10-25T12:43Z. Searched: deck: handheldgaming | deck: steamdecklife | deck: steamdeckoled | deck: steamdeck | deck: steamos | practical: linuxgaming | practical: drmfree | practical: gog | practical: protondb | genres: coopgames | genres: citybuilder | genres: strategygames | genres: survivalgames | genres: horrorgaming | genres: cozygaming | genres: puzzlegames | genres: roguelike | genres: cozygames | genres: metroidvania | seasonal: halloweengames | seasonal: horrorgames | seasonal: spooktober | broadPlaying: videogames | broadPlaying: currentlyplaying | broadPlaying: indiegames | broadPlaying: indiegame | broadPlaying: pcgames | broadPlaying: steamgames | broadPlaying: gamer | broadPlaying: games | broadPlaying: rpg | broadPlaying: jrpg | broadPlaying: pcgaming | broadPlaying: gaming | broadPlaying: steam | broadAsk: recommendmeagame | broadAsk: gamerecommendation | broadAsk: recommendagame | broadAsk: whattoplay | broadAsk: gamesuggestion | broadAsk: hiddengem | broadAsk: underratedgames | broadAsk: gamesuggestions | backlog: gamingbacklog | backlog: backlog | backlog: pileofshame | backlog: whatshouldiplay | backlog: gamerecommendations | backlog: gamerecs.
-Posts below: 12. Dropped in this run: promo (link and hashtags) 106, too old 1210, bot, shop or studio 569, other language 201, skip word 128, link post, not a question 23, not about games 29, too long 6, already shown 26, low score 21, other language (text) 292, own post 25, content warning 7, profile says no bots or promo 5, console only 13, hidden from search 4, many links 1, earlier finds: low score 1.
+Made 2026-10-25T18:39Z. Searched: deck: handheldgaming | deck: steamdecklife | deck: steamdeckoled | deck: steamdeck | deck: steamos | practical: linuxgaming | practical: drmfree | practical: gog | practical: protondb | genres: coopgames | genres: citybuilder | genres: strategygames | genres: survivalgames | genres: horrorgaming | genres: cozygaming | genres: puzzlegames | genres: roguelike | genres: cozygames | genres: metroidvania | seasonal: halloweengames | seasonal: horrorgames | seasonal: spooktober | broadPlaying: videogames | broadPlaying: currentlyplaying | broadPlaying: indiegames | broadPlaying: indiegame | broadPlaying: pcgames | broadPlaying: steamgames | broadPlaying: gamer | broadPlaying: games | broadPlaying: rpg | broadPlaying: jrpg | broadPlaying: pcgaming | broadPlaying: gaming | broadPlaying: steam | broadAsk: recommendmeagame | broadAsk: gamerecommendation | broadAsk: recommendagame | broadAsk: whattoplay | broadAsk: gamesuggestion | broadAsk: hiddengem | broadAsk: underratedgames | broadAsk: gamesuggestions | backlog: gamingbacklog | backlog: backlog | backlog: pileofshame | backlog: whatshouldiplay | backlog: gamerecommendations | backlog: gamerecs.
+Posts below: 12. Dropped in this run: promo (link and hashtags) 100, too old 1220, other language 207, bot, shop or studio 612, already shown 32, skip word 140, link post, not a question 29, too long 9, profile says no bots or promo 5, other language (text) 251, low score 23, own post 27, not about games 27, many links 1, console only 13, hidden from search 2, content warning 15, already answered 4, earlier finds: low score 2.
 
 ## Posts
-1. @mikelundahl@mastodon.world (Mike) · 2h · likes 1 · replies 0 · question · broadPlaying
-   https://mastodon.social/@mikelundahl@mastodon.world/117501142868722980
-   original: https://mastodon.world/@mikelundahl/117501142839288153
-   Hey gamers! What did you think about the Steam Next Fest? #SteamGames #Steam #SteamNextFest #SNF #PCGaming
-2. @bat1000@sh.itjust.works · 2h · likes 0 · replies 1 · question · broadPlaying
-   https://mastodon.social/@bat1000@sh.itjust.works/117501221359158971
-   original: https://sh.itjust.works/post/68899030
-   Neo Geo: Why Did Nobody Play These Fighting Games? https://sh.itjust.works/post/68899030
-   [link card: Neo Geo: Why Did Nobody Play These Fighting Games?]
-3. @pitcrewgg@mastodon.social (PitCrew) · 4h · likes 3 · replies 1 · practical
-   https://mastodon.social/@pitcrewgg/117500746402341518
-   🔄 FlightGear - Release 2024.1.7 New release brings minor bug fixes to the free open source flight simulator. 1/2 #FlightGear #Linux #LinuxGaming #PCGaming #FlightSim #OpenSource #MetaQuest #OpenXR #PICO #Pimax #SteamFrame #SteamVR #VirtualReality #VR
-   [image, no description]
-4. @pitcrewgg@mastodon.social (PitCrew) · 4h · likes 1 · replies 1 · deck
-   https://mastodon.social/@pitcrewgg/117500687420804934
-   🔄 SteamOS - 3.9 Update SteamOS 3.9.5 updates Arch base and Plasma 6.7.3, fixes WiFi and VRR issues, adds kernel 7.2 and default wpa_supplicant, plus early hibernation work 1/2 #Linux #LinuxGaming #PCGaming #Steam #ValveSoftware #LegionGo2 #LegionGoS #SteamDeck #SteamFrame #Steam
-   [image, no description]
-5. @crochetygamer@dice.camp (Malachite) · 8h · likes 0 · replies 0 · question · broadPlaying
-   https://mastodon.social/@crochetygamer@dice.camp/117499700406475139
-   original: https://dice.camp/@crochetygamer/117499700385671208
-   Celebrating my recruited #rpg test-players opinions of my PF2e Wacky Halloween 1-shot. THE CANDY CORNING... Gives me confidence to offer it on #Startplaying https://startplaying.games/adventure/cmvlxe9qs001tkt08rni8mqku?ref=cl4vmmolq6hvbbopk687e95g4
-   [link card: Join The Candy Corning - A Wacky Halloween 1-Shot - Foundry VTT / Discord - Pathfinder 2e | StartPl…]
-6. @cm0002@no.lastname.nz · 15h · likes 0 · replies 0 · question · broadPlaying
-   https://mastodon.social/@cm0002@no.lastname.nz/117498071959512384
-   original: https://no.lastname.nz/post/4060669
-   [Poll] Do you keep Steam running in the background all the time? https://no.lastname.nz/post/4060669
-   [link card: Do you keep Steam running in the background all the time? - StrawPoll]
-7. @ChrisJagged@mastodon.social (Jags-O-Lantern) · 19h · likes 2 · replies 4 · question · broadPlaying
-   https://mastodon.social/@ChrisJagged/117497182398929221
-   #GamersOfMastodon, what is your GOTY so far? Asking before the GTA steamroller rolls in and stops this question being fun. #gaming #videoGames
-8. @The_Picard_Maneuver@lemmy.world (The Picard Maneuver) · 22h · likes 0 · replies 2 · question · broadPlaying
-   https://mastodon.social/@The_Picard_Maneuver@lemmy.world/117496506398128739
-   original: https://lemmy.world/post/53538932
-   Wanna play the game I'm based on? https://lemmy.world/post/53538932
-   [image, no description]
-9. @serigala_tropis@lgbtqia.space (Wendy) · 22h · likes 0 · replies 0 · question · broadPlaying
+1. @Zumbador@mefi.social (Zumbador) · 6h · likes 10 · replies 1 · question · broadPlaying
+   https://mastodon.social/@Zumbador@mefi.social/117501610174722646
+   original: https://mefi.social/@Zumbador/117501609847284654
+   Visited a friend and played the game he created. It's an abstract strategy game, very cleverly designed and satisfying to play. The game is called "Intent" but unfortunately it's not available for sale. Can theoretically be played without any board or pieces, just by drawing on p
+   [2 images: Two people playing a board game. The board is a wooden rectangle with a 5 by 8 grid, some of the squares have been randomly filled by the players. The pieces, … / Two people playing a board game, one with his hand in a fist as he hides one of his game pieces. The board is a rectangular wooden 5 x 8 grid]
+2. @thephoeron@functional.cafe (“the Phoeron” Colin J E Lupton) · 3h · likes 0 · replies 0 · question · broadPlaying
+   https://mastodon.social/@thephoeron@functional.cafe/117502197614748167
+   original: https://functional.cafe/@thephoeron/117502197512458902
+   Have you seen the #MassEffectUniverse promo trailer leaked on Reddit? My god that would have been a good game. #MassEffect5 #MassEffect #BioWare #SciFi #RPG #Gaming
+3. @chromatominna@mastodon.social (Minna Antikainen) · 22m · likes 0 · replies 0 · question · practical
+   https://mastodon.social/@chromatominna/117502918632513491
+   Tinkering with BazziteOs on an extra laptop. Looking promising 😍 I may switch my main machine to it as well. Why? Because I got the tinkering itch #linuxgaming #bazzite
+4. @serigala_tropis@lgbtqia.space (Wendy) · 28h · likes 0 · replies 0 · question · broadPlaying
    https://mastodon.social/@serigala_tropis@lgbtqia.space/117496355219782016
    original: https://lgbtqia.space/@serigala_tropis/117496355153351050
    Looking for 100% achievements in Rise of the Tomb Raider and how much I despise a side mission that requires me to throw pumpkins into some targets in a badly designed physics in video game. #videogame #gaming #tombraider #riseofthetombraider #rotr
-10. @kekoakiki@vt.social (Kekoa Kiki 🎣 Cozy Brat VTuber) · 24h · likes 0 · replies 2 · question · broadPlaying
+5. @kekoakiki@vt.social (Kekoa Kiki 🎣 Cozy Brat VTuber) · 30h · likes 0 · replies 2 · question · broadPlaying
    https://mastodon.social/@kekoakiki@vt.social/117495996058896754
    original: https://vt.social/@kekoakiki/117495996009870194
    #Playdate users: Who uses Playdate Mirror to play on PC? Fullscreen mode seems to cut off pixels. It doesn't hide the taskbar either. Any way around that? #gaming #videogames #Vtuber
-11. @coa100@mastodon.social (Coa art) · 28h · likes 0 · replies 0 · question · broadPlaying
-   https://mastodon.social/@coa100/117494893525885481
-   looking for people who can apriciate my awesome community site Vasnic made by myself and is totally #indie #videogames #gaming #music #art #programming #php
-12. @coa100@mastodon.social (Coa art) · 29h · likes 0 · replies 0 · question · broadPlaying
-   https://mastodon.social/@coa100/117494843566681509
-   have a look at games by myself ive posted on Vasnic Community all free to play browser games with option to support them. https://vasnic.wtnet9.site/?p=&s=gamesbycoa #videogames #pcgaming
-   [link card: gamesbycoa - Posts - Vasnic]
+6. @kekoakiki@vt.social (Kekoa Kiki 🎣 Cozy Brat VTuber) · 3h · likes 1 · replies 0 · genres
+   https://mastodon.social/@kekoakiki@vt.social/117502388828873473
+   original: https://vt.social/@kekoakiki/117502388596018672
+   #DayTicket is chill. Kiki could fall asleep to the game. In a good way. Except...that alarm sfx. 📢 #playdate #fishing #Fishinggames #cozygames
+   [image: Day Ticket, a fishing game for Playdate. A fishing pong is seen on a monochrome portable console.]
+7. @junwin@pixelfed.social (John Unwin) · 3h · likes 5 · replies 1 · broadPlaying
+   https://mastodon.social/@junwin@pixelfed.social/117502312149794372
+   original: https://pixelfed.social/p/junwin/1019996812125414043
+   chicago alley in the sun picture down an alley just past midday - film image from 2016 #photography #photo #alley #steam #film #monochrome #dumpster #suitcase #urban #blackandwhite #buildings #fireescape #solitary #city #gritty #distance #figure #environment
+   [image: A narrow alleyway is depicted in black and white. On the left, there are two large dumpsters, one with a partially visible logo. Steam rises from a source near…]
+8. @kekoakiki@vt.social (Kekoa Kiki 🎣 Cozy Brat VTuber) · 3h · likes 0 · replies 1 · question · broadPlaying
+   https://mastodon.social/@kekoakiki@vt.social/117502205628099826
+   original: https://vt.social/@kekoakiki/117502205580583269
+   Do people still fw #Webfishing? Kiki hadn't launched when it came out. #gaming #fishing #vtuber
+9. @Mr.Android123@pixelfed.de (Yaad van-Leeven) · 6h · likes 1 · replies 0 · broadPlaying
+   https://mastodon.social/@Mr.Android123@pixelfed.de/117501640932757950
+   original: https://pixelfed.de/p/Mr.Android123/1019953856188236459
+   The Hidden Drama Beneath Us #photography #minimalism #sofa #games
+   [image, no description]
+10. @BreakingImpossible@mastodon.social (China.Gamer.Guy 神州电玩游士) · 6h · likes 1 · replies 0 · broadPlaying
+   https://mastodon.social/@BreakingImpossible/117501635142719515
+   The "emperor" inspects his troops. Look out, xenos! #VideoGames #PhotoSafari #MyPhoto
+   [image, no description]
+11. @sephster@fosstodon.org (Sephster) · 6h · likes 0 · replies 0 · deck
+   https://mastodon.social/@sephster@fosstodon.org/117501607981229348
+   original: https://fosstodon.org/@sephster/117501607951975805
+   Should also add that I went years without regular gaming, especially since becoming a father, and the Steam Deck has been an absolute game changer on that front. Love that wee device so much #SteamDeck
+12. @thingsiplay@lemmy.ml · 21h · likes 0 · replies 9 · question · broadPlaying
+   https://mastodon.social/@thingsiplay@lemmy.ml/117497996531851805
+   original: https://lemmy.ml/post/54454819
+   [Poll] Do you keep Steam running in the background all the time? https://lemmy.ml/post/54454819
+   [link card: Do you keep Steam running in the background all the time? - StrawPoll]

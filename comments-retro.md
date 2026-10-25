@@ -1,54 +1,52 @@
 # Comment candidates: retro (@retrogamedeals.bsky.social)
-Made 2026-10-25T12:44Z. Searched: childhood: childhood game | childhood: game from my childhood | childhood: childhood favorite game | childhood: games from my childhood | classicPC: classic pc game | classicPC: old pc games | classicPC: dos games | classicPC: classic pc games | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: retro game recommendations | askRetro: old games recommend | askRetro: retro games recommend | askRetro: best retro games | retroFeed: feed.
-Posts below: 12 + 1 heated. Dropped in this run: not about games 83, skip word 52, bot, shop or studio 12, replies are limited 2, adult or graphic label 1, too short 7, already shown 3, many links 1, other language (text) 14, low score 4, already answered 2, not a question 21, other language 39, too many hashtags 3, promo (link and hashtags) 1, earlier finds: low score 2.
+Made 2026-10-25T18:41Z. Searched: childhood: first video game | childhood: played this as a kid game | childhood: first pc game | childhood: childhood game | classicPC: old pc game | classicPC: retro pc gaming | classicPC: dos game | classicPC: classic pc game | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: best old games | askRetro: old game recommend | askRetro: retro game recommendations | askRetro: old games recommend | retroFeed: feed.
+Posts below: 12 + 1 heated. Dropped in this run: skip word 106, not about games 112, promo (link and hashtags) 3, adult or graphic label 2, replies are limited 13, bot, shop or studio 14, low score 8, too short 6, already answered 3, other language (text) 7, already shown 7, own post 1, too many hashtags 4, many links 2, not a question 30, other language 28.
 
 ## Posts
-1. @thesharmat.bsky.social (TheSharmat223 🏳️‍⚧️) · 55m · likes 0 · replies 0 · question · childhood
-   https://bsky.app/profile/thesharmat.bsky.social/post/3myp5c2jcrk2n
-   It’s hard to remember exactly since I was incredibly young, but my childhood friend at the time had a big bro that owned a SNES, with lots of the classics. One day after school my bud showed me A link to the Past, probably the first Nintendo game I ever saw. Loved Zelda ever sinc
-2. @thejapanhobbyist.bsky.social (TheJapanHobbyist) · 8h · likes 2 · replies 1 · question · askRetro
-   https://bsky.app/profile/thejapanhobbyist.bsky.social/post/3myogco3mps2y
-   Ever thought about selling your #retrovideogames in Japan or were interested in what it's like to sell video games in Japan? Check out my newest article where I visit a variety of different stores in Japan to see who offers the best prices! thejapanhobbyist.com/2026/10/25/s...
-   [link card: Selling Your Video Games in Japan]
-3. @pepsimanvsjoe.bsky.social (Gabriel Jones) · 1h · likes 10 · replies 0 · question · retroFeed
-   https://bsky.app/profile/pepsimanvsjoe.bsky.social/post/3myp4iy3wyk2l
-   Today's short look is at Kid Icarus: Of Myths and Monsters DX. I hated Kid Icarus on the NES. This? This ain't bad at all. pepsimanvsjoe.blogspot.com/2026/10/game... #retrogaming #nintendo
-   [link card: Game Boy Color Look - Kid Icarus: Of Myths and Monsters DX]
-4. @jamierohu.bsky.social (Jamie Rohu) · 17h · likes 0 · replies 0 · question · askRetro
-   https://bsky.app/profile/jamierohu.bsky.social/post/3mynh335whk2j
-   Looking forward to it Darren. I have been getting (and keeping) Retro Gamer magazine for a long time. The best bits of the mag are hearing about your own personal journeys with the games you’ve loved over the years. I’d love to see longer reviews as I value your opinions.
-5. @thatdudenamedbj.bsky.social (BJ) · 57m · likes 0 · replies 0 · question · retroFeed
-   https://bsky.app/profile/thatdudenamedbj.bsky.social/post/3myp55shdms2j
-   Another game done! Yoshi's Island (1995) [SNES] Can you tell I'm in a retro kick? 😂
+1. @kathmachine.bsky.social (Kathleen Jacques) · 2h · likes 2 · replies 1 · question · classicPC
+   https://bsky.app/profile/kathmachine.bsky.social/post/3mypnga7fz222
+   I love this, and I've always loved the specific Kid Energy of using whatever is available to you for games and game design? honestly a goal to try to reconnect with some of the spark that made me draw maze dungeons on my dad's office paper and try to make games in like ms-dos spr
+2. @alexisjanson.com (drajjon (Alexis)) · 2h · likes 4 · replies 0 · question · classicPC
+   https://bsky.app/profile/alexisjanson.com/post/3mypmtdetdc2z
+   i remember sitting among the empty cubicles at my dad's office on the weekend, typing "game instruction manuals" into DOS word processing programs with ASCII-art illustrations and printing them on the loud-ass dot matrix printers
+   [quotes @jeannethornton.bsky.social: One of my favorite tiny Jeanne memories: going in with my dad to his office when he had to work Saturdays, making maze games in the MS dos …]
+3. @antifasictmilatant.bsky.social (Antifascist Militant) · 8m · likes 0 · replies 0 · question · askRetro
+   https://bsky.app/profile/antifasictmilatant.bsky.social/post/3myptssaves22
+   Playing old games is the best Do I want to try this massive game I never played? 5 bucks
+4. @pizzaforfree.itch.io (pizzaforfree~ 🧭ピ—ツァ—•フォ—•フリ—~) · 2h · likes 1 · replies 0 · question · gogOld
+   https://bsky.app/profile/pizzaforfree.itch.io/post/3mypm4vt5vc2r
+   Itch and GOG don't market themselves as game stores the same way Steam and EGS do (did?). They focus on their own branches of the market; GOG for, y'know, good old games, and itch for indie digital media, not just games. They don't compete in the AAA market.
+5. @abstracttesseract.bsky.social (Aaahh!!! bstract Tesseract) · 1h · likes 3 · replies 1 · question · childhood
+   https://bsky.app/profile/abstracttesseract.bsky.social/post/3mypptzb3322j
+   I very distinctly remember the first time I saw "X is all but Y". It was in a video game instruction manual and I was extremely confused about whether they were saying that X is Y or X is not Y
+   [image: Excerpt from Kirby's Avalanche (Super Nintendo) instruction Manual Metaknight (drawing of Metaknight brandishing a sword and cape) -------- Chivalrous to the l…]
+6. @sakunyannekochan.bsky.social (Sakunyan Nekochan) · 13m · likes 1 · replies 0 · childhood
+   https://bsky.app/profile/sakunyannekochan.bsky.social/post/3myptjthdqc24
+   As a console gamer I hate articles that are like... "Your favourite childhood game is getting a free exoansion after years" And it's just a mod. Like fuck clickbait duuuuuue just say a new mod has dropped in the fucking headline so I know it's not for me
+7. @myabandonware.com (My Abandonware) · 41m · likes 7 · replies 0 · classicPC
+   https://bsky.app/profile/myabandonware.com/post/3mypomon5fi2p
+   New release: Whatever We Decide to Call this Game (1993 - DOS) - https://www.myabandonware.com/game/whatever-we-decide-to-call-this-game-11mk #abandonware
+   [3 images: Whatever We Decide to Call this Game in game screenshot / Whatever We Decide to Call this Game in game screenshot / Whatever We Decide to Call this Game in game screenshot]
+8. @unbegnomest.bsky.social (UnbeGnomest) · 1h · likes 1 · replies 0 · childhood
+   https://bsky.app/profile/unbegnomest.bsky.social/post/3myppl5nf7227
+   these adventure books i credit with my "dungeon weirdness" sensibilities getting your grubby nubbies of collectors items like these is a challenge, but Steve Jackson's Sorcery was translated into a very affordable video game title abailable on Steam
+9. @twenty20sight.com (twenty - she/her) · 1h · likes 0 · replies 0 · question · childhood
+   https://bsky.app/profile/twenty20sight.com/post/3mypph3p3rc2b
+   Oh shit, it was Rise. I misremembered, probably because Wrath is a video game as well. But Kingmaker was definitely first, I remember because Andi was my first GM.
+10. @gpool.bsky.social (G-Pool 🔰💙) · 1h · likes 2 · replies 1 · childhood
+   https://bsky.app/profile/gpool.bsky.social/post/3myppghwpgs27
+   38. That rocket knight Sparkster sure knows how to fly! This game is really good, all three of the classic Rocket Knight games are really good! But this one is my favorite!! Maybe it's nostalgia since it's the only one I played as a kid, and it's a snes game, but it's my favorite
    [image, no description]
-6. @lanajhonpual.bsky.social (😫Ⓐⓘⓢⓗⓐ, ⓕⓐⓘⓡⓨ ⓞⓕ ⓜⓞⓐⓝⓘⓝⓖ😩) · 2h · likes 2 · replies 0 · childhood
-   https://bsky.app/profile/lanajhonpual.bsky.social/post/3myozpqvbls2d
-   Quote post with a video game that takes you back to your childhood.
-   [link card: Hamtaro's Cute Dance; quotes @furriesatlarge.bsky.social: Quote post with a video game that takes you back to your childhood. Yeah, this one needs no introduction. ;)]
-7. @xxgr1llmast3rxx.bsky.social (Herbert) · 2h · likes 5 · replies 0 · classicPC
-   https://bsky.app/profile/xxgr1llmast3rxx.bsky.social/post/3myozkpmtsk2z
-   likewise one of the absolute best ways to improve accessibility of classic console and PC games would be to include scans of the original manuals in the menu which often provide incredibly important guidance
-8. @mylittleretro.bsky.social (My little retro computer world) · 4h · likes 1 · replies 0 · classicPC
-   https://bsky.app/profile/mylittleretro.bsky.social/post/3myoryeljp22b
-   Extreme Pinball (1995) - one of the best DOS pinball games. Gravis Ultrasound PnP in action on a Pentium MMX 233 (1997). Few games really took advantage of the GUS hardware mixing, onboard RAM and interpolation. Pinball games were among the exceptions. #RetroPC #DOSGaming #Gravis
-   [video, no description]
-9. @tranquilblue.bsky.social (Tranq) · 5h · likes 1 · replies 1 · childhood
-   https://bsky.app/profile/tranquilblue.bsky.social/post/3myoplm62p22d
-   my favorite kind of anime/video game sicko is "guy who had a really awful childhood and used one weird trick to drag himself out of it, so you can't be mad at him". this makes me want to watch blue lock even more tbh
-10. @katywhitton.co.uk (Katy) · 7h · likes 1 · replies 0 · question · childhood
-   https://bsky.app/profile/katywhitton.co.uk/post/3myojvokimk2w
-   What was the first game you played on the original Sony PlayStation? Not the actual first, but one of them. At university my friends and I used to spend hours playing Worms, usually after a heavy night out!
-   [link card: Worms -- Gameplay (PS1); quotes @retroblastpod.com: Do you remember the first time you played the original SONY PlayStation? What was the very first game you ever played on it?]
-11. @solfleet.bsky.social (Hayes Madsen) · 8h · likes 5 · replies 2 · question · childhood
-   https://bsky.app/profile/solfleet.bsky.social/post/3myofdwbupc2h
-   Fun story I realized tonight - the first ever video game review I wrote for a site was Dragon Age 2. Feels remarkably bizarre to remember that right now. And while Slimgamer.com has long stopped existing, and it’s not on the way back machine, I found the N4G link (of all things)
-   [image, no description]
-12. @bensilly.bsky.social (bensilly) · 9h · likes 1 · replies 0 · question · childhood
-   https://bsky.app/profile/bensilly.bsky.social/post/3myocgnl2ys2a
-   for those curious about my resident evil journey i Am logging all of them on my backloggd aka gamer letterboxd . here it is. i do not play big video games like these very often so the resident evil journey really is a first for me. any skill issues are due to this reason backlogg
-   [link card: bensilly's profile | Backloggd]
+11. @johndudebro.bsky.social (john dudebro) · 2h · likes 0 · replies 1 · question · childhood
+   https://bsky.app/profile/johndudebro.bsky.social/post/3mypmk2cpzc26
+   this is the first video game i can remember playing. i got a sega nomad for christmas and for some reason this is what my parents chose to give me with it
+   [quotes @segacity.bsky.social: 'VectorMan' was released on the SEGA Genesis 31 years ago today in the US.]
+12. @myabandonware.com (My Abandonware) · 3h · likes 5 · replies 0 · classicPC
+   https://bsky.app/profile/myabandonware.com/post/3myphw5zi3s2m
+   New release: Storms I (1993 - DOS) - https://www.myabandonware.com/game/storms-i-11mj #abandonware
+   [3 images: Storms I in game screenshot / Storms I in game screenshot / Storms I in game screenshot]
 
 ## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @ciggysmokebringer.bsky.social (Ciggy Smoke Bringer aka Riotous Blottone) · 7h · likes 0 · replies 1 · nostalgia
-   https://bsky.app/profile/ciggysmokebringer.bsky.social/post/3myokklfg6c2y
-   The fundamental is that The Democratic Party stumbled into a moral figurehead with nostalgic fondness still intact, who never was the ruthless partisan thats in it for the love of tormenting the GOP and the political game. One of the things about having 'It' to that degree.
+1. @afoxuponthee.bsky.social (Dominic Foxley) · 50m · likes 2 · replies 0 · classicPC
+   https://bsky.app/profile/afoxuponthee.bsky.social/post/3myprhlxdl22v
+   Game-Maker for DOS by Recreational Software Designs resulted in a lot of weird janky DOS shareware games. There was also ZZT by Tim Sweeney, before he became a sad genAI huckster
