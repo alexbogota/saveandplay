@@ -5,7 +5,7 @@
       "blog": "saveandplay",
       "secretPrefix": "TUMBLR",
       "autopost": true,
-      "kinds": ["article"],
+      "kinds": ["deal", "article"],
       "timezone": "America/Bogota",
       "maxBriefAgeHours": 12,
       "articleEveryDays": 2,
