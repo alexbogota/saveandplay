@@ -1,0 +1,49 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "stamp": "20261025-130324",
+  "madeAt": "2026-10-25T13:04:07.379Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:h4d4xwb3zep5cf3ayrivckss/app.bsky.feed.post/3myozom7c7k2e",
+      "url": "https://bsky.app/profile/mikelundahl.bsky.social/post/3myozom7c7k2e",
+      "author": "mikelundahl.bsky.social",
+      "context": "Hey gamers! What did you think about the Steam Next Fest? #SteamGames #Steam #SteamNextFest #SNF #PCGaming",
+      "text": "Wishlisting the demos you liked is the easiest way to keep track of them once the fest is over. Steam will let you know when those games launch.",
+      "group": "pcGaming",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:f4thvphepzkelett5leiyzmz/app.bsky.feed.post/3mynsvzropk2e",
+      "url": "https://bsky.app/profile/puddingandp1.bsky.social/post/3mynsvzropk2e",
+      "author": "puddingandp1.bsky.social",
+      "context": "i'm genuinely considering on redownloading it just for him lol but i feel like it'd be dumb to get into a game for just one character... (and a non playable one at that) is it worth it?",
+      "text": "If you already own it, redownloading costs nothing, so it's a low-risk experiment. Give it an evening, and you'll know whether the game itself clicks for you.",
+      "group": "waitForSale",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:uvyukmyz2nje54jfwq5zmvah/app.bsky.feed.post/3myoezz54ws24",
+      "url": "https://bsky.app/profile/derytatith.bsky.social/post/3myoezz54ws24",
+      "author": "derytatith.bsky.social",
+      "context": "i know it's like 200 years late to the party but PEAK getting a console version with cross play?? fanatasic I love being able to play games with my firends. Big Walk and now this, pls more games with console and cross play 😭",
+      "text": "Crossplay is a big deal for a game like that, since the whole friend group can climb together no matter what they play on.",
+      "group": "backlog",
+      "heated": false
+    },
+    {
+      "n": 4,
+      "uri": "at://did:plc:7kodnfh2i4a4aau34y4qxwlp/app.bsky.feed.post/3myo7dexpas2l",
+      "url": "https://bsky.app/profile/rosequartz.moe/post/3myo7dexpas2l",
+      "author": "rosequartz.moe",
+      "context": "i should invest in a steam deck",
+      "text": "Before you decide, open your Steam library and check the Deck Verified label on the games you play most. It shows which ones run well on it, so you can see if it fits your habits.",
+      "group": "deck",
+      "heated": false
+    }
+  ]
+}
