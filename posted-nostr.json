@@ -1338,6 +1338,58 @@
             "id": "9f0a9018cb46872d2d05e6045d5c750a40a5a53fd7980ad3091f6078c028c150",
             "sig": "b831e8414006b4ce9c078c3db1dafe59b92ba7c0028ebf3e76aeed8022ce4308bd2f9061a16471834f2be03e3013cb4756ff566c07442590b95393b2ee094917"
           }
+        },
+        "article": {
+          "status": "done",
+          "kind": "article",
+          "id": "4c80e6416f16b36d494d730b9d540947badfbcf1e29a060a987609c72d2ce528",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "article": "early-access-vs-pre-order",
+          "postedAt": "2026-10-26T17:30:19.000Z",
+          "accepted": [
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [
+            {
+              "url": "wss://relay.damus.io",
+              "reason": "connection failed"
+            }
+          ],
+          "event": {
+            "kind": 1,
+            "created_at": 1793035819,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-article"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://saveandplay.com/og/early-access-vs-pre-order.png",
+                "m image/png",
+                "alt Diagram: on Steam an Early Access game is a full purchase and the 14-day, 2-hour refund clock starts at purchase; a pre-purchase clock starts on the release date."
+              ]
+            ],
+            "content": "Early Access or pre-order: what you are buying and how refunds work\n\nSteam treats Early Access and pre-purchases differently: one is a playable game today, the other a promise. Here is what Valve's pages say and five checks.\n\n#pcgaming #gamedeals\n\nhttps://saveandplay.com/og/early-access-vs-pre-order.png\n\nhttps://saveandplay.com/guides/early-access-vs-pre-order/?utm_source=nostr-prices&utm_medium=social&utm_campaign=early-access-vs-pre-order",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "4c80e6416f16b36d494d730b9d540947badfbcf1e29a060a987609c72d2ce528",
+            "sig": "6be9389817596cc5f731709e054f6c34751a1f1a08a06c74a4ebfdea93399073d54e1d7e9a6c166810ad11d4e82be5a8b58fb0a6094d8a25241dd1853df6d7cb"
+          }
         }
       }
     }
@@ -1379,6 +1431,10 @@
       "steam-demos-and-next-fest": {
         "day": "2026-10-24",
         "id": "724f51e91540a3e24a0ad0703f450ab8ecb4d104cf9d84fc71afb9f9dc14b8a2"
+      },
+      "early-access-vs-pre-order": {
+        "day": "2026-10-26",
+        "id": "4c80e6416f16b36d494d730b9d540947badfbcf1e29a060a987609c72d2ce528"
       }
     }
   },
