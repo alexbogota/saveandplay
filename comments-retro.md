@@ -1,55 +1,52 @@
 # Comment candidates: retro (@retrogamedeals.bsky.social)
-Made 2026-10-26T01:02Z. Searched: childhood: game from my childhood | childhood: childhood favorite game | childhood: games from my childhood | childhood: first video game | classicPC: old pc games | classicPC: dos games | classicPC: classic pc games | classicPC: old pc game | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: retro games recommend | askRetro: best retro games | askRetro: best old games | askRetro: old game recommend | retroFeed: feed.
-Posts below: 12 + 2 heated. Dropped in this run: bot, shop or studio 27, not about games 67, replies are limited 13, too short 8, skip word 86, low score 8, promo (link and hashtags) 2, adult or graphic label 1, other language (text) 8, already answered 3, many links 2, already shown 4, too many hashtags 4, not a question 19, other language 26, earlier finds: low score 3.
+Made 2026-10-26T06:53Z. Searched: childhood: played this as a kid game | childhood: first pc game | childhood: childhood game | childhood: game from my childhood | classicPC: retro pc gaming | classicPC: dos game | classicPC: classic pc game | classicPC: old pc games | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: retro game recommendations | askRetro: old games recommend | askRetro: retro games recommend | askRetro: best retro games | retroFeed: feed.
+Posts below: 12. Dropped in this run: skip word 57, not about games 66, replies are limited 14, other language (text) 7, bot, shop or studio 22, too short 8, already shown 7, adult or graphic label 1, already answered 2, low score 1, too many hashtags 2, other language 14, not a question 32, many links 1, earlier finds: low score 4.
 
 ## Posts
-1. @kathmachine.bsky.social (Kathleen Jacques) · 8h · likes 5 · replies 1 · question · classicPC
-   https://bsky.app/profile/kathmachine.bsky.social/post/3mypnga7fz222
-   I love this, and I've always loved the specific Kid Energy of using whatever is available to you for games and game design? honestly a goal to try to reconnect with some of the spark that made me draw maze dungeons on my dad's office paper and try to make games in like ms-dos spr
-2. @alexisjanson.com (drajjon (Alexis)) · 9h · likes 4 · replies 0 · question · classicPC
-   https://bsky.app/profile/alexisjanson.com/post/3mypmtdetdc2z
-   i remember sitting among the empty cubicles at my dad's office on the weekend, typing "game instruction manuals" into DOS word processing programs with ASCII-art illustrations and printing them on the loud-ass dot matrix printers
-   [quotes @jeannethornton.bsky.social: One of my favorite tiny Jeanne memories: going in with my dad to his office when he had to work Saturdays, making maze games in the MS dos …]
-3. @spikespeigel.bsky.social (Space Cowboy) · 3h · likes 14 · replies 0 · question · childhood
-   https://bsky.app/profile/spikespeigel.bsky.social/post/3myq73cqpik2l
-   Last time I was in a GameStop was 2023 to pick up a copy of Marvel’s Spider-Man 2, and I still remember the two cashiers being confused when I asked them if they still had a copy of the game. I was probably the first video game sale that day.
-4. @lanacioncr.bsky.social (La Nación) · 3h · likes 2 · replies 0 · question · retroFeed
-   https://bsky.app/profile/lanacioncr.bsky.social/post/3myq6mm6gof2c
-   📢 ¿Quiénes son los magistrados de la República y cuántos periodos tienen en la función? 👇
-   [link card: ¿Quiénes son los magistrados de la República y cuántos periodos tienen en la función?]
-5. @mommyscarcass.bsky.social (Undead mother) · 4h · likes 3 · replies 1 · question · childhood
-   https://bsky.app/profile/mommyscarcass.bsky.social/post/3myq3m6qzj222
-   Trying to rewatch Kamikatsu because I remember liking it and having to sit through the secondhand embarrassment of Yukito thinking he's in a video game at first
-6. @antifasictmilatant.bsky.social (Antifascist Militant) · 6h · likes 0 · replies 0 · question · askRetro
-   https://bsky.app/profile/antifasictmilatant.bsky.social/post/3myptssaves22
-   Playing old games is the best Do I want to try this massive game I never played? 5 bucks
-7. @pizzaforfree.itch.io (pizzaforfree~ 🧭ピ—ツァ—•フォ—•フリ—~) · 9h · likes 1 · replies 0 · question · gogOld
-   https://bsky.app/profile/pizzaforfree.itch.io/post/3mypm4vt5vc2r
-   Itch and GOG don't market themselves as game stores the same way Steam and EGS do (did?). They focus on their own branches of the market; GOG for, y'know, good old games, and itch for indie digital media, not just games. They don't compete in the AAA market.
-8. @mxbatty.bsky.social (Myoti) · 1h · likes 8 · replies 0 · classicPC
-   https://bsky.app/profile/mxbatty.bsky.social/post/3myqf6u7yps2q
-   We're currently at $6.6k towards our "Get the hell out of Georgia and move to Portland for trans safety" fund! We're aiming to hit our $8k milestone by Halloween, and if we do, I'll stream playing the terrible MS-DOS Mega Man games! 😋 👉 GFM: gof*und.me/9b54*6bdcd (remove the tw
+1. @japanretrodirect.bsky.social (Japan Retro Direct) · 3h · likes 13 · replies 2 · question · retroFeed
+   https://bsky.app/profile/japanretrodirect.bsky.social/post/3myqte7glms24
+   All Famicom games today. Some classics like Castlevania 3, Super Mario USA, and Gradius 2. Also Fighting Road is new to the store and many more restocks. What's your favorite Famicom/NES game? Site: japanretrodirect.ocnk.com
    [image, no description]
-9. @collectabk7.bsky.social (collectaBK7) · 2h · likes 1 · replies 0 · classicPC
-   https://bsky.app/profile/collectabk7.bsky.social/post/3myqdzcp3ic2v
-   I am loving seeing all of these old PC games getting releases on Steam. So many of them are forgotten and pre-Steam PC gaming really doesn't get the respect it deserves outside of Doom, Half-Life, etc.
-   [quotes @dosnostalgic.bsky.social: Someone is about to drop the entire Headbone Interactive catalog on Steam.]
-10. @toko90s.bsky.social (Toko90s) · 6h · likes 4 · replies 1 · askRetro
-   https://bsky.app/profile/toko90s.bsky.social/post/3mypw5spir22y
-   Late 90s, early 2000s game ads were something. Honestly I'd recommend going to the internet archive and looking up old gaming magazines for them alone lmao
-11. @anisekstrong.bsky.social (Anise K. Strong) · 6h · likes 4 · replies 1 · question · childhood
+2. @vantahku.bsky.social (Tiger Figueroa) · 2h · likes 1 · replies 1 · childhood
+   https://bsky.app/profile/vantahku.bsky.social/post/3myqxttsaf226
+   Quote post with a video game that takes you back to your childhood.
+   [link card: Pokemon Game Boy Battle: Pidgey & Charmander; quotes @markus-erdt-art.de: Quote post with a video game that takes you back to your childhood.]
+3. @anisekstrong.bsky.social (Anise K. Strong) · 12h · likes 4 · replies 1 · question · childhood
    https://bsky.app/profile/anisekstrong.bsky.social/post/3mypuz553kc2s
    It is, I'm pretty sure, the first systematic coverage of depictions of brothels in video games, focusing on Assassin's Creed (though I wish I could have kept in a BG3 section), an analysis of how historical games reward or ignore in-game sex, & the problematic eugenics of games l
    [image: Older hetaira (courtesan/sex worker) saying to Kassandra's question "Are you Anthousa?" "I could be anyone for you lamb. I charge less than the hetaerae, but d…]
-12. @abstracttesseract.bsky.social (Aaahh!!! bstract Tesseract) · 8h · likes 3 · replies 1 · question · childhood
+4. @abstracttesseract.bsky.social (Aaahh!!! bstract Tesseract) · 14h · likes 3 · replies 1 · question · childhood
    https://bsky.app/profile/abstracttesseract.bsky.social/post/3mypptzb3322j
    I very distinctly remember the first time I saw "X is all but Y". It was in a video game instruction manual and I was extremely confused about whether they were saying that X is Y or X is not Y
    [image: Excerpt from Kirby's Avalanche (Super Nintendo) instruction Manual Metaknight (drawing of Metaknight brandishing a sword and cape) -------- Chivalrous to the l…]
-
-## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @afoxuponthee.bsky.social (Dominic Foxley) · 7h · likes 3 · replies 0 · classicPC
-   https://bsky.app/profile/afoxuponthee.bsky.social/post/3myprhlxdl22v
-   Game-Maker for DOS by Recreational Software Designs resulted in a lot of weird janky DOS shareware games. There was also ZZT by Tim Sweeney, before he became a sad genAI huckster
-2. @elon.mu.sk (Elon Musk (Unofficial)) · 2h · likes 1 · replies 1 · childhood
-   https://bsky.app/profile/elon.mu.sk/post/3myqcty5opr26
-   Guardian - The Onion has released its first video game, The Onion Voting Simulator 3D, a free, deliberately lo-fi romp that turns voting in the midterms into a game. The AV Club’s William Hughes says its laughs come more from indie gaming absurdity than sharp political satire. 19
+5. @willtpj.bsky.social (Will) · 21h · likes 1 · replies 1 · question · childhood
+   https://bsky.app/profile/willtpj.bsky.social/post/3myovmvdkvs2s
+   When QB first came out I remember watching a youtube vid of the first 30ish mins and thinking 'holy shit, video games can look like this now??' And you're so right, even now the facial animations are still so good, the game deserves so much recognition for the technical achieveme
+6. @ftb1979.bsky.social (F_T_B) · 24h · likes 6 · replies 1 · question · childhood
+   https://bsky.app/profile/ftb1979.bsky.social/post/3myon2bgkis2e
+   First off. The first games with continues are Super Cobra, Bosconian, and Fantasy. That's 1981. So very early on. Also, before we had video arcade games we had electromagnetic machines. So the "quarter muncher" model predates the concept of a video arcade game itself. See this ad
+   [image, no description]
+7. @katywhitton.co.uk (Katy) · 25h · likes 1 · replies 1 · question · childhood
+   https://bsky.app/profile/katywhitton.co.uk/post/3myojvokimk2w
+   What was the first game you played on the original Sony PlayStation? Not the actual first, but one of them. At university my friends and I used to spend hours playing Worms, usually after a heavy night out!
+   [link card: Worms -- Gameplay (PS1); quotes @retroblastpod.com: Do you remember the first time you played the original SONY PlayStation? What was the very first game you ever played on it?]
+8. @bensilly.bsky.social (bensilly) · 27h · likes 3 · replies 0 · question · childhood
+   https://bsky.app/profile/bensilly.bsky.social/post/3myocgnl2ys2a
+   for those curious about my resident evil journey i Am logging all of them on my backloggd aka gamer letterboxd . here it is. i do not play big video games like these very often so the resident evil journey really is a first for me. any skill issues are due to this reason backlogg
+   [link card: bensilly's profile | Backloggd]
+9. @scistoryteller.bsky.social (Cassie) · 30h · likes 2 · replies 0 · question · childhood
+   https://bsky.app/profile/scistoryteller.bsky.social/post/3mynzyk6uqc2o
+   First video game I played? Smurfs for the ColecoVision.
+   [quotes @kadoore.com: Either Tank Wars or Lemmings]
+10. @kaozclown.bsky.social (KaozClown) · 5h · likes 1 · replies 0 · gogOld
+   https://bsky.app/profile/kaozclown.bsky.social/post/3myqnxcvaf22l
+   It is crazy how good these old GameCube games look still to this day with just some better resolution. #gamecube #zelda #retrogames
+   [image, no description]
+11. @canon.megane-moe.com (invelica) · 5h · likes 108 · replies 1 · classicPC
+   https://bsky.app/profile/canon.megane-moe.com/post/3myqljldijk27
+   Here's a list of the commands that you can type in, one letter at a type (video-game-name-entry style) to Austin Powers Oh Behave Game Boy Color's fake DOS prompt if I realized I could type HELP for a list I wouldn't have spent so long trying to type out CHKDSK
+   [image, no description]
+12. @collectabk7.bsky.social (collectaBK7) · 8h · likes 1 · replies 0 · classicPC
+   https://bsky.app/profile/collectabk7.bsky.social/post/3myqdzcp3ic2v
+   I am loving seeing all of these old PC games getting releases on Steam. So many of them are forgotten and pre-Steam PC gaming really doesn't get the respect it deserves outside of Doom, Half-Life, etc.
+   [quotes @dosnostalgic.bsky.social: Someone is about to drop the entire Headbone Interactive catalog on Steam.]
