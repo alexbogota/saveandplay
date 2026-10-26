@@ -1,0 +1,45 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-cozy-20261026-033736.json",
+  "approvedAt": "2026-10-26T03:39:21.255Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:4x6kpye67m262jzr3lc7pncf/app.bsky.feed.post/3myq7g5myi22x",
+      "url": "https://bsky.app/profile/country-crone.bsky.social/post/3myq7g5myi22x",
+      "author": "country-crone.bsky.social",
+      "context": "Why did nobody tell me I could have such adorable mods on Stardew Valley?!? #stardewvalley #gaming #cozygames\nimage, no description",
+      "text": "Mods are a fun rabbit hole with Stardew. One small tip: copy your save folder somewhere safe before adding any, so you can always go back.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:pgfbpc2cqoinf5mdzupjq74w/app.bsky.feed.post/3myq5lvdw4c2x",
+      "url": "https://bsky.app/profile/goldenhourmaya.bsky.social/post/3myq5lvdw4c2x",
+      "author": "goldenhourmaya.bsky.social",
+      "context": "halloween game night: spooky horror game with the lights off, or cozy farming sim under a blanket? 👻🎮 #gaming #halloween",
+      "text": "Cozy farming sim under a blanket, easy. Stardew Valley even has a Spirit's Eve festival in fall, so it fits the night nicely.",
+      "edited": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:7pnz5l2ubwnzfpk7kfc6kyog/app.bsky.feed.post/3myqa5umbtk2a",
+      "url": "https://bsky.app/profile/vilegentleman.bsky.social/post/3myqa5umbtk2a",
+      "author": "vilegentleman.bsky.social",
+      "context": "I mean, how long has Skyrim been out and I still play consistently? 😂 Same with Stardew. But Bloomtown, man. I love it! It's like Stardew x Persona. I'm near the end of the game and just stretching it out dragging time.",
+      "text": "Stardew x Persona is a lovely pitch. Stretching out the last stretch of a game you love is a very real feeling.",
+      "edited": false
+    },
+    {
+      "n": 4,
+      "uri": "at://did:plc:dl23b37v5t3e2ctarppx4chw/app.bsky.feed.post/3mypx74cfsc2u",
+      "url": "https://bsky.app/profile/catrector.com/post/3mypx74cfsc2u",
+      "author": "catrector.com",
+      "context": "I want to play a new game but I do *not* know what I want What have you been loving in the last year? Previous loves are - Long Dark - Stardew - Inscryption - Bg3 - Silent Hill f - Layers of Fear",
+      "text": "Dredge might fit. It's a calm fishing and exploring game that slowly turns eerie, so it sits somewhere between Stardew and Inscryption.",
+      "edited": false
+    }
+  ]
+}

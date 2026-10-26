@@ -1,0 +1,27 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-retro-20261026-033736.json",
+  "approvedAt": "2026-10-26T03:39:21.354Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:kpamtwim5equnzoor54yxvf7/app.bsky.feed.post/3mypnga7fz222",
+      "url": "https://bsky.app/profile/kathmachine.bsky.social/post/3mypnga7fz222",
+      "author": "kathmachine.bsky.social",
+      "context": "I love this, and I've always loved the specific Kid Energy of using whatever is available to you for games and game design? honestly a goal to try to reconnect with some of the spark that made me draw maze dungeons on my dad's office paper and try to make games in like ms-dos spreadsheet programs",
+      "text": "Maze dungeons on office paper is a great memory. Fun detail: the classic DOS games on GOG come with DOSBox already set up, so they just run on a modern PC.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:acaafxqsp3xdakt2z3rl6mxx/app.bsky.feed.post/3mypmtdetdc2z",
+      "url": "https://bsky.app/profile/alexisjanson.com/post/3mypmtdetdc2z",
+      "author": "alexisjanson.com",
+      "context": "i remember sitting among the empty cubicles at my dad's office on the weekend, typing \"game instruction manuals\" into DOS word processing programs with ASCII-art illustrations and printing them on the loud-ass dot matrix printers\nquotes @jeannethornton.bsky.social: One of my favorite tiny Jeanne memories: going in with my dad to his office when he had to work Saturdays, making maze games in the MS dos …",
+      "text": "ASCII-art manuals on a dot matrix printer sounds like the best kind of weekend. That printer noise is unforgettable.",
+      "edited": false
+    }
+  ]
+}

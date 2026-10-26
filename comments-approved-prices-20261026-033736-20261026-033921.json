@@ -1,0 +1,36 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-prices-20261026-033736.json",
+  "approvedAt": "2026-10-26T03:39:21.169Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:evbs3l7lytvpym2iobyszdet/app.bsky.feed.post/3myqiq4wpts25",
+      "url": "https://bsky.app/profile/laylalioness.furry.camp/post/3myqiq4wpts25",
+      "author": "laylalioness.furry.camp",
+      "context": "This. So much this. Seen people argue games should only be hard, and just...no? Also, complaints of save states? Those were just saves when I was a kid, in games like Doom or Command & Conquer. It wasn't a checkpointed autosave. It was just saved where you are Let people play how they want.",
+      "text": "Fair point. Doom's quicksave on F6 was just part of how you played back then. Play it however keeps it fun for you.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:qgvlt3exxywhwxaqvzhazh7j/app.bsky.feed.post/3mypgrfbngk2u",
+      "url": "https://bsky.app/profile/atianarr.bsky.social/post/3mypgrfbngk2u",
+      "author": "atianarr.bsky.social",
+      "context": "I think so ? I mean you don't really buy a \"windows\" or \"macos\" version you buy a steam version so as long as you can have steam and your machine can run the game it should work Might not work with games you bought outside of steam and linked to your steam account tho",
+      "text": "Right, and the store page lists which operating systems each game supports, so that's the one thing worth checking before you buy.",
+      "edited": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:asxrlglnz5eruqrnrev4b74s/app.bsky.feed.post/3myqfw2lbo22i",
+      "url": "https://bsky.app/profile/videogamebeach.bsky.social/post/3myqfw2lbo22i",
+      "author": "videogamebeach.bsky.social",
+      "context": "Likewise! it was a problem at a time in my life when I had very little time for myself. I wanted to play everything as quickly as possible, and one day I realized I had finished a great game but hadn't enjoyed it. It really annoyed me because it was a game I was really looking forward to.",
+      "text": "That feeling is real. Playing one game at a time and letting yourself drop the ones that don't click makes a big backlog feel a lot lighter.",
+      "edited": false
+    }
+  ]
+}
