@@ -1,0 +1,63 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-prices-20261026-142701.json",
+  "approvedAt": "2026-10-26T14:35:58.815Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:bl3yxhdxvysuepdy3bxuxdmt/app.bsky.feed.post/3myptrylfc22p",
+      "url": "https://bsky.app/profile/donatellojose.bsky.social/post/3myptrylfc22p",
+      "author": "donatellojose.bsky.social",
+      "context": "Wait didn't I... *glances at steam library* just pick this up on sale? I should confirm If I'm actually a shadow.\nquotes @sonichedgeblog.bsky.social: 'Sonic X Shadow Generations' was released 2 years ago today.",
+      "text": "Ha, sale purchases have a way of vanishing into the library until you trip over them again. Hopefully it's a pleasant surprise.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:zngcwuht6hixjif73ty245of/app.bsky.feed.post/3mypm4vt5vc2r",
+      "url": "https://bsky.app/profile/pizzaforfree.itch.io/post/3mypm4vt5vc2r",
+      "author": "pizzaforfree.itch.io",
+      "context": "Itch and GOG don't market themselves as game stores the same way Steam and EGS do (did?). They focus on their own branches of the market; GOG for, y'know, good old games, and itch for indie digital media, not just games. They don't compete in the AAA market.",
+      "text": "Fair point. GOG's whole identity is classic games sold DRM-free, so you can keep the installer and back it up, which is a different promise from a launcher-based store.",
+      "edited": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:2jls65a3lhb3najxts5grdhx/app.bsky.feed.post/3myplv3s2qc2k",
+      "url": "https://bsky.app/profile/2ladiesgame.bsky.social/post/3myplv3s2qc2k",
+      "author": "2ladiesgame.bsky.social",
+      "context": "Hello everyone, Loulou will be out next week, so if you have any spooky single player game recommendations for Halloween Week please let us know. #goodvibes #pcgaming #femalestreamer #wholesomelyunhinged #girlgamer #pngtuber #disabilityawareness #gaming\nlink card: Spoopy Cat Stirring Cauldron",
+      "text": "Alien: Isolation is a great pick for spooky single player, it's all hiding and tension. If you want something more compact and moody, Signalis is a good one too.",
+      "edited": false
+    },
+    {
+      "n": 4,
+      "uri": "at://did:plc:2dpra4gjev7hp4dsxib4qinn/app.bsky.feed.post/3mypgdvqmr22s",
+      "url": "https://bsky.app/profile/jamesmarshall92.bsky.social/post/3mypgdvqmr22s",
+      "author": "jamesmarshall92.bsky.social",
+      "context": "​$11.66 for Prey, The Evil Within, and Doom in Fanatical’s Halloween bundle is an incredible deal, but honestly? For a Halloween event, handing out epic horror classics like these for free would have been the ultimate treat! 👻🎃🎮 ​ #GamingDeals #PCGaming #HorrorGames #Fanatical #Prey #TheEvilWithin\nquotes @videogameschronicle.com: With Fanatical's new Halloween bundle, you can get Prey, Doom 1 & 2, and Evil Within 1 & 2 (or one of many other horror games) for $11.66. …",
+      "text": "Prey and The Evil Within are a good fit for Halloween. Worth checking your library first, since bundles like this often overlap with games people already own.",
+      "edited": false
+    },
+    {
+      "n": 5,
+      "uri": "at://did:plc:cwcgeok2fwe7lhfukhfgosuy/app.bsky.feed.post/3mypfxe4gas2w",
+      "url": "https://bsky.app/profile/corbynred.bsky.social/post/3mypfxe4gas2w",
+      "author": "corbynred.bsky.social",
+      "context": "I do think re-releasing all the games on GOG (and also on Switch 2 and other Consoles) with patches to remove EA App access and with a way to use DA Keep offline would be good. Remakes though? No. I don't want remakes. We want to preserve all the Dragon Age games DRM-free.",
+      "text": "DRM-free installers really are the best protection for older games: once you have the files backed up, a store or launcher going away doesn't matter.",
+      "edited": false
+    },
+    {
+      "n": 6,
+      "uri": "at://did:plc:rjrkngcxql3ddgmdmlju6jsr/app.bsky.feed.post/3myqngq7v2s2y",
+      "url": "https://bsky.app/profile/calextheneko.bsky.social/post/3myqngq7v2s2y",
+      "author": "calextheneko.bsky.social",
+      "context": "So the game I was trying to get running last night was Morrowind. And I did get it running but have to still fix things to be streamable. At this point I think it's just be easier to pick it up next time it's on sale on steam or gog",
+      "text": "Morrowind can be fiddly on modern PCs, so I get the frustration. If you wait for a sale, look at the game's price history first so you know what a real low looks like.",
+      "edited": false
+    }
+  ]
+}
