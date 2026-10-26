@@ -1,0 +1,19 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261026-142701",
+  "madeAt": "2026-10-26T14:28:00.948Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:scuwmwp4rk4v64tt7uoopus2/app.bsky.feed.post/3myqdzcp3ic2v",
+      "url": "https://bsky.app/profile/collectabk7.bsky.social/post/3myqdzcp3ic2v",
+      "author": "collectabk7.bsky.social",
+      "context": "I am loving seeing all of these old PC games getting releases on Steam. So many of them are forgotten and pre-Steam PC gaming really doesn't get the respect it deserves outside of Doom, Half-Life, etc.\nquotes @dosnostalgic.bsky.social: Someone is about to drop the entire Headbone Interactive catalog on Steam.",
+      "text": "Same here. A lot of that pre-Steam era only survives when someone does a proper re-release. GOG has been bringing old classics back DRM-free for years too.",
+      "group": "classicPC",
+      "heated": false
+    }
+  ]
+}

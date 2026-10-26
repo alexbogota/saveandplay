@@ -1,0 +1,39 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261026-142701",
+  "madeAt": "2026-10-26T14:28:05.944Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:nb22azmvkphsepw5ok2jmdll/app.bsky.feed.post/3myqvcjmli22f",
+      "url": "https://bsky.app/profile/boobachu.bsky.social/post/3myqvcjmli22f",
+      "author": "boobachu.bsky.social",
+      "context": "Farming games are so stressful, why?",
+      "text": "They really can feel like a second job with all the timers. Games like Dorfromantik or Unpacking have no clock at all, which can be a nice change.",
+      "group": "stardew",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:k6baps4brigefj3kvmp2v4ei/app.bsky.feed.post/3myqksge4u22t",
+      "url": "https://bsky.app/profile/cjediknight87.bsky.social/post/3myqksge4u22t",
+      "author": "cjediknight87.bsky.social",
+      "context": "Why does The Wind Can Be Still from Stardew Valley instantly hit me in the feels? Every single time. Such a fucking beautiful track, but I seriously don't know why it makes me cry. Lol.",
+      "text": "That one has a way of getting to people. Quiet music like that can hold a lot of memories without saying a word.",
+      "group": "stardew",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:jbfbm2gjbfq7t4mjgfp725ex/app.bsky.feed.post/3myqk4ejjek2m",
+      "url": "https://bsky.app/profile/lewcidgm.bsky.social/post/3myqk4ejjek2m",
+      "author": "lewcidgm.bsky.social",
+      "context": "It’s always the dilemma, yeah? A. Attack the backlog B. Default back to your “comfort” games C. Do something else that’s not a video game (the horror!!!)",
+      "text": "Comfort games are a perfectly good answer, there's no rule that the backlog has to go first. Sometimes a familiar game is exactly the way to wind down.",
+      "group": "wholesome",
+      "heated": false
+    }
+  ]
+}
