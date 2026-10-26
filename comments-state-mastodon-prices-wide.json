@@ -8,102 +8,47 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 192,
-      "posts": 7960,
-      "fit": 109,
+      "runs": 200,
+      "posts": 8280,
+      "fit": 113,
       "last": {
         "posts": 40,
         "fit": 2,
-        "at": "2026-10-26T06:52:46.689Z"
+        "at": "2026-10-26T14:52:14.425Z"
       }
     },
     "moreAsk": {
-      "runs": 120,
-      "posts": 1080,
+      "runs": 125,
+      "posts": 1125,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-10-26T06:52:46.689Z"
+        "at": "2026-10-26T14:52:14.425Z"
       }
     },
     "moreRetro": {
-      "runs": 120,
-      "posts": 7720,
-      "fit": 288,
+      "runs": 125,
+      "posts": 8040,
+      "fit": 303,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-26T06:52:46.689Z"
+        "at": "2026-10-26T14:52:14.425Z"
       }
     },
     "morePlaying": {
-      "runs": 120,
-      "posts": 504,
+      "runs": 125,
+      "posts": 525,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-10-26T06:52:46.689Z"
+        "at": "2026-10-26T14:52:14.425Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@repeatro/117500350755148496": {
-      "uri": "https://mastodon.social/@repeatro/117500350755148496",
-      "url": "https://mastodon.social/@repeatro/117500350755148496",
-      "handle": "repeatro@mastodon.social",
-      "name": "repeatro",
-      "text": "#RetroGuessr No. 173 🔍️️️️️️️️️️️️️️ What game's cover is this❓️️️️️️️️️️️️️️ If you can name the game shown in the picture, post it in the comments. 🤔 #retrogaming #gaming #quiz #videogames #videogaming #videogame #game #games #riddle",
-      "createdAt": "2026-10-25T07:24:26.957Z",
-      "likes": 1,
-      "replies": 6,
-      "group": "moreGaming",
-      "query": "videogame",
-      "score": 4,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "image: Game case covered by a black bar. There can only be seen a small rectangular part of the cover.",
-      "firstSeen": "2026-10-25T12:44:28.550Z"
-    },
-    "https://mastodon.social/@gpowerf/117500647835312923": {
-      "uri": "https://mastodon.social/@gpowerf/117500647835312923",
-      "url": "https://mastodon.social/@gpowerf/117500647835312923",
-      "handle": "gpowerf@mastodon.social",
-      "name": "Dr. G. Power",
-      "text": "The games I'm playing most right now. Two things worth noting: the 3D printed cart is Midnight Magic as I dropped the original and broke the case. RealSports Football is one I tried last night and I doubt I'll play for long. #Atari #retrogaming",
-      "createdAt": "2026-10-25T08:40:00.037Z",
-      "likes": 6,
-      "replies": 2,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "image: A close-up image showing three vertical stacks of classic retro video game cartridges resting on a reflective black surface. In the blurry background, there is…",
-      "firstSeen": "2026-10-25T12:44:28.550Z"
-    },
-    "https://mastodon.social/@robeeshepherd@torturedsouls.com/117500443442741599": {
-      "uri": "https://mastodon.social/@robeeshepherd@torturedsouls.com/117500443442741599",
-      "url": "https://mastodon.social/@robeeshepherd@torturedsouls.com/117500443442741599",
-      "handle": "robeeshepherd@torturedsouls.com",
-      "name": "Robee? Na! 🌈",
-      "text": "The latest #Zzap64 arrived! #RetroGaming #Commodore64",
-      "createdAt": "2026-10-25T07:47:53.000Z",
-      "likes": 2,
-      "replies": 1,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://torturedsouls.com/@robeeshepherd/117500442914376338",
-      "media": "image: Zzap64 magazine with an army soldier on the cover with some blurays in the background",
-      "firstSeen": "2026-10-25T12:44:28.550Z"
-    },
     "https://mastodon.social/@dinchenix@mastodon.art/117501357596021688": {
       "uri": "https://mastodon.social/@dinchenix@mastodon.art/117501357596021688",
       "url": "https://mastodon.social/@dinchenix@mastodon.art/117501357596021688",
@@ -149,11 +94,11 @@
       "name": "TECC",
       "text": "Me, right now. 10 days left until 04.11.2026. 🫪 For twenty years I was immune to every single #WoW expansion. #Retail does not reach me at all anymore, and the worst part is not the game itself. People rush their quests, run their #Dungeons in silence and leave without a word. Fast, efficient, empty. Then I took one look at #WoWForever and I am the guy from 2004 again, the one who does not go to bed. No idea if it will hold up. But I have not felt this since #Vanilla, #TBC, and that says a lot about what modern #MMO design lost on the way. #ForTheHorde! #Gaming #Blizzard #Games #MMORPG",
       "createdAt": "2026-10-25T15:42:49.000Z",
-      "likes": 0,
+      "likes": 1,
       "replies": 1,
       "group": "moreGaming",
       "query": "mmorpg",
-      "score": 4,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -297,7 +242,7 @@
       "name": "Berin",
       "text": "I managed to find a 4-in-1 stylus yesterday so I could finally properly play touch intensive games on my rgds+! Mesh or disc tip styluses are a huge upgrade to regular rubber. #Anbernic #retrogaming #osutatakaeouendan",
       "createdAt": "2026-10-25T20:41:25.952Z",
-      "likes": 5,
+      "likes": 6,
       "replies": 1,
       "group": "moreRetro",
       "query": "retrogaming",
@@ -344,25 +289,6 @@
       "media": "image: Facing the Dark Lord inside his demonic womb lair, mischievous and mostly-nude cat lady Felicia pops her claws and roars with righteous fury shortly before goi…",
       "firstSeen": "2026-10-26T01:01:43.626Z"
     },
-    "https://mastodon.social/@digitalart_jason@mstdn.ca/117505200197552364": {
-      "uri": "https://mastodon.social/@digitalart_jason@mstdn.ca/117505200197552364",
-      "url": "https://mastodon.social/@digitalart_jason@mstdn.ca/117505200197552364",
-      "handle": "digitalart_jason@mstdn.ca",
-      "name": "digitalart_jason",
-      "text": "I never was much of a tv person. I'm a millennial gamer so I grew up with part PC and new magazines and the first retro gaming YouTubers. I'm happy to still see them going in 2026. AVGN, Pat the nes punk or JonTron and such. Check them out again! A happy Sunday night to everyone! #gaming #retrogaming #sunday",
-      "createdAt": "2026-10-26T03:57:40.000Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://mstdn.ca/@digitalart_jason/117505200020052483",
-      "media": "3 images, no description",
-      "firstSeen": "2026-10-26T06:52:46.689Z"
-    },
     "https://mastodon.social/@tschak@oldbytes.space/117504990732268076": {
       "uri": "https://mastodon.social/@tschak@oldbytes.space/117504990732268076",
       "url": "https://mastodon.social/@tschak@oldbytes.space/117504990732268076",
@@ -370,7 +296,7 @@
       "name": "Thomas Cherryhomes",
       "text": "the #Odyssey2 has a keyboard. Can it be used with #FujiNet and the Netcat program to connect to a BBS? Yes. 80 columns, 7 lines of text exhausts the entire VDP when racing the beam. Seen here connecting to @fozztexx 's Level 29 BBS. #retrocomputing #retrogaming",
       "createdAt": "2026-10-26T03:04:04.000Z",
-      "likes": 0,
+      "likes": 7,
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
@@ -393,7 +319,7 @@
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 7,
+      "score": 6,
       "question": true,
       "heated": false,
       "isReply": false,
@@ -412,12 +338,68 @@
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 4,
+      "score": 3,
       "question": false,
       "heated": false,
       "isReply": false,
       "media": "video, no description",
       "firstSeen": "2026-10-26T06:52:46.689Z"
+    },
+    "https://mastodon.social/@kuroneko@socials.thundercleess.com/117507413026838460": {
+      "uri": "https://mastodon.social/@kuroneko@socials.thundercleess.com/117507413026838460",
+      "url": "https://mastodon.social/@kuroneko@socials.thundercleess.com/117507413026838460",
+      "handle": "kuroneko@socials.thundercleess.com",
+      "name": "Blackcat",
+      "text": "🎮 On This Day in Gaming — October 26 Red Dead Redemption 2 (2018) dropped today, Rockstar's sprawling, painstakingly detailed Wild West epic that still sets the bar for open-world storytelling. Also released today: 📅 2004: Grand Theft Auto: San Andreas 📅 2021: Marvel's Guardians of the Galaxy 📅 2009: Torchlight #Gaming #OnThisDay #RetroGaming #RedDeadRedemption2",
+      "createdAt": "2026-10-26T13:20:23.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://socials.thundercleess.com/@kuroneko/117507412679745457",
+      "media": "4 images: Game artwork for Red Dead Redemption 2 / Game artwork for Grand Theft Auto: San Andreas / Game artwork for Marvel's Guardians of the Galaxy / Game artwork for Torchlight",
+      "firstSeen": "2026-10-26T14:52:14.425Z"
+    },
+    "https://mastodon.social/@stunningshemp/117507080094713510": {
+      "uri": "https://mastodon.social/@stunningshemp/117507080094713510",
+      "url": "https://mastodon.social/@stunningshemp/117507080094713510",
+      "handle": "stunningshemp@mastodon.social",
+      "name": "Chris Coats",
+      "text": "I expected a lion sized ant #retrogaming #phantasystar #rpg #stunningshemp #twitch",
+      "createdAt": "2026-10-26T11:55:48.527Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 4,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "video, no description",
+      "firstSeen": "2026-10-26T14:52:14.425Z"
+    },
+    "https://mastodon.social/@Jankatarch@lemmy.world/117506194216373966": {
+      "uri": "https://mastodon.social/@Jankatarch@lemmy.world/117506194216373966",
+      "url": "https://mastodon.social/@Jankatarch@lemmy.world/117506194216373966",
+      "handle": "Jankatarch@lemmy.world",
+      "name": "",
+      "text": "Co-op fantasy game suggestions? https://lemmy.world/post/53607864",
+      "createdAt": "2026-10-26T08:10:31.092Z",
+      "likes": 1,
+      "replies": 7,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 7,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://lemmy.world/post/53607864",
+      "media": "link card: Co-op fantasy game suggestions? - Lemmy.World",
+      "firstSeen": "2026-10-26T14:52:14.425Z"
     }
   }
 }
