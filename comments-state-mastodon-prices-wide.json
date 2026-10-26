@@ -8,66 +8,47 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 200,
-      "posts": 8280,
-      "fit": 113,
+      "runs": 208,
+      "posts": 8600,
+      "fit": 119,
       "last": {
         "posts": 40,
-        "fit": 2,
-        "at": "2026-10-26T14:52:14.425Z"
+        "fit": 3,
+        "at": "2026-10-26T18:54:01.530Z"
       }
     },
     "moreAsk": {
-      "runs": 125,
-      "posts": 1125,
+      "runs": 130,
+      "posts": 1170,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-10-26T14:52:14.425Z"
+        "at": "2026-10-26T18:54:01.530Z"
       }
     },
     "moreRetro": {
-      "runs": 125,
-      "posts": 8040,
-      "fit": 303,
+      "runs": 130,
+      "posts": 8360,
+      "fit": 316,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-26T14:52:14.425Z"
+        "at": "2026-10-26T18:54:01.530Z"
       }
     },
     "morePlaying": {
-      "runs": 125,
-      "posts": 525,
+      "runs": 130,
+      "posts": 546,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-10-26T14:52:14.425Z"
+        "at": "2026-10-26T18:54:01.530Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@dinchenix@mastodon.art/117501357596021688": {
-      "uri": "https://mastodon.social/@dinchenix@mastodon.art/117501357596021688",
-      "url": "https://mastodon.social/@dinchenix@mastodon.art/117501357596021688",
-      "handle": "dinchenix@mastodon.art",
-      "name": "dinchen 🎨 Pixel Art",
-      "text": "forever haunted by my ghosts #pacman #pixelart #retrogames",
-      "createdAt": "2026-10-25T11:40:28.000Z",
-      "likes": 19,
-      "replies": 2,
-      "group": "moreRetro",
-      "query": "retrogames",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://mastodon.art/@dinchenix/117501357488736107",
-      "media": "image, no description",
-      "firstSeen": "2026-10-25T12:44:28.550Z"
-    },
     "https://mastodon.social/@monstanner@pixelfed.social/117502541791202529": {
       "uri": "https://mastodon.social/@monstanner@pixelfed.social/117502541791202529",
       "url": "https://mastodon.social/@monstanner@pixelfed.social/117502541791202529",
@@ -94,7 +75,7 @@
       "name": "TECC",
       "text": "Me, right now. 10 days left until 04.11.2026. 🫪 For twenty years I was immune to every single #WoW expansion. #Retail does not reach me at all anymore, and the worst part is not the game itself. People rush their quests, run their #Dungeons in silence and leave without a word. Fast, efficient, empty. Then I took one look at #WoWForever and I am the guy from 2004 again, the one who does not go to bed. No idea if it will hold up. But I have not felt this since #Vanilla, #TBC, and that says a lot about what modern #MMO design lost on the way. #ForTheHorde! #Gaming #Blizzard #Games #MMORPG",
       "createdAt": "2026-10-25T15:42:49.000Z",
-      "likes": 1,
+      "likes": 2,
       "replies": 1,
       "group": "moreGaming",
       "query": "mmorpg",
@@ -135,7 +116,7 @@
       "likes": 3,
       "replies": 0,
       "group": "moreRetro",
-      "query": "retrogaming",
+      "query": "retrogames",
       "score": 5,
       "question": false,
       "heated": false,
@@ -375,7 +356,7 @@
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 4,
+      "score": 3,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -390,7 +371,7 @@
       "text": "Co-op fantasy game suggestions? https://lemmy.world/post/53607864",
       "createdAt": "2026-10-26T08:10:31.092Z",
       "likes": 1,
-      "replies": 7,
+      "replies": 11,
       "group": "moreRetro",
       "query": "retrogaming",
       "score": 7,
@@ -400,6 +381,80 @@
       "origin": "https://lemmy.world/post/53607864",
       "media": "link card: Co-op fantasy game suggestions? - Lemmy.World",
       "firstSeen": "2026-10-26T14:52:14.425Z"
+    },
+    "https://mastodon.social/@inanedirk@metalhead.club/117508629669601335": {
+      "uri": "https://mastodon.social/@inanedirk@metalhead.club/117508629669601335",
+      "url": "https://mastodon.social/@inanedirk@metalhead.club/117508629669601335",
+      "handle": "inanedirk@metalhead.club",
+      "name": "Dirk",
+      "text": "You know what they say in #20Strong lore: \"All cards are beautiful\", but the #TaintedGrail ones are the shiniestest #AwakenRealms #ChipTheoryGames #boardgames #gamenight",
+      "createdAt": "2026-10-26T18:29:50.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "moreGaming",
+      "query": "gamenight",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://metalhead.club/@inanedirk/117508629525913796",
+      "media": null,
+      "firstSeen": "2026-10-26T18:54:01.530Z"
+    },
+    "https://mastodon.social/@noping/117507888988239001": {
+      "uri": "https://mastodon.social/@noping/117507888988239001",
+      "url": "https://mastodon.social/@noping/117507888988239001",
+      "handle": "noping@mastodon.social",
+      "name": "Noping",
+      "text": "Quests can wait, the sky can't! 😭 Logged in to make progress, stayed for the aerial sightseeing. #AION2 #AION2Gameplay #MMORPG #GamingMemes #FYP",
+      "createdAt": "2026-10-26T15:21:31.252Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "moreGaming",
+      "query": "mmorpg",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "video, no description",
+      "firstSeen": "2026-10-26T18:54:01.530Z"
+    },
+    "https://mastodon.social/@32bitkid@mstdn.social/117508494481343101": {
+      "uri": "https://mastodon.social/@32bitkid@mstdn.social/117508494481343101",
+      "url": "https://mastodon.social/@32bitkid@mstdn.social/117508494481343101",
+      "handle": "32bitkid@mstdn.social",
+      "name": "thirty-two",
+      "text": "Got some more progress and accuracy implemented this weekend for a HERCMONO.DRV render filter for my javascript SCI0 renderer. Reworked the CRT phosphor gen to use the wave-length emission range from the data-sheets to get a little more \"accurate\" projection into sRGB space. Here are simplified P1, P3, P4 phosphors, three classic phosphors for CRTs. Want to implement a phosphor glow for secondary wavelengths at some point. #RetroComputing #RetroGaming #HerculesGraphics",
+      "createdAt": "2026-10-26T17:55:28.000Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 4,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://mstdn.social/@32bitkid/117508494362164958",
+      "media": "3 images: The swamp scene from Colonels Bequest rendered with P1 phosphors. / The swamp scene from Colonels Bequest rendered with P3 phosphors. / The swamp scene from Colonels Bequest rendered with P4 phosphors.",
+      "firstSeen": "2026-10-26T18:54:01.530Z"
+    },
+    "https://mastodon.social/@Lanceroy/117508397998348165": {
+      "uri": "https://mastodon.social/@Lanceroy/117508397998348165",
+      "url": "https://mastodon.social/@Lanceroy/117508397998348165",
+      "handle": "Lanceroy@mastodon.social",
+      "name": "Lanceroy",
+      "text": "DKC2 Made Every Cart Jump Matter #retrogaming #gaming #nostalgia #retroreloaded",
+      "createdAt": "2026-10-26T17:30:58.140Z",
+      "likes": 2,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 4,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "video, no description",
+      "firstSeen": "2026-10-26T18:54:01.530Z"
     }
   }
 }
