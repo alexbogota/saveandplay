@@ -1,0 +1,23 @@
+{
+  "madeAt": "2026-10-26T16:48:25.884Z",
+  "run": "40362614147",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices-2|2026-10-26|/deals/gog/homeworld-remastered-collection/",
+      "account": "prices-2",
+      "handle": "saveandplay.com",
+      "n": 2,
+      "link": "https://saveandplay.com/deals/gog/homeworld-remastered-collection/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-26",
+      "text": "Homeworld Remastered Collection: -85% at GOG\n$5.25 (was $34.99)\nPrice checked Oct 26. Sale ends Oct 27.\n\nhttps://saveandplay.com/deals/gog/homeworld-remastered-collection/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-26\n\n#PCGaming #GameDeals #Gaming #Games #DRMFree\nAd",
+      "approvedFile": "posts-approved-20261026-143555.json",
+      "approvedAt": "2026-10-26T14:35:55.819Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-26T16:48:28.436Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mys6gpzanq2z",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3mys6gpzanq2z",
+      "picture": true
+    }
+  ]
+}
