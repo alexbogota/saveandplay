@@ -1,4 +1,4 @@
-# Co-op games build, October 22, 2026
+# Co-op games build, October 26, 2026
 
 Host list: 128 games orderable, 103 on the horizon (not used). Hand-made: 4. Made by the program: 105.
 
@@ -113,8 +113,8 @@ Host list: 128 games orderable, 103 on the horizon (not used). Hand-made: 4. Mad
 - HumanitZ
 - Eco
 - PixARK
-- Dark and Light
 - ASKA
+- Dark and Light
 - Night of the Dead
 - The Lord of the Rings: Return to Moria
 - The Front
@@ -128,9 +128,9 @@ Host list: 128 games orderable, 103 on the horizon (not used). Hand-made: 4. Mad
 - s&box
 - Citadel: Forged with Fire
 - Romestead
+- over the hill
 - Solarpunk
 - FOUNDRY
-- over the hill
 - Aloft
 - Dimraeth
 - Alchemy Factory
