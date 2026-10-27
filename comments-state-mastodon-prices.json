@@ -23,23 +23,23 @@
       }
     },
     "backlog": {
-      "runs": 191,
-      "posts": 4852,
+      "runs": 197,
+      "posts": 5004,
       "fit": 0,
       "last": {
         "posts": 22,
         "fit": 0,
-        "at": "2026-10-27T06:48:10.526Z"
+        "at": "2026-10-27T12:50:07.671Z"
       }
     },
     "deck": {
-      "runs": 163,
-      "posts": 8028,
-      "fit": 80,
+      "runs": 168,
+      "posts": 8269,
+      "fit": 82,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-27T06:48:10.526Z"
+        "at": "2026-10-27T12:50:07.671Z"
       }
     },
     "bundles": {
@@ -53,53 +53,53 @@
       }
     },
     "practical": {
-      "runs": 135,
-      "posts": 6000,
-      "fit": 124,
+      "runs": 139,
+      "posts": 6160,
+      "fit": 125,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-27T06:48:10.526Z"
+        "at": "2026-10-27T12:50:07.671Z"
       }
     },
     "genres": {
-      "runs": 303,
-      "posts": 12120,
-      "fit": 34,
+      "runs": 313,
+      "posts": 12520,
+      "fit": 35,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-27T06:48:10.526Z"
+        "at": "2026-10-27T12:50:07.671Z"
       }
     },
     "seasonal": {
-      "runs": 107,
-      "posts": 4144,
+      "runs": 110,
+      "posts": 4262,
       "fit": 4,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-27T06:48:10.526Z"
+        "at": "2026-10-27T12:50:07.671Z"
       }
     },
     "broadPlaying": {
-      "runs": 387,
-      "posts": 50320,
-      "fit": 809,
+      "runs": 400,
+      "posts": 52080,
+      "fit": 825,
       "last": {
         "posts": 240,
-        "fit": 8,
-        "at": "2026-10-27T06:48:10.526Z"
+        "fit": 3,
+        "at": "2026-10-27T12:50:07.671Z"
       }
     },
     "broadAsk": {
-      "runs": 247,
-      "posts": 3810,
+      "runs": 255,
+      "posts": 3933,
       "fit": 0,
       "last": {
         "posts": 16,
         "fit": 0,
-        "at": "2026-10-27T06:48:10.526Z"
+        "at": "2026-10-27T12:50:07.671Z"
       }
     }
   },
@@ -258,9 +258,9 @@
       "createdAt": "2026-10-26T16:02:26.000Z",
       "likes": 1,
       "replies": 1,
-      "group": "deck",
-      "query": "steamdeck",
-      "score": 6,
+      "group": "broadPlaying",
+      "query": "steam",
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -331,7 +331,7 @@
       "text": "[Discussion] What was the first Steam game you ever purchased? https://lemmy.ml/post/54537627",
       "createdAt": "2026-10-26T20:06:32.531Z",
       "likes": 0,
-      "replies": 69,
+      "replies": 84,
       "group": "deck",
       "query": "steamdeck",
       "score": 5,
@@ -372,7 +372,7 @@
       "replies": 0,
       "group": "deck",
       "query": "steamdeck",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": true,
@@ -391,7 +391,7 @@
       "replies": 1,
       "group": "broadPlaying",
       "query": "videogames",
-      "score": 8,
+      "score": 7,
       "question": true,
       "heated": false,
       "isReply": false,
@@ -399,24 +399,117 @@
       "media": null,
       "firstSeen": "2026-10-27T06:48:10.526Z"
     },
-    "https://mastodon.social/@Mickytankbank@mstdn.party/117511067201265861": {
-      "uri": "https://mastodon.social/@Mickytankbank@mstdn.party/117511067201265861",
-      "url": "https://mastodon.social/@Mickytankbank@mstdn.party/117511067201265861",
-      "handle": "Mickytankbank@mstdn.party",
-      "name": "Mickytankbank",
-      "text": "Grim Siege is going free-to-play. Our review explores this dark fantasy card battler’s strategic deckbuilding, brutal battles, and grim atmosphere—and whether its shift to F2P makes it worth your time. #GrimSiege #keymailer #CCG #Gaming #Game #VideoGame #CardBattler #DarkFantasy #GamingReview #Blog #Review #F2P",
-      "createdAt": "2026-10-27T04:49:46.000Z",
+    "https://mastodon.social/@TheGeeZus/117512935994805570": {
+      "uri": "https://mastodon.social/@TheGeeZus/117512935994805570",
+      "url": "https://mastodon.social/@TheGeeZus/117512935994805570",
+      "handle": "TheGeeZus@mastodon.social",
+      "name": "GeeZusGG 🎮",
+      "text": "Reportedly (via Aftermath), Sucker Punch has been hit with layoffs, raising questions about the studio’s future and what now. While some wanted to minimize in comparison elsewhere, IS a reminder of how volatile AAA development has become. #Gaming #VideoGames #GamesNews 🕹 🎮",
+      "createdAt": "2026-10-27T12:45:02.465Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "videogames",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image: Quick news post",
+      "firstSeen": "2026-10-27T12:50:07.671Z"
+    },
+    "https://mastodon.social/@eMSequel/117511699562379194": {
+      "uri": "https://mastodon.social/@eMSequel/117511699562379194",
+      "url": "https://mastodon.social/@eMSequel/117511699562379194",
+      "handle": "eMSequel@mastodon.social",
+      "name": "eMSequel 🌐",
+      "text": "Level 90 #Fishing & #Cooking on #osrs #OldSchoolRuneScape #RuneScape #VideoGames #Games #VideoGame #Game #Mobile",
+      "createdAt": "2026-10-27T07:30:36.003Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "videogames",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image, no description",
+      "firstSeen": "2026-10-27T12:50:07.671Z"
+    },
+    "https://mastodon.social/@MartinGuay@mstdn.ca/117512420497390839": {
+      "uri": "https://mastodon.social/@MartinGuay@mstdn.ca/117512420497390839",
+      "url": "https://mastodon.social/@MartinGuay@mstdn.ca/117512420497390839",
+      "handle": "MartinGuay@mstdn.ca",
+      "name": "🍁 Martin Guay 👨‍💻🌈🎮📱",
+      "text": "Let's start a series around what you use for WiFi/Router at home. Right now, I have the eero 7 pro by eero an Amazon company. TP-LINK sent this little gem over to review, and added it to our coming up gift guide! #tech #wifi #router #networking #network #gamer #gaming #gadget #smarthome",
+      "createdAt": "2026-10-27T10:33:55.000Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "gamer",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://mstdn.ca/@MartinGuay/117512420396212456",
+      "media": "image, no description",
+      "firstSeen": "2026-10-27T12:50:07.671Z"
+    },
+    "https://mastodon.social/@doragasu@mastodon.sdf.org/117512362469566318": {
+      "uri": "https://mastodon.social/@doragasu@mastodon.sdf.org/117512362469566318",
+      "url": "https://mastodon.social/@doragasu@mastodon.sdf.org/117512362469566318",
+      "handle": "doragasu@mastodon.sdf.org",
+      "name": "doragasu",
+      "text": "Tim Sweeney: says forcing AI disclosure is political and for the hate mobs. Also Tim: Releases new client for their storefront and first thing he says about it is it's vibecoded 🤷‍♂️. Also also Tim: Makes a Game Jam in which the main requirement is that games are made using GenAI tools 🤷‍♂️🤷‍♂️. #Gaming #GenerativeAI #GenAI #LLM #TimSweeney",
+      "createdAt": "2026-10-27T10:19:02.000Z",
       "likes": 0,
       "replies": 0,
       "group": "broadPlaying",
       "query": "gaming",
       "score": 5,
       "question": false,
+      "heated": true,
+      "isReply": false,
+      "origin": "https://mastodon.sdf.org/@doragasu/117512361907549145",
+      "media": null,
+      "firstSeen": "2026-10-27T12:50:07.671Z"
+    },
+    "https://mastodon.social/@WhyNotZoidberg@topspicy.social/117512037062816599": {
+      "uri": "https://mastodon.social/@WhyNotZoidberg@topspicy.social/117512037062816599",
+      "url": "https://mastodon.social/@WhyNotZoidberg@topspicy.social/117512037062816599",
+      "handle": "WhyNotZoidberg@topspicy.social",
+      "name": "Why Not Zoidberg? 🦑",
+      "text": "30 years ago this week we got the first game in the \"shoot all endangered animals you see\" game franchise. #gaming #tombraider",
+      "createdAt": "2026-10-27T08:56:22.000Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "gaming",
+      "score": 6,
+      "question": false,
       "heated": false,
       "isReply": false,
-      "origin": "https://mstdn.party/@Mickytankbank/117511067139967111",
+      "origin": "https://topspicy.social/@WhyNotZoidberg/117512036856447857",
       "media": null,
-      "firstSeen": "2026-10-27T06:48:10.526Z"
+      "firstSeen": "2026-10-27T12:50:07.671Z"
+    },
+    "https://mastodon.social/@WhyNotZoidberg@topspicy.social/117511774544972964": {
+      "uri": "https://mastodon.social/@WhyNotZoidberg@topspicy.social/117511774544972964",
+      "url": "https://mastodon.social/@WhyNotZoidberg@topspicy.social/117511774544972964",
+      "handle": "WhyNotZoidberg@topspicy.social",
+      "name": "Why Not Zoidberg? 🦑",
+      "text": "r/cyberpunkgame has banned all posts about the trans character Claire and has banned the one mod that spoke out against it. There are other Cyberpunk 2077 subreddits so that might be worth considering... Edit: apparently they are slowly pedaling backwards after 90% of posts have been about Claire or demands for moderator logs for the last 12 hours. Don't think the shitstorm will cease until they offer the mod their position back tho. #Gaming #Cyberpunk2077 #reddit #lgbtq",
+      "createdAt": "2026-10-27T07:49:36.000Z",
+      "likes": 7,
+      "replies": 2,
+      "group": "broadPlaying",
+      "query": "gaming",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://topspicy.social/@WhyNotZoidberg/117511774329914883",
+      "media": null,
+      "firstSeen": "2026-10-27T12:50:07.671Z"
     }
   }
 }

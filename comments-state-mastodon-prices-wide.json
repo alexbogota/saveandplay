@@ -8,103 +8,47 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 224,
-      "posts": 9240,
-      "fit": 128,
+      "runs": 232,
+      "posts": 9560,
+      "fit": 133,
       "last": {
         "posts": 40,
         "fit": 2,
-        "at": "2026-10-27T06:49:01.600Z"
+        "at": "2026-10-27T12:51:06.980Z"
       }
     },
     "moreAsk": {
-      "runs": 140,
-      "posts": 1260,
+      "runs": 145,
+      "posts": 1305,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-10-27T06:49:01.600Z"
+        "at": "2026-10-27T12:51:06.980Z"
       }
     },
     "moreRetro": {
-      "runs": 140,
-      "posts": 8920,
-      "fit": 327,
+      "runs": 145,
+      "posts": 9240,
+      "fit": 333,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-27T06:49:01.600Z"
+        "at": "2026-10-27T12:51:06.980Z"
       }
     },
     "morePlaying": {
-      "runs": 140,
-      "posts": 588,
+      "runs": 145,
+      "posts": 609,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-10-27T06:49:01.600Z"
+        "at": "2026-10-27T12:51:06.980Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@tschak@oldbytes.space/117504990732268076": {
-      "uri": "https://mastodon.social/@tschak@oldbytes.space/117504990732268076",
-      "url": "https://mastodon.social/@tschak@oldbytes.space/117504990732268076",
-      "handle": "tschak@oldbytes.space",
-      "name": "Thomas Cherryhomes",
-      "text": "the #Odyssey2 has a keyboard. Can it be used with #FujiNet and the Netcat program to connect to a BBS? Yes. 80 columns, 7 lines of text exhausts the entire VDP when racing the beam. Seen here connecting to @fozztexx 's Level 29 BBS. #retrocomputing #retrogaming",
-      "createdAt": "2026-10-26T03:04:04.000Z",
-      "likes": 7,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 6,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://oldbytes.space/@tschak/117504989211505279",
-      "media": "video, no description",
-      "firstSeen": "2026-10-26T06:52:46.689Z"
-    },
-    "https://mastodon.social/@tschak@oldbytes.space/117504750811579682": {
-      "uri": "https://mastodon.social/@tschak@oldbytes.space/117504750811579682",
-      "url": "https://mastodon.social/@tschak@oldbytes.space/117504750811579682",
-      "handle": "tschak@oldbytes.space",
-      "name": "Thomas Cherryhomes",
-      "text": "Surely it's not possible to shove #FujiNet onto an RCA Studio II and give it a port of Multiplayer MULE, can it? You'd be wrong. ;) #FujiNet allows this weird little console from 1977 to go way beyond what it was ever meant to do. (VIDEO ATTACHED Playing one round) #retrogaming",
-      "createdAt": "2026-10-26T02:03:00.000Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 6,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://oldbytes.space/@tschak/117504749091875532",
-      "media": "video, no description",
-      "firstSeen": "2026-10-26T06:52:46.689Z"
-    },
-    "https://mastodon.social/@stunningshemp/117504704069207897": {
-      "uri": "https://mastodon.social/@stunningshemp/117504704069207897",
-      "url": "https://mastodon.social/@stunningshemp/117504704069207897",
-      "handle": "stunningshemp@mastodon.social",
-      "name": "Chris Coats",
-      "text": "Monsters love expensive sweets #retrogaming #phantasystar #rpg #stunningshemp #twitch",
-      "createdAt": "2026-10-26T01:51:33.264Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "video, no description",
-      "firstSeen": "2026-10-26T06:52:46.689Z"
-    },
     "https://mastodon.social/@kuroneko@socials.thundercleess.com/117507413026838460": {
       "uri": "https://mastodon.social/@kuroneko@socials.thundercleess.com/117507413026838460",
       "url": "https://mastodon.social/@kuroneko@socials.thundercleess.com/117507413026838460",
@@ -339,13 +283,50 @@
       "replies": 0,
       "group": "moreGaming",
       "query": "videogame",
-      "score": 5,
+      "score": 4,
       "question": false,
       "heated": false,
       "isReply": false,
       "origin": "https://mstdn.party/@Mickytankbank/117511067139967111",
       "media": null,
       "firstSeen": "2026-10-27T06:49:01.600Z"
+    },
+    "https://mastodon.social/@eMSequel/117511699562379194": {
+      "uri": "https://mastodon.social/@eMSequel/117511699562379194",
+      "url": "https://mastodon.social/@eMSequel/117511699562379194",
+      "handle": "eMSequel@mastodon.social",
+      "name": "eMSequel 🌐",
+      "text": "Level 90 #Fishing & #Cooking on #osrs #OldSchoolRuneScape #RuneScape #VideoGames #Games #VideoGame #Game #Mobile",
+      "createdAt": "2026-10-27T07:30:36.003Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "moreGaming",
+      "query": "videogame",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image, no description",
+      "firstSeen": "2026-10-27T12:51:06.980Z"
+    },
+    "https://mastodon.social/@flaps015@pixelfed.social/117512699837570879": {
+      "uri": "https://mastodon.social/@flaps015@pixelfed.social/117512699837570879",
+      "url": "https://mastodon.social/@flaps015@pixelfed.social/117512699837570879",
+      "handle": "flaps015@pixelfed.social",
+      "name": "piet <3",
+      "text": "got nikatchi #tamagotchi #retrogaming",
+      "createdAt": "2026-10-27T11:44:56.000Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 4,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://pixelfed.social/p/flaps015/1020661631904677251",
+      "media": "image, no description",
+      "firstSeen": "2026-10-27T12:51:06.980Z"
     }
   }
 }
