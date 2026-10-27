@@ -1,0 +1,20 @@
+{
+  "madeAt": "2026-10-27T22:38:05.194Z",
+  "run": "40596290277",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices|article|/guides/steam-wallet-funds-what-to-know/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 6,
+      "link": "https://saveandplay.com/guides/steam-wallet-funds-what-to-know/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-wallet-funds",
+      "text": "Steam Wallet money can be refunded only within 14 days of the top-up, and only if none of it is spent. Valve's agreement also says it has no cash value. What the rules say:\nhttps://saveandplay.com/guides/steam-wallet-funds-what-to-know/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-wallet-funds\n#PCGaming #GameDeals #Steam",
+      "approvedFile": "posts-approved-20261027-140314.json",
+      "approvedAt": "2026-10-27T14:03:14.105Z",
+      "status": "failed",
+      "reason": "our page: our page answers 404, not 200; the next run tries again",
+      "at": "2026-10-27T22:38:06.195Z"
+    }
+  ]
+}
