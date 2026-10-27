@@ -1,0 +1,36 @@
+{
+  "madeAt": "2026-10-27T20:39:01.883Z",
+  "run": "40579892512",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices|article|/guides/steam-wallet-funds-what-to-know/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 6,
+      "link": "https://saveandplay.com/guides/steam-wallet-funds-what-to-know/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-wallet-funds",
+      "text": "Steam Wallet money can be refunded only within 14 days of the top-up, and only if none of it is spent. Valve's agreement also says it has no cash value. What the rules say:\nhttps://saveandplay.com/guides/steam-wallet-funds-what-to-know/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-wallet-funds\n#PCGaming #GameDeals #Steam",
+      "approvedFile": "posts-approved-20261027-140314.json",
+      "approvedAt": "2026-10-27T14:03:14.105Z",
+      "status": "failed",
+      "reason": "our page: our page answers 404, not 200; the next run tries again",
+      "at": "2026-10-27T20:39:03.243Z"
+    },
+    {
+      "key": "prices|coop-2026-10-27|/servers/terraria/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 7,
+      "link": "https://saveandplay.com/servers/terraria/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-10-27",
+      "text": "Terraria with friends, any time: a rented server keeps your world online when you log off.\nSteam lists online co-op and PvP.\n\nhttps://saveandplay.com/servers/terraria/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-10-27\n\n#PCGaming #Terraria\nAd",
+      "approvedFile": "posts-approved-20261027-140314.json",
+      "approvedAt": "2026-10-27T14:03:14.105Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-27T20:39:05.689Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3myv3rzxlmo2w",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3myv3rzxlmo2w",
+      "picture": true
+    }
+  ]
+}
