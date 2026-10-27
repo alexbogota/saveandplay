@@ -1,0 +1,67 @@
+{
+  "block": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "madeAt": "2026-10-27T13:16:15.595Z",
+  "days": 14,
+  "total": 69,
+  "mature": {
+    "count": 64,
+    "withLike": 16,
+    "withReply": 2,
+    "likes": 19,
+    "replies": 2,
+    "byProgram": 31
+  },
+  "top": [
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3mykdz7gtvy2h",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3mykdz7gtvy2h",
+      "text": "Keeping old games playable is a big part of what GOG does, and since the installers are DRM-free you can also back up your own copy.",
+      "at": "2026-10-23T14:06:58.374Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "meganpaasch.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3mylmssleqr26",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3mylmssleqr26",
+      "text": "It counts for sure. Pong was a first for a lot of people, and it still shows how far simple rules can go.",
+      "at": "2026-10-24T02:17:07.207Z",
+      "likes": 2,
+      "replies": 0,
+      "reposts": 0,
+      "to": "msvugraduate.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3mxzy3b4lfc2z",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3mxzy3b4lfc2z",
+      "text": "Same here, a lot of old games hold up better than expected. GOG has many classics DRM-free with fixes included, so they run on a modern PC",
+      "at": "2026-10-17T01:50:46.769Z",
+      "likes": 0,
+      "replies": 1,
+      "reposts": 0,
+      "to": "puppy.bzky.team"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3mxzo36u4c22h",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3mxzo36u4c22h",
+      "text": "Shovel Knight is a great classic-style platformer, and Sea of Stars scratches the SNES JRPG itch. Both are pixel art, so they should go easy on a weak GPU, but check each store page’s requirements first",
+      "at": "2026-10-16T22:51:46.977Z",
+      "likes": 2,
+      "replies": 0,
+      "reposts": 0,
+      "to": "mentoch.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3mxyoqrh2o22k",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3mxyoqrh2o22k",
+      "text": "Sly Cooper 2 and 3 are great picks. That PS2 shelf was hard to beat",
+      "at": "2026-10-16T13:31:11.377Z",
+      "likes": 2,
+      "replies": 0,
+      "reposts": 0,
+      "to": "gameipedia.itch.io"
+    }
+  ]
+}
