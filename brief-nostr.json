@@ -1,113 +1,182 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-10-26T11:33:27.965Z",
-  "builtBy": "commit a86f44c, schedule, run #27 attempt 1",
-  "pricesCheckedAt": "2026-10-26T10:18:48.456Z",
+  "generatedAt": "2026-10-27T11:29:17.087Z",
+  "builtBy": "commit bb7603a, schedule, run #28 attempt 1",
+  "pricesCheckedAt": "2026-10-27T10:11:07.347Z",
   "warnings": [],
   "candidates": [
     {
-      "id": "gog-xcom-2",
+      "id": "gog-darkest-dungeon",
       "kind": "deal",
-      "title": "XCOM 2",
+      "title": "Darkest Dungeon",
       "store": "GOG",
-      "price": 2.99,
-      "was": 19.99,
+      "price": 3.75,
+      "was": 24.99,
       "discount": 85,
-      "endsAt": "2026-10-27T09:59:00+02:00",
-      "endsInHours": 20,
-      "priceCheckedAt": "2026-10-26T10:15:45.146Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268500/header.jpg?t=1772813016",
+      "endsAt": "2026-10-28T15:59:00+02:00",
+      "endsInHours": 26,
+      "priceCheckedAt": "2026-10-27T10:11:07.347Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187",
       "drminfo": null,
-      "coverAlt": "Cover art for XCOM 2",
+      "coverAlt": "Cover art for Darkest Dungeon",
       "facts": {
         "year": 2016,
         "genres": [
-          "Strategy",
+          "Role-playing",
           "Turn-based",
-          "Sci-fi"
+          "Fantasy"
         ],
         "tags": [
-          "Strategy",
-          "Sci-fi",
+          "Indie",
+          "Fantasy",
+          "Atmospheric",
+          "Role-playing",
+          "2D",
           "Turn-Based",
-          "Science",
-          "Tactical",
-          "Perma Death"
+          "Dark",
+          "Horror",
+          "Difficult",
+          "Roguelike",
+          "Roguelite",
+          "Dungeon Crawler",
+          "Lovecraftian",
+          "Perma Death",
+          "Petting Dogs"
         ]
       },
       "marketplace": false,
       "compareTo": null,
       "score": 12.5,
-      "discountRank": 7,
+      "discountRank": 5,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 14,
+        "days": 18,
         "lowest": true,
-        "since": "2026-10-13"
+        "since": "2026-10-07"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/xcom-2/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-26",
+      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-27",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 20 h",
-        "lowest price we've tracked (14 days of data)",
-        "deepest-discount rank 7 of 17"
+        "sale ends in 26 h",
+        "lowest price we've tracked (18 days of data)",
+        "deepest-discount rank 5 of 8"
       ]
     },
     {
-      "id": "gog-rebel-galaxy",
+      "id": "gog-thronebreaker-the-witcher-tales",
       "kind": "deal",
-      "title": "Rebel Galaxy",
+      "title": "Thronebreaker: The Witcher Tales",
       "store": "GOG",
-      "price": 1.99,
+      "price": 3.99,
       "was": 19.99,
-      "discount": 90,
-      "endsAt": "2026-10-27T09:59:00+02:00",
-      "endsInHours": 20,
-      "priceCheckedAt": "2026-10-26T10:15:45.146Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/290300/header.jpg?t=1778077786",
+      "discount": 80,
+      "endsAt": "2026-10-28T15:59:00+02:00",
+      "endsInHours": 26,
+      "priceCheckedAt": "2026-10-27T10:11:07.347Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/973760/f748e07df077bb0cf4c49d4bc0f6437f510c5251/header.jpg?t=1761829221",
       "drminfo": null,
-      "coverAlt": "Cover art for Rebel Galaxy",
+      "coverAlt": "Cover art for Thronebreaker: The Witcher Tales",
       "facts": {
-        "year": 2015,
+        "year": 2018,
         "genres": [
-          "Action",
-          "Adventure",
-          "Open World"
+          "Role-playing",
+          "Fantasy",
+          "Strategy"
         ],
         "tags": [
-          "Adventure",
-          "Action",
+          "Fantasy",
+          "Story Rich",
           "Atmospheric",
-          "2D",
-          "Exploration",
-          "Science",
+          "Strategy",
+          "Role-playing",
+          "Turn-Based",
+          "Puzzle",
+          "Female Protagonist",
           "Great Soundtrack",
-          "Third Person",
+          "Choices Matter",
           "Open World",
-          "Sandbox",
-          "Space",
-          "Trading"
+          "Multiplayer",
+          "Mature",
+          "Sexual Content",
+          "Isometric",
+          "Medieval",
+          "Card Game"
         ]
       },
       "marketplace": false,
       "compareTo": null,
       "score": 12,
-      "discountRank": 2,
+      "discountRank": 6,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 9,
-        "lowest": false,
-        "since": "2026-10-18"
+        "days": 16,
+        "lowest": true,
+        "since": "2026-10-07"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/rebel-galaxy/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-26",
+      "link": "https://saveandplay.com/deals/gog/thronebreaker-the-witcher-tales/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-27",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 20 h",
-        "deepest-discount rank 2 of 17"
+        "sale ends in 26 h",
+        "lowest price we've tracked (16 days of data)",
+        "deepest-discount rank 6 of 8"
+      ]
+    },
+    {
+      "id": "gog-torchlight-ii",
+      "kind": "deal",
+      "title": "Torchlight II",
+      "store": "GOG",
+      "price": 3.99,
+      "was": 19.99,
+      "discount": 80,
+      "endsAt": "2026-10-28T15:59:00+02:00",
+      "endsInHours": 26,
+      "priceCheckedAt": "2026-10-27T10:11:07.347Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/200710/header.jpg?t=1792118316",
+      "drminfo": null,
+      "coverAlt": "Cover art for Torchlight II",
+      "facts": {
+        "year": 2012,
+        "genres": [
+          "Role-playing",
+          "Action",
+          "Fantasy"
+        ],
+        "tags": [
+          "Action",
+          "Indie",
+          "Fantasy",
+          "Atmospheric",
+          "Role-playing",
+          "Classic",
+          "Multiplayer",
+          "Isometric",
+          "Hack and Slash",
+          "Dungeon Crawler",
+          "Steampunk"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 11,
+      "discountRank": 7,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 7,
+        "lowest": false,
+        "since": "2026-10-21"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/torchlight-ii/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-27",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "sale ends in 26 h",
+        "deepest-discount rank 7 of 8"
       ]
     },
     {
@@ -115,12 +184,12 @@
       "kind": "deal",
       "title": "Metro Exodus",
       "store": "GOG",
-      "price": 2.99,
+      "price": 4.49,
       "was": 29.99,
-      "discount": 90,
-      "endsAt": "2026-10-27T09:59:00+02:00",
-      "endsInHours": 20,
-      "priceCheckedAt": "2026-10-26T10:15:45.146Z",
+      "discount": 85,
+      "endsAt": "2026-11-05T20:00:00+02:00",
+      "endsInHours": 223,
+      "priceCheckedAt": "2026-10-27T10:11:07.347Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804",
       "drminfo": null,
       "coverAlt": "Cover art for Metro Exodus",
@@ -153,157 +222,179 @@
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 12,
-      "discountRank": 1,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 9,
-        "lowest": false,
-        "since": "2026-10-18"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-26",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "sale ends in 20 h",
-        "deepest-discount rank 1 of 17"
-      ]
-    },
-    {
-      "id": "gog-doom-2016",
-      "kind": "deal",
-      "title": "DOOM (2016)",
-      "store": "GOG",
-      "price": 3.99,
-      "was": 19.99,
-      "discount": 80,
-      "endsAt": "2026-10-27T09:59:00+02:00",
-      "endsInHours": 20,
-      "priceCheckedAt": "2026-10-26T10:15:45.146Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/379720/header.jpg?t=1750784856",
-      "drminfo": null,
-      "coverAlt": "Cover art for DOOM (2016)",
-      "facts": {
-        "year": 2016,
-        "genres": [
-          "Shooter",
-          "FPP",
-          "Sci-fi"
-        ],
-        "tags": [
-          "Atmospheric",
-          "Sci-fi",
-          "First-Person",
-          "Science",
-          "Horror",
-          "Great Soundtrack",
-          "Multiplayer",
-          "Violent",
-          "Difficult",
-          "Gore",
-          "FPS",
-          "Shooter",
-          "Remake"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 11,
-      "discountRank": 11,
+      "score": 9.5,
+      "discountRank": 3,
       "sites": 0,
       "mentions": [],
       "history": {
         "days": 10,
         "lowest": false,
-        "since": "2026-10-05"
+        "since": "2026-10-18"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/doom-2016/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-26",
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-27",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 20 h",
-        "deepest-discount rank 11 of 17"
+        "deepest-discount rank 3 of 8"
       ]
     },
     {
-      "id": "gog-trine-2-complete-story",
+      "id": "indiegala-no-man-s-sky",
       "kind": "deal",
-      "title": "Trine 2: Complete Story",
-      "store": "GOG",
-      "price": 3.99,
-      "was": 19.99,
-      "discount": 80,
-      "endsAt": "2026-10-27T09:59:00+02:00",
-      "endsInHours": 20,
-      "priceCheckedAt": "2026-10-26T10:15:45.146Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/35720/header.jpg?t=1789543075",
-      "drminfo": null,
-      "coverAlt": "Cover art for Trine 2: Complete Story",
+      "title": "No Man's Sky",
+      "store": "IndieGala",
+      "price": 23.99,
+      "was": 59.99,
+      "discount": 60,
+      "endsAt": "2026-11-02T23:59:00Z",
+      "endsInHours": 156,
+      "priceCheckedAt": "2026-10-26T10:18:48.456Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/84d0df065c36eb8ded7bdf0d8fccd19d43b6c005/header.jpg?t=1789479023",
+      "drminfo": "Steam key",
+      "coverAlt": "Cover art for No Man's Sky",
       "facts": {
-        "year": 2013,
+        "year": 2016,
         "genres": [
           "Action",
-          "Adventure",
-          "Puzzle"
+          "Adventure"
         ],
-        "tags": [
-          "Adventure",
-          "Action",
-          "Indie",
-          "Fantasy",
-          "Atmospheric",
-          "2D",
-          "Puzzle",
-          "Classic",
-          "Casual",
-          "Great Soundtrack",
-          "Multiplayer",
-          "Platformer",
-          "Logic",
-          "Local Co-Op",
-          "Puzzle Platformer",
-          "Physics"
-        ]
+        "tags": []
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 11,
-      "discountRank": 12,
-      "sites": 0,
-      "mentions": [],
+      "score": 9,
+      "discountRank": 8,
+      "sites": 1,
+      "mentions": [
+        {
+          "source": "gg.deals News",
+          "domain": "gg.deals",
+          "title": "New PC and Xbox game deals just dropped! Snag No Man's Sky at 60% off and more",
+          "link": "https://gg.deals/deal/xbox-pc-deals-oct-27-2026/",
+          "t": 1793091600000,
+          "how": "title"
+        }
+      ],
       "history": {
-        "days": 8,
+        "days": 12,
         "lowest": false,
-        "since": "2026-10-19"
+        "since": "2026-10-05"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/trine-2-complete-story/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-26",
+      "link": "https://saveandplay.com/deals/indiegala/no-man-s-sky/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-27",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 20 h",
-        "deepest-discount rank 12 of 17"
+        "1 news site wrote about the game in the last 48 h",
+        "deepest-discount rank 8 of 8"
       ]
     }
   ],
   "gogNews": [],
   "topical": [
     {
-      "title": "Terraspace is free on Epic Games Store — build a spaceship before your colony falls apart",
-      "source": "Indie Game Bundles",
-      "link": "https://www.indiegamebundles.com/terraspace-is-free-on-epic-games-store/",
-      "t": 1792953012000,
+      "title": "New PC and Xbox game deals just dropped! Snag No Man's Sky at 60% off and more",
+      "source": "gg.deals News",
+      "link": "https://gg.deals/deal/xbox-pc-deals-oct-27-2026/",
+      "t": 1793091600000,
+      "keyword": "deals",
+      "summary": "More PC and Xbox game deals have landed on the Xbox Store!"
+    },
+    {
+      "title": "A free 'micro' horror game from the maker of The Mortuary Assistant is basically if PT was an episode of Law and Order",
+      "source": "PC Gamer",
+      "link": "https://www.pcgamer.com/games/horror/a-free-micro-horror-game-from-the-maker-of-the-mortuary-assistant-is-basically-if-pt-was-an-episode-of-law-and-order/",
+      "t": 1793051278000,
       "keyword": "free",
-      "summary": "Terraspace is free on Epic Games Store right now, dropping from $6.99 to $0.00. The post Terraspace is free on Epic Games Store — build a spaceship before your…"
+      "summary": "Halloween is almost upon us, and if you're looking for some suitably spooky videogame fun then allow me to direct your attention to Playable Archive , a free \"…"
+    },
+    {
+      "title": "Fanatical’s Puzzle Adventure Bundle: Choose 3 Steam Games for $9.99",
+      "source": "Indie Game Bundles",
+      "link": "https://www.indiegamebundles.com/fanaticals-puzzle-adventure-bundle-choose-3-steam-games-for-9-99/",
+      "t": 1793044649000,
+      "keyword": "bundle",
+      "summary": "Puzzle Adventure Bundle is featuring 19 games and collections covering puzzle adventures, escape rooms, mysteries, and co-op challenges. The post Fanatical’s P…"
+    },
+    {
+      "title": "Humble Flat2VR Bundle: 9 Steam VR Games Including Roboquest VR and I AM YOUR BEAST VR for $22",
+      "source": "Indie Game Bundles",
+      "link": "https://www.indiegamebundles.com/humble-flat2vr-bundle/",
+      "t": 1793044338000,
+      "keyword": "bundle",
+      "summary": "Humble Bundle has launched the Flat2VR Bundle, offering 9 PC VR games with a combined regular value of over $217 for just $22. The post Humble Flat2VR Bundle: …"
     }
   ],
   "topics": [
     {
-      "headline": "MAFIA HOTEL is free on Epic Games Store — and the Mafia actually comes to your room",
+      "headline": "Phantom Blade Zero preload date revealed amid glowing reviews",
+      "score": 11,
+      "sites": [
+        "gg.deals",
+        "pcgamer.com",
+        "eurogamer.net"
+      ],
+      "keywords": [
+        "free"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Phantom Blade Zero preload date revealed amid glowing reviews",
+          "link": "https://gg.deals/gaming-news/phantom-blade-zero-preload-date-revealed-amid-glowing-reviews/",
+          "published": "2026-10-26T17:59:16.000Z"
+        },
+        {
+          "source": "PC Gamer",
+          "title": "Phantom Blade Zero devs say the game needs 300 GB of free space for the pre-load process, alongside updated system requirements",
+          "link": "https://www.pcgamer.com/hardware/phantom-blade-zero-devs-say-the-game-needs-300-gb-of-free-space-for-the-pre-load-process-alongside-updated-system-requirements/",
+          "published": "2026-10-26T14:21:32.000Z"
+        },
+        {
+          "source": "Eurogamer",
+          "title": "Phantom Blade Zero review",
+          "link": "https://www.eurogamer.net/phantom-blade-zero-review-1",
+          "published": "2026-10-26T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "\"Mass Effect was my ultimate white whale\": Journey composer shares 20 minutes of music created during talks to work on BioWare's recently cancelled RPG",
+      "score": 9,
+      "sites": [
+        "pcgamer.com",
+        "rockpapershotgun.com",
+        "eurogamer.net"
+      ],
+      "keywords": [],
+      "games": [],
+      "items": [
+        {
+          "source": "PC Gamer",
+          "title": "Veteran game composer in talks to score Mass Effect 5 shares 20 minutes of music he wrote for the project: 'To even dream in your sandbox was a privilege'",
+          "link": "https://www.pcgamer.com/games/mass-effect/veteran-game-composer-in-talks-to-score-mass-effect-5-shares-20-minutes-of-music-he-wrote-for-the-project-to-even-dream-in-your-sandbox-was-a-privilege/",
+          "published": "2026-10-26T21:19:51.000Z"
+        },
+        {
+          "source": "Rock Paper Shotgun",
+          "title": "\"Mass Effect was my ultimate white whale\": Journey composer shares 20 minutes of music created during talks to work on BioWare's recently cancelled RPG",
+          "link": "https://www.rockpapershotgun.com/mass-effect-was-my-ultimate-white-whale-journey-composer-shares-20-minutes-of-music-created-during-talks-to-work-on-biowares-recently-cancelled-rpg",
+          "published": "2026-10-27T10:30:00.000Z"
+        },
+        {
+          "source": "Eurogamer",
+          "title": "Composer shares 20 minutes of music created for Mass Effect 5 following tragic closure of BioWare",
+          "link": "https://www.eurogamer.net/mass-effect-5-pitched-music-composer",
+          "published": "2026-10-27T10:02:28.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "V Rising's Haunted Nights Castle Pack DLC is FREE to keep on Steam and PlayStation this Halloween!",
       "score": 8,
       "sites": [
         "gamerpower.com",
-        "indiegamebundles.com"
+        "gg.deals"
       ],
       "keywords": [
         "free"
@@ -312,66 +403,29 @@
       "items": [
         {
           "source": "GamerPower (PC)",
-          "title": "MAFIA HOTEL (Epic Games) Giveaway",
-          "link": "https://www.gamerpower.com/mafia-hotel-epic-games-giveaway",
-          "published": "2026-10-24T22:55:39.000Z"
+          "title": "V Rising - Haunted Nights Castle Pack (Steam) Giveaway",
+          "link": "https://www.gamerpower.com/v-rising-haunted-nights-castle-pack-steam-giveaway",
+          "published": "2026-10-26T17:36:30.000Z"
         },
         {
-          "source": "Indie Game Bundles",
-          "title": "MAFIA HOTEL is free on Epic Games Store — and the Mafia actually comes to your room",
-          "link": "https://www.indiegamebundles.com/mafia-hotel-is-free-on-epic-games-store/",
-          "published": "2026-10-25T18:25:42.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Gamesplanet's Bandai Namco Halloween Sale brings discounts of up to 93%!",
-      "score": 7,
-      "sites": [
-        "gg.deals"
-      ],
-      "keywords": [
-        "sale",
-        "discounts"
-      ],
-      "games": [],
-      "items": [
+          "source": "gg.deals Freebies",
+          "title": "V Rising's Haunted Nights Castle Pack DLC is FREE to keep on Steam and PlayStation this Halloween!",
+          "link": "https://gg.deals/freebie/v-rising-free-dlc-haunted-nights-castle-pack-halloween/",
+          "published": "2026-10-26T19:22:28.000Z"
+        },
         {
           "source": "gg.deals News",
-          "title": "Gamesplanet's Bandai Namco Halloween Sale brings discounts of up to 93%!",
-          "link": "https://gg.deals/deal/gamesplanets-bandai-namco-halloween-sale/",
-          "published": "2026-10-26T08:59:00.000Z"
+          "title": "V Rising's Haunted Nights Castle Pack DLC is FREE to keep on Steam and PlayStation this Halloween!",
+          "link": "https://gg.deals/freebie/v-rising-free-dlc-haunted-nights-castle-pack-halloween/",
+          "published": "2026-10-26T19:22:28.000Z"
         }
       ]
     },
     {
-      "headline": "Mass Effect 5 was named Universe partly because it let players generate alternate timelines based on their choices in previous entries, technical director says",
-      "score": 6,
+      "headline": "Tactical RPG Ancient Evil is up for grabs for FREE on IndieGala!",
+      "score": 8,
       "sites": [
-        "pcgamer.com",
-        "rockpapershotgun.com"
-      ],
-      "keywords": [],
-      "games": [],
-      "items": [
-        {
-          "source": "PC Gamer",
-          "title": "Mass Effect 5 would have let players generate alternate timelines based on their choices in previous games, according to the series' technical director",
-          "link": "https://www.pcgamer.com/games/mass-effect/mass-effect-5-would-have-let-players-generate-alternate-timelines-based-on-their-choices-in-previous-games-according-to-the-series-technical-director/",
-          "published": "2026-10-25T12:01:33.000Z"
-        },
-        {
-          "source": "Rock Paper Shotgun",
-          "title": "Mass Effect 5 was named Universe partly because it let players generate alternate timelines based on their choices in previous entries, technical director says",
-          "link": "https://www.rockpapershotgun.com/mass-effect-5-was-named-universe-partly-because-it-let-players-generate-alternate-timelines-based-on-their-choices-in-previous-entries-technical-director-says",
-          "published": "2026-10-26T11:02:57.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Surprise! Epic Games has another FREE game to claim",
-      "score": 5,
-      "sites": [
+        "gamerpower.com",
         "gg.deals"
       ],
       "keywords": [
@@ -380,35 +434,42 @@
       "games": [],
       "items": [
         {
+          "source": "GamerPower (PC)",
+          "title": "ANCIENT EVIL (IndieGala) Giveaway",
+          "link": "https://www.gamerpower.com/ancient-evil-pc-giveaway",
+          "published": "2026-10-26T15:04:23.000Z"
+        },
+        {
           "source": "gg.deals Freebies",
-          "title": "Surprise! Epic Games has another FREE game to claim",
-          "link": "https://gg.deals/freebie/surprise-epic-games-has-another-free-game-to-claim/",
-          "published": "2026-10-26T09:49:20.000Z"
+          "title": "Tactical RPG Ancient Evil is up for grabs for FREE on IndieGala!",
+          "link": "https://gg.deals/freebie/tactical-rpg-ancient-evil-is-up-for-grabs-for-free-on-indiegala/",
+          "published": "2026-10-26T16:09:17.000Z"
         },
         {
           "source": "gg.deals News",
-          "title": "Surprise! Epic Games has another FREE game to claim",
-          "link": "https://gg.deals/freebie/surprise-epic-games-has-another-free-game-to-claim/",
-          "published": "2026-10-26T09:49:20.000Z"
+          "title": "Tactical RPG Ancient Evil is up for grabs for FREE on IndieGala!",
+          "link": "https://gg.deals/freebie/tactical-rpg-ancient-evil-is-up-for-grabs-for-free-on-indiegala/",
+          "published": "2026-10-26T16:09:17.000Z"
         }
       ]
     },
     {
-      "headline": "Fanatical’s Frightmare Bundle: Choose 2 Horror Steam Games for $6.66",
-      "score": 5,
+      "headline": "Steam's Halloween Sale 2026: 50 killer deals under $5",
+      "score": 7,
       "sites": [
-        "indiegamebundles.com"
+        "gg.deals"
       ],
       "keywords": [
-        "bundle"
+        "sale",
+        "deals"
       ],
       "games": [],
       "items": [
         {
-          "source": "Indie Game Bundles",
-          "title": "Fanatical’s Frightmare Bundle: Choose 2 Horror Steam Games for $6.66",
-          "link": "https://www.indiegamebundles.com/fanaticals-frightmare-bundle-choose-2-horror-steam-games-for-6-66/",
-          "published": "2026-10-25T18:48:08.000Z"
+          "source": "gg.deals News",
+          "title": "Steam's Halloween Sale 2026: 50 killer deals under $5",
+          "link": "https://gg.deals/wallet-friendly/steams-halloween-sale-2026-50-killer-deals-under-5/",
+          "published": "2026-10-27T11:22:48.000Z"
         }
       ]
     }

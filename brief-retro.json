@@ -1,11 +1,11 @@
 {
   "account": "Retro game deals",
-  "generatedAt": "2026-10-26T11:33:27.965Z",
-  "builtBy": "commit a86f44c, schedule, run #27 attempt 1",
-  "pricesCheckedAt": "2026-10-26T10:18:48.456Z",
+  "generatedAt": "2026-10-27T11:29:17.087Z",
+  "builtBy": "commit bb7603a, schedule, run #28 attempt 1",
+  "pricesCheckedAt": "2026-10-27T10:11:07.347Z",
   "warnings": [
     "NOTHING TO OFFER today.",
-    "No game fits the niche today (1 fit the rule, 17 do not, 0 have no facts yet, 1 were taken by another account today, 0 under 50%, 0 prices older than 48 h, 0 sales over or ending soon)."
+    "No game fits the niche today (1 fit the rule, 8 do not, 0 have no facts yet, 1 were taken by another account today, 0 under 50%, 0 prices older than 48 h, 0 sales over or ending soon)."
   ],
   "niche": {
     "label": "Retro",
@@ -19,7 +19,7 @@
   "left": {
     "otherStore": 1,
     "hidden": 0,
-    "notNiche": 17,
+    "notNiche": 8,
     "noFacts": 0,
     "taken": 1,
     "smallDiscount": 0,
@@ -33,10 +33,10 @@
   },
   "posts": {
     "x": {
-      "none": "No deal passes the rules today. NOTHING TO OFFER today. No game fits the niche today (1 fit the rule, 17 do not, 0 have no facts yet, 1 were taken by another account today, 0 under 50%, 0 prices older than 48 h, 0 sales over or ending soon)."
+      "none": "No deal passes the rules today. NOTHING TO OFFER today. No game fits the niche today (1 fit the rule, 8 do not, 0 have no facts yet, 1 were taken by another account today, 0 under 50%, 0 prices older than 48 h, 0 sales over or ending soon)."
     },
     "bluesky": {
-      "none": "No deal passes the rules today. NOTHING TO OFFER today. No game fits the niche today (1 fit the rule, 17 do not, 0 have no facts yet, 1 were taken by another account today, 0 under 50%, 0 prices older than 48 h, 0 sales over or ending soon)."
+      "none": "No deal passes the rules today. NOTHING TO OFFER today. No game fits the niche today (1 fit the rule, 8 do not, 0 have no facts yet, 1 were taken by another account today, 0 under 50%, 0 prices older than 48 h, 0 sales over or ending soon)."
     }
   }
 }
