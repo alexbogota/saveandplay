@@ -1,0 +1,29 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261027-135651",
+  "madeAt": "2026-10-27T13:57:37.850Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:5wh2du5ruvwft3724lczum2m/app.bsky.feed.post/3myspvxpi6s25",
+      "url": "https://bsky.app/profile/shinybones.bsky.social/post/3myspvxpi6s25",
+      "author": "shinybones.bsky.social",
+      "context": "No art streams or redeems for the next month or so. I have a semi-torn rotator cuff and in the interests of not doing more damage I am swapping over to controller games for stream. I plan on keeping Tuesdays cozy, so lemme know if you have suggestions! Hopefully I'll be back to growing in art soon!\nlink card: My Hero Academia: Principal Nezu's Coffee Laugh",
+      "text": "Sorry about the shoulder, hope it heals fast. A Short Hike and Spiritfarer both play really well on a controller, and they suit a calm Tuesday stream.",
+      "group": "askCozy",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:raciiog4jyqy47mfppgbg3fo/app.bsky.feed.post/3mythdob3gk2v",
+      "url": "https://bsky.app/profile/daisygalvez.bsky.social/post/3mythdob3gk2v",
+      "author": "daisygalvez.bsky.social",
+      "context": "Ugh… Finally finished all Part 1’s of Fortune’s Weave. And it’s been like more than a month since I played this title. Think I need a break from long RPGs. Fuck it, tomorrow, I’m gonna either play Stardew or Fields of Mistria.",
+      "text": "Good call after a long RPG, both are easy to pick up for short, low-pressure sessions. Enjoy the break.",
+      "group": "stardew",
+      "heated": false
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "stamp": "20261027-135651",
+  "madeAt": "2026-10-27T13:57:37.688Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:tpwapewhpzg4tpo2h3jpzu6x/app.bsky.feed.post/3mysdwdgjzs2u",
+      "url": "https://bsky.app/profile/hopeghoul.bsky.social/post/3mysdwdgjzs2u",
+      "author": "hopeghoul.bsky.social",
+      "context": "What video game should I play next (Ideally something that can run with shittier specs)",
+      "text": "Hollow Knight and Stardew Valley are both easy on older hardware, and each Steam store page lists the exact requirements, so you can check your PC before buying.",
+      "group": "backlog",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:mv425hvx3optro26poswyemy/app.bsky.feed.post/3mysczyaf6s22",
+      "url": "https://bsky.app/profile/mentova.bsky.social/post/3mysczyaf6s22",
+      "author": "mentova.bsky.social",
+      "context": "steam has outlast 2 for sale for like a dollar I heard it was really bad should I get it lmao",
+      "text": "Opinions on it are pretty split, so skim the recent user reviews on its store page first. And Steam's refund window is a nice safety net: within 14 days and under 2 hours played.",
+      "group": "waitForSale",
+      "heated": false
+    }
+  ]
+}
