@@ -1,0 +1,39 @@
+{
+  "madeAt": "2026-10-27T14:03:41.865Z",
+  "run": "40517532459",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices|2026-10-27|/deals/gog/darkest-dungeon/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 1,
+      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-27",
+      "text": "Darkest Dungeon: -85% at GOG\n$3.75 (was $24.99)\nPrice checked Oct 27. Sale ends Oct 28. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-27\n\n#PCGaming #GameDeals #Gaming #DarkestDungeon #VideoGames\nAd",
+      "approvedFile": "posts-approved-20261027-140314.json",
+      "approvedAt": "2026-10-27T14:03:14.105Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-27T14:03:44.649Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3myufp4b4xb2p",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3myufp4b4xb2p",
+      "picture": true
+    },
+    {
+      "key": "cozy|2026-10-27|/deals/gog/simcity-4-deluxe-edition/",
+      "account": "cozy",
+      "handle": "cozygame.bsky.social",
+      "n": 4,
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=deals-2026-10-27",
+      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Oct 27. Sale ends Oct 28. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=deals-2026-10-27\n\n#GameDeals #PCGaming #CityBuilder #SimCity4DeluxeEdition\nAd",
+      "approvedFile": "posts-approved-20261027-140314.json",
+      "approvedAt": "2026-10-27T14:03:14.105Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-27T14:03:46.196Z",
+      "postUri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3myufp5qibp2x",
+      "postUrl": "https://bsky.app/profile/cozygame.bsky.social/post/3myufp5qibp2x",
+      "picture": true
+    }
+  ]
+}
