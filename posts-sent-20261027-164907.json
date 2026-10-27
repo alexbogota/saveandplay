@@ -1,0 +1,39 @@
+{
+  "madeAt": "2026-10-27T16:49:07.557Z",
+  "run": "40544596840",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices-2|2026-10-27|/deals/gog/frostpunk/",
+      "account": "prices-2",
+      "handle": "saveandplay.com",
+      "n": 2,
+      "link": "https://saveandplay.com/deals/gog/frostpunk/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-27",
+      "text": "Frostpunk: -85% at GOG\n$4.49 (was $29.99)\nPrice checked Oct 27. Sale ends Oct 28. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/frostpunk/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-27\n\n#PCGaming #GameDeals #DRMFree #PCGames #GOG\nAd",
+      "approvedFile": "posts-approved-20261027-140314.json",
+      "approvedAt": "2026-10-27T14:03:14.105Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-27T16:49:11.123Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3myuowwesoy2b",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3myuowwesoy2b",
+      "picture": true
+    },
+    {
+      "key": "cozy|coop-2026-10-27|/servers/stardew-valley/",
+      "account": "cozy",
+      "handle": "cozygame.bsky.social",
+      "n": 8,
+      "link": "https://saveandplay.com/servers/stardew-valley/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=coop-2026-10-27",
+      "text": "One farm, up to 8 farmers. Stardew Valley lets you share a farm online with up to 7 friends.\nWith your own server, nobody has to stay online so the others can play.\n\nhttps://saveandplay.com/servers/stardew-valley/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=coop-2026-10-27\n\n#CozyGames #StardewValley\nAd",
+      "approvedFile": "posts-approved-20261027-140314.json",
+      "approvedAt": "2026-10-27T14:03:14.105Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-27T16:49:13.704Z",
+      "postUri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3myuowzdyzi2z",
+      "postUrl": "https://bsky.app/profile/cozygame.bsky.social/post/3myuowzdyzi2z",
+      "picture": true
+    }
+  ]
+}
