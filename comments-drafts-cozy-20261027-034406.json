@@ -1,0 +1,29 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261027-034406",
+  "madeAt": "2026-10-27T03:44:45.423Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:wbht22qsll6hxsewsb46cavg/app.bsky.feed.post/3mysu3meurs2w",
+      "url": "https://bsky.app/profile/yoda-nobunaga.bsky.social/post/3mysu3meurs2w",
+      "author": "yoda-nobunaga.bsky.social",
+      "context": "is a 3 year old too young for stardew valley?",
+      "text": "It's very gentle and you can't really lose, but there's a lot of reading and menus, plus some combat in the mines, so a 3-year-old would probably enjoy sitting with you and watching more than playing.",
+      "group": "stardew",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:pgfbpc2cqoinf5mdzupjq74w/app.bsky.feed.post/3mysholiowk2i",
+      "url": "https://bsky.app/profile/goldenhourmaya.bsky.social/post/3mysholiowk2i",
+      "author": "goldenhourmaya.bsky.social",
+      "context": "rainy fall afternoon plan: cozy farming game, warm blanket, and a cat on my lap… what's your comfort game this season? 🍂🎮 #gaming #cozy",
+      "text": "That sounds like the perfect afternoon. Dorfromantik fits that mood well: you place tiles to grow a quiet little landscape, no rush at all.",
+      "group": "evening",
+      "heated": false
+    }
+  ]
+}

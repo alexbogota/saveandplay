@@ -1,0 +1,49 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261027-034406",
+  "madeAt": "2026-10-27T03:44:45.516Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:iwalz7uy6xbhyw3gms62atzy/app.bsky.feed.post/3mysijuhjxs2m",
+      "url": "https://bsky.app/profile/syrusdrake.bsky.social/post/3mysijuhjxs2m",
+      "author": "syrusdrake.bsky.social",
+      "context": "Trying to remember the name of an old PC game. I know it's on the shelf next to me, but that'd mean having to move and maybe even getting up from my chair, so I'm trying to find it online instead, with such specific queries as \"WW2 grand strategy game 2010s\"",
+      "text": "Could it be Hearts of Iron? The third one came out in 2009 and the fourth in 2016, so the fourth would fit the 2010s if you want a title to check.",
+      "group": "classicPC",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:blobrnqvsgxxk67hiremsngw/app.bsky.feed.post/3mys6pflq2224",
+      "url": "https://bsky.app/profile/rivkahwinter.bsky.social/post/3mys6pflq2224",
+      "author": "rivkahwinter.bsky.social",
+      "context": "I really want to make a zine or collection of zines that are focused on games I played in my childhood. A love letter to them. Maybe even reviews of them, but by an adult version of myself in conversation with what I remember loving about them from childhood.",
+      "text": "Love that idea. Revisiting childhood games as an adult is such a different experience, and a zine is a great way to capture it.",
+      "group": "childhood",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:q5humkvvlr7rg7ta7ppuqilu/app.bsky.feed.post/3myrvstz6r22j",
+      "url": "https://bsky.app/profile/geekcritique.org/post/3myrvstz6r22j",
+      "author": "geekcritique.org",
+      "context": "My mom had lots of PC games. And sometimes I would just pick one up and put it in the drive and try it. Once I did that with a Jeopardy game. And during the player setup, it said something like SEX? [M or F]: ☐ Obviously I had no idea what any of that meant, I was like 4 years old or something.",
+      "text": "Ha, the classic early PC moment of a setup screen asking questions a 4-year-old can't possibly parse. Peak 90s computer childhood.",
+      "group": "classicPC",
+      "heated": false
+    },
+    {
+      "n": 4,
+      "uri": "at://did:plc:r6xbfu7npu4xgrgj3pycpp66/app.bsky.feed.post/3myrkl6fabc2m",
+      "url": "https://bsky.app/profile/neoretrounion.bsky.social/post/3myrkl6fabc2m",
+      "author": "neoretrounion.bsky.social",
+      "context": "Can we all agree that obscure Taiwanese MS-DOS games need some love as well? For those wondering who Madiesha is, she's the Romanian leotard-clad gymnast from a forgotten Taiwanese MS-DOS fighting game called Tough Guy. #Costober #MSDOS\nimage: Madiesha Costume Guide",
+      "text": "Agreed, the obscure regional DOS games are a whole forgotten corner of PC history, and they deserve a few more eyes.",
+      "group": "classicPC",
+      "heated": false
+    }
+  ]
+}
