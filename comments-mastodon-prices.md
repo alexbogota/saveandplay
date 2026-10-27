@@ -1,62 +1,63 @@
 # Comment candidates: mastodon-prices (@saveandplay@mastodon.social)
-Made 2026-10-27T12:50Z. Searched: deck: handheldgaming | deck: steamdecklife | deck: steamdeckoled | deck: steamdeck | deck: steamos | practical: linuxgaming | practical: drmfree | practical: gog | practical: protondb | genres: coopgames | genres: citybuilder | genres: strategygames | genres: survivalgames | genres: horrorgaming | genres: cozygaming | genres: puzzlegames | genres: roguelike | genres: cozygames | genres: metroidvania | seasonal: halloweengames | seasonal: horrorgames | seasonal: spooktober | broadPlaying: videogames | broadPlaying: currentlyplaying | broadPlaying: indiegames | broadPlaying: indiegame | broadPlaying: pcgames | broadPlaying: steamgames | broadPlaying: gamer | broadPlaying: games | broadPlaying: rpg | broadPlaying: jrpg | broadPlaying: pcgaming | broadPlaying: gaming | broadPlaying: steam | broadAsk: recommendmeagame | broadAsk: gamerecommendation | broadAsk: recommendagame | broadAsk: whattoplay | broadAsk: gamesuggestion | broadAsk: hiddengem | broadAsk: underratedgames | broadAsk: gamesuggestions | backlog: gamingbacklog | backlog: backlog | backlog: pileofshame | backlog: whatshouldiplay | backlog: gamerecommendations | backlog: gamerecs.
-Posts below: 12 + 1 heated. Dropped in this run: bot, shop or studio 1037, too old 1194, other language 246, promo (link and hashtags) 121, not about games 41, skip word 157, link post, not a question 12, already shown 21, too long 10, low score 21, other language (text) 23, many links 6, own post 25, console only 9, profile says no bots or promo 2, content warning 6, already answered 3, earlier finds: low score 1.
+Made 2026-10-27T18:50Z. Searched: deck: handheldgaming | deck: steamdecklife | deck: steamdeckoled | deck: steamdeck | deck: steamos | practical: linuxgaming | practical: drmfree | practical: gog | practical: protondb | genres: coopgames | genres: citybuilder | genres: strategygames | genres: survivalgames | genres: horrorgaming | genres: cozygaming | genres: puzzlegames | genres: roguelike | genres: cozygames | genres: metroidvania | seasonal: halloweengames | seasonal: horrorgames | seasonal: spooktober | broadPlaying: videogames | broadPlaying: currentlyplaying | broadPlaying: indiegames | broadPlaying: indiegame | broadPlaying: pcgames | broadPlaying: steamgames | broadPlaying: gamer | broadPlaying: games | broadPlaying: rpg | broadPlaying: jrpg | broadPlaying: pcgaming | broadPlaying: gaming | broadPlaying: steam | broadAsk: recommendmeagame | broadAsk: gamerecommendation | broadAsk: recommendagame | broadAsk: whattoplay | broadAsk: gamesuggestion | broadAsk: hiddengem | broadAsk: underratedgames | broadAsk: gamesuggestions | backlog: gamingbacklog | backlog: backlog | backlog: pileofshame | backlog: whatshouldiplay | backlog: gamerecommendations | backlog: gamerecs.
+Posts below: 12 + 2 heated. Dropped in this run: bot, shop or studio 982, too old 1205, other language 292, promo (link and hashtags) 158, not about games 42, already shown 23, too long 12, skip word 151, low score 12, other language (text) 26, many links 6, already answered 4, own post 22, link post, not a question 16, console only 24, profile says no bots or promo 3, content warning 18, earlier finds: low score 3.
 
 ## Posts
-1. @Rye@kind.social (Internet Deer) · 12h · likes 0 · replies 1 · question · broadPlaying
-   https://mastodon.social/@Rye@kind.social/117510197098026519
-   original: https://kind.social/@Rye/117510197062056881
-   Is there an open world game like red dead 2? I just want to ride my horse and camp. #games #videogames
-2. @MartinGuay@mstdn.ca (🍁 Martin Guay 👨‍💻🌈🎮📱) · 2h · likes 1 · replies 0 · broadPlaying
-   https://mastodon.social/@MartinGuay@mstdn.ca/117512420497390839
-   original: https://mstdn.ca/@MartinGuay/117512420396212456
-   Let's start a series around what you use for WiFi/Router at home. Right now, I have the eero 7 pro by eero an Amazon company. TP-LINK sent this little gem over to review, and added it to our coming up gift guide! #tech #wifi #router #networking #network #gamer #gaming #gadget #sm
+1. @pitcrewgg@mastodon.social (PitCrew) · 52m · likes 1 · replies 1 · practical
+   https://mastodon.social/@pitcrewgg/117514166958521590
+   🔄 Euro Truck Simulator 2 - Icelandic Viewpoints Iceland DLC for Euro Truck Simulator 2 adds scenic viewpoints such as Seljalandsfoss Gullfoss Blue Lagoon Akureyri and Stuðlagil Canyon with guided cutscenes. 1/2 #BestCommunityEver #ETS2 #EuroTruckSimulator #Linux #LinuxGaming #PC
    [image, no description]
-3. @WhyNotZoidberg@topspicy.social (Why Not Zoidberg? 🦑) · 4h · likes 1 · replies 0 · broadPlaying
-   https://mastodon.social/@WhyNotZoidberg@topspicy.social/117512037062816599
-   original: https://topspicy.social/@WhyNotZoidberg/117512036856447857
-   30 years ago this week we got the first game in the "shoot all endangered animals you see" game franchise. #gaming #tombraider
-4. @WhyNotZoidberg@topspicy.social (Why Not Zoidberg? 🦑) · 5h · likes 7 · replies 2 · broadPlaying
-   https://mastodon.social/@WhyNotZoidberg@topspicy.social/117511774544972964
-   original: https://topspicy.social/@WhyNotZoidberg/117511774329914883
-   r/cyberpunkgame has banned all posts about the trans character Claire and has banned the one mod that spoke out against it. There are other Cyberpunk 2077 subreddits so that might be worth considering... Edit: apparently they are slowly pedaling backwards after 90% of posts have 
-5. @TheGeeZus@mastodon.social (GeeZusGG 🎮) · 5m · likes 0 · replies 0 · broadPlaying
-   https://mastodon.social/@TheGeeZus/117512935994805570
-   Reportedly (via Aftermath), Sucker Punch has been hit with layoffs, raising questions about the studio’s future and what now. While some wanted to minimize in comparison elsewhere, IS a reminder of how volatile AAA development has become. #Gaming #VideoGames #GamesNews 🕹 🎮
-   [image: Quick news post]
-6. @eMSequel@mastodon.social (eMSequel 🌐) · 5h · likes 0 · replies 0 · broadPlaying
-   https://mastodon.social/@eMSequel/117511699562379194
-   Level 90 #Fishing & #Cooking on #osrs #OldSchoolRuneScape #RuneScape #VideoGames #Games #VideoGame #Game #Mobile
+2. @Travinatorisme@mastodon.world (Travinatorisme) · 3h · likes 1 · replies 0 · practical
+   https://mastodon.social/@Travinatorisme@mastodon.world/117513724135397722
+   original: https://mastodon.world/@Travinatorisme/117513724023622446
+   I did say I was going to take a bit of a break on God Of War, and in turn, have Replaced on my Lenovo Legion Go! I love this handheld for all that it does! #linux #linuxgaming #videogames #pcgaming #lenovolegiongo
    [image, no description]
-7. @therealahall@gamerstavern.online (Aaron) · 7h · likes 0 · replies 0 · deck
-   https://mastodon.social/@therealahall@gamerstavern.online/117511281909082573
-   original: https://gamerstavern.online/@therealahall/117511281854851078
-   @BmeBenji Yeah as someone who almost exclusively plays on my #SteamDeck it’s kind of a no brainer. I don’t buy new games until they are well past their prime usually so it makes a ton of sense for me. That and I have a large Steam library.
-8. @suburbantimewaster@mastodon.world (Suburban Timewaster) · 12h · likes 1 · replies 0 · genres
-   https://mastodon.social/@suburbantimewaster@mastodon.world/117510083979572782
-   original: https://mastodon.world/@suburbantimewaster/117510083811823904
-   Robb and Matsuda have a long conversation… about nothing. #tomodachilife #deathnote #gameofthrones #videogames #gaming #cozygames #short #clip
-   [video, no description]
-9. @thingsiplay@lemmy.ml · 17h · likes 0 · replies 84 · question · deck
-   https://mastodon.social/@thingsiplay@lemmy.ml/117509009962005379
-   original: https://lemmy.ml/post/54537627
-   [Discussion] What was the first Steam game you ever purchased? https://lemmy.ml/post/54537627
-   [link card: [Discussion] What was the first Steam game you ever purchased? - Lemmy]
-10. @astrariumdigital@mastodon.social (Astrarium Digital) · 19h · likes 1 · replies 1 · broadPlaying
-   https://mastodon.social/@astrariumdigital/117508514402073068
-   There's more than one planet that needs saving... 🪐 #Buy Orbital on #Steam right now! #play the amazing #demo to get you started! #marketingmonday #indie #game #pc #2d #scifi #infiniterunner
-   [3 images, no description]
-11. @lashman@mastodon.social (lashman) · 20h · likes 3 · replies 0 · broadPlaying
-   https://mastodon.social/@lashman/117508340651392490
-   Developer: DarkStone Digital Publisher: DreadXP Release date: 26 Oct, 2026 Screenshots: #steam #gaming #videoGames #steamStorePage
-   [4 images: Screenshot 1 from Playable Archive / Screenshot 2 from Playable Archive / Screenshot 3 from Playable Archive / Screenshot 4 from Playable Archive]
-12. @schamspeare@mstdn.social (schamspeare) · 20h · likes 1 · replies 1 · broadPlaying
-   https://mastodon.social/@schamspeare@mstdn.social/117508306101848258
-   original: https://mstdn.social/@schamspeare/117508306034671537
-   Oof. I was having a good time with Magic: Arena and doing fairly well until these “Jump In” matches. The decks seem over-complicated and I feel out of my depth. If this is what it’s going to be like going forward, I’m maybe not cut out for it. #Mtg #mtgarena #MagicTheGathering #g
+3. @Travinatorisme@mastodon.world (Travinatorisme) · 4h · likes 1 · replies 0 · practical
+   https://mastodon.social/@Travinatorisme@mastodon.world/117513339881635090
+   original: https://mastodon.world/@Travinatorisme/117513339842996023
+   The one game I'm very eager to play is Replaced, I might put a small hold on God Of War, in diving into that! It was one of my most highly anticipated games this year and it fell through the cracks on me. #linuxgaming #linux #pcgaming #replaced #lenovolegiongo
+4. @pitcrewgg@mastodon.social (PitCrew) · 37m · likes 0 · replies 1 · practical
+   https://mastodon.social/@pitcrewgg/117514225888391604
+   🔄 War Thunder - Freezing Daily Login Streaks War Thunder and War Thunder Mobile add a freeze system that guards missed login days, earning up to 30 freeze points via regular logins, auto covering gaps. 1/2 #WarThunder #Linux #LinuxGaming #PCGaming #FlightSim #FreeTrack #HeadTrac
+   [image, no description]
+5. @badnetmask@hachyderm.io (Mauricio Teixeira 👨‍💻☁️🐧) · 2h · likes 0 · replies 1 · question · broadPlaying
+   https://mastodon.social/@badnetmask@hachyderm.io/117513860162005669
+   original: https://hachyderm.io/@badnetmask/117513860118653739
+   There! I finished Control Resonant before World of Warcraft Forever launches. Now I need a break before going through another rabbit hole. 😄 But the way, I really liked Clair Obscura Expedition 33, but I really liked Control Resonant a lot more. 😉 #Gaming #ControlResonant #Reme
+6. @lashman@mastodon.social (lashman) · 3h · likes 2 · replies 0 · broadPlaying
+   https://mastodon.social/@lashman/117513643031898189
+   Developer: Rat in a Bag Publisher: Rat in a Bag Release date: Q2 2027 Screenshots: #steam #gaming #videoGames #steamStorePage
+   [4 images: Screenshot 1 from GHOSTPUNCH / Screenshot 2 from GHOSTPUNCH / Screenshot 3 from GHOSTPUNCH / Screenshot 4 from GHOSTPUNCH]
+7. @lashman@mastodon.social (lashman) · 3h · likes 2 · replies 0 · broadPlaying
+   https://mastodon.social/@lashman/117513640569988008
+   Developer: Etienne Kiefer Publisher: save games Release date: To be announced Screenshots: #steam #gaming #videoGames #steamStorePage
+   [4 images: Screenshot 1 from save / Screenshot 2 from save / Screenshot 3 from save / Screenshot 4 from save]
+8. @lashman@mastodon.social (lashman) · 3h · likes 1 · replies 0 · broadPlaying
+   https://mastodon.social/@lashman/117513636235700487
+   Developer: Galactic Acid Studios Publisher: Galactic Acid Studios Release date: Coming soon Screenshots: #steam #gaming #videoGames #steamStorePage
+   [4 images: Screenshot 1 from Thumb & Tomb / Screenshot 2 from Thumb & Tomb / Screenshot 3 from Thumb & Tomb / Screenshot 4 from Thumb & Tomb]
+9. @lashman@mastodon.social (lashman) · 3h · likes 2 · replies 0 · broadPlaying
+   https://mastodon.social/@lashman/117513633640704416
+   Developer: 无情冷库工作室 Publisher: 无情冷库工作室 Release date: To be announced Screenshots: #steam #gaming #videoGames #steamStorePage
+   [4 images: Screenshot 1 from The Truth Record Manual / Screenshot 2 from The Truth Record Manual / Screenshot 3 from The Truth Record Manual / Screenshot 4 from The Truth Record Manual]
+10. @lashman@mastodon.social (lashman) · 3h · likes 2 · replies 0 · broadPlaying
+   https://mastodon.social/@lashman/117513631777039976
+   Developer: HopelessSchool工作室 Publisher: HopelessSchool工作室 Release date: To be announced Screenshots: #steam #gaming #videoGames #steamStorePage
+   [4 images: Screenshot 1 from HopelessSchool / Screenshot 2 from HopelessSchool / Screenshot 3 from HopelessSchool / Screenshot 4 from HopelessSchool]
+11. @lashman@mastodon.social (lashman) · 3h · likes 2 · replies 0 · broadPlaying
+   https://mastodon.social/@lashman/117513629020198914
+   Developer: Dreamer Lizard Publisher: Dreamer Lizard Release date: Coming soon Screenshots: #steam #gaming #videoGames #steamStorePage
+   [4 images: Screenshot 1 from Dungeon Packer / Screenshot 2 from Dungeon Packer / Screenshot 3 from Dungeon Packer / Screenshot 4 from Dungeon Packer]
+12. @aarbrk@mstdn.mx (Aaron Brick — אהרן בריק) · 3h · likes 2 · replies 0 · broadPlaying
+   https://mastodon.social/@aarbrk@mstdn.mx/117513569474750707
+   original: https://mstdn.mx/@aarbrk/117513569029761502
+   “The Comic Book Story of Video Games” by Jonathan Hennessey & Jack McGowan (2017). An exhaustive story starting in the 19th century, emphasizing economics and the effects of WWII and the Cold War. Narration dominates, with almost no dialogue between the many male figures from the
+   [image: Anecdotes on the origins of Ms. Pac-Man and Donkey Kong.]
 
 ## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @doragasu@mastodon.sdf.org (doragasu) · 3h · likes 0 · replies 0 · broadPlaying
-   https://mastodon.social/@doragasu@mastodon.sdf.org/117512362469566318
-   original: https://mastodon.sdf.org/@doragasu/117512361907549145
-   Tim Sweeney: says forcing AI disclosure is political and for the hate mobs. Also Tim: Releases new client for their storefront and first thing he says about it is it's vibecoded 🤷‍♂️. Also also Tim: Makes a Game Jam in which the main requirement is that games are made using GenA
+1. @joshsjunkdrawer@mastodon.social (Josh Griffiths) · 3h · likes 5 · replies 2 · broadPlaying
+   https://mastodon.social/@joshsjunkdrawer/117513657048718829
+   I've been trying to update my blog tracking game developers who use AI for the last week, but every day a new dev goes on an unhinged rant about how much they love AI, and I have to keep delaying it. #gaming #noAI
+2. @coa100@mastodon.social (Coa art) · 4h · likes 0 · replies 0 · broadPlaying
+   https://mastodon.social/@coa100/117513342326836630
+   so many bad talk about using ai for making stuff so i just say Generative Ai is so great!!!! but you need skills to use it proper #videogames #gaming #pcgaming
