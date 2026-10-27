@@ -1,0 +1,36 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-retro-20261027-135651.json",
+  "approvedAt": "2026-10-27T14:03:17.912Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:4y4du3dklkn3qncgvgoo7yfz/app.bsky.feed.post/3mytekjy5zs2t",
+      "url": "https://bsky.app/profile/aethorix.bsky.social/post/3mytekjy5zs2t",
+      "author": "aethorix.bsky.social",
+      "context": "Game 23# Lego Indiana Jones The Original Adventures (100%) complete. It was a ton of fun going back and replaying this one. I remember owning a few of the Indy Lego sets so this was very nostalgic to me\nimage: Lego Indiana Jones The Original Adventures",
+      "text": "100% on that one is no small feat, there are a lot of studs and hidden bits to hunt down. Glad it held up as a good time.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:lhnav2gzskfmj6b4fcd6ggjf/app.bsky.feed.post/3myrzirm4xk2v",
+      "url": "https://bsky.app/profile/avrazael.bsky.social/post/3myrzirm4xk2v",
+      "author": "avrazael.bsky.social",
+      "context": "This was the first video game I remember being \"hyped\" for. I read everything about it Nintendo Power, I had a preview VHS tape that I watched over and over. Then on top of that, I was literally the first person to rent the game at my local video store. They still had to unbox the games lol\nquotes @zeldauniverse.bsky.social: On this day, 26 years ago, The Legend of Zelda: Majora's Mask was released in North America! (October 26, 2000) After only a 15-month devel…",
+      "text": "Being the very first to rent a game you'd read everything about is a great memory. Majora's Mask has plenty of fans who'd say it was worth the wait.",
+      "edited": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:rkr666r5wnn7xdbzsg2e26hc/app.bsky.feed.post/3myrszmg2wc2l",
+      "url": "https://bsky.app/profile/tamazon.indieverse.social/post/3myrszmg2wc2l",
+      "author": "tamazon.indieverse.social",
+      "context": "Am I the only person who really likes the SNES 2/Jr and wishes some of these retro / FPGA clones would base their looks off *it*? SNES Jr feels like such a good compromise between the NA SNES and the JP SuFami / PAL SNES. The only thing it's missing is a little power LED.\nimage: Image of the 2nd revision North American Super Nintendo Entertainment System sitting next to the Japanese Super Famicom Jr. Unlike the original North American …",
+      "text": "You're not the only one, the Jr's smaller, simpler shape has plenty of fans. It does feel like a nice middle ground between the other designs.",
+      "edited": false
+    }
+  ]
+}

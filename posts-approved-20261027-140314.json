@@ -1,0 +1,77 @@
+{
+  "approvedAt": "2026-10-27T14:03:14.105Z",
+  "items": [
+    {
+      "n": 1,
+      "kind": "deal",
+      "platform": "bluesky",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "text": "Darkest Dungeon: -85% at GOG\n$3.75 (was $24.99)\nPrice checked Oct 27. Sale ends Oct 28. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-27\n\n#PCGaming #GameDeals #Gaming #DarkestDungeon #VideoGames\nAd",
+      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-27",
+      "day": "2026-10-27",
+      "key": "prices|2026-10-27|/deals/gog/darkest-dungeon/",
+      "notBefore": "2026-10-27T14:03:14.105Z"
+    },
+    {
+      "n": 2,
+      "kind": "deal",
+      "platform": "bluesky",
+      "account": "prices-2",
+      "handle": "saveandplay.com",
+      "text": "Frostpunk: -85% at GOG\n$4.49 (was $29.99)\nPrice checked Oct 27. Sale ends Oct 28. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/frostpunk/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-27\n\n#PCGaming #GameDeals #DRMFree #PCGames #GOG\nAd",
+      "link": "https://saveandplay.com/deals/gog/frostpunk/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-27",
+      "day": "2026-10-27",
+      "key": "prices-2|2026-10-27|/deals/gog/frostpunk/",
+      "notBefore": "2026-10-27T16:03:14.105Z"
+    },
+    {
+      "n": 4,
+      "kind": "deal",
+      "platform": "bluesky",
+      "account": "cozy",
+      "handle": "cozygame.bsky.social",
+      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Oct 27. Sale ends Oct 28. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=deals-2026-10-27\n\n#GameDeals #PCGaming #CityBuilder #SimCity4DeluxeEdition\nAd",
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=deals-2026-10-27",
+      "day": "2026-10-27",
+      "key": "cozy|2026-10-27|/deals/gog/simcity-4-deluxe-edition/",
+      "notBefore": "2026-10-27T14:03:14.105Z"
+    },
+    {
+      "n": 6,
+      "kind": "article",
+      "platform": "bluesky",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "text": "Steam Wallet money can be refunded only within 14 days of the top-up, and only if none of it is spent. Valve's agreement also says it has no cash value. What the rules say:\nhttps://saveandplay.com/guides/steam-wallet-funds-what-to-know/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-wallet-funds\n#PCGaming #GameDeals #Steam",
+      "link": "https://saveandplay.com/guides/steam-wallet-funds-what-to-know/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-wallet-funds",
+      "day": null,
+      "key": "prices|article|/guides/steam-wallet-funds-what-to-know/",
+      "notBefore": "2026-10-27T18:03:14.105Z"
+    },
+    {
+      "n": 7,
+      "kind": "coop",
+      "platform": "bluesky",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "text": "Terraria with friends, any time: a rented server keeps your world online when you log off.\nSteam lists online co-op and PvP.\n\nhttps://saveandplay.com/servers/terraria/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-10-27\n\n#PCGaming #Terraria\nAd",
+      "link": "https://saveandplay.com/servers/terraria/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-10-27",
+      "day": "2026-10-27",
+      "key": "prices|coop-2026-10-27|/servers/terraria/",
+      "notBefore": "2026-10-27T20:03:14.105Z"
+    },
+    {
+      "n": 8,
+      "kind": "coop",
+      "platform": "bluesky",
+      "account": "cozy",
+      "handle": "cozygame.bsky.social",
+      "text": "One farm, up to 8 farmers. Stardew Valley lets you share a farm online with up to 7 friends.\nWith your own server, nobody has to stay online so the others can play.\n\nhttps://saveandplay.com/servers/stardew-valley/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=coop-2026-10-27\n\n#CozyGames #StardewValley\nAd",
+      "link": "https://saveandplay.com/servers/stardew-valley/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=coop-2026-10-27",
+      "day": "2026-10-27",
+      "key": "cozy|coop-2026-10-27|/servers/stardew-valley/",
+      "notBefore": "2026-10-27T16:03:14.105Z"
+    }
+  ]
+}
