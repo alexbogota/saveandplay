@@ -1,0 +1,36 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-prices-20261027-034406.json",
+  "approvedAt": "2026-10-27T03:45:28.937Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:3wlapqu3swpjhlqnsmwrn2yf/app.bsky.feed.post/3mysuwozutk2k",
+      "url": "https://bsky.app/profile/sepisnake.bsky.social/post/3mysuwozutk2k",
+      "author": "sepisnake.bsky.social",
+      "context": "Welp. It looks like either the current PS5 operating system really hates four of my disc based games or my hardware is starting to go. Only the future will tell~! Anywho, if one were to buy a second version of Persona 3: Reload (plus Aegis DLC), should they go Switch 2 or Steam on the next sale?",
+      "text": "Sorry about the PS5 trouble. If you lean toward Steam, check the Steam Deck badge and the system requirements on the store page first, and wishlist it so you get notified when the price drops.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:ogtbbtrpoi7t4jgcdpbzuuo7/app.bsky.feed.post/3myspfcb57k2p",
+      "url": "https://bsky.app/profile/thefluffysasquatch.bsky.social/post/3myspfcb57k2p",
+      "author": "thefluffysasquatch.bsky.social",
+      "context": "Anybody here played Zero Company? And if so, is it worth getting? Really want a new tactical game and I love Star Wars but I dont want to spend the money if its not worth it.",
+      "text": "Smart to ask before spending. On Steam, the recent reviews filter shows how the game feels after the latest patches, and a wishlist plus a sale is a nice way to wait it out if you're still unsure.",
+      "edited": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:lc4fhzn37gyrg2syyqtegwik/app.bsky.feed.post/3mysjhmv4722n",
+      "url": "https://bsky.app/profile/garfdu.de/post/3mysjhmv4722n",
+      "author": "garfdu.de",
+      "context": "thinking about copping south of midnight during this steam sale. does anyone have any experience playing this one on the deck?",
+      "text": "The store page shows a Steam Deck compatibility badge (Verified, Playable or Unsupported), which is a good first check. And Steam refunds cover purchases made in the last 14 days with under 2 hours played, so testing it on the Deck is low risk.",
+      "edited": false
+    }
+  ]
+}
