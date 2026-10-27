@@ -1391,6 +1391,61 @@
             "sig": "6be9389817596cc5f731709e054f6c34751a1f1a08a06c74a4ebfdea93399073d54e1d7e9a6c166810ad11d4e82be5a8b58fb0a6094d8a25241dd1853df6d7cb"
           }
         }
+      },
+      "2026-10-27": {
+        "deal": {
+          "status": "done",
+          "kind": "deal",
+          "id": "1409f9d7ce8b86955432364a4543d3bdb861c01d98ecabf78a3cce86d76b264c",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "deal": "gog-darkest-dungeon",
+          "title": "Darkest Dungeon",
+          "postedAt": "2026-10-27T12:01:20.000Z",
+          "accepted": [
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [
+            {
+              "url": "wss://relay.damus.io",
+              "reason": "connection failed"
+            }
+          ],
+          "event": {
+            "kind": 1,
+            "created_at": 1793102480,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-deal"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187",
+                "m image/jpeg",
+                "alt Cover art for Darkest Dungeon"
+              ]
+            ],
+            "content": "Darkest Dungeon: -85% at GOG\n$3.75 (was $24.99)\nPrice checked 2026-10-27 10:11 UTC. Sale ends 2026-10-28 13:59 UTC.\nWhy today: sale ends in 26 h; lowest price we've tracked (18 days of data).\nAd: we may earn a commission if you buy.\n\n#pcgaming #gamedeals\n\nhttps://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187\n\nhttps://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-27",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "1409f9d7ce8b86955432364a4543d3bdb861c01d98ecabf78a3cce86d76b264c",
+            "sig": "f9c4f6caf184650731a8fe665fc082fef0bff0abc51cb650ffbf4a3379be7d5eba13dba4f31ae79ecaf4c19aee64b7d0910f79a5c55ec538976d4ff3f158a804"
+          }
+        }
       }
     }
   },
