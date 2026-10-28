@@ -1500,6 +1500,58 @@
             "id": "c4bfc5e9feedba655a48d61be9f954aab31b919fb6af083fc4fa853c9aec5f0d",
             "sig": "d8fdcde0dcc14ffd5228a33d5b768ab6d434fe4ce6fa2fd8644f69cf4ef77b44b4edc5d016f9ff1314605696ec1dd988669167b569a464351913b8b469d8b111"
           }
+        },
+        "article": {
+          "status": "done",
+          "kind": "article",
+          "id": "936b52bd44bb2238d5dbbf96eeb78b4ab1842ec6247b8387bdf5a539336b315e",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "article": "how-to-read-game-price-history",
+          "postedAt": "2026-10-28T17:35:00.000Z",
+          "accepted": [
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [
+            {
+              "url": "wss://relay.damus.io",
+              "reason": "connection failed"
+            }
+          ],
+          "event": {
+            "kind": 1,
+            "created_at": 1793208900,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-article"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://saveandplay.com/og/how-to-read-game-price-history.png",
+                "m image/png",
+                "alt Chart of one real game's price on GOG from October 5 to October 25, 2026: the crossed-out price stays at $39.99 and the sale price stays at $5.99 in all 15 readings, with a gap between October 7 and October 13."
+              ]
+            ],
+            "content": "How to read a game's price history before you buy\n\nA price chart shows what a game really cost, not what the badge says. Here is what to look at, what trackers cannot tell you, and a real example from our data.\n\n#pcgaming #gamedeals\n\nhttps://saveandplay.com/og/how-to-read-game-price-history.png\n\nhttps://saveandplay.com/guides/how-to-read-game-price-history/?utm_source=nostr-prices&utm_medium=social&utm_campaign=how-to-read-game-price-history",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "936b52bd44bb2238d5dbbf96eeb78b4ab1842ec6247b8387bdf5a539336b315e",
+            "sig": "1b973c226066069bba467e6597348ad3e37dfc728a2b4f2cc33a72b87abf5eadd9cfb1fc4666374376183de892ff9a778507c4dad2571b4c3320de07bc98ad07"
+          }
         }
       }
     }
@@ -1545,6 +1597,10 @@
       "early-access-vs-pre-order": {
         "day": "2026-10-26",
         "id": "4c80e6416f16b36d494d730b9d540947badfbcf1e29a060a987609c72d2ce528"
+      },
+      "how-to-read-game-price-history": {
+        "day": "2026-10-28",
+        "id": "936b52bd44bb2238d5dbbf96eeb78b4ab1842ec6247b8387bdf5a539336b315e"
       }
     }
   },
