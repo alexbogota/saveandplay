@@ -1,0 +1,67 @@
+{
+  "block": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "madeAt": "2026-10-28T13:25:55.728Z",
+  "days": 14,
+  "total": 73,
+  "mature": {
+    "count": 69,
+    "withLike": 18,
+    "withReply": 3,
+    "likes": 22,
+    "replies": 3,
+    "byProgram": 36
+  },
+  "top": [
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3mytds4oqwz2k",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3mytds4oqwz2k",
+      "text": "Agreed, the obscure regional DOS games are a whole forgotten corner of PC history, and they deserve a few more eyes.",
+      "at": "2026-10-27T03:56:58.258Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "neoretrounion.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3mykdz7gtvy2h",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3mykdz7gtvy2h",
+      "text": "Keeping old games playable is a big part of what GOG does, and since the installers are DRM-free you can also back up your own copy.",
+      "at": "2026-10-23T14:06:58.374Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "meganpaasch.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3mylmssleqr26",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3mylmssleqr26",
+      "text": "It counts for sure. Pong was a first for a lot of people, and it still shows how far simple rules can go.",
+      "at": "2026-10-24T02:17:07.207Z",
+      "likes": 2,
+      "replies": 0,
+      "reposts": 0,
+      "to": "msvugraduate.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3myeazcwqm32v",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3myeazcwqm32v",
+      "text": "Donkey Kong 64 is a big one, that game felt endless back then.",
+      "at": "2026-10-21T03:57:22.570Z",
+      "likes": 2,
+      "replies": 0,
+      "reposts": 0,
+      "to": "mariosimpson64.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3mxzy3b4lfc2z",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3mxzy3b4lfc2z",
+      "text": "Same here, a lot of old games hold up better than expected. GOG has many classics DRM-free with fixes included, so they run on a modern PC",
+      "at": "2026-10-17T01:50:46.769Z",
+      "likes": 0,
+      "replies": 1,
+      "reposts": 0,
+      "to": "puppy.bzky.team"
+    }
+  ]
+}
