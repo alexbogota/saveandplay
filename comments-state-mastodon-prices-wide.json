@@ -8,66 +8,47 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 256,
-      "posts": 10560,
-      "fit": 156,
+      "runs": 264,
+      "posts": 10880,
+      "fit": 162,
       "last": {
         "posts": 40,
-        "fit": 2,
-        "at": "2026-10-28T06:58:51.329Z"
+        "fit": 3,
+        "at": "2026-10-28T13:01:05.531Z"
       }
     },
     "moreAsk": {
-      "runs": 160,
-      "posts": 1440,
+      "runs": 165,
+      "posts": 1485,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-10-28T06:58:51.329Z"
+        "at": "2026-10-28T13:01:05.531Z"
       }
     },
     "moreRetro": {
-      "runs": 160,
-      "posts": 10200,
-      "fit": 356,
+      "runs": 165,
+      "posts": 10520,
+      "fit": 363,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-28T06:58:51.329Z"
+        "at": "2026-10-28T13:01:05.531Z"
       }
     },
     "morePlaying": {
-      "runs": 160,
-      "posts": 672,
+      "runs": 165,
+      "posts": 693,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-10-28T06:58:51.329Z"
+        "at": "2026-10-28T13:01:05.531Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@Mickytankbank@mstdn.party/117511067201265861": {
-      "uri": "https://mastodon.social/@Mickytankbank@mstdn.party/117511067201265861",
-      "url": "https://mastodon.social/@Mickytankbank@mstdn.party/117511067201265861",
-      "handle": "Mickytankbank@mstdn.party",
-      "name": "Mickytankbank",
-      "text": "Grim Siege is going free-to-play. Our review explores this dark fantasy card battler’s strategic deckbuilding, brutal battles, and grim atmosphere—and whether its shift to F2P makes it worth your time. #GrimSiege #keymailer #CCG #Gaming #Game #VideoGame #CardBattler #DarkFantasy #GamingReview #Blog #Review #F2P",
-      "createdAt": "2026-10-27T04:49:46.000Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "moreGaming",
-      "query": "videogame",
-      "score": 4,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://mstdn.party/@Mickytankbank/117511067139967111",
-      "media": null,
-      "firstSeen": "2026-10-27T06:49:01.600Z"
-    },
     "https://mastodon.social/@flaps015@pixelfed.social/117512699837570879": {
       "uri": "https://mastodon.social/@flaps015@pixelfed.social/117512699837570879",
       "url": "https://mastodon.social/@flaps015@pixelfed.social/117512699837570879",
@@ -241,7 +222,7 @@
       "name": "Weebdeluxe",
       "text": "GOG has recently released Ecstatica I and Ii, two survival horror games I never hesrd of... but they look amazing! #gamkng #retrogaming",
       "createdAt": "2026-10-28T06:21:42.000Z",
-      "likes": 0,
+      "likes": 1,
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
@@ -264,13 +245,49 @@
       "replies": 1,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
       "origin": "https://kind.social/@PurpleJillybeans/117516289957211060",
       "media": null,
       "firstSeen": "2026-10-28T06:58:51.329Z"
+    },
+    "https://mastodon.social/@massivelyop/117518443074675680": {
+      "uri": "https://mastodon.social/@massivelyop/117518443074675680",
+      "url": "https://mastodon.social/@massivelyop/117518443074675680",
+      "handle": "massivelyop@mastodon.social",
+      "name": "MassivelyOP",
+      "text": "The Daily Grind: Do you have a pet who sits with you while MMO gaming? 🔗 https://massivelyop.com/2026/10/28/the-daily-grind-do-you-have-a-pet-who-sits-with-you-while-mmo-gaming #MMORPG",
+      "createdAt": "2026-10-28T12:05:33.830Z",
+      "likes": 0,
+      "replies": 1,
+      "group": "moreGaming",
+      "query": "mmorpg",
+      "score": 6,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "media": "image, no description",
+      "firstSeen": "2026-10-28T13:01:05.531Z"
+    },
+    "https://mastodon.social/@stunningshemp/117518411022821117": {
+      "uri": "https://mastodon.social/@stunningshemp/117518411022821117",
+      "url": "https://mastodon.social/@stunningshemp/117518411022821117",
+      "handle": "stunningshemp@mastodon.social",
+      "name": "Chris Coats",
+      "text": "X thought he saw a secret there #retrogaming #megamanx #megaman #stunningshemp #twitch",
+      "createdAt": "2026-10-28T11:57:24.771Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 4,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "video, no description",
+      "firstSeen": "2026-10-28T13:01:05.531Z"
     }
   }
 }
