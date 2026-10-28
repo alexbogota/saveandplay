@@ -1,0 +1,27 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-prices-20261028-145529.json",
+  "approvedAt": "2026-10-28T15:10:37.180Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:bbzkzcrpqm2qmbadf4akyujs/app.bsky.feed.post/3myv3fpnqgc23",
+      "url": "https://bsky.app/profile/battech.bsky.social/post/3myv3fpnqgc23",
+      "author": "battech.bsky.social",
+      "context": "I've never felt good about buying a 70$ game. Every single time I felt like I got fucked. 60$? Plenty of purchases I'm happy with but not a single 70$ game felt done let alone worth it.",
+      "text": "Fair take. Waiting a few months for reviews, patches and a sale means you pay less for a more finished game.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:cc6cqpmunmh4iy4436ojfef2/app.bsky.feed.post/3myw6o7u3zk2f",
+      "url": "https://bsky.app/profile/bendo2levi.bsky.social/post/3myw6o7u3zk2f",
+      "author": "bendo2levi.bsky.social",
+      "context": "Saw Dying Light was on sale on Steam for $5 with a bunch of dlc included I didn't like the game on ps4, felt stiff, but couldn't pass it up and I think I'll have more fun with M&K controls for both the free running and the crafting interface. looking forward to giving this another shot!\nlink card: Superstore: Amy Sosa on Second Chances",
+      "text": "Mouse and keyboard should make the parkour feel a lot smoother. And at that price, Steam's refund window (14 days, under 2 hours played) is a nice safety net if it still doesn't click.",
+      "edited": false
+    }
+  ]
+}

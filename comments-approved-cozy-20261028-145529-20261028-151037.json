@@ -1,0 +1,27 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-cozy-20261028-145529.json",
+  "approvedAt": "2026-10-28T15:10:37.308Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:7pnz5l2ubwnzfpk7kfc6kyog/app.bsky.feed.post/3myvmkrwei22a",
+      "url": "https://bsky.app/profile/vilegentleman.bsky.social/post/3myvmkrwei22a",
+      "author": "vilegentleman.bsky.social",
+      "context": "Game 31: Bloomtown: A Different Story What can I say besides Stardew x Persona? Play if that interests you. I loved it.\nimage, no description",
+      "text": "Stardew meets Persona is a great pitch. Thanks for the rec.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:msonpezx6uslfvcmqkaftlqs/app.bsky.feed.post/3myuvj7gs6s2h",
+      "url": "https://bsky.app/profile/kaiyawerekitty.bsky.social/post/3myuvj7gs6s2h",
+      "author": "kaiyawerekitty.bsky.social",
+      "context": "Hewwo! Saturday is spoopy time!! Since this is the case, I think I will take a small detour from playing Starfox Adventures, and instead play Piglets Big Game! Ya know… the one people compare to silent hill but cute??? It should be cozy, cute with a bit of spoop!\nimage, no description",
+      "text": "Cute with a bit of spoop sounds like the perfect Saturday. Enjoy Piglet's Big Game!",
+      "edited": false
+    }
+  ]
+}

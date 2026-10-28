@@ -1,0 +1,29 @@
+{
+  "approvedAt": "2026-10-28T15:10:30.895Z",
+  "items": [
+    {
+      "n": 1,
+      "kind": "deal",
+      "platform": "bluesky",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "text": "Metro Exodus: -85% at GOG\n$4.49 (was $29.99)\nPrice checked Oct 28. Sale ends Nov 5.\n\nhttps://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-28\n\n#PCGaming #GameDeals #DRMFree #Games #PCGames\nAd",
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-28",
+      "day": "2026-10-28",
+      "key": "prices|2026-10-28|/deals/gog/metro-exodus/",
+      "notBefore": "2026-10-28T15:10:30.895Z"
+    },
+    {
+      "n": 2,
+      "kind": "deal",
+      "platform": "bluesky",
+      "account": "prices-2",
+      "handle": "saveandplay.com",
+      "text": "Hitman: Absolution: -90% at GOG\n$1.99 (was $19.99)\nPrice checked Oct 28. Sale ends Oct 29.\n\nhttps://saveandplay.com/deals/gog/hitman-absolution/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-28\n\n#PCGaming #GameDeals #VideoGames #Gaming #Hitman\nAd",
+      "link": "https://saveandplay.com/deals/gog/hitman-absolution/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-28",
+      "day": "2026-10-28",
+      "key": "prices-2|2026-10-28|/deals/gog/hitman-absolution/",
+      "notBefore": "2026-10-28T17:10:30.895Z"
+    }
+  ]
+}
