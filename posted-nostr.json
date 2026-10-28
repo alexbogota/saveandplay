@@ -1446,6 +1446,61 @@
             "sig": "f9c4f6caf184650731a8fe665fc082fef0bff0abc51cb650ffbf4a3379be7d5eba13dba4f31ae79ecaf4c19aee64b7d0910f79a5c55ec538976d4ff3f158a804"
           }
         }
+      },
+      "2026-10-28": {
+        "deal": {
+          "status": "done",
+          "kind": "deal",
+          "id": "c4bfc5e9feedba655a48d61be9f954aab31b919fb6af083fc4fa853c9aec5f0d",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "deal": "gog-metro-exodus",
+          "title": "Metro Exodus",
+          "postedAt": "2026-10-28T12:09:03.000Z",
+          "accepted": [
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [
+            {
+              "url": "wss://relay.damus.io",
+              "reason": "connection failed"
+            }
+          ],
+          "event": {
+            "kind": 1,
+            "created_at": 1793189343,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-deal"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804",
+                "m image/jpeg",
+                "alt Cover art for Metro Exodus"
+              ]
+            ],
+            "content": "Metro Exodus: -85% at GOG\n$4.49 (was $29.99)\nPrice checked 2026-10-28 10:18 UTC. Sale ends 2026-11-05 18:00 UTC.\nWhy today: deepest-discount rank 1 of 1.\nAd: we may earn a commission if you buy.\n\n#pcgaming #gamedeals\n\nhttps://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804\n\nhttps://saveandplay.com/deals/gog/metro-exodus/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-28",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "c4bfc5e9feedba655a48d61be9f954aab31b919fb6af083fc4fa853c9aec5f0d",
+            "sig": "d8fdcde0dcc14ffd5228a33d5b768ab6d434fe4ce6fa2fd8644f69cf4ef77b44b4edc5d016f9ff1314605696ec1dd988669167b569a464351913b8b469d8b111"
+          }
+        }
       }
     }
   },
