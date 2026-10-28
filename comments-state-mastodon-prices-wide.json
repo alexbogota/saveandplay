@@ -8,66 +8,47 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 264,
-      "posts": 10880,
-      "fit": 162,
+      "runs": 272,
+      "posts": 11240,
+      "fit": 168,
       "last": {
-        "posts": 40,
+        "posts": 80,
         "fit": 3,
-        "at": "2026-10-28T13:01:05.531Z"
+        "at": "2026-10-28T18:55:45.719Z"
       }
     },
     "moreAsk": {
-      "runs": 165,
-      "posts": 1485,
+      "runs": 170,
+      "posts": 1530,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-10-28T13:01:05.531Z"
+        "at": "2026-10-28T18:55:45.719Z"
       }
     },
     "moreRetro": {
-      "runs": 165,
-      "posts": 10520,
-      "fit": 363,
+      "runs": 170,
+      "posts": 10840,
+      "fit": 374,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-28T13:01:05.531Z"
+        "at": "2026-10-28T18:55:45.719Z"
       }
     },
     "morePlaying": {
-      "runs": 165,
-      "posts": 693,
+      "runs": 170,
+      "posts": 714,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-10-28T13:01:05.531Z"
+        "at": "2026-10-28T18:55:45.719Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@flaps015@pixelfed.social/117512699837570879": {
-      "uri": "https://mastodon.social/@flaps015@pixelfed.social/117512699837570879",
-      "url": "https://mastodon.social/@flaps015@pixelfed.social/117512699837570879",
-      "handle": "flaps015@pixelfed.social",
-      "name": "playdoh kitchen",
-      "text": "got nikatchi #tamagotchi #retrogaming",
-      "createdAt": "2026-10-27T11:44:56.000Z",
-      "likes": 4,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://pixelfed.social/p/flaps015/1020661631904677251",
-      "media": "image, no description",
-      "firstSeen": "2026-10-27T12:51:06.980Z"
-    },
     "https://mastodon.social/@tippitiwichet/117514316021306200": {
       "uri": "https://mastodon.social/@tippitiwichet/117514316021306200",
       "url": "https://mastodon.social/@tippitiwichet/117514316021306200",
@@ -129,11 +110,11 @@
       "name": "Selena the Retro-Princess",
       "text": "I'm not the kind of person who's afraid to be seen in public with my my N-Gage or even my Tiger Game•Com, but this latest slew of FPGA cores for the Analogue Pocket really does make my life a little simpler #retrogaming #ngage #atari",
       "createdAt": "2026-10-27T16:46:14.000Z",
-      "likes": 27,
+      "likes": 37,
       "replies": 5,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 4,
+      "score": 3,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -220,9 +201,9 @@
       "url": "https://mastodon.social/@weebdeluxe@urusai.social/117517091229412222",
       "handle": "weebdeluxe@urusai.social",
       "name": "Weebdeluxe",
-      "text": "GOG has recently released Ecstatica I and Ii, two survival horror games I never hesrd of... but they look amazing! #gamkng #retrogaming",
+      "text": "GOG has recently released Ecstatica I and II, two survival horror games I never heard of... but they look amazing! #gamkng #retrogaming",
       "createdAt": "2026-10-28T06:21:42.000Z",
-      "likes": 1,
+      "likes": 2,
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
@@ -261,10 +242,10 @@
       "text": "The Daily Grind: Do you have a pet who sits with you while MMO gaming? 🔗 https://massivelyop.com/2026/10/28/the-daily-grind-do-you-have-a-pet-who-sits-with-you-while-mmo-gaming #MMORPG",
       "createdAt": "2026-10-28T12:05:33.830Z",
       "likes": 0,
-      "replies": 1,
+      "replies": 2,
       "group": "moreGaming",
       "query": "mmorpg",
-      "score": 6,
+      "score": 5,
       "question": true,
       "heated": false,
       "isReply": false,
@@ -282,12 +263,87 @@
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 4,
+      "score": 3,
       "question": false,
       "heated": false,
       "isReply": false,
       "media": "video, no description",
       "firstSeen": "2026-10-28T13:01:05.531Z"
+    },
+    "https://mastodon.social/@b4ux1t3@hachyderm.io/117519817300931588": {
+      "uri": "https://mastodon.social/@b4ux1t3@hachyderm.io/117519817300931588",
+      "url": "https://mastodon.social/@b4ux1t3@hachyderm.io/117519817300931588",
+      "handle": "b4ux1t3@hachyderm.io",
+      "name": "b4ux1t3 #1️⃣",
+      "text": "Wife has been very sick of late. So kiddo and I stopped while we were out to pick up supplies. #retroGaming #segaGenesis",
+      "createdAt": "2026-10-28T17:55:00.000Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 4,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://hachyderm.io/@b4ux1t3/117519817145945057",
+      "media": "image: A Sega Genesis console is partially visible in a yellow bag, alongside a video game cartridge for \"The Lion King,\" featuring artwork of the characters. Cords a…",
+      "firstSeen": "2026-10-28T18:55:45.719Z"
+    },
+    "https://mastodon.social/@SuperSelena64@hachyderm.io/117519604039781161": {
+      "uri": "https://mastodon.social/@SuperSelena64@hachyderm.io/117519604039781161",
+      "url": "https://mastodon.social/@SuperSelena64@hachyderm.io/117519604039781161",
+      "handle": "SuperSelena64@hachyderm.io",
+      "name": "Selena the Retro-Princess",
+      "text": "The coolest thing about the Street Fighter 2 pinball machine is that it includes the little car-smashing mini-game! #pinball #streetfighter #retrogaming #retrogames",
+      "createdAt": "2026-10-28T17:00:43.000Z",
+      "likes": 35,
+      "replies": 1,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://hachyderm.io/@SuperSelena64/117519603721875838",
+      "media": "2 images: A view of the cabinet from the front showing the classic Street Fighter 2 art on the marquee / A window into the little box with the car and a flipped with a ball for striking it with when the mini-game starts",
+      "firstSeen": "2026-10-28T18:55:45.719Z"
+    },
+    "https://mastodon.social/@robavince/117519439377572408": {
+      "uri": "https://mastodon.social/@robavince/117519439377572408",
+      "url": "https://mastodon.social/@robavince/117519439377572408",
+      "handle": "robavince@mastodon.social",
+      "name": "robavince",
+      "text": "When I was a kid I went to the Boys and Girls Club. There there had this cab. One other kid and I took turns beating each other's high scores. It's still fun! This is the Analogue Pocket core. #arcade #retrogaming",
+      "createdAt": "2026-10-28T16:18:56.244Z",
+      "likes": 4,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 4,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image: Title screen of Time Pilot '84",
+      "firstSeen": "2026-10-28T18:55:45.719Z"
+    },
+    "https://mastodon.social/@bunnyhearted@vt.social/117518900140124840": {
+      "uri": "https://mastodon.social/@bunnyhearted@vt.social/117518900140124840",
+      "url": "https://mastodon.social/@bunnyhearted@vt.social/117518900140124840",
+      "handle": "bunnyhearted@vt.social",
+      "name": "Bunny Hearted",
+      "text": "🐰 Hey y'all! It's Retrothon day 8, with 6.5hrs on the clock we're TANTALIZINGLY CLOSE to the next milestone: an all bad retro games day. Today's quite the opposite tho, and features Vagrant Story and Ace Combat 4! Stream's up at 3et. #vsky #retrogaming",
+      "createdAt": "2026-10-28T14:01:45.000Z",
+      "likes": 1,
+      "replies": 1,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://vt.social/@bunnyhearted/117518899992443898",
+      "media": "image: A poster for today's stream, which shows the cover of both Vagrant Story and Ace Combat 4. Stream is on both twitch and altstream, and starts at 12pm pt, 3pm e…",
+      "firstSeen": "2026-10-28T18:55:45.719Z"
     }
   }
 }
