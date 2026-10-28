@@ -1,0 +1,28 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-retro-20261028-042427.json",
+  "approvedAt": "2026-10-28T04:27:30.866Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:yye4ofa5crlcsnkrarz7ev6c/app.bsky.feed.post/3myv22niys22t",
+      "url": "https://bsky.app/profile/stefanonsense.bsky.social/post/3myv22niys22t",
+      "author": "stefanonsense.bsky.social",
+      "context": "Do you know any old(er) strategy PC games that have to do with fighting the undead in a medieval-type setting? Am thinking on the last couple of \"spooky month\" streams for this weekend and I kinda wanna play something more strategy-y.",
+      "text": "Heroes of Might and Magic III has the Necropolis undead faction and is sold DRM-free on GOG, which fits a spooky stream. Disciples II also has an undead side, the Legions of the Damned.",
+      "edited": false,
+      "verify": "Проверьте, что Heroes III и Disciples II сейчас продаются на GOG."
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:hl6ima2p5v22i4zjn4jf4vgt/app.bsky.feed.post/3mytsbnbaok2i",
+      "url": "https://bsky.app/profile/megaapple18.bsky.social/post/3mytsbnbaok2i",
+      "author": "megaapple18.bsky.social",
+      "context": "Why aren't there more Helicopter video games? Those were the coolest things from my childhood, like dinosaurs and mechas.",
+      "text": "Agreed, there's room for more. Desert Strike and Comanche were great ones back in the day.",
+      "edited": false
+    }
+  ]
+}

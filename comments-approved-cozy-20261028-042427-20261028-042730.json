@@ -1,0 +1,27 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-cozy-20261028-042427.json",
+  "approvedAt": "2026-10-28T04:27:30.768Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:i7kl4y6c5j3zochocosftdit/app.bsky.feed.post/3myunv6aups2c",
+      "url": "https://bsky.app/profile/vulkitnicpix.bsky.social/post/3myunv6aups2c",
+      "author": "vulkitnicpix.bsky.social",
+      "context": "Chewsday Innit? (I couldn’t help it 😸) What’s your go to “cozy” game? Or what game do you find truly “endless” in terms of enjoyment playing?",
+      "text": "Stardew Valley is the classic answer. It's easy to play in short sessions and the seasons keep it feeling fresh for years.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:b4zf4bbicqi6tre7kp2fsu5s/app.bsky.feed.post/3myuluun6oc26",
+      "url": "https://bsky.app/profile/wildpeaks.fr/post/3myuluun6oc26",
+      "author": "wildpeaks.fr",
+      "context": "Just realized it's already the 27, meaning #REKA 1.0 is finally out ! It's one of the two games I was looking forward to this year (the other being Queen's Domain in 3 days) store.steampowered.com/app/1737870/...\nlink card: Save 35% on REKA on Steam",
+      "text": "Happy launch day! Hope REKA lives up to the wait.",
+      "edited": false
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-prices-20261028-042427.json",
+  "approvedAt": "2026-10-28T04:27:30.651Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:uh5hevz25a54ytuo3yvlso43/app.bsky.feed.post/3myv2iua3kk2z",
+      "url": "https://bsky.app/profile/wildwheelshat.bsky.social/post/3myv2iua3kk2z",
+      "author": "wildwheelshat.bsky.social",
+      "context": "Does anyone know, if I downloaded a game via the Epic Games Store thing do I still need the launcher to start it. Got Death Stranding in a humble bundle that claimed via Epic and I kinda wanna get Epic games stuff off my PC.",
+      "text": "Most games claimed through Epic start through the Epic launcher, though a few are DRM-free and run on their own. Worth checking before you uninstall it, since it depends on the game.",
+      "edited": false,
+      "verify": "Нужен ли лаунчер Epic для Death Stranding, проверьте: у части игр он обязателен, у части нет."
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:qbcroufpovuvowuerbo6jqcg/app.bsky.feed.post/3myuotfeluk2b",
+      "url": "https://bsky.app/profile/impormable.bsky.social/post/3myuotfeluk2b",
+      "author": "impormable.bsky.social",
+      "context": "if you're looking for something spooky to play this week, slay the princess is on sale. it's the best horror game I've played all year, and for some reason nobody talks about how goddamn FUNNY this game is. it's like the stanley parable, but with more overt horror themes. it's less than $7!\nlink card: Save 60% on Slay the Princess — The Pristine Cut on Steam",
+      "text": "Nice tip for anyone hunting a spooky game on sale this week. The Stanley Parable comparison sells it.",
+      "edited": false
+    }
+  ]
+}
