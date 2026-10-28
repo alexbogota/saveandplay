@@ -36,6 +36,7 @@ import { resolve } from 'node:path';
 import { makeClient, lookup, topDiscounted, endDate } from './lib/gog.mjs';
 import { updateKinguin } from './lib/kinguin.mjs';
 import { updateLoaded, affiliateLink as loadedLink } from './lib/loaded.mjs';
+import { gogFacts, nicheMiss } from './lib/facts.mjs';
 
 const UA = 'SaveAndPlay-prices/1.0 (+https://saveandplay.com)';
 const HOUR = 3600e3;
@@ -124,11 +125,12 @@ async function runIndieGala() {
 export const isExcluded = (rules, d) => (rules.exclude ?? []).some((x) => d.url?.includes(x) || d.title?.toLowerCase() === String(x).toLowerCase());
 
 // get = polite fetcher, steam = (title) => info | null, link = (url) => affiliate link
-export async function updateGog({ deals, rules, now, get, steam, link }) {
+// niches = [{ select, minDiscount }] of the niche accounts that sell GOG games (Cozy, Retro, ...), taken from data/accounts.json by main().
+export async function updateGog({ deals, rules, now, get, steam, link, niches = [] }) {
   const g = rules.gog;
   const s = rules.steam;
   const nowIso = new Date(now).toISOString();
-  const out = { refreshed: [], dropped: [], unknown: [], added: [], skipped: { notOnSteam: 0, fewReviews: 0, lowScore: 0, adult: 0, steamError: 0 }, problems: [], answered: 0, found: 0 };
+  const out = { refreshed: [], dropped: [], unknown: [], added: [], addedNiche: [], skippedNiche: { notNiche: 0, notOnSteam: 0, fewReviews: 0, lowScore: 0, adult: 0, steamError: 0 }, skipped: { notOnSteam: 0, fewReviews: 0, lowScore: 0, adult: 0, steamError: 0 }, problems: [], answered: 0, found: 0 };
   const existing = deals.filter((d) => d.store === 'GOG');
   const result = [];
 
@@ -167,11 +169,17 @@ export async function updateGog({ deals, rules, now, get, steam, link }) {
   }
 
   // New games: best sellers on sale that pass the rules, then the Steam check.
-  const room = Math.min(g.maxNew, Math.max(0, g.maxTotal - result.length));
+  const room = Math.min(g.maxNew, Math.max(0, g.maxTotal - result.filter((d) => d.status !== 'gog-niche').length)); // niche games have their own limit
+  const nz = rules.gogNiche;
+  const nicheOn = !!(nz?.enabled && niches.length && steam && nz.catalogPages > 0);
+  let catalog = null; // the best sellers on sale, read once for both the general and the niche pass
+  if ((room > 0 && g.catalogPages > 0 && steam) || nicheOn) {
+    catalog = await topDiscounted(get, Math.max(g.catalogPages, nicheOn ? nz.catalogPages : 0));
+    out.problems.push(...catalog.problems);
+    out.found = catalog.products.length;
+  }
   if (room > 0 && g.catalogPages > 0 && steam) {
-    const { products, problems } = await topDiscounted(get, g.catalogPages);
-    out.problems.push(...problems);
-    out.found = products.length;
+    const products = catalog.products.slice(0, g.catalogPages * 48);
     const have = new Set(existing.map((d) => gogSlug(d.url)));
     const pool = products
       .filter((p) => !have.has(p.slug) && !isExcluded(rules, { url: p.url, title: p.title }))
@@ -214,6 +222,58 @@ export async function updateGog({ deals, rules, now, get, steam, link }) {
       perPublisher[p.publisher] = (perPublisher[p.publisher] ?? 0) + 1;
       out.added.push(`${deal.title}: ${money(p.final)} (−${p.pct}%)`);
       result.push(deal);
+    }
+  }
+  // Niche pass: older / quieter games that the niche accounts (Cozy, Retro, ...) can post but the general quality rules above never let in.
+  // Looser numbers (gogNiche in data/deals-rules.json), a deeper look into the catalog, and the game must fit the select rule of at least one niche account.
+  if (nicheOn) {
+    const today = nowIso.slice(0, 10);
+    const ns = { ...s, ...(nz.steam ?? {}) };
+    const have = new Set(result.map((d) => gogSlug(d.url)));
+    const room2 = Math.min(nz.maxNew, Math.max(0, nz.maxTotal - result.filter((d) => d.status === 'gog-niche').length));
+    const pool = catalog.products
+      .filter((p) => p.raw && !have.has(p.slug) && !isExcluded(rules, { url: p.url, title: p.title }))
+      .filter((p) => p.base >= nz.minBase && p.reviews >= nz.minReviews && p.rating >= nz.minRating)
+      .filter((p) => {
+        const facts = gogFacts(p.raw, today);
+        const fits = niches.some((n) => p.pct >= n.minDiscount && !nicheMiss(facts, n.select));
+        if (!fits) out.skippedNiche.notNiche++;
+        return fits;
+      })
+      .sort((a, b) => b.pct - a.pct || b.reviews - a.reviews);
+    let checked = 0;
+    for (const p of pool) {
+      if (out.addedNiche.length >= room2 || checked >= nz.maxChecked) break;
+      checked++;
+      let info = null;
+      try {
+        info = await steam(p.title);
+      } catch {
+        out.skippedNiche.steamError++;
+        continue;
+      }
+      const why = !info ? 'notOnSteam' : info.total < ns.minReviews ? 'fewReviews' : info.pct < ns.minPositive ? 'lowScore' : info.descriptors?.some((x) => ns.adultFlags.includes(x)) ? 'adult' : '';
+      if (why) {
+        out.skippedNiche[why]++;
+        continue;
+      }
+      const end = await endDate(get, p.url, now);
+      result.push({
+        store: 'GOG',
+        title: p.title.replace(/[™®©]/g, '').trim(),
+        currency: 'USD',
+        was: p.base,
+        price: p.final,
+        discountPct: p.pct,
+        url: p.url,
+        image: '',
+        status: 'gog-niche',
+        checkedAt: nowIso,
+        ...(end.iso ? { endsAt: end.iso } : {}),
+        ...(link ? { affiliateUrl: link(p.url) } : {}),
+        steamId: info.appid,
+      });
+      out.addedNiche.push(`${p.title.replace(/[™®©]/g, '').trim()}: ${money(p.final)} (−${p.pct}%)`);
     }
   }
   const ok = out.answered > 0 || out.found > 0 || existing.length === 0;
@@ -305,6 +365,10 @@ export function report({ now, dry, before, after, ig, gog, kg, ld, removed, erro
     const o = gog.out;
     L.push(`## GOG: обновлено ${o.refreshed.length}, добавлено ${o.added.length}, убрано ${o.dropped.length}`, '');
     list('Новые', o.added);
+    if (o.addedNiche.length || o.skippedNiche.notNiche) {
+      list('Новые для ниш (Cozy, Retro)', o.addedNiche);
+      L.push(`Отбор для ниш: не подошли по жанру/году ${o.skippedNiche.notNiche}, не прошли проверку Steam ${o.skippedNiche.notOnSteam + o.skippedNiche.fewReviews + o.skippedNiche.lowScore + o.skippedNiche.adult}`, '');
+    }
     list('Убраны (акция кончилась)', o.dropped);
     list('Цены', o.refreshed);
     list('Не удалось уточнить', [...o.unknown, ...o.problems]);
@@ -384,7 +448,10 @@ async function main() {
       }
       const template = accounts.links?.gogDeeplink;
       const link = template ? (url) => `${template}?subid=site&ulp=${encodeURIComponent(url)}` : null;
-      const r = await updateGog({ deals, rules, now, get, steam, link });
+      const niches = Object.values(accounts.accounts ?? {})
+        .filter((a) => a.select && a.enabled !== false && (a.stores ?? []).includes('GOG'))
+        .map((a) => ({ select: a.select, minDiscount: a.minDiscount ?? 50 }));
+      const r = await updateGog({ deals, rules, now, get, steam, link, niches });
       if (r.ok) {
         deals = r.deals;
         gog = r;

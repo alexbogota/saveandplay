@@ -49,7 +49,7 @@ const LOWEST_BONUS = 1; // lowest price we have tracked (needs at least the acco
 const REPEAT_PENALTY = 8; // was the top pick of an earlier brief, or drafted, within repeatDays
 
 // What an account gets when data/accounts.json does not say otherwise.
-const DEFAULTS = { minDiscount: 50, windowHours: 48, maxPriceAgeHours: 48, minHoursLeft: 6, repeatDays: 7, maxCandidates: 5, minHistoryDays: 14, dealsWithoutNews: true, gogNews: false, keywords: [], maxTopics: 5, rules: [], cadence: null, select: null, family: null };
+const DEFAULTS = { minDiscount: 50, windowHours: 48, maxPriceAgeHours: 48, minHoursLeft: 6, repeatDays: 7, maxCandidates: 5, minHistoryDays: 14, dealsWithoutNews: true, gogNews: false, keywords: [], maxTopics: 5, rules: [], cadence: null, select: null, family: null, repeatSkip: false };
 const REQUIRED = ['name', 'handle', 'topic', 'subid', 'stores'];
 export function withDefaults(id, account) {
   const missing = REQUIRED.filter((k) => !account[k] || (Array.isArray(account[k]) && !account[k].length));
@@ -167,7 +167,7 @@ export function visibleIds(deals) {
 // ctx.facts = data/game-facts.json (for an account with "select"), ctx.taken = games other families took today (see takenToday).
 // fit = how many games of the account's stores pass its niche rule, before the price and date checks (for the report).
 export function eligibleDeals(deals, account, now, offered, ctx = {}) {
-  const left = { otherStore: 0, hidden: 0, notNiche: 0, noFacts: 0, taken: 0, smallDiscount: 0, ended: 0, endsTooSoon: 0, oldPrice: 0 };
+  const left = { otherStore: 0, hidden: 0, notNiche: 0, noFacts: 0, taken: 0, repeat: 0, smallDiscount: 0, ended: 0, endsTooSoon: 0, oldPrice: 0 };
   const onSite = visibleIds(deals);
   const eligible = [];
   let fit = 0;
@@ -181,6 +181,7 @@ export function eligibleDeals(deals, account, now, offered, ctx = {}) {
     else if (!onSite.has(id)) left.hidden++;
     else if (miss) left[miss]++;
     else if (ctx.taken?.has(gameKey(d))) left.taken++;
+    else if (account.repeatSkip && last && last !== isoDay(now) && (now - Date.parse(last)) / DAY < account.repeatDays) left.repeat++; // repeatSkip: the same game is not offered again within repeatDays
     else if (d.discountPct < account.minDiscount) left.smallDiscount++;
     else if (d.endsAt && new Date(d.endsAt) < now) left.ended++;
     else if (d.endsAt && new Date(d.endsAt) - now < account.minHoursLeft * HOUR) left.endsTooSoon++; // over before anyone can use the post
@@ -376,11 +377,11 @@ export function buildBrief({ account, links, deals, history, offered, feeds, sou
   else if (!eligible.length && account.select) {
     // A niche account says so and posts nothing: it never takes any other game to fill the day.
     warnings.push(
-      `No game fits the niche today (${fit} fit the rule, ${left.notNiche} do not, ${left.noFacts} have no facts yet, ${left.taken} were taken by another account today, ${left.smallDiscount} under ${account.minDiscount}%, ${left.oldPrice} prices older than ${account.maxPriceAgeHours} h, ${left.ended + left.endsTooSoon} sales over or ending soon).`,
+      `No game fits the niche today (${fit} fit the rule, ${left.notNiche} do not, ${left.noFacts} have no facts yet, ${left.taken} were taken by another account today, ${left.repeat} offered in the last ${account.repeatDays} days, ${left.smallDiscount} under ${account.minDiscount}%, ${left.oldPrice} prices older than ${account.maxPriceAgeHours} h, ${left.ended + left.endsTooSoon} sales over or ending soon).`,
     );
   } else if (!eligible.length) {
     warnings.push(
-      `No deal passes the rules (${left.oldPrice} prices older than ${account.maxPriceAgeHours} h, ${left.ended + left.endsTooSoon} sales over or ending within ${account.minHoursLeft} h, ${left.smallDiscount} under ${account.minDiscount}%${left.taken ? `, ${left.taken} taken by another account today` : ''}). The prices in data/deals.json probably need a refresh; then run the brief again.`,
+      `No deal passes the rules (${left.oldPrice} prices older than ${account.maxPriceAgeHours} h, ${left.ended + left.endsTooSoon} sales over or ending within ${account.minHoursLeft} h, ${left.smallDiscount} under ${account.minDiscount}%${left.taken ? `, ${left.taken} taken by another account today` : ''}${left.repeat ? `, ${left.repeat} offered in the last ${account.repeatDays} days` : ''}). The prices in data/deals.json probably need a refresh; then run the brief again.`,
     );
   } else if (checked && now - new Date(checked) > account.maxPriceAgeHours * HOUR * 0.75) {
     warnings.push(`Prices are getting old (${hoursText(now - new Date(checked))}); soon they will be too old to offer.`);

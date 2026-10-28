@@ -45,6 +45,7 @@ export function parseProduct(p) {
     publisher: p.publishers?.[0] ?? '',
     reviews: Number(p.reviewsCount) || 0,
     rating: Number(p.reviewsRating) || 0, // 0-50: 43 means 4.3 stars
+    raw: p, // the product as GOG sent it (genres, tags, release date: used to check a niche)
   };
 }
 

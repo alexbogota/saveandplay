@@ -279,7 +279,8 @@
         "noneOf": ["Action", "Shooter", "Horror", "Violent", "Gore", "Survival", "Fighting", "Racing", "Difficult", "Dark"],
         "notMature": true
       },
-      "minDiscount": 50,
+      "minDiscount": 30,
+      "repeatSkip": true,
       "windowHours": 48,
       "maxPriceAgeHours": 48,
       "minHoursLeft": 6,
@@ -352,7 +353,8 @@
         "label": "Retro",
         "maxYear": 2007
       },
-      "minDiscount": 50,
+      "minDiscount": 30,
+      "repeatSkip": true,
       "windowHours": 48,
       "maxPriceAgeHours": 48,
       "minHoursLeft": 6,

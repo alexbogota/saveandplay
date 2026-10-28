@@ -16,8 +16,10 @@ import { channelWithDefaults, buildPost, chooseTags } from './lib/posts.mjs';
 
 process.env.DAILY_BRIEF_AS_MODULE = '1';
 process.env.ENRICH_AS_MODULE = '1';
+process.env.UPDATE_DEALS_AS_MODULE = '1';
 const { withDefaults, eligibleDeals, buildBrief, makePosts, takenToday, familyOf, dealId } = await import('./daily-brief.mjs');
 const { enrich, needed, prune } = await import('./enrich-facts.mjs');
+const { updateGog } = await import('./update-deals.mjs');
 
 const read = (rel) => JSON.parse(readFileSync(fileURLToPath(new URL(rel, import.meta.url)), 'utf8'));
 const accountsFile = read('../data/accounts.json');
@@ -236,6 +238,49 @@ await test('posts for Cozy and Retro: our page, the channel mark, Ad last, no #a
   const cozy = buildPost({ candidate: c, channel: channelWithDefaults('cozy', 'bluesky', accountsFile.accounts.cozy.channels.bluesky), links, day: DAY });
   assert.ok(cozy.tags.includes('CityBuilder'), 'a city builder gets the tag it deserves');
   assert.ok(!cozy.tags.includes('CozyGames'), 'but not the cozy tag it does not have');
+});
+
+await test('repeatSkip: a niche account does not get the same game again within repeatDays, and says how many it left out', () => {
+  const deals = [deal('Old One'), deal('Old Two')];
+  const facts = { 'gog-old-one': fact({ year: 2003 }), 'gog-old-two': fact({ year: 2004 }) };
+  const offered = { 'gog-old-one': '2026-10-14' };
+  const acc = (o) => withDefaults('retro', { ...base, select: { maxYear: 2007 }, ...o });
+  assert.deepEqual(eligibleDeals(deals, acc({ repeatSkip: true }), NOW, offered, { facts }).eligible.map((e) => e.deal.title), ['Old Two']);
+  assert.equal(eligibleDeals(deals, acc({ repeatSkip: true }), NOW, offered, { facts }).left.repeat, 1);
+  assert.equal(eligibleDeals(deals, acc({}), NOW, offered, { facts }).eligible.length, 2, 'without repeatSkip the old rule stays (only a penalty)');
+  assert.equal(eligibleDeals(deals, acc({ repeatSkip: true }), NOW, { 'gog-old-one': '2026-10-01' }, { facts }).eligible.length, 2, 'after repeatDays the game may come back');
+  const real = withDefaults('cozy', accountsFile.accounts.cozy);
+  assert.deepEqual([real.repeatSkip, real.minDiscount], [true, 30]);
+  assert.equal(withDefaults('retro', accountsFile.accounts.retro).repeatSkip, true);
+});
+
+await test('update-deals niche pass: a cheaper, quieter old game that fits Retro is added (status gog-niche); the general rules still keep it out of the normal pass', async () => {
+  const product = (slug, title, base, final, o = {}) => ({ id: slug, slug, title, productType: 'game', publishers: ['P'], reviewsCount: 150, reviewsRating: 42, releaseDate: '2003.05.05', genres: [{ name: 'Strategy' }], tags: [{ name: 'Classic' }],
+    price: { baseMoney: { amount: String(base), currency: 'USD' }, finalMoney: { amount: String(final), currency: 'USD' }, discount: `-${Math.round((1 - final / base) * 100)}%` }, ...o });
+  const products = [
+    product('old_cheap', 'Old Cheap Classic', 5.99, 2.99), // retro, 50%, base under 9.99: the general pass never takes it
+    product('new_cheap', 'New Cheap Game', 5.99, 2.99, { releaseDate: '2021.01.01' }), // not retro
+    product('small_off', 'Barely On Sale', 5.99, 5.09), // 15% off
+    product('few_reviews', 'Almost Unknown', 5.99, 2.99, { reviewsCount: 10 }),
+  ];
+  const get = async (url) => (url.includes('catalog') ? { ok: true, text: JSON.stringify({ products, pages: 1 }) } : { ok: true, text: '<html></html>' });
+  const steam = async () => ({ appid: 111, total: 400, pct: 85, descriptors: [] });
+  const rules = { gog: { enabled: true, minDiscount: 50, minBase: 9.99, minReviews: 300, minRating: 38, maxNew: 6, maxTotal: 24, maxPerPublisher: 3, maxChecked: 20, catalogPages: 3, keepMinDiscount: 30 },
+    gogNiche: { enabled: true, minBase: 4.99, minReviews: 100, minRating: 38, maxNew: 4, maxTotal: 8, maxChecked: 15, catalogPages: 6, steam: { minReviews: 100, minPositive: 75 } },
+    steam: { minReviews: 500, minPositive: 80, adultFlags: [1, 3, 4] }, exclude: [] };
+  const niches = [{ select: { maxYear: 2007 }, minDiscount: 30 }];
+  const r = await updateGog({ deals: [], rules, now: NOW, get, steam, link: null, niches });
+  assert.deepEqual(r.out.added, [], 'the general pass added nothing');
+  assert.deepEqual(r.out.addedNiche.length, 1);
+  assert.match(r.out.addedNiche[0], /Old Cheap Classic: \$2\.99 \(−50%\)/);
+  assert.equal(r.deals.length, 1);
+  assert.equal(r.deals[0].status, 'gog-niche');
+  assert.equal(r.deals[0].steamId, 111);
+  // a niche game the Steam check refuses is not added; with no niche accounts nothing changes
+  const bad = await updateGog({ deals: [], rules, now: NOW, get, steam: async () => ({ appid: 1, total: 20, pct: 90, descriptors: [] }), link: null, niches });
+  assert.equal(bad.deals.length, 0);
+  assert.equal(bad.out.skippedNiche.fewReviews, 1);
+  assert.equal((await updateGog({ deals: [], rules, now: NOW, get, steam, link: null, niches: [] })).deals.length, 0);
 });
 
 console.log(`\n${ran} tests passed.`);
