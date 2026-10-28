@@ -1,1 +1,1 @@
-NO POST TODAY: No deal passes the rules today. NOTHING TO OFFER today. No game fits the niche today (1 fit the rule, 8 do not, 0 have no facts yet, 1 were taken by another account today, 0 under 50%, 0 prices older than 48 h, 0 sales over or ending soon).
+NO POST TODAY: No deal passes the rules today. NOTHING TO OFFER today. No game fits the niche today (1 fit the rule, 8 do not, 0 have no facts yet, 0 were taken by another account today, 0 under 50%, 0 prices older than 48 h, 1 sales over or ending soon).

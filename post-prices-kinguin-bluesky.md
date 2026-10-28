@@ -1,1 +1,1 @@
-NO POST TODAY: Off day: this account posts every 2 days. Next post: Oct 28.
+NO POST TODAY: No deal passes the rules today. NOTHING TO OFFER today. No deal passes the rules (0 prices older than 48 h, 0 sales over or ending within 6 h, 0 under 30%). The prices in data/deals.json probably need a refresh; then run the brief again.

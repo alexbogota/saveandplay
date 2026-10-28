@@ -1,288 +1,61 @@
 {
   "account": "Honest prices (second deal of the day)",
-  "generatedAt": "2026-10-27T11:29:17.087Z",
-  "builtBy": "commit bb7603a, schedule, run #28 attempt 1",
-  "pricesCheckedAt": "2026-10-27T10:11:07.347Z",
+  "generatedAt": "2026-10-28T11:33:13.575Z",
+  "builtBy": "commit e295b62, schedule, run #29 attempt 1",
+  "pricesCheckedAt": "2026-10-28T10:18:14.217Z",
   "warnings": [],
   "candidates": [
     {
-      "id": "gog-frostpunk",
+      "id": "gog-hitman-absolution",
       "kind": "deal",
-      "title": "Frostpunk",
+      "title": "Hitman: Absolution",
       "store": "GOG",
-      "price": 4.49,
-      "was": 29.99,
-      "discount": 85,
-      "endsAt": "2026-10-28T15:59:00+02:00",
-      "endsInHours": 26,
-      "priceCheckedAt": "2026-10-27T10:11:07.347Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323190/abcd2bf3c275092d637d7dd98e0061dbdd2fd2da/header.jpg?t=1784897899",
-      "drminfo": null,
-      "coverAlt": "Cover art for Frostpunk",
-      "facts": {
-        "year": 2018,
-        "genres": [
-          "Strategy",
-          "Simulation",
-          "Survival"
-        ],
-        "tags": [
-          "Indie",
-          "Atmospheric",
-          "Strategy",
-          "Simulation",
-          "Dark",
-          "Great Soundtrack",
-          "Choices Matter",
-          "Management",
-          "Survival",
-          "Resource Management",
-          "Difficult",
-          "Base Building",
-          "Post-apocalyptic",
-          "City builder",
-          "Survival Horror",
-          "Steampunk"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 12.5,
-      "discountRank": 3,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 15,
-        "lowest": true,
-        "since": "2026-10-13"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/frostpunk/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-27",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "sale ends in 26 h",
-        "lowest price we've tracked (15 days of data)",
-        "deepest-discount rank 3 of 9"
-      ]
-    },
-    {
-      "id": "gog-thronebreaker-the-witcher-tales",
-      "kind": "deal",
-      "title": "Thronebreaker: The Witcher Tales",
-      "store": "GOG",
-      "price": 3.99,
+      "price": 1.99,
       "was": 19.99,
-      "discount": 80,
-      "endsAt": "2026-10-28T15:59:00+02:00",
-      "endsInHours": 26,
-      "priceCheckedAt": "2026-10-27T10:11:07.347Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/973760/f748e07df077bb0cf4c49d4bc0f6437f510c5251/header.jpg?t=1761829221",
+      "discount": 90,
+      "endsAt": "2026-10-29T09:59:00+02:00",
+      "endsInHours": 20,
+      "priceCheckedAt": "2026-10-28T10:18:14.217Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203140/header.jpg?t=1734461136",
       "drminfo": null,
-      "coverAlt": "Cover art for Thronebreaker: The Witcher Tales",
-      "facts": {
-        "year": 2018,
-        "genres": [
-          "Role-playing",
-          "Fantasy",
-          "Strategy"
-        ],
-        "tags": [
-          "Fantasy",
-          "Story Rich",
-          "Atmospheric",
-          "Strategy",
-          "Role-playing",
-          "Turn-Based",
-          "Puzzle",
-          "Female Protagonist",
-          "Great Soundtrack",
-          "Choices Matter",
-          "Open World",
-          "Multiplayer",
-          "Mature",
-          "Sexual Content",
-          "Isometric",
-          "Medieval",
-          "Card Game"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 12,
-      "discountRank": 6,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 16,
-        "lowest": true,
-        "since": "2026-10-07"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/thronebreaker-the-witcher-tales/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-27",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "sale ends in 26 h",
-        "lowest price we've tracked (16 days of data)",
-        "deepest-discount rank 6 of 9"
-      ]
-    },
-    {
-      "id": "gog-simcity-4-deluxe-edition",
-      "kind": "deal",
-      "title": "SimCity 4 Deluxe Edition",
-      "store": "GOG",
-      "price": 4.99,
-      "was": 19.99,
-      "discount": 75,
-      "endsAt": "2026-10-28T15:59:00+02:00",
-      "endsInHours": 26,
-      "priceCheckedAt": "2026-10-27T10:11:07.347Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
-      "drminfo": null,
-      "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
-      "facts": {
-        "year": 2003,
-        "genres": [
-          "Simulation",
-          "Building",
-          "Managerial"
-        ],
-        "tags": [
-          "Atmospheric",
-          "Simulation",
-          "Classic",
-          "Great Soundtrack",
-          "Management",
-          "Sandbox",
-          "Real-Time",
-          "Isometric",
-          "Building",
-          "Managerial",
-          "City builder"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 11.5,
-      "discountRank": 8,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 18,
-        "lowest": true,
-        "since": "2026-10-07"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-27",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "sale ends in 26 h",
-        "lowest price we've tracked (18 days of data)",
-        "deepest-discount rank 8 of 9"
-      ]
-    },
-    {
-      "id": "gog-torchlight-ii",
-      "kind": "deal",
-      "title": "Torchlight II",
-      "store": "GOG",
-      "price": 3.99,
-      "was": 19.99,
-      "discount": 80,
-      "endsAt": "2026-10-28T15:59:00+02:00",
-      "endsInHours": 26,
-      "priceCheckedAt": "2026-10-27T10:11:07.347Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/200710/header.jpg?t=1792118316",
-      "drminfo": null,
-      "coverAlt": "Cover art for Torchlight II",
+      "coverAlt": "Cover art for Hitman: Absolution",
       "facts": {
         "year": 2012,
         "genres": [
-          "Role-playing",
           "Action",
-          "Fantasy"
+          "TPP",
+          "Stealth"
         ],
         "tags": [
           "Action",
-          "Indie",
-          "Fantasy",
+          "Story Rich",
           "Atmospheric",
-          "Role-playing",
           "Classic",
-          "Multiplayer",
-          "Isometric",
-          "Hack and Slash",
-          "Dungeon Crawler",
-          "Steampunk"
+          "Tactical",
+          "Third Person",
+          "Mature",
+          "Difficult",
+          "Stealth",
+          "Crime"
         ]
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 11,
-      "discountRank": 7,
+      "score": 4,
+      "discountRank": 1,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 7,
+        "days": 9,
         "lowest": false,
-        "since": "2026-10-21"
+        "since": "2026-10-20"
       },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/torchlight-ii/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-27",
+      "offeredOn": "2026-10-24",
+      "link": "https://saveandplay.com/deals/gog/hitman-absolution/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-28",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 26 h",
-        "deepest-discount rank 7 of 9"
-      ]
-    },
-    {
-      "id": "indiegala-no-man-s-sky",
-      "kind": "deal",
-      "title": "No Man's Sky",
-      "store": "IndieGala",
-      "price": 23.99,
-      "was": 59.99,
-      "discount": 60,
-      "endsAt": "2026-11-02T23:59:00Z",
-      "endsInHours": 156,
-      "priceCheckedAt": "2026-10-26T10:18:48.456Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/84d0df065c36eb8ded7bdf0d8fccd19d43b6c005/header.jpg?t=1789479023",
-      "drminfo": "Steam key",
-      "coverAlt": "Cover art for No Man's Sky",
-      "facts": {
-        "year": 2016,
-        "genres": [
-          "Action",
-          "Adventure"
-        ],
-        "tags": []
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 9,
-      "discountRank": 9,
-      "sites": 1,
-      "mentions": [
-        {
-          "source": "gg.deals News",
-          "domain": "gg.deals",
-          "title": "New PC and Xbox game deals just dropped! Snag No Man's Sky at 60% off and more",
-          "link": "https://gg.deals/deal/xbox-pc-deals-oct-27-2026/",
-          "t": 1793091600000,
-          "how": "title"
-        }
-      ],
-      "history": {
-        "days": 12,
-        "lowest": false,
-        "since": "2026-10-05"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/indiegala/no-man-s-sky/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-27",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "1 news site wrote about the game in the last 48 h",
-        "deepest-discount rank 9 of 9"
+        "sale ends in 20 h",
+        "deepest-discount rank 1 of 1"
       ]
     }
   ],
@@ -297,8 +70,8 @@
     "taken": 1,
     "smallDiscount": 0,
     "ended": 0,
-    "endsTooSoon": 0,
-    "oldPrice": 0
+    "endsTooSoon": 7,
+    "oldPrice": 1
   },
   "sources": {
     "total": 11,
@@ -306,18 +79,18 @@
   },
   "posts": {
     "x": {
-      "text": "Frostpunk: -85% at GOG\n$4.49 (was $29.99)\nPrice checked Oct 27. Sale ends Oct 28. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/frostpunk/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-27\n\n#PCGaming #GameDeals\nAd",
-      "length": 159,
+      "text": "Hitman: Absolution: -90% at GOG\n$1.99 (was $19.99)\nPrice checked Oct 28. Sale ends Oct 29.\n\nhttps://saveandplay.com/deals/gog/hitman-absolution/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-28\n\n#PCGaming #GOG\nAd",
+      "length": 134,
       "max": 270,
-      "link": "https://saveandplay.com/deals/gog/frostpunk/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-27",
-      "deal": "gog-frostpunk"
+      "link": "https://saveandplay.com/deals/gog/hitman-absolution/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-28",
+      "deal": "gog-hitman-absolution"
     },
     "bluesky": {
-      "text": "Frostpunk: -85% at GOG\n$4.49 (was $29.99)\nPrice checked Oct 27. Sale ends Oct 28. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/frostpunk/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-27\n\n#PCGaming #GameDeals #DRMFree #PCGames #GOG\nAd",
-      "length": 184,
+      "text": "Hitman: Absolution: -90% at GOG\n$1.99 (was $19.99)\nPrice checked Oct 28. Sale ends Oct 29.\n\nhttps://saveandplay.com/deals/gog/hitman-absolution/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-28\n\n#PCGaming #GameDeals #VideoGames #Gaming #Hitman\nAd",
+      "length": 170,
       "max": 300,
-      "link": "https://saveandplay.com/deals/gog/frostpunk/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-27",
-      "deal": "gog-frostpunk"
+      "link": "https://saveandplay.com/deals/gog/hitman-absolution/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-28",
+      "deal": "gog-hitman-absolution"
     }
   }
 }

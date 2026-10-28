@@ -1,11 +1,11 @@
-Darkest Dungeon: -85% at GOG
-$3.75 (was $24.99)
-You save $21.24
+Metro Exodus: -85% at GOG
+$4.49 (was $29.99)
+You save $25.50
 DRM-free
-Price checked Oct 27. Sale ends Oct 28. Lowest price we've tracked.
-Why today: sale ends in 26 h.
+Price checked Oct 28. Sale ends Nov 5.
+Why today: deepest-discount rank 2 of 2.
 
-https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-27
+https://saveandplay.com/deals/gog/metro-exodus/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-28
 
-#GameDeals #PCGaming #GOG #DRMFree #VideoGames
+#GameDeals #PCGaming #GOG #DRMFree #MetroExodus
 Ad

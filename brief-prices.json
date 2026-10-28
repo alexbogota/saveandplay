@@ -1,391 +1,235 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-10-27T11:29:17.087Z",
-  "builtBy": "commit bb7603a, schedule, run #28 attempt 1",
-  "pricesCheckedAt": "2026-10-27T10:11:07.347Z",
+  "generatedAt": "2026-10-28T11:33:13.575Z",
+  "builtBy": "commit e295b62, schedule, run #29 attempt 1",
+  "pricesCheckedAt": "2026-10-28T10:18:14.217Z",
   "warnings": [],
   "candidates": [
     {
-      "id": "gog-darkest-dungeon",
+      "id": "gog-metro-exodus",
       "kind": "deal",
-      "title": "Darkest Dungeon",
-      "store": "GOG",
-      "price": 3.75,
-      "was": 24.99,
-      "discount": 85,
-      "endsAt": "2026-10-28T15:59:00+02:00",
-      "endsInHours": 26,
-      "priceCheckedAt": "2026-10-27T10:11:07.347Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187",
-      "drminfo": null,
-      "coverAlt": "Cover art for Darkest Dungeon",
-      "facts": {
-        "year": 2016,
-        "genres": [
-          "Role-playing",
-          "Turn-based",
-          "Fantasy"
-        ],
-        "tags": [
-          "Indie",
-          "Fantasy",
-          "Atmospheric",
-          "Role-playing",
-          "2D",
-          "Turn-Based",
-          "Dark",
-          "Horror",
-          "Difficult",
-          "Roguelike",
-          "Roguelite",
-          "Dungeon Crawler",
-          "Lovecraftian",
-          "Perma Death",
-          "Petting Dogs"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 12.5,
-      "discountRank": 6,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 18,
-        "lowest": true,
-        "since": "2026-10-07"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-27",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "sale ends in 26 h",
-        "lowest price we've tracked (18 days of data)",
-        "deepest-discount rank 6 of 10"
-      ]
-    },
-    {
-      "id": "gog-frostpunk",
-      "kind": "deal",
-      "title": "Frostpunk",
+      "title": "Metro Exodus",
       "store": "GOG",
       "price": 4.49,
       "was": 29.99,
       "discount": 85,
-      "endsAt": "2026-10-28T15:59:00+02:00",
-      "endsInHours": 26,
-      "priceCheckedAt": "2026-10-27T10:11:07.347Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323190/abcd2bf3c275092d637d7dd98e0061dbdd2fd2da/header.jpg?t=1784897899",
+      "endsAt": "2026-11-05T20:00:00+02:00",
+      "endsInHours": 198,
+      "priceCheckedAt": "2026-10-28T10:18:14.217Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804",
       "drminfo": null,
-      "coverAlt": "Cover art for Frostpunk",
+      "coverAlt": "Cover art for Metro Exodus",
       "facts": {
-        "year": 2018,
+        "year": 2019,
         "genres": [
-          "Strategy",
-          "Simulation",
-          "Survival"
+          "Shooter",
+          "FPP",
+          "Sci-fi"
         ],
         "tags": [
-          "Indie",
-          "Atmospheric",
-          "Strategy",
-          "Simulation",
-          "Dark",
-          "Great Soundtrack",
-          "Choices Matter",
-          "Management",
-          "Survival",
-          "Resource Management",
-          "Difficult",
-          "Base Building",
-          "Post-apocalyptic",
-          "City builder",
-          "Survival Horror",
-          "Steampunk"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 12.5,
-      "discountRank": 3,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 15,
-        "lowest": true,
-        "since": "2026-10-13"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/frostpunk/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-27",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "sale ends in 26 h",
-        "lowest price we've tracked (15 days of data)",
-        "deepest-discount rank 3 of 10"
-      ]
-    },
-    {
-      "id": "gog-thronebreaker-the-witcher-tales",
-      "kind": "deal",
-      "title": "Thronebreaker: The Witcher Tales",
-      "store": "GOG",
-      "price": 3.99,
-      "was": 19.99,
-      "discount": 80,
-      "endsAt": "2026-10-28T15:59:00+02:00",
-      "endsInHours": 26,
-      "priceCheckedAt": "2026-10-27T10:11:07.347Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/973760/f748e07df077bb0cf4c49d4bc0f6437f510c5251/header.jpg?t=1761829221",
-      "drminfo": null,
-      "coverAlt": "Cover art for Thronebreaker: The Witcher Tales",
-      "facts": {
-        "year": 2018,
-        "genres": [
-          "Role-playing",
-          "Fantasy",
-          "Strategy"
-        ],
-        "tags": [
-          "Fantasy",
           "Story Rich",
           "Atmospheric",
-          "Strategy",
-          "Role-playing",
-          "Turn-Based",
-          "Puzzle",
-          "Female Protagonist",
-          "Great Soundtrack",
-          "Choices Matter",
-          "Open World",
-          "Multiplayer",
+          "Sci-fi",
+          "First-Person",
+          "Science",
+          "Horror",
           "Mature",
-          "Sexual Content",
-          "Isometric",
-          "Medieval",
-          "Card Game"
+          "Nudity",
+          "Survival",
+          "Violent",
+          "Gore",
+          "FPS",
+          "Shooter",
+          "Post-apocalyptic",
+          "Stealth",
+          "Survival Horror",
+          "Psychological Horror"
         ]
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 12,
-      "discountRank": 7,
+      "score": 9.5,
+      "discountRank": 2,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 16,
-        "lowest": true,
-        "since": "2026-10-07"
+        "days": 11,
+        "lowest": false,
+        "since": "2026-10-18"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/thronebreaker-the-witcher-tales/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-27",
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-28",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 26 h",
-        "lowest price we've tracked (16 days of data)",
-        "deepest-discount rank 7 of 10"
+        "deepest-discount rank 2 of 2"
       ]
     },
     {
-      "id": "gog-simcity-4-deluxe-edition",
+      "id": "gog-hitman-absolution",
       "kind": "deal",
-      "title": "SimCity 4 Deluxe Edition",
+      "title": "Hitman: Absolution",
       "store": "GOG",
-      "price": 4.99,
+      "price": 1.99,
       "was": 19.99,
-      "discount": 75,
-      "endsAt": "2026-10-28T15:59:00+02:00",
-      "endsInHours": 26,
-      "priceCheckedAt": "2026-10-27T10:11:07.347Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
+      "discount": 90,
+      "endsAt": "2026-10-29T09:59:00+02:00",
+      "endsInHours": 20,
+      "priceCheckedAt": "2026-10-28T10:18:14.217Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203140/header.jpg?t=1734461136",
       "drminfo": null,
-      "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
-      "facts": {
-        "year": 2003,
-        "genres": [
-          "Simulation",
-          "Building",
-          "Managerial"
-        ],
-        "tags": [
-          "Atmospheric",
-          "Simulation",
-          "Classic",
-          "Great Soundtrack",
-          "Management",
-          "Sandbox",
-          "Real-Time",
-          "Isometric",
-          "Building",
-          "Managerial",
-          "City builder"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 11.5,
-      "discountRank": 9,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 18,
-        "lowest": true,
-        "since": "2026-10-07"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-27",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "sale ends in 26 h",
-        "lowest price we've tracked (18 days of data)",
-        "deepest-discount rank 9 of 10"
-      ]
-    },
-    {
-      "id": "gog-torchlight-ii",
-      "kind": "deal",
-      "title": "Torchlight II",
-      "store": "GOG",
-      "price": 3.99,
-      "was": 19.99,
-      "discount": 80,
-      "endsAt": "2026-10-28T15:59:00+02:00",
-      "endsInHours": 26,
-      "priceCheckedAt": "2026-10-27T10:11:07.347Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/200710/header.jpg?t=1792118316",
-      "drminfo": null,
-      "coverAlt": "Cover art for Torchlight II",
+      "coverAlt": "Cover art for Hitman: Absolution",
       "facts": {
         "year": 2012,
         "genres": [
-          "Role-playing",
           "Action",
-          "Fantasy"
+          "TPP",
+          "Stealth"
         ],
         "tags": [
           "Action",
-          "Indie",
-          "Fantasy",
+          "Story Rich",
           "Atmospheric",
-          "Role-playing",
           "Classic",
-          "Multiplayer",
-          "Isometric",
-          "Hack and Slash",
-          "Dungeon Crawler",
-          "Steampunk"
+          "Tactical",
+          "Third Person",
+          "Mature",
+          "Difficult",
+          "Stealth",
+          "Crime"
         ]
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 11,
-      "discountRank": 8,
+      "score": 4,
+      "discountRank": 1,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 7,
+        "days": 9,
         "lowest": false,
-        "since": "2026-10-21"
+        "since": "2026-10-20"
       },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/torchlight-ii/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-27",
+      "offeredOn": "2026-10-24",
+      "link": "https://saveandplay.com/deals/gog/hitman-absolution/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-28",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 26 h",
-        "deepest-discount rank 8 of 10"
+        "sale ends in 20 h",
+        "deepest-discount rank 1 of 2"
       ]
     }
   ],
   "gogNews": [
     {
-      "title": "Release: Dragon Ruins II: Aftermath",
-      "game": "dragon_ruins_ii_aftermath",
-      "url": "https://www.gog.com/en/game/dragon_ruins_ii_aftermath",
-      "newsLink": "http://www.gog.com/news/release_dragon_ruins_ii_aftermath",
-      "t": 1793012240000,
-      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fdragon_ruins_ii_aftermath"
+      "title": "Release: Remothered: Red Nun's Legacy",
+      "game": "remothered_red_nuns_legacy",
+      "url": "https://www.gog.com/en/game/remothered_red_nuns_legacy",
+      "newsLink": "http://www.gog.com/news/release_remothered_red_nun_s_legacy",
+      "t": 1793096331000,
+      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fremothered_red_nuns_legacy"
     },
     {
-      "title": "Out of Early Access: Every Day We Fight",
-      "game": "every_day_we_fight",
-      "url": "https://www.gog.com/en/game/every_day_we_fight",
-      "newsLink": "http://www.gog.com/news/out_of_early_access_every_day_we_fight",
-      "t": 1793011990000,
-      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fevery_day_we_fight"
+      "title": "Release: Cat Isle",
+      "game": "cat_isle",
+      "url": "https://www.gog.com/en/game/cat_isle",
+      "newsLink": "http://www.gog.com/news/release_cat_isle",
+      "t": 1793096163000,
+      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fcat_isle"
     },
     {
-      "title": "Release: HOTEL BARCELONA, read an interview with one of the creators!",
-      "game": "hotel_barcelona",
-      "url": "https://www.gog.com/en/game/hotel_barcelona",
-      "newsLink": "http://www.gog.com/news/release_hotel_barcelona_read_interview_with_one_of_the_creators",
-      "t": 1792977606000,
-      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fhotel_barcelona"
+      "title": "Coming soon: over the hill",
+      "game": "over_the_hill",
+      "url": "https://www.gog.com/en/game/over_the_hill",
+      "newsLink": "http://www.gog.com/news/coming_soon_over_the_hill",
+      "t": 1793096096000,
+      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fover_the_hill"
     }
   ],
   "topical": [
     {
-      "title": "New PC and Xbox game deals just dropped! Snag No Man's Sky at 60% off and more",
+      "title": "Slay the Princess gets its biggest Steam discount yet! Save 60% during Scream Fest V",
       "source": "gg.deals News",
-      "link": "https://gg.deals/deal/xbox-pc-deals-oct-27-2026/",
-      "t": 1793091600000,
-      "keyword": "deals",
-      "summary": "More PC and Xbox game deals have landed on the Xbox Store!"
+      "link": "https://gg.deals/deal/slay-the-princess-gets-its-biggest-steam-discount-yet/",
+      "t": 1793181600000,
+      "keyword": "discount",
+      "summary": "The acclaimed horror game is currently 60% off on Steam."
     },
     {
-      "title": "A free 'micro' horror game from the maker of The Mortuary Assistant is basically if PT was an episode of Law and Order",
-      "source": "PC Gamer",
-      "link": "https://www.pcgamer.com/games/horror/a-free-micro-horror-game-from-the-maker-of-the-mortuary-assistant-is-basically-if-pt-was-an-episode-of-law-and-order/",
-      "t": 1793051278000,
+      "title": "DOOM (2016) is FREE to grab today, courtesy of Lenovo!",
+      "source": "gg.deals Freebies",
+      "link": "https://gg.deals/freebie/doom-2016-is-free-to-grab-today-courtesy-of-lenovo/",
+      "t": 1793177400000,
       "keyword": "free",
-      "summary": "Halloween is almost upon us, and if you're looking for some suitably spooky videogame fun then allow me to direct your attention to Playable Archive , a free \"…"
+      "summary": "Fancy some free demon-slaying?"
     },
     {
-      "title": "Fanatical’s Puzzle Adventure Bundle: Choose 3 Steam Games for $9.99",
-      "source": "Indie Game Bundles",
-      "link": "https://www.indiegamebundles.com/fanaticals-puzzle-adventure-bundle-choose-3-steam-games-for-9-99/",
-      "t": 1793044649000,
-      "keyword": "bundle",
-      "summary": "Puzzle Adventure Bundle is featuring 19 games and collections covering puzzle adventures, escape rooms, mysteries, and co-op challenges. The post Fanatical’s P…"
-    },
-    {
-      "title": "Humble Flat2VR Bundle: 9 Steam VR Games Including Roboquest VR and I AM YOUR BEAST VR for $22",
-      "source": "Indie Game Bundles",
-      "link": "https://www.indiegamebundles.com/humble-flat2vr-bundle/",
-      "t": 1793044338000,
-      "keyword": "bundle",
-      "summary": "Humble Bundle has launched the Flat2VR Bundle, offering 9 PC VR games with a combined regular value of over $217 for just $22. The post Humble Flat2VR Bundle: …"
+      "title": "Paranormal shooter Phantom Line now has a FREE Steam prologue!",
+      "source": "gg.deals Freebies",
+      "link": "https://gg.deals/freebie/paranormal-shooter-phantom-line-now-has-a-free-steam-prologue/",
+      "t": 1793124780000,
+      "keyword": "free",
+      "summary": "Planned for release in 2027, Phantom Line seeks to offer something different for fans of open-world tactical co-op FPS titles."
     }
   ],
   "topics": [
     {
-      "headline": "Phantom Blade Zero preload date revealed amid glowing reviews",
-      "score": 11,
+      "headline": "Assassin's Creed Black Flag Resynced is wrapping things up with one last big update that adds in new game plus and a throwback to the original game",
+      "score": 9,
       "sites": [
         "gg.deals",
-        "pcgamer.com",
+        "rockpapershotgun.com",
         "eurogamer.net"
       ],
-      "keywords": [
-        "free"
-      ],
+      "keywords": [],
       "games": [],
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Phantom Blade Zero preload date revealed amid glowing reviews",
-          "link": "https://gg.deals/gaming-news/phantom-blade-zero-preload-date-revealed-amid-glowing-reviews/",
-          "published": "2026-10-26T17:59:16.000Z"
+          "title": "Ahoy there! Assassin's Creed Black Flag Resynced gets New Game+ today & discounted on PC & XBOX!",
+          "link": "https://gg.deals/gaming-news/ahoy-there-assassins-creed-black-flag-resynced-gets-new-game-today-discounted-on-pc-xbox/",
+          "published": "2026-10-27T12:30:00.000Z"
         },
         {
-          "source": "PC Gamer",
-          "title": "Phantom Blade Zero devs say the game needs 300 GB of free space for the pre-load process, alongside updated system requirements",
-          "link": "https://www.pcgamer.com/hardware/phantom-blade-zero-devs-say-the-game-needs-300-gb-of-free-space-for-the-pre-load-process-alongside-updated-system-requirements/",
-          "published": "2026-10-26T14:21:32.000Z"
+          "source": "Rock Paper Shotgun",
+          "title": "Assassin's Creed Black Flag Resynced is wrapping things up with one last big update that adds in new game plus and a throwback to the original game",
+          "link": "https://www.rockpapershotgun.com/assassins-creed-black-flag-resynced-is-wrapping-things-up-with-one-last-big-update-that-adds-in-new-game-plus-and-a-throwback-to-the-original-game",
+          "published": "2026-10-27T17:58:44.000Z"
         },
         {
           "source": "Eurogamer",
-          "title": "Phantom Blade Zero review",
-          "link": "https://www.eurogamer.net/phantom-blade-zero-review-1",
-          "published": "2026-10-26T00:00:00.000Z"
+          "title": "Assassin's Creed Black Flag Resynced's final major update adds long-awaited New Game Plus, new Nightmare difficulty and much more",
+          "link": "https://www.eurogamer.net/assassins-creed-black-flag-resynced-new-game-plus-final-update",
+          "published": "2026-10-27T09:18:45.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "\"This is a serious incident\": Kingdom Come: Deliverance 2 devs Warhorse hit by cyberattack targeting their systems and data",
+      "score": 9,
+      "sites": [
+        "pcgamer.com",
+        "rockpapershotgun.com",
+        "eurogamer.net"
+      ],
+      "keywords": [],
+      "games": [],
+      "items": [
+        {
+          "source": "PC Gamer",
+          "title": "Kingdom Come, Lord of the Rings studio Warhorse 'hit by a cyberattack'",
+          "link": "https://www.pcgamer.com/gaming-industry/kingdom-come-lord-of-the-rings-studio-warhorse-hit-by-a-cyberattack/",
+          "published": "2026-10-27T11:55:58.000Z"
+        },
+        {
+          "source": "Rock Paper Shotgun",
+          "title": "\"This is a serious incident\": Kingdom Come: Deliverance 2 devs Warhorse hit by cyberattack targeting their systems and data",
+          "link": "https://www.rockpapershotgun.com/this-is-a-serious-incident-kingdom-come-deliverance-2-devs-warhorse-hit-by-cyberattack-targeting-their-systems-and-data",
+          "published": "2026-10-27T17:00:00.000Z"
+        },
+        {
+          "source": "Eurogamer",
+          "title": "\"This is a serious incident\" - Kingdom Come: Deliverance developer Warhorse suffers cyberattack",
+          "link": "https://www.eurogamer.net/warhorse-cyberattack-kingdom-come-deliverance",
+          "published": "2026-10-27T16:53:16.000Z"
         }
       ]
     },
@@ -421,86 +265,54 @@
       ]
     },
     {
-      "headline": "V Rising's Haunted Nights Castle Pack DLC is FREE to keep on Steam and PlayStation this Halloween!",
+      "headline": "Green Man Gaming LEGO DC vs Marvel Bundle: Get 7 Steam Games for Just $8",
       "score": 8,
       "sites": [
-        "gamerpower.com",
-        "gg.deals"
+        "gg.deals",
+        "indiegamebundles.com"
       ],
       "keywords": [
-        "free"
+        "bundle"
       ],
       "games": [],
       "items": [
         {
-          "source": "GamerPower (PC)",
-          "title": "V Rising - Haunted Nights Castle Pack (Steam) Giveaway",
-          "link": "https://www.gamerpower.com/v-rising-haunted-nights-castle-pack-steam-giveaway",
-          "published": "2026-10-26T17:36:30.000Z"
-        },
-        {
-          "source": "gg.deals Freebies",
-          "title": "V Rising's Haunted Nights Castle Pack DLC is FREE to keep on Steam and PlayStation this Halloween!",
-          "link": "https://gg.deals/freebie/v-rising-free-dlc-haunted-nights-castle-pack-halloween/",
-          "published": "2026-10-26T19:22:28.000Z"
-        },
-        {
           "source": "gg.deals News",
-          "title": "V Rising's Haunted Nights Castle Pack DLC is FREE to keep on Steam and PlayStation this Halloween!",
-          "link": "https://gg.deals/freebie/v-rising-free-dlc-haunted-nights-castle-pack-halloween/",
-          "published": "2026-10-26T19:22:28.000Z"
+          "title": "Green Man Gaming's LEGO DC vs Marvel Collection Bundle gets you 9 titles for just $7.25!",
+          "link": "https://gg.deals/bundle/green-man-gaming-lego-dc-vs-marvel-collection-bundle-gets-you-9-titles-for-just-725/",
+          "published": "2026-10-27T13:41:00.000Z"
+        },
+        {
+          "source": "Indie Game Bundles",
+          "title": "Green Man Gaming LEGO DC vs Marvel Bundle: Get 7 Steam Games for Just $8",
+          "link": "https://www.indiegamebundles.com/green-man-gaming-lego-dc-vs-marvel-bundle/",
+          "published": "2026-10-27T20:07:37.000Z"
         }
       ]
     },
     {
-      "headline": "Tactical RPG Ancient Evil is up for grabs for FREE on IndieGala!",
+      "headline": "Fanatical’s Slayer Bundle: Choose 3 Steam Games for $4.95",
       "score": 8,
       "sites": [
-        "gamerpower.com",
-        "gg.deals"
+        "gg.deals",
+        "indiegamebundles.com"
       ],
       "keywords": [
-        "free"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "GamerPower (PC)",
-          "title": "ANCIENT EVIL (IndieGala) Giveaway",
-          "link": "https://www.gamerpower.com/ancient-evil-pc-giveaway",
-          "published": "2026-10-26T15:04:23.000Z"
-        },
-        {
-          "source": "gg.deals Freebies",
-          "title": "Tactical RPG Ancient Evil is up for grabs for FREE on IndieGala!",
-          "link": "https://gg.deals/freebie/tactical-rpg-ancient-evil-is-up-for-grabs-for-free-on-indiegala/",
-          "published": "2026-10-26T16:09:17.000Z"
-        },
-        {
-          "source": "gg.deals News",
-          "title": "Tactical RPG Ancient Evil is up for grabs for FREE on IndieGala!",
-          "link": "https://gg.deals/freebie/tactical-rpg-ancient-evil-is-up-for-grabs-for-free-on-indiegala/",
-          "published": "2026-10-26T16:09:17.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Steam's Halloween Sale 2026: 50 killer deals under $5",
-      "score": 7,
-      "sites": [
-        "gg.deals"
-      ],
-      "keywords": [
-        "sale",
-        "deals"
+        "bundle"
       ],
       "games": [],
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Steam's Halloween Sale 2026: 50 killer deals under $5",
-          "link": "https://gg.deals/wallet-friendly/steams-halloween-sale-2026-50-killer-deals-under-5/",
-          "published": "2026-10-27T11:22:48.000Z"
+          "title": "Fanatical's BYO Slayer Bundle starts from $4.95 for 3 spine-chilling games",
+          "link": "https://gg.deals/bundle/fanaticals-byo-slayer-bundle-starts-from-495-for-3-spine-chilling-games/",
+          "published": "2026-10-27T14:55:00.000Z"
+        },
+        {
+          "source": "Indie Game Bundles",
+          "title": "Fanatical’s Slayer Bundle: Choose 3 Steam Games for $4.95",
+          "link": "https://www.indiegamebundles.com/fanaticals-slayer-bundle-choose-3-steam-games-for-4-95/",
+          "published": "2026-10-27T20:01:11.000Z"
         }
       ]
     }
@@ -513,8 +325,8 @@
     "taken": 0,
     "smallDiscount": 0,
     "ended": 0,
-    "endsTooSoon": 0,
-    "oldPrice": 0
+    "endsTooSoon": 7,
+    "oldPrice": 1
   },
   "sources": {
     "total": 11,
@@ -522,25 +334,25 @@
   },
   "posts": {
     "x": {
-      "text": "Darkest Dungeon: -85% at GOG\n$3.75 (was $24.99)\nPrice checked Oct 27. Sale ends Oct 28. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-27\n\n#PCGaming #GameDeals\nAd",
-      "length": 165,
+      "text": "Metro Exodus: -85% at GOG\n$4.49 (was $29.99)\nPrice checked Oct 28. Sale ends Nov 5.\n\nhttps://saveandplay.com/deals/gog/metro-exodus/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-28\n\n#PCGaming #GOG\nAd",
+      "length": 127,
       "max": 270,
-      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-27",
-      "deal": "gog-darkest-dungeon"
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-28",
+      "deal": "gog-metro-exodus"
     },
     "bluesky": {
-      "text": "Darkest Dungeon: -85% at GOG\n$3.75 (was $24.99)\nPrice checked Oct 27. Sale ends Oct 28. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-27\n\n#PCGaming #GameDeals #Gaming #DarkestDungeon #VideoGames\nAd",
-      "length": 203,
+      "text": "Metro Exodus: -85% at GOG\n$4.49 (was $29.99)\nPrice checked Oct 28. Sale ends Nov 5.\n\nhttps://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-28\n\n#PCGaming #GameDeals #DRMFree #Games #PCGames\nAd",
+      "length": 160,
       "max": 300,
-      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-27",
-      "deal": "gog-darkest-dungeon"
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-28",
+      "deal": "gog-metro-exodus"
     },
     "mastodon": {
-      "text": "Darkest Dungeon: -85% at GOG\n$3.75 (was $24.99)\nYou save $21.24\nDRM-free\nPrice checked Oct 27. Sale ends Oct 28. Lowest price we've tracked.\nWhy today: sale ends in 26 h.\n\nhttps://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-27\n\n#GameDeals #PCGaming #GOG #DRMFree #VideoGames\nAd",
-      "length": 246,
+      "text": "Metro Exodus: -85% at GOG\n$4.49 (was $29.99)\nYou save $25.50\nDRM-free\nPrice checked Oct 28. Sale ends Nov 5.\nWhy today: deepest-discount rank 2 of 2.\n\nhttps://saveandplay.com/deals/gog/metro-exodus/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-28\n\n#GameDeals #PCGaming #GOG #DRMFree #MetroExodus\nAd",
+      "length": 226,
       "max": 500,
-      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-27",
-      "deal": "gog-darkest-dungeon"
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-28",
+      "deal": "gog-metro-exodus"
     }
   }
 }
