@@ -1,0 +1,23 @@
+{
+  "madeAt": "2026-10-29T15:54:55.773Z",
+  "run": "40906318957",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices-2|2026-10-29|/deals/gog/thronebreaker-the-witcher-tales/",
+      "account": "prices-2",
+      "handle": "saveandplay.com",
+      "n": 2,
+      "link": "https://saveandplay.com/deals/gog/thronebreaker-the-witcher-tales/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-29",
+      "text": "Thronebreaker: The Witcher Tales: -80% at GOG\n$3.99 (was $19.99)\nPrice checked Oct 29. Sale ends Nov 5. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/thronebreaker-the-witcher-tales/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-29\n\n#PCGaming #GameDeals #Games #DRMFree #PCGames\nAd",
+      "approvedFile": "posts-approved-20261029-134305.json",
+      "approvedAt": "2026-10-29T13:43:05.305Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-29T15:54:58.612Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3myzmtth62j2y",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3myzmtth62j2y",
+      "picture": true
+    }
+  ]
+}
