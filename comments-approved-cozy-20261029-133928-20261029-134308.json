@@ -1,0 +1,36 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-cozy-20261029-133928.json",
+  "approvedAt": "2026-10-29T13:43:08.638Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:fwofya54wiwfkwrjpajahjyb/app.bsky.feed.post/3myzcwqr5nc2g",
+      "url": "https://bsky.app/profile/kirsties.wsocial.eu/post/3myzcwqr5nc2g",
+      "author": "kirsties.wsocial.eu",
+      "context": "You know, I didn't think I was a gamer but from the ZX Spectrum onward I have always played games! 😄 Funny how we choose to see ourselves sometimes isn't it? Currently absolutely obsessed with cosy game Stardew Valley as it's about all I can cope with cognitively and I adore the gameplay #wgames",
+      "text": "Stardew is a lovely fit for that: no one rushes you, and every day is a small, finishable chunk you can do at your own pace. Glad you found a game that feels this good.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:hveuq5q35hmu4zpqpbmkc4mu/app.bsky.feed.post/3mywuqbrro22d",
+      "url": "https://bsky.app/profile/flacoelcielito5.bsky.social/post/3mywuqbrro22d",
+      "author": "flacoelcielito5.bsky.social",
+      "context": "Friendos, what video games are we playing today? And what are your cozy plans for today? 👀😊\nlink card: นอนหลับสบาย: Figaro จาก Pinocchio",
+      "text": "A gentle pick for a calm day is Dorfromantik: you place tiles one at a time and a little landscape slowly grows, with no timer to chase. Hope your day is a cozy one.",
+      "edited": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:47qgugugjlboappxjcaugjex/app.bsky.feed.post/3myz2dkemjk2o",
+      "url": "https://bsky.app/profile/reichurin.bsky.social/post/3myz2dkemjk2o",
+      "author": "reichurin.bsky.social",
+      "context": "tbh stardew is perfect for it but my laptop runs hot when i open even a single tab so im put off from playing games on it. i have mistria too, maybe i should give it another go? last played it in beta where i just knew too little so it felt like there was nothing to do almost?",
+      "text": "Stardew is a pixel game that runs on very modest hardware, so it's usually much easier on a hot laptop than newer 3D games. A hard surface or a cooling pad under the laptop helps too.",
+      "edited": false
+    }
+  ]
+}
