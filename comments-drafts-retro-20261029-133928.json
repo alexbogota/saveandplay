@@ -1,0 +1,49 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261029-133928",
+  "madeAt": "2026-10-29T13:40:30.362Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:rdwjd4btrbqfyczrhyl2iwlx/app.bsky.feed.post/3myxcdg7d222j",
+      "url": "https://bsky.app/profile/haitchkay.bsky.social/post/3myxcdg7d222j",
+      "author": "haitchkay.bsky.social",
+      "context": "My first PC games I remember: Duke 3D (played on DOS) Doom (played on DOS) Thief: The Dark Project Microsoft Flight Simulator 98 One of these things is not like the others\nquotes @win98tech.bsky.social: My first PC games i remember Age of Empires Robinhood Paint by Numbers Anno 1602 Warcraft Sim City 2000 Civilization 2 Not a lot but man di…",
+      "text": "Flight Simulator 98 sneaking in between Doom and Duke 3D is a great curveball. Thief: The Dark Project is still loved for how it made light and sound part of the stealth.",
+      "group": "classicPC",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:mgby27udvjw4eoviqbtmbhv3/app.bsky.feed.post/3myx3hbi75c2v",
+      "url": "https://bsky.app/profile/stevelin.bsky.social/post/3myx3hbi75c2v",
+      "author": "stevelin.bsky.social",
+      "context": "I bought this at the last Portland Retro Gaming Expo because I remember being so excited to hear the character voices that I literally fell out of my chair during the intro. Note the system requirements: NOT A COMPLETE GAME: REQUIRES WING COMMANDER II CORE GAME\nimage: A boxed copy of the Wing Commander 2 Vengeance of the Kilrathi Speech Accessory Pack. It has a red border on the top and bottom, the Wing Commander 2 logo, and…",
+      "text": "Great find, and hearing voices in a space sim for the first time must have been wild. That Speech Accessory Pack was a big deal back then because it added voice acting to Wing Commander II.",
+      "group": "classicPC",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:u55yleycvie2syrt3fy3x6f7/app.bsky.feed.post/3myx2o7kq5k2i",
+      "url": "https://bsky.app/profile/theeveningprimrose.bsky.social/post/3myx2o7kq5k2i",
+      "author": "theeveningprimrose.bsky.social",
+      "context": "I definitely played some DOS games but I can't remember their names. Myst is the earliest one I can remember. Me and my sister got really into it. I have the journal the game came with filled with her notes somewhere",
+      "text": "Myst with a sister and a journal full of notes sounds like exactly how it was meant to be played, since its puzzles reward careful note-taking. Hold on to that journal.",
+      "group": "classicPC",
+      "heated": false
+    },
+    {
+      "n": 4,
+      "uri": "at://did:plc:plkct7me6inljknhjyrphjcl/app.bsky.feed.post/3myz7f23dus23",
+      "url": "https://bsky.app/profile/stevewillshan.bsky.social/post/3myz7f23dus23",
+      "author": "stevewillshan.bsky.social",
+      "context": "As a Nintendo kid growing up, it always confused me why PC game boxes were so large and in some cases, CRAZY shaped, while NES and SNES boxes were rather form fitting. Made me assume PC games were just... bigger? ...pointier?",
+      "text": "Part of it was everything inside: thick manuals, floppy disks and extras like maps and trinkets took a lot of room. A big box also stood out on a crowded shelf.",
+      "group": "retroFeed",
+      "heated": false
+    }
+  ]
+}
