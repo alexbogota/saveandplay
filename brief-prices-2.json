@@ -1,61 +1,288 @@
 {
   "account": "Honest prices (second deal of the day)",
-  "generatedAt": "2026-10-28T11:33:13.575Z",
-  "builtBy": "commit e295b62, schedule, run #29 attempt 1",
-  "pricesCheckedAt": "2026-10-28T10:18:14.217Z",
+  "generatedAt": "2026-10-29T11:34:01.647Z",
+  "builtBy": "commit 4d80822, schedule, run #30 attempt 1",
+  "pricesCheckedAt": "2026-10-29T10:20:02.535Z",
   "warnings": [],
   "candidates": [
     {
-      "id": "gog-hitman-absolution",
+      "id": "gog-thronebreaker-the-witcher-tales",
       "kind": "deal",
-      "title": "Hitman: Absolution",
+      "title": "Thronebreaker: The Witcher Tales",
       "store": "GOG",
-      "price": 1.99,
+      "price": 3.99,
       "was": 19.99,
-      "discount": 90,
-      "endsAt": "2026-10-29T09:59:00+02:00",
-      "endsInHours": 20,
-      "priceCheckedAt": "2026-10-28T10:18:14.217Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203140/header.jpg?t=1734461136",
+      "discount": 80,
+      "endsAt": "2026-11-05T09:59:00+02:00",
+      "endsInHours": 164,
+      "priceCheckedAt": "2026-10-29T10:19:57.354Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/973760/f748e07df077bb0cf4c49d4bc0f6437f510c5251/header.jpg?t=1761829221",
       "drminfo": null,
-      "coverAlt": "Cover art for Hitman: Absolution",
+      "coverAlt": "Cover art for Thronebreaker: The Witcher Tales",
       "facts": {
-        "year": 2012,
+        "year": 2018,
         "genres": [
-          "Action",
-          "TPP",
-          "Stealth"
+          "Role-playing",
+          "Fantasy",
+          "Strategy"
         ],
         "tags": [
-          "Action",
+          "Fantasy",
           "Story Rich",
           "Atmospheric",
-          "Classic",
-          "Tactical",
-          "Third Person",
+          "Strategy",
+          "Role-playing",
+          "Turn-Based",
+          "Puzzle",
+          "Female Protagonist",
+          "Great Soundtrack",
+          "Choices Matter",
+          "Open World",
+          "Multiplayer",
           "Mature",
-          "Difficult",
-          "Stealth",
-          "Crime"
+          "Sexual Content",
+          "Isometric",
+          "Medieval",
+          "Card Game"
         ]
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 4,
-      "discountRank": 1,
+      "score": 10,
+      "discountRank": 6,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 9,
-        "lowest": false,
-        "since": "2026-10-20"
+        "days": 18,
+        "lowest": true,
+        "since": "2026-10-07"
       },
-      "offeredOn": "2026-10-24",
-      "link": "https://saveandplay.com/deals/gog/hitman-absolution/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-28",
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/thronebreaker-the-witcher-tales/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-29",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 20 h",
-        "deepest-discount rank 1 of 1"
+        "lowest price we've tracked (18 days of data)",
+        "deepest-discount rank 6 of 8"
+      ]
+    },
+    {
+      "id": "indiegala-no-man-s-sky",
+      "kind": "deal",
+      "title": "No Man's Sky",
+      "store": "IndieGala",
+      "price": 23.99,
+      "was": 59.99,
+      "discount": 60,
+      "endsAt": "2026-11-02T23:59:00Z",
+      "endsInHours": 108,
+      "priceCheckedAt": "2026-10-29T10:20:02.535Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/84d0df065c36eb8ded7bdf0d8fccd19d43b6c005/header.jpg?t=1789479023",
+      "drminfo": "Steam key",
+      "coverAlt": "Cover art for No Man's Sky",
+      "facts": {
+        "year": 2016,
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "tags": []
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 10,
+      "discountRank": 8,
+      "sites": 1,
+      "mentions": [
+        {
+          "source": "Eurogamer",
+          "domain": "eurogamer.net",
+          "title": "As No Man's Sky arrives on mobile, Hello Games celebrates with a spooky update for all that includes delivery missions and \"seamless\" interstellar travel",
+          "link": "https://www.eurogamer.net/no-mans-sky-forsaken-update-release-ipad-iphone",
+          "t": 1793196000000,
+          "how": "title"
+        }
+      ],
+      "history": {
+        "days": 14,
+        "lowest": true,
+        "since": "2026-10-05"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/indiegala/no-man-s-sky/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-29",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "1 news site wrote about the game in the last 48 h",
+        "lowest price we've tracked (14 days of data)",
+        "deepest-discount rank 8 of 8"
+      ]
+    },
+    {
+      "id": "gog-this-war-of-mine",
+      "kind": "deal",
+      "title": "This War of Mine",
+      "store": "GOG",
+      "price": 2.99,
+      "was": 19.99,
+      "discount": 85,
+      "endsAt": "2026-11-05T09:59:00+02:00",
+      "endsInHours": 164,
+      "priceCheckedAt": "2026-10-29T10:19:57.354Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
+      "drminfo": null,
+      "coverAlt": "Cover art for This War of Mine",
+      "facts": {
+        "year": 2014,
+        "genres": [
+          "Action",
+          "Adventure",
+          "Survival"
+        ],
+        "tags": [
+          "Adventure",
+          "Action",
+          "Indie",
+          "Story Rich",
+          "Atmospheric",
+          "Choices Matter",
+          "Management",
+          "Survival",
+          "Resource Management",
+          "Real-Time",
+          "War",
+          "Crafting",
+          "Base Building",
+          "Emotional",
+          "Post-apocalyptic",
+          "Stealth",
+          "Psychological"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 9.5,
+      "discountRank": 3,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 11,
+        "lowest": false,
+        "since": "2026-10-19"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-29",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 3 of 8"
+      ]
+    },
+    {
+      "id": "gog-simcity-4-deluxe-edition",
+      "kind": "deal",
+      "title": "SimCity 4 Deluxe Edition",
+      "store": "GOG",
+      "price": 4.99,
+      "was": 19.99,
+      "discount": 75,
+      "endsAt": "2026-11-05T09:59:00+02:00",
+      "endsInHours": 164,
+      "priceCheckedAt": "2026-10-29T10:19:57.354Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
+      "drminfo": null,
+      "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
+      "facts": {
+        "year": 2003,
+        "genres": [
+          "Simulation",
+          "Building",
+          "Managerial"
+        ],
+        "tags": [
+          "Atmospheric",
+          "Simulation",
+          "Classic",
+          "Great Soundtrack",
+          "Management",
+          "Sandbox",
+          "Real-Time",
+          "Isometric",
+          "Building",
+          "Managerial",
+          "City builder"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 9.5,
+      "discountRank": 7,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 20,
+        "lowest": true,
+        "since": "2026-10-07"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-29",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "lowest price we've tracked (20 days of data)",
+        "deepest-discount rank 7 of 8"
+      ]
+    },
+    {
+      "id": "gog-dragon-s-dogma-dark-arisen",
+      "kind": "deal",
+      "title": "Dragon's Dogma: Dark Arisen",
+      "store": "GOG",
+      "price": 4.79,
+      "was": 29.99,
+      "discount": 84,
+      "endsAt": "2026-11-05T09:59:00+02:00",
+      "endsInHours": 164,
+      "priceCheckedAt": "2026-10-29T10:19:57.354Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367500/header.jpg?t=1768870344",
+      "drminfo": null,
+      "coverAlt": "Cover art for Dragon's Dogma: Dark Arisen",
+      "facts": {
+        "year": 2016,
+        "genres": [
+          "Role-playing",
+          "Action",
+          "Open World"
+        ],
+        "tags": [
+          "Action",
+          "Fantasy",
+          "Story Rich",
+          "Atmospheric",
+          "Role-playing",
+          "Exploration",
+          "Great Soundtrack",
+          "Third Person",
+          "Open World",
+          "Multiplayer",
+          "Difficult",
+          "JRPG",
+          "Magic",
+          "Hack and Slash"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 9.4,
+      "discountRank": 5,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 10,
+        "lowest": false,
+        "since": "2026-10-18"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/dragon-s-dogma-dark-arisen/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-29",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "deepest-discount rank 5 of 8"
       ]
     }
   ],
@@ -68,10 +295,11 @@
     "notNiche": 0,
     "noFacts": 0,
     "taken": 1,
+    "repeat": 0,
     "smallDiscount": 0,
     "ended": 0,
-    "endsTooSoon": 7,
-    "oldPrice": 1
+    "endsTooSoon": 0,
+    "oldPrice": 0
   },
   "sources": {
     "total": 11,
@@ -79,18 +307,18 @@
   },
   "posts": {
     "x": {
-      "text": "Hitman: Absolution: -90% at GOG\n$1.99 (was $19.99)\nPrice checked Oct 28. Sale ends Oct 29.\n\nhttps://saveandplay.com/deals/gog/hitman-absolution/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-28\n\n#PCGaming #GOG\nAd",
-      "length": 134,
+      "text": "Thronebreaker: The Witcher Tales: -80% at GOG\n$3.99 (was $19.99)\nPrice checked Oct 29. Sale ends Nov 5. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/thronebreaker-the-witcher-tales/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-29\n\n#PCGaming #Thronebreaker\nAd",
+      "length": 185,
       "max": 270,
-      "link": "https://saveandplay.com/deals/gog/hitman-absolution/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-28",
-      "deal": "gog-hitman-absolution"
+      "link": "https://saveandplay.com/deals/gog/thronebreaker-the-witcher-tales/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-29",
+      "deal": "gog-thronebreaker-the-witcher-tales"
     },
     "bluesky": {
-      "text": "Hitman: Absolution: -90% at GOG\n$1.99 (was $19.99)\nPrice checked Oct 28. Sale ends Oct 29.\n\nhttps://saveandplay.com/deals/gog/hitman-absolution/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-28\n\n#PCGaming #GameDeals #VideoGames #Gaming #Hitman\nAd",
-      "length": 170,
+      "text": "Thronebreaker: The Witcher Tales: -80% at GOG\n$3.99 (was $19.99)\nPrice checked Oct 29. Sale ends Nov 5. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/thronebreaker-the-witcher-tales/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-29\n\n#PCGaming #GameDeals #Games #DRMFree #PCGames\nAd",
+      "length": 208,
       "max": 300,
-      "link": "https://saveandplay.com/deals/gog/hitman-absolution/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-28",
-      "deal": "gog-hitman-absolution"
+      "link": "https://saveandplay.com/deals/gog/thronebreaker-the-witcher-tales/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-29",
+      "deal": "gog-thronebreaker-the-witcher-tales"
     }
   }
 }
