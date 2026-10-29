@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#0D1117"/>
+<rect x="56" y="22" width="1088" height="586" rx="28" fill="#161B22" stroke="#262D38"/>
+<text x="100" y="95" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="40" font-weight="700" fill="#FFFFFF">Storage line on five Steam pages</text>
+<text x="100" y="135" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="26" fill="#9AA5B4">Read October 29, 2026</text>
+<g font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="28" fill="#E8ECF1">
+<text x="100" y="215">Phantom Blade Zero</text>
+<rect x="450" y="185" width="600" height="40" rx="8" fill="none" stroke="#3DDC97" stroke-width="4"/>
+<text x="470" y="215" fill="#FFFFFF">145 GB</text>
+<text x="100" y="285">No Man's Sky</text>
+<rect x="450" y="255" width="62" height="40" rx="8" fill="none" stroke="#3DDC97" stroke-width="4"/>
+<text x="530" y="285" fill="#FFFFFF">15 GB</text>
+<text x="100" y="355">Thronebreaker</text>
+<rect x="450" y="325" width="33" height="40" rx="8" fill="none" stroke="#3DDC97" stroke-width="4"/>
+<text x="500" y="355" fill="#FFFFFF">8 GB</text>
+<text x="100" y="425">SimCity 4 Deluxe</text>
+<rect x="450" y="395" width="10" height="40" rx="4" fill="none" stroke="#3DDC97" stroke-width="4"/>
+<text x="480" y="425" fill="#FFFFFF">1.6 GB</text>
+<text x="100" y="495">This War of Mine</text>
+<text x="450" y="495" fill="#9AA5B4">no storage line listed</text>
+</g>
+<rect x="100" y="530" width="520" height="48" rx="10" fill="#FFB454"/>
+<text x="120" y="563" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="26" font-weight="700" fill="#1B1203">Also read: "SSD installation required"</text>
+</svg>
