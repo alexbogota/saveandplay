@@ -1,54 +1,56 @@
 # Comment candidates: cozy (@cozygame.bsky.social)
-Made 2026-10-29T01:01Z. Searched: askCozy: cozy game recommendations | askCozy: cozy games recommend | askCozy: looking for cozy games | askCozy: relaxing games | stardew: farming games | stardew: stardew valley | stardew: games like stardew valley | stardew: stardew | evening: cozy game | evening: something cozy play | evening: cozy gaming | evening: chill game tonight | wholesome: wholesome games | wholesome: comfort game | wholesome: cottagecore game | deck: cozy steam deck | deck: steam deck relaxing games | deck: steam deck farming sim | seasonal: cozy autumn game | seasonal: cozy spooky games | seasonal: cozy halloween games | cozyFeed: feed.
-Posts below: 12 + 2 heated. Dropped in this run: skip word 180, bot, shop or studio 61, promo (link and hashtags) 8, already shown 7, other language (text) 6, replies are limited 20, console only 7, not about games 10, too short 9, own post 3, adult or graphic label 2, already answered 1, many links 2, empty 1, low score 6, not a question 20, other language 11, too many hashtags 1, earlier finds: low score 4.
+Made 2026-10-29T07:00Z. Searched: askCozy: cozy game recommendation | askCozy: cozy games steam | askCozy: recommend cozy game | askCozy: wholesome game recommend | stardew: farming sim | stardew: life sim | stardew: stardew valley recommendations | stardew: farming games | evening: cozy games tonight | evening: cozy gaming evening | evening: cozy game | evening: something cozy play | wholesome: wholesome games | wholesome: comfort game | wholesome: cottagecore game | deck: cozy steam deck | deck: steam deck relaxing games | deck: steam deck farming sim | seasonal: cozy autumn game | seasonal: cozy spooky games | seasonal: cozy halloween games | cozyFeed: feed.
+Posts below: 12 + 2 heated. Dropped in this run: bot, shop or studio 37, promo (link and hashtags) 7, skip word 113, many links 4, too short 6, console only 11, not about games 7, low score 15, too many hashtags 3, replies are limited 7, adult or graphic label 1, other language (text) 2, already shown 1, not a question 20, other language 10, earlier finds: low score 5.
 
 ## Posts
-1. @nesstalgic.bsky.social (SpookyNess (Nesstalgic) 🪾🐦‍⬛ Cozy Game) · 53m · likes 14 · replies 1 · question · evening
-   https://bsky.app/profile/nesstalgic.bsky.social/post/3myxxwko4u226
-   Cave Oasis at Shylake is officially out today and I managed to squeeze in the Cozy Highlight 🥳 Main features I liked: 🌱 Resource management and farming system 🌱 Diverse lifeforms working together (that includes you!) 🌱 Retro graphics and UI for a nostalgic feel Is this game f
-   [link card: Cozy Highlight: Cave Oasis at Shylake | Sci-Fi Meets Farming]
-2. @qwiery.bsky.social (👻🌙 Qwiery (on hiatus atm) 🏳️‍⚧️💗) · 5h · likes 1 · replies 0 · question · stardew
-   https://bsky.app/profile/qwiery.bsky.social/post/3myxlhpeti22z
-   Hopefully its the latter lol, Like concernedape just plodding along and then being like Damn I goto add (entire gameplay mechanism) to stardew again! Looking forward to haunted chocolatier too! But i agree with him that he announced it way to early lmao 🤣
-3. @professorfessor.bsky.social (Possessor Fessor) · 10h · likes 2 · replies 1 · question · askCozy
+1. @nextpanel.org (Next Panel) · 3h · likes 1 · replies 0 · question · evening
+   https://bsky.app/profile/nextpanel.org/post/3myyfns4d4f2n
+   Is Cooking with Wild Game worth reading? 7.2/10 If you want an isekai that treats cooking as a real craft instead of a gimmick, this is one of the better ones -- but it's a long, slow-building series with some genuinely dark material mixed into the cozy food chapters. #manga #man
+   [link card: Is Cooking with Wild Game Worth Reading? Review & Where to Read]
+2. @robmanuel.bsky.social (Rob Manuel) · 5h · likes 2 · replies 0 · question · evening
+   https://bsky.app/profile/robmanuel.bsky.social/post/3myy6bkj3222m
+   How about a cozy little game about being a penguin? You just slide around all day. store.steampowered.com/app/3695930/...
+   [link card: Save 10% on Penguin Colony on Steam]
+3. @professorfessor.bsky.social (Possessor Fessor) · 16h · likes 2 · replies 1 · question · askCozy
    https://bsky.app/profile/professorfessor.bsky.social/post/3mywxvtne2s2v
    Dass one o them thar cozy games, ain’t it? *spits chewing tobaccy juice*
-4. @flacoelcielito5.bsky.social (Flaco el Cielito 🌒) · 11h · likes 4 · replies 1 · question · askCozy
+4. @flacoelcielito5.bsky.social (Flaco el Cielito 🌒) · 17h · likes 4 · replies 1 · question · askCozy
    https://bsky.app/profile/flacoelcielito5.bsky.social/post/3mywuqbrro22d
    Friendos, what video games are we playing today? And what are your cozy plans for today? 👀😊
    [link card: นอนหลับสบาย: Figaro จาก Pinocchio]
-5. @thenerdwire.bsky.social (The Nerd Wire) · 5h · likes 0 · replies 0 · question · evening
-   https://bsky.app/profile/thenerdwire.bsky.social/post/3myxk4erzyc2b
-   Over the Hill looks like a cozy off-roader but plays like a puzzle about the most unusual route. Dom Lee's review calls it best as a co-op wind-down game. Steam now, consoles in 2027. Did you take the road?
-   [link card: Over the Hill Review: The Road Not Taken Is the Whole Point]
-6. @cozy-reb.bsky.social · 5h · likes 0 · replies 0 · question · evening
-   https://bsky.app/profile/cozy-reb.bsky.social/post/3myxj2urnz22m
-   Need a short break? Relax by the fire with Clyde for one minute and 31 seconds. 🎵 #acnhcommunity #cozyvibes
-   [link card: 1 Minute and 31 Seconds of Relaxation #animalcrossingnewhorizons]
-7. @fat4all.bsky.social (Fat4all (Agatha) 🏳️‍⚧️) · 7h · likes 8 · replies 1 · question · evening
+5. @densilva.bsky.social (Noah · Creators on Threads) · 3h · likes 0 · replies 0 · question · evening
+   https://bsky.app/profile/densilva.bsky.social/post/3myydcgbjrf2s
+   That knit sweater dress looks so cozy—does it actually stay put when you move around, or is it a constant re-adjustment game?
+6. @deerworld.bsky.social (Reed) · 5h · likes 0 · replies 0 · question · evening
+   https://bsky.app/profile/deerworld.bsky.social/post/3myy5ym5zbc2n
+   What kinds of games or seating arrangements do you have? Could small tweaks make it easier? Cozy game nights have some fond memories
+7. @nesstalgic.bsky.social (SpookyNess (Nesstalgic) 🪾🐦‍⬛ Cozy Game) · 7h · likes 22 · replies 1 · question · evening
+   https://bsky.app/profile/nesstalgic.bsky.social/post/3myxxwko4u226
+   Cave Oasis at Shylake is officially out today and I managed to squeeze in the Cozy Highlight 🥳 Main features I liked: 🌱 Resource management and farming system 🌱 Diverse lifeforms working together (that includes you!) 🌱 Retro graphics and UI for a nostalgic feel Is this game f
+   [link card: Cozy Highlight: Cave Oasis at Shylake | Sci-Fi Meets Farming]
+8. @letheka.bsky.social (Letheka) · 8h · likes 2 · replies 0 · question · stardew
+   https://bsky.app/profile/letheka.bsky.social/post/3myxtch2ars2e
+   Ruri Inoue, who died at 16.A life that survived the G.E.H.E.N.A. lab, only to fall on the battlefield。I'm playing "Lilydays": a life sim where you live out a girl's whole life fighting HUGE in the world of Assault Lily. #Lilydays #AssaultLily lilydays.top?memo=238
+   [image, no description]
+9. @camenwolf.bsky.social (Camenwolf) · 10h · likes 2 · replies 0 · question · stardew
+   https://bsky.app/profile/camenwolf.bsky.social/post/3myxlsn62532u
+   Witchbrook has a date: January 28, 2027, on PC and Xbox, with day-one Game Pass. Up to four players can share the witch-school life. A co-op evening with less shooting and more spell homework? #Witchbrook #CoopGaming #PCGaming #Xbox
+   [link card: Witchbrook on Steam]
+10. @qwiery.bsky.social (👻🌙 Qwiery (on hiatus atm) 🏳️‍⚧️💗) · 11h · likes 1 · replies 0 · question · stardew
+   https://bsky.app/profile/qwiery.bsky.social/post/3myxlhpeti22z
+   Hopefully its the latter lol, Like concernedape just plodding along and then being like Damn I goto add (entire gameplay mechanism) to stardew again! Looking forward to haunted chocolatier too! But i agree with him that he announced it way to early lmao 🤣
+11. @fat4all.bsky.social (Fat4all (Agatha) 🏳️‍⚧️) · 13h · likes 9 · replies 1 · question · evening
    https://bsky.app/profile/fat4all.bsky.social/post/3myxe7rsmxc2h
    my indie game is JUST a bit quirky we do things a little bit DIFFERENT around here it’s very cozy, there’s farming you play as a llama, or a dog it’s got physics-based puzzles did someone say memes? It costs $6.70 you can play with friends, but only if you are streaming at the sa
-8. @kevinpetker.bsky.social (Kevin Petker - Combat Philosopher - ☝️✌️) · 9h · likes 0 · replies 0 · question · askCozy
+12. @kevinpetker.bsky.social (Kevin Petker - Combat Philosopher - ☝️✌️) · 15h · likes 0 · replies 0 · question · askCozy
    https://bsky.app/profile/kevinpetker.bsky.social/post/3myx5opvqyk2d
    Is the "...and potion..." there to imply a more cozy kind of murderhobo? One that, occasionally, kisses instead of kills? (I've not heard "swords and potion games" before reading this post.)
-9. @vivicrinklekit.bsky.social (*~*~Vivi Crinklekit~*~*) · 6h · likes 0 · replies 0 · question · stardew
-   https://bsky.app/profile/vivicrinklekit.bsky.social/post/3myxfpbq6d22w
-   i need another farming sim. what is this ?
-10. @spicysoulsa.bsky.social (SpicySoulsa | Comms open) · 9h · likes 1 · replies 0 · question · seasonal
-   https://bsky.app/profile/spicysoulsa.bsky.social/post/3myx6djbe2c2g
-   Also sorry, but I heard the words "cozy and spooky" in a one of the trailers and it made me kinda annoyed??? like sure, you can have games with a certain asthetic, but it feels like ppl be slapping the word cozy on almost everything now.. ugh
-11. @kriscritter.bsky.social (Kris) · 9h · likes 12 · replies 0 · question · deck
-   https://bsky.app/profile/kriscritter.bsky.social/post/3myx4xdlips22
-   JANUARY 28th I NEED A STEAM DECK SO I CAN DISAPPEAR FROM ALL SOCIAL OBLIGATION FOR A FEW MONTHS AND GO TO COZY WITCHY TASK SIMULATOR 64 FOR A FEW MONTHS YEAAAAAHH
-   [quotes @wario64.bsky.social: Witchbrook out Jan 28, 2027]
-12. @konwapo.bsky.social (LetMeCat) · 11h · likes 0 · replies 1 · question · evening
-   https://bsky.app/profile/konwapo.bsky.social/post/3mywvy7u5pk2i
-   Ah, "typing mini-game" sounded simple, so I thought it'd be fine to go in unprepared, but now I hear it's multiplayer, like why does it have to be so complicated 😭💀? I thought it was a no-brainer it could be solo like Air Force One I thought we'd be safe, we could be cozy I rea
 
 ## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @catfamiliar.bsky.social (𝖘𝖊𝖑𝖊𝖓𝖊 🌙) · 8h · likes 0 · replies 0 · question · evening
+1. @catfamiliar.bsky.social (𝖘𝖊𝖑𝖊𝖓𝖊 🌙) · 14h · likes 0 · replies 0 · question · evening
    https://bsky.app/profile/catfamiliar.bsky.social/post/3myx6r3k7bc2x
    It's such a shame to hear the Cozy Grove developers are using AI for their new title. I was really looking forward to getting that game.
-2. @gildedmythos.bsky.social (Gilded Mythos) · 10h · likes 1 · replies 0 · askCozy
-   https://bsky.app/profile/gildedmythos.bsky.social/post/3myx2pco6ds2o
-   We’re working on several projects atm, but the one being produced is Kinari Academy! A dating sim style romantic drama with a murder mystery subplot. If you’re a fan of DnD actual-play podcasts, shoujo and shonen anime, or cozy games, consider supporting our indie production comp
+2. @straycatdev.bsky.social (Dong Indie Dev) · 2h · likes 2 · replies 0 · evening
+   https://bsky.app/profile/straycatdev.bsky.social/post/3myygnmd7mc2a
+   Happy #NationalCatDay from a tiny indie dev! 🐾 Spend the day in an alley with 25 cat friends, 20 mini-games and 4 endings in my free cozy Android game "A Stray Cat by Chance" (ads, 9 languages, AI-assisted art). play.google.com/store/apps/d...
+   [2 images, no description]

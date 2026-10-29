@@ -8,102 +8,47 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 280,
-      "posts": 11560,
-      "fit": 170,
+      "runs": 288,
+      "posts": 11920,
+      "fit": 172,
       "last": {
-        "posts": 40,
-        "fit": 1,
-        "at": "2026-10-29T01:01:14.779Z"
+        "posts": 80,
+        "fit": 2,
+        "at": "2026-10-29T07:00:28.774Z"
       }
     },
     "moreAsk": {
-      "runs": 175,
-      "posts": 1575,
+      "runs": 180,
+      "posts": 1620,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-10-29T01:01:14.779Z"
+        "at": "2026-10-29T07:00:28.774Z"
       }
     },
     "moreRetro": {
-      "runs": 175,
-      "posts": 11160,
-      "fit": 384,
+      "runs": 180,
+      "posts": 11480,
+      "fit": 395,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-29T01:01:14.779Z"
+        "at": "2026-10-29T07:00:28.774Z"
       }
     },
     "morePlaying": {
-      "runs": 175,
-      "posts": 735,
+      "runs": 180,
+      "posts": 756,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-10-29T01:01:14.779Z"
+        "at": "2026-10-29T07:00:28.774Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@cradlepoint_universe/117514929330104845": {
-      "uri": "https://mastodon.social/@cradlepoint_universe/117514929330104845",
-      "url": "https://mastodon.social/@cradlepoint_universe/117514929330104845",
-      "handle": "cradlepoint_universe@mastodon.social",
-      "name": "VeilCorp Archive | CradlePoint Universe",
-      "text": "New study of 884 gamers: bigger groups kept people playing. Trusted groups kept them from getting hooked. Kaelyn Mercer had a big family. Two people she could trust when it counted. A big group keeps you playing. A group you trust keeps you from getting lost. Headcount isn't a crew. Count who would come looking. KAELYN // STILLNESS #Cradlepoint #Gaming #GamingCommunity #TTRPG",
-      "createdAt": "2026-10-27T21:11:58.350Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "moreGaming",
-      "query": "gamingcommunity",
-      "score": 4,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "image: Kaelyn Mercer sits sideways in an arcade racing cabinet at night in a rain-windowed Kansas City arcade, turned to listen toward the door, amber-gold eyes catch…",
-      "firstSeen": "2026-10-28T01:03:35.184Z"
-    },
-    "https://mastodon.social/@kekoakiki@vt.social/117515390700613319": {
-      "uri": "https://mastodon.social/@kekoakiki@vt.social/117515390700613319",
-      "url": "https://mastodon.social/@kekoakiki@vt.social/117515390700613319",
-      "handle": "kekoakiki@vt.social",
-      "name": "Kekoa Kiki 🎣 Cozy Brat VTuber",
-      "text": "@sortius That controller sounds fun! Kiki would love to have a physical #Retrogaming collection but gave up on that for now after COVID made everyone an \"entrepreneur,\" sigh... She'll see how the arcade version works with a controller on MAME.",
-      "createdAt": "2026-10-27T23:09:16.000Z",
-      "likes": 1,
-      "replies": 1,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": true,
-      "origin": "https://vt.social/@kekoakiki/117515390609570199",
-      "media": null,
-      "firstSeen": "2026-10-28T01:03:35.184Z"
-    },
-    "https://mastodon.social/@ItalianSkeletonGaming/117514939902830492": {
-      "uri": "https://mastodon.social/@ItalianSkeletonGaming/117514939902830492",
-      "url": "https://mastodon.social/@ItalianSkeletonGaming/117514939902830492",
-      "handle": "ItalianSkeletonGaming@mastodon.social",
-      "name": "Italian Skeleton",
-      "text": "With all these intricate locking mechanisms, imagine being a pre-human civilization and notice that you have forgotten something inside your home, you would waste 2 hours just to get in #TombRaiderUnderworld #TombRaider #gaming #videogames #pcgaming #retrogaming",
-      "createdAt": "2026-10-27T21:14:39.683Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "video, no description",
-      "firstSeen": "2026-10-28T01:03:35.184Z"
-    },
     "https://mastodon.social/@weebdeluxe@urusai.social/117517091229412222": {
       "uri": "https://mastodon.social/@weebdeluxe@urusai.social/117517091229412222",
       "url": "https://mastodon.social/@weebdeluxe@urusai.social/117517091229412222",
@@ -185,7 +130,7 @@
       "name": "b4ux1t3 #1️⃣",
       "text": "Wife has been very sick of late. So kiddo and I stopped while we were out to pick up supplies. #retroGaming #segaGenesis",
       "createdAt": "2026-10-28T17:55:00.000Z",
-      "likes": 1,
+      "likes": 2,
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
@@ -204,7 +149,7 @@
       "name": "Selena the Retro-Princess",
       "text": "The coolest thing about the Street Fighter 2 pinball machine is that it includes the little car-smashing mini-game! #pinball #streetfighter #retrogaming #retrogames",
       "createdAt": "2026-10-28T17:00:43.000Z",
-      "likes": 35,
+      "likes": 37,
       "replies": 1,
       "group": "moreRetro",
       "query": "retrogaming",
@@ -252,6 +197,80 @@
       "origin": "https://vt.social/@bunnyhearted/117518899992443898",
       "media": "image: A poster for today's stream, which shows the cover of both Vagrant Story and Ace Combat 4. Stream is on both twitch and altstream, and starts at 12pm pt, 3pm e…",
       "firstSeen": "2026-10-28T18:55:45.719Z"
+    },
+    "https://mastodon.social/@Doubleaa@gamepad.club/117521131175866890": {
+      "uri": "https://mastodon.social/@Doubleaa@gamepad.club/117521131175866890",
+      "url": "https://mastodon.social/@Doubleaa@gamepad.club/117521131175866890",
+      "handle": "Doubleaa@gamepad.club",
+      "name": "Double AA",
+      "text": "Variety is the spice of life or something? 🤷‍♂️ #FFXIV #MMORPG #GPose #PCGaming",
+      "createdAt": "2026-10-28T23:29:08.000Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "moreGaming",
+      "query": "mmorpg",
+      "score": 6,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://gamepad.club/@Doubleaa/117521130993440837",
+      "media": "image: FFXIV screenshot featuring an Au’ra lizard woman with a blue ponytail in a white robe standing in front of a small stall surrounded by jack-o-lanterns.",
+      "firstSeen": "2026-10-29T07:00:28.774Z"
+    },
+    "https://mastodon.social/@robavince/117522181795654168": {
+      "uri": "https://mastodon.social/@robavince/117522181795654168",
+      "url": "https://mastodon.social/@robavince/117522181795654168",
+      "handle": "robavince@mastodon.social",
+      "name": "robavince",
+      "text": "Forgive the low resolution. This clip is of Space Fortress for Bally Astrocade on my Analogue Pocket. It's the most intense game I've ever played. One of my favorites of all time. I hope the intensity comes through, because I died right when it was getting wild. When I took consoles to conventions people would come show after show, year after year, just to play this again. #retrogaming",
+      "createdAt": "2026-10-29T03:56:22.189Z",
+      "likes": 3,
+      "replies": 1,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "video: See post",
+      "firstSeen": "2026-10-29T07:00:28.774Z"
+    },
+    "https://mastodon.social/@ItalianSkeletonGaming/117520815168876919": {
+      "uri": "https://mastodon.social/@ItalianSkeletonGaming/117520815168876919",
+      "url": "https://mastodon.social/@ItalianSkeletonGaming/117520815168876919",
+      "handle": "ItalianSkeletonGaming@mastodon.social",
+      "name": "Italian Skeleton",
+      "text": "And with the mystery of Lara's mother disappearance solved, #TombRaiderUnderworld is finished, obviously it's good, but it feels weirdly jankier than its 2 predecessors despite being the same game, and of course I can't cover the 2 DLCs since those were directly financed by Microsoft to be Xbox 360 exclusives #gaming #videogames #pcgaming #retrogaming #TombRaider",
+      "createdAt": "2026-10-28T22:08:49.120Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "video, no description",
+      "firstSeen": "2026-10-29T07:00:28.774Z"
+    },
+    "https://mastodon.social/@dfbills@masto.nyc/117520610705087069": {
+      "uri": "https://mastodon.social/@dfbills@masto.nyc/117520610705087069",
+      "url": "https://mastodon.social/@dfbills@masto.nyc/117520610705087069",
+      "handle": "dfbills@masto.nyc",
+      "name": "dfbills",
+      "text": "Now that Apple’s Music icon has changed, I noticed something familiar about it. This realization makes me hate it a lot less. #applemusic #retrogaming",
+      "createdAt": "2026-10-28T21:16:47.000Z",
+      "likes": 3,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 3,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://masto.nyc/@dfbills/117520610582825468",
+      "media": "image, no description",
+      "firstSeen": "2026-10-29T07:00:28.774Z"
     }
   }
 }
