@@ -8,85 +8,47 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 288,
-      "posts": 11920,
-      "fit": 172,
+      "runs": 296,
+      "posts": 12280,
+      "fit": 174,
       "last": {
         "posts": 80,
         "fit": 2,
-        "at": "2026-10-29T07:00:28.774Z"
+        "at": "2026-10-29T13:01:25.413Z"
       }
     },
     "moreAsk": {
-      "runs": 180,
-      "posts": 1620,
+      "runs": 185,
+      "posts": 1665,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-10-29T07:00:28.774Z"
+        "at": "2026-10-29T13:01:25.413Z"
       }
     },
     "moreRetro": {
-      "runs": 180,
-      "posts": 11480,
-      "fit": 395,
+      "runs": 185,
+      "posts": 11800,
+      "fit": 404,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-29T07:00:28.774Z"
+        "at": "2026-10-29T13:01:25.413Z"
       }
     },
     "morePlaying": {
-      "runs": 180,
-      "posts": 756,
+      "runs": 185,
+      "posts": 777,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-10-29T07:00:28.774Z"
+        "at": "2026-10-29T13:01:25.413Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@weebdeluxe@urusai.social/117517091229412222": {
-      "uri": "https://mastodon.social/@weebdeluxe@urusai.social/117517091229412222",
-      "url": "https://mastodon.social/@weebdeluxe@urusai.social/117517091229412222",
-      "handle": "weebdeluxe@urusai.social",
-      "name": "Weebdeluxe",
-      "text": "GOG has recently released Ecstatica I and II, two survival horror games I never heard of... but they look amazing! #gamkng #retrogaming",
-      "createdAt": "2026-10-28T06:21:42.000Z",
-      "likes": 2,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://urusai.social/@weebdeluxe/117517090958356307",
-      "media": null,
-      "firstSeen": "2026-10-28T06:58:51.329Z"
-    },
-    "https://mastodon.social/@PurpleJillybeans@kind.social/117516290035565972": {
-      "uri": "https://mastodon.social/@PurpleJillybeans@kind.social/117516290035565972",
-      "url": "https://mastodon.social/@PurpleJillybeans@kind.social/117516290035565972",
-      "handle": "PurpleJillybeans@kind.social",
-      "name": "PurpleJillyscreams",
-      "text": "Worked on getting Clive Barker's Undying set up tonight since I want to stream it soon. I own it on GOG but wanted to play it on a vintage machine. GOG version on WinXP: doesn't run CD version on WinXP: crashes on startup (seems to only support Win9x, despite coming out in 2001) GOG version on Win7 x86: works So I'll be playing it on my Thinkpad T61 running Win7. I suppose I could try running Win98 or WinME on the XP rig if I really wanted to, but eh. #RetroGaming",
-      "createdAt": "2026-10-28T02:57:59.000Z",
-      "likes": 8,
-      "replies": 1,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://kind.social/@PurpleJillybeans/117516289957211060",
-      "media": null,
-      "firstSeen": "2026-10-28T06:58:51.329Z"
-    },
     "https://mastodon.social/@massivelyop/117518443074675680": {
       "uri": "https://mastodon.social/@massivelyop/117518443074675680",
       "url": "https://mastodon.social/@massivelyop/117518443074675680",
@@ -168,7 +130,7 @@
       "name": "robavince",
       "text": "When I was a kid I went to the Boys and Girls Club. There there had this cab. One other kid and I took turns beating each other's high scores. It's still fun! This is the Analogue Pocket core. #arcade #retrogaming",
       "createdAt": "2026-10-28T16:18:56.244Z",
-      "likes": 4,
+      "likes": 5,
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
@@ -224,11 +186,11 @@
       "name": "robavince",
       "text": "Forgive the low resolution. This clip is of Space Fortress for Bally Astrocade on my Analogue Pocket. It's the most intense game I've ever played. One of my favorites of all time. I hope the intensity comes through, because I died right when it was getting wild. When I took consoles to conventions people would come show after show, year after year, just to play this again. #retrogaming",
       "createdAt": "2026-10-29T03:56:22.189Z",
-      "likes": 3,
+      "likes": 4,
       "replies": 1,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
