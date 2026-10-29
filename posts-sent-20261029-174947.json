@@ -1,0 +1,23 @@
+{
+  "madeAt": "2026-10-29T17:49:47.753Z",
+  "run": "40925018253",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices|article|/guides/check-game-storage-before-you-buy/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 6,
+      "link": "https://saveandplay.com/guides/check-game-storage-before-you-buy/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-storage-check",
+      "text": "Phantom Blade Zero's Steam page lists 145 GB and \"SSD installation required\". Another page we read lists 1.6 GB. Our 5-minute check of the storage line:\nhttps://saveandplay.com/guides/check-game-storage-before-you-buy/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-storage-check\n#PCGaming #GameDeals #Steam",
+      "approvedFile": "posts-approved-20261029-134305.json",
+      "approvedAt": "2026-10-29T13:43:05.305Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-29T17:49:50.832Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3myztbaf7tw22",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3myztbaf7tw22",
+      "picture": true
+    }
+  ]
+}
