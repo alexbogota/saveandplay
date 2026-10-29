@@ -341,11 +341,15 @@ export const isCancelled = (cancels, handle, key, approvedAt) => cancels.some((c
 
 // Approved posts that are still waiting: not posted and not skipped for good.
 export function pendingPosts({ approved, sent, cancels }) {
-  const done = new Set(sent.filter((e) => FINAL.has(e.status)).map((e) => e.key));
+  // An approval that expired ("approval older than N h") closes only THAT approval, not the post: a fresh approval of the same post may go out
+  // (28 Oct 2026: the guide post expired before its page was open and could not be approved again).
+  const expired = (e) => e.status === 'skipped' && /^approval older/.test(e.reason ?? '');
+  const done = new Set(sent.filter((e) => FINAL.has(e.status) && !expired(e)).map((e) => e.key));
+  const closed = new Set(sent.filter(expired).map((e) => `${e.key}|${e.approvedFile}`));
   const out = [];
   for (const f of approved) {
     for (const it of f.data.items ?? []) {
-      if (done.has(it.key) || out.some((o) => o.key === it.key)) continue;
+      if (done.has(it.key) || closed.has(`${it.key}|${f.name}`) || out.some((o) => o.key === it.key)) continue;
       out.push({ ...it, approvedAt: f.data.approvedAt, approvedFile: f.name, cancelled: isCancelled(cancels, it.handle, it.key, f.data.approvedAt) });
     }
   }

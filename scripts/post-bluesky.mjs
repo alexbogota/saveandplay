@@ -34,6 +34,7 @@ const dryRun = args.includes('--dry-run') || process.env.DRY_RUN === 'true';
 const only = arg('--account');
 const articleAccount = 'prices'; // the account whose Bluesky profile posts about the guides
 const noArticle = args.includes('--no-article');
+const RECENT_GUIDE_DAYS = 3; // a guide that is already on the site is still offered for its post this many days
 const now = Date.now();
 const done = (text, code = 0) => { console.log(text); process.exit(code); };
 
@@ -80,7 +81,11 @@ async function todaysPosts() {
   if (main && !noArticle) {
     const { list: drafts, note } = art;
     const wanted = arg('--article');
-    const draft = wanted ? drafts.find((d) => d.slug === wanted) : drafts.find((d) => !d.onSite);
+    // A guide whose page is already open is offered again when its post never went out (the approval was older than the limit or the page
+    // was not open yet) and the guide is not older than RECENT_GUIDE_DAYS. 28 Oct 2026: the Steam Wallet post was lost this way.
+    const draftKey = (d) => { const p = parseArticlePost(d.text); return p.path ? articleKey(main.id, p.path) : null; };
+    const missed = (d) => d.onSite && (now - Date.parse(String(d.name).slice(0, 10))) / 864e5 <= RECENT_GUIDE_DAYS && !sent.some((e) => e.key === draftKey(d) && e.status === 'sent');
+    const draft = wanted ? drafts.find((d) => d.slug === wanted) : drafts.find((d) => !d.onSite) ?? drafts.find(missed);
     if (wanted && !draft) done(`PROBLEM: no draft of the guide "${wanted}" on the "articles" branch.`, 1);
     if (!draft) list.push({ acc: main, kind: 'article', noPost: note ?? 'no guide is waiting: the daily writer has no draft that is not on the site yet', n: ++n });
     else {
@@ -88,7 +93,7 @@ async function todaysPosts() {
       const problems = post.noPost ? [post.noPost] : articleProblems(post, { acc: main });
       if (post.slug && post.slug !== draft.slug) problems.push(`the link goes to the guide "${post.slug}", not to "${draft.slug}"`);
       const key = post.path ? articleKey(main.id, post.path) : null;
-      const was = key ? sent.find((e) => e.key === key && FINAL.has(e.status)) : null;
+      const was = key ? sent.find((e) => e.key === key && FINAL.has(e.status) && !(e.status === 'skipped' && /^approval older/.test(e.reason ?? ''))) : null; // an expired approval does not count as handled
       if (was) problems.push(was.status === 'sent' ? `already posted (${was.postUrl ?? 'see the sent report'})` : `already handled by the sender: ${was.reason}`);
       else if (key && pending.some((p) => p.key === key)) problems.push('already approved and waiting for the sender');
       list.push({ acc: main, kind: 'article', post, key, problems, title: draft.title, onSite: draft.onSite, n: ++n });

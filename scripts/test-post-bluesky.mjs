@@ -10,7 +10,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { file } from './lib/comments.mjs';
-import { shortLink, shortenForPost, facetsOf, parseBriefPost, postProblems, publishAccounts, publishProblems, dayKey, graphemes, scheduleItems, isDue, parseArticlePost, articleProblems } from './lib/bsky-posts.mjs';
+import { shortLink, shortenForPost, facetsOf, parseBriefPost, postProblems, publishAccounts, publishProblems, dayKey, graphemes, scheduleItems, isDue, parseArticlePost, articleProblems, pendingPosts } from './lib/bsky-posts.mjs';
 
 const PW = 'test-password-not-real';
 const DAY = dayKey();
@@ -489,4 +489,17 @@ test('workflow: started by the "ок" or by the hourly look at the approved hour
   assert.match(wf, /node scripts\/post-bluesky\.mjs send/);
   assert.match(wf, /if: \$\{\{ always\(\) \}\}/);
   assert.match(wf, /concurrency:\s*\n\s*group: post-bluesky/);
+});
+
+test('an expired approval closes only itself: a fresh approval of the same post goes out, an old finished one still does not', () => {
+  const item = { key: 'prices|article|/guides/x/', handle: 'a.b', n: 6, text: 't' };
+  const approved = [
+    { name: 'posts-approved-1.json', data: { approvedAt: '2026-10-27T14:00:00Z', items: [item] } },
+    { name: 'posts-approved-2.json', data: { approvedAt: '2026-10-29T00:00:00Z', items: [item] } },
+  ];
+  const expired = { key: item.key, status: 'skipped', reason: 'approval older than 20 h', approvedFile: 'posts-approved-1.json' };
+  assert.deepEqual(pendingPosts({ approved, sent: [expired], cancels: [] }).map((p) => p.approvedFile), ['posts-approved-2.json']);
+  assert.equal(pendingPosts({ approved: [approved[0]], sent: [expired], cancels: [] }).length, 0, 'the expired approval itself stays closed');
+  assert.equal(pendingPosts({ approved, sent: [expired, { key: item.key, status: 'sent' }], cancels: [] }).length, 0, 'posted is posted');
+  assert.equal(pendingPosts({ approved, sent: [{ key: item.key, status: 'skipped', reason: 'cancelled by the owner' }], cancels: [] }).length, 0, 'other skips still close the post');
 });
