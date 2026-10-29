@@ -8,139 +8,47 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 272,
-      "posts": 11240,
-      "fit": 168,
+      "runs": 280,
+      "posts": 11560,
+      "fit": 170,
       "last": {
-        "posts": 80,
-        "fit": 3,
-        "at": "2026-10-28T18:55:45.719Z"
+        "posts": 40,
+        "fit": 1,
+        "at": "2026-10-29T01:01:14.779Z"
       }
     },
     "moreAsk": {
-      "runs": 170,
-      "posts": 1530,
+      "runs": 175,
+      "posts": 1575,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-10-28T18:55:45.719Z"
+        "at": "2026-10-29T01:01:14.779Z"
       }
     },
     "moreRetro": {
-      "runs": 170,
-      "posts": 10840,
-      "fit": 374,
+      "runs": 175,
+      "posts": 11160,
+      "fit": 384,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-28T18:55:45.719Z"
+        "at": "2026-10-29T01:01:14.779Z"
       }
     },
     "morePlaying": {
-      "runs": 170,
-      "posts": 714,
+      "runs": 175,
+      "posts": 735,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-10-28T18:55:45.719Z"
+        "at": "2026-10-29T01:01:14.779Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@tippitiwichet/117514316021306200": {
-      "uri": "https://mastodon.social/@tippitiwichet/117514316021306200",
-      "url": "https://mastodon.social/@tippitiwichet/117514316021306200",
-      "handle": "tippitiwichet@mastodon.social",
-      "name": "Gemma Sarracenia",
-      "text": "#LanguageLearning tip. If your fav #videoGame has a language switching option for the language you're learning, go for it. Only been learning Spanish about a month and playing #TheSims 4 successfully. #videoGames #education",
-      "createdAt": "2026-10-27T18:35:59.995Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreGaming",
-      "query": "videogame",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": null,
-      "firstSeen": "2026-10-27T18:51:16.714Z"
-    },
-    "https://mastodon.social/@followerspanda/117513827499253307": {
-      "uri": "https://mastodon.social/@followerspanda/117513827499253307",
-      "url": "https://mastodon.social/@followerspanda/117513827499253307",
-      "handle": "followerspanda@mastodon.social",
-      "name": "Followerspanda",
-      "text": "AION 2 hit 262,307 peak Twitch viewers after its Oct 5 launch. The new MMORPG pulled 25.9M hours watched and 34.1K streamers on Twitch in the 30 days to Oct 12, 2026. Fresh launches are the best window for discovery, so jump on big releases early while categories are still growing. Source: SullyGnome (Oct 2026) #FollowersPanda #AION2 #MMORPG #NewGame #GameLaunch #Twitch #TwitchStreamer #LiveStreaming #StreamerNews #GamingNews #ContentCreator #GamingCommunity #GrowOnTwitch",
-      "createdAt": "2026-10-27T16:31:45.742Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "moreGaming",
-      "query": "gamingcommunity",
-      "score": 4,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "image, no description",
-      "firstSeen": "2026-10-27T18:51:16.714Z"
-    },
-    "https://mastodon.social/@Dvalin/117513137071193994": {
-      "uri": "https://mastodon.social/@Dvalin/117513137071193994",
-      "url": "https://mastodon.social/@Dvalin/117513137071193994",
-      "handle": "Dvalin@mastodon.social",
-      "name": "Dvalin Gaming",
-      "text": "How will you be playing WoW Forever: Keyboard & Mouse or Controller? #worldofwarcraft #warcraft #mmo #mmorpg #gaming",
-      "createdAt": "2026-10-27T13:36:10.656Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "moreGaming",
-      "query": "mmorpg",
-      "score": 5,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "image, no description",
-      "firstSeen": "2026-10-27T18:51:16.714Z"
-    },
-    "https://mastodon.social/@SuperSelena64@hachyderm.io/117513884633828473": {
-      "uri": "https://mastodon.social/@SuperSelena64@hachyderm.io/117513884633828473",
-      "url": "https://mastodon.social/@SuperSelena64@hachyderm.io/117513884633828473",
-      "handle": "SuperSelena64@hachyderm.io",
-      "name": "Selena the Retro-Princess",
-      "text": "I'm not the kind of person who's afraid to be seen in public with my my N-Gage or even my Tiger Game•Com, but this latest slew of FPGA cores for the Analogue Pocket really does make my life a little simpler #retrogaming #ngage #atari",
-      "createdAt": "2026-10-27T16:46:14.000Z",
-      "likes": 37,
-      "replies": 5,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://hachyderm.io/@SuperSelena64/117513884426955756",
-      "media": "image: A collage of a cores booting up on the Analogue Pocket - Atari Jaguar, Tiger Game.com, Neo Geo Pocket Colour and Nokia N-Gage",
-      "firstSeen": "2026-10-27T18:51:16.714Z"
-    },
-    "https://mastodon.social/@bunnyhearted@vt.social/117513059215485284": {
-      "uri": "https://mastodon.social/@bunnyhearted@vt.social/117513059215485284",
-      "url": "https://mastodon.social/@bunnyhearted@vt.social/117513059215485284",
-      "handle": "bunnyhearted@vt.social",
-      "name": "Bunny Hearted",
-      "text": "Morning y'all! Today's Retrothon day 7 (a donathon in support of winter heating costs and electrolysis 💖), and today we're checking out Snatcher and System Shock 2! Stream's up at 12pm ET (2 hours earlier than usual). 🐰👍 #vsky #retrogaming #vtuber",
-      "createdAt": "2026-10-27T13:16:20.000Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://vt.social/@bunnyhearted/117513059070255361",
-      "media": "image: An image for today's stream, which is Snatcher then System Shock 2 and which starts at 12et. The background is a large cybernetic woman's face with glowing gre…",
-      "firstSeen": "2026-10-27T18:51:16.714Z"
-    },
     "https://mastodon.social/@cradlepoint_universe/117514929330104845": {
       "uri": "https://mastodon.social/@cradlepoint_universe/117514929330104845",
       "url": "https://mastodon.social/@cradlepoint_universe/117514929330104845",
@@ -281,7 +189,7 @@
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 4,
+      "score": 3,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -300,7 +208,7 @@
       "replies": 1,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 5,
+      "score": 4,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -319,7 +227,7 @@
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 4,
+      "score": 3,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -337,7 +245,7 @@
       "replies": 1,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
