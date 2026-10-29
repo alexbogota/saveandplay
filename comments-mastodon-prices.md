@@ -1,63 +1,59 @@
 # Comment candidates: mastodon-prices (@saveandplay@mastodon.social)
-Made 2026-10-29T13:00Z. Searched: deck: handheldgaming | deck: steamdecklife | deck: steamdeckoled | deck: steamdeck | deck: steamos | practical: linuxgaming | practical: drmfree | practical: gog | practical: protondb | genres: coopgames | genres: citybuilder | genres: strategygames | genres: survivalgames | genres: horrorgaming | genres: cozygaming | genres: puzzlegames | genres: roguelike | genres: cozygames | genres: metroidvania | seasonal: halloweengames | seasonal: horrorgames | seasonal: spooktober | broadPlaying: videogames | broadPlaying: currentlyplaying | broadPlaying: indiegames | broadPlaying: indiegame | broadPlaying: pcgames | broadPlaying: steamgames | broadPlaying: gamer | broadPlaying: games | broadPlaying: rpg | broadPlaying: jrpg | broadPlaying: pcgaming | broadPlaying: gaming | broadPlaying: steam | broadAsk: recommendmeagame | broadAsk: gamerecommendation | broadAsk: recommendagame | broadAsk: whattoplay | broadAsk: gamesuggestion | broadAsk: hiddengem | broadAsk: underratedgames | broadAsk: gamesuggestions | backlog: gamingbacklog | backlog: backlog | backlog: pileofshame | backlog: whatshouldiplay | backlog: gamerecommendations | backlog: gamerecs.
-Posts below: 12 + 1 heated. Dropped in this run: other language 237, too old 1203, bot, shop or studio 1041, promo (link and hashtags) 136, link post, not a question 19, already shown 25, skip word 137, many links 5, low score 17, not about games 40, own post 18, console only 13, other language (text) 167, content warning 11, too long 7, hidden from search 5, profile says no bots or promo 1, already answered 3, earlier finds: low score 3.
+Made 2026-10-29T18:56Z. Searched: deck: handheldgaming | deck: steamdecklife | deck: steamdeckoled | deck: steamdeck | deck: steamos | practical: linuxgaming | practical: drmfree | practical: gog | practical: protondb | genres: coopgames | genres: citybuilder | genres: strategygames | genres: survivalgames | genres: horrorgaming | genres: cozygaming | genres: puzzlegames | genres: roguelike | genres: cozygames | genres: metroidvania | seasonal: halloweengames | seasonal: horrorgames | seasonal: spooktober | broadPlaying: videogames | broadPlaying: currentlyplaying | broadPlaying: indiegames | broadPlaying: indiegame | broadPlaying: pcgames | broadPlaying: steamgames | broadPlaying: gamer | broadPlaying: games | broadPlaying: rpg | broadPlaying: jrpg | broadPlaying: pcgaming | broadPlaying: gaming | broadPlaying: steam | broadAsk: recommendmeagame | broadAsk: gamerecommendation | broadAsk: recommendagame | broadAsk: whattoplay | broadAsk: gamesuggestion | broadAsk: hiddengem | broadAsk: underratedgames | broadAsk: gamesuggestions | backlog: gamingbacklog | backlog: backlog | backlog: pileofshame | backlog: whatshouldiplay | backlog: gamerecommendations | backlog: gamerecs.
+Posts below: 12 + 1 heated. Dropped in this run: other language 244, too old 1166, bot, shop or studio 1078, promo (link and hashtags) 182, already shown 22, skip word 170, low score 15, many links 7, own post 20, not about games 41, link post, not a question 11, already answered 3, console only 17, other language (text) 135, too long 11, content warning 14, hidden from search 4, profile says no bots or promo 1, earlier finds: low score 6.
 
 ## Posts
-1. @jamie@gamerstavern.online (UndeadJamie) · 3h · likes 0 · replies 1 · question · broadPlaying
-   https://mastodon.social/@jamie@gamerstavern.online/117523637830081665
-   original: https://gamerstavern.online/@jamie/117523637476894485
-   Football Manager 27 releases (ish) today! I say ish because they're essentially letting anyone play the game for free for the first 5 days. After the shambles of last year's release being an unfinished mess, and the cancellation of the game the year before that, this feels like a
-   [image: Football Manager 27 poster]
-2. @alessandro@lemmy.ca · 5h · likes 1 · replies 11 · question · broadPlaying
-   https://mastodon.social/@alessandro@lemmy.ca/117523141132821281
-   original: https://lemmy.ca/post/73062475
-   Can anyone overthrow Steam on PC? "As long as Valve is independent and not a publicly traded company," analyst says it looks impossible https://lemmy.ca/post/73062475
-   [link card: Can anyone overthrow Steam on PC? "As long as Valve is independent and not a publicly traded compan…]
-3. @sar@gts.elderlogs.net (Sar) · 21h · likes 0 · replies 0 · question · practical
-   https://mastodon.social/@sar@gts.elderlogs.net/117519276249178025
-   original: https://gts.elderlogs.net/@sar/statuses/01M61JHDFGP9CCWMFZMQQ5D08T
-   I think my brain just broke... 18 years? WOT? I was one of the first customers on GOG back in the day, and I can't believe it's been eighteen years since! I feel old man... #gog
-   [image: A banner celebrating GOG.com's 18th birthday!]
-4. @konartis@mastodon.social (Konartis) · 22h · likes 1 · replies 0 · question · broadPlaying
-   https://mastodon.social/@konartis/117519045107019587
-   Are you leaving me? #art #halloween #artist #infosec #steam #community #arte #artwork #indie #new #trending #hot #mastodon #comics
-   [image: A door to the outside]
-5. @PixelBandits@nerdculture.de (Pixel Bandits) · 22h · likes 1 · replies 0 · question · broadPlaying
-   https://mastodon.social/@PixelBandits@nerdculture.de/117519028328716306
-   original: https://nerdculture.de/@PixelBandits/117519028039770502
-   I was sad when I heard the news of BioWare, and then last night played Mass Effect Andromeda again and nearly cried. How did we let this slip away from us? #VideoGames #Gaming #BioWare #MassEffect #Gamers
-   [image: four screenshots from Mass Effect Andromeda featuring a space ship, two humans in space armor and a rover.]
-6. @ami_angelwings@urusai.social (Ami Angelwings) · 11h · likes 5 · replies 8 · question · broadPlaying
-   https://mastodon.social/@ami_angelwings@urusai.social/117521679258402247
-   original: https://urusai.social/@ami_angelwings/117521679273644167
-   #QuestionOfTheDay favourite one-off character (they only show up one time and never again, in a scene, episode, chapter, arc, stage, set if you choose a ccg, etc) in a fictional work you enjoy? #fiction #videogames #ttrpg #ccgs #books #manga #anime #comics #webcomics #TV #televis
-7. @geekrealmhub@mastodon.social (Geek Realm Hub) · 12h · likes 0 · replies 0 · question · broadPlaying
-   https://mastodon.social/@geekrealmhub/117521372332523367
-   Can anyone beat Steam on PC? Newzoo analyst Emmanuel Rosier says it looks almost impossible while Valve remains privately owned and independent. EA and Ubisoft returned to Steam, and Blizzard brought Overwatch 2 over, too. Steam’s libraries, friends and communities are hard to le
-8. @szakib@freeradical.zone (szakib) · 19h · likes 0 · replies 1 · question · broadPlaying
-   https://mastodon.social/@szakib@freeradical.zone/117519905607601721
-   original: https://freeradical.zone/@szakib/117519902254698625
-   Hey Fedi! Is it really so that there is no "Overwatch all" mod for XCOM: Enemy Unknown? (Not EW or LW.) #games #mods #AskFedi
-9. @beemdvp@techhub.social (beem) · 1h · likes 1 · replies 1 · broadPlaying
-   https://mastodon.social/@beemdvp@techhub.social/117524017643030340
-   original: https://techhub.social/@beemdvp/117524017589169270
-   Update on steam verification. They updated from 8 to 15 business days to 30 lol. I feel scammed at this point. Billion dollars company btw 🤣 #steam #valve
-10. @MrCopperpot@mastodon.social (Mr Copperpot) · 2h · likes 1 · replies 0 · broadPlaying
-   https://mastodon.social/@MrCopperpot/117523767150853752
-   Alan Wake Remastered - Amazing game in all aspects. Atmospheric, action, thrilling... brilliant #AlanWakeRemastered #AlanWake #Atomspheric #Gaming
+1. @kekoakiki@vt.social (Kekoa Kiki 🎣 Cozy Brat VTuber) · 2h · likes 1 · replies 1 · question · broadPlaying
+   https://mastodon.social/@kekoakiki@vt.social/117525235192813580
+   original: https://vt.social/@kekoakiki/117525235143938592
+   Question for other #Retrogaming nerds: Is there a term for "modern retro" kinda stuff like the Playdate? Pixel art, retro graphics, but not actually retro? Kiki's never sure if "#retrogaming" is the right hashtag for that. #vtuber #gaming #retrogames
+2. @lusogeek@mastodon.social (Lusogeek) · 6h · likes 1 · replies 0 · question · broadPlaying
+   https://mastodon.social/@lusogeek/117524380966943075
+   Tasks made: added fm radio (local suggestions) ,5g coverage map ,birth date (manual add per viewer) chat commands ; missxss chat bot setup. Coming soon: quick stream notes as bonus for Streamer Dossier. #tasks #chores #chatcommands #chat #streamer #creator #gamer #lusogeek #quick
+3. @donthatedontkill@nantes.social (donthatedontkill) · 1h · likes 1 · replies 0 · broadPlaying
+   https://mastodon.social/@donthatedontkill@nantes.social/117525460357697463
+   original: https://nantes.social/@donthatedontkill/117525460178612953
+   Barret crashing out about mako in the middle of Haunted House and smashing things is giving big "me about data centers after three beers" energy. #ff7 #finalFantasy #ecology #dataCenters #videoGames #gaming #leftism #avalanche #finalFantasy7Rebirth #water
+   [3 images: Barret from Final Fantasy 7 Rebirth gesturing with an arm outstretched in a haunted house. the subtitles read "this is what the planet's dying for? this is why… / Barret smashing part of the haunted house / Cloud facing Barret with the camera over Barrett's shoulder. subtitles are cloud speaking and read : "hey. get a grip."]
+4. @geekrealmhub@mastodon.social (Geek Realm Hub) · 1h · likes 1 · replies 0 · broadPlaying
+   https://mastodon.social/@geekrealmhub/117525370767095874
+   Mario Kart World running on PC! X user @nintygametube shared footage of the game running on Windows through the Eden emulator. #MarioKartWorld #NintendoSwitch2 #PCGaming #GeekRealmHub
    [video, no description]
-11. @astrariumdigital@mastodon.social (Astrarium Digital) · 3h · likes 1 · replies 1 · broadPlaying
-   https://mastodon.social/@astrariumdigital/117523617524722154
-   Pick your cat... 🐈️ Choose your power... ⛈️ And jump into the ring! 🥊 #Buy OVERCAT on #Steam right now! #play the amazing #demo to get you started! #followthursday #indie #game #pc #2d #cartoon #pvp #couchmultiplayer
-   [3 images, no description]
-12. @darkwiiplayer@tech.lgbt (𒀭Wiiお姉さん 💜 🏳️‍⚧️) · 4h · likes 1 · replies 0 · broadPlaying
-   https://mastodon.social/@darkwiiplayer@tech.lgbt/117523287451682599
-   original: https://tech.lgbt/@darkwiiplayer/117523287152730470
-   This game makes it so easy to take nice looking screenshots #starcitizen #gaming
-   [image, no description]
+5. @geekrealmhub@mastodon.social (Geek Realm Hub) · 3h · likes 1 · replies 0 · broadPlaying
+   https://mastodon.social/@geekrealmhub/117525055083819821
+   Wendy’s is getting its own RPG! WendyQuest: Legend of the Four Corner Stones is a free-to-play, 2D pixel-art RPG starring Wendy as a sword-wielding hero! Battle food-themed enemies, recruit a French Fry Archer and Frosty Mage, and save a culinary kingdom. Coming soon to Steam! #W
+   [video, no description]
+6. @lashman@mastodon.social (lashman) · 3h · likes 3 · replies 0 · broadPlaying
+   https://mastodon.social/@lashman/117525028981392252
+   Developer: Freya Games Publisher: Freya Games Release date: To be announced Screenshots: #steam #gaming #videoGames #steamStorePage
+   [4 images: Screenshot 1 from Sharp Flint / Screenshot 2 from Sharp Flint / Screenshot 3 from Sharp Flint / Screenshot 4 from Sharp Flint]
+7. @lashman@mastodon.social (lashman) · 3h · likes 1 · replies 0 · broadPlaying
+   https://mastodon.social/@lashman/117525027493928113
+   Developer: Crimson Herring Studios Publisher: Zugalu Entertainment Release date: To be announced Screenshots: #steam #gaming #videoGames #steamStorePage
+   [4 images: Screenshot 1 from Bay 12: Mech Repair / Screenshot 2 from Bay 12: Mech Repair / Screenshot 3 from Bay 12: Mech Repair / Screenshot 4 from Bay 12: Mech Repair]
+8. @controlc@mstdn.ca (controlc) · 3h · likes 1 · replies 0 · broadPlaying
+   https://mastodon.social/@controlc@mstdn.ca/117525024181626336
+   original: https://mstdn.ca/@controlc/117525024141501803
+   Young edgelords: complaining about trivial graphic flaws in games. Me, born in the 8bit world: Summer child you have no appreciation of how good this is. #gaming
+9. @lashman@mastodon.social (lashman) · 3h · likes 2 · replies 0 · broadPlaying
+   https://mastodon.social/@lashman/117525019755344796
+   Developer: Idea Factory, Compile Heart, Sting Publisher: Idea Factory International Release date: 2027 Screenshots: #steam #gaming #videoGames #steamStorePage
+   [4 images: Screenshot 1 from Dokapon Kingdom: Connect 2 / Screenshot 2 from Dokapon Kingdom: Connect 2 / Screenshot 3 from Dokapon Kingdom: Connect 2 / Screenshot 4 from Dokapon Kingdom: Connect 2]
+10. @lashman@mastodon.social (lashman) · 3h · likes 2 · replies 0 · broadPlaying
+   https://mastodon.social/@lashman/117525006660446718
+   Developer: Spare Sock Games Publisher: Spare Sock Games Release date: Q1 2027 Screenshots: #steam #gaming #videoGames #steamStorePage
+   [4 images: Screenshot 1 from Internet Provider 98 / Screenshot 2 from Internet Provider 98 / Screenshot 3 from Internet Provider 98 / Screenshot 4 from Internet Provider 98]
+11. @lashman@mastodon.social (lashman) · 3h · likes 2 · replies 0 · broadPlaying
+   https://mastodon.social/@lashman/117525002194774173
+   Developer: Calamity County Team Publisher: Track 16 LLC Release date: 2027 Screenshots: #steam #gaming #videoGames #steamStorePage
+   [4 images: Screenshot 1 from Calamity County / Screenshot 2 from Calamity County / Screenshot 3 from Calamity County / Screenshot 4 from Calamity County]
+12. @lashman@mastodon.social (lashman) · 3h · likes 1 · replies 0 · broadPlaying
+   https://mastodon.social/@lashman/117524995862090289
+   Developer: Baluchon Studio Publisher: Baluchon Studio Release date: Coming soon Screenshots: #steam #gaming #videoGames #steamStorePage
+   [4 images: Screenshot 1 from Monkey Break / Screenshot 2 from Monkey Break / Screenshot 3 from Monkey Break / Screenshot 4 from Monkey Break]
 
 ## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @CactuarJoe@retro.pizza (Cactuar Joe) · 17h · likes 8 · replies 1 · question · broadPlaying
-   https://mastodon.social/@CactuarJoe@retro.pizza/117520320195042612
-   original: https://retro.pizza/@CactuarJoe/117520320070271286
-   "We don't need AI disclosures on Steam, there's always been low-effort crap on the store!" The water in this pot has always been warm, says frog. Nothing to worry about. #Gaming #Steam
+1. @NicksWorld@mastodon.stickbear.me (Nicks World) · 1h · likes 0 · replies 0 · question · broadPlaying
+   https://mastodon.social/@NicksWorld@mastodon.stickbear.me/117525465822151171
+   original: https://mastodon.stickbear.me/@NicksWorld/117525465617027903
+   You know what I like about the sims? For me, its not all innocent and sweet. My sim had a little too much to drink, made a fool of herself, tried to steal some ice cream from an ice cream truck, splashed around in a public fountain, did some drunken dancing with some shady people

@@ -1,55 +1,56 @@
 # Comment candidates: retro (@retrogamedeals.bsky.social)
-Made 2026-10-29T13:01Z. Searched: childhood: game from my childhood | childhood: childhood favorite game | childhood: games from my childhood | childhood: first video game | classicPC: old pc games | classicPC: dos games | classicPC: classic pc games | classicPC: old pc game | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: best old games | askRetro: old game recommend | askRetro: retro game recommendations | askRetro: old games recommend | retroFeed: feed.
-Posts below: 12 + 2 heated. Dropped in this run: not about games 66, replies are limited 12, skip word 76, bot, shop or studio 26, promo (link and hashtags) 3, low score 12, adult or graphic label 1, other language (text) 18, already shown 2, too short 3, too many hashtags 4, not a question 18, other language 35, earlier finds: low score 4.
+Made 2026-10-29T18:57Z. Searched: childhood: played this as a kid game | childhood: first pc game | childhood: childhood game | childhood: game from my childhood | classicPC: retro pc gaming | classicPC: dos game | classicPC: classic pc game | classicPC: old pc games | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: retro games recommend | askRetro: best retro games | askRetro: best old games | askRetro: old game recommend | retroFeed: feed.
+Posts below: 12 + 2 heated. Dropped in this run: not about games 92, skip word 80, promo (link and hashtags) 5, bot, shop or studio 23, already answered 3, already shown 6, replies are limited 9, date in the future 1, other language (text) 7, too short 6, adult or graphic label 2, too many hashtags 4, low score 6, other language 28, not a question 25, earlier finds: low score 3.
 
 ## Posts
-1. @raposacadela.bsky.social (weg) · 2h · likes 0 · replies 0 · question · askRetro
-   https://bsky.app/profile/raposacadela.bsky.social/post/3myz63bctak2l
-   But ofc, old games are and have been my life-long hyperfocus, so I recognize I can excuse A LOT, and what I can't, heheh, I find charming! Still, I'd recommend to you a games like Duck Tales, Rockin' Cats, Power Blade,... they're not perfect, but maybe they're games that'll still
-2. @foxtastic.bsky.social (Fox 🏳️‍⚧️) · 4h · likes 0 · replies 1 · question · childhood
-   https://bsky.app/profile/foxtastic.bsky.social/post/3myyxez3hx22m
-   forever trying to remember any details at all about an intensely nostalgic game from my childhood that I desperately want to identify It has a creature that hatches from an egg? And it's not yoshi I think it's a PC game but it might've been PS1 or PS2, or even xbox? if it was my 
-3. @stachekip.bsky.social (Stachekip) · 8h · likes 7 · replies 1 · question · childhood
-   https://bsky.app/profile/stachekip.bsky.social/post/3myyjdraio22w
-   anyone else play this game for the nintendo 64? one of my childhood favorites..
-   [image: a loose cartridge copy of tommy boy 64 for the nintendo 64]
-4. @haitchkay.bsky.social (Haitch Kay But Spooky 🏳️‍🌈) · 19h · likes 1 · replies 0 · question · classicPC
-   https://bsky.app/profile/haitchkay.bsky.social/post/3myxcdg7d222j
-   My first PC games I remember: Duke 3D (played on DOS) Doom (played on DOS) Thief: The Dark Project Microsoft Flight Simulator 98 One of these things is not like the others
-   [quotes @win98tech.bsky.social: My first PC games i remember Age of Empires Robinhood Paint by Numbers Anno 1602 Warcraft Sim City 2000 Civilization 2 Not a lot but man di…]
-5. @stevelin.bsky.social (Steve Lin) · 21h · likes 5 · replies 0 · question · classicPC
-   https://bsky.app/profile/stevelin.bsky.social/post/3myx3hbi75c2v
-   I bought this at the last Portland Retro Gaming Expo because I remember being so excited to hear the character voices that I literally fell out of my chair during the intro. Note the system requirements: NOT A COMPLETE GAME: REQUIRES WING COMMANDER II CORE GAME
-   [image: A boxed copy of the Wing Commander 2 Vengeance of the Kilrathi Speech Accessory Pack. It has a red border on the top and bottom, the Wing Commander 2 logo, and…]
-6. @theeveningprimrose.bsky.social (The Midnight Grimrose) · 22h · likes 1 · replies 0 · question · classicPC
-   https://bsky.app/profile/theeveningprimrose.bsky.social/post/3myx2o7kq5k2i
-   I definitely played some DOS games but I can't remember their names. Myst is the earliest one I can remember. Me and my sister got really into it. I have the journal the game came with filled with her notes somewhere
-7. @stevewillshan.bsky.social (Steve Will Shan) · 1h · likes 1 · replies 1 · question · retroFeed
-   https://bsky.app/profile/stevewillshan.bsky.social/post/3myz7f23dus23
-   As a Nintendo kid growing up, it always confused me why PC game boxes were so large and in some cases, CRAZY shaped, while NES and SNES boxes were rather form fitting. Made me assume PC games were just... bigger? ...pointier?
-8. @rcj-70.bsky.social (Rob) · 4h · likes 1 · replies 0 · question · retroFeed
-   https://bsky.app/profile/rcj-70.bsky.social/post/3myyx3ztu4c2u
-   Classic NES Series: The Legend of Zelda #GameboyAdvance #retrogaming retroarcadememories.wordpress.com?page_id=23947
-   [link card: Classic NES Series: The Legend of Zelda]
-9. @sneptrov.bsky.social (Snerpman) · 19h · likes 0 · replies 0 · question · classicPC
+1. @samthul.bsky.social (Sam Thul) · 5h · likes 5 · replies 0 · question · classicPC
+   https://bsky.app/profile/samthul.bsky.social/post/3myzf6k5f6c2q
+   Where are my retro gaming nerds? 😂 Amiga, DOS, Sierra, Ultima, Gold Box RPGs... all that glorious '80s/'90s shit. If you're into old games and computers, say hi and give me a follow. I'll check out your stuff too! What game got you hooked? #RetroGaming #Amiga
+   [link card: Uggmugg's Retro PC Setup with iMac G3]
+2. @jed05.bsky.social (Jed Whitaker) · 5h · likes 0 · replies 0 · question · askRetro
+   https://bsky.app/profile/jed05.bsky.social/post/3myzhaf5bms27
+   Knuckle Creek is out on Steam. It's a slapstick comedy brawler where you get to make an old man that looks like he is made of clay, then fight in Smash Bros like combat (I think???). Anyways that is besides the point, it has one of the best launch trailers ever, trust me:
+   [link card: Knuckle Creek official release trailer]
+3. @edencoven.bsky.social (The Eden Coven) · 45m · likes 1 · replies 0 · question · retroFeed
+   https://bsky.app/profile/edencoven.bsky.social/post/3myzujm6ts22o
+   remembering that one classic twitter thread that kept going around that was like "Did you know that Croc sold a bajillion copies? This proves that nobody liked Castlevania for NES before Youtube told them to"
+4. @beardedgmusic.bsky.social (Bearded Gentlemen Music) · 2h · likes 2 · replies 0 · question · retroFeed
+   https://bsky.app/profile/beardedgmusic.bsky.social/post/3myzr62q44s24
+   What's better than horror movies and retro gaming? Combining them! Well, sorta. In the latest installment of CRYSTAL LAKE CONFESSIONAL, @aarxn82.bsky.social explores the making of FRIDAY THE 13TH for the NES and how it became a controversial cult classic! beardedgentlemenmusic.co
+   [link card: Crystal Lake Confessional | Friday The 13th NES Video Game - Bearded Gentlemen Music]
+5. @sneptrov.bsky.social (Snerpman) · 25h · likes 0 · replies 0 · question · classicPC
    https://bsky.app/profile/sneptrov.bsky.social/post/3myxe7v32qs2x
    Oh an engagement fad I can relate to. My first PC games I remember: Math Blaster Myst G-NOME Rollercoaster Tycoon Sim City Bugdom Hercules All the games on that windows 95 CD-ROM disc Probably more but these were very present for 5-10 year old me.
-10. @marisa.sayachan.org (Mari the Deer 🦌🖥️) · 22h · likes 23 · replies 3 · question · childhood
-   https://bsky.app/profile/marisa.sayachan.org/post/3myx2jvxcxs24
-   My first PC games I remember: Tyrian Abuse Doom and friends (Heretic, Hexen, Strife) Quake I Duke Nukem I, II and 3D Some semi-obscure German game called Clonk Some semi-obscure Warcraft clone (Warbreeds) The Commander Keen series, can't forget those Hocus Pocus Mystic Towers and
-   [quotes @alsvid.bsky.social: My first PC games I remember: MegaRace A Bunch of Really Awful And Scary Edutainment Games by Knowledge Adventure like Dinosaur Adventure, …]
-11. @ekimdafluffyeevee.bsky.social (Mikafran (Unspookified cuz of end-month)) · 22h · likes 3 · replies 0 · question · nostalgia
+6. @ekimdafluffyeevee.bsky.social (Mikafran (Unspookified cuz of end-month)) · 28h · likes 3 · replies 0 · question · nostalgia
    https://bsky.app/profile/ekimdafluffyeevee.bsky.social/post/3myx27nqcc22s
    Mornin shiro! Hmm truthfully i dont have a favorite retro game tho... never played in that era
-12. @akt81.bsky.social (Adam) · 22h · likes 0 · replies 0 · question · classicPC
+7. @akt81.bsky.social (Adam) · 28h · likes 0 · replies 0 · question · classicPC
    https://bsky.app/profile/akt81.bsky.social/post/3mywzxxcres2n
    @mattmcmuscles.bsky.social Possible Worst Fighting game contender? "One Must Fall 2097", it's a DOS button basher from 1994, so it HAS to be good!
    [image, no description]
+8. @aarxn82.bsky.social (Aaron Cooper) · 27m · likes 0 · replies 0 · question · retroFeed
+   https://bsky.app/profile/aarxn82.bsky.social/post/3myzvjewzyk24
+   A video game adaptation of an R rated horror franchise marketed to children, what could go wrong? Over at @beardedgmusic.bsky.social I take a closer look at the making of FRIDAY THE 13TH for the NES and how it became an unforgivingly difficult cult classic! beardedgentlemenmusic.
+   [link card: Crystal Lake Confessional | Friday The 13th NES Video Game - Bearded Gentlemen Music]
+9. @lfcjude.bsky.social (LFC Jude) · 36m · likes 1 · replies 1 · childhood
+   https://bsky.app/profile/lfcjude.bsky.social/post/3myzuzsqls22l
+   Oh I was so happy to be involved in that - one of my childhood heroes of course. What a day. I'l never forget it. That crazy game that ended 4-4 with 4 goals from Arshavin! It was madness.
+10. @velcrocandy.bsky.social (Velcro Candy) · 1h · likes 5 · replies 3 · question · retroFeed
+   https://bsky.app/profile/velcrocandy.bsky.social/post/3myztfqsnt226
+   Before they go on Facebook Marketplace - Does anyone have any interest in my retro game collection? Odyssey² Atari 2600 Atari 7800 N64 X-Box X-Box 360 Atari Lynx Sega Pico Sega GameGear ???
+11. @feed.igeek.gamer-geek-news.com.ap.brid.gy (input) · 2h · likes 0 · replies 0 · question · retroFeed
+   https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3myzrpyxrnsd2
+   🕹️ **Korean Ratings Board Lists Capcom Console Releases Inc. NES & SNES Final Fight, Mega Man, & Breath of Fire Games** Console collection incoming?Everyone's favourite whistleblower, The Game Rating and Administration Committee of Korea, has a new […] [Original post on igeek.ga
+   [image: Image for: Korean Ratings Board Lists Capcom Console Releases Inc. NES & SNES Final Fight, Mega Man, & Breath of Fire Games]
+12. @superjim.bsky.social (Super Jim) · 3h · likes 2 · replies 1 · childhood
+   https://bsky.app/profile/superjim.bsky.social/post/3myzodhedy22e
+   Childhood love for the C64 version and I still love it to this day. A literal "there is a key and lock" nonesense literal game... but yeah. Deep love for it❤️
 
 ## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @nachtrave.bsky.social (NR RetroWorks) · 10h · likes 3 · replies 2 · question · retroFeed
-   https://bsky.app/profile/nachtrave.bsky.social/post/3myyas6ysuk2n
-   I’ve been working on a lot of projects lately. Got PCB design in one area, console restoration in another, an AI agent decompiling a SNES game, and two kitties who demand my attention for snuggles and cuddles. 🥰 I just need another me and I could have four more projects being wo
-2. @varsuuvius.bsky.social (Varsuuvius) · 16h · likes 0 · replies 0 · classicPC
-   https://bsky.app/profile/varsuuvius.bsky.social/post/3myxojekmzk2z
-   I have spent 130+ hours on a single new RPG this year alone. i could play any sorts of ols games I've never gotten to on my PC like MGS or Tales of. If all i evet play are old and Nintendo games (who are staunchly anti-AI), then I'll have enough to last till I die.
+1. @kastiakbc.bsky.social (Kastia| The Farmer And The Wolf) · 2h · likes 7 · replies 0 · askRetro
+   https://bsky.app/profile/kastiakbc.bsky.social/post/3myzqo633uk2m
+   If y'all want some classic, early internet spooky goodness, I highly recommend clicking through Crumpkin's Pumpkins; a fun little point and click browser exploration game. No AI, just good old fashioned photo-bashing and spooky charm. 🎃 www.crumpkinspumpkins.com
+   [2 images, no description]
+2. @can-ai.bsky.social (Can AI?) · 3h · likes 0 · replies 0 · question · retroFeed
+   https://bsky.app/profile/can-ai.bsky.social/post/3myznsqp6to2b
+   Can AI change the time on a nintendo ds , Dsi , or 3ds?
