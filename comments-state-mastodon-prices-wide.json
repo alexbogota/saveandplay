@@ -8,65 +8,47 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 320,
-      "posts": 13320,
-      "fit": 177,
+      "runs": 328,
+      "posts": 13640,
+      "fit": 181,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-30T07:00:36.685Z"
+        "at": "2026-10-30T13:00:36.554Z"
       }
     },
     "moreAsk": {
-      "runs": 200,
-      "posts": 1800,
+      "runs": 205,
+      "posts": 1845,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-10-30T07:00:36.685Z"
+        "at": "2026-10-30T13:00:36.554Z"
       }
     },
     "moreRetro": {
-      "runs": 200,
-      "posts": 12760,
-      "fit": 430,
+      "runs": 205,
+      "posts": 13080,
+      "fit": 440,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-30T07:00:36.685Z"
+        "at": "2026-10-30T13:00:36.554Z"
       }
     },
     "morePlaying": {
-      "runs": 200,
-      "posts": 840,
+      "runs": 205,
+      "posts": 861,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-10-30T07:00:36.685Z"
+        "at": "2026-10-30T13:00:36.554Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@robavince/117522181795654168": {
-      "uri": "https://mastodon.social/@robavince/117522181795654168",
-      "url": "https://mastodon.social/@robavince/117522181795654168",
-      "handle": "robavince@mastodon.social",
-      "name": "robavince",
-      "text": "Forgive the low resolution. This clip is of Space Fortress for Bally Astrocade on my Analogue Pocket. It's the most intense game I've ever played. One of my favorites of all time. I hope the intensity comes through, because I died right when it was getting wild. When I took consoles to conventions people would come show after show, year after year, just to play this again. #retrogaming",
-      "createdAt": "2026-10-29T03:56:22.189Z",
-      "likes": 4,
-      "replies": 1,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "video: See post",
-      "firstSeen": "2026-10-29T07:00:28.774Z"
-    },
     "https://mastodon.social/@quazarsamcoupe@mastodonapp.uk/117525698717493075": {
       "uri": "https://mastodon.social/@quazarsamcoupe@mastodonapp.uk/117525698717493075",
       "url": "https://mastodon.social/@quazarsamcoupe@mastodonapp.uk/117525698717493075",
@@ -168,7 +150,7 @@
       "name": "GamersphereNZ",
       "text": "A memorable turn can come from a huge combo or one tiny, perfectly timed choice. What move from a recent game are you still thinking about? #GameNight #Tabletop",
       "createdAt": "2026-10-30T03:30:11.707Z",
-      "likes": 0,
+      "likes": 1,
       "replies": 0,
       "group": "moreGaming",
       "query": "gamenight",
@@ -186,7 +168,7 @@
       "name": "Travis Briggs",
       "text": "We have come to the conclusion that DR is actually harder, or at least more consistent. Also id uses them 5:1, so that helps. Claude is now re-writing it's Python door helper, recompiling all the maps on NUKAGE.WAD, and runing the automated ViZDoom playtests on all the new maps. #doom #retrogaming",
       "createdAt": "2026-10-30T04:34:05.000Z",
-      "likes": 0,
+      "likes": 1,
       "replies": 1,
       "group": "moreRetro",
       "query": "retrogaming",
@@ -205,7 +187,7 @@
       "name": "Travis Briggs",
       "text": "TIL that vanilla DOOM monsters don't pathfind. They come directly at the player. ALSO If a monster is in a corner between a wall and a door that it is allowed to activate, it uses its \"turn\" to try to open the door instead of move off the wall. Which means that you can pin a monster like an imp or a caco to the jamb of a door, and just execute it. 💀 #doom #retrogaming",
       "createdAt": "2026-10-30T03:36:08.000Z",
-      "likes": 0,
+      "likes": 1,
       "replies": 1,
       "group": "moreRetro",
       "query": "retrogaming",
@@ -216,6 +198,61 @@
       "origin": "https://sfba.social/@audiodude/117527764554923788",
       "media": null,
       "firstSeen": "2026-10-30T07:00:36.685Z"
+    },
+    "https://mastodon.social/@sgn98/117529664758476928": {
+      "uri": "https://mastodon.social/@sgn98/117529664758476928",
+      "url": "https://mastodon.social/@sgn98/117529664758476928",
+      "handle": "sgn98@mastodon.social",
+      "name": "sgn98 (in English)",
+      "text": "If it were to ever become a reality in the form of a video game - and even be playable - I would be more than happy to have contributed this idea. #game #videogame #casual #casualgame #gaming #pixelart #art #parody #meme #fun #funny #irl #reality #criticism #minesweeper #dog #walking #inthenutshell #cynical #pessimism #incivility #strategy #strategygame #noai",
+      "createdAt": "2026-10-30T11:39:23.140Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "moreGaming",
+      "query": "videogame",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image, no description",
+      "firstSeen": "2026-10-30T13:00:36.554Z"
+    },
+    "https://mastodon.social/@Wratholyte@mas.to/117529498598969176": {
+      "uri": "https://mastodon.social/@Wratholyte@mas.to/117529498598969176",
+      "url": "https://mastodon.social/@Wratholyte@mas.to/117529498598969176",
+      "handle": "Wratholyte@mas.to",
+      "name": "Wratholyte",
+      "text": "Sniping Soirée ⚡Fueled by Rogue Energy #battlefield6 #battlefield #rogueenergy #roguegaming #thecitadel #twitch #wratholyte #roguenation #recon #contentcreator #gaming #battlefieldclips #fps #gamingclips #battlefield6gameplay",
+      "createdAt": "2026-10-30T10:57:04.000Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "moreGaming",
+      "query": "fps",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://mas.to/@Wratholyte/117529498361130747",
+      "media": "video, no description",
+      "firstSeen": "2026-10-30T13:00:36.554Z"
+    },
+    "https://mastodon.social/@Madfox_Timmy/117529476362222399": {
+      "uri": "https://mastodon.social/@Madfox_Timmy/117529476362222399",
+      "url": "https://mastodon.social/@Madfox_Timmy/117529476362222399",
+      "handle": "Madfox_Timmy@mastodon.social",
+      "name": "Timmy the Madfox",
+      "text": "...game that I recently found on eBay & snapped up (my previous C64 copy became half unusable when tape 2 snapped). This is the sort of game that leaves me wondering: How the (Bleep!) did you get a C64 to do that? 😅 2/2 #RetroGaming #Commodore64 #Psygnosis #Lemmings #TheCommodore1541MK2ScaresMe",
+      "createdAt": "2026-10-30T10:51:28.449Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 9,
+      "question": true,
+      "heated": false,
+      "isReply": true,
+      "media": null,
+      "firstSeen": "2026-10-30T13:00:36.554Z"
     }
   }
 }
