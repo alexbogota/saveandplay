@@ -8,122 +8,47 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 304,
-      "posts": 12640,
-      "fit": 175,
+      "runs": 312,
+      "posts": 13000,
+      "fit": 176,
       "last": {
         "posts": 80,
         "fit": 1,
-        "at": "2026-10-29T18:57:06.100Z"
+        "at": "2026-10-30T01:02:40.060Z"
       }
     },
     "moreAsk": {
-      "runs": 190,
-      "posts": 1710,
+      "runs": 195,
+      "posts": 1755,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-10-29T18:57:06.100Z"
+        "at": "2026-10-30T01:02:40.060Z"
       }
     },
     "moreRetro": {
-      "runs": 190,
-      "posts": 12120,
-      "fit": 413,
+      "runs": 195,
+      "posts": 12440,
+      "fit": 421,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-29T18:57:06.100Z"
+        "at": "2026-10-30T01:02:40.060Z"
       }
     },
     "morePlaying": {
-      "runs": 190,
-      "posts": 798,
+      "runs": 195,
+      "posts": 819,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-10-29T18:57:06.100Z"
+        "at": "2026-10-30T01:02:40.060Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@b4ux1t3@hachyderm.io/117519817300931588": {
-      "uri": "https://mastodon.social/@b4ux1t3@hachyderm.io/117519817300931588",
-      "url": "https://mastodon.social/@b4ux1t3@hachyderm.io/117519817300931588",
-      "handle": "b4ux1t3@hachyderm.io",
-      "name": "b4ux1t3 #1️⃣",
-      "text": "Wife has been very sick of late. So kiddo and I stopped while we were out to pick up supplies. #retroGaming #segaGenesis",
-      "createdAt": "2026-10-28T17:55:00.000Z",
-      "likes": 2,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://hachyderm.io/@b4ux1t3/117519817145945057",
-      "media": "image: A Sega Genesis console is partially visible in a yellow bag, alongside a video game cartridge for \"The Lion King,\" featuring artwork of the characters. Cords a…",
-      "firstSeen": "2026-10-28T18:55:45.719Z"
-    },
-    "https://mastodon.social/@SuperSelena64@hachyderm.io/117519604039781161": {
-      "uri": "https://mastodon.social/@SuperSelena64@hachyderm.io/117519604039781161",
-      "url": "https://mastodon.social/@SuperSelena64@hachyderm.io/117519604039781161",
-      "handle": "SuperSelena64@hachyderm.io",
-      "name": "Selena the Retro-Princess",
-      "text": "The coolest thing about the Street Fighter 2 pinball machine is that it includes the little car-smashing mini-game! #pinball #streetfighter #retrogaming #retrogames",
-      "createdAt": "2026-10-28T17:00:43.000Z",
-      "likes": 37,
-      "replies": 1,
-      "group": "moreRetro",
-      "query": "retrogames",
-      "score": 4,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://hachyderm.io/@SuperSelena64/117519603721875838",
-      "media": "2 images: A view of the cabinet from the front showing the classic Street Fighter 2 art on the marquee / A window into the little box with the car and a flipped with a ball for striking it with when the mini-game starts",
-      "firstSeen": "2026-10-28T18:55:45.719Z"
-    },
-    "https://mastodon.social/@robavince/117519439377572408": {
-      "uri": "https://mastodon.social/@robavince/117519439377572408",
-      "url": "https://mastodon.social/@robavince/117519439377572408",
-      "handle": "robavince@mastodon.social",
-      "name": "robavince",
-      "text": "When I was a kid I went to the Boys and Girls Club. There there had this cab. One other kid and I took turns beating each other's high scores. It's still fun! This is the Analogue Pocket core. #arcade #retrogaming",
-      "createdAt": "2026-10-28T16:18:56.244Z",
-      "likes": 5,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "image: Title screen of Time Pilot '84",
-      "firstSeen": "2026-10-28T18:55:45.719Z"
-    },
-    "https://mastodon.social/@bunnyhearted@vt.social/117518900140124840": {
-      "uri": "https://mastodon.social/@bunnyhearted@vt.social/117518900140124840",
-      "url": "https://mastodon.social/@bunnyhearted@vt.social/117518900140124840",
-      "handle": "bunnyhearted@vt.social",
-      "name": "Bunny Hearted",
-      "text": "🐰 Hey y'all! It's Retrothon day 8, with 6.5hrs on the clock we're TANTALIZINGLY CLOSE to the next milestone: an all bad retro games day. Today's quite the opposite tho, and features Vagrant Story and Ace Combat 4! Stream's up at 3et. #vsky #retrogaming",
-      "createdAt": "2026-10-28T14:01:45.000Z",
-      "likes": 1,
-      "replies": 1,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://vt.social/@bunnyhearted/117518899992443898",
-      "media": "image: A poster for today's stream, which shows the cover of both Vagrant Story and Ace Combat 4. Stream is on both twitch and altstream, and starts at 12pm pt, 3pm e…",
-      "firstSeen": "2026-10-28T18:55:45.719Z"
-    },
     "https://mastodon.social/@Doubleaa@gamepad.club/117521131175866890": {
       "uri": "https://mastodon.social/@Doubleaa@gamepad.club/117521131175866890",
       "url": "https://mastodon.social/@Doubleaa@gamepad.club/117521131175866890",
@@ -205,7 +130,7 @@
       "name": "Quazar",
       "text": "Updated two of my websites... (Shipping / Videos / Community links) 🌐 2014.samcoupe.com - Peripherals for #RC2014 / #RCbus and compatibles. SID / SAA1099P / ZXTT / OLED + more... 🌐 zx.samcoupe.com - Hardware I make for the #ZXSpectrum. 2 Way Expansion / ROM Cart + more... #retrocomputing #electronics #chiptune #retrogaming",
       "createdAt": "2026-10-29T18:50:43.000Z",
-      "likes": 0,
+      "likes": 1,
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
@@ -215,25 +140,6 @@
       "isReply": false,
       "origin": "https://mastodonapp.uk/@quazarsamcoupe/117525698548377044",
       "media": "4 images: ZXTT v2.0 - add-on for Ed Brindley's YM/AY Sound Card, or incorporate into anything else with the AY-3-8910/12 soundchip for pitch perfect playback of ZX Spect… / SID Soundchip Interface for RC2014 / RCbus / Compatibles (such as the Feersum Microbeast and even the ZX Spectrum with a ZX-RC Bus Adapter - see my site!) / 2 Way Expansion card for the ZX Spectrum / Interface 2 style flash memory cartridge for the ZX Spectrum (and SAM Coupe via the ZX-ECUTOR interface)",
-      "firstSeen": "2026-10-29T18:57:06.100Z"
-    },
-    "https://mastodon.social/@SuperSelena64@hachyderm.io/117525267044246012": {
-      "uri": "https://mastodon.social/@SuperSelena64@hachyderm.io/117525267044246012",
-      "url": "https://mastodon.social/@SuperSelena64@hachyderm.io/117525267044246012",
-      "handle": "SuperSelena64@hachyderm.io",
-      "name": "Selena the Retro-Princess",
-      "text": "I'm scared of a surgery tomorrow but I'm trying to mitigate my stress by taking out a couple of my underused systems! The Atari 130XE (with Fujinet and the Wico joystick) and the Odyssey 2 (or Videopac if you prefer) with the Euro 7800 controller via adapter! Not the most mainstream stuff, but it's fun! #retrocomputing #retrogaming",
-      "createdAt": "2026-10-29T17:00:55.000Z",
-      "likes": 11,
-      "replies": 8,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://hachyderm.io/@SuperSelena64/117525266780233890",
-      "media": "2 images: The 130XE on my floor as described - lots of extra LEDs added to it / My Odyssey 2 on my hardwood floor in front of some other consoles, with the European 7800 controller, as described in the post",
       "firstSeen": "2026-10-29T18:57:06.100Z"
     },
     "https://mastodon.social/@kekoakiki@vt.social/117525235192813580": {
@@ -247,7 +153,7 @@
       "replies": 1,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 9,
+      "score": 8,
       "question": true,
       "heated": false,
       "isReply": false,
@@ -255,24 +161,61 @@
       "media": null,
       "firstSeen": "2026-10-29T18:57:06.100Z"
     },
-    "https://mastodon.social/@kuroneko@socials.thundercleess.com/117524408509680366": {
-      "uri": "https://mastodon.social/@kuroneko@socials.thundercleess.com/117524408509680366",
-      "url": "https://mastodon.social/@kuroneko@socials.thundercleess.com/117524408509680366",
-      "handle": "kuroneko@socials.thundercleess.com",
-      "name": "Blackcat",
-      "text": "🎮 On This Day in Gaming — October 29 Assassin's Creed IV: Black Flag (2013) sent players sailing the Caribbean as pirate captain Edward Kenway, and many still rank its naval combat as the best in the series. Also released today: 📅 2013: Battlefield 4 📅 2001: Sid Meier's Civilization III Complete 📅 2009: Grand Theft Auto: Episodes from Liberty City #Gaming #OnThisDay #RetroGaming #AssassinsCreedIVBlackFlag",
-      "createdAt": "2026-10-29T13:22:34.000Z",
-      "likes": 0,
+    "https://mastodon.social/@stunningshemp/117526894234021350": {
+      "uri": "https://mastodon.social/@stunningshemp/117526894234021350",
+      "url": "https://mastodon.social/@stunningshemp/117526894234021350",
+      "handle": "stunningshemp@mastodon.social",
+      "name": "Chris Coats",
+      "text": "Joe is dangerous even with reversed controls #retrogaming #shinobi #ninja #stunningshemp #twitch",
+      "createdAt": "2026-10-29T23:54:48.291Z",
+      "likes": 1,
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 3,
+      "score": 4,
       "question": false,
       "heated": false,
       "isReply": false,
-      "origin": "https://socials.thundercleess.com/@kuroneko/117524408191211375",
-      "media": "4 images: Promotional artwork for Assassin's Creed IV: Black Flag / Promotional artwork for Battlefield 4 / Promotional artwork for Sid Meier's Civilization III Complete / Promotional artwork for Grand Theft Auto: Episodes from Liberty City",
-      "firstSeen": "2026-10-29T18:57:06.100Z"
+      "media": "video, no description",
+      "firstSeen": "2026-10-30T01:02:40.060Z"
+    },
+    "https://mastodon.social/@andyvaisey@oldbytes.space/117525952224546838": {
+      "uri": "https://mastodon.social/@andyvaisey@oldbytes.space/117525952224546838",
+      "url": "https://mastodon.social/@andyvaisey@oldbytes.space/117525952224546838",
+      "handle": "andyvaisey@oldbytes.space",
+      "name": "aNdy",
+      "text": "CityLab on the #C64 now has planes, but their are a few rules however! The players airport must be powered and the city must have achieved 'city' level status. Also, it is wise to build airports further apart. Airports close together may compete for business, so one may be completely inactive. Having an airport improves your mayoral rating and keeps the population and industry happy. However, it also add to the pollution level. It's all a balancing act! @c64 @EC64 #Commodore #retrogaming #retrogames #8bit #simulation",
+      "createdAt": "2026-10-29T19:55:11.000Z",
+      "likes": 2,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://oldbytes.space/@andyvaisey/117525952064430471",
+      "media": "image, no description",
+      "firstSeen": "2026-10-30T01:02:40.060Z"
+    },
+    "https://mastodon.social/@jodsclass@indieweb.social/117525911347074574": {
+      "uri": "https://mastodon.social/@jodsclass@indieweb.social/117525911347074574",
+      "url": "https://mastodon.social/@jodsclass@indieweb.social/117525911347074574",
+      "handle": "jodsclass@indieweb.social",
+      "name": "Jodsclass 🏴‍☠️☕",
+      "text": "I’m not sure this qualifies for #retrogaming just yet, but today I picked up a copy of Gears of War ultimate. I have the Steelbook 360 version somewhere which i got at launch, but I can’t for the life of me find it, so giving this remaster a go before tackling E-day over my Xmas break.",
+      "createdAt": "2026-10-29T19:44:48.000Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 4,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://indieweb.social/@jodsclass/117525911200328427",
+      "media": "image, no description",
+      "firstSeen": "2026-10-30T01:02:40.060Z"
     }
   }
 }
