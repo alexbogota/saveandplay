@@ -1658,6 +1658,58 @@
             "id": "524b4d472f2e4318910e02ad193ee5ff8e786e794e503bc3e957bcb4573972bb",
             "sig": "1e821efde5d06dc27ac2295d09c80890baad42bdbc3188fca786602bd113ee3d30d3b966c9a73ae6f9d57d63657dacc3dbce9c0802904131adcb36f83d646ec1"
           }
+        },
+        "article": {
+          "status": "done",
+          "kind": "article",
+          "id": "83d74714b43a14dc2ec8c5d73ad98b52ce5ebd29118072feffafccb8d514c810",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "article": "steam-wallet-funds-what-to-know",
+          "postedAt": "2026-10-30T17:31:59.000Z",
+          "accepted": [
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [
+            {
+              "url": "wss://relay.damus.io",
+              "reason": "connection failed"
+            }
+          ],
+          "event": {
+            "kind": 1,
+            "created_at": 1793381519,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-article"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://saveandplay.com/og/steam-wallet-funds-what-to-know.png",
+                "m image/png",
+                "alt Four rules for Steam Wallet funds from Valve's pages: refund within 14 days if unused, no cash value, not transferable between accounts, and a limit of US$2,000 per 24 hours."
+              ]
+            ],
+            "content": "Steam Wallet funds: what the rules say before you add money\n\nSteam Wallet money has no cash value, cannot be moved to another account, and is refundable only for 14 days if unused. Here is what Valve's own pages say.\n\n#pcgaming #gamedeals\n\nhttps://saveandplay.com/og/steam-wallet-funds-what-to-know.png\n\nhttps://saveandplay.com/guides/steam-wallet-funds-what-to-know/?utm_source=nostr-prices&utm_medium=social&utm_campaign=steam-wallet-funds-what-to-know",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "83d74714b43a14dc2ec8c5d73ad98b52ce5ebd29118072feffafccb8d514c810",
+            "sig": "02e51144f8efc50b8743dbf40a5d0e34b9cbb2640009a69d35b6ba9191713c377dbf1cb59e3253ed36a5806f07be2c2b6ac14f5239033876fac62b334c26df7e"
+          }
         }
       }
     }
@@ -1707,6 +1759,10 @@
       "how-to-read-game-price-history": {
         "day": "2026-10-28",
         "id": "936b52bd44bb2238d5dbbf96eeb78b4ab1842ec6247b8387bdf5a539336b315e"
+      },
+      "steam-wallet-funds-what-to-know": {
+        "day": "2026-10-30",
+        "id": "83d74714b43a14dc2ec8c5d73ad98b52ce5ebd29118072feffafccb8d514c810"
       }
     }
   },
