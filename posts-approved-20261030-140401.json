@@ -1,0 +1,29 @@
+{
+  "approvedAt": "2026-10-30T14:04:01.796Z",
+  "items": [
+    {
+      "n": 1,
+      "kind": "deal",
+      "platform": "bluesky",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "text": "No Man's Sky: -60% at IndieGala\n$23.99 (was $59.99)\nPrice checked Oct 30. Sale ends Nov 2. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/indiegala/no-man-s-sky/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-30\n\n#PCGaming #GameDeals #VideoGames #IndieGames #Games\nAd",
+      "link": "https://saveandplay.com/deals/indiegala/no-man-s-sky/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-30",
+      "day": "2026-10-30",
+      "key": "prices|2026-10-30|/deals/indiegala/no-man-s-sky/",
+      "notBefore": "2026-10-30T14:04:01.796Z"
+    },
+    {
+      "n": 2,
+      "kind": "deal",
+      "platform": "bluesky",
+      "account": "prices-2",
+      "handle": "saveandplay.com",
+      "text": "Shadow Tactics: Blades of the Shogun: -90% at GOG\n$3.99 (was $39.99)\nPrice checked Oct 30. Sale ends Nov 5. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-30\n\n#PCGaming #GameDeals #GOG #VideoGames #Gaming\nAd",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-30",
+      "day": "2026-10-30",
+      "key": "prices-2|2026-10-30|/deals/gog/shadow-tactics-blades-of-the-shogun/",
+      "notBefore": "2026-10-30T16:04:01.796Z"
+    }
+  ]
+}

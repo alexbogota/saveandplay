@@ -1,0 +1,27 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-retro-20261030-140151.json",
+  "approvedAt": "2026-10-30T14:04:04.446Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:boap4i5zbj2whip6f2iqqvbu/app.bsky.feed.post/3mz2fcs57m22s",
+      "url": "https://bsky.app/profile/laddingtongaz.bsky.social/post/3mz2fcs57m22s",
+      "author": "laddingtongaz.bsky.social",
+      "context": "YouTube reccomended me a video on the old arcade game Carnevil. A game I remember seeing the eye catch of when I was like 7 or 8 and I had nightmares for WEEKS. Seeing it now, yeah it looks dumb and silly, but I still have that feeling in my chest of like…that childhood fear feeling lmao.",
+      "text": "That's such a vivid memory. Arcade attract screens were made to stick with you, and clearly this one did. Funny how it looks so different from this side.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:7qyy5u3bbm36rwp7cwddweg3/app.bsky.feed.post/3myzf6k5f6c2q",
+      "url": "https://bsky.app/profile/samthul.bsky.social/post/3myzf6k5f6c2q",
+      "author": "samthul.bsky.social",
+      "context": "Where are my retro gaming nerds? 😂 Amiga, DOS, Sierra, Ultima, Gold Box RPGs... all that glorious '80s/'90s shit. If you're into old games and computers, say hi and give me a follow. I'll check out your stuff too! What game got you hooked? #RetroGaming #Amiga\nlink card: Uggmugg's Retro PC Setup with iMac G3",
+      "text": "Hi! Sierra adventures and the Gold Box RPGs are a great pile to dig through. A lot of those DOS classics are sold DRM-free on GOG with the old-PC setup already done, so they run on a modern machine without any tinkering.",
+      "edited": false
+    }
+  ]
+}
