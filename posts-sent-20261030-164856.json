@@ -1,0 +1,23 @@
+{
+  "madeAt": "2026-10-30T16:48:56.240Z",
+  "run": "41093259629",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices-2|2026-10-30|/deals/gog/shadow-tactics-blades-of-the-shogun/",
+      "account": "prices-2",
+      "handle": "saveandplay.com",
+      "n": 2,
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-30",
+      "text": "Shadow Tactics: Blades of the Shogun: -90% at GOG\n$3.99 (was $39.99)\nPrice checked Oct 30. Sale ends Nov 5. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-30\n\n#PCGaming #GameDeals #GOG #VideoGames #Gaming\nAd",
+      "approvedFile": "posts-approved-20261030-140401.json",
+      "approvedAt": "2026-10-30T14:04:01.796Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-30T16:48:58.214Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mz4adcxfge2w",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3mz4adcxfge2w",
+      "picture": true
+    }
+  ]
+}
