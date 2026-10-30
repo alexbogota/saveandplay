@@ -1,5 +1,5 @@
-# Brief: Honest prices (saveandplay.tumblr.com), 2026-10-29 11:34 UTC
-Prices checked 2026-10-29 10:20 UTC (1 h ago). News: 11 of 11 sources read, 144 items from the last 48 h, 1 of 7 offered deals mentioned.
+# Brief: Honest prices (saveandplay.tumblr.com), 2026-10-30 11:29 UTC
+Prices checked 2026-10-30 10:19 UTC (1 h ago). News: 11 of 11 sources read, 160 items from the last 48 h, 1 of 8 offered deals mentioned.
 
 Write ONE post about the first item below (take another one only if it looks wrong, and say why).
 Rules:
@@ -10,68 +10,74 @@ Rules:
 - Say lowest price we've tracked only if the brief says so; never write lowest ever.
 - The post is made by scripts/post-tumblr.mjs from a template, without AI. This account is automated and some links are affiliate links; the blog description says so.
 
-## 1. Frostpunk: GOG $4.49 (was $29.99, -85%)
-Sale ends 2026-11-05 07:59 UTC (in 7 days). Price checked 2026-10-29 10:19 UTC. Score 10.5.
-Why today: lowest price we've tracked (17 days of data); deepest-discount rank 2 of 7.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/frostpunk/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-29
-Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323190/abcd2bf3c275092d637d7dd98e0061dbdd2fd2da/header.jpg?t=1784897899
-Alt text: Cover art for Frostpunk
-
-## 2. No Man's Sky: IndieGala $23.99 (was $59.99, -60%)
-Sale ends 2026-11-02 23:59 UTC (in 5 days). Price checked 2026-10-29 10:20 UTC. Score 10.
-Why today: 1 news site wrote about the game in the last 48 h; lowest price we've tracked (14 days of data); deepest-discount rank 7 of 7.
-- Eurogamer, Oct 28: "As No Man's Sky arrives on mobile, Hello Games celebrates with a spooky update for all th…" https://www.eurogamer.net/no-mans-sky-forsaken-update-release-ipad-iphone
-Link for the post (link to our site): https://saveandplay.com/deals/indiegala/no-man-s-sky/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-29
+## 1. No Man's Sky: IndieGala $23.99 (was $59.99, -60%)
+Sale ends 2026-11-02 23:59 UTC (in 4 days). Price checked 2026-10-30 10:19 UTC. Score 16.
+Why today: 3 news sites wrote about the game in the last 48 h; lowest price we've tracked (15 days of data); deepest-discount rank 8 of 8.
+- Rock Paper Shotgun, Oct 29: "Atmosfar is a giddy aerial exploration game after the heart of No Man's Sky, but I'm alre…" https://www.rockpapershotgun.com/atmosfar-is-a-giddy-aerial-exploration-game-after-the-heart-of-no-mans-sky-but-im-already-trying-to-escape-it
+- gg.deals Freebies, Oct 29: "New FREE No Man's Sky Forsaken update adds creepy collectibles, new ships, and more" https://gg.deals/freebie/new-free-no-mans-sky-forsaken-update/
+- gg.deals News, Oct 29: "New FREE No Man's Sky Forsaken update adds creepy collectibles, new ships, and more" https://gg.deals/freebie/new-free-no-mans-sky-forsaken-update/
+Link for the post (link to our site): https://saveandplay.com/deals/indiegala/no-man-s-sky/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-30
 Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/84d0df065c36eb8ded7bdf0d8fccd19d43b6c005/header.jpg?t=1789479023
 Alt text: Cover art for No Man's Sky
 
+## 2. Thronebreaker: The Witcher Tales: GOG $3.99 (was $19.99, -80%)
+Sale ends 2026-11-05 07:59 UTC (in 6 days). Price checked 2026-10-30 10:19 UTC. Score 10.
+Why today: lowest price we've tracked (19 days of data); deepest-discount rank 6 of 8.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/thronebreaker-the-witcher-tales/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-30
+Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/973760/f748e07df077bb0cf4c49d4bc0f6437f510c5251/header.jpg?t=1761829221
+Alt text: Cover art for Thronebreaker: The Witcher Tales
+
 ## 3. This War of Mine: GOG $2.99 (was $19.99, -85%)
-Sale ends 2026-11-05 07:59 UTC (in 7 days). Price checked 2026-10-29 10:19 UTC. Score 9.5.
-Why today: deepest-discount rank 4 of 7.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-29
+Sale ends 2026-11-05 07:59 UTC (in 6 days). Price checked 2026-10-30 10:19 UTC. Score 9.5.
+Why today: deepest-discount rank 3 of 8.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-30
 Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984
 Alt text: Cover art for This War of Mine
 
-## 4. Dragon's Dogma: Dark Arisen: GOG $4.79 (was $29.99, -84%)
-Sale ends 2026-11-05 07:59 UTC (in 7 days). Price checked 2026-10-29 10:19 UTC. Score 9.4.
-Why today: deepest-discount rank 6 of 7.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/dragon-s-dogma-dark-arisen/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-29
+## 4. SimCity 4 Deluxe Edition: GOG $4.99 (was $19.99, -75%)
+Sale ends 2026-11-05 07:59 UTC (in 6 days). Price checked 2026-10-30 10:19 UTC. Score 9.5.
+Why today: lowest price we've tracked (21 days of data); deepest-discount rank 7 of 8.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-30
+Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586
+Alt text: Cover art for SimCity 4 Deluxe Edition
+
+## 5. Dragon's Dogma: Dark Arisen: GOG $4.79 (was $29.99, -84%)
+Sale ends 2026-11-05 07:59 UTC (in 6 days). Price checked 2026-10-30 10:19 UTC. Score 9.4.
+Why today: deepest-discount rank 5 of 8.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/dragon-s-dogma-dark-arisen/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-30
 Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367500/header.jpg?t=1768870344
 Alt text: Cover art for Dragon's Dogma: Dark Arisen
 
-## 5. Shadow Tactics: Blades of the Shogun: GOG $3.99 (was $39.99, -90%)
-Sale ends 2026-11-05 07:59 UTC (in 7 days). Price checked 2026-10-29 10:19 UTC. Score 3.
-Why today: lowest price we've tracked (20 days of data); deepest-discount rank 1 of 7.
-Note: suggested on 2026-10-23, already used recently.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-29
-Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696
-Alt text: Cover art for Shadow Tactics: Blades of the Shogun
-
 ## News on the topic (no deal)
-- Eurogamer, Oct 29: "Xbox leader Asha Sharma says there's "more demand than consoles available" as Xbox hardware sales d…" https://www.eurogamer.net/xbox-financials-sales-asha-sharma-microsoft | Xbox leader Asha Sharma has claimed there's "more demand than consoles available" when it comes to Xbox, and that console sales "remain constrained by supply".…
-- gg.deals Freebies, Oct 29: "Two very different horror games are FREE on Epic Games Store for a few more hours (updated)" https://gg.deals/freebie/two-very-different-horror-games-are-now-free-on-epic-games-store-prepare-for-halloween/ | Prepare for Halloween! One game will mess with your mind, while the other will throw hordes of monsters at you!
+- gg.deals News, Oct 30: "Steam's Komodo Publisher Sale offers big savings on OneShot, Deathsmiles, and more!" https://gg.deals/deal/steams-komodo-publisher-sale-2026/ | Check out the highlights before the sale ends on November 13.
+- gg.deals Freebies, Oct 30: "Epic Seven is now FREE to play on Steam, and it's already attracting hundreds of players!" https://gg.deals/freebie/epic-seven-is-now-free-to-play-on-steam-and-its-already-attracting-hundreds-of-players/ | Much to the delight of fans of anime-style visuals and turn-based RPGs, Epic Seven has finally arrived on Steam!
+- Indie Game Bundles, Oct 29: "Hexologic is free to keep on Steam — a clever little puzzle game for Sudoku fans" https://www.indiegamebundles.com/hexologic-is-free-to-keep-on-steam/ | The free-to-keep offer ends on October 31, 2026, so claim it before then. The post Hexologic is free to keep on Steam — a clever little puzzle game for Sudoku …
+- Indie Game Bundles, Oct 29: "Humble Choice October 2026 – Ends Soon" https://www.indiegamebundles.com/humble-choice-october-2026/ | Get Like a Dragon: Pirate Yakuza in Hawaii, Prince of Persia The Lost Crown, Psychonauts 2 and more PC games! The post Humble Choice October 2026 – Ends Soon a…
 
 ## Topics for articles (stories without a deal; headlines and links only. Write an article only if the owner asks)
-1. Phantom Blade Zero is asking players to free up 300GB of space for pre-loading, double its actual 145GB file … (score 14)
-Why now: 4 sites wrote about it in the last 48 h (gg.deals, pcgamer.com, rockpapershotgun.com, eurogamer.net); matches keywords: free; newest Oct 29.
-- gg.deals News, Oct 29: "Phantom Blade Zero launches to over 430,000 Steam players! Get it up to 37% off" https://gg.deals/deal/phantom-blade-zero-launches-to-over-430000-steam-players-get-it-up-to-37-off/
+1. Sorry We're Closed is FREE on the Epic Games Store! Grab the $24.99 horror game at no cost (score 11)
+Why now: 3 sites wrote about it in the last 48 h (gamerpower.com, gg.deals, indiegamebundles.com); matches keywords: free; newest Oct 29.
+- Indie Game Bundles, Oct 29: "Survival Horror Game Sorry We’re Closed is Free at Epic" https://www.indiegamebundles.com/survival-horror-game-sorry-were-closed-is-free-at-epic/
+- GamerPower (PC), Oct 29: "Sorry We're Closed (Epic Games) Giveaway" https://www.gamerpower.com/sorry-we-re-closed-epic-games-giveaway
+- gg.deals Freebies, Oct 29: "Sorry We're Closed is FREE on the Epic Games Store! Grab the $24.99 horror game at no cost" https://gg.deals/freebie/sorry-were-closed-is-free-on-the-epic-games-store-grab-the-2499-horror-game-at-no-cost/
+2. How to beat The Gold-Masked One in Phantom Blade Zero (score 9)
+Why now: 3 sites wrote about it in the last 48 h (pcgamer.com, rockpapershotgun.com, eurogamer.net); newest Oct 29.
+- Rock Paper Shotgun, Oct 29: "Phantom Blade Zero kicks off its launch with a day one patch that offers improvements to ray tracin…" https://www.rockpapershotgun.com/phantom-blade-zero-kicks-off-its-launch-with-a-day-one-patch-that-offers-improvements-to-ray-tracing-and-some-bug-fixes-to-boot
+- PC Gamer, Oct 29: "Phantom Blade Zero dev says don't get the latest Nvidia drivers" https://www.pcgamer.com/hardware/phantom-blade-zero-dev-says-dont-get-the-latest-nvidia-drivers/
 - Eurogamer, Oct 29: "More Chinese success as Phantom Blade Zero enjoys a big launch and becomes one of Steam's most play…" https://www.eurogamer.net/phantom-blade-zero-steam-launch-1-million-sales
-- PC Gamer, Oct 29: "All Quickhand's Request treasure locations in Phantom Blade Zero" https://www.pcgamer.com/games/action/phantom-blade-zero-quickhand-request-treasure-locations-relics/
-2. Humble Maximum Entertainment Indie Hits Bundle: 8 Steam Games Including Until Then and Bramble for $13 (score 10)
-Why now: 2 sites wrote about it in the last 48 h (gg.deals, indiegamebundles.com); matches keywords: bundle, humble; newest Oct 28.
-- Indie Game Bundles, Oct 28: "Humble Maximum Entertainment Indie Hits Bundle: 8 Steam Games Including Until Then and Bramble for …" https://www.indiegamebundles.com/humble-maximum-entertainment-indie-hits/
-- gg.deals News, Oct 28: "Humble's Maximum Entertainment Bundle gets you eight indie hits for $13" https://gg.deals/bundle/humbles-maximum-entertainment-bundle-gets-you-eight-indie-hits-for-13/
-3. Humble Horror Trifectas Bundle: 16 Horror Steam Items for Just $10 (score 10)
-Why now: 2 sites wrote about it in the last 48 h (gg.deals, indiegamebundles.com); matches keywords: bundle, humble; newest Oct 28.
-- Indie Game Bundles, Oct 28: "Humble Horror Trifectas Bundle: 16 Horror Steam Items for Just $10" https://www.indiegamebundles.com/humble-horror-trifectas-bundle-16-horror-steam-items-for-just-10/
-- gg.deals News, Oct 28: "Humble’s Horror Trifectas Bundle rounds up a collection of spooky trilogies for $10" https://gg.deals/bundle/humbles-horror-trifectas-bundle-rounds-up-a-collection-of-spooky-trilogies-for-10/
-4. Free itch.io Games Bundle (score 7)
-Why now: 1 site wrote about it in the last 48 h (gamerpower.com); matches keywords: free, bundle; newest Oct 28.
-- GamerPower (PC), Oct 28: "Free itch.io Games Bundle" https://www.gamerpower.com/free-itch-io-games-bundle
-5. GamersGate’s Halloween Sale buries the prices of hundreds of games six feet under (score 7)
-Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: sale, prices; newest Oct 28.
-- gg.deals News, Oct 28: "GamersGate’s Halloween Sale buries the prices of hundreds of games six feet under" https://gg.deals/deal/gamersgates-halloween-sale-buries-the-prices-of-hundreds-of-games-six-feet-under/
+3. Call of Duty: Modern Warfare 4 intro cinematic is "not intended to reference or trivialise" real-world South … (score 9)
+Why now: 3 sites wrote about it in the last 48 h (pcgamer.com, rockpapershotgun.com, eurogamer.net); newest Oct 29.
+- PC Gamer, Oct 29: "Modern Warfare 4's newest map is actually older than the Gen Z & Alpha teens who will play it" https://www.pcgamer.com/games/call-of-duty/modern-warfare-4s-newest-map-is-actually-older-than-the-gen-z-and-alpha-teens-who-will-play-it/
+- Eurogamer, Oct 29: "Call of Duty Modern Warfare 4 review" https://www.eurogamer.net/call-of-duty-modern-warfare-4-review
+- Rock Paper Shotgun, Oct 29: "Call of Duty: Modern Warfare 4 intro cinematic is "not intended to reference or trivialise" real-wo…" https://www.rockpapershotgun.com/call-of-duty-modern-warfare-4-intro-cinematic-is-not-intended-to-reference-or-trivialise-real-world-south-korean-crowd-crush-activision-say-amid-reported-backlash
+4. Hunting Simulator 3's Classic American Hunter Pack is FREE to keep on Steam for a limited time! (score 8)
+Why now: 2 sites wrote about it in the last 48 h (gamerpower.com, gg.deals); matches keywords: free; newest Oct 29.
+- gg.deals Freebies, Oct 29: "Hunting Simulator 3's Classic American Hunter Pack is FREE to keep on Steam for a limited time!" https://gg.deals/freebie/hunting-simulator-3-classic-american-hunter-pack-free-steam/
+- GamerPower (PC), Oct 29: "Hunting Simulator 3 - Classic American Hunter Pack (Steam) Giveaway" https://www.gamerpower.com/hunting-simulator-3-classic-american-hunter-pack-steam-giveaway
+5. Best Buy launches its first early Black Friday sale, with Halloween deals hitting particularly hard for PS5 p… (score 7)
+Why now: 1 site wrote about it in the last 48 h (gamesradar.com); matches keywords: sale, deals; newest Oct 30.
+- GamesRadar deals, Oct 30: "Best Buy launches its first early Black Friday sale, with Halloween deals hitting particularly hard…" https://www.gamesradar.com/games/best-buy-launches-its-first-early-black-friday-sale-with-halloween-deals-hitting-particularly-hard-for-ps5-players/
 
-Left out: 0 other-store deals, 0 hidden duplicates, 0 under 50%, 0 ended, 0 ending within 6 h, 0 old prices, 2 taken by another account today.
+Left out: 0 other-store deals, 0 hidden duplicates, 0 under 50%, 0 ended, 0 ending within 6 h, 0 old prices, 1 taken by another account today.
 Sources not read: none.
-Built by: commit 4d80822, schedule, run #30 attempt 1.
+Built by: commit 30bb295, schedule, run #31 attempt 1.

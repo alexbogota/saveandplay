@@ -1,8 +1,8 @@
-Frostpunk: -85% at GOG
-$4.49 (was $29.99)
-Price checked Oct 29. Sale ends Nov 5. Lowest price we've tracked.
+No Man's Sky: -60% at IndieGala
+$23.99 (was $59.99)
+Price checked Oct 30. Sale ends Nov 2. Lowest price we've tracked.
 
-https://saveandplay.com/deals/gog/frostpunk/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-29
+https://saveandplay.com/deals/indiegala/no-man-s-sky/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-30
 
-#PCGaming #Frostpunk
+#PCGaming #GameDeals
 Ad

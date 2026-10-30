@@ -1,70 +1,18 @@
 {
   "account": "Retro game deals",
-  "generatedAt": "2026-10-29T11:34:01.647Z",
-  "builtBy": "commit 4d80822, schedule, run #30 attempt 1",
-  "pricesCheckedAt": "2026-10-29T10:20:02.535Z",
-  "warnings": [],
+  "generatedAt": "2026-10-30T11:29:10.200Z",
+  "builtBy": "commit 30bb295, schedule, run #31 attempt 1",
+  "pricesCheckedAt": "2026-10-30T10:19:58.958Z",
+  "warnings": [
+    "NOTHING TO OFFER today.",
+    "No game fits the niche today (1 fit the rule, 7 do not, 0 have no facts yet, 0 were taken by another account today, 1 offered in the last 7 days, 0 under 30%, 0 prices older than 48 h, 0 sales over or ending soon)."
+  ],
   "niche": {
     "label": "Retro",
     "fit": 1,
-    "postable": 1
+    "postable": 0
   },
-  "candidates": [
-    {
-      "id": "gog-simcity-4-deluxe-edition",
-      "kind": "deal",
-      "title": "SimCity 4 Deluxe Edition",
-      "store": "GOG",
-      "price": 4.99,
-      "was": 19.99,
-      "discount": 75,
-      "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 164,
-      "priceCheckedAt": "2026-10-29T10:19:57.354Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
-      "drminfo": null,
-      "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
-      "facts": {
-        "year": 2003,
-        "genres": [
-          "Simulation",
-          "Building",
-          "Managerial"
-        ],
-        "tags": [
-          "Atmospheric",
-          "Simulation",
-          "Classic",
-          "Great Soundtrack",
-          "Management",
-          "Sandbox",
-          "Real-Time",
-          "Isometric",
-          "Building",
-          "Managerial",
-          "City builder"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 9.5,
-      "discountRank": 1,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 20,
-        "lowest": true,
-        "since": "2026-10-07"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-29",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "lowest price we've tracked (20 days of data)",
-        "deepest-discount rank 1 of 1"
-      ]
-    }
-  ],
+  "candidates": [],
   "gogNews": [],
   "topical": [],
   "topics": [],
@@ -74,7 +22,7 @@
     "notNiche": 7,
     "noFacts": 0,
     "taken": 0,
-    "repeat": 0,
+    "repeat": 1,
     "smallDiscount": 0,
     "ended": 0,
     "endsTooSoon": 0,
@@ -86,18 +34,10 @@
   },
   "posts": {
     "x": {
-      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Oct 29. Sale ends Nov 5. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=x-retro&utm_medium=social&utm_campaign=deals-2026-10-29\n\n#RetroGaming #PCGaming\nAd",
-      "length": 175,
-      "max": 270,
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=x-retro&utm_medium=social&utm_campaign=deals-2026-10-29",
-      "deal": "gog-simcity-4-deluxe-edition"
+      "none": "No deal passes the rules today. NOTHING TO OFFER today. No game fits the niche today (1 fit the rule, 7 do not, 0 have no facts yet, 0 were taken by another account today, 1 offered in the last 7 days, 0 under 30%, 0 prices older than 48 h, 0 sales over or ending soon)."
     },
     "bluesky": {
-      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Oct 29. Sale ends Nov 5. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-29\n\n#RetroGaming #GameDeals #PCGaming\nAd",
-      "length": 188,
-      "max": 300,
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-10-29",
-      "deal": "gog-simcity-4-deluxe-edition"
+      "none": "No deal passes the rules today. NOTHING TO OFFER today. No game fits the niche today (1 fit the rule, 7 do not, 0 have no facts yet, 0 were taken by another account today, 1 offered in the last 7 days, 0 under 30%, 0 prices older than 48 h, 0 sales over or ending soon)."
     }
   }
 }

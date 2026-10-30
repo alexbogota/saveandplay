@@ -1,69 +1,10 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-10-29T11:34:01.647Z",
-  "builtBy": "commit 4d80822, schedule, run #30 attempt 1",
-  "pricesCheckedAt": "2026-10-29T10:20:02.535Z",
+  "generatedAt": "2026-10-30T11:29:10.200Z",
+  "builtBy": "commit 30bb295, schedule, run #31 attempt 1",
+  "pricesCheckedAt": "2026-10-30T10:19:58.958Z",
   "warnings": [],
   "candidates": [
-    {
-      "id": "gog-frostpunk",
-      "kind": "deal",
-      "title": "Frostpunk",
-      "store": "GOG",
-      "price": 4.49,
-      "was": 29.99,
-      "discount": 85,
-      "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 164,
-      "priceCheckedAt": "2026-10-29T10:19:57.354Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323190/abcd2bf3c275092d637d7dd98e0061dbdd2fd2da/header.jpg?t=1784897899",
-      "drminfo": null,
-      "coverAlt": "Cover art for Frostpunk",
-      "facts": {
-        "year": 2018,
-        "genres": [
-          "Strategy",
-          "Simulation",
-          "Survival"
-        ],
-        "tags": [
-          "Indie",
-          "Atmospheric",
-          "Strategy",
-          "Simulation",
-          "Dark",
-          "Great Soundtrack",
-          "Choices Matter",
-          "Management",
-          "Survival",
-          "Resource Management",
-          "Difficult",
-          "Base Building",
-          "Post-apocalyptic",
-          "City builder",
-          "Survival Horror",
-          "Steampunk"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 10.5,
-      "discountRank": 2,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 17,
-        "lowest": true,
-        "since": "2026-10-13"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/frostpunk/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-29",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "lowest price we've tracked (17 days of data)",
-        "deepest-discount rank 2 of 7"
-      ]
-    },
     {
       "id": "indiegala-no-man-s-sky",
       "kind": "deal",
@@ -73,8 +14,8 @@
       "was": 59.99,
       "discount": 60,
       "endsAt": "2026-11-02T23:59:00Z",
-      "endsInHours": 108,
-      "priceCheckedAt": "2026-10-29T10:20:02.535Z",
+      "endsInHours": 84,
+      "priceCheckedAt": "2026-10-30T10:19:58.958Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/84d0df065c36eb8ded7bdf0d8fccd19d43b6c005/header.jpg?t=1789479023",
       "drminfo": "Steam key",
       "coverAlt": "Cover art for No Man's Sky",
@@ -88,31 +29,107 @@
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 10,
-      "discountRank": 7,
-      "sites": 1,
+      "score": 16,
+      "discountRank": 8,
+      "sites": 3,
       "mentions": [
         {
-          "source": "Eurogamer",
-          "domain": "eurogamer.net",
-          "title": "As No Man's Sky arrives on mobile, Hello Games celebrates with a spooky update for all that includes delivery missions and \"seamless\" interstellar travel",
-          "link": "https://www.eurogamer.net/no-mans-sky-forsaken-update-release-ipad-iphone",
-          "t": 1793196000000,
+          "source": "Rock Paper Shotgun",
+          "domain": "rockpapershotgun.com",
+          "title": "Atmosfar is a giddy aerial exploration game after the heart of No Man's Sky, but I'm already trying to escape it",
+          "link": "https://www.rockpapershotgun.com/atmosfar-is-a-giddy-aerial-exploration-game-after-the-heart-of-no-mans-sky-but-im-already-trying-to-escape-it",
+          "t": 1793289600000,
+          "how": "title"
+        },
+        {
+          "source": "gg.deals Freebies",
+          "domain": "gg.deals",
+          "title": "New FREE No Man's Sky Forsaken update adds creepy collectibles, new ships, and more",
+          "link": "https://gg.deals/freebie/new-free-no-mans-sky-forsaken-update/",
+          "t": 1793280659000,
+          "how": "title"
+        },
+        {
+          "source": "gg.deals News",
+          "domain": "gg.deals",
+          "title": "New FREE No Man's Sky Forsaken update adds creepy collectibles, new ships, and more",
+          "link": "https://gg.deals/freebie/new-free-no-mans-sky-forsaken-update/",
+          "t": 1793280659000,
           "how": "title"
         }
       ],
       "history": {
-        "days": 14,
+        "days": 15,
         "lowest": true,
         "since": "2026-10-05"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/indiegala/no-man-s-sky/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-29",
+      "link": "https://saveandplay.com/deals/indiegala/no-man-s-sky/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-30",
       "linkKind": "link to our site",
       "whyToday": [
-        "1 news site wrote about the game in the last 48 h",
-        "lowest price we've tracked (14 days of data)",
-        "deepest-discount rank 7 of 7"
+        "3 news sites wrote about the game in the last 48 h",
+        "lowest price we've tracked (15 days of data)",
+        "deepest-discount rank 8 of 8"
+      ]
+    },
+    {
+      "id": "gog-thronebreaker-the-witcher-tales",
+      "kind": "deal",
+      "title": "Thronebreaker: The Witcher Tales",
+      "store": "GOG",
+      "price": 3.99,
+      "was": 19.99,
+      "discount": 80,
+      "endsAt": "2026-11-05T09:59:00+02:00",
+      "endsInHours": 140,
+      "priceCheckedAt": "2026-10-30T10:19:52.938Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/973760/f748e07df077bb0cf4c49d4bc0f6437f510c5251/header.jpg?t=1761829221",
+      "drminfo": null,
+      "coverAlt": "Cover art for Thronebreaker: The Witcher Tales",
+      "facts": {
+        "year": 2018,
+        "genres": [
+          "Role-playing",
+          "Fantasy",
+          "Strategy"
+        ],
+        "tags": [
+          "Fantasy",
+          "Story Rich",
+          "Atmospheric",
+          "Strategy",
+          "Role-playing",
+          "Turn-Based",
+          "Puzzle",
+          "Female Protagonist",
+          "Great Soundtrack",
+          "Choices Matter",
+          "Open World",
+          "Multiplayer",
+          "Mature",
+          "Sexual Content",
+          "Isometric",
+          "Medieval",
+          "Card Game"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 10,
+      "discountRank": 6,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 19,
+        "lowest": true,
+        "since": "2026-10-07"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/thronebreaker-the-witcher-tales/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-30",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "lowest price we've tracked (19 days of data)",
+        "deepest-discount rank 6 of 8"
       ]
     },
     {
@@ -124,8 +141,8 @@
       "was": 19.99,
       "discount": 85,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 164,
-      "priceCheckedAt": "2026-10-29T10:19:57.354Z",
+      "endsInHours": 140,
+      "priceCheckedAt": "2026-10-30T10:19:52.938Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
       "drminfo": null,
       "coverAlt": "Cover art for This War of Mine",
@@ -159,19 +176,73 @@
       "marketplace": false,
       "compareTo": null,
       "score": 9.5,
-      "discountRank": 4,
+      "discountRank": 3,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 11,
+        "days": 12,
         "lowest": false,
         "since": "2026-10-19"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-29",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-30",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 4 of 7"
+        "deepest-discount rank 3 of 8"
+      ]
+    },
+    {
+      "id": "gog-simcity-4-deluxe-edition",
+      "kind": "deal",
+      "title": "SimCity 4 Deluxe Edition",
+      "store": "GOG",
+      "price": 4.99,
+      "was": 19.99,
+      "discount": 75,
+      "endsAt": "2026-11-05T09:59:00+02:00",
+      "endsInHours": 140,
+      "priceCheckedAt": "2026-10-30T10:19:52.938Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
+      "drminfo": null,
+      "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
+      "facts": {
+        "year": 2003,
+        "genres": [
+          "Simulation",
+          "Building",
+          "Managerial"
+        ],
+        "tags": [
+          "Atmospheric",
+          "Simulation",
+          "Classic",
+          "Great Soundtrack",
+          "Management",
+          "Sandbox",
+          "Real-Time",
+          "Isometric",
+          "Building",
+          "Managerial",
+          "City builder"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 9.5,
+      "discountRank": 7,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 21,
+        "lowest": true,
+        "since": "2026-10-07"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-30",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "lowest price we've tracked (21 days of data)",
+        "deepest-discount rank 7 of 8"
       ]
     },
     {
@@ -183,8 +254,8 @@
       "was": 29.99,
       "discount": 84,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 164,
-      "priceCheckedAt": "2026-10-29T10:19:57.354Z",
+      "endsInHours": 140,
+      "priceCheckedAt": "2026-10-30T10:19:52.938Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367500/header.jpg?t=1768870344",
       "drminfo": null,
       "coverAlt": "Cover art for Dragon's Dogma: Dark Arisen",
@@ -215,109 +286,65 @@
       "marketplace": false,
       "compareTo": null,
       "score": 9.4,
-      "discountRank": 6,
+      "discountRank": 5,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 10,
+        "days": 11,
         "lowest": false,
         "since": "2026-10-18"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/dragon-s-dogma-dark-arisen/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-29",
+      "link": "https://saveandplay.com/deals/gog/dragon-s-dogma-dark-arisen/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-30",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 6 of 7"
-      ]
-    },
-    {
-      "id": "gog-shadow-tactics-blades-of-the-shogun",
-      "kind": "deal",
-      "title": "Shadow Tactics: Blades of the Shogun",
-      "store": "GOG",
-      "price": 3.99,
-      "was": 39.99,
-      "discount": 90,
-      "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 164,
-      "priceCheckedAt": "2026-10-29T10:19:57.354Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
-      "drminfo": null,
-      "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
-      "facts": {
-        "year": 2016,
-        "genres": [
-          "Strategy",
-          "Real-time",
-          "Stealth"
-        ],
-        "tags": [
-          "Indie",
-          "Atmospheric",
-          "Strategy",
-          "Puzzle",
-          "Great Soundtrack",
-          "Tactical",
-          "Third Person",
-          "Historical",
-          "Survival",
-          "Violent",
-          "Real-Time",
-          "Difficult",
-          "Isometric",
-          "RTS",
-          "Stealth",
-          "Ninja"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 3,
-      "discountRank": 1,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 20,
-        "lowest": true,
-        "since": "2026-10-07"
-      },
-      "offeredOn": "2026-10-23",
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-29",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "lowest price we've tracked (20 days of data)",
-        "deepest-discount rank 1 of 7"
+        "deepest-discount rank 5 of 8"
       ]
     }
   ],
   "gogNews": [],
   "topical": [
     {
-      "title": "Xbox leader Asha Sharma says there's \"more demand than consoles available\" as Xbox hardware sales dip by 14%",
-      "source": "Eurogamer",
-      "link": "https://www.eurogamer.net/xbox-financials-sales-asha-sharma-microsoft",
-      "t": 1793272904000,
-      "keyword": "sales",
-      "summary": "Xbox leader Asha Sharma has claimed there's \"more demand than consoles available\" when it comes to Xbox, and that console sales \"remain constrained by supply\".…"
+      "title": "Steam's Komodo Publisher Sale offers big savings on OneShot, Deathsmiles, and more!",
+      "source": "gg.deals News",
+      "link": "https://gg.deals/deal/steams-komodo-publisher-sale-2026/",
+      "t": 1793356822000,
+      "keyword": "sale",
+      "summary": "Check out the highlights before the sale ends on November 13."
     },
     {
-      "title": "Two very different horror games are FREE on Epic Games Store for a few more hours (updated)",
+      "title": "Epic Seven is now FREE to play on Steam, and it's already attracting hundreds of players!",
       "source": "gg.deals Freebies",
-      "link": "https://gg.deals/freebie/two-very-different-horror-games-are-now-free-on-epic-games-store-prepare-for-halloween/",
-      "t": 1793263380000,
+      "link": "https://gg.deals/freebie/epic-seven-is-now-free-to-play-on-steam-and-its-already-attracting-hundreds-of-players/",
+      "t": 1793352840000,
       "keyword": "free",
-      "summary": "Prepare for Halloween! One game will mess with your mind, while the other will throw hordes of monsters at you!"
+      "summary": "Much to the delight of fans of anime-style visuals and turn-based RPGs, Epic Seven has finally arrived on Steam!"
+    },
+    {
+      "title": "Hexologic is free to keep on Steam — a clever little puzzle game for Sudoku fans",
+      "source": "Indie Game Bundles",
+      "link": "https://www.indiegamebundles.com/hexologic-is-free-to-keep-on-steam/",
+      "t": 1793311055000,
+      "keyword": "free",
+      "summary": "The free-to-keep offer ends on October 31, 2026, so claim it before then. The post Hexologic is free to keep on Steam — a clever little puzzle game for Sudoku …"
+    },
+    {
+      "title": "Humble Choice October 2026 – Ends Soon",
+      "source": "Indie Game Bundles",
+      "link": "https://www.indiegamebundles.com/humble-choice-october-2026/",
+      "t": 1793308847000,
+      "keyword": "humble",
+      "summary": "Get Like a Dragon: Pirate Yakuza in Hawaii, Prince of Persia The Lost Crown, Psychonauts 2 and more PC games! The post Humble Choice October 2026 – Ends Soon a…"
     }
   ],
   "topics": [
     {
-      "headline": "Phantom Blade Zero is asking players to free up 300GB of space for pre-loading, double its actual 145GB file size",
-      "score": 14,
+      "headline": "Sorry We're Closed is FREE on the Epic Games Store! Grab the $24.99 horror game at no cost",
+      "score": 11,
       "sites": [
+        "gamerpower.com",
         "gg.deals",
-        "pcgamer.com",
-        "rockpapershotgun.com",
-        "eurogamer.net"
+        "indiegamebundles.com"
       ],
       "keywords": [
         "free"
@@ -325,27 +352,52 @@
       "games": [],
       "items": [
         {
-          "source": "gg.deals News",
-          "title": "Phantom Blade Zero launches to over 430,000 Steam players! Get it up to 37% off",
-          "link": "https://gg.deals/deal/phantom-blade-zero-launches-to-over-430000-steam-players-get-it-up-to-37-off/",
-          "published": "2026-10-29T09:30:00.000Z"
+          "source": "GamerPower (PC)",
+          "title": "Sorry We're Closed (Epic Games) Giveaway",
+          "link": "https://www.gamerpower.com/sorry-we-re-closed-epic-games-giveaway",
+          "published": "2026-10-29T15:09:14.000Z"
         },
         {
+          "source": "gg.deals Freebies",
+          "title": "Sorry We're Closed is FREE on the Epic Games Store! Grab the $24.99 horror game at no cost",
+          "link": "https://gg.deals/freebie/sorry-were-closed-is-free-on-the-epic-games-store-grab-the-2499-horror-game-at-no-cost/",
+          "published": "2026-10-29T15:01:00.000Z"
+        },
+        {
+          "source": "gg.deals News",
+          "title": "Sorry We're Closed is FREE on the Epic Games Store! Grab the $24.99 horror game at no cost",
+          "link": "https://gg.deals/freebie/sorry-were-closed-is-free-on-the-epic-games-store-grab-the-2499-horror-game-at-no-cost/",
+          "published": "2026-10-29T15:01:00.000Z"
+        },
+        {
+          "source": "Indie Game Bundles",
+          "title": "Survival Horror Game Sorry We’re Closed is Free at Epic",
+          "link": "https://www.indiegamebundles.com/survival-horror-game-sorry-were-closed-is-free-at-epic/",
+          "published": "2026-10-29T16:11:47.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "How to beat The Gold-Masked One in Phantom Blade Zero",
+      "score": 9,
+      "sites": [
+        "pcgamer.com",
+        "rockpapershotgun.com",
+        "eurogamer.net"
+      ],
+      "keywords": [],
+      "games": [],
+      "items": [
+        {
           "source": "PC Gamer",
-          "title": "All Quickhand's Request treasure locations in Phantom Blade Zero",
-          "link": "https://www.pcgamer.com/games/action/phantom-blade-zero-quickhand-request-treasure-locations-relics/",
-          "published": "2026-10-29T02:00:00.000Z"
+          "title": "Phantom Blade Zero dev says don't get the latest Nvidia drivers",
+          "link": "https://www.pcgamer.com/hardware/phantom-blade-zero-dev-says-dont-get-the-latest-nvidia-drivers/",
+          "published": "2026-10-29T11:36:07.000Z"
         },
         {
           "source": "PC Gamer",
           "title": "How to complete Four Fierce Axes in Phantom Blade Zero",
           "link": "https://www.pcgamer.com/games/action/phantom-blade-zero-four-fierce-axes-walkthrough/",
-          "published": "2026-10-29T02:00:00.000Z"
-        },
-        {
-          "source": "PC Gamer",
-          "title": "How to beat the Aberrant Three-Faced Puppet in Phantom Blade Zero",
-          "link": "https://www.pcgamer.com/games/action/phantom-blade-zero-aberrant-three-faced-puppet-triple-threat/",
           "published": "2026-10-29T02:00:00.000Z"
         },
         {
@@ -392,6 +444,18 @@
         },
         {
           "source": "PC Gamer",
+          "title": "All Quickhand's Request treasure locations in Phantom Blade Zero",
+          "link": "https://www.pcgamer.com/games/action/phantom-blade-zero-quickhand-request-treasure-locations-relics/",
+          "published": "2026-10-29T02:00:00.000Z"
+        },
+        {
+          "source": "PC Gamer",
+          "title": "How to beat the Aberrant Three-Faced Puppet in Phantom Blade Zero",
+          "link": "https://www.pcgamer.com/games/action/phantom-blade-zero-aberrant-three-faced-puppet-triple-threat/",
+          "published": "2026-10-29T02:00:00.000Z"
+        },
+        {
+          "source": "PC Gamer",
           "title": "Where to find the Flesh Lily in Phantom Blade Zero",
           "link": "https://www.pcgamer.com/games/action/phantom-blade-zero-flesh-lily-location/",
           "published": "2026-10-29T02:00:00.000Z"
@@ -433,128 +497,111 @@
           "published": "2026-10-29T02:00:00.000Z"
         },
         {
-          "source": "PC Gamer",
-          "title": "Here's the Phantom Blade Zero release time for your region",
-          "link": "https://www.pcgamer.com/games/action/phantom-blade-zero-release-date-launch-times/",
-          "published": "2026-10-28T02:00:00.000Z"
-        },
-        {
-          "source": "PC Gamer",
-          "title": "After Onimusha's focused swordplay, Phantom Blade Zero delivers a sprawling, maximalist action epic",
-          "link": "https://www.pcgamer.com/games/action/phantom-blade-zero-vs-onimusha-way-of-the-sword/",
-          "published": "2026-10-27T17:55:06.000Z"
-        },
-        {
           "source": "Rock Paper Shotgun",
-          "title": "Demanding 300GB to install despite its actual size of 145GB, Phantom Blade Zero makes me question what a gigabyte is worth",
-          "link": "https://www.rockpapershotgun.com/demanding-300gb-to-install-despite-its-actual-size-of-145gb-phantom-blade-zero-makes-me-question-what-a-gigabyte-is-worth",
-          "published": "2026-10-27T17:30:00.000Z"
+          "title": "Phantom Blade Zero kicks off its launch with a day one patch that offers improvements to ray tracing and some bug fixes to boot",
+          "link": "https://www.rockpapershotgun.com/phantom-blade-zero-kicks-off-its-launch-with-a-day-one-patch-that-offers-improvements-to-ray-tracing-and-some-bug-fixes-to-boot",
+          "published": "2026-10-29T21:27:20.000Z"
         },
         {
           "source": "Eurogamer",
           "title": "More Chinese success as Phantom Blade Zero enjoys a big launch and becomes one of Steam's most played games",
           "link": "https://www.eurogamer.net/phantom-blade-zero-steam-launch-1-million-sales",
           "published": "2026-10-29T09:26:46.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Call of Duty: Modern Warfare 4 intro cinematic is \"not intended to reference or trivialise\" real-world South Korean crowd crush, Activision say amid reported backlash",
+      "score": 9,
+      "sites": [
+        "pcgamer.com",
+        "rockpapershotgun.com",
+        "eurogamer.net"
+      ],
+      "keywords": [],
+      "games": [],
+      "items": [
+        {
+          "source": "PC Gamer",
+          "title": "Modern Warfare 4's newest map is actually older than the Gen Z & Alpha teens who will play it",
+          "link": "https://www.pcgamer.com/games/call-of-duty/modern-warfare-4s-newest-map-is-actually-older-than-the-gen-z-and-alpha-teens-who-will-play-it/",
+          "published": "2026-10-29T19:36:41.000Z"
+        },
+        {
+          "source": "Rock Paper Shotgun",
+          "title": "Call of Duty: Modern Warfare 4 intro cinematic is \"not intended to reference or trivialise\" real-world South Korean crowd crush, Activision say amid reported backlash",
+          "link": "https://www.rockpapershotgun.com/call-of-duty-modern-warfare-4-intro-cinematic-is-not-intended-to-reference-or-trivialise-real-world-south-korean-crowd-crush-activision-say-amid-reported-backlash",
+          "published": "2026-10-29T12:34:09.000Z"
         },
         {
           "source": "Eurogamer",
-          "title": "Phantom Blade Zero is asking players to free up 300GB of space for pre-loading, double its actual 145GB file size",
-          "link": "https://www.eurogamer.net/phantom-blade-zero-300gb-pre-load-space",
-          "published": "2026-10-27T13:06:03.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Humble Maximum Entertainment Indie Hits Bundle: 8 Steam Games Including Until Then and Bramble for $13",
-      "score": 10,
-      "sites": [
-        "gg.deals",
-        "indiegamebundles.com"
-      ],
-      "keywords": [
-        "bundle",
-        "humble"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "Humble's Maximum Entertainment Bundle gets you eight indie hits for $13",
-          "link": "https://gg.deals/bundle/humbles-maximum-entertainment-bundle-gets-you-eight-indie-hits-for-13/",
-          "published": "2026-10-28T19:42:45.000Z"
+          "title": "Call of Duty Modern Warfare 4 review",
+          "link": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-review",
+          "published": "2026-10-29T14:01:33.000Z"
         },
         {
-          "source": "Indie Game Bundles",
-          "title": "Humble Maximum Entertainment Indie Hits Bundle: 8 Steam Games Including Until Then and Bramble for $13",
-          "link": "https://www.indiegamebundles.com/humble-maximum-entertainment-indie-hits/",
-          "published": "2026-10-28T21:44:33.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Humble Horror Trifectas Bundle: 16 Horror Steam Items for Just $10",
-      "score": 10,
-      "sites": [
-        "gg.deals",
-        "indiegamebundles.com"
-      ],
-      "keywords": [
-        "bundle",
-        "humble"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "Humble’s Horror Trifectas Bundle rounds up a collection of spooky trilogies for $10",
-          "link": "https://gg.deals/bundle/humbles-horror-trifectas-bundle-rounds-up-a-collection-of-spooky-trilogies-for-10/",
-          "published": "2026-10-28T18:40:00.000Z"
+          "source": "Eurogamer",
+          "title": "COD Modern Warfare 4's controversial Possum ability nerfed to stop it being used \"as a combat mechanic instead of a survival mechanic\"",
+          "link": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-dmz-possum-nerf",
+          "published": "2026-10-29T11:33:05.000Z"
         },
         {
-          "source": "Indie Game Bundles",
-          "title": "Humble Horror Trifectas Bundle: 16 Horror Steam Items for Just $10",
-          "link": "https://www.indiegamebundles.com/humble-horror-trifectas-bundle-16-horror-steam-items-for-just-10/",
-          "published": "2026-10-28T21:36:08.000Z"
+          "source": "Eurogamer",
+          "title": "Modern Warfare 4 faces backlash after real footage of South Korean crowd crush tragedy was discovered in game's opening moments",
+          "link": "https://www.eurogamer.net/modern-warfare-4-south-korean-crowd-crush-footage",
+          "published": "2026-10-29T11:11:01.000Z"
         }
       ]
     },
     {
-      "headline": "Free itch.io Games Bundle",
-      "score": 7,
+      "headline": "Hunting Simulator 3's Classic American Hunter Pack is FREE to keep on Steam for a limited time!",
+      "score": 8,
       "sites": [
-        "gamerpower.com"
+        "gamerpower.com",
+        "gg.deals"
       ],
       "keywords": [
-        "free",
-        "bundle"
+        "free"
       ],
       "games": [],
       "items": [
         {
           "source": "GamerPower (PC)",
-          "title": "Free itch.io Games Bundle",
-          "link": "https://www.gamerpower.com/free-itch-io-games-bundle",
-          "published": "2026-10-28T21:11:01.000Z"
+          "title": "Hunting Simulator 3 - Classic American Hunter Pack (Steam) Giveaway",
+          "link": "https://www.gamerpower.com/hunting-simulator-3-classic-american-hunter-pack-steam-giveaway",
+          "published": "2026-10-29T13:52:14.000Z"
+        },
+        {
+          "source": "gg.deals Freebies",
+          "title": "Hunting Simulator 3's Classic American Hunter Pack is FREE to keep on Steam for a limited time!",
+          "link": "https://gg.deals/freebie/hunting-simulator-3-classic-american-hunter-pack-free-steam/",
+          "published": "2026-10-29T19:18:00.000Z"
+        },
+        {
+          "source": "gg.deals News",
+          "title": "Hunting Simulator 3's Classic American Hunter Pack is FREE to keep on Steam for a limited time!",
+          "link": "https://gg.deals/freebie/hunting-simulator-3-classic-american-hunter-pack-free-steam/",
+          "published": "2026-10-29T19:18:00.000Z"
         }
       ]
     },
     {
-      "headline": "GamersGate’s Halloween Sale buries the prices of hundreds of games six feet under",
+      "headline": "Best Buy launches its first early Black Friday sale, with Halloween deals hitting particularly hard for PS5 players",
       "score": 7,
       "sites": [
-        "gg.deals"
+        "gamesradar.com"
       ],
       "keywords": [
         "sale",
-        "prices"
+        "deals"
       ],
       "games": [],
       "items": [
         {
-          "source": "gg.deals News",
-          "title": "GamersGate’s Halloween Sale buries the prices of hundreds of games six feet under",
-          "link": "https://gg.deals/deal/gamersgates-halloween-sale-buries-the-prices-of-hundreds-of-games-six-feet-under/",
-          "published": "2026-10-28T17:54:32.000Z"
+          "source": "GamesRadar deals",
+          "title": "Best Buy launches its first early Black Friday sale, with Halloween deals hitting particularly hard for PS5 players",
+          "link": "https://www.gamesradar.com/games/best-buy-launches-its-first-early-black-friday-sale-with-halloween-deals-hitting-particularly-hard-for-ps5-players/",
+          "published": "2026-10-30T11:14:49.000Z"
         }
       ]
     }
@@ -564,7 +611,7 @@
     "hidden": 0,
     "notNiche": 0,
     "noFacts": 0,
-    "taken": 2,
+    "taken": 1,
     "repeat": 0,
     "smallDiscount": 0,
     "ended": 0,
