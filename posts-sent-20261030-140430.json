@@ -1,0 +1,23 @@
+{
+  "madeAt": "2026-10-30T14:04:30.004Z",
+  "run": "41068600351",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices|2026-10-30|/deals/indiegala/no-man-s-sky/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 1,
+      "link": "https://saveandplay.com/deals/indiegala/no-man-s-sky/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-30",
+      "text": "No Man's Sky: -60% at IndieGala\n$23.99 (was $59.99)\nPrice checked Oct 30. Sale ends Nov 2. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/indiegala/no-man-s-sky/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-30\n\n#PCGaming #GameDeals #VideoGames #IndieGames #Games\nAd",
+      "approvedFile": "posts-approved-20261030-140401.json",
+      "approvedAt": "2026-10-30T14:04:01.796Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-30T14:04:32.974Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mz3x5c6bck2z",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3mz3x5c6bck2z",
+      "picture": true
+    }
+  ]
+}
