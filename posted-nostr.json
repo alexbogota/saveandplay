@@ -1604,6 +1604,61 @@
             "sig": "df18030f775724f9fd75c04ef7a50e46c3e648aec2695055ec0f543fd410cabb726a9da1c0d8a763a2c2f4d43563aaed175fcce24aef81a982ca688f587ca79e"
           }
         }
+      },
+      "2026-10-30": {
+        "deal": {
+          "status": "done",
+          "kind": "deal",
+          "id": "524b4d472f2e4318910e02ad193ee5ff8e786e794e503bc3e957bcb4573972bb",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "deal": "indiegala-no-man-s-sky",
+          "title": "No Man's Sky",
+          "postedAt": "2026-10-30T12:07:41.000Z",
+          "accepted": [
+            "wss://relay.damus.io",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [
+            {
+              "url": "wss://nos.lol",
+              "reason": "no answer (timeout)"
+            }
+          ],
+          "event": {
+            "kind": 1,
+            "created_at": 1793362061,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-deal"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/84d0df065c36eb8ded7bdf0d8fccd19d43b6c005/header.jpg?t=1789479023",
+                "m image/jpeg",
+                "alt Cover art for No Man's Sky"
+              ]
+            ],
+            "content": "No Man's Sky: -60% at IndieGala\n$23.99 (was $59.99)\nPrice checked 2026-10-30 10:19 UTC. Sale ends 2026-11-02 23:59 UTC.\nWhy today: 3 news sites wrote about the game in the last 48 h; lowest price we've tracked (15 days of data).\nAd: we may earn a commission if you buy.\n\n#pcgaming #gamedeals\n\nhttps://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/84d0df065c36eb8ded7bdf0d8fccd19d43b6c005/header.jpg?t=1789479023\n\nhttps://saveandplay.com/deals/indiegala/no-man-s-sky/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-10-30",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "524b4d472f2e4318910e02ad193ee5ff8e786e794e503bc3e957bcb4573972bb",
+            "sig": "1e821efde5d06dc27ac2295d09c80890baad42bdbc3188fca786602bd113ee3d30d3b966c9a73ae6f9d57d63657dacc3dbce9c0802904131adcb36f83d646ec1"
+          }
+        }
       }
     }
   },
