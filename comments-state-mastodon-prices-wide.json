@@ -8,66 +8,47 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 312,
-      "posts": 13000,
-      "fit": 176,
+      "runs": 320,
+      "posts": 13320,
+      "fit": 177,
       "last": {
-        "posts": 80,
-        "fit": 1,
-        "at": "2026-10-30T01:02:40.060Z"
+        "posts": 40,
+        "fit": 0,
+        "at": "2026-10-30T07:00:36.685Z"
       }
     },
     "moreAsk": {
-      "runs": 195,
-      "posts": 1755,
+      "runs": 200,
+      "posts": 1800,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-10-30T01:02:40.060Z"
+        "at": "2026-10-30T07:00:36.685Z"
       }
     },
     "moreRetro": {
-      "runs": 195,
-      "posts": 12440,
-      "fit": 421,
+      "runs": 200,
+      "posts": 12760,
+      "fit": 430,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-10-30T01:02:40.060Z"
+        "at": "2026-10-30T07:00:36.685Z"
       }
     },
     "morePlaying": {
-      "runs": 195,
-      "posts": 819,
+      "runs": 200,
+      "posts": 840,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-10-30T01:02:40.060Z"
+        "at": "2026-10-30T07:00:36.685Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@Doubleaa@gamepad.club/117521131175866890": {
-      "uri": "https://mastodon.social/@Doubleaa@gamepad.club/117521131175866890",
-      "url": "https://mastodon.social/@Doubleaa@gamepad.club/117521131175866890",
-      "handle": "Doubleaa@gamepad.club",
-      "name": "Double AA",
-      "text": "Variety is the spice of life or something? 🤷‍♂️ #FFXIV #MMORPG #GPose #PCGaming",
-      "createdAt": "2026-10-28T23:29:08.000Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreGaming",
-      "query": "mmorpg",
-      "score": 6,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://gamepad.club/@Doubleaa/117521130993440837",
-      "media": "image: FFXIV screenshot featuring an Au’ra lizard woman with a blue ponytail in a white robe standing in front of a small stall surrounded by jack-o-lanterns.",
-      "firstSeen": "2026-10-29T07:00:28.774Z"
-    },
     "https://mastodon.social/@robavince/117522181795654168": {
       "uri": "https://mastodon.social/@robavince/117522181795654168",
       "url": "https://mastodon.social/@robavince/117522181795654168",
@@ -84,43 +65,6 @@
       "heated": false,
       "isReply": false,
       "media": "video: See post",
-      "firstSeen": "2026-10-29T07:00:28.774Z"
-    },
-    "https://mastodon.social/@ItalianSkeletonGaming/117520815168876919": {
-      "uri": "https://mastodon.social/@ItalianSkeletonGaming/117520815168876919",
-      "url": "https://mastodon.social/@ItalianSkeletonGaming/117520815168876919",
-      "handle": "ItalianSkeletonGaming@mastodon.social",
-      "name": "Italian Skeleton",
-      "text": "And with the mystery of Lara's mother disappearance solved, #TombRaiderUnderworld is finished, obviously it's good, but it feels weirdly jankier than its 2 predecessors despite being the same game, and of course I can't cover the 2 DLCs since those were directly financed by Microsoft to be Xbox 360 exclusives #gaming #videogames #pcgaming #retrogaming #TombRaider",
-      "createdAt": "2026-10-28T22:08:49.120Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "video, no description",
-      "firstSeen": "2026-10-29T07:00:28.774Z"
-    },
-    "https://mastodon.social/@dfbills@masto.nyc/117520610705087069": {
-      "uri": "https://mastodon.social/@dfbills@masto.nyc/117520610705087069",
-      "url": "https://mastodon.social/@dfbills@masto.nyc/117520610705087069",
-      "handle": "dfbills@masto.nyc",
-      "name": "dfbills",
-      "text": "Now that Apple’s Music icon has changed, I noticed something familiar about it. This realization makes me hate it a lot less. #applemusic #retrogaming",
-      "createdAt": "2026-10-28T21:16:47.000Z",
-      "likes": 3,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://masto.nyc/@dfbills/117520610582825468",
-      "media": "image, no description",
       "firstSeen": "2026-10-29T07:00:28.774Z"
     },
     "https://mastodon.social/@quazarsamcoupe@mastodonapp.uk/117525698717493075": {
@@ -172,7 +116,7 @@
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 4,
+      "score": 3,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -190,7 +134,7 @@
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -209,13 +153,69 @@
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 4,
+      "score": 3,
       "question": false,
       "heated": false,
       "isReply": false,
       "origin": "https://indieweb.social/@jodsclass/117525911200328427",
       "media": "image, no description",
       "firstSeen": "2026-10-30T01:02:40.060Z"
+    },
+    "https://mastodon.social/@gamerspherenz/117527741182643027": {
+      "uri": "https://mastodon.social/@gamerspherenz/117527741182643027",
+      "url": "https://mastodon.social/@gamerspherenz/117527741182643027",
+      "handle": "gamerspherenz@mastodon.social",
+      "name": "GamersphereNZ",
+      "text": "A memorable turn can come from a huge combo or one tiny, perfectly timed choice. What move from a recent game are you still thinking about? #GameNight #Tabletop",
+      "createdAt": "2026-10-30T03:30:11.707Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "moreGaming",
+      "query": "gamenight",
+      "score": 8,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "media": null,
+      "firstSeen": "2026-10-30T07:00:36.685Z"
+    },
+    "https://mastodon.social/@audiodude@sfba.social/117527992791873582": {
+      "uri": "https://mastodon.social/@audiodude@sfba.social/117527992791873582",
+      "url": "https://mastodon.social/@audiodude@sfba.social/117527992791873582",
+      "handle": "audiodude@sfba.social",
+      "name": "Travis Briggs",
+      "text": "We have come to the conclusion that DR is actually harder, or at least more consistent. Also id uses them 5:1, so that helps. Claude is now re-writing it's Python door helper, recompiling all the maps on NUKAGE.WAD, and runing the automated ViZDoom playtests on all the new maps. #doom #retrogaming",
+      "createdAt": "2026-10-30T04:34:05.000Z",
+      "likes": 0,
+      "replies": 1,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 3,
+      "question": false,
+      "heated": false,
+      "isReply": true,
+      "origin": "https://sfba.social/@audiodude/117527992467157661",
+      "media": null,
+      "firstSeen": "2026-10-30T07:00:36.685Z"
+    },
+    "https://mastodon.social/@audiodude@sfba.social/117527764627316621": {
+      "uri": "https://mastodon.social/@audiodude@sfba.social/117527764627316621",
+      "url": "https://mastodon.social/@audiodude@sfba.social/117527764627316621",
+      "handle": "audiodude@sfba.social",
+      "name": "Travis Briggs",
+      "text": "TIL that vanilla DOOM monsters don't pathfind. They come directly at the player. ALSO If a monster is in a corner between a wall and a door that it is allowed to activate, it uses its \"turn\" to try to open the door instead of move off the wall. Which means that you can pin a monster like an imp or a caco to the jamb of a door, and just execute it. 💀 #doom #retrogaming",
+      "createdAt": "2026-10-30T03:36:08.000Z",
+      "likes": 0,
+      "replies": 1,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 3,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://sfba.social/@audiodude/117527764554923788",
+      "media": null,
+      "firstSeen": "2026-10-30T07:00:36.685Z"
     }
   }
 }
