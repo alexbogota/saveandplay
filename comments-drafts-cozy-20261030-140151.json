@@ -1,0 +1,19 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261030-140151",
+  "madeAt": "2026-10-30T14:02:47.513Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:hveuq5q35hmu4zpqpbmkc4mu/app.bsky.feed.post/3mz3sdf7krk2q",
+      "url": "https://bsky.app/profile/flacoelcielito5.bsky.social/post/3mz3sdf7krk2q",
+      "author": "flacoelcielito5.bsky.social",
+      "context": "That’s too much 😭 maybe a cozy game today?",
+      "text": "A cozy game sounds like the right call after a day like that. Unpacking and A Short Hike are both calm and low pressure, and you can stop any time.",
+      "group": "evening",
+      "heated": false
+    }
+  ]
+}

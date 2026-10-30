@@ -1,0 +1,39 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "stamp": "20261030-140151",
+  "madeAt": "2026-10-30T14:02:47.349Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:ya2l2btafivedwredacyo3jh/app.bsky.feed.post/3mz3bh4xul22s",
+      "url": "https://bsky.app/profile/gameconsulting.bsky.social/post/3mz3bh4xul22s",
+      "author": "gameconsulting.bsky.social",
+      "context": "Your pile of shame might be the unplayed games in Steam. My pile of shame is all the bottles and cans in the garage that need to be taken to Containers for Change. Happy to say I cleared my pile of shame today. How's your Steam library?",
+      "text": "Clearing the bottle pile is a real win, nice. For the Steam one, starting with the shortest unplayed game is a good way to get some momentum and watch the number drop.",
+      "group": "practical",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:qqgxo2cdm5y5n42i3datrphj/app.bsky.feed.post/3myzrh7fua22i",
+      "url": "https://bsky.app/profile/lootordie.bsky.social/post/3myzrh7fua22i",
+      "author": "lootordie.bsky.social",
+      "context": "Silksong True Ending is done. What an absolute masterpiece of a game. S tier tightrope walk between high difficulty and a reward worth all that trouble. I'm so glad I came back to it and stuck it out. Really looking forward to Sea of Sorrow.\nimage, no description",
+      "text": "Congrats on the true ending, that's a serious run. Sounds like Sea of Sorrow will be a good reason to jump back in.",
+      "group": "waitForSale",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:dgcjkxroeggmrpfygzxkgcre/app.bsky.feed.post/3myzcg7pz7s2w",
+      "url": "https://bsky.app/profile/sakeinsgaming.bsky.social/post/3myzcg7pz7s2w",
+      "author": "sakeinsgaming.bsky.social",
+      "context": "This survival horror game spent 3 years in development... Now the dev has made the full $10 game FREE after it failed to find an audience. Worth grabbing or is there a reason nobody played it? 🎃\nimage, no description",
+      "text": "If it's free, the only cost is your time, so it's low risk. Skim the negative reviews on the store page first: complaints about length or rough edges are usually fine, complaints that it's broken are the ones to listen to. Hope it's a good spooky night 🎃",
+      "group": "waitForSale",
+      "heated": false
+    }
+  ]
+}
