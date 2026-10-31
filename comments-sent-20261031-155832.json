@@ -1,0 +1,39 @@
+{
+  "madeAt": "2026-10-31T15:58:32.379Z",
+  "run": "41217378010",
+  "private": false,
+  "entries": [
+    {
+      "block": "cozy",
+      "handle": "cozygame.bsky.social",
+      "n": 1,
+      "uri": "at://did:plc:tl6d222bgh3fpo33zvaiboj5/app.bsky.feed.post/3mz5kti2mrs2b",
+      "url": "https://bsky.app/profile/letrune.bsky.social/post/3mz5kti2mrs2b",
+      "author": "letrune.bsky.social",
+      "text": "Dinkum is worth a look: you build up a small town and explore a big open world at your own pace, with no pressure to rush. Palia also has a lot of free-form building if you want something with a bit more community feel.",
+      "approvedFile": "comments-approved-cozy-20261031-154746-20261031-155813.json",
+      "approvedAt": "2026-10-31T15:58:13.759Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-31T15:58:33.962Z",
+      "replyUri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3mz6ny4clsp2y",
+      "replyUrl": "https://bsky.app/profile/cozygame.bsky.social/post/3mz6ny4clsp2y"
+    },
+    {
+      "block": "retro",
+      "handle": "retrogamedeals.bsky.social",
+      "n": 1,
+      "uri": "at://did:plc:24fwptosphtdp5nfsy2mapq3/app.bsky.feed.post/3mz4pccm5es2r",
+      "url": "https://bsky.app/profile/headweather.bsky.social/post/3mz4pccm5es2r",
+      "author": "headweather.bsky.social",
+      "text": "That's the classic school computer lab lineup. Wolfenstein 3D is still easy to run on a modern PC too, and GOG sells it DRM-free with the old-PC setup already done.",
+      "approvedFile": "comments-approved-retro-20261031-154746-20261031-155813.json",
+      "approvedAt": "2026-10-31T15:58:13.894Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-31T15:58:34.965Z",
+      "replyUri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3mz6ny5artf2r",
+      "replyUrl": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3mz6ny5artf2r"
+    }
+  ]
+}
