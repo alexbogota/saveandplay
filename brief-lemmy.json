@@ -1,75 +1,67 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-10-30T11:29:10.200Z",
-  "builtBy": "commit 30bb295, schedule, run #31 attempt 1",
-  "pricesCheckedAt": "2026-10-30T10:19:58.958Z",
+  "generatedAt": "2026-10-31T11:26:50.048Z",
+  "builtBy": "commit af04bf5, schedule, run #32 attempt 1",
+  "pricesCheckedAt": "2026-10-31T10:11:06.273Z",
   "warnings": [],
   "candidates": [
     {
-      "id": "indiegala-no-man-s-sky",
+      "id": "gog-shadow-tactics-blades-of-the-shogun",
       "kind": "deal",
-      "title": "No Man's Sky",
-      "store": "IndieGala",
-      "price": 23.99,
-      "was": 59.99,
-      "discount": 60,
-      "endsAt": "2026-11-02T23:59:00Z",
-      "endsInHours": 84,
-      "priceCheckedAt": "2026-10-30T10:19:58.958Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/84d0df065c36eb8ded7bdf0d8fccd19d43b6c005/header.jpg?t=1789479023",
-      "drminfo": "Steam key",
-      "coverAlt": "Cover art for No Man's Sky",
+      "title": "Shadow Tactics: Blades of the Shogun",
+      "store": "GOG",
+      "price": 3.99,
+      "was": 39.99,
+      "discount": 90,
+      "endsAt": "2026-11-05T09:59:00+02:00",
+      "endsInHours": 117,
+      "priceCheckedAt": "2026-10-31T10:09:10.211Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
+      "drminfo": null,
+      "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
       "facts": {
         "year": 2016,
         "genres": [
-          "Action",
-          "Adventure"
+          "Strategy",
+          "Real-time",
+          "Stealth"
         ],
-        "tags": []
+        "tags": [
+          "Indie",
+          "Atmospheric",
+          "Strategy",
+          "Puzzle",
+          "Great Soundtrack",
+          "Tactical",
+          "Third Person",
+          "Historical",
+          "Survival",
+          "Violent",
+          "Real-Time",
+          "Difficult",
+          "Isometric",
+          "RTS",
+          "Stealth",
+          "Ninja"
+        ]
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 16,
-      "discountRank": 8,
-      "sites": 3,
-      "mentions": [
-        {
-          "source": "Rock Paper Shotgun",
-          "domain": "rockpapershotgun.com",
-          "title": "Atmosfar is a giddy aerial exploration game after the heart of No Man's Sky, but I'm already trying to escape it",
-          "link": "https://www.rockpapershotgun.com/atmosfar-is-a-giddy-aerial-exploration-game-after-the-heart-of-no-mans-sky-but-im-already-trying-to-escape-it",
-          "t": 1793289600000,
-          "how": "title"
-        },
-        {
-          "source": "gg.deals Freebies",
-          "domain": "gg.deals",
-          "title": "New FREE No Man's Sky Forsaken update adds creepy collectibles, new ships, and more",
-          "link": "https://gg.deals/freebie/new-free-no-mans-sky-forsaken-update/",
-          "t": 1793280659000,
-          "how": "title"
-        },
-        {
-          "source": "gg.deals News",
-          "domain": "gg.deals",
-          "title": "New FREE No Man's Sky Forsaken update adds creepy collectibles, new ships, and more",
-          "link": "https://gg.deals/freebie/new-free-no-mans-sky-forsaken-update/",
-          "t": 1793280659000,
-          "how": "title"
-        }
-      ],
+      "score": 11,
+      "discountRank": 1,
+      "sites": 0,
+      "mentions": [],
       "history": {
-        "days": 15,
+        "days": 22,
         "lowest": true,
-        "since": "2026-10-05"
+        "since": "2026-10-07"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/indiegala/no-man-s-sky/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-30",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-31",
       "linkKind": "link to our site",
       "whyToday": [
-        "3 news sites wrote about the game in the last 48 h",
-        "lowest price we've tracked (15 days of data)",
-        "deepest-discount rank 8 of 8"
+        "lowest price we've tracked (22 days of data)",
+        "deepest-discount rank 1 of 8"
       ]
     },
     {
@@ -81,8 +73,8 @@
       "was": 19.99,
       "discount": 80,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 140,
-      "priceCheckedAt": "2026-10-30T10:19:52.938Z",
+      "endsInHours": 117,
+      "priceCheckedAt": "2026-10-31T10:09:10.211Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/973760/f748e07df077bb0cf4c49d4bc0f6437f510c5251/header.jpg?t=1761829221",
       "drminfo": null,
       "coverAlt": "Cover art for Thronebreaker: The Witcher Tales",
@@ -120,75 +112,16 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 19,
+        "days": 20,
         "lowest": true,
         "since": "2026-10-07"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/thronebreaker-the-witcher-tales/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-30",
+      "link": "https://saveandplay.com/deals/gog/thronebreaker-the-witcher-tales/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-31",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (19 days of data)",
+        "lowest price we've tracked (20 days of data)",
         "deepest-discount rank 6 of 8"
-      ]
-    },
-    {
-      "id": "gog-this-war-of-mine",
-      "kind": "deal",
-      "title": "This War of Mine",
-      "store": "GOG",
-      "price": 2.99,
-      "was": 19.99,
-      "discount": 85,
-      "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 140,
-      "priceCheckedAt": "2026-10-30T10:19:52.938Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
-      "drminfo": null,
-      "coverAlt": "Cover art for This War of Mine",
-      "facts": {
-        "year": 2014,
-        "genres": [
-          "Action",
-          "Adventure",
-          "Survival"
-        ],
-        "tags": [
-          "Adventure",
-          "Action",
-          "Indie",
-          "Story Rich",
-          "Atmospheric",
-          "Choices Matter",
-          "Management",
-          "Survival",
-          "Resource Management",
-          "Real-Time",
-          "War",
-          "Crafting",
-          "Base Building",
-          "Emotional",
-          "Post-apocalyptic",
-          "Stealth",
-          "Psychological"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 9.5,
-      "discountRank": 3,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 12,
-        "lowest": false,
-        "since": "2026-10-19"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-30",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "deepest-discount rank 3 of 8"
       ]
     },
     {
@@ -200,8 +133,8 @@
       "was": 19.99,
       "discount": 75,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 140,
-      "priceCheckedAt": "2026-10-30T10:19:52.938Z",
+      "endsInHours": 117,
+      "priceCheckedAt": "2026-10-31T10:09:10.211Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
       "drminfo": null,
       "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
@@ -233,15 +166,15 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 21,
+        "days": 22,
         "lowest": true,
         "since": "2026-10-07"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-30",
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-31",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (21 days of data)",
+        "lowest price we've tracked (22 days of data)",
         "deepest-discount rank 7 of 8"
       ]
     },
@@ -254,8 +187,8 @@
       "was": 29.99,
       "discount": 84,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 140,
-      "priceCheckedAt": "2026-10-30T10:19:52.938Z",
+      "endsInHours": 117,
+      "priceCheckedAt": "2026-10-31T10:09:10.211Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367500/header.jpg?t=1768870344",
       "drminfo": null,
       "coverAlt": "Cover art for Dragon's Dogma: Dark Arisen",
@@ -290,56 +223,185 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 11,
+        "days": 12,
         "lowest": false,
         "since": "2026-10-18"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/dragon-s-dogma-dark-arisen/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-30",
+      "link": "https://saveandplay.com/deals/gog/dragon-s-dogma-dark-arisen/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-31",
       "linkKind": "link to our site",
       "whyToday": [
         "deepest-discount rank 5 of 8"
+      ]
+    },
+    {
+      "id": "indiegala-no-man-s-sky",
+      "kind": "deal",
+      "title": "No Man's Sky",
+      "store": "IndieGala",
+      "price": 23.99,
+      "was": 59.99,
+      "discount": 60,
+      "endsAt": "2026-11-02T23:59:00Z",
+      "endsInHours": 61,
+      "priceCheckedAt": "2026-10-31T10:11:06.273Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/84d0df065c36eb8ded7bdf0d8fccd19d43b6c005/header.jpg?t=1789479023",
+      "drminfo": "Steam key",
+      "coverAlt": "Cover art for No Man's Sky",
+      "facts": {
+        "year": 2016,
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "tags": []
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 5,
+      "discountRank": 8,
+      "sites": 2,
+      "mentions": [
+        {
+          "source": "Rock Paper Shotgun",
+          "domain": "rockpapershotgun.com",
+          "title": "Atmosfar is a giddy aerial exploration game after the heart of No Man's Sky, but I'm already trying to escape it",
+          "link": "https://www.rockpapershotgun.com/atmosfar-is-a-giddy-aerial-exploration-game-after-the-heart-of-no-mans-sky-but-im-already-trying-to-escape-it",
+          "t": 1793289600000,
+          "how": "title"
+        },
+        {
+          "source": "gg.deals Freebies",
+          "domain": "gg.deals",
+          "title": "New FREE No Man's Sky Forsaken update adds creepy collectibles, new ships, and more",
+          "link": "https://gg.deals/freebie/new-free-no-mans-sky-forsaken-update/",
+          "t": 1793280659000,
+          "how": "title"
+        }
+      ],
+      "history": {
+        "days": 16,
+        "lowest": true,
+        "since": "2026-10-05"
+      },
+      "offeredOn": "2026-10-30",
+      "link": "https://saveandplay.com/deals/indiegala/no-man-s-sky/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-10-31",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "2 news sites wrote about the game in the last 48 h",
+        "lowest price we've tracked (16 days of data)",
+        "deepest-discount rank 8 of 8"
       ]
     }
   ],
   "gogNews": [],
   "topical": [
     {
-      "title": "Steam's Komodo Publisher Sale offers big savings on OneShot, Deathsmiles, and more!",
-      "source": "gg.deals News",
-      "link": "https://gg.deals/deal/steams-komodo-publisher-sale-2026/",
-      "t": 1793356822000,
-      "keyword": "sale",
-      "summary": "Check out the highlights before the sale ends on November 13."
-    },
-    {
-      "title": "Epic Seven is now FREE to play on Steam, and it's already attracting hundreds of players!",
+      "title": "My Darkest Witch is FREE to keep on IndieGala right now!",
       "source": "gg.deals Freebies",
-      "link": "https://gg.deals/freebie/epic-seven-is-now-free-to-play-on-steam-and-its-already-attracting-hundreds-of-players/",
-      "t": 1793352840000,
+      "link": "https://gg.deals/freebie/my-darkest-witch-is-free-to-keep-in-indiegala-right-now/",
+      "t": 1793393040000,
       "keyword": "free",
-      "summary": "Much to the delight of fans of anime-style visuals and turn-based RPGs, Epic Seven has finally arrived on Steam!"
+      "summary": "Slay creatures and keep the world safe in this magic-fueled top-down arena shooter."
     },
     {
-      "title": "Hexologic is free to keep on Steam — a clever little puzzle game for Sudoku fans",
-      "source": "Indie Game Bundles",
-      "link": "https://www.indiegamebundles.com/hexologic-is-free-to-keep-on-steam/",
-      "t": 1793311055000,
-      "keyword": "free",
-      "summary": "The free-to-keep offer ends on October 31, 2026, so claim it before then. The post Hexologic is free to keep on Steam — a clever little puzzle game for Sudoku …"
+      "title": "Steam’s Deep Stories Bundle brings three narrative adventures together for $11",
+      "source": "gg.deals News",
+      "link": "https://gg.deals/bundle/steams-deep-stories-bundle-brings-three-narrative-adventures-together-for-11/",
+      "t": 1793389928000,
+      "keyword": "bundle",
+      "summary": "Included games: Lamplight City, THE LONGING, and Unforeseen Incidents."
     },
     {
-      "title": "Humble Choice October 2026 – Ends Soon",
-      "source": "Indie Game Bundles",
-      "link": "https://www.indiegamebundles.com/humble-choice-october-2026/",
-      "t": 1793308847000,
-      "keyword": "humble",
-      "summary": "Get Like a Dragon: Pirate Yakuza in Hawaii, Prince of Persia The Lost Crown, Psychonauts 2 and more PC games! The post Humble Choice October 2026 – Ends Soon a…"
+      "title": "Crimson Desert gets a hefty FREE trial on XBOX and PlayStation!",
+      "source": "gg.deals Freebies",
+      "link": "https://gg.deals/freebie/crimson-desert-is-free-to-try-on-xbox-and-playstation-right-now/",
+      "t": 1793387400000,
+      "keyword": "free",
+      "summary": "As the massive Charting the Unknown DLC arrives, Pearl Abyss are offering console players the chance to step into the world of Pywel for free."
     }
   ],
   "topics": [
     {
-      "headline": "Sorry We're Closed is FREE on the Epic Games Store! Grab the $24.99 horror game at no cost",
+      "headline": "Psychological horror game Asleep: Act 1 is FREE to keep on Steam for a limited time",
+      "score": 11,
+      "sites": [
+        "gamerpower.com",
+        "gg.deals",
+        "indiegamebundles.com"
+      ],
+      "keywords": [
+        "free"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "GamerPower (PC)",
+          "title": "Asleep: Act 1 (Steam) Giveaway",
+          "link": "https://www.gamerpower.com/asleep-act-1-steam-giveaway",
+          "published": "2026-10-30T17:06:58.000Z"
+        },
+        {
+          "source": "gg.deals Freebies",
+          "title": "Psychological horror game Asleep: Act 1 is FREE to keep on Steam for a limited time",
+          "link": "https://gg.deals/freebie/psychological-horror-game-asleep-act-1-is-free-to-keep-on-steam-for-a-limited-time/",
+          "published": "2026-10-30T17:47:00.000Z"
+        },
+        {
+          "source": "gg.deals News",
+          "title": "Psychological horror game Asleep: Act 1 is FREE to keep on Steam for a limited time",
+          "link": "https://gg.deals/freebie/psychological-horror-game-asleep-act-1-is-free-to-keep-on-steam-for-a-limited-time/",
+          "published": "2026-10-30T17:47:00.000Z"
+        },
+        {
+          "source": "Indie Game Bundles",
+          "title": "Asleep: Act 1 is free to keep on Steam — psychological horror from 1990s Brazil",
+          "link": "https://www.indiegamebundles.com/asleep-act-1-is-free-to-keep-on-steam/",
+          "published": "2026-10-31T11:15:54.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "A New Beginning: Final Cut is FREE on GOG for a limited time",
+      "score": 11,
+      "sites": [
+        "gamerpower.com",
+        "gg.deals",
+        "indiegamebundles.com"
+      ],
+      "keywords": [
+        "free"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "GamerPower (PC)",
+          "title": "A New Beginning: Final Cut (GOG) Giveaway",
+          "link": "https://www.gamerpower.com/a-new-beginning-final-cut-gog-giveaway",
+          "published": "2026-10-30T14:53:00.000Z"
+        },
+        {
+          "source": "gg.deals Freebies",
+          "title": "A New Beginning: Final Cut is FREE on GOG for a limited time",
+          "link": "https://gg.deals/freebie/a-new-beginning-final-cut-is-free-on-gog-for-a-limited-time/",
+          "published": "2026-10-30T14:45:00.000Z"
+        },
+        {
+          "source": "gg.deals News",
+          "title": "A New Beginning: Final Cut is FREE on GOG for a limited time",
+          "link": "https://gg.deals/freebie/a-new-beginning-final-cut-is-free-on-gog-for-a-limited-time/",
+          "published": "2026-10-30T14:45:00.000Z"
+        },
+        {
+          "source": "Indie Game Bundles",
+          "title": "A New Beginning: Final Cut is free on GOG",
+          "link": "https://www.indiegamebundles.com/a-new-beginning-final-cut-is-free-on-gog/",
+          "published": "2026-10-30T15:50:12.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Survival Horror Game Sorry We’re Closed is Free at Epic",
       "score": 11,
       "sites": [
         "gamerpower.com",
@@ -364,12 +426,6 @@
           "published": "2026-10-29T15:01:00.000Z"
         },
         {
-          "source": "gg.deals News",
-          "title": "Sorry We're Closed is FREE on the Epic Games Store! Grab the $24.99 horror game at no cost",
-          "link": "https://gg.deals/freebie/sorry-were-closed-is-free-on-the-epic-games-store-grab-the-2499-horror-game-at-no-cost/",
-          "published": "2026-10-29T15:01:00.000Z"
-        },
-        {
           "source": "Indie Game Bundles",
           "title": "Survival Horror Game Sorry We’re Closed is Free at Epic",
           "link": "https://www.indiegamebundles.com/survival-horror-game-sorry-were-closed-is-free-at-epic/",
@@ -378,230 +434,60 @@
       ]
     },
     {
-      "headline": "How to beat The Gold-Masked One in Phantom Blade Zero",
-      "score": 9,
+      "headline": "Humble Tactical Mindset Bundle: 10 Strategy Steam Games for Just $18",
+      "score": 10,
       "sites": [
-        "pcgamer.com",
-        "rockpapershotgun.com",
-        "eurogamer.net"
-      ],
-      "keywords": [],
-      "games": [],
-      "items": [
-        {
-          "source": "PC Gamer",
-          "title": "Phantom Blade Zero dev says don't get the latest Nvidia drivers",
-          "link": "https://www.pcgamer.com/hardware/phantom-blade-zero-dev-says-dont-get-the-latest-nvidia-drivers/",
-          "published": "2026-10-29T11:36:07.000Z"
-        },
-        {
-          "source": "PC Gamer",
-          "title": "How to complete Four Fierce Axes in Phantom Blade Zero",
-          "link": "https://www.pcgamer.com/games/action/phantom-blade-zero-four-fierce-axes-walkthrough/",
-          "published": "2026-10-29T02:00:00.000Z"
-        },
-        {
-          "source": "PC Gamer",
-          "title": "All Honor Among Thieves answers in Phantom Blade Zero",
-          "link": "https://www.pcgamer.com/games/action/phantom-blade-zero-honor-among-thieves-answers-gentle-thief-questions/",
-          "published": "2026-10-29T02:00:00.000Z"
-        },
-        {
-          "source": "PC Gamer",
-          "title": "I've spent over 50 hours in Phantom Blade Zero—here are my top 20 tips to conquer the Wulin",
-          "link": "https://www.pcgamer.com/games/action/phantom-blade-zero-tips/",
-          "published": "2026-10-29T02:00:00.000Z"
-        },
-        {
-          "source": "PC Gamer",
-          "title": "How to upgrade medicine in Phantom Blade Zero",
-          "link": "https://www.pcgamer.com/games/action/phantom-blade-zero-upgrade-medicine/",
-          "published": "2026-10-29T02:00:00.000Z"
-        },
-        {
-          "source": "PC Gamer",
-          "title": "Where to find the Mandate Encampment Outer Gate Key in Phantom Blade Zero",
-          "link": "https://www.pcgamer.com/games/action/phantom-blade-zero-mandate-encampment-key-location/",
-          "published": "2026-10-29T02:00:00.000Z"
-        },
-        {
-          "source": "PC Gamer",
-          "title": "How to enter the Order's underground tavern in Phantom Blade Zero",
-          "link": "https://www.pcgamer.com/games/action/phantom-blade-zero-enter-orders-underground-tavern/",
-          "published": "2026-10-29T02:00:00.000Z"
-        },
-        {
-          "source": "PC Gamer",
-          "title": "How to fix the Illusory Pipa in Phantom Blade Zero",
-          "link": "https://www.pcgamer.com/games/action/phantom-blade-zero-illusory-pipa-walkthrough/",
-          "published": "2026-10-29T02:00:00.000Z"
-        },
-        {
-          "source": "PC Gamer",
-          "title": "How to enter the Crimson Manor in Phantom Blade Zero",
-          "link": "https://www.pcgamer.com/games/action/phantom-blade-zero-crimson-manor-enter/",
-          "published": "2026-10-29T02:00:00.000Z"
-        },
-        {
-          "source": "PC Gamer",
-          "title": "All Quickhand's Request treasure locations in Phantom Blade Zero",
-          "link": "https://www.pcgamer.com/games/action/phantom-blade-zero-quickhand-request-treasure-locations-relics/",
-          "published": "2026-10-29T02:00:00.000Z"
-        },
-        {
-          "source": "PC Gamer",
-          "title": "How to beat the Aberrant Three-Faced Puppet in Phantom Blade Zero",
-          "link": "https://www.pcgamer.com/games/action/phantom-blade-zero-aberrant-three-faced-puppet-triple-threat/",
-          "published": "2026-10-29T02:00:00.000Z"
-        },
-        {
-          "source": "PC Gamer",
-          "title": "Where to find the Flesh Lily in Phantom Blade Zero",
-          "link": "https://www.pcgamer.com/games/action/phantom-blade-zero-flesh-lily-location/",
-          "published": "2026-10-29T02:00:00.000Z"
-        },
-        {
-          "source": "PC Gamer",
-          "title": "Where to find the Backstreet Courtyard Key in Phantom Blade Zero",
-          "link": "https://www.pcgamer.com/games/action/phantom-blade-zero-backstreet-courtyard-key-location/",
-          "published": "2026-10-29T02:00:00.000Z"
-        },
-        {
-          "source": "PC Gamer",
-          "title": "Phantom Blade Zero's best weapon might just be the first one you get",
-          "link": "https://www.pcgamer.com/games/action/phantom-blade-zero-best-weapon-jagged-steel/",
-          "published": "2026-10-29T02:00:00.000Z"
-        },
-        {
-          "source": "PC Gamer",
-          "title": "How to complete Whence the Weeping in Phantom Blade Zero",
-          "link": "https://www.pcgamer.com/games/action/phantom-blade-zero-whence-the-weeping-walkthrough/",
-          "published": "2026-10-29T02:00:00.000Z"
-        },
-        {
-          "source": "PC Gamer",
-          "title": "Where to find The Banyan's Heart in Phantom Blade Zero",
-          "link": "https://www.pcgamer.com/games/action/phantom-blade-zero-banyans-heart-location/",
-          "published": "2026-10-29T02:00:00.000Z"
-        },
-        {
-          "source": "PC Gamer",
-          "title": "How to beat Hua, Deadly Betrothed in Phantom Blade Zero",
-          "link": "https://www.pcgamer.com/games/action/phantom-blade-zero-hua-boss-guide/",
-          "published": "2026-10-29T02:00:00.000Z"
-        },
-        {
-          "source": "PC Gamer",
-          "title": "How to beat The Gold-Masked One in Phantom Blade Zero",
-          "link": "https://www.pcgamer.com/games/action/phantom-blade-zero-gold-masked-one-boss-guide/",
-          "published": "2026-10-29T02:00:00.000Z"
-        },
-        {
-          "source": "Rock Paper Shotgun",
-          "title": "Phantom Blade Zero kicks off its launch with a day one patch that offers improvements to ray tracing and some bug fixes to boot",
-          "link": "https://www.rockpapershotgun.com/phantom-blade-zero-kicks-off-its-launch-with-a-day-one-patch-that-offers-improvements-to-ray-tracing-and-some-bug-fixes-to-boot",
-          "published": "2026-10-29T21:27:20.000Z"
-        },
-        {
-          "source": "Eurogamer",
-          "title": "More Chinese success as Phantom Blade Zero enjoys a big launch and becomes one of Steam's most played games",
-          "link": "https://www.eurogamer.net/phantom-blade-zero-steam-launch-1-million-sales",
-          "published": "2026-10-29T09:26:46.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Call of Duty: Modern Warfare 4 intro cinematic is \"not intended to reference or trivialise\" real-world South Korean crowd crush, Activision say amid reported backlash",
-      "score": 9,
-      "sites": [
-        "pcgamer.com",
-        "rockpapershotgun.com",
-        "eurogamer.net"
-      ],
-      "keywords": [],
-      "games": [],
-      "items": [
-        {
-          "source": "PC Gamer",
-          "title": "Modern Warfare 4's newest map is actually older than the Gen Z & Alpha teens who will play it",
-          "link": "https://www.pcgamer.com/games/call-of-duty/modern-warfare-4s-newest-map-is-actually-older-than-the-gen-z-and-alpha-teens-who-will-play-it/",
-          "published": "2026-10-29T19:36:41.000Z"
-        },
-        {
-          "source": "Rock Paper Shotgun",
-          "title": "Call of Duty: Modern Warfare 4 intro cinematic is \"not intended to reference or trivialise\" real-world South Korean crowd crush, Activision say amid reported backlash",
-          "link": "https://www.rockpapershotgun.com/call-of-duty-modern-warfare-4-intro-cinematic-is-not-intended-to-reference-or-trivialise-real-world-south-korean-crowd-crush-activision-say-amid-reported-backlash",
-          "published": "2026-10-29T12:34:09.000Z"
-        },
-        {
-          "source": "Eurogamer",
-          "title": "Call of Duty Modern Warfare 4 review",
-          "link": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-review",
-          "published": "2026-10-29T14:01:33.000Z"
-        },
-        {
-          "source": "Eurogamer",
-          "title": "COD Modern Warfare 4's controversial Possum ability nerfed to stop it being used \"as a combat mechanic instead of a survival mechanic\"",
-          "link": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-dmz-possum-nerf",
-          "published": "2026-10-29T11:33:05.000Z"
-        },
-        {
-          "source": "Eurogamer",
-          "title": "Modern Warfare 4 faces backlash after real footage of South Korean crowd crush tragedy was discovered in game's opening moments",
-          "link": "https://www.eurogamer.net/modern-warfare-4-south-korean-crowd-crush-footage",
-          "published": "2026-10-29T11:11:01.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Hunting Simulator 3's Classic American Hunter Pack is FREE to keep on Steam for a limited time!",
-      "score": 8,
-      "sites": [
-        "gamerpower.com",
-        "gg.deals"
+        "gg.deals",
+        "indiegamebundles.com"
       ],
       "keywords": [
-        "free"
+        "bundle",
+        "humble"
       ],
       "games": [],
       "items": [
-        {
-          "source": "GamerPower (PC)",
-          "title": "Hunting Simulator 3 - Classic American Hunter Pack (Steam) Giveaway",
-          "link": "https://www.gamerpower.com/hunting-simulator-3-classic-american-hunter-pack-steam-giveaway",
-          "published": "2026-10-29T13:52:14.000Z"
-        },
-        {
-          "source": "gg.deals Freebies",
-          "title": "Hunting Simulator 3's Classic American Hunter Pack is FREE to keep on Steam for a limited time!",
-          "link": "https://gg.deals/freebie/hunting-simulator-3-classic-american-hunter-pack-free-steam/",
-          "published": "2026-10-29T19:18:00.000Z"
-        },
         {
           "source": "gg.deals News",
-          "title": "Hunting Simulator 3's Classic American Hunter Pack is FREE to keep on Steam for a limited time!",
-          "link": "https://gg.deals/freebie/hunting-simulator-3-classic-american-hunter-pack-free-steam/",
-          "published": "2026-10-29T19:18:00.000Z"
+          "title": "Humble Tactical Mindset Bundle is a calculated move for strategy fans, starting at $6",
+          "link": "https://gg.deals/bundle/humble-tactical-mindset-bundle/",
+          "published": "2026-10-30T18:44:48.000Z"
+        },
+        {
+          "source": "Indie Game Bundles",
+          "title": "Humble Tactical Mindset Bundle: 10 Strategy Steam Games for Just $18",
+          "link": "https://www.indiegamebundles.com/humble-tactical-mindset-bundle-10-strategy-steam-games-for-just-18/",
+          "published": "2026-10-31T11:03:23.000Z"
         }
       ]
     },
     {
-      "headline": "Best Buy launches its first early Black Friday sale, with Halloween deals hitting particularly hard for PS5 players",
-      "score": 7,
+      "headline": "EA reportedly closed BioWare because it was forced to choose between Mass Effect 5 and Star Wars Battlefront 3",
+      "score": 9,
       "sites": [
-        "gamesradar.com"
+        "pcgamer.com",
+        "rockpapershotgun.com",
+        "eurogamer.net"
       ],
-      "keywords": [
-        "sale",
-        "deals"
-      ],
+      "keywords": [],
       "games": [],
       "items": [
         {
-          "source": "GamesRadar deals",
-          "title": "Best Buy launches its first early Black Friday sale, with Halloween deals hitting particularly hard for PS5 players",
-          "link": "https://www.gamesradar.com/games/best-buy-launches-its-first-early-black-friday-sale-with-halloween-deals-hitting-particularly-hard-for-ps5-players/",
-          "published": "2026-10-30T11:14:49.000Z"
+          "source": "PC Gamer",
+          "title": "EA reportedly canned BioWare and Mass Effect 5 to make a new Star Wars: Battlefront instead",
+          "link": "https://www.pcgamer.com/games/mass-effect/ea-reportedly-canned-bioware-and-mass-effect-5-to-make-a-new-star-wars-battlefront-instead/",
+          "published": "2026-10-30T16:43:23.000Z"
+        },
+        {
+          "source": "Rock Paper Shotgun",
+          "title": "EA execs choosing Star Wars Battlefront 3 over Mass Effect 5 was the main factor in BioWare's demise, according to report",
+          "link": "https://www.rockpapershotgun.com/ea-execs-choosing-star-wars-battlefront-3-over-mass-effect-5-was-the-main-factor-in-biowares-demise-according-to-report",
+          "published": "2026-10-30T16:00:00.000Z"
+        },
+        {
+          "source": "Eurogamer",
+          "title": "EA reportedly closed BioWare because it was forced to choose between Mass Effect 5 and Star Wars Battlefront 3",
+          "link": "https://www.eurogamer.net/ea-closed-bioware-because-star-wars-battlefront-3",
+          "published": "2026-10-30T14:54:16.000Z"
         }
       ]
     }

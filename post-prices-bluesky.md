@@ -1,8 +1,8 @@
-No Man's Sky: -60% at IndieGala
-$23.99 (was $59.99)
-Price checked Oct 30. Sale ends Nov 2. Lowest price we've tracked.
+Shadow Tactics: Blades of the Shogun: -90% at GOG
+$3.99 (was $39.99)
+Price checked Oct 31. Sale ends Nov 5. Lowest price we've tracked.
 
-https://saveandplay.com/deals/indiegala/no-man-s-sky/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-30
+https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-31
 
-#PCGaming #GameDeals #VideoGames #IndieGames #Games
+#PCGaming #GameDeals #PCGames #GOG #Gaming
 Ad
