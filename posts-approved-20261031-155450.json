@@ -1,0 +1,65 @@
+{
+  "approvedAt": "2026-10-31T15:54:50.247Z",
+  "items": [
+    {
+      "n": 1,
+      "kind": "deal",
+      "platform": "bluesky",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "text": "Shadow Tactics: Blades of the Shogun: -90% at GOG\n$3.99 (was $39.99)\nPrice checked Oct 31. Sale ends Nov 5. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-31\n\n#PCGaming #GameDeals #PCGames #GOG #Gaming\nAd",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-31",
+      "day": "2026-10-31",
+      "key": "prices|2026-10-31|/deals/gog/shadow-tactics-blades-of-the-shogun/",
+      "notBefore": "2026-10-31T15:54:50.247Z"
+    },
+    {
+      "n": 2,
+      "kind": "deal",
+      "platform": "bluesky",
+      "account": "prices-2",
+      "handle": "saveandplay.com",
+      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nPrice checked Oct 31. Sale ends Nov 5.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-31\n\n#PCGaming #GameDeals #ThisWarOfMine #Games #DRMFree\nAd",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-31",
+      "day": "2026-10-31",
+      "key": "prices-2|2026-10-31|/deals/gog/this-war-of-mine/",
+      "notBefore": "2026-10-31T17:54:50.247Z"
+    },
+    {
+      "n": 6,
+      "kind": "article",
+      "platform": "bluesky",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "text": "Steam shows two review scores: one for the past 30 days, one for the game's lifetime. Reviews from activated keys don't count toward the score. Our 5 checks:\nhttps://saveandplay.com/guides/how-to-read-steam-reviews/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-steam-reviews\n#PCGaming #GameDeals #Steam",
+      "link": "https://saveandplay.com/guides/how-to-read-steam-reviews/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-steam-reviews",
+      "day": null,
+      "key": "prices|article|/guides/how-to-read-steam-reviews/",
+      "notBefore": "2026-10-31T19:54:50.247Z"
+    },
+    {
+      "n": 7,
+      "kind": "coop",
+      "platform": "bluesky",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "text": "Counter-Strike 2 is a multiplayer game on Steam.\nA rented server keeps your own world or community online around the clock.\n\nhttps://saveandplay.com/servers/counter-strike-2/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-10-31\n\n#PCGaming #CounterStrike2\nAd",
+      "link": "https://saveandplay.com/servers/counter-strike-2/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-10-31",
+      "day": "2026-10-31",
+      "key": "prices|coop-2026-10-31|/servers/counter-strike-2/",
+      "notBefore": "2026-10-31T21:54:50.247Z"
+    },
+    {
+      "n": 8,
+      "kind": "coop",
+      "platform": "bluesky",
+      "account": "cozy",
+      "handle": "cozygame.bsky.social",
+      "text": "Planting season with friends? Stardew Valley has online co-op for up to 8 players.\nHere is what a Stardew Valley server gives you, in plain words.\n\nhttps://saveandplay.com/servers/stardew-valley/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=coop-2026-10-31\n\n#CozyGames #StardewValley\nAd",
+      "link": "https://saveandplay.com/servers/stardew-valley/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=coop-2026-10-31",
+      "day": "2026-10-31",
+      "key": "cozy|coop-2026-10-31|/servers/stardew-valley/",
+      "notBefore": "2026-10-31T15:54:50.247Z"
+    }
+  ]
+}

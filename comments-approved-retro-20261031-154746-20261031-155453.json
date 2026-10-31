@@ -1,0 +1,18 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-retro-20261031-154746.json",
+  "approvedAt": "2026-10-31T15:54:53.037Z",
+  "items": [
+    {
+      "n": 2,
+      "uri": "at://did:plc:t2mz43sqytfltic7b67gey5n/app.bsky.feed.post/3mz4g4cxau22g",
+      "url": "https://bsky.app/profile/samshotfirst.bsky.social/post/3mz4g4cxau22g",
+      "author": "samshotfirst.bsky.social",
+      "context": "2. MYST Studio: Cyan Played on PC c. 1997–?? I could never really figure this game out as a kid (and I honestly still haven‘t) but I kept coming back to it. Unlocked a forever love of puzzle mechanics, environmental storytelling, and a singular atmosphere in the medium.\nimage: An aerial view of the island from the video game MYST",
+      "text": "Don't feel bad, Myst gives you almost no hints on purpose. Most people get through it by keeping a notebook of the symbols and clues they find.",
+      "edited": false
+    }
+  ]
+}
