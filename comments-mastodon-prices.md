@@ -1,54 +1,53 @@
 # Comment candidates: mastodon-prices (@saveandplay@mastodon.social)
-Made 2026-10-30T18:51Z. Searched: deck: handheldgaming | deck: steamdecklife | deck: steamdeckoled | deck: steamdeck | deck: steamos | practical: linuxgaming | practical: drmfree | practical: gog | practical: protondb | genres: coopgames | genres: citybuilder | genres: strategygames | genres: survivalgames | genres: horrorgaming | genres: cozygaming | genres: puzzlegames | genres: roguelike | genres: cozygames | genres: metroidvania | seasonal: halloweengames | seasonal: horrorgames | seasonal: spooktober | broadPlaying: videogames | broadPlaying: currentlyplaying | broadPlaying: indiegames | broadPlaying: indiegame | broadPlaying: pcgames | broadPlaying: steamgames | broadPlaying: gamer | broadPlaying: games | broadPlaying: rpg | broadPlaying: jrpg | broadPlaying: pcgaming | broadPlaying: gaming | broadPlaying: steam | broadAsk: recommendmeagame | broadAsk: gamerecommendation | broadAsk: recommendagame | broadAsk: whattoplay | broadAsk: gamesuggestion | broadAsk: hiddengem | broadAsk: underratedgames | broadAsk: gamesuggestions | backlog: gamingbacklog | backlog: backlog | backlog: pileofshame | backlog: whatshouldiplay | backlog: gamerecommendations | backlog: gamerecs.
-Posts below: 12. Dropped in this run: bot, shop or studio 1186, console only 16, too old 1199, other language 244, many links 11, not about games 38, promo (link and hashtags) 121, link post, not a question 20, profile says no bots or promo 8, already shown 19, skip word 180, low score 18, own post 15, already answered 3, too long 9, other language (text) 28, content warning 17, hidden from search 6, earlier finds: low score 4.
+Made 2026-10-31T01:01Z. Searched: deck: handheldgaming | deck: steamdecklife | deck: steamdeckoled | deck: steamdeck | deck: steamos | practical: linuxgaming | practical: drmfree | practical: gog | practical: protondb | genres: coopgames | genres: citybuilder | genres: strategygames | genres: survivalgames | genres: horrorgaming | genres: cozygaming | genres: puzzlegames | genres: roguelike | genres: cozygames | genres: metroidvania | seasonal: halloweengames | seasonal: horrorgames | seasonal: spooktober | broadPlaying: videogames | broadPlaying: currentlyplaying | broadPlaying: indiegames | broadPlaying: indiegame | broadPlaying: pcgames | broadPlaying: steamgames | broadPlaying: gamer | broadPlaying: games | broadPlaying: rpg | broadPlaying: jrpg | broadPlaying: pcgaming | broadPlaying: gaming | broadPlaying: steam | broadAsk: recommendmeagame | broadAsk: gamerecommendation | broadAsk: recommendagame | broadAsk: whattoplay | broadAsk: gamesuggestion | broadAsk: hiddengem | broadAsk: underratedgames | broadAsk: gamesuggestions | backlog: gamingbacklog | backlog: backlog | backlog: pileofshame | backlog: whatshouldiplay | backlog: gamerecommendations | backlog: gamerecs.
+Posts below: 12. Dropped in this run: bot, shop or studio 930, console only 19, too old 1227, other language 253, other language (text) 12, many links 8, not about games 43, promo (link and hashtags) 87, profile says no bots or promo 6, already shown 15, low score 14, skip word 186, own post 14, link post, not a question 11, already answered 3, too long 9, content warning 13, hidden from search 3, too short 1, earlier finds: low score 1.
 
 ## Posts
-1. @sundray@lemmus.org (Sundray) · 11m · likes 0 · replies 0 · question · broadPlaying
-   https://mastodon.social/@sundray@lemmus.org/117531321662361597
-   original: https://lemmus.org/post/26549882
-   Why are more games adopting parrying? https://lemmus.org/post/26549882
-   [link card: Why are more games adopting parrying? A game designer explores the mechanic's appeal and historical…]
-2. @coa100@mastodon.social (Coa art) · 1h · likes 0 · replies 0 · question · broadPlaying
+1. @shtrophic@chaos.social (shtrophic) · 34m · likes 2 · replies 1 · question · broadPlaying
+   https://mastodon.social/@shtrophic@chaos.social/117532682406690405
+   original: https://chaos.social/@shtrophic/117532682385213887
+   I'm playing #papersplease on #steam with #wine. On #OpenBSD. WHAT?? THIS WORKS!
+2. @vvbudh@climatejustice.social (vvbudh) · 40m · likes 0 · replies 0 · question · practical
+   https://mastodon.social/@vvbudh@climatejustice.social/117532658548845527
+   original: https://climatejustice.social/@vvbudh/117532658315940372
+   Has anyone ever experienced this in any other games on Linux? I've been trying to figure out where it might come from. #linux #linuxgaming #gaming #bug
+   [video: The entire screen is filled with artefacts that just make the game impossible to play.]
+3. @pitcrewgg@mastodon.social (PitCrew) · 2h · likes 1 · replies 1 · practical
+   https://mastodon.social/@pitcrewgg/117532312241553328
+   🔄 War Thunder - Ground Vehicle Modules Unveiled New vehicle modules are coming the in next update including fire control and electrical systems, manual autoloader reloading, and an auxiliary power unit. 1/2 #WarThunder #Linux #LinuxGaming #PCGaming #FlightSim #FreeTrack #HeadTra
+   [image, no description]
+4. @basil6583@mastodon.social · 4h · likes 2 · replies 0 · practical
+   https://mastodon.social/@basil6583/117531774099851767
+   @btp #steam works like a charm for me. Also using #heroic launcher for #gog games. Had to fiddle around with settings to get some #dos #games running.
+5. @coa100@mastodon.social (Coa art) · 7h · likes 0 · replies 0 · question · broadPlaying
    https://mastodon.social/@coa100/117531101541656934
    New Game posted on Games Heaven Djakninn of Myrkuri https://gamesheaven.wtnet9.site/?game=49 #videogames #gaming
    [image, no description]
-3. @pitcrewgg@mastodon.social (PitCrew) · 2h · likes 1 · replies 1 · deck
-   https://mastodon.social/@pitcrewgg/117530937113519600
-   🔄 Mesa - Witcher 3 Remastered Fixes And Linux Driver Issues Mesa 26.2.6 arrives as the latest Linux open source graphics driver upgrade, fixing reported bugs including Witcher 3 Remastered. 1/2 #Mesa3D #Linux #LinuxGaming #PCGaming #AMD #Intel #Mesa #Radeon #Vulkan #OpenSource #
-   [image, no description]
-4. @pitcrewgg@mastodon.social (PitCrew) · 3h · likes 1 · replies 1 · deck
-   https://mastodon.social/@pitcrewgg/117530752946302421
-   🔄 Steam - Beta Client Update For October 28 Steam Client update lands in Preview/Beta with fixes for friend join alerts and sounds, per friend overrides, faster Quick Access Menu, and redesigned updater UI. 1/2 #Linux #LinuxGaming #PCGaming #Steam #ValveSoftware #LegionGo2 #Legi
-   [image, no description]
-5. @morganth@social.tchncs.de (morganth) · 20h · likes 0 · replies 2 · question · broadPlaying
+6. @morganth@social.tchncs.de (morganth) · 26h · likes 0 · replies 2 · question · broadPlaying
    https://mastodon.social/@morganth@social.tchncs.de/117526583818016202
    original: https://social.tchncs.de/@morganth/117526583785754595
    If you were really drunk and had access to a time machine, what change to the past would you make that you would think was hilarious? Asking for a friend. (The friend is me, and I’m thinking about a role-playing game scenario that is kind of “Timecop” meets “The Hangover”.) #game
-6. @geekrealmhub@mastodon.social (Geek Realm Hub) · 27m · likes 0 · replies 0 · question · broadPlaying
-   https://mastodon.social/@geekrealmhub/117531257111394606
-   Sam Altman says having DRAM in your PC is “quite terrible”?! The #OpenAI CEO argues that limited memory should be used in cloud data centers instead of sitting in personal computers that may only use it 5% of the time. Meanwhile, RAM prices keep climbing. #SamAltman #PCGaming #Ge
+7. @stunningshemp@mastodon.social (Chris Coats) · 31m · likes 0 · replies 0 · question · genres
+   https://mastodon.social/@stunningshemp/117532694634761471
+   Who is “The Fallen”? #castlevania #belmontscurse #metroidvania #stunningshemp #twitch
+   [video, no description]
+8. @lisp1984@mastodon.social (kevin steinmetz) · 58m · likes 0 · replies 0 · practical
+   https://mastodon.social/@lisp1984/117532590709342362
+   @wario64 steamnuses digital restrictions management. good old ganes aka gog.com doest not have drm. gog always has offline installer executables. if it were not for gog,.com, i would have no way to buy games. i refuse to run drm or a client program which steam requires. #DRMFree 
+9. @zeratul2099@mastodon.online (zeratul2099) · 2h · likes 3 · replies 1 · broadPlaying
+   https://mastodon.social/@zeratul2099@mastodon.online/117532441933339969
+   original: https://mastodon.online/@zeratul2099/117532441704341964
+   Seems that I now have a portable Doomsday-… um… Doom-Device. It's not as if every other device I own already has a port of Doom, after all. But another one won't hurt :D This is a pretty cool collection. Doom 1 + 2, Sigil 1 + 2 (the two episodes John Romero himself made recently 
+   [4 images: An Evercade EXP-R, the Doom Collection Box and the cartridge in bright red / The back of the Evercade with the red Doom cartridge in the cartridge slot / The handheld, running Doom. The titlescreen. / The handheld, running Doom. We see E1M1.]
+10. @lashman@mastodon.social (lashman) · 2h · likes 1 · replies 0 · broadPlaying
+   https://mastodon.social/@lashman/117532435018391099
+   Developer: Quetzal-Core Games Publisher: Quetzal-Core Games Release date: To be announced Screenshots: #steam #gaming #videoGames #steamStorePage
+   [4 images: Screenshot 1 from Soulway / Screenshot 2 from Soulway / Screenshot 3 from Soulway / Screenshot 4 from Soulway]
+11. @pitcrewgg@mastodon.social (PitCrew) · 2h · likes 0 · replies 1 · practical
+   https://mastodon.social/@pitcrewgg/117532314813218892
+   🔄 War Thunder - Eagle's Shadow Update Trailer War Thunder unveils Eagle's Shadow trailer, the next major update. 1/2 #WarThunder #Linux #LinuxGaming #PCGaming #FlightSim #FreeTrack #HeadTracking #MetaQuest #OpenXR #PICO #Pimax #SteamFrame #SteamVR #VirtualReality #VR
    [image, no description]
-7. @mentalmars@mastodon.social (MentalMars) · 50m · likes 0 · replies 0 · question · broadPlaying
-   https://mastodon.social/@mentalmars/117531165697669367
-   What can you say about an ECHO log, but not your partner? I'll go first: “Is there a dialogue skip?” Your turn! #Borderlands #Gaming
+12. @pitcrewgg@mastodon.social (PitCrew) · 2h · likes 0 · replies 1 · practical
+   https://mastodon.social/@pitcrewgg/117532310387540259
+   🔄 War Thunder - Update 2.59.0.92 Battle Ratings changes are in effect! Bombers are capped per team in Air Realistic Battles, with other key changes based on community feedback. 1/2 #WarThunder #Linux #LinuxGaming #PCGaming #FlightSim #FreeTrack #HeadTracking #MetaQuest #OpenXR #
    [image, no description]
-8. @geekrealmhub@mastodon.social (Geek Realm Hub) · 1h · likes 1 · replies 0 · broadPlaying
-   https://mastodon.social/@geekrealmhub/117531011840868419
-   Anthropic is restricting Claude Code from recreating existing games! The new instruction could affect native PC ports, decompilations, and recompilation projects. Developers are already reporting refusals, including for licensed work. Anthropic hasn't clarified the full scope. #C
-   [image, no description]
-9. @tippitiwichet@mastodon.social (Gemma Sarracenia) · 2h · likes 1 · replies 0 · broadPlaying
-   https://mastodon.social/@tippitiwichet/117531005925178325
-   Browsing bullet journal layouts (I'm stoked I have a reason to use one again, what with the unpredictability of a substitute teaching schedule and need for lists of stuff like educational games). Found something awesome on Pinterest (not sure of source). #bulletJournal #games #wr
-   [image: Gamify your life, with instructions on giving yourself stats like a role playing character, how to earn experience with things like "tidy up", quests like "rea…]
-10. @gamingdriftapp@mastodon.social (GamingDrift) · 2h · likes 0 · replies 0 · question · broadPlaying
-   https://mastodon.social/@gamingdriftapp/117530922083514939
-   Early Access on GamingDrift is gaining momentum: 8 stories across 7 independent sources, up 2.7%. More than one source keeps returning to it. See the evidence: https://gamingdrift.app/#/signal/early-access?utm_source=mastodon&utm_medium=social&utm_campaign=beta_launch #Gaming #Ea
-   [image: GamesIndustry.biz photo illustrating Studio Atelico's launch of the Atelico AI Engine into Early Access, part of the coverage behind GamingDrift's Early Access…]
-11. @lashman@mastodon.social (lashman) · 2h · likes 3 · replies 0 · broadPlaying
-   https://mastodon.social/@lashman/117530869579662457
-   Developer: Freebird Games Publisher: Freebird Games, Serenity Forge Release date: 2027 Screenshots: #steam #gaming #videoGames #steamStorePage
-   [4 images: Screenshot 1 from Conversations with My Imaginary Friends / Screenshot 2 from Conversations with My Imaginary Friends / Screenshot 3 from Conversations with My Imaginary Friends / Screenshot 4 from Conversations with My Imaginary Friends]
-12. @lashman@mastodon.social (lashman) · 2h · likes 2 · replies 0 · broadPlaying
-   https://mastodon.social/@lashman/117530810451841980
-   Developer: Argonaut Games Publisher: Argonaut Games Release date: Coming soon Screenshots: #steam #gaming #videoGames #steamStorePage
-   [4 images: Screenshot 1 from Croc 2 Classic / Screenshot 2 from Croc 2 Classic / Screenshot 3 from Croc 2 Classic / Screenshot 4 from Croc 2 Classic]
