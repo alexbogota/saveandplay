@@ -1,0 +1,29 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "stamp": "20261031-154746",
+  "madeAt": "2026-10-31T15:48:20.142Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:oa2afteeixihws2ml7hunxi4/app.bsky.feed.post/3mz675ker2c2m",
+      "url": "https://bsky.app/profile/farwall.bsky.social/post/3mz675ker2c2m",
+      "author": "farwall.bsky.social",
+      "context": "Looking through my Steam library (video games), I was reminded I enjoyed a couple of Microids Studios Poirot games and that they'd done a version of Death on the Nile that I hadn't yet played. On further investigation though, they've done it as a 70s disco themed... thing? What?\nlink card: Agatha Christie - Death on the Nile on Steam",
+      "text": "Ha, that's quite a swerve from the Poirot games you liked. Worth reading a few recent reviews on the store page before deciding, since a tone change like that can go either way.",
+      "group": "practical",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:t3htmextj6ycjyqds3tmp7qy/app.bsky.feed.post/3mz4lidejec2s",
+      "url": "https://bsky.app/profile/cayce.zone/post/3mz4lidejec2s",
+      "author": "cayce.zone",
+      "context": "picked up Xiizeal, Crimzon Clover, Mushimesama, and DDP. i guess the Deathsmiles on sale is the lesser of the two ports on steam? anyway. stg autumn",
+      "text": "Nice haul, that's a solid autumn of shmups.",
+      "group": "waitForSale",
+      "heated": false
+    }
+  ]
+}

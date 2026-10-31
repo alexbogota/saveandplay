@@ -1,0 +1,30 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261031-154746",
+  "madeAt": "2026-10-31T15:48:20.456Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:24fwptosphtdp5nfsy2mapq3/app.bsky.feed.post/3mz4pccm5es2r",
+      "url": "https://bsky.app/profile/headweather.bsky.social/post/3mz4pccm5es2r",
+      "author": "headweather.bsky.social",
+      "context": "The first PC games I remember Oregon Trail LHX Chopper The Horde Warcraft Wolfenstein 3D Where in the World Is Carmen Sandiego? that trivia game that came with Encarta *coughs up dust*\nquotes @gussquawks.bsky.social: My first PC games My school did book order forms and sure I bought some books but they ALSO sold PC games so I got: RollerCoaster Tycoon (w…",
+      "text": "That's the classic school computer lab lineup. Wolfenstein 3D is still easy to run on a modern PC too, and GOG sells it DRM-free with the old-PC setup already done.",
+      "verify": "Проверить: Wolfenstein 3D сейчас продаётся на GOG.",
+      "group": "childhood",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:t2mz43sqytfltic7b67gey5n/app.bsky.feed.post/3mz4g4cxau22g",
+      "url": "https://bsky.app/profile/samshotfirst.bsky.social/post/3mz4g4cxau22g",
+      "author": "samshotfirst.bsky.social",
+      "context": "2. MYST Studio: Cyan Played on PC c. 1997–?? I could never really figure this game out as a kid (and I honestly still haven‘t) but I kept coming back to it. Unlocked a forever love of puzzle mechanics, environmental storytelling, and a singular atmosphere in the medium.\nimage: An aerial view of the island from the video game MYST",
+      "text": "Don't feel bad, Myst gives you almost no hints on purpose. Most people get through it by keeping a notebook of the symbols and clues they find.",
+      "group": "childhood",
+      "heated": false
+    }
+  ]
+}
