@@ -1,0 +1,23 @@
+{
+  "madeAt": "2026-10-31T22:37:28.988Z",
+  "run": "41249010405",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices|coop-2026-10-31|/servers/counter-strike-2/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 7,
+      "link": "https://saveandplay.com/servers/counter-strike-2/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-10-31",
+      "text": "Counter-Strike 2 is a multiplayer game on Steam.\nA rented server keeps your own world or community online around the clock.\n\nhttps://saveandplay.com/servers/counter-strike-2/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-10-31\n\n#PCGaming #CounterStrike2\nAd",
+      "approvedFile": "posts-approved-20261031-155450.json",
+      "approvedAt": "2026-10-31T15:54:50.247Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-31T22:37:31.609Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mz7ebijb272b",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3mz7ebijb272b",
+      "picture": true
+    }
+  ]
+}
