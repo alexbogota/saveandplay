@@ -1,0 +1,55 @@
+{
+  "madeAt": "2026-10-31T15:55:17.250Z",
+  "run": "41217127391",
+  "private": false,
+  "entries": [
+    {
+      "block": "prices",
+      "handle": "saveandplay.com",
+      "n": 1,
+      "uri": "at://did:plc:oa2afteeixihws2ml7hunxi4/app.bsky.feed.post/3mz675ker2c2m",
+      "url": "https://bsky.app/profile/farwall.bsky.social/post/3mz675ker2c2m",
+      "author": "farwall.bsky.social",
+      "text": "Ha, that's quite a swerve from the Poirot games you liked. Worth reading a few recent reviews on the store page before deciding, since a tone change like that can go either way.",
+      "approvedFile": "comments-approved-prices-20261031-154746-20261031-155452.json",
+      "approvedAt": "2026-10-31T15:54:52.868Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-31T15:55:18.763Z",
+      "replyUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mz6nsc4hd424",
+      "replyUrl": "https://bsky.app/profile/saveandplay.com/post/3mz6nsc4hd424"
+    },
+    {
+      "block": "prices",
+      "handle": "saveandplay.com",
+      "n": 2,
+      "uri": "at://did:plc:t3htmextj6ycjyqds3tmp7qy/app.bsky.feed.post/3mz4lidejec2s",
+      "url": "https://bsky.app/profile/cayce.zone/post/3mz4lidejec2s",
+      "author": "cayce.zone",
+      "text": "Nice haul, that's a solid autumn of shmups.",
+      "approvedFile": "comments-approved-prices-20261031-154746-20261031-155452.json",
+      "approvedAt": "2026-10-31T15:54:52.868Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-31T15:56:50.798Z",
+      "replyUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mz6nuzvfab2b",
+      "replyUrl": "https://bsky.app/profile/saveandplay.com/post/3mz6nuzvfab2b"
+    },
+    {
+      "block": "retro",
+      "handle": "retrogamedeals.bsky.social",
+      "n": 2,
+      "uri": "at://did:plc:t2mz43sqytfltic7b67gey5n/app.bsky.feed.post/3mz4g4cxau22g",
+      "url": "https://bsky.app/profile/samshotfirst.bsky.social/post/3mz4g4cxau22g",
+      "author": "samshotfirst.bsky.social",
+      "text": "Don't feel bad, Myst gives you almost no hints on purpose. Most people get through it by keeping a notebook of the symbols and clues they find.",
+      "approvedFile": "comments-approved-retro-20261031-154746-20261031-155453.json",
+      "approvedAt": "2026-10-31T15:54:53.037Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-31T15:56:52.284Z",
+      "replyUri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3mz6nv3cnti2m",
+      "replyUrl": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3mz6nv3cnti2m"
+    }
+  ]
+}
