@@ -1,48 +1,51 @@
 # Comment candidates: retro (@retrogamedeals.bsky.social)
-Made 2026-10-31T12:54Z. Searched: childhood: played this as a kid game | childhood: first pc game | childhood: childhood game | childhood: game from my childhood | classicPC: retro pc gaming | classicPC: dos game | classicPC: classic pc game | classicPC: old pc games | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: retro game recommendations | askRetro: old games recommend | askRetro: retro games recommend | askRetro: best retro games | retroFeed: feed.
-Posts below: 12. Dropped in this run: not about games 65, skip word 49, too short 3, promo (link and hashtags) 2, adult or graphic label 1, bot, shop or studio 18, replies are limited 6, low score 2, too long 1, already shown 1, other language 52, not a question 13, other language (text) 11, too many hashtags 1, earlier finds: low score 6.
+Made 2026-10-31T18:49Z. Searched: childhood: childhood favorite game | childhood: games from my childhood | childhood: first video game | childhood: played this as a kid game | classicPC: dos games | classicPC: classic pc games | classicPC: old pc game | classicPC: retro pc gaming | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: best old games | askRetro: old game recommend | askRetro: retro game recommendations | askRetro: old games recommend | retroFeed: feed.
+Posts below: 12 + 1 heated. Dropped in this run: skip word 96, not about games 56, already shown 5, promo (link and hashtags) 3, bot, shop or studio 22, low score 10, replies are limited 6, already answered 1, many links 3, too short 4, too many hashtags 2, other language 38, not a question 15, other language (text) 6, earlier finds: low score 1.
 
 ## Posts
-1. @starbladeknight.bsky.social (Coco's Knight of the Wind) · 9h · likes 8 · replies 1 · question · childhood
-   https://bsky.app/profile/starbladeknight.bsky.social/post/3mz5g6ew4ds24
-   WAIT A FUCKING MINUTE THAT'S LENNETH FROM VALKYRIE PROFILE WHAT WHAT WHAT DO YOU ME ONE OF MY FIRST EVER CHILDHOOD VIDEO GAME CRUSHES IS COMING BACK TO LIFE?!?!?!
-   [image, no description; quotes @starbladeknight.bsky.social: HELLO?!?!?!?!?!]
-2. @mayteramarble.bsky.social (Maytera Marble) · 11h · likes 5 · replies 1 · question · classicPC
-   https://bsky.app/profile/mayteramarble.bsky.social/post/3mz5af426dc2d
-   I need all you PC-98 sickos to go buy Dead of the Brain and prove there's a market for localized PC-98 games in the West store.steampowered.com/app/5056390/...
-   [link card: Save 34% on Dead of the Brain on Steam]
-3. @renzarathustra.bbhood.ca (dog girl) · 14h · likes 2 · replies 0 · question · childhood
-   https://bsky.app/profile/renzarathustra.bbhood.ca/post/3mz4tgjcet22p
-   im fine with upscaling ps2 games because thats how my brain remembers them from my childhood
-4. @headweather.bsky.social · 16h · likes 1 · replies 0 · question · childhood
-   https://bsky.app/profile/headweather.bsky.social/post/3mz4pccm5es2r
-   The first PC games I remember Oregon Trail LHX Chopper The Horde Warcraft Wolfenstein 3D Where in the World Is Carmen Sandiego? that trivia game that came with Encarta *coughs up dust*
-   [quotes @gussquawks.bsky.social: My first PC games My school did book order forms and sure I bought some books but they ALSO sold PC games so I got: RollerCoaster Tycoon (w…]
-5. @samshotfirst.bsky.social (Sam Van Helsing) · 18h · likes 1 · replies 2 · question · childhood
-   https://bsky.app/profile/samshotfirst.bsky.social/post/3mz4g4cxau22g
-   2. MYST Studio: Cyan Played on PC c. 1997–?? I could never really figure this game out as a kid (and I honestly still haven‘t) but I kept coming back to it. Unlocked a forever love of puzzle mechanics, environmental storytelling, and a singular atmosphere in the medium.
-   [image: An aerial view of the island from the video game MYST]
-6. @cias.bsky.social (CIAS 🏳️‍⚧️🏴󠁧󠁢󠁷󠁬󠁳󠁿) · 11h · likes 0 · replies 0 · question · classicPC
-   https://bsky.app/profile/cias.bsky.social/post/3mz57yndlw22h
-   I think it was probably Glados? I only realised I had a crush on her much later but yeah in hindsight there were quite a few reasons I was obsessed with Portal 2
-   [link card: Gla Dos Suk: Robotic Eye Blink]
-7. @chthonicpress.bsky.social (Chthonic Press) · 16h · likes 0 · replies 0 · question · childhood
-   https://bsky.app/profile/chthonicpress.bsky.social/post/3mz4mm3zt2k2h
-   Video Game: What Remains of Edith Finch by Giant Sparrow Edith Finch returns to her childhood home to explore artifacts left by her family members, all of whom died young. We slip into flashbacks from each family member, trying to uncover the truth: is the Finch family cursed?
-8. @jamiejones723.bsky.social · 17h · likes 3 · replies 1 · question · nostalgia
-   https://bsky.app/profile/jamiejones723.bsky.social/post/3mz4lq6cids2b
-   My god. Could the machinima scene have handled this? A tangent, but kinda making me feel nostalgic for how the early internet video game scene was. The audience was willing to create and watch art made with such limited tools. There's nothing quite like that now.
-9. @that-human-being.bsky.social (A Human Being Named Alex) · 18h · likes 2 · replies 0 · question · gogOld
+1. @martijnfrazer.bsky.social (Martijn Frazer 🇳🇱🇪🇸🇮🇪🇮🇸🇸🇮) · 2h · likes 4 · replies 1 · question · classicPC
+   https://bsky.app/profile/martijnfrazer.bsky.social/post/3mz6pphai4227
+   We had a meeting yesterday in which we scheduled the games we're doing in 2027 at DOS Game Club. We always try to mix genres, have old & newer stuff alike, some unknowns and beloved classics etc. And we try to get some older suggestions in, in a vain attempt to clear our backlog 
+2. @tijn.dosgame.club.ap.brid.gy (Martijn Frazer) · 3h · likes 1 · replies 1 · question · classicPC
+   https://bsky.app/profile/tijn.dosgame.club.ap.brid.gy/post/3mz6lxphvqf42
+   We had a meeting yesterday in which we've scheduled all the games we're doing in 2027 at DOS Game Club. We always try to mix genres, have old & newer stuff alike, some unknowns and beloved classics etc. And we try to get some older suggestions in, in a vain attempt to clear our b
+   [link card: Original post on dosgame.club]
+3. @loveretrobtw.bsky.social (Andy) · 4h · likes 11 · replies 1 · question · nostalgia
+   https://bsky.app/profile/loveretrobtw.bsky.social/post/3mz6k7qpcks2u
+   Did you know Apple released a video game console in 1996? Meet the Apple Pippin! One of gaming’s most obscure consoles. Did you even know this existed? #apple #gaming #retrogaming #nostalgia
+   [video, no description]
+4. @suezobeam.bsky.social (Ami, aka Ser Reese) · 1h · likes 1 · replies 0 · question · childhood
+   https://bsky.app/profile/suezobeam.bsky.social/post/3mz6sz4jbv22g
+   It reminds me of ME, where people are dismissive of Liara because *gestures at ME*, but that first game blew minds at the time. I remember when trans rep in video games was Naoto, Poison, and Birdo. I STANNED Naoto for years before I came out and realized the writing sucked.
+5. @jikissgamer.bsky.social (JikissGamer) · 2h · likes 4 · replies 0 · question · childhood
+   https://bsky.app/profile/jikissgamer.bsky.social/post/3mz6qbq5u5s24
+   One of my very first video games in my life. Still one of my favorites. It took me 25 years to beat this game and when I eventually did in 2018 I remember running all around my dad's house screaming and cheering. The second to last level took me ages to clear, I was stuck on it f
+   [quotes @martijnfrazer.bsky.social: In August we'll be doing SkyRoads (1993). www. mobygames.com/game/1007/skyroads/screenshots/ This game has also been requested for a long t…]
+6. @masterwho.yase.world (「ＹＡＳＥ」MasterWho) · 3h · likes 4 · replies 1 · question · childhood
+   https://bsky.app/profile/masterwho.yase.world/post/3mz6mi3p5as2w
+   Instead of, yknow, playing video games, I went ahead and created a spreadsheet to track how many license tests there are and how long each one would end up taking me! 672 License Tests in total across all of the Gran Turismo games I could find! Phew!! This will take a while, huh?
+   [2 images: A snippet of a Google Sheet spreadsheet I created to track the Gran Turismo License Tests. Text reads, in order, "Total Tests: 672, Total Completed: 0, Percent… / A snippet of a Google Sheet spreadsheet I created for the Gran Turismo License Tests across all games. Games listed are Gran Turismo 1, 2,3, Concept 2001 Tokyo…; quotes @masterwho.yase.world: Playing Gran Turismo 1, I thought it would be """fun""" to go through and Gold all of the license tests throughout the series, I doubt I'll…]
+7. @that-human-being.bsky.social (A Human Being Named Alex) · 24h · likes 2 · replies 0 · question · gogOld
    https://bsky.app/profile/that-human-being.bsky.social/post/3mz4ikl4ki22j
    Too many good games you say, what about these really good old games in your backlog as well?
-10. @danzart24.bsky.social · 25h · likes 48 · replies 1 · question · childhood
-   https://bsky.app/profile/danzart24.bsky.social/post/3mz3qw23ycc25
-   Fanart Friday time!! Shineegrreymon!!! 🔥🔥🔥 I remember first discovering ShineGreymon through the PS2 game *Digimon World Data Squad*. I was truly amazed back then—a wonderful childhood memory 😊 #デジモン #Digimon #digimonfanart
-   [image, no description]
-11. @sawbossachieves.bsky.social (Sawboss Achievements) · 24m · likes 0 · replies 0 · question · retroFeed
-   https://bsky.app/profile/sawbossachieves.bsky.social/post/3mz6cdxy4ca24
-   Sawboss earned the Retro Achievement "Gugyagyahn!!!" in "Holy Umbrella: Dondera no Mubou!!" for the SNES/Super Famicom, earning 5 points. Description: "Pipopipapopororo ? Gyahngyun! (In Cotemen Caverns)." Game details: https://retroachievements.org/game/2674
-   [image: Achievement badge for Gugyagyahn!!!]
-12. @trevorfox.bsky.social (Trevor Fox) · 10h · likes 3 · replies 1 · question · childhood
-   https://bsky.app/profile/trevorfox.bsky.social/post/3mz5d5tbw4k2k
-   You GOTTA make me feel it as a player. If I'm playing a game, the fact that it's a video game is the FIRST and foremost thought on my mind. I am thinking, "How am I gonna have fun?" And if I'm presented with a moral quandary, my second thought is, "Will this screw me out of items
+8. @evanminto.com (Evan Minto) · 49m · likes 1 · replies 0 · askRetro
+   https://bsky.app/profile/evanminto.com/post/3mz6us476z22t
+   The best parts about Half-Life (atmosphere mainly) have nothing to do with the gameplay and can be experienced via a Let's Play. This isn't just me not clicking with an old game: I love a lot of games older than HL (Doom's guns feel better to shoot, Mario solved air control 13 ye
+9. @wils.bsky.social (Mark) · 1h · likes 2 · replies 1 · classicPC
+   https://bsky.app/profile/wils.bsky.social/post/3mz6tffan5s2o
+   Ha! When I first fired up my current rig, my wife walked past and said "Typical of you. You spend four grand on a PC and the first thing you play is a 30 year old game".
+10. @martijnfrazer.bsky.social (Martijn Frazer 🇳🇱🇪🇸🇮🇪🇮🇸🇸🇮) · 2h · likes 1 · replies 1 · classicPC
+   https://bsky.app/profile/martijnfrazer.bsky.social/post/3mz6q2lfl5227
+   In June we're doing one of our other traditions, which is to look at various sports games. Someone suggested to look at rugby games, and that's what we'll do! There are apparently only 8 or so rugby games for DOS, so this should give me the chance to actually learn what the rules
+11. @martijnfrazer.bsky.social (Martijn Frazer 🇳🇱🇪🇸🇮🇪🇮🇸🇸🇮) · 2h · likes 2 · replies 1 · classicPC
+   https://bsky.app/profile/martijnfrazer.bsky.social/post/3mz6pth7tuc27
+   Also in January we'll be hosting a game jam! It's about Basic for DOS. Any flavour will do! So in February we'll play the games people made and invite some jammers on the podcast to talk about their games, as well as Basic for DOS in general. alakajam.com/dgc-basic-jam
+   [link card: DGC BASIC Jam | Alakajam!]
+12. @loganpendragon.bsky.social (Logan Pendragon) · 3h · likes 0 · replies 1 · question · childhood
+   https://bsky.app/profile/loganpendragon.bsky.social/post/3mz6njqpims2y
+   I have a few things I'd like to discuss tonight. First, let's talk video games. Assassins Creed Shadows. No more patches or updates since the last one. I'm done with the game, so looking forward to seeing when that comes out. Also curious to see what all they continue to...
+
+## Heated topics (AI debates etc.): reply only neutrally, with facts
+1. @jeffcottrill.bsky.social (Jeff Cottrill) · 52m · likes 0 · replies 1 · childhood
+   https://bsky.app/profile/jeffcottrill.bsky.social/post/3mz6umqa4es2j
+   Reading the first Dungeon Crawler Carl book, trying to understand what the big deal is. Some funny bits, and the talking cat is cute, but it's basically reading a video game. And occasional sloppy writing. "... killed more than a 100 wandering monsters..." Not "a hundred". Not "1
