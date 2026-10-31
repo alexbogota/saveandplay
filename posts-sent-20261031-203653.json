@@ -1,0 +1,23 @@
+{
+  "madeAt": "2026-10-31T20:36:53.730Z",
+  "run": "41239719499",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices|article|/guides/how-to-read-steam-reviews/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 6,
+      "link": "https://saveandplay.com/guides/how-to-read-steam-reviews/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-steam-reviews",
+      "text": "Steam shows two review scores: one for the past 30 days, one for the game's lifetime. Reviews from activated keys don't count toward the score. Our 5 checks:\nhttps://saveandplay.com/guides/how-to-read-steam-reviews/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-steam-reviews\n#PCGaming #GameDeals #Steam",
+      "approvedFile": "posts-approved-20261031-155450.json",
+      "approvedAt": "2026-10-31T15:54:50.247Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-10-31T20:36:55.793Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mz75jtya6225",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3mz75jtya6225",
+      "picture": true
+    }
+  ]
+}
