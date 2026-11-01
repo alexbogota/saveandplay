@@ -1,0 +1,39 @@
+{
+  "madeAt": "2026-11-01T16:08:50.012Z",
+  "run": "41324783934",
+  "private": false,
+  "entries": [
+    {
+      "block": "cozy",
+      "handle": "cozygame.bsky.social",
+      "n": 1,
+      "uri": "at://did:plc:uox4o3qe6b5pe3idgh4aa2nk/app.bsky.feed.post/3mza73zcees23",
+      "url": "https://bsky.app/profile/mysticgames-in.bsky.social/post/3mza73zcees23",
+      "author": "mysticgames-in.bsky.social",
+      "text": "Stardew Valley's fishing is a gentle one: you keep the bar on the fish and the pace stays calm, which makes a nice break between busier games.",
+      "approvedFile": "comments-approved-cozy-20261101-154002-20261101-160832.json",
+      "approvedAt": "2026-11-01T16:08:32.096Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-01T16:08:51.273Z",
+      "replyUri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3mzb6zghq4v2z",
+      "replyUrl": "https://bsky.app/profile/cozygame.bsky.social/post/3mzb6zghq4v2z"
+    },
+    {
+      "block": "retro",
+      "handle": "retrogamedeals.bsky.social",
+      "n": 2,
+      "uri": "at://did:plc:mvngtxr4vjgdki4scszb4aay/app.bsky.feed.post/3mz6pphai4227",
+      "url": "https://bsky.app/profile/martijnfrazer.bsky.social/post/3mz6pphai4227",
+      "author": "martijnfrazer.bsky.social",
+      "text": "Mixing genres and older picks is a solid way to run a club. Handy for a backlog too: GOG sells a lot of DOS classics with DOSBox already set up.",
+      "approvedFile": "comments-approved-retro-20261101-154002-20261101-160832.json",
+      "approvedAt": "2026-11-01T16:08:32.257Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-01T16:08:52.443Z",
+      "replyUri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3mzb6zhkycq2p",
+      "replyUrl": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3mzb6zhkycq2p"
+    }
+  ]
+}
