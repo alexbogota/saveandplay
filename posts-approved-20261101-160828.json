@@ -1,0 +1,29 @@
+{
+  "approvedAt": "2026-11-01T16:08:28.952Z",
+  "items": [
+    {
+      "n": 1,
+      "kind": "deal",
+      "platform": "bluesky",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nPrice checked Nov 1. Sale ends Nov 5. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-01\n\n#PCGaming #GameDeals #ThisWarOfMine #VideoGames #DRMFree\nAd",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-01",
+      "day": "2026-11-01",
+      "key": "prices|2026-11-01|/deals/gog/this-war-of-mine/",
+      "notBefore": "2026-11-01T16:08:28.952Z"
+    },
+    {
+      "n": 2,
+      "kind": "deal",
+      "platform": "bluesky",
+      "account": "prices-2",
+      "handle": "saveandplay.com",
+      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Nov 1. Sale ends Nov 5. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-01\n\n#PCGaming #GameDeals #PCGames #GOG #VideoGames\nAd",
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-01",
+      "day": "2026-11-01",
+      "key": "prices-2|2026-11-01|/deals/gog/simcity-4-deluxe-edition/",
+      "notBefore": "2026-11-01T18:08:28.952Z"
+    }
+  ]
+}
