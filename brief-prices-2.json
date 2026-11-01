@@ -1,69 +1,10 @@
 {
   "account": "Honest prices (second deal of the day)",
-  "generatedAt": "2026-10-31T11:26:50.048Z",
-  "builtBy": "commit af04bf5, schedule, run #32 attempt 1",
-  "pricesCheckedAt": "2026-10-31T10:11:06.273Z",
+  "generatedAt": "2026-11-01T11:25:36.550Z",
+  "builtBy": "commit a82a4de, schedule, run #33 attempt 1",
+  "pricesCheckedAt": "2026-11-01T10:12:12.590Z",
   "warnings": [],
   "candidates": [
-    {
-      "id": "gog-this-war-of-mine",
-      "kind": "deal",
-      "title": "This War of Mine",
-      "store": "GOG",
-      "price": 2.99,
-      "was": 19.99,
-      "discount": 85,
-      "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 117,
-      "priceCheckedAt": "2026-10-31T10:09:10.211Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
-      "drminfo": null,
-      "coverAlt": "Cover art for This War of Mine",
-      "facts": {
-        "year": 2014,
-        "genres": [
-          "Action",
-          "Adventure",
-          "Survival"
-        ],
-        "tags": [
-          "Adventure",
-          "Action",
-          "Indie",
-          "Story Rich",
-          "Atmospheric",
-          "Choices Matter",
-          "Management",
-          "Survival",
-          "Resource Management",
-          "Real-Time",
-          "War",
-          "Crafting",
-          "Base Building",
-          "Emotional",
-          "Post-apocalyptic",
-          "Stealth",
-          "Psychological"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 9.5,
-      "discountRank": 3,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 13,
-        "lowest": false,
-        "since": "2026-10-19"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-31",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "deepest-discount rank 3 of 8"
-      ]
-    },
     {
       "id": "gog-simcity-4-deluxe-edition",
       "kind": "deal",
@@ -73,8 +14,8 @@
       "was": 19.99,
       "discount": 75,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 117,
-      "priceCheckedAt": "2026-10-31T10:09:10.211Z",
+      "endsInHours": 93,
+      "priceCheckedAt": "2026-11-01T10:12:12.590Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
       "drminfo": null,
       "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
@@ -106,15 +47,15 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 22,
+        "days": 23,
         "lowest": true,
         "since": "2026-10-07"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-31",
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-01",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (22 days of data)",
+        "lowest price we've tracked (23 days of data)",
         "deepest-discount rank 7 of 8"
       ]
     },
@@ -127,8 +68,8 @@
       "was": 29.99,
       "discount": 84,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 117,
-      "priceCheckedAt": "2026-10-31T10:09:10.211Z",
+      "endsInHours": 93,
+      "priceCheckedAt": "2026-11-01T10:12:12.590Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367500/header.jpg?t=1768870344",
       "drminfo": null,
       "coverAlt": "Cover art for Dragon's Dogma: Dark Arisen",
@@ -163,74 +104,74 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 12,
+        "days": 13,
         "lowest": false,
         "since": "2026-10-18"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/dragon-s-dogma-dark-arisen/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-31",
+      "link": "https://saveandplay.com/deals/gog/dragon-s-dogma-dark-arisen/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-01",
       "linkKind": "link to our site",
       "whyToday": [
         "deepest-discount rank 5 of 8"
       ]
     },
     {
-      "id": "indiegala-no-man-s-sky",
+      "id": "gog-shadow-tactics-blades-of-the-shogun",
       "kind": "deal",
-      "title": "No Man's Sky",
-      "store": "IndieGala",
-      "price": 23.99,
-      "was": 59.99,
-      "discount": 60,
-      "endsAt": "2026-11-02T23:59:00Z",
-      "endsInHours": 61,
-      "priceCheckedAt": "2026-10-31T10:11:06.273Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/84d0df065c36eb8ded7bdf0d8fccd19d43b6c005/header.jpg?t=1789479023",
-      "drminfo": "Steam key",
-      "coverAlt": "Cover art for No Man's Sky",
+      "title": "Shadow Tactics: Blades of the Shogun",
+      "store": "GOG",
+      "price": 3.99,
+      "was": 39.99,
+      "discount": 90,
+      "endsAt": "2026-11-05T09:59:00+02:00",
+      "endsInHours": 93,
+      "priceCheckedAt": "2026-11-01T10:12:12.590Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
+      "drminfo": null,
+      "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
       "facts": {
         "year": 2016,
         "genres": [
-          "Action",
-          "Adventure"
+          "Strategy",
+          "Real-time",
+          "Stealth"
         ],
-        "tags": []
+        "tags": [
+          "Indie",
+          "Atmospheric",
+          "Strategy",
+          "Puzzle",
+          "Great Soundtrack",
+          "Tactical",
+          "Third Person",
+          "Historical",
+          "Survival",
+          "Violent",
+          "Real-Time",
+          "Difficult",
+          "Isometric",
+          "RTS",
+          "Stealth",
+          "Ninja"
+        ]
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 5,
-      "discountRank": 8,
-      "sites": 2,
-      "mentions": [
-        {
-          "source": "Rock Paper Shotgun",
-          "domain": "rockpapershotgun.com",
-          "title": "Atmosfar is a giddy aerial exploration game after the heart of No Man's Sky, but I'm already trying to escape it",
-          "link": "https://www.rockpapershotgun.com/atmosfar-is-a-giddy-aerial-exploration-game-after-the-heart-of-no-mans-sky-but-im-already-trying-to-escape-it",
-          "t": 1793289600000,
-          "how": "title"
-        },
-        {
-          "source": "gg.deals Freebies",
-          "domain": "gg.deals",
-          "title": "New FREE No Man's Sky Forsaken update adds creepy collectibles, new ships, and more",
-          "link": "https://gg.deals/freebie/new-free-no-mans-sky-forsaken-update/",
-          "t": 1793280659000,
-          "how": "title"
-        }
-      ],
+      "score": 3,
+      "discountRank": 1,
+      "sites": 0,
+      "mentions": [],
       "history": {
-        "days": 16,
+        "days": 23,
         "lowest": true,
-        "since": "2026-10-05"
+        "since": "2026-10-07"
       },
-      "offeredOn": "2026-10-30",
-      "link": "https://saveandplay.com/deals/indiegala/no-man-s-sky/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-31",
+      "offeredOn": "2026-10-31",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-01",
       "linkKind": "link to our site",
       "whyToday": [
-        "2 news sites wrote about the game in the last 48 h",
-        "lowest price we've tracked (16 days of data)",
-        "deepest-discount rank 8 of 8"
+        "lowest price we've tracked (23 days of data)",
+        "deepest-discount rank 1 of 8"
       ]
     },
     {
@@ -242,8 +183,8 @@
       "was": 24.99,
       "discount": 85,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 117,
-      "priceCheckedAt": "2026-10-31T10:09:10.211Z",
+      "endsInHours": 93,
+      "priceCheckedAt": "2026-11-01T10:12:12.590Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187",
       "drminfo": null,
       "coverAlt": "Cover art for Darkest Dungeon",
@@ -279,16 +220,75 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 22,
+        "days": 23,
         "lowest": true,
         "since": "2026-10-07"
       },
       "offeredOn": "2026-10-27",
-      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-31",
+      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-01",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (22 days of data)",
+        "lowest price we've tracked (23 days of data)",
         "deepest-discount rank 4 of 8"
+      ]
+    },
+    {
+      "id": "gog-frostpunk",
+      "kind": "deal",
+      "title": "Frostpunk",
+      "store": "GOG",
+      "price": 4.49,
+      "was": 29.99,
+      "discount": 85,
+      "endsAt": "2026-11-05T09:59:00+02:00",
+      "endsInHours": 93,
+      "priceCheckedAt": "2026-11-01T10:12:12.590Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323190/abcd2bf3c275092d637d7dd98e0061dbdd2fd2da/header.jpg?t=1784897899",
+      "drminfo": null,
+      "coverAlt": "Cover art for Frostpunk",
+      "facts": {
+        "year": 2018,
+        "genres": [
+          "Strategy",
+          "Simulation",
+          "Survival"
+        ],
+        "tags": [
+          "Indie",
+          "Atmospheric",
+          "Strategy",
+          "Simulation",
+          "Dark",
+          "Great Soundtrack",
+          "Choices Matter",
+          "Management",
+          "Survival",
+          "Resource Management",
+          "Difficult",
+          "Base Building",
+          "Post-apocalyptic",
+          "City builder",
+          "Survival Horror",
+          "Steampunk"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 2.5,
+      "discountRank": 2,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 20,
+        "lowest": true,
+        "since": "2026-10-13"
+      },
+      "offeredOn": "2026-10-29",
+      "link": "https://saveandplay.com/deals/gog/frostpunk/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-01",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "lowest price we've tracked (20 days of data)",
+        "deepest-discount rank 2 of 8"
       ]
     }
   ],
@@ -313,18 +313,18 @@
   },
   "posts": {
     "x": {
-      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nPrice checked Oct 31. Sale ends Nov 5.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-31\n\n#PCGaming #GOG\nAd",
-      "length": 131,
+      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Nov 1. Sale ends Nov 5. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-01\n\n#PCGaming #SimCity4DeluxeEdition\nAd",
+      "length": 184,
       "max": 270,
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-31",
-      "deal": "gog-this-war-of-mine"
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-01",
+      "deal": "gog-simcity-4-deluxe-edition"
     },
     "bluesky": {
-      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nPrice checked Oct 31. Sale ends Nov 5.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-31\n\n#PCGaming #GameDeals #ThisWarOfMine #Games #DRMFree\nAd",
-      "length": 170,
+      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Nov 1. Sale ends Nov 5. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-01\n\n#PCGaming #GameDeals #PCGames #GOG #VideoGames\nAd",
+      "length": 200,
       "max": 300,
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-31",
-      "deal": "gog-this-war-of-mine"
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-01",
+      "deal": "gog-simcity-4-deluxe-edition"
     }
   }
 }

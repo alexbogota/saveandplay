@@ -1,67 +1,68 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-10-31T11:26:50.048Z",
-  "builtBy": "commit af04bf5, schedule, run #32 attempt 1",
-  "pricesCheckedAt": "2026-10-31T10:11:06.273Z",
+  "generatedAt": "2026-11-01T11:25:36.550Z",
+  "builtBy": "commit a82a4de, schedule, run #33 attempt 1",
+  "pricesCheckedAt": "2026-11-01T10:12:12.590Z",
   "warnings": [],
   "candidates": [
     {
-      "id": "gog-shadow-tactics-blades-of-the-shogun",
+      "id": "gog-this-war-of-mine",
       "kind": "deal",
-      "title": "Shadow Tactics: Blades of the Shogun",
+      "title": "This War of Mine",
       "store": "GOG",
-      "price": 3.99,
-      "was": 39.99,
-      "discount": 90,
+      "price": 2.99,
+      "was": 19.99,
+      "discount": 85,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 117,
-      "priceCheckedAt": "2026-10-31T10:09:10.211Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
+      "endsInHours": 93,
+      "priceCheckedAt": "2026-11-01T10:12:12.590Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
       "drminfo": null,
-      "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
+      "coverAlt": "Cover art for This War of Mine",
       "facts": {
-        "year": 2016,
+        "year": 2014,
         "genres": [
-          "Strategy",
-          "Real-time",
-          "Stealth"
+          "Action",
+          "Adventure",
+          "Survival"
         ],
         "tags": [
+          "Adventure",
+          "Action",
           "Indie",
+          "Story Rich",
           "Atmospheric",
-          "Strategy",
-          "Puzzle",
-          "Great Soundtrack",
-          "Tactical",
-          "Third Person",
-          "Historical",
+          "Choices Matter",
+          "Management",
           "Survival",
-          "Violent",
+          "Resource Management",
           "Real-Time",
-          "Difficult",
-          "Isometric",
-          "RTS",
+          "War",
+          "Crafting",
+          "Base Building",
+          "Emotional",
+          "Post-apocalyptic",
           "Stealth",
-          "Ninja"
+          "Psychological"
         ]
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 11,
-      "discountRank": 1,
+      "score": 10.5,
+      "discountRank": 4,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 22,
+        "days": 14,
         "lowest": true,
-        "since": "2026-10-07"
+        "since": "2026-10-19"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-31",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-11-01",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (22 days of data)",
-        "deepest-discount rank 1 of 8"
+        "lowest price we've tracked (14 days of data)",
+        "deepest-discount rank 4 of 8"
       ]
     },
     {
@@ -73,8 +74,8 @@
       "was": 19.99,
       "discount": 80,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 117,
-      "priceCheckedAt": "2026-10-31T10:09:10.211Z",
+      "endsInHours": 93,
+      "priceCheckedAt": "2026-11-01T10:12:12.590Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/973760/f748e07df077bb0cf4c49d4bc0f6437f510c5251/header.jpg?t=1761829221",
       "drminfo": null,
       "coverAlt": "Cover art for Thronebreaker: The Witcher Tales",
@@ -108,73 +109,19 @@
       "marketplace": false,
       "compareTo": null,
       "score": 10,
-      "discountRank": 6,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 20,
-        "lowest": true,
-        "since": "2026-10-07"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/thronebreaker-the-witcher-tales/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-31",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "lowest price we've tracked (20 days of data)",
-        "deepest-discount rank 6 of 8"
-      ]
-    },
-    {
-      "id": "gog-simcity-4-deluxe-edition",
-      "kind": "deal",
-      "title": "SimCity 4 Deluxe Edition",
-      "store": "GOG",
-      "price": 4.99,
-      "was": 19.99,
-      "discount": 75,
-      "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 117,
-      "priceCheckedAt": "2026-10-31T10:09:10.211Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
-      "drminfo": null,
-      "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
-      "facts": {
-        "year": 2003,
-        "genres": [
-          "Simulation",
-          "Building",
-          "Managerial"
-        ],
-        "tags": [
-          "Atmospheric",
-          "Simulation",
-          "Classic",
-          "Great Soundtrack",
-          "Management",
-          "Sandbox",
-          "Real-Time",
-          "Isometric",
-          "Building",
-          "Managerial",
-          "City builder"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 9.5,
       "discountRank": 7,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 22,
+        "days": 21,
         "lowest": true,
         "since": "2026-10-07"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-31",
+      "link": "https://saveandplay.com/deals/gog/thronebreaker-the-witcher-tales/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-11-01",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (22 days of data)",
+        "lowest price we've tracked (21 days of data)",
         "deepest-discount rank 7 of 8"
       ]
     },
@@ -187,8 +134,8 @@
       "was": 29.99,
       "discount": 84,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 117,
-      "priceCheckedAt": "2026-10-31T10:09:10.211Z",
+      "endsInHours": 93,
+      "priceCheckedAt": "2026-11-01T10:12:12.590Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367500/header.jpg?t=1768870344",
       "drminfo": null,
       "coverAlt": "Cover art for Dragon's Dogma: Dark Arisen",
@@ -219,106 +166,164 @@
       "marketplace": false,
       "compareTo": null,
       "score": 9.4,
-      "discountRank": 5,
+      "discountRank": 6,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 12,
+        "days": 13,
         "lowest": false,
         "since": "2026-10-18"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/dragon-s-dogma-dark-arisen/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-31",
+      "link": "https://saveandplay.com/deals/gog/dragon-s-dogma-dark-arisen/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-11-01",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 5 of 8"
+        "deepest-discount rank 6 of 8"
       ]
     },
     {
-      "id": "indiegala-no-man-s-sky",
+      "id": "gog-shadow-tactics-blades-of-the-shogun",
       "kind": "deal",
-      "title": "No Man's Sky",
-      "store": "IndieGala",
-      "price": 23.99,
-      "was": 59.99,
-      "discount": 60,
-      "endsAt": "2026-11-02T23:59:00Z",
-      "endsInHours": 61,
-      "priceCheckedAt": "2026-10-31T10:11:06.273Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/84d0df065c36eb8ded7bdf0d8fccd19d43b6c005/header.jpg?t=1789479023",
-      "drminfo": "Steam key",
-      "coverAlt": "Cover art for No Man's Sky",
+      "title": "Shadow Tactics: Blades of the Shogun",
+      "store": "GOG",
+      "price": 3.99,
+      "was": 39.99,
+      "discount": 90,
+      "endsAt": "2026-11-05T09:59:00+02:00",
+      "endsInHours": 93,
+      "priceCheckedAt": "2026-11-01T10:12:12.590Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
+      "drminfo": null,
+      "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
       "facts": {
         "year": 2016,
         "genres": [
-          "Action",
-          "Adventure"
+          "Strategy",
+          "Real-time",
+          "Stealth"
         ],
-        "tags": []
+        "tags": [
+          "Indie",
+          "Atmospheric",
+          "Strategy",
+          "Puzzle",
+          "Great Soundtrack",
+          "Tactical",
+          "Third Person",
+          "Historical",
+          "Survival",
+          "Violent",
+          "Real-Time",
+          "Difficult",
+          "Isometric",
+          "RTS",
+          "Stealth",
+          "Ninja"
+        ]
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 5,
-      "discountRank": 8,
-      "sites": 2,
-      "mentions": [
-        {
-          "source": "Rock Paper Shotgun",
-          "domain": "rockpapershotgun.com",
-          "title": "Atmosfar is a giddy aerial exploration game after the heart of No Man's Sky, but I'm already trying to escape it",
-          "link": "https://www.rockpapershotgun.com/atmosfar-is-a-giddy-aerial-exploration-game-after-the-heart-of-no-mans-sky-but-im-already-trying-to-escape-it",
-          "t": 1793289600000,
-          "how": "title"
-        },
-        {
-          "source": "gg.deals Freebies",
-          "domain": "gg.deals",
-          "title": "New FREE No Man's Sky Forsaken update adds creepy collectibles, new ships, and more",
-          "link": "https://gg.deals/freebie/new-free-no-mans-sky-forsaken-update/",
-          "t": 1793280659000,
-          "how": "title"
-        }
-      ],
+      "score": 3,
+      "discountRank": 1,
+      "sites": 0,
+      "mentions": [],
       "history": {
-        "days": 16,
+        "days": 23,
         "lowest": true,
-        "since": "2026-10-05"
+        "since": "2026-10-07"
       },
-      "offeredOn": "2026-10-30",
-      "link": "https://saveandplay.com/deals/indiegala/no-man-s-sky/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-10-31",
+      "offeredOn": "2026-10-31",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-11-01",
       "linkKind": "link to our site",
       "whyToday": [
-        "2 news sites wrote about the game in the last 48 h",
-        "lowest price we've tracked (16 days of data)",
-        "deepest-discount rank 8 of 8"
+        "lowest price we've tracked (23 days of data)",
+        "deepest-discount rank 1 of 8"
+      ]
+    },
+    {
+      "id": "gog-darkest-dungeon",
+      "kind": "deal",
+      "title": "Darkest Dungeon",
+      "store": "GOG",
+      "price": 3.75,
+      "was": 24.99,
+      "discount": 85,
+      "endsAt": "2026-11-05T09:59:00+02:00",
+      "endsInHours": 93,
+      "priceCheckedAt": "2026-11-01T10:12:12.590Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187",
+      "drminfo": null,
+      "coverAlt": "Cover art for Darkest Dungeon",
+      "facts": {
+        "year": 2016,
+        "genres": [
+          "Role-playing",
+          "Turn-based",
+          "Fantasy"
+        ],
+        "tags": [
+          "Indie",
+          "Fantasy",
+          "Atmospheric",
+          "Role-playing",
+          "2D",
+          "Turn-Based",
+          "Dark",
+          "Horror",
+          "Difficult",
+          "Roguelike",
+          "Roguelite",
+          "Dungeon Crawler",
+          "Lovecraftian",
+          "Perma Death",
+          "Petting Dogs"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 2.5,
+      "discountRank": 5,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 23,
+        "lowest": true,
+        "since": "2026-10-07"
+      },
+      "offeredOn": "2026-10-27",
+      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-11-01",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "lowest price we've tracked (23 days of data)",
+        "deepest-discount rank 5 of 8"
       ]
     }
   ],
   "gogNews": [],
   "topical": [
     {
-      "title": "My Darkest Witch is FREE to keep on IndieGala right now!",
-      "source": "gg.deals Freebies",
-      "link": "https://gg.deals/freebie/my-darkest-witch-is-free-to-keep-in-indiegala-right-now/",
-      "t": 1793393040000,
-      "keyword": "free",
-      "summary": "Slay creatures and keep the world safe in this magic-fueled top-down arena shooter."
-    },
-    {
-      "title": "Steam’s Deep Stories Bundle brings three narrative adventures together for $11",
+      "title": "The 50 best Steam deals of the Halloween week (October 26 - November 1)",
       "source": "gg.deals News",
-      "link": "https://gg.deals/bundle/steams-deep-stories-bundle-brings-three-narrative-adventures-together-for-11/",
-      "t": 1793389928000,
-      "keyword": "bundle",
-      "summary": "Included games: Lamplight City, THE LONGING, and Unforeseen Incidents."
+      "link": "https://gg.deals/deal/the-50-best-steam-deals-of-the-halloween-week-october-26-november-1/",
+      "t": 1793523660000,
+      "keyword": "deals",
+      "summary": "It's scary how good this week's top Steam deals are!"
     },
     {
-      "title": "Crimson Desert gets a hefty FREE trial on XBOX and PlayStation!",
-      "source": "gg.deals Freebies",
-      "link": "https://gg.deals/freebie/crimson-desert-is-free-to-try-on-xbox-and-playstation-right-now/",
-      "t": 1793387400000,
+      "title": "Dune: Awakening is getting a free DLC that adds a whole new map and swaps out sand for snow",
+      "source": "PC Gamer",
+      "link": "https://www.pcgamer.com/games/mmo/dune-awakening-is-getting-a-free-dlc-that-adds-a-whole-new-map-and-swaps-out-sand-for-snow/",
+      "t": 1793463631000,
       "keyword": "free",
-      "summary": "As the massive Charting the Unknown DLC arrives, Pearl Abyss are offering console players the chance to step into the world of Pywel for free."
+      "summary": "Thus far, Funcom has focussed mainly on changes to its survival MMO Dune: Awakening , with the Norwegian studio reworking the entire game to function as both a…"
+    },
+    {
+      "title": "New FREE games this weekend (October 31-November 1, 2026): your comprehensive roundup",
+      "source": "gg.deals Freebies",
+      "link": "https://gg.deals/freebie/new-free-games-this-weekend-october-31-november-1-2026-your-comprehensive-roundup/",
+      "t": 1793459940000,
+      "keyword": "free",
+      "summary": "We're back again with all the latest free games and DLC to be given away across PC and consoles this week."
     }
   ],
   "topics": [
@@ -401,39 +406,6 @@
       ]
     },
     {
-      "headline": "Survival Horror Game Sorry We’re Closed is Free at Epic",
-      "score": 11,
-      "sites": [
-        "gamerpower.com",
-        "gg.deals",
-        "indiegamebundles.com"
-      ],
-      "keywords": [
-        "free"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "GamerPower (PC)",
-          "title": "Sorry We're Closed (Epic Games) Giveaway",
-          "link": "https://www.gamerpower.com/sorry-we-re-closed-epic-games-giveaway",
-          "published": "2026-10-29T15:09:14.000Z"
-        },
-        {
-          "source": "gg.deals Freebies",
-          "title": "Sorry We're Closed is FREE on the Epic Games Store! Grab the $24.99 horror game at no cost",
-          "link": "https://gg.deals/freebie/sorry-were-closed-is-free-on-the-epic-games-store-grab-the-2499-horror-game-at-no-cost/",
-          "published": "2026-10-29T15:01:00.000Z"
-        },
-        {
-          "source": "Indie Game Bundles",
-          "title": "Survival Horror Game Sorry We’re Closed is Free at Epic",
-          "link": "https://www.indiegamebundles.com/survival-horror-game-sorry-were-closed-is-free-at-epic/",
-          "published": "2026-10-29T16:11:47.000Z"
-        }
-      ]
-    },
-    {
       "headline": "Humble Tactical Mindset Bundle: 10 Strategy Steam Games for Just $18",
       "score": 10,
       "sites": [
@@ -488,6 +460,38 @@
           "title": "EA reportedly closed BioWare because it was forced to choose between Mass Effect 5 and Star Wars Battlefront 3",
           "link": "https://www.eurogamer.net/ea-closed-bioware-because-star-wars-battlefront-3",
           "published": "2026-10-30T14:54:16.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "My Darkest Witch is FREE to keep on IndieGala right now!",
+      "score": 8,
+      "sites": [
+        "gamerpower.com",
+        "gg.deals"
+      ],
+      "keywords": [
+        "free"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "GamerPower (PC)",
+          "title": "My Darkest Witch (IndieGala) Giveaway",
+          "link": "https://www.gamerpower.com/my-darkest-witch-pc-giveaway",
+          "published": "2026-10-30T17:33:46.000Z"
+        },
+        {
+          "source": "gg.deals Freebies",
+          "title": "My Darkest Witch is FREE to keep on IndieGala right now!",
+          "link": "https://gg.deals/freebie/my-darkest-witch-is-free-to-keep-in-indiegala-right-now/",
+          "published": "2026-10-30T20:44:00.000Z"
+        },
+        {
+          "source": "gg.deals News",
+          "title": "My Darkest Witch is FREE to keep on IndieGala right now!",
+          "link": "https://gg.deals/freebie/my-darkest-witch-is-free-to-keep-in-indiegala-right-now/",
+          "published": "2026-10-30T20:44:00.000Z"
         }
       ]
     }

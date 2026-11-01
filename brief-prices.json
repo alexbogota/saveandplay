@@ -1,67 +1,68 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-10-31T11:26:50.048Z",
-  "builtBy": "commit af04bf5, schedule, run #32 attempt 1",
-  "pricesCheckedAt": "2026-10-31T10:11:06.273Z",
+  "generatedAt": "2026-11-01T11:25:36.550Z",
+  "builtBy": "commit a82a4de, schedule, run #33 attempt 1",
+  "pricesCheckedAt": "2026-11-01T10:12:12.590Z",
   "warnings": [],
   "candidates": [
     {
-      "id": "gog-shadow-tactics-blades-of-the-shogun",
+      "id": "gog-this-war-of-mine",
       "kind": "deal",
-      "title": "Shadow Tactics: Blades of the Shogun",
+      "title": "This War of Mine",
       "store": "GOG",
-      "price": 3.99,
-      "was": 39.99,
-      "discount": 90,
+      "price": 2.99,
+      "was": 19.99,
+      "discount": 85,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 117,
-      "priceCheckedAt": "2026-10-31T10:09:10.211Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
+      "endsInHours": 93,
+      "priceCheckedAt": "2026-11-01T10:12:12.590Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
       "drminfo": null,
-      "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
+      "coverAlt": "Cover art for This War of Mine",
       "facts": {
-        "year": 2016,
+        "year": 2014,
         "genres": [
-          "Strategy",
-          "Real-time",
-          "Stealth"
+          "Action",
+          "Adventure",
+          "Survival"
         ],
         "tags": [
+          "Adventure",
+          "Action",
           "Indie",
+          "Story Rich",
           "Atmospheric",
-          "Strategy",
-          "Puzzle",
-          "Great Soundtrack",
-          "Tactical",
-          "Third Person",
-          "Historical",
+          "Choices Matter",
+          "Management",
           "Survival",
-          "Violent",
+          "Resource Management",
           "Real-Time",
-          "Difficult",
-          "Isometric",
-          "RTS",
+          "War",
+          "Crafting",
+          "Base Building",
+          "Emotional",
+          "Post-apocalyptic",
           "Stealth",
-          "Ninja"
+          "Psychological"
         ]
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 11,
-      "discountRank": 1,
+      "score": 10.5,
+      "discountRank": 4,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 22,
+        "days": 14,
         "lowest": true,
-        "since": "2026-10-07"
+        "since": "2026-10-19"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-31",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-01",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (22 days of data)",
-        "deepest-discount rank 1 of 9"
+        "lowest price we've tracked (14 days of data)",
+        "deepest-discount rank 4 of 9"
       ]
     },
     {
@@ -73,8 +74,8 @@
       "was": 19.99,
       "discount": 80,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 117,
-      "priceCheckedAt": "2026-10-31T10:09:10.211Z",
+      "endsInHours": 93,
+      "priceCheckedAt": "2026-11-01T10:12:12.590Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/973760/f748e07df077bb0cf4c49d4bc0f6437f510c5251/header.jpg?t=1761829221",
       "drminfo": null,
       "coverAlt": "Cover art for Thronebreaker: The Witcher Tales",
@@ -112,75 +113,16 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 20,
+        "days": 21,
         "lowest": true,
         "since": "2026-10-07"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/thronebreaker-the-witcher-tales/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-31",
+      "link": "https://saveandplay.com/deals/gog/thronebreaker-the-witcher-tales/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-01",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (20 days of data)",
+        "lowest price we've tracked (21 days of data)",
         "deepest-discount rank 7 of 9"
-      ]
-    },
-    {
-      "id": "gog-this-war-of-mine",
-      "kind": "deal",
-      "title": "This War of Mine",
-      "store": "GOG",
-      "price": 2.99,
-      "was": 19.99,
-      "discount": 85,
-      "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 117,
-      "priceCheckedAt": "2026-10-31T10:09:10.211Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
-      "drminfo": null,
-      "coverAlt": "Cover art for This War of Mine",
-      "facts": {
-        "year": 2014,
-        "genres": [
-          "Action",
-          "Adventure",
-          "Survival"
-        ],
-        "tags": [
-          "Adventure",
-          "Action",
-          "Indie",
-          "Story Rich",
-          "Atmospheric",
-          "Choices Matter",
-          "Management",
-          "Survival",
-          "Resource Management",
-          "Real-Time",
-          "War",
-          "Crafting",
-          "Base Building",
-          "Emotional",
-          "Post-apocalyptic",
-          "Stealth",
-          "Psychological"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 9.5,
-      "discountRank": 4,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 13,
-        "lowest": false,
-        "since": "2026-10-19"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-31",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "deepest-discount rank 4 of 9"
       ]
     },
     {
@@ -192,8 +134,8 @@
       "was": 19.99,
       "discount": 75,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 117,
-      "priceCheckedAt": "2026-10-31T10:09:10.211Z",
+      "endsInHours": 93,
+      "priceCheckedAt": "2026-11-01T10:12:12.590Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
       "drminfo": null,
       "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
@@ -225,15 +167,15 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 22,
+        "days": 23,
         "lowest": true,
         "since": "2026-10-07"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-31",
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-01",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (22 days of data)",
+        "lowest price we've tracked (23 days of data)",
         "deepest-discount rank 8 of 9"
       ]
     },
@@ -246,8 +188,8 @@
       "was": 29.99,
       "discount": 84,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 117,
-      "priceCheckedAt": "2026-10-31T10:09:10.211Z",
+      "endsInHours": 93,
+      "priceCheckedAt": "2026-11-01T10:12:12.590Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367500/header.jpg?t=1768870344",
       "drminfo": null,
       "coverAlt": "Cover art for Dragon's Dogma: Dark Arisen",
@@ -282,68 +224,102 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 12,
+        "days": 13,
         "lowest": false,
         "since": "2026-10-18"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/dragon-s-dogma-dark-arisen/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-31",
+      "link": "https://saveandplay.com/deals/gog/dragon-s-dogma-dark-arisen/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-01",
       "linkKind": "link to our site",
       "whyToday": [
         "deepest-discount rank 6 of 9"
       ]
-    }
-  ],
-  "gogNews": [
-    {
-      "title": "Release: Dungeons of Blood and Dream",
-      "game": "dungeons_of_blood_and_dream",
-      "url": "https://www.gog.com/en/game/dungeons_of_blood_and_dream",
-      "newsLink": "http://www.gog.com/news/release_dungeons_of_blood_and_dream",
-      "t": 1793339597000,
-      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fdungeons_of_blood_and_dream"
     },
     {
-      "title": "Release: Dragon Spira",
-      "game": "dragon_spira",
-      "url": "https://www.gog.com/en/game/dragon_spira",
-      "newsLink": "http://www.gog.com/news/release_dragon_spira",
-      "t": 1793339222000,
-      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fdragon_spira"
-    },
-    {
-      "title": "Release: The Golden Caravan",
-      "game": "the_golden_caravan",
-      "url": "https://www.gog.com/en/game/the_golden_caravan",
-      "newsLink": "http://www.gog.com/news/release_the_golden_caravan",
-      "t": 1793339042000,
-      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fthe_golden_caravan"
+      "id": "gog-shadow-tactics-blades-of-the-shogun",
+      "kind": "deal",
+      "title": "Shadow Tactics: Blades of the Shogun",
+      "store": "GOG",
+      "price": 3.99,
+      "was": 39.99,
+      "discount": 90,
+      "endsAt": "2026-11-05T09:59:00+02:00",
+      "endsInHours": 93,
+      "priceCheckedAt": "2026-11-01T10:12:12.590Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
+      "drminfo": null,
+      "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
+      "facts": {
+        "year": 2016,
+        "genres": [
+          "Strategy",
+          "Real-time",
+          "Stealth"
+        ],
+        "tags": [
+          "Indie",
+          "Atmospheric",
+          "Strategy",
+          "Puzzle",
+          "Great Soundtrack",
+          "Tactical",
+          "Third Person",
+          "Historical",
+          "Survival",
+          "Violent",
+          "Real-Time",
+          "Difficult",
+          "Isometric",
+          "RTS",
+          "Stealth",
+          "Ninja"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 3,
+      "discountRank": 1,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 23,
+        "lowest": true,
+        "since": "2026-10-07"
+      },
+      "offeredOn": "2026-10-31",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-01",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "lowest price we've tracked (23 days of data)",
+        "deepest-discount rank 1 of 9"
+      ]
     }
   ],
+  "gogNews": [],
   "topical": [
     {
-      "title": "My Darkest Witch is FREE to keep on IndieGala right now!",
-      "source": "gg.deals Freebies",
-      "link": "https://gg.deals/freebie/my-darkest-witch-is-free-to-keep-in-indiegala-right-now/",
-      "t": 1793393040000,
-      "keyword": "free",
-      "summary": "Slay creatures and keep the world safe in this magic-fueled top-down arena shooter."
-    },
-    {
-      "title": "Steam’s Deep Stories Bundle brings three narrative adventures together for $11",
+      "title": "The 50 best Steam deals of the Halloween week (October 26 - November 1)",
       "source": "gg.deals News",
-      "link": "https://gg.deals/bundle/steams-deep-stories-bundle-brings-three-narrative-adventures-together-for-11/",
-      "t": 1793389928000,
-      "keyword": "bundle",
-      "summary": "Included games: Lamplight City, THE LONGING, and Unforeseen Incidents."
+      "link": "https://gg.deals/deal/the-50-best-steam-deals-of-the-halloween-week-october-26-november-1/",
+      "t": 1793523660000,
+      "keyword": "deals",
+      "summary": "It's scary how good this week's top Steam deals are!"
     },
     {
-      "title": "Crimson Desert gets a hefty FREE trial on XBOX and PlayStation!",
-      "source": "gg.deals Freebies",
-      "link": "https://gg.deals/freebie/crimson-desert-is-free-to-try-on-xbox-and-playstation-right-now/",
-      "t": 1793387400000,
+      "title": "Dune: Awakening is getting a free DLC that adds a whole new map and swaps out sand for snow",
+      "source": "PC Gamer",
+      "link": "https://www.pcgamer.com/games/mmo/dune-awakening-is-getting-a-free-dlc-that-adds-a-whole-new-map-and-swaps-out-sand-for-snow/",
+      "t": 1793463631000,
       "keyword": "free",
-      "summary": "As the massive Charting the Unknown DLC arrives, Pearl Abyss are offering console players the chance to step into the world of Pywel for free."
+      "summary": "Thus far, Funcom has focussed mainly on changes to its survival MMO Dune: Awakening , with the Norwegian studio reworking the entire game to function as both a…"
+    },
+    {
+      "title": "New FREE games this weekend (October 31-November 1, 2026): your comprehensive roundup",
+      "source": "gg.deals Freebies",
+      "link": "https://gg.deals/freebie/new-free-games-this-weekend-october-31-november-1-2026-your-comprehensive-roundup/",
+      "t": 1793459940000,
+      "keyword": "free",
+      "summary": "We're back again with all the latest free games and DLC to be given away across PC and consoles this week."
     }
   ],
   "topics": [
@@ -426,39 +402,6 @@
       ]
     },
     {
-      "headline": "Survival Horror Game Sorry We’re Closed is Free at Epic",
-      "score": 11,
-      "sites": [
-        "gamerpower.com",
-        "gg.deals",
-        "indiegamebundles.com"
-      ],
-      "keywords": [
-        "free"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "GamerPower (PC)",
-          "title": "Sorry We're Closed (Epic Games) Giveaway",
-          "link": "https://www.gamerpower.com/sorry-we-re-closed-epic-games-giveaway",
-          "published": "2026-10-29T15:09:14.000Z"
-        },
-        {
-          "source": "gg.deals Freebies",
-          "title": "Sorry We're Closed is FREE on the Epic Games Store! Grab the $24.99 horror game at no cost",
-          "link": "https://gg.deals/freebie/sorry-were-closed-is-free-on-the-epic-games-store-grab-the-2499-horror-game-at-no-cost/",
-          "published": "2026-10-29T15:01:00.000Z"
-        },
-        {
-          "source": "Indie Game Bundles",
-          "title": "Survival Horror Game Sorry We’re Closed is Free at Epic",
-          "link": "https://www.indiegamebundles.com/survival-horror-game-sorry-were-closed-is-free-at-epic/",
-          "published": "2026-10-29T16:11:47.000Z"
-        }
-      ]
-    },
-    {
       "headline": "Humble Tactical Mindset Bundle: 10 Strategy Steam Games for Just $18",
       "score": 10,
       "sites": [
@@ -515,6 +458,38 @@
           "published": "2026-10-30T14:54:16.000Z"
         }
       ]
+    },
+    {
+      "headline": "My Darkest Witch is FREE to keep on IndieGala right now!",
+      "score": 8,
+      "sites": [
+        "gamerpower.com",
+        "gg.deals"
+      ],
+      "keywords": [
+        "free"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "GamerPower (PC)",
+          "title": "My Darkest Witch (IndieGala) Giveaway",
+          "link": "https://www.gamerpower.com/my-darkest-witch-pc-giveaway",
+          "published": "2026-10-30T17:33:46.000Z"
+        },
+        {
+          "source": "gg.deals Freebies",
+          "title": "My Darkest Witch is FREE to keep on IndieGala right now!",
+          "link": "https://gg.deals/freebie/my-darkest-witch-is-free-to-keep-in-indiegala-right-now/",
+          "published": "2026-10-30T20:44:00.000Z"
+        },
+        {
+          "source": "gg.deals News",
+          "title": "My Darkest Witch is FREE to keep on IndieGala right now!",
+          "link": "https://gg.deals/freebie/my-darkest-witch-is-free-to-keep-in-indiegala-right-now/",
+          "published": "2026-10-30T20:44:00.000Z"
+        }
+      ]
     }
   ],
   "left": {
@@ -535,25 +510,25 @@
   },
   "posts": {
     "x": {
-      "text": "Shadow Tactics: Blades of the Shogun: -90% at GOG\n$3.99 (was $39.99)\nPrice checked Oct 31. Sale ends Nov 5. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-31\n\n#PCGaming #GOG\nAd",
-      "length": 179,
+      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nPrice checked Nov 1. Sale ends Nov 5. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-01\n\n#PCGaming #ThisWarOfMine\nAd",
+      "length": 168,
       "max": 270,
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-31",
-      "deal": "gog-shadow-tactics-blades-of-the-shogun"
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-01",
+      "deal": "gog-this-war-of-mine"
     },
     "bluesky": {
-      "text": "Shadow Tactics: Blades of the Shogun: -90% at GOG\n$3.99 (was $39.99)\nPrice checked Oct 31. Sale ends Nov 5. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-31\n\n#PCGaming #GameDeals #PCGames #GOG #Gaming\nAd",
-      "length": 209,
+      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nPrice checked Nov 1. Sale ends Nov 5. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-01\n\n#PCGaming #GameDeals #ThisWarOfMine #VideoGames #DRMFree\nAd",
+      "length": 202,
       "max": 300,
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-10-31",
-      "deal": "gog-shadow-tactics-blades-of-the-shogun"
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-01",
+      "deal": "gog-this-war-of-mine"
     },
     "mastodon": {
-      "text": "Shadow Tactics: Blades of the Shogun: -90% at GOG\n$3.99 (was $39.99)\nYou save $36.00\nDRM-free\nPrice checked Oct 31. Sale ends Nov 5. Lowest price we've tracked.\nWhy today: deepest-discount rank 1 of 9.\n\nhttps://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-31\n\n#GameDeals #PCGaming #GOG #DRMFree #ShadowTactics\nAd",
-      "length": 280,
+      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nYou save $17.00\nDRM-free\nPrice checked Nov 1. Sale ends Nov 5. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-11-01\n\n#GameDeals #PCGaming #GOG #DRMFree #Gaming\nAd",
+      "length": 211,
       "max": 500,
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-10-31",
-      "deal": "gog-shadow-tactics-blades-of-the-shogun"
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-11-01",
+      "deal": "gog-this-war-of-mine"
     }
   }
 }
