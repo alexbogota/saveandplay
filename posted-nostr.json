@@ -1769,6 +1769,57 @@
             "sig": "ae219d0133a2129b78d868df53dd1fb8792b70b7011a2580deba00aba45ecbc5d4fe22ee856085c2d57a0dc641d0ee2ed72e3d71f9465dc3df21be7417703125"
           }
         }
+      },
+      "2026-11-01": {
+        "deal": {
+          "status": "done",
+          "kind": "deal",
+          "id": "28382e3922d67347653861a0aaec0e27c8ffe3d519dcdd0524cf94bee88319fd",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "deal": "gog-this-war-of-mine",
+          "title": "This War of Mine",
+          "postedAt": "2026-11-01T11:58:35.000Z",
+          "accepted": [
+            "wss://relay.damus.io",
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [],
+          "event": {
+            "kind": 1,
+            "created_at": 1793534315,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-deal"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
+                "m image/jpeg",
+                "alt Cover art for This War of Mine"
+              ]
+            ],
+            "content": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nPrice checked 2026-11-01 10:12 UTC. Sale ends 2026-11-05 07:59 UTC.\nWhy today: lowest price we've tracked (14 days of data).\nAd: we may earn a commission if you buy.\n\n#pcgaming #gamedeals\n\nhttps://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-01",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "28382e3922d67347653861a0aaec0e27c8ffe3d519dcdd0524cf94bee88319fd",
+            "sig": "ca19ba5d53213197290cdbaa3b7e53437e1d2286a99e78c491e86bd7cbd08932c6f76f3d0a3ea2efd5d0af5d27206d8fa217bb330f05b572deaab5cb4d5fbe07"
+          }
+        }
       }
     }
   },
