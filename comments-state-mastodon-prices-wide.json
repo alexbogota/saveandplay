@@ -8,84 +8,47 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 400,
-      "posts": 16880,
-      "fit": 216,
+      "runs": 408,
+      "posts": 17240,
+      "fit": 217,
       "last": {
         "posts": 80,
         "fit": 0,
-        "at": "2026-11-01T17:56:51.484Z"
+        "at": "2026-11-01T22:00:09.194Z"
       }
     },
     "moreAsk": {
-      "runs": 250,
-      "posts": 2250,
+      "runs": 255,
+      "posts": 2295,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-11-01T17:56:51.484Z"
+        "at": "2026-11-01T22:00:09.194Z"
       }
     },
     "moreRetro": {
-      "runs": 250,
-      "posts": 15960,
-      "fit": 567,
+      "runs": 255,
+      "posts": 16280,
+      "fit": 580,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-01T17:56:51.484Z"
+        "at": "2026-11-01T22:00:09.194Z"
       }
     },
     "morePlaying": {
-      "runs": 250,
-      "posts": 1050,
+      "runs": 255,
+      "posts": 1071,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-11-01T17:56:51.484Z"
+        "at": "2026-11-01T22:00:09.194Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@root42@chaos.social/117535614642828618": {
-      "uri": "https://mastodon.social/@root42@chaos.social/117535614642828618",
-      "url": "https://mastodon.social/@root42@chaos.social/117535614642828618",
-      "handle": "root42@chaos.social",
-      "name": "root42",
-      "text": "I found a bug in Sonic 1 for the GameGear. #sonic #sega #gamegear #retrogaming",
-      "createdAt": "2026-10-31T12:52:21.000Z",
-      "likes": 8,
-      "replies": 3,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 4,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://chaos.social/@root42/117535614009747805",
-      "media": "video: Sonic is stuck at the bottom of the screen. It takes while for the life lost to trigger.",
-      "firstSeen": "2026-10-31T12:54:07.786Z"
-    },
-    "https://mastodon.social/@Smith1PW/117535837722327678": {
-      "uri": "https://mastodon.social/@Smith1PW/117535837722327678",
-      "url": "https://mastodon.social/@Smith1PW/117535837722327678",
-      "handle": "Smith1PW@mastodon.social",
-      "name": "PWSmith1",
-      "text": "#vrchat #vrc #gaming #games #videogames #videogame #photography #photo #vrchatphotos #vrchatphotography #vrchatphoto #VirtualPhotography #vrcphotography #vrcphotos #vrcphoto #vrcedit #SteamOS #KDE #KDEPlasma",
-      "createdAt": "2026-10-31T13:49:15.096Z",
-      "likes": 0,
-      "replies": 1,
-      "group": "moreGaming",
-      "query": "videogame",
-      "score": 4,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "2 images: A Linux desktop (Steam Deck desktop mode) with a black background featuring an anime-style virtual avatar with brown cat ears, brown hair, a black baseball cap… / Screenshot of a Linux desktop styled like Windows XP's \"Bliss\" wallpaper (green hills, blue sky with clouds), overlaid with a large anime-style avatar of a bro…",
-      "firstSeen": "2026-10-31T18:49:20.454Z"
-    },
     "https://mastodon.social/@retro_brewz/117536795822898144": {
       "uri": "https://mastodon.social/@retro_brewz/117536795822898144",
       "url": "https://mastodon.social/@retro_brewz/117536795822898144",
@@ -93,10 +56,10 @@
       "name": "Retro Brewz",
       "text": "Happy Halloween 🎃 👻 🐈‍⬛ 🌙 #RetroGames #Halloween #RetroGaming #GamersUnite",
       "createdAt": "2026-10-31T17:52:54.550Z",
-      "likes": 7,
+      "likes": 8,
       "replies": 0,
       "group": "moreRetro",
-      "query": "retrogaming",
+      "query": "retrogames",
       "score": 5,
       "question": false,
       "heated": false,
@@ -121,25 +84,6 @@
       "isReply": false,
       "origin": "https://mstdn.social/@32bitkid/117536376487656219",
       "media": "video, no description",
-      "firstSeen": "2026-10-31T18:49:20.454Z"
-    },
-    "https://mastodon.social/@arda@micro.arda.pw/117536324538230234": {
-      "uri": "https://mastodon.social/@arda@micro.arda.pw/117536324538230234",
-      "url": "https://mastodon.social/@arda@micro.arda.pw/117536324538230234",
-      "handle": "arda@micro.arda.pw",
-      "name": "Arda Kılıçdağı",
-      "text": "Weekend chilling with my AYN Thor (Max): Playing Castlevania: Dawn of Sorrow. GBA / NDS / 3DS were lost generations for me (I was a hardcore PC gamer back then), so trying to catch up feels nice for these generations. It has Amoled touch screen, mine has 8 cores + 16gbs RAM, 1TB SSD. It can even emulate Switch games, plus it literally can play PC games using GameNative/Winlator etc, just like Steam Deck. It can even emulate PS3 and Xbox360. https://www.ayntec.com/products/ayn-thor?variant=46692546838720 #aynthor #retrogaming",
-      "createdAt": "2026-10-31T15:53:00.000Z",
-      "likes": 4,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 8,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://micro.arda.pw/@arda/117536324323895090",
-      "media": "image: My AYN Thor retro handheld, playing Castlevania: Dawn of Sorrow",
       "firstSeen": "2026-10-31T18:49:20.454Z"
     },
     "https://mastodon.social/@Lydie@tech.lgbt/117537293497998845": {
@@ -217,25 +161,6 @@
       "media": null,
       "firstSeen": "2026-11-01T07:01:26.467Z"
     },
-    "https://mastodon.social/@reallylazybear@pawb.fun/117541572685573210": {
-      "uri": "https://mastodon.social/@reallylazybear@pawb.fun/117541572685573210",
-      "url": "https://mastodon.social/@reallylazybear@pawb.fun/117541572685573210",
-      "handle": "reallylazybear@pawb.fun",
-      "name": "Eli the Solitary Lazy Bear",
-      "text": "Granted he's a li'l complicated at first but man, the ult animation looks really cool at 30 FPS. I have motion blur on. I used to play at 60 FPS w/ no motion blur. While high fps is good for general responsiveness, idk the combat just looks less awesome. #zenlesszonezero #gaming #linuxgaming #anime #fps",
-      "createdAt": "2026-11-01T14:07:42.000Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "moreGaming",
-      "query": "fps",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": true,
-      "origin": "https://pawb.fun/@reallylazybear/117541572633656650",
-      "media": null,
-      "firstSeen": "2026-11-01T15:42:07.175Z"
-    },
     "https://mastodon.social/@Smith1PW/117541972942879038": {
       "uri": "https://mastodon.social/@Smith1PW/117541972942879038",
       "url": "https://mastodon.social/@Smith1PW/117541972942879038",
@@ -243,7 +168,7 @@
       "name": "PWSmith1",
       "text": "#vrchat #vrc #gaming #games #videogames #videogame #photography #photo #vrchatphotos #vrchatphotography #vrchatphoto #VirtualPhotography #vrcphotography #vrcphotos #vrcphoto",
       "createdAt": "2026-11-01T15:49:31.137Z",
-      "likes": 0,
+      "likes": 1,
       "replies": 0,
       "group": "moreGaming",
       "query": "videogame",
@@ -261,11 +186,11 @@
       "name": "Richard Orilla",
       "text": "Both #lastblade and #lastblade2 are really criminally underrated fighting games of its time. Great visuals and animations, showcasing what the #neogeo can actually do. Playing it on #playstation2 to hear the arranged OST. #retro #retrogaming #retrogames #retrofightinggames",
       "createdAt": "2026-11-01T17:08:53.234Z",
-      "likes": 0,
+      "likes": 1,
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 5,
+      "score": 6,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -298,7 +223,7 @@
       "name": "Oregon Pacifist",
       "text": "#RetroGaming #VGM #FinalFantasy",
       "createdAt": "2026-11-01T16:24:01.000Z",
-      "likes": 1,
+      "likes": 2,
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
@@ -309,6 +234,79 @@
       "origin": "https://retro-gaiden.com/@Oregon_Pacifist/117542108619385143",
       "media": "video, no description",
       "firstSeen": "2026-11-01T17:56:51.484Z"
+    },
+    "https://mastodon.social/@gpowerf/117543385098881851": {
+      "uri": "https://mastodon.social/@gpowerf/117543385098881851",
+      "url": "https://mastodon.social/@gpowerf/117543385098881851",
+      "handle": "gpowerf@mastodon.social",
+      "name": "Dr. G. Power",
+      "text": "Did anyone else order the Commodore TAC-2 Joystick? Shipping estimate had been 31st of October, but my order still says they are prapering for production. I'm just curious if other's orders have a different status or if we will have to way a good while for the joysticks to be manufactured. #retrogaming",
+      "createdAt": "2026-11-01T21:48:38.919Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 6,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "media": null,
+      "firstSeen": "2026-11-01T22:00:09.194Z"
+    },
+    "https://mastodon.social/@malura/117542883231321892": {
+      "uri": "https://mastodon.social/@malura/117542883231321892",
+      "url": "https://mastodon.social/@malura/117542883231321892",
+      "handle": "malura@mastodon.social",
+      "name": "Michael Malura",
+      "text": "Original-Hardware, Emulator oder Mini-Konsole? Wie spielst du alte Sachen? #RetroGaming",
+      "createdAt": "2026-11-01T19:41:01.027Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 7,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "media": null,
+      "firstSeen": "2026-11-01T22:00:09.194Z"
+    },
+    "https://mastodon.social/@jameswoodcock/117542567307618370": {
+      "uri": "https://mastodon.social/@jameswoodcock/117542567307618370",
+      "url": "https://mastodon.social/@jameswoodcock/117542567307618370",
+      "handle": "jameswoodcock@mastodon.social",
+      "name": "James | PixelRefresh.com",
+      "text": "My website Pixel Refresh, covering retro gaming & modern tech has had... well a refresh! This year marked its 20th year anniversary and there are many improvements visually speaking with a brand new theme as well as a good tidy and clear out under the hood. I hope you enjoy the website and here's to the next 20 years! #RetroGaming",
+      "createdAt": "2026-11-01T18:20:40.441Z",
+      "likes": 2,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 4,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "2 images, no description",
+      "firstSeen": "2026-11-01T22:00:09.194Z"
+    },
+    "https://mastodon.social/@GridGremlin@gamerstavern.online/117542125364912867": {
+      "uri": "https://mastodon.social/@GridGremlin@gamerstavern.online/117542125364912867",
+      "url": "https://mastodon.social/@GridGremlin@gamerstavern.online/117542125364912867",
+      "handle": "GridGremlin@gamerstavern.online",
+      "name": "Grid Gremlin",
+      "text": "Hot take: the best part of old multiplayer games was dying first. You got to spectate and narrate everyone else's mistakes. Lightcycle games are perfect for it, since every crash is visible from the overhead view. Which game was most fun to watch after you'd lost? #gaming #retrogaming",
+      "createdAt": "2026-11-01T16:28:16.000Z",
+      "likes": 1,
+      "replies": 1,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 9,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://gamerstavern.online/@GridGremlin/117542125354099169",
+      "media": null,
+      "firstSeen": "2026-11-01T22:00:09.194Z"
     }
   }
 }
