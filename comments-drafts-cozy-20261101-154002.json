@@ -1,0 +1,30 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261101-154002",
+  "madeAt": "2026-11-01T15:43:46.182Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:uox4o3qe6b5pe3idgh4aa2nk/app.bsky.feed.post/3mza73zcees23",
+      "url": "https://bsky.app/profile/mysticgames-in.bsky.social/post/3mza73zcees23",
+      "author": "mysticgames-in.bsky.social",
+      "context": "Fishing games are the best cozy break between action ones. Waiting for the bite is oddly close to waiting for a parry window. Which one hooked you first?",
+      "text": "Stardew Valley's fishing is a gentle one: you keep the bar on the fish and the pace stays calm, which makes a nice break between busier games.",
+      "group": "askCozy",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:tg6d44o7gdbdmfsydbzrnghg/app.bsky.feed.post/3mz6iwrdhs232",
+      "url": "https://bsky.app/profile/youryanderegf.yuri.living/post/3mz6iwrdhs232",
+      "author": "youryanderegf.yuri.living",
+      "context": "I think ive made peace with being an older gamer. people always give me grief for not wanting to play stressful games but like life is stressful enough I just want to play something cozy",
+      "text": "Nothing wrong with that at all. Unpacking is a good fit for a stressful day: no timer, no fail state, just calm little tasks.",
+      "verify": "Проверить: в Unpacking нет таймера и проигрыша.",
+      "group": "askCozy",
+      "heated": false
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "stamp": "20261101-154002",
+  "madeAt": "2026-11-01T15:43:46.045Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:ys7yp3hgr7iundbn4ukxk4qa/app.bsky.feed.post/3mzb24n2uel2t",
+      "url": "https://bsky.app/profile/therunepony.bsky.social/post/3mzb24n2uel2t",
+      "author": "therunepony.bsky.social",
+      "context": "Is there an equivalent of ProtonDB for GOG games?",
+      "text": "ProtonDB is built around Steam games, so GOG coverage is thin there. Most GOG games come with a plain Windows installer, so a quick search of the game's name plus \"Linux\" usually turns up other players' notes.",
+      "verify": "Проверить: у ProtonDB в основном игры Steam, а у GOG нет прямого аналога с рейтингами.",
+      "group": "practical",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:u43dq543hinihrjewzwg4ibl/app.bsky.feed.post/3mzam2zm3ms2i",
+      "url": "https://bsky.app/profile/04badmoviescene.bsky.social/post/3mzam2zm3ms2i",
+      "author": "04badmoviescene.bsky.social",
+      "context": "I want to play a computer game but I don't want to have to install a whole goddamn steam deck (?) to play like. Unpacking. do you feel me. are there any good in-browser clicky draggy solution games that give you a sense of accomplishment?",
+      "text": "Itch.io has a lot of free puzzle games that run right in the browser, no install. Its game search has a filter for browser-playable games, and searching for \"tidy\" or \"sorting\" gets close to that Unpacking feeling.",
+      "verify": "Проверить: на itch.io есть фильтр игр, которые играются в браузере (Play in browser).",
+      "group": "deck",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:jdwyfpv5r6pzzyp6vyeizefo/app.bsky.feed.post/3mz7wb3w2ec2j",
+      "url": "https://bsky.app/profile/malueion.com/post/3mz7wb3w2ec2j",
+      "author": "malueion.com",
+      "context": "I've already played this game an actual ton on PS4, but holy shit what do you mean Dying Light is on sale on Steam for THREE DOLLARS? I have to get it again.\nquotes @malueion.com: I've finally got a reason to get R.E.P.O. since someone wanted to play that with me, so since I'm no longer holding off on buying stuff on …",
+      "text": "Nice pickup at that price. Dying Light plays great on PC with mouse and keyboard, and the parkour is much smoother once you get the rhythm.",
+      "verify": "Игра и цена из поста автора ($3), мы цену не проверяли.",
+      "group": "waitForSale",
+      "heated": false
+    }
+  ]
+}

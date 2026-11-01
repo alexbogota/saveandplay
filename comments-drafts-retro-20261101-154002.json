@@ -1,0 +1,30 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261101-154002",
+  "madeAt": "2026-11-01T15:43:50.751Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:df6syedtiqqeu3o4szmiqnkw/app.bsky.feed.post/3mza5j66rmdu2",
+      "url": "https://bsky.app/profile/karadoc.aus.social.ap.brid.gy/post/3mza5j66rmdu2",
+      "author": "karadoc.aus.social.ap.brid.gy",
+      "context": "I own a bunch of DOS games from GOG. Unfortunately, all of these are bundled with a Windows version of DOSBox only. I'd like to use a linux version. But which one? Apparently there are two 'modern' versions of DOSBox; called \"DOSBox-x\" and \"DOSBox Staging\". I'm wondering if anyone has any […]\nlink card: Original post on aus.social",
+      "text": "From what I know, DOSBox Staging is the leaner, modern pick for just playing DOS games, while DOSBox-X goes further with extras like Windows 9x and PC-98 support. For a library of GOG DOS games, Staging is usually the simpler start.",
+      "verify": "Проверить: DOSBox Staging проще для обычных DOS-игр, DOSBox-X шире по возможностям (Win9x, PC-98).",
+      "group": "classicPC",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:mvngtxr4vjgdki4scszb4aay/app.bsky.feed.post/3mz6pphai4227",
+      "url": "https://bsky.app/profile/martijnfrazer.bsky.social/post/3mz6pphai4227",
+      "author": "martijnfrazer.bsky.social",
+      "context": "We had a meeting yesterday in which we scheduled the games we're doing in 2027 at DOS Game Club. We always try to mix genres, have old & newer stuff alike, some unknowns and beloved classics etc. And we try to get some older suggestions in, in a vain attempt to clear our backlog 😅 Let's go!👇",
+      "text": "Mixing genres and older picks is a solid way to run a club. Handy for a backlog too: GOG sells a lot of DOS classics with DOSBox already set up.",
+      "group": "classicPC",
+      "heated": false
+    }
+  ]
+}
