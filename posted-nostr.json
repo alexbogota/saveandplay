@@ -1819,6 +1819,54 @@
             "id": "28382e3922d67347653861a0aaec0e27c8ffe3d519dcdd0524cf94bee88319fd",
             "sig": "ca19ba5d53213197290cdbaa3b7e53437e1d2286a99e78c491e86bd7cbd08932c6f76f3d0a3ea2efd5d0af5d27206d8fa217bb330f05b572deaab5cb4d5fbe07"
           }
+        },
+        "article": {
+          "status": "done",
+          "kind": "article",
+          "id": "f37453889168b558e4b51d44224129eed1b15df8ae0998bdef3016e1647affae",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "article": "check-game-storage-before-you-buy",
+          "postedAt": "2026-11-01T17:23:23.000Z",
+          "accepted": [
+            "wss://relay.damus.io",
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [],
+          "event": {
+            "kind": 1,
+            "created_at": 1793553803,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-article"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://saveandplay.com/og/check-game-storage-before-you-buy.png",
+                "m image/png",
+                "alt Bar chart of the storage line on five Steam store pages read on October 29, 2026: Phantom Blade Zero 145 GB, No Man's Sky 15 GB, Thronebreaker 8 GB, SimCity 4 Deluxe Edition 1.6 GB, This War of Mine no line listed."
+              ]
+            ],
+            "content": "Check the storage line before you buy: what a Steam page tells you about disk space\n\nA new game can ask for 145 GB, an old one for under 2 GB. Here is how to read the storage line, the SSD note and the missing lines on a Steam page.\n\n#pcgaming #gamedeals\n\nhttps://saveandplay.com/og/check-game-storage-before-you-buy.png\n\nhttps://saveandplay.com/guides/check-game-storage-before-you-buy/?utm_source=nostr-prices&utm_medium=social&utm_campaign=check-game-storage-before-you-buy",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "f37453889168b558e4b51d44224129eed1b15df8ae0998bdef3016e1647affae",
+            "sig": "cd360218709c64cbfa8ba54c12d40b3c864c5fc89c49ec16b04b73bc4e525775b93b96100674f60b941ac3ce74e71f23da7fcef2a574a725a82b4ef5ab94be48"
+          }
         }
       }
     }
@@ -1872,6 +1920,10 @@
       "steam-wallet-funds-what-to-know": {
         "day": "2026-10-30",
         "id": "83d74714b43a14dc2ec8c5d73ad98b52ce5ebd29118072feffafccb8d514c810"
+      },
+      "check-game-storage-before-you-buy": {
+        "day": "2026-11-01",
+        "id": "f37453889168b558e4b51d44224129eed1b15df8ae0998bdef3016e1647affae"
       }
     }
   },
