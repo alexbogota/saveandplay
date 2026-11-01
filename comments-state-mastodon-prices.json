@@ -23,23 +23,23 @@
       }
     },
     "backlog": {
-      "runs": 317,
-      "posts": 8063,
+      "runs": 323,
+      "posts": 8216,
       "fit": 0,
       "last": {
         "posts": 23,
         "fit": 0,
-        "at": "2026-11-01T15:40:59.451Z"
+        "at": "2026-11-01T17:55:52.658Z"
       }
     },
     "deck": {
-      "runs": 268,
-      "posts": 13049,
-      "fit": 113,
+      "runs": 273,
+      "posts": 13290,
+      "fit": 114,
       "last": {
         "posts": 40,
         "fit": 1,
-        "at": "2026-11-01T15:40:59.451Z"
+        "at": "2026-11-01T17:55:52.658Z"
       }
     },
     "bundles": {
@@ -53,53 +53,53 @@
       }
     },
     "practical": {
-      "runs": 219,
-      "posts": 10040,
-      "fit": 269,
+      "runs": 223,
+      "posts": 10240,
+      "fit": 272,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-01T15:40:59.451Z"
+        "at": "2026-11-01T17:55:52.658Z"
       }
     },
     "genres": {
-      "runs": 512,
-      "posts": 20480,
+      "runs": 522,
+      "posts": 20880,
       "fit": 47,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-01T15:40:59.451Z"
+        "at": "2026-11-01T17:55:52.658Z"
       }
     },
     "seasonal": {
-      "runs": 170,
-      "posts": 7575,
+      "runs": 173,
+      "posts": 7735,
       "fit": 9,
       "last": {
         "posts": 80,
         "fit": 0,
-        "at": "2026-11-01T15:40:59.451Z"
+        "at": "2026-11-01T17:55:52.658Z"
       }
     },
     "broadPlaying": {
-      "runs": 660,
-      "posts": 86680,
-      "fit": 1555,
+      "runs": 673,
+      "posts": 88240,
+      "fit": 1591,
       "last": {
         "posts": 240,
         "fit": 5,
-        "at": "2026-11-01T15:40:59.451Z"
+        "at": "2026-11-01T17:55:52.658Z"
       }
     },
     "broadAsk": {
-      "runs": 415,
-      "posts": 6397,
+      "runs": 423,
+      "posts": 6521,
       "fit": 0,
       "last": {
         "posts": 16,
         "fit": 0,
-        "at": "2026-11-01T15:40:59.451Z"
+        "at": "2026-11-01T17:55:52.658Z"
       }
     }
   },
@@ -195,24 +195,6 @@
       "media": "4 images: Screenshot 1 from Drudenlied / Screenshot 2 from Drudenlied / Screenshot 3 from Drudenlied / Screenshot 4 from Drudenlied",
       "firstSeen": "2026-10-31T18:48:27.210Z"
     },
-    "https://mastodon.social/@coa100/117535957606864723": {
-      "uri": "https://mastodon.social/@coa100/117535957606864723",
-      "url": "https://mastodon.social/@coa100/117535957606864723",
-      "handle": "coa100@mastodon.social",
-      "name": "Coa art",
-      "text": "New Game on Games Heaven!!! Djakninn of Myrkuri https://gamesheaven.wtnet9.site/?game=49 #videogames #gaming",
-      "createdAt": "2026-10-31T14:19:44.386Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "videogames",
-      "score": 7,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "image, no description",
-      "firstSeen": "2026-10-31T18:48:27.210Z"
-    },
     "https://mastodon.social/@connections_buddy/117536741174871621": {
       "uri": "https://mastodon.social/@connections_buddy/117536741174871621",
       "url": "https://mastodon.social/@connections_buddy/117536741174871621",
@@ -287,61 +269,6 @@
       "origin": "https://wargamers.social/@CGHildebrandt/117535881043168406",
       "media": "image, no description",
       "firstSeen": "2026-10-31T18:48:27.210Z"
-    },
-    "https://mastodon.social/@metapatchai/117536392222700818": {
-      "uri": "https://mastodon.social/@metapatchai/117536392222700818",
-      "url": "https://mastodon.social/@metapatchai/117536392222700818",
-      "handle": "metapatchai@mastodon.social",
-      "name": "MetaPatchAI",
-      "text": "BF6 FPS dropping since Season 5? EA hasn't acknowledged a regression, so there's no official fix. What EA, NVIDIA and AMD do recommend: perf overlay to find the bottleneck, a frame cap, clean driver update, repair files. https://metapatchai.com/gaming/battlefield-6/fps-drops-fix/?utm_source=mastodon&utm_medium=social&utm_campaign=fps-drops-fix&utm_content=ma-02 #Battlefield6 #PCGaming (AI-assisted, human-checked. My site.)",
-      "createdAt": "2026-10-31T16:10:16.100Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "pcgaming",
-      "score": 5,
-      "question": true,
-      "heated": true,
-      "isReply": false,
-      "media": "link card: Battlefield 6 FPS Drops: Troubleshooting Guide (\"Падает FPS\", \"After Season 5\") | MetaPatchAI",
-      "firstSeen": "2026-10-31T18:48:27.210Z"
-    },
-    "https://mastodon.social/@GridGremlin@gamerstavern.online/117536213946168849": {
-      "uri": "https://mastodon.social/@GridGremlin@gamerstavern.online/117536213946168849",
-      "url": "https://mastodon.social/@GridGremlin@gamerstavern.online/117536213946168849",
-      "handle": "GridGremlin@gamerstavern.online",
-      "name": "Grid Gremlin",
-      "text": "Browser-tab multiplayer is the best kind of spooky: no installer, no launcher, no 40 GB patch, and it still runs on the locked-down work laptop. What's the oldest multiplayer game you'd happily fire up tonight? #gaming #retrogaming #Halloween",
-      "createdAt": "2026-10-31T15:24:55.000Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "gaming",
-      "score": 8,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://gamerstavern.online/@GridGremlin/117536213921595855",
-      "media": null,
-      "firstSeen": "2026-10-31T18:48:27.210Z"
-    },
-    "https://mastodon.social/@coa100/117537646570548172": {
-      "uri": "https://mastodon.social/@coa100/117537646570548172",
-      "url": "https://mastodon.social/@coa100/117537646570548172",
-      "handle": "coa100@mastodon.social",
-      "name": "Coa art",
-      "text": "New Game posted on Games Heaven!!!!! Djakninn of Myrkuri https://gamesheaven.wtnet9.site/?game=49 #videogames #gaming",
-      "createdAt": "2026-10-31T21:29:15.929Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "videogames",
-      "score": 7,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "image, no description",
-      "firstSeen": "2026-11-01T01:11:11.639Z"
     },
     "https://mastodon.social/@ItalianSkeletonGaming/117537389234746236": {
       "uri": "https://mastodon.social/@ItalianSkeletonGaming/117537389234746236",
@@ -436,44 +363,6 @@
       "media": "4 images: Screenshot from Trails in the Sky 1st Chapter / Screenshot from Trails in the Sky 1st Chapter / Screenshot from Trails in the Sky 1st Chapter / Screenshot from Trails in the Sky 1st Chapter",
       "firstSeen": "2026-11-01T07:00:29.843Z"
     },
-    "https://mastodon.social/@reallylazybear@pawb.fun/117541631930752449": {
-      "uri": "https://mastodon.social/@reallylazybear@pawb.fun/117541631930752449",
-      "url": "https://mastodon.social/@reallylazybear@pawb.fun/117541631930752449",
-      "handle": "reallylazybear@pawb.fun",
-      "name": "Eli the Solitary Lazy Bear",
-      "text": "I'm actually making use of some parrying skills I've gotten in Dark Souls and Elden Ring with Pyrois EX special attack. Like I don't need the flashing golden indicator. I'm just instinctively looking for when the enemy blade become blurry or sum shit I remember just constantly parrying Pontiff Sulyvahn's attacks in DS3 and I halved his HP in half in less than a minute lulz. Always prioritized killing the afterimage when he casts that thing I should prolly finish that game properly on my own.. #darksouls3 #eldenring #fromsoftware #darksouls #zenlesszonezero #gaming #linuxgaming",
-      "createdAt": "2026-11-01T14:22:46.000Z",
-      "likes": 0,
-      "replies": 1,
-      "group": "practical",
-      "query": "linuxgaming",
-      "score": 9,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://pawb.fun/@reallylazybear/117541631883947250",
-      "media": null,
-      "firstSeen": "2026-11-01T15:40:59.451Z"
-    },
-    "https://mastodon.social/@reallylazybear@pawb.fun/117541542662179861": {
-      "uri": "https://mastodon.social/@reallylazybear@pawb.fun/117541542662179861",
-      "url": "https://mastodon.social/@reallylazybear@pawb.fun/117541542662179861",
-      "handle": "reallylazybear@pawb.fun",
-      "name": "Eli the Solitary Lazy Bear",
-      "text": "This guy's.. pretty damn cool. I thought I'd have to grind to get this guy when I first saw this agent, like back on the first day of playing this game but nope. He's just available for free ! I also thought it'd become available on Season 2 cos of magic and mystics and stuff Been practicing some moves and yep. Favved it immediately :) #zenlesszonezero #gaming #linuxgaming #anime",
-      "createdAt": "2026-11-01T14:00:04.000Z",
-      "likes": 0,
-      "replies": 1,
-      "group": "practical",
-      "query": "linuxgaming",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://pawb.fun/@reallylazybear/117541542584724162",
-      "media": "image: Pyrois from Zenless Zone Zero",
-      "firstSeen": "2026-11-01T15:40:59.451Z"
-    },
     "https://mastodon.social/@pitcrewgg/117540382790064977": {
       "uri": "https://mastodon.social/@pitcrewgg/117540382790064977",
       "url": "https://mastodon.social/@pitcrewgg/117540382790064977",
@@ -508,25 +397,6 @@
       "heated": false,
       "isReply": false,
       "media": "image, no description",
-      "firstSeen": "2026-11-01T15:40:59.451Z"
-    },
-    "https://mastodon.social/@bloopmuseum@oldbytes.space/117541821269470867": {
-      "uri": "https://mastodon.social/@bloopmuseum@oldbytes.space/117541821269470867",
-      "url": "https://mastodon.social/@bloopmuseum@oldbytes.space/117541821269470867",
-      "handle": "bloopmuseum@oldbytes.space",
-      "name": "Bloop Museum",
-      "text": "Do you know your connectors? How are your sorting skills? Our \"Radio Shack\" is ready, complete with pegboard! #museum #pittsburgh #tech #technology #audio #video #videogames #computing #history",
-      "createdAt": "2026-11-01T15:10:48.000Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "videogames",
-      "score": 9,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://oldbytes.space/@bloopmuseum/117541820733935686",
-      "media": "image: A wall is adorned with large pieces of pegboard, so that products can be hung on it. Also a 20-year-old mini-split and some receptacles. Cardboard boxes and pl…",
       "firstSeen": "2026-11-01T15:40:59.451Z"
     },
     "https://mastodon.social/@lashman/117541357771814220": {
@@ -594,7 +464,7 @@
       "replies": 0,
       "group": "broadPlaying",
       "query": "videogames",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -639,25 +509,6 @@
       "media": "image: reward for fragments",
       "firstSeen": "2026-11-01T15:40:59.451Z"
     },
-    "https://mastodon.social/@gadgetry@techhub.social/117541703193625441": {
-      "uri": "https://mastodon.social/@gadgetry@techhub.social/117541703193625441",
-      "url": "https://mastodon.social/@gadgetry@techhub.social/117541703193625441",
-      "handle": "gadgetry@techhub.social",
-      "name": "Ryan Daws 🤓",
-      "text": "Only 18 sleeps until GTAmas 🎄🎁 GTA 6 finally lands on 19 November. I didn't have the annual leave left to book the day off, so who was lucky enough to take it off? #Technology #Gaming #GTA6",
-      "createdAt": "2026-11-01T14:40:53.000Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "gaming",
-      "score": 6,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://techhub.social/@gadgetry/117541703077110003",
-      "media": "image: The Grand Theft Auto VI logo, with its pink, purple, and orange palm-tree gradient, wearing a red and white Santa hat on the top of the VI.",
-      "firstSeen": "2026-11-01T15:40:59.451Z"
-    },
     "https://mastodon.social/@s3rvant@fosstodon.org/117541617205930024": {
       "uri": "https://mastodon.social/@s3rvant@fosstodon.org/117541617205930024",
       "url": "https://mastodon.social/@s3rvant@fosstodon.org/117541617205930024",
@@ -665,11 +516,11 @@
       "name": "David",
       "text": "I have a couple copies of Hop Shot left seeking unguided playtest groups 🐸 See thread for details 🧵 Comment or DM if interested 🤓 #boardgames #gaming #gamedesign",
       "createdAt": "2026-11-01T14:19:01.000Z",
-      "likes": 0,
+      "likes": 1,
       "replies": 0,
       "group": "broadPlaying",
       "query": "gaming",
-      "score": 5,
+      "score": 6,
       "question": false,
       "heated": false,
       "isReply": true,
@@ -677,62 +528,98 @@
       "media": "image, no description",
       "firstSeen": "2026-11-01T15:40:59.451Z"
     },
-    "https://mastodon.social/@iamkonstantin@mstdn.social/117541399531049443": {
-      "uri": "https://mastodon.social/@iamkonstantin@mstdn.social/117541399531049443",
-      "url": "https://mastodon.social/@iamkonstantin@mstdn.social/117541399531049443",
-      "handle": "iamkonstantin@mstdn.social",
-      "name": "Konstantin",
-      "text": "What are you playing this November? 🕹️ PS: this is a sarcastic post about the state of gaming #Gaming #ZeldaOcarinaOfTime #GTA6",
-      "createdAt": "2026-11-01T13:23:40.000Z",
-      "likes": 2,
-      "replies": 6,
+    "https://mastodon.social/@quester@mementomori.social/117542004295279690": {
+      "uri": "https://mastodon.social/@quester@mementomori.social/117542004295279690",
+      "url": "https://mastodon.social/@quester@mementomori.social/117542004295279690",
+      "handle": "quester@mementomori.social",
+      "name": "Quester the Quester ⛅",
+      "text": "#FFIX #VideoGames I went around the entire Forgotten Continent, thinking there was a mountain terrain from the sea to the continent to gain access with Choco. Nope. No idea how to get to it when the Chocograph says all you need are the field, reef, mountain and sea abilities. So I try to consult a guide. Or ten. Not a single one of them mentions that you do need a flying ship to get to the continent even with the chocobo. FFS…",
+      "createdAt": "2026-11-01T15:57:27.000Z",
+      "likes": 0,
+      "replies": 0,
       "group": "broadPlaying",
-      "query": "gaming",
-      "score": 6,
+      "query": "videogames",
+      "score": 8,
       "question": true,
       "heated": false,
       "isReply": false,
-      "origin": "https://mstdn.social/@iamkonstantin/117541399490574857",
-      "media": null,
-      "firstSeen": "2026-11-01T15:40:59.451Z"
+      "origin": "https://mementomori.social/@quester/117542004190492509",
+      "media": "image: A picture of my screen displaying the chocograph screen in Final Fantasy 9",
+      "firstSeen": "2026-11-01T17:55:52.658Z"
     },
-    "https://mastodon.social/@CognitiveCaveat@mastodon.sdf.org/117540822758184678": {
-      "uri": "https://mastodon.social/@CognitiveCaveat@mastodon.sdf.org/117540822758184678",
-      "url": "https://mastodon.social/@CognitiveCaveat@mastodon.sdf.org/117540822758184678",
-      "handle": "CognitiveCaveat@mastodon.sdf.org",
-      "name": "Dave Bricker \"CognitiveCaveat\"",
-      "text": "#GrimeII #Gaming #CognitiveCaveat #XboxShare #Gamefly",
-      "createdAt": "2026-11-01T10:56:26.000Z",
+    "https://mastodon.social/@Smith1PW/117541972942879038": {
+      "uri": "https://mastodon.social/@Smith1PW/117541972942879038",
+      "url": "https://mastodon.social/@Smith1PW/117541972942879038",
+      "handle": "Smith1PW@mastodon.social",
+      "name": "PWSmith1",
+      "text": "#vrchat #vrc #gaming #games #videogames #videogame #photography #photo #vrchatphotos #vrchatphotography #vrchatphoto #VirtualPhotography #vrcphotography #vrcphotos #vrcphoto",
+      "createdAt": "2026-11-01T15:49:31.137Z",
       "likes": 0,
       "replies": 0,
       "group": "broadPlaying",
-      "query": "gaming",
+      "query": "videogames",
       "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
-      "origin": "https://mastodon.sdf.org/@CognitiveCaveat/117540820483239598",
-      "media": "image, no description",
-      "firstSeen": "2026-11-01T15:40:59.451Z"
+      "media": "image: Night scene from a video game (VRChat-style avatar screenshot). A furry avatar with tall cat-like ears and shaggy hair sits cross-legged on a wooden dock, seen…",
+      "firstSeen": "2026-11-01T17:55:52.658Z"
     },
-    "https://mastodon.social/@weebdeluxe@urusai.social/117540542787274560": {
-      "uri": "https://mastodon.social/@weebdeluxe@urusai.social/117540542787274560",
-      "url": "https://mastodon.social/@weebdeluxe@urusai.social/117540542787274560",
-      "handle": "weebdeluxe@urusai.social",
-      "name": "Weebdeluxe",
-      "text": "Figured now is as good a time as any to finally play the Tomb Raider Survivor trilogy. I got all three games in my steam library for years... and only ever played the first one when it came out on the 360. Replaying that first and it's still a really good game. #gaming",
-      "createdAt": "2026-11-01T09:45:44.000Z",
+    "https://mastodon.social/@limekiller/117541976567813863": {
+      "uri": "https://mastodon.social/@limekiller/117541976567813863",
+      "url": "https://mastodon.social/@limekiller/117541976567813863",
+      "handle": "limekiller@mastodon.social",
+      "name": "",
+      "text": "Just finished Cat Named Mojave. Recommended. Creative and well-built, but visceral and disturbing without a clear thematic purpose. #games #gaming #review #catnamedmojave",
+      "createdAt": "2026-11-01T15:50:26.442Z",
       "likes": 0,
       "replies": 0,
       "group": "broadPlaying",
-      "query": "gaming",
+      "query": "games",
       "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
-      "origin": "https://urusai.social/@weebdeluxe/117540542504798007",
       "media": null,
-      "firstSeen": "2026-11-01T15:40:59.451Z"
+      "firstSeen": "2026-11-01T17:55:52.658Z"
+    },
+    "https://mastodon.social/@Nilvarcus@streamers.social/117542054591000642": {
+      "uri": "https://mastodon.social/@Nilvarcus@streamers.social/117542054591000642",
+      "url": "https://mastodon.social/@Nilvarcus@streamers.social/117542054591000642",
+      "handle": "Nilvarcus@streamers.social",
+      "name": "Nilvarcus",
+      "text": "Do you prefer RPGs where you create your own character and role, or games where you step into a character with an established name and background? #RPG",
+      "createdAt": "2026-11-01T16:10:16.000Z",
+      "likes": 1,
+      "replies": 1,
+      "group": "broadPlaying",
+      "query": "rpg",
+      "score": 9,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://streamers.social/@Nilvarcus/117542054541042039",
+      "media": null,
+      "firstSeen": "2026-11-01T17:55:52.658Z"
+    },
+    "https://mastodon.social/@tamlyn@lemmy.zip/117542451743907916": {
+      "uri": "https://mastodon.social/@tamlyn@lemmy.zip/117542451743907916",
+      "url": "https://mastodon.social/@tamlyn@lemmy.zip/117542451743907916",
+      "handle": "tamlyn@lemmy.zip",
+      "name": "Tamlyn",
+      "text": "What JRPGs will you be playing in November? What games have you played in October? https://lemmy.zip/post/74271177",
+      "createdAt": "2026-11-01T17:51:17.300Z",
+      "likes": 0,
+      "replies": 1,
+      "group": "broadPlaying",
+      "query": "jrpg",
+      "score": 8,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://lemmy.zip/post/74271177",
+      "media": "link card: What JRPGs will you be playing in November? What games have you played in October? - Lemmy.zip",
+      "firstSeen": "2026-11-01T17:55:52.658Z"
     }
   }
 }
