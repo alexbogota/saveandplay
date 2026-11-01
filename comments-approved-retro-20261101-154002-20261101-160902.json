@@ -1,0 +1,19 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-retro-20261101-154002.json",
+  "approvedAt": "2026-11-01T16:09:02.587Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:df6syedtiqqeu3o4szmiqnkw/app.bsky.feed.post/3mza5j66rmdu2",
+      "url": "https://bsky.app/profile/karadoc.aus.social.ap.brid.gy/post/3mza5j66rmdu2",
+      "author": "karadoc.aus.social.ap.brid.gy",
+      "context": "I own a bunch of DOS games from GOG. Unfortunately, all of these are bundled with a Windows version of DOSBox only. I'd like to use a linux version. But which one? Apparently there are two 'modern' versions of DOSBox; called \"DOSBox-x\" and \"DOSBox Staging\". I'm wondering if anyone has any […]\nlink card: Original post on aus.social",
+      "text": "From what I know, DOSBox Staging is the leaner, modern pick for just playing DOS games, while DOSBox-X goes further with extras like Windows 9x and PC-98 support. For a library of GOG DOS games, Staging is usually the simpler start.",
+      "edited": false,
+      "verify": "Проверить: DOSBox Staging проще для обычных DOS-игр, DOSBox-X шире по возможностям (Win9x, PC-98)."
+    }
+  ]
+}
