@@ -8,85 +8,47 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 384,
-      "posts": 16160,
-      "fit": 211,
+      "runs": 392,
+      "posts": 16520,
+      "fit": 213,
       "last": {
         "posts": 80,
         "fit": 0,
-        "at": "2026-11-01T07:01:26.467Z"
+        "at": "2026-11-01T15:42:07.175Z"
       }
     },
     "moreAsk": {
-      "runs": 240,
-      "posts": 2160,
+      "runs": 245,
+      "posts": 2205,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-11-01T07:01:26.467Z"
+        "at": "2026-11-01T15:42:07.175Z"
       }
     },
     "moreRetro": {
-      "runs": 240,
-      "posts": 15320,
-      "fit": 547,
+      "runs": 245,
+      "posts": 15640,
+      "fit": 556,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-01T07:01:26.467Z"
+        "at": "2026-11-01T15:42:07.175Z"
       }
     },
     "morePlaying": {
-      "runs": 240,
-      "posts": 1008,
+      "runs": 245,
+      "posts": 1029,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-11-01T07:01:26.467Z"
+        "at": "2026-11-01T15:42:07.175Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@eri@plush.city/117532923671124462": {
-      "uri": "https://mastodon.social/@eri@plush.city/117532923671124462",
-      "url": "https://mastodon.social/@eri@plush.city/117532923671124462",
-      "handle": "eri@plush.city",
-      "name": "eri",
-      "text": "~ Share Your Gaming Setup ~ Please feel free to use the \"GamingSetup\" and/or \"GamingSetup2026\" hashtags and boost! :boost_ok: I'm curious if we could get this to catch on here - I like seeing other people's spaces and what gadgets they enjoy the most. :-) #GamingSetup #GamingSetup2026 #Gaming #RetroGaming #Computers",
-      "createdAt": "2026-10-31T01:28:05.000Z",
-      "likes": 1,
-      "replies": 1,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://plush.city/@eri/117532923370124309",
-      "media": "4 images: Top Image: Using a Sony Trinitron KV20FS120 CRT... Model 1 Genesis & 32X with EverDrive Silver GameCube modded with FlippyDrive FZ-1 3DO modded with an ODE Ori… / Top Image: GameBoy Color with EverDrive, modded with new screen and shell Bottom Image: GameBoy Advance with EverDrive, modded with new screen and shell / Top Image: Nintendo DS with DSpico flash cart, modded with new screens and shell Bottom Image: Nintendo 3DS XL, modded with new circle pad and Luma3DS / Top Image: Sony PSP Go, modded with upgraded storage, new screen, and ARK-4 firmware Bottom Image: PlayStation Vita, modded with HENkaku",
-      "firstSeen": "2026-10-31T06:56:28.625Z"
-    },
-    "https://mastodon.social/@seanwbruno@infosec.exchange/117532831546195650": {
-      "uri": "https://mastodon.social/@seanwbruno@infosec.exchange/117532831546195650",
-      "url": "https://mastodon.social/@seanwbruno@infosec.exchange/117532831546195650",
-      "handle": "seanwbruno@infosec.exchange",
-      "name": "Sean 🤷‍♂️🤷‍♀️🤷",
-      "text": "@cass \"Stay Awhile. STAY FOREVER\" #retrogaming.",
-      "createdAt": "2026-10-31T01:04:44.000Z",
-      "likes": 2,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": true,
-      "origin": "https://infosec.exchange/@seanwbruno/117532831518194765",
-      "media": null,
-      "firstSeen": "2026-10-31T06:56:28.625Z"
-    },
     "https://mastodon.social/@root42@chaos.social/117535614642828618": {
       "uri": "https://mastodon.social/@root42@chaos.social/117535614642828618",
       "url": "https://mastodon.social/@root42@chaos.social/117535614642828618",
@@ -206,7 +168,7 @@
       "name": "ℒӱḏɩę 💾☮∞🎶♲☀🔋",
       "text": "Still works! #retro #retrocomputing #retrogaming #vintage #vintagecomputing #oldskool #packardbell #dos #msdos #shareware",
       "createdAt": "2026-10-31T19:58:57.000Z",
-      "likes": 19,
+      "likes": 20,
       "replies": 2,
       "group": "moreRetro",
       "query": "retrogaming",
@@ -225,7 +187,7 @@
       "name": "Oregon Pacifist",
       "text": "I bought a couple of games from @cancelthispodcast and you should too! #RetroGaming",
       "createdAt": "2026-10-31T19:40:03.000Z",
-      "likes": 2,
+      "likes": 8,
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
@@ -262,17 +224,36 @@
       "name": "K~",
       "text": "I own a bunch of DOS games from GOG. Unfortunately, all of these are bundled with a Windows version of DOSBox only. I'd like to use a linux version. But which one? Apparently there are two 'modern' versions of DOSBox; called \"DOSBox-x\" and \"DOSBox Staging\". I'm wondering if anyone has any experience / recommendations about this. (Otherwise I'll just pick on at random.) #retrogaming #dos #linux #linux_gaming",
       "createdAt": "2026-11-01T06:09:10.000Z",
-      "likes": 5,
-      "replies": 2,
+      "likes": 6,
+      "replies": 7,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 9,
+      "score": 7,
       "question": true,
       "heated": false,
       "isReply": false,
       "origin": "https://aus.social/@karadoc/117539690965449588",
       "media": null,
       "firstSeen": "2026-11-01T07:01:26.467Z"
+    },
+    "https://mastodon.social/@reallylazybear@pawb.fun/117541572685573210": {
+      "uri": "https://mastodon.social/@reallylazybear@pawb.fun/117541572685573210",
+      "url": "https://mastodon.social/@reallylazybear@pawb.fun/117541572685573210",
+      "handle": "reallylazybear@pawb.fun",
+      "name": "Eli the Solitary Lazy Bear",
+      "text": "Granted he's a li'l complicated at first but man, the ult animation looks really cool at 30 FPS. I have motion blur on. I used to play at 60 FPS w/ no motion blur. While high fps is good for general responsiveness, idk the combat just looks less awesome. #zenlesszonezero #gaming #linuxgaming #anime #fps",
+      "createdAt": "2026-11-01T14:07:42.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "moreGaming",
+      "query": "fps",
+      "score": 3,
+      "question": false,
+      "heated": false,
+      "isReply": true,
+      "origin": "https://pawb.fun/@reallylazybear/117541572633656650",
+      "media": null,
+      "firstSeen": "2026-11-01T15:42:07.175Z"
     }
   }
 }
