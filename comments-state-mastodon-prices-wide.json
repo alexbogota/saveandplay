@@ -8,66 +8,47 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 416,
-      "posts": 17560,
-      "fit": 218,
+      "runs": 424,
+      "posts": 17880,
+      "fit": 219,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-02T05:58:01.745Z"
+        "at": "2026-11-02T15:09:36.914Z"
       }
     },
     "moreAsk": {
-      "runs": 260,
-      "posts": 2340,
+      "runs": 265,
+      "posts": 2385,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-11-02T05:58:01.745Z"
+        "at": "2026-11-02T15:09:36.914Z"
       }
     },
     "moreRetro": {
-      "runs": 260,
-      "posts": 16640,
-      "fit": 590,
+      "runs": 265,
+      "posts": 17000,
+      "fit": 599,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-02T05:58:01.745Z"
+        "at": "2026-11-02T15:09:36.914Z"
       }
     },
     "morePlaying": {
-      "runs": 260,
-      "posts": 1092,
+      "runs": 265,
+      "posts": 1113,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-11-02T05:58:01.745Z"
+        "at": "2026-11-02T15:09:36.914Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@karadoc@aus.social/117539691044794624": {
-      "uri": "https://mastodon.social/@karadoc@aus.social/117539691044794624",
-      "url": "https://mastodon.social/@karadoc@aus.social/117539691044794624",
-      "handle": "karadoc@aus.social",
-      "name": "K~",
-      "text": "I own a bunch of DOS games from GOG. Unfortunately, all of these are bundled with a Windows version of DOSBox only. I'd like to use a linux version. But which one? Apparently there are two 'modern' versions of DOSBox; called \"DOSBox-x\" and \"DOSBox Staging\". I'm wondering if anyone has any experience / recommendations about this. (Otherwise I'll just pick on at random.) #retrogaming #dos #linux #linux_gaming",
-      "createdAt": "2026-11-01T06:09:10.000Z",
-      "likes": 6,
-      "replies": 7,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 7,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://aus.social/@karadoc/117539690965449588",
-      "media": null,
-      "firstSeen": "2026-11-01T07:01:26.467Z"
-    },
     "https://mastodon.social/@Smith1PW/117541972942879038": {
       "uri": "https://mastodon.social/@Smith1PW/117541972942879038",
       "url": "https://mastodon.social/@Smith1PW/117541972942879038",
@@ -96,7 +77,7 @@
       "likes": 1,
       "replies": 0,
       "group": "moreRetro",
-      "query": "retrogaming",
+      "query": "retrogames",
       "score": 5,
       "question": false,
       "heated": false,
@@ -196,25 +177,6 @@
       "media": null,
       "firstSeen": "2026-11-01T22:00:09.194Z"
     },
-    "https://mastodon.social/@MeuRefugioNerd@pixelfed.social/117545121100766692": {
-      "uri": "https://mastodon.social/@MeuRefugioNerd@pixelfed.social/117545121100766692",
-      "url": "https://mastodon.social/@MeuRefugioNerd@pixelfed.social/117545121100766692",
-      "handle": "MeuRefugioNerd@pixelfed.social",
-      "name": "Luke do 🍥MEU REFÚGIO NERD🍥",
-      "text": "Até matei saudade mais cedo...só me esqueci de postar rs #streetfighterIII3rdstrike #streetfighter #capcom #retrogaming #classicgaming",
-      "createdAt": "2026-11-02T05:10:05.000Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://pixelfed.social/p/MeuRefugioNerd/1022736595204900019",
-      "media": "image, no description",
-      "firstSeen": "2026-11-02T05:58:01.745Z"
-    },
     "https://mastodon.social/@johnny@lazygeek.cafe/117543625256869554": {
       "uri": "https://mastodon.social/@johnny@lazygeek.cafe/117543625256869554",
       "url": "https://mastodon.social/@johnny@lazygeek.cafe/117543625256869554",
@@ -233,6 +195,82 @@
       "origin": "https://lazygeek.cafe/objects/ac6cc4b9-840a-4fa7-bef1-4919462fa1de",
       "media": "2 images: My gaming setup. A flatscreen TV surrounded by a Switch, Analogue Super NT, Intellivision Sprint, and Analogue Mega SG. To the right is a cabinet with A/V rece… / A shelf full mostly of video games, including Super Nintendo, Game Boy, and Game Bear. Also an Analogue Pocket, an iPod, and a book titled \"How to Win at Pac-m…",
       "firstSeen": "2026-11-02T05:58:01.745Z"
+    },
+    "https://mastodon.social/@gregly@retro.pizza/117547168006321738": {
+      "uri": "https://mastodon.social/@gregly@retro.pizza/117547168006321738",
+      "url": "https://mastodon.social/@gregly@retro.pizza/117547168006321738",
+      "handle": "gregly@retro.pizza",
+      "name": "Gregly",
+      "text": "Did it ever bother anybody else that Final Fantasy 10’s “sphere grid” was about as far from a “grid” as you can get? 😅 GRIDS DO NOT WORK THAT WAY, SQUEENIX #RetroGaming #finalfantasy",
+      "createdAt": "2026-11-02T13:50:40.000Z",
+      "likes": 2,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 7,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://retro.pizza/@gregly/117547167918174995",
+      "media": null,
+      "firstSeen": "2026-11-02T15:09:36.914Z"
+    },
+    "https://mastodon.social/@ishambard@cupoftea.social/117547098588268509": {
+      "uri": "https://mastodon.social/@ishambard@cupoftea.social/117547098588268509",
+      "url": "https://mastodon.social/@ishambard@cupoftea.social/117547098588268509",
+      "handle": "ishambard@cupoftea.social",
+      "name": "Ishambard",
+      "text": "I would not have expected that a game with a box art like this would be the thing to spike my blood pressure... Koneko MonoGatari: The adventures of Chatran is a deceptively hard game, from cheap enemies to pixel perfect jumps. I shall endeavour as always, but if you want to make someone suffer you should challenge them to play this game. #RetroGaming #FamicomDiskSystem",
+      "createdAt": "2026-11-02T13:33:00.000Z",
+      "likes": 4,
+      "replies": 1,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://cupoftea.social/@ishambard/117547098471385489",
+      "media": "2 images: Source: RetroAchievements page for the game Koneko MonoGatari. A picture of the box art for Koneko MonoGatari, it shows a small ginger cat in a bed of grass lo… / Source: RetroAchievements page for Koneko MonoGatari. A screenshot from Koneko MonoGatari, it shows a ginger cat standing next to a tree and apple on a grassy …",
+      "firstSeen": "2026-11-02T15:09:36.914Z"
+    },
+    "https://mastodon.social/@johnny@lazygeek.cafe/117546453622336244": {
+      "uri": "https://mastodon.social/@johnny@lazygeek.cafe/117546453622336244",
+      "url": "https://mastodon.social/@johnny@lazygeek.cafe/117546453622336244",
+      "handle": "johnny@lazygeek.cafe",
+      "name": "Johnny.rtf",
+      "text": "So. Roc’n Rope. I expect old arcade games to be difficult, but even by those standards this game is mean. But I’m having just enough fun to keep trying, so perhaps one of these days I’ll get the hang of it. Or I’ll rage-quit and go play Timber instead. One of the two. #ArcadeGames #RetroGaming",
+      "createdAt": "2026-11-02T10:48:57.363Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://lazygeek.cafe/objects/3c9bc58b-80c5-41bf-b2fa-e3cc7886584f",
+      "media": "2 images: Title screen for \"Roc'n Rope\". Pretty plain, just the logo with the usual high score, insert coin, and copyright info text. / Gameplay from the attract mode. A couple mountains with a series of ledges on each one, and three small platforms floating in the air between them. The player …",
+      "firstSeen": "2026-11-02T15:09:36.914Z"
+    },
+    "https://mastodon.social/@BOOKHOUSE@mas.to/117546358321750697": {
+      "uri": "https://mastodon.social/@BOOKHOUSE@mas.to/117546358321750697",
+      "url": "https://mastodon.social/@BOOKHOUSE@mas.to/117546358321750697",
+      "handle": "BOOKHOUSE@mas.to",
+      "name": "Dunque Maynard-Keenan",
+      "text": "Good morning. Gonna go boil the kettle for tea and then back to research. This week… The Fool’s Errand, by Cliff Johnson. #retrogames",
+      "createdAt": "2026-11-02T10:24:46.000Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogames",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://mas.to/@BOOKHOUSE/117546358291488084",
+      "media": null,
+      "firstSeen": "2026-11-02T15:09:36.914Z"
     }
   }
 }
