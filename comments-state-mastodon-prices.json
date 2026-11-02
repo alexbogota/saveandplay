@@ -23,23 +23,23 @@
       }
     },
     "backlog": {
-      "runs": 341,
-      "posts": 8674,
+      "runs": 347,
+      "posts": 8826,
       "fit": 0,
       "last": {
         "posts": 23,
         "fit": 0,
-        "at": "2026-11-02T15:08:40.121Z"
+        "at": "2026-11-02T15:42:41.050Z"
       }
     },
     "deck": {
-      "runs": 288,
-      "posts": 14013,
+      "runs": 293,
+      "posts": 14254,
       "fit": 114,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-02T15:08:40.121Z"
+        "at": "2026-11-02T15:42:41.050Z"
       }
     },
     "bundles": {
@@ -53,53 +53,53 @@
       }
     },
     "practical": {
-      "runs": 235,
-      "posts": 10840,
-      "fit": 290,
+      "runs": 239,
+      "posts": 11040,
+      "fit": 294,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-02T15:08:40.121Z"
+        "at": "2026-11-02T15:42:41.050Z"
       }
     },
     "genres": {
-      "runs": 552,
-      "posts": 22080,
+      "runs": 562,
+      "posts": 22480,
       "fit": 47,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-02T15:08:40.121Z"
+        "at": "2026-11-02T15:42:41.050Z"
       }
     },
     "seasonal": {
-      "runs": 182,
-      "posts": 8095,
+      "runs": 185,
+      "posts": 8215,
       "fit": 9,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-02T15:08:40.121Z"
+        "at": "2026-11-02T15:42:41.050Z"
       }
     },
     "broadPlaying": {
-      "runs": 712,
-      "posts": 93000,
-      "fit": 1699,
+      "runs": 725,
+      "posts": 94640,
+      "fit": 1717,
       "last": {
         "posts": 240,
-        "fit": 6,
-        "at": "2026-11-02T15:08:40.121Z"
+        "fit": 5,
+        "at": "2026-11-02T15:42:41.050Z"
       }
     },
     "broadAsk": {
-      "runs": 447,
-      "posts": 6893,
+      "runs": 455,
+      "posts": 7017,
       "fit": 0,
       "last": {
         "posts": 16,
         "fit": 0,
-        "at": "2026-11-02T15:08:40.121Z"
+        "at": "2026-11-02T15:42:41.050Z"
       }
     }
   },
@@ -233,25 +233,6 @@
       "media": "image: Night scene from a video game (VRChat-style avatar screenshot). A furry avatar with tall cat-like ears and shaggy hair sits cross-legged on a wooden dock, seen…",
       "firstSeen": "2026-11-01T17:55:52.658Z"
     },
-    "https://mastodon.social/@Nilvarcus@streamers.social/117542054591000642": {
-      "uri": "https://mastodon.social/@Nilvarcus@streamers.social/117542054591000642",
-      "url": "https://mastodon.social/@Nilvarcus@streamers.social/117542054591000642",
-      "handle": "Nilvarcus@streamers.social",
-      "name": "Nilvarcus",
-      "text": "Do you prefer RPGs where you create your own character and role, or games where you step into a character with an established name and background? #RPG",
-      "createdAt": "2026-11-01T16:10:16.000Z",
-      "likes": 1,
-      "replies": 1,
-      "group": "broadPlaying",
-      "query": "rpg",
-      "score": 8,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://streamers.social/@Nilvarcus/117542054541042039",
-      "media": null,
-      "firstSeen": "2026-11-01T17:55:52.658Z"
-    },
     "https://mastodon.social/@tamlyn@lemmy.zip/117542451743907916": {
       "uri": "https://mastodon.social/@tamlyn@lemmy.zip/117542451743907916",
       "url": "https://mastodon.social/@tamlyn@lemmy.zip/117542451743907916",
@@ -325,24 +306,6 @@
       "media": "image, no description",
       "firstSeen": "2026-11-01T21:59:17.906Z"
     },
-    "https://mastodon.social/@stealprofit/117542974394539339": {
-      "uri": "https://mastodon.social/@stealprofit/117542974394539339",
-      "url": "https://mastodon.social/@stealprofit/117542974394539339",
-      "handle": "stealprofit@mastodon.social",
-      "name": "StealProfit",
-      "text": "Free game you keep: Sorry We're Closed is free on the Epic Games Store through Nov 5. The rest of this week's freebies are on the StealProfit list: https://stealprofit.com/free-stuff-this-week.html?utm_source=mastodon&utm_medium=social&utm_campaign=freebies Grabbing it, or is your backlog already too long? #freegames #pcgaming",
-      "createdAt": "2026-11-01T20:04:12.066Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "pcgaming",
-      "score": 7,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "link card: Free Stuff This Week: Freebies & $0 Deals (Oct 26–Nov 1, 2026) | StealProfit",
-      "firstSeen": "2026-11-01T21:59:17.906Z"
-    },
     "https://mastodon.social/@alessandro@lemmy.ca/117542709117560465": {
       "uri": "https://mastodon.social/@alessandro@lemmy.ca/117542709117560465",
       "url": "https://mastodon.social/@alessandro@lemmy.ca/117542709117560465",
@@ -360,44 +323,6 @@
       "isReply": false,
       "origin": "https://lemmy.ca/post/73231256",
       "media": "link card: Remember boxed PC games? GOG hopes to bring them back",
-      "firstSeen": "2026-11-01T21:59:17.906Z"
-    },
-    "https://mastodon.social/@ravanon@mastodon.scot/117543344444083676": {
-      "uri": "https://mastodon.social/@ravanon@mastodon.scot/117543344444083676",
-      "url": "https://mastodon.social/@ravanon@mastodon.scot/117543344444083676",
-      "handle": "ravanon@mastodon.scot",
-      "name": "Ravanon",
-      "text": "Another October art challenge complete. A month of drawings of characters from anime, comics and videogames, using the #Arttrober2026 list published by Stanley Lau. It was fun, but also exhausting—and it killed almost all my free time for a month. But there was still one thing to do: compile all 31 drawings into a single image—so that's what I've gone and done. Any favourites? #Arttrober #Drawtober #Inktober #MastoArt #FediArt #FanArt #Manga #Anime #Comics #Gaming #Cartoon",
-      "createdAt": "2026-11-01T21:38:16.000Z",
-      "likes": 1,
-      "replies": 3,
-      "group": "broadPlaying",
-      "query": "gaming",
-      "score": 7,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://mastodon.scot/@ravanon/117543344301277938",
-      "media": "image: A collage of character drawings created by the artist during October 2026 as part of the Arttrober drawing challenge. The characters are distributed across the…",
-      "firstSeen": "2026-11-01T21:59:17.906Z"
-    },
-    "https://mastodon.social/@playopenz@lemmy.world/117542853204321850": {
-      "uri": "https://mastodon.social/@playopenz@lemmy.world/117542853204321850",
-      "url": "https://mastodon.social/@playopenz@lemmy.world/117542853204321850",
-      "handle": "playopenz@lemmy.world",
-      "name": "",
-      "text": "What old strategy game had an idea nobody ever copied? https://lemmy.world/post/53870336",
-      "createdAt": "2026-11-01T19:33:22.575Z",
-      "likes": 0,
-      "replies": 2,
-      "group": "broadPlaying",
-      "query": "gaming",
-      "score": 7,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://lemmy.world/post/53870336",
-      "media": "image, no description",
       "firstSeen": "2026-11-01T21:59:17.906Z"
     },
     "https://mastodon.social/@Chertograd/117542700334113291": {
@@ -436,25 +361,6 @@
       "media": "video: One of the early game puzzles in Order of the Sinking Star. There are two characters. One is continuously blocking fire-spitting red dragons while the other mo…",
       "firstSeen": "2026-11-01T21:59:17.906Z"
     },
-    "https://mastodon.social/@GridGremlin@gamerstavern.online/117542125364912867": {
-      "uri": "https://mastodon.social/@GridGremlin@gamerstavern.online/117542125364912867",
-      "url": "https://mastodon.social/@GridGremlin@gamerstavern.online/117542125364912867",
-      "handle": "GridGremlin@gamerstavern.online",
-      "name": "Grid Gremlin",
-      "text": "Hot take: the best part of old multiplayer games was dying first. You got to spectate and narrate everyone else's mistakes. Lightcycle games are perfect for it, since every crash is visible from the overhead view. Which game was most fun to watch after you'd lost? #gaming #retrogaming",
-      "createdAt": "2026-11-01T16:28:16.000Z",
-      "likes": 1,
-      "replies": 1,
-      "group": "broadPlaying",
-      "query": "gaming",
-      "score": 8,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://gamerstavern.online/@GridGremlin/117542125354099169",
-      "media": null,
-      "firstSeen": "2026-11-01T21:59:17.906Z"
-    },
     "https://mastodon.social/@pitcrewgg/117543451276982199": {
       "uri": "https://mastodon.social/@pitcrewgg/117543451276982199",
       "url": "https://mastodon.social/@pitcrewgg/117543451276982199",
@@ -468,24 +374,6 @@
       "query": "linuxgaming",
       "score": 6,
       "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "image, no description",
-      "firstSeen": "2026-11-02T05:57:13.745Z"
-    },
-    "https://mastodon.social/@darkghosthunter/117544669715450032": {
-      "uri": "https://mastodon.social/@darkghosthunter/117544669715450032",
-      "url": "https://mastodon.social/@darkghosthunter/117544669715450032",
-      "handle": "darkghosthunter@mastodon.social",
-      "name": ".:\\dGh/:.",
-      "text": "Guys. We got our 2026 Wukong. By the way, how are the sales of #GearsOfWarEday and #MarvelsWolverine going? #Videogames #Gaming #Games #PhnatomBladeZero #Wukong #BlackMyth #BlackMythWukong #China #Asia #SGame",
-      "createdAt": "2026-11-02T03:15:20.613Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "videogames",
-      "score": 7,
-      "question": true,
       "heated": false,
       "isReply": false,
       "media": "image, no description",
@@ -584,25 +472,6 @@
       "media": "image, no description",
       "firstSeen": "2026-11-02T05:57:13.745Z"
     },
-    "https://mastodon.social/@Travinatorisme@mastodon.world/117547100631246937": {
-      "uri": "https://mastodon.social/@Travinatorisme@mastodon.world/117547100631246937",
-      "url": "https://mastodon.social/@Travinatorisme@mastodon.world/117547100631246937",
-      "handle": "Travinatorisme@mastodon.world",
-      "name": "Travinatorisme",
-      "text": "Good mornong, Mastodon! With a cup of coffee in hand, off to a good start, and ready to dive into the Monday Madness that is work. Then later on this evening, I'll be playing Replaced, one of my favorite games that came out earlier in the year. Hope you all have a wonderful day! #linux #linuxgaming #cachyos #pcgaming #gamingpc #steam #gaming #games #game #videogames",
-      "createdAt": "2026-11-02T13:33:31.000Z",
-      "likes": 2,
-      "replies": 0,
-      "group": "practical",
-      "query": "linuxgaming",
-      "score": 7,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://mastodon.world/@Travinatorisme/117547100529677617",
-      "media": "image, no description",
-      "firstSeen": "2026-11-02T15:08:40.121Z"
-    },
     "https://mastodon.social/@OsirisSaline@mastodon.art/117547178325283137": {
       "uri": "https://mastodon.social/@OsirisSaline@mastodon.art/117547178325283137",
       "url": "https://mastodon.social/@OsirisSaline@mastodon.art/117547178325283137",
@@ -620,24 +489,6 @@
       "isReply": false,
       "origin": "https://mastodon.art/@OsirisSaline/117547178276478954",
       "media": null,
-      "firstSeen": "2026-11-02T15:08:40.121Z"
-    },
-    "https://mastodon.social/@coa100/117545932294412845": {
-      "uri": "https://mastodon.social/@coa100/117545932294412845",
-      "url": "https://mastodon.social/@coa100/117545932294412845",
-      "handle": "coa100@mastodon.social",
-      "name": "Coa",
-      "text": "Wew a tiny space shooter!! Game plays in browser and is challenging and fun!!!!! https://gamesheaven.wtnet9.site/?game=51 #videogames #gaming",
-      "createdAt": "2026-11-02T08:36:26.050Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "videogames",
-      "score": 7,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "image, no description",
       "firstSeen": "2026-11-02T15:08:40.121Z"
     },
     "https://mastodon.social/@mikelundahl@mastodon.world/117547025935911865": {
@@ -670,29 +521,10 @@
       "replies": 1,
       "group": "broadPlaying",
       "query": "pcgaming",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
-      "media": null,
-      "firstSeen": "2026-11-02T15:08:40.121Z"
-    },
-    "https://mastodon.social/@agowa338@chaos.social/117547224459896439": {
-      "uri": "https://mastodon.social/@agowa338@chaos.social/117547224459896439",
-      "url": "https://mastodon.social/@agowa338@chaos.social/117547224459896439",
-      "handle": "agowa338@chaos.social",
-      "name": "Klaus Frank",
-      "text": "Anyone actually tested the domestic China #GPUs yet? I don't care for what, just asking in general. Can be for #Gaming, workstation, office , or #AI workload. Just interested if anyone has had their hands on GPUs from either: * Moore Threads * MetaX * Biren Technology * Enflame Technology * Iluvatar CoreX * Jingjia Micro * Innosilicon * Sietium #HomeLab",
-      "createdAt": "2026-11-02T14:04:59.000Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "gaming",
-      "score": 6,
-      "question": true,
-      "heated": true,
-      "isReply": false,
-      "origin": "https://chaos.social/@agowa338/117547224198743582",
       "media": null,
       "firstSeen": "2026-11-02T15:08:40.121Z"
     },

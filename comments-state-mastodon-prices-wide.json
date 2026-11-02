@@ -8,43 +8,43 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 424,
-      "posts": 17880,
-      "fit": 219,
+      "runs": 432,
+      "posts": 18200,
+      "fit": 220,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-02T15:09:36.914Z"
+        "at": "2026-11-02T15:43:44.254Z"
       }
     },
     "moreAsk": {
-      "runs": 265,
-      "posts": 2385,
+      "runs": 270,
+      "posts": 2430,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-11-02T15:09:36.914Z"
+        "at": "2026-11-02T15:43:44.254Z"
       }
     },
     "moreRetro": {
-      "runs": 265,
-      "posts": 17000,
-      "fit": 599,
+      "runs": 270,
+      "posts": 17360,
+      "fit": 608,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-02T15:09:36.914Z"
+        "at": "2026-11-02T15:43:44.254Z"
       }
     },
     "morePlaying": {
-      "runs": 265,
-      "posts": 1113,
+      "runs": 270,
+      "posts": 1134,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-11-02T15:09:36.914Z"
+        "at": "2026-11-02T15:43:44.254Z"
       }
     }
   },
@@ -156,25 +156,6 @@
       "heated": false,
       "isReply": false,
       "media": "2 images, no description",
-      "firstSeen": "2026-11-01T22:00:09.194Z"
-    },
-    "https://mastodon.social/@GridGremlin@gamerstavern.online/117542125364912867": {
-      "uri": "https://mastodon.social/@GridGremlin@gamerstavern.online/117542125364912867",
-      "url": "https://mastodon.social/@GridGremlin@gamerstavern.online/117542125364912867",
-      "handle": "GridGremlin@gamerstavern.online",
-      "name": "Grid Gremlin",
-      "text": "Hot take: the best part of old multiplayer games was dying first. You got to spectate and narrate everyone else's mistakes. Lightcycle games are perfect for it, since every crash is visible from the overhead view. Which game was most fun to watch after you'd lost? #gaming #retrogaming",
-      "createdAt": "2026-11-01T16:28:16.000Z",
-      "likes": 1,
-      "replies": 1,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 8,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://gamerstavern.online/@GridGremlin/117542125354099169",
-      "media": null,
       "firstSeen": "2026-11-01T22:00:09.194Z"
     },
     "https://mastodon.social/@johnny@lazygeek.cafe/117543625256869554": {
