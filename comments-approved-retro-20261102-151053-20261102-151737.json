@@ -1,0 +1,36 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-retro-20261102-151053.json",
+  "approvedAt": "2026-11-02T15:17:37.912Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:jx2a2nbdpy2i26bwkmoafwh4/app.bsky.feed.post/3mzckabpj5c2v",
+      "url": "https://bsky.app/profile/danielgwilson.bsky.social/post/3mzckabpj5c2v",
+      "author": "danielgwilson.bsky.social",
+      "context": "Little personal side project i have been working on. Build myself a little retro gaming rig out of an old office pc I got for cheap. Came with win 11 pro which I de-bloated (no ads). Who wants to Panzer Dragoon? Hahaha\n3 images, no description",
+      "text": "Fun project, and an old office PC is a good starting point for a retro rig. Panzer Dragoon is a great pick to show it off.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:5wfstafn74wqrhz7uhpnjofc/app.bsky.feed.post/3mzc6wotf2s2c",
+      "url": "https://bsky.app/profile/coqui.bsky.social/post/3mzc6wotf2s2c",
+      "author": "coqui.bsky.social",
+      "context": "COQUI 🐸🔪『3AM 📺& 𝔖𝔬𝔲𝔱𝔥 𝔖𝔦𝔡𝔢 』 anyone know any extra ways to make dos games work? i tried dosbox but no luck!",
+      "text": "A common trip-up is that DOSBox needs the game folder mounted as a drive before you run the exe. GOG also sells many DOS classics with DOSBox already set up, which saves the hassle.",
+      "edited": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:6x6spo6p3fbsxjvjzhwwtdrj/app.bsky.feed.post/3mzc3tftezc24",
+      "url": "https://bsky.app/profile/seanvalentinus.bsky.social/post/3mzc3tftezc24",
+      "author": "seanvalentinus.bsky.social",
+      "context": "i had kirby super star on my snes as a kid and that was def my fave. replayed that a whole bunch, and spent a decent bit of my childhood trying to figure out if i could dig a hole somewhere and find my way into great cave offensive land. how about you? also the music from that game goes HARD\nlink card: Halberd ~ Nightmare Warship - Kirby Super Star OST",
+      "text": "Kirby Super Star is a great one, and that soundtrack still holds up.",
+      "edited": false
+    }
+  ]
+}

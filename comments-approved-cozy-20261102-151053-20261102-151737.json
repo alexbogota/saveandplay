@@ -1,0 +1,18 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-cozy-20261102-151053.json",
+  "approvedAt": "2026-11-02T15:17:37.786Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:yvffxnwrtxa6cy2dkasgnqi7/app.bsky.feed.post/3mzbvwkzsts2j",
+      "url": "https://bsky.app/profile/ghostylain.bsky.social/post/3mzbvwkzsts2j",
+      "author": "ghostylain.bsky.social",
+      "context": "Putting together this week’s schedule & debating on what games to play after doing nothing but horror all month just makes me think “why not more horror?” Maybe I’ll sneak in some cozy just to ween off it… It’s that or I never stop 😈",
+      "text": "A cozy game in between is a nice palate cleanser after a month of horror. Unpacking is short and calm, so it fits easily into a stream schedule.",
+      "edited": false
+    }
+  ]
+}

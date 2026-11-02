@@ -1,0 +1,46 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-prices-20261102-151053.json",
+  "approvedAt": "2026-11-02T15:17:37.499Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:kitpdozbbi6dvxrtp2gbqkou/app.bsky.feed.post/3mzdc3kwwnc23",
+      "url": "https://bsky.app/profile/shadeaurion.bsky.social/post/3mzdc3kwwnc23",
+      "author": "shadeaurion.bsky.social",
+      "context": "Oh dude, don't stress. Its why GoG is good. To be fair, Itch deserves a mention. I've seen games start and grow there and become huge indie hits everywhere else. Faith, Mindustry, that one sick game where you're a skateboarding racoon doing tricks through dimensions to save the world. Tanuki Sunset?",
+      "text": "Fair point on Itch. A lot of games there are DRM-free too, so you can download the files and keep them.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:772h7ovahg2f3zupvwpskw3z/app.bsky.feed.post/3mzbzogszjk2l",
+      "url": "https://bsky.app/profile/freshroyal.bsky.social/post/3mzbzogszjk2l",
+      "author": "freshroyal.bsky.social",
+      "context": "I've wanted to play it since release, but I just never got around to getting a copy. Thinking about buying it during the Steam Winter Sale this year. It's also *kind of* a multi-platform Nintendo game, and that's funny.",
+      "text": "Winter Sale is a solid plan. Add it to your wishlist now and Steam will notify you when it goes on sale.",
+      "edited": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:2p2aumcisorepesfhun7vh4b/app.bsky.feed.post/3mzcd72mknc22",
+      "url": "https://bsky.app/profile/ajisaivt.vtubers.social/post/3mzcd72mknc22",
+      "author": "ajisaivt.vtubers.social",
+      "context": "Might I suggest Critically Acclaimed MM-! JK, Honestly, when I need time off to settle my head, I lean towards lookin' at my backlog, be it games I wanted to play on my own time, or manga recommendations I've been sittin' on. Or just re-watching old web shows or abridged series to brain off.",
+      "text": "Backlog dives are great for that. Pick something short and low-pressure when your head needs a reset.",
+      "edited": false
+    },
+    {
+      "n": 4,
+      "uri": "at://did:plc:qpbf5nvuyinqr5c5j3hrzv2v/app.bsky.feed.post/3mzc27snapc2c",
+      "url": "https://bsky.app/profile/maddyjacksonn.bsky.social/post/3mzc27snapc2c",
+      "author": "maddyjacksonn.bsky.social",
+      "context": "i wasn't going to buy it at launch and instead wait for a sale bc i'm skeptical of the setting and it being \"my kinda game\", but after watching a bit, the amount of player freedom [similar to RDR2] seems like my kinda thing???? i didn't really get that outta my playthrough of GTAV",
+      "text": "Smart to wait if you're not sure it's your kind of game. Checking the price history before a sale shows you what a real low looks like.",
+      "edited": false,
+      "verify": "Не видно, на ПК ли эта игра. Если на консоли, не отправляйте."
+    }
+  ]
+}
