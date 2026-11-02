@@ -1,6 +1,6 @@
-# Co-op games build, October 26, 2026
+# Co-op games build, November 2, 2026
 
-Host list: 128 games orderable, 103 on the horizon (not used). Hand-made: 4. Made by the program: 105.
+Host list: 128 games orderable, 103 on the horizon (not used). Hand-made: 4. Made by the program: 106.
 
 ## Needs your answer in data/coop-steam-ids.json (Steam number or skip): 0
 
@@ -22,7 +22,7 @@ Host list: 128 games orderable, 103 on the horizon (not used). Hand-made: 4. Mad
 ## News about the host list: 1
 - The host page could not be read (the page answered 403): the saved list is used.
 
-## Left out (the reason is Steam's own answer): 19
+## Left out (the reason is Steam's own answer): 18
 - minecraft: not on Steam: no Steam facts and no cover we may use (add a hand-made block in data/coop-games.json to include it)
 - conan_exiles: the same Steam page as conan_exiles_enhanced (Steam renamed the game): one page is enough
 - counter_strike_global_offensive: the same Steam page as counter_strike_2 (Steam renamed the game): one page is enough
@@ -31,7 +31,6 @@ Host list: 128 games orderable, 103 on the horizon (not used). Hand-made: 4. Mad
 - hollow_knight_silksong (Steam 1030300, Hollow Knight: Silksong): Steam lists no multiplayer mode
 - hytale: not on Steam: no Steam facts and no cover we may use
 - isle_goblin (Steam 1688640, Isle Goblin): not released yet
-- nomad_drive (Steam 2223980, Nomad Drive): not released yet
 - path_of_titans: no Steam page found by name; put its Steam number here if it has one
 - red_dead_redemption_2: servers for this game are modded role-play servers (RedM), not the game's own multiplayer
 - rend (Steam 4444310, Rend): not released yet
@@ -43,7 +42,7 @@ Host list: 128 games orderable, 103 on the horizon (not used). Hand-made: 4. Mad
 - vintage_story: not on Steam
 - wyldheart (Steam 3642910, Wyldheart): not released yet
 
-## Made by the program: 105
+## Made by the program: 106
 - Counter-Strike 2
 - Rust
 - Garry's Mod
@@ -139,12 +138,13 @@ Host list: 128 games orderable, 103 on the horizon (not used). Hand-made: 4. Mad
 - Frozen Flame
 - Voyagers of Nera
 - Witchspire
-- Towers of Aghasba
-- Desynced
 - Permafrost
+- Desynced
+- Towers of Aghasba
 - Brickadia
 - Renown
 - No More Room in Hell
+- Nomad Drive
 - Dead Matter
 - Zombie Survival Game Online
 - Delverium
