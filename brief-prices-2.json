@@ -1,118 +1,147 @@
 {
   "account": "Honest prices (second deal of the day)",
-  "generatedAt": "2026-11-01T11:25:36.550Z",
-  "builtBy": "commit a82a4de, schedule, run #33 attempt 1",
-  "pricesCheckedAt": "2026-11-01T10:12:12.590Z",
+  "generatedAt": "2026-11-02T20:38:26.851Z",
+  "builtBy": "commit c277be7, schedule, run #34 attempt 1",
+  "pricesCheckedAt": "2026-11-02T19:41:51.897Z",
   "warnings": [],
   "candidates": [
     {
-      "id": "gog-simcity-4-deluxe-edition",
+      "id": "gog-this-war-of-mine",
       "kind": "deal",
-      "title": "SimCity 4 Deluxe Edition",
+      "title": "This War of Mine",
       "store": "GOG",
-      "price": 4.99,
+      "price": 2.99,
       "was": 19.99,
-      "discount": 75,
+      "discount": 85,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 93,
-      "priceCheckedAt": "2026-11-01T10:12:12.590Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
+      "endsInHours": 59,
+      "priceCheckedAt": "2026-11-02T19:41:44.209Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
       "drminfo": null,
-      "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
+      "coverAlt": "Cover art for This War of Mine",
       "facts": {
-        "year": 2003,
+        "year": 2014,
         "genres": [
-          "Simulation",
-          "Building",
-          "Managerial"
+          "Action",
+          "Adventure",
+          "Survival"
         ],
         "tags": [
+          "Adventure",
+          "Action",
+          "Indie",
+          "Story Rich",
           "Atmospheric",
-          "Simulation",
-          "Classic",
-          "Great Soundtrack",
+          "Choices Matter",
           "Management",
-          "Sandbox",
+          "Survival",
+          "Resource Management",
           "Real-Time",
-          "Isometric",
-          "Building",
-          "Managerial",
-          "City builder"
+          "War",
+          "Crafting",
+          "Base Building",
+          "Emotional",
+          "Post-apocalyptic",
+          "Stealth",
+          "Psychological"
         ]
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 9.5,
-      "discountRank": 7,
-      "sites": 0,
-      "mentions": [],
+      "score": 5.5,
+      "discountRank": 4,
+      "sites": 1,
+      "mentions": [
+        {
+          "source": "gg.deals News",
+          "domain": "gg.deals",
+          "title": "Steam’s 11 bit Sale offers This War of Mine, Frostpunk, Moonlighter & more with up to 90% off",
+          "link": "https://gg.deals/deal/steams-11-bit-sale-offers-this-war-of-mine-frostpunk-moonlighter-more-with-up-to-90-off/",
+          "t": 1793644320000,
+          "how": "title"
+        }
+      ],
       "history": {
-        "days": 23,
+        "days": 15,
         "lowest": true,
-        "since": "2026-10-07"
+        "since": "2026-10-19"
       },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-01",
+      "offeredOn": "2026-11-01",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-02",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (23 days of data)",
-        "deepest-discount rank 7 of 8"
+        "1 news site wrote about the game in the last 48 h",
+        "lowest price we've tracked (15 days of data)",
+        "deepest-discount rank 4 of 7"
       ]
     },
     {
-      "id": "gog-dragon-s-dogma-dark-arisen",
+      "id": "gog-frostpunk",
       "kind": "deal",
-      "title": "Dragon's Dogma: Dark Arisen",
+      "title": "Frostpunk",
       "store": "GOG",
-      "price": 4.79,
+      "price": 4.49,
       "was": 29.99,
-      "discount": 84,
+      "discount": 85,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 93,
-      "priceCheckedAt": "2026-11-01T10:12:12.590Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367500/header.jpg?t=1768870344",
+      "endsInHours": 59,
+      "priceCheckedAt": "2026-11-02T19:41:44.209Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323190/abcd2bf3c275092d637d7dd98e0061dbdd2fd2da/header.jpg?t=1784897899",
       "drminfo": null,
-      "coverAlt": "Cover art for Dragon's Dogma: Dark Arisen",
+      "coverAlt": "Cover art for Frostpunk",
       "facts": {
-        "year": 2016,
+        "year": 2018,
         "genres": [
-          "Role-playing",
-          "Action",
-          "Open World"
+          "Strategy",
+          "Simulation",
+          "Survival"
         ],
         "tags": [
-          "Action",
-          "Fantasy",
-          "Story Rich",
+          "Indie",
           "Atmospheric",
-          "Role-playing",
-          "Exploration",
+          "Strategy",
+          "Simulation",
+          "Dark",
           "Great Soundtrack",
-          "Third Person",
-          "Open World",
-          "Multiplayer",
+          "Choices Matter",
+          "Management",
+          "Survival",
+          "Resource Management",
           "Difficult",
-          "JRPG",
-          "Magic",
-          "Hack and Slash"
+          "Base Building",
+          "Post-apocalyptic",
+          "City builder",
+          "Survival Horror",
+          "Steampunk"
         ]
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 9.4,
-      "discountRank": 5,
-      "sites": 0,
-      "mentions": [],
+      "score": 5.5,
+      "discountRank": 2,
+      "sites": 1,
+      "mentions": [
+        {
+          "source": "gg.deals News",
+          "domain": "gg.deals",
+          "title": "Steam’s 11 bit Sale offers This War of Mine, Frostpunk, Moonlighter & more with up to 90% off",
+          "link": "https://gg.deals/deal/steams-11-bit-sale-offers-this-war-of-mine-frostpunk-moonlighter-more-with-up-to-90-off/",
+          "t": 1793644320000,
+          "how": "title"
+        }
+      ],
       "history": {
-        "days": 13,
-        "lowest": false,
-        "since": "2026-10-18"
+        "days": 21,
+        "lowest": true,
+        "since": "2026-10-13"
       },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/dragon-s-dogma-dark-arisen/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-01",
+      "offeredOn": "2026-10-29",
+      "link": "https://saveandplay.com/deals/gog/frostpunk/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-02",
       "linkKind": "link to our site",
       "whyToday": [
-        "deepest-discount rank 5 of 8"
+        "1 news site wrote about the game in the last 48 h",
+        "lowest price we've tracked (21 days of data)",
+        "deepest-discount rank 2 of 7"
       ]
     },
     {
@@ -124,8 +153,8 @@
       "was": 39.99,
       "discount": 90,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 93,
-      "priceCheckedAt": "2026-11-01T10:12:12.590Z",
+      "endsInHours": 59,
+      "priceCheckedAt": "2026-11-02T19:41:44.209Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
       "drminfo": null,
       "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
@@ -162,16 +191,16 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 23,
+        "days": 24,
         "lowest": true,
         "since": "2026-10-07"
       },
       "offeredOn": "2026-10-31",
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-01",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-02",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (23 days of data)",
-        "deepest-discount rank 1 of 8"
+        "lowest price we've tracked (24 days of data)",
+        "deepest-discount rank 1 of 7"
       ]
     },
     {
@@ -183,8 +212,8 @@
       "was": 24.99,
       "discount": 85,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 93,
-      "priceCheckedAt": "2026-11-01T10:12:12.590Z",
+      "endsInHours": 59,
+      "priceCheckedAt": "2026-11-02T19:41:44.209Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187",
       "drminfo": null,
       "coverAlt": "Cover art for Darkest Dungeon",
@@ -216,79 +245,80 @@
       "marketplace": false,
       "compareTo": null,
       "score": 2.5,
-      "discountRank": 4,
+      "discountRank": 5,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 23,
+        "days": 24,
         "lowest": true,
         "since": "2026-10-07"
       },
       "offeredOn": "2026-10-27",
-      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-01",
+      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-02",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (23 days of data)",
-        "deepest-discount rank 4 of 8"
+        "lowest price we've tracked (24 days of data)",
+        "deepest-discount rank 5 of 7"
       ]
     },
     {
-      "id": "gog-frostpunk",
+      "id": "gog-thronebreaker-the-witcher-tales",
       "kind": "deal",
-      "title": "Frostpunk",
+      "title": "Thronebreaker: The Witcher Tales",
       "store": "GOG",
-      "price": 4.49,
-      "was": 29.99,
-      "discount": 85,
+      "price": 3.99,
+      "was": 19.99,
+      "discount": 80,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 93,
-      "priceCheckedAt": "2026-11-01T10:12:12.590Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323190/abcd2bf3c275092d637d7dd98e0061dbdd2fd2da/header.jpg?t=1784897899",
+      "endsInHours": 59,
+      "priceCheckedAt": "2026-11-02T19:41:44.209Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/973760/f748e07df077bb0cf4c49d4bc0f6437f510c5251/header.jpg?t=1761829221",
       "drminfo": null,
-      "coverAlt": "Cover art for Frostpunk",
+      "coverAlt": "Cover art for Thronebreaker: The Witcher Tales",
       "facts": {
         "year": 2018,
         "genres": [
-          "Strategy",
-          "Simulation",
-          "Survival"
+          "Role-playing",
+          "Fantasy",
+          "Strategy"
         ],
         "tags": [
-          "Indie",
+          "Fantasy",
+          "Story Rich",
           "Atmospheric",
           "Strategy",
-          "Simulation",
-          "Dark",
+          "Role-playing",
+          "Turn-Based",
+          "Puzzle",
+          "Female Protagonist",
           "Great Soundtrack",
           "Choices Matter",
-          "Management",
-          "Survival",
-          "Resource Management",
-          "Difficult",
-          "Base Building",
-          "Post-apocalyptic",
-          "City builder",
-          "Survival Horror",
-          "Steampunk"
+          "Open World",
+          "Multiplayer",
+          "Mature",
+          "Sexual Content",
+          "Isometric",
+          "Medieval",
+          "Card Game"
         ]
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 2.5,
-      "discountRank": 2,
+      "score": 2,
+      "discountRank": 6,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 20,
+        "days": 22,
         "lowest": true,
-        "since": "2026-10-13"
+        "since": "2026-10-07"
       },
       "offeredOn": "2026-10-29",
-      "link": "https://saveandplay.com/deals/gog/frostpunk/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-01",
+      "link": "https://saveandplay.com/deals/gog/thronebreaker-the-witcher-tales/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-02",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (20 days of data)",
-        "deepest-discount rank 2 of 8"
+        "lowest price we've tracked (22 days of data)",
+        "deepest-discount rank 6 of 7"
       ]
     }
   ],
@@ -304,7 +334,7 @@
     "repeat": 0,
     "smallDiscount": 0,
     "ended": 0,
-    "endsTooSoon": 0,
+    "endsTooSoon": 1,
     "oldPrice": 0
   },
   "sources": {
@@ -313,18 +343,18 @@
   },
   "posts": {
     "x": {
-      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Nov 1. Sale ends Nov 5. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-01\n\n#PCGaming #SimCity4DeluxeEdition\nAd",
-      "length": 184,
+      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nPrice checked Nov 2. Sale ends Nov 5. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-02\n\n#PCGaming #GameDeals\nAd",
+      "length": 164,
       "max": 270,
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-01",
-      "deal": "gog-simcity-4-deluxe-edition"
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-02",
+      "deal": "gog-this-war-of-mine"
     },
     "bluesky": {
-      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Nov 1. Sale ends Nov 5. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-01\n\n#PCGaming #GameDeals #PCGames #GOG #VideoGames\nAd",
-      "length": 200,
+      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nPrice checked Nov 2. Sale ends Nov 5. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-02\n\n#PCGaming #GameDeals #Gaming #ThisWarOfMine #Games\nAd",
+      "length": 196,
       "max": 300,
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-01",
-      "deal": "gog-simcity-4-deluxe-edition"
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-02",
+      "deal": "gog-this-war-of-mine"
     }
   }
 }
