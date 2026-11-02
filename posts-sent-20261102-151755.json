@@ -1,0 +1,39 @@
+{
+  "madeAt": "2026-11-02T15:17:55.870Z",
+  "run": "41470177600",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices|coop-2026-11-02|/servers/rust/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 7,
+      "link": "https://saveandplay.com/servers/rust/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-11-02",
+      "text": "Rust has online co-op on Steam.\nA rented server keeps your world online when the host logs off.\n\nhttps://saveandplay.com/servers/rust/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-11-02\n\n#PCGaming #Rust\nAd",
+      "approvedFile": "posts-approved-20261102-151733.json",
+      "approvedAt": "2026-11-02T15:17:33.893Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-02T15:17:58.715Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mzdmne65ve2z",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3mzdmne65ve2z",
+      "picture": true
+    },
+    {
+      "key": "cozy|coop-2026-11-02|/servers/core-keeper/",
+      "account": "cozy",
+      "handle": "cozygame.bsky.social",
+      "n": 8,
+      "link": "https://saveandplay.com/servers/core-keeper/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=coop-2026-11-02",
+      "text": "Want a shared Core Keeper world that is always there? The game supports dedicated servers.\nHere is what a Core Keeper server gives you, in plain words.\n\nhttps://saveandplay.com/servers/core-keeper/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=coop-2026-11-02\n\n#CozyGames #CoreKeeper\nAd",
+      "approvedFile": "posts-approved-20261102-151733.json",
+      "approvedAt": "2026-11-02T15:17:33.893Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-02T15:18:00.108Z",
+      "postUri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3mzdmng4bor2e",
+      "postUrl": "https://bsky.app/profile/cozygame.bsky.social/post/3mzdmng4bor2e",
+      "picture": true
+    }
+  ]
+}
