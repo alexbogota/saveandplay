@@ -1,54 +1,62 @@
 # Comment candidates: mastodon-prices (@saveandplay@mastodon.social)
-Made 2026-11-03T14:06Z. Searched: deck: handheldgaming | deck: steamdecklife | deck: steamdeckoled | deck: steamdeck | deck: steamos | practical: linuxgaming | practical: drmfree | practical: gog | practical: protondb | genres: coopgames | genres: citybuilder | genres: strategygames | genres: survivalgames | genres: horrorgaming | genres: cozygaming | genres: puzzlegames | genres: roguelike | genres: cozygames | genres: metroidvania | seasonal: halloweengames | seasonal: horrorgames | seasonal: spooktober | broadPlaying: videogames | broadPlaying: currentlyplaying | broadPlaying: indiegames | broadPlaying: indiegame | broadPlaying: pcgames | broadPlaying: steamgames | broadPlaying: gamer | broadPlaying: games | broadPlaying: rpg | broadPlaying: jrpg | broadPlaying: pcgaming | broadPlaying: gaming | broadPlaying: steam | broadAsk: recommendmeagame | broadAsk: gamerecommendation | broadAsk: recommendagame | broadAsk: whattoplay | broadAsk: gamesuggestion | broadAsk: hiddengem | broadAsk: underratedgames | broadAsk: gamesuggestions | backlog: gamingbacklog | backlog: backlog | backlog: pileofshame | backlog: whatshouldiplay | backlog: gamerecommendations | backlog: gamerecs.
-Posts below: 12. Dropped in this run: too long 11, other language 250, too old 1203, bot, shop or studio 793, promo (link and hashtags) 150, link post, not a question 23, other language (text) 163, low score 23, skip word 156, already answered 3, not about games 41, own post 16, already shown 9, content warning 6, console only 10, many links 2, earlier finds: low score 3.
+Made 2026-11-03T23:17Z. Searched: deck: handheldgaming | deck: steamdecklife | deck: steamdeckoled | deck: steamdeck | deck: steamos | practical: linuxgaming | practical: drmfree | practical: gog | practical: protondb | genres: coopgames | genres: citybuilder | genres: strategygames | genres: survivalgames | genres: horrorgaming | genres: cozygaming | genres: puzzlegames | genres: roguelike | genres: cozygames | genres: metroidvania | seasonal: halloweengames | seasonal: horrorgames | seasonal: spooktober | broadPlaying: videogames | broadPlaying: currentlyplaying | broadPlaying: indiegames | broadPlaying: indiegame | broadPlaying: pcgames | broadPlaying: steamgames | broadPlaying: gamer | broadPlaying: games | broadPlaying: rpg | broadPlaying: jrpg | broadPlaying: pcgaming | broadPlaying: gaming | broadPlaying: steam | broadAsk: recommendmeagame | broadAsk: gamerecommendation | broadAsk: recommendagame | broadAsk: whattoplay | broadAsk: gamesuggestion | broadAsk: hiddengem | broadAsk: underratedgames | broadAsk: gamesuggestions | backlog: gamingbacklog | backlog: backlog | backlog: pileofshame | backlog: whatshouldiplay | backlog: gamerecommendations | backlog: gamerecs.
+Posts below: 12 + 1 heated. Dropped in this run: too long 7, other language 267, too old 1249, bot, shop or studio 846, promo (link and hashtags) 122, already shown 14, link post, not a question 18, other language (text) 89, skip word 185, not about games 35, many links 3, low score 18, already answered 2, own post 20, profile says no bots or promo 6, console only 12, content warning 6, too short 2, hidden from search 1, earlier finds: low score 6.
 
 ## Posts
-1. @schamspeare@mstdn.social (schamspeare) · 16h · likes 2 · replies 1 · question · broadPlaying
-   https://mastodon.social/@schamspeare@mstdn.social/117549012198256914
-   original: https://mstdn.social/@schamspeare/117549012159025535
-   When I read that there are between six and eight new card sets a year, I just thought, how is this sustainable? But then I read that they also cycle as many older sets out. Okay, so it’s rigged both ways. The cards you bought are phased out, and there is a constant churn of new o
-2. @mentalmars@mastodon.social (MentalMars) · 19h · likes 1 · replies 0 · question · broadPlaying
-   https://mastodon.social/@mentalmars/117548388504884352
-   ‼️⚠️MESSAGE TO ALL VAULT HUNTERS⚠️‼️ 2K Games and Gearbox Software announced that more Borderlands 4 content is in development. What do you want to see in YEAR 2 ??? #Borderlands #Gaming
+1. @Intaglio_Dragon@furry.engineer (Intaglio Whitegraven) · 4h · likes 1 · replies 0 · question · broadPlaying
+   https://mastodon.social/@Intaglio_Dragon@furry.engineer/117554175732622741
+   original: https://furry.engineer/@Intaglio_Dragon/117554175667261243
+   #PCgaming people: How often have you requested refunds for games you've bought on #Steam or #EpicGames or some other marketplace?
+2. @raccoonformality@tech.lgbt (Raccoon Formality) · 2h · likes 0 · replies 0 · question · broadPlaying
+   https://mastodon.social/@raccoonformality@tech.lgbt/117554599826484658
+   original: https://tech.lgbt/@raccoonformality/117554599495760404
+   Gabe Newell turned 64 today Chat, is this a clue for HL3? 🧐 #valve #gabenewell #videogames #gaming
+3. @pitcrewgg@mastodon.social (PitCrew) · 5h · likes 1 · replies 1 · practical
+   https://mastodon.social/@pitcrewgg/117553862144942297
+   🔄 Epic Games Launcher - Version 0.109.0 Update fixes the Social Panel, adds an account switcher option in the launcher, and labels Dev and Stage sandbox builds in Library (like Legacy Epic Games Launcher). 1/2 #EpicGamesLauncher #EpicGames #EGS #Linux #LinuxGaming #PCGaming
    [image, no description]
-3. @kell@retro.pizza (I am Kell) · 8h · likes 0 · replies 0 · question · broadPlaying
-   https://mastodon.social/@kell@retro.pizza/117551056637930251
-   original: https://retro.pizza/@kell/117551056594816530
-   Recently started playing again through Clair Obscur: Expedition 33, and tonight I just played through the second Renoir fight. I have a lot to say about that fight, about its mechanics and dialogue, as well as about Expedition 33 more broadly. Curious if anyone is still intereste
-4. @thingsiplay@lemmy.ml · 11h · likes 0 · replies 5 · question · deck
-   https://mastodon.social/@thingsiplay@lemmy.ml/117550324735825983
-   original: https://lemmy.ml/post/54843353
-   [Deck] Does Decky Loader break with Steam update? https://lemmy.ml/post/54843353
-   [link card: [Deck] Does Decky Load break with Steam update? - Lemmy]
-5. @5000Units@mastodon.social · 15h · likes 0 · replies 0 · question · broadPlaying
-   https://mastodon.social/@5000Units/117549337581654254
-   We're grown adults. Apparently we still need a gaming curfew. #GamePass #Gaming
+4. @pitcrewgg@mastodon.social (PitCrew) · 5h · likes 1 · replies 1 · practical
+   https://mastodon.social/@pitcrewgg/117553803121785392
+   🔄 SteamVR - Beta Update 2.19.1 SteamVR 2.19.1 boosts streamed image quality with sharper text, colors and higher default resolution across SteamVR and Steam Link, including OpenXR and Linux updates. 1/2 #Linux #LinuxGaming #PCGaming #Steam #ValveSoftware #MetaQuest #OpenXR #PICO
+   [image, no description]
+5. @magguzu@lemmy.pt · 6h · likes 0 · replies 12 · question · deck
+   https://mastodon.social/@magguzu@lemmy.pt/117553541742423681
+   original: https://lemmy.pt/post/18100172
+   Has anyone tried using the Steam Machine as an all in one living room entertainment box? https://lemmy.pt/post/18100172
+   [link card: Has anyone tried using the Steam Machine as an all in one living room entertainment box? - Lemmy Po…]
+6. @TheMinions@lemmy.dbzer0.com · 8h · likes 0 · replies 3 · question · deck
+   https://mastodon.social/@TheMinions@lemmy.dbzer0.com/117553108606336521
+   original: https://lemmy.dbzer0.com/post/77926452
+   [Deck] Issues playing games while installing/downloading games on SD card? https://lemmy.dbzer0.com/post/77926452
+   [link card: [Deck] Issues playing games while installing/downloading games on SD card? - Divisions by zero]
+7. @Fubarberry@sopuli.xyz (Fubarberry) · 9h · likes 0 · replies 5 · question · deck
+   https://mastodon.social/@Fubarberry@sopuli.xyz/117552923301758054
+   original: https://sopuli.xyz/post/54083327
+   [Discussion] What games are you playing on your Steam Deck/Machine/Frame? - November 2026 https://sopuli.xyz/post/54083327
+   [link card: [Discussion] What games are you playing on your Steam Deck/Machine/Frame? - November 2026 - Sopuli]
+8. @gerowen@mastodon.social (Marcus Adams) · 3h · likes 2 · replies 1 · broadPlaying
+   https://mastodon.social/@gerowen/117554398573617422
+   Last night I discovered there is a bug in #ElderScrolls 4 Oblivion where after you've been playing for a few hours, the camera moves upward slightly, effectively making your character a little bit taller. This isn't noticeable from a gameplay or viewport perspective, as far as I 
+9. @ItalianSkeletonGaming@mastodon.social (Italian Skeleton) · 3h · likes 1 · replies 0 · broadPlaying
+   https://mastodon.social/@ItalianSkeletonGaming/117554384484649983
+   I can see why #EnGarde has been so appealing for so many: the chaotic combat resembling a street brawl is strongly reminiscent of Dark Messiah, I haven't kicked so many people down stairs/towards conveniently placed weapon stashes since that game #gaming #videogames #pcgaming #in
    [video, no description]
-6. @lashman@mastodon.social (lashman) · 15m · likes 1 · replies 0 · broadPlaying
-   https://mastodon.social/@lashman/117552834869104376
-   Developer: Pelleteuse Gaming Publisher: Pelleteuse Gaming Release date: 2027 Screenshots: #steam #gaming #videoGames #steamStorePage
-   [4 images: Screenshot 1 from Lumen Keeper / Screenshot 2 from Lumen Keeper / Screenshot 3 from Lumen Keeper / Screenshot 4 from Lumen Keeper]
-7. @lashman@mastodon.social (lashman) · 15m · likes 1 · replies 0 · broadPlaying
-   https://mastodon.social/@lashman/117552832984969597
-   Developer: Miju Games Publisher: Miju Games Release date: 8 Dec, 2026 Screenshots: #steam #gaming #videoGames #steamStorePage
-   [4 images: Screenshot 1 from The Planet Crafter - Magnetaris / Screenshot 2 from The Planet Crafter - Magnetaris / Screenshot 3 from The Planet Crafter - Magnetaris / Screenshot 4 from The Planet Crafter - Magnetaris]
-8. @lashman@mastodon.social (lashman) · 38m · likes 2 · replies 0 · broadPlaying
-   https://mastodon.social/@lashman/117552744191316325
-   Developer: 100 Cozy Games, Cats Publisher: 100 Cozy Games, Cats Release date: 2026 Screenshots: #steam #gaming #videoGames #steamStorePage
-   [4 images: Screenshot 1 from Tiny Knit / Screenshot 2 from Tiny Knit / Screenshot 3 from Tiny Knit / Screenshot 4 from Tiny Knit]
-9. @lashman@mastodon.social (lashman) · 3h · likes 4 · replies 0 · broadPlaying
-   https://mastodon.social/@lashman/117552189592163206
-   Developer: Art Of Play Interactive Publisher: Roditeli Productions, Art Of Play Interactive Release date: Screenshots: #steam #gaming #videoGames #steamStorePage
-   [4 images: Screenshot 1 from Bill & Ted's Excellent Adventure Arcade / Screenshot 2 from Bill & Ted's Excellent Adventure Arcade / Screenshot 3 from Bill & Ted's Excellent Adventure Arcade / Screenshot 4 from Bill & Ted's Excellent Adventure Arcade]
-10. @lashman@mastodon.social (lashman) · 3h · likes 3 · replies 0 · broadPlaying
-   https://mastodon.social/@lashman/117552149595429377
-   Developer: Silver Lemur Games Publisher: Silver Lemur Games Release date: To be announced Screenshots: #steam #gaming #videoGames #steamStorePage
-   [4 images: Screenshot 1 from Governor of Antares / Screenshot 2 from Governor of Antares / Screenshot 3 from Governor of Antares / Screenshot 4 from Governor of Antares]
-11. @lashman@mastodon.social (lashman) · 4h · likes 1 · replies 0 · broadPlaying
-   https://mastodon.social/@lashman/117551927470338813
-   Developer: Saber Interactive Publisher: Focus Entertainment Release date: 3 Nov, 2026 Screenshots: #steam #gaming #videoGames #steamStorePage
-   [4 images: Screenshot 1 from RoadCraft - Foundations Expansion / Screenshot 2 from RoadCraft - Foundations Expansion / Screenshot 3 from RoadCraft - Foundations Expansion / Screenshot 4 from RoadCraft - Foundations Expansion]
-12. @lashman@mastodon.social (lashman) · 5h · likes 1 · replies 0 · broadPlaying
-   https://mastodon.social/@lashman/117551612708454499
-   Developer: YesNinja Games Publisher: YesNinja Games Release date: Coming soon Screenshots: #steam #gaming #videoGames #steamStorePage
-   [4 images: Screenshot 1 from Everrest / Screenshot 2 from Everrest / Screenshot 3 from Everrest / Screenshot 4 from Everrest]
+10. @flaps015@pixelfed.social (playdoh kitchen) · 3h · likes 2 · replies 1 · broadPlaying
+   https://mastodon.social/@flaps015@pixelfed.social/117554367641824516
+   original: https://pixelfed.social/p/flaps015/1023328367220124667
+   i'm only playing my bitzee magicals currently #bitzee #virtualpet #games
+   [image: a bitzee magicals virtual pet device with a green jackalope critter on screen]
+11. @XLCChelt@mastodonapp.uk (Paul Morris) · 3h · likes 0 · replies 0 · question · broadPlaying
+   https://mastodon.social/@XLCChelt@mastodonapp.uk/117554353293554545
+   original: https://mastodonapp.uk/@XLCChelt/117554353263435278
+   What did I think of the FM27 Launch Preview? The PC version was just too much for me personally. It was overwhelming with so much 'stuff' there. Even though the editor will be a better choice. I will wait and see what the Console Edition looks like. There were also many graphical
+12. @reallylazybear@pawb.fun (Eli the Solitary Lazy Bear) · 4h · likes 0 · replies 0 · practical
+   https://mastodon.social/@reallylazybear@pawb.fun/117554043476914933
+   original: https://pawb.fun/@reallylazybear/117554043425719167
+   I have finally finished the latest chapter of Zenless Zone Zero. Right on time for lunch too so I'mma cook something nice for myself. I think I'll be able to stream the game too but idk. I'll think bout it. #zenlesszonezero #gaming #linuxgaming #mastodon #anime #bear #bears #furr
+
+## Heated topics (AI debates etc.): reply only neutrally, with facts
+1. @pitcrewgg@mastodon.social (PitCrew) · 6h · likes 0 · replies 1 · practical
+   https://mastodon.social/@pitcrewgg/117553725065945748
+   🔄 War Thunder - Cluster Bombs in Air Battles War Thunder Air Battles adds cluster bombs that disperse submunitions to cover wide areas, useful against light armor and AI. Eagle’s Shadow expands bomb options. 1/2 #WarThunder #Linux #LinuxGaming #PCGaming #FlightSim #FreeTrack #He
+   [image, no description]

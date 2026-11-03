@@ -1,54 +1,58 @@
 # Comment candidates: retro (@retrogamedeals.bsky.social)
-Made 2026-11-03T14:08Z. Searched: childhood: childhood game | childhood: game from my childhood | childhood: childhood favorite game | childhood: games from my childhood | classicPC: classic pc game | classicPC: old pc games | classicPC: dos games | classicPC: classic pc games | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: retro games recommend | askRetro: best retro games | askRetro: best old games | askRetro: old game recommend | retroFeed: feed.
-Posts below: 12 + 1 heated. Dropped in this run: replies are limited 11, not about games 55, low score 8, skip word 53, promo (link and hashtags) 1, bot, shop or studio 12, already shown 2, other language (text) 20, many links 1, too many hashtags 4, other language 39, not a question 18, too short 4, adult or graphic label 2, earlier finds: low score 5.
+Made 2026-11-03T23:18Z. Searched: childhood: first video game | childhood: played this as a kid game | childhood: first pc game | childhood: childhood game | classicPC: old pc game | classicPC: retro pc gaming | classicPC: dos game | classicPC: classic pc game | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: retro game recommendations | askRetro: old games recommend | askRetro: retro games recommend | askRetro: best retro games | retroFeed: feed.
+Posts below: 12 + 2 heated. Dropped in this run: skip word 84, not about games 70, bot, shop or studio 27, replies are limited 14, low score 12, promo (link and hashtags) 8, many links 3, too many hashtags 3, already answered 1, other language (text) 8, too short 3, not a question 28, other language 30.
 
 ## Posts
-1. @azrall.bsky.social (Allan "Azrall" Bott) · 2h · likes 1 · replies 1 · question · retroFeed
-   https://bsky.app/profile/azrall.bsky.social/post/3mzftwgsxlk2f
-   🌫️ Did you know Silent Hill's iconic fog helped hide the PS1's technical limitations? I've started a new series called Retro Facts, exploring weird and wonderful gaming history! 🎮 Did you know this one, or is it news to you? 👀 #RetroGaming #SilentHill #PS1
-   [video, no description]
-2. @neveronbrand.bsky.social (The Jer Witch Project) · 19h · likes 0 · replies 1 · question · askRetro
-   https://bsky.app/profile/neveronbrand.bsky.social/post/3mzdzblqsac2x
-   "$200? Best I can do is two old games and a mid-tier controller."
-   [image: Pawn Stars]
-3. @jamesirish780.bsky.social (James Irish) · 23h · likes 0 · replies 1 · question · classicPC
-   https://bsky.app/profile/jamesirish780.bsky.social/post/3mzdkzxvqjc2o
-   It's funny. The only time PC gaming ever ruined a console experience for me was when Resident Evil came out. I was spoiled rotten by Lucasarts games like Day of the Tentacle and Sam & Max Hit the Road. When I heard those old RE1 voice actors, I was a little incredulous.
-4. @mylittleretro.bsky.social (My little retro computer world) · 2h · likes 3 · replies 0 · classicPC
-   https://bsky.app/profile/mylittleretro.bsky.social/post/3mzfqwpk4o22a
-   Most DOS games sound best on a Roland SC-55. Released in 1991, it became the gold standard for DOS game music. This particular unit came with firmware 2.00 and the official General MIDI logo. For many classic games, this is how the music was meant to sound! #RetroGaming #DOSGamin
+1. @bralebradycneme.bsky.social (BraleBradycneme) · 2m · likes 1 · replies 0 · question · childhood
+   https://bsky.app/profile/bralebradycneme.bsky.social/post/3mzgxu2qmis26
+   She's awesome, honestly I remember unlocking Mire on that old childhood flash fan game Godzilla Daikaiju Battle Royale when I played it
+2. @handofcourage.bsky.social (Link) · 37m · likes 1 · replies 1 · question · nostalgia
+   https://bsky.app/profile/handofcourage.bsky.social/post/3mzgvvufic22f
+   //I was completely content with not buying another Nintendo product. I didn't like the price jump, the no game on card, I didn't like the gameplay of BOTW/TOTK, But Ocarina Of Time is so special to me. It's one of the earliest games I remember playing. It's so nostalgic to me.
+3. @p00k.bsky.social (Pook) · 9h · likes 1 · replies 1 · question · classicPC
+   https://bsky.app/profile/p00k.bsky.social/post/3mzfz3eaeqc2r
+   It had uncapped framerates, additional video settings, etc. That's all that's expected for the D1 port afaik based on what I've read so far. Consoles will get a 60FPS patch (maybe some graphical upgrades?) and they'll port it to PC. Nothing that says "Brand new game your old char
+4. @stormywriter.bsky.social (Beverley's Horror Corner) · 7h · likes 4 · replies 0 · question · nostalgia
+   https://bsky.app/profile/stormywriter.bsky.social/post/3mzgbturqa22q
+   Having 30 minutes to kill before an eye appointment is a dangerous game. Ended up in my favorite retro shop, and now my collection is three "classics" richer: ​Loch Ness Terror, The Seventh Curse, Vampire Killer Barbys. Worth every penny of that pre-appointment stroll! #PhysicalM
+   [image: Dvd of Loch Ness Terror and Vampire Killer Barbys and Blu-Ray of The Seventh Curse.]
+5. @jackterror.bsky.social (Jack Dalrymple 🧩 JackTerror.eth) · 18h · likes 0 · replies 0 · question · childhood
+   https://bsky.app/profile/jackterror.bsky.social/post/3mzf4jn5gns2j
+   Steam builds a six-second microtrailer from your first store-page video, sampling six different points. Check that little loop before launch. Can someone tell what they actually DO in the game? Tiny asset, real first impression. partner.steamgames.com/doc/store/tr...
+   [link card: Trailers (Steamworks Documentation)]
+6. @ocremix.org (OverClocked ReMix (We ♥ game music!) 🎮�) · 30m · likes 1 · replies 0 · classicPC
+   https://bsky.app/profile/ocremix.org/post/3mzgwcfjcf22h
+   Hey hey! A new episode of the DOS Game Club podcast is out -- 1995 indie PC game Abuse! And one of the special guests... OverClocked ReMix Podcast host Zack! :-) HEY, LISTEN! 🖥️ www.dosgameclub.com/abuse/
+   [link card: Abuse – DOS GAME CLUB Podcast]
+7. @sawbossachieves.bsky.social (Sawboss Achievements) · 1h · likes 0 · replies 0 · question · retroFeed
+   https://bsky.app/profile/sawbossachieves.bsky.social/post/3mzgtlbfum62b
+   Sawboss earned the Retro Achievement "Need a Booster in the Water?" in "Hamelin no Violin Hiki" for the SNES/Super Famicom, earning 5 points. Description: "Find the Penguin Costume" Game details: https://retroachievements.org/game/2965
+   [image: Achievement badge for Need a Booster in the Water?]
+8. @ronaldjr93.bsky.social (Ron Boursaw Jr.) · 4h · likes 3 · replies 2 · question · gogOld
+   https://bsky.app/profile/ronaldjr93.bsky.social/post/3mzgkqwo3qs2v
+   As a Washington State based Canes fan is April a good time to fly out and attend two home games? Is Raleigh a good spring break destination with a 5 and 6 year old? We regularly attend the Winterhawks in Portland and the Kraken in Seattle. Any Raleigh tips or hotel suggestions? #
+9. @harmlessnl.bsky.social (Harmless - Backerkit LIVE!) · 4h · likes 1 · replies 0 · childhood
+   https://bsky.app/profile/harmlessnl.bsky.social/post/3mzgjeo6o7k2v
+   My childhood dream came true!! I got to make a whole bunch of levels for this awesome Game Boy Color game :D I am so proud of how awesome it plays, looks, and sounds!! If you try it out let me know what you think <3
+   [quotes @shmork.bsky.social: hey!👀 shmork adventures is now available on shmorkgames.itch.io/shmork-adventures We @igli.bsky.social @harmlessnl.bsky.social (& Gijs & E…]
+10. @fishingminigames.bsky.social (Is There a Fishing Minigame?) · 4h · likes 3 · replies 0 · classicPC
+   https://bsky.app/profile/fishingminigames.bsky.social/post/3mzgjcv4xec2l
+   You can get Loftia in early access on PC! You can also follow the game on Bluesky, @loftia.bsky.social! store.steampowered.com/app/2320980/...
+   [link card: Save 17% on Loftia on Steam]
+11. @genxarchives.com (Gen X Archives) · 4h · likes 0 · replies 0 · question · retroFeed
+   https://bsky.app/profile/genxarchives.com/post/3mzgjbdv2dv2c
+   Before PlayStation and Xbox, we had Atari, Intellivision, ColecoVision, and eventually the NES. We battled pixelated aliens, jumped over pits, and blew into cartridges like it was a legitimate repair technique. Which console ruled your childhood?
+   [4 images, no description]
+12. @thenlsc.bsky.social (The NLSC) · 5h · likes 3 · replies 0 · childhood
+   https://bsky.app/profile/thenlsc.bsky.social/post/3mzgilff4as24
+   Shawn Kemp in a Sonics throwback in NBA Live 2004 PC. On this day in 1989, The Reignman made his debut as the youngest player in the league, playing ten minutes and scoring three points in Seattle's 106-94 win over Minnesota. It was also the Timberwolves' first NBA game.
    [image, no description]
-5. @lotusenta.gay (Auntie Lotus 🌼💜) · 19h · likes 4 · replies 0 · question · childhood
-   https://bsky.app/profile/lotusenta.gay/post/3mzdxx4acok2i
-   did I just pull a song from a video game I have never played? Yes. It was literally the first thing I thought of. I really need to stop hanging around video game musicians. This is y'all's fault.
-6. @alexjaffe.bsky.social (Alex Jaffe, DC Comics Expert) · 20h · likes 16 · replies 1 · question · childhood
-   https://bsky.app/profile/alexjaffe.bsky.social/post/3mzdwjuruas2c
-   First rapper to make his own video game, huh? Well listen to THIS
-   [link card: chineserap.mp3 - Toby Fox (With Lyrics); quotes @weredawgz.blacksky.app: youtu.be/7Tpgr2Eutko?...]
-7. @emilywindborn.bsky.social (Emily the Goblingirl 🏳️‍⚧️) · 24h · likes 1 · replies 2 · question · childhood
-   https://bsky.app/profile/emilywindborn.bsky.social/post/3mzdion62uc2t
-   Does it have a talking cat? Because that was the thing that won me over for DCC. I am a sucker for talking cats. With attitude. Also it was my first encounter with the whole leveling up it’s a video game in a book kind of thing. Which was fun.
-8. @gamerant.bsky.social (GameRant) · 38m · likes 1 · replies 0 · question · retroFeed
-   https://bsky.app/profile/gamerant.bsky.social/post/3mzfx45v65r2e
-   If you are looking for a challenge, NES games are the best place to start, and these titles are the hardest on the console.
-   [link card: 7 Hardest NES Games Of All Time, Ranked]
-9. @windlord.bsky.social (Windlord 🌪️) · 48m · likes 0 · replies 0 · classicPC
-   https://bsky.app/profile/windlord.bsky.social/post/3mzfwjwmkgs2u
-   Windows was already out by the time Vanilla came out & moved past DOS for World of Warcraft, but the old RTS games were made for DOS Windows XP was the earliest I ever had, but I didn't play Warcraft yet at the time despite seeing all of the great old school commercials
-10. @fishingminigames.bsky.social (Is There a Fishing Minigame?) · 1h · likes 0 · replies 0 · classicPC
-   https://bsky.app/profile/fishingminigames.bsky.social/post/3mzfuiiwspc2j
-   You can get PlinkIdle on PC! You can also follow the developers on Bluesky, @blackheartgames.bsky.social! store.steampowered.com/app/3684530/...
-   [link card: Save 15% on PlinkIdle on Steam]
-11. @nashvillecasino.bsky.social · 1h · likes 0 · replies 0 · childhood
-   https://bsky.app/profile/nashvillecasino.bsky.social/post/3mzfu7cwxwc2z
-   An arcade machine rental in Nashville is a different proposition from a games table. The machines run themselves; they need no dealer and no explanation, and a guest who has not played since childhood will still know what to do with a joystick. nashvillecasinonight.com/arcade-gam
-   [link card: Arcade Game Rentals in Nashville | Casino Party Experts]
-12. @mulgar.bsky.social (Mulgar) · 2h · likes 0 · replies 0 · childhood
-   https://bsky.app/profile/mulgar.bsky.social/post/3mzfs3d7ets2l
-   The original context for the latter could be the idea that the player had gone through the NES Zeldas or LttP a few years earlier, but the fact that Ocarina itself can serve as its own "childhood game" in that context speaks to how high quality its storytelling is.
 
 ## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @feed.igeek.gamer-geek-news.com.ap.brid.gy (input) · 23h · likes 0 · replies 0 · gogOld
-   https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3mzdmffu4k5u2
-   🕹️ **'We Have the Skills to Bring Love to These Old Games' - After Last Month's Beta, MediEvil's AI-Free Recomp Hits Version 1.0** Includes new fixes and improved modding support.We have some good news for MediEvil fans! The recompilation of the […] [Original post on igeek.gamer
-   [image: Image for: 'We Have the Skills to Bring Love to These Old Games' - After Last Month's Beta, MediEvil's AI-Free Recomp Hits Version 1.0]
+1. @scroungin4catsup.bsky.social (Scroungin' 4 Catsup) · 3h · likes 1 · replies 0 · question · retroFeed
+   https://bsky.app/profile/scroungin4catsup.bsky.social/post/3mzgoth5fmk2s
+   Reddit user posts what he claims is a picture of him playing SNES from 1996 but was actually taken this week. You know what? In the age of AI I respect a good old-fashioned staged photograph [screenshot of original post attached because it was removed] www.reddit.com/r/snes/comme
+   [image: Shirtless white guy with mullet, mustache and sunglasses playing Killer Instinct for the SNES, which is set up on his kitchen counter. A modern bottle of Fireb…]
+2. @seandehrlich.bsky.social (Sean Ehrlich) · 2h · likes 5 · replies 2 · childhood
+   https://bsky.app/profile/seandehrlich.bsky.social/post/3mzgs6s62kk2u
+   Ugh. Analysis of turnout differential has already begun. This is my cure to log off for many hours. My Election Day routine since Trump first won is to buy a new video game and play it all evening before checking results at 11 or so to avoid the stress. Time to go to the Nintendo
