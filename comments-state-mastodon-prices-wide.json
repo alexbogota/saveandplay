@@ -8,102 +8,47 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 440,
-      "posts": 18560,
+      "runs": 448,
+      "posts": 18920,
       "fit": 220,
       "last": {
         "posts": 80,
         "fit": 0,
-        "at": "2026-11-03T00:56:53.755Z"
+        "at": "2026-11-03T14:07:40.652Z"
       }
     },
     "moreAsk": {
-      "runs": 275,
-      "posts": 2475,
+      "runs": 280,
+      "posts": 2520,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-11-03T00:56:53.755Z"
+        "at": "2026-11-03T14:07:40.652Z"
       }
     },
     "moreRetro": {
-      "runs": 275,
-      "posts": 17720,
-      "fit": 618,
+      "runs": 280,
+      "posts": 18040,
+      "fit": 627,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-03T00:56:53.755Z"
+        "at": "2026-11-03T14:07:40.652Z"
       }
     },
     "morePlaying": {
-      "runs": 275,
-      "posts": 1155,
+      "runs": 280,
+      "posts": 1176,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-11-03T00:56:53.755Z"
+        "at": "2026-11-03T14:07:40.652Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@gpowerf/117543385098881851": {
-      "uri": "https://mastodon.social/@gpowerf/117543385098881851",
-      "url": "https://mastodon.social/@gpowerf/117543385098881851",
-      "handle": "gpowerf@mastodon.social",
-      "name": "Dr. G. Power",
-      "text": "Did anyone else order the Commodore TAC-2 Joystick? Shipping estimate had been 31st of October, but my order still says they are prapering for production. I'm just curious if other's orders have a different status or if we will have to way a good while for the joysticks to be manufactured. #retrogaming",
-      "createdAt": "2026-11-01T21:48:38.919Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 6,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": null,
-      "firstSeen": "2026-11-01T22:00:09.194Z"
-    },
-    "https://mastodon.social/@malura/117542883231321892": {
-      "uri": "https://mastodon.social/@malura/117542883231321892",
-      "url": "https://mastodon.social/@malura/117542883231321892",
-      "handle": "malura@mastodon.social",
-      "name": "Michael Malura",
-      "text": "Original-Hardware, Emulator oder Mini-Konsole? Wie spielst du alte Sachen? #RetroGaming",
-      "createdAt": "2026-11-01T19:41:01.027Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 6,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": null,
-      "firstSeen": "2026-11-01T22:00:09.194Z"
-    },
-    "https://mastodon.social/@johnny@lazygeek.cafe/117543625256869554": {
-      "uri": "https://mastodon.social/@johnny@lazygeek.cafe/117543625256869554",
-      "url": "https://mastodon.social/@johnny@lazygeek.cafe/117543625256869554",
-      "handle": "johnny@lazygeek.cafe",
-      "name": "Johnny.rtf",
-      "text": "@eri Yeah, why not. It's the most organised it's ever been and I'm pretty happy with it. #GamingSetup #GamingSetup2026 #Gaming #RetroGaming",
-      "createdAt": "2026-11-01T22:49:37.564Z",
-      "likes": 2,
-      "replies": 2,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": true,
-      "origin": "https://lazygeek.cafe/objects/ac6cc4b9-840a-4fa7-bef1-4919462fa1de",
-      "media": "2 images: My gaming setup. A flatscreen TV surrounded by a Switch, Analogue Super NT, Intellivision Sprint, and Analogue Mega SG. To the right is a cabinet with A/V rece… / A shelf full mostly of video games, including Super Nintendo, Game Boy, and Game Bear. Also an Analogue Pocket, an iPod, and a book titled \"How to Win at Pac-m…",
-      "firstSeen": "2026-11-02T05:58:01.745Z"
-    },
     "https://mastodon.social/@gregly@retro.pizza/117547168006321738": {
       "uri": "https://mastodon.social/@gregly@retro.pizza/117547168006321738",
       "url": "https://mastodon.social/@gregly@retro.pizza/117547168006321738",
@@ -187,11 +132,11 @@
       "name": "vga256",
       "text": "congrats to clément on the big box collectors group for completing his eidos stargate 🙏 #bigboxgames #retrogaming",
       "createdAt": "2026-11-02T21:30:53.000Z",
-      "likes": 38,
-      "replies": 3,
+      "likes": 86,
+      "replies": 5,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 4,
+      "score": 3,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -206,11 +151,11 @@
       "name": "aNdy",
       "text": "This took a lot of effort and bug hunting, but I've finally got trains to appear on CityLab's rail network! Due to memory limitations, they only travel on horizontal and vertical sections, they can't traverse bends. Sorry! @c64 @EC64 #Commodore #retrogaming #retrogames #8bit #simulation #c64",
       "createdAt": "2026-11-02T20:44:04.000Z",
-      "likes": 6,
+      "likes": 8,
       "replies": 1,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -229,7 +174,7 @@
       "replies": 1,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 4,
+      "score": 3,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -272,6 +217,24 @@
       "isReply": false,
       "media": "image: A cross stitch project done on 25 count evenweave. The fabric is a tan color with 9 boxes with the face of the characters being framed by dark blue with lighte…",
       "firstSeen": "2026-11-03T00:56:53.755Z"
+    },
+    "https://mastodon.social/@stunningshemp/117549926268577394": {
+      "uri": "https://mastodon.social/@stunningshemp/117549926268577394",
+      "url": "https://mastodon.social/@stunningshemp/117549926268577394",
+      "handle": "stunningshemp@mastodon.social",
+      "name": "Chris Coats",
+      "text": "Princess perfection #retrogaming #supermariobros2 #supermario #stunningshemp #twitch",
+      "createdAt": "2026-11-03T01:32:09.253Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 3,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "video, no description",
+      "firstSeen": "2026-11-03T14:07:40.652Z"
     }
   }
 }
