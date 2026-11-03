@@ -1,65 +1,67 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-11-02T20:38:26.851Z",
-  "builtBy": "commit c277be7, schedule, run #34 attempt 1",
-  "pricesCheckedAt": "2026-11-02T19:41:51.897Z",
+  "generatedAt": "2026-11-03T18:15:34.889Z",
+  "builtBy": "commit bd74aa5, schedule, run #35 attempt 1",
+  "pricesCheckedAt": "2026-11-03T17:15:27.381Z",
   "warnings": [],
   "candidates": [
     {
-      "id": "gog-dragon-s-dogma-dark-arisen",
+      "id": "gog-darkest-dungeon",
       "kind": "deal",
-      "title": "Dragon's Dogma: Dark Arisen",
+      "title": "Darkest Dungeon",
       "store": "GOG",
-      "price": 4.79,
-      "was": 29.99,
-      "discount": 84,
+      "price": 3.75,
+      "was": 24.99,
+      "discount": 85,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 59,
-      "priceCheckedAt": "2026-11-02T19:41:44.209Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367500/header.jpg?t=1768870344",
+      "endsInHours": 38,
+      "priceCheckedAt": "2026-11-03T17:15:27.381Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187",
       "drminfo": null,
-      "coverAlt": "Cover art for Dragon's Dogma: Dark Arisen",
+      "coverAlt": "Cover art for Darkest Dungeon",
       "facts": {
         "year": 2016,
         "genres": [
           "Role-playing",
-          "Action",
-          "Open World"
+          "Turn-based",
+          "Fantasy"
         ],
         "tags": [
-          "Action",
+          "Indie",
           "Fantasy",
-          "Story Rich",
           "Atmospheric",
           "Role-playing",
-          "Exploration",
-          "Great Soundtrack",
-          "Third Person",
-          "Open World",
-          "Multiplayer",
+          "2D",
+          "Turn-Based",
+          "Dark",
+          "Horror",
           "Difficult",
-          "JRPG",
-          "Magic",
-          "Hack and Slash"
+          "Roguelike",
+          "Roguelite",
+          "Dungeon Crawler",
+          "Lovecraftian",
+          "Perma Death",
+          "Petting Dogs"
         ]
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 10.4,
-      "discountRank": 5,
+      "score": 12.5,
+      "discountRank": 4,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 14,
+        "days": 25,
         "lowest": true,
-        "since": "2026-10-18"
+        "since": "2026-10-07"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/dragon-s-dogma-dark-arisen/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-02",
+      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-03",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (14 days of data)",
-        "deepest-discount rank 5 of 7"
+        "sale ends in 38 h",
+        "lowest price we've tracked (25 days of data)",
+        "deepest-discount rank 4 of 6"
       ]
     },
     {
@@ -71,8 +73,8 @@
       "was": 19.99,
       "discount": 80,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 59,
-      "priceCheckedAt": "2026-11-02T19:41:44.209Z",
+      "endsInHours": 38,
+      "priceCheckedAt": "2026-11-03T17:15:27.381Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/973760/f748e07df077bb0cf4c49d4bc0f6437f510c5251/header.jpg?t=1761829221",
       "drminfo": null,
       "coverAlt": "Cover art for Thronebreaker: The Witcher Tales",
@@ -105,75 +107,22 @@
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 10,
+      "score": 12,
       "discountRank": 6,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 22,
+        "days": 23,
         "lowest": true,
         "since": "2026-10-07"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/thronebreaker-the-witcher-tales/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-02",
+      "link": "https://saveandplay.com/deals/gog/thronebreaker-the-witcher-tales/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-03",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (22 days of data)",
-        "deepest-discount rank 6 of 7"
-      ]
-    },
-    {
-      "id": "gog-simcity-4-deluxe-edition",
-      "kind": "deal",
-      "title": "SimCity 4 Deluxe Edition",
-      "store": "GOG",
-      "price": 4.99,
-      "was": 19.99,
-      "discount": 75,
-      "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 59,
-      "priceCheckedAt": "2026-11-02T19:41:44.209Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
-      "drminfo": null,
-      "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
-      "facts": {
-        "year": 2003,
-        "genres": [
-          "Simulation",
-          "Building",
-          "Managerial"
-        ],
-        "tags": [
-          "Atmospheric",
-          "Simulation",
-          "Classic",
-          "Great Soundtrack",
-          "Management",
-          "Sandbox",
-          "Real-Time",
-          "Isometric",
-          "Building",
-          "Managerial",
-          "City builder"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 9.5,
-      "discountRank": 7,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 24,
-        "lowest": true,
-        "since": "2026-10-07"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-02",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "lowest price we've tracked (24 days of data)",
-        "deepest-discount rank 7 of 7"
+        "sale ends in 38 h",
+        "lowest price we've tracked (23 days of data)",
+        "deepest-discount rank 6 of 6"
       ]
     },
     {
@@ -185,8 +134,8 @@
       "was": 29.99,
       "discount": 85,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 59,
-      "priceCheckedAt": "2026-11-02T19:41:44.209Z",
+      "endsInHours": 38,
+      "priceCheckedAt": "2026-11-03T17:15:27.381Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323190/abcd2bf3c275092d637d7dd98e0061dbdd2fd2da/header.jpg?t=1784897899",
       "drminfo": null,
       "coverAlt": "Cover art for Frostpunk",
@@ -218,7 +167,7 @@
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 5.5,
+      "score": 7.5,
       "discountRank": 2,
       "sites": 1,
       "mentions": [
@@ -232,17 +181,18 @@
         }
       ],
       "history": {
-        "days": 21,
+        "days": 22,
         "lowest": true,
         "since": "2026-10-13"
       },
       "offeredOn": "2026-10-29",
-      "link": "https://saveandplay.com/deals/gog/frostpunk/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-02",
+      "link": "https://saveandplay.com/deals/gog/frostpunk/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-03",
       "linkKind": "link to our site",
       "whyToday": [
         "1 news site wrote about the game in the last 48 h",
-        "lowest price we've tracked (21 days of data)",
-        "deepest-discount rank 2 of 7"
+        "sale ends in 38 h",
+        "lowest price we've tracked (22 days of data)",
+        "deepest-discount rank 2 of 6"
       ]
     },
     {
@@ -254,8 +204,8 @@
       "was": 39.99,
       "discount": 90,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 59,
-      "priceCheckedAt": "2026-11-02T19:41:44.209Z",
+      "endsInHours": 38,
+      "priceCheckedAt": "2026-11-03T17:15:27.381Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
       "drminfo": null,
       "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
@@ -287,49 +237,108 @@
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 3,
+      "score": 5,
       "discountRank": 1,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 24,
+        "days": 25,
         "lowest": true,
         "since": "2026-10-07"
       },
       "offeredOn": "2026-10-31",
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-02",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-03",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (24 days of data)",
-        "deepest-discount rank 1 of 7"
+        "sale ends in 38 h",
+        "lowest price we've tracked (25 days of data)",
+        "deepest-discount rank 1 of 6"
+      ]
+    },
+    {
+      "id": "gog-dragon-s-dogma-dark-arisen",
+      "kind": "deal",
+      "title": "Dragon's Dogma: Dark Arisen",
+      "store": "GOG",
+      "price": 4.79,
+      "was": 29.99,
+      "discount": 84,
+      "endsAt": "2026-11-05T09:59:00+02:00",
+      "endsInHours": 38,
+      "priceCheckedAt": "2026-11-03T17:15:27.381Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367500/header.jpg?t=1768870344",
+      "drminfo": null,
+      "coverAlt": "Cover art for Dragon's Dogma: Dark Arisen",
+      "facts": {
+        "year": 2016,
+        "genres": [
+          "Role-playing",
+          "Action",
+          "Open World"
+        ],
+        "tags": [
+          "Action",
+          "Fantasy",
+          "Story Rich",
+          "Atmospheric",
+          "Role-playing",
+          "Exploration",
+          "Great Soundtrack",
+          "Third Person",
+          "Open World",
+          "Multiplayer",
+          "Difficult",
+          "JRPG",
+          "Magic",
+          "Hack and Slash"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 4.4,
+      "discountRank": 5,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 15,
+        "lowest": true,
+        "since": "2026-10-18"
+      },
+      "offeredOn": "2026-11-02",
+      "link": "https://saveandplay.com/deals/gog/dragon-s-dogma-dark-arisen/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-03",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "sale ends in 38 h",
+        "lowest price we've tracked (15 days of data)",
+        "deepest-discount rank 5 of 6"
       ]
     }
   ],
   "gogNews": [],
   "topical": [
     {
-      "title": "Microids Publisher Sale on Steam features games for as little as $0.99",
+      "title": "Humble Choice November 2026 gets you Mafia: The Old Country, The Outer Worlds 2 & more!",
       "source": "gg.deals News",
-      "link": "https://gg.deals/deal/microids-publisher-sale-on-steam-features-games-for-as-little-as-099/",
-      "t": 1793647985000,
-      "keyword": "sale",
-      "summary": "Syberia Remastered, Amerzone &ndash; The Explorer's Legacy, Space Adventure Cobra &ndash; The Awakening, and more are available at bargain prices!"
+      "link": "https://gg.deals/bundle/humble-choice-november-2026/",
+      "t": 1793729220000,
+      "keyword": "humble",
+      "summary": "Let&rsquo;s see how much of the leak made it into the actual lineup."
     },
     {
-      "title": "Riddle your way to a deal: Steam’s Point & Click Showcase Sale offers up to 90% off",
+      "title": "The Legend of Zelda: Ocarina of Time gets a rare Nintendo first-party discount ahead of this week's launch!",
       "source": "gg.deals News",
-      "link": "https://gg.deals/deal/riddle-your-way-to-a-deal-steams-point-click-showcase-sale-offers-up-to-90-off/",
-      "t": 1793646720000,
-      "keyword": "sale",
-      "summary": "Point, click, save."
+      "link": "https://gg.deals/deal/the-legend-of-zelda-ocarina-of-time-gets-a-rare-nintendo-first-party-discount/",
+      "t": 1793726880000,
+      "keyword": "discount",
+      "summary": "It's about damn time."
     },
     {
-      "title": "Steam’s 11 bit Sale offers This War of Mine, Frostpunk, Moonlighter & more with up to 90% off",
+      "title": "Top Hat Studios and Finji Steam sales are live, with TUNIC and other indie gems discounted!",
       "source": "gg.deals News",
-      "link": "https://gg.deals/deal/steams-11-bit-sale-offers-this-war-of-mine-frostpunk-moonlighter-more-with-up-to-90-off/",
-      "t": 1793644320000,
-      "keyword": "sale",
-      "summary": "The offer ends on November 14."
+      "link": "https://gg.deals/deal/top-hat-studios-and-finji-steam-sales/",
+      "t": 1793721600000,
+      "keyword": "sales",
+      "summary": "A little indie magic for less!"
     }
   ],
   "topics": [
@@ -367,7 +376,34 @@
       ]
     },
     {
-      "headline": "Footage of what sure looks like a Persona 1 remake has leaked",
+      "headline": "First Humble Bundle this November has 13 Steam games for just $14!",
+      "score": 10,
+      "sites": [
+        "gg.deals",
+        "indiegamebundles.com"
+      ],
+      "keywords": [
+        "bundle",
+        "humble"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "First Humble Bundle this November has 13 Steam games for just $14!",
+          "link": "https://gg.deals/bundle/first-humble-bundle-this-november-has-13-steam-games-for-just-14/",
+          "published": "2026-11-02T20:42:00.000Z"
+        },
+        {
+          "source": "Indie Game Bundles",
+          "title": "Humble Crimes and Curiosity Bundle: 13 Steam Games and 1 DLC for Just $14",
+          "link": "https://www.indiegamebundles.com/humble-crimes-and-curiosity-bundle-13-mystery-steam-games-and-1-dlc-for-just-14/",
+          "published": "2026-11-02T20:29:09.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "The Elder Scrolls 6: Sentinel teaser all but confirms Hammerfell setting and means we can finally stop using that eight year old header image with the hills",
       "score": 9,
       "sites": [
         "pcgamer.com",
@@ -379,87 +415,61 @@
       "items": [
         {
           "source": "PC Gamer",
-          "title": "Footage of what sure looks like a Persona 1 remake has leaked",
-          "link": "https://www.pcgamer.com/games/rpg/footage-of-what-sure-looks-like-a-persona-1-remake-has-leaked/",
-          "published": "2026-11-02T02:06:50.000Z"
+          "title": "The Elder Scrolls 6: Sentinel is finally made official",
+          "link": "https://www.pcgamer.com/games/the-elder-scrolls/the-elder-scrolls-6-sentinel-is-finally-made-official/",
+          "published": "2026-11-03T15:33:59.000Z"
         },
         {
           "source": "Rock Paper Shotgun",
-          "title": "It looks like footage of a Persona 1 remake has leaked, and if it's legit I really hope you don't hate the colour purple",
-          "link": "https://www.rockpapershotgun.com/it-looks-like-footage-of-a-persona-1-remake-has-leaked-and-if-its-legit-i-really-hope-you-dont-hate-the-colour-purple",
-          "published": "2026-11-01T17:17:15.000Z"
+          "title": "The Elder Scrolls 6: Sentinel teaser all but confirms Hammerfell setting and means we can finally stop using that eight year old header image with the hills",
+          "link": "https://www.rockpapershotgun.com/the-elder-scrolls-6-sentinel-teaser-all-but-confirms-hammerfell-setting-and-means-we-can-finally-stop-using-that-eight-year-old-header-image-with-the-hills",
+          "published": "2026-11-03T16:09:52.000Z"
         },
         {
           "source": "Eurogamer",
-          "title": "Footage of a Persona 1 remake has seemingly leaked online",
-          "link": "https://www.eurogamer.net/persona-1-remake-be-your-true-mind-leak",
-          "published": "2026-11-01T16:35:17.000Z"
+          "title": "The Elder Scrolls 6: Sentinel is confirmed, finally getting new trailer and full name, 8 years, 4 months, and 23 days after its reveal",
+          "link": "https://www.eurogamer.net/the-elder-scrolls-6-sentinel-revealed-bethesda-xbox",
+          "published": "2026-11-03T15:08:07.000Z"
         }
       ]
     },
     {
-      "headline": "Humble Choice October 2026 – LAST DAY",
-      "score": 8,
-      "sites": [
-        "gg.deals",
-        "indiegamebundles.com"
-      ],
-      "keywords": [
-        "humble"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "Get Humble Choice October 2026 for $12 instead of $14.99 with this promo code!",
-          "link": "https://gg.deals/bundle/get-humble-choice-october-2026-for-12-instead-of-1499-with-this-promo-code/",
-          "published": "2026-11-02T09:39:00.000Z"
-        },
-        {
-          "source": "Indie Game Bundles",
-          "title": "Humble Choice October 2026 – LAST DAY",
-          "link": "https://www.indiegamebundles.com/humble-choice-october-2026/",
-          "published": "2026-11-02T18:29:16.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Humble Crimes and Curiosity Bundle: 13 Steam Games and 1 DLC for Just $14",
-      "score": 7,
-      "sites": [
-        "indiegamebundles.com"
-      ],
-      "keywords": [
-        "bundle",
-        "humble"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "Indie Game Bundles",
-          "title": "Humble Crimes and Curiosity Bundle: 13 Steam Games and 1 DLC for Just $14",
-          "link": "https://www.indiegamebundles.com/humble-crimes-and-curiosity-bundle-13-mystery-steam-games-and-1-dlc-for-just-14/",
-          "published": "2026-11-02T20:29:09.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Steam’s first Weeklong Sale in November is bursting with over 7,000 deals!",
+      "headline": "Epic’s Square Enix Harvest Sale brings record-low prices on Final Fantasy VII Remake & Rebirth (plus more!)",
       "score": 7,
       "sites": [
         "gg.deals"
       ],
       "keywords": [
         "sale",
-        "deals"
+        "prices"
       ],
       "games": [],
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Steam’s first Weeklong Sale in November is bursting with over 7,000 deals!",
-          "link": "https://gg.deals/deal/steams-first-weeklong-sale-in-november-is-bursting-with-over-7000-deals/",
-          "published": "2026-11-02T19:49:22.000Z"
+          "title": "Epic’s Square Enix Harvest Sale brings record-low prices on Final Fantasy VII Remake & Rebirth (plus more!)",
+          "link": "https://gg.deals/deal/epics-square-enix-harvest-sale-brings-record-low-prices-on-final-fantasy-vii-remake-rebirth-plus-more/",
+          "published": "2026-11-03T17:48:43.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Mobile Suit Gundam Battle Operation 3 has been announced, marking another attempt at a free-to-play team game after Gundam Evolution's unfortunate fate",
+      "score": 7,
+      "sites": [
+        "rockpapershotgun.com"
+      ],
+      "keywords": [
+        "free",
+        "free to play"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "Rock Paper Shotgun",
+          "title": "Mobile Suit Gundam Battle Operation 3 has been announced, marking another attempt at a free-to-play team game after Gundam Evolution's unfortunate fate",
+          "link": "https://www.rockpapershotgun.com/mobile-suit-gundam-battle-operation-3-has-been-announced-marking-another-attempt-at-a-free-to-play-team-game-after-gundam-evolutions-unfortunate-fate",
+          "published": "2026-11-03T16:53:42.000Z"
         }
       ]
     }
@@ -469,11 +479,11 @@
     "hidden": 0,
     "notNiche": 0,
     "noFacts": 0,
-    "taken": 1,
+    "taken": 2,
     "repeat": 0,
     "smallDiscount": 0,
-    "ended": 0,
-    "endsTooSoon": 1,
+    "ended": 1,
+    "endsTooSoon": 0,
     "oldPrice": 0
   },
   "sources": {

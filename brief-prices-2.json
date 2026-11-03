@@ -1,8 +1,8 @@
 {
   "account": "Honest prices (second deal of the day)",
-  "generatedAt": "2026-11-02T20:38:26.851Z",
-  "builtBy": "commit c277be7, schedule, run #34 attempt 1",
-  "pricesCheckedAt": "2026-11-02T19:41:51.897Z",
+  "generatedAt": "2026-11-03T18:15:34.889Z",
+  "builtBy": "commit bd74aa5, schedule, run #35 attempt 1",
+  "pricesCheckedAt": "2026-11-03T17:15:27.381Z",
   "warnings": [],
   "candidates": [
     {
@@ -14,8 +14,8 @@
       "was": 19.99,
       "discount": 85,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 59,
-      "priceCheckedAt": "2026-11-02T19:41:44.209Z",
+      "endsInHours": 38,
+      "priceCheckedAt": "2026-11-03T17:15:27.381Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
       "drminfo": null,
       "coverAlt": "Cover art for This War of Mine",
@@ -48,7 +48,7 @@
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 5.5,
+      "score": 7.5,
       "discountRank": 4,
       "sites": 1,
       "mentions": [
@@ -62,16 +62,17 @@
         }
       ],
       "history": {
-        "days": 15,
+        "days": 16,
         "lowest": true,
         "since": "2026-10-19"
       },
-      "offeredOn": "2026-11-01",
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-02",
+      "offeredOn": "2026-11-02",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-03",
       "linkKind": "link to our site",
       "whyToday": [
         "1 news site wrote about the game in the last 48 h",
-        "lowest price we've tracked (15 days of data)",
+        "sale ends in 38 h",
+        "lowest price we've tracked (16 days of data)",
         "deepest-discount rank 4 of 7"
       ]
     },
@@ -84,8 +85,8 @@
       "was": 29.99,
       "discount": 85,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 59,
-      "priceCheckedAt": "2026-11-02T19:41:44.209Z",
+      "endsInHours": 38,
+      "priceCheckedAt": "2026-11-03T17:15:27.381Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323190/abcd2bf3c275092d637d7dd98e0061dbdd2fd2da/header.jpg?t=1784897899",
       "drminfo": null,
       "coverAlt": "Cover art for Frostpunk",
@@ -117,7 +118,7 @@
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 5.5,
+      "score": 7.5,
       "discountRank": 2,
       "sites": 1,
       "mentions": [
@@ -131,16 +132,17 @@
         }
       ],
       "history": {
-        "days": 21,
+        "days": 22,
         "lowest": true,
         "since": "2026-10-13"
       },
       "offeredOn": "2026-10-29",
-      "link": "https://saveandplay.com/deals/gog/frostpunk/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-02",
+      "link": "https://saveandplay.com/deals/gog/frostpunk/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-03",
       "linkKind": "link to our site",
       "whyToday": [
         "1 news site wrote about the game in the last 48 h",
-        "lowest price we've tracked (21 days of data)",
+        "sale ends in 38 h",
+        "lowest price we've tracked (22 days of data)",
         "deepest-discount rank 2 of 7"
       ]
     },
@@ -153,8 +155,8 @@
       "was": 39.99,
       "discount": 90,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 59,
-      "priceCheckedAt": "2026-11-02T19:41:44.209Z",
+      "endsInHours": 38,
+      "priceCheckedAt": "2026-11-03T17:15:27.381Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
       "drminfo": null,
       "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
@@ -186,78 +188,79 @@
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 3,
+      "score": 5,
       "discountRank": 1,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 24,
+        "days": 25,
         "lowest": true,
         "since": "2026-10-07"
       },
       "offeredOn": "2026-10-31",
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-02",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-03",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (24 days of data)",
+        "sale ends in 38 h",
+        "lowest price we've tracked (25 days of data)",
         "deepest-discount rank 1 of 7"
       ]
     },
     {
-      "id": "gog-darkest-dungeon",
+      "id": "gog-dragon-s-dogma-dark-arisen",
       "kind": "deal",
-      "title": "Darkest Dungeon",
+      "title": "Dragon's Dogma: Dark Arisen",
       "store": "GOG",
-      "price": 3.75,
-      "was": 24.99,
-      "discount": 85,
+      "price": 4.79,
+      "was": 29.99,
+      "discount": 84,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 59,
-      "priceCheckedAt": "2026-11-02T19:41:44.209Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187",
+      "endsInHours": 38,
+      "priceCheckedAt": "2026-11-03T17:15:27.381Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367500/header.jpg?t=1768870344",
       "drminfo": null,
-      "coverAlt": "Cover art for Darkest Dungeon",
+      "coverAlt": "Cover art for Dragon's Dogma: Dark Arisen",
       "facts": {
         "year": 2016,
         "genres": [
           "Role-playing",
-          "Turn-based",
-          "Fantasy"
+          "Action",
+          "Open World"
         ],
         "tags": [
-          "Indie",
+          "Action",
           "Fantasy",
+          "Story Rich",
           "Atmospheric",
           "Role-playing",
-          "2D",
-          "Turn-Based",
-          "Dark",
-          "Horror",
+          "Exploration",
+          "Great Soundtrack",
+          "Third Person",
+          "Open World",
+          "Multiplayer",
           "Difficult",
-          "Roguelike",
-          "Roguelite",
-          "Dungeon Crawler",
-          "Lovecraftian",
-          "Perma Death",
-          "Petting Dogs"
+          "JRPG",
+          "Magic",
+          "Hack and Slash"
         ]
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 2.5,
+      "score": 4.4,
       "discountRank": 5,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 24,
+        "days": 15,
         "lowest": true,
-        "since": "2026-10-07"
+        "since": "2026-10-18"
       },
-      "offeredOn": "2026-10-27",
-      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-02",
+      "offeredOn": "2026-11-02",
+      "link": "https://saveandplay.com/deals/gog/dragon-s-dogma-dark-arisen/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-03",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (24 days of data)",
+        "sale ends in 38 h",
+        "lowest price we've tracked (15 days of data)",
         "deepest-discount rank 5 of 7"
       ]
     },
@@ -270,8 +273,8 @@
       "was": 19.99,
       "discount": 80,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 59,
-      "priceCheckedAt": "2026-11-02T19:41:44.209Z",
+      "endsInHours": 38,
+      "priceCheckedAt": "2026-11-03T17:15:27.381Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/973760/f748e07df077bb0cf4c49d4bc0f6437f510c5251/header.jpg?t=1761829221",
       "drminfo": null,
       "coverAlt": "Cover art for Thronebreaker: The Witcher Tales",
@@ -304,20 +307,21 @@
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 2,
+      "score": 4,
       "discountRank": 6,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 22,
+        "days": 23,
         "lowest": true,
         "since": "2026-10-07"
       },
       "offeredOn": "2026-10-29",
-      "link": "https://saveandplay.com/deals/gog/thronebreaker-the-witcher-tales/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-02",
+      "link": "https://saveandplay.com/deals/gog/thronebreaker-the-witcher-tales/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-03",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (22 days of data)",
+        "sale ends in 38 h",
+        "lowest price we've tracked (23 days of data)",
         "deepest-discount rank 6 of 7"
       ]
     }
@@ -333,8 +337,8 @@
     "taken": 1,
     "repeat": 0,
     "smallDiscount": 0,
-    "ended": 0,
-    "endsTooSoon": 1,
+    "ended": 1,
+    "endsTooSoon": 0,
     "oldPrice": 0
   },
   "sources": {
@@ -343,17 +347,17 @@
   },
   "posts": {
     "x": {
-      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nPrice checked Nov 2. Sale ends Nov 5. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-02\n\n#PCGaming #GameDeals\nAd",
-      "length": 164,
+      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nPrice checked Nov 3. Sale ends Nov 5. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-03\n\n#PCGaming #GOG\nAd",
+      "length": 158,
       "max": 270,
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-02",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-03",
       "deal": "gog-this-war-of-mine"
     },
     "bluesky": {
-      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nPrice checked Nov 2. Sale ends Nov 5. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-02\n\n#PCGaming #GameDeals #Gaming #ThisWarOfMine #Games\nAd",
-      "length": 196,
+      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nPrice checked Nov 3. Sale ends Nov 5. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-03\n\n#PCGaming #GameDeals #DRMFree #PCGames #GOG\nAd",
+      "length": 189,
       "max": 300,
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-02",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-03",
       "deal": "gog-this-war-of-mine"
     }
   }
