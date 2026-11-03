@@ -1973,6 +1973,54 @@
             "id": "7c2734a10e3b5818950286d44abfb22a5800db6437658d15534999cc28c8c019",
             "sig": "2dec8b8fe64849eca2f28ab16b48861d41fbdeb6bb467d4acb459ed5973ea1701f139b419703c9db7a679aca153fbec016492867c945acaaca8b5f1ce2258838"
           }
+        },
+        "article": {
+          "status": "done",
+          "kind": "article",
+          "id": "a15cfda2458cd58f10d52aa8e2282fa1e9cd9f61347cfb9ad4ac9afee7bcf994",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "article": "how-to-read-steam-reviews",
+          "postedAt": "2026-11-03T22:10:55.000Z",
+          "accepted": [
+            "wss://relay.damus.io",
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [],
+          "event": {
+            "kind": 1,
+            "created_at": 1793743855,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-article"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://saveandplay.com/og/how-to-read-steam-reviews.png",
+                "m image/png",
+                "alt Diagram: Steam shows two review scores, one for the past 30 days and one for the lifetime of the game. Reviews from key activations count toward neither score, though you can still read them. No real scores are shown."
+              ]
+            ],
+            "content": "How to read Steam reviews: what the score counts and what it leaves out\n\nSteam shows two review scores and counts only some reviews. Here is what Steam's own documentation says, and five checks to read reviews before you buy.\n\n#pcgaming #gamedeals\n\nhttps://saveandplay.com/og/how-to-read-steam-reviews.png\n\nhttps://saveandplay.com/guides/how-to-read-steam-reviews/?utm_source=nostr-prices&utm_medium=social&utm_campaign=how-to-read-steam-reviews",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "a15cfda2458cd58f10d52aa8e2282fa1e9cd9f61347cfb9ad4ac9afee7bcf994",
+            "sig": "889eaaafc4c0f0ff00359b6a210790067a5de4a42ede1de34dcd565285dab17548e1c1dd95271f66d7f590f16c08aa6f0d6b81d768240310802f8e8ee2d30c3d"
+          }
         }
       }
     }
@@ -2030,6 +2078,10 @@
       "check-game-storage-before-you-buy": {
         "day": "2026-11-01",
         "id": "f37453889168b558e4b51d44224129eed1b15df8ae0998bdef3016e1647affae"
+      },
+      "how-to-read-steam-reviews": {
+        "day": "2026-11-03",
+        "id": "a15cfda2458cd58f10d52aa8e2282fa1e9cd9f61347cfb9ad4ac9afee7bcf994"
       }
     }
   },
