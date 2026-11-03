@@ -1,0 +1,40 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "stamp": "20261103-151924",
+  "madeAt": "2026-11-03T15:20:01.753Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:6u6ufdwmb3mikdwtm7eistcw/app.bsky.feed.post/3mzfyppxtks2g",
+      "url": "https://bsky.app/profile/aquaplanetzone.bsky.social/post/3mzfyppxtks2g",
+      "author": "aquaplanetzone.bsky.social",
+      "context": "Is Steam Deck dead? store.steampowered.com/steamdeck\nlink card: Steam Store",
+      "text": "Still sold in the Steam store as far as I can tell. If you're deciding on a game for it, the Deck Verified badge on a game's store page is the quickest way to see how well it runs.",
+      "verify": "Проверьте, что Steam Deck сейчас действительно продаётся на странице store.steampowered.com/steamdeck",
+      "group": "deck",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:5l6iixvazfegrhxw5526a6r5/app.bsky.feed.post/3mzejuwlmic2w",
+      "url": "https://bsky.app/profile/vivianrose.bsky.social/post/3mzejuwlmic2w",
+      "author": "vivianrose.bsky.social",
+      "context": "how do y'all feel about meta games? as in, games that hook into or directly tie into other games for you to play em. stuff like archipelago, gamedle or i saw an upcoming one on steam called the pyramid. very curious if there's more of this type of thing",
+      "text": "Archipelago is a great example. It shuffles items from several different games into one shared run, so something you find in your game can unlock progress in a friend's.",
+      "group": "backlog",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:ggnpeqeml4solsa2s3p24hn3/app.bsky.feed.post/3mzedq37jyc2o",
+      "url": "https://bsky.app/profile/mgcoco.bsky.social/post/3mzedq37jyc2o",
+      "author": "mgcoco.bsky.social",
+      "context": "Anyway, over the weekend I finally finished I Have No Mouth, and I Must Scream after putting it down for like a year+ But apparently it was suddenly updated last year and that put my save files in the wrong folder?? 💀 I had to dig around the steam deck file directory for the first time lol",
+      "text": "Congrats on finally finishing it! Digging through Deck folders for your saves is no fun, glad you got them back.",
+      "group": "deck",
+      "heated": false
+    }
+  ]
+}
