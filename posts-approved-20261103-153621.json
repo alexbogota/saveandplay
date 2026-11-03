@@ -1,0 +1,41 @@
+{
+  "approvedAt": "2026-11-03T15:36:21.947Z",
+  "items": [
+    {
+      "n": 1,
+      "kind": "deal",
+      "platform": "bluesky",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "text": "Dragon's Dogma: Dark Arisen: -84% at GOG\n$4.79 (was $29.99)\nPrice checked Nov 2. Sale ends Nov 5. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/dragon-s-dogma-dark-arisen/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-02\n\n#PCGaming #GameDeals #Games #PCGames #GOG\nAd",
+      "link": "https://saveandplay.com/deals/gog/dragon-s-dogma-dark-arisen/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-02",
+      "day": "2026-11-02",
+      "key": "prices|2026-11-02|/deals/gog/dragon-s-dogma-dark-arisen/",
+      "notBefore": "2026-11-03T15:36:21.947Z"
+    },
+    {
+      "n": 2,
+      "kind": "deal",
+      "platform": "bluesky",
+      "account": "prices-2",
+      "handle": "saveandplay.com",
+      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nPrice checked Nov 2. Sale ends Nov 5. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-02\n\n#PCGaming #GameDeals #Gaming #ThisWarOfMine #Games\nAd",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-02",
+      "day": "2026-11-02",
+      "key": "prices-2|2026-11-02|/deals/gog/this-war-of-mine/",
+      "notBefore": "2026-11-03T17:36:21.947Z"
+    },
+    {
+      "n": 6,
+      "kind": "article",
+      "platform": "bluesky",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "text": "Steam's own rules: a standard discount runs 1 to 14 days, and a game can't be discounted again within 30 days. What that means for waiting:\nhttps://saveandplay.com/guides/steam-discount-rules-how-often/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-discount-rules\n#PCGaming #GameDeals #Steam",
+      "link": "https://saveandplay.com/guides/steam-discount-rules-how-often/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-discount-rules",
+      "day": null,
+      "key": "prices|article|/guides/steam-discount-rules-how-often/",
+      "notBefore": "2026-11-03T19:36:21.947Z"
+    }
+  ]
+}

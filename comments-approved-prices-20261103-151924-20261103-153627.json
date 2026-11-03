@@ -1,0 +1,27 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-prices-20261103-151924.json",
+  "approvedAt": "2026-11-03T15:36:27.007Z",
+  "items": [
+    {
+      "n": 2,
+      "uri": "at://did:plc:5l6iixvazfegrhxw5526a6r5/app.bsky.feed.post/3mzejuwlmic2w",
+      "url": "https://bsky.app/profile/vivianrose.bsky.social/post/3mzejuwlmic2w",
+      "author": "vivianrose.bsky.social",
+      "context": "how do y'all feel about meta games? as in, games that hook into or directly tie into other games for you to play em. stuff like archipelago, gamedle or i saw an upcoming one on steam called the pyramid. very curious if there's more of this type of thing",
+      "text": "Archipelago is a great example. It shuffles items from several different games into one shared run, so something you find in your game can unlock progress in a friend's.",
+      "edited": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:ggnpeqeml4solsa2s3p24hn3/app.bsky.feed.post/3mzedq37jyc2o",
+      "url": "https://bsky.app/profile/mgcoco.bsky.social/post/3mzedq37jyc2o",
+      "author": "mgcoco.bsky.social",
+      "context": "Anyway, over the weekend I finally finished I Have No Mouth, and I Must Scream after putting it down for like a year+ But apparently it was suddenly updated last year and that put my save files in the wrong folder?? 💀 I had to dig around the steam deck file directory for the first time lol",
+      "text": "Congrats on finally finishing it! Digging through Deck folders for your saves is no fun, glad you got them back.",
+      "edited": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-retro-20261103-151924.json",
+  "approvedAt": "2026-11-03T15:36:27.243Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:kqiuzaqb7dsz6kl4i554dolr/app.bsky.feed.post/3mzfqwpk4o22a",
+      "url": "https://bsky.app/profile/mylittleretro.bsky.social/post/3mzfqwpk4o22a",
+      "author": "mylittleretro.bsky.social",
+      "context": "Most DOS games sound best on a Roland SC-55. Released in 1991, it became the gold standard for DOS game music. This particular unit came with firmware 2.00 and the official General MIDI logo. For many classic games, this is how the music was meant to sound! #RetroGaming #DOSGaming #Roland\nimage, no description",
+      "text": "Lovely unit. A lot of DOS soundtracks were written with Roland sound modules in mind, so hearing them on one really is a different experience.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:rrk7op4yqn2hsdzyt6mca7wt/app.bsky.feed.post/3mzdkzxvqjc2o",
+      "url": "https://bsky.app/profile/jamesirish780.bsky.social/post/3mzdkzxvqjc2o",
+      "author": "jamesirish780.bsky.social",
+      "context": "It's funny. The only time PC gaming ever ruined a console experience for me was when Resident Evil came out. I was spoiled rotten by Lucasarts games like Day of the Tentacle and Sam & Max Hit the Road. When I heard those old RE1 voice actors, I was a little incredulous.",
+      "text": "Going from the voice casts of Day of the Tentacle and Sam & Max straight to RE1 is quite a jump. Those LucasArts games set the bar high.",
+      "edited": false
+    }
+  ]
+}
