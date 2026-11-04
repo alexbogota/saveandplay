@@ -1,0 +1,19 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-prices-20261104-150735.json",
+  "approvedAt": "2026-11-04T15:10:12.827Z",
+  "items": [
+    {
+      "n": 3,
+      "uri": "at://did:plc:5wc6p2zad6fgeyz3lsjakvkc/app.bsky.feed.post/3mzgs5to34c27",
+      "url": "https://bsky.app/profile/echosaefir.com.mx/post/3mzgs5to34c27",
+      "author": "echosaefir.com.mx",
+      "context": "Just saw the System Shock games on sale on Steam and said \"Sure, why the fuck not?\". I already own the Bioshock games, though I've not got around to playing them yet. I also know these games are really hard. But I'm in the mood for Sci-Fi horror, and this seems like a neat investment.",
+      "text": "Good pick for a sci-fi horror mood. The System Shock remake lets you set difficulty separately for combat, puzzles and cyberspace, so it's easier to tune than its reputation suggests.",
+      "edited": false,
+      "verify": "Проверьте на странице игры в Steam: у ремейка System Shock отдельные настройки сложности (бой, головоломки, киберпространство)."
+    }
+  ]
+}
