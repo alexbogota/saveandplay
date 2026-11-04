@@ -1,0 +1,23 @@
+{
+  "madeAt": "2026-11-04T00:34:31.113Z",
+  "run": "41747817660",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices|article|/guides/steam-discount-rules-how-often/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 6,
+      "link": "https://saveandplay.com/guides/steam-discount-rules-how-often/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-discount-rules",
+      "text": "Steam's own rules: a standard discount runs 1 to 14 days, and a game can't be discounted again within 30 days. What that means for waiting:\nhttps://saveandplay.com/guides/steam-discount-rules-how-often/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-discount-rules\n#PCGaming #GameDeals #Steam",
+      "approvedFile": "posts-approved-20261103-153621.json",
+      "approvedAt": "2026-11-03T15:36:21.947Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-04T00:34:34.434Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mzh47kdl3s2n",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3mzh47kdl3s2n",
+      "picture": true
+    }
+  ]
+}
