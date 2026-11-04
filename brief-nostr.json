@@ -1,69 +1,10 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-11-03T18:15:34.889Z",
-  "builtBy": "commit bd74aa5, schedule, run #35 attempt 1",
-  "pricesCheckedAt": "2026-11-03T17:15:27.381Z",
+  "generatedAt": "2026-11-04T18:29:31.570Z",
+  "builtBy": "commit 7bd160d, schedule, run #36 attempt 1",
+  "pricesCheckedAt": "2026-11-04T17:25:46.702Z",
   "warnings": [],
   "candidates": [
-    {
-      "id": "gog-darkest-dungeon",
-      "kind": "deal",
-      "title": "Darkest Dungeon",
-      "store": "GOG",
-      "price": 3.75,
-      "was": 24.99,
-      "discount": 85,
-      "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 38,
-      "priceCheckedAt": "2026-11-03T17:15:27.381Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187",
-      "drminfo": null,
-      "coverAlt": "Cover art for Darkest Dungeon",
-      "facts": {
-        "year": 2016,
-        "genres": [
-          "Role-playing",
-          "Turn-based",
-          "Fantasy"
-        ],
-        "tags": [
-          "Indie",
-          "Fantasy",
-          "Atmospheric",
-          "Role-playing",
-          "2D",
-          "Turn-Based",
-          "Dark",
-          "Horror",
-          "Difficult",
-          "Roguelike",
-          "Roguelite",
-          "Dungeon Crawler",
-          "Lovecraftian",
-          "Perma Death",
-          "Petting Dogs"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 12.5,
-      "discountRank": 4,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 25,
-        "lowest": true,
-        "since": "2026-10-07"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-03",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "sale ends in 38 h",
-        "lowest price we've tracked (25 days of data)",
-        "deepest-discount rank 4 of 6"
-      ]
-    },
     {
       "id": "gog-thronebreaker-the-witcher-tales",
       "kind": "deal",
@@ -73,8 +14,8 @@
       "was": 19.99,
       "discount": 80,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 38,
-      "priceCheckedAt": "2026-11-03T17:15:27.381Z",
+      "endsInHours": 13,
+      "priceCheckedAt": "2026-11-04T17:25:46.702Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/973760/f748e07df077bb0cf4c49d4bc0f6437f510c5251/header.jpg?t=1761829221",
       "drminfo": null,
       "coverAlt": "Cover art for Thronebreaker: The Witcher Tales",
@@ -112,87 +53,72 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 23,
+        "days": 24,
         "lowest": true,
         "since": "2026-10-07"
       },
       "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/thronebreaker-the-witcher-tales/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-03",
+      "link": "https://saveandplay.com/deals/gog/thronebreaker-the-witcher-tales/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-04",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 38 h",
-        "lowest price we've tracked (23 days of data)",
-        "deepest-discount rank 6 of 6"
+        "sale ends in 13 h",
+        "lowest price we've tracked (24 days of data)",
+        "deepest-discount rank 6 of 7"
       ]
     },
     {
-      "id": "gog-frostpunk",
+      "id": "gog-simcity-4-deluxe-edition",
       "kind": "deal",
-      "title": "Frostpunk",
+      "title": "SimCity 4 Deluxe Edition",
       "store": "GOG",
-      "price": 4.49,
-      "was": 29.99,
-      "discount": 85,
+      "price": 4.99,
+      "was": 19.99,
+      "discount": 75,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 38,
-      "priceCheckedAt": "2026-11-03T17:15:27.381Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323190/abcd2bf3c275092d637d7dd98e0061dbdd2fd2da/header.jpg?t=1784897899",
+      "endsInHours": 13,
+      "priceCheckedAt": "2026-11-04T17:25:46.702Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
       "drminfo": null,
-      "coverAlt": "Cover art for Frostpunk",
+      "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
       "facts": {
-        "year": 2018,
+        "year": 2003,
         "genres": [
-          "Strategy",
           "Simulation",
-          "Survival"
+          "Building",
+          "Managerial"
         ],
         "tags": [
-          "Indie",
           "Atmospheric",
-          "Strategy",
           "Simulation",
-          "Dark",
+          "Classic",
           "Great Soundtrack",
-          "Choices Matter",
           "Management",
-          "Survival",
-          "Resource Management",
-          "Difficult",
-          "Base Building",
-          "Post-apocalyptic",
-          "City builder",
-          "Survival Horror",
-          "Steampunk"
+          "Sandbox",
+          "Real-Time",
+          "Isometric",
+          "Building",
+          "Managerial",
+          "City builder"
         ]
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 7.5,
-      "discountRank": 2,
-      "sites": 1,
-      "mentions": [
-        {
-          "source": "gg.deals News",
-          "domain": "gg.deals",
-          "title": "Steam’s 11 bit Sale offers This War of Mine, Frostpunk, Moonlighter & more with up to 90% off",
-          "link": "https://gg.deals/deal/steams-11-bit-sale-offers-this-war-of-mine-frostpunk-moonlighter-more-with-up-to-90-off/",
-          "t": 1793644320000,
-          "how": "title"
-        }
-      ],
+      "score": 11.5,
+      "discountRank": 7,
+      "sites": 0,
+      "mentions": [],
       "history": {
-        "days": 22,
+        "days": 26,
         "lowest": true,
-        "since": "2026-10-13"
+        "since": "2026-10-07"
       },
-      "offeredOn": "2026-10-29",
-      "link": "https://saveandplay.com/deals/gog/frostpunk/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-03",
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-04",
       "linkKind": "link to our site",
       "whyToday": [
-        "1 news site wrote about the game in the last 48 h",
-        "sale ends in 38 h",
-        "lowest price we've tracked (22 days of data)",
-        "deepest-discount rank 2 of 6"
+        "sale ends in 13 h",
+        "lowest price we've tracked (26 days of data)",
+        "deepest-discount rank 7 of 7"
       ]
     },
     {
@@ -204,8 +130,8 @@
       "was": 39.99,
       "discount": 90,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 38,
-      "priceCheckedAt": "2026-11-03T17:15:27.381Z",
+      "endsInHours": 13,
+      "priceCheckedAt": "2026-11-04T17:25:46.702Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
       "drminfo": null,
       "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
@@ -242,166 +168,168 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 25,
+        "days": 26,
         "lowest": true,
         "since": "2026-10-07"
       },
       "offeredOn": "2026-10-31",
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-03",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-04",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 38 h",
-        "lowest price we've tracked (25 days of data)",
-        "deepest-discount rank 1 of 6"
+        "sale ends in 13 h",
+        "lowest price we've tracked (26 days of data)",
+        "deepest-discount rank 1 of 7"
       ]
     },
     {
-      "id": "gog-dragon-s-dogma-dark-arisen",
+      "id": "gog-this-war-of-mine",
       "kind": "deal",
-      "title": "Dragon's Dogma: Dark Arisen",
+      "title": "This War of Mine",
       "store": "GOG",
-      "price": 4.79,
-      "was": 29.99,
-      "discount": 84,
+      "price": 2.99,
+      "was": 19.99,
+      "discount": 85,
       "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 38,
-      "priceCheckedAt": "2026-11-03T17:15:27.381Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367500/header.jpg?t=1768870344",
+      "endsInHours": 13,
+      "priceCheckedAt": "2026-11-04T17:25:46.702Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
       "drminfo": null,
-      "coverAlt": "Cover art for Dragon's Dogma: Dark Arisen",
+      "coverAlt": "Cover art for This War of Mine",
       "facts": {
-        "year": 2016,
+        "year": 2014,
         "genres": [
-          "Role-playing",
           "Action",
-          "Open World"
+          "Adventure",
+          "Survival"
         ],
         "tags": [
+          "Adventure",
           "Action",
-          "Fantasy",
+          "Indie",
           "Story Rich",
           "Atmospheric",
-          "Role-playing",
-          "Exploration",
-          "Great Soundtrack",
-          "Third Person",
-          "Open World",
-          "Multiplayer",
-          "Difficult",
-          "JRPG",
-          "Magic",
-          "Hack and Slash"
+          "Choices Matter",
+          "Management",
+          "Survival",
+          "Resource Management",
+          "Real-Time",
+          "War",
+          "Crafting",
+          "Base Building",
+          "Emotional",
+          "Post-apocalyptic",
+          "Stealth",
+          "Psychological"
         ]
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 4.4,
-      "discountRank": 5,
+      "score": 4.5,
+      "discountRank": 3,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 15,
+        "days": 17,
         "lowest": true,
-        "since": "2026-10-18"
+        "since": "2026-10-19"
       },
-      "offeredOn": "2026-11-02",
-      "link": "https://saveandplay.com/deals/gog/dragon-s-dogma-dark-arisen/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-03",
+      "offeredOn": "2026-11-01",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-04",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 38 h",
-        "lowest price we've tracked (15 days of data)",
-        "deepest-discount rank 5 of 6"
+        "sale ends in 13 h",
+        "lowest price we've tracked (17 days of data)",
+        "deepest-discount rank 3 of 7"
+      ]
+    },
+    {
+      "id": "gog-darkest-dungeon",
+      "kind": "deal",
+      "title": "Darkest Dungeon",
+      "store": "GOG",
+      "price": 3.75,
+      "was": 24.99,
+      "discount": 85,
+      "endsAt": "2026-11-05T09:59:00+02:00",
+      "endsInHours": 13,
+      "priceCheckedAt": "2026-11-04T17:25:46.702Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187",
+      "drminfo": null,
+      "coverAlt": "Cover art for Darkest Dungeon",
+      "facts": {
+        "year": 2016,
+        "genres": [
+          "Role-playing",
+          "Turn-based",
+          "Fantasy"
+        ],
+        "tags": [
+          "Indie",
+          "Fantasy",
+          "Atmospheric",
+          "Role-playing",
+          "2D",
+          "Turn-Based",
+          "Dark",
+          "Horror",
+          "Difficult",
+          "Roguelike",
+          "Roguelite",
+          "Dungeon Crawler",
+          "Lovecraftian",
+          "Perma Death",
+          "Petting Dogs"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 4.5,
+      "discountRank": 4,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 26,
+        "lowest": true,
+        "since": "2026-10-07"
+      },
+      "offeredOn": "2026-11-03",
+      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-04",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "sale ends in 13 h",
+        "lowest price we've tracked (26 days of data)",
+        "deepest-discount rank 4 of 7"
       ]
     }
   ],
   "gogNews": [],
   "topical": [
     {
-      "title": "Humble Choice November 2026 gets you Mafia: The Old Country, The Outer Worlds 2 & more!",
-      "source": "gg.deals News",
-      "link": "https://gg.deals/bundle/humble-choice-november-2026/",
-      "t": 1793729220000,
-      "keyword": "humble",
-      "summary": "Let&rsquo;s see how much of the leak made it into the actual lineup."
+      "title": "'How can prices fall when there's nothing left?' TeamGroup CEO reckons supply-demand memory equilibrium may not happen until late 2028 at the earliest",
+      "source": "PC Gamer",
+      "link": "https://www.pcgamer.com/hardware/memory/how-can-prices-fall-when-theres-nothing-left-teamgroup-ceo-reckons-supply-demand-memory-equilibrium-may-not-happen-until-late-2028-at-the-earliest/",
+      "t": 1793810351000,
+      "keyword": "prices",
+      "summary": "You may well be sick of reading about it—I am certainly sick to my stomach writing about it—but here's another doom-filled prophecy about the continuing memory…"
     },
     {
-      "title": "The Legend of Zelda: Ocarina of Time gets a rare Nintendo first-party discount ahead of this week's launch!",
-      "source": "gg.deals News",
-      "link": "https://gg.deals/deal/the-legend-of-zelda-ocarina-of-time-gets-a-rare-nintendo-first-party-discount/",
-      "t": 1793726880000,
-      "keyword": "discount",
-      "summary": "It's about damn time."
+      "title": "I'm watching YouTube videos in glorious stereoscopic 3D on my Steam Frame with just a free plugin and a long-forgotten dream of a new Nintendo 3DS",
+      "source": "PC Gamer",
+      "link": "https://www.pcgamer.com/hardware/vr-hardware/im-watching-youtube-videos-in-glorious-stereoscopic-3d-on-my-steam-frame-with-just-a-free-plugin-and-a-long-forgotten-dream-of-a-new-nintendo-3ds/",
+      "t": 1793809744000,
+      "keyword": "free",
+      "summary": "Remember the 3D craze? The Nintendo 3DS, 3D TV, 3D cinema; it was a new, exciting technology that some expected would go mainstream one day. Then the dream jus…"
     },
     {
-      "title": "Top Hat Studios and Finji Steam sales are live, with TUNIC and other indie gems discounted!",
-      "source": "gg.deals News",
-      "link": "https://gg.deals/deal/top-hat-studios-and-finji-steam-sales/",
-      "t": 1793721600000,
-      "keyword": "sales",
-      "summary": "A little indie magic for less!"
+      "title": "Forget burgers, Wendy's has a FREE Steam game now! And you might even earn real food",
+      "source": "gg.deals Freebies",
+      "link": "https://gg.deals/freebie/wendyquest-legend-of-the-four-corner-stones-is-free-on-steam/",
+      "t": 1793798326000,
+      "keyword": "free",
+      "summary": "Here's a free Steam game we definitely didn't see coming!"
     }
   ],
   "topics": [
-    {
-      "headline": "Nintendo tried adding fast travel to The Legend of Zelda: Ocarina of Time remake, before devs realised \"we were missing out on the moments of discovery\"",
-      "score": 11,
-      "sites": [
-        "gamesradar.com",
-        "greenmangaming.com",
-        "eurogamer.net"
-      ],
-      "keywords": [
-        "price"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "GamesRadar deals",
-          "title": "Woot drops Nintendo Switch 2 price just days before Legend of Zelda Ocarina of Time Remake",
-          "link": "https://www.gamesradar.com/hardware/woot-drops-nintendo-switch-2-price-just-days-before-legend-of-zelda-ocarina-of-time-remake/",
-          "published": "2026-11-02T12:31:55.000Z"
-        },
-        {
-          "source": "Green Man Gaming blog",
-          "title": "Why the Zelda: Ocarina of Time Remake Is More Than a Visual Upgrade",
-          "link": "https://www.greenmangaming.com/blog/why-the-zelda-ocarina-of-time-remake-is-more-than-a-visual-upgrade/",
-          "published": "2026-11-02T16:14:58.000Z"
-        },
-        {
-          "source": "Eurogamer",
-          "title": "Nintendo tried adding fast travel to The Legend of Zelda: Ocarina of Time remake, before devs realised \"we were missing out on the moments of discovery\"",
-          "link": "https://www.eurogamer.net/nintendo-fast-travel-legend-of-zelda-ocarina-of-time-remake",
-          "published": "2026-11-02T18:01:38.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "First Humble Bundle this November has 13 Steam games for just $14!",
-      "score": 10,
-      "sites": [
-        "gg.deals",
-        "indiegamebundles.com"
-      ],
-      "keywords": [
-        "bundle",
-        "humble"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "First Humble Bundle this November has 13 Steam games for just $14!",
-          "link": "https://gg.deals/bundle/first-humble-bundle-this-november-has-13-steam-games-for-just-14/",
-          "published": "2026-11-02T20:42:00.000Z"
-        },
-        {
-          "source": "Indie Game Bundles",
-          "title": "Humble Crimes and Curiosity Bundle: 13 Steam Games and 1 DLC for Just $14",
-          "link": "https://www.indiegamebundles.com/humble-crimes-and-curiosity-bundle-13-mystery-steam-games-and-1-dlc-for-just-14/",
-          "published": "2026-11-02T20:29:09.000Z"
-        }
-      ]
-    },
     {
       "headline": "The Elder Scrolls 6: Sentinel teaser all but confirms Hammerfell setting and means we can finally stop using that eight year old header image with the hills",
       "score": 9,
@@ -434,42 +362,106 @@
       ]
     },
     {
-      "headline": "Epic’s Square Enix Harvest Sale brings record-low prices on Final Fantasy VII Remake & Rebirth (plus more!)",
+      "headline": "The Legend of Zelda: Ocarina of Time remake gets near-perfect reviews! Critics are blown away",
+      "score": 8,
+      "sites": [
+        "gg.deals",
+        "eurogamer.net"
+      ],
+      "keywords": [
+        "discount"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "The Legend of Zelda: Ocarina of Time remake gets near-perfect reviews! Critics are blown away",
+          "link": "https://gg.deals/gaming-news/the-legend-of-zelda-ocarina-of-time-remake-reviews/",
+          "published": "2026-11-04T15:20:00.000Z"
+        },
+        {
+          "source": "gg.deals News",
+          "title": "The Legend of Zelda: Ocarina of Time gets a rare Nintendo first-party discount ahead of this week's launch!",
+          "link": "https://gg.deals/deal/the-legend-of-zelda-ocarina-of-time-gets-a-rare-nintendo-first-party-discount/",
+          "published": "2026-11-03T17:28:00.000Z"
+        },
+        {
+          "source": "Eurogamer",
+          "title": "The Legend of Zelda: Ocarina of Time (2026) review",
+          "link": "https://www.eurogamer.net/the-legend-of-zelda-ocarina-of-time-remake-review",
+          "published": "2026-11-04T11:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Fanatical is giving away FREE Letter Quest: Grimm's Journey Remastered Steam keys!",
+      "score": 8,
+      "sites": [
+        "gamerpower.com",
+        "gg.deals"
+      ],
+      "keywords": [
+        "free"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "GamerPower (PC)",
+          "title": "Letter Quest: Grimm's Journey Remastered Steam Key Giveaway",
+          "link": "https://www.gamerpower.com/letter-quest-grimm-s-journey-remastered-steam-key-giveaway",
+          "published": "2026-11-04T12:40:59.000Z"
+        },
+        {
+          "source": "gg.deals Freebies",
+          "title": "Fanatical is giving away FREE Letter Quest: Grimm's Journey Remastered Steam keys!",
+          "link": "https://gg.deals/freebie/fanatical-is-giving-away-free-letter-quest-grimms-journey-remastered-steam-keys/",
+          "published": "2026-11-04T12:10:41.000Z"
+        },
+        {
+          "source": "gg.deals News",
+          "title": "Fanatical is giving away FREE Letter Quest: Grimm's Journey Remastered Steam keys!",
+          "link": "https://gg.deals/freebie/fanatical-is-giving-away-free-letter-quest-grimms-journey-remastered-steam-keys/",
+          "published": "2026-11-04T12:10:41.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Nintendo’s new sale brings a record-low price for acclaimed JRPG Trails in the Sky 1st Chapter, plus more",
       "score": 7,
       "sites": [
         "gg.deals"
       ],
       "keywords": [
         "sale",
-        "prices"
+        "price"
       ],
       "games": [],
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Epic’s Square Enix Harvest Sale brings record-low prices on Final Fantasy VII Remake & Rebirth (plus more!)",
-          "link": "https://gg.deals/deal/epics-square-enix-harvest-sale-brings-record-low-prices-on-final-fantasy-vii-remake-rebirth-plus-more/",
-          "published": "2026-11-03T17:48:43.000Z"
+          "title": "Nintendo’s new sale brings a record-low price for acclaimed JRPG Trails in the Sky 1st Chapter, plus more",
+          "link": "https://gg.deals/deal/nintendos-new-sale-brings-a-record-low-price-for-acclaimed-jrpg-trails-in-the-sky-1st-chapter-plus-more/",
+          "published": "2026-11-04T16:38:07.000Z"
         }
       ]
     },
     {
-      "headline": "Mobile Suit Gundam Battle Operation 3 has been announced, marking another attempt at a free-to-play team game after Gundam Evolution's unfortunate fate",
+      "headline": "Fatekeeper is about to cost 50% more, secure your copy before the price hike hits!",
       "score": 7,
       "sites": [
-        "rockpapershotgun.com"
+        "gg.deals"
       ],
       "keywords": [
-        "free",
-        "free to play"
+        "price",
+        "price hike"
       ],
       "games": [],
       "items": [
         {
-          "source": "Rock Paper Shotgun",
-          "title": "Mobile Suit Gundam Battle Operation 3 has been announced, marking another attempt at a free-to-play team game after Gundam Evolution's unfortunate fate",
-          "link": "https://www.rockpapershotgun.com/mobile-suit-gundam-battle-operation-3-has-been-announced-marking-another-attempt-at-a-free-to-play-team-game-after-gundam-evolutions-unfortunate-fate",
-          "published": "2026-11-03T16:53:42.000Z"
+          "source": "gg.deals News",
+          "title": "Fatekeeper is about to cost 50% more, secure your copy before the price hike hits!",
+          "link": "https://gg.deals/gaming-news/fatekeeper-is-about-to-cost-50-more-secure-your-copy-before-the-price-hike-hits/",
+          "published": "2026-11-04T13:43:00.000Z"
         }
       ]
     }
@@ -479,7 +471,7 @@
     "hidden": 0,
     "notNiche": 0,
     "noFacts": 0,
-    "taken": 2,
+    "taken": 1,
     "repeat": 0,
     "smallDiscount": 0,
     "ended": 1,
@@ -488,7 +480,12 @@
   },
   "sources": {
     "total": 11,
-    "failed": []
+    "failed": [
+      {
+        "name": "Indie Game Bundles",
+        "why": "нет ответа за 20 с"
+      }
+    ]
   },
   "posts": {}
 }
