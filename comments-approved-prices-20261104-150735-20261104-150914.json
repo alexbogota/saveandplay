@@ -1,0 +1,36 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-prices-20261104-150735.json",
+  "approvedAt": "2026-11-04T15:09:14.023Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:urmbsg45f4ultm5wbmal2i2p/app.bsky.feed.post/3mzi6ge4yps25",
+      "url": "https://bsky.app/profile/blankuitaco.bsky.social/post/3mzi6ge4yps25",
+      "author": "blankuitaco.bsky.social",
+      "context": "Dragons Dogma 2 x Dungeon Meshi...???? ugh... maybe that game is worth it after all",
+      "text": "A crossover like that is a good excuse to give it another look. If you decide to wait for a sale, check the price history first so you know what a real low looks like.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:ezelfyc4mlebf346iimmeh5m/app.bsky.feed.post/3mzi2jfg73c2s",
+      "url": "https://bsky.app/profile/kimmithy.com/post/3mzi2jfg73c2s",
+      "author": "kimmithy.com",
+      "context": "Is... my standards unrealistic? For what... I get value per dollar...? Avg game cost per hr per game: $1.70–$2.50 ----- Me: 17 Games / 9 yrs 5,881.8 hrs Avg hrs per game: 346 $175 per yr $1,754 spent Avg game cost: $103.18 Cost per hr: $0.30 Cost per hr per game: $0.02 #steam #gaming #PC #gamer",
+      "text": "Those numbers look pretty great to me. $0.30 an hour is hard to beat, and long games are where the value really shows.",
+      "edited": false
+    },
+    {
+      "n": 4,
+      "uri": "at://did:plc:x4guykzrsf3xyfs76mtvjlcy/app.bsky.feed.post/3mzgn2fdhqc23",
+      "url": "https://bsky.app/profile/ratbatserd.bsky.social/post/3mzgn2fdhqc23",
+      "author": "ratbatserd.bsky.social",
+      "context": "my thought process is basically \"oh new bethesda game? oh it's new? so no active passionate modding community has had a chance to make it worth while? cool, ill come back in a few years i guess\"",
+      "text": "Waiting for the mod scene is a fair call. Big open games usually get a lot better a year or two in, once patches and community fixes pile up.",
+      "edited": false
+    }
+  ]
+}

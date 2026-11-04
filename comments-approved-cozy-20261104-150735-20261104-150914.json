@@ -1,0 +1,18 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-cozy-20261104-150735.json",
+  "approvedAt": "2026-11-04T15:09:14.162Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:knhnpq4bmepv36ullnygxz47/app.bsky.feed.post/3mzihhwnhu22f",
+      "url": "https://bsky.app/profile/celestialfr0st.bsky.social/post/3mzihhwnhu22f",
+      "author": "celestialfr0st.bsky.social",
+      "context": "Question of the Day: What is your favorite cozy game? For me right now that's #FieldsofMistria! I adore stardew but mistria has a far less punishing system and sense of urgency.",
+      "text": "Less urgency is exactly what makes a cozy game feel restful. Fields of Mistria sounds like a lovely fit for that.",
+      "edited": false
+    }
+  ]
+}
