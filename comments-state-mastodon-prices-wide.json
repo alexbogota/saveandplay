@@ -8,122 +8,47 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 456,
-      "posts": 19280,
-      "fit": 221,
+      "runs": 464,
+      "posts": 19600,
+      "fit": 223,
       "last": {
-        "posts": 80,
+        "posts": 40,
         "fit": 0,
-        "at": "2026-11-03T23:18:30.052Z"
+        "at": "2026-11-04T06:12:04.251Z"
       }
     },
     "moreAsk": {
-      "runs": 285,
-      "posts": 2565,
+      "runs": 290,
+      "posts": 2610,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-11-03T23:18:30.052Z"
+        "at": "2026-11-04T06:12:04.251Z"
       }
     },
     "moreRetro": {
-      "runs": 285,
-      "posts": 18280,
-      "fit": 632,
+      "runs": 290,
+      "posts": 18560,
+      "fit": 638,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-03T23:18:30.052Z"
+        "at": "2026-11-04T06:12:04.251Z"
       }
     },
     "morePlaying": {
-      "runs": 285,
-      "posts": 1197,
+      "runs": 290,
+      "posts": 1218,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-11-03T23:18:30.052Z"
+        "at": "2026-11-04T06:12:04.251Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@vga256@tomodori.net/117548980035800854": {
-      "uri": "https://mastodon.social/@vga256@tomodori.net/117548980035800854",
-      "url": "https://mastodon.social/@vga256@tomodori.net/117548980035800854",
-      "handle": "vga256@tomodori.net",
-      "name": "vga256",
-      "text": "congrats to clément on the big box collectors group for completing his eidos stargate 🙏 #bigboxgames #retrogaming",
-      "createdAt": "2026-11-02T21:30:53.000Z",
-      "likes": 86,
-      "replies": 5,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://mastodon.tomodori.net/@vga256/117548977604963878",
-      "media": "image: A collector has locked together 15 trapezoidal Eidos game boxes in the shape of a stargate. Games include The Tomb Raider series, Thief series, Revenant, Final…",
-      "firstSeen": "2026-11-03T00:56:53.755Z"
-    },
-    "https://mastodon.social/@andyvaisey@oldbytes.space/117548793679721897": {
-      "uri": "https://mastodon.social/@andyvaisey@oldbytes.space/117548793679721897",
-      "url": "https://mastodon.social/@andyvaisey@oldbytes.space/117548793679721897",
-      "handle": "andyvaisey@oldbytes.space",
-      "name": "aNdy",
-      "text": "This took a lot of effort and bug hunting, but I've finally got trains to appear on CityLab's rail network! Due to memory limitations, they only travel on horizontal and vertical sections, they can't traverse bends. Sorry! @c64 @EC64 #Commodore #retrogaming #retrogames #8bit #simulation #c64",
-      "createdAt": "2026-11-02T20:44:04.000Z",
-      "likes": 8,
-      "replies": 1,
-      "group": "moreRetro",
-      "query": "retrogames",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://oldbytes.space/@andyvaisey/117548793501129198",
-      "media": "image, no description",
-      "firstSeen": "2026-11-03T00:56:53.755Z"
-    },
-    "https://mastodon.social/@flaps015@pixelfed.social/117548609734880215": {
-      "uri": "https://mastodon.social/@flaps015@pixelfed.social/117548609734880215",
-      "url": "https://mastodon.social/@flaps015@pixelfed.social/117548609734880215",
-      "handle": "flaps015@pixelfed.social",
-      "name": "playdoh kitchen",
-      "text": "i've got lovilitchi on my HK nano tama #tamagotchi #hellokitty #retrogaming",
-      "createdAt": "2026-11-02T19:57:17.000Z",
-      "likes": 5,
-      "replies": 1,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://pixelfed.social/p/flaps015/1022959866418771012",
-      "media": "image: a white hello kitty nano tamagotchi in a colorful silicone case with lovilitchi on the screen",
-      "firstSeen": "2026-11-03T00:56:53.755Z"
-    },
-    "https://mastodon.social/@Lanceroy/117548273977713395": {
-      "uri": "https://mastodon.social/@Lanceroy/117548273977713395",
-      "url": "https://mastodon.social/@Lanceroy/117548273977713395",
-      "handle": "Lanceroy@mastodon.social",
-      "name": "Lanceroy",
-      "text": "Star Fox 64 Cut Its Submarine Missions #retrogaming #gaming #nostalgia #retroreloaded",
-      "createdAt": "2026-11-02T18:31:57.290Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "video, no description",
-      "firstSeen": "2026-11-03T00:56:53.755Z"
-    },
     "https://mastodon.social/@stunningshemp/117549926268577394": {
       "uri": "https://mastodon.social/@stunningshemp/117549926268577394",
       "url": "https://mastodon.social/@stunningshemp/117549926268577394",
@@ -171,7 +96,7 @@
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -185,11 +110,11 @@
       "name": "Nerdværket",
       "text": "64 × 64 = 4.096 pixels i fuld farve. Hver eneste er din. Tegn selv i appen, eller vælg en GIF, rullende tekst eller et ur. nPixel, 599 kr, link i bio. #pixelart #8bit #ledmatrix #pixelartist #retrogaming #nørd #dansknørd #techdk",
       "createdAt": "2026-11-03T18:37:20.982Z",
-      "likes": 1,
-      "replies": 0,
+      "likes": 2,
+      "replies": 1,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 4,
+      "score": 3,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -213,6 +138,43 @@
       "isReply": false,
       "media": null,
       "firstSeen": "2026-11-03T23:18:30.052Z"
+    },
+    "https://mastodon.social/@Mickytankbank@mstdn.party/117556422626829864": {
+      "uri": "https://mastodon.social/@Mickytankbank@mstdn.party/117556422626829864",
+      "url": "https://mastodon.social/@Mickytankbank@mstdn.party/117556422626829864",
+      "handle": "Mickytankbank@mstdn.party",
+      "name": "Mickytankbank",
+      "text": "Wonderia is a cozy 2D survival adventure with a charming world, relaxing vibes, and plenty to discover. Is it worth your time? Check out my full review and find out! 🎮✨ #Wonderia #Cozy #Survival #Sim #Gaming #FarmingSim #Cute #Game #VideoGame #Review #Blog",
+      "createdAt": "2026-11-04T05:04:14.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "moreGaming",
+      "query": "videogame",
+      "score": 8,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://mstdn.party/@Mickytankbank/117556422569680230",
+      "media": null,
+      "firstSeen": "2026-11-04T06:12:04.251Z"
+    },
+    "https://mastodon.social/@gpowerf/117556661156750225": {
+      "uri": "https://mastodon.social/@gpowerf/117556661156750225",
+      "url": "https://mastodon.social/@gpowerf/117556661156750225",
+      "handle": "gpowerf@mastodon.social",
+      "name": "Dr. G. Power",
+      "text": "I've decided what to get for Christmas. The Spectrum. #retrogaming",
+      "createdAt": "2026-11-04T06:04:55.487Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 3,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image: A photo of The Spectrum by RGL.",
+      "firstSeen": "2026-11-04T06:12:04.251Z"
     }
   }
 }
