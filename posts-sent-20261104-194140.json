@@ -1,0 +1,52 @@
+{
+  "madeAt": "2026-11-04T19:41:40.262Z",
+  "run": "41899364534",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices-2|2026-11-03|/deals/gog/this-war-of-mine/",
+      "account": "prices-2",
+      "handle": "saveandplay.com",
+      "n": 2,
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-03",
+      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nPrice checked Nov 3. Sale ends Nov 5. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-03\n\n#PCGaming #GameDeals #DRMFree #PCGames #GOG\nAd",
+      "approvedFile": "posts-approved-20261104-150909.json",
+      "approvedAt": "2026-11-04T15:09:09.389Z",
+      "status": "skipped",
+      "reason": "already posted: https://bsky.app/profile/saveandplay.com/post/3mzgkz4bbsr2f",
+      "at": "2026-11-04T19:41:41.752Z"
+    },
+    {
+      "key": "prices|coop-2026-11-04|/servers/garrys-mod/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 7,
+      "link": "https://saveandplay.com/servers/garrys-mod/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-11-04",
+      "text": "Garry's Mod has online co-op on Steam.\nA rented server keeps your world online when the host logs off.\n\nhttps://saveandplay.com/servers/garrys-mod/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-11-04\n\n#PCGaming #GarrysMod\nAd",
+      "approvedFile": "posts-approved-20261104-150909.json",
+      "approvedAt": "2026-11-04T15:09:09.389Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-04T19:41:43.816Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mzj4ct34d22v",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3mzj4ct34d22v",
+      "picture": true
+    },
+    {
+      "key": "cozy|coop-2026-11-04|/servers/stardew-valley/",
+      "account": "cozy",
+      "handle": "cozygame.bsky.social",
+      "n": 8,
+      "link": "https://saveandplay.com/servers/stardew-valley/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=coop-2026-11-04",
+      "text": "Stardew Valley is up to 8-player farming: the host invites 1 to 7 friends to the valley online.\nA rented server keeps the farm open when the host logs off.\n\nhttps://saveandplay.com/servers/stardew-valley/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=coop-2026-11-04\n\n#CozyGames #StardewValley\nAd",
+      "approvedFile": "posts-approved-20261104-150909.json",
+      "approvedAt": "2026-11-04T15:09:09.389Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-04T19:41:44.968Z",
+      "postUri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3mzj4cut45m2z",
+      "postUrl": "https://bsky.app/profile/cozygame.bsky.social/post/3mzj4cut45m2z",
+      "picture": true
+    }
+  ]
+}
