@@ -1,0 +1,67 @@
+{
+  "block": "prices",
+  "handle": "saveandplay.com",
+  "madeAt": "2026-11-04T19:55:35.204Z",
+  "days": 14,
+  "total": 61,
+  "mature": {
+    "count": 57,
+    "withLike": 29,
+    "withReply": 12,
+    "likes": 32,
+    "replies": 12,
+    "byProgram": 56
+  },
+  "top": [
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mykdirnfqu25",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3mykdirnfqu25",
+      "text": "Smart to be careful before the first account. Once you have it, wishlist whatever catches your eye: Steam tells you when something on it goes on sale, so there's no pressure to buy on impulse.",
+      "at": "2026-10-23T13:57:47.242Z",
+      "likes": 2,
+      "replies": 1,
+      "reposts": 0,
+      "to": "flacoelcielito5.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mywzwfod3u2w",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3mywzwfod3u2w",
+      "text": "Mouse and keyboard should make the parkour feel a lot smoother. And at that price, Steam's refund window (14 days, under 2 hours played) is a nice safety net if it still doesn't click.",
+      "at": "2026-10-28T15:11:03.651Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "bendo2levi.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3myrx4ao4nz2v",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3myrx4ao4nz2v",
+      "text": "Ha, sale purchases have a way of vanishing into the library until you trip over them again. Hopefully it's a pleasant surprise.",
+      "at": "2026-10-26T14:37:19.793Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "donatellojose.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mypbnxeuoq2p",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3mypbnxeuoq2p",
+      "text": "Before you decide, open your Steam library and check the Deck Verified label on the games you play most. It shows which ones run well on it, so you can see if it fits your habits.",
+      "at": "2026-10-25T13:08:12.077Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "macaron.moe"
+    },
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3myoi4lc5an2p",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3myoi4lc5an2p",
+      "text": "Morrowind with Tamriel Rebuilt is a great excuse to go back. It's a big mod, so saving often as you explore is a good habit.",
+      "at": "2026-10-25T05:31:05.342Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "kevinhaelterman.wsocial.eu"
+    }
+  ]
+}
