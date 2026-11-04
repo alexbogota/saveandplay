@@ -8,65 +8,47 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 464,
-      "posts": 19600,
-      "fit": 223,
+      "runs": 472,
+      "posts": 19960,
+      "fit": 225,
       "last": {
-        "posts": 40,
+        "posts": 80,
         "fit": 0,
-        "at": "2026-11-04T06:12:04.251Z"
+        "at": "2026-11-04T14:28:15.929Z"
       }
     },
     "moreAsk": {
-      "runs": 290,
-      "posts": 2610,
+      "runs": 295,
+      "posts": 2655,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-11-04T06:12:04.251Z"
+        "at": "2026-11-04T14:28:15.929Z"
       }
     },
     "moreRetro": {
-      "runs": 290,
-      "posts": 18560,
-      "fit": 638,
+      "runs": 295,
+      "posts": 18840,
+      "fit": 644,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-04T06:12:04.251Z"
+        "at": "2026-11-04T14:28:15.929Z"
       }
     },
     "morePlaying": {
-      "runs": 290,
-      "posts": 1218,
+      "runs": 295,
+      "posts": 1239,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-11-04T06:12:04.251Z"
+        "at": "2026-11-04T14:28:15.929Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@stunningshemp/117549926268577394": {
-      "uri": "https://mastodon.social/@stunningshemp/117549926268577394",
-      "url": "https://mastodon.social/@stunningshemp/117549926268577394",
-      "handle": "stunningshemp@mastodon.social",
-      "name": "Chris Coats",
-      "text": "Princess perfection #retrogaming #supermariobros2 #supermario #stunningshemp #twitch",
-      "createdAt": "2026-11-03T01:32:09.253Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "video, no description",
-      "firstSeen": "2026-11-03T14:07:40.652Z"
-    },
     "https://mastodon.social/@Smith1PW/117552972783966200": {
       "uri": "https://mastodon.social/@Smith1PW/117552972783966200",
       "url": "https://mastodon.social/@Smith1PW/117552972783966200",
@@ -150,7 +132,7 @@
       "replies": 0,
       "group": "moreGaming",
       "query": "videogame",
-      "score": 8,
+      "score": 7,
       "question": true,
       "heated": false,
       "isReply": false,
@@ -165,7 +147,7 @@
       "name": "Dr. G. Power",
       "text": "I've decided what to get for Christmas. The Spectrum. #retrogaming",
       "createdAt": "2026-11-04T06:04:55.487Z",
-      "likes": 0,
+      "likes": 5,
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
@@ -175,6 +157,24 @@
       "isReply": false,
       "media": "image: A photo of The Spectrum by RGL.",
       "firstSeen": "2026-11-04T06:12:04.251Z"
+    },
+    "https://mastodon.social/@stunningshemp/117556978404715379": {
+      "uri": "https://mastodon.social/@stunningshemp/117556978404715379",
+      "url": "https://mastodon.social/@stunningshemp/117556978404715379",
+      "handle": "stunningshemp@mastodon.social",
+      "name": "Chris Coats",
+      "text": "I didn’t realize it was Act 1 #retrogaming #sonicthehedgehog3 #sonic #stunningshemp #twitch",
+      "createdAt": "2026-11-04T07:25:36.305Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 3,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "video, no description",
+      "firstSeen": "2026-11-04T14:28:15.929Z"
     }
   }
 }

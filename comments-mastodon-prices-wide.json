@@ -1,5 +1,5 @@
 {
-  "madeAt": "2026-11-04T06:12:04.251Z",
+  "madeAt": "2026-11-04T14:28:15.929Z",
   "normal": [
     {
       "uri": "https://mastodon.social/@Mickytankbank@mstdn.party/117556422626829864",
@@ -12,7 +12,7 @@
       "replies": 0,
       "group": "moreGaming",
       "query": "videogame",
-      "score": 8,
+      "score": 7,
       "question": true,
       "heated": false,
       "isReply": false,
@@ -75,13 +75,31 @@
       "firstSeen": "2026-11-03T23:18:30.052Z"
     },
     {
+      "uri": "https://mastodon.social/@stunningshemp/117556978404715379",
+      "url": "https://mastodon.social/@stunningshemp/117556978404715379",
+      "handle": "stunningshemp@mastodon.social",
+      "name": "Chris Coats",
+      "text": "I didn’t realize it was Act 1 #retrogaming #sonicthehedgehog3 #sonic #stunningshemp #twitch",
+      "createdAt": "2026-11-04T07:25:36.305Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 3,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "video, no description",
+      "firstSeen": "2026-11-04T14:28:15.929Z"
+    },
+    {
       "uri": "https://mastodon.social/@gpowerf/117556661156750225",
       "url": "https://mastodon.social/@gpowerf/117556661156750225",
       "handle": "gpowerf@mastodon.social",
       "name": "Dr. G. Power",
       "text": "I've decided what to get for Christmas. The Spectrum. #retrogaming",
       "createdAt": "2026-11-04T06:04:55.487Z",
-      "likes": 0,
+      "likes": 5,
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
@@ -109,24 +127,6 @@
       "isReply": false,
       "media": "image: Reklame for nPixel: en 64×64 LED-pixelskærm, der viser et pixel-ikon med headset i turkis. Tekst: 4.096 pixels. Du bestemmer, hvad de viser. Pixel art, GIFs, r…",
       "firstSeen": "2026-11-03T23:18:30.052Z"
-    },
-    {
-      "uri": "https://mastodon.social/@stunningshemp/117549926268577394",
-      "url": "https://mastodon.social/@stunningshemp/117549926268577394",
-      "handle": "stunningshemp@mastodon.social",
-      "name": "Chris Coats",
-      "text": "Princess perfection #retrogaming #supermariobros2 #supermario #stunningshemp #twitch",
-      "createdAt": "2026-11-03T01:32:09.253Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "video, no description",
-      "firstSeen": "2026-11-03T14:07:40.652Z"
     }
   ],
   "heated": []
