@@ -1,0 +1,29 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261104-150735",
+  "madeAt": "2026-11-04T15:08:17.141Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:3cg3b7gw3uu4amdmbezzxsp3/app.bsky.feed.post/3mzgxu2qmis26",
+      "url": "https://bsky.app/profile/bralebradycneme.bsky.social/post/3mzgxu2qmis26",
+      "author": "bralebradycneme.bsky.social",
+      "context": "She's awesome, honestly I remember unlocking Mire on that old childhood flash fan game Godzilla Daikaiju Battle Royale when I played it",
+      "text": "Flash fan games had so much charm. Unlocking a new character felt like a real reward back then.",
+      "group": "childhood",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:2xtmgzknayl5c4st4jecktcq/app.bsky.feed.post/3mzg676wnak2v",
+      "url": "https://bsky.app/profile/ch-art.bsky.social/post/3mzg676wnak2v",
+      "author": "ch-art.bsky.social",
+      "context": "Hear about Queen's Domain. Download the demo. \"Wow this game looks incredible!\" Die to a giant cricket and a flower that shoots lasers in the first dungeon. God, I remember when I was good at video games. Top 10 in Wipeout Fusion time trials. Yoshimitsu main. Trophies. Now, defeated by a cricket.",
+      "text": "Top 10 in Wipeout Fusion time trials is no small thing. That kind of skill doesn't vanish, it just gets rusty. Good luck with the giant cricket.",
+      "group": "childhood",
+      "heated": false
+    }
+  ]
+}
