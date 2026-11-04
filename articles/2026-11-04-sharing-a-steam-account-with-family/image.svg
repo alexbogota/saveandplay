@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#0D1117"/>
+<rect x="56" y="22" width="1088" height="586" rx="28" fill="#161B22" stroke="#262D38"/>
+<g font-family="Inter, 'DejaVu Sans', Arial, sans-serif">
+<text x="100" y="100" font-size="40" font-weight="800" fill="#FFFFFF">One Steam account, several people?</text>
+<text x="100" y="146" font-size="28" fill="#9AA5B4">What the Subscriber Agreement says</text>
+<rect x="100" y="190" width="300" height="300" rx="18" fill="none" stroke="#3DDC97" stroke-width="4"/>
+<text x="250" y="250" font-size="30" font-weight="800" text-anchor="middle" fill="#FFFFFF">Section 1.C</text>
+<text x="250" y="330" font-size="30" text-anchor="middle" fill="#E8ECF1">The account is</text>
+<text x="250" y="370" font-size="30" text-anchor="middle" fill="#E8ECF1">"strictly personal"</text>
+<rect x="450" y="190" width="300" height="300" rx="18" fill="none" stroke="#3DDC97" stroke-width="4"/>
+<text x="600" y="250" font-size="30" font-weight="800" text-anchor="middle" fill="#FFFFFF">Section 3.B</text>
+<text x="600" y="320" font-size="30" text-anchor="middle" fill="#E8ECF1">You pay for what</text>
+<text x="600" y="360" font-size="30" text-anchor="middle" fill="#E8ECF1">family and</text>
+<text x="600" y="400" font-size="30" text-anchor="middle" fill="#E8ECF1">friends buy</text>
+<rect x="800" y="190" width="300" height="300" rx="18" fill="#FFB454"/>
+<text x="950" y="250" font-size="30" font-weight="800" text-anchor="middle" fill="#1B1203">Section 9.C</text>
+<text x="950" y="330" font-size="30" text-anchor="middle" fill="#1B1203">Account cancelled:</text>
+<text x="950" y="370" font-size="30" text-anchor="middle" fill="#1B1203">no Wallet refund</text>
+<text x="100" y="560" font-size="28" fill="#9AA5B4">saveandplay.com/guides</text>
+</g>
+</svg>
