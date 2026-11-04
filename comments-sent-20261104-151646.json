@@ -1,0 +1,39 @@
+{
+  "madeAt": "2026-11-04T15:16:46.792Z",
+  "run": "41854962829",
+  "private": false,
+  "entries": [
+    {
+      "block": "prices",
+      "handle": "saveandplay.com",
+      "n": 3,
+      "uri": "at://did:plc:5wc6p2zad6fgeyz3lsjakvkc/app.bsky.feed.post/3mzgs5to34c27",
+      "url": "https://bsky.app/profile/echosaefir.com.mx/post/3mzgs5to34c27",
+      "author": "echosaefir.com.mx",
+      "text": "Good pick for a sci-fi horror mood. The System Shock remake lets you set difficulty separately for combat, puzzles and cyberspace, so it's easier to tune than its reputation suggests.",
+      "approvedFile": "comments-approved-prices-20261104-150735-20261104-151012.json",
+      "approvedAt": "2026-11-04T15:10:12.827Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-04T15:16:48.716Z",
+      "replyUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mzinj4x5yj25",
+      "replyUrl": "https://bsky.app/profile/saveandplay.com/post/3mzinj4x5yj25"
+    },
+    {
+      "block": "cozy",
+      "handle": "cozygame.bsky.social",
+      "n": 2,
+      "uri": "at://did:plc:xiflwkown6pnbqmzstdbztu6/app.bsky.feed.post/3mzhb4nl4vk2p",
+      "url": "https://bsky.app/profile/mixtior.bsky.social/post/3mzhb4nl4vk2p",
+      "author": "mixtior.bsky.social",
+      "text": "Stardew Valley is a gentle place to start. It plays well in short, calm sessions, and it's a good one for the Steam Deck too.",
+      "approvedFile": "comments-approved-cozy-20261104-150735-20261104-151012.json",
+      "approvedAt": "2026-11-04T15:10:12.980Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-04T15:16:49.975Z",
+      "replyUri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3mzinj65xvw2d",
+      "replyUrl": "https://bsky.app/profile/cozygame.bsky.social/post/3mzinj65xvw2d"
+    }
+  ]
+}
