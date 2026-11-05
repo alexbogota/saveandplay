@@ -8,102 +8,47 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 488,
-      "posts": 20680,
-      "fit": 235,
+      "runs": 496,
+      "posts": 21040,
+      "fit": 239,
       "last": {
         "posts": 80,
         "fit": 1,
-        "at": "2026-11-05T06:40:37.171Z"
+        "at": "2026-11-05T15:50:53.964Z"
       }
     },
     "moreAsk": {
-      "runs": 305,
-      "posts": 2745,
+      "runs": 310,
+      "posts": 2790,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-11-05T06:40:37.171Z"
+        "at": "2026-11-05T15:50:53.964Z"
       }
     },
     "moreRetro": {
-      "runs": 305,
-      "posts": 19400,
-      "fit": 661,
+      "runs": 310,
+      "posts": 19680,
+      "fit": 670,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-05T06:40:37.171Z"
+        "at": "2026-11-05T15:50:53.964Z"
       }
     },
     "morePlaying": {
-      "runs": 305,
-      "posts": 1281,
+      "runs": 310,
+      "posts": 1302,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-11-05T06:40:37.171Z"
+        "at": "2026-11-05T15:50:53.964Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@Mickytankbank@mstdn.party/117556422626829864": {
-      "uri": "https://mastodon.social/@Mickytankbank@mstdn.party/117556422626829864",
-      "url": "https://mastodon.social/@Mickytankbank@mstdn.party/117556422626829864",
-      "handle": "Mickytankbank@mstdn.party",
-      "name": "Mickytankbank",
-      "text": "Wonderia is a cozy 2D survival adventure with a charming world, relaxing vibes, and plenty to discover. Is it worth your time? Check out my full review and find out! 🎮✨ #Wonderia #Cozy #Survival #Sim #Gaming #FarmingSim #Cute #Game #VideoGame #Review #Blog",
-      "createdAt": "2026-11-04T05:04:14.000Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "moreGaming",
-      "query": "videogame",
-      "score": 7,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://mstdn.party/@Mickytankbank/117556422569680230",
-      "media": null,
-      "firstSeen": "2026-11-04T06:12:04.251Z"
-    },
-    "https://mastodon.social/@gpowerf/117556661156750225": {
-      "uri": "https://mastodon.social/@gpowerf/117556661156750225",
-      "url": "https://mastodon.social/@gpowerf/117556661156750225",
-      "handle": "gpowerf@mastodon.social",
-      "name": "Dr. G. Power",
-      "text": "I've decided what to get for Christmas. The Spectrum. #retrogaming",
-      "createdAt": "2026-11-04T06:04:55.487Z",
-      "likes": 5,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "image: A photo of The Spectrum by RGL.",
-      "firstSeen": "2026-11-04T06:12:04.251Z"
-    },
-    "https://mastodon.social/@stunningshemp/117556978404715379": {
-      "uri": "https://mastodon.social/@stunningshemp/117556978404715379",
-      "url": "https://mastodon.social/@stunningshemp/117556978404715379",
-      "handle": "stunningshemp@mastodon.social",
-      "name": "Chris Coats",
-      "text": "I didn’t realize it was Act 1 #retrogaming #sonicthehedgehog3 #sonic #stunningshemp #twitch",
-      "createdAt": "2026-11-04T07:25:36.305Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "video, no description",
-      "firstSeen": "2026-11-04T14:28:15.929Z"
-    },
     "https://mastodon.social/@Andregamingyt3k@pixelfed.social/117560771000767145": {
       "uri": "https://mastodon.social/@Andregamingyt3k@pixelfed.social/117560771000767145",
       "url": "https://mastodon.social/@Andregamingyt3k@pixelfed.social/117560771000767145",
@@ -240,7 +185,7 @@
       "text": "What was the banned game in your school computer lab, and how did everyone get around the block? Proxy sites, USB sticks, renamed .exe files, something wilder? #RetroGaming",
       "createdAt": "2026-11-04T16:31:41.000Z",
       "likes": 1,
-      "replies": 0,
+      "replies": 1,
       "group": "moreRetro",
       "query": "retrogaming",
       "score": 8,
@@ -281,12 +226,69 @@
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 4,
+      "score": 3,
       "question": false,
       "heated": true,
       "isReply": false,
       "media": "video, no description",
       "firstSeen": "2026-11-05T06:40:37.171Z"
+    },
+    "https://mastodon.social/@bunnyhearted@vt.social/117564569989401738": {
+      "uri": "https://mastodon.social/@bunnyhearted@vt.social/117564569989401738",
+      "url": "https://mastodon.social/@bunnyhearted@vt.social/117564569989401738",
+      "handle": "bunnyhearted@vt.social",
+      "name": "Bunny Hearted",
+      "text": "Still recovering from sick, but I wanna try for stream again today!! Gonna play some retro games (possibly featuring a particularly delightful Moon 💖) at around 2et. 🐰💕 #vtuber #retrogaming",
+      "createdAt": "2026-11-05T15:36:13.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://vt.social/@bunnyhearted/117564569895277733",
+      "media": null,
+      "firstSeen": "2026-11-05T15:50:53.964Z"
+    },
+    "https://mastodon.social/@kuroneko@socials.thundercleess.com/117563987154872279": {
+      "uri": "https://mastodon.social/@kuroneko@socials.thundercleess.com/117563987154872279",
+      "url": "https://mastodon.social/@kuroneko@socials.thundercleess.com/117563987154872279",
+      "handle": "kuroneko@socials.thundercleess.com",
+      "name": "Blackcat",
+      "text": "🎮 On This Day in Gaming — November 5 Call of Duty 4: Modern Warfare (2007) redefined the FPS genre. Its modern-day setting, Killstreak rewards, and perk system shaped multiplayer shooters for the next decade and beyond. Also released today: 📅 2013: Call of Duty: Ghosts 📅 2004: FlatOut 📅 2005: Gun #Gaming #OnThisDay #RetroGaming #CallOfDuty4",
+      "createdAt": "2026-11-05T13:07:57.000Z",
+      "likes": 2,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 4,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://socials.thundercleess.com/@kuroneko/117563986922451324",
+      "media": "4 images: Box art for Call of Duty 4: Modern Warfare / Box art for Call of Duty: Ghosts / Box art for FlatOut / Box art for Gun",
+      "firstSeen": "2026-11-05T15:50:53.964Z"
+    },
+    "https://mastodon.social/@Oregon_Pacifist@retro-gaiden.com/117563901077564094": {
+      "uri": "https://mastodon.social/@Oregon_Pacifist@retro-gaiden.com/117563901077564094",
+      "url": "https://mastodon.social/@Oregon_Pacifist@retro-gaiden.com/117563901077564094",
+      "handle": "Oregon_Pacifist@retro-gaiden.com",
+      "name": "Oregon Pacifist",
+      "text": "I’m gonna party like it’s 1996. :saturn: #RetroGaming #SEGA #Arcade",
+      "createdAt": "2026-11-05T12:45:56.000Z",
+      "likes": 7,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 4,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://retro-gaiden.com/@Oregon_Pacifist/117563900319763460",
+      "media": "video, no description",
+      "firstSeen": "2026-11-05T15:50:53.964Z"
     }
   }
 }
