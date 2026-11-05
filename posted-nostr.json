@@ -2127,6 +2127,54 @@
             "id": "cbf0dea91a2e71310fdec150deae10c378c52afc63f3ea50e7fba1f933cb12bd",
             "sig": "039e5481e5da890803d9c7f87bca2ceaade23951fc841e2294bb938b6d0a57cf88358e263710f9d1fc536e326338540541a6081d60355b4bd77e47f5e1299a1d"
           }
+        },
+        "article": {
+          "status": "done",
+          "kind": "article",
+          "id": "846071b01de699c92bfeb1b96793c84bbb7db9a2b39766057ef8b1e11dfff997",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "article": "steam-discount-rules-how-often",
+          "postedAt": "2026-11-05T22:29:24.000Z",
+          "accepted": [
+            "wss://relay.damus.io",
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [],
+          "event": {
+            "kind": 1,
+            "created_at": 1793917764,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-article"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://saveandplay.com/og/steam-discount-rules-how-often.png",
+                "m image/png",
+                "alt Diagram of Steam discount limits from Steamworks documentation: a standard discount is between 10% and 95%, runs 1 to 14 days, and a game cannot be discounted within 30 days of another discount, its release or a price increase. No game prices are shown."
+              ]
+            ],
+            "content": "How often can a Steam game go on sale? The discount rules, and what they mean for waiting\n\nSteam has written rules on how deep and how long a discount can be, and how soon a game can be discounted again. Here is what they say and how to use them.\n\n#pcgaming #gamedeals\n\nhttps://saveandplay.com/og/steam-discount-rules-how-often.png\n\nhttps://saveandplay.com/guides/steam-discount-rules-how-often/?utm_source=nostr-prices&utm_medium=social&utm_campaign=steam-discount-rules-how-often",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "846071b01de699c92bfeb1b96793c84bbb7db9a2b39766057ef8b1e11dfff997",
+            "sig": "59ce57146c404afa702b76b510b963a7573630a9e3c6b828be2dbdeb6a2ed50d8319e7eb32d0d8299274eb494c9049b798f0f12bb33fd8fd1e4d06102bedc58a"
+          }
         }
       }
     }
@@ -2188,6 +2236,10 @@
       "how-to-read-steam-reviews": {
         "day": "2026-11-03",
         "id": "a15cfda2458cd58f10d52aa8e2282fa1e9cd9f61347cfb9ad4ac9afee7bcf994"
+      },
+      "steam-discount-rules-how-often": {
+        "day": "2026-11-05",
+        "id": "846071b01de699c92bfeb1b96793c84bbb7db9a2b39766057ef8b1e11dfff997"
       }
     }
   },
