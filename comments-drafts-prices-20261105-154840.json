@@ -1,0 +1,29 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "stamp": "20261105-154840",
+  "madeAt": "2026-11-05T15:52:57.621Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:5dpew7dcv42qfxq4bsttwfx7/app.bsky.feed.post/3mzl3ytclf227",
+      "url": "https://bsky.app/profile/saffroncr.bsky.social/post/3mzl3ytclf227",
+      "author": "saffroncr.bsky.social",
+      "context": "I built my dream retro 2000s PC, and I'm thinking of playing some games on it this weekend… for research for my metroidbrainia game, of course 😅 Thinking of playing a bit of Thief 2, System Shock 2, Deus Ex, Arx Fatalis... Any other recommendations?\n2 images: ASUS P5KPL-AM Intel Core 2 Duo E7500 2.93 GHz 2GB RAM (2x Kingston KVR800D2N6/1G DDR2) GeForce 8800GT Sound Blaster Audigy 2 1TB Western Digital Caviar Black / Retro PC playing Oblivion",
+      "text": "That list is a great start. Vampire: The Masquerade - Bloodlines fits right in with it, same era and the same \"solve it your way\" feel. If you try it, install the community patch first.",
+      "group": "backlog",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:oxgecvyu2upwscfzldzcfnfu/app.bsky.feed.post/3mzl4yfosmq2r",
+      "url": "https://bsky.app/profile/denyally.bsky.social/post/3mzl4yfosmq2r",
+      "author": "denyally.bsky.social",
+      "context": "Rollback, Steam Deck support, and it's still free? Brief Karate Foolish really woke up and chose violence.",
+      "text": "Free and Deck-ready is a hard combo to beat. Rollback netcode is also what makes online fighting games feel smooth, so that's a real upgrade.",
+      "group": "deck",
+      "heated": false
+    }
+  ]
+}
