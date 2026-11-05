@@ -1,0 +1,23 @@
+{
+  "madeAt": "2026-11-05T19:52:31.664Z",
+  "run": "42098007795",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices|article|/guides/sharing-a-steam-account-with-family/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 6,
+      "link": "https://saveandplay.com/guides/sharing-a-steam-account-with-family/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-shared-account",
+      "text": "Steam's agreement calls your account \"strictly personal\", yet you pay for what family and friends buy on it. What it says, and 5 habits for a shared PC:\nhttps://saveandplay.com/guides/sharing-a-steam-account-with-family/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-shared-account\n#PCGaming #GameDeals #Steam",
+      "approvedFile": "posts-approved-20261105-155809.json",
+      "approvedAt": "2026-11-05T15:58:09.101Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-05T19:52:33.819Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mzlnf4kljz22",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3mzlnf4kljz22",
+      "picture": true
+    }
+  ]
+}
