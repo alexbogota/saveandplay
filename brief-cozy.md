@@ -1,8 +1,8 @@
-# Brief: Cozy and calm games (@cozygame.bsky.social), 2026-11-04 18:29 UTC
-Prices checked 2026-11-04 17:25 UTC (1 h ago). News: 10 of 11 sources read, 117 items from the last 48 h, 0 of 0 offered deals mentioned.
+# Brief: Cozy and calm games (@cozygame.bsky.social), 2026-11-05 18:33 UTC
+Prices checked 2026-11-05 17:35 UTC (1 h ago). News: 11 of 11 sources read, 126 items from the last 48 h, 0 of 0 offered deals mentioned.
 Niche Cozy: 1 games fit the rule today (0 of them can be posted now).
 WARNING: NOTHING TO OFFER today.
-WARNING: No game fits the niche today (1 fit the rule, 8 do not, 0 have no facts yet, 0 were taken by another account today, 1 offered in the last 7 days, 0 under 30%, 0 prices older than 48 h, 0 sales over or ending soon).
+WARNING: No game fits the niche today (1 fit the rule, 4 do not, 0 have no facts yet, 0 were taken by another account today, 1 offered in the last 7 days, 0 under 30%, 0 prices older than 48 h, 0 sales over or ending soon).
 
 Write ONE post about the first item below (take another one only if it looks wrong, and say why).
 Rules:
@@ -11,6 +11,6 @@ Rules:
 - If no game fits today, the post file says NO POST TODAY. Never take any game just to fill the day.
 - Use only the numbers in this brief (price, was, discount, dates). Never invent or round prices. The last line is Ad (plain text, not a hashtag).
 
-Left out: 0 other-store deals, 0 hidden duplicates, 0 under 30%, 0 ended, 0 ending within 6 h, 0 old prices, 8 outside the niche, 0 without facts.
-Sources not read: Indie Game Bundles (нет ответа за 20 с).
-Built by: commit 7bd160d, schedule, run #36 attempt 1.
+Left out: 0 other-store deals, 0 hidden duplicates, 0 under 30%, 0 ended, 0 ending within 6 h, 0 old prices, 4 outside the niche, 0 without facts.
+Sources not read: none.
+Built by: commit 912d21a, schedule, run #37 attempt 1.

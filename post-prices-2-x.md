@@ -1,8 +1,8 @@
-Metro Exodus: -85% at GOG
-$4.49 (was $29.99)
-Price checked Nov 4. Sale ends Nov 5.
+Shadow Tactics: Blades of the Shogun: -90% at GOG
+$3.99 (was $39.99)
+Price checked Nov 5. Sale ends Nov 13. Lowest price we've tracked.
 
-https://saveandplay.com/deals/gog/metro-exodus/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-04
+https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-05
 
-#PCGaming #MetroExodus
+#PCGaming #GameDeals
 Ad

@@ -1,11 +1,11 @@
 {
   "account": "Cozy and calm games",
-  "generatedAt": "2026-11-04T18:29:31.570Z",
-  "builtBy": "commit 7bd160d, schedule, run #36 attempt 1",
-  "pricesCheckedAt": "2026-11-04T17:25:46.702Z",
+  "generatedAt": "2026-11-05T18:33:04.865Z",
+  "builtBy": "commit 912d21a, schedule, run #37 attempt 1",
+  "pricesCheckedAt": "2026-11-05T17:35:04.136Z",
   "warnings": [
     "NOTHING TO OFFER today.",
-    "No game fits the niche today (1 fit the rule, 8 do not, 0 have no facts yet, 0 were taken by another account today, 1 offered in the last 7 days, 0 under 30%, 0 prices older than 48 h, 0 sales over or ending soon)."
+    "No game fits the niche today (1 fit the rule, 4 do not, 0 have no facts yet, 0 were taken by another account today, 1 offered in the last 7 days, 0 under 30%, 0 prices older than 48 h, 0 sales over or ending soon)."
   ],
   "niche": {
     "label": "Cozy",
@@ -19,7 +19,7 @@
   "left": {
     "otherStore": 0,
     "hidden": 0,
-    "notNiche": 8,
+    "notNiche": 4,
     "noFacts": 0,
     "taken": 0,
     "repeat": 1,
@@ -30,19 +30,14 @@
   },
   "sources": {
     "total": 11,
-    "failed": [
-      {
-        "name": "Indie Game Bundles",
-        "why": "нет ответа за 20 с"
-      }
-    ]
+    "failed": []
   },
   "posts": {
     "x": {
-      "none": "No deal passes the rules today. NOTHING TO OFFER today. No game fits the niche today (1 fit the rule, 8 do not, 0 have no facts yet, 0 were taken by another account today, 1 offered in the last 7 days, 0 under 30%, 0 prices older than 48 h, 0 sales over or ending soon)."
+      "none": "No deal passes the rules today. NOTHING TO OFFER today. No game fits the niche today (1 fit the rule, 4 do not, 0 have no facts yet, 0 were taken by another account today, 1 offered in the last 7 days, 0 under 30%, 0 prices older than 48 h, 0 sales over or ending soon)."
     },
     "bluesky": {
-      "none": "No deal passes the rules today. NOTHING TO OFFER today. No game fits the niche today (1 fit the rule, 8 do not, 0 have no facts yet, 0 were taken by another account today, 1 offered in the last 7 days, 0 under 30%, 0 prices older than 48 h, 0 sales over or ending soon)."
+      "none": "No deal passes the rules today. NOTHING TO OFFER today. No game fits the niche today (1 fit the rule, 4 do not, 0 have no facts yet, 0 were taken by another account today, 1 offered in the last 7 days, 0 under 30%, 0 prices older than 48 h, 0 sales over or ending soon)."
     }
   }
 }

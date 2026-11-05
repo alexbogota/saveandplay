@@ -1,5 +1,26 @@
 [
  {
+  "day": "2026-11-05",
+  "account": "prices",
+  "post": "Metro Exodus: -90% at GOG | $2.99 (was $29.99) | Price checked Nov 5. Sale ends Nov 16. Lowest price we've tracked. https://saveandplay.com/deals/gog/metro-exodus/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-05 #PCGaming #GameDeals Ad",
+  "chars": 163,
+  "order": 1
+ },
+ {
+  "day": "2026-11-05",
+  "account": "prices-2",
+  "post": "Shadow Tactics: Blades of the Shogun: -90% at GOG | $3.99 (was $39.99) | Price checked Nov 5. Sale ends Nov 13. Lowest price we've tracked. https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-05 #PCGaming #GameDeals Ad",
+  "chars": 187,
+  "order": 2
+ },
+ {
+  "day": "2026-11-05",
+  "account": "retro",
+  "post": "SimCity 4 Deluxe Edition: -75% at GOG | $4.99 (was $19.99) | Price checked Nov 5. Sale ends Nov 16. Lowest price we've tracked. https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=x-retro&utm_medium=social&utm_campaign=deals-2026-11-05 #RetroGaming #SimCity4DeluxeEdition Ad",
+  "chars": 190,
+  "order": 4
+ },
+ {
   "day": "2026-11-04",
   "account": "prices",
   "post": "Thronebreaker: The Witcher Tales: -80% at GOG | $3.99 (was $19.99) | Price checked Nov 4. Sale ends Nov 5. Lowest price we've tracked. https://saveandplay.com/deals/gog/thronebreaker-the-witcher-tales/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-04 #PCGaming #Thronebreaker Ad",
@@ -89,26 +110,5 @@
   "post": "Shadow Tactics: Blades of the Shogun: -90% at GOG | $3.99 (was $39.99) | Price checked Oct 30. Sale ends Nov 5. Lowest price we've tracked. https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-30 #PCGaming #GameDeals Ad",
   "chars": 187,
   "order": 2
- },
- {
-  "day": "2026-10-29",
-  "account": "prices",
-  "post": "Frostpunk: -85% at GOG | $4.49 (was $29.99) | Price checked Oct 29. Sale ends Nov 5. Lowest price we've tracked. https://saveandplay.com/deals/gog/frostpunk/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-29 #PCGaming #Frostpunk Ad",
-  "chars": 160,
-  "order": 1
- },
- {
-  "day": "2026-10-29",
-  "account": "prices-2",
-  "post": "Thronebreaker: The Witcher Tales: -80% at GOG | $3.99 (was $19.99) | Price checked Oct 29. Sale ends Nov 5. Lowest price we've tracked. https://saveandplay.com/deals/gog/thronebreaker-the-witcher-tales/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-29 #PCGaming #Thronebreaker Ad",
-  "chars": 187,
-  "order": 2
- },
- {
-  "day": "2026-10-29",
-  "account": "retro",
-  "post": "SimCity 4 Deluxe Edition: -75% at GOG | $4.99 (was $19.99) | Price checked Oct 29. Sale ends Nov 5. Lowest price we've tracked. https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=x-retro&utm_medium=social&utm_campaign=deals-2026-10-29 #RetroGaming #PCGaming Ad",
-  "chars": 177,
-  "order": 4
  }
 ]

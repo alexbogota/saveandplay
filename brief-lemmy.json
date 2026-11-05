@@ -1,184 +1,68 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-11-04T18:29:31.570Z",
-  "builtBy": "commit 7bd160d, schedule, run #36 attempt 1",
-  "pricesCheckedAt": "2026-11-04T17:25:46.702Z",
+  "generatedAt": "2026-11-05T18:33:04.865Z",
+  "builtBy": "commit 912d21a, schedule, run #37 attempt 1",
+  "pricesCheckedAt": "2026-11-05T17:35:04.136Z",
   "warnings": [],
   "candidates": [
     {
-      "id": "gog-thronebreaker-the-witcher-tales",
+      "id": "gog-metro-exodus",
       "kind": "deal",
-      "title": "Thronebreaker: The Witcher Tales",
+      "title": "Metro Exodus",
       "store": "GOG",
-      "price": 3.99,
-      "was": 19.99,
-      "discount": 80,
-      "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 13,
-      "priceCheckedAt": "2026-11-04T17:25:46.702Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/973760/f748e07df077bb0cf4c49d4bc0f6437f510c5251/header.jpg?t=1761829221",
+      "price": 2.99,
+      "was": 29.99,
+      "discount": 90,
+      "endsAt": "2026-11-16T09:59:00+02:00",
+      "endsInHours": 253,
+      "priceCheckedAt": "2026-11-05T17:35:04.136Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804",
       "drminfo": null,
-      "coverAlt": "Cover art for Thronebreaker: The Witcher Tales",
+      "coverAlt": "Cover art for Metro Exodus",
       "facts": {
-        "year": 2018,
+        "year": 2019,
         "genres": [
-          "Role-playing",
-          "Fantasy",
-          "Strategy"
+          "Shooter",
+          "FPP",
+          "Sci-fi"
         ],
         "tags": [
-          "Fantasy",
           "Story Rich",
           "Atmospheric",
-          "Strategy",
-          "Role-playing",
-          "Turn-Based",
-          "Puzzle",
-          "Female Protagonist",
-          "Great Soundtrack",
-          "Choices Matter",
-          "Open World",
-          "Multiplayer",
+          "Sci-fi",
+          "First-Person",
+          "Science",
+          "Horror",
           "Mature",
-          "Sexual Content",
-          "Isometric",
-          "Medieval",
-          "Card Game"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 12,
-      "discountRank": 6,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 24,
-        "lowest": true,
-        "since": "2026-10-07"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/thronebreaker-the-witcher-tales/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-04",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "sale ends in 13 h",
-        "lowest price we've tracked (24 days of data)",
-        "deepest-discount rank 6 of 7"
-      ]
-    },
-    {
-      "id": "gog-simcity-4-deluxe-edition",
-      "kind": "deal",
-      "title": "SimCity 4 Deluxe Edition",
-      "store": "GOG",
-      "price": 4.99,
-      "was": 19.99,
-      "discount": 75,
-      "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 13,
-      "priceCheckedAt": "2026-11-04T17:25:46.702Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
-      "drminfo": null,
-      "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
-      "facts": {
-        "year": 2003,
-        "genres": [
-          "Simulation",
-          "Building",
-          "Managerial"
-        ],
-        "tags": [
-          "Atmospheric",
-          "Simulation",
-          "Classic",
-          "Great Soundtrack",
-          "Management",
-          "Sandbox",
-          "Real-Time",
-          "Isometric",
-          "Building",
-          "Managerial",
-          "City builder"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 11.5,
-      "discountRank": 7,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 26,
-        "lowest": true,
-        "since": "2026-10-07"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-04",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "sale ends in 13 h",
-        "lowest price we've tracked (26 days of data)",
-        "deepest-discount rank 7 of 7"
-      ]
-    },
-    {
-      "id": "gog-shadow-tactics-blades-of-the-shogun",
-      "kind": "deal",
-      "title": "Shadow Tactics: Blades of the Shogun",
-      "store": "GOG",
-      "price": 3.99,
-      "was": 39.99,
-      "discount": 90,
-      "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 13,
-      "priceCheckedAt": "2026-11-04T17:25:46.702Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
-      "drminfo": null,
-      "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
-      "facts": {
-        "year": 2016,
-        "genres": [
-          "Strategy",
-          "Real-time",
-          "Stealth"
-        ],
-        "tags": [
-          "Indie",
-          "Atmospheric",
-          "Strategy",
-          "Puzzle",
-          "Great Soundtrack",
-          "Tactical",
-          "Third Person",
-          "Historical",
+          "Nudity",
           "Survival",
           "Violent",
-          "Real-Time",
-          "Difficult",
-          "Isometric",
-          "RTS",
+          "Gore",
+          "FPS",
+          "Shooter",
+          "Post-apocalyptic",
           "Stealth",
-          "Ninja"
+          "Survival Horror",
+          "Psychological Horror"
         ]
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 5,
+      "score": 11,
       "discountRank": 1,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 26,
+        "days": 19,
         "lowest": true,
-        "since": "2026-10-07"
+        "since": "2026-10-18"
       },
-      "offeredOn": "2026-10-31",
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-04",
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-05",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 13 h",
-        "lowest price we've tracked (26 days of data)",
-        "deepest-discount rank 1 of 7"
+        "lowest price we've tracked (19 days of data)",
+        "deepest-discount rank 1 of 3"
       ]
     },
     {
@@ -189,9 +73,9 @@
       "price": 2.99,
       "was": 19.99,
       "discount": 85,
-      "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 13,
-      "priceCheckedAt": "2026-11-04T17:25:46.702Z",
+      "endsAt": "2026-11-16T09:59:00+02:00",
+      "endsInHours": 253,
+      "priceCheckedAt": "2026-11-05T17:35:04.136Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
       "drminfo": null,
       "coverAlt": "Cover art for This War of Mine",
@@ -224,22 +108,21 @@
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 4.5,
-      "discountRank": 3,
+      "score": 2.5,
+      "discountRank": 2,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 17,
+        "days": 18,
         "lowest": true,
         "since": "2026-10-19"
       },
       "offeredOn": "2026-11-01",
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-04",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-05",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 13 h",
-        "lowest price we've tracked (17 days of data)",
-        "deepest-discount rank 3 of 7"
+        "lowest price we've tracked (18 days of data)",
+        "deepest-discount rank 2 of 3"
       ]
     },
     {
@@ -250,9 +133,9 @@
       "price": 3.75,
       "was": 24.99,
       "discount": 85,
-      "endsAt": "2026-11-05T09:59:00+02:00",
-      "endsInHours": 13,
-      "priceCheckedAt": "2026-11-04T17:25:46.702Z",
+      "endsAt": "2026-11-16T09:59:00+02:00",
+      "endsInHours": 253,
+      "priceCheckedAt": "2026-11-05T17:35:04.136Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187",
       "drminfo": null,
       "coverAlt": "Cover art for Darkest Dungeon",
@@ -283,122 +166,75 @@
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 4.5,
-      "discountRank": 4,
+      "score": 2.5,
+      "discountRank": 3,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 26,
+        "days": 27,
         "lowest": true,
         "since": "2026-10-07"
       },
       "offeredOn": "2026-11-03",
-      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-04",
+      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-05",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 13 h",
-        "lowest price we've tracked (26 days of data)",
-        "deepest-discount rank 4 of 7"
+        "lowest price we've tracked (27 days of data)",
+        "deepest-discount rank 3 of 3"
       ]
     }
   ],
   "gogNews": [],
   "topical": [
     {
-      "title": "'How can prices fall when there's nothing left?' TeamGroup CEO reckons supply-demand memory equilibrium may not happen until late 2028 at the earliest",
-      "source": "PC Gamer",
-      "link": "https://www.pcgamer.com/hardware/memory/how-can-prices-fall-when-theres-nothing-left-teamgroup-ceo-reckons-supply-demand-memory-equilibrium-may-not-happen-until-late-2028-at-the-earliest/",
-      "t": 1793810351000,
-      "keyword": "prices",
-      "summary": "You may well be sick of reading about it—I am certainly sick to my stomach writing about it—but here's another doom-filled prophecy about the continuing memory…"
-    },
-    {
-      "title": "I'm watching YouTube videos in glorious stereoscopic 3D on my Steam Frame with just a free plugin and a long-forgotten dream of a new Nintendo 3DS",
-      "source": "PC Gamer",
-      "link": "https://www.pcgamer.com/hardware/vr-hardware/im-watching-youtube-videos-in-glorious-stereoscopic-3d-on-my-steam-frame-with-just-a-free-plugin-and-a-long-forgotten-dream-of-a-new-nintendo-3ds/",
-      "t": 1793809744000,
+      "title": "Prime Gaming serves up two FREE PC games to kick off the month",
+      "source": "gg.deals News",
+      "link": "https://gg.deals/subscription-news/prime-gaming-serves-up-two-free-pc-games-to-kick-off-the-month/",
+      "t": 1793903249000,
       "keyword": "free",
-      "summary": "Remember the 3D craze? The Nintendo 3DS, 3D TV, 3D cinema; it was a new, exciting technology that some expected would go mainstream one day. Then the dream jus…"
+      "summary": "Enjoy rally racing or become the bane of your neighborhood with these new Prime Gaming free games."
     },
     {
-      "title": "Forget burgers, Wendy's has a FREE Steam game now! And you might even earn real food",
+      "title": "XBOX has EIGHT games unlocked and ready as the latest FREE Play Days gets underway!",
+      "source": "gg.deals News",
+      "link": "https://gg.deals/subscription-news/xbox-has-eight-games-unlocked-and-ready-as-the-latest-free-play-days-gets-underway/",
+      "t": 1793902140000,
+      "keyword": "free",
+      "summary": "Including another couple of titles that are completely free for all XBOX players to enjoy."
+    },
+    {
+      "title": "Anno 117: Pax Romana kicks off its FREE weekend alongside a new DLC launch",
       "source": "gg.deals Freebies",
-      "link": "https://gg.deals/freebie/wendyquest-legend-of-the-four-corner-stones-is-free-on-steam/",
-      "t": 1793798326000,
+      "link": "https://gg.deals/freebie/anno-117-pax-romana-kicks-off-its-free-weekend-alongside-a-new-dlc-launch/",
+      "t": 1793900820000,
       "keyword": "free",
-      "summary": "Here's a free Steam game we definitely didn't see coming!"
+      "summary": "Play the game for free until November 9."
+    },
+    {
+      "title": "007 First Light FREE Starter Pack lets you test your license to kill in the opening chapter",
+      "source": "gg.deals Freebies",
+      "link": "https://gg.deals/freebie/007-first-light-free-starter-pack-lets-you-test-your-license-to-kill-in-the-opening-chapter/",
+      "t": 1793897827000,
+      "keyword": "free",
+      "summary": "Out now on Steam and Xbox; arriving on PS5 November 10."
+    },
+    {
+      "title": "PC Gamer magazine's new issue is on sale now: Metro 2039",
+      "source": "PC Gamer",
+      "link": "https://www.pcgamer.com/games/pc-gamer-magazines-new-issue-is-on-sale-now-metro-2039/",
+      "t": 1793896137000,
+      "keyword": "sale",
+      "summary": "This month, PC Gamer delivers world-exclusive access to Metro 2039, the hyper-dark new FPS from 4A Games. And we're pleased to say that PC gamers who have been…"
     }
   ],
   "topics": [
     {
-      "headline": "The Elder Scrolls 6: Sentinel teaser all but confirms Hammerfell setting and means we can finally stop using that eight year old header image with the hills",
-      "score": 9,
-      "sites": [
-        "pcgamer.com",
-        "rockpapershotgun.com",
-        "eurogamer.net"
-      ],
-      "keywords": [],
-      "games": [],
-      "items": [
-        {
-          "source": "PC Gamer",
-          "title": "The Elder Scrolls 6: Sentinel is finally made official",
-          "link": "https://www.pcgamer.com/games/the-elder-scrolls/the-elder-scrolls-6-sentinel-is-finally-made-official/",
-          "published": "2026-11-03T15:33:59.000Z"
-        },
-        {
-          "source": "Rock Paper Shotgun",
-          "title": "The Elder Scrolls 6: Sentinel teaser all but confirms Hammerfell setting and means we can finally stop using that eight year old header image with the hills",
-          "link": "https://www.rockpapershotgun.com/the-elder-scrolls-6-sentinel-teaser-all-but-confirms-hammerfell-setting-and-means-we-can-finally-stop-using-that-eight-year-old-header-image-with-the-hills",
-          "published": "2026-11-03T16:09:52.000Z"
-        },
-        {
-          "source": "Eurogamer",
-          "title": "The Elder Scrolls 6: Sentinel is confirmed, finally getting new trailer and full name, 8 years, 4 months, and 23 days after its reveal",
-          "link": "https://www.eurogamer.net/the-elder-scrolls-6-sentinel-revealed-bethesda-xbox",
-          "published": "2026-11-03T15:08:07.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "The Legend of Zelda: Ocarina of Time remake gets near-perfect reviews! Critics are blown away",
-      "score": 8,
-      "sites": [
-        "gg.deals",
-        "eurogamer.net"
-      ],
-      "keywords": [
-        "discount"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "The Legend of Zelda: Ocarina of Time remake gets near-perfect reviews! Critics are blown away",
-          "link": "https://gg.deals/gaming-news/the-legend-of-zelda-ocarina-of-time-remake-reviews/",
-          "published": "2026-11-04T15:20:00.000Z"
-        },
-        {
-          "source": "gg.deals News",
-          "title": "The Legend of Zelda: Ocarina of Time gets a rare Nintendo first-party discount ahead of this week's launch!",
-          "link": "https://gg.deals/deal/the-legend-of-zelda-ocarina-of-time-gets-a-rare-nintendo-first-party-discount/",
-          "published": "2026-11-03T17:28:00.000Z"
-        },
-        {
-          "source": "Eurogamer",
-          "title": "The Legend of Zelda: Ocarina of Time (2026) review",
-          "link": "https://www.eurogamer.net/the-legend-of-zelda-ocarina-of-time-remake-review",
-          "published": "2026-11-04T11:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Fanatical is giving away FREE Letter Quest: Grimm's Journey Remastered Steam keys!",
-      "score": 8,
+      "headline": "Get a FREE STEAM KEY for Letter Quest: Grimm’s Journey Remastered at Fanatical",
+      "score": 11,
       "sites": [
         "gamerpower.com",
-        "gg.deals"
+        "gg.deals",
+        "indiegamebundles.com"
       ],
       "keywords": [
         "free"
@@ -418,50 +254,110 @@
           "published": "2026-11-04T12:10:41.000Z"
         },
         {
-          "source": "gg.deals News",
-          "title": "Fanatical is giving away FREE Letter Quest: Grimm's Journey Remastered Steam keys!",
-          "link": "https://gg.deals/freebie/fanatical-is-giving-away-free-letter-quest-grimms-journey-remastered-steam-keys/",
-          "published": "2026-11-04T12:10:41.000Z"
+          "source": "Indie Game Bundles",
+          "title": "Get a FREE STEAM KEY for Letter Quest: Grimm’s Journey Remastered at Fanatical",
+          "link": "https://www.indiegamebundles.com/get-a-free-steam-key-for-letter-quest-grimms-journey-remastered/",
+          "published": "2026-11-04T18:28:47.000Z"
         }
       ]
     },
     {
-      "headline": "Nintendo’s new sale brings a record-low price for acclaimed JRPG Trails in the Sky 1st Chapter, plus more",
-      "score": 7,
+      "headline": "Humble Resident Evil: Biohazard Unleashed Bundle",
+      "score": 10,
       "sites": [
-        "gg.deals"
+        "gg.deals",
+        "indiegamebundles.com"
       ],
       "keywords": [
-        "sale",
-        "price"
+        "bundle",
+        "humble"
       ],
       "games": [],
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Nintendo’s new sale brings a record-low price for acclaimed JRPG Trails in the Sky 1st Chapter, plus more",
-          "link": "https://gg.deals/deal/nintendos-new-sale-brings-a-record-low-price-for-acclaimed-jrpg-trails-in-the-sky-1st-chapter-plus-more/",
-          "published": "2026-11-04T16:38:07.000Z"
+          "title": "Humble Resident Evil: Biohazard Unleashed Bundle gets you a big survival horror collection",
+          "link": "https://gg.deals/bundle/humble-resident-evil-biohazard-unleashed-bundle/",
+          "published": "2026-11-04T19:42:57.000Z"
+        },
+        {
+          "source": "Indie Game Bundles",
+          "title": "Humble Resident Evil: Biohazard Unleashed Bundle",
+          "link": "https://www.indiegamebundles.com/humble-resident-evil-biohazard-unleashed-bundle/",
+          "published": "2026-11-04T20:56:59.000Z"
         }
       ]
     },
     {
-      "headline": "Fatekeeper is about to cost 50% more, secure your copy before the price hike hits!",
+      "headline": "OUT NOW! The Legend of Zelda: Ocarina of Time gets a rare Nintendo first-party discount (updated)",
+      "score": 8,
+      "sites": [
+        "gg.deals",
+        "eurogamer.net"
+      ],
+      "keywords": [
+        "discount"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "OUT NOW! The Legend of Zelda: Ocarina of Time gets a rare Nintendo first-party discount (updated)",
+          "link": "https://gg.deals/deal/the-legend-of-zelda-ocarina-of-time-gets-a-rare-nintendo-first-party-discount/",
+          "published": "2026-11-05T10:17:00.000Z"
+        },
+        {
+          "source": "Eurogamer",
+          "title": "The Legend of Zelda: Ocarina of Time's Navi actor reprises her role after 28 years, but it was a total accident due to Nintendo's blind auditions",
+          "link": "https://www.eurogamer.net/nintendo-cast-navi-actor-zelda-ocarina-of-time",
+          "published": "2026-11-04T19:15:40.000Z"
+        },
+        {
+          "source": "Eurogamer",
+          "title": "The Legend of Zelda: Ocarina of Time (2026) review",
+          "link": "https://www.eurogamer.net/the-legend-of-zelda-ocarina-of-time-remake-review",
+          "published": "2026-11-04T11:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "New GOG sales bring up to 95% off DRM-free PC games! From epic RPGs to survival horror",
       "score": 7,
       "sites": [
         "gg.deals"
       ],
       "keywords": [
+        "sales",
+        "free"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "New GOG sales bring up to 95% off DRM-free PC games! From epic RPGs to survival horror",
+          "link": "https://gg.deals/deal/new-gog-sales-bring-up-to-95-off-drm-free-pc-games-november-5/",
+          "published": "2026-11-05T12:05:59.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Switch 2 sales dropped 37% this summer, mostly before the price hike hit; Nintendo now expects sales to slump 16.9% in console's second year",
+      "score": 7,
+      "sites": [
+        "pcgamer.com"
+      ],
+      "keywords": [
+        "sales",
         "price",
         "price hike"
       ],
       "games": [],
       "items": [
         {
-          "source": "gg.deals News",
-          "title": "Fatekeeper is about to cost 50% more, secure your copy before the price hike hits!",
-          "link": "https://gg.deals/gaming-news/fatekeeper-is-about-to-cost-50-more-secure-your-copy-before-the-price-hike-hits/",
-          "published": "2026-11-04T13:43:00.000Z"
+          "source": "PC Gamer",
+          "title": "Switch 2 sales dropped 37% this summer, mostly before the price hike hit; Nintendo now expects sales to slump 16.9% in console's second year",
+          "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/switch-2-sales-dropped-37-percent-this-summer-mostly-before-the-price-hike-hit-nintendo-now-expects-sales-to-slump-16-9-percent-in-consoles-second-year/",
+          "published": "2026-11-05T11:53:38.000Z"
         }
       ]
     }
@@ -471,21 +367,16 @@
     "hidden": 0,
     "notNiche": 0,
     "noFacts": 0,
-    "taken": 1,
+    "taken": 2,
     "repeat": 0,
     "smallDiscount": 0,
-    "ended": 1,
+    "ended": 0,
     "endsTooSoon": 0,
     "oldPrice": 0
   },
   "sources": {
     "total": 11,
-    "failed": [
-      {
-        "name": "Indie Game Bundles",
-        "why": "нет ответа за 20 с"
-      }
-    ]
+    "failed": []
   },
   "posts": {}
 }
