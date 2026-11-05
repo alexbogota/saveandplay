@@ -2077,6 +2077,57 @@
             "sig": "3b9e74d955b1141bda107229a378d576b629c21fed0b03cf09af0711ce8a58084fb15df6c86941fe2d58f7be80b04999e1dcbd6d7d01ad663a67f4601819c3c4"
           }
         }
+      },
+      "2026-11-05": {
+        "deal": {
+          "status": "done",
+          "kind": "deal",
+          "id": "cbf0dea91a2e71310fdec150deae10c378c52afc63f3ea50e7fba1f933cb12bd",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "deal": "gog-metro-exodus",
+          "title": "Metro Exodus",
+          "postedAt": "2026-11-05T18:53:05.000Z",
+          "accepted": [
+            "wss://relay.damus.io",
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [],
+          "event": {
+            "kind": 1,
+            "created_at": 1793904785,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-deal"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804",
+                "m image/jpeg",
+                "alt Cover art for Metro Exodus"
+              ]
+            ],
+            "content": "Metro Exodus: -90% at GOG\n$2.99 (was $29.99)\nPrice checked 2026-11-05 17:35 UTC. Sale ends 2026-11-16 07:59 UTC.\nWhy today: lowest price we've tracked (19 days of data); deepest-discount rank 1 of 3.\nAd: we may earn a commission if you buy.\n\n#pcgaming #gamedeals\n\nhttps://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804\n\nhttps://saveandplay.com/deals/gog/metro-exodus/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-05",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "cbf0dea91a2e71310fdec150deae10c378c52afc63f3ea50e7fba1f933cb12bd",
+            "sig": "039e5481e5da890803d9c7f87bca2ceaade23951fc841e2294bb938b6d0a57cf88358e263710f9d1fc536e326338540541a6081d60355b4bd77e47f5e1299a1d"
+          }
+        }
       }
     }
   },
