@@ -1,0 +1,36 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-retro-20261105-154840.json",
+  "approvedAt": "2026-11-05T15:58:16.437Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:rwnd2hs5dnsu7hfypqnu3bam/app.bsky.feed.post/3mzjld2zbxs2k",
+      "url": "https://bsky.app/profile/tabbeigh.bsky.social/post/3mzjld2zbxs2k",
+      "author": "tabbeigh.bsky.social",
+      "context": "yeah only other fighting game I remember playing on MS-DOS was Street Fighter 2 which was also not very good if I recall",
+      "text": "DOS really was thin on fighting games. The Mortal Kombat ports are the other ones I remember.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:hdfbdyx3yxfqdbsavmqshd2k/app.bsky.feed.post/3mzkttf3crs24",
+      "url": "https://bsky.app/profile/onlyretrofans.com/post/3mzkttf3crs24",
+      "author": "onlyretrofans.com",
+      "context": "I don't remember a whole lot about my old games, I do remember they were written in BASIC - I *think* my cousin might have done the tape art, in which case it would have been pretty good. If not then i'd have done it - and it wouldn't be",
+      "text": "Writing games in BASIC and saving them to tape, with your own cassette art, is about as hands-on as retro gets.",
+      "edited": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:zlizpv47teskbapsrl3gwrrv/app.bsky.feed.post/3mzl6u3d42s2y",
+      "url": "https://bsky.app/profile/rawrparty.bsky.social/post/3mzl6u3d42s2y",
+      "author": "rawrparty.bsky.social",
+      "context": "I really enjoyed getting to play some classic games on the GameCube and N64 from my childhood, even if I was beaten by friends I was with. I didn’t get in the ball pit this year or really play with legos which I’m a lil sad about but just means I need to put it on the list for next time 2/12",
+      "text": "Classic GameCube and N64 games with friends sounds like the best kind of nostalgia, losing included.",
+      "edited": false
+    }
+  ]
+}

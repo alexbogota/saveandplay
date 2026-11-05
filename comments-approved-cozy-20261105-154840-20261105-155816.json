@@ -1,0 +1,27 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-cozy-20261105-154840.json",
+  "approvedAt": "2026-11-05T15:58:16.304Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:u5qm4ohj5cn7mmkazxyem2ge/app.bsky.feed.post/3mzktzmwhcs2y",
+      "url": "https://bsky.app/profile/gremlinpop.bsky.social/post/3mzktzmwhcs2y",
+      "author": "gremlinpop.bsky.social",
+      "context": "Thinking about starting up another new Stardew playthrough. What farm layout do you think I should go for? Not sure how long I'd play for since I want to do a bigger playthrough when 1.7 comes out and I have other games I want to play. Might just pick it up every now and then 👩‍🌾 (See alt text. x8)\n4 images: Standard farm: Focused on farming crops. Lots of farming space. Basic. Stardew farm layout - house in top right corner, a lot of brown farming land and a littl… / River land farm: Focus on fishing. Not loads of farming space. Awkward shapes. Aesthetic though. Stardew farm layout - house in top right corner, lots of water… / Forest farm: Focus on foraging with hard wood spawn. Areas where you can't farm (grass). I've played this one quite a bit because I like the aesthetics so kind… / Hill-Top farm: Focus on mining. Not loads of farming space and kind of awkward spaces. Aesthetic though. Stardew farm layout - house in top right corner, some …",
+      "text": "For short pick-up-and-put-down sessions, the Standard farm is the easiest one: lots of open space and no awkward shapes to plan around. If you want something pretty and relaxed, the Forest farm is a nice pick too.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:vmyccqwh3yu2jrymggrkys5t/app.bsky.feed.post/3mzkpdjywwk2d",
+      "url": "https://bsky.app/profile/knautwuff.bsky.social/post/3mzkpdjywwk2d",
+      "author": "knautwuff.bsky.social",
+      "context": "I'm sorry but there's a co-op game where you herd sheep and bark and play and pee?? My people must know. store.steampowered.com/app/3006280/...\nlink card: Save 40% on Sheepherds! on Steam; quotes @ultimodisco.bsky.social: Need a break from sweaty games this Spring Sale? 🌸 Try herding sheep instead 🐑 #Sheepherds! is now 20% off: 🌿colorful worlds to chill in…",
+      "text": "Herding sheep as a co-op game is wonderfully weird. Sounds like a calm, low-pressure one to play with a friend.",
+      "edited": false
+    }
+  ]
+}
