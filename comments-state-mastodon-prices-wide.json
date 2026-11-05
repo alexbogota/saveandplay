@@ -8,83 +8,47 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 480,
-      "posts": 20320,
-      "fit": 230,
+      "runs": 488,
+      "posts": 20680,
+      "fit": 235,
       "last": {
         "posts": 80,
         "fit": 1,
-        "at": "2026-11-04T23:39:28.010Z"
+        "at": "2026-11-05T06:40:37.171Z"
       }
     },
     "moreAsk": {
-      "runs": 300,
-      "posts": 2700,
+      "runs": 305,
+      "posts": 2745,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-11-04T23:39:28.010Z"
+        "at": "2026-11-05T06:40:37.171Z"
       }
     },
     "moreRetro": {
-      "runs": 300,
-      "posts": 19120,
-      "fit": 653,
+      "runs": 305,
+      "posts": 19400,
+      "fit": 661,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-04T23:39:28.010Z"
+        "at": "2026-11-05T06:40:37.171Z"
       }
     },
     "morePlaying": {
-      "runs": 300,
-      "posts": 1260,
+      "runs": 305,
+      "posts": 1281,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-11-04T23:39:28.010Z"
+        "at": "2026-11-05T06:40:37.171Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@nanochess/117554797197913624": {
-      "uri": "https://mastodon.social/@nanochess/117554797197913624",
-      "url": "https://mastodon.social/@nanochess/117554797197913624",
-      "handle": "nanochess@mastodon.social",
-      "name": "Óscar Toledo G.",
-      "text": "Now in highly-misleading books. This book has an Atari 800 in the cover, it has drawings of the Atari, it mentions barely two times the Tandy Radio Shack CoCo, and all games are for the CoCo 😂 #retro #coco #book #retrogaming",
-      "createdAt": "2026-11-03T22:10:53.779Z",
-      "likes": 5,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "4 images, no description",
-      "firstSeen": "2026-11-03T23:18:30.052Z"
-    },
-    "https://mastodon.social/@nerdvaerket/117553957501277003": {
-      "uri": "https://mastodon.social/@nerdvaerket/117553957501277003",
-      "url": "https://mastodon.social/@nerdvaerket/117553957501277003",
-      "handle": "nerdvaerket@mastodon.social",
-      "name": "Nerdværket",
-      "text": "64 × 64 = 4.096 pixels i fuld farve. Hver eneste er din. Tegn selv i appen, eller vælg en GIF, rullende tekst eller et ur. nPixel, 599 kr, link i bio. #pixelart #8bit #ledmatrix #pixelartist #retrogaming #nørd #dansknørd #techdk",
-      "createdAt": "2026-11-03T18:37:20.982Z",
-      "likes": 2,
-      "replies": 1,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "image: Reklame for nPixel: en 64×64 LED-pixelskærm, der viser et pixel-ikon med headset i turkis. Tekst: 4.096 pixels. Du bestemmer, hvad de viser. Pixel art, GIFs, r…",
-      "firstSeen": "2026-11-03T23:18:30.052Z"
-    },
     "https://mastodon.social/@Mickytankbank@mstdn.party/117556422626829864": {
       "uri": "https://mastodon.social/@Mickytankbank@mstdn.party/117556422626829864",
       "url": "https://mastodon.social/@Mickytankbank@mstdn.party/117556422626829864",
@@ -147,7 +111,7 @@
       "name": "Andregamingyt",
       "text": "also Great news 📰 for you guys today 👍❤️ as you can see im half way there and if you Guys wanna help me out in a easy way then this is all you have to do 👀 Download the lowlight.gg app on the google play store or App Store and follow me at Andregamingyt3k and like my lastest content also watch it to the end 😉 that helps me a lot thanks for reading 📖 this!!! 😎 #videogame #contentcreator #gamingtrending #help #share #community #android #ios #image #november #fypシ #videogames #fun #cool #gamer #video",
       "createdAt": "2026-11-04T23:29:59.000Z",
-      "likes": 0,
+      "likes": 1,
       "replies": 0,
       "group": "moreGaming",
       "query": "videogame",
@@ -224,7 +188,7 @@
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 4,
+      "score": 3,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -239,11 +203,11 @@
       "name": "Nerdværket",
       "text": "Rarity: legendary. Placering: ved siden af tastaturet. Pixel Diamant Sværd Lampe, pixel-sværd i diamant-look. 299 kr hos Nerdværket ⚔️ #nerdvaerket #pixelart #retrogaming #8bit #gamingroom",
       "createdAt": "2026-11-04T18:42:05.808Z",
-      "likes": 1,
+      "likes": 2,
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 4,
+      "score": 3,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -257,7 +221,7 @@
       "name": "Thomas Leroy 🍣🐈‍⬛",
       "text": "Of course, I can't resist sharing a photo of my copy of Defender of the Crown that I took a few years ago 🥰 (great cover art by Ezra Tucker 🖌️) 🧵 3/ #DefenderOfTheCrown #Cinemaware #RetroGaming #BigBoxGames #AtariST #Amiga #DOSGaming #Commodore64 #AmstradCPC #AppleIIGS",
       "createdAt": "2026-11-04T17:09:30.510Z",
-      "likes": 12,
+      "likes": 14,
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
@@ -305,6 +269,24 @@
       "origin": "https://mastodon.art/@dinchenix/117558883376637152",
       "media": "image, no description",
       "firstSeen": "2026-11-04T23:39:28.010Z"
+    },
+    "https://mastodon.social/@stunningshemp/117561054011774792": {
+      "uri": "https://mastodon.social/@stunningshemp/117561054011774792",
+      "url": "https://mastodon.social/@stunningshemp/117561054011774792",
+      "handle": "stunningshemp@mastodon.social",
+      "name": "Chris Coats",
+      "text": "Chill Penguin is on ice! #retrogaming #megamanx #megaman #stunningshemp #twitch",
+      "createdAt": "2026-11-05T00:42:05.193Z",
+      "likes": 2,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 4,
+      "question": false,
+      "heated": true,
+      "isReply": false,
+      "media": "video, no description",
+      "firstSeen": "2026-11-05T06:40:37.171Z"
     }
   }
 }
