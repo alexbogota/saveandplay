@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#0D1117"/>
+<rect x="56" y="22" width="1088" height="586" rx="28" fill="#161B22" stroke="#262D38"/>
+<text x="100" y="95" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="40" font-weight="700" fill="#FFFFFF">Same sale, three rankings</text>
+<text x="100" y="138" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="28" fill="#9AA5B4">Dollars saved on five GOG deals, Nov 6, 2026</text>
+<g font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="28">
+<text x="100" y="212" fill="#E8ECF1">Shadow Tactics</text>
+<rect x="400" y="184" width="540" height="40" rx="8" fill="#3DDC97"/>
+<text x="955" y="214" fill="#FFFFFF" font-weight="700">$36.00</text>
+<rect x="1050" y="184" width="64" height="40" rx="8" fill="#FFB454"/><text x="1082" y="213" text-anchor="middle" fill="#1B1203" font-weight="700">-90%</text>
+
+<text x="100" y="282" fill="#E8ECF1">Metro Exodus</text>
+<rect x="400" y="254" width="405" height="40" rx="8" fill="#3DDC97"/>
+<text x="820" y="284" fill="#FFFFFF" font-weight="700">$27.00</text>
+<rect x="1050" y="254" width="64" height="40" rx="8" fill="#FFB454"/><text x="1082" y="283" text-anchor="middle" fill="#1B1203" font-weight="700">-90%</text>
+
+<text x="100" y="352" fill="#E8ECF1">Darkest Dungeon</text>
+<rect x="400" y="324" width="319" height="40" rx="8" fill="#3DDC97"/>
+<text x="734" y="354" fill="#FFFFFF" font-weight="700">$21.24</text>
+<rect x="1050" y="324" width="64" height="40" rx="8" fill="#FFB454"/><text x="1082" y="353" text-anchor="middle" fill="#1B1203" font-weight="700">-85%</text>
+
+<text x="100" y="422" fill="#E8ECF1">This War of Mine</text>
+<rect x="400" y="394" width="255" height="40" rx="8" fill="#3DDC97"/>
+<text x="670" y="424" fill="#FFFFFF" font-weight="700">$17.00</text>
+<rect x="1050" y="394" width="64" height="40" rx="8" fill="#FFB454"/><text x="1082" y="423" text-anchor="middle" fill="#1B1203" font-weight="700">-85%</text>
+
+<text x="100" y="492" fill="#E8ECF1">SimCity 4 Deluxe</text>
+<rect x="400" y="464" width="225" height="40" rx="8" fill="#3DDC97"/>
+<text x="640" y="494" fill="#FFFFFF" font-weight="700">$15.00</text>
+<rect x="1050" y="464" width="64" height="40" rx="8" fill="#FFB454"/><text x="1082" y="493" text-anchor="middle" fill="#1B1203" font-weight="700">-75%</text>
+</g>
+<text x="100" y="568" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="28" fill="#9AA5B4">Percent is not the same as money saved</text>
+</svg>
