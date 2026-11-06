@@ -1,68 +1,121 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-11-05T18:33:04.865Z",
-  "builtBy": "commit 912d21a, schedule, run #37 attempt 1",
-  "pricesCheckedAt": "2026-11-05T17:35:04.136Z",
+  "generatedAt": "2026-11-06T17:49:26.182Z",
+  "builtBy": "commit cda955c, schedule, run #38 attempt 1",
+  "pricesCheckedAt": "2026-11-06T16:53:28.078Z",
   "warnings": [],
   "candidates": [
     {
-      "id": "gog-metro-exodus",
+      "id": "gog-simcity-4-deluxe-edition",
       "kind": "deal",
-      "title": "Metro Exodus",
+      "title": "SimCity 4 Deluxe Edition",
       "store": "GOG",
-      "price": 2.99,
-      "was": 29.99,
-      "discount": 90,
+      "price": 4.99,
+      "was": 19.99,
+      "discount": 75,
       "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 253,
-      "priceCheckedAt": "2026-11-05T17:35:04.136Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804",
+      "endsInHours": 230,
+      "priceCheckedAt": "2026-11-06T16:53:28.078Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
       "drminfo": null,
-      "coverAlt": "Cover art for Metro Exodus",
+      "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
       "facts": {
-        "year": 2019,
+        "year": 2003,
         "genres": [
-          "Shooter",
-          "FPP",
-          "Sci-fi"
+          "Simulation",
+          "Building",
+          "Managerial"
         ],
         "tags": [
-          "Story Rich",
           "Atmospheric",
-          "Sci-fi",
-          "First-Person",
-          "Science",
-          "Horror",
-          "Mature",
-          "Nudity",
-          "Survival",
-          "Violent",
-          "Gore",
-          "FPS",
-          "Shooter",
-          "Post-apocalyptic",
-          "Stealth",
-          "Survival Horror",
-          "Psychological Horror"
+          "Simulation",
+          "Classic",
+          "Great Soundtrack",
+          "Management",
+          "Sandbox",
+          "Real-Time",
+          "Isometric",
+          "Building",
+          "Managerial",
+          "City builder"
         ]
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 11,
+      "score": 9.5,
+      "discountRank": 4,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 28,
+        "lowest": true,
+        "since": "2026-10-07"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-11-06",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "lowest price we've tracked (28 days of data)",
+        "deepest-discount rank 4 of 4"
+      ]
+    },
+    {
+      "id": "gog-shadow-tactics-blades-of-the-shogun",
+      "kind": "deal",
+      "title": "Shadow Tactics: Blades of the Shogun",
+      "store": "GOG",
+      "price": 3.99,
+      "was": 39.99,
+      "discount": 90,
+      "endsAt": "2026-11-13T09:59:00+02:00",
+      "endsInHours": 158,
+      "priceCheckedAt": "2026-11-06T16:53:28.078Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
+      "drminfo": null,
+      "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
+      "facts": {
+        "year": 2016,
+        "genres": [
+          "Strategy",
+          "Real-time",
+          "Stealth"
+        ],
+        "tags": [
+          "Indie",
+          "Atmospheric",
+          "Strategy",
+          "Puzzle",
+          "Great Soundtrack",
+          "Tactical",
+          "Third Person",
+          "Historical",
+          "Survival",
+          "Violent",
+          "Real-Time",
+          "Difficult",
+          "Isometric",
+          "RTS",
+          "Stealth",
+          "Ninja"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 3,
       "discountRank": 1,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 19,
+        "days": 28,
         "lowest": true,
-        "since": "2026-10-18"
+        "since": "2026-10-07"
       },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-11-05",
+      "offeredOn": "2026-10-31",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-11-06",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (19 days of data)",
-        "deepest-discount rank 1 of 3"
+        "lowest price we've tracked (28 days of data)",
+        "deepest-discount rank 1 of 4"
       ]
     },
     {
@@ -74,8 +127,8 @@
       "was": 19.99,
       "discount": 85,
       "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 253,
-      "priceCheckedAt": "2026-11-05T17:35:04.136Z",
+      "endsInHours": 230,
+      "priceCheckedAt": "2026-11-06T16:53:28.078Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
       "drminfo": null,
       "coverAlt": "Cover art for This War of Mine",
@@ -113,16 +166,16 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 18,
+        "days": 19,
         "lowest": true,
         "since": "2026-10-19"
       },
       "offeredOn": "2026-11-01",
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-11-05",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-11-06",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (18 days of data)",
-        "deepest-discount rank 2 of 3"
+        "lowest price we've tracked (19 days of data)",
+        "deepest-discount rank 2 of 4"
       ]
     },
     {
@@ -134,8 +187,8 @@
       "was": 24.99,
       "discount": 85,
       "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 253,
-      "priceCheckedAt": "2026-11-05T17:35:04.136Z",
+      "endsInHours": 230,
+      "priceCheckedAt": "2026-11-06T16:53:28.078Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187",
       "drminfo": null,
       "coverAlt": "Cover art for Darkest Dungeon",
@@ -171,70 +224,69 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 27,
+        "days": 28,
         "lowest": true,
         "since": "2026-10-07"
       },
       "offeredOn": "2026-11-03",
-      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-11-05",
+      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-11-06",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (27 days of data)",
-        "deepest-discount rank 3 of 3"
+        "lowest price we've tracked (28 days of data)",
+        "deepest-discount rank 3 of 4"
       ]
     }
   ],
   "gogNews": [],
   "topical": [
     {
-      "title": "Prime Gaming serves up two FREE PC games to kick off the month",
-      "source": "gg.deals News",
-      "link": "https://gg.deals/subscription-news/prime-gaming-serves-up-two-free-pc-games-to-kick-off-the-month/",
-      "t": 1793903249000,
-      "keyword": "free",
-      "summary": "Enjoy rally racing or become the bane of your neighborhood with these new Prime Gaming free games."
-    },
-    {
-      "title": "XBOX has EIGHT games unlocked and ready as the latest FREE Play Days gets underway!",
-      "source": "gg.deals News",
-      "link": "https://gg.deals/subscription-news/xbox-has-eight-games-unlocked-and-ready-as-the-latest-free-play-days-gets-underway/",
-      "t": 1793902140000,
-      "keyword": "free",
-      "summary": "Including another couple of titles that are completely free for all XBOX players to enjoy."
-    },
-    {
-      "title": "Anno 117: Pax Romana kicks off its FREE weekend alongside a new DLC launch",
+      "title": "A new set of FREE Path of Exile 2 Twitch Drops awaits ExileCon 2026 viewers",
       "source": "gg.deals Freebies",
-      "link": "https://gg.deals/freebie/anno-117-pax-romana-kicks-off-its-free-weekend-alongside-a-new-dlc-launch/",
-      "t": 1793900820000,
+      "link": "https://gg.deals/freebie/a-new-set-of-free-path-of-exile-2-twitch-drops-awaits-exilecon-2026-viewers/",
+      "t": 1793983852000,
       "keyword": "free",
-      "summary": "Play the game for free until November 9."
+      "summary": "Rewards are unlocked at the 2-, 4-, 6-, and 8-hour marks."
     },
     {
-      "title": "007 First Light FREE Starter Pack lets you test your license to kill in the opening chapter",
-      "source": "gg.deals Freebies",
-      "link": "https://gg.deals/freebie/007-first-light-free-starter-pack-lets-you-test-your-license-to-kill-in-the-opening-chapter/",
-      "t": 1793897827000,
-      "keyword": "free",
-      "summary": "Out now on Steam and Xbox; arriving on PS5 November 10."
+      "title": "50 PlayStation Black Friday 2026 deals under $5: Here are our favorite bargains",
+      "source": "gg.deals News",
+      "link": "https://gg.deals/wallet-friendly/50-playstation-black-friday-2026-deals-under-5-here-are-our-favorite-bargains/",
+      "t": 1793980800000,
+      "keyword": "deals",
+      "summary": "Here's your cure for decision paralysis."
     },
     {
-      "title": "PC Gamer magazine's new issue is on sale now: Metro 2039",
-      "source": "PC Gamer",
-      "link": "https://www.pcgamer.com/games/pc-gamer-magazines-new-issue-is-on-sale-now-metro-2039/",
-      "t": 1793896137000,
-      "keyword": "sale",
-      "summary": "This month, PC Gamer delivers world-exclusive access to Metro 2039, the hyper-dark new FPS from 4A Games. And we're pleased to say that PC gamers who have been…"
+      "title": "I just found out you can use your Steam Wishlist to search for deals on games outside of Steam, saving my nephew more than £40 on Total War: Warhammer 3",
+      "source": "Rock Paper Shotgun",
+      "link": "https://www.rockpapershotgun.com/i-just-found-out-you-can-use-your-steam-wishlist-to-search-for-deals-on-games-outside-of-steam-saving-my-nephew-more-than-40-on-total-war-warhammer-3",
+      "t": 1793979900000,
+      "keyword": "deals",
+      "summary": "I may be very late to the party with this discovery, but I only just realised you can connect your Steam Wishlist to a third-party deals tracker. The beauty of…"
+    },
+    {
+      "title": "Fanatical's BYO Birthday Bonanza Bundle is a treat for gamers! Choose from 27 titles",
+      "source": "gg.deals News",
+      "link": "https://gg.deals/bundle/fanaticals-byo-birthday-bonanza-bundle-is-a-treat-for-gamers-choose-from-27-titles/",
+      "t": 1793977516000,
+      "keyword": "bundle",
+      "summary": "Pick your favorites, starting at $6.99 for two games."
+    },
+    {
+      "title": "Scratch that nostalgia itch with these big GTA: The Trilogy Definitive Edition deals!",
+      "source": "gg.deals News",
+      "link": "https://gg.deals/deal/scratch-that-nostalgia-itch-with-these-big-gta-the-trilogy-definitive-edition-deals/",
+      "t": 1793976180000,
+      "keyword": "deals",
+      "summary": "Revisit Liberty City, San Andreas, and Vice City one more time before GTA VI takes over your world."
     }
   ],
   "topics": [
     {
-      "headline": "Get a FREE STEAM KEY for Letter Quest: Grimm’s Journey Remastered at Fanatical",
-      "score": 11,
+      "headline": "One more FREE game from Epic Games? Good Morning Human is yours to keep!",
+      "score": 8,
       "sites": [
         "gamerpower.com",
-        "gg.deals",
-        "indiegamebundles.com"
+        "gg.deals"
       ],
       "keywords": [
         "free"
@@ -243,30 +295,43 @@
       "items": [
         {
           "source": "GamerPower (PC)",
-          "title": "Letter Quest: Grimm's Journey Remastered Steam Key Giveaway",
-          "link": "https://www.gamerpower.com/letter-quest-grimm-s-journey-remastered-steam-key-giveaway",
-          "published": "2026-11-04T12:40:59.000Z"
+          "title": "GMH - Good Morning Human (Epic Games) Giveaways",
+          "link": "https://www.gamerpower.com/gmh-good-morning-human-epic-games-giveaways",
+          "published": "2026-11-05T23:47:43.000Z"
         },
         {
-          "source": "gg.deals Freebies",
-          "title": "Fanatical is giving away FREE Letter Quest: Grimm's Journey Remastered Steam keys!",
-          "link": "https://gg.deals/freebie/fanatical-is-giving-away-free-letter-quest-grimms-journey-remastered-steam-keys/",
-          "published": "2026-11-04T12:10:41.000Z"
-        },
-        {
-          "source": "Indie Game Bundles",
-          "title": "Get a FREE STEAM KEY for Letter Quest: Grimm’s Journey Remastered at Fanatical",
-          "link": "https://www.indiegamebundles.com/get-a-free-steam-key-for-letter-quest-grimms-journey-remastered/",
-          "published": "2026-11-04T18:28:47.000Z"
+          "source": "gg.deals News",
+          "title": "One more FREE game from Epic Games? Good Morning Human is yours to keep!",
+          "link": "https://gg.deals/deal/one-more-free-game-from-epic-games-good-morning-human-is-yours-to-keep/",
+          "published": "2026-11-06T10:50:36.000Z"
         }
       ]
     },
     {
-      "headline": "Humble Resident Evil: Biohazard Unleashed Bundle",
-      "score": 10,
+      "headline": "Humble's XSEED Publisher Sale is here! Save up to 80% on cozy Steam games and action hits",
+      "score": 7,
       "sites": [
-        "gg.deals",
-        "indiegamebundles.com"
+        "gg.deals"
+      ],
+      "keywords": [
+        "sale",
+        "humble"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Humble's XSEED Publisher Sale is here! Save up to 80% on cozy Steam games and action hits",
+          "link": "https://gg.deals/deal/humbles-xseed-publisher-sale/",
+          "published": "2026-11-06T13:05:00.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "New Humble Farming Games Bundle offers 11 Steam games for $18, including Fae Farm",
+      "score": 7,
+      "sites": [
+        "gg.deals"
       ],
       "keywords": [
         "bundle",
@@ -276,67 +341,9 @@
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Humble Resident Evil: Biohazard Unleashed Bundle gets you a big survival horror collection",
-          "link": "https://gg.deals/bundle/humble-resident-evil-biohazard-unleashed-bundle/",
-          "published": "2026-11-04T19:42:57.000Z"
-        },
-        {
-          "source": "Indie Game Bundles",
-          "title": "Humble Resident Evil: Biohazard Unleashed Bundle",
-          "link": "https://www.indiegamebundles.com/humble-resident-evil-biohazard-unleashed-bundle/",
-          "published": "2026-11-04T20:56:59.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "OUT NOW! The Legend of Zelda: Ocarina of Time gets a rare Nintendo first-party discount (updated)",
-      "score": 8,
-      "sites": [
-        "gg.deals",
-        "eurogamer.net"
-      ],
-      "keywords": [
-        "discount"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "OUT NOW! The Legend of Zelda: Ocarina of Time gets a rare Nintendo first-party discount (updated)",
-          "link": "https://gg.deals/deal/the-legend-of-zelda-ocarina-of-time-gets-a-rare-nintendo-first-party-discount/",
-          "published": "2026-11-05T10:17:00.000Z"
-        },
-        {
-          "source": "Eurogamer",
-          "title": "The Legend of Zelda: Ocarina of Time's Navi actor reprises her role after 28 years, but it was a total accident due to Nintendo's blind auditions",
-          "link": "https://www.eurogamer.net/nintendo-cast-navi-actor-zelda-ocarina-of-time",
-          "published": "2026-11-04T19:15:40.000Z"
-        },
-        {
-          "source": "Eurogamer",
-          "title": "The Legend of Zelda: Ocarina of Time (2026) review",
-          "link": "https://www.eurogamer.net/the-legend-of-zelda-ocarina-of-time-remake-review",
-          "published": "2026-11-04T11:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "New GOG sales bring up to 95% off DRM-free PC games! From epic RPGs to survival horror",
-      "score": 7,
-      "sites": [
-        "gg.deals"
-      ],
-      "keywords": [
-        "sales",
-        "free"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "New GOG sales bring up to 95% off DRM-free PC games! From epic RPGs to survival horror",
-          "link": "https://gg.deals/deal/new-gog-sales-bring-up-to-95-off-drm-free-pc-games-november-5/",
-          "published": "2026-11-05T12:05:59.000Z"
+          "title": "New Humble Farming Games Bundle offers 11 Steam games for $18, including Fae Farm",
+          "link": "https://gg.deals/bundle/new-humble-farming-games-bundle/",
+          "published": "2026-11-06T09:39:28.000Z"
         }
       ]
     },
@@ -360,6 +367,26 @@
           "published": "2026-11-05T11:53:38.000Z"
         }
       ]
+    },
+    {
+      "headline": "Humble Resident Evil: Biohazard Unleashed Bundle",
+      "score": 7,
+      "sites": [
+        "indiegamebundles.com"
+      ],
+      "keywords": [
+        "bundle",
+        "humble"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "Indie Game Bundles",
+          "title": "Humble Resident Evil: Biohazard Unleashed Bundle",
+          "link": "https://www.indiegamebundles.com/humble-resident-evil-biohazard-unleashed-bundle/",
+          "published": "2026-11-04T20:56:59.000Z"
+        }
+      ]
     }
   ],
   "left": {
@@ -367,7 +394,7 @@
     "hidden": 0,
     "notNiche": 0,
     "noFacts": 0,
-    "taken": 2,
+    "taken": 1,
     "repeat": 0,
     "smallDiscount": 0,
     "ended": 0,

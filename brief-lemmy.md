@@ -1,5 +1,5 @@
-# Brief: Honest prices (@saveandplay@lemmy.zip), 2026-11-05 18:33 UTC
-Prices checked 2026-11-05 17:35 UTC (1 h ago). News: 11 of 11 sources read, 126 items from the last 48 h, 0 of 3 offered deals mentioned.
+# Brief: Honest prices (@saveandplay@lemmy.zip), 2026-11-06 17:49 UTC
+Prices checked 2026-11-06 16:53 UTC (1 h ago). News: 11 of 11 sources read, 125 items from the last 48 h, 0 of 4 offered deals mentioned.
 
 Write ONE post about the first item below (take another one only if it looks wrong, and say why).
 Rules:
@@ -10,57 +10,62 @@ Rules:
 - Say lowest price we've tracked only if the brief says so; never write lowest ever.
 - The post is made by scripts/post-lemmy.mjs from a template, without AI. This account is automated and some links are affiliate links; the profile says so.
 
-## 1. Metro Exodus: GOG $2.99 (was $29.99, -90%)
-Sale ends 2026-11-16 07:59 UTC (in 11 days). Price checked 2026-11-05 17:35 UTC. Score 11.
-Why today: lowest price we've tracked (19 days of data); deepest-discount rank 1 of 3.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/metro-exodus/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-05
-Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804
-Alt text: Cover art for Metro Exodus
+## 1. SimCity 4 Deluxe Edition: GOG $4.99 (was $19.99, -75%)
+Sale ends 2026-11-16 07:59 UTC (in 10 days). Price checked 2026-11-06 16:53 UTC. Score 9.5.
+Why today: lowest price we've tracked (28 days of data); deepest-discount rank 4 of 4.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-06
+Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586
+Alt text: Cover art for SimCity 4 Deluxe Edition
 
-## 2. This War of Mine: GOG $2.99 (was $19.99, -85%)
-Sale ends 2026-11-16 07:59 UTC (in 11 days). Price checked 2026-11-05 17:35 UTC. Score 2.5.
-Why today: lowest price we've tracked (18 days of data); deepest-discount rank 2 of 3.
+## 2. Shadow Tactics: Blades of the Shogun: GOG $3.99 (was $39.99, -90%)
+Sale ends 2026-11-13 07:59 UTC (in 7 days). Price checked 2026-11-06 16:53 UTC. Score 3.
+Why today: lowest price we've tracked (28 days of data); deepest-discount rank 1 of 4.
+Note: suggested on 2026-10-31, already used recently.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-06
+Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696
+Alt text: Cover art for Shadow Tactics: Blades of the Shogun
+
+## 3. This War of Mine: GOG $2.99 (was $19.99, -85%)
+Sale ends 2026-11-16 07:59 UTC (in 10 days). Price checked 2026-11-06 16:53 UTC. Score 2.5.
+Why today: lowest price we've tracked (19 days of data); deepest-discount rank 2 of 4.
 Note: suggested on 2026-11-01, already used recently.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-05
+Link for the post (link to our site): https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-06
 Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984
 Alt text: Cover art for This War of Mine
 
-## 3. Darkest Dungeon: GOG $3.75 (was $24.99, -85%)
-Sale ends 2026-11-16 07:59 UTC (in 11 days). Price checked 2026-11-05 17:35 UTC. Score 2.5.
-Why today: lowest price we've tracked (27 days of data); deepest-discount rank 3 of 3.
+## 4. Darkest Dungeon: GOG $3.75 (was $24.99, -85%)
+Sale ends 2026-11-16 07:59 UTC (in 10 days). Price checked 2026-11-06 16:53 UTC. Score 2.5.
+Why today: lowest price we've tracked (28 days of data); deepest-discount rank 3 of 4.
 Note: suggested on 2026-11-03, already used recently.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-05
+Link for the post (link to our site): https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-06
 Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187
 Alt text: Cover art for Darkest Dungeon
 
 ## News on the topic (no deal)
-- gg.deals News, Nov 5: "Prime Gaming serves up two FREE PC games to kick off the month" https://gg.deals/subscription-news/prime-gaming-serves-up-two-free-pc-games-to-kick-off-the-month/ | Enjoy rally racing or become the bane of your neighborhood with these new Prime Gaming free games.
-- gg.deals News, Nov 5: "XBOX has EIGHT games unlocked and ready as the latest FREE Play Days gets underway!" https://gg.deals/subscription-news/xbox-has-eight-games-unlocked-and-ready-as-the-latest-free-play-days-gets-underway/ | Including another couple of titles that are completely free for all XBOX players to enjoy.
-- gg.deals Freebies, Nov 5: "Anno 117: Pax Romana kicks off its FREE weekend alongside a new DLC launch" https://gg.deals/freebie/anno-117-pax-romana-kicks-off-its-free-weekend-alongside-a-new-dlc-launch/ | Play the game for free until November 9.
-- gg.deals Freebies, Nov 5: "007 First Light FREE Starter Pack lets you test your license to kill in the opening chapter" https://gg.deals/freebie/007-first-light-free-starter-pack-lets-you-test-your-license-to-kill-in-the-opening-chapter/ | Out now on Steam and Xbox; arriving on PS5 November 10.
-- PC Gamer, Nov 5: "PC Gamer magazine's new issue is on sale now: Metro 2039" https://www.pcgamer.com/games/pc-gamer-magazines-new-issue-is-on-sale-now-metro-2039/ | This month, PC Gamer delivers world-exclusive access to Metro 2039, the hyper-dark new FPS from 4A Games. And we're pleased to say that PC gamers who have been…
+- gg.deals Freebies, Nov 6: "A new set of FREE Path of Exile 2 Twitch Drops awaits ExileCon 2026 viewers" https://gg.deals/freebie/a-new-set-of-free-path-of-exile-2-twitch-drops-awaits-exilecon-2026-viewers/ | Rewards are unlocked at the 2-, 4-, 6-, and 8-hour marks.
+- gg.deals News, Nov 6: "50 PlayStation Black Friday 2026 deals under $5: Here are our favorite bargains" https://gg.deals/wallet-friendly/50-playstation-black-friday-2026-deals-under-5-here-are-our-favorite-bargains/ | Here's your cure for decision paralysis.
+- Rock Paper Shotgun, Nov 6: "I just found out you can use your Steam Wishlist to search for deals on games outside of Steam, sav…" https://www.rockpapershotgun.com/i-just-found-out-you-can-use-your-steam-wishlist-to-search-for-deals-on-games-outside-of-steam-saving-my-nephew-more-than-40-on-total-war-warhammer-3 | I may be very late to the party with this discovery, but I only just realised you can connect your Steam Wishlist to a third-party deals tracker. The beauty of…
+- gg.deals News, Nov 6: "Fanatical's BYO Birthday Bonanza Bundle is a treat for gamers! Choose from 27 titles" https://gg.deals/bundle/fanaticals-byo-birthday-bonanza-bundle-is-a-treat-for-gamers-choose-from-27-titles/ | Pick your favorites, starting at $6.99 for two games.
+- gg.deals News, Nov 6: "Scratch that nostalgia itch with these big GTA: The Trilogy Definitive Edition deals!" https://gg.deals/deal/scratch-that-nostalgia-itch-with-these-big-gta-the-trilogy-definitive-edition-deals/ | Revisit Liberty City, San Andreas, and Vice City one more time before GTA VI takes over your world.
 
 ## Topics for articles (stories without a deal; headlines and links only. Write an article only if the owner asks)
-1. Get a FREE STEAM KEY for Letter Quest: Grimm’s Journey Remastered at Fanatical (score 11)
-Why now: 3 sites wrote about it in the last 48 h (gamerpower.com, gg.deals, indiegamebundles.com); matches keywords: free; newest Nov 4.
-- Indie Game Bundles, Nov 4: "Get a FREE STEAM KEY for Letter Quest: Grimm’s Journey Remastered at Fanatical" https://www.indiegamebundles.com/get-a-free-steam-key-for-letter-quest-grimms-journey-remastered/
-- GamerPower (PC), Nov 4: "Letter Quest: Grimm's Journey Remastered Steam Key Giveaway" https://www.gamerpower.com/letter-quest-grimm-s-journey-remastered-steam-key-giveaway
-- gg.deals Freebies, Nov 4: "Fanatical is giving away FREE Letter Quest: Grimm's Journey Remastered Steam keys!" https://gg.deals/freebie/fanatical-is-giving-away-free-letter-quest-grimms-journey-remastered-steam-keys/
-2. Humble Resident Evil: Biohazard Unleashed Bundle (score 10)
-Why now: 2 sites wrote about it in the last 48 h (gg.deals, indiegamebundles.com); matches keywords: bundle, humble; newest Nov 4.
-- Indie Game Bundles, Nov 4: "Humble Resident Evil: Biohazard Unleashed Bundle" https://www.indiegamebundles.com/humble-resident-evil-biohazard-unleashed-bundle/
-- gg.deals News, Nov 4: "Humble Resident Evil: Biohazard Unleashed Bundle gets you a big survival horror collection" https://gg.deals/bundle/humble-resident-evil-biohazard-unleashed-bundle/
-3. OUT NOW! The Legend of Zelda: Ocarina of Time gets a rare Nintendo first-party discount (updated) (score 8)
-Why now: 2 sites wrote about it in the last 48 h (gg.deals, eurogamer.net); matches keywords: discount; newest Nov 5.
-- gg.deals News, Nov 5: "OUT NOW! The Legend of Zelda: Ocarina of Time gets a rare Nintendo first-party discount (updated)" https://gg.deals/deal/the-legend-of-zelda-ocarina-of-time-gets-a-rare-nintendo-first-party-discount/
-- Eurogamer, Nov 4: "The Legend of Zelda: Ocarina of Time's Navi actor reprises her role after 28 years, but it was a to…" https://www.eurogamer.net/nintendo-cast-navi-actor-zelda-ocarina-of-time
-4. New GOG sales bring up to 95% off DRM-free PC games! From epic RPGs to survival horror (score 7)
-Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: sales, free; newest Nov 5.
-- gg.deals News, Nov 5: "New GOG sales bring up to 95% off DRM-free PC games! From epic RPGs to survival horror" https://gg.deals/deal/new-gog-sales-bring-up-to-95-off-drm-free-pc-games-november-5/
-5. Switch 2 sales dropped 37% this summer, mostly before the price hike hit; Nintendo now expects sales to slump… (score 7)
+1. One more FREE game from Epic Games? Good Morning Human is yours to keep! (score 8)
+Why now: 2 sites wrote about it in the last 48 h (gamerpower.com, gg.deals); matches keywords: free; newest Nov 6.
+- gg.deals News, Nov 6: "One more FREE game from Epic Games? Good Morning Human is yours to keep!" https://gg.deals/deal/one-more-free-game-from-epic-games-good-morning-human-is-yours-to-keep/
+- GamerPower (PC), Nov 5: "GMH - Good Morning Human (Epic Games) Giveaways" https://www.gamerpower.com/gmh-good-morning-human-epic-games-giveaways
+2. Humble's XSEED Publisher Sale is here! Save up to 80% on cozy Steam games and action hits (score 7)
+Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: sale, humble; newest Nov 6.
+- gg.deals News, Nov 6: "Humble's XSEED Publisher Sale is here! Save up to 80% on cozy Steam games and action hits" https://gg.deals/deal/humbles-xseed-publisher-sale/
+3. New Humble Farming Games Bundle offers 11 Steam games for $18, including Fae Farm (score 7)
+Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: bundle, humble; newest Nov 6.
+- gg.deals News, Nov 6: "New Humble Farming Games Bundle offers 11 Steam games for $18, including Fae Farm" https://gg.deals/bundle/new-humble-farming-games-bundle/
+4. Switch 2 sales dropped 37% this summer, mostly before the price hike hit; Nintendo now expects sales to slump… (score 7)
 Why now: 1 site wrote about it in the last 48 h (pcgamer.com); matches keywords: sales, price, price hike; newest Nov 5.
 - PC Gamer, Nov 5: "Switch 2 sales dropped 37% this summer, mostly before the price hike hit; Nintendo now expects sale…" https://www.pcgamer.com/hardware/handheld-gaming-pcs/switch-2-sales-dropped-37-percent-this-summer-mostly-before-the-price-hike-hit-nintendo-now-expects-sales-to-slump-16-9-percent-in-consoles-second-year/
+5. Humble Resident Evil: Biohazard Unleashed Bundle (score 7)
+Why now: 1 site wrote about it in the last 48 h (indiegamebundles.com); matches keywords: bundle, humble; newest Nov 4.
+- Indie Game Bundles, Nov 4: "Humble Resident Evil: Biohazard Unleashed Bundle" https://www.indiegamebundles.com/humble-resident-evil-biohazard-unleashed-bundle/
 
-Left out: 0 other-store deals, 0 hidden duplicates, 0 under 50%, 0 ended, 0 ending within 6 h, 0 old prices, 2 taken by another account today.
+Left out: 0 other-store deals, 0 hidden duplicates, 0 under 50%, 0 ended, 0 ending within 6 h, 0 old prices, 1 taken by another account today.
 Sources not read: none.
-Built by: commit 912d21a, schedule, run #37 attempt 1.
+Built by: commit cda955c, schedule, run #38 attempt 1.

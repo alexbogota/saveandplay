@@ -1,9 +1,611 @@
 {
  "account": "Honest prices (second deal of the day)",
- "generatedAt": "2026-11-05T18:33:04.865Z",
+ "generatedAt": "2026-11-06T17:49:26.182Z",
  "windowHours": 48,
- "count": 126,
+ "count": 125,
  "items": [
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "All that stands between a hacker and admin privileges on some Linux distros is a 257-character long string of literally anything",
+   "link": "https://www.pcgamer.com/software/linux/all-that-stands-between-a-hacker-and-admin-privileges-on-some-linux-distros-is-a-257-character-long-string-of-literally-anything/",
+   "published": "2026-11-06T17:31:29.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Steam Awards 2026 shakes things up with new categories for its 10th anniversary",
+   "link": "https://gg.deals/gaming-news/steam-awards-2026-shakes-things-up-with-new-categories-for-its-10th-anniversary/",
+   "published": "2026-11-06T17:22:13.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "Real-time strategy game The Fertile Crescent 2 is an isometric odyssey inspired by Age of Empires, with the 1.0 release out now",
+   "link": "https://www.rockpapershotgun.com/real-time-strategy-game-the-fertile-crescent-2-is-an-isometric-odyssey-inspired-by-age-of-empires-releasing-out-of-early-access-now",
+   "published": "2026-11-06T17:20:50.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals Freebies",
+   "domain": "gg.deals",
+   "title": "A new set of FREE Path of Exile 2 Twitch Drops awaits ExileCon 2026 viewers",
+   "link": "https://gg.deals/freebie/a-new-set-of-free-path-of-exile-2-twitch-drops-awaits-exilecon-2026-viewers/",
+   "published": "2026-11-06T16:50:52.000Z",
+   "status": "dropped",
+   "storyHeadline": "A new set of FREE Path of Exile 2 Twitch Drops awaits ExileCon 2026 viewers",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "A new set of FREE Path of Exile 2 Twitch Drops awaits ExileCon 2026 viewers",
+   "link": "https://gg.deals/freebie/a-new-set-of-free-path-of-exile-2-twitch-drops-awaits-exilecon-2026-viewers/",
+   "published": "2026-11-06T16:50:52.000Z",
+   "status": "dropped",
+   "storyHeadline": "A new set of FREE Path of Exile 2 Twitch Drops awaits ExileCon 2026 viewers",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "It's a kind of magic: Hogwarts Legacy with NVIDIA DLSS 5 support looks even more spellbinding!",
+   "link": "https://gg.deals/deal/its-a-kind-of-magic-hogwarts-legacy-with-nvidia-dlss-5-support-looks-even-more-spellbinding/",
+   "published": "2026-11-06T16:27:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "A public petition to save BioWare has drawn enough signatures that the Canadian government will at least have to think about it: 'This is absolutely possible,' MP says",
+   "link": "https://www.pcgamer.com/games/mass-effect/a-public-petition-to-save-bioware-has-drawn-enough-signatures-that-the-canadian-government-will-at-least-have-to-think-about-it-this-is-absolutely-possible-mp-says/",
+   "published": "2026-11-06T16:14:55.000Z",
+   "status": "topic-below-cut",
+   "storyHeadline": "A public petition to save BioWare has drawn enough signatures that the Canadian government will at least have to think about it: 'This is absolutely possible,' MP says",
+   "score": 6
+  },
+  {
+   "source": "Green Man Gaming blog",
+   "domain": "greenmangaming.com",
+   "title": "Hull Rupture Mini-Review: A Game About Callous Decisions And Good Planning",
+   "link": "https://www.greenmangaming.com/blog/hull-rupture-mini-review-a-game-about-callous-decisions-and-good-planning/",
+   "published": "2026-11-06T16:01:42.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "50 PlayStation Black Friday 2026 deals under $5: Here are our favorite bargains",
+   "link": "https://gg.deals/wallet-friendly/50-playstation-black-friday-2026-deals-under-5-here-are-our-favorite-bargains/",
+   "published": "2026-11-06T16:00:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Epomaker HE75 V2 TMR review",
+   "link": "https://www.pcgamer.com/hardware/gaming-keyboards/epomaker-he75-v2-tmr-review/",
+   "published": "2026-11-06T15:58:29.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "David Gaider has been working on Owlcat's Expanse RPG: 'The Expanse has long been one of my favourite series, and so obviously I jumped at the opportunity to be involved'",
+   "link": "https://www.pcgamer.com/games/rpg/david-gaider-has-been-working-on-owlcats-expanse-rpg-the-expanse-has-long-been-one-of-my-favourite-series-and-so-obviously-i-jumped-at-the-opportunity-to-be-involved/",
+   "published": "2026-11-06T15:53:01.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "WoW: Forever takes 250,000 GB of memory to run, and I can't even joke about Sam Altman being jealous because that's almost nothing compared to the monolithic demands of AI",
+   "link": "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-takes-250-000-gb-of-memory-to-run-and-i-cant-even-joke-about-sam-altman-being-jealous-because-thats-almost-nothing-compared-to-the-monolithic-demands-of-ai/",
+   "published": "2026-11-06T15:50:34.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "I just found out you can use your Steam Wishlist to search for deals on games outside of Steam, saving my nephew more than £40 on Total War: Warhammer 3",
+   "link": "https://www.rockpapershotgun.com/i-just-found-out-you-can-use-your-steam-wishlist-to-search-for-deals-on-games-outside-of-steam-saving-my-nephew-more-than-40-on-total-war-warhammer-3",
+   "published": "2026-11-06T15:45:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Fanatical's BYO Birthday Bonanza Bundle is a treat for gamers! Choose from 27 titles",
+   "link": "https://gg.deals/bundle/fanaticals-byo-birthday-bonanza-bundle-is-a-treat-for-gamers-choose-from-27-titles/",
+   "published": "2026-11-06T15:05:16.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "Terrific fantasy RPG Queen's Domain gets first proper update, adding a new throwing weapon and options to make puzzles \"less frustrating\"",
+   "link": "https://www.rockpapershotgun.com/terrific-fantasy-rpg-queens-blade-gets-first-proper-update-adding-a-new-throwing-weapon-and-options-to-make-puzzles-less-frustrating",
+   "published": "2026-11-06T14:58:30.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Scratch that nostalgia itch with these big GTA: The Trilogy Definitive Edition deals!",
+   "link": "https://gg.deals/deal/scratch-that-nostalgia-itch-with-these-big-gta-the-trilogy-definitive-edition-deals/",
+   "published": "2026-11-06T14:43:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "World of Warcraft: Forever hotfix puts a stop to super speedy flag carriers that were dominating PvP battlegrounds",
+   "link": "https://www.eurogamer.net/world-of-warcraft-forever-hotfix-flag-carrier-plainsrunning",
+   "published": "2026-11-06T14:38:20.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Skyrim's lead designer has 2 big asks of The Elder Scrolls 6: Sentinel, and only one of them is something most players have ever thought about",
+   "link": "https://www.pcgamer.com/games/the-elder-scrolls/skyrims-lead-designer-has-2-big-asks-of-the-elder-scrolls-6-sentinel-and-only-one-of-them-is-something-most-players-have-ever-thought-about/",
+   "published": "2026-11-06T14:21:52.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Sony introduces new PlayStation Plus perks! Even Essential members can benefit",
+   "link": "https://gg.deals/subscription-news/sony-introduces-new-playstation-plus-perks-even-essential-members-can-benefit/",
+   "published": "2026-11-06T14:00:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "Airframe Ultra's PS1 cyberpunk city is an amazing tribute to G-Police and WipEout, and I wish you people would slow down to appreciate it",
+   "link": "https://www.rockpapershotgun.com/airframe-ultras-ps1-cyberpunk-city-is-an-amazing-tribute-to-g-police-and-wipeout-and-i-wish-you-people-would-slow-down-to-appreciate-it",
+   "published": "2026-11-06T14:00:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Adding PvE to Arc Raiders 'isn't a difficult thing to do' but the question still stands how Embark can 'cater to the specific needs of the players'",
+   "link": "https://www.pcgamer.com/games/third-person-shooter/adding-pve-to-arc-raiders-isnt-a-difficult-thing-to-do-but-the-question-still-stands-how-embark-can-cater-to-the-specific-needs-of-the-players/",
+   "published": "2026-11-06T13:49:21.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Humble's XSEED Publisher Sale is here! Save up to 80% on cozy Steam games and action hits",
+   "link": "https://gg.deals/deal/humbles-xseed-publisher-sale/",
+   "published": "2026-11-06T13:05:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Grand Theft Auto VI preorders approach a staggering figure, with PlayStation significantly outstripping XBOX sales",
+   "link": "https://gg.deals/gaming-news/grand-theft-auto-vi-preorders-approach-a-staggering-figure-with-playstation-significantly-outstripping-xbox-sales/",
+   "published": "2026-11-06T13:02:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Green Man Gaming blog",
+   "domain": "greenmangaming.com",
+   "title": "Grim Dawn: Fangs of Asterkarn Mini-Review – Bringing a 10-Year-Old ARPG Back into the Limelight",
+   "link": "https://www.greenmangaming.com/blog/grim-dawn-fangs-of-asterkarn-mini-review-bringing-a-10-year-old-arpg-back-into-the-limelight/",
+   "published": "2026-11-06T13:00:32.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "Steam gets a boatload of restored Wing Commanders and Ultima ports after EA producer stumbles across cupboard of old tapes",
+   "link": "https://www.rockpapershotgun.com/steam-gets-a-boatload-of-restored-wing-commanders-and-ultima-ports-after-ea-producer-stumbles-across-cupboard-of-old-tapes",
+   "published": "2026-11-06T12:38:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "In Charting the Unknown, Crimson Desert doubles down on its maximalism in audacious, faintly sinister style",
+   "link": "https://www.eurogamer.net/crimson-desert-charting-the-unknown-now-playing",
+   "published": "2026-11-06T12:32:20.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Square Enix accidentally botches a Nier: Automata update, balloons required file size from 50GB to 366GB on PC",
+   "link": "https://www.eurogamer.net/square-enix-nier-automata-update-required-file-size-366gb",
+   "published": "2026-11-06T12:28:10.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Following BioWare's shock closure, a new documentary capturing its final moments is coming next year",
+   "link": "https://www.eurogamer.net/bioware-closure-documentary-release",
+   "published": "2026-11-06T12:24:20.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Discord is cutting memory usage and speeding up boot times - joins Xbox, Epic, Steam, and more for similar upgrades just this year",
+   "link": "https://www.pcgamer.com/hardware/discord-is-cutting-memory-usage-and-speeding-up-boot-times-joins-xbox-epic-steam-and-more-for-similar-upgrades-just-this-year/",
+   "published": "2026-11-06T12:06:34.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Former Rockstar Games tech director thinks GTA 6 could be coming to PC sooner than you'd expect to curb AI clones",
+   "link": "https://www.eurogamer.net/grand-theft-auto-6-pc-sooner-than-you-expect-curb-ai-clone",
+   "published": "2026-11-06T12:02:40.000Z",
+   "status": "topic-below-cut",
+   "storyHeadline": "Former Rockstar Games tech director thinks GTA 6 could be coming to PC sooner than you'd expect to curb AI clones",
+   "score": 6
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Stream Kingdom Come II, Madden NFL 27, and more for FREE with Amazon Luna",
+   "link": "https://gg.deals/subscription-news/stream-kingdom-come-ii-madden-nfl-27-and-more-for-free-with-amazon-luna/",
+   "published": "2026-11-06T12:00:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Zelda: Ocarina of Time remake reportedly running at 60 fps on PC just hours after game's official Nintendo Switch 2 release",
+   "link": "https://www.pcgamer.com/software/zelda-ocarina-of-time-remake-reportedly-running-at-60-fps-on-pc-just-hours-after-games-official-nintendo-switch-2-release/",
+   "published": "2026-11-06T11:43:06.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Zelnick doesn't regret GTA 6's delay because shipping an unfinished game rarely ends well: 'There was a very high profile release that fell into this category'",
+   "link": "https://www.pcgamer.com/games/grand-theft-auto/zelnick-doesnt-regret-gta-6s-delay-because-shipping-an-unfinished-game-rarely-ends-well-there-was-a-very-high-profile-release-that-fell-into-this-category/",
+   "published": "2026-11-06T11:40:38.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "WoW: Forever is working on its server tech to make cities less empty, say devs",
+   "link": "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-is-working-on-its-server-tech-to-make-cities-less-empty-say-devs/",
+   "published": "2026-11-06T11:28:35.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals Freebies",
+   "domain": "gg.deals",
+   "title": "Soulframe has ditched the invites, letting all players in for FREE!",
+   "link": "https://gg.deals/freebie/soulframe-is-ditching-the-invites-and-letting-all-players-in-for-free/",
+   "published": "2026-11-06T11:17:00.000Z",
+   "status": "dropped",
+   "storyHeadline": "Soulframe has ditched the invites, letting all players in for FREE!",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Soulframe has ditched the invites, letting all players in for FREE!",
+   "link": "https://gg.deals/freebie/soulframe-is-ditching-the-invites-and-letting-all-players-in-for-free/",
+   "published": "2026-11-06T11:17:00.000Z",
+   "status": "dropped",
+   "storyHeadline": "Soulframe has ditched the invites, letting all players in for FREE!",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "\"It's a brave new world\": GTA 6's PC port will release sooner than you think to avoid losing money to AI rip-offs, says former Rockstar tech director",
+   "link": "https://www.rockpapershotgun.com/its-a-brave-new-world-gta-6s-pc-port-will-release-sooner-than-you-think-to-avoid-losing-money-to-ai-rip-offs-says-former-rockstar-tech-director",
+   "published": "2026-11-06T11:09:10.000Z",
+   "status": "topic-below-cut",
+   "storyHeadline": "Former Rockstar Games tech director thinks GTA 6 could be coming to PC sooner than you'd expect to curb AI clones",
+   "score": 6
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "One more FREE game from Epic Games? Good Morning Human is yours to keep!",
+   "link": "https://gg.deals/deal/one-more-free-game-from-epic-games-good-morning-human-is-yours-to-keep/",
+   "published": "2026-11-06T10:50:36.000Z",
+   "status": "topic-below-cut",
+   "storyHeadline": "One more FREE game from Epic Games? Good Morning Human is yours to keep!",
+   "score": 6
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "After taking over EA, Saudi Arabia and their private equity cronies have reportedly held talks about buying Unity",
+   "link": "https://www.rockpapershotgun.com/after-taking-over-ea-saudi-arabia-and-their-private-equity-cronies-have-reportedly-held-talks-about-buying-unity",
+   "published": "2026-11-06T10:25:10.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "\"Is there any accountability left in this world?\" Warren Spector pops off at EA executives and their massive payouts as BioWare shuts down",
+   "link": "https://www.eurogamer.net/bioware-closure-warren-spector-comments-accountability",
+   "published": "2026-11-06T10:15:20.000Z",
+   "status": "topic-below-cut",
+   "storyHeadline": "\"Is there any accountability left in this world?\" Warren Spector pops off at EA executives and their massive payouts as BioWare shuts down",
+   "score": 6
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "After gobbling up EA, Saudi Arabia and private equity firm Silver Lake reportedly looking to buy Unity",
+   "link": "https://www.eurogamer.net/unity-game-engine-saudi-arabia-silver-lake",
+   "published": "2026-11-06T10:00:50.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Remakes and new games \"both have a place in the stable\" says Nintendo boss, buoyed by the success of Star Fox and Ocarina of Time",
+   "link": "https://www.eurogamer.net/remakes-and-new-games-both-have-a-place-in-the-stable-says-nintendo-boss-buoyed-by-the-success-of-star-fox-and-ocarina-of-time",
+   "published": "2026-11-06T09:40:50.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "New Humble Farming Games Bundle offers 11 Steam games for $18, including Fae Farm",
+   "link": "https://gg.deals/bundle/new-humble-farming-games-bundle/",
+   "published": "2026-11-06T09:39:28.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Saudi Arabia owns EA, and according to a Reuters report, Unity is next",
+   "link": "https://www.pcgamer.com/gaming-industry/saudi-arabia-owns-ea-and-according-to-a-reuters-report-unity-is-next/",
+   "published": "2026-11-06T05:27:40.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Richard Garriott on the state of the games industry: 'The bells and whistles are no longer what's important'",
+   "link": "https://www.pcgamer.com/gaming-industry/richard-garriott-on-the-state-of-the-games-industry-the-bells-and-whistles-are-no-longer-whats-important/",
+   "published": "2026-11-06T03:17:27.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "GamerPower (PC)",
+   "domain": "gamerpower.com",
+   "title": "GMH - Good Morning Human (Epic Games) Giveaways",
+   "link": "https://www.gamerpower.com/gmh-good-morning-human-epic-games-giveaways",
+   "published": "2026-11-05T23:47:43.000Z",
+   "status": "topic-below-cut",
+   "storyHeadline": "One more FREE game from Epic Games? Good Morning Human is yours to keep!",
+   "score": 6
+  },
+  {
+   "source": "GOG front page",
+   "domain": "gog.com",
+   "title": "Release: Gecko Gods",
+   "link": "http://www.gog.com/news/release_gecko_gods",
+   "published": "2026-11-05T23:21:47.000Z",
+   "status": "store-own-news"
+  },
+  {
+   "source": "GOG front page",
+   "domain": "gog.com",
+   "title": "Release: Pool of Radiance: Ruins of Myth Drannor",
+   "link": "http://www.gog.com/news/release_pool_of_radiance_ruins_of_myth_drannor",
+   "published": "2026-11-05T23:01:54.000Z",
+   "status": "store-own-news"
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "Take on a time-manipulating corporation in the very Soul Eater meets Jet Set Radio action roguelite CHRONO PUNK",
+   "link": "https://www.rockpapershotgun.com/take-on-a-time-manipulating-corporation-in-the-very-soul-eater-meets-jet-set-radio-action-roguelite-chrono-punk",
+   "published": "2026-11-05T22:55:20.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Xbox enters the 'faster PC launcher' arms race, its app loads faster now too",
+   "link": "https://www.pcgamer.com/software/platforms/xbox-enters-the-faster-pc-launcher-arms-race-its-app-loads-faster-now-too/",
+   "published": "2026-11-05T22:32:22.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Warren Spector sounds even angrier about BioWare's closure as he recounts the massive salaries of EA execs: 'Is there ANY accountability left in this world?'",
+   "link": "https://www.pcgamer.com/gaming-industry/warren-spector-sounds-even-angrier-about-biowares-closure-as-he-recounts-the-massive-salaries-of-ea-execs-is-there-any-accountability-left-in-this-world/",
+   "published": "2026-11-05T22:20:18.000Z",
+   "status": "topic-below-cut",
+   "storyHeadline": "\"Is there any accountability left in this world?\" Warren Spector pops off at EA executives and their massive payouts as BioWare shuts down",
+   "score": 6
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "BioWare are gone, but at least you'll be able to watch their final days in a documentary next year and oh wait that's really sad actually",
+   "link": "https://www.rockpapershotgun.com/bioware-are-gone-but-at-least-youll-be-able-to-watch-their-final-days-in-a-documentary-next-year-and-oh-wait-thats-really-sad-actually",
+   "published": "2026-11-05T21:32:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Sam Altman is annoyed his DRAM comment was 'taken out of context'",
+   "link": "https://www.pcgamer.com/software/ai/sam-altman-is-annoyed-his-dram-comment-was-taken-out-of-context/",
+   "published": "2026-11-05T20:34:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "EA brings 25 classic games to Steam with a limited-time 50% discount",
+   "link": "https://gg.deals/deal/ea-brings-25-classic-games-to-steam-with-a-limited-time-50-discount/",
+   "published": "2026-11-05T19:49:18.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Nvidia, Micron, and other AI stocks take a dive after elections",
+   "link": "https://www.pcgamer.com/software/ai/nvidia-micron-and-other-ai-stocks-take-a-dive-after-elections/",
+   "published": "2026-11-05T19:32:47.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Prime Gaming (Amazon Luna) November 2026: Full list of free games for the month",
+   "link": "https://gg.deals/subscription-news/prime-gaming-amazon-luna-november-2026-full-list-of-free-games-for-the-month/",
+   "published": "2026-11-05T19:20:57.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals Freebies",
+   "domain": "gg.deals",
+   "title": "Steam's FREE Weekend is serving up wondrous worlds & tactical mayhem!",
+   "link": "https://gg.deals/freebie/steams-free-weekend-is-serving-up-wondrous-worlds-tactical-mayhem/",
+   "published": "2026-11-05T19:12:00.000Z",
+   "status": "dropped",
+   "storyHeadline": "Steam's FREE Weekend is serving up wondrous worlds & tactical mayhem!",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Steam's FREE Weekend is serving up wondrous worlds & tactical mayhem!",
+   "link": "https://gg.deals/freebie/steams-free-weekend-is-serving-up-wondrous-worlds-tactical-mayhem/",
+   "published": "2026-11-05T19:12:00.000Z",
+   "status": "dropped",
+   "storyHeadline": "Steam's FREE Weekend is serving up wondrous worlds & tactical mayhem!",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "Ablahshikar is a maximalist, sickos only salvage-survival CRPG about ripping organs out of warships and pawning off strange goods that's now out in early access",
+   "link": "https://www.rockpapershotgun.com/ablahshikar-is-a-maximalist-sickos-only-salvage-survival-crpg-about-ripping-organs-out-of-warships-and-pawning-off-strange-goods-thats-now-out-in-early-access",
+   "published": "2026-11-05T19:00:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "EA's releasing a truckload of classic games on Steam, and 7 of them are remasters",
+   "link": "https://www.pcgamer.com/games/eas-releasing-a-truckload-of-classic-games-on-steam-and-7-of-them-are-remasters/",
+   "published": "2026-11-05T18:30:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
   {
    "source": "Rock Paper Shotgun",
    "domain": "rockpapershotgun.com",
@@ -19,7 +621,7 @@
    "domain": "gg.deals",
    "title": "Prime Gaming serves up two FREE PC games to kick off the month",
    "link": "https://gg.deals/subscription-news/prime-gaming-serves-up-two-free-pc-games-to-kick-off-the-month/",
-   "published": "2026-11-05T18:27:29.000Z",
+   "published": "2026-11-05T18:27:00.000Z",
    "status": "dropped",
    "score": 3,
    "note": "one site, no keyword of the account, not about a game we list"
@@ -305,26 +907,6 @@
    "note": "one site, no keyword of the account, not about a game we list"
   },
   {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Fanatical's popular Platinum Collection is back for November, offering 16 cheap Steam keys!",
-   "link": "https://gg.deals/bundle/fanatical-platinum-collection-november-2026-16-cheap-steam-keys/",
-   "published": "2026-11-05T15:15:57.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "50 Steam keys under $2: Psychonauts 2, Cataclismo, and more games at up to 99% off",
-   "link": "https://gg.deals/wallet-friendly/50-steam-keys-under-2/",
-   "published": "2026-11-05T15:06:57.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
    "source": "Eurogamer",
    "domain": "eurogamer.net",
    "title": "Nintendo says it isn't planning any more Switch 2 price hikes",
@@ -355,34 +937,12 @@
    "note": "one site, no keyword of the account, not about a game we list"
   },
   {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Moonlighter and Frostpunk devs 11 bit studios confirm THREE more Game Pass titles",
-   "link": "https://gg.deals/subscription-news/moonlighter-and-frostpunk-devs-11-bit-studios-confirm-three-more-game-pass-titles/",
-   "published": "2026-11-05T14:25:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
    "source": "gg.deals Freebies",
    "domain": "gg.deals",
    "title": "ROB RUN is FREE on Steam and already attracting thousands of players!",
    "link": "https://gg.deals/freebie/rob-run-is-free-on-steam/",
    "published": "2026-11-05T14:00:00.000Z",
    "status": "dropped",
-   "storyHeadline": "ROB RUN is FREE on Steam and already attracting thousands of players!",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "ROB RUN is FREE on Steam and already attracting thousands of players!",
-   "link": "https://gg.deals/freebie/rob-run-is-free-on-steam/",
-   "published": "2026-11-05T14:00:00.000Z",
-   "status": "dropped",
-   "storyHeadline": "ROB RUN is FREE on Steam and already attracting thousands of players!",
    "score": 3,
    "note": "one site, no keyword of the account, not about a game we list"
   },
@@ -407,34 +967,14 @@
    "note": "one site, no keyword of the account, not about a game we list"
   },
   {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "World of Warcraft: Forever's Azerothian frontiers await. Dive in with discounted WoW Game Time!",
-   "link": "https://gg.deals/deal/world-of-warcraft-forevers-azerothian-frontiers-await-get-discounted-wow-game-time-and-dive-in/",
-   "published": "2026-11-05T13:08:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Three new games hit XBOX Game Pass today! Time to clear your schedule",
-   "link": "https://gg.deals/subscription-news/three-new-games-hit-xbox-game-pass-today-time-to-clear-your-schedule/",
-   "published": "2026-11-05T13:05:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
    "source": "Eurogamer",
    "domain": "eurogamer.net",
    "title": "Mass Effect petition has enough signatures for the Canadian Government to potentially save BioWare",
    "link": "https://www.eurogamer.net/bioware-canada-house-of-commons-petition-save-mass-effect",
    "published": "2026-11-05T12:48:40.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
+   "status": "topic-below-cut",
+   "storyHeadline": "A public petition to save BioWare has drawn enough signatures that the Canadian government will at least have to think about it: 'This is absolutely possible,' MP says",
+   "score": 6
   },
   {
    "source": "Rock Paper Shotgun",
@@ -462,16 +1002,6 @@
    "title": "FSR 4.1.2 now on Xbox and Xbox handhelds, just in time for a certain big GTA 6-shaped game",
    "link": "https://www.pcgamer.com/hardware/fsr-4-1-2-now-on-xbox-and-xbox-handhelds-just-in-time-for-a-certain-big-gta-6-shaped-game/",
    "published": "2026-11-05T12:12:38.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "New GOG sales bring up to 95% off DRM-free PC games! From epic RPGs to survival horror",
-   "link": "https://gg.deals/deal/new-gog-sales-bring-up-to-95-off-drm-free-pc-games-november-5/",
-   "published": "2026-11-05T12:05:59.000Z",
    "status": "dropped",
    "score": 3,
    "note": "one site, no keyword of the account, not about a game we list"
@@ -517,16 +1047,6 @@
    "note": "one site, no keyword of the account, not about a game we list"
   },
   {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Humble Choice changes announced! Classic plans are going away, but your perks are staying",
-   "link": "https://gg.deals/gaming-news/humble-choice-changes-announced/",
-   "published": "2026-11-05T11:00:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
    "source": "Rock Paper Shotgun",
    "domain": "rockpapershotgun.com",
    "title": "\"BioWare's closure represents an immense loss to and possibly a targeted attack on Canada's cultural legacy\" argues petition calling on Canadian government to step in",
@@ -547,31 +1067,11 @@
    "note": "one site, no keyword of the account, not about a game we list"
   },
   {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "OUT NOW! The Legend of Zelda: Ocarina of Time gets a rare Nintendo first-party discount (updated)",
-   "link": "https://gg.deals/deal/the-legend-of-zelda-ocarina-of-time-gets-a-rare-nintendo-first-party-discount/",
-   "published": "2026-11-05T10:17:00.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "OUT NOW! The Legend of Zelda: Ocarina of Time gets a rare Nintendo first-party discount (updated)",
-   "score": 6
-  },
-  {
    "source": "Eurogamer",
    "domain": "eurogamer.net",
    "title": "World of Warcraft: Forever is off to a great start with Blizzard's smoothest launch in memory",
    "link": "https://www.eurogamer.net/world-of-warcraft-forever-launch-smooth",
    "published": "2026-11-05T09:52:30.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Black Friday comes early for Xbox gamers! Save up to 95% on PC and Xbox games",
-   "link": "https://gg.deals/deal/black-friday-comes-early-for-xbox-gamers-save-up-to-95-on-pc-and-xbox-games/",
-   "published": "2026-11-05T09:44:21.000Z",
    "status": "dropped",
    "score": 3,
    "note": "one site, no keyword of the account, not about a game we list"
@@ -595,6 +1095,14 @@
    "status": "dropped",
    "score": 3,
    "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "GOG front page",
+   "domain": "gog.com",
+   "title": "We’re celebrating 18 years with the first GOG Showcase, restored Wing Commander: Prophecy, GOG GALAXY announcements, and more!",
+   "link": "http://www.gog.com/news/we_re_celebrating_18_years_with_the_first_gog_showcase_restored_wing_commander_prophecy_gog_galaxy_announcements_and_more",
+   "published": "2026-11-05T03:44:01.000Z",
+   "status": "store-own-news"
   },
   {
    "source": "PC Gamer",
@@ -666,9 +1174,9 @@
    "title": "Humble Resident Evil: Biohazard Unleashed Bundle",
    "link": "https://www.indiegamebundles.com/humble-resident-evil-biohazard-unleashed-bundle/",
    "published": "2026-11-04T20:56:59.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "Humble Resident Evil: Biohazard Unleashed Bundle",
-   "score": 6
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
   },
   {
    "source": "PC Gamer",
@@ -691,16 +1199,6 @@
    "note": "one site, no keyword of the account, not about a game we list"
   },
   {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Humble Resident Evil: Biohazard Unleashed Bundle gets you a big survival horror collection",
-   "link": "https://gg.deals/bundle/humble-resident-evil-biohazard-unleashed-bundle/",
-   "published": "2026-11-04T19:42:57.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "Humble Resident Evil: Biohazard Unleashed Bundle",
-   "score": 6
-  },
-  {
    "source": "PC Gamer",
    "domain": "pcgamer.com",
    "title": "Former Halo composer Marty O'Donnell loses election, then gets absolutely bodied by his opponent: 'The fight is finished'",
@@ -716,9 +1214,9 @@
    "title": "The Legend of Zelda: Ocarina of Time's Navi actor reprises her role after 28 years, but it was a total accident due to Nintendo's blind auditions",
    "link": "https://www.eurogamer.net/nintendo-cast-navi-actor-zelda-ocarina-of-time",
    "published": "2026-11-04T19:15:40.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "OUT NOW! The Legend of Zelda: Ocarina of Time gets a rare Nintendo first-party discount (updated)",
-   "score": 6
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
   },
   {
    "source": "gg.deals Freebies",
@@ -726,28 +1224,6 @@
    "title": "Grab your FREE time-limited The Division 2 Echoes of Central Park Twitch Drops!",
    "link": "https://gg.deals/freebie/grab-your-free-time-limited-the-division-2-echoes-of-central-park-twitch-drops/",
    "published": "2026-11-04T19:08:00.000Z",
-   "status": "dropped",
-   "storyHeadline": "Grab your FREE time-limited The Division 2 Echoes of Central Park Twitch Drops!",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Grab your FREE time-limited The Division 2 Echoes of Central Park Twitch Drops!",
-   "link": "https://gg.deals/freebie/grab-your-free-time-limited-the-division-2-echoes-of-central-park-twitch-drops/",
-   "published": "2026-11-04T19:08:00.000Z",
-   "status": "dropped",
-   "storyHeadline": "Grab your FREE time-limited The Division 2 Echoes of Central Park Twitch Drops!",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Dotemu’s new Steam sale brings big discounts on Absolum, Ninja Gaiden Ragebound, and more",
-   "link": "https://gg.deals/deal/dotemus-new-steam-sale-brings-big-discounts-on-absolum-ninja-gaiden-ragebound-and-more/",
-   "published": "2026-11-04T18:59:02.000Z",
    "status": "dropped",
    "score": 3,
    "note": "one site, no keyword of the account, not about a game we list"
@@ -758,19 +1234,9 @@
    "title": "Get a FREE STEAM KEY for Letter Quest: Grimm’s Journey Remastered at Fanatical",
    "link": "https://www.indiegamebundles.com/get-a-free-steam-key-for-letter-quest-grimms-journey-remastered/",
    "published": "2026-11-04T18:28:47.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "Get a FREE STEAM KEY for Letter Quest: Grimm’s Journey Remastered at Fanatical",
-   "score": 9
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "God of War Laufey delayed for three more months of forging",
-   "link": "https://gg.deals/gaming-news/god-of-war-laufey-delayed-for-three-more-months-of-forging/",
-   "published": "2026-11-04T18:15:00.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "God of War Laufey delayed for three more months of forging",
-   "score": 6
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
   },
   {
    "source": "Rock Paper Shotgun",
@@ -788,482 +1254,6 @@
    "title": "I am back modding GTA 5 and being chased by a billion furious, armed cougars",
    "link": "https://www.pcgamer.com/games/grand-theft-auto/i-am-back-modding-gta-5-and-being-chased-by-a-billion-furious-armed-cougars/",
    "published": "2026-11-04T18:00:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Echoes of Central Park brings brand-new horror to The Division 2, and is discounted at launch!",
-   "link": "https://gg.deals/deal/echoes-of-central-park-brings-brand-new-horror-to-the-division-2-and-is-discounted-at-launch/",
-   "published": "2026-11-04T17:47:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "New Age of Wonders 4 DLC arrives with a four-in-one Expansion Pass option",
-   "link": "https://gg.deals/deal/new-age-of-wonders-4-dlc-arrives-with-a-four-in-one-expansion-pass-option/",
-   "published": "2026-11-04T17:41:54.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "God of War Laufey delayed three months to May 2027, as Sony Santa Monica escapes a packed February",
-   "link": "https://www.eurogamer.net/god-of-war-laufey-delayed-may-three-months",
-   "published": "2026-11-04T17:32:10.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "God of War Laufey delayed for three more months of forging",
-   "score": 6
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "Oblivion and Skyrim’s gap was bridged by forward-looking books about a murderous floating island, so why is The Elder Scrolls 6 stuck reanimating a world that’s stood still since 2011",
-   "link": "https://www.rockpapershotgun.com/oblivion-and-skyrims-gap-was-bridged-by-forward-looking-books-about-a-murderous-floating-island-so-why-is-the-elder-scrolls-6-stuck-reanimating-a-world-thats-stood-still-since-2011",
-   "published": "2026-11-04T17:30:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "New Blood CEO would rather shut down the boomer shooter studio than sell out: 'In 20 years, we're done. I'm gonna say goodbye, shut it down'",
-   "link": "https://www.pcgamer.com/games/fps/new-blood-ceo-would-rather-shut-down-the-boomer-shooter-studio-than-sell-out-in-20-years-were-done-im-gonna-say-goodbye-shut-it-down/",
-   "published": "2026-11-04T17:28:16.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Nexus Mods takes the Valve approach to AI-generated content: No outright bans but mandatory disclosures",
-   "link": "https://www.pcgamer.com/games/nexus-mods-takes-the-valve-approach-to-ai-generated-content-no-outright-bans-but-mandatory-disclosures/",
-   "published": "2026-11-04T17:12:53.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "Rimworld-inspired colony sim Stardeus gets a huge update representing a year's worth of expansion and revision, with new tools for evil AI overlords",
-   "link": "https://www.rockpapershotgun.com/rimworld-inspired-colony-sim-stardeus-gets-a-huge-update-representing-a-years-worth-of-expansion-and-revision-with-new-tools-for-evil-ai-overlords",
-   "published": "2026-11-04T17:03:10.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "'How can prices fall when there's nothing left?' TeamGroup CEO reckons supply-demand memory equilibrium may not happen until late 2028 at the earliest",
-   "link": "https://www.pcgamer.com/hardware/memory/how-can-prices-fall-when-theres-nothing-left-teamgroup-ceo-reckons-supply-demand-memory-equilibrium-may-not-happen-until-late-2028-at-the-earliest/",
-   "published": "2026-11-04T16:39:11.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "I'm watching YouTube videos in glorious stereoscopic 3D on my Steam Frame with just a free plugin and a long-forgotten dream of a new Nintendo 3DS",
-   "link": "https://www.pcgamer.com/hardware/vr-hardware/im-watching-youtube-videos-in-glorious-stereoscopic-3d-on-my-steam-frame-with-just-a-free-plugin-and-a-long-forgotten-dream-of-a-new-nintendo-3ds/",
-   "published": "2026-11-04T16:29:04.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Dead by Daylight apologises to fans after gifting DLC to TheBurntPeanut and has since 'removed the content that was granted'",
-   "link": "https://www.pcgamer.com/games/horror/dead-by-daylight-apologises-to-fans-after-gifting-dlc-to-theburntpeanut-and-has-since-removed-the-content-that-was-granted/",
-   "published": "2026-11-04T16:14:53.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "The Elder Scrolls 6: Sentinel fans ponder split timelines, alternative histories, and more as story speculation runs wild following latest teaser",
-   "link": "https://www.eurogamer.net/the-elder-scrolls-6-sentinel-story-speculation",
-   "published": "2026-11-04T16:00:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Formula V Line Air Power G10 review",
-   "link": "https://www.pcgamer.com/hardware/pc-cases/formula-v-line-air-power-g10-review/",
-   "published": "2026-11-04T15:53:08.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "Eight years ago the idea of The Elder Scrolls 6: Sentinel had me captivated, but can Bethesda recapture the magic?",
-   "link": "https://www.eurogamer.net/elder-scrolls-6-sentinel-bethesda-recapture-the-magic",
-   "published": "2026-11-04T15:02:30.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "One of Nintendo's Switch and Switch 2 cartridge manufacturers is exiting the business, which could make physical games more expensive",
-   "link": "https://www.eurogamer.net/nintendo-switch-2-cartridge-macronix-ending-rom-manufacturing",
-   "published": "2026-11-04T13:34:57.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals Freebies",
-   "domain": "gg.deals",
-   "title": "Forget burgers, Wendy's has a FREE Steam game now! And you might even earn real food",
-   "link": "https://gg.deals/freebie/wendyquest-legend-of-the-four-corner-stones-is-free-on-steam/",
-   "published": "2026-11-04T13:18:46.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "Fate of the Galaxy is a huge, fully-featured Star Wars space combat sim that, thanks to being a total conversion mod for Freespace Open, even runs on my rubbish laptop",
-   "link": "https://www.rockpapershotgun.com/fate-of-the-galaxy-is-a-huge-fully-featured-star-wars-space-combat-sim-that-thanks-to-being-a-total-conversion-mod-for-freespace-open-even-runs-on-my-rubbish-laptop",
-   "published": "2026-11-04T13:15:44.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "Halo and Destiny composer Marty O'Donnell loses his race for a seat in the US House of Representatives",
-   "link": "https://www.eurogamer.net/halo-destiny-composer-martin-o-donnell-projected-lose-us-congress-race",
-   "published": "2026-11-04T13:11:26.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "\"Keep talking about it\": Raw Power Games call for Wishlist aid as they, and their historical strategy sandbox Chronicles: Medieval, lose funding",
-   "link": "https://www.rockpapershotgun.com/keep-talking-about-it-raw-power-games-call-for-wishlist-aid-as-they-and-their-historical-strategy-sandbox-chronicles-medieval-lose-funding",
-   "published": "2026-11-04T12:43:24.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "GamerPower (PC)",
-   "domain": "gamerpower.com",
-   "title": "Letter Quest: Grimm's Journey Remastered Steam Key Giveaway",
-   "link": "https://www.gamerpower.com/letter-quest-grimm-s-journey-remastered-steam-key-giveaway",
-   "published": "2026-11-04T12:40:59.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "Get a FREE STEAM KEY for Letter Quest: Grimm’s Journey Remastered at Fanatical",
-   "score": 9
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "AMD says it's going to beat Intel in total revenue for the very first time by the end of 2026",
-   "link": "https://www.pcgamer.com/hardware/processors/amd-says-its-going-to-beat-intel-in-total-revenue-for-the-very-first-time-by-the-end-of-2026/",
-   "published": "2026-11-04T12:40:51.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "Nexus Mods introduces new AI disclosure rules, but won't ban AI mods outright",
-   "link": "https://www.eurogamer.net/nexus-mods-gen-ai-disclosure-rules",
-   "published": "2026-11-04T12:18:44.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals Freebies",
-   "domain": "gg.deals",
-   "title": "Fanatical is giving away FREE Letter Quest: Grimm's Journey Remastered Steam keys!",
-   "link": "https://gg.deals/freebie/fanatical-is-giving-away-free-letter-quest-grimms-journey-remastered-steam-keys/",
-   "published": "2026-11-04T12:10:41.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "Get a FREE STEAM KEY for Letter Quest: Grimm’s Journey Remastered at Fanatical",
-   "score": 9
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "The Elder Scrolls 6: Sentinel already has a Nexus Mods page, so now all we have to do is wait",
-   "link": "https://www.rockpapershotgun.com/the-elder-scrolls-6-sentinel-already-has-a-nexus-mods-page-so-now-all-we-have-to-do-is-wait",
-   "published": "2026-11-04T12:08:24.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "WoW: Forever's massive pre-launch balance patch breaks from the chains Classic power, increasing 'the health of higher level creatures to compensate'",
-   "link": "https://www.pcgamer.com/games/world-of-warcraft/wow-forevers-massive-pre-launch-balance-patch-breaks-from-the-chains-classic-power-increasing-the-health-of-higher-level-creatures-to-compensate/",
-   "published": "2026-11-04T11:45:45.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Green Man Gaming blog",
-   "domain": "greenmangaming.com",
-   "title": "Echoes Of Mystralia Mini-Review: A Game About Slinging Spells And Saving The World",
-   "link": "https://www.greenmangaming.com/blog/echoes-of-mystralia-mini-review-a-game-about-slinging-spells-and-saving-the-world/",
-   "published": "2026-11-04T11:30:21.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Dodgy download and spoofed job ad led to $6.3 billion Binance hack: attacker offered fake software and fake job to infiltrate company wallets and steal billions",
-   "link": "https://www.pcgamer.com/software/security/dodgy-download-and-spoofed-job-ad-led-to-usd6-3-billion-binance-hack-attacker-offered-fake-software-and-fake-job-to-infiltrate-company-wallets-and-steal-billions/",
-   "published": "2026-11-04T11:12:58.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "Smash hit cyberpunk storekeeper Probably Stolen was originally a different, non-cyberpunk game that seemed destined to sink without trace",
-   "link": "https://www.rockpapershotgun.com/smash-hit-cyberpunk-storekeeper-probably-stolen-was-originally-a-different-non-cyberpunk-game-that-seemed-destined-to-sink-without-trace",
-   "published": "2026-11-04T11:00:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "The Legend of Zelda: Ocarina of Time (2026) review",
-   "link": "https://www.eurogamer.net/the-legend-of-zelda-ocarina-of-time-remake-review",
-   "published": "2026-11-04T11:00:00.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "OUT NOW! The Legend of Zelda: Ocarina of Time gets a rare Nintendo first-party discount (updated)",
-   "score": 6
-  },
-  {
-   "source": "gg.deals Freebies",
-   "domain": "gg.deals",
-   "title": "Sorry We're Closed is FREE on the Epic Games Store for one more day",
-   "link": "https://gg.deals/freebie/sorry-were-closed-is-free-on-the-epic-games-store-grab-the-2499-horror-game-at-no-cost/",
-   "published": "2026-11-04T10:49:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "\"An outright ban will not eliminate AI from the modding process,\" Nexus Mods say as they rule out barring generated creations from their site",
-   "link": "https://www.rockpapershotgun.com/nexus-mods-rule-out-barring-ai-generated-creations-from-their-site",
-   "published": "2026-11-04T10:34:07.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "Dragon's Dogma 2 gets a timed collaboration with beloved anime and manga series Delicious in Dungeon, and it's out right now on PC, PlayStation and Xbox",
-   "link": "https://www.eurogamer.net/dragons-dogma-2-dungeon-meshi-collaboration-out-now",
-   "published": "2026-11-04T10:03:46.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "Guild Wars gets its first major gameplay update in almost 20 years",
-   "link": "https://www.eurogamer.net/guild-wars-1-afterlife-announced-20-years",
-   "published": "2026-11-04T09:59:17.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "Ubisoft and at least two other companies are interested in buying Arkane, according to new report",
-   "link": "https://www.eurogamer.net/arkane-studios-ubisoft-interested-buyers",
-   "published": "2026-11-04T09:17:51.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "GOG front page",
-   "domain": "gog.com",
-   "title": "Release: Abashed",
-   "link": "http://www.gog.com/news/release_abashed",
-   "published": "2026-11-04T09:10:34.000Z",
-   "status": "store-own-news"
-  },
-  {
-   "source": "GOG front page",
-   "domain": "gog.com",
-   "title": "Release: Final Outpost: Definitive Edition",
-   "link": "http://www.gog.com/news/release_final_outpost_definitive_edition",
-   "published": "2026-11-04T09:09:46.000Z",
-   "status": "store-own-news"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Bethesda's associate art director really did try to fit 7,000 actual steps into Skyrim's 7,000 Steps: 'I take no responsibility for the Frost Troll'",
-   "link": "https://www.pcgamer.com/games/the-elder-scrolls/bethesdas-associate-art-director-really-did-try-to-fit-7-000-actual-steps-into-skyrims-7-000-steps-i-take-no-responsibility-for-the-frost-troll/",
-   "published": "2026-11-04T00:18:41.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Valve admits it's 'running behind' on approving Steam games because it has to keep re-reviewing them, which surely has nothing to do with AI",
-   "link": "https://www.pcgamer.com/gaming-industry/valve-admits-its-running-behind-on-approving-steam-games-because-it-has-to-keep-re-reviewing-them-which-surely-has-nothing-to-do-with-ai/",
-   "published": "2026-11-03T23:51:13.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Google criticized by NYC mayor Zohran Mamdani following AI policy change: 'Google is trying to use its monopoly power to force AI into our public schools'",
-   "link": "https://www.pcgamer.com/software/ai/google-criticized-by-nyc-mayor-zohran-mamdani-following-ai-policy-change-google-is-trying-to-use-its-monopoly-power-to-force-ai-into-our-public-schools/",
-   "published": "2026-11-03T22:58:03.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "Ubisoft are reportedly tapped as one potential company that could acquire Arkane, though the Dishonored studio's own management may be in the running too",
-   "link": "https://www.rockpapershotgun.com/ubisoft-are-reportedly-tapped-as-one-potential-company-that-could-acquire-arkane-though-the-dishonored-studios-own-management-may-be-in-the-running-too",
-   "published": "2026-11-03T22:51:31.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Ubisoft reportedly wants to buy Arkane from Xbox",
-   "link": "https://www.pcgamer.com/gaming-industry/ubisoft-reportedly-wants-to-buy-arkane-from-xbox/",
-   "published": "2026-11-03T22:12:35.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Control Resonant is Remedy's fastest-selling game to date, tripling the studio's quarterly revenue",
-   "link": "https://www.pcgamer.com/games/action/control-resonant-is-remedys-fastest-selling-game-to-date-tripling-the-studios-quarterly-revenue/",
-   "published": "2026-11-03T21:54:41.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "\"Steam's review queue is clogged up by AI slop\": Salacious Fire Emblem-ish Food Devils gets a delay because its devs think Valve is inundated with genAI games",
-   "link": "https://www.rockpapershotgun.com/steams-review-queue-is-clogged-up-by-ai-slop-salacious-fire-emblem-ish-food-devils-gets-a-delay-because-its-devs-think-valve-is-inundated-with-genai-games",
-   "published": "2026-11-03T21:41:08.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "The Citadel Project is a Thief-inspired dark fantasy, survival-horror lite stealth-em-up with some lovely shadows set in a medieval megastructure",
-   "link": "https://www.rockpapershotgun.com/the-citadel-project-is-a-thief-inspired-dark-fantasy-survival-horror-lite-stealth-em-up-with-some-lovely-shadows-set-in-a-medieval-megastructure",
-   "published": "2026-11-03T20:10:03.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Crowning the greatest FPS mode of all time through 1v1 combat—SEMIFINALS!",
-   "link": "https://www.pcgamer.com/games/fps/crowning-the-greatest-fps-mode-of-all-time-through-1v1-combat-semifinals/",
-   "published": "2026-11-03T19:41:04.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "The Elder Scrolls 6 is still a long way off, Bethesda warns: 'It'll be some time before we're ready to share more'",
-   "link": "https://www.pcgamer.com/games/the-elder-scrolls/the-elder-scrolls-6-is-still-a-long-way-off-bethesda-warns-itll-be-some-time-before-were-ready-to-share-more/",
-   "published": "2026-11-03T19:27:07.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "Silica, an FPS and RTS hybrid that mixes a smidge of Dune and Helldivers together, has left early access and entered 1.0",
-   "link": "https://www.rockpapershotgun.com/silica-an-fps-and-rts-hybrid-that-mixes-a-smidge-of-dune-and-helldivers-together-has-left-early-access-and-entered-10",
-   "published": "2026-11-03T19:00:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Indie Game Bundles",
-   "domain": "indiegamebundles.com",
-   "title": "Humble Choice November 2026: Get Mafia: The Old Country, The Outer Worlds 2, SHINOBI and 5 More PC Games for $14.99",
-   "link": "https://www.indiegamebundles.com/humble-choice-november-2026/",
-   "published": "2026-11-03T18:50:20.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Bethesda's first full-time QA tester got the job by being an extremely chill hang",
-   "link": "https://www.pcgamer.com/gaming-industry/bethesdas-first-full-time-qa-tester-got-the-job-by-being-an-extremely-chill-hang/",
-   "published": "2026-11-03T18:49:23.000Z",
    "status": "dropped",
    "score": 3,
    "note": "one site, no keyword of the account, not about a game we list"
