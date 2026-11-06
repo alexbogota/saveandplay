@@ -1,0 +1,29 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261106-140914",
+  "madeAt": "2026-11-06T14:09:46.553Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:3zawjsqpcu7ti2kxrecn2oi5/app.bsky.feed.post/3mzmkucy4n22k",
+      "url": "https://bsky.app/profile/madman-inc.bsky.social/post/3mzmkucy4n22k",
+      "author": "madman-inc.bsky.social",
+      "context": "What was my first video game system? The intellivision. #intellivision #retrogamer\nvideo, no description",
+      "text": "Intellivision is a great first system. Those disc controllers with the keypad overlays are hard to forget.",
+      "group": "childhood",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:dyfeh4txndc5qbuohwztprys/app.bsky.feed.post/3mzmmsx26qk2y",
+      "url": "https://bsky.app/profile/zips.bsky.social/post/3mzmmsx26qk2y",
+      "author": "zips.bsky.social",
+      "context": "No freaking way. Road Rash was released on Steam?! Dude. This was my childhood right here. Well, first with the Genesis versions, but still. Give me the OG Genesis releases and Skitchin' too and I'd be so so happy. store.steampowered.com/app/2448570/...\nlink card: Road Rash™: 30th Anniversary Edition",
+      "text": "Road Rash was such a Genesis staple, so seeing it come back on PC is a fun surprise.",
+      "group": "childhood",
+      "heated": false
+    }
+  ]
+}

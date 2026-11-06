@@ -1,0 +1,30 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261106-140914",
+  "madeAt": "2026-11-06T14:09:46.443Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:zmtc4nkoxsewcda2qtbl2pj7/app.bsky.feed.post/3mzlvp4euds2e",
+      "url": "https://bsky.app/profile/birdbones.bsky.social/post/3mzlvp4euds2e",
+      "author": "birdbones.bsky.social",
+      "context": "With Ao3 down I decided to pick of video games again. I wanted something cozy and not too intensive. I found Dressmaker. I have already \"finished\" Dressmaker. I really loved Dressmaker.",
+      "text": "Dressmaker sounds like a lovely find for a quiet evening. Glad it hit the spot.",
+      "group": "askCozy",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:hmd4ot3hxfa7km47rj76s4a2/app.bsky.feed.post/3mzlyibn6ms2w",
+      "url": "https://bsky.app/profile/alexfranq.bsky.social/post/3mzlyibn6ms2w",
+      "author": "alexfranq.bsky.social",
+      "context": "23rd game of the year complete: dressmaker MORE GAMES LIKE THIS! this is so cozy and delightful and so easy to learn! and addicting!! 100/10\nimage, no description",
+      "text": "Congrats on number 23! If you want something calm and easy to learn, Unpacking is a gentle one: no timer, no way to lose, just settling into a space.",
+      "verify": "Я не знаю игру Dressmaker. Unpacking спокойная, без проигрыша, но проверьте, что она подходит по духу.",
+      "group": "askCozy",
+      "heated": false
+    }
+  ]
+}

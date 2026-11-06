@@ -1,0 +1,40 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "stamp": "20261106-140914",
+  "madeAt": "2026-11-06T14:09:46.328Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:6ha2jdkwhmpo7iztrxog52oq/app.bsky.feed.post/3mzm652nvvs2u",
+      "url": "https://bsky.app/profile/wanderering-nerd.bsky.social/post/3mzm652nvvs2u",
+      "author": "wanderering-nerd.bsky.social",
+      "context": "Honest question to anyone who sees this: PSP or Steam deck?",
+      "text": "Depends on what you want to play. The Deck runs a big part of the Steam library, and each store page shows a Verified label so you know before buying.",
+      "group": "deck",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:nnxuhlexjy5mko3spbcjey2n/app.bsky.feed.post/3mzllhaqnok2l",
+      "url": "https://bsky.app/profile/kjartankennedy.com/post/3mzllhaqnok2l",
+      "author": "kjartankennedy.com",
+      "context": "Recently I've been better about buying games and working through my backlog, but I haven't done a great job of keeping up with upcoming games. That said, this was an opportunity to realize that Hillthorn, which I'm looking forward to, comes out next week!\nimage: Capsule art for Hillthorn, featuring several spooky silhouettes set against a bright orb.; quotes @causewaystudios.com: There are so many highly anticipated games dropping this month, so for #QuestionsWithCauseway this week, we wanna know... Which November re…",
+      "text": "Backlog first is a solid plan. Wishlisting upcoming games on Steam sends you a notice at release, so you don't have to keep track yourself.",
+      "group": "backlog",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:isex7m5cncadwinhl7wxiwwh/app.bsky.feed.post/3mzlijede722a",
+      "url": "https://bsky.app/profile/trevorsideas.bsky.social/post/3mzlijede722a",
+      "author": "trevorsideas.bsky.social",
+      "context": "GoG Galaxy is coming to Linux. I know that's been requested heavily so that's nice to hear as well. Only other announcement that caught my attention is a GoG Social platform for discussing games. Yet another social media? Ugh... I don't know...",
+      "text": "Galaxy on Linux is a big one for people who asked for it. GOG games are DRM-free anyway, so you can keep the installer and run them without the launcher too.",
+      "verify": "Проверьте: GOG Galaxy для Linux действительно анонсирован (так написано в посте автора).",
+      "group": "practical",
+      "heated": false
+    }
+  ]
+}
