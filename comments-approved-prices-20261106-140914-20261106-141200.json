@@ -1,0 +1,19 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-prices-20261106-140914.json",
+  "approvedAt": "2026-11-06T14:12:00.647Z",
+  "items": [
+    {
+      "n": 3,
+      "uri": "at://did:plc:isex7m5cncadwinhl7wxiwwh/app.bsky.feed.post/3mzlijede722a",
+      "url": "https://bsky.app/profile/trevorsideas.bsky.social/post/3mzlijede722a",
+      "author": "trevorsideas.bsky.social",
+      "context": "GoG Galaxy is coming to Linux. I know that's been requested heavily so that's nice to hear as well. Only other announcement that caught my attention is a GoG Social platform for discussing games. Yet another social media? Ugh... I don't know...",
+      "text": "Galaxy on Linux is a big one for people who asked for it. GOG games are DRM-free anyway, so you can keep the installer and run them without the launcher too.",
+      "edited": false,
+      "verify": "Проверьте: GOG Galaxy для Linux действительно анонсирован (так написано в посте автора)."
+    }
+  ]
+}
