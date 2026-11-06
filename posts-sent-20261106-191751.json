@@ -1,0 +1,39 @@
+{
+  "madeAt": "2026-11-06T19:17:51.408Z",
+  "run": "42278337750",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices-2|2026-11-05|/deals/gog/shadow-tactics-blades-of-the-shogun/",
+      "account": "prices-2",
+      "handle": "saveandplay.com",
+      "n": 2,
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-05",
+      "text": "Shadow Tactics: Blades of the Shogun: -90% at GOG\n$3.99 (was $39.99)\nPrice checked Nov 5. Sale ends Nov 13. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-05\n\n#PCGaming #GameDeals #Games #DRMFree #PCGames\nAd",
+      "approvedFile": "posts-approved-20261106-141151.json",
+      "approvedAt": "2026-11-06T14:11:51.706Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-06T19:17:53.743Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mzo3w2rymm2q",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3mzo3w2rymm2q",
+      "picture": true
+    },
+    {
+      "key": "prices|coop-2026-11-06|/servers/left-4-dead-2/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 7,
+      "link": "https://saveandplay.com/servers/left-4-dead-2/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-11-06",
+      "text": "Left 4 Dead 2 has online co-op on Steam.\nA rented server keeps your world online when the host logs off.\n\nhttps://saveandplay.com/servers/left-4-dead-2/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-11-06\n\n#PCGaming #Left4Dead2\nAd",
+      "approvedFile": "posts-approved-20261106-141151.json",
+      "approvedAt": "2026-11-06T14:11:51.706Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-06T19:19:03.576Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mzo3y4sqpa2e",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3mzo3y4sqpa2e",
+      "picture": true
+    }
+  ]
+}
