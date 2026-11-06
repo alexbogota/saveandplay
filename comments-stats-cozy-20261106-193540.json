@@ -1,0 +1,67 @@
+{
+  "block": "cozy",
+  "handle": "cozygame.bsky.social",
+  "madeAt": "2026-11-06T19:35:40.912Z",
+  "days": 14,
+  "total": 40,
+  "mature": {
+    "count": 38,
+    "withLike": 21,
+    "withReply": 8,
+    "likes": 25,
+    "replies": 8,
+    "byProgram": 38
+  },
+  "top": [
+    {
+      "uri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3myzfiyigbs2e",
+      "url": "https://bsky.app/profile/cozygame.bsky.social/post/3myzfiyigbs2e",
+      "text": "Stardew is a lovely fit for that: no one rushes you, and every day is a small, finishable chunk you can do at your own pace. Glad you found a game that feels this good.",
+      "at": "2026-10-29T13:43:37.996Z",
+      "likes": 2,
+      "replies": 1,
+      "reposts": 0,
+      "to": "kirsties.wsocial.eu"
+    },
+    {
+      "uri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3mzlagsmchm2c",
+      "url": "https://bsky.app/profile/cozygame.bsky.social/post/3mzlagsmchm2c",
+      "text": "For short pick-up-and-put-down sessions, the Standard farm is the easiest one: lots of open space and no awkward shapes to plan around. If you want something pretty and relaxed, the Forest farm is a nice pick too.",
+      "at": "2026-11-05T16:00:51.281Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "gremlinpop.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3mzb6zghq4v2z",
+      "url": "https://bsky.app/profile/cozygame.bsky.social/post/3mzb6zghq4v2z",
+      "text": "Stardew Valley's fishing is a gentle one: you keep the bar on the fish and the pace stays calm, which makes a nice break between busier games.",
+      "at": "2026-11-01T16:08:51.194Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "mysticgames-in.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3mz6ny4clsp2y",
+      "url": "https://bsky.app/profile/cozygame.bsky.social/post/3mz6ny4clsp2y",
+      "text": "Dinkum is worth a look: you build up a small town and explore a big open world at your own pace, with no pressure to rush. Palia also has a lot of free-form building if you want something with a bit more community feel.",
+      "at": "2026-10-31T15:58:33.909Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "letrune.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3mywzwgke4v2x",
+      "url": "https://bsky.app/profile/cozygame.bsky.social/post/3mywzwgke4v2x",
+      "text": "Stardew meets Persona is a great pitch. Thanks for the rec.",
+      "at": "2026-10-28T15:11:04.572Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "vilegentleman.bsky.social"
+    }
+  ]
+}

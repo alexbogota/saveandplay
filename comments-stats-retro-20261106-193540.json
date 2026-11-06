@@ -1,0 +1,67 @@
+{
+  "block": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "madeAt": "2026-11-06T19:35:40.912Z",
+  "days": 14,
+  "total": 45,
+  "mature": {
+    "count": 43,
+    "withLike": 19,
+    "withReply": 5,
+    "likes": 22,
+    "replies": 5,
+    "byProgram": 43
+  },
+  "top": [
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3mzlala3ulb2n",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3mzlala3ulb2n",
+      "text": "DOS really was thin on fighting games. The Mortal Kombat ports are the other ones I remember.",
+      "at": "2026-11-05T16:03:19.657Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "tabbeigh.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3mywzz34jpn2j",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3mywzz34jpn2j",
+      "text": "Bowser's Road is such a good pick. That organ-heavy final theme sets the mood perfectly for a first finished game.",
+      "at": "2026-10-28T15:12:33.247Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "13thwhisper.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3mytds4oqwz2k",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3mytds4oqwz2k",
+      "text": "Agreed, the obscure regional DOS games are a whole forgotten corner of PC history, and they deserve a few more eyes.",
+      "at": "2026-10-27T03:56:58.258Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "neoretrounion.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3mzg6fsai3z2r",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3mzg6fsai3z2r",
+      "text": "Going from the voice casts of Day of the Tentacle and Sam & Max straight to RE1 is quite a jump. Those LucasArts games set the bar high.",
+      "at": "2026-11-03T15:41:11.009Z",
+      "likes": 2,
+      "replies": 0,
+      "reposts": 0,
+      "to": "jamesirish780.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3mz3xjvawym2m",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3mz3xjvawym2m",
+      "text": "Hi! Sierra adventures and the Gold Box RPGs are a great pile to dig through. A lot of those DOS classics are sold DRM-free on GOG with the old-PC setup already done, so they run on a modern machine without any tinkering.",
+      "at": "2026-10-30T14:11:34.926Z",
+      "likes": 0,
+      "replies": 1,
+      "reposts": 0,
+      "to": "samthul.bsky.social"
+    }
+  ]
+}
