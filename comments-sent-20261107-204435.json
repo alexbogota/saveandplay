@@ -1,0 +1,55 @@
+{
+  "madeAt": "2026-11-07T20:44:35.959Z",
+  "run": "42412490141",
+  "private": false,
+  "entries": [
+    {
+      "block": "prices",
+      "handle": "saveandplay.com",
+      "n": 1,
+      "uri": "at://did:plc:ivbtru272656vd4csfwgxv2r/app.bsky.feed.post/3mzo34ysibs2g",
+      "url": "https://bsky.app/profile/crimsongoat15.bsky.social/post/3mzo34ysibs2g",
+      "author": "crimsongoat15.bsky.social",
+      "text": "Indies are a good call. For the bigger games, wishlisting one and checking its price history usually shows it dropping well below launch price within months.",
+      "approvedFile": "comments-approved-prices-20261107-203616-20261107-204409.json",
+      "approvedAt": "2026-11-07T20:44:09.895Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-07T20:44:37.736Z",
+      "replyUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mzqra2od7r2v",
+      "replyUrl": "https://bsky.app/profile/saveandplay.com/post/3mzqra2od7r2v"
+    },
+    {
+      "block": "prices",
+      "handle": "saveandplay.com",
+      "n": 3,
+      "uri": "at://did:plc:ploc4ych5vtb25z2pbevwqag/app.bsky.feed.post/3mznsvgolbc2y",
+      "url": "https://bsky.app/profile/cardboardhyperfix.bsky.social/post/3mznsvgolbc2y",
+      "author": "cardboardhyperfix.bsky.social",
+      "text": "SimTower and Sim Safari are real deep cuts. Bundles like that were a great way to stumble onto odd little Maxis games.",
+      "approvedFile": "comments-approved-prices-20261107-203616-20261107-204409.json",
+      "approvedAt": "2026-11-07T20:44:09.895Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-07T20:47:30.794Z",
+      "replyUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mzqrfa6t5u2w",
+      "replyUrl": "https://bsky.app/profile/saveandplay.com/post/3mzqrfa6t5u2w"
+    },
+    {
+      "block": "cozy",
+      "handle": "cozygame.bsky.social",
+      "n": 1,
+      "uri": "at://did:plc:aqwmamtzvijl6hnvchbtk4gx/app.bsky.feed.post/3mzp6cadrxk2i",
+      "url": "https://bsky.app/profile/onlyjaes.bsky.social/post/3mzp6cadrxk2i",
+      "author": "onlyjaes.bsky.social",
+      "text": "Comfort games are the ones you can open with no pressure. Stardew Valley and A Short Hike are two gentle ones that fit that.",
+      "approvedFile": "comments-approved-cozy-20261107-203616-20261107-204409.json",
+      "approvedAt": "2026-11-07T20:44:09.997Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-07T20:47:31.994Z",
+      "replyUri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3mzqrfbdifg2n",
+      "replyUrl": "https://bsky.app/profile/cozygame.bsky.social/post/3mzqrfbdifg2n"
+    }
+  ]
+}
