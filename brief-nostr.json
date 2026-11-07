@@ -1,64 +1,10 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-11-06T17:49:26.182Z",
-  "builtBy": "commit cda955c, schedule, run #38 attempt 1",
-  "pricesCheckedAt": "2026-11-06T16:53:28.078Z",
+  "generatedAt": "2026-11-07T16:45:09.877Z",
+  "builtBy": "commit 205376d, schedule, run #39 attempt 1",
+  "pricesCheckedAt": "2026-11-07T15:50:56.534Z",
   "warnings": [],
   "candidates": [
-    {
-      "id": "gog-simcity-4-deluxe-edition",
-      "kind": "deal",
-      "title": "SimCity 4 Deluxe Edition",
-      "store": "GOG",
-      "price": 4.99,
-      "was": 19.99,
-      "discount": 75,
-      "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 230,
-      "priceCheckedAt": "2026-11-06T16:53:28.078Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
-      "drminfo": null,
-      "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
-      "facts": {
-        "year": 2003,
-        "genres": [
-          "Simulation",
-          "Building",
-          "Managerial"
-        ],
-        "tags": [
-          "Atmospheric",
-          "Simulation",
-          "Classic",
-          "Great Soundtrack",
-          "Management",
-          "Sandbox",
-          "Real-Time",
-          "Isometric",
-          "Building",
-          "Managerial",
-          "City builder"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 9.5,
-      "discountRank": 4,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 28,
-        "lowest": true,
-        "since": "2026-10-07"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-06",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "lowest price we've tracked (28 days of data)",
-        "deepest-discount rank 4 of 4"
-      ]
-    },
     {
       "id": "gog-shadow-tactics-blades-of-the-shogun",
       "kind": "deal",
@@ -68,8 +14,8 @@
       "was": 39.99,
       "discount": 90,
       "endsAt": "2026-11-13T09:59:00+02:00",
-      "endsInHours": 158,
-      "priceCheckedAt": "2026-11-06T16:53:28.078Z",
+      "endsInHours": 135,
+      "priceCheckedAt": "2026-11-07T15:50:56.534Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
       "drminfo": null,
       "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
@@ -101,20 +47,20 @@
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 3,
+      "score": 11,
       "discountRank": 1,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 28,
+        "days": 29,
         "lowest": true,
         "since": "2026-10-07"
       },
-      "offeredOn": "2026-10-31",
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-06",
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-07",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (28 days of data)",
+        "lowest price we've tracked (29 days of data)",
         "deepest-discount rank 1 of 4"
       ]
     },
@@ -127,8 +73,8 @@
       "was": 19.99,
       "discount": 85,
       "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 230,
-      "priceCheckedAt": "2026-11-06T16:53:28.078Z",
+      "endsInHours": 207,
+      "priceCheckedAt": "2026-11-07T15:50:56.534Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
       "drminfo": null,
       "coverAlt": "Cover art for This War of Mine",
@@ -166,15 +112,15 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 19,
+        "days": 20,
         "lowest": true,
         "since": "2026-10-19"
       },
       "offeredOn": "2026-11-01",
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-06",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-07",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (19 days of data)",
+        "lowest price we've tracked (20 days of data)",
         "deepest-discount rank 2 of 4"
       ]
     },
@@ -187,8 +133,8 @@
       "was": 24.99,
       "discount": 85,
       "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 230,
-      "priceCheckedAt": "2026-11-06T16:53:28.078Z",
+      "endsInHours": 207,
+      "priceCheckedAt": "2026-11-07T15:50:56.534Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187",
       "drminfo": null,
       "coverAlt": "Cover art for Darkest Dungeon",
@@ -224,63 +170,163 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 28,
+        "days": 29,
         "lowest": true,
         "since": "2026-10-07"
       },
       "offeredOn": "2026-11-03",
-      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-06",
+      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-07",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (28 days of data)",
+        "lowest price we've tracked (29 days of data)",
         "deepest-discount rank 3 of 4"
+      ]
+    },
+    {
+      "id": "gog-simcity-4-deluxe-edition",
+      "kind": "deal",
+      "title": "SimCity 4 Deluxe Edition",
+      "store": "GOG",
+      "price": 4.99,
+      "was": 19.99,
+      "discount": 75,
+      "endsAt": "2026-11-16T09:59:00+02:00",
+      "endsInHours": 207,
+      "priceCheckedAt": "2026-11-07T15:50:56.534Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
+      "drminfo": null,
+      "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
+      "facts": {
+        "year": 2003,
+        "genres": [
+          "Simulation",
+          "Building",
+          "Managerial"
+        ],
+        "tags": [
+          "Atmospheric",
+          "Simulation",
+          "Classic",
+          "Great Soundtrack",
+          "Management",
+          "Sandbox",
+          "Real-Time",
+          "Isometric",
+          "Building",
+          "Managerial",
+          "City builder"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 1.5,
+      "discountRank": 4,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 29,
+        "lowest": true,
+        "since": "2026-10-07"
+      },
+      "offeredOn": "2026-11-06",
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-07",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "lowest price we've tracked (29 days of data)",
+        "deepest-discount rank 4 of 4"
       ]
     }
   ],
   "gogNews": [],
   "topical": [
     {
-      "title": "A new set of FREE Path of Exile 2 Twitch Drops awaits ExileCon 2026 viewers",
+      "title": "New FREE games this weekend (November 7-8, 2026): your comprehensive roundup",
       "source": "gg.deals Freebies",
-      "link": "https://gg.deals/freebie/a-new-set-of-free-path-of-exile-2-twitch-drops-awaits-exilecon-2026-viewers/",
-      "t": 1793983852000,
+      "link": "https://gg.deals/freebie/new-free-games-this-weekend-november-7-8-2026-your-comprehensive-roundup/",
+      "t": 1794065460000,
       "keyword": "free",
-      "summary": "Rewards are unlocked at the 2-, 4-, 6-, and 8-hour marks."
+      "summary": "Whether they're free to keep, free to try, or 'free' with a subscription, you can find this week's new free games for PC and console right here."
     },
     {
-      "title": "50 PlayStation Black Friday 2026 deals under $5: Here are our favorite bargains",
+      "title": "Gray Zone Warfare gets a new Rogue Ops update: Save 10% extra with a special discount code",
       "source": "gg.deals News",
-      "link": "https://gg.deals/wallet-friendly/50-playstation-black-friday-2026-deals-under-5-here-are-our-favorite-bargains/",
-      "t": 1793980800000,
-      "keyword": "deals",
-      "summary": "Here's your cure for decision paralysis."
+      "link": "https://gg.deals/deal/gray-zone-warfare-gets-a-new-rogue-ops-update-save-10-extra-with-a-special-discount-code/",
+      "t": 1794056580000,
+      "keyword": "discount",
+      "summary": "Gray Zone Warfare just got a massive update and Fortuna Digital&rsquo;s got the key ready to deploy! Get an additional discount with a coupon code."
     },
     {
-      "title": "I just found out you can use your Steam Wishlist to search for deals on games outside of Steam, saving my nephew more than £40 on Total War: Warhammer 3",
-      "source": "Rock Paper Shotgun",
-      "link": "https://www.rockpapershotgun.com/i-just-found-out-you-can-use-your-steam-wishlist-to-search-for-deals-on-games-outside-of-steam-saving-my-nephew-more-than-40-on-total-war-warhammer-3",
-      "t": 1793979900000,
-      "keyword": "deals",
-      "summary": "I may be very late to the party with this discovery, but I only just realised you can connect your Steam Wishlist to a third-party deals tracker. The beauty of…"
+      "title": "Rockstar's having a sale on old GTA games on the only platform Grand Theft Auto 6 isn't coming to (ours)",
+      "source": "PC Gamer",
+      "link": "https://www.pcgamer.com/games/grand-theft-auto/rockstars-having-sale-on-old-gta-games-on-the-only-platform-grand-theft-auto-6-isnt-coming-to-ours/",
+      "t": 1794006710000,
+      "keyword": "sale",
+      "summary": "Grand Theft Auto 6 finally arrives on November 19, but not for us, no—the big day is only for gamers on PlayStation 5 and Xbox Series X/S. We're not being comp…"
     },
     {
-      "title": "Fanatical's BYO Birthday Bonanza Bundle is a treat for gamers! Choose from 27 titles",
+      "title": "Steam's Digital Tabletop Fest 2026 is playing a winning hand with these deals!",
       "source": "gg.deals News",
-      "link": "https://gg.deals/bundle/fanaticals-byo-birthday-bonanza-bundle-is-a-treat-for-gamers-choose-from-27-titles/",
-      "t": 1793977516000,
-      "keyword": "bundle",
-      "summary": "Pick your favorites, starting at $6.99 for two games."
-    },
-    {
-      "title": "Scratch that nostalgia itch with these big GTA: The Trilogy Definitive Edition deals!",
-      "source": "gg.deals News",
-      "link": "https://gg.deals/deal/scratch-that-nostalgia-itch-with-these-big-gta-the-trilogy-definitive-edition-deals/",
-      "t": 1793976180000,
+      "link": "https://gg.deals/deal/steams-digital-tabletop-fest-2026-is-playing-a-winning-hand-with-these-deals/",
+      "t": 1793999400000,
       "keyword": "deals",
-      "summary": "Revisit Liberty City, San Andreas, and Vice City one more time before GTA VI takes over your world."
+      "summary": "Including new Steam historical low prices on Drop Duchy, For The King, Plague Inc., After Inc: Revival, and Wingspan."
     }
   ],
   "topics": [
+    {
+      "headline": "Humble Unhinged & Unsettling Visual Novels Bundle: 11 Steam Games for Just $12",
+      "score": 10,
+      "sites": [
+        "gg.deals",
+        "indiegamebundles.com"
+      ],
+      "keywords": [
+        "bundle",
+        "humble"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Humble’s Unhinged & Unsettling Visual Novels Bundle serves up a collection of twisted tales",
+          "link": "https://gg.deals/bundle/humbles-unhinged-unsettling-visual-novels-bundle-serves-up-a-collection-of-twisted-tales/",
+          "published": "2026-11-06T19:22:00.000Z"
+        },
+        {
+          "source": "Indie Game Bundles",
+          "title": "Humble Unhinged & Unsettling Visual Novels Bundle: 11 Steam Games for Just $12",
+          "link": "https://www.indiegamebundles.com/humble-unhinged-unsettling-visual-novels-bundle-11-steam-games-for-just-12/",
+          "published": "2026-11-07T16:18:40.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Humble Farming Games Bundle: 11 Steam Games Including Fae Farm and Farming Simulator 19 for $18",
+      "score": 10,
+      "sites": [
+        "gg.deals",
+        "indiegamebundles.com"
+      ],
+      "keywords": [
+        "bundle",
+        "humble"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "New Humble Farming Games Bundle offers 11 Steam games for $18, including Fae Farm",
+          "link": "https://gg.deals/bundle/new-humble-farming-games-bundle/",
+          "published": "2026-11-06T09:39:28.000Z"
+        },
+        {
+          "source": "Indie Game Bundles",
+          "title": "Humble Farming Games Bundle: 11 Steam Games Including Fae Farm and Farming Simulator 19 for $18",
+          "link": "https://www.indiegamebundles.com/humble-farming-games-bundle/",
+          "published": "2026-11-06T18:25:55.000Z"
+        }
+      ]
+    },
     {
       "headline": "One more FREE game from Epic Games? Good Morning Human is yours to keep!",
       "score": 8,
@@ -308,6 +354,26 @@
       ]
     },
     {
+      "headline": "Humble’s new bundle puts your brain through the wringer with 13 nonogram puzzles",
+      "score": 7,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "bundle",
+        "humble"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Humble’s new bundle puts your brain through the wringer with 13 nonogram puzzles",
+          "link": "https://gg.deals/bundle/humbles-new-bundle-puts-your-brain-through-the-wringer-with-13-nonogram-puzzles/",
+          "published": "2026-11-06T19:51:12.000Z"
+        }
+      ]
+    },
+    {
       "headline": "Humble's XSEED Publisher Sale is here! Save up to 80% on cozy Steam games and action hits",
       "score": 7,
       "sites": [
@@ -324,67 +390,6 @@
           "title": "Humble's XSEED Publisher Sale is here! Save up to 80% on cozy Steam games and action hits",
           "link": "https://gg.deals/deal/humbles-xseed-publisher-sale/",
           "published": "2026-11-06T13:05:00.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "New Humble Farming Games Bundle offers 11 Steam games for $18, including Fae Farm",
-      "score": 7,
-      "sites": [
-        "gg.deals"
-      ],
-      "keywords": [
-        "bundle",
-        "humble"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "New Humble Farming Games Bundle offers 11 Steam games for $18, including Fae Farm",
-          "link": "https://gg.deals/bundle/new-humble-farming-games-bundle/",
-          "published": "2026-11-06T09:39:28.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Switch 2 sales dropped 37% this summer, mostly before the price hike hit; Nintendo now expects sales to slump 16.9% in console's second year",
-      "score": 7,
-      "sites": [
-        "pcgamer.com"
-      ],
-      "keywords": [
-        "sales",
-        "price",
-        "price hike"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "PC Gamer",
-          "title": "Switch 2 sales dropped 37% this summer, mostly before the price hike hit; Nintendo now expects sales to slump 16.9% in console's second year",
-          "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/switch-2-sales-dropped-37-percent-this-summer-mostly-before-the-price-hike-hit-nintendo-now-expects-sales-to-slump-16-9-percent-in-consoles-second-year/",
-          "published": "2026-11-05T11:53:38.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Humble Resident Evil: Biohazard Unleashed Bundle",
-      "score": 7,
-      "sites": [
-        "indiegamebundles.com"
-      ],
-      "keywords": [
-        "bundle",
-        "humble"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "Indie Game Bundles",
-          "title": "Humble Resident Evil: Biohazard Unleashed Bundle",
-          "link": "https://www.indiegamebundles.com/humble-resident-evil-biohazard-unleashed-bundle/",
-          "published": "2026-11-04T20:56:59.000Z"
         }
       ]
     }

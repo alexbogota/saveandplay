@@ -1,11 +1,11 @@
 {
   "account": "Cozy and calm games",
-  "generatedAt": "2026-11-06T17:49:26.182Z",
-  "builtBy": "commit cda955c, schedule, run #38 attempt 1",
-  "pricesCheckedAt": "2026-11-06T16:53:28.078Z",
+  "generatedAt": "2026-11-07T16:45:09.877Z",
+  "builtBy": "commit 205376d, schedule, run #39 attempt 1",
+  "pricesCheckedAt": "2026-11-07T15:50:56.534Z",
   "warnings": [
     "NOTHING TO OFFER today.",
-    "No game fits the niche today (1 fit the rule, 4 do not, 0 have no facts yet, 1 were taken by another account today, 0 offered in the last 7 days, 0 under 30%, 0 prices older than 48 h, 0 sales over or ending soon)."
+    "No game fits the niche today (1 fit the rule, 4 do not, 0 have no facts yet, 0 were taken by another account today, 1 offered in the last 7 days, 0 under 30%, 0 prices older than 48 h, 0 sales over or ending soon)."
   ],
   "niche": {
     "label": "Cozy",
@@ -21,8 +21,8 @@
     "hidden": 0,
     "notNiche": 4,
     "noFacts": 0,
-    "taken": 1,
-    "repeat": 0,
+    "taken": 0,
+    "repeat": 1,
     "smallDiscount": 0,
     "ended": 0,
     "endsTooSoon": 0,
@@ -34,10 +34,10 @@
   },
   "posts": {
     "x": {
-      "none": "No deal passes the rules today. NOTHING TO OFFER today. No game fits the niche today (1 fit the rule, 4 do not, 0 have no facts yet, 1 were taken by another account today, 0 offered in the last 7 days, 0 under 30%, 0 prices older than 48 h, 0 sales over or ending soon)."
+      "none": "No deal passes the rules today. NOTHING TO OFFER today. No game fits the niche today (1 fit the rule, 4 do not, 0 have no facts yet, 0 were taken by another account today, 1 offered in the last 7 days, 0 under 30%, 0 prices older than 48 h, 0 sales over or ending soon)."
     },
     "bluesky": {
-      "none": "No deal passes the rules today. NOTHING TO OFFER today. No game fits the niche today (1 fit the rule, 4 do not, 0 have no facts yet, 1 were taken by another account today, 0 offered in the last 7 days, 0 under 30%, 0 prices older than 48 h, 0 sales over or ending soon)."
+      "none": "No deal passes the rules today. NOTHING TO OFFER today. No game fits the niche today (1 fit the rule, 4 do not, 0 have no facts yet, 0 were taken by another account today, 1 offered in the last 7 days, 0 under 30%, 0 prices older than 48 h, 0 sales over or ending soon)."
     }
   }
 }

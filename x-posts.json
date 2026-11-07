@@ -1,5 +1,19 @@
 [
  {
+  "day": "2026-11-07",
+  "account": "prices",
+  "post": "Shadow Tactics: Blades of the Shogun: -90% at GOG | $3.99 (was $39.99) | Price checked Nov 7. Sale ends Nov 13. Lowest price we've tracked. https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-07 #PCGaming #ShadowTactics Ad",
+  "chars": 191,
+  "order": 1
+ },
+ {
+  "day": "2026-11-07",
+  "account": "prices-2",
+  "post": "Metro Exodus: -90% at GOG | $2.99 (was $29.99) | Price checked Nov 7. Sale ends Nov 16. Lowest price we've tracked. https://saveandplay.com/deals/gog/metro-exodus/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-07 #PCGaming #MetroExodus Ad",
+  "chars": 165,
+  "order": 2
+ },
+ {
   "day": "2026-11-06",
   "account": "prices",
   "post": "SimCity 4 Deluxe Edition: -75% at GOG | $4.99 (was $19.99) | Price checked Nov 6. Sale ends Nov 16. Lowest price we've tracked. https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-06 #PCGaming #GOG Ad",
@@ -95,20 +109,6 @@
   "account": "prices-2",
   "post": "SimCity 4 Deluxe Edition: -75% at GOG | $4.99 (was $19.99) | Price checked Nov 1. Sale ends Nov 5. Lowest price we've tracked. https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-01 #PCGaming #SimCity4DeluxeEdition Ad",
   "chars": 186,
-  "order": 2
- },
- {
-  "day": "2026-10-31",
-  "account": "prices",
-  "post": "Shadow Tactics: Blades of the Shogun: -90% at GOG | $3.99 (was $39.99) | Price checked Oct 31. Sale ends Nov 5. Lowest price we've tracked. https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-31 #PCGaming #GOG Ad",
-  "chars": 181,
-  "order": 1
- },
- {
-  "day": "2026-10-31",
-  "account": "prices-2",
-  "post": "This War of Mine: -85% at GOG | $2.99 (was $19.99) | Price checked Oct 31. Sale ends Nov 5. https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-10-31 #PCGaming #GOG Ad",
-  "chars": 133,
   "order": 2
  }
 ]
