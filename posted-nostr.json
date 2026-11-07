@@ -2231,6 +2231,61 @@
             "sig": "34ca8ba9ef73eb4187a6a5adae327784747720f76f97983e3626a26b7f3fa786fdcbace4a7bd3f8af839a1fa86fce1085ab6de8814306569f3efc871cc78472e"
           }
         }
+      },
+      "2026-11-07": {
+        "deal": {
+          "status": "done",
+          "kind": "deal",
+          "id": "44b561d172b3ffe46ed35ef28ea9a8f2eb58ae34e72aa671e44e9926b8dd42a7",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "deal": "gog-shadow-tactics-blades-of-the-shogun",
+          "title": "Shadow Tactics: Blades of the Shogun",
+          "postedAt": "2026-11-07T16:56:40.000Z",
+          "accepted": [
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [
+            {
+              "url": "wss://relay.damus.io",
+              "reason": "connection failed"
+            }
+          ],
+          "event": {
+            "kind": 1,
+            "created_at": 1794070600,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-deal"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
+                "m image/jpeg",
+                "alt Cover art for Shadow Tactics: Blades of the Shogun"
+              ]
+            ],
+            "content": "Shadow Tactics: Blades of the Shogun: -90% at GOG\n$3.99 (was $39.99)\nPrice checked 2026-11-07 15:50 UTC. Sale ends 2026-11-13 07:59 UTC.\nWhy today: lowest price we've tracked (29 days of data); deepest-discount rank 1 of 4.\nAd: we may earn a commission if you buy.\n\n#pcgaming #gamedeals\n\nhttps://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696\n\nhttps://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-07",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "44b561d172b3ffe46ed35ef28ea9a8f2eb58ae34e72aa671e44e9926b8dd42a7",
+            "sig": "33ecac3c8d7ec3f7a2946ba0c83f51912213e8bc8f2e4e91765b92e4c5a938986f8ea9874becc9a05adabe1e60221e02379374b20159e7c0749be6476bcb6600"
+          }
+        }
       }
     }
   },
