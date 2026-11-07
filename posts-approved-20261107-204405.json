@@ -1,0 +1,29 @@
+{
+  "approvedAt": "2026-11-07T20:44:05.075Z",
+  "items": [
+    {
+      "n": 1,
+      "kind": "deal",
+      "platform": "bluesky",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "text": "Shadow Tactics: Blades of the Shogun: -90% at GOG\n$3.99 (was $39.99)\nPrice checked Nov 7. Sale ends Nov 13. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-07\n\n#PCGaming #GameDeals #PCGames #GOG #Gaming\nAd",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-07",
+      "day": "2026-11-07",
+      "key": "prices|2026-11-07|/deals/gog/shadow-tactics-blades-of-the-shogun/",
+      "notBefore": "2026-11-07T20:44:05.075Z"
+    },
+    {
+      "n": 2,
+      "kind": "deal",
+      "platform": "bluesky",
+      "account": "prices-2",
+      "handle": "saveandplay.com",
+      "text": "Metro Exodus: -90% at GOG\n$2.99 (was $29.99)\nPrice checked Nov 7. Sale ends Nov 16. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-07\n\n#PCGaming #GameDeals #MetroExodus #Games #DRMFree\nAd",
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-07",
+      "day": "2026-11-07",
+      "key": "prices-2|2026-11-07|/deals/gog/metro-exodus/",
+      "notBefore": "2026-11-07T22:44:05.075Z"
+    }
+  ]
+}
