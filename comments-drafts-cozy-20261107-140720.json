@@ -1,0 +1,20 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261107-140720",
+  "madeAt": "2026-11-07T14:07:50.468Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:o44folg6mo77bp7imt2ksw7m/app.bsky.feed.post/3mzncidlfak2v",
+      "url": "https://bsky.app/profile/pixelkitten1010.bsky.social/post/3mzncidlfak2v",
+      "author": "pixelkitten1010.bsky.social",
+      "context": "Cozy games, cryptids and ghost stories 👀 Do you have a favourite game that mixes all three?",
+      "text": "Strange Horticulture is the closest I can think of: a quiet little plant shop with a slightly spooky mystery running underneath. No cryptids, but the mood fits.",
+      "verify": "Проверить: Strange Horticulture на Steam, описание мрачно-уютное",
+      "group": "askCozy",
+      "heated": false
+    }
+  ]
+}

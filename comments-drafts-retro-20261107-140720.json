@@ -1,0 +1,29 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261107-140720",
+  "madeAt": "2026-11-07T14:07:50.575Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:2ag2boorsqavevplyfsjwhyr/app.bsky.feed.post/3mznnk2ntmk2l",
+      "url": "https://bsky.app/profile/ndrichter.bsky.social/post/3mznnk2ntmk2l",
+      "author": "ndrichter.bsky.social",
+      "context": "You ever use the option to emulate built in PC speakers for an older PC game and wonder how the hell you tolerated that cacophony back in the day? I just aurally flashbanged myself playing Centipede in the 'old way'.",
+      "text": "Ha, the PC speaker was brave. If the game offers AdLib or Sound Blaster music in its setup, the difference is huge.",
+      "group": "classicPC",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:kwy6h62njwypylzg3p53m23p/app.bsky.feed.post/3mzolnxgrdc2o",
+      "url": "https://bsky.app/profile/gigerpunk.bsky.social/post/3mzolnxgrdc2o",
+      "author": "gigerpunk.bsky.social",
+      "context": "Y'know, I remember a time when I preferred retro gaming to modern games as it was more immediate, more instant gratification, just switch on and play. I'm not quite sure when that theory went out the window for me.\nimage: A somewhat cluttered games room, with nes/snes/n64/GameCube to the left of a big flat screen TV, Xbox/360, ps3/4 and and old shuttle PC above the TV, a mega dr…",
+      "text": "Switch on and play is hard to beat. Lovely setup too, and it's nice to see an old PC sitting in the mix.",
+      "group": "classicPC",
+      "heated": false
+    }
+  ]
+}
