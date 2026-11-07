@@ -1,0 +1,19 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261107-203616",
+  "madeAt": "2026-11-07T20:36:40.128Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:aqwmamtzvijl6hnvchbtk4gx/app.bsky.feed.post/3mzp6cadrxk2i",
+      "url": "https://bsky.app/profile/onlyjaes.bsky.social/post/3mzp6cadrxk2i",
+      "author": "onlyjaes.bsky.social",
+      "context": "What is your comfort game? Mine will always be Tales of Arise and Final Fantasy 15.\n2 images, no description",
+      "text": "Comfort games are the ones you can open with no pressure. Stardew Valley and A Short Hike are two gentle ones that fit that.",
+      "group": "wholesome",
+      "heated": false
+    }
+  ]
+}

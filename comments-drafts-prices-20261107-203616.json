@@ -1,0 +1,40 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "stamp": "20261107-203616",
+  "madeAt": "2026-11-07T20:36:40.019Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:ivbtru272656vd4csfwgxv2r/app.bsky.feed.post/3mzo34ysibs2g",
+      "url": "https://bsky.app/profile/crimsongoat15.bsky.social/post/3mzo34ysibs2g",
+      "author": "crimsongoat15.bsky.social",
+      "context": "We need like... something to step on the economy and reset it cause whaddyou mean I need to pay 100 cad for triple a games now??? (This is why I like indies, usually more reasonable prices)",
+      "text": "Indies are a good call. For the bigger games, wishlisting one and checking its price history usually shows it dropping well below launch price within months.",
+      "group": "backlog",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:xppv2x4mletqumutqjjyy2vm/app.bsky.feed.post/3mznvi5uba22b",
+      "url": "https://bsky.app/profile/hypergardens.bsky.social/post/3mznvi5uba22b",
+      "author": "hypergardens.bsky.social",
+      "context": "Awesome timing with the Remade Games sale on steam nowadays... have you played or recommend any of the Ultima series? And also, I keep wanting to try Daggerfall. I don't know how to avoid looking at all the comments and \"best way to play X\" sections on games nowadays... feel dumb for it",
+      "text": "Ultima VII and Ultima IV are the two most often recommended starting points. For Daggerfall, a lot of people use the Daggerfall Unity engine, which runs it on modern PCs using the original game's files.",
+      "verify": "Проверить: Ultima VII/IV как частые советы новичкам; Daggerfall Unity требует оригинальные файлы игры",
+      "group": "waitForSale",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:ploc4ych5vtb25z2pbevwqag/app.bsky.feed.post/3mznsvgolbc2y",
+      "url": "https://bsky.app/profile/cardboardhyperfix.bsky.social/post/3mznsvgolbc2y",
+      "author": "cardboardhyperfix.bsky.social",
+      "context": "This came in a Maxis Sim Mania bundle i bought at an EB Games (i think?) that is foundational to my video game hobby. I obsessed over Sim Tower. My mom remembers me having to clean up animal carcasses in Sim Safari. The Urban Renewal Kit that was basically creative mode sim city was incredible.\nimage, no description",
+      "text": "SimTower and Sim Safari are real deep cuts. Bundles like that were a great way to stumble onto odd little Maxis games.",
+      "group": "bundles",
+      "heated": false
+    }
+  ]
+}
