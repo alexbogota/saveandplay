@@ -1,0 +1,36 @@
+{
+  "madeAt": "2026-11-07T20:44:35.003Z",
+  "run": "42412488074",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices|article|/guides/percent-vs-dollars-saved/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 6,
+      "link": "https://saveandplay.com/guides/percent-vs-dollars-saved/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-percent-dollars",
+      "text": "Two GOG games at -90% saved $36.00 and $27.00. One at -85% saved $21.24, another $17.00. Percent and money saved rank sales differently. Our 5-minute check:\nhttps://saveandplay.com/guides/percent-vs-dollars-saved/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-percent-dollars\n#PCGaming #GameDeals",
+      "approvedFile": "posts-approved-20261107-141258.json",
+      "approvedAt": "2026-11-07T14:12:58.351Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-07T20:44:37.694Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mzqra2hzko2c",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3mzqra2hzko2c",
+      "picture": true
+    },
+    {
+      "key": "prices|2026-11-07|/deals/gog/shadow-tactics-blades-of-the-shogun/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 1,
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-07",
+      "text": "Shadow Tactics: Blades of the Shogun: -90% at GOG\n$3.99 (was $39.99)\nPrice checked Nov 7. Sale ends Nov 13. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-07\n\n#PCGaming #GameDeals #PCGames #GOG #Gaming\nAd",
+      "approvedFile": "posts-approved-20261107-204405.json",
+      "approvedAt": "2026-11-07T20:44:05.075Z",
+      "status": "skipped",
+      "reason": "already posted: https://bsky.app/profile/saveandplay.com/post/3mzo3w2rymm2q",
+      "at": "2026-11-07T20:44:37.726Z"
+    }
+  ]
+}
