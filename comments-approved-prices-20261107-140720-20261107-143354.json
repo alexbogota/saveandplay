@@ -1,0 +1,29 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-prices-20261107-140720.json",
+  "approvedAt": "2026-11-07T14:33:54.829Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:xv6dwghre5r4ml6hc3wgihop/app.bsky.feed.post/3mzpuihxvr22o",
+      "url": "https://bsky.app/profile/beaniebuns.etheirys.social/post/3mzpuihxvr22o",
+      "author": "beaniebuns.etheirys.social",
+      "context": "I think my favourite genre of game are cleaning/tidying up/organising Does anyone have any recommendations? I personally love powerwash simulator and leaf it alone but I had a lot of fun with sort them ducks #steam",
+      "text": "Unpacking is a lovely one for that: you sort a home's belongings into rooms, and it plays calm and wordless. Viscera Cleanup Detail is the messier cousin if you want a bigger cleaning job.",
+      "edited": false,
+      "verify": "Проверить: Unpacking и Viscera Cleanup Detail есть на Steam для ПК"
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:vdg627mda3cytlf3thvm6nkm/app.bsky.feed.post/3mzod7fjztc2h",
+      "url": "https://bsky.app/profile/taylorrrr94.bsky.social/post/3mzod7fjztc2h",
+      "author": "taylorrrr94.bsky.social",
+      "context": "Anyone got any game recommendations that I can play on my Steam Deck? Looking for things to keep me busy during my 22 hours of flying 😆",
+      "text": "Roguelikes like Hades and Slay the Spire are great for long flights, short runs and they save easily. Download everything first and switch the Deck to Offline Mode before you board.",
+      "edited": false,
+      "verify": "Проверить: Hades и Slay the Spire имеют Deck Verified"
+    }
+  ]
+}
