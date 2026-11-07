@@ -1,0 +1,41 @@
+{
+  "approvedAt": "2026-11-07T14:12:58.351Z",
+  "items": [
+    {
+      "n": 1,
+      "kind": "deal",
+      "platform": "bluesky",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Nov 6. Sale ends Nov 16. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-06\n\n#PCGaming #GameDeals #VideoGames #DRMFree #Games\nAd",
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-06",
+      "day": "2026-11-06",
+      "key": "prices|2026-11-06|/deals/gog/simcity-4-deluxe-edition/",
+      "notBefore": "2026-11-07T14:12:58.351Z"
+    },
+    {
+      "n": 2,
+      "kind": "deal",
+      "platform": "bluesky",
+      "account": "prices-2",
+      "handle": "saveandplay.com",
+      "text": "Metro Exodus: -90% at GOG\n$2.99 (was $29.99)\nPrice checked Nov 6. Sale ends Nov 16. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-06\n\n#PCGaming #GameDeals #GOG #VideoGames #Gaming\nAd",
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-06",
+      "day": "2026-11-06",
+      "key": "prices-2|2026-11-06|/deals/gog/metro-exodus/",
+      "notBefore": "2026-11-07T16:12:58.351Z"
+    },
+    {
+      "n": 6,
+      "kind": "article",
+      "platform": "bluesky",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "text": "Two GOG games at -90% saved $36.00 and $27.00. One at -85% saved $21.24, another $17.00. Percent and money saved rank sales differently. Our 5-minute check:\nhttps://saveandplay.com/guides/percent-vs-dollars-saved/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-percent-dollars\n#PCGaming #GameDeals",
+      "link": "https://saveandplay.com/guides/percent-vs-dollars-saved/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-percent-dollars",
+      "day": null,
+      "key": "prices|article|/guides/percent-vs-dollars-saved/",
+      "notBefore": "2026-11-07T18:12:58.351Z"
+    }
+  ]
+}
