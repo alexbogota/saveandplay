@@ -8,43 +8,43 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 528,
-      "posts": 22360,
-      "fit": 251,
+      "runs": 536,
+      "posts": 22680,
+      "fit": 255,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-07T05:54:55.526Z"
+        "at": "2026-11-07T12:56:33.993Z"
       }
     },
     "moreAsk": {
-      "runs": 330,
-      "posts": 2970,
+      "runs": 335,
+      "posts": 3015,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-11-07T05:54:55.526Z"
+        "at": "2026-11-07T12:56:33.993Z"
       }
     },
     "moreRetro": {
-      "runs": 330,
-      "posts": 20800,
-      "fit": 711,
+      "runs": 335,
+      "posts": 21080,
+      "fit": 723,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-07T05:54:55.526Z"
+        "at": "2026-11-07T12:56:33.993Z"
       }
     },
     "morePlaying": {
-      "runs": 330,
-      "posts": 1386,
+      "runs": 335,
+      "posts": 1407,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-11-07T05:54:55.526Z"
+        "at": "2026-11-07T12:56:33.993Z"
       }
     }
   },
@@ -229,7 +229,7 @@
       "replies": 0,
       "group": "moreGaming",
       "query": "videogame",
-      "score": 5,
+      "score": 4,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -247,7 +247,7 @@
       "replies": 0,
       "group": "moreGaming",
       "query": "gamenight",
-      "score": 5,
+      "score": 4,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -266,7 +266,7 @@
       "replies": 0,
       "group": "moreGaming",
       "query": "gamenight",
-      "score": 5,
+      "score": 4,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -285,7 +285,7 @@
       "replies": 0,
       "group": "moreGaming",
       "query": "gamenight",
-      "score": 5,
+      "score": 4,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -300,8 +300,8 @@
       "name": "Dr. G. Power",
       "text": "Getting used to the d-pad. 4310. This is all in mode 1. I normally play at mode 3 though as that's got Evil Otto turned on. #retrogaming",
       "createdAt": "2026-11-07T05:38:16.226Z",
-      "likes": 0,
-      "replies": 0,
+      "likes": 1,
+      "replies": 1,
       "group": "moreRetro",
       "query": "retrogaming",
       "score": 3,
@@ -318,7 +318,7 @@
       "name": "Dr. G. Power",
       "text": "Two different tries. 4240 and 3310. One at home with a joystick and another on a little handheld. Try and beat me. It should be easy, Im not very good. #Berzerk #Atari2600 #retrogaming",
       "createdAt": "2026-11-07T05:31:53.170Z",
-      "likes": 0,
+      "likes": 1,
       "replies": 1,
       "group": "moreRetro",
       "query": "retrogaming",
@@ -340,7 +340,7 @@
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 4,
+      "score": 3,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -364,6 +364,24 @@
       "isReply": false,
       "media": "2 images, no description",
       "firstSeen": "2026-11-07T05:54:55.526Z"
+    },
+    "https://mastodon.social/@richardorilla/117575156436356769": {
+      "uri": "https://mastodon.social/@richardorilla/117575156436356769",
+      "url": "https://mastodon.social/@richardorilla/117575156436356769",
+      "handle": "richardorilla@mastodon.social",
+      "name": "Richard Orilla",
+      "text": "Playing #nfsu2 #needforspeedunderground2 online and doing an online #carshow 😆. Seems like plenty of sites hosting nsfu2 online and doesn't require assets, but to be fair, you can't even buy it legally anyways because #ea no longer sells it. #retrogaming #retro",
+      "createdAt": "2026-11-07T12:28:31.054Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 3,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image: Online car show with random people at Need For Speed Underground 2",
+      "firstSeen": "2026-11-07T12:56:33.993Z"
     }
   }
 }

@@ -23,23 +23,23 @@
       }
     },
     "backlog": {
-      "runs": 419,
-      "posts": 10662,
+      "runs": 425,
+      "posts": 10815,
       "fit": 0,
       "last": {
         "posts": 24,
         "fit": 0,
-        "at": "2026-11-07T05:54:00.196Z"
+        "at": "2026-11-07T12:55:29.001Z"
       }
     },
     "deck": {
-      "runs": 353,
-      "posts": 17146,
-      "fit": 148,
+      "runs": 358,
+      "posts": 17347,
+      "fit": 150,
       "last": {
         "posts": 40,
         "fit": 1,
-        "at": "2026-11-07T05:54:00.196Z"
+        "at": "2026-11-07T12:55:29.001Z"
       }
     },
     "bundles": {
@@ -53,76 +53,57 @@
       }
     },
     "practical": {
-      "runs": 287,
-      "posts": 13440,
-      "fit": 380,
+      "runs": 291,
+      "posts": 13640,
+      "fit": 387,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-07T05:54:00.196Z"
+        "at": "2026-11-07T12:55:29.001Z"
       }
     },
     "genres": {
-      "runs": 682,
-      "posts": 27280,
+      "runs": 692,
+      "posts": 27680,
       "fit": 54,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-07T05:54:00.196Z"
+        "at": "2026-11-07T12:55:29.001Z"
       }
     },
     "seasonal": {
-      "runs": 221,
-      "posts": 9655,
-      "fit": 11,
+      "runs": 224,
+      "posts": 9775,
+      "fit": 12,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-07T05:54:00.196Z"
+        "at": "2026-11-07T12:55:29.001Z"
       }
     },
     "broadPlaying": {
-      "runs": 881,
-      "posts": 114880,
-      "fit": 2231,
+      "runs": 894,
+      "posts": 116560,
+      "fit": 2255,
       "last": {
         "posts": 240,
-        "fit": 5,
-        "at": "2026-11-07T05:54:00.196Z"
+        "fit": 2,
+        "at": "2026-11-07T12:55:29.001Z"
       }
     },
     "broadAsk": {
-      "runs": 551,
-      "posts": 8505,
+      "runs": 559,
+      "posts": 8629,
       "fit": 0,
       "last": {
         "posts": 16,
         "fit": 0,
-        "at": "2026-11-07T05:54:00.196Z"
+        "at": "2026-11-07T12:55:29.001Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@benkramer@dice.camp/117566667105027573": {
-      "uri": "https://mastodon.social/@benkramer@dice.camp/117566667105027573",
-      "url": "https://mastodon.social/@benkramer@dice.camp/117566667105027573",
-      "handle": "benkramer@dice.camp",
-      "name": "B. Kramer",
-      "text": "@gamingonlinux Hopefully they're not vibe coding it. #GOG #DRMFree #Linux #Galaxy #GOGGalaxy #LinuxGaming",
-      "createdAt": "2026-11-06T00:29:33.000Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "practical",
-      "query": "linuxgaming",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": true,
-      "origin": "https://dice.camp/@benkramer/117566667077312852",
-      "media": null,
-      "firstSeen": "2026-11-06T06:35:32.238Z"
-    },
     "https://mastodon.social/@murbs@mastodon.world/117568999309617615": {
       "uri": "https://mastodon.social/@murbs@mastodon.world/117568999309617615",
       "url": "https://mastodon.social/@murbs@mastodon.world/117568999309617615",
@@ -393,49 +374,12 @@
       "replies": 0,
       "group": "seasonal",
       "query": "horrorgames",
-      "score": 8,
+      "score": 7,
       "question": true,
       "heated": false,
       "isReply": false,
       "origin": "https://gutterputter.com/2026/11/06/we-chase-after-our-nightmares-demystifying-sad-satan-and-its-clones/",
       "media": "image: A screenshot taken from \"Sad Satan\".",
-      "firstSeen": "2026-11-07T05:54:00.196Z"
-    },
-    "https://mastodon.social/@suburbantimewaster@mastodon.world/117573230044590470": {
-      "uri": "https://mastodon.social/@suburbantimewaster@mastodon.world/117573230044590470",
-      "url": "https://mastodon.social/@suburbantimewaster@mastodon.world/117573230044590470",
-      "handle": "suburbantimewaster@mastodon.world",
-      "name": "Suburban Timewaster",
-      "text": "Kira killed Naomi’s fiancé. Now she’s out for revenge. #deathnote #kiragame #videogames #gaming #animegames #short #clip",
-      "createdAt": "2026-11-07T04:18:35.000Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "videogames",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://mastodon.world/@suburbantimewaster/117573229960130415",
-      "media": "video, no description",
-      "firstSeen": "2026-11-07T05:54:00.196Z"
-    },
-    "https://mastodon.social/@Smith1PW/117572202625341658": {
-      "uri": "https://mastodon.social/@Smith1PW/117572202625341658",
-      "url": "https://mastodon.social/@Smith1PW/117572202625341658",
-      "handle": "Smith1PW@mastodon.social",
-      "name": "PWSmith1",
-      "text": "#vrchat #vrc #gaming #games #videogames #videogame #photography #photo #vrchatphotos #vrchatphotography #vrchatphoto #VirtualPhotography #vrcphotography #vrcphotos #vrcphoto",
-      "createdAt": "2026-11-06T23:57:19.479Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "videogames",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "image: A stylized 3D-rendered night scene showing a small animated character with cat ears sitting on a ledge, viewed from behind, gazing at the Golden Gate Bridge un…",
       "firstSeen": "2026-11-07T05:54:00.196Z"
     },
     "https://mastodon.social/@ItalianSkeletonGaming/117571123973855950": {
@@ -517,7 +461,7 @@
       "name": "Dodgy Pie 大雞排 ⭐️🔰🇺🇸 🇵🇭 🎐",
       "text": "\"30 sides, 00-90 shown 2 times\" What's on the other 10 faces? #polyhedralDice #ttRPG #gaming #dice #d30",
       "createdAt": "2026-11-07T04:59:48.000Z",
-      "likes": 0,
+      "likes": 1,
       "replies": 0,
       "group": "broadPlaying",
       "query": "gaming",
@@ -540,7 +484,7 @@
       "replies": 2,
       "group": "broadPlaying",
       "query": "gaming",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -604,6 +548,99 @@
       "origin": "https://infosec.exchange/@intelgraphy/117571627080998308",
       "media": null,
       "firstSeen": "2026-11-07T05:54:00.196Z"
+    },
+    "https://mastodon.social/@pitcrewgg/117575182206961830": {
+      "uri": "https://mastodon.social/@pitcrewgg/117575182206961830",
+      "url": "https://mastodon.social/@pitcrewgg/117575182206961830",
+      "handle": "pitcrewgg@mastodon.social",
+      "name": "PitCrew",
+      "text": "🔄 GeForce NOW - What’s New in 2.0.90 GeForce NOW adds a glass-inspired look with rounded corners and easier navigation. Titles now sit under tiles for faster browsing. 1/2 #GeForceNOW #GFN #BattleNet #EA #ElectronicArts #EGS #EpicGames #GOG #Steam #Ubisoft #UbisoftConnect #Linux #LinuxGaming #PCGaming #CUDA #GeForce #NVIDIA #RTXOn #Vulkan",
+      "createdAt": "2026-11-07T12:35:04.411Z",
+      "likes": 0,
+      "replies": 1,
+      "group": "practical",
+      "query": "linuxgaming",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image, no description",
+      "firstSeen": "2026-11-07T12:55:29.001Z"
+    },
+    "https://mastodon.social/@pitcrewgg/117573753808295395": {
+      "uri": "https://mastodon.social/@pitcrewgg/117573753808295395",
+      "url": "https://mastodon.social/@pitcrewgg/117573753808295395",
+      "handle": "pitcrewgg@mastodon.social",
+      "name": "PitCrew",
+      "text": "🚨 War Thunder - Screenshot Competition: A World Of Blue War Thunder's 249th Steam Screenshot Competition invites water themed vehicle shots. Submit by November 13 with tag #WTscreen249 for a chance at 300 GE. 1/2 #WarThunder #Linux #LinuxGaming #PCGaming #FlightSim #FreeTrack #HeadTracking #MetaQuest #OpenXR #PICO #Pimax #SteamFrame #SteamVR #VirtualReality #VR",
+      "createdAt": "2026-11-07T06:31:48.652Z",
+      "likes": 0,
+      "replies": 1,
+      "group": "practical",
+      "query": "linuxgaming",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image, no description",
+      "firstSeen": "2026-11-07T12:55:29.001Z"
+    },
+    "https://mastodon.social/@alex@gamerstavern.online/117575162784297181": {
+      "uri": "https://mastodon.social/@alex@gamerstavern.online/117575162784297181",
+      "url": "https://mastodon.social/@alex@gamerstavern.online/117575162784297181",
+      "handle": "alex@gamerstavern.online",
+      "name": "Alex",
+      "text": "Oh no, it's raining and it's very cold today! Seems like I will be forced to stay at home and play WoW Forever - and napping with the cat Oh woe me. #WoWForever #Gaming #Videogames",
+      "createdAt": "2026-11-07T12:29:56.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "videogames",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://gamerstavern.online/@alex/117575162032344701",
+      "media": null,
+      "firstSeen": "2026-11-07T12:55:29.001Z"
+    },
+    "https://mastodon.social/@tomhunt@mstdn.plus/117575220482523825": {
+      "uri": "https://mastodon.social/@tomhunt@mstdn.plus/117575220482523825",
+      "url": "https://mastodon.social/@tomhunt@mstdn.plus/117575220482523825",
+      "handle": "tomhunt@mstdn.plus",
+      "name": "Tom Hunt",
+      "text": "Started the weekend with a couple of perfect waffles. #waffle1751 5/5 🟩🟩🟩🟩🟩 🟩⭐🟩⭐🟩 🟩🟩⭐🟩🟩 🟩⭐🟩⭐🟩 🟩🟩🟩🟩🟩 🔥 streak: 30 🥈 #wafflesilverteam wafflegame.net #Games #Waffle",
+      "createdAt": "2026-11-07T12:44:47.000Z",
+      "likes": 0,
+      "replies": 1,
+      "group": "broadPlaying",
+      "query": "games",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://mstdn.plus/@tomhunt/117575220423374094",
+      "media": null,
+      "firstSeen": "2026-11-07T12:55:29.001Z"
+    },
+    "https://mastodon.social/@Legit_Spaghetti@mastodo.neoliber.al/117573609566643097": {
+      "uri": "https://mastodon.social/@Legit_Spaghetti@mastodo.neoliber.al/117573609566643097",
+      "url": "https://mastodon.social/@Legit_Spaghetti@mastodo.neoliber.al/117573609566643097",
+      "handle": "Legit_Spaghetti@mastodo.neoliber.al",
+      "name": "Legit_Spaghetti",
+      "text": "Played Minecraft with the kids. 7-year Old: Daddy how do I make a saddle? 11-year Old: Look dad, I tamed a cat and now it's chasing away the Creepers! Me: I trapped two zombified villagers, cured them, then built an entire Village from nothing! Look at this thriving, walled town! Behold my ever growing flock of villagers! Marvel at the Grand Library where librarians offer all manner of rare enchanted tomes! I have built a monument to man's hubris! Also I need more brick. #Gaming",
+      "createdAt": "2026-11-07T05:55:02.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "gaming",
+      "score": 5,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://mastodo.neoliber.al/@Legit_Spaghetti/117573609195118212",
+      "media": null,
+      "firstSeen": "2026-11-07T12:55:29.001Z"
     }
   }
 }
