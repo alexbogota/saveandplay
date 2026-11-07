@@ -1,0 +1,20 @@
+{
+  "madeAt": "2026-11-07T17:43:00.832Z",
+  "run": "42397659249",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices-2|2026-11-06|/deals/gog/metro-exodus/",
+      "account": "prices-2",
+      "handle": "saveandplay.com",
+      "n": 2,
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-06",
+      "text": "Metro Exodus: -90% at GOG\n$2.99 (was $29.99)\nPrice checked Nov 6. Sale ends Nov 16. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-06\n\n#PCGaming #GameDeals #GOG #VideoGames #Gaming\nAd",
+      "approvedFile": "posts-approved-20261107-141258.json",
+      "approvedAt": "2026-11-07T14:12:58.351Z",
+      "status": "skipped",
+      "reason": "already posted: https://bsky.app/profile/saveandplay.com/post/3mznktyjhss2f",
+      "at": "2026-11-07T17:43:01.652Z"
+    }
+  ]
+}
