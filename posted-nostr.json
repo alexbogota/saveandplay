@@ -2285,6 +2285,58 @@
             "id": "44b561d172b3ffe46ed35ef28ea9a8f2eb58ae34e72aa671e44e9926b8dd42a7",
             "sig": "33ecac3c8d7ec3f7a2946ba0c83f51912213e8bc8f2e4e91765b92e4c5a938986f8ea9874becc9a05adabe1e60221e02379374b20159e7c0749be6476bcb6600"
           }
+        },
+        "article": {
+          "status": "done",
+          "kind": "article",
+          "id": "d618205f2f0c4073a4d4aeb787e86d672273919e59b830ae47762e850ac6d91e",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "article": "sharing-a-steam-account-with-family",
+          "postedAt": "2026-11-07T20:38:38.000Z",
+          "accepted": [
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [
+            {
+              "url": "wss://relay.damus.io",
+              "reason": "connection failed"
+            }
+          ],
+          "event": {
+            "kind": 1,
+            "created_at": 1794083918,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-article"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://saveandplay.com/og/sharing-a-steam-account-with-family.png",
+                "m image/png",
+                "alt Diagram: three lines from Steam's Subscriber Agreement. Section 1.C: the account is strictly personal. Section 3.B: the holder is responsible for all purchases on it. Section 9.C: if the account is cancelled for a breach, no refund of Wallet funds."
+              ]
+            ],
+            "content": "Sharing a Steam account with family or friends: what the agreement says\n\nSteam's agreement calls an account strictly personal, yet the account holder pays for everything done on it. What that means for a shared PC, kids and friends.\n\n#pcgaming #gamedeals\n\nhttps://saveandplay.com/og/sharing-a-steam-account-with-family.png\n\nhttps://saveandplay.com/guides/sharing-a-steam-account-with-family/?utm_source=nostr-prices&utm_medium=social&utm_campaign=sharing-a-steam-account-with-family",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "d618205f2f0c4073a4d4aeb787e86d672273919e59b830ae47762e850ac6d91e",
+            "sig": "93fff1225cfaf9388a15aa3c17cc681c6fed52e47070082ff91c83c56387f5b1302593f679694da71b6296dac6d56ecbae41df7022f453a700f370331421fbf3"
+          }
         }
       }
     }
@@ -2350,6 +2402,10 @@
       "steam-discount-rules-how-often": {
         "day": "2026-11-05",
         "id": "846071b01de699c92bfeb1b96793c84bbb7db9a2b39766057ef8b1e11dfff997"
+      },
+      "sharing-a-steam-account-with-family": {
+        "day": "2026-11-07",
+        "id": "d618205f2f0c4073a4d4aeb787e86d672273919e59b830ae47762e850ac6d91e"
       }
     }
   },
