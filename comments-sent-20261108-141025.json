@@ -1,0 +1,23 @@
+{
+  "madeAt": "2026-11-08T14:10:25.071Z",
+  "run": "42488470351",
+  "private": false,
+  "entries": [
+    {
+      "block": "prices",
+      "handle": "saveandplay.com",
+      "n": 1,
+      "uri": "at://did:plc:ahfcl4li6yvdcks5kq3bzc34/app.bsky.feed.post/3mzrl3nlsv22n",
+      "url": "https://bsky.app/profile/discountmothman.bsky.social/post/3mzrl3nlsv22n",
+      "author": "discountmothman.bsky.social",
+      "text": "Waiting makes sense when it's a big price. Wishlist it on the store so you get a heads-up when it goes on sale, and check its price history to see what a real low looks like.",
+      "approvedFile": "comments-approved-prices-20261108-134938-20261108-140958.json",
+      "approvedAt": "2026-11-08T14:09:58.504Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-08T14:10:26.461Z",
+      "replyUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mzslo4ycof2v",
+      "replyUrl": "https://bsky.app/profile/saveandplay.com/post/3mzslo4ycof2v"
+    }
+  ]
+}
