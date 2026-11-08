@@ -1,0 +1,39 @@
+{
+  "madeAt": "2026-11-08T14:10:25.657Z",
+  "run": "42488467771",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices|coop-2026-11-08|/servers/euro-truck-simulator-2/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 7,
+      "link": "https://saveandplay.com/servers/euro-truck-simulator-2/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-11-08",
+      "text": "Euro Truck Simulator 2 has online co-op on Steam.\nA rented server keeps your world online when the host logs off.\n\nhttps://saveandplay.com/servers/euro-truck-simulator-2/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-11-08\n\n#PCGaming #EuroTruckSimulator2\nAd",
+      "approvedFile": "posts-approved-20261108-140954.json",
+      "approvedAt": "2026-11-08T14:09:54.462Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-08T14:10:28.369Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mzslo6c5nx24",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3mzslo6c5nx24",
+      "picture": true
+    },
+    {
+      "key": "cozy|coop-2026-11-08|/servers/stardew-valley/",
+      "account": "cozy",
+      "handle": "cozygame.bsky.social",
+      "n": 8,
+      "link": "https://saveandplay.com/servers/stardew-valley/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=coop-2026-11-08",
+      "text": "One farm, up to 8 farmers. Stardew Valley lets you share a farm online with up to 7 friends.\nWith your own server, nobody has to stay online so the others can play.\n\nhttps://saveandplay.com/servers/stardew-valley/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=coop-2026-11-08\n\n#CozyGames #StardewValley\nAd",
+      "approvedFile": "posts-approved-20261108-140954.json",
+      "approvedAt": "2026-11-08T14:09:54.462Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-08T14:10:29.432Z",
+      "postUri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3mzslo7txd32v",
+      "postUrl": "https://bsky.app/profile/cozygame.bsky.social/post/3mzslo7txd32v",
+      "picture": true
+    }
+  ]
+}
