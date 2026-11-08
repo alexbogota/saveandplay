@@ -1,8 +1,8 @@
-Shadow Tactics: Blades of the Shogun: -90% at GOG
-$3.99 (was $39.99)
-Price checked Nov 7. Sale ends Nov 13. Lowest price we've tracked.
+This War of Mine: -85% at GOG
+$2.99 (was $19.99)
+Price checked Nov 8. Sale ends Nov 16. Lowest price we've tracked.
 
-https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-07
+https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-08
 
-#PCGaming #GameDeals #PCGames #GOG #Gaming
+#PCGaming #GameDeals #ThisWarOfMine #VideoGames #DRMFree
 Ad
