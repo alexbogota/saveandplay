@@ -1,0 +1,20 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261108-134938",
+  "madeAt": "2026-11-08T13:50:01.644Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:elskrdoiiayuywnfgc53thnr/app.bsky.feed.post/3mzrdre5eb22n",
+      "url": "https://bsky.app/profile/truthsedge.bsky.social/post/3mzrdre5eb22n",
+      "author": "truthsedge.bsky.social",
+      "context": "Anyone else find fixed camera games cozy?\nvideo, no description",
+      "text": "Yes, I think so. When the camera is fixed there's nothing to fight with, you just look at the scene and settle in. Unpacking has that calm feeling for me.",
+      "verify": "Проверь, что в Unpacking камера действительно фиксированная (я почти уверен, но не проверял).",
+      "group": "askCozy",
+      "heated": false
+    }
+  ]
+}

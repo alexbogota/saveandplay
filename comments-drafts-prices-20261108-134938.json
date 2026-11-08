@@ -1,0 +1,30 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "stamp": "20261108-134938",
+  "madeAt": "2026-11-08T13:50:01.529Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:ahfcl4li6yvdcks5kq3bzc34/app.bsky.feed.post/3mzrl3nlsv22n",
+      "url": "https://bsky.app/profile/discountmothman.bsky.social/post/3mzrl3nlsv22n",
+      "author": "discountmothman.bsky.social",
+      "context": "i gott save for it anyways (im working on saving for a new ipad rn so i can keep doing commissions and art) so i have time to think about it/wait for a sale to come along but its a lot of money to drop on a game ya know",
+      "text": "Waiting makes sense when it's a big price. Wishlist it on the store so you get a heads-up when it goes on sale, and check its price history to see what a real low looks like.",
+      "group": "waitForSale",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:bptbcgtl3maxjgmkd2eq4vfp/app.bsky.feed.post/3mzs3nawjen2o",
+      "url": "https://bsky.app/profile/pixeliso.bsky.social/post/3mzs3nawjen2o",
+      "author": "pixeliso.bsky.social",
+      "context": "GOG Galaxy is officially coming to Linux! 🐧 A revamped launcher is planned for 2027. Could this become another great option for Linux gamers? #gaming #gog #linuxgaming #pcgaming #drmfree #gamingcommunity",
+      "text": "Would be nice to see. Either way, GOG's offline installers don't need the launcher, so you can keep and run your games without it.",
+      "verify": "Новость про GOG Galaxy для Linux взята из поста автора, я её не проверял.",
+      "group": "pcGaming",
+      "heated": false
+    }
+  ]
+}
