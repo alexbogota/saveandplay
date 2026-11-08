@@ -8,66 +8,47 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 544,
-      "posts": 23000,
-      "fit": 261,
+      "runs": 552,
+      "posts": 23320,
+      "fit": 269,
       "last": {
         "posts": 40,
-        "fit": 1,
-        "at": "2026-11-07T21:47:10.214Z"
+        "fit": 2,
+        "at": "2026-11-08T05:57:15.965Z"
       }
     },
     "moreAsk": {
-      "runs": 340,
-      "posts": 3060,
+      "runs": 345,
+      "posts": 3105,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-11-07T21:47:10.214Z"
+        "at": "2026-11-08T05:57:15.965Z"
       }
     },
     "moreRetro": {
-      "runs": 340,
-      "posts": 21360,
-      "fit": 736,
+      "runs": 345,
+      "posts": 21640,
+      "fit": 750,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-07T21:47:10.214Z"
+        "at": "2026-11-08T05:57:15.965Z"
       }
     },
     "morePlaying": {
-      "runs": 340,
-      "posts": 1428,
+      "runs": 345,
+      "posts": 1449,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-11-07T21:47:10.214Z"
+        "at": "2026-11-08T05:57:15.965Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@Jangofatt@mastodon.world/117570587125531748": {
-      "uri": "https://mastodon.social/@Jangofatt@mastodon.world/117570587125531748",
-      "url": "https://mastodon.social/@Jangofatt@mastodon.world/117570587125531748",
-      "handle": "Jangofatt@mastodon.world",
-      "name": "Jangofatt",
-      "text": "#chronotriggerost #originalsound #cd arrived and I’m here for it as my Friday soundtrack of the day. #retrogaming",
-      "createdAt": "2026-11-06T17:06:24.000Z",
-      "likes": 2,
-      "replies": 2,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://mastodon.world/@Jangofatt/117570586845220350",
-      "media": "4 images, no description",
-      "firstSeen": "2026-11-06T19:21:59.603Z"
-    },
     "https://mastodon.social/@Smith1PW/117572202625341658": {
       "uri": "https://mastodon.social/@Smith1PW/117572202625341658",
       "url": "https://mastodon.social/@Smith1PW/117572202625341658",
@@ -150,7 +131,7 @@
       "name": "Dr. G. Power",
       "text": "Getting used to the d-pad. 4310. This is all in mode 1. I normally play at mode 3 though as that's got Evil Otto turned on. #retrogaming",
       "createdAt": "2026-11-07T05:38:16.226Z",
-      "likes": 1,
+      "likes": 2,
       "replies": 1,
       "group": "moreRetro",
       "query": "retrogaming",
@@ -197,24 +178,6 @@
       "media": "video, no description",
       "firstSeen": "2026-11-07T05:54:55.526Z"
     },
-    "https://mastodon.social/@Madfox_Timmy/117571254002911150": {
-      "uri": "https://mastodon.social/@Madfox_Timmy/117571254002911150",
-      "url": "https://mastodon.social/@Madfox_Timmy/117571254002911150",
-      "handle": "Madfox_Timmy@mastodon.social",
-      "name": "Timmy the Madfox",
-      "text": "#ARandomGame Virtual Pool. Back in the day, Virtual Pool was a 3D Pool Simulator for MS-DOS. You could play against the computer or a friend. The game included some MIDI tuneage & videos of legends Steve Davis & Ronnie O'Sullivan. #RetroGaming #PCGaming #MS-DOS #Interplay #VirtualPool",
-      "createdAt": "2026-11-06T19:56:04.651Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "2 images, no description",
-      "firstSeen": "2026-11-07T05:54:55.526Z"
-    },
     "https://mastodon.social/@Smith1PW/117576788985532948": {
       "uri": "https://mastodon.social/@Smith1PW/117576788985532948",
       "url": "https://mastodon.social/@Smith1PW/117576788985532948",
@@ -226,7 +189,7 @@
       "replies": 0,
       "group": "moreGaming",
       "query": "videogame",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -244,7 +207,7 @@
       "replies": 0,
       "group": "moreGaming",
       "query": "mmorpg",
-      "score": 6,
+      "score": 5,
       "question": true,
       "heated": false,
       "isReply": false,
@@ -258,11 +221,11 @@
       "name": "Dr. G. Power",
       "text": "I picked this up for almost nothing today. Spotted it in a shop jam packed with second hand studd. I've been looking for a 7800 controller for a long time! #retrogaming",
       "createdAt": "2026-11-07T19:19:46.847Z",
-      "likes": 5,
+      "likes": 7,
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 7,
+      "score": 6,
       "question": true,
       "heated": false,
       "isReply": false,
@@ -280,7 +243,7 @@
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 4,
+      "score": 3,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -298,7 +261,7 @@
       "replies": 1,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 5,
+      "score": 4,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -317,7 +280,7 @@
       "replies": 1,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -379,6 +342,98 @@
       "isReply": false,
       "media": "3 images: Carmageddon loading screen, featuring a red-lit, evil-looking bald guy with his hand on the steering wheel. It says \"loading\" on his head, and \"hang on to yer … / The first level of Carmageddon, in standard resolution. There's also a high-res mode, which is rather slow. The \"splat pack\" extension pack, released later in … / Carmageddon's selling point was running over pedestrians for points. Some versions censored this, but not this one, as demonstrated by the bloody tyre marks.",
       "firstSeen": "2026-11-07T21:47:10.214Z"
+    },
+    "https://mastodon.social/@munroe@dice.camp/117579226290827192": {
+      "uri": "https://mastodon.social/@munroe@dice.camp/117579226290827192",
+      "url": "https://mastodon.social/@munroe@dice.camp/117579226290827192",
+      "handle": "munroe@dice.camp",
+      "name": "Wolf Munroe ☎",
+      "text": "Another Saturday and more #Pathfinder1e #Ustalav. We picked up right where the previous session ended. The party found a strong ghoul (CR 6) grappled in hardened ectoplasmic webbing. They underestimated it because it was \"just\" a ghoul so one of them still managed to get bit and contract ghoul fever. The party then fought a scribbling allip (CR 4), the source of the ectoplasmic webs. The allip hit the rogue and dealt 2d6 sanity damage. #P1e #PathfinderRPG #PFRPG #TTRPG #GameNight",
+      "createdAt": "2026-11-08T05:43:31.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "moreGaming",
+      "query": "gamenight",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://dice.camp/@munroe/117579226249598588",
+      "media": null,
+      "firstSeen": "2026-11-08T05:57:15.965Z"
+    },
+    "https://mastodon.social/@Dvalin/117577867504194772": {
+      "uri": "https://mastodon.social/@Dvalin/117577867504194772",
+      "url": "https://mastodon.social/@Dvalin/117577867504194772",
+      "handle": "Dvalin@mastodon.social",
+      "name": "Dvalin Gaming",
+      "text": "Loving the Skyborn Shaman, feels so weird being \"pretty\" as a Horde shaman after years of Orcs, Taurens, and Trolls haha.. #worldofwarcraft #warcraft #mmo #mmorpg #gaming",
+      "createdAt": "2026-11-07T23:57:58.669Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "moreGaming",
+      "query": "mmorpg",
+      "score": 3,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image: Loving the Skyborn Shaman, feels so weird being \"pretty\" as a Horde shaman after years of Orcs, Taurens, and Trolls haha.. #worldofwarcraft #warcraft #mmo #mmo…",
+      "firstSeen": "2026-11-08T05:57:15.965Z"
+    },
+    "https://mastodon.social/@haitchfive@oldbytes.space/117578210740786012": {
+      "uri": "https://mastodon.social/@haitchfive@oldbytes.space/117578210740786012",
+      "url": "https://mastodon.social/@haitchfive@oldbytes.space/117578210740786012",
+      "handle": "haitchfive@oldbytes.space",
+      "name": "@haitchfive",
+      "text": "Quirkafleegs galore. Shall be performed! hahahahaha 🤣 #ZXSpectrum #Speccy #Spectrum #ZXOpal #ZXGUI #retrocomputing #retrogaming #foss #golang",
+      "createdAt": "2026-11-08T01:25:06.000Z",
+      "likes": 5,
+      "replies": 1,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 4,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://oldbytes.space/@haitchfive/117578210089357779",
+      "media": "video, no description",
+      "firstSeen": "2026-11-08T05:57:15.965Z"
+    },
+    "https://mastodon.social/@computerchronicles/117578134354840287": {
+      "uri": "https://mastodon.social/@computerchronicles/117578134354840287",
+      "url": "https://mastodon.social/@computerchronicles/117578134354840287",
+      "handle": "computerchronicles@mastodon.social",
+      "name": "Computer Chronicles Revisited",
+      "text": "This has to be one of the rarest--and weirdest--retro computer game collectibles: The free copy of the DOS version of the original \"John Madden Football\" packaged with 10-packs of Maxell floppy disks. #retrogaming",
+      "createdAt": "2026-11-08T01:05:50.483Z",
+      "likes": 6,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image: A full-page computer magazine advertisement for Maxell floppy disks. The top of the ad shows a gold metallic robot holding an American-style football. The robo…",
+      "firstSeen": "2026-11-08T05:57:15.965Z"
+    },
+    "https://mastodon.social/@gpowerf/117577768150553738": {
+      "uri": "https://mastodon.social/@gpowerf/117577768150553738",
+      "url": "https://mastodon.social/@gpowerf/117577768150553738",
+      "handle": "gpowerf@mastodon.social",
+      "name": "Dr. G. Power",
+      "text": "5910 points in Bezerk. I'm starting to try and think of techniques. It's such a fun game! #retrogaming",
+      "createdAt": "2026-11-07T23:32:42.659Z",
+      "likes": 4,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image: The end screen",
+      "firstSeen": "2026-11-08T05:57:15.965Z"
     }
   }
 }
