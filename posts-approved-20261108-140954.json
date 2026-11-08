@@ -1,0 +1,29 @@
+{
+  "approvedAt": "2026-11-08T14:09:54.462Z",
+  "items": [
+    {
+      "n": 7,
+      "kind": "coop",
+      "platform": "bluesky",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "text": "Euro Truck Simulator 2 has online co-op on Steam.\nA rented server keeps your world online when the host logs off.\n\nhttps://saveandplay.com/servers/euro-truck-simulator-2/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-11-08\n\n#PCGaming #EuroTruckSimulator2\nAd",
+      "link": "https://saveandplay.com/servers/euro-truck-simulator-2/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-11-08",
+      "day": "2026-11-08",
+      "key": "prices|coop-2026-11-08|/servers/euro-truck-simulator-2/",
+      "notBefore": "2026-11-08T14:09:54.462Z"
+    },
+    {
+      "n": 8,
+      "kind": "coop",
+      "platform": "bluesky",
+      "account": "cozy",
+      "handle": "cozygame.bsky.social",
+      "text": "One farm, up to 8 farmers. Stardew Valley lets you share a farm online with up to 7 friends.\nWith your own server, nobody has to stay online so the others can play.\n\nhttps://saveandplay.com/servers/stardew-valley/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=coop-2026-11-08\n\n#CozyGames #StardewValley\nAd",
+      "link": "https://saveandplay.com/servers/stardew-valley/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=coop-2026-11-08",
+      "day": "2026-11-08",
+      "key": "cozy|coop-2026-11-08|/servers/stardew-valley/",
+      "notBefore": "2026-11-08T14:09:54.462Z"
+    }
+  ]
+}

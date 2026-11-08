@@ -1,0 +1,18 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-prices-20261108-134938.json",
+  "approvedAt": "2026-11-08T14:09:58.504Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:ahfcl4li6yvdcks5kq3bzc34/app.bsky.feed.post/3mzrl3nlsv22n",
+      "url": "https://bsky.app/profile/discountmothman.bsky.social/post/3mzrl3nlsv22n",
+      "author": "discountmothman.bsky.social",
+      "context": "i gott save for it anyways (im working on saving for a new ipad rn so i can keep doing commissions and art) so i have time to think about it/wait for a sale to come along but its a lot of money to drop on a game ya know",
+      "text": "Waiting makes sense when it's a big price. Wishlist it on the store so you get a heads-up when it goes on sale, and check its price history to see what a real low looks like.",
+      "edited": false
+    }
+  ]
+}
