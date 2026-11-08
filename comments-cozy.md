@@ -1,54 +1,55 @@
 # Comment candidates: cozy (@cozygame.bsky.social)
-Made 2026-11-08T13:19Z. Searched: askCozy: cozy games steam | askCozy: recommend cozy game | askCozy: wholesome game recommend | askCozy: cozy games | stardew: farming games | stardew: stardew valley | stardew: games like stardew valley | stardew: stardew | evening: cozy gaming | evening: chill game tonight | evening: cozy games tonight | evening: cozy gaming evening | wholesome: wholesome games | wholesome: comfort game | wholesome: cottagecore game | deck: cozy steam deck | deck: steam deck relaxing games | deck: steam deck farming sim | seasonal: cozy autumn game | seasonal: cozy spooky games | seasonal: cozy halloween games | cozyFeed: feed.
-Posts below: 12 + 2 heated. Dropped in this run: bot, shop or studio 41, skip word 147, replies are limited 12, too short 12, too many hashtags 10, console only 14, not about games 13, own post 2, low score 4, many links 2, other language 14, other language (text) 3, promo (link and hashtags) 2, not a question 8, earlier finds: low score 1.
+Made 2026-11-08T22:01Z. Searched: askCozy: cozy game recommendations | askCozy: cozy games recommend | askCozy: looking for cozy games | askCozy: relaxing games | stardew: farming sim | stardew: life sim | stardew: stardew valley recommendations | stardew: farming games | evening: cozy game | evening: something cozy play | evening: cozy gaming | evening: chill game tonight | wholesome: wholesome games | wholesome: comfort game | wholesome: cottagecore game | deck: cozy steam deck | deck: steam deck relaxing games | deck: steam deck farming sim | seasonal: cozy autumn game | seasonal: cozy spooky games | seasonal: cozy halloween games | cozyFeed: feed.
+Posts below: 12 + 2 heated. Dropped in this run: skip word 124, bot, shop or studio 35, promo (link and hashtags) 7, console only 10, other language (text) 6, low score 4, already shown 3, not about games 10, replies are limited 12, adult or graphic label 1, too many hashtags 5, too short 4, not a question 10, own post 1, other language 9, too old 1.
 
 ## Posts
-1. @truthsedge.bsky.social (Joshua D) · 11h · likes 1 · replies 2 · question · askCozy
-   https://bsky.app/profile/truthsedge.bsky.social/post/3mzrdre5eb22n
-   Anyone else find fixed camera games cozy?
+1. @onplanetjake.bsky.social (Jaketom Blade ø) · 2m · likes 1 · replies 0 · question · evening
+   https://bsky.app/profile/onplanetjake.bsky.social/post/3mztfth4luk2a
+   After an extremely social and extremely fun wedding with friends I came back to some cozy gaming with the new update to Welcome to Elderfield So many great QoL improvements. I’ve made progress and I’m having so much fun. One of my biggest recommendations from this year.
+   [image, no description]
+2. @aerialslayer.bsky.social (Aerialslayer) · 15h · likes 1 · replies 1 · question · evening
+   https://bsky.app/profile/aerialslayer.bsky.social/post/3mzrsagbns22x
+   What is a cozy game you play when you need to chill?
+3. @garrettstrangevt.bsky.social (Garrett Strange VT🐦‍⬛💚) · 18h · likes 8 · replies 1 · question · evening
+   https://bsky.app/profile/garrettstrangevt.bsky.social/post/3mzrkkrkezk2s
+   We sure had an awesome time falling through the cracks of reality in Control tonight didn't we Crows? Big thanks to Yandere Husband for raiding in tonight, always happy to see you Partner! We sent the Murder over @semysin.bsky.social's way for some Cozy Game Restoration. Night Ga
+   [image, no description]
+4. @keef.au-ra.top (yan liker) · 1h · likes 1 · replies 0 · askCozy
+   https://bsky.app/profile/keef.au-ra.top/post/3mztbtwrlfs2f
+   i think it's funny when games that are supposed to be relaxing/chillout games add in speedrun achievements initially and then future updates/sequels just. dont have those bc the devs realized "wait these achievements are like the antithesis of what we're going for here"
+5. @semsational.gg (Sems 🦡) · 3h · likes 3 · replies 0 · askCozy
+   https://bsky.app/profile/semsational.gg/post/3mzt3n5g64c2t
+   Getting delivery and relaxing in video games all day I think. Will probably go live shortly with Welcome to Elderfield once the food situation is figured out. will quote and link once I'm live 🥰
+6. @voxparlour.bsky.social (Scott M 🍂) · 4h · likes 12 · replies 2 · askCozy
+   https://bsky.app/profile/voxparlour.bsky.social/post/3mzszizwrzk24
+   Creating and randomly stocking a dungeon is relaxing. I find prep for other games more stressful
+7. @derekstark.bsky.social (Derek Stark) · 6h · likes 1 · replies 1 · askCozy
+   https://bsky.app/profile/derekstark.bsky.social/post/3mzsskxi4e22s
+   Everyone deserves to sleep in my friend!! Relaxing day for me with stretching & playing video games!!!
+8. @derekstark.bsky.social (Derek Stark) · 6h · likes 1 · replies 0 · askCozy
+   https://bsky.app/profile/derekstark.bsky.social/post/3mzss2ytspc2t
+   Sore from working out BUT I'm stretching & relaxing & gonna play video games!!
+9. @erinprimette.bsky.social (Erin Primette) · 6h · likes 0 · replies 1 · question · evening
+   https://bsky.app/profile/erinprimette.bsky.social/post/3mzsqck3ue224
+   Is that supposed to be a cozy game?
+10. @andrewberg.bsky.social (Andrew Berg) · 7h · likes 0 · replies 0 · question · evening
+   https://bsky.app/profile/andrewberg.bsky.social/post/3mzsocubxkk2z
+   Unlicensed ghibli cozy game anyone?
+   [image: A robot on a small grassy filed with flowers and a broken column in the background against a blue sky with puffy white clouds]
+11. @soldiersurplus.bsky.social (Soldier Surplus PNGTuber) · 17h · likes 0 · replies 0 · question · stardew
+   https://bsky.app/profile/soldiersurplus.bsky.social/post/3mzrmkmqhlk2o
+   NEW STREAM SCHEDULE FOR NOV 8TH WEEK Tuesday November 10th, 7 PM EST: Stardew? This early in the week?! Damn Right! Wednesday November 11th, 10 PM EST: Finally downloading the Dark Arisen DLC. Will I get to it? idk #youtube #stream #livestream
+   [image, no description]
+12. @skycitymerge.bsky.social (Sky City Merge) · 17h · likes 0 · replies 0 · question · evening
+   https://bsky.app/profile/skycitymerge.bsky.social/post/3mzrlh44n5k2p
+   Looking for casual android game? This cozy city builder is one you will definitely love. With relaxing music and engaging mechanics its something you will put your 30 minutes into without realizing. skycitymerge.com/bsky
    [video, no description]
-2. @catscntrlercorner.bsky.social (Cat) · 16h · likes 1 · replies 0 · question · askCozy
-   https://bsky.app/profile/catscntrlercorner.bsky.social/post/3mzqtvsfifs2u
-   I will miss Mass Effect. On this N7 day I'm thinking about all the series gave me and the love I have for it. I'm reminded of the memories I made playing all 4 games, of the reason I have a Mass Relay tattoo. So today, I'm gonna find comfort in the trilogy. If you are grieving ma
-   [link card: Finding Comfort in Non-Cozy Games - Mass Effect Legendary Edition]
-3. @urbanbohemian.com (Brian G. aka urbanbohemian 🪩🥂💖) · 25h · likes 12 · replies 0 · question · askCozy
-   https://bsky.app/profile/urbanbohemian.com/post/3mzpwhkhcks2j
-   All right, I can only sit on my hands for so long before I gotta hit that "Start Streaming" button or just go back to bed. 😂 You get 15 mins bonus time to get ready, get cozy, hop into chat, stay in bed—or both, you have a phone! I'm actually *not* playing Control today, what?! 
-   [link card: urbanbohemian - Twitch]
-4. @chevshki.bsky.social (Chevshki 圧) · 26h · likes 1 · replies 0 · question · askCozy
-   https://bsky.app/profile/chevshki.bsky.social/post/3mzpqs4mbyk2z
-   I think its time to find new people online to vibe with about cozy games. Maybe someone from Japan or Korea since I’m learning the languages? Phew, I feel lighter after ranting out. The disappointment and irritation pressured me heavily before. Now I can let go
-5. @oliverg04.bsky.social (Oliver 🐣) · 27h · likes 1 · replies 0 · question · askCozy
-   https://bsky.app/profile/oliverg04.bsky.social/post/3mzpoc5eano2o
-   Cozy games as a negative trait? My Tamagotchi's only negative trait is demanding snacks at 3am.
-6. @catkintales.bsky.social (Catkin Tales) · 1h · likes 1 · replies 1 · question · cozyFeed
-   https://bsky.app/profile/catkintales.bsky.social/post/3mzsfb2geyc26
-   What do you look for in life sims and farming sims? What really hooks you into one and grabs your attention? #cozygame #farmsim #lifesim
-7. @ripleynyx.bsky.social (Ripley The Fairy) · 13h · likes 0 · replies 2 · question · askCozy
-   https://bsky.app/profile/ripleynyx.bsky.social/post/3mzr4mkmdac2i
-   This is even the case in Elden Ring, if a touch lessened or just obscured within level design. But honestly? I don't want a return to OoT styled games with cozy nostalgic dungeon structures and classic Good vs. Evil stories. Fine for a remake, but let's keep moving forward with w
-8. @godzillavs.bsky.social (GodzillaVS 🦖) · 17h · likes 1 · replies 1 · question · evening
-   https://bsky.app/profile/godzillavs.bsky.social/post/3mzqr3bvdvk2k
-   Remember When Gaymers Used To Have Variety Gaming Streams, Cozy Streams, Sunday Fundays? Now It's Just Grinding All Day, Every Day WOW, CSGO, COD SpeedRunning Minecraft, Valorant, League... sigh* When Did We Lose The Chill Bro?
-   [image, no description]
-9. @onionne.bsky.social (limbo's hostile hideaway) · 22h · likes 5 · replies 1 · question · stardew
-   https://bsky.app/profile/onionne.bsky.social/post/3mzq7nxqrs22p
-   seriously though this has probably the best gameplay loop and control scheme of any farming sim I've seen in the past... forever? it's very story-heavy but that never detracts from the actual game part, they made sure it's a heavy-hitter on all fronts. I think it's by a team of l
-10. @onionne.bsky.social (limbo's hostile hideaway) · 22h · likes 3 · replies 1 · question · stardew
-   https://bsky.app/profile/onionne.bsky.social/post/3mzq7i4nync2p
-   it's a farming sim. why are you like 10 years old? don't worry about it. why can't you remember your past? don't worry about it. why are you forbidden from staying up past 11pm? don't worry about it. why does this man who loves raw meat and money hate being given fox tails? don't
-   [image, no description]
-11. @jupiterdoomsday.bsky.social (Jupiter Doomsday) · 24h · likes 7 · replies 0 · question · evening
-   https://bsky.app/profile/jupiterdoomsday.bsky.social/post/3mzpwzsdxqk2g
-   It’s insane. Cause if that cozy game article wasn’t a wake up call to unsuspecting fans who’ll READ his work, then personally any good will is lost. that article is a mask off moment and has convinced me most people just rt for the pseudo-intellectual clickbaity articles.
-12. @mollyesbian.gayass.io (Phoebe! The Movie: The Video Game (Music) · 21m · likes 2 · replies 0 · askCozy
-   https://bsky.app/profile/mollyesbian.gayass.io/post/3mzshohk4ek2x
-   i suck at games but i'm cozy to be around and i'm kinda hot. and i can be funny once in a while too so yknow ;)
 
 ## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @andrepc.bsky.social (Andre P.C.) · 19h · likes 4 · replies 1 · question · stardew
-   https://bsky.app/profile/andrepc.bsky.social/post/3mzqhughg5s27
-   Played Bananza a bit too. Ice world is awful... but with lava? Why you hate me Nintendo?? Will probably spend the day farming shit in Warframe. But I wanna play Queen's Domain and Control too though. So little time to play games, oof. And I need a new PC :\ wishful thinking heh.
-2. @whomstbastank.bsky.social (Far Wanderer) · 19h · likes 1 · replies 0 · evening
-   https://bsky.app/profile/whomstbastank.bsky.social/post/3mzqhvabmn22d
-   RPGSite running sponcon for MiHoyo’s AI-containing “cozy” game is really putting lie to the claim that they’re an “independent” outlet
+1. @brooketohimself.bsky.social (Brooke to Himself) · 2h · likes 0 · replies 0 · question · stardew
+   https://bsky.app/profile/brooketohimself.bsky.social/post/3mzt7fz2f6s2z
+   Posted about my cellular automata sim in a reddit forum. God help me. I was going to post it in /r/generative art too, but that stuff looks way prettier than mine. Anyway, you need to try my LIFE sim. And damn Powermonger was a cool ass game back in day wasn't it? www.reddit.com/
+   [link card: From the cellular_automata community on Reddit: Editing LIFE in real-time!]
+2. @maristela.org (kota ⭔) · 2h · likes 1 · replies 0 · stardew
+   https://bsky.app/profile/maristela.org/post/3mzt6srmrus2x
+   with the power of ai i can finally make a magical farming sim called Aura Farm
