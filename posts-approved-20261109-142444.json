@@ -1,0 +1,41 @@
+{
+  "approvedAt": "2026-11-09T14:24:44.965Z",
+  "items": [
+    {
+      "n": 1,
+      "kind": "deal",
+      "platform": "bluesky",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nPrice checked Nov 8. Sale ends Nov 16. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-08\n\n#PCGaming #GameDeals #ThisWarOfMine #VideoGames #DRMFree\nAd",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-08",
+      "day": "2026-11-08",
+      "key": "prices|2026-11-08|/deals/gog/this-war-of-mine/",
+      "notBefore": "2026-11-09T14:24:44.965Z"
+    },
+    {
+      "n": 2,
+      "kind": "deal",
+      "platform": "bluesky",
+      "account": "prices-2",
+      "handle": "saveandplay.com",
+      "text": "Metro Exodus: -90% at GOG\n$2.99 (was $29.99)\nPrice checked Nov 8. Sale ends Nov 16. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-08\n\n#PCGaming #GameDeals #PCGames #GOG #VideoGames\nAd",
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-08",
+      "day": "2026-11-08",
+      "key": "prices-2|2026-11-08|/deals/gog/metro-exodus/",
+      "notBefore": "2026-11-09T16:24:44.965Z"
+    },
+    {
+      "n": 6,
+      "kind": "article",
+      "platform": "bluesky",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "text": "\"Unknown\" on a Steam Deck rating is not a bad score. Valve's wording: \"We haven't checked this game for compatibility yet.\" Four ratings, and a 5-minute check before you buy:\nhttps://saveandplay.com/guides/steam-deck-ratings-explained/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-deck-ratings\n#PCGaming #GameDeals #SteamDeck",
+      "link": "https://saveandplay.com/guides/steam-deck-ratings-explained/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-deck-ratings",
+      "day": null,
+      "key": "prices|article|/guides/steam-deck-ratings-explained/",
+      "notBefore": "2026-11-09T18:24:44.965Z"
+    }
+  ]
+}

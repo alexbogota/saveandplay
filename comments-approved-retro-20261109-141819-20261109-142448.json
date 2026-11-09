@@ -1,0 +1,18 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-retro-20261109-141819.json",
+  "approvedAt": "2026-11-09T14:24:48.725Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:infdprkgbowci5q36cahq4i7/app.bsky.feed.post/3mzu4njgiqs2a",
+      "url": "https://bsky.app/profile/nikkinightly.bsky.social/post/3mzu4njgiqs2a",
+      "author": "nikkinightly.bsky.social",
+      "context": "The alt text for Cyberia 2 was mistakenly written wrong. It's Cyberia not Siberia. The first game was released on MS-DOS and that's how I played it. The second game was released on MS-DOS and windows. I don't remember which version I had.",
+      "text": "Cyberia on MS-DOS is a great memory. Those pre-rendered cutscenes felt like the future back then.",
+      "edited": false
+    }
+  ]
+}
