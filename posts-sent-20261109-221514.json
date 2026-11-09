@@ -1,0 +1,39 @@
+{
+  "madeAt": "2026-11-09T22:15:14.121Z",
+  "run": "42710154217",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices-2|2026-11-08|/deals/gog/metro-exodus/",
+      "account": "prices-2",
+      "handle": "saveandplay.com",
+      "n": 2,
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-08",
+      "text": "Metro Exodus: -90% at GOG\n$2.99 (was $29.99)\nPrice checked Nov 8. Sale ends Nov 16. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-08\n\n#PCGaming #GameDeals #PCGames #GOG #VideoGames\nAd",
+      "approvedFile": "posts-approved-20261109-142444.json",
+      "approvedAt": "2026-11-09T14:24:44.965Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-09T22:15:16.297Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mzvx7yoijy2x",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3mzvx7yoijy2x",
+      "picture": true
+    },
+    {
+      "key": "prices|article|/guides/steam-deck-ratings-explained/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 6,
+      "link": "https://saveandplay.com/guides/steam-deck-ratings-explained/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-deck-ratings",
+      "text": "\"Unknown\" on a Steam Deck rating is not a bad score. Valve's wording: \"We haven't checked this game for compatibility yet.\" Four ratings, and a 5-minute check before you buy:\nhttps://saveandplay.com/guides/steam-deck-ratings-explained/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-deck-ratings\n#PCGaming #GameDeals #SteamDeck",
+      "approvedFile": "posts-approved-20261109-142444.json",
+      "approvedAt": "2026-11-09T14:24:44.965Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-09T22:16:34.411Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mzvxccgs3p26",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3mzvxccgs3p26",
+      "picture": true
+    }
+  ]
+}
