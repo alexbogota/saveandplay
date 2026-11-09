@@ -1,0 +1,30 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261109-141819",
+  "madeAt": "2026-11-09T14:21:20.859Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:infdprkgbowci5q36cahq4i7/app.bsky.feed.post/3mzu4njgiqs2a",
+      "url": "https://bsky.app/profile/nikkinightly.bsky.social/post/3mzu4njgiqs2a",
+      "author": "nikkinightly.bsky.social",
+      "context": "The alt text for Cyberia 2 was mistakenly written wrong. It's Cyberia not Siberia. The first game was released on MS-DOS and that's how I played it. The second game was released on MS-DOS and windows. I don't remember which version I had.",
+      "text": "Cyberia on MS-DOS is a great memory. Those pre-rendered cutscenes felt like the future back then.",
+      "group": "classicPC",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:aug7g4xj3mfwft67awj76usu/app.bsky.feed.post/3mzsxiujax222",
+      "url": "https://bsky.app/profile/thejackdias.bsky.social/post/3mzsxiujax222",
+      "author": "thejackdias.bsky.social",
+      "context": "Really want to get a old CRT for old games, films and anime. Ideally with hook ups for a PC. Browsing marketplace for horribly scalped mid tier screens is so depressing though... $400 for some crappy dell mointor???",
+      "text": "Marketplace prices for CRTs are rough. Thrift stores and local recycling centers sometimes have them for much less, so worth a check before paying a scalper price.",
+      "verify": "Общий совет про CRT в комиссионках: фактов и цен нет, но проверьте, что вам нравится тон.",
+      "group": "classicPC",
+      "heated": false
+    }
+  ]
+}

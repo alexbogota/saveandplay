@@ -1,0 +1,39 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261109-141819",
+  "madeAt": "2026-11-09T14:21:20.753Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:hveuq5q35hmu4zpqpbmkc4mu/app.bsky.feed.post/3mzthqgqxhc2p",
+      "url": "https://bsky.app/profile/flacocielito5.bsky.social/post/3mzthqgqxhc2p",
+      "author": "flacocielito5.bsky.social",
+      "context": "Friendos ❤️🤗 What video games have you been playing on this cozy fine Sunday? 🤭\nlink card: Retro Gaming Night: Super Mario Adventure",
+      "text": "Sounds like a perfect Sunday. Unpacking is a lovely one for slow afternoons, since there's no timer and no fail state. Hope you find a good one tonight!",
+      "group": "askCozy",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:sswayqkt7usntt6w3xzabxl3/app.bsky.feed.post/3mztfth4luk2a",
+      "url": "https://bsky.app/profile/onplanetjake.bsky.social/post/3mztfth4luk2a",
+      "author": "onplanetjake.bsky.social",
+      "context": "After an extremely social and extremely fun wedding with friends I came back to some cozy gaming with the new update to Welcome to Elderfield So many great QoL improvements. I’ve made progress and I’m having so much fun. One of my biggest recommendations from this year.\nimage, no description",
+      "text": "Coming home from a big social weekend to a cozy game sounds like the right recharge. Quality-of-life updates make such a difference in these slow games. Enjoy the progress!",
+      "group": "evening",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:k3yipbcl7byoh2m4cfjo7kiq/app.bsky.feed.post/3mzts23jfzk26",
+      "url": "https://bsky.app/profile/catastrophiclyss.bsky.social/post/3mzts23jfzk26",
+      "author": "catastrophiclyss.bsky.social",
+      "context": "This week hasn't even really started and I'm already exhausted from all the things and trying to find ways to cancel so i can just sit and hide with my book or my Stardew farm. Will I successfully cancel anything? No, but a girl can dream.",
+      "text": "A book or a Stardew farm is a solid plan for hiding. Hope the week goes gentler than it looks right now.",
+      "group": "stardew",
+      "heated": false
+    }
+  ]
+}
