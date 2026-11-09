@@ -8,138 +8,47 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 568,
-      "posts": 23960,
-      "fit": 278,
+      "runs": 576,
+      "posts": 24280,
+      "fit": 282,
       "last": {
         "posts": 40,
         "fit": 2,
-        "at": "2026-11-08T22:00:50.330Z"
+        "at": "2026-11-09T06:18:36.097Z"
       }
     },
     "moreAsk": {
-      "runs": 355,
-      "posts": 3195,
+      "runs": 360,
+      "posts": 3240,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-11-08T22:00:50.330Z"
+        "at": "2026-11-09T06:18:36.097Z"
       }
     },
     "moreRetro": {
-      "runs": 355,
-      "posts": 22200,
-      "fit": 776,
+      "runs": 360,
+      "posts": 22480,
+      "fit": 785,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-08T22:00:50.330Z"
+        "at": "2026-11-09T06:18:36.097Z"
       }
     },
     "morePlaying": {
-      "runs": 355,
-      "posts": 1491,
+      "runs": 360,
+      "posts": 1512,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-11-08T22:00:50.330Z"
+        "at": "2026-11-09T06:18:36.097Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@Smith1PW/117576788985532948": {
-      "uri": "https://mastodon.social/@Smith1PW/117576788985532948",
-      "url": "https://mastodon.social/@Smith1PW/117576788985532948",
-      "handle": "Smith1PW@mastodon.social",
-      "name": "PWSmith1",
-      "text": "#vrchat #vrc #gaming #games #videogames #videogame #photography #photo #vrchatphotos #vrchatphotography #vrchatphoto #VirtualPhotography #vrcphotography #vrcphotos #vrcphoto",
-      "createdAt": "2026-11-07T19:23:41.791Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreGaming",
-      "query": "videogame",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "3 images: A 3D anime-style virtual avatar is shown in the foreground on the left side of the image. The character has shoulder length brown hair, fluffy brown cat ears, … / A 3D anime-style avatar is shown in the foreground on the left side of the image. The character has shoulder-length brown hair, fluffy brown cat ears, a dark b… / A 3D anime-style avatar is shown in the foreground on the left side of the image. The character has shoulder-length brown hair, fluffy brown cat ears, a dark b…",
-      "firstSeen": "2026-11-07T21:47:10.214Z"
-    },
-    "https://mastodon.social/@Dvalin/117576957702112618": {
-      "uri": "https://mastodon.social/@Dvalin/117576957702112618",
-      "url": "https://mastodon.social/@Dvalin/117576957702112618",
-      "handle": "Dvalin@mastodon.social",
-      "name": "Dvalin Gaming",
-      "text": "Did you stick with your main character in WoW: Forever, or did you already reroll? 😅 #worldofwarcraft #warcraft #mmo #mmorpg #gaming",
-      "createdAt": "2026-11-07T20:06:36.210Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "moreGaming",
-      "query": "mmorpg",
-      "score": 5,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "image, no description",
-      "firstSeen": "2026-11-07T21:47:10.214Z"
-    },
-    "https://mastodon.social/@gpowerf/117576773588440333": {
-      "uri": "https://mastodon.social/@gpowerf/117576773588440333",
-      "url": "https://mastodon.social/@gpowerf/117576773588440333",
-      "handle": "gpowerf@mastodon.social",
-      "name": "Dr. G. Power",
-      "text": "I picked this up for almost nothing today. Spotted it in a shop jam packed with second hand studd. I've been looking for a 7800 controller for a long time! #retrogaming",
-      "createdAt": "2026-11-07T19:19:46.847Z",
-      "likes": 7,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 6,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "image: US 7800 controller",
-      "firstSeen": "2026-11-07T21:47:10.214Z"
-    },
-    "https://mastodon.social/@akaikoshi/117576465593625845": {
-      "uri": "https://mastodon.social/@akaikoshi/117576465593625845",
-      "url": "https://mastodon.social/@akaikoshi/117576465593625845",
-      "handle": "akaikoshi@mastodon.social",
-      "name": "akaikōshi",
-      "text": "* Some dangerous dungeons for your Atari ST Just trying different skins for the dungeons... stay tuned... #demoscene #demoparty #atari #atarist #retrogaming #atascii #asciiart #ansi",
-      "createdAt": "2026-11-07T18:01:27.227Z",
-      "likes": 3,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "4 images, no description",
-      "firstSeen": "2026-11-07T21:47:10.214Z"
-    },
-    "https://mastodon.social/@halfpress@halfpress.com/117576006830090225": {
-      "uri": "https://mastodon.social/@halfpress@halfpress.com/117576006830090225",
-      "url": "https://mastodon.social/@halfpress@halfpress.com/117576006830090225",
-      "handle": "halfpress@halfpress.com",
-      "name": "Aaron Mahler",
-      "text": "Fired up Telarium’s Amazon - the 1984 Michael Crichton-written adventure game - on my #commodore64 yesterday. I have vague memories of playing it when I was a kid (on this very computer, in fact), but don’t recall how far I got. Based on yesterday, I assume not super far. :) It’s definitely a very unforgiving, tad buggy and incredibly slow loading game… to a degree I didn’t recall. Period glowing reviews certainly illustrate the evolution in expectations from games over time. #retrogaming",
-      "createdAt": "2026-11-07T16:04:45.000Z",
-      "likes": 0,
-      "replies": 1,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 4,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://mastodon.halfpress.com/@halfpress/117576006706918057",
-      "media": null,
-      "firstSeen": "2026-11-07T21:47:10.214Z"
-    },
     "https://mastodon.social/@munroe@dice.camp/117579226290827192": {
       "uri": "https://mastodon.social/@munroe@dice.camp/117579226290827192",
       "url": "https://mastodon.social/@munroe@dice.camp/117579226290827192",
@@ -194,24 +103,6 @@
       "heated": false,
       "isReply": false,
       "media": "image: A full-page computer magazine advertisement for Maxell floppy disks. The top of the ad shows a gold metallic robot holding an American-style football. The robo…",
-      "firstSeen": "2026-11-08T05:57:15.965Z"
-    },
-    "https://mastodon.social/@gpowerf/117577768150553738": {
-      "uri": "https://mastodon.social/@gpowerf/117577768150553738",
-      "url": "https://mastodon.social/@gpowerf/117577768150553738",
-      "handle": "gpowerf@mastodon.social",
-      "name": "Dr. G. Power",
-      "text": "5910 points in Bezerk. I'm starting to try and think of techniques. It's such a fun game! #retrogaming",
-      "createdAt": "2026-11-07T23:32:42.659Z",
-      "likes": 5,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "image: The end screen",
       "firstSeen": "2026-11-08T05:57:15.965Z"
     },
     "https://mastodon.social/@massivelyop/117580966493297498": {
@@ -281,47 +172,11 @@
       "replies": 0,
       "group": "moreGaming",
       "query": "videogame",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
       "media": "image: A VRChat avatar — a dark-haired cat-boy wearing a navy blue sweater, a hat, and cargo pants — sits cross-legged on a shoreline, viewed from behind, gazing out …",
-      "firstSeen": "2026-11-08T22:00:50.330Z"
-    },
-    "https://mastodon.social/@dfx_tech/117582650491599592": {
-      "uri": "https://mastodon.social/@dfx_tech/117582650491599592",
-      "url": "https://mastodon.social/@dfx_tech/117582650491599592",
-      "handle": "dfx_tech@mastodon.social",
-      "name": "DesertFOX",
-      "text": "Oh, well.. I've finally made the step! I'm starting to add Windows XP ISOs to my \"retro!\" collection. Windows XP! This just came out! *crying* #Retro #RetroGaming #RetroComputing #2000s #Windows #WinXP #Preservation #Microsoft #WindowsXP",
-      "createdAt": "2026-11-08T20:14:21.265Z",
-      "likes": 12,
-      "replies": 3,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "3 images: 86Box running a Windows XP installation / Noch ein Screenshot aus der XP Installation. / The Windows XP desktop within 86Box",
-      "firstSeen": "2026-11-08T22:00:50.330Z"
-    },
-    "https://mastodon.social/@zachnocturnalartist/117582321536611069": {
-      "uri": "https://mastodon.social/@zachnocturnalartist/117582321536611069",
-      "url": "https://mastodon.social/@zachnocturnalartist/117582321536611069",
-      "handle": "zachnocturnalartist@mastodon.social",
-      "name": "Zach Nocturnal Artist",
-      "text": "A round marker drawing of the Atari Jaguar in Infinite Painter. #Atari #AtariJaguar #RetroGaming",
-      "createdAt": "2026-11-08T18:50:41.824Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "image: A round marker drawing of the Atari Jaguar in Infinite Painter.",
       "firstSeen": "2026-11-08T22:00:50.330Z"
     },
     "https://mastodon.social/@nerdvaerket/117582267850428640": {
@@ -335,7 +190,7 @@
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -353,7 +208,7 @@
       "replies": 1,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 4,
+      "score": 3,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -396,6 +251,42 @@
       "isReply": false,
       "media": null,
       "firstSeen": "2026-11-08T22:00:50.330Z"
+    },
+    "https://mastodon.social/@Dvalin/117583478392255060": {
+      "uri": "https://mastodon.social/@Dvalin/117583478392255060",
+      "url": "https://mastodon.social/@Dvalin/117583478392255060",
+      "handle": "Dvalin@mastodon.social",
+      "name": "Dvalin Gaming",
+      "text": "Blizzard listened. Dungeon kill XP in WoW: Forever just got buffed by 50%, so it’s finally time to group up and spam some dungeons instead of fighting over open-world mob tags, good luck on those Deviate Hides #worldofwarcraft #warcraft #mmo #mmorpg #gaming",
+      "createdAt": "2026-11-08T23:44:54.028Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "moreGaming",
+      "query": "mmorpg",
+      "score": 3,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image: Blizzard listened. Dungeon kill XP in WoW: Forever just got buffed by 50%, so it’s finally time to group up and spam some dungeons instead of fighting over ope…",
+      "firstSeen": "2026-11-09T06:18:36.097Z"
+    },
+    "https://mastodon.social/@gpowerf/117583433628226520": {
+      "uri": "https://mastodon.social/@gpowerf/117583433628226520",
+      "url": "https://mastodon.social/@gpowerf/117583433628226520",
+      "handle": "gpowerf@mastodon.social",
+      "name": "Dr. G. Power",
+      "text": "This has to be one of my best Midnight Magic scores! 222695. This is a game I played a lot as a kid and I don't remember a run this long since then. My cart is a weird one I printed myself because I dropped it and I needed a replacement shell. #Atari2600 #retrogaming",
+      "createdAt": "2026-11-08T23:33:30.985Z",
+      "likes": 3,
+      "replies": 1,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "3 images: Pinball table showing my score / The 3D printed game next to the broken shell / The bottom pf the cart",
+      "firstSeen": "2026-11-09T06:18:36.097Z"
     }
   }
 }
