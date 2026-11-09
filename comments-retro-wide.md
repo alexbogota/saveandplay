@@ -1,143 +1,145 @@
 # Comment candidates: retro-wide (@retrogamedeals.bsky.social)
-Made 2026-11-09T14:20Z. Searched: childhood: played this as a kid game | childhood: first pc game | childhood: childhood game | childhood: game from my childhood | childhood: childhood favorite game | classicPC: old pc game | classicPC: retro pc gaming | classicPC: dos game | classicPC: classic pc game | classicPC: old pc games | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: retro games recommend | askRetro: best retro games | askRetro: best old games | askRetro: old game recommend | askRetro: retro game recommendations | retroBuying: gog classic | retroBuying: old game on sale | retroBuying: classic game sale | retroBuying: retro game steam | retroBuying: old pc game worth buying | retroPlaying: replaying old game | retroPlaying: replaying classic game | retroPlaying: playing old game | retroPlaying: childhood game pc | retroPlaying: old game nostalgia pc | retroAsk: best dos games | retroAsk: best old pc games | retroAsk: old game recommend pc | retroAsk: games like diablo | retroAsk: games like age of empires | retroTalk: old school pc | retroTalk: 90s pc games | retroTalk: 2000s pc games | retroTalk: pc gaming memories | retroTalk: first pc game | retroFeed: feed.
-Posts below: 40 + 2 heated. Dropped in this run: not about games 136, skip word 74, replies are limited 11, too short 12, bot, shop or studio 23, already shown 3, low score 2, many links 1, other language (text) 7, other language 25, not a question 26, too many hashtags 3, adult or graphic label 1, promo (link and hashtags) 1, earlier finds: low score 1.
+Made 2026-11-09T22:19Z. Searched: childhood: games from my childhood | childhood: first video game | childhood: played this as a kid game | childhood: first pc game | childhood: childhood game | classicPC: dos games | classicPC: classic pc games | classicPC: old pc game | classicPC: retro pc gaming | classicPC: dos game | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: old games recommend | askRetro: retro games recommend | askRetro: best retro games | askRetro: best old games | askRetro: old game recommend | retroBuying: gog classic | retroBuying: old game on sale | retroBuying: classic game sale | retroBuying: retro game steam | retroBuying: old pc game worth buying | retroPlaying: replaying old game | retroPlaying: replaying classic game | retroPlaying: playing old game | retroPlaying: childhood game pc | retroPlaying: old game nostalgia pc | retroAsk: best dos games | retroAsk: best old pc games | retroAsk: old game recommend pc | retroAsk: games like diablo | retroAsk: games like age of empires | retroTalk: old school pc | retroTalk: 90s pc games | retroTalk: 2000s pc games | retroTalk: pc gaming memories | retroTalk: first pc game | retroFeed: feed.
+Posts below: 40 + 2 heated. Dropped in this run: bot, shop or studio 38, not about games 166, skip word 111, empty 3, promo (link and hashtags) 3, replies are limited 16, too short 16, too many hashtags 4, adult or graphic label 5, already shown 8, other language (text) 11, low score 2, many links 1, not a question 27, other language 34, earlier finds: low score 1.
 
 ## Posts
-1. @lady8jane.bsky.social (Your Cyberpunk Future) · 1h · likes 1 · replies 1 · question · classicPC
-   https://bsky.app/profile/lady8jane.bsky.social/post/3mzuykd6cps2r
-   Did you see that a lot of these old games were just released from PC?
-2. @amiibru.bsky.social (Amiibru) · 1h · likes 5 · replies 4 · question · askRetro
+1. @feed.igeek.gamer-geek-news.com.ap.brid.gy (input) · 2h · likes 3 · replies 0 · question · askRetro
+   https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3mzvq7tzd6yc2
+   🎮 **Zelda: Ocarina of Time’s Best Replacement Has 11,000+ ‘Very Positive’ Reviews on Steam** Death's Door turns five years old this year, and it's still one of the best games like The Legend of Zelda around. 📰 Source: Polygon.com 🔗 Link […] [Original post on igeek.gamer-geek-n
+   [image: Image for: Zelda: Ocarina of Time’s Best Replacement Has 11,000+ ‘Very Positive’ Reviews on Steam]
+2. @garnet-napped.bsky.social · 3h · likes 0 · replies 0 · question · childhood
+   https://bsky.app/profile/garnet-napped.bsky.social/post/3mzvnheaqym2a
+   Did you play Ocarina of Time as a kid? Talking about favorite childhood games can lead to some interesting conversations. What's the one video game that still holds a special place in your heart?
+   [image: conversation starters photo illustrating conversation starters.]
+3. @oldhoundderby.bsky.social (Old Hound) · 1h · likes 0 · replies 1 · question · gogOld
+   https://bsky.app/profile/oldhoundderby.bsky.social/post/3mzvsy4qt2s2a
+   Is Squadron 42 FMV or just motion capture? If you want to go old school FMV, all the Wing Commander games got re-released on Steam and GOG last week by EA allowing them to work on modern operating systems.
+4. @bigvinny-svu.bsky.social (bigvinny) · 4h · likes 0 · replies 0 · question · nostalgia
+   https://bsky.app/profile/bigvinny-svu.bsky.social/post/3mzvioglyl22o
+   As much as I enjoyed some parts of the movie, it reminded me of just how terrible video game based movies tend to be. It was high on nostalgia but short on action. Also, what were they thinking with Bison? Should look at the Wreck-It Ralph cameo for proper rendition.
+5. @feed.igeek.gamer-geek-news.com.ap.brid.gy (input) · 7h · likes 0 · replies 0 · question · childhood
+   https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3mzvbggppcqs2
+   📰 **'The Biggest Launch In WoW History' - Xbox's Latest First-Party Game Is Already Smashing Records** Bodes well for that eventual console release, eh?We've talked quite a bit recently about the launch of World of Warcraft: Forever on PC and how […] [Original post on igeek.game
+   [image: Image for: 'The Biggest Launch In WoW History' - Xbox's Latest First-Party Game Is Already Smashing Records]
+6. @amiibru.bsky.social (Amiibru) · 9h · likes 10 · replies 10 · question · askRetro
    https://bsky.app/profile/amiibru.bsky.social/post/3mzuymx4hqs2h
    [GameChallenge] Can you recommend retro games? Maybe I can start 5 out of these: Zelda 2 Donkey Kong Country Earthbound Beginnings Chrono Trigger Final Fantasy Adventure MegaMan Castlevania Kid Icarus Kirby's Dream Land 3 Sonic The Hedgehog Earthworm Jim Bubsy Gex Tomba Rayman To
-3. @nikkinightly.bsky.social (💚 Nikki 💜 (⁠⊙⁠_⁠◎⁠) 🍗🥧) · 10h · likes 1 · replies 0 · question · classicPC
-   https://bsky.app/profile/nikkinightly.bsky.social/post/3mzu4njgiqs2a
-   The alt text for Cyberia 2 was mistakenly written wrong. It's Cyberia not Siberia. The first game was released on MS-DOS and that's how I played it. The second game was released on MS-DOS and windows. I don't remember which version I had.
-4. @mabberoni.bsky.social (mab) · 11h · likes 3 · replies 1 · question · childhood
-   https://bsky.app/profile/mabberoni.bsky.social/post/3mztwkdtx4k2f
-   I find this funny cuz it took me like four attempts to get the tongue animation right. I was struggling so hard trying to make it look sexy and horny annd I failed. Then I remembered my favorite childhood gameboy game and that one move I loved spamming so much lol
-5. @thejackdias.bsky.social (Jack Dias) · 21h · likes 1 · replies 0 · question · classicPC
-   https://bsky.app/profile/thejackdias.bsky.social/post/3mzsxiujax222
-   Really want to get a old CRT for old games, films and anime. Ideally with hook ups for a PC. Browsing marketplace for horribly scalped mid tier screens is so depressing though... $400 for some crappy dell mointor???
-6. @profrockpr.substack.com (Prof. Rock
- 📚🎮) · 50m · likes 2 · replies 0 · question · retroFeed
-   https://bsky.app/profile/profrockpr.substack.com/post/3mzuzvhjxv22q
-   Here's an idea, Nintendo. Why not let us play NES , SNES, GBA, & N64 Classics directly through the Nintendo Switch App on our phones? We're already paying for Nintendo Switch Online. Imagine playing these games anywhere without carrying a Switch. Would you use this? #Nintendo
-   [image: AI-generated concept mockup, not an official Nintendo feature. The image shows a redesigned Nintendo Switch App on a smartphone. Under “Game-Specific Services,…]
-7. @cra5htig3r.bsky.social (Crash 🏳️‍🌈🇨🇦) · 2h · likes 0 · replies 0 · question · nostalgia
-   https://bsky.app/profile/cra5htig3r.bsky.social/post/3mzuvv4gtw227
-   I never played the original, yet somehow the game can evoke a nostalgic feeling of familiarity? Nintendo lovingly handcrafted so many small details and packed them into every nook and cranny. 🥰
-8. @feed.igeek.gamer-geek-news.com.ap.brid.gy (input) · 14h · likes 0 · replies 0 · question · classicPC
-   https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3mztm5gk5s632
-   📰 **Rockstar's having a sale on old GTA games on the only platform Grand Theft Auto 6 isn't coming to (ours)** Are we being trolled here? 📰 Source: Latest from PC Gamer 🔗 Link […] [Original post on igeek.gamer-geek-news.com]
-   [image: Image for: Rockstar's having a sale on old GTA games on the only platform Grand Theft Auto 6 isn't coming to (ours)]
-9. @hyl.st (sōm ⁂) · 17h · likes 1 · replies 1 · question · gogOld
-   https://bsky.app/profile/hyl.st/post/3mzteunl7lc2v
-   Let's go! These are all so sick, I love bringing back old hardware, you're pro at it!! I ended up selling my modded psp, but I miss that little sucker. Retro games on it feel so good. Haven't done a gameboy or ipod before, there tasty Maybe once the iPod is back you'll want a new
-10. @psinei.bsky.social (Psi) · 13h · likes 2 · replies 0 · question · childhood
+7. @gadobistall.bsky.social (burton erny) · 8m · likes 1 · replies 1 · classicPC
+   https://bsky.app/profile/gadobistall.bsky.social/post/3mzvwxnglbk2s
+   i know they’re just physical items but i keep thinking about all of the nice retro gaming related things i used to own that i no longer own because i needed the money at the time. used to have a retrousb avs, pc engine duo r, fuckin jvc x’eye, a lot of nice US saturn games
+8. @syncswim.bsky.social (syncswim) · 33m · likes 1 · replies 0 · classicPC
+   https://bsky.app/profile/syncswim.bsky.social/post/3mzvvlgu7tk2r
+   I had no idea that the Simpsons arcade game was released on C64 and MS-DOS
+9. @oddyquinn.bsky.social (OddyQuinn🏳️‍⚧️FIGHT LIKE HELL) · 4h · likes 1 · replies 1 · childhood
+   https://bsky.app/profile/oddyquinn.bsky.social/post/3mzvllw2kl22g
+   you ever just beat your childhood video game crush with a stick
+   [video, no description]
+10. @georgevorewell.bsky.social (Cai's Home) · 5h · likes 5 · replies 1 · askRetro
+   https://bsky.app/profile/georgevorewell.bsky.social/post/3mzvidvrpcc2j
+   Talking about the quality of a remake is a good conversation to have in its own right, but if your focus is on keeping old games alive and encouraging people to play them, that approach really isn't ever going to work. I think it's always best to take a game on its own terms.
+11. @lexluddy.xyz (lex luddy) · 5h · likes 37 · replies 2 · question · childhood
+   https://bsky.app/profile/lexluddy.xyz/post/3mzvgluz5e22l
+   2018 was peak "Bad Times for Lexi," and this trailer actually made me cry. When the game came out, I was in a deeply bad place that I remember very little about in 2026, but finishing that game for the first time is seared into my brain. The closest thing you will get to a "Perfe
+   [video, no description; quotes @marinov1.bsky.social: November 9, 2018 Low key one of the best reveal trailers of all time.]
+12. @wrenwhite.bsky.social (TWISTED CUM FREAK!!!!!) · 17h · likes 1 · replies 1 · question · retroPlaying
+   https://bsky.app/profile/wrenwhite.bsky.social/post/3mzu5bqpzr22e
+   just remembered battlezone 1998. my cousin loved old video games when we were kids (granted, they weren't that old in the 2000s), so I ended up playing a ton of classics just because she was interested in them and let me play on her computer. I really loved that game, even though
+13. @psinei.bsky.social (Psi) · 21h · likes 2 · replies 0 · question · childhood
    https://bsky.app/profile/psinei.bsky.social/post/3mzts766gl22w
    “What were your first 5 Japanese video game imports?” …good question! Hmmmm… DDR: Extra Mix (PS1) Psyvariar Revision (PS2) Hokotu no Ken (PS2) [Arc Sys] Guardian Heroes (Saturn) Bubble Symphony (Saturn)
-11. @yappybonker.bsky.social (i'm from the canyon) · 18h · likes 0 · replies 1 · question · gogOld
+14. @yappybonker.bsky.social (i'm from the canyon) · 26h · likes 0 · replies 1 · question · gogOld
    https://bsky.app/profile/yappybonker.bsky.social/post/3mztadeqzwk2w
    nukethestars' channel has so many good old games but man is that guy annoying.
-12. @theconnonedrum.bsky.social (Incredible_Connonedrum) · 24h · likes 2 · replies 0 · question · retroFeed
-   https://bsky.app/profile/theconnonedrum.bsky.social/post/3mzslngzq3k2m
-   🥷🔥 Another classic added to the Sega Genesis collection! Strider brings fast-paced ninja action, challenging enemies, and plenty of 16-bit goodness! Did you play Strider back in the day? What memories do you have of this classic? 🎮 #Incredible_Connonedrum #SegaGenesis #RetroGa
-   [image, no description]
-13. @anotherchicho.bsky.social (Chicho) · 14m · likes 0 · replies 0 · classicPC
-   https://bsky.app/profile/anotherchicho.bsky.social/post/3mzv3vauysc2n
-   All I'm saying, i wish i could play old defunct pc games without a vain in my brain exploding.
-14. @sirshepard.bsky.social (Jeff Shepard) · 1h · likes 1 · replies 0 · question · retroFeed
-   https://bsky.app/profile/sirshepard.bsky.social/post/3mzuxtfumes2s
-   Random Game from My Collection: Did I mention I love this cute pink bastard? This is a remake of Kirby Super Star on the SNES. The boss rush mode and Revenge of the King are f’n hard but will make ya come back for more. Highly recommend this one whether ya played a Kirby game or 
-   [image, no description]
-15. @timur222.bsky.social (Timur222) · 2h · likes 2 · replies 1 · question · retroFeed
-   https://bsky.app/profile/timur222.bsky.social/post/3mzuuhcleu22r
-   Old Where's Waldo? (1991, NES, Bethesda &THQ) coverage
-   [4 images, no description]
-16. @thetruejerrycan.bsky.social (Jerry Can ⚓️) · 4h · likes 5 · replies 1 · question · retroFeed
-   https://bsky.app/profile/thetruejerrycan.bsky.social/post/3mzupwzs6z22p
-   HEY! YOU STILL DON'T HAVE A SEGA CD? WHAT ARE YOU WAITING FOR, NINTENDO TO MAKE ONE? YOU HAVE SEEN THE GAMES, RIGHT? Wrong answer, man. SHOW 'EM!
-17. @d-r-m.bsky.social (DRM) · 5h · likes 0 · replies 1 · childhood
+15. @primulaone.bsky.social (prim🎙️🎀🔖) · 1h · likes 0 · replies 1 · childhood
+   https://bsky.app/profile/primulaone.bsky.social/post/3mzvt4whlhc2f
+   the point is that you have options. you can bitch and moan all you want about new genesis ruining your childhood game (ngs is kinda wack, i get it) but there's like nothing stopping you from tapping in to the older stuff. ephinea has a couple hundred people online every day!
+16. @theleedlelee.bsky.social (LeedleLee) · 2h · likes 1 · replies 1 · question · retroPlaying
+   https://bsky.app/profile/theleedlelee.bsky.social/post/3mzvrpahjmc2f
+   What ones are you playing? Same here! I'm currently juggling Neverwinter, STO, DC Universe Online and then a bit of Path of Exile and Warframe separate 😂 Honestly for a game that's...over a decade old? And this is a PS4 title played on a PS5, not only does it run well but play w
+17. @theevoq.com (Denis Kataev) · 6h · likes 0 · replies 0 · question · childhood
+   https://bsky.app/profile/theevoq.com/post/3mzvcblpaxl2i
+   In 2013, one video game made $815.7 million in its first 24 hours. What could you launch on one day? #GTA6 #BusinessModel theevoq.com/templates
+   [video, no description]
+18. @brayman4k.bsky.social · 7h · likes 2 · replies 0 · classicPC
+   https://bsky.app/profile/brayman4k.bsky.social/post/3mzvbjngqkx2u
+   OnePro Cloud Handheld Portable Remote Play Gaming Console, For Xbox Cloud Gaming, NVIDIA GeForce NOW, Playstation, PC, Long-Battery Life, 7" 1080P Touchscreen, Lightweight Retro Game Handheld - 64G #OnePro #PCGaming #PortableGaming
+   [link card: OnePro Cloud Handheld Portable Remote Play Gaming Console, For Xbox Cloud Gaming, NVIDIA GeForce NO…]
+19. @loveandcrossbones.org (Jessica Amelia) · 7h · likes 2 · replies 1 · askRetro
+   https://bsky.app/profile/loveandcrossbones.org/post/3mzv7vkrx3k23
+   I love fighting games but my skills remain mid at best, so the best thing I can do to buckle down on games that have incredibly small but dedicated fan bases so I can get absolutely bodied by the last hangers on of a dying franchise or a rereleasfe of a 25 year old game who are a
+20. @lavenderfluffgoat.bsky.social (Lavender Fluff) · 8h · likes 0 · replies 0 · question · childhood
+   https://bsky.app/profile/lavenderfluffgoat.bsky.social/post/3mzv3ihygqk2w
+   Lavender Daily Question You are now in a abandoned mall for 24 hours with the cast of video game you last played Who are you with and what are you doing first?
+21. @d-r-m.bsky.social (DRM) · 13h · likes 1 · replies 2 · childhood
    https://bsky.app/profile/d-r-m.bsky.social/post/3mzumv7fho222
    Doing some digital archeology digging through old game files, turns out Brandish 2 (Non-Renewal) for PC-98 had a hidden spicy picture (edited to make it SFW). It’s hidden by the DOS Hidden file attribute in the SPG folder. It also requires starting the game up first, quitting, th
    [image, no description]
-18. @earthsetdev.bsky.social (Earthset) · 8h · likes 6 · replies 0 · childhood
+22. @general-radix.bsky.social (General-RADIX) · 15h · likes 1 · replies 0 · classicPC
+   https://bsky.app/profile/general-radix.bsky.social/post/3mzueodyu3k2h
+   Often overlaps with the dorks who loudly insist that Pokemon is "dead" despite all evidence to the contrary... while also demanding PC ports of the Switch games. PC porting being something Nintendo has refused since the DOS era.
+23. @earthsetdev.bsky.social (Earthset) · 15h · likes 7 · replies 1 · childhood
    https://bsky.app/profile/earthsetdev.bsky.social/post/3mzudjoio622l
    prototype update: Nevquail (mystery action rpg) add double jump and floating and update input map for joystick pad. this game is for linux console portmaster and PC first #godot #solodev #portmaster
    [video, no description]
-19. @spacetalk.bsky.social (OrangeSky) · 8h · likes 3 · replies 0 · classicPC
+24. @spacetalk.bsky.social (OrangeSky) · 16h · likes 3 · replies 0 · classicPC
    https://bsky.app/profile/spacetalk.bsky.social/post/3mzuddtyavs2a
    I hate how old PC games let me save wherever, and we had to give that up for "checkpointing" due to memory card space issues that don't exist anymore
-20. @mneko.bsky.social (Jess Ragan) · 8h · likes 0 · replies 0 · question · retroFeed
+25. @mneko.bsky.social (Jess Ragan) · 16h · likes 0 · replies 0 · question · retroFeed
    https://bsky.app/profile/mneko.bsky.social/post/3mzuaemu36s2a
    First imports? I think I bought a copy of The Goonies for the Famicom in the early 1990s, since it wasn't available for the NES officially... just on the Playchoice 10. Didn't matter; my NES wouldn't play it anyway. The one I'm counting as first is Waku Waku 7, in 1997, for Sega 
-21. @southmetromusic.com (kris marinello) · 9h · likes 6 · replies 2 · classicPC
+26. @southmetromusic.com (kris marinello) · 17h · likes 6 · replies 2 · classicPC
    https://bsky.app/profile/southmetromusic.com/post/3mzu7ynlxzc2l
    Micro review: Truly love this game. It FEELs like an old PC game. It's not trying to be everything and have you sink hundreds of hours in. It's a game you buy, it's a lot of fun, and then you finish. And then you tell your friends what a great game it was. (1/2) @greyalien.bsky.s
    [image: The cover art for Forbidden Solitaire, the Discarded.]
-22. @wrenwhite.bsky.social (TWISTED CUM FREAK!!!!!) · 9h · likes 0 · replies 1 · question · retroPlaying
-   https://bsky.app/profile/wrenwhite.bsky.social/post/3mzu5bqpzr22e
-   just remembered battlezone 1998. my cousin loved old video games when we were kids (granted, they weren't that old in the 2000s), so I ended up playing a ton of classics just because she was interested in them and let me play on her computer. I really loved that game, even though
-23. @jayteejay10.bsky.social (Jayteejay10) · 10h · likes 1 · replies 1 · childhood
+27. @jayteejay10.bsky.social (Jayteejay10) · 18h · likes 1 · replies 1 · childhood
    https://bsky.app/profile/jayteejay10.bsky.social/post/3mzu2lsgqv22h
    most of the theming in LN + reanimal is about childhood fears and the way children are abused by individuals and systems. i think that a LN-esque game that leans more into the authoritarian parts of the former ones would be pretty good (even if there are too many LN games atp)
-24. @spaceds8008s.bsky.social (Space Man) · 12h · likes 1 · replies 1 · classicPC
+28. @spaceds8008s.bsky.social (Space Man) · 20h · likes 1 · replies 1 · classicPC
    https://bsky.app/profile/spaceds8008s.bsky.social/post/3mztvv6eiwk2s
    I grew up on PC games. I get to talk this shit. IT'S TOO FUCKING FRUSTRATING WHEN SHIT BREAKS! I'll fix it eventually I'm sure, but my evening is ruined when I just wanted to play games. I, REALLY, wish we had console companies that weren't evil af atm because I'm getting too old
-25. @fennectik.bsky.social (It's Fennectik!) · 12h · likes 4 · replies 1 · childhood
+29. @fennectik.bsky.social (It's Fennectik!) · 20h · likes 4 · replies 1 · childhood
    https://bsky.app/profile/fennectik.bsky.social/post/3mztvnioprs2f
    My top favorite Arcade games from childhood: Strider Magician Lord Shinobi Altered Beast Double Dragon #Arcade #Videogames
-26. @boostmixmusic.bsky.social (Boost Mix Music - game music remastering) · 13h · likes 1 · replies 1 · childhood
+30. @boostmixmusic.bsky.social (Boost Mix Music - game music remastering) · 21h · likes 1 · replies 1 · childhood
    https://bsky.app/profile/boostmixmusic.bsky.social/post/3mztq3mjbkk2k
    "Login Asia Report 2" meet a Korean game designer and some insights about gaming in South Korea, only about "20 software houses" but making steady progress and obviously PC gaming overall was starting to boom even more than console gaming from what I can infer here.
-27. @adamalons.bsky.social (Adamalons) · 13h · likes 1 · replies 2 · childhood
+31. @adamalons.bsky.social (Adamalons) · 21h · likes 1 · replies 2 · childhood
    https://bsky.app/profile/adamalons.bsky.social/post/3mztpte4dkk2q
    It's weird how playing it brings me back to the N64 game and the childhood and not back to playing it as a teen on GCN or an adult on 3DS.
-28. @hardcasual.bsky.social (Hard Casual) · 14h · likes 0 · replies 0 · question · childhood
+32. @hardcasual.bsky.social (Hard Casual) · 22h · likes 0 · replies 0 · question · childhood
    https://bsky.app/profile/hardcasual.bsky.social/post/3mztnr3x3pc2u
    Why do these video game remakes insist on ruining some of their most dramatic moments with superfluous crap? First the death of Aerith, now drawing the master sword
-29. @claretheamazon.bsky.social (Clare (The Amazon)) · 15h · likes 0 · replies 0 · question · retroFeed
+33. @claretheamazon.bsky.social (Clare (The Amazon)) · 23h · likes 0 · replies 0 · question · retroFeed
    https://bsky.app/profile/claretheamazon.bsky.social/post/3mztlivjdt22t
    How old am I exactly? Let's just say I have vague childhood memories of playing Spy vs Spy on an Atari 2600.
-30. @leonavarrocreates.bsky.social (Leo Navarro · Threads for Creators) · 16h · likes 1 · replies 0 · classicPC
+34. @leonavarrocreates.bsky.social (Leo Navarro · Threads for Creators) · 24h · likes 1 · replies 0 · classicPC
    https://bsky.app/profile/leonavarrocreates.bsky.social/post/3mztgoduxsa2b
    My DOS game streams always start with me chasing a blinking cursor instead of a webcam feed, and somehow that's the most authentic retro energy.
-31. @benbeau.bsky.social (benbeau) · 16h · likes 22 · replies 0 · askRetro
+35. @benbeau.bsky.social (benbeau) · 24h · likes 23 · replies 0 · askRetro
    https://bsky.app/profile/benbeau.bsky.social/post/3mztgkhyua22e
    I've played Ocarina of Time 3 times this year and it's still surprising how this almost 30 year old game still holds up today. Like Nintendo really did just make one of the best games ever made for their first 3D Zelda game on the fucking N64, and that's wild to think about. Rema
-32. @dangeeksout.bsky.social (Danny Rad) · 17h · likes 0 · replies 0 · question · childhood
+36. @dangeeksout.bsky.social (Danny Rad) · 25h · likes 0 · replies 0 · question · childhood
    https://bsky.app/profile/dangeeksout.bsky.social/post/3mztdb64fms2a
    Game review #635! Despite some minor annoyances, I really liked this game. Is it as good as the first Prime? I suppose that's up for debate. Check out my full review! #MetroidPrime2 #videogamereviews
    [link card: Video Game Review #635: Metroid Prime 2: Echoes]
-33. @evude.bsky.social (Johann Evu G) · 18h · likes 0 · replies 0 · question · childhood
+37. @evude.bsky.social (Johann Evu G) · 26h · likes 0 · replies 0 · question · childhood
    https://bsky.app/profile/evude.bsky.social/post/3mztb6j4oz22b
    Keeping the streak alive, but it kinda turned into a bit of a rigid routine for Sunday tbh~ May I ask for a few more video game related questions/takes or something? o: ngl.link/evu_de #evungl
-34. @skullhornets.bsky.social (gynosomatic koinobiont) · 21h · likes 2 · replies 1 · classicPC
+38. @skullhornets.bsky.social (gynosomatic koinobiont) · 29h · likes 2 · replies 1 · classicPC
    https://bsky.app/profile/skullhornets.bsky.social/post/3mzsv6fmabc2j
    literally i do not know why nobody says this but u barely need my abandonware or those old pc game GOG wrappers or the like, everything from every facet of the planet goes right on archive org and youll find it under all kinds of tags and collections including doujinsoft
-35. @lastflunky.bsky.social (Michelle-Flan) · 23h · likes 1 · replies 1 · childhood
-   https://bsky.app/profile/lastflunky.bsky.social/post/3mzsoflemfs2o
-   Now Jimmy Neutron vs Negatron on the PC was an example of fun bad game for me. I played the demo and really enjoyed the platformer with tank controls. I bought the full game and loved it. I'm also a fan of Barnyard on the PS2. Most games from my childhood were very average licens
-36. @becausebecause.bsky.social (Matt) · 23h · likes 2 · replies 0 · classicPC
-   https://bsky.app/profile/becausebecause.bsky.social/post/3mzsnyv3eek2m
-   Nice, one of the 7 or so games I played on a PC in the last 20 years lol (always preferred consoles), always liked the old graphics but these new ones are a real treat for the eyes! I've been planning on re-doing the graphics for my Trails and Traces game, was planning on doing a
-37. @amro.dev (amro) · 24h · likes 1 · replies 0 · childhood
-   https://bsky.app/profile/amro.dev/post/3mzslyfpxg224
-   Wow, genesis game had many hours of my childhood
-38. @bustedsneakers.bsky.social (Alex L) · 27h · likes 6 · replies 2 · childhood
-   https://bsky.app/profile/bustedsneakers.bsky.social/post/3mzsbny637227
-   Ocarina remake feels like japanese fanart of what an american describes as their childhood w video games what if zelda was tomb raider with face filter makeup I never played much of the original, it's weird to have a game try to give me this much nostalgia for nothing
-39. @lostinconsoles.bsky.social (Lost In Consoles) · 29h · likes 0 · replies 0 · question · retroFeed
-   https://bsky.app/profile/lostinconsoles.bsky.social/post/3mzs2dtufch2d
-   You don't need a $200 handheld for retro games. A $50 Anbernic RG35XX with GarlicOS handles SNES, GBA, and PS1 better than you'd think — what's your budget pick?
-40. @booxmowo.bsky.social (BOOXMOWO) · 58m · likes 0 · replies 1 · gogOld
-   https://bsky.app/profile/booxmowo.bsky.social/post/3mzuzgzidb22s
-   What really frustrates me is when it's the same people who will write paragraphs about how old games are still just as good as when they released and you need to engage with them on their own terms and respect the choices that went into making them because games are art (I 100% a
+39. @critscoutyt.bsky.social (CritScoutYT) · 24m · likes 1 · replies 0 · childhood
+   https://bsky.app/profile/critscoutyt.bsky.social/post/3mzvw2y6btk2g
+   QRP with your first video game console! Sega Genesis with Golden Axe and Sonic the Hedgehog
+   [link card: Golden Axe; quotes @joannahex.bsky.social: QRP with your first video game console! Second hand off eBay and with a copy of the Madagascar game]
+40. @radamonas.bsky.social · 26m · likes 0 · replies 0 · question · retroFeed
+   https://bsky.app/profile/radamonas.bsky.social/post/3mzvvyng3zs2u
+   Pamaivos ir eilės Raiškiai perskaityti eilėraštį. Kas čia tokio? Skaitai, skaitai ir perskaitai. O vaikyti! Stabdyt prie kiekvieno kablelio, brūkšnelio ir taško reikia. Kirčiavimą taisyt, nes kitaip eilėraštis nesirimuoja. Bet gali pasimaivyt prieš vaikius raiškiai skaitydamas. #
 
 ## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @the-chavmeister.bsky.social (The ChⱯvmeister 🏳️‍🌈) · 2h · likes 3 · replies 0 · nostalgia
-   https://bsky.app/profile/the-chavmeister.bsky.social/post/3mzuxntewws2y
-   Unlike your video game remake that is soulless claudegpt slop that is just cashing in on nostalgia while also defiling the original, my video game remake is a real passion project that meaningfully expands and updates the original, whilst staying true to its identity.
-2. @robmanuel.b3ta.com (Rob Manuel) · 2h · likes 18 · replies 4 · askRetro
-   https://bsky.app/profile/robmanuel.b3ta.com/post/3mzuvjywd3k2e
-   What the easy-AI-porting of old games era will mean to retro gaming, is it'll finally, unequivocally prove that the Amstrad CPC Plus was the best British 8-bit system, as the highest specced system, will finally have more than 5 games. Also no one will give a shit coz it'll all f
+1. @americandescendant.bsky.social · 21h · likes 0 · replies 1 · childhood
+   https://bsky.app/profile/americandescendant.bsky.social/post/3mztpjhbzrk2c
+   Sadly, Hegseth is like a little boy in his childhood bedroom playing with toy soldiers or playing war games on his video game system. His lack of empathy for human life along with Trump is a disgrace to our nation as they represent the Commander in Chief and Secretary of Defense.
+2. @pinbbuzzbro.bsky.social (Pingas Connoiseur) · 5m · likes 0 · replies 0 · childhood
+   https://bsky.app/profile/pinbbuzzbro.bsky.social/post/3mzvx5hatkc22
+   The year is 2045. Injustice 8 has just been announced and Wonder Woman is getting her first ever video game in the form of a match 3 mobile game with ai generated adverts where she’s made to look like Sydney Sweeney

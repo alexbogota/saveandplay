@@ -1,60 +1,55 @@
 # Comment candidates: mastodon-prices (@saveandplay@mastodon.social)
-Made 2026-11-09T14:19Z. Searched: deck: handheldgaming | deck: steamdecklife | deck: steamdeckoled | deck: steamdeck | deck: steamos | practical: linuxgaming | practical: drmfree | practical: gog | practical: protondb | genres: coopgames | genres: citybuilder | genres: strategygames | genres: survivalgames | genres: horrorgaming | genres: cozygaming | genres: puzzlegames | genres: roguelike | genres: cozygames | genres: metroidvania | seasonal: halloweengames | seasonal: horrorgames | seasonal: spooktober | broadPlaying: videogames | broadPlaying: currentlyplaying | broadPlaying: indiegames | broadPlaying: indiegame | broadPlaying: pcgames | broadPlaying: steamgames | broadPlaying: gamer | broadPlaying: games | broadPlaying: rpg | broadPlaying: jrpg | broadPlaying: pcgaming | broadPlaying: gaming | broadPlaying: steam | broadAsk: recommendmeagame | broadAsk: gamerecommendation | broadAsk: recommendagame | broadAsk: whattoplay | broadAsk: gamesuggestion | broadAsk: hiddengem | broadAsk: underratedgames | broadAsk: gamesuggestions | backlog: gamingbacklog | backlog: backlog | backlog: pileofshame | backlog: whatshouldiplay | backlog: gamerecommendations | backlog: gamerecs.
-Posts below: 12 + 1 heated. Dropped in this run: too old 1278, other language 210, bot, shop or studio 617, link post, not a question 14, promo (link and hashtags) 102, many links 4, too long 9, already shown 17, skip word 138, other language (text) 200, low score 11, own post 10, content warning 6, profile says no bots or promo 7, not about games 28, console only 13, already answered 1, too short 1, earlier finds: low score 1.
+Made 2026-11-09T22:17Z. Searched: deck: handheldgaming | deck: steamdecklife | deck: steamdeckoled | deck: steamdeck | deck: steamos | practical: linuxgaming | practical: drmfree | practical: gog | practical: protondb | genres: coopgames | genres: citybuilder | genres: strategygames | genres: survivalgames | genres: horrorgaming | genres: cozygaming | genres: puzzlegames | genres: roguelike | genres: cozygames | genres: metroidvania | seasonal: halloweengames | seasonal: horrorgames | seasonal: spooktober | broadPlaying: videogames | broadPlaying: currentlyplaying | broadPlaying: indiegames | broadPlaying: indiegame | broadPlaying: pcgames | broadPlaying: steamgames | broadPlaying: gamer | broadPlaying: games | broadPlaying: rpg | broadPlaying: jrpg | broadPlaying: pcgaming | broadPlaying: gaming | broadPlaying: steam | broadAsk: recommendmeagame | broadAsk: gamerecommendation | broadAsk: recommendagame | broadAsk: whattoplay | broadAsk: gamesuggestion | broadAsk: hiddengem | broadAsk: underratedgames | broadAsk: gamesuggestions | backlog: gamingbacklog | backlog: backlog | backlog: pileofshame | backlog: whatshouldiplay | backlog: gamerecommendations | backlog: gamerecs.
+Posts below: 12. Dropped in this run: many links 9, skip word 186, too old 1267, other language 178, bot, shop or studio 740, promo (link and hashtags) 106, hidden from search 3, link post, not a question 21, already shown 23, other language (text) 125, low score 18, too long 11, own post 10, content warning 10, profile says no bots or promo 9, console only 18, not about games 24, already answered 1, earlier finds: low score 3, earlier finds: many links 1.
 
 ## Posts
-1. @ouij@mastodon.social (Luigi de Guzman) · 18h · likes 1 · replies 1 · question · deck
-   https://mastodon.social/@ouij/117582612535372780
-   currently debating whether I should wipe my Steam Deck and put CachyOS on it. SteamOS is great. As an immutable distro it is more idiot-resistant. But I kind of want to run Winboat and make the Deck into a more general-purpose portable desktop and I am not seeing any good guides 
-2. @pixelshelf@mastodon.social (PixelShelf) · 19m · likes 0 · replies 0 · question · broadPlaying
-   https://mastodon.social/@pixelshelf/117586842833871450
-   Grand Theft Auto VI - 10 days until release! Have you taken the day off for it? Comment below. Every game you own, in one library. #GTAVI #gamecollection #gaming
-   [video: GTA 6 Logo with 10 days to go. PixelShelf logo at bottom]
-3. @Zerush@lemmy.ml · 39m · likes 0 · replies 0 · question · broadPlaying
-   https://mastodon.social/@Zerush@lemmy.ml/117586764549613213
-   original: https://lemmy.ml/post/55100894
-   Can you fit a whole game into a QR code? - HackerTube https://lemmy.ml/post/55100894
-   [link card: Can you fit a whole game into a QR code? - HackerTube]
-4. @coinkedpath.wordpress.com@coinkedpath.wordpress.com (coinkedpath) · 2h · likes 0 · replies 0 · question · broadPlaying
-   https://mastodon.social/@coinkedpath.wordpress.com@coinkedpath.wordpress.com/117586432084918576
-   original: https://coinkedpath.wordpress.com/2026/11/09/a-molded-look/
-   A molded look In today’s twisted saying. The cage that is shaking ends with the new store string of the yegg that is played on the store speaker. How does the next twist the strings? Enjoy the game. https://inkedpath.com/yegg-wording-change/ https://coinkedpath.wordpress.com/2026
-   [3 images: A set of three game pieces labeled perplexed is called the scribbles. The set of three game pieces is for spot-the-difference. / A set of three game pieces labeled perplexed is called the scribbles. The set of three game pieces is for spot-the-difference. / A set of three game pieces labeled perplexed is called the scribbles. The set of three game pieces is for spot-the-difference.]
-5. @migtorr@mastodon.org.uk (Miguel Torrellas) · 5h · likes 0 · replies 0 · question · broadPlaying
-   https://mastodon.social/@migtorr@mastodon.org.uk/117585658371050824
-   original: https://mastodon.org.uk/@migtorr/117585658188511826
-   Mastonauts, any hint on which controllers to buy? I want 4 travel controllers with different solid colour each just like N64 ones, not horribly themed or transparent, and with xbox layout. Already checked #8bitdo, #hori and #iine sites. #steam #xbox #playstation #nintendo
-   [3 images, no description]
-6. @WhyNotZoidberg@topspicy.social (Why Not Zoidberg? 🦑) · 19h · likes 2 · replies 1 · question · broadPlaying
-   https://mastodon.social/@WhyNotZoidberg@topspicy.social/117582453246095550
-   original: https://topspicy.social/@WhyNotZoidberg/117582453019413959
-   Anyone else annoyed by games that has weird requirements like "sacrificing your save to get the best ending" or whatever? They are few and far between, but the devs always seem weirdly confident that all players would do it. #Gaming
-7. @ouij@mastodon.social (Luigi de Guzman) · 20h · likes 0 · replies 0 · question · deck
-   https://mastodon.social/@ouij/117582270286320886
-   Hi folks--does anyone have a link to a good written guide for installing #WinBoat on a #SteamDeck ? Use case is to get the full version of MS Office to run locally. #MSOffice #Linux #DesktopLinux #SteamOS
-8. @pitcrewgg@mastodon.social (PitCrew) · 6h · likes 1 · replies 1 · deck
-   https://mastodon.social/@pitcrewgg/117585523713408567
-   🔄 Steam Frame - Client and OS 0.5.8 Beta Steam Client Beta fixes Cloud Sync conflicts and Gyro to Joystick Power Curve, updates Steam Frame with Room View OpenXR blending, and SteamVR 2.19.2. 1/2 #SteamFrame #SteamOS #Linux #LinuxGaming #PCGaming #Steam #ValveSoftware #OpenXR #S
+1. @zeratul2099@mastodon.online (zeratul2099) · 3h · likes 2 · replies 1 · question · broadPlaying
+   https://mastodon.social/@zeratul2099@mastodon.online/117588188048598225
+   original: https://mastodon.online/@zeratul2099/117588187825919524
+   Last week or so I finished my very first Final Fantasy game: The Pixel Remaster of Final Fantasy VI. I heard a lot of good things about it and this year I finally (sic!) started a genuine attempt to play it. What can I say? Such a great game. Lovely characters, epic plot, well na
+   [4 images: The title screen of Final Fantasy VI. "Final Fantasy VI" in large red letters. "Square Enix" smaller below it. Some thunderstorm in the background. / Scene from Final Fantasy VI: Celes/Maria is stanging on a castle balcony. It is night, the full moon in the background. She is throwing a bouquet of roses over… / Final bossfight if Final Fantasy 6: An angel-like but dark red/purple/gray colored being is fighting the party in a classical 16bit JRPG style. The user interf… / "The End" in big letters.]
+2. @Bitsy@sakurajima.moe (Bitsy the Alien) · 4h · likes 2 · replies 0 · question · broadPlaying
+   https://mastodon.social/@Bitsy@sakurajima.moe/117587784790089670
+   original: https://sakurajima.moe/@Bitsy/117587784719014944
+   Still playing through the Mass Effect games on stream and having a blast with Sheep Shepherd! One thing, though...why do they call it a credit chit? That sounds like such a silly name for a payment method! Don't go losing your chit, man! 💳🎮💰👽#vtuber #streamer #gaming #masseff
+3. @megaeggz@mastodon.online (Megaeggz) · 35m · likes 0 · replies 0 · question · broadPlaying
+   https://mastodon.social/@megaeggz@mastodon.online/117588661528273176
+   original: https://mastodon.online/@megaeggz/117588661434911310
+   It's been 9 years since I relased Battle Trendaria, the shapeshitfting 3rd person shooter 🥳🥳 https://store.steampowered.com/app/739660/Battle_Trendaria/?curator_clanid=46681541 #gaming
+   [link card: Site Error]
+4. @SergKoren@writing.exchange (Archimage) · 4h · likes 0 · replies 0 · question · broadPlaying
+   https://mastodon.social/@SergKoren@writing.exchange/117587892194141498
+   original: https://writing.exchange/@SergKoren/117587892164460969
+   What solo (non-digital) (TT)RPG do you play during the holidays? #game #solo #rpg
+5. @wolfkin@mastodon.social (wolfkin) · 4h · likes 0 · replies 0 · question · broadPlaying
+   https://mastodon.social/@wolfkin/117587871496356680
+   Would you attend an in-person game night? Would you attend an online game night? #BahamasGamers #Gaming #Nassau #NeonConch
+6. @Archimage@micro.blog (S Koren) · 4h · likes 0 · replies 0 · question · broadPlaying
+   https://mastodon.social/@Archimage@micro.blog/117587892637155639
+   original: https://archimage.micro.blog/2026/11/09/what-solo-nondigital-ttrpg-do.html
+   What solo (non-digital) (TT)RPG do you play during the holidays? #game #solo #rpg
+7. @BigJackBrass@vivaldi.net (Jon Hancock) · 7h · likes 1 · replies 0 · question · broadPlaying
+   https://mastodon.social/@BigJackBrass@vivaldi.net/117587214985468936
+   original: https://social.vivaldi.net/@BigJackBrass/117587214827257843
+   "I thought as well, that by some delightful, and to me it seemed perfectly natural, arrangement of affairs, I had leaped the gap of a whole century, and that, securely poised a thousand feet aloft, and endowed with telescopic vision, I looked down, through a glorious vista in the
+   [link card: The Public Domain Review (@publicdomainrev@mastodon.social)]
+8. @Dvalin@mastodon.social (Dvalin Gaming) · 27m · likes 1 · replies 0 · question · broadPlaying
+   https://mastodon.social/@Dvalin/117588692547516179
+   Absolute stonks. World of Warcraft: Forever just shattered every franchise record with the highest peak concurrent players and most returning veterans in history. Are you back in Azeroth yet? 📈🔥 #worldofwarcraft #warcraft #mmo #mmorpg #gaming
+   [image: Absolute stonks. World of Warcraft: Forever just shattered every franchise record with the highest peak concurrent players and most returning veterans in histo…]
+9. @pitcrewgg@mastodon.social (PitCrew) · 2h · likes 1 · replies 1 · practical
+   https://mastodon.social/@pitcrewgg/117588310320234549
+   🔄 War Thunder - Eagle’s Shadow Rendering, Part 1 War Thunder's Eagle's Shadow overhauls rendering with dirt and snow on tanks, humidity driven wing vapor, water reflections, and non repeating clouds loaded. 1/2 #WarThunder #Linux #LinuxGaming #PCGaming #FlightSim #FreeTrack #Hea
    [image, no description]
-9. @sieffreplays@mastodon.social (Sieffre Plays 🎮) · 15h · likes 0 · replies 0 · question · broadPlaying
+10. @coa100@mastodon.social (Coa) · 8h · likes 0 · replies 0 · question · broadPlaying
+   https://mastodon.social/@coa100/117586954992855241
+   game reviews by my at https://vasnic.wtnet9.site/?p=&s=review #videogames #gaming
+   [link card: review - Posts - Vasnic]
+11. @sieffreplays@mastodon.social (Sieffre Plays 🎮) · 23h · likes 0 · replies 0 · question · broadPlaying
    https://mastodon.social/@sieffreplays/117583414881352460
    Am I not alone in testing to see if developers really check *ANY* button? Me, frantically clicking L3 and R3: AH HA! NOT any button! #videogames #gaming
    [image: Title screen of Persona 3 Reload that says "press any button," but some buttons don't work.]
-10. @coa100@mastodon.social (Coa) · 15h · likes 0 · replies 0 · question · broadPlaying
+12. @coa100@mastodon.social (Coa) · 23h · likes 0 · replies 0 · question · broadPlaying
    https://mastodon.social/@coa100/117583301941612585
    New Game Posted on Games Heaven!! Plutonix a puzzle game https://gamesheaven.wtnet9.site/?game=58 #videogames #gaming
    [image, no description]
-11. @iamdtms@mas.to (iamdtms) · 16h · likes 0 · replies 0 · question · broadPlaying
-   https://mastodon.social/@iamdtms@mas.to/117583148743138460
-   original: https://mas.to/@iamdtms/117583148713628526
-   All game collector badges #steam https://steamcommunity.com/sharedfiles/filedetails/?id=3513823322
-12. @nomxd@mastodon.social (Nom__XD, 飲ん,诺穆 (They/Them)🐈‍⬛) · 18h · likes 0 · replies 1 · question · broadPlaying
-   https://mastodon.social/@nomxd/117582717032689173
-   I considered for a sec doing the current spider attack tournament for the rewards, but Holy inflation, darlings. Is it only this one or are tournaments getting more expensive? Nah, hard pass. #raidshadowlegends #gamer 🐾
-   [image: the cost has doubled]
-
-## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @ami_angelwings@urusai.social (Ami Angelwings) · 18h · likes 9 · replies 16 · question · broadPlaying
-   https://mastodon.social/@ami_angelwings@urusai.social/117582724645545663
-   original: https://urusai.social/@ami_angelwings/117582724144176052
-   #QuestionOfTheDay worst person to guest star* in a creative work you like? (This might be Trump or Musk for a lot of answers) *I will also accept guest creators/writers/singers/etc #fiction #art #music #TV #television #movies #film #comics #anime #manga #videogames #webcomics #tt
