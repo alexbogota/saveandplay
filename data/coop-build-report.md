@@ -1,4 +1,4 @@
-# Co-op games build, November 2, 2026
+# Co-op games build, November 9, 2026
 
 Host list: 128 games orderable, 103 on the horizon (not used). Hand-made: 4. Made by the program: 106.
 
@@ -33,7 +33,7 @@ Host list: 128 games orderable, 103 on the horizon (not used). Hand-made: 4. Mad
 - isle_goblin (Steam 1688640, Isle Goblin): not released yet
 - path_of_titans: no Steam page found by name; put its Steam number here if it has one
 - red_dead_redemption_2: servers for this game are modded role-play servers (RedM), not the game's own multiplayer
-- rend (Steam 4444310, Rend): not released yet
+- rend (Steam 4444310, Rend): Steam lists no multiplayer mode
 - rimworld (Steam 294100, RimWorld): Steam lists no multiplayer mode
 - rune_ragnarok: no Steam page found by name; put its Steam number here if it has one
 - skyrim_together: a mod, not a game on Steam
@@ -72,8 +72,8 @@ Host list: 128 games orderable, 103 on the horizon (not used). Hand-made: 4. Mad
 - V Rising
 - ARK: Survival Ascended
 - Space Engineers
-- SCUM
 - Enshrouded
+- SCUM
 - MORDHAU
 - Conan Exiles Enhanced
 - How to Fish
@@ -96,8 +96,8 @@ Host list: 128 games orderable, 103 on the horizon (not used). Hand-made: 4. Mad
 - Miscreated
 - Grounded 2
 - Sunkenland
-- Last Oasis
 - Bellwright
+- Last Oasis
 - Soulmask
 - Craftopia
 - Portal Knights
@@ -125,9 +125,9 @@ Host list: 128 games orderable, 103 on the horizon (not used). Hand-made: 4. Mad
 - Day of Dragons
 - Outlaws of the Old West
 - s&box
+- over the hill
 - Citadel: Forged with Fire
 - Romestead
-- over the hill
 - Solarpunk
 - FOUNDRY
 - Aloft
@@ -136,15 +136,15 @@ Host list: 128 games orderable, 103 on the horizon (not used). Hand-made: 4. Mad
 - Ships At Sea
 - Astro Colony
 - Frozen Flame
+- Permafrost
 - Voyagers of Nera
 - Witchspire
-- Permafrost
-- Desynced
 - Towers of Aghasba
+- Desynced
 - Brickadia
+- Nomad Drive
 - Renown
 - No More Room in Hell
-- Nomad Drive
 - Dead Matter
 - Zombie Survival Game Online
 - Delverium
