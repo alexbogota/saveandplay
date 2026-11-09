@@ -23,23 +23,23 @@
       }
     },
     "backlog": {
-      "runs": 455,
-      "posts": 11580,
+      "runs": 461,
+      "posts": 11733,
       "fit": 3,
       "last": {
         "posts": 24,
         "fit": 0,
-        "at": "2026-11-09T06:17:48.970Z"
+        "at": "2026-11-09T14:19:10.267Z"
       }
     },
     "deck": {
-      "runs": 383,
-      "posts": 18352,
-      "fit": 158,
+      "runs": 388,
+      "posts": 18553,
+      "fit": 163,
       "last": {
         "posts": 40,
-        "fit": 2,
-        "at": "2026-11-09T06:17:48.970Z"
+        "fit": 3,
+        "at": "2026-11-09T14:19:10.267Z"
       }
     },
     "bundles": {
@@ -53,53 +53,53 @@
       }
     },
     "practical": {
-      "runs": 311,
-      "posts": 14640,
-      "fit": 410,
+      "runs": 315,
+      "posts": 14840,
+      "fit": 417,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-09T06:17:48.970Z"
+        "at": "2026-11-09T14:19:10.267Z"
       }
     },
     "genres": {
-      "runs": 742,
-      "posts": 29680,
+      "runs": 752,
+      "posts": 30080,
       "fit": 58,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-09T06:17:48.970Z"
+        "at": "2026-11-09T14:19:10.267Z"
       }
     },
     "seasonal": {
-      "runs": 239,
-      "posts": 10375,
+      "runs": 242,
+      "posts": 10495,
       "fit": 12,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-09T06:17:48.970Z"
+        "at": "2026-11-09T14:19:10.267Z"
       }
     },
     "broadPlaying": {
-      "runs": 959,
-      "posts": 124000,
-      "fit": 2418,
+      "runs": 972,
+      "posts": 125520,
+      "fit": 2458,
       "last": {
-        "posts": 200,
-        "fit": 5,
-        "at": "2026-11-09T06:17:48.970Z"
+        "posts": 240,
+        "fit": 8,
+        "at": "2026-11-09T14:19:10.267Z"
       }
     },
     "broadAsk": {
-      "runs": 599,
-      "posts": 9249,
+      "runs": 607,
+      "posts": 9373,
       "fit": 0,
       "last": {
         "posts": 16,
         "fit": 0,
-        "at": "2026-11-09T06:17:48.970Z"
+        "at": "2026-11-09T14:19:10.267Z"
       }
     }
   },
@@ -213,25 +213,6 @@
       "isReply": false,
       "origin": "https://mastodon.online/@veronica/117580939532176453",
       "media": "image: The loading screen of World of Warcraft Forever, showing an elf with dark hair and pig tails, dressed in simple and a litt skimpy mail armour.",
-      "firstSeen": "2026-11-08T13:18:18.145Z"
-    },
-    "https://mastodon.social/@s3rvant@fosstodon.org/117579296475175893": {
-      "uri": "https://mastodon.social/@s3rvant@fosstodon.org/117579296475175893",
-      "url": "https://mastodon.social/@s3rvant@fosstodon.org/117579296475175893",
-      "handle": "s3rvant@fosstodon.org",
-      "name": "David",
-      "text": "I got to play SO many games today! 🤓 It's been a long, long while since I was able to dedicate multiple hours like this AND got to play with younger kiddos, teens and adults across a few different sessions 😊 Also all of today's games were new to me! We played: 1x Herbcraft 3x Pyramido 1x Quicksand 3x Sea Salt & Paper See thread for my experience with each. 1/3 🧵 #boardgames #gaming",
-      "createdAt": "2026-11-08T06:01:21.000Z",
-      "likes": 1,
-      "replies": 1,
-      "group": "broadPlaying",
-      "query": "gaming",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://fosstodon.org/@s3rvant/117579296382791519",
-      "media": "image: Table with gaming mat and final pyramids for two players from the game Pyramido as well as their player pieces, scoring pad and pencil",
       "firstSeen": "2026-11-08T13:18:18.145Z"
     },
     "https://mastodon.social/@ouij/117582612535372780": {
@@ -370,7 +351,7 @@
       "name": "China.Gamer.Guy 神州电玩游士",
       "text": "No one expects...their boss's giant head!!! #VideoGames",
       "createdAt": "2026-11-08T14:35:06.897Z",
-      "likes": 2,
+      "likes": 3,
       "replies": 0,
       "group": "broadPlaying",
       "query": "videogames",
@@ -428,7 +409,7 @@
       "likes": 2,
       "replies": 3,
       "group": "broadPlaying",
-      "query": "games",
+      "query": "rpg",
       "score": 7,
       "question": true,
       "heated": false,
@@ -447,7 +428,7 @@
       "likes": 10,
       "replies": 0,
       "group": "broadPlaying",
-      "query": "games",
+      "query": "pcgaming",
       "score": 5,
       "question": false,
       "heated": false,
@@ -569,25 +550,6 @@
       "media": null,
       "firstSeen": "2026-11-09T06:17:48.970Z"
     },
-    "https://mastodon.social/@renwillis@mstdn.social/117584208410899633": {
-      "uri": "https://mastodon.social/@renwillis@mstdn.social/117584208410899633",
-      "url": "https://mastodon.social/@renwillis@mstdn.social/117584208410899633",
-      "handle": "renwillis@mstdn.social",
-      "name": "ren (a they/them) 🌈🎶",
-      "text": "Chapter 3 continues! Trails in the Sky 1st Chapter #trailsinthesky #jrpg #gaming #videogames",
-      "createdAt": "2026-11-09T02:50:30.000Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "videogames",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://mstdn.social/@renwillis/117584208212646623",
-      "media": "4 images: Screenshot from Trails in the Sky 1st Chapter / Screenshot from Trails in the Sky 1st Chapter / Screenshot from Trails in the Sky 1st Chapter / Screenshot from Trails in the Sky 1st Chapter",
-      "firstSeen": "2026-11-09T06:17:48.970Z"
-    },
     "https://mastodon.social/@sieffreplays/117583414881352460": {
       "uri": "https://mastodon.social/@sieffreplays/117583414881352460",
       "url": "https://mastodon.social/@sieffreplays/117583414881352460",
@@ -631,11 +593,11 @@
       "name": "Marcus Adams",
       "text": "Man, #AMD FSR has gotten \"really\" good. It's finally good enough that I don't mind using it to run games internally at lower resolutions so I can turn on ray tracing and still keep a consistent 60 fps. Here's some screenshots with the resolution in alt text. The game is set to all high. The non-FSR screenshots are using TSR anti-aliasing. The shadows and such may be slightly different in these because of cloud and character movement. #Gaming #PCGaming",
       "createdAt": "2026-11-09T04:24:33.516Z",
-      "likes": 2,
+      "likes": 3,
       "replies": 2,
       "group": "broadPlaying",
       "query": "pcgaming",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -650,10 +612,10 @@
       "text": "[Discussion] Do you have games in your library that you never played? https://lemmy.ml/post/55086708",
       "createdAt": "2026-11-09T05:02:26.008Z",
       "likes": 0,
-      "replies": 4,
+      "replies": 14,
       "group": "broadPlaying",
       "query": "gaming",
-      "score": 7,
+      "score": 6,
       "question": true,
       "heated": false,
       "isReply": false,
@@ -679,6 +641,191 @@
       "origin": "https://mas.to/@iamdtms/117583148713628526",
       "media": null,
       "firstSeen": "2026-11-09T06:17:48.970Z"
+    },
+    "https://mastodon.social/@pitcrewgg/117585523713408567": {
+      "uri": "https://mastodon.social/@pitcrewgg/117585523713408567",
+      "url": "https://mastodon.social/@pitcrewgg/117585523713408567",
+      "handle": "pitcrewgg@mastodon.social",
+      "name": "PitCrew",
+      "text": "🔄 Steam Frame - Client and OS 0.5.8 Beta Steam Client Beta fixes Cloud Sync conflicts and Gyro to Joystick Power Curve, updates Steam Frame with Room View OpenXR blending, and SteamVR 2.19.2. 1/2 #SteamFrame #SteamOS #Linux #LinuxGaming #PCGaming #Steam #ValveSoftware #OpenXR #SteamVR #VirtualReality #VR",
+      "createdAt": "2026-11-09T08:25:03.149Z",
+      "likes": 1,
+      "replies": 1,
+      "group": "deck",
+      "query": "steamos",
+      "score": 7,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image, no description",
+      "firstSeen": "2026-11-09T14:19:10.267Z"
+    },
+    "https://mastodon.social/@pitcrewgg/117586298972587446": {
+      "uri": "https://mastodon.social/@pitcrewgg/117586298972587446",
+      "url": "https://mastodon.social/@pitcrewgg/117586298972587446",
+      "handle": "pitcrewgg@mastodon.social",
+      "name": "PitCrew",
+      "text": "🔄 openOMSI - Version 0.3.52 openOMSI 0.3.52 stable release adds DLSS and FSR 3 upscaling, remote cockpit, snow on roads and roofs, depot buses, expanded multiplayer and fixes across platforms 1/2 #openOMSI #OMSI2 #BusSim #Linux #LinuxGaming #PCGaming #FreeTrack #HeadTracking",
+      "createdAt": "2026-11-09T11:42:12.668Z",
+      "likes": 1,
+      "replies": 1,
+      "group": "practical",
+      "query": "linuxgaming",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image, no description",
+      "firstSeen": "2026-11-09T14:19:10.267Z"
+    },
+    "https://mastodon.social/@crystalsnake00@app.wafrn.net/117586753714042627": {
+      "uri": "https://mastodon.social/@crystalsnake00@app.wafrn.net/117586753714042627",
+      "url": "https://mastodon.social/@crystalsnake00@app.wafrn.net/117586753714042627",
+      "handle": "crystalsnake00@app.wafrn.net",
+      "name": "crystalsnake00",
+      "text": "One of my favorite things i did when playing Ace Attorney was reading some of Franziska's lines in German (with my VERY limited knowledge of German), pretending she's from Düsseldorf (mainly because it sounds like a very stereotypical name for a German town) and also throwing in some music references (Du Hast by Rammstein, and 99 Luftballons by Nena) #Ace-Attorney #videogames #gaming #funny #German-language #Rammstein #99-Luftballons",
+      "createdAt": "2026-11-09T13:37:50.549Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "videogames",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://app.wafrn.net/fediverse/post/01a1c087-89d4-738d-ad8f-6981b984e522",
+      "media": null,
+      "firstSeen": "2026-11-09T14:19:10.267Z"
+    },
+    "https://mastodon.social/@crystalsnake00@app.wafrn.net/117586684709690134": {
+      "uri": "https://mastodon.social/@crystalsnake00@app.wafrn.net/117586684709690134",
+      "url": "https://mastodon.social/@crystalsnake00@app.wafrn.net/117586684709690134",
+      "handle": "crystalsnake00@app.wafrn.net",
+      "name": "crystalsnake00",
+      "text": "Stop making remasters. Let games be ugly #Videogames #gaming #remaster",
+      "createdAt": "2026-11-09T13:20:16.975Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "videogames",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://app.wafrn.net/fediverse/post/01a1c077-764f-7681-92e8-dfe52fad8a21",
+      "media": null,
+      "firstSeen": "2026-11-09T14:19:10.267Z"
+    },
+    "https://mastodon.social/@MartinTale/117585663413880068": {
+      "uri": "https://mastodon.social/@MartinTale/117585663413880068",
+      "url": "https://mastodon.social/@MartinTale/117585663413880068",
+      "handle": "MartinTale@mastodon.social",
+      "name": "Martin Tale 🥶🐌",
+      "text": "Everyone is playing WoW Forever 🐉 My timeline is so full of it that I start to feel like I'm missing out 😅 #WorldOfWarcraft #WoW #Gaming #VideoGames #PCGaming #WoWForever #MMORPG #Warcraft #MMO #Blizzard #WoWClassic #FOMO",
+      "createdAt": "2026-11-09T09:00:34.822Z",
+      "likes": 4,
+      "replies": 2,
+      "group": "broadPlaying",
+      "query": "videogames",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": null,
+      "firstSeen": "2026-11-09T14:19:10.267Z"
+    },
+    "https://mastodon.social/@pixelshelf/117586842833871450": {
+      "uri": "https://mastodon.social/@pixelshelf/117586842833871450",
+      "url": "https://mastodon.social/@pixelshelf/117586842833871450",
+      "handle": "pixelshelf@mastodon.social",
+      "name": "PixelShelf",
+      "text": "Grand Theft Auto VI - 10 days until release! Have you taken the day off for it? Comment below. Every game you own, in one library. #GTAVI #gamecollection #gaming",
+      "createdAt": "2026-11-09T14:00:31.340Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "gaming",
+      "score": 8,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "media": "video: GTA 6 Logo with 10 days to go. PixelShelf logo at bottom",
+      "firstSeen": "2026-11-09T14:19:10.267Z"
+    },
+    "https://mastodon.social/@Zerush@lemmy.ml/117586764549613213": {
+      "uri": "https://mastodon.social/@Zerush@lemmy.ml/117586764549613213",
+      "url": "https://mastodon.social/@Zerush@lemmy.ml/117586764549613213",
+      "handle": "Zerush@lemmy.ml",
+      "name": "",
+      "text": "Can you fit a whole game into a QR code? - HackerTube https://lemmy.ml/post/55100894",
+      "createdAt": "2026-11-09T13:40:09.554Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "gaming",
+      "score": 8,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://lemmy.ml/post/55100894",
+      "media": "link card: Can you fit a whole game into a QR code? - HackerTube",
+      "firstSeen": "2026-11-09T14:19:10.267Z"
+    },
+    "https://mastodon.social/@coinkedpath.wordpress.com@coinkedpath.wordpress.com/117586432084918576": {
+      "uri": "https://mastodon.social/@coinkedpath.wordpress.com@coinkedpath.wordpress.com/117586432084918576",
+      "url": "https://mastodon.social/@coinkedpath.wordpress.com@coinkedpath.wordpress.com/117586432084918576",
+      "handle": "coinkedpath.wordpress.com@coinkedpath.wordpress.com",
+      "name": "coinkedpath",
+      "text": "A molded look In today’s twisted saying. The cage that is shaking ends with the new store string of the yegg that is played on the store speaker. How does the next twist the strings? Enjoy the game. https://inkedpath.com/yegg-wording-change/ https://coinkedpath.wordpress.com/2026/11/09/a-molded-look/",
+      "createdAt": "2026-11-09T12:15:49.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "gaming",
+      "score": 8,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://coinkedpath.wordpress.com/2026/11/09/a-molded-look/",
+      "media": "3 images: A set of three game pieces labeled perplexed is called the scribbles. The set of three game pieces is for spot-the-difference. / A set of three game pieces labeled perplexed is called the scribbles. The set of three game pieces is for spot-the-difference. / A set of three game pieces labeled perplexed is called the scribbles. The set of three game pieces is for spot-the-difference.",
+      "firstSeen": "2026-11-09T14:19:10.267Z"
+    },
+    "https://mastodon.social/@astrariumdigital/117585900387383803": {
+      "uri": "https://mastodon.social/@astrariumdigital/117585900387383803",
+      "url": "https://mastodon.social/@astrariumdigital/117585900387383803",
+      "handle": "astrariumdigital@mastodon.social",
+      "name": "Astrarium Digital",
+      "text": "A simple but addictive game, masking a story of tragic inevitability... ☄️ In space! 🪐 #Buy Orbital on #Steam right now! #play the amazing #demo to get you started! #marketingmonday #indie #game #pc #2d #scifi #infiniterunner",
+      "createdAt": "2026-11-09T10:00:50.739Z",
+      "likes": 1,
+      "replies": 1,
+      "group": "broadPlaying",
+      "query": "steam",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "3 images, no description",
+      "firstSeen": "2026-11-09T14:19:10.267Z"
+    },
+    "https://mastodon.social/@migtorr@mastodon.org.uk/117585658371050824": {
+      "uri": "https://mastodon.social/@migtorr@mastodon.org.uk/117585658371050824",
+      "url": "https://mastodon.social/@migtorr@mastodon.org.uk/117585658371050824",
+      "handle": "migtorr@mastodon.org.uk",
+      "name": "Miguel Torrellas",
+      "text": "Mastonauts, any hint on which controllers to buy? I want 4 travel controllers with different solid colour each just like N64 ones, not horribly themed or transparent, and with xbox layout. Already checked #8bitdo, #hori and #iine sites. #steam #xbox #playstation #nintendo",
+      "createdAt": "2026-11-09T08:59:15.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "steam",
+      "score": 8,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://mastodon.org.uk/@migtorr/117585658188511826",
+      "media": "3 images, no description",
+      "firstSeen": "2026-11-09T14:19:10.267Z"
     }
   }
 }
