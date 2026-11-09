@@ -1,70 +1,10 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-11-08T16:55:37.070Z",
-  "builtBy": "commit 9bd175c, schedule, run #40 attempt 1",
-  "pricesCheckedAt": "2026-11-08T16:13:28.063Z",
+  "generatedAt": "2026-11-09T21:18:42.580Z",
+  "builtBy": "commit 590022b, schedule, run #41 attempt 1",
+  "pricesCheckedAt": "2026-11-09T19:58:03.519Z",
   "warnings": [],
   "candidates": [
-    {
-      "id": "gog-this-war-of-mine",
-      "kind": "deal",
-      "title": "This War of Mine",
-      "store": "GOG",
-      "price": 2.99,
-      "was": 19.99,
-      "discount": 85,
-      "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 183,
-      "priceCheckedAt": "2026-11-08T16:13:28.063Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
-      "drminfo": null,
-      "coverAlt": "Cover art for This War of Mine",
-      "facts": {
-        "year": 2014,
-        "genres": [
-          "Action",
-          "Adventure",
-          "Survival"
-        ],
-        "tags": [
-          "Adventure",
-          "Action",
-          "Indie",
-          "Story Rich",
-          "Atmospheric",
-          "Choices Matter",
-          "Management",
-          "Survival",
-          "Resource Management",
-          "Real-Time",
-          "War",
-          "Crafting",
-          "Base Building",
-          "Emotional",
-          "Post-apocalyptic",
-          "Stealth",
-          "Psychological"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 10.5,
-      "discountRank": 3,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 21,
-        "lowest": true,
-        "since": "2026-10-19"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-08",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "lowest price we've tracked (21 days of data)",
-        "deepest-discount rank 3 of 5"
-      ]
-    },
     {
       "id": "gog-metro-exodus",
       "kind": "deal",
@@ -74,8 +14,8 @@
       "was": 29.99,
       "discount": 90,
       "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 183,
-      "priceCheckedAt": "2026-11-08T16:13:28.063Z",
+      "endsInHours": 155,
+      "priceCheckedAt": "2026-11-09T19:58:03.519Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804",
       "drminfo": null,
       "coverAlt": "Cover art for Metro Exodus",
@@ -113,15 +53,15 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 22,
+        "days": 23,
         "lowest": true,
         "since": "2026-10-18"
       },
       "offeredOn": "2026-11-05",
-      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-08",
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-09",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (22 days of data)",
+        "lowest price we've tracked (23 days of data)",
         "deepest-discount rank 1 of 5"
       ]
     },
@@ -134,8 +74,8 @@
       "was": 39.99,
       "discount": 90,
       "endsAt": "2026-11-13T09:59:00+02:00",
-      "endsInHours": 111,
-      "priceCheckedAt": "2026-11-08T16:13:28.063Z",
+      "endsInHours": 83,
+      "priceCheckedAt": "2026-11-09T19:58:03.519Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
       "drminfo": null,
       "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
@@ -172,16 +112,76 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 30,
+        "days": 31,
         "lowest": true,
         "since": "2026-10-07"
       },
       "offeredOn": "2026-11-07",
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-08",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-09",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (30 days of data)",
+        "lowest price we've tracked (31 days of data)",
         "deepest-discount rank 2 of 5"
+      ]
+    },
+    {
+      "id": "gog-this-war-of-mine",
+      "kind": "deal",
+      "title": "This War of Mine",
+      "store": "GOG",
+      "price": 2.99,
+      "was": 19.99,
+      "discount": 85,
+      "endsAt": "2026-11-16T09:59:00+02:00",
+      "endsInHours": 155,
+      "priceCheckedAt": "2026-11-09T19:58:03.519Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
+      "drminfo": null,
+      "coverAlt": "Cover art for This War of Mine",
+      "facts": {
+        "year": 2014,
+        "genres": [
+          "Action",
+          "Adventure",
+          "Survival"
+        ],
+        "tags": [
+          "Adventure",
+          "Action",
+          "Indie",
+          "Story Rich",
+          "Atmospheric",
+          "Choices Matter",
+          "Management",
+          "Survival",
+          "Resource Management",
+          "Real-Time",
+          "War",
+          "Crafting",
+          "Base Building",
+          "Emotional",
+          "Post-apocalyptic",
+          "Stealth",
+          "Psychological"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 2.5,
+      "discountRank": 3,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 22,
+        "lowest": true,
+        "since": "2026-10-19"
+      },
+      "offeredOn": "2026-11-08",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-09",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "lowest price we've tracked (22 days of data)",
+        "deepest-discount rank 3 of 5"
       ]
     },
     {
@@ -193,8 +193,8 @@
       "was": 24.99,
       "discount": 85,
       "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 183,
-      "priceCheckedAt": "2026-11-08T16:13:28.063Z",
+      "endsInHours": 155,
+      "priceCheckedAt": "2026-11-09T19:58:03.519Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187",
       "drminfo": null,
       "coverAlt": "Cover art for Darkest Dungeon",
@@ -230,15 +230,15 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 30,
+        "days": 31,
         "lowest": true,
         "since": "2026-10-07"
       },
       "offeredOn": "2026-11-03",
-      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-08",
+      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-09",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (30 days of data)",
+        "lowest price we've tracked (31 days of data)",
         "deepest-discount rank 4 of 5"
       ]
     },
@@ -251,8 +251,8 @@
       "was": 19.99,
       "discount": 75,
       "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 183,
-      "priceCheckedAt": "2026-11-08T16:13:28.063Z",
+      "endsInHours": 155,
+      "priceCheckedAt": "2026-11-09T19:58:03.519Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
       "drminfo": null,
       "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
@@ -284,103 +284,70 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 30,
+        "days": 31,
         "lowest": true,
         "since": "2026-10-07"
       },
       "offeredOn": "2026-11-06",
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-08",
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-09",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (30 days of data)",
+        "lowest price we've tracked (31 days of data)",
         "deepest-discount rank 5 of 5"
       ]
     }
   ],
-  "gogNews": [],
-  "topical": [
+  "gogNews": [
     {
-      "title": "Steam Point-and-Click Showcase Super Bundle: Get 8 Adventure Games for $30.14 – Save 73%",
-      "source": "Indie Game Bundles",
-      "link": "https://www.indiegamebundles.com/steam-point-and-click-showcase-super-bundle-get-8-adventure-games-for-30-14-save-73/",
-      "t": 1794137848000,
-      "keyword": "bundle",
-      "summary": "Steam has launched the Point-and-Click Showcase: Super Bundle, featuring 8 adventure and puzzle games for just $30.14 (€29.62), saving up to 73% off their comb…"
+      "title": "Release: Rail Route - Expect Delays",
+      "game": "rail_route",
+      "url": "https://www.gog.com/en/game/rail_route",
+      "newsLink": "http://www.gog.com/news/release_rail_route_expect_delays",
+      "t": 1794220190000,
+      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Frail_route"
     },
     {
-      "title": "The 50 best Steam deals this week (November 2–8) to check before they're gone",
-      "source": "gg.deals News",
-      "link": "https://gg.deals/deal/the-50-best-steam-deals-this-week-november-2-8-to-check-before-theyre-gone/",
-      "t": 1794132060000,
-      "keyword": "deals",
-      "summary": "A big wave of sales is on its way with with this week's top Steam deals."
+      "title": "Release: Moldwasher",
+      "game": "moldwasher",
+      "url": "https://www.gog.com/en/game/moldwasher",
+      "newsLink": "http://www.gog.com/news/release_moldwasher",
+      "t": 1794189874000,
+      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fmoldwasher"
+    },
+    {
+      "title": "Release: Dwarf Eats Mountain",
+      "game": "dwarf_eats_mountain",
+      "url": "https://www.gog.com/en/game/dwarf_eats_mountain",
+      "newsLink": "http://www.gog.com/news/release_dwarf_eats_mountain",
+      "t": 1794189771000,
+      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fdwarf_eats_mountain"
+    }
+  ],
+  "topical": [
+    {
+      "title": "Hollow Knight Silksong physical editions mention multiple \"free content packs\" incoming, and call Sea of Sorrow a \"giant expansion\"",
+      "source": "Eurogamer",
+      "link": "https://www.eurogamer.net/hollow-knight-silksong-physical-free-content-packs-sea-of-sorrow",
+      "t": 1794246670000,
+      "keyword": "free",
+      "summary": "More than a year after its initial release, physical versions of Hollow Knight: Silksong are finally arriving on players' doorsteps. It's the same brilliant an…"
+    },
+    {
+      "title": "Another Itch.io freebie! This time, horror-comedy House Call is FREE to claim and keep!",
+      "source": "gg.deals Freebies",
+      "link": "https://gg.deals/freebie/another-itchio-freebie-this-time-horror-comedy-house-call-is-free-to-claim-and-keep/",
+      "t": 1794246420000,
+      "keyword": "free",
+      "summary": "You'll finish the job, even if it's the last thing you do."
     }
   ],
   "topics": [
     {
-      "headline": "Humble Unhinged & Unsettling Visual Novels Bundle: 11 Steam Games for Just $12",
-      "score": 10,
-      "sites": [
-        "gg.deals",
-        "indiegamebundles.com"
-      ],
-      "keywords": [
-        "bundle",
-        "humble"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "Humble’s Unhinged & Unsettling Visual Novels Bundle serves up a collection of twisted tales",
-          "link": "https://gg.deals/bundle/humbles-unhinged-unsettling-visual-novels-bundle-serves-up-a-collection-of-twisted-tales/",
-          "published": "2026-11-06T19:22:00.000Z"
-        },
-        {
-          "source": "Indie Game Bundles",
-          "title": "Humble Unhinged & Unsettling Visual Novels Bundle: 11 Steam Games for Just $12",
-          "link": "https://www.indiegamebundles.com/humble-unhinged-unsettling-visual-novels-bundle-11-steam-games-for-just-12/",
-          "published": "2026-11-07T16:18:40.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "After Star Wars Zero Company dev Bit Reactor brought back an unspecified number of furloughed devs, some of those who weren't have seemingly been laid off",
-      "score": 9,
-      "sites": [
-        "pcgamer.com",
-        "rockpapershotgun.com",
-        "eurogamer.net"
-      ],
-      "keywords": [],
-      "games": [],
-      "items": [
-        {
-          "source": "PC Gamer",
-          "title": "After furloughing its developers and then hiring some of them back, Star Wars Zero Company developer has laid off an unspecified number of staff",
-          "link": "https://www.pcgamer.com/games/strategy/after-furloughing-its-developers-and-then-hiring-some-of-them-back-star-wars-zero-company-developer-has-laid-off-an-unspecified-number-of-staff/",
-          "published": "2026-11-07T12:18:55.000Z"
-        },
-        {
-          "source": "Rock Paper Shotgun",
-          "title": "After Star Wars Zero Company dev Bit Reactor brought back an unspecified number of furloughed devs, some of those who weren't have seemingly been laid off",
-          "link": "https://www.rockpapershotgun.com/after-star-wars-zero-company-dev-bit-reactor-brought-back-an-unspecified-number-of-furloughed-devs-some-of-those-who-werent-have-seemingly-been-laid-off",
-          "published": "2026-11-07T16:57:30.000Z"
-        },
-        {
-          "source": "Eurogamer",
-          "title": "Star Wars Zero Company studio Bit Reactor lays off staff, a month after bringing furloughed developers back",
-          "link": "https://www.eurogamer.net/star-wars-zero-company-bit-reactor-layoffs",
-          "published": "2026-11-07T20:06:10.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "New FREE games this weekend (November 7-8, 2026): your comprehensive roundup",
+      "headline": "Call of Duty: Modern Warfare 4 - DMZ Free Trial is still live this week",
       "score": 8,
       "sites": [
         "gg.deals",
-        "indiegamebundles.com"
+        "eurogamer.net"
       ],
       "keywords": [
         "free"
@@ -389,46 +356,46 @@
       "items": [
         {
           "source": "gg.deals Freebies",
-          "title": "New FREE games this weekend (November 7-8, 2026): your comprehensive roundup",
-          "link": "https://gg.deals/freebie/new-free-games-this-weekend-november-7-8-2026-your-comprehensive-roundup/",
-          "published": "2026-11-07T15:31:00.000Z"
+          "title": "Call of Duty: Modern Warfare 4 - DMZ Free Trial is still live this week",
+          "link": "https://gg.deals/freebie/call-of-duty-modern-warfare-4-dmz-free-trial-is-still-live-this-week/",
+          "published": "2026-11-09T10:11:07.000Z"
         },
         {
           "source": "gg.deals News",
-          "title": "New FREE games this weekend (November 7-8, 2026): your comprehensive roundup",
-          "link": "https://gg.deals/freebie/new-free-games-this-weekend-november-7-8-2026-your-comprehensive-roundup/",
-          "published": "2026-11-07T15:31:00.000Z"
+          "title": "Call of Duty: Modern Warfare 4 - DMZ Free Trial is still live this week",
+          "link": "https://gg.deals/freebie/call-of-duty-modern-warfare-4-dmz-free-trial-is-still-live-this-week/",
+          "published": "2026-11-09T10:11:07.000Z"
         },
         {
-          "source": "Indie Game Bundles",
-          "title": "Free Games with Amazon Luna November 2026",
-          "link": "https://www.indiegamebundles.com/free-games-with-amazon-luna-november-2026/",
-          "published": "2026-11-08T16:45:25.000Z"
+          "source": "Eurogamer",
+          "title": "COD: Modern Warfare 4 gets a surprisingly sudden free trial, so you can see what the game's extraction mode DMZ is like",
+          "link": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-dmz-free-trial-november",
+          "published": "2026-11-09T09:24:10.000Z"
         }
       ]
     },
     {
-      "headline": "Humble Non Non Nonograms Bundle: Get 13 Steam Puzzle Games for Just $10",
+      "headline": "Steam's World War I Remembrance Day Sale 2026 doesn't question the price of war",
       "score": 7,
       "sites": [
-        "indiegamebundles.com"
+        "gg.deals"
       ],
       "keywords": [
-        "bundle",
-        "humble"
+        "sale",
+        "price"
       ],
       "games": [],
       "items": [
         {
-          "source": "Indie Game Bundles",
-          "title": "Humble Non Non Nonograms Bundle: Get 13 Steam Puzzle Games for Just $10",
-          "link": "https://www.indiegamebundles.com/humble-non-non-nonograms-bundle-get-13-steam-puzzle-games-for-just-10/",
-          "published": "2026-11-08T10:40:09.000Z"
+          "source": "gg.deals News",
+          "title": "Steam's World War I Remembrance Day Sale 2026 doesn't question the price of war",
+          "link": "https://gg.deals/deal/steams-world-war-i-remembrance-day-sale-2026-doesnt-question-the-price-of-war/",
+          "published": "2026-11-09T20:46:00.000Z"
         }
       ]
     },
     {
-      "headline": "Humble’s new bundle puts your brain through the wringer with 13 nonogram puzzles",
+      "headline": "Humble's The Alawar Collection Bundle gets you 20 games for $10",
       "score": 7,
       "sites": [
         "gg.deals"
@@ -441,9 +408,49 @@
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Humble’s new bundle puts your brain through the wringer with 13 nonogram puzzles",
-          "link": "https://gg.deals/bundle/humbles-new-bundle-puts-your-brain-through-the-wringer-with-13-nonogram-puzzles/",
-          "published": "2026-11-06T19:51:12.000Z"
+          "title": "Humble's The Alawar Collection Bundle gets you 20 games for $10",
+          "link": "https://gg.deals/bundle/humbles-the-alawar-collection-bundle-gets-you-20-games-for-10/",
+          "published": "2026-11-09T19:49:24.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Steam Weeklong Sale returns in full force with nearly 3,000 deals and up to 95% off",
+      "score": 7,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "sale",
+        "deals"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Steam Weeklong Sale returns in full force with nearly 3,000 deals and up to 95% off",
+          "link": "https://gg.deals/deal/steam-weeklong-sale-returns-in-full-force-with-nearly-3000-deals-and-up-to-95-off/",
+          "published": "2026-11-09T18:53:00.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "The latest batch of Gamesplanet Steam key deals bring hundreds of deep discounts to explore!",
+      "score": 7,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "discounts",
+        "deals"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "The latest batch of Gamesplanet Steam key deals bring hundreds of deep discounts to explore!",
+          "link": "https://gg.deals/deal/the-latest-batch-of-gamesplanet-steam-key-deals-bring/",
+          "published": "2026-11-09T13:40:00.000Z"
         }
       ]
     }
@@ -466,25 +473,25 @@
   },
   "posts": {
     "x": {
-      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nPrice checked Nov 8. Sale ends Nov 16. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-08\n\n#PCGaming #GameDeals\nAd",
-      "length": 165,
+      "text": "Metro Exodus: -90% at GOG\n$2.99 (was $29.99)\nPrice checked Nov 9. Sale ends Nov 16. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/metro-exodus/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-09\n\n#PCGaming #GOG\nAd",
+      "length": 155,
       "max": 270,
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-08",
-      "deal": "gog-this-war-of-mine"
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-09",
+      "deal": "gog-metro-exodus"
     },
     "bluesky": {
-      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nPrice checked Nov 8. Sale ends Nov 16. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-08\n\n#PCGaming #GameDeals #ThisWarOfMine #VideoGames #DRMFree\nAd",
-      "length": 203,
+      "text": "Metro Exodus: -90% at GOG\n$2.99 (was $29.99)\nPrice checked Nov 9. Sale ends Nov 16. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-09\n\n#PCGaming #GameDeals #Games #PCGames #GOG\nAd",
+      "length": 184,
       "max": 300,
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-08",
-      "deal": "gog-this-war-of-mine"
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-09",
+      "deal": "gog-metro-exodus"
     },
     "mastodon": {
-      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nYou save $17.00\nDRM-free\nPrice checked Nov 8. Sale ends Nov 16. Lowest price we've tracked.\nWhy today: deepest-discount rank 3 of 5.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-11-08\n\n#GameDeals #PCGaming #GOG #DRMFree #VideoGames\nAd",
-      "length": 257,
+      "text": "Metro Exodus: -90% at GOG\n$2.99 (was $29.99)\nYou save $27.00\nDRM-free\nPrice checked Nov 9. Sale ends Nov 16. Lowest price we've tracked.\nWhy today: deepest-discount rank 1 of 5.\n\nhttps://saveandplay.com/deals/gog/metro-exodus/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-11-09\n\n#GameDeals #PCGaming #GOG #DRMFree #MetroExodus\nAd",
+      "length": 254,
       "max": 500,
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-11-08",
-      "deal": "gog-this-war-of-mine"
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-11-09",
+      "deal": "gog-metro-exodus"
     }
   }
 }
