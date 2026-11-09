@@ -2399,6 +2399,64 @@
             "sig": "fc43dad43de5512c89b5ba4c70584a7bb5fcf8c64de8cdb9b590c968df4c00288f1be30cbda4b8d39d8245ece8132779d8a6112b0e47fc232d7c7c7c63318c8a"
           }
         }
+      },
+      "2026-11-09": {
+        "deal": {
+          "status": "done",
+          "kind": "deal",
+          "id": "6fdaef2c157c7c741dfc1d1cabe6d33454dc3898b9b7e015be4d1d177d367047",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "deal": "gog-metro-exodus",
+          "title": "Metro Exodus",
+          "postedAt": "2026-11-09T21:32:28.000Z",
+          "accepted": [
+            "wss://relay.damus.io",
+            "wss://relay.primal.net",
+            "wss://offchain.pub"
+          ],
+          "failed": [
+            {
+              "url": "wss://nos.lol",
+              "reason": "no answer (timeout)"
+            },
+            {
+              "url": "wss://nostr.mom",
+              "reason": "no answer (timeout)"
+            }
+          ],
+          "event": {
+            "kind": 1,
+            "created_at": 1794259948,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-deal"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804",
+                "m image/jpeg",
+                "alt Cover art for Metro Exodus"
+              ]
+            ],
+            "content": "Metro Exodus: -90% at GOG\n$2.99 (was $29.99)\nPrice checked 2026-11-09 19:58 UTC. Sale ends 2026-11-16 07:59 UTC.\nWhy today: lowest price we've tracked (23 days of data); deepest-discount rank 1 of 4.\nAd: we may earn a commission if you buy.\n\n#pcgaming #gamedeals\n\nhttps://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804\n\nhttps://saveandplay.com/deals/gog/metro-exodus/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-09",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "6fdaef2c157c7c741dfc1d1cabe6d33454dc3898b9b7e015be4d1d177d367047",
+            "sig": "340d13f93a9a81f8f9a4368db0f32aa37ceda64510a0f1e58e2efbb9c9439695b76ec20483b43790b611cbe7cb6b68807a462b9380ad0827e8d5644f6cda3aae"
+          }
+        }
       }
     }
   },
