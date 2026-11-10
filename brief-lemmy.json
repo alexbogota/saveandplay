@@ -1,49 +1,106 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-11-09T21:18:42.580Z",
-  "builtBy": "commit 590022b, schedule, run #41 attempt 1",
-  "pricesCheckedAt": "2026-11-09T19:58:03.519Z",
+  "generatedAt": "2026-11-10T18:29:16.491Z",
+  "builtBy": "commit 284624d, schedule, run #42 attempt 1",
+  "pricesCheckedAt": "2026-11-10T17:13:47.835Z",
   "warnings": [],
   "candidates": [
     {
-      "id": "gog-metro-exodus",
+      "id": "gog-darkest-dungeon",
       "kind": "deal",
-      "title": "Metro Exodus",
+      "title": "Darkest Dungeon",
       "store": "GOG",
-      "price": 2.99,
-      "was": 29.99,
-      "discount": 90,
+      "price": 3.75,
+      "was": 24.99,
+      "discount": 85,
       "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 155,
-      "priceCheckedAt": "2026-11-09T19:58:03.519Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804",
+      "endsInHours": 133,
+      "priceCheckedAt": "2026-11-10T17:13:47.835Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187",
       "drminfo": null,
-      "coverAlt": "Cover art for Metro Exodus",
+      "coverAlt": "Cover art for Darkest Dungeon",
       "facts": {
-        "year": 2019,
+        "year": 2016,
         "genres": [
-          "Shooter",
-          "FPP",
-          "Sci-fi"
+          "Role-playing",
+          "Turn-based",
+          "Fantasy"
         ],
         "tags": [
-          "Story Rich",
+          "Indie",
+          "Fantasy",
           "Atmospheric",
-          "Sci-fi",
-          "First-Person",
-          "Science",
+          "Role-playing",
+          "2D",
+          "Turn-Based",
+          "Dark",
           "Horror",
-          "Mature",
-          "Nudity",
+          "Difficult",
+          "Roguelike",
+          "Roguelite",
+          "Dungeon Crawler",
+          "Lovecraftian",
+          "Perma Death",
+          "Petting Dogs"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 10.5,
+      "discountRank": 3,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 32,
+        "lowest": true,
+        "since": "2026-10-07"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-10",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "lowest price we've tracked (32 days of data)",
+        "deepest-discount rank 3 of 3"
+      ]
+    },
+    {
+      "id": "gog-shadow-tactics-blades-of-the-shogun",
+      "kind": "deal",
+      "title": "Shadow Tactics: Blades of the Shogun",
+      "store": "GOG",
+      "price": 3.99,
+      "was": 39.99,
+      "discount": 90,
+      "endsAt": "2026-11-13T09:59:00+02:00",
+      "endsInHours": 61,
+      "priceCheckedAt": "2026-11-10T17:13:47.835Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
+      "drminfo": null,
+      "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
+      "facts": {
+        "year": 2016,
+        "genres": [
+          "Strategy",
+          "Real-time",
+          "Stealth"
+        ],
+        "tags": [
+          "Indie",
+          "Atmospheric",
+          "Strategy",
+          "Puzzle",
+          "Great Soundtrack",
+          "Tactical",
+          "Third Person",
+          "Historical",
           "Survival",
           "Violent",
-          "Gore",
-          "FPS",
-          "Shooter",
-          "Post-apocalyptic",
+          "Real-Time",
+          "Difficult",
+          "Isometric",
+          "RTS",
           "Stealth",
-          "Survival Horror",
-          "Psychological Horror"
+          "Ninja"
         ]
       },
       "marketplace": false,
@@ -53,16 +110,16 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 23,
+        "days": 32,
         "lowest": true,
-        "since": "2026-10-18"
+        "since": "2026-10-07"
       },
-      "offeredOn": "2026-11-05",
-      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-09",
+      "offeredOn": "2026-11-07",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-10",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (23 days of data)",
-        "deepest-discount rank 1 of 4"
+        "lowest price we've tracked (32 days of data)",
+        "deepest-discount rank 1 of 3"
       ]
     },
     {
@@ -74,8 +131,8 @@
       "was": 19.99,
       "discount": 85,
       "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 155,
-      "priceCheckedAt": "2026-11-09T19:58:03.519Z",
+      "endsInHours": 133,
+      "priceCheckedAt": "2026-11-10T17:13:47.835Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
       "drminfo": null,
       "coverAlt": "Cover art for This War of Mine",
@@ -113,151 +170,82 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 22,
+        "days": 23,
         "lowest": true,
         "since": "2026-10-19"
       },
       "offeredOn": "2026-11-08",
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-09",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-10",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (22 days of data)",
-        "deepest-discount rank 2 of 4"
-      ]
-    },
-    {
-      "id": "gog-darkest-dungeon",
-      "kind": "deal",
-      "title": "Darkest Dungeon",
-      "store": "GOG",
-      "price": 3.75,
-      "was": 24.99,
-      "discount": 85,
-      "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 155,
-      "priceCheckedAt": "2026-11-09T19:58:03.519Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187",
-      "drminfo": null,
-      "coverAlt": "Cover art for Darkest Dungeon",
-      "facts": {
-        "year": 2016,
-        "genres": [
-          "Role-playing",
-          "Turn-based",
-          "Fantasy"
-        ],
-        "tags": [
-          "Indie",
-          "Fantasy",
-          "Atmospheric",
-          "Role-playing",
-          "2D",
-          "Turn-Based",
-          "Dark",
-          "Horror",
-          "Difficult",
-          "Roguelike",
-          "Roguelite",
-          "Dungeon Crawler",
-          "Lovecraftian",
-          "Perma Death",
-          "Petting Dogs"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 2.5,
-      "discountRank": 3,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 31,
-        "lowest": true,
-        "since": "2026-10-07"
-      },
-      "offeredOn": "2026-11-03",
-      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-09",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "lowest price we've tracked (31 days of data)",
-        "deepest-discount rank 3 of 4"
-      ]
-    },
-    {
-      "id": "gog-simcity-4-deluxe-edition",
-      "kind": "deal",
-      "title": "SimCity 4 Deluxe Edition",
-      "store": "GOG",
-      "price": 4.99,
-      "was": 19.99,
-      "discount": 75,
-      "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 155,
-      "priceCheckedAt": "2026-11-09T19:58:03.519Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
-      "drminfo": null,
-      "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
-      "facts": {
-        "year": 2003,
-        "genres": [
-          "Simulation",
-          "Building",
-          "Managerial"
-        ],
-        "tags": [
-          "Atmospheric",
-          "Simulation",
-          "Classic",
-          "Great Soundtrack",
-          "Management",
-          "Sandbox",
-          "Real-Time",
-          "Isometric",
-          "Building",
-          "Managerial",
-          "City builder"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 1.5,
-      "discountRank": 4,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 31,
-        "lowest": true,
-        "since": "2026-10-07"
-      },
-      "offeredOn": "2026-11-06",
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-09",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "lowest price we've tracked (31 days of data)",
-        "deepest-discount rank 4 of 4"
+        "lowest price we've tracked (23 days of data)",
+        "deepest-discount rank 2 of 3"
       ]
     }
   ],
   "gogNews": [],
   "topical": [
     {
-      "title": "Hollow Knight Silksong physical editions mention multiple \"free content packs\" incoming, and call Sea of Sorrow a \"giant expansion\"",
-      "source": "Eurogamer",
-      "link": "https://www.eurogamer.net/hollow-knight-silksong-physical-free-content-packs-sea-of-sorrow",
-      "t": 1794246670000,
+      "title": "Grab Sadball FREE on Steam before it slides into the gutter!",
+      "source": "gg.deals Freebies",
+      "link": "https://gg.deals/freebie/grab-sadball-free-on-steam-before-it-slides-into-the-gutter/",
+      "t": 1794332640000,
       "keyword": "free",
-      "summary": "More than a year after its initial release, physical versions of Hollow Knight: Silksong are finally arriving on players' doorsteps. It's the same brilliant an…"
+      "summary": "This free-to-play title will be delisted from Steam soon, but you'll be able to keep playing as long as it's in your library."
     },
     {
-      "title": "Another Itch.io freebie! This time, horror-comedy House Call is FREE to claim and keep!",
+      "title": "Green Man Gaming Girls Just Wanna Have Guns Bundle: 6 Steam Games Including Control and Skin Deep for $15",
+      "source": "Indie Game Bundles",
+      "link": "https://www.indiegamebundles.com/green-man-gaming-girls-just-wanna-have-guns-bundle/",
+      "t": 1794331473000,
+      "keyword": "bundle",
+      "summary": "Highlights include Control Ultimate Edition, Skin Deep, Nightmare Reaper, Wanted: Dead, and Severed Steel. The post Green Man Gaming Girls Just Wanna Have Guns…"
+    },
+    {
+      "title": "Raccoin’s FREE Chaos Max DLC is out on Steam, arriving alongside the coin-pushing roguelike’s console launch",
       "source": "gg.deals Freebies",
-      "link": "https://gg.deals/freebie/another-itchio-freebie-this-time-horror-comedy-house-call-is-free-to-claim-and-keep/",
-      "t": 1794246420000,
+      "link": "https://gg.deals/freebie/raccoins-free-chaos-max-dlc-is-out-on-steam-arriving-alongside-the-coin-pushing-roguelikes-console-launch/",
+      "t": 1794328538000,
       "keyword": "free",
-      "summary": "You'll finish the job, even if it's the last thing you do."
+      "summary": "Two new characters join the roster."
+    },
+    {
+      "title": "GMG's Girls Just Wanna Have Guns Bundle comes fully loaded with a clip-full of cheap Steam keys!",
+      "source": "gg.deals News",
+      "link": "https://gg.deals/bundle/gmgs-girls-just-wanna-have-guns-bundle-comes-fully-loaded-with-a-clip-full-of-cheap-steam-keys/",
+      "t": 1794325200000,
+      "keyword": "bundle",
+      "summary": "Saving you 90%, or about $125, on the regular cost of these games when bought at full price."
     }
   ],
   "topics": [
+    {
+      "headline": "Humble Beholder 10th Anniversary Bundle: Get 20 Steam Games and 2 DLCs for Just $10",
+      "score": 10,
+      "sites": [
+        "gg.deals",
+        "indiegamebundles.com"
+      ],
+      "keywords": [
+        "bundle",
+        "humble"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Humble's The Alawar Collection Bundle gets you 20 games for $10",
+          "link": "https://gg.deals/bundle/humbles-the-alawar-collection-bundle-gets-you-20-games-for-10/",
+          "published": "2026-11-09T19:49:24.000Z"
+        },
+        {
+          "source": "Indie Game Bundles",
+          "title": "Humble Beholder 10th Anniversary Bundle: Get 20 Steam Games and 2 DLCs for Just $10",
+          "link": "https://www.indiegamebundles.com/humble-beholder-10th-anniversary-bundle-get-20-steam-games-and-2-dlcs-for-just-10/",
+          "published": "2026-11-10T16:32:06.000Z"
+        }
+      ]
+    },
     {
       "headline": "Call of Duty: Modern Warfare 4 - DMZ Free Trial is still live this week",
       "score": 8,
@@ -277,12 +265,6 @@
           "published": "2026-11-09T10:11:07.000Z"
         },
         {
-          "source": "gg.deals News",
-          "title": "Call of Duty: Modern Warfare 4 - DMZ Free Trial is still live this week",
-          "link": "https://gg.deals/freebie/call-of-duty-modern-warfare-4-dmz-free-trial-is-still-live-this-week/",
-          "published": "2026-11-09T10:11:07.000Z"
-        },
-        {
           "source": "Eurogamer",
           "title": "COD: Modern Warfare 4 gets a surprisingly sudden free trial, so you can see what the game's extraction mode DMZ is like",
           "link": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-dmz-free-trial-november",
@@ -291,27 +273,27 @@
       ]
     },
     {
-      "headline": "Steam's World War I Remembrance Day Sale 2026 doesn't question the price of war",
+      "headline": "Nuuvem Black Friday Month sale is live! Save even more with a special discount code",
       "score": 7,
       "sites": [
         "gg.deals"
       ],
       "keywords": [
         "sale",
-        "price"
+        "discount"
       ],
       "games": [],
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Steam's World War I Remembrance Day Sale 2026 doesn't question the price of war",
-          "link": "https://gg.deals/deal/steams-world-war-i-remembrance-day-sale-2026-doesnt-question-the-price-of-war/",
-          "published": "2026-11-09T20:46:00.000Z"
+          "title": "Nuuvem Black Friday Month sale is live! Save even more with a special discount code",
+          "link": "https://gg.deals/deal/nuuvem-black-friday-month-sale-is-live-save-even-more-with-a-special-discount-code/",
+          "published": "2026-11-10T14:55:53.000Z"
         }
       ]
     },
     {
-      "headline": "Humble's The Alawar Collection Bundle gets you 20 games for $10",
+      "headline": "Humble's Maximum Entertainment Bundle gets you 8 indie hits for $13, but only until tomorrow (updated)",
       "score": 7,
       "sites": [
         "gg.deals"
@@ -324,49 +306,29 @@
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Humble's The Alawar Collection Bundle gets you 20 games for $10",
-          "link": "https://gg.deals/bundle/humbles-the-alawar-collection-bundle-gets-you-20-games-for-10/",
-          "published": "2026-11-09T19:49:24.000Z"
+          "title": "Humble's Maximum Entertainment Bundle gets you 8 indie hits for $13, but only until tomorrow (updated)",
+          "link": "https://gg.deals/bundle/humbles-maximum-entertainment-bundle-gets-you-eight-indie-hits-for-13/",
+          "published": "2026-11-10T11:56:00.000Z"
         }
       ]
     },
     {
-      "headline": "Steam Weeklong Sale returns in full force with nearly 3,000 deals and up to 95% off",
+      "headline": "Last day to get Humble’s Flat2VR Bundle, which packs 9 games for a VR deep dive (updated)",
       "score": 7,
       "sites": [
         "gg.deals"
       ],
       "keywords": [
-        "sale",
-        "deals"
+        "bundle",
+        "humble"
       ],
       "games": [],
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Steam Weeklong Sale returns in full force with nearly 3,000 deals and up to 95% off",
-          "link": "https://gg.deals/deal/steam-weeklong-sale-returns-in-full-force-with-nearly-3000-deals-and-up-to-95-off/",
-          "published": "2026-11-09T18:53:00.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "The latest batch of Gamesplanet Steam key deals bring hundreds of deep discounts to explore!",
-      "score": 7,
-      "sites": [
-        "gg.deals"
-      ],
-      "keywords": [
-        "discounts",
-        "deals"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "The latest batch of Gamesplanet Steam key deals bring hundreds of deep discounts to explore!",
-          "link": "https://gg.deals/deal/the-latest-batch-of-gamesplanet-steam-key-deals-bring/",
-          "published": "2026-11-09T13:40:00.000Z"
+          "title": "Last day to get Humble’s Flat2VR Bundle, which packs 9 games for a VR deep dive (updated)",
+          "link": "https://gg.deals/bundle/humbles-flat2vr-bundle-packs-9-games-for-a-virtual-reality-deep-dive/",
+          "published": "2026-11-10T09:03:00.000Z"
         }
       ]
     }
@@ -376,7 +338,7 @@
     "hidden": 0,
     "notNiche": 0,
     "noFacts": 0,
-    "taken": 1,
+    "taken": 2,
     "repeat": 0,
     "smallDiscount": 0,
     "ended": 0,
