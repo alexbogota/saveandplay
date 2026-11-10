@@ -1,0 +1,29 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "stamp": "20261110-141346",
+  "madeAt": "2026-11-10T14:14:11.781Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:ithfwwbqscwvlpkfoxql747p/app.bsky.feed.post/3mzwjwnvkkc24",
+      "url": "https://bsky.app/profile/elacordeonachi.bsky.social/post/3mzwjwnvkkc24",
+      "author": "elacordeonachi.bsky.social",
+      "context": "Yes yes, I'm late. This time because the Humble Choice bundle included Outer Worlds 2 and it's a game I've been looking forward to but didn't want to pay $60 to play when it came out. I've been burned before, Civ VII I'm looking at you... Anywho, we begin with recaps. #LuchaUnderground #Vundacast\nquotes @vundacast.bsky.social: IT'S TIME TO RING THE BELLLLLLLL! Press Play NOW on Season 3, Episode 19, \"Gods Among Men\"! #Vundacast 🤼 #LuchaUnderground #WatchParty",
+      "text": "Waiting for a bundle instead of paying $60 at launch is a solid way to play a big game. Hope Outer Worlds 2 lives up to the wait.",
+      "group": "bundles",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:nw5a5uwdumq2ju2mwxibjcsu/app.bsky.feed.post/3mzwoeekppk2p",
+      "url": "https://bsky.app/profile/thoughtrise.bsky.social/post/3mzwoeekppk2p",
+      "author": "thoughtrise.bsky.social",
+      "context": "trying to play Cyberpunk 2077 on my Steam Deck and it crashes as soon as I hit play (in launcher or crashes from Steam if I cmd skip the launcher) worked fine prior to the Edgerunners update. saw people complain but no solutions I can find any smart folk here with ideas? 💖",
+      "text": "Sorry about the crash. Two things worth trying: Verify integrity of game files in Steam (Properties > Installed Files), and a different Proton version under Properties > Compatibility. Hope one of them fixes it.",
+      "group": "deck",
+      "heated": false
+    }
+  ]
+}

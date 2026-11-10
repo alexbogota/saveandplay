@@ -1,0 +1,39 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261110-141346",
+  "madeAt": "2026-11-10T14:14:11.892Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:ck65slup62qt7mht3v2fc6gk/app.bsky.feed.post/3mzvf2r56ps2k",
+      "url": "https://bsky.app/profile/pandaax.bsky.social/post/3mzvf2r56ps2k",
+      "author": "pandaax.bsky.social",
+      "context": "I’ve been playing the cozy games like Palia or loftia but lately they don’t feel very cozy but very very grindy and it killed the mood for me lol",
+      "text": "Totally fair, cozy stops feeling cozy once it turns into a to-do list. Games with no timers or daily goals, like A Short Hike or Unpacking, tend to feel much calmer.",
+      "group": "askCozy",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:yzn5sg2ypq5dtdpp4v2lsr6n/app.bsky.feed.post/3mzvoydxqys2w",
+      "url": "https://bsky.app/profile/sailor-youranus.bsky.social/post/3mzvoydxqys2w",
+      "author": "sailor-youranus.bsky.social",
+      "context": "Coral Island? It's great! It's like a more magical stardew valley set on a pacific island with hotter men to woo",
+      "text": "Coral Island is a lovely pick. Restoring the reef gives it a different feel from Stardew, even with the farming.",
+      "group": "stardew",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:q4khoqpbmx4xmfyser7dd2ix/app.bsky.feed.post/3mzwr2izvls24",
+      "url": "https://bsky.app/profile/gm-kitkatarine.bsky.social/post/3mzwr2izvls24",
+      "author": "gm-kitkatarine.bsky.social",
+      "context": "i love games that are just. Task. Repetitive task. Bookkeeping. Diagnostics. Task task task. no time limit, nothing. just me and the repetition. I picked up Peggy's Post again on itch.io and if you too love Task Without Time Limits please play it. One of my favorite chill cozy games.",
+      "text": "Calm repetitive tasks with no time limit are such a good way to wind down. Thanks for the rec, itch.io is full of quiet little games like that.",
+      "group": "askCozy",
+      "heated": false
+    }
+  ]
+}
