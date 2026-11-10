@@ -1,48 +1,56 @@
 # Comment candidates: retro (@retrogamedeals.bsky.social)
-Made 2026-11-10T07:13Z. Searched: childhood: first pc game | childhood: childhood game | childhood: game from my childhood | childhood: childhood favorite game | classicPC: dos game | classicPC: classic pc game | classicPC: old pc games | classicPC: dos games | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: retro game recommendations | askRetro: old games recommend | askRetro: retro games recommend | askRetro: best retro games | retroFeed: feed.
-Posts below: 12. Dropped in this run: replies are limited 8, not about games 88, adult or graphic label 4, skip word 62, bot, shop or studio 29, already shown 7, too short 8, other language (text) 4, low score 4, empty 2, other language 8, not a question 37, too many hashtags 3, earlier finds: low score 5.
+Made 2026-11-10T19:43Z. Searched: childhood: games from my childhood | childhood: first video game | childhood: played this as a kid game | childhood: first pc game | classicPC: classic pc games | classicPC: old pc game | classicPC: retro pc gaming | classicPC: dos game | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: best old games | askRetro: old game recommend | askRetro: retro game recommendations | askRetro: old games recommend | retroFeed: feed.
+Posts below: 12 + 2 heated. Dropped in this run: too short 5, skip word 77, not about games 76, bot, shop or studio 34, replies are limited 11, promo (link and hashtags) 3, adult or graphic label 4, low score 13, empty 5, too many hashtags 6, already shown 3, already answered 1, other language (text) 12, other language 29, not a question 17, many links 1, earlier finds: low score 1.
 
 ## Posts
-1. @realcombofriends.bsky.social (Combofriend (from video website)) · 6h · likes 1 · replies 0 · question · childhood
-   https://bsky.app/profile/realcombofriends.bsky.social/post/3mzwcjnif2c2s
-   do you remember when every playstation one game was some sort of horrifying and amazing jumping game where giant bugs tried to kill you? we remember. explore a childhood classic, here, with the adult soothments of sopranos findom jokes
-   [link card: 1001 GAMING NIGHTS: Pandemonium!]
-2. @feed.igeek.gamer-geek-news.com.ap.brid.gy (input) · 11h · likes 3 · replies 0 · question · askRetro
-   https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3mzvq7tzd6yc2
-   🎮 **Zelda: Ocarina of Time’s Best Replacement Has 11,000+ ‘Very Positive’ Reviews on Steam** Death's Door turns five years old this year, and it's still one of the best games like The Legend of Zelda around. 📰 Source: Polygon.com 🔗 Link […] [Original post on igeek.gamer-geek-n
-   [image: Image for: Zelda: Ocarina of Time’s Best Replacement Has 11,000+ ‘Very Positive’ Reviews on Steam]
-3. @civ5fan.bsky.social (MarioFanNate) · 4h · likes 1 · replies 2 · question · retroFeed
-   https://bsky.app/profile/civ5fan.bsky.social/post/3mzwgpocpwk2h
-   I hate “which is better?” retro gaming polls on Facebook. Most of the time the one that sold better back in the day wins. We don’t need polls to know how most gamers feel about SNES vs SEGA Genesis, Mario vs Sonic, PS2 vs original Xbox, Pokémon vs Digimon, Perfect Dark vs Goldene
-4. @garnet-napped.bsky.social · 12h · likes 0 · replies 0 · question · childhood
-   https://bsky.app/profile/garnet-napped.bsky.social/post/3mzvnheaqym2a
-   Did you play Ocarina of Time as a kid? Talking about favorite childhood games can lead to some interesting conversations. What's the one video game that still holds a special place in your heart?
-   [image: conversation starters photo illustrating conversation starters.]
-5. @feed.igeek.gamer-geek-news.com.ap.brid.gy (input) · 16h · likes 0 · replies 0 · question · childhood
-   https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3mzvbggppcqs2
-   📰 **'The Biggest Launch In WoW History' - Xbox's Latest First-Party Game Is Already Smashing Records** Bodes well for that eventual console release, eh?We've talked quite a bit recently about the launch of World of Warcraft: Forever on PC and how […] [Original post on igeek.game
-   [image: Image for: 'The Biggest Launch In WoW History' - Xbox's Latest First-Party Game Is Already Smashing Records]
-6. @amiibru.bsky.social (Amiibru) · 18h · likes 10 · replies 10 · question · askRetro
-   https://bsky.app/profile/amiibru.bsky.social/post/3mzuymx4hqs2h
-   [GameChallenge] Can you recommend retro games? Maybe I can start 5 out of these: Zelda 2 Donkey Kong Country Earthbound Beginnings Chrono Trigger Final Fantasy Adventure MegaMan Castlevania Kid Icarus Kirby's Dream Land 3 Sonic The Hedgehog Earthworm Jim Bubsy Gex Tomba Rayman To
-7. @lovinwolf.bsky.social (Paul Barone) · 2h · likes 1 · replies 0 · classicPC
-   https://bsky.app/profile/lovinwolf.bsky.social/post/3mzwoy4bhrs2h
-   We had a DOS Star Wars text based game that I used to play all the time. Ah memories.
-8. @jpixelanimations.bsky.social (JPiXeLAir (0/5 SLOTS OPEN)) · 3h · likes 1 · replies 0 · classicPC
-   https://bsky.app/profile/jpixelanimations.bsky.social/post/3mzwku6joe22e
-   the first one looks like he came from an old shareware game on MS DOS
-9. @willaharlowross.bsky.social (Willa Harlow Ross) · 4h · likes 3 · replies 0 · childhood
-   https://bsky.app/profile/willaharlowross.bsky.social/post/3mzwhrh5cgs2b
-   Not saying that they can't have their own unique benefits (I broadly think they're worse games, but that's a whole other debate), but "they're not full replacements, they're supplements" is not Capcom's perspective on the function of the remakes. automaton-media.com/en/news/gog-.
-   [image: Article excerpt: While Resident Evil purists can now enjoy the original Resident Evil, Resident Evil 2, and Resident Evil 3 on PC thanks to GOG, it didn’t seem…]
-10. @garbae5000.bsky.social (garbae5000) · 4h · likes 1 · replies 0 · classicPC
-   https://bsky.app/profile/garbae5000.bsky.social/post/3mzwgwjpe3k2t
-   Got more endings for Tower of Gold. It's billed as a "DOS-style puzzle/action adventure" inspired by Equinox and other SNES games, but it feels like what you'd get if you tried to adapt an Ursula LeGuin short story into a video game (highest praise imaginable)
-11. @dr4gonborne.bsky.social · 5h · likes 1 · replies 0 · classicPC
-   https://bsky.app/profile/dr4gonborne.bsky.social/post/3mzwecpgwfc23
-   The table is set for five. The sixth chair is already pulled out. Father Samuel, your seat is ready. Here’s the trailer for We Aren’t Finished, a DOS-inspired text horror game. respawnmedia.itch.io/we-arent-fin... #IndieHorror #TextAdventure
+1. @justinbuist.bsky.social (Justin Buist) · 2h · likes 1 · replies 0 · question · childhood
+   https://bsky.app/profile/justinbuist.bsky.social/post/3mzxzgzkjhs2l
+   Doom was the first PC game I remember other kids being excited about when they first saw it.
+2. @aleksieeben.bsky.social (Aleksi Eeben) · 5h · likes 0 · replies 1 · question · classicPC
+   https://bsky.app/profile/aleksieeben.bsky.social/post/3mzxpfnvza22c
+   Of course even smaller adjustments will affect the feel of the game. Maybe Amiga or DOS versions could serve as a model for tuning the speed? C64 Ultimate could also easily play the sampled FX from Amiga version, loaded to REU.
+3. @mrabandonware.bsky.social (~/Mr Abandonware) · 6h · likes 5 · replies 0 · question · classicPC
+   https://bsky.app/profile/mrabandonware.bsky.social/post/3mzxkkpbuj227
+   How about a Portuguese MS-DOS puzzle-adventure for frozen fish products? www.myabandonware.com/game/crousti...
+   [link card: Download Croustibat - My Abandonware; quotes @cynetrunner.bsky.social: First there was a KFC Colonel Sanders dating sim, and now we have a Wendys RPG? What's next? A McDonalds first person shooter? A Burger Kin…]
+4. @jivemanlyben.bsky.social · 4h · likes 1 · replies 0 · question · classicPC
+   https://bsky.app/profile/jivemanlyben.bsky.social/post/3mzxravqs5c2f
+   Remember when the 7-Up mascot got his own video game?
+   [image: A screenshot from the NTSC version of the Cool Spot video game. This image is of the start screen from the 16-bit game. The three options on top read “start ga…]
+5. @agent25252.bsky.social (Agent 25) · 2h · likes 1 · replies 0 · childhood
+   https://bsky.app/profile/agent25252.bsky.social/post/3mzxz2jnqfk2r
+   First the PC, then the Genesis version. I even had a LCD game of the first Robotnik fight lol
+6. @anotherssaryn.bsky.social (AnotherSSaryn) · 2h · likes 1 · replies 0 · question · holdUp
+   https://bsky.app/profile/anotherssaryn.bsky.social/post/3mzxx2732622t
+   I played this back in the day with some of my friends on the OG Xbox and remember having a genuinely pretty fun time with it. It's the movie turned into a video game but in a pretty cool way. Don't know how well it's aged but I'd probably pick it up if any of my friends had inter
+7. @1retro.com (1retro) · 3h · likes 0 · replies 0 · question · retroFeed
+   https://bsky.app/profile/1retro.com/post/3mzxvv42alq2h
+   Did you know? Chrono Cross fills its Load screen from a summary at the front of each save, without checking the checksum. A broken save still shows your name and play time, but won't load. 1Retro checks the sum first. #ps1
+8. @auster.thebrainbin.org.ap.brid.gy (Auster) · 3h · likes 0 · replies 0 · question · retroFeed
+   https://bsky.app/profile/auster.thebrainbin.org.ap.brid.gy/post/3mzxuvb2a4r32
+   "How do I add and enable background music in ArkOS?" FAQ for the RG351P, but since it works on my R36S, I'd imagine it works on any #retrohandhelds powered by ArkOS, and so I thought it was worth sharing. =) Nostalgia musing, but it also seems that the music used in SNES Station'
+   [link card: Original post on thebrainbin.org]
+9. @scumm-bar.bsky.social (MS-DOS Games, Programs, Pixels, Grog) · 3h · likes 28 · replies 0 · classicPC
+   https://bsky.app/profile/scumm-bar.bsky.social/post/3mzxtufhtws2d
+   Heading out on an epic quest... Zeliard Game Arts Co., Ltd. 1987 (PC-88, Japan) Re-published for MS-DOS in EU / NA in 1990 with Sierra On-Line.
    [video, no description]
-12. @gamb190.bsky.social (Gamb190) · 6h · likes 1 · replies 0 · childhood
-   https://bsky.app/profile/gamb190.bsky.social/post/3mzwbrxtwrs22
-   Share a GIF that reminds you of your childhood… My favorite video game
-   [link card: Diddy Kong Scared in Donkey Kong Country; quotes @richxatxsin.bsky.social: Share a GIF that reminds you of your childhood… Woah! First game I ever played 🥹🧡]
+10. @feed.igeek.gamer-geek-news.com.ap.brid.gy (input) · 4h · likes 1 · replies 0 · childhood
+   https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3mzxtcqsnobj2
+   📰 **Medabots Classics Plus Heading to PC via Steam** The store pages for both versions appear to be region-locked to Japan only, though. 📰 Source: Siliconera 🔗 Link: https://www.siliconera.com/medabots-classics-plus-heading-to-pc-via-steam/ #SteamDeck #PCGaming
+   [link card: Medabots Classics Plus Heading to PC via Steam]
+11. @thecrypt.online (Big Van Vega) · 4h · likes 0 · replies 0 · question · retroFeed
+   https://bsky.app/profile/thecrypt.online/post/3mzxso7fask2i
+   Sega has some interesting holy grails and this is one from my collection. The Sega Genesis stereo speakers. Hook these directly to a model 1 and hear those sweet fart sounds! These are extremely hard to find and very expensive. Do you have these? Looking for them? Too rich for yo
+   [image, no description]
+12. @sharkabytes.bsky.social (Sasha's Retrobytes 🏳️‍⚧️) · 4h · likes 23 · replies 1 · classicPC
+   https://bsky.app/profile/sharkabytes.bsky.social/post/3mzxr3aobdk2w
+   Amiga/DOS demoscene energy aplenty in Amok (including music from Jesper Kyd) and it was game intended for the 32X before it hopped over to the Saturn.
+
+## Heated topics (AI debates etc.): reply only neutrally, with facts
+1. @kayla.inarizushi.club (kayla) · 6h · likes 1 · replies 1 · gogOld
+   https://bsky.app/profile/kayla.inarizushi.club/post/3mzxl52miak2o
+   if their use of ai (which does not fall under steam's disclosure policy) bothers you you can't buy most new games anymore. even if a dev avoids it, most popular engines have ai code. this isn't an own or anything i think playing old games is good and there are plenty
+2. @onelordofthememes.bsky.social (A Meme Walking By) · 10h · likes 0 · replies 0 · question · childhood
+   https://bsky.app/profile/onelordofthememes.bsky.social/post/3mzx43xepq226
+   2/2 Now, if it's about people being "tricked" to play a game developed with/by AI... dudes, seriously, it's a video game. Ever since Asteroids and Galaga I've heard rants and praises to every hit. Don't want AI? Learn to ask first. Or accept you enjoyed it. en.wikipedia.org/wiki/
+   [image, no description]
