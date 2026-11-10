@@ -8,138 +8,47 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 592,
-      "posts": 24960,
-      "fit": 292,
+      "runs": 600,
+      "posts": 25280,
+      "fit": 295,
       "last": {
-        "posts": 80,
-        "fit": 4,
-        "at": "2026-11-09T22:18:22.867Z"
+        "posts": 40,
+        "fit": 2,
+        "at": "2026-11-10T07:13:00.737Z"
       }
     },
     "moreAsk": {
-      "runs": 370,
-      "posts": 3330,
+      "runs": 375,
+      "posts": 3375,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-11-09T22:18:22.867Z"
+        "at": "2026-11-10T07:13:00.737Z"
       }
     },
     "moreRetro": {
-      "runs": 370,
-      "posts": 23040,
-      "fit": 802,
+      "runs": 375,
+      "posts": 23320,
+      "fit": 808,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-09T22:18:22.867Z"
+        "at": "2026-11-10T07:13:00.737Z"
       }
     },
     "morePlaying": {
-      "runs": 370,
-      "posts": 1554,
+      "runs": 375,
+      "posts": 1575,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-11-09T22:18:22.867Z"
+        "at": "2026-11-10T07:13:00.737Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@Smith1PW/117582527195843998": {
-      "uri": "https://mastodon.social/@Smith1PW/117582527195843998",
-      "url": "https://mastodon.social/@Smith1PW/117582527195843998",
-      "handle": "Smith1PW@mastodon.social",
-      "name": "PWSmith1",
-      "text": "#vrchat #vrc #gaming #games #videogames #videogame #photography #photo #vrchatphotos #vrchatphotography #vrchatphoto #VirtualPhotography #vrcphotography #vrcphotos #vrcphoto",
-      "createdAt": "2026-11-08T19:42:59.929Z",
-      "likes": 2,
-      "replies": 0,
-      "group": "moreGaming",
-      "query": "videogame",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "image: A VRChat avatar — a dark-haired cat-boy wearing a navy blue sweater, a hat, and cargo pants — sits cross-legged on a shoreline, viewed from behind, gazing out …",
-      "firstSeen": "2026-11-08T22:00:50.330Z"
-    },
-    "https://mastodon.social/@nerdvaerket/117582267850428640": {
-      "uri": "https://mastodon.social/@nerdvaerket/117582267850428640",
-      "url": "https://mastodon.social/@nerdvaerket/117582267850428640",
-      "handle": "nerdvaerket@mastodon.social",
-      "name": "Nerdværket",
-      "text": "Reklame for Nerdværket (min egen butik) 🍄 Tænd lyset, og få et level up. Level up-lampen spiller en power-up-lyd, hver gang du tænder den. 12 cm retro på hylden eller skrivebordet. 199 kr i gaveæske, link i bio. (Kører på 3 × AAA-batterier, som ikke følger med.) #levelup #retrogaming #gamingroom #8bit #gamerdk #nørd #gamergift #nerdvaerket",
-      "createdAt": "2026-11-08T18:37:02.625Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "image: Sort pixel-lampe formet som teksten LEVEL UP, hvor LEVEL lyser hvidt og UP lyser grønt. Overskrift: Tænd lyset. Level up. Power-up-lyd, hver gang du tænder · 1…",
-      "firstSeen": "2026-11-08T22:00:50.330Z"
-    },
-    "https://mastodon.social/@tschak@oldbytes.space/117581835282448729": {
-      "uri": "https://mastodon.social/@tschak@oldbytes.space/117581835282448729",
-      "url": "https://mastodon.social/@tschak@oldbytes.space/117581835282448729",
-      "handle": "tschak@oldbytes.space",
-      "name": "Thomas Cherryhomes",
-      "text": "Each #retrocomputing and #retrogaming community has been hermetically isolated, over decades. It is my hope that #FujiNet can bring them all together so we can do fun things.",
-      "createdAt": "2026-11-08T16:46:55.000Z",
-      "likes": 7,
-      "replies": 1,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://oldbytes.space/@tschak/117581834867733722",
-      "media": null,
-      "firstSeen": "2026-11-08T22:00:50.330Z"
-    },
-    "https://mastodon.social/@Dvalin/117583478392255060": {
-      "uri": "https://mastodon.social/@Dvalin/117583478392255060",
-      "url": "https://mastodon.social/@Dvalin/117583478392255060",
-      "handle": "Dvalin@mastodon.social",
-      "name": "Dvalin Gaming",
-      "text": "Blizzard listened. Dungeon kill XP in WoW: Forever just got buffed by 50%, so it’s finally time to group up and spam some dungeons instead of fighting over open-world mob tags, good luck on those Deviate Hides #worldofwarcraft #warcraft #mmo #mmorpg #gaming",
-      "createdAt": "2026-11-08T23:44:54.028Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreGaming",
-      "query": "mmorpg",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "image: Blizzard listened. Dungeon kill XP in WoW: Forever just got buffed by 50%, so it’s finally time to group up and spam some dungeons instead of fighting over ope…",
-      "firstSeen": "2026-11-09T06:18:36.097Z"
-    },
-    "https://mastodon.social/@gpowerf/117583433628226520": {
-      "uri": "https://mastodon.social/@gpowerf/117583433628226520",
-      "url": "https://mastodon.social/@gpowerf/117583433628226520",
-      "handle": "gpowerf@mastodon.social",
-      "name": "Dr. G. Power",
-      "text": "This has to be one of my best Midnight Magic scores! 222695. This is a game I played a lot as a kid and I don't remember a run this long since then. My cart is a weird one I printed myself because I dropped it and I needed a replacement shell. #Atari2600 #retrogaming",
-      "createdAt": "2026-11-08T23:33:30.985Z",
-      "likes": 5,
-      "replies": 1,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "3 images: Pinball table showing my score / The 3D printed game next to the broken shell / The bottom pf the cart",
-      "firstSeen": "2026-11-09T06:18:36.097Z"
-    },
     "https://mastodon.social/@MartinTale/117585663413880068": {
       "uri": "https://mastodon.social/@MartinTale/117585663413880068",
       "url": "https://mastodon.social/@MartinTale/117585663413880068",
@@ -207,29 +116,11 @@
       "replies": 0,
       "group": "moreGaming",
       "query": "videogame",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
       "media": "image: A lone figure floats above a rocky mountain peak, silhouetted against a massive glowing black hole or gravitational anomaly. Brilliant arcs of blue-white light…",
-      "firstSeen": "2026-11-09T22:18:22.867Z"
-    },
-    "https://mastodon.social/@Dvalin/117588767008329274": {
-      "uri": "https://mastodon.social/@Dvalin/117588767008329274",
-      "url": "https://mastodon.social/@Dvalin/117588767008329274",
-      "handle": "Dvalin@mastodon.social",
-      "name": "Dvalin Gaming",
-      "text": "Mrglglgl! Turns out the murlocs are the maintenance crew 🐸 #worldofwarcraft #warcraft #mmo #mmorpg #gaming",
-      "createdAt": "2026-11-09T22:09:51.901Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "moreGaming",
-      "query": "mmorpg",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "image: Mrglglgl! Turns out the murlocs are the maintenance crew 🐸 #worldofwarcraft #warcraft #mmo #mmorpg #gaming",
       "firstSeen": "2026-11-09T22:18:22.867Z"
     },
     "https://mastodon.social/@Dvalin/117588692547516179": {
@@ -243,7 +134,7 @@
       "replies": 0,
       "group": "moreGaming",
       "query": "mmorpg",
-      "score": 7,
+      "score": 6,
       "question": true,
       "heated": false,
       "isReply": false,
@@ -257,11 +148,11 @@
       "name": "Dr. G. Power",
       "text": "I played a little David's Midnight Magic and Midnight Magic tonight. On the C64 and the 2600. The C64 is way quicker with more natural physics, but somehow I prefer the Atari game. Perhaps I'm just used to it. Despite what the game art shows these games cannot be played with paddles. On the 2600 the buttons on the paddles work as the cover indicates, however, you cannot launch the ball. PS: The tables are totally different between these two games. #retrogaming #atari #commodore",
       "createdAt": "2026-11-09T21:13:18.314Z",
-      "likes": 2,
+      "likes": 3,
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -279,7 +170,7 @@
       "replies": 2,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 9,
+      "score": 8,
       "question": true,
       "heated": false,
       "isReply": false,
@@ -298,13 +189,31 @@
       "replies": 2,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 4,
+      "score": 3,
       "question": false,
       "heated": false,
       "isReply": false,
       "origin": "https://mastodon.ie/@richardtroupe/117588127850965087",
       "media": "image: Palm TX PDA with Bejeweled 2 and a Hitachino Nest saison beer",
       "firstSeen": "2026-11-09T22:18:22.867Z"
+    },
+    "https://mastodon.social/@gpowerf/117590791175951047": {
+      "uri": "https://mastodon.social/@gpowerf/117590791175951047",
+      "url": "https://mastodon.social/@gpowerf/117590791175951047",
+      "handle": "gpowerf@mastodon.social",
+      "name": "Dr. G. Power",
+      "text": "I've not ordered a Cardputer Zero yet, I do have a Carputer ADV that's only used as a Meshtastic node. But I am hugely tempted by a Cardputer Zero! The larger screen could make it the ultimate pocketable #ZXSpectrum or #C64 And with the built in HDMI port you can go straight from the hand held format to desktop instantly. Is anyone else considering one of these for emulating 8 bit computers? #retrocomputing #retrogaming #C64 #ZXSpectrum",
+      "createdAt": "2026-11-10T06:44:38.251Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 7,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "media": "2 images: And ADV and a Zero side by side highlighting how much larger the screen for the Zero is / Side of the Zero showing the HDMI port.",
+      "firstSeen": "2026-11-10T07:13:00.737Z"
     }
   }
 }
