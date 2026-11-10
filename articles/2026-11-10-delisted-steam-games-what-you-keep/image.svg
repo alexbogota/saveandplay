@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#0D1117"/>
+<rect x="56" y="22" width="1088" height="586" rx="28" fill="#161B22" stroke="#262D38"/>
+<text x="100" y="110" font-size="44" font-weight="800" fill="#FFFFFF" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">Game delisted from Steam?</text>
+<text x="100" y="160" font-size="30" fill="#9AA5B4" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">What Valve's developer page says</text>
+<rect x="100" y="220" width="460" height="230" rx="18" fill="none" stroke="#3DDC97" stroke-width="4"/>
+<text x="130" y="275" font-size="32" font-weight="800" fill="#FFFFFF" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">If you own it</text>
+<text x="130" y="335" font-size="28" fill="#E8ECF1" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">Stays in your library</text>
+<text x="130" y="385" font-size="28" fill="#E8ECF1" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">Download, install, launch</text>
+<rect x="640" y="220" width="460" height="230" rx="18" fill="#FFB454"/>
+<text x="670" y="275" font-size="32" font-weight="800" fill="#1B1203" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">If you want to buy</text>
+<text x="670" y="335" font-size="28" fill="#1B1203" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">Purchase option hidden</text>
+<text x="670" y="385" font-size="28" fill="#1B1203" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">New Steam keys prohibited</text>
+<text x="100" y="530" font-size="30" fill="#E8ECF1" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">Online features: not covered. Check the servers.</text>
+</svg>
