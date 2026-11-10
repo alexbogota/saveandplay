@@ -2456,6 +2456,61 @@
             "id": "6fdaef2c157c7c741dfc1d1cabe6d33454dc3898b9b7e015be4d1d177d367047",
             "sig": "340d13f93a9a81f8f9a4368db0f32aa37ceda64510a0f1e58e2efbb9c9439695b76ec20483b43790b611cbe7cb6b68807a462b9380ad0827e8d5644f6cda3aae"
           }
+        },
+        "article": {
+          "status": "done",
+          "kind": "article",
+          "id": "a9e54a0061eb933c588df73a6b9c5c9c99b8c072df7258113e7ab8348ad01dc2",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "article": "percent-vs-dollars-saved",
+          "postedAt": "2026-11-10T00:31:58.000Z",
+          "accepted": [
+            "wss://relay.damus.io",
+            "wss://relay.primal.net",
+            "wss://offchain.pub"
+          ],
+          "failed": [
+            {
+              "url": "wss://nos.lol",
+              "reason": "no answer (timeout)"
+            },
+            {
+              "url": "wss://nostr.mom",
+              "reason": "no answer (timeout)"
+            }
+          ],
+          "event": {
+            "kind": 1,
+            "created_at": 1794270718,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-article"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://saveandplay.com/og/percent-vs-dollars-saved.png",
+                "m image/png",
+                "alt Bar chart of five GOG discounts read on November 6, 2026, ranked by dollars saved: Shadow Tactics $36.00 (-90%), Metro Exodus $27.00 (-90%), Darkest Dungeon $21.24 (-85%), This War of Mine $17.00 (-85%), SimCity 4 Deluxe Edition $15.00 (-75%)."
+              ]
+            ],
+            "content": "\"Up to 90% off\": percent, dollars saved and price paid are three different numbers\n\nA sale headline gives one percentage. We compare five real GOG discounts by percent, by dollars saved and by price paid, and show which number to trust.\n\n#pcgaming #gamedeals\n\nhttps://saveandplay.com/og/percent-vs-dollars-saved.png\n\nhttps://saveandplay.com/guides/percent-vs-dollars-saved/?utm_source=nostr-prices&utm_medium=social&utm_campaign=percent-vs-dollars-saved",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "a9e54a0061eb933c588df73a6b9c5c9c99b8c072df7258113e7ab8348ad01dc2",
+            "sig": "d23c96545e3a3931cc991221a0d8e661efd1d61d43a004e2f4e56f3aeaf4f22eced1ca05c7dc39dbe368f5301a64bd14a8f2d9924829d226a40174030bc48888"
+          }
         }
       }
     }
@@ -2525,6 +2580,10 @@
       "sharing-a-steam-account-with-family": {
         "day": "2026-11-07",
         "id": "d618205f2f0c4073a4d4aeb787e86d672273919e59b830ae47762e850ac6d91e"
+      },
+      "percent-vs-dollars-saved": {
+        "day": "2026-11-09",
+        "id": "a9e54a0061eb933c588df73a6b9c5c9c99b8c072df7258113e7ab8348ad01dc2"
       }
     }
   },
