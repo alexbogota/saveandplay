@@ -1,0 +1,27 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-retro-20261110-141346.json",
+  "approvedAt": "2026-11-10T14:27:00.513Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:x3ro2bodfw5ch3k3arpmtzt2/app.bsky.feed.post/3mzuymx4hqs2h",
+      "url": "https://bsky.app/profile/amiibru.bsky.social/post/3mzuymx4hqs2h",
+      "author": "amiibru.bsky.social",
+      "context": "[GameChallenge] Can you recommend retro games? Maybe I can start 5 out of these: Zelda 2 Donkey Kong Country Earthbound Beginnings Chrono Trigger Final Fantasy Adventure MegaMan Castlevania Kid Icarus Kirby's Dream Land 3 Sonic The Hedgehog Earthworm Jim Bubsy Gex Tomba Rayman Toy Story Ninja Gaiden",
+      "text": "Fun list. Chrono Trigger is a great place to start, and Donkey Kong Country is easy to pick up for a quick session.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:ogzokqzjag25627egkfrvh7v/app.bsky.feed.post/3mzwoy4bhrs2h",
+      "url": "https://bsky.app/profile/lovinwolf.bsky.social/post/3mzwoy4bhrs2h",
+      "author": "lovinwolf.bsky.social",
+      "context": "We had a DOS Star Wars text based game that I used to play all the time. Ah memories.",
+      "text": "Those DOS text games were something else, your imagination did half the work.",
+      "edited": false
+    }
+  ]
+}

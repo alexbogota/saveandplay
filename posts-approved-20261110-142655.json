@@ -1,0 +1,53 @@
+{
+  "approvedAt": "2026-11-10T14:26:55.808Z",
+  "items": [
+    {
+      "n": 1,
+      "kind": "deal",
+      "platform": "bluesky",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "text": "Metro Exodus: -90% at GOG\n$2.99 (was $29.99)\nPrice checked Nov 9. Sale ends Nov 16. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-09\n\n#PCGaming #GameDeals #Games #PCGames #GOG\nAd",
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-09",
+      "day": "2026-11-09",
+      "key": "prices|2026-11-09|/deals/gog/metro-exodus/",
+      "notBefore": "2026-11-10T14:26:55.808Z"
+    },
+    {
+      "n": 2,
+      "kind": "deal",
+      "platform": "bluesky",
+      "account": "prices-2",
+      "handle": "saveandplay.com",
+      "text": "Shadow Tactics: Blades of the Shogun: -90% at GOG\n$3.99 (was $39.99)\nPrice checked Nov 9. Sale ends Nov 13. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-09\n\n#PCGaming #GameDeals #Gaming #ShadowTactics #Games\nAd",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-09",
+      "day": "2026-11-09",
+      "key": "prices-2|2026-11-09|/deals/gog/shadow-tactics-blades-of-the-shogun/",
+      "notBefore": "2026-11-10T16:26:55.808Z"
+    },
+    {
+      "n": 7,
+      "kind": "coop",
+      "platform": "bluesky",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "text": "ARK: Survival Evolved has co-op on Steam.\nA rented server keeps your world online when the host logs off.\n\nhttps://saveandplay.com/servers/ark-survival-evolved/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-11-10\n\n#PCGaming #ARKSurvivalEvolved\nAd",
+      "link": "https://saveandplay.com/servers/ark-survival-evolved/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-11-10",
+      "day": "2026-11-10",
+      "key": "prices|coop-2026-11-10|/servers/ark-survival-evolved/",
+      "notBefore": "2026-11-10T18:26:55.808Z"
+    },
+    {
+      "n": 8,
+      "kind": "coop",
+      "platform": "bluesky",
+      "account": "cozy",
+      "handle": "cozygame.bsky.social",
+      "text": "Dig, farm and build a base together: Core Keeper has online co-op for up to 8 players.\nWith your own server, friends can drop in any time, even when you are offline.\n\nhttps://saveandplay.com/servers/core-keeper/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=coop-2026-11-10\n\n#CozyGames #CoreKeeper\nAd",
+      "link": "https://saveandplay.com/servers/core-keeper/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=coop-2026-11-10",
+      "day": "2026-11-10",
+      "key": "cozy|coop-2026-11-10|/servers/core-keeper/",
+      "notBefore": "2026-11-10T14:26:55.808Z"
+    }
+  ]
+}
