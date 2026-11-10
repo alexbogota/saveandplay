@@ -1,0 +1,39 @@
+{
+  "madeAt": "2026-11-10T19:38:41.661Z",
+  "run": "42887294890",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices-2|2026-11-09|/deals/gog/shadow-tactics-blades-of-the-shogun/",
+      "account": "prices-2",
+      "handle": "saveandplay.com",
+      "n": 2,
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-09",
+      "text": "Shadow Tactics: Blades of the Shogun: -90% at GOG\n$3.99 (was $39.99)\nPrice checked Nov 9. Sale ends Nov 13. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-09\n\n#PCGaming #GameDeals #Gaming #ShadowTactics #Games\nAd",
+      "approvedFile": "posts-approved-20261110-142655.json",
+      "approvedAt": "2026-11-10T14:26:55.808Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-10T19:38:44.542Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mzy6wzhrg322",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3mzy6wzhrg322",
+      "picture": true
+    },
+    {
+      "key": "prices|coop-2026-11-10|/servers/ark-survival-evolved/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 7,
+      "link": "https://saveandplay.com/servers/ark-survival-evolved/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-11-10",
+      "text": "ARK: Survival Evolved has co-op on Steam.\nA rented server keeps your world online when the host logs off.\n\nhttps://saveandplay.com/servers/ark-survival-evolved/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-11-10\n\n#PCGaming #ARKSurvivalEvolved\nAd",
+      "approvedFile": "posts-approved-20261110-142655.json",
+      "approvedAt": "2026-11-10T14:26:55.808Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-10T19:39:53.625Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mzy6z2mpcc23",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3mzy6z2mpcc23",
+      "picture": true
+    }
+  ]
+}
