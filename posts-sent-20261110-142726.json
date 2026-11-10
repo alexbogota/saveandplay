@@ -1,0 +1,36 @@
+{
+  "madeAt": "2026-11-10T14:27:26.182Z",
+  "run": "42834230900",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices|2026-11-09|/deals/gog/metro-exodus/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 1,
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-09",
+      "text": "Metro Exodus: -90% at GOG\n$2.99 (was $29.99)\nPrice checked Nov 9. Sale ends Nov 16. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-09\n\n#PCGaming #GameDeals #Games #PCGames #GOG\nAd",
+      "approvedFile": "posts-approved-20261110-142655.json",
+      "approvedAt": "2026-11-10T14:26:55.808Z",
+      "status": "skipped",
+      "reason": "already posted: https://bsky.app/profile/saveandplay.com/post/3mzvx7yoijy2x",
+      "at": "2026-11-10T14:27:26.878Z"
+    },
+    {
+      "key": "cozy|coop-2026-11-10|/servers/core-keeper/",
+      "account": "cozy",
+      "handle": "cozygame.bsky.social",
+      "n": 8,
+      "link": "https://saveandplay.com/servers/core-keeper/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=coop-2026-11-10",
+      "text": "Dig, farm and build a base together: Core Keeper has online co-op for up to 8 players.\nWith your own server, friends can drop in any time, even when you are offline.\n\nhttps://saveandplay.com/servers/core-keeper/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=coop-2026-11-10\n\n#CozyGames #CoreKeeper\nAd",
+      "approvedFile": "posts-approved-20261110-142655.json",
+      "approvedAt": "2026-11-10T14:26:55.808Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-10T14:27:28.493Z",
+      "postUri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3mzxnkgmnha22",
+      "postUrl": "https://bsky.app/profile/cozygame.bsky.social/post/3mzxnkgmnha22",
+      "picture": true
+    }
+  ]
+}
