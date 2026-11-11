@@ -8,120 +8,47 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 608,
-      "posts": 25640,
-      "fit": 298,
+      "runs": 616,
+      "posts": 25960,
+      "fit": 299,
       "last": {
-        "posts": 80,
-        "fit": 1,
-        "at": "2026-11-10T19:42:24.758Z"
+        "posts": 40,
+        "fit": 0,
+        "at": "2026-11-11T06:08:24.723Z"
       }
     },
     "moreAsk": {
-      "runs": 380,
-      "posts": 3420,
+      "runs": 385,
+      "posts": 3465,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-11-10T19:42:24.758Z"
+        "at": "2026-11-11T06:08:24.723Z"
       }
     },
     "moreRetro": {
-      "runs": 380,
-      "posts": 23600,
-      "fit": 816,
+      "runs": 385,
+      "posts": 23880,
+      "fit": 826,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-10T19:42:24.758Z"
+        "at": "2026-11-11T06:08:24.723Z"
       }
     },
     "morePlaying": {
-      "runs": 380,
-      "posts": 1596,
+      "runs": 385,
+      "posts": 1617,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-11-10T19:42:24.758Z"
+        "at": "2026-11-11T06:08:24.723Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@Smith1PW/117588629738651623": {
-      "uri": "https://mastodon.social/@Smith1PW/117588629738651623",
-      "url": "https://mastodon.social/@Smith1PW/117588629738651623",
-      "handle": "Smith1PW@mastodon.social",
-      "name": "PWSmith1",
-      "text": "#vrchat #vrc #gaming #games #videogames #videogame #photography #photo #vrchatphotos #vrchatphotography #vrchatphoto #VirtualPhotography #vrcphotography #vrcphotos #vrcphoto",
-      "createdAt": "2026-11-09T21:34:57.342Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreGaming",
-      "query": "videogame",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "image: A lone figure floats above a rocky mountain peak, silhouetted against a massive glowing black hole or gravitational anomaly. Brilliant arcs of blue-white light…",
-      "firstSeen": "2026-11-09T22:18:22.867Z"
-    },
-    "https://mastodon.social/@Dvalin/117588692547516179": {
-      "uri": "https://mastodon.social/@Dvalin/117588692547516179",
-      "url": "https://mastodon.social/@Dvalin/117588692547516179",
-      "handle": "Dvalin@mastodon.social",
-      "name": "Dvalin Gaming",
-      "text": "Absolute stonks. World of Warcraft: Forever just shattered every franchise record with the highest peak concurrent players and most returning veterans in history. Are you back in Azeroth yet? 📈🔥 #worldofwarcraft #warcraft #mmo #mmorpg #gaming",
-      "createdAt": "2026-11-09T21:50:55.738Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreGaming",
-      "query": "mmorpg",
-      "score": 6,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "image: Absolute stonks. World of Warcraft: Forever just shattered every franchise record with the highest peak concurrent players and most returning veterans in histo…",
-      "firstSeen": "2026-11-09T22:18:22.867Z"
-    },
-    "https://mastodon.social/@gpowerf/117588544605293005": {
-      "uri": "https://mastodon.social/@gpowerf/117588544605293005",
-      "url": "https://mastodon.social/@gpowerf/117588544605293005",
-      "handle": "gpowerf@mastodon.social",
-      "name": "Dr. G. Power",
-      "text": "I played a little David's Midnight Magic and Midnight Magic tonight. On the C64 and the 2600. The C64 is way quicker with more natural physics, but somehow I prefer the Atari game. Perhaps I'm just used to it. Despite what the game art shows these games cannot be played with paddles. On the 2600 the buttons on the paddles work as the cover indicates, however, you cannot launch the ball. PS: The tables are totally different between these two games. #retrogaming #atari #commodore",
-      "createdAt": "2026-11-09T21:13:18.314Z",
-      "likes": 3,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "2 images: C64 game cover / 2600 game cover",
-      "firstSeen": "2026-11-09T22:18:22.867Z"
-    },
-    "https://mastodon.social/@richardtroupe@mastodon.ie/117588127965605864": {
-      "uri": "https://mastodon.social/@richardtroupe@mastodon.ie/117588127965605864",
-      "url": "https://mastodon.social/@richardtroupe@mastodon.ie/117588127965605864",
-      "handle": "richardtroupe@mastodon.ie",
-      "name": "Richard Troupe",
-      "text": "After a busy day of chores and mattress shopping, it's time for a beer and some Bejeweled 2 on my Palm TX PDA handheld. #gaming #retrogaming #palm #pda",
-      "createdAt": "2026-11-09T19:27:19.000Z",
-      "likes": 2,
-      "replies": 2,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://mastodon.ie/@richardtroupe/117588127850965087",
-      "media": "image: Palm TX PDA with Bejeweled 2 and a Hitachino Nest saison beer",
-      "firstSeen": "2026-11-09T22:18:22.867Z"
-    },
     "https://mastodon.social/@gpowerf/117590791175951047": {
       "uri": "https://mastodon.social/@gpowerf/117590791175951047",
       "url": "https://mastodon.social/@gpowerf/117590791175951047",
@@ -169,7 +96,7 @@
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 5,
+      "score": 4,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -188,7 +115,7 @@
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 4,
+      "score": 3,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -249,6 +176,79 @@
       "isReply": false,
       "media": "video, no description",
       "firstSeen": "2026-11-10T19:42:24.758Z"
+    },
+    "https://mastodon.social/@kdrnic@dosgame.club/117595366471837090": {
+      "uri": "https://mastodon.social/@kdrnic@dosgame.club/117595366471837090",
+      "url": "https://mastodon.social/@kdrnic@dosgame.club/117595366471837090",
+      "handle": "kdrnic@dosgame.club",
+      "name": "kdrnic",
+      "text": "continuing with @dosgameclub game of the month Stunt Island #dosgaming #retrogaming this one is the silliest so far, we bomb a police car with duck eggs the timing is very strict and it is not obvious why (\"too late\" or \"too early\") otherwise it would have been easy I think they missed going for a bird crap joke",
+      "createdAt": "2026-11-11T02:08:09.000Z",
+      "likes": 1,
+      "replies": 2,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://dosgame.club/@kdrnic/117595366335066285",
+      "media": "video: bombing a police car with duck eggs in 1992 DOS game Stunt Island",
+      "firstSeen": "2026-11-11T06:08:24.723Z"
+    },
+    "https://mastodon.social/@carlosefr/117595263336565382": {
+      "uri": "https://mastodon.social/@carlosefr/117595263336565382",
+      "url": "https://mastodon.social/@carlosefr/117595263336565382",
+      "handle": "carlosefr@mastodon.social",
+      "name": "The Retro Timer",
+      "text": "Look at the expression of terror on the goalie's face, still in mid-air after failing to catch the ball. Well... his face is just 3x3 pixels, but those are 9 expressive pixels. #retrogaming #pixelart #amiga",
+      "createdAt": "2026-11-11T01:41:58.007Z",
+      "likes": 11,
+      "replies": 1,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 4,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image: Sensible World of Soccer '96/'97 (1996) for the Amiga, with a zoom in on the goalie.",
+      "firstSeen": "2026-11-11T06:08:24.723Z"
+    },
+    "https://mastodon.social/@stunningshemp/117594881166578603": {
+      "uri": "https://mastodon.social/@stunningshemp/117594881166578603",
+      "url": "https://mastodon.social/@stunningshemp/117594881166578603",
+      "handle": "stunningshemp@mastodon.social",
+      "name": "Chris Coats",
+      "text": "Belmonts are masters at running AND jumping #retrogaming #castlevania #draculascurse #stunningshemp #twitch",
+      "createdAt": "2026-11-11T00:04:46.554Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 3,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "video, no description",
+      "firstSeen": "2026-11-11T06:08:24.723Z"
+    },
+    "https://mastodon.social/@ianRobinson/117594850327932248": {
+      "uri": "https://mastodon.social/@ianRobinson/117594850327932248",
+      "url": "https://mastodon.social/@ianRobinson/117594850327932248",
+      "handle": "ianRobinson@mastodon.social",
+      "name": "Ian Robinson",
+      "text": "Lords of Midnight and Doomdark’s Revenge games coming to AppleTV. Where’s my fainting couch? 🥳 #RetroGaming https://thelordsofmidnight.com/blog/2026/11/10/perhaps-you-need-more-than-words-perhaps-you-need-this/",
+      "createdAt": "2026-11-10T23:56:55.997Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 7,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "media": "link card: Perhaps you need more than words, perhaps you need this…",
+      "firstSeen": "2026-11-11T06:08:24.723Z"
     }
   }
 }
