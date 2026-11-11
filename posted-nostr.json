@@ -2573,6 +2573,64 @@
             "sig": "da5a3a6a9dc1d9d710d2e49b4809600270cc8b0d64653f1ea27766844b4dbfdaf71f1c566fff6dfa6fdefcfb3dadad11cdc5ee1c28d262c42cdc25af46f07820"
           }
         }
+      },
+      "2026-11-11": {
+        "deal": {
+          "status": "done",
+          "kind": "deal",
+          "id": "a758fe3fea2bf6718623b46eee71aaf3b135b8e8e15e85e585ee129e59eec6a7",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "deal": "gog-shadow-tactics-blades-of-the-shogun",
+          "title": "Shadow Tactics: Blades of the Shogun",
+          "postedAt": "2026-11-11T18:49:30.000Z",
+          "accepted": [
+            "wss://relay.damus.io",
+            "wss://relay.primal.net",
+            "wss://offchain.pub"
+          ],
+          "failed": [
+            {
+              "url": "wss://nos.lol",
+              "reason": "no answer (timeout)"
+            },
+            {
+              "url": "wss://nostr.mom",
+              "reason": "no answer (timeout)"
+            }
+          ],
+          "event": {
+            "kind": 1,
+            "created_at": 1794422970,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-deal"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
+                "m image/jpeg",
+                "alt Cover art for Shadow Tactics: Blades of the Shogun"
+              ]
+            ],
+            "content": "Shadow Tactics: Blades of the Shogun: -90% at GOG\n$3.99 (was $39.99)\nPrice checked 2026-11-11 17:23 UTC. Sale ends 2026-11-13 07:59 UTC.\nWhy today: sale ends in 38 h; lowest price we've tracked (33 days of data); deepest-discount rank 1 of 4.\nAd: we may earn a commission if you buy.\n\n#pcgaming #gamedeals\n\nhttps://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696\n\nhttps://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-11",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "a758fe3fea2bf6718623b46eee71aaf3b135b8e8e15e85e585ee129e59eec6a7",
+            "sig": "fad2e4b8b27dc2590d74e3cbe9031758541466bbac6de632d941d9470ad6f6ebee5dcafa5283de8c9c857a5386157dbfb5235f73d9271603221a79fb7c78009f"
+          }
+        }
       }
     }
   },
