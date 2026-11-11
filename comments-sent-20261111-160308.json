@@ -1,0 +1,69 @@
+{
+  "madeAt": "2026-11-11T16:03:08.630Z",
+  "run": "43054394350",
+  "private": false,
+  "entries": [
+    {
+      "block": "prices",
+      "handle": "saveandplay.com",
+      "n": 1,
+      "uri": "at://did:plc:u35n7mcallv4h7eazq4qyteh/app.bsky.feed.post/3mzyucs2la225",
+      "url": "https://bsky.app/profile/2ndplaceart.bsky.social/post/3mzyucs2la225",
+      "author": "2ndplaceart.bsky.social",
+      "text": "Slay the Spire is easy to justify when you have a backlog, since a run is fairly short and you can stop at any point. Good luck with the plan!",
+      "approvedFile": "comments-approved-prices-20261111-155948-20261111-160248.json",
+      "approvedAt": "2026-11-11T16:02:48.578Z",
+      "status": "skipped",
+      "reason": "the author closed replies",
+      "at": "2026-11-11T16:03:09.769Z"
+    },
+    {
+      "block": "cozy",
+      "handle": "cozygame.bsky.social",
+      "n": 2,
+      "uri": "at://did:plc:2ax4yuz5jiduc7yy2m76r74h/app.bsky.feed.post/3mzz2jkbmhk2z",
+      "url": "https://bsky.app/profile/midnightcoffee.bsky.social/post/3mzz2jkbmhk2z",
+      "author": "midnightcoffee.bsky.social",
+      "text": "Very relatable. Games without a quest list or timers can help your brain remember it's play. Hope tonight is pure fun.",
+      "approvedFile": "comments-approved-cozy-20261111-155948-20261111-160248.json",
+      "approvedAt": "2026-11-11T16:02:48.715Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-11T16:03:10.834Z",
+      "replyUri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3n22deifjxq27",
+      "replyUrl": "https://bsky.app/profile/cozygame.bsky.social/post/3n22deifjxq27"
+    },
+    {
+      "block": "retro",
+      "handle": "retrogamedeals.bsky.social",
+      "n": 1,
+      "uri": "at://did:plc:2n3yvfeeqyognzqc6lylxhnk/app.bsky.feed.post/3mzxzgzkjhs2l",
+      "url": "https://bsky.app/profile/justinbuist.bsky.social/post/3mzxzgzkjhs2l",
+      "author": "justinbuist.bsky.social",
+      "text": "Doom was a moment. The shareware episode spread so widely that a lot of kids saw it before anyone else did.",
+      "approvedFile": "comments-approved-retro-20261111-155948-20261111-160248.json",
+      "approvedAt": "2026-11-11T16:02:48.822Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-11T16:03:11.970Z",
+      "replyUri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3n22deji5bf2l",
+      "replyUrl": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3n22deji5bf2l"
+    },
+    {
+      "block": "retro",
+      "handle": "retrogamedeals.bsky.social",
+      "n": 2,
+      "uri": "at://did:plc:d7fyn6t6wjqm4jmjiju4jllj/app.bsky.feed.post/3n222ybm3qs2a",
+      "url": "https://bsky.app/profile/misteraustin.bsky.social/post/3n222ybm3qs2a",
+      "author": "misteraustin.bsky.social",
+      "text": "Glad to hear King's Quest III is still holding up. Thank god indeed.",
+      "approvedFile": "comments-approved-retro-20261111-155948-20261111-160248.json",
+      "approvedAt": "2026-11-11T16:02:48.822Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-11T16:06:06.263Z",
+      "replyUri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3n22djpp74a2l",
+      "replyUrl": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3n22djpp74a2l"
+    }
+  ]
+}
