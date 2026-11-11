@@ -1,0 +1,29 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261111-155948",
+  "madeAt": "2026-11-11T16:00:15.992Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:2n3yvfeeqyognzqc6lylxhnk/app.bsky.feed.post/3mzxzgzkjhs2l",
+      "url": "https://bsky.app/profile/justinbuist.bsky.social/post/3mzxzgzkjhs2l",
+      "author": "justinbuist.bsky.social",
+      "context": "Doom was the first PC game I remember other kids being excited about when they first saw it.",
+      "text": "Doom was a moment. The shareware episode spread so widely that a lot of kids saw it before anyone else did.",
+      "group": "childhood",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:d7fyn6t6wjqm4jmjiju4jllj/app.bsky.feed.post/3n222ybm3qs2a",
+      "url": "https://bsky.app/profile/misteraustin.bsky.social/post/3n222ybm3qs2a",
+      "author": "misteraustin.bsky.social",
+      "context": "while looking for the box art, I found a webpage with the header \"Is King's Quest III: To Heir Is Human Down Right Now?\" and I'm pleased to report that no: the server for this mid-80s DOS game is fully operational, thank god\nimage: screenshot of a webpage that says \"King's Quest III: To Heir is Human Server Status: No problems detected.\" it says \"Last check: 16S ago\" so someone is on top …",
+      "text": "Glad to hear King's Quest III is still holding up. Thank god indeed.",
+      "group": "classicPC",
+      "heated": false
+    }
+  ]
+}

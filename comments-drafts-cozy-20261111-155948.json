@@ -1,0 +1,30 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261111-155948",
+  "madeAt": "2026-11-11T16:00:15.881Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:dtd7aeua4pzhajbe7he5hzvs/app.bsky.feed.post/3mzyjac6yxs2n",
+      "url": "https://bsky.app/profile/bellabullets13.bsky.social/post/3mzyjac6yxs2n",
+      "author": "bellabullets13.bsky.social",
+      "context": "Just kinda in a cozy mood lately. Which kinda sucks cuz I dont have any cozy games downloaded. I love stardew, but kinda needing more like the old harvest moon games.",
+      "text": "For that old Harvest Moon feeling, Fields of Mistria and Story of Seasons: Pioneers of Olive Town are both on Steam. Hope you find a comfy one!",
+      "verify": "Проверьте, что обе игры есть в Steam на сегодня (Fields of Mistria в раннем доступе).",
+      "group": "askCozy",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:2ax4yuz5jiduc7yy2m76r74h/app.bsky.feed.post/3mzz2jkbmhk2z",
+      "url": "https://bsky.app/profile/midnightcoffee.bsky.social/post/3mzz2jkbmhk2z",
+      "author": "midnightcoffee.bsky.social",
+      "context": "All I have left to do today is play video games for fun, why is my brain trying to turn that into labor? Shut up, we're relaxing! For fun! There's no more boxes to check or tasks to complete!!",
+      "text": "Very relatable. Games without a quest list or timers can help your brain remember it's play. Hope tonight is pure fun.",
+      "group": "askCozy",
+      "heated": false
+    }
+  ]
+}
