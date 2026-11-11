@@ -1,10 +1,11 @@
-Darkest Dungeon: -85% at GOG
-$3.75 (was $24.99)
-You save $21.24
+Shadow Tactics: Blades of the Shogun: -90% at GOG
+$3.99 (was $39.99)
+You save $36.00
 DRM-free
-Price checked Nov 10. Sale ends Nov 16. Lowest price we've tracked.
+Price checked Nov 11. Sale ends Nov 13. Lowest price we've tracked.
+Why today: sale ends in 38 h; deepest-discount rank 2 of 5.
 
-https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-11-10
+https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-11-11
 
-#GameDeals #PCGaming #GOG #DRMFree #Gaming
+#GameDeals #PCGaming #GOG #DRMFree #VideoGames
 Ad

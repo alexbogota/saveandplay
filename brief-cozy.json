@@ -1,70 +1,18 @@
 {
   "account": "Cozy and calm games",
-  "generatedAt": "2026-11-10T18:29:16.491Z",
-  "builtBy": "commit 284624d, schedule, run #42 attempt 1",
-  "pricesCheckedAt": "2026-11-10T17:13:47.835Z",
-  "warnings": [],
+  "generatedAt": "2026-11-11T18:24:50.284Z",
+  "builtBy": "commit 01c3a2f, schedule, run #43 attempt 1",
+  "pricesCheckedAt": "2026-11-11T17:23:15.427Z",
+  "warnings": [
+    "NOTHING TO OFFER today.",
+    "No game fits the niche today (1 fit the rule, 4 do not, 0 have no facts yet, 0 were taken by another account today, 1 offered in the last 7 days, 0 under 30%, 0 prices older than 48 h, 0 sales over or ending soon)."
+  ],
   "niche": {
     "label": "Cozy",
     "fit": 1,
-    "postable": 1
+    "postable": 0
   },
-  "candidates": [
-    {
-      "id": "gog-simcity-4-deluxe-edition",
-      "kind": "deal",
-      "title": "SimCity 4 Deluxe Edition",
-      "store": "GOG",
-      "price": 4.99,
-      "was": 19.99,
-      "discount": 75,
-      "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 133,
-      "priceCheckedAt": "2026-11-10T17:13:47.835Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
-      "drminfo": null,
-      "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
-      "facts": {
-        "year": 2003,
-        "genres": [
-          "Simulation",
-          "Building",
-          "Managerial"
-        ],
-        "tags": [
-          "Atmospheric",
-          "Simulation",
-          "Classic",
-          "Great Soundtrack",
-          "Management",
-          "Sandbox",
-          "Real-Time",
-          "Isometric",
-          "Building",
-          "Managerial",
-          "City builder"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 9.5,
-      "discountRank": 1,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 32,
-        "lowest": true,
-        "since": "2026-10-07"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=deals-2026-11-10",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "lowest price we've tracked (32 days of data)",
-        "deepest-discount rank 1 of 1"
-      ]
-    }
-  ],
+  "candidates": [],
   "gogNews": [],
   "topical": [],
   "topics": [],
@@ -74,7 +22,7 @@
     "notNiche": 4,
     "noFacts": 0,
     "taken": 0,
-    "repeat": 0,
+    "repeat": 1,
     "smallDiscount": 0,
     "ended": 0,
     "endsTooSoon": 0,
@@ -86,18 +34,10 @@
   },
   "posts": {
     "x": {
-      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Nov 10. Sale ends Nov 16. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=x-cozy&utm_medium=social&utm_campaign=deals-2026-11-10\n\n#PCGaming #CityBuilder\nAd",
-      "length": 176,
-      "max": 270,
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=x-cozy&utm_medium=social&utm_campaign=deals-2026-11-10",
-      "deal": "gog-simcity-4-deluxe-edition"
+      "none": "No deal passes the rules today. NOTHING TO OFFER today. No game fits the niche today (1 fit the rule, 4 do not, 0 have no facts yet, 0 were taken by another account today, 1 offered in the last 7 days, 0 under 30%, 0 prices older than 48 h, 0 sales over or ending soon)."
     },
     "bluesky": {
-      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Nov 10. Sale ends Nov 16. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=deals-2026-11-10\n\n#GameDeals #PCGaming #CityBuilder #SimCity4DeluxeEdition\nAd",
-      "length": 212,
-      "max": 300,
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=deals-2026-11-10",
-      "deal": "gog-simcity-4-deluxe-edition"
+      "none": "No deal passes the rules today. NOTHING TO OFFER today. No game fits the niche today (1 fit the rule, 4 do not, 0 have no facts yet, 0 were taken by another account today, 1 offered in the last 7 days, 0 under 30%, 0 prices older than 48 h, 0 sales over or ending soon)."
     }
   }
 }

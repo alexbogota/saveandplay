@@ -1,5 +1,19 @@
 [
  {
+  "day": "2026-11-11",
+  "account": "prices",
+  "post": "Shadow Tactics: Blades of the Shogun: -90% at GOG | $3.99 (was $39.99) | Price checked Nov 11. Sale ends Nov 13. Lowest price we've tracked. https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-11 #PCGaming #GameDeals Ad",
+  "chars": 188,
+  "order": 1
+ },
+ {
+  "day": "2026-11-11",
+  "account": "prices-2",
+  "post": "Metro Exodus: -90% at GOG | $2.99 (was $29.99) | Price checked Nov 11. Sale ends Nov 16. Lowest price we've tracked. https://saveandplay.com/deals/gog/metro-exodus/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-11 #PCGaming #GameDeals Ad",
+  "chars": 164,
+  "order": 2
+ },
+ {
   "day": "2026-11-10",
   "account": "prices",
   "post": "Darkest Dungeon: -85% at GOG | $3.75 (was $24.99) | Price checked Nov 10. Sale ends Nov 16. Lowest price we've tracked. https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-10 #PCGaming #DarkestDungeon Ad",
@@ -96,19 +110,5 @@
   "post": "SimCity 4 Deluxe Edition: -75% at GOG | $4.99 (was $19.99) | Price checked Nov 5. Sale ends Nov 16. Lowest price we've tracked. https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=x-retro&utm_medium=social&utm_campaign=deals-2026-11-05 #RetroGaming #SimCity4DeluxeEdition Ad",
   "chars": 190,
   "order": 4
- },
- {
-  "day": "2026-11-04",
-  "account": "prices",
-  "post": "Thronebreaker: The Witcher Tales: -80% at GOG | $3.99 (was $19.99) | Price checked Nov 4. Sale ends Nov 5. Lowest price we've tracked. https://saveandplay.com/deals/gog/thronebreaker-the-witcher-tales/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-04 #PCGaming #Thronebreaker Ad",
-  "chars": 186,
-  "order": 1
- },
- {
-  "day": "2026-11-04",
-  "account": "prices-2",
-  "post": "Metro Exodus: -85% at GOG | $4.49 (was $29.99) | Price checked Nov 4. Sale ends Nov 5. https://saveandplay.com/deals/gog/metro-exodus/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-04 #PCGaming #MetroExodus Ad",
-  "chars": 136,
-  "order": 2
  }
 ]

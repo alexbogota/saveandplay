@@ -1,8 +1,8 @@
 {
   "account": "Honest prices (second deal of the day)",
-  "generatedAt": "2026-11-10T18:29:16.491Z",
-  "builtBy": "commit 284624d, schedule, run #42 attempt 1",
-  "pricesCheckedAt": "2026-11-10T17:13:47.835Z",
+  "generatedAt": "2026-11-11T18:24:50.284Z",
+  "builtBy": "commit 01c3a2f, schedule, run #43 attempt 1",
+  "pricesCheckedAt": "2026-11-11T17:23:15.427Z",
   "warnings": [],
   "candidates": [
     {
@@ -14,8 +14,8 @@
       "was": 29.99,
       "discount": 90,
       "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 133,
-      "priceCheckedAt": "2026-11-10T17:13:47.835Z",
+      "endsInHours": 110,
+      "priceCheckedAt": "2026-11-11T17:23:15.427Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804",
       "drminfo": null,
       "coverAlt": "Cover art for Metro Exodus",
@@ -53,75 +53,16 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 24,
+        "days": 25,
         "lowest": true,
         "since": "2026-10-18"
       },
-      "offeredOn": "2026-11-09",
-      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-10",
+      "offeredOn": "2026-11-10",
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-11",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (24 days of data)",
+        "lowest price we've tracked (25 days of data)",
         "deepest-discount rank 1 of 4"
-      ]
-    },
-    {
-      "id": "gog-shadow-tactics-blades-of-the-shogun",
-      "kind": "deal",
-      "title": "Shadow Tactics: Blades of the Shogun",
-      "store": "GOG",
-      "price": 3.99,
-      "was": 39.99,
-      "discount": 90,
-      "endsAt": "2026-11-13T09:59:00+02:00",
-      "endsInHours": 61,
-      "priceCheckedAt": "2026-11-10T17:13:47.835Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
-      "drminfo": null,
-      "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
-      "facts": {
-        "year": 2016,
-        "genres": [
-          "Strategy",
-          "Real-time",
-          "Stealth"
-        ],
-        "tags": [
-          "Indie",
-          "Atmospheric",
-          "Strategy",
-          "Puzzle",
-          "Great Soundtrack",
-          "Tactical",
-          "Third Person",
-          "Historical",
-          "Survival",
-          "Violent",
-          "Real-Time",
-          "Difficult",
-          "Isometric",
-          "RTS",
-          "Stealth",
-          "Ninja"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 3,
-      "discountRank": 2,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 32,
-        "lowest": true,
-        "since": "2026-10-07"
-      },
-      "offeredOn": "2026-11-09",
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-10",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "lowest price we've tracked (32 days of data)",
-        "deepest-discount rank 2 of 4"
       ]
     },
     {
@@ -133,8 +74,8 @@
       "was": 19.99,
       "discount": 85,
       "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 133,
-      "priceCheckedAt": "2026-11-10T17:13:47.835Z",
+      "endsInHours": 110,
+      "priceCheckedAt": "2026-11-11T17:23:15.427Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
       "drminfo": null,
       "coverAlt": "Cover art for This War of Mine",
@@ -168,19 +109,77 @@
       "marketplace": false,
       "compareTo": null,
       "score": 2.5,
-      "discountRank": 3,
+      "discountRank": 2,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 23,
+        "days": 24,
         "lowest": true,
         "since": "2026-10-19"
       },
       "offeredOn": "2026-11-08",
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-10",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-11",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (23 days of data)",
+        "lowest price we've tracked (24 days of data)",
+        "deepest-discount rank 2 of 4"
+      ]
+    },
+    {
+      "id": "gog-darkest-dungeon",
+      "kind": "deal",
+      "title": "Darkest Dungeon",
+      "store": "GOG",
+      "price": 3.75,
+      "was": 24.99,
+      "discount": 85,
+      "endsAt": "2026-11-16T09:59:00+02:00",
+      "endsInHours": 110,
+      "priceCheckedAt": "2026-11-11T17:23:15.427Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187",
+      "drminfo": null,
+      "coverAlt": "Cover art for Darkest Dungeon",
+      "facts": {
+        "year": 2016,
+        "genres": [
+          "Role-playing",
+          "Turn-based",
+          "Fantasy"
+        ],
+        "tags": [
+          "Indie",
+          "Fantasy",
+          "Atmospheric",
+          "Role-playing",
+          "2D",
+          "Turn-Based",
+          "Dark",
+          "Horror",
+          "Difficult",
+          "Roguelike",
+          "Roguelite",
+          "Dungeon Crawler",
+          "Lovecraftian",
+          "Perma Death",
+          "Petting Dogs"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 2.5,
+      "discountRank": 3,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 33,
+        "lowest": true,
+        "since": "2026-10-07"
+      },
+      "offeredOn": "2026-11-10",
+      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-11",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "lowest price we've tracked (33 days of data)",
         "deepest-discount rank 3 of 4"
       ]
     },
@@ -193,8 +192,8 @@
       "was": 19.99,
       "discount": 75,
       "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 133,
-      "priceCheckedAt": "2026-11-10T17:13:47.835Z",
+      "endsInHours": 110,
+      "priceCheckedAt": "2026-11-11T17:23:15.427Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
       "drminfo": null,
       "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
@@ -226,15 +225,15 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 32,
+        "days": 33,
         "lowest": true,
         "since": "2026-10-07"
       },
       "offeredOn": "2026-11-06",
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-10",
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-11",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (32 days of data)",
+        "lowest price we've tracked (33 days of data)",
         "deepest-discount rank 4 of 4"
       ]
     }
@@ -260,17 +259,17 @@
   },
   "posts": {
     "x": {
-      "text": "Metro Exodus: -90% at GOG\n$2.99 (was $29.99)\nPrice checked Nov 10. Sale ends Nov 16. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/metro-exodus/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-10\n\n#PCGaming #MetroExodus\nAd",
-      "length": 164,
+      "text": "Metro Exodus: -90% at GOG\n$2.99 (was $29.99)\nPrice checked Nov 11. Sale ends Nov 16. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/metro-exodus/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-11\n\n#PCGaming #GameDeals\nAd",
+      "length": 162,
       "max": 270,
-      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-10",
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-11",
       "deal": "gog-metro-exodus"
     },
     "bluesky": {
-      "text": "Metro Exodus: -90% at GOG\n$2.99 (was $29.99)\nPrice checked Nov 10. Sale ends Nov 16. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-10\n\n#PCGaming #GameDeals #DRMFree #PCGames #GOG\nAd",
-      "length": 187,
+      "text": "Metro Exodus: -90% at GOG\n$2.99 (was $29.99)\nPrice checked Nov 11. Sale ends Nov 16. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-11\n\n#PCGaming #GameDeals #VideoGames #Gaming #MetroExodus\nAd",
+      "length": 197,
       "max": 300,
-      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-10",
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-11",
       "deal": "gog-metro-exodus"
     }
   }

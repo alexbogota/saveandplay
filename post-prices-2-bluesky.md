@@ -1,8 +1,8 @@
 Metro Exodus: -90% at GOG
 $2.99 (was $29.99)
-Price checked Nov 10. Sale ends Nov 16. Lowest price we've tracked.
+Price checked Nov 11. Sale ends Nov 16. Lowest price we've tracked.
 
-https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-10
+https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-11
 
-#PCGaming #GameDeals #DRMFree #PCGames #GOG
+#PCGaming #GameDeals #VideoGames #Gaming #MetroExodus
 Ad
