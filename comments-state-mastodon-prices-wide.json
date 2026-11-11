@@ -8,65 +8,47 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 616,
-      "posts": 25960,
-      "fit": 299,
+      "runs": 624,
+      "posts": 26280,
+      "fit": 300,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-11T06:08:24.723Z"
+        "at": "2026-11-11T14:14:34.262Z"
       }
     },
     "moreAsk": {
-      "runs": 385,
-      "posts": 3465,
+      "runs": 390,
+      "posts": 3510,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-11-11T06:08:24.723Z"
+        "at": "2026-11-11T14:14:34.262Z"
       }
     },
     "moreRetro": {
-      "runs": 385,
-      "posts": 23880,
-      "fit": 826,
+      "runs": 390,
+      "posts": 24160,
+      "fit": 834,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-11T06:08:24.723Z"
+        "at": "2026-11-11T14:14:34.262Z"
       }
     },
     "morePlaying": {
-      "runs": 385,
-      "posts": 1617,
+      "runs": 390,
+      "posts": 1638,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-11-11T06:08:24.723Z"
+        "at": "2026-11-11T14:14:34.262Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@gpowerf/117590791175951047": {
-      "uri": "https://mastodon.social/@gpowerf/117590791175951047",
-      "url": "https://mastodon.social/@gpowerf/117590791175951047",
-      "handle": "gpowerf@mastodon.social",
-      "name": "Dr. G. Power",
-      "text": "I've not ordered a Cardputer Zero yet, I do have a Carputer ADV that's only used as a Meshtastic node. But I am hugely tempted by a Cardputer Zero! The larger screen could make it the ultimate pocketable #ZXSpectrum or #C64 And with the built in HDMI port you can go straight from the hand held format to desktop instantly. Is anyone else considering one of these for emulating 8 bit computers? #retrocomputing #retrogaming #C64 #ZXSpectrum",
-      "createdAt": "2026-11-10T06:44:38.251Z",
-      "likes": 3,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 6,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "2 images: And ADV and a Zero side by side highlighting how much larger the screen for the Zero is / Side of the Zero showing the HDMI port.",
-      "firstSeen": "2026-11-10T07:13:00.737Z"
-    },
     "https://mastodon.social/@eMSequel/117591144958985219": {
       "uri": "https://mastodon.social/@eMSequel/117591144958985219",
       "url": "https://mastodon.social/@eMSequel/117591144958985219",
@@ -188,7 +170,7 @@
       "replies": 2,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -203,11 +185,11 @@
       "name": "The Retro Timer",
       "text": "Look at the expression of terror on the goalie's face, still in mid-air after failing to catch the ball. Well... his face is just 3x3 pixels, but those are 9 expressive pixels. #retrogaming #pixelart #amiga",
       "createdAt": "2026-11-11T01:41:58.007Z",
-      "likes": 11,
-      "replies": 1,
+      "likes": 25,
+      "replies": 2,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 4,
+      "score": 3,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -249,6 +231,44 @@
       "isReply": false,
       "media": "link card: Perhaps you need more than words, perhaps you need this…",
       "firstSeen": "2026-11-11T06:08:24.723Z"
+    },
+    "https://mastodon.social/@kuroneko@socials.thundercleess.com/117598192736192603": {
+      "uri": "https://mastodon.social/@kuroneko@socials.thundercleess.com/117598192736192603",
+      "url": "https://mastodon.social/@kuroneko@socials.thundercleess.com/117598192736192603",
+      "handle": "kuroneko@socials.thundercleess.com",
+      "name": "Blackcat",
+      "text": "🎮 On This Day in Gaming — November 11 Leading today is Dishonored 2 (2016), Arkane's stealth-action sequel. You play Emily Kaldwin or Corvo Attano through the clockwork city of Karnaca, and the game is praised for its level design and its range of powers. Also released today: 📅 2008: Mirror's Edge 📅 2008: Call of Duty: World at War 📅 2014: Assassin's Creed Unity #Gaming #OnThisDay #RetroGaming #Dishonored2",
+      "createdAt": "2026-11-11T14:06:52.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://socials.thundercleess.com/@kuroneko/117598192433220196",
+      "media": "4 images: Dishonored 2: first-person view from a steam-powered boat approaching the sunlit port city of Karnaca / Mirror's Edge: first-person rooftop run past Vulpes billboards with a police helicopter overhead / Call of Duty: World at War cover art showing a soldier charging through jungle foliage / Assassin's Creed Unity: assassins fighting soldiers in a Paris street near a guillotine during the French Revolution",
+      "firstSeen": "2026-11-11T14:14:34.262Z"
+    },
+    "https://mastodon.social/@CrabbyIT@infosec.exchange/117598169841617664": {
+      "uri": "https://mastodon.social/@CrabbyIT@infosec.exchange/117598169841617664",
+      "url": "https://mastodon.social/@CrabbyIT@infosec.exchange/117598169841617664",
+      "handle": "CrabbyIT@infosec.exchange",
+      "name": "Mr. Crab - Sysadmin from Heck",
+      "text": "I'm going through my bins of old video games and found hand written notes from someone I loved who passed written on old GameFAQs printouts. It brought up a lot of feelings. and most importantly it inspired me to build a retro gaming PC over the winter. Good thing I didn't purge ALL of my old hardware. Now if you'll excuse me, I'm going to make a cuppa tea and gaze longingly out the window while I remember better days. #nostalgia #retrogaming #windowsxp",
+      "createdAt": "2026-11-11T14:01:06.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://infosec.exchange/@CrabbyIT/117598169788239815",
+      "media": null,
+      "firstSeen": "2026-11-11T14:14:34.262Z"
     }
   }
 }
