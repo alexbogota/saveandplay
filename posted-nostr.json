@@ -2630,6 +2630,67 @@
             "id": "a758fe3fea2bf6718623b46eee71aaf3b135b8e8e15e85e585ee129e59eec6a7",
             "sig": "fad2e4b8b27dc2590d74e3cbe9031758541466bbac6de632d941d9470ad6f6ebee5dcafa5283de8c9c857a5386157dbfb5235f73d9271603221a79fb7c78009f"
           }
+        },
+        "article": {
+          "status": "partial",
+          "kind": "article",
+          "id": "0e75302eedb36b4e0d7c35bffdfb256d9143820c98e2e91927d45c99507d6ec3",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "article": "steam-deck-ratings-explained",
+          "postedAt": "2026-11-11T23:16:49.000Z",
+          "accepted": [
+            "wss://offchain.pub"
+          ],
+          "failed": [
+            {
+              "url": "wss://relay.damus.io",
+              "reason": "connection failed"
+            },
+            {
+              "url": "wss://nos.lol",
+              "reason": "no answer (timeout)"
+            },
+            {
+              "url": "wss://relay.primal.net",
+              "reason": "no answer (timeout)"
+            },
+            {
+              "url": "wss://nostr.mom",
+              "reason": "no answer (timeout)"
+            }
+          ],
+          "event": {
+            "kind": 1,
+            "created_at": 1794439009,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-article"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://saveandplay.com/og/steam-deck-ratings-explained.png",
+                "m image/png",
+                "alt Four boxes showing the Steam Deck ratings as Valve defines them: Verified works great out of the box, Playable may need manual tweaking, Unsupported is currently not functional, Unknown has not been checked yet."
+              ]
+            ],
+            "content": "Steam Deck Verified, Playable, Unsupported: what the ratings mean before you buy\n\nValve sorts games into four Steam Deck ratings. Here is what each one promises, what the checklist covers, and a five-minute check before you pay.\n\n#pcgaming #gamedeals\n\nhttps://saveandplay.com/og/steam-deck-ratings-explained.png\n\nhttps://saveandplay.com/guides/steam-deck-ratings-explained/?utm_source=nostr-prices&utm_medium=social&utm_campaign=steam-deck-ratings-explained",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "0e75302eedb36b4e0d7c35bffdfb256d9143820c98e2e91927d45c99507d6ec3",
+            "sig": "448a0421ec6a13c0e52fd4374d5ee504c2011e011061cd2bf24710522e9c07354a4d213a59297795b94da98101871bb59cb9aebc50db4e6066a2543171103dee"
+          }
         }
       }
     }
@@ -2703,6 +2764,10 @@
       "percent-vs-dollars-saved": {
         "day": "2026-11-09",
         "id": "a9e54a0061eb933c588df73a6b9c5c9c99b8c072df7258113e7ab8348ad01dc2"
+      },
+      "steam-deck-ratings-explained": {
+        "day": "2026-11-11",
+        "id": "0e75302eedb36b4e0d7c35bffdfb256d9143820c98e2e91927d45c99507d6ec3"
       }
     }
   },
