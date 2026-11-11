@@ -1,0 +1,18 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-prices-20261111-155948.json",
+  "approvedAt": "2026-11-11T16:02:48.578Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:u35n7mcallv4h7eazq4qyteh/app.bsky.feed.post/3mzyucs2la225",
+      "url": "https://bsky.app/profile/2ndplaceart.bsky.social/post/3mzyucs2la225",
+      "author": "2ndplaceart.bsky.social",
+      "context": "I do not have Adhd, but I have a \"Cannot be beaten\" collection of games on steam in order to help me beat my backlog of games with some kind of end to them. And yet Slay the Spire still calls to me... Great game... the problem is me.",
+      "text": "Slay the Spire is easy to justify when you have a backlog, since a run is fairly short and you can stop at any point. Good luck with the plan!",
+      "edited": false
+    }
+  ]
+}
