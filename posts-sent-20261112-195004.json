@@ -1,0 +1,36 @@
+{
+  "madeAt": "2026-11-12T19:50:04.928Z",
+  "run": "43294163412",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices-2|2026-11-11|/deals/gog/metro-exodus/",
+      "account": "prices-2",
+      "handle": "saveandplay.com",
+      "n": 2,
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-11",
+      "text": "Metro Exodus: -90% at GOG\n$2.99 (was $29.99)\nPrice checked Nov 11. Sale ends Nov 16. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-11\n\n#PCGaming #GameDeals #VideoGames #Gaming #MetroExodus\nAd",
+      "approvedFile": "posts-approved-20261112-144537.json",
+      "approvedAt": "2026-11-12T14:45:37.765Z",
+      "status": "skipped",
+      "reason": "already posted: https://bsky.app/profile/saveandplay.com/post/3n22oz3ao552t",
+      "at": "2026-11-12T19:50:05.936Z"
+    },
+    {
+      "key": "prices|coop-2026-11-12|/servers/the-forest/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 7,
+      "link": "https://saveandplay.com/servers/the-forest/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-11-12",
+      "text": "The Forest has online co-op on Steam.\nA rented server keeps your world online when the host logs off.\n\nhttps://saveandplay.com/servers/the-forest/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-11-12\n\n#PCGaming #TheForest\nAd",
+      "approvedFile": "posts-approved-20261112-144537.json",
+      "approvedAt": "2026-11-12T14:45:37.765Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-12T19:50:08.361Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n25aj7tx3f2k",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3n25aj7tx3f2k",
+      "picture": true
+    }
+  ]
+}
