@@ -1,57 +1,55 @@
 # Comment candidates: retro (@retrogamedeals.bsky.social)
-Made 2026-11-11T14:15Z. Searched: childhood: first video game | childhood: played this as a kid game | childhood: first pc game | childhood: childhood game | classicPC: old pc game | classicPC: retro pc gaming | classicPC: dos game | classicPC: classic pc game | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: retro game recommendations | askRetro: old games recommend | askRetro: retro games recommend | askRetro: best retro games | retroFeed: feed.
-Posts below: 12 + 2 heated. Dropped in this run: not about games 99, other language (text) 7, low score 18, bot, shop or studio 20, promo (link and hashtags) 5, skip word 66, replies are limited 13, adult or graphic label 2, too short 11, too many hashtags 4, empty 1, many links 1, not a question 27, other language 35, earlier finds: low score 2.
+Made 2026-11-12T14:28Z. Searched: childhood: game from my childhood | childhood: childhood favorite game | childhood: games from my childhood | childhood: first video game | classicPC: old pc games | classicPC: dos games | classicPC: classic pc games | classicPC: old pc game | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: best old games | askRetro: old game recommend | askRetro: retro game recommendations | askRetro: old games recommend | retroFeed: feed.
+Posts below: 12 + 2 heated. Dropped in this run: not about games 75, too many hashtags 7, replies are limited 12, skip word 73, too short 7, bot, shop or studio 18, promo (link and hashtags) 4, low score 15, adult or graphic label 1, other language (text) 17, empty 2, already shown 1, other language 42, not a question 17, earlier finds: low score 2.
 
 ## Posts
-1. @misteraustin.bsky.social (Mr. Austin) · 42m · likes 1 · replies 0 · question · classicPC
-   https://bsky.app/profile/misteraustin.bsky.social/post/3n222ybm3qs2a
-   while looking for the box art, I found a webpage with the header "Is King's Quest III: To Heir Is Human Down Right Now?" and I'm pleased to report that no: the server for this mid-80s DOS game is fully operational, thank god
-   [image: screenshot of a webpage that says "King's Quest III: To Heir is Human Server Status: No problems detected." it says "Last check: 16S ago" so someone is on top …]
-2. @gamesthatwerent.com (Games That Weren't) · 5h · likes 20 · replies 0 · question · classicPC
-   https://bsky.app/profile/gamesthatwerent.com/post/3mzzlfgy56s23
-   Renegade 2: Return to Jacob's Star, an unreleased PC DOS sequel from Midnight Software and SSI. A playable demo survives, though Mikael Magnano suggests the full game may have been completed, with copies reportedly sent to the press. Could it be saved? www.gamesthatwerent.com/202
-   [image, no description]
-3. @jay6x.bsky.social (Jay6) · 5h · likes 1 · replies 0 · question · nostalgia
-   https://bsky.app/profile/jay6x.bsky.social/post/3mzzkzokm5s2p
-   And done! I've finished all of the Dot Hack PS2 games, and all 4 volumes of .hack//G.U.! Volume 4 was very short, but it does end off in a rather nostalgic way. What people do on the final day of a game server in a game they've been playing all this time? Maybe have one last adve
-   [link card: Dot Hack Dot Hack Dance]
-4. @chiikineko.bsky.social (chii_) · 8h · likes 1 · replies 1 · question · classicPC
-   https://bsky.app/profile/chiikineko.bsky.social/post/3mzzccqrn522x
-   famous game monster hunter dos?
-5. @benjaminlistwon.com (Benjamin is ... making a game) · 16h · likes 11 · replies 1 · question · childhood
-   https://bsky.app/profile/benjaminlistwon.com/post/3mzyhixjupt24
-   Tapping the sign because I just went from: - post about a game (no link, no thread w/ link) - hashtag from post - scroll 20+ posts down to first w/ link - link was a review article (no steam link in it) - embedded YT video -> YT - link in description - steam! Help me to help you 
-   [quotes @benjaminlistwon.com: Friendly reminder: link your website/portfolio/link-in-bio page in your profile here on bsky! So many artist/writer/photography/gamedev fol…]
-6. @justinbuist.bsky.social (Justin Buist) · 20h · likes 1 · replies 0 · question · childhood
-   https://bsky.app/profile/justinbuist.bsky.social/post/3mzxzgzkjhs2l
-   Doom was the first PC game I remember other kids being excited about when they first saw it.
-7. @no-clever-username.bsky.social (No Clever Username) · 21h · likes 1 · replies 0 · question · classicPC
-   https://bsky.app/profile/no-clever-username.bsky.social/post/3mzxx3y6jns2z
-   If it was the PC version of the game, I could see it as a cult classic... but the console version? I think that may be a meme cash grab. ...lowkey tho, I still want it.
-8. @mrabandonware.bsky.social (~/Mr Abandonware) · 25h · likes 5 · replies 0 · question · classicPC
-   https://bsky.app/profile/mrabandonware.bsky.social/post/3mzxkkpbuj227
-   How about a Portuguese MS-DOS puzzle-adventure for frozen fish products? www.myabandonware.com/game/crousti...
-   [link card: Download Croustibat - My Abandonware; quotes @cynetrunner.bsky.social: First there was a KFC Colonel Sanders dating sim, and now we have a Wendys RPG? What's next? A McDonalds first person shooter? A Burger Kin…]
-9. @childdog.bsky.social (Master Soul (aka Oli A. White)) · 1h · likes 1 · replies 1 · question · childhood
+1. @xoiiu.bsky.social (Xoi) · 18h · likes 3 · replies 1 · question · classicPC
+   https://bsky.app/profile/xoiiu.bsky.social/post/3n22sefr4hc2y
+   STAR OF PROVIDENCE IS AMAZING! one of the best games i ever discovered!!! i remember this old pc game i played as a baby called Wacky Wheels, it was a mario kart clone on PC with animal people. it had a demo mode with locked characters but i figured out an exploit that let me pla
+2. @arionis.bsky.social (Arionis Chambers) · 9h · likes 0 · replies 0 · question · childhood
+   https://bsky.app/profile/arionis.bsky.social/post/3n23rvqvgvs2e
+   "Mega Man Legends could finally be getting a sequel! Aren't you excited?" 1. It already had one, yes I will be pedantic over this. 2. The last time a game from my childhood *finally* got a sequel, it was cancelled so some other bastardization could have it's name instead. RIP, Bl
+3. @masonicon.bsky.social (Mang Zaka) · 18h · likes 0 · replies 0 · question · childhood
+   https://bsky.app/profile/masonicon.bsky.social/post/3n22tmnu3c22i
+   I also remember "kingdom of games" CD holding so much DOS games from my childhood
+4. @nathewulfart.bsky.social (Nathewulf Art, Mayor of Halloween) · 21h · likes 6 · replies 1 · question · gogOld
+   https://bsky.app/profile/nathewulfart.bsky.social/post/3n22j5pvqlc27
+   Now they definitely need to do Majora's Mask after this. This remake is so good, I would more revisits to older games like this. This is how you properly make an old game feel new again, some mysteries solved bit others left up in the air and new ones to think about
+5. @nifflas.bsky.social (Nifflas) · 12m · likes 10 · replies 2 · classicPC
+   https://bsky.app/profile/nifflas.bsky.social/post/3n24nuspgq22s
+   Also, @bitkidgames.com recently a faithfully accurate recreation of my 20 year old game Knytt. It's free! This is very neat because the original game doesn't actually run on my PC because it's so old, so now I can play it again.
+   [link card: Knytt Classic on Steam]
+6. @thedrewstarr.bsky.social (Drew Starr) · 2h · likes 0 · replies 2 · question · childhood
+   https://bsky.app/profile/thedrewstarr.bsky.social/post/3n24hjgnlqs2c
+   Is this the first video game written by a James Beard winner? (Of all the Beard winning writing in history, hers is the one i most wish I had written) www.everywhereist.com/i-made-the-p...
+   [link card: I Made the Pizza Cinnamon Rolls from Mario Batali's Sexual Misconduct Apology Letter; quotes @everywhereist.bsky.social: Um, soooo *awkwardly circles toe* I've been heads down on a project for the last few years and I can finally talk about it!!! I'm the lead …]
+7. @pablo.murad.social.ap.brid.gy (Pablo Murad :_tuki:) · 4h · likes 1 · replies 0 · classicPC
+   https://bsky.app/profile/pablo.murad.social.ap.brid.gy/post/3n247uiqm7l22
+   Debug log, human edition: Neat Finds #06: Gopher Holes, Beige Boxes and Unix Since 1970 Issue six: browsers and servers for Gemini, Gopher and Finger, an ephemeral forum, a beige DOS PC drawn from scratch, Serial Experiments Lain decompiled, PSP games in the browser, Zork's sourc
+   [link card: Original post on murad.social]
+8. @scrinnameless.bsky.social · 18h · likes 1 · replies 0 · question · childhood
+   https://bsky.app/profile/scrinnameless.bsky.social/post/3n22r6q5pgs2y
+   One thing I'm looking forward to is more art of the OoT ladies. They were my first video game crushes!
+9. @mysticmsa3d.bsky.social (MsaeĐ♦️) · 19h · likes 0 · replies 0 · question · nostalgia
+   https://bsky.app/profile/mysticmsa3d.bsky.social/post/3n22oa4nme22c
+   And how could they? Their memories would be on the new hotness that was built on Skyrim's strengths even further They won't appreciate the old games. You too can become a bitter nostalgic fan who can't accept the newer game just because they change things 😂
+10. @erikeverything.bsky.social (Erik Kelly) · 21h · likes 0 · replies 1 · question · gogOld
+   https://bsky.app/profile/erikeverything.bsky.social/post/3n22gpfo3vs2s
+   A great example of SEGA's "loud" mid-90s advertising aesthetic here, but most striking is the cost of all this. Everything mentioned here? A Genesis ($149) + Sega CD ($299) + Sega 32X ($159) = $607. In today's dollars that's $1380! For games that were (Genesis aside) not all that
+   [2 images: Full-page magazine advertisement for the Sega CD. Enormous black sans-serif type fills the top two-thirds of the white page, with words set at varying sizes: "… / Full-page magazine advertisement for the Sega CD. The page is dominated by an extreme close-up photograph of an elderly bald man's face, laughing or shouting w…]
+11. @katespeace.northsky.social (♡Kate 🔔 🇵🇸) · 24h · likes 6 · replies 1 · question · childhood
+   https://bsky.app/profile/katespeace.northsky.social/post/3n227kq2pfc27
+   CW // slight flashing effect in video game . . How the hell did the developers create this cool looking 3D esque first person level on the Sega Genesis way back?! Playing the Genesis version of Toy Story now and wow, I'm rather impressed!
+   [video: 3D first person level in Toy Story for the Sega Genesis showing Woody finding and returning the green aliens to the other aliens; quotes @katespeace.northsky.social: The player might have been a bit drunk ngl.]
+12. @childdog.bsky.social (Master Soul (aka Oli A. White)) · 25h · likes 1 · replies 1 · question · childhood
    https://bsky.app/profile/childdog.bsky.social/post/3mzzzjavkek2o
    Has anyone ever actually done something like this before? This surely has to be an absolute first, right? This is like, an actually interesting video game story. Remember that sometimes games are still magic.
    [quotes @mikerose.bsky.social: I have some 🌟feel-good news🌟 to share today! Earlier this year we launched a game called Piece by Piece. In the same week, *another* game…]
-10. @harperiswriting.bsky.social (Harper) · 5h · likes 0 · replies 0 · question · nostalgia
-   https://bsky.app/profile/harperiswriting.bsky.social/post/3mzzllzy7ls2d
-   I think it's normal. Like if we can be attached to movies or books why wouldn't we also be attached video games? I think for me my nostalgia game is Super Mario Sunshine on GameCube. I just really specific memories of playing that during the summer while Wonderwall was stuck in m
-11. @greatmatrix.bsky.social · 6h · likes 0 · replies 0 · question · childhood
-   https://bsky.app/profile/greatmatrix.bsky.social/post/3mzziacga6k2k
-   Second only to... what, Twilight Princess's 2006 launch, I assume? The funny part is this is a 28-year-old game out-selling every new release of 2026 on shelves. Physical charts are becoming a nostalgia index — the people still buying discs are the ones buying their childhood.
-12. @alnora.bsky.social (Danny 🦖) · 11h · likes 0 · replies 1 · question · childhood
-   https://bsky.app/profile/alnora.bsky.social/post/3mzyx7nns6c22
-   REmake set the bar so absurdly high for video game remakes everything since has been like trying to climb mt. everest. There have been many good ones, but they can't quite clear the summit. Toys for Bob came really god damn close with Reignited. Spyro was my childhood and to see 
 
 ## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @plot-twist-daily.bsky.social (Plot Twist Daily) · 18h · likes 4 · replies 1 · question · childhood
-   https://bsky.app/profile/plot-twist-daily.bsky.social/post/3mzya2z3jls2e
-   In October 1958 physicist William Higinbotham wired an oscilloscope to an analog computer for Brookhaven National Laboratory's visitors' day. People queued to play his Tennis for Two - 14 years before Atari's Pong. What did you think the first video game was? #tech #AI
-   [image: Timeline: Tennis for Two played at Brookhaven in October 1958; Pong released in November 1972, 14 years later.]
-2. @onelordofthememes.bsky.social (A Meme Walking By) · 29h · likes 0 · replies 0 · question · childhood
-   https://bsky.app/profile/onelordofthememes.bsky.social/post/3mzx43xepq226
-   2/2 Now, if it's about people being "tricked" to play a game developed with/by AI... dudes, seriously, it's a video game. Ever since Asteroids and Galaga I've heard rants and praises to every hit. Don't want AI? Learn to ask first. Or accept you enjoyed it. en.wikipedia.org/wiki/
-   [image, no description]
+1. @sockynoob.bsky.social (Socky Noob (Check pinned)) · 21h · likes 1 · replies 0 · question · classicPC
+   https://bsky.app/profile/sockynoob.bsky.social/post/3n22i5kzkec2e
+   AI bros: 1000s of high quality DOS games? Hell no! Let me ask my slop factory to "create" something far better.
+2. @sockynoob.bsky.social (Socky Noob (Check pinned)) · 21h · likes 1 · replies 1 · classicPC
+   https://bsky.app/profile/sockynoob.bsky.social/post/3n22hwd2fds2e
+   Or JME for that matter. It'd be like saying you'd rather play an AI slop DOS game and not the thousands of high quality games that exist.

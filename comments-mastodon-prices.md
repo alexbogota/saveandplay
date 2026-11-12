@@ -1,54 +1,65 @@
 # Comment candidates: mastodon-prices (@saveandplay@mastodon.social)
-Made 2026-11-12T00:38Z. Searched: deck: handheldgaming | deck: steamdecklife | deck: steamdeckoled | deck: steamdeck | deck: steamos | practical: linuxgaming | practical: drmfree | practical: gog | practical: protondb | genres: coopgames | genres: citybuilder | genres: strategygames | genres: survivalgames | genres: horrorgaming | genres: cozygaming | genres: puzzlegames | genres: roguelike | genres: cozygames | genres: metroidvania | seasonal: halloweengames | seasonal: horrorgames | seasonal: spooktober | broadPlaying: videogames | broadPlaying: currentlyplaying | broadPlaying: indiegames | broadPlaying: indiegame | broadPlaying: pcgames | broadPlaying: steamgames | broadPlaying: gamer | broadPlaying: games | broadPlaying: rpg | broadPlaying: jrpg | broadPlaying: pcgaming | broadPlaying: gaming | broadPlaying: steam | broadAsk: recommendmeagame | broadAsk: gamerecommendation | broadAsk: recommendagame | broadAsk: whattoplay | broadAsk: gamesuggestion | broadAsk: hiddengem | broadAsk: underratedgames | broadAsk: gamesuggestions | backlog: gamingbacklog | backlog: backlog | backlog: pileofshame | backlog: whatshouldiplay | backlog: gamerecommendations | backlog: gamerecs.
-Posts below: 12. Dropped in this run: skip word 227, too old 1295, bot, shop or studio 815, other language 214, promo (link and hashtags) 95, profile says no bots or promo 6, link post, not a question 17, not about games 37, hidden from search 5, already shown 19, low score 14, other language (text) 122, too long 7, many links 4, own post 10, console only 20, content warning 9, already answered 1, too short 3, earlier finds: low score 4.
+Made 2026-11-12T14:26Z. Searched: deck: handheldgaming | deck: steamdecklife | deck: steamdeckoled | deck: steamdeck | deck: steamos | practical: linuxgaming | practical: drmfree | practical: gog | practical: protondb | genres: coopgames | genres: citybuilder | genres: strategygames | genres: survivalgames | genres: horrorgaming | genres: cozygaming | genres: puzzlegames | genres: roguelike | genres: cozygames | genres: metroidvania | seasonal: halloweengames | seasonal: horrorgames | seasonal: spooktober | broadPlaying: videogames | broadPlaying: currentlyplaying | broadPlaying: indiegames | broadPlaying: indiegame | broadPlaying: pcgames | broadPlaying: steamgames | broadPlaying: gamer | broadPlaying: games | broadPlaying: rpg | broadPlaying: jrpg | broadPlaying: pcgaming | broadPlaying: gaming | broadPlaying: steam | broadAsk: recommendmeagame | broadAsk: gamerecommendation | broadAsk: recommendagame | broadAsk: whattoplay | broadAsk: gamesuggestion | broadAsk: hiddengem | broadAsk: underratedgames | broadAsk: gamesuggestions | backlog: gamingbacklog | backlog: backlog | backlog: pileofshame | backlog: whatshouldiplay | backlog: gamerecommendations | backlog: gamerecs.
+Posts below: 12 + 2 heated. Dropped in this run: skip word 164, too old 1245, bot, shop or studio 786, other language 217, promo (link and hashtags) 111, profile says no bots or promo 4, already shown 16, low score 6, other language (text) 187, too long 8, many links 6, link post, not a question 26, own post 10, not about games 43, console only 14, hidden from search 4, content warning 8, already answered 1, too short 1, earlier finds: low score 2.
 
 ## Posts
-1. @mikaeleiman@mastodon.sdf.org (m_eiman) · 6h · likes 1 · replies 0 · question · broadPlaying
+1. @coinkedpath.wordpress.com@coinkedpath.wordpress.com (coinkedpath) · 2h · likes 0 · replies 0 · question · broadPlaying
+   https://mastodon.social/@coinkedpath.wordpress.com@coinkedpath.wordpress.com/117603583844854409
+   original: https://coinkedpath.wordpress.com/2026/11/12/open-and-vast/
+   Open and vast In today’s twisted saying. Movies are a coded way to deliver a message. But can the reader crack the message? Find out if the code is too much to understand. Enjoy the game. https://inkedpath.com/movie-is-a-pun/ Getting a jump of images the 400 can be seen on the si
+   [3 images: A set of three game pieces labeled perplexed is called the scribbles. The set of three game pieces is for spot-the-difference. / A set of three game pieces labeled perplexed is called the scribbles. The set of three game pieces is for spot-the-difference. / A set of three game pieces labeled perplexed is called the scribbles. The set of three game pieces is for spot-the-difference.]
+2. @astrariumdigital@mastodon.social (Astrarium Digital) · 4h · likes 0 · replies 1 · question · broadPlaying
+   https://mastodon.social/@astrariumdigital/117602891448416230
+   Cats! 🐈️ With swords! ⚔️ Who is going to win??? #Buy OVERCAT on #Steam right now! #play the amazing #demo to get you started! #showcasethursday #indie #game #pc #2d #pvp #fighting #cats #gladiator
+   [video, no description]
+3. @falken@falkensweb.com (uoʇɹǝʌıɥƆ ɯo⊥) · 6h · likes 1 · replies 0 · question · broadPlaying
+   https://mastodon.social/@falken@falkensweb.com/117602466003461433
+   original: https://social.falkensweb.com/@falken/statuses/01M77D3PGC1D6QC9K4WHQQ140X
+   @playingtux > compare achievements with up to three friends But what if I have 4 friends? #gaming #steam
+4. @raster@retro-gaiden.com (Raster) · 13h · likes 1 · replies 1 · question · broadPlaying
+   https://mastodon.social/@raster@retro-gaiden.com/117600846514863208
+   original: https://retro-gaiden.com/@raster/117600845701261078
+   I found the latest DLC soundtrack one of the best of Stellaris done up to now. https://invidious.tiekoetter.com/watch?v=zifyV0uoyS4 #pcgaming #stellaris
+   [link card: The Departure]
+5. @mikaeleiman@mastodon.sdf.org (m_eiman) · 20h · likes 1 · replies 0 · question · broadPlaying
    https://mastodon.social/@mikaeleiman@mastodon.sdf.org/117599192128074724
    original: https://mastodon.sdf.org/@mikaeleiman/117599186974707277
    Is it just me, or is #Steam Link on macOS rather crummy? Things like not handling retina resultions correctly… Seems like something that should have been working from first release, considering all Macs are retina and have been since forever?
-2. @pitcrewgg@mastodon.social (PitCrew) · 1h · likes 1 · replies 1 · deck
-   https://mastodon.social/@pitcrewgg/117600424790714574
-   🔄 Gamescope - Version 3.16.30.2 Stable backports bring updates and fixes to SteamOS 3.9.x. 1/2 #Gamescope #Linux #LinuxGaming #PCGaming #AMD #Intel #Mesa #Radeon #Vulkan #CUDA #GeForce #NVIDIA #RTXOn #Vulkan #OpenSource #LegionGo2 #LegionGoS #SteamDeck #SteamFrame #SteamMachine 
-   [image, no description]
-3. @pitcrewgg@mastodon.social (PitCrew) · 1h · likes 1 · replies 1 · practical
-   https://mastodon.social/@pitcrewgg/117600424287411407
-   🔄 War Thunder - Enhanced Munition Guidance Eagle's Shadow adds DIRCM and CCRP refinements, cluster bombs, and MITL munitions for helicopters with selectable impact points, plus infrared missiles targeting engines. 1/2 #WarThunder #Linux #LinuxGaming #PCGaming #FlightSim #FreeTra
-   [image, no description]
-4. @ambiguous_yelp@veganism.social (🌱🏴‍🅰️🏳️‍⚧️🐧🔧 Ambiyelp) · 2h · likes 0 · replies 0 · practical
-   https://mastodon.social/@ambiguous_yelp@veganism.social/117600290399757512
-   original: https://veganism.social/@ambiguous_yelp/117600290023100010
-   So I let the intrusive thoughts win and played Getting Over It for the first time in years today, I got just past the the orange jump which is about as far as I've ever got iirc. The game punishes you for trying to do any part too quickly and you're going to have a much better ti
-5. @ItalianSkeletonGaming@mastodon.social (Italian Skeleton) · 3h · likes 1 · replies 0 · broadPlaying
-   https://mastodon.social/@ItalianSkeletonGaming/117600026590064659
-   Not satisfied my story hunger, I went for the horror #pointandclick #StatisBoneTotem from the start there has been a step-up animation wise for the cut-scenes #gaming #videogames #pcgaming #indiegaming
-   [video, no description]
-6. @lashman@mastodon.social (lashman) · 4h · likes 3 · replies 0 · broadPlaying
-   https://mastodon.social/@lashman/117599690619174725
-   Developer: Tempo Publisher: Tempo Release date: 13 Aug, 2025 Screenshots: #steam #gaming #videoGames #steamStorePage
-   [4 images: Screenshot 1 from The Bazaar / Screenshot 2 from The Bazaar / Screenshot 3 from The Bazaar / Screenshot 4 from The Bazaar]
-7. @slash@graz.social (Bernhard Trummer) · 6h · likes 1 · replies 0 · broadPlaying
-   https://mastodon.social/@slash@graz.social/117599292962213425
-   original: https://graz.social/@slash/117599292895816961
-   My Steam perfect game number 106: The 7th Guest Remake A big one (~24GB) and a quick one (~13h) #steam #perfectgame
-   [image: All Steam achievements unlocked for The 7th Guest Remake]
-8. @pitcrewgg@mastodon.social (PitCrew) · 7h · likes 1 · replies 1 · deck
-   https://mastodon.social/@pitcrewgg/117599003497248773
-   🔄 Mesa - 26.3.0 Delivers Linux Graphics Driver Enhancements Mesa 26.3.0 open source driver release is out with many enhancements, including VK_AMD_anti_lag on RADV. 1/2 #Mesa3D #Linux #LinuxGaming #PCGaming #AMD #Intel #Mesa #Radeon #Vulkan #OpenSource #LegionGo2 #LegionGoS #Ste
-   [image, no description]
-9. @a_phlaming_phoenix@mastodon.social (Fried Chicken) · 16m · likes 0 · replies 0 · broadPlaying
-   https://mastodon.social/@a_phlaming_phoenix/117600612406613278
-   #VirtualPhotography from #Enshrouded! The 1.0 release comes with a camera item you get early on that lets you take first-person screenshots, so I took some photos of the world at night. #Games #VideoGames #Screenshots
-   [4 images: Crumbling ruins of a lost civilization stand between here and an enormous tower that stretches impossibly high into the deep purple and pink sky faintly dotted… / The same starry purple-pink sky oversees a thick fog in the lowlands beneath it, the deadly shroud of the game's title. / Home base in the pouring rain. A magical flame illuminates stone ruins crept over with vines. These old walls have only recently been reoccupied by man. / Interior of a cottage, no less cozy for its makeshift assembly. Mismatched materials form the walls, floor, and ceiling, though the lighting from a lone lamp a…]
-10. @dlsl@mastodon.online (Dlovan) · 2h · likes 0 · replies 0 · broadPlaying
-   https://mastodon.social/@dlsl@mastodon.online/117600101440664376
-   original: https://mastodon.online/@dlsl/117600101331000032
-   Now playing: Dungeons of Hinterberg. 1 hour into this Austrian-made game and they have successfully convinced me, living through a cold month, to want Eismarillenknödel without delay. #gaming #austria #dungeonsofhinterberg
-11. @umbraroze@tech.lgbt (Yesterday's Rose) · 3h · likes 0 · replies 0 · broadPlaying
-   https://mastodon.social/@umbraroze@tech.lgbt/117599964193451556
-   original: https://tech.lgbt/@umbraroze/117599963032857615
-   For #Skyrim anniversary, just completed the Dawnguard questline again. Will play more tonight! #videogames
-12. @Smith1PW@mastodon.social (PWSmith1) · 5h · likes 0 · replies 0 · broadPlaying
-   https://mastodon.social/@Smith1PW/117599608669366503
-   #vrchat #vrc #gaming #games #videogames #videogame #photography #photo #vrchatphotos #vrchatphotography #vrchatphoto #VirtualPhotography #vrcphotography #vrcphotos #vrcphoto
-   [2 images: A VRChat avatar — an anime-styled character with cat ears, glasses, dark hair, and a fluffy dark tail, wearing a blue sweater and dark pants — stands with thei… / A VRChat screenshot showing the interior of an ornate Baroque-style cathedral. Red-cushioned wooden pews line a central aisle leading toward an elaborately dec…]
+6. @sirmikester@mastodon.social (Mike) · 1h · likes 2 · replies 0 · deck
+   https://mastodon.social/@sirmikester/117603636557438966
+   Moved my #steamdeck and dock down to the living room to see if it will get some more use. I'm hoping to use it to play some couch coop games with my kids, and to also get through some controller friendly single player games like #daysgone and #uncharted #gaming #couchcoop #steam
+7. @MarloesdeKoning@nrc.social (Marloes de Koning) · 5h · likes 1 · replies 2 · question · broadPlaying
+   https://mastodon.social/@MarloesdeKoning@nrc.social/117602861834429988
+   original: https://nrc.social/@MarloesdeKoning/117602861664972969
+   @lenmaessen Filmindustrie wel, gamingindustrie niet? @dana #Feditorial #Gaming
+8. @KazuShuSora@social.tchncs.de (Nico) · 7h · likes 0 · replies 2 · question · broadPlaying
+   https://mastodon.social/@KazuShuSora@social.tchncs.de/117602165989372769
+   original: https://social.tchncs.de/@KazuShuSora/117602165952252000
+   Kinda funny that currently the game I'm looking forward to the most for next year is 'Car Mechanic Simulator 2027' 🤭 #CarMechanicSimulator2027 #Gaming #VideoGames #ShareYourGames
+9. @ami_angelwings@urusai.social (Ami Angelwings) · 11h · likes 5 · replies 4 · question · broadPlaying
+   https://mastodon.social/@ami_angelwings@urusai.social/117601376801792706
+   original: https://urusai.social/@ami_angelwings/117601376311330462
+   #QuestionOfTheDay what's a character in a work of fiction you enjoy that the work/creators really want you to think is just so cool but you never agreed? #fiction #anime #manga #comics #videogames #webcomics #superheroes #scifi #fantasy #romance #horror #movies #film #TV #televis
+10. @lazysupper@famichiki.jp (salguod, man 🍂🍁 lazysupper) · 2h · likes 5 · replies 0 · broadPlaying
+   https://mastodon.social/@lazysupper@famichiki.jp/117603486322925177
+   original: https://famichiki.jp/@lazysupper/117603486099479567
+   Played a modern-but-more-analogue version of Pong. Pretty fun. But expensive. A single player game is ¥100, but to play against each other (like, y'know, Pong), it was ¥200! lol. The first game, my son was kicking my ass. I figured it was revenge for my Foosball domination. But i
+   [image: A new version of Pong tabletop arcade game.]
+11. @lashman@mastodon.social (lashman) · 2h · likes 2 · replies 0 · broadPlaying
+   https://mastodon.social/@lashman/117603440864637655
+   Developer: LEVEL5 Inc. Publisher: LEVEL5 Inc. Release date: 9 Dec, 2026 Screenshots: #steam #gaming #videoGames #steamStorePage
+   [4 images: Screenshot 1 from Professor Layton and the New World of Steam / Screenshot 2 from Professor Layton and the New World of Steam / Screenshot 3 from Professor Layton and the New World of Steam / Screenshot 4 from Professor Layton and the New World of Steam]
+12. @lashman@mastodon.social (lashman) · 2h · likes 1 · replies 0 · broadPlaying
+   https://mastodon.social/@lashman/117603440196121568
+   Developer: Directrix Productions LLC Publisher: Directrix Productions LLC Release date: Coming soon Screenshots: #steam #gaming #videoGames #steamStorePage
+   [4 images: Screenshot 1 from Project Stampede / Screenshot 2 from Project Stampede / Screenshot 3 from Project Stampede / Screenshot 4 from Project Stampede]
+
+## Heated topics (AI debates etc.): reply only neutrally, with facts
+1. @gamersvoice@mastodon.social (Gamers Voice) · 5h · likes 1 · replies 0 · question · broadPlaying
+   https://mastodon.social/@gamersvoice/117602801611169072
+   Due to AI Gaming is becoming a luxury hobby. Why are no Polticans talking about this issue as they would the cost of other activities? https://www.techradar.com/gaming/the-next-generation-wont-replace-this-one-so-much-as-sit-on-top-of-it-industry-analysts-say-sony-microsoft-and-n
+   [link card: 'The next generation won’t replace this one so much as sit on top of it' — Industry analysts say So…]
+2. @WhyNotZoidberg@topspicy.social (Why Not Zoidberg? 🦑) · 4h · likes 2 · replies 1 · broadPlaying
+   https://mastodon.social/@WhyNotZoidberg@topspicy.social/117603079563897545
+   original: https://topspicy.social/@WhyNotZoidberg/117603079343073361
+   You REALLY should disconnect your Steam account from Humble Bundle NOW #Steam #gaming #Security #Cybersecurity #Humblebundle #AI #VibeCoding
