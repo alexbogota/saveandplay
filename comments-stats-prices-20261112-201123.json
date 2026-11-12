@@ -1,0 +1,67 @@
+{
+  "block": "prices",
+  "handle": "saveandplay.com",
+  "madeAt": "2026-11-12T20:11:23.064Z",
+  "days": 14,
+  "total": 32,
+  "mature": {
+    "count": 30,
+    "withLike": 14,
+    "withReply": 6,
+    "likes": 15,
+    "replies": 6,
+    "byProgram": 30
+  },
+  "top": [
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mzv4xol7732z",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3mzv4xol7732z",
+      "text": "Co-op games are a great pick for this. It Takes Two is built for exactly two players, and Overcooked 2 is chaotic fun for any age mix. Looking forward to the art!",
+      "at": "2026-11-09T14:25:19.893Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "sunkisseddaddy.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mzinj4x5yj25",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3mzinj4x5yj25",
+      "text": "Good pick for a sci-fi horror mood. The System Shock remake lets you set difficulty separately for combat, puzzles and cyberspace, so it's easier to tune than its reputation suggests.",
+      "at": "2026-11-04T15:16:48.650Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "echosaefir.com.mx"
+    },
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mzqrfa6t5u2w",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3mzqrfa6t5u2w",
+      "text": "SimTower and Sim Safari are real deep cuts. Bundles like that were a great way to stumble onto odd little Maxis games.",
+      "at": "2026-11-07T20:47:30.543Z",
+      "likes": 0,
+      "replies": 1,
+      "reposts": 0,
+      "to": "cardboardhyperfix.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mzq4jvjnaj2n",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3mzq4jvjnaj2n",
+      "text": "Unpacking is a lovely one for that: you sort a home's belongings into rooms, and it plays calm and wordless. Viscera Cleanup Detail is the messier cousin if you want a bigger cleaning job.",
+      "at": "2026-11-07T14:34:18.748Z",
+      "likes": 0,
+      "replies": 1,
+      "reposts": 0,
+      "to": "beaniebuns.etheirys.social"
+    },
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mzlad6rmom24",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3mzlad6rmom24",
+      "text": "That list is a great start. Vampire: The Masquerade - Bloodlines fits right in with it, same era and the same \"solve it your way\" feel. If you try it, install the community patch first.",
+      "at": "2026-11-05T15:58:49.824Z",
+      "likes": 2,
+      "replies": 0,
+      "reposts": 0,
+      "to": "saffroncr.bsky.social"
+    }
+  ]
+}
