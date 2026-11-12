@@ -1,0 +1,29 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261112-142522",
+  "madeAt": "2026-11-12T14:29:05.109Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:delqwfa2jiexgl7py3jlea55/app.bsky.feed.post/3n24nuspgq22s",
+      "url": "https://bsky.app/profile/nifflas.bsky.social/post/3n24nuspgq22s",
+      "author": "nifflas.bsky.social",
+      "context": "Also, @bitkidgames.com recently a faithfully accurate recreation of my 20 year old game Knytt. It's free! This is very neat because the original game doesn't actually run on my PC because it's so old, so now I can play it again.\nlink card: Knytt Classic on Steam",
+      "text": "Nice that a game from 20 years ago can be played again. Knytt always had such a calm, explore-at-your-own-pace feel.",
+      "group": "classicPC",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:gre5rhlkjytgygwciumf723p/app.bsky.feed.post/3n22sefr4hc2y",
+      "url": "https://bsky.app/profile/xoiiu.bsky.social/post/3n22sefr4hc2y",
+      "author": "xoiiu.bsky.social",
+      "context": "STAR OF PROVIDENCE IS AMAZING! one of the best games i ever discovered!!! i remember this old pc game i played as a baby called Wacky Wheels, it was a mario kart clone on PC with animal people. it had a demo mode with locked characters but i figured out an exploit that let me play as anyone :D",
+      "text": "Wacky Wheels is a great memory, one of the early kart racers on DOS. Finding your own tricks in a demo is peak childhood gaming.",
+      "group": "classicPC",
+      "heated": false
+    }
+  ]
+}
