@@ -1,57 +1,51 @@
 # Comment candidates: retro (@retrogamedeals.bsky.social)
-Made 2026-11-12T15:08Z. Searched: childhood: played this as a kid game | childhood: first pc game | childhood: childhood game | childhood: game from my childhood | classicPC: retro pc gaming | classicPC: dos game | classicPC: classic pc game | classicPC: old pc games | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: retro games recommend | askRetro: best retro games | askRetro: best old games | askRetro: old game recommend | retroFeed: feed.
-Posts below: 12 + 2 heated. Dropped in this run: not about games 91, replies are limited 13, bot, shop or studio 9, skip word 54, too many hashtags 3, already shown 4, too short 10, adult or graphic label 1, other language (text) 20, low score 3, already answered 4, other language 41, not a question 16, promo (link and hashtags) 2.
+Made 2026-11-12T23:36Z. Searched: childhood: childhood favorite game | childhood: games from my childhood | childhood: first video game | childhood: played this as a kid game | classicPC: dos games | classicPC: classic pc games | classicPC: old pc game | classicPC: retro pc gaming | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: retro game recommendations | askRetro: old games recommend | askRetro: retro games recommend | askRetro: best retro games | retroFeed: feed.
+Posts below: 12 + 1 heated. Dropped in this run: not about games 84, skip word 84, too many hashtags 7, already shown 5, bot, shop or studio 22, replies are limited 9, low score 10, promo (link and hashtags) 4, too short 5, other language (text) 14, empty 3, already answered 2, not a question 21, other language 23, earlier finds: low score 1.
 
 ## Posts
-1. @erikeverything.bsky.social (Erik Kelly) · 22h · likes 1 · replies 0 · question · childhood
-   https://bsky.app/profile/erikeverything.bsky.social/post/3n22gquhfxs2s
-   38 games reviewed in this issue! The top-rated one, shockingly? Wolfenstein 3D for the Jaguar, which they called the best version "on any gaming platform, including the PC." The lowest rating went to Art of Fighting for Genesis, which "has 'rental' written all over it." Ask your 
-   [image: A sortable table of GamePro review scores, white and lavender text on dark navy. Column headers: Game, System, Graphics, Sound, Control, FunFactor, Average, Ch…]
-2. @feed.igeek.gamer-geek-news.com.ap.brid.gy (input) · 23h · likes 0 · replies 0 · question · childhood
-   https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3n22cjfwvm3c2
-   📰 **'The Biggest Launch In WoW History' - Xbox's Latest First-Party Game Is Already Smashing Records** Bodes well for that eventual console release, eh?We've talked quite a bit recently about the launch of World of Warcraft: Forever on PC and how […] [Original post on igeek.game
-   [image: Image for: 'The Biggest Launch In WoW History' - Xbox's Latest First-Party Game Is Already Smashing Records]
-3. @cyningstan.bsky.social (Cyningstan) · 32m · likes 2 · replies 1 · childhood
-   https://bsky.app/profile/cyningstan.bsky.social/post/3n24oyhfbd22b
-   This week I learn of the first program that's not mine that uses the #NameLib name generator library I released recently. The excellent #msdos roguelike XT Hack by Karl Garrison now chooses a default name for your character using NameLib. You can download XT Hack karl-g.itch.io/x
-   [link card: XT Hack by Karl_G]
-4. @eviesrc.itch.io (evie) · 53m · likes 3 · replies 1 · childhood
-   https://bsky.app/profile/eviesrc.itch.io/post/3n24nswiz7s23
-   dreamed of game on steam childhood over now adulthood no longer same dream
-5. @dingokayfabe.bsky.social (Tason Jurkey) · 1h · likes 1 · replies 1 · childhood
-   https://bsky.app/profile/dingokayfabe.bsky.social/post/3n24medl6es2i
-   Singularly memorable gaming experience and also one of the first games i played with a storyline good enough to draw me in emotionally, pc game or console game
-6. @mysticmsa3d.bsky.social (MsaeĐ♦️) · 20h · likes 0 · replies 0 · question · nostalgia
+1. @rosiebuddi.bsky.social (30% off burger & fries /w drink meal dea) · 1h · likes 0 · replies 0 · question · classicPC
+   https://bsky.app/profile/rosiebuddi.bsky.social/post/3n25jrq7ak22t
+   everyone's favorite video game is finally playable on personal computers! "the elder scrolls iii: morrowind" for the original xbox! if you want more games like this classic title, make sure to check out the hit "star wars: knights of the old republic" now also finally available o
+2. @gensouojou.bsky.social (Jess) · 2h · likes 2 · replies 1 · question · nostalgia
+   https://bsky.app/profile/gensouojou.bsky.social/post/3n25evena422q
+   oh geeze, that barbie super model game is making me nostalgic. I think I had it on the snes? and I remember playing it in my grandparents' basement all the time
+3. @vgmaps.bsky.social ( Jonathan Leung (VGMaps.com / YT: JonLeu) · 4h · likes 3 · replies 0 · question · retroFeed
+   https://bsky.app/profile/vgmaps.bsky.social/post/3n25amjdqos2b
+   Star Wars is now half a century old, if going by the original novel's release date. I knew Star Wars was a thing growing up in the 1980s, but I didn't call myself a fan until I rewatched them in the 1990s after playing Super Star Wars on the Super NES. (Will someone EVER map them
+   [image, no description; quotes @scully1888.bsky.social: Happy 50th anniversary to Star Wars: From the Adventures of Luke Skywalker, the novel released six months before the movie]
+4. @dogfluid.neocities.org (robin) · 5h · likes 1 · replies 1 · question · childhood
+   https://bsky.app/profile/dogfluid.neocities.org/post/3n254ihml3k2u
+   I was five when I first tasted mortality. Embarrassingly, it was a video game. My character had died, and my older brother had to explain what death was. And that concept terrified me. The sudden nonexistence. It can just end? What I have known will cease to be? I was inconsolabl
+5. @videogameschronicle.com (VGC) · 2h · likes 12 · replies 0 · classicPC
+   https://bsky.app/profile/videogameschronicle.com/post/3n25hzgxa3223
+   Xbox has added 21 new original Xbox games to its backwards compatibility catalogue on PC. www.videogameschronicle.com/uncategorise...
+   [link card: 21 original Xbox games are now on PC via backward compatibility | VGC]
+6. @sooper-villain.bsky.social (soop) · 3h · likes 6 · replies 2 · childhood
+   https://bsky.app/profile/sooper-villain.bsky.social/post/3n25elfdzvs2k
+   the first video game i ever played i think, my mom got a copy with the pc she got from her job in 2005 and i played tf outta this
+   [image, no description; quotes @thatericalper.com: ]
+7. @gamyeon.bsky.social (Gamyeon) · 5h · likes 0 · replies 0 · question · childhood
+   https://bsky.app/profile/gamyeon.bsky.social/post/3n255etnoac25
+   I know it's for video game mechanics, but my first thought was: so like what you do in a LARP? But then again, that's often an inherent part of LARPs.
+8. @retrostylegames.bsky.social (RetroStyle Games) · 5h · likes 1 · replies 0 · classicPC
+   https://bsky.app/profile/retrostylegames.bsky.social/post/3n254hrky6w23
+   We have made art for Haiku Games since 2014, when it was a one-year-old indie startup. Today they announced their first co-op PC game, Duo Escape: Eden Protocol. We helped with the art 🎮 https://store.steampowered.com/app/5183760/Duo_Escape_Eden_Protocol/
+9. @houseplantsinvg.bsky.social (Houseplants in Videogames) · 6h · likes 12 · replies 0 · childhood
+   https://bsky.app/profile/houseplantsinvg.bsky.social/post/3n24zw7ld3c2h
+   Bloodline (2005, PC) Once you have some weapons it gets a little more action-y and starts to feel more along the lines of something like Cry of Fear. I first found the game yesterday via the video in this post, so take a look if you're interested in seeing the endearingly goofy g
+   [4 images, no description; quotes @strideh.bsky.social: Some endearing new jank to sink my teeth into. I'm home.]
+10. @trikovioz.bsky.social (Triko) · 7h · likes 1 · replies 2 · question · childhood
+   https://bsky.app/profile/trikovioz.bsky.social/post/3n24vbnxxoc2k
+   Ocarina of Time was literally my first video game ever, and I have literally never found Navi annoying at all, and genuinely question everyone who thinks she is because...how?
+11. @mysticmsa3d.bsky.social (MsaeĐ♦️) · 28h · likes 0 · replies 0 · question · nostalgia
    https://bsky.app/profile/mysticmsa3d.bsky.social/post/3n22oa4nme22c
    And how could they? Their memories would be on the new hotness that was built on Skyrim's strengths even further They won't appreciate the old games. You too can become a bitter nostalgic fan who can't accept the newer game just because they change things 😂
-7. @erikeverything.bsky.social (Erik Kelly) · 22h · likes 0 · replies 1 · question · gogOld
-   https://bsky.app/profile/erikeverything.bsky.social/post/3n22gpfo3vs2s
-   A great example of SEGA's "loud" mid-90s advertising aesthetic here, but most striking is the cost of all this. Everything mentioned here? A Genesis ($149) + Sega CD ($299) + Sega 32X ($159) = $607. In today's dollars that's $1380! For games that were (Genesis aside) not all that
-   [2 images: Full-page magazine advertisement for the Sega CD. Enormous black sans-serif type fills the top two-thirds of the white page, with words set at varying sizes: "… / Full-page magazine advertisement for the Sega CD. The page is dominated by an extreme close-up photograph of an elderly bald man's face, laughing or shouting w…]
-8. @katespeace.northsky.social (♡Kate 🔔 🇵🇸) · 24h · likes 6 · replies 1 · question · childhood
-   https://bsky.app/profile/katespeace.northsky.social/post/3n227kq2pfc27
-   CW // slight flashing effect in video game . . How the hell did the developers create this cool looking 3D esque first person level on the Sega Genesis way back?! Playing the Genesis version of Toy Story now and wow, I'm rather impressed!
-   [video: 3D first person level in Toy Story for the Sega Genesis showing Woody finding and returning the green aliens to the other aliens; quotes @katespeace.northsky.social: The player might have been a bit drunk ngl.]
-9. @childdog.bsky.social (Master Soul (aka Oli A. White)) · 26h · likes 1 · replies 1 · question · childhood
-   https://bsky.app/profile/childdog.bsky.social/post/3mzzzjavkek2o
-   Has anyone ever actually done something like this before? This surely has to be an absolute first, right? This is like, an actually interesting video game story. Remember that sometimes games are still magic.
-   [quotes @mikerose.bsky.social: I have some 🌟feel-good news🌟 to share today! Earlier this year we launched a game called Piece by Piece. In the same week, *another* game…]
-10. @blitz-shield.bsky.social (Josh) · 18m · likes 0 · replies 0 · childhood
-   https://bsky.app/profile/blitz-shield.bsky.social/post/3n24pr2lp322v
-   Share a GIF that reminds you of your childhood... I may be a 2000s baby, but I did play on the OG PlayStation. The Spyro trilogy, Driver 2, Monsters Inc. Scream Team, Hooters Road Trip. Yes, they made a Hooters racing game. Not kidding. Look it up.
-   [link card: Sony Computer Entertainment; quotes @janpax531.bsky.social: Share a GIF that reminds you of your childhood... Hey Arnold was one of my favorites growing up. Helga resonates with me quite a bit.]
-11. @juejuegayming.bsky.social (GaymerBoiJueJue) · 22m · likes 0 · replies 0 · childhood
-   https://bsky.app/profile/juejuegayming.bsky.social/post/3n24pkrtcyk2y
-   In between my Legend of Zelda Ocarina of Time Remake play thorough I have been playing a Godzilla mobile game by Toho Studios for the past few days. Bagan from Super Godzilla(One of my favorite games from my childhood) for the Super Nintendo Entertainment System is my current tea
-12. @kevincow.bsky.social (Katie牛🏳️‍⚧️) · 32m · likes 3 · replies 1 · gogOld
-   https://bsky.app/profile/kevincow.bsky.social/post/3n24oyhmdv22a
-   An interesting thing about the "friction in games" discourse is how Old Game Friction is generally seen as good, intentional design decisions that enhance the experience, while New Game Friction is often dismissed as bad, dumb mistakes by devs who don't know better and should fix
+12. @gledster.bsky.social (Gledster) · 37m · likes 0 · replies 0 · classicPC
+   https://bsky.app/profile/gledster.bsky.social/post/3n25l2or4b22r
+   That's an unusual one cause Knights of the Old Republic HAS a PC port already. Can't imagine playing the Xbox game pass OG Xbox port is an improvement! store.steampowered.com/app/32370/ST...
+   [link card: STAR WARS™ Knights of the Old Republic™ on Steam]
 
 ## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @fictionfactorygames.com (Fiction Factory Games) · 24h · likes 60 · replies 0 · classicPC
-   https://bsky.app/profile/fictionfactorygames.com/post/3n226pclwv22p
-   The Edutainment Vortex Diner is a weird, dark, funny parody of old PC children's games where you unravel a cosmic mystery while learning horrible lessons, one of which is about how much AI sucks. Releasing for free on December 7. store.steampowered.com/app/4993020/...
-   [link card: The Edutainment Vortex Diner on Steam]
-2. @bunnygirlplayth.ing (auburn 🔥🐇) · 22h · likes 7 · replies 1 · childhood
-   https://bsky.app/profile/bunnygirlplayth.ing/post/3n22ifkx4rc2u
-   still convinced that if they gave me free api access i could make the first Good ai generated video game
+1. @willowwoodinc.bsky.social (Willowwood) · 28m · likes 0 · replies 0 · childhood
+   https://bsky.app/profile/willowwoodinc.bsky.social/post/3n25llqmvyc2h
+   Oh hey i found a new artist that does covers of video game music I like. They sound a bit weird at first but im su- "This user is ai" FFFFFFFFFFFFFFFFFFAAAAAAAAAAAAAAAK
