@@ -1,0 +1,39 @@
+{
+  "madeAt": "2026-11-12T14:46:01.685Z",
+  "run": "43240571256",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices|2026-11-11|/deals/gog/shadow-tactics-blades-of-the-shogun/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 1,
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-11",
+      "text": "Shadow Tactics: Blades of the Shogun: -90% at GOG\n$3.99 (was $39.99)\nPrice checked Nov 11. Sale ends Nov 13. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-11\n\n#PCGaming #GameDeals #DRMFree #Games #PCGames\nAd",
+      "approvedFile": "posts-approved-20261112-144537.json",
+      "approvedAt": "2026-11-12T14:45:37.765Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-12T14:46:04.026Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n24pjjfb4g2z",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3n24pjjfb4g2z",
+      "picture": true
+    },
+    {
+      "key": "cozy|coop-2026-11-12|/servers/stardew-valley/",
+      "account": "cozy",
+      "handle": "cozygame.bsky.social",
+      "n": 8,
+      "link": "https://saveandplay.com/servers/stardew-valley/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=coop-2026-11-12",
+      "text": "Planting season with friends? Stardew Valley has online co-op for up to 8 players.\nHere is what a Stardew Valley server gives you, in plain words.\n\nhttps://saveandplay.com/servers/stardew-valley/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=coop-2026-11-12\n\n#CozyGames #StardewValley\nAd",
+      "approvedFile": "posts-approved-20261112-144537.json",
+      "approvedAt": "2026-11-12T14:45:37.765Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-12T14:46:05.225Z",
+      "postUri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3n24pjkk3mj25",
+      "postUrl": "https://bsky.app/profile/cozygame.bsky.social/post/3n24pjkk3mj25",
+      "picture": true
+    }
+  ]
+}
