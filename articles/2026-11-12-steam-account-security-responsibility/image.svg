@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#0D1117"/>
+<rect x="56" y="22" width="1088" height="586" rx="28" fill="#161B22" stroke="#262D38"/>
+<text x="100" y="105" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="44" font-weight="800" fill="#FFFFFF">Account hacked? What Steam's</text>
+<text x="100" y="160" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="44" font-weight="800" fill="#FFFFFF">agreement says is on you</text>
+<rect x="100" y="210" width="1000" height="90" rx="14" fill="none" stroke="#3DDC97" stroke-width="4"/>
+<text x="130" y="250" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="30" font-weight="800" fill="#FFFFFF">Section 2.C</text>
+<text x="130" y="283" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="28" fill="#E8ECF1">Keep password safe; tell Valve without delay</text>
+<rect x="100" y="320" width="1000" height="90" rx="14" fill="none" stroke="#3DDC97" stroke-width="4"/>
+<text x="130" y="360" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="30" font-weight="800" fill="#FFFFFF">Section 3.B</text>
+<text x="130" y="393" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="28" fill="#E8ECF1">You are responsible for purchases made by you</text>
+<rect x="100" y="430" width="1000" height="90" rx="14" fill="#FFB454"/>
+<text x="130" y="470" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="30" font-weight="800" fill="#1B1203">Section 4.D</text>
+<text x="130" y="503" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="28" fill="#1B1203">Valve need not warn you before ending an account</text>
+<text x="100" y="568" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="26" fill="#9AA5B4">saveandplay.com</text>
+</svg>
