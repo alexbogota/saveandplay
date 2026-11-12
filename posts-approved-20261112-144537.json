@@ -1,0 +1,53 @@
+{
+  "approvedAt": "2026-11-12T14:45:37.765Z",
+  "items": [
+    {
+      "n": 1,
+      "kind": "deal",
+      "platform": "bluesky",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "text": "Shadow Tactics: Blades of the Shogun: -90% at GOG\n$3.99 (was $39.99)\nPrice checked Nov 11. Sale ends Nov 13. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-11\n\n#PCGaming #GameDeals #DRMFree #Games #PCGames\nAd",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-11",
+      "day": "2026-11-11",
+      "key": "prices|2026-11-11|/deals/gog/shadow-tactics-blades-of-the-shogun/",
+      "notBefore": "2026-11-12T14:45:37.765Z"
+    },
+    {
+      "n": 2,
+      "kind": "deal",
+      "platform": "bluesky",
+      "account": "prices-2",
+      "handle": "saveandplay.com",
+      "text": "Metro Exodus: -90% at GOG\n$2.99 (was $29.99)\nPrice checked Nov 11. Sale ends Nov 16. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-11\n\n#PCGaming #GameDeals #VideoGames #Gaming #MetroExodus\nAd",
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-11",
+      "day": "2026-11-11",
+      "key": "prices-2|2026-11-11|/deals/gog/metro-exodus/",
+      "notBefore": "2026-11-12T16:45:37.765Z"
+    },
+    {
+      "n": 7,
+      "kind": "coop",
+      "platform": "bluesky",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "text": "The Forest has online co-op on Steam.\nA rented server keeps your world online when the host logs off.\n\nhttps://saveandplay.com/servers/the-forest/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-11-12\n\n#PCGaming #TheForest\nAd",
+      "link": "https://saveandplay.com/servers/the-forest/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-11-12",
+      "day": "2026-11-12",
+      "key": "prices|coop-2026-11-12|/servers/the-forest/",
+      "notBefore": "2026-11-12T18:45:37.765Z"
+    },
+    {
+      "n": 8,
+      "kind": "coop",
+      "platform": "bluesky",
+      "account": "cozy",
+      "handle": "cozygame.bsky.social",
+      "text": "Planting season with friends? Stardew Valley has online co-op for up to 8 players.\nHere is what a Stardew Valley server gives you, in plain words.\n\nhttps://saveandplay.com/servers/stardew-valley/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=coop-2026-11-12\n\n#CozyGames #StardewValley\nAd",
+      "link": "https://saveandplay.com/servers/stardew-valley/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=coop-2026-11-12",
+      "day": "2026-11-12",
+      "key": "cozy|coop-2026-11-12|/servers/stardew-valley/",
+      "notBefore": "2026-11-12T14:45:37.765Z"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-prices-20261112-142522.json",
+  "approvedAt": "2026-11-12T14:45:43.545Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:xcranbnopbzrk5ud75tv4erk/app.bsky.feed.post/3n24453hkxk2g",
+      "url": "https://bsky.app/profile/timothymark7.bsky.social/post/3n24453hkxk2g",
+      "author": "timothymark7.bsky.social",
+      "context": "sorry for living under a rock but whats the humblebundle? is it like a game bundle or somethin?",
+      "text": "Yes, it sells game bundles: several games for one price, and part of the money goes to charity. Check what's in a bundle first so you only pay for games you would actually play.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:xmmmnxckueoto3b7v6t32inu/app.bsky.feed.post/3n24hew3y7s2r",
+      "url": "https://bsky.app/profile/ruthieedwards.bsky.social/post/3n24hew3y7s2r",
+      "author": "ruthieedwards.bsky.social",
+      "context": "I finally reviewed Balatro and it's objectively bad journalism because I mostly wrote about how it kept me sane during labor and newborn nights instead of gameplay. Anyway baby #2 is incoming!!! Need a new game to dissociate to. Review: ruthieplaysgames.com/reviews/bala...\nimage: POV from a hospital bed. A woman's arm holding a cup of sugar-free Jell-o and a Steam Deck with Balatro on the screen",
+      "text": "Congrats! Slay the Spire could be a good next one: run-based like Balatro, and you can save and quit mid-run when the baby needs you.",
+      "edited": false
+    }
+  ]
+}

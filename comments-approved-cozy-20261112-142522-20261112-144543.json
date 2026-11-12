@@ -1,0 +1,27 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-cozy-20261112-142522.json",
+  "approvedAt": "2026-11-12T14:45:43.700Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:432zoj7feoxfykgcofa7cb43/app.bsky.feed.post/3n22xax7de226",
+      "url": "https://bsky.app/profile/foragingwords.bsky.social/post/3n22xax7de226",
+      "author": "foragingwords.bsky.social",
+      "context": "has anyone ever completed a joja run in stardew? every time i try i get bored so fast",
+      "text": "Joja runs can feel flat without the bundle goal to chase. Setting your own mini-challenge, like a themed farm, might keep it interesting.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:eoflb3uipxpehiychtxus3gy/app.bsky.feed.post/3n237xs2w3s2i",
+      "url": "https://bsky.app/profile/abracapocus.bsky.social/post/3n237xs2w3s2i",
+      "author": "abracapocus.bsky.social",
+      "context": "Why did I let myself get sucked back in to playing Stardew Valley? I forgot how addicting it is.\nimage: A screenshot of the Stardrop Saloon from the game Stardew Valley.",
+      "text": "That 'just one more day' loop is real. Hope the farm is treating you well this time!",
+      "edited": false
+    }
+  ]
+}
