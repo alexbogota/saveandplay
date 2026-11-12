@@ -1,0 +1,23 @@
+{
+  "madeAt": "2026-11-12T01:53:15.317Z",
+  "run": "43137544830",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices|article|/guides/delisted-steam-games-what-you-keep/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 6,
+      "link": "https://saveandplay.com/guides/delisted-steam-games-what-you-keep/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-delisted-games",
+      "text": "Valve's developer page says retired Steam games \"will remain in players' Steam libraries\". The catch: servers. Our checks before you buy a game that may leave:\nhttps://saveandplay.com/guides/delisted-steam-games-what-you-keep/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-delisted-games\n#PCGaming #GameDeals #Steam",
+      "approvedFile": "posts-approved-20261111-160243.json",
+      "approvedAt": "2026-11-11T16:02:43.096Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-12T01:53:18.107Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n23edosfad23",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3n23edosfad23",
+      "picture": true
+    }
+  ]
+}
