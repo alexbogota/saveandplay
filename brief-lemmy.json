@@ -1,8 +1,8 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-11-11T18:24:50.284Z",
-  "builtBy": "commit 01c3a2f, schedule, run #43 attempt 1",
-  "pricesCheckedAt": "2026-11-11T17:23:15.427Z",
+  "generatedAt": "2026-11-12T18:42:54.994Z",
+  "builtBy": "commit a6eabd1, schedule, run #44 attempt 1",
+  "pricesCheckedAt": "2026-11-12T17:42:45.194Z",
   "warnings": [],
   "candidates": [
     {
@@ -14,8 +14,8 @@
       "was": 39.99,
       "discount": 90,
       "endsAt": "2026-11-13T09:59:00+02:00",
-      "endsInHours": 38,
-      "priceCheckedAt": "2026-11-11T17:23:15.427Z",
+      "endsInHours": 13,
+      "priceCheckedAt": "2026-11-12T17:42:45.194Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
       "drminfo": null,
       "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
@@ -52,17 +52,17 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 33,
+        "days": 34,
         "lowest": true,
         "since": "2026-10-07"
       },
-      "offeredOn": "2026-11-07",
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-11",
+      "offeredOn": "2026-11-11",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-12",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 38 h",
-        "lowest price we've tracked (33 days of data)",
-        "deepest-discount rank 1 of 4"
+        "sale ends in 13 h",
+        "lowest price we've tracked (34 days of data)",
+        "deepest-discount rank 1 of 3"
       ]
     },
     {
@@ -74,8 +74,8 @@
       "was": 19.99,
       "discount": 85,
       "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 110,
-      "priceCheckedAt": "2026-11-11T17:23:15.427Z",
+      "endsInHours": 85,
+      "priceCheckedAt": "2026-11-12T17:42:45.194Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
       "drminfo": null,
       "coverAlt": "Cover art for This War of Mine",
@@ -113,16 +113,16 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 24,
+        "days": 25,
         "lowest": true,
         "since": "2026-10-19"
       },
       "offeredOn": "2026-11-08",
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-11",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-12",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (24 days of data)",
-        "deepest-discount rank 2 of 4"
+        "lowest price we've tracked (25 days of data)",
+        "deepest-discount rank 2 of 3"
       ]
     },
     {
@@ -134,8 +134,8 @@
       "was": 24.99,
       "discount": 85,
       "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 110,
-      "priceCheckedAt": "2026-11-11T17:23:15.427Z",
+      "endsInHours": 85,
+      "priceCheckedAt": "2026-11-12T17:42:45.194Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187",
       "drminfo": null,
       "coverAlt": "Cover art for Darkest Dungeon",
@@ -171,117 +171,146 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 33,
+        "days": 34,
         "lowest": true,
         "since": "2026-10-07"
       },
       "offeredOn": "2026-11-10",
-      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-11",
+      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-12",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (33 days of data)",
-        "deepest-discount rank 3 of 4"
-      ]
-    },
-    {
-      "id": "gog-simcity-4-deluxe-edition",
-      "kind": "deal",
-      "title": "SimCity 4 Deluxe Edition",
-      "store": "GOG",
-      "price": 4.99,
-      "was": 19.99,
-      "discount": 75,
-      "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 110,
-      "priceCheckedAt": "2026-11-11T17:23:15.427Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
-      "drminfo": null,
-      "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
-      "facts": {
-        "year": 2003,
-        "genres": [
-          "Simulation",
-          "Building",
-          "Managerial"
-        ],
-        "tags": [
-          "Atmospheric",
-          "Simulation",
-          "Classic",
-          "Great Soundtrack",
-          "Management",
-          "Sandbox",
-          "Real-Time",
-          "Isometric",
-          "Building",
-          "Managerial",
-          "City builder"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 1.5,
-      "discountRank": 4,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 33,
-        "lowest": true,
-        "since": "2026-10-07"
-      },
-      "offeredOn": "2026-11-06",
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-11",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "lowest price we've tracked (33 days of data)",
-        "deepest-discount rank 4 of 4"
+        "lowest price we've tracked (34 days of data)",
+        "deepest-discount rank 3 of 3"
       ]
     }
   ],
   "gogNews": [],
   "topical": [
     {
-      "title": "You can play For The King II FREE on Steam, but you'll need to be quick!",
-      "source": "gg.deals Freebies",
-      "link": "https://gg.deals/freebie/you-can-play-for-the-king-ii-free-on-steam-but-youll-need-to-be-quick/",
-      "t": 1794419100000,
-      "keyword": "free",
-      "summary": "Try out the brand-new For The King II adventure A Mother Below completely free on Steam."
-    },
-    {
-      "title": "FREE Mail Mole Steam keys are ready to grab via Lenovo Gaming RIGHT NOW!",
-      "source": "gg.deals Freebies",
-      "link": "https://gg.deals/freebie/free-mail-mole-steam-key-will-be-up-for-grab-via-lenovo-gaming-later-today/",
-      "t": 1794416403000,
-      "keyword": "free",
-      "summary": "Complete these simple steps to get a copy of this charming 3D platformer."
-    },
-    {
-      "title": "The Elder Scrolls V: Skyrim turns 15 today, with huge discounts waiting for those yet to start their adventure!",
+      "title": "XBOX Free Play Days is a subscriber-only affair this week, with FOUR titles ready to download",
       "source": "gg.deals News",
-      "link": "https://gg.deals/deal/the-elder-scrolls-v-skyrim-turns-15-today-with-huge-discounts-waiting-for-those-yet-to-start-their-adventure/",
-      "t": 1794415260000,
-      "keyword": "discounts",
-      "summary": "Hang on, 15 years? That can't be right. Can it?!"
-    },
-    {
-      "title": "Previously $15, this near-future noir sci-fi mystery is now FREE to keep on Steam!",
-      "source": "gg.deals Freebies",
-      "link": "https://gg.deals/freebie/previously-15-this-near-future-noir-sci-fi-mystery-is-now-free-to-keep-on-steam/",
-      "t": 1794410220000,
+      "link": "https://gg.deals/subscription-news/xbox-free-play-days-is-a-subscriber-only-affair-this-week-with-four-titles-ready-to-download/",
+      "t": 1794507120000,
       "keyword": "free",
-      "summary": "You will need access to a VR headset in order to play it though."
+      "summary": "'Free', as in, \"pay us for a subscription, and you can play these games, okay?\""
     },
     {
-      "title": "FINAL CALL: Build your own Fanatical All-Stars Bundle from just $1.20 per game!",
+      "title": "Prime Gaming’s (Amazon Luna) new batch is roaring back with two more PC games to claim for FREE",
       "source": "gg.deals News",
-      "link": "https://gg.deals/bundle/build-your-own-fanatical-all-stars-bundle-from-just-120-per-game/",
-      "t": 1794409696000,
-      "keyword": "bundle",
-      "summary": "Bringing together some of the best-selling games from previous Fanatical bundles."
+      "link": "https://gg.deals/subscription-news/prime-gamings-amazon-luna-new-batch-is-roaring-back-with-two-more-pc-games-to-claim-for-free/",
+      "t": 1794506549000,
+      "keyword": "free",
+      "summary": "November&rsquo;s second wave of Prime Gaming free games is now live for subscribers."
+    },
+    {
+      "title": "Epic Games Store will hand out Alien: Isolation and one more game for FREE next week",
+      "source": "gg.deals Freebies",
+      "link": "https://gg.deals/freebie/epic-games-store-will-hand-out-alien-isolation-and-one-more-game-for-free-next-week/",
+      "t": 1794501862000,
+      "keyword": "free",
+      "summary": "November 19 will go down as a day of space terrors and pirate tales."
+    },
+    {
+      "title": "Knightica is free on Epic Games Store — build an army and let the synergies do the fighting",
+      "source": "Indie Game Bundles",
+      "link": "https://www.indiegamebundles.com/knightica-is-free-on-epic-games-store/",
+      "t": 1794500376000,
+      "keyword": "free",
+      "summary": "Knightica is free on Epic Games Store from November 12 to November 19, 2026. Claim it during the giveaway and it stays in your library. The post Knightica is f…"
     }
   ],
   "topics": [
+    {
+      "headline": "Nvidia board reportedly prepare to give CEO Jensen Huang the boot, as second alleged affair thrusts him closer to seriously lusty Crusader Kings playthrough territory",
+      "score": 9,
+      "sites": [
+        "pcgamer.com",
+        "rockpapershotgun.com",
+        "eurogamer.net"
+      ],
+      "keywords": [],
+      "games": [],
+      "items": [
+        {
+          "source": "PC Gamer",
+          "title": "Nvidia CEO Jensen Huang allegedly had a second affair with another Nvidia exec",
+          "link": "https://www.pcgamer.com/software/ai/nvidia-ceo-jensen-huang-allegedly-had-a-second-affair-with-another-nvidia-exec/",
+          "published": "2026-11-11T23:25:39.000Z"
+        },
+        {
+          "source": "Rock Paper Shotgun",
+          "title": "Nvidia board reportedly prepare to give CEO Jensen Huang the boot, as second alleged affair thrusts him closer to seriously lusty Crusader Kings playthrough territory",
+          "link": "https://www.rockpapershotgun.com/nvidia-board-reportedly-prepare-to-give-ceo-jensen-huang-the-boot-as-second-alleged-affair-thrusts-him-closer-to-seriously-lusty-crusader-kings-playthrough-territory",
+          "published": "2026-11-12T12:38:40.000Z"
+        },
+        {
+          "source": "Eurogamer",
+          "title": "Nvidia board considering ousting CEO Jensen Huang, report claims, as news of a second affair comes to light",
+          "link": "https://www.eurogamer.net/nvidia-ceo-jensen-huang-affair-share-price",
+          "published": "2026-11-12T11:37:30.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Nintendo announces its 2026 Black Friday offers, with free games and $20 discounts",
+      "score": 7,
+      "sites": [
+        "gamesradar.com"
+      ],
+      "keywords": [
+        "discounts",
+        "free"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "GamesRadar deals",
+          "title": "Nintendo announces its 2026 Black Friday offers, with free games and $20 discounts",
+          "link": "https://www.gamesradar.com/hardware/nintendo-announces-its-2026-black-friday-offers-with-a-free-game-and-usd20-discounts/",
+          "published": "2026-11-12T16:55:51.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Ubisoft's Black Friday Sale returns with a bang, offering huge discounts on major titles!",
+      "score": 7,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "sale",
+        "discounts"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Ubisoft's Black Friday Sale returns with a bang, offering huge discounts on major titles!",
+          "link": "https://gg.deals/deal/ubisoft-black-friday-sale-deals-2026/",
+          "published": "2026-11-12T13:21:00.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Humble Bundle's new redesign inexplicably removes 2-factor authentication, dramatically weakening account security",
+      "score": 7,
+      "sites": [
+        "pcgamer.com"
+      ],
+      "keywords": [
+        "bundle",
+        "humble"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "PC Gamer",
+          "title": "Humble Bundle's new redesign inexplicably removes 2-factor authentication, dramatically weakening account security",
+          "link": "https://www.pcgamer.com/software/platforms/humble-bundles-new-redesign-inexplicably-removes-2-factor-authentication-dramatically-weakening-account-security/",
+          "published": "2026-11-12T12:29:45.000Z"
+        }
+      ]
+    },
     {
       "headline": "Humble's Singles Day Bundle celebrates Chinese games with a tempting collection of cheap Steam keys",
       "score": 7,
@@ -301,86 +330,6 @@
           "published": "2026-11-11T12:51:00.000Z"
         }
       ]
-    },
-    {
-      "headline": "Humble 11.11 Singles Day Bundle: Get 6 Chinese Indie Steam Games for Just $15",
-      "score": 7,
-      "sites": [
-        "indiegamebundles.com"
-      ],
-      "keywords": [
-        "bundle",
-        "humble"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "Indie Game Bundles",
-          "title": "Humble 11.11 Singles Day Bundle: Get 6 Chinese Indie Steam Games for Just $15",
-          "link": "https://www.indiegamebundles.com/humble-11-11-singles-day-bundle-get-6-chinese-indie-steam-games-for-just-15/",
-          "published": "2026-11-10T21:02:14.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Steam's Wizardry 45th Anniversary Franchise Sale dishes out deep discounts on a legendary RPG series!",
-      "score": 7,
-      "sites": [
-        "gg.deals"
-      ],
-      "keywords": [
-        "sale",
-        "discounts"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "Steam's Wizardry 45th Anniversary Franchise Sale dishes out deep discounts on a legendary RPG series!",
-          "link": "https://gg.deals/deal/steam-wizardry-45th-anniversary-franchise-sale/",
-          "published": "2026-11-10T19:53:00.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Humble Beholder 10th Anniversary Bundle: Get 20 Steam Games and 2 DLCs for Just $10",
-      "score": 7,
-      "sites": [
-        "indiegamebundles.com"
-      ],
-      "keywords": [
-        "bundle",
-        "humble"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "Indie Game Bundles",
-          "title": "Humble Beholder 10th Anniversary Bundle: Get 20 Steam Games and 2 DLCs for Just $10",
-          "link": "https://www.indiegamebundles.com/humble-beholder-10th-anniversary-bundle-get-20-steam-games-and-2-dlcs-for-just-10/",
-          "published": "2026-11-10T16:32:06.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Nuuvem Black Friday Month sale is live! Save even more with a special discount code",
-      "score": 7,
-      "sites": [
-        "gg.deals"
-      ],
-      "keywords": [
-        "sale",
-        "discount"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "Nuuvem Black Friday Month sale is live! Save even more with a special discount code",
-          "link": "https://gg.deals/deal/nuuvem-black-friday-month-sale-is-live-save-even-more-with-a-special-discount-code/",
-          "published": "2026-11-10T14:55:53.000Z"
-        }
-      ]
     }
   ],
   "left": {
@@ -388,7 +337,7 @@
     "hidden": 0,
     "notNiche": 0,
     "noFacts": 0,
-    "taken": 1,
+    "taken": 2,
     "repeat": 0,
     "smallDiscount": 0,
     "ended": 0,

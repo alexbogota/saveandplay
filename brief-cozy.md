@@ -1,5 +1,5 @@
-# Brief: Cozy and calm games (@cozygame.bsky.social), 2026-11-11 18:24 UTC
-Prices checked 2026-11-11 17:23 UTC (1 h ago). News: 11 of 11 sources read, 144 items from the last 48 h, 0 of 0 offered deals mentioned.
+# Brief: Cozy and calm games (@cozygame.bsky.social), 2026-11-12 18:42 UTC
+Prices checked 2026-11-12 17:42 UTC (1 h ago). News: 11 of 11 sources read, 135 items from the last 48 h, 0 of 0 offered deals mentioned.
 Niche Cozy: 1 games fit the rule today (0 of them can be posted now).
 WARNING: NOTHING TO OFFER today.
 WARNING: No game fits the niche today (1 fit the rule, 4 do not, 0 have no facts yet, 0 were taken by another account today, 1 offered in the last 7 days, 0 under 30%, 0 prices older than 48 h, 0 sales over or ending soon).
@@ -13,4 +13,4 @@ Rules:
 
 Left out: 0 other-store deals, 0 hidden duplicates, 0 under 30%, 0 ended, 0 ending within 6 h, 0 old prices, 4 outside the niche, 0 without facts.
 Sources not read: none.
-Built by: commit 01c3a2f, schedule, run #43 attempt 1.
+Built by: commit a6eabd1, schedule, run #44 attempt 1.
