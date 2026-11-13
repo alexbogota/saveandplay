@@ -2807,6 +2807,64 @@
             "id": "1684775710b14c193ccdf3eb2290e382010d464867f2077758227d7ede432394",
             "sig": "1ae6ff4925f74d7171ccf6b4793c9df4217d9ce52a657165cc01a3c2c3fdf1601337c4e275fff2965b8b8df418d51ceaad94f1092af09a7fff57be38d9fd16f8"
           }
+        },
+        "article": {
+          "status": "done",
+          "kind": "article",
+          "id": "5dcead428df747f477ba2a5def5e8362a5767a8d4934fad807d22b9c95e9f637",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "article": "delisted-steam-games-what-you-keep",
+          "postedAt": "2026-11-13T22:21:19.000Z",
+          "accepted": [
+            "wss://relay.primal.net",
+            "wss://offchain.pub"
+          ],
+          "failed": [
+            {
+              "url": "wss://relay.damus.io",
+              "reason": "error: internal error"
+            },
+            {
+              "url": "wss://nos.lol",
+              "reason": "no answer (timeout)"
+            },
+            {
+              "url": "wss://nostr.mom",
+              "reason": "no answer (timeout)"
+            }
+          ],
+          "event": {
+            "kind": 1,
+            "created_at": 1794608479,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-article"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://saveandplay.com/og/delisted-steam-games-what-you-keep.png",
+                "m image/png",
+                "alt Diagram of what Valve's developer page says happens when a Steam game is retired: owners keep it in their library and can download, install and launch it, new purchases are hidden, selling new keys is prohibited."
+              ]
+            ],
+            "content": "A game is delisted from Steam: what stays in your library and what does not\n\nWhen a game leaves the Steam store, owners keep it. Here is what Valve's developer page says, what the agreement does not promise, and five checks before you buy.\n\n#pcgaming #gamedeals\n\nhttps://saveandplay.com/og/delisted-steam-games-what-you-keep.png\n\nhttps://saveandplay.com/guides/delisted-steam-games-what-you-keep/?utm_source=nostr-prices&utm_medium=social&utm_campaign=delisted-steam-games-what-you-keep",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "5dcead428df747f477ba2a5def5e8362a5767a8d4934fad807d22b9c95e9f637",
+            "sig": "9b669c2d8ce2079c063e076c645f0024871ecbaa355c18ffb16780da5e0282078496c6f650d088916f1ea7e81eab60a0f8140506922144f3bae1c90a8a08cd31"
+          }
         }
       }
     }
@@ -2884,6 +2942,10 @@
       "steam-deck-ratings-explained": {
         "day": "2026-11-11",
         "id": "0e75302eedb36b4e0d7c35bffdfb256d9143820c98e2e91927d45c99507d6ec3"
+      },
+      "delisted-steam-games-what-you-keep": {
+        "day": "2026-11-13",
+        "id": "5dcead428df747f477ba2a5def5e8362a5767a8d4934fad807d22b9c95e9f637"
       }
     }
   },
