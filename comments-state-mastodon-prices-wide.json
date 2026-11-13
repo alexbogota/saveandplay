@@ -8,138 +8,47 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 656,
-      "posts": 27640,
-      "fit": 313,
+      "runs": 664,
+      "posts": 27960,
+      "fit": 317,
       "last": {
-        "posts": 80,
-        "fit": 2,
-        "at": "2026-11-12T23:35:46.793Z"
+        "posts": 40,
+        "fit": 1,
+        "at": "2026-11-13T06:37:50.744Z"
       }
     },
     "moreAsk": {
-      "runs": 410,
-      "posts": 3690,
+      "runs": 415,
+      "posts": 3735,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-11-12T23:35:46.793Z"
+        "at": "2026-11-13T06:37:50.744Z"
       }
     },
     "moreRetro": {
-      "runs": 410,
-      "posts": 25280,
-      "fit": 863,
+      "runs": 415,
+      "posts": 25560,
+      "fit": 866,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-12T23:35:46.793Z"
+        "at": "2026-11-13T06:37:50.744Z"
       }
     },
     "morePlaying": {
-      "runs": 410,
-      "posts": 1722,
+      "runs": 415,
+      "posts": 1743,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-11-12T23:35:46.793Z"
+        "at": "2026-11-13T06:37:50.744Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@Smith1PW/117599608669366503": {
-      "uri": "https://mastodon.social/@Smith1PW/117599608669366503",
-      "url": "https://mastodon.social/@Smith1PW/117599608669366503",
-      "handle": "Smith1PW@mastodon.social",
-      "name": "PWSmith1",
-      "text": "#vrchat #vrc #gaming #games #videogames #videogame #photography #photo #vrchatphotos #vrchatphotography #vrchatphoto #VirtualPhotography #vrcphotography #vrcphotos #vrcphoto",
-      "createdAt": "2026-11-11T20:07:02.520Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreGaming",
-      "query": "videogame",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "2 images: A VRChat avatar — an anime-styled character with cat ears, glasses, dark hair, and a fluffy dark tail, wearing a blue sweater and dark pants — stands with thei… / A VRChat screenshot showing the interior of an ornate Baroque-style cathedral. Red-cushioned wooden pews line a central aisle leading toward an elaborately dec…",
-      "firstSeen": "2026-11-12T00:38:56.699Z"
-    },
-    "https://mastodon.social/@stunningshemp/117600647888153025": {
-      "uri": "https://mastodon.social/@stunningshemp/117600647888153025",
-      "url": "https://mastodon.social/@stunningshemp/117600647888153025",
-      "handle": "stunningshemp@mastodon.social",
-      "name": "Chris Coats",
-      "text": "Birdo is no match for royalty #retrogaming #supermariobros2 #supermario #stunningshemp #twitch",
-      "createdAt": "2026-11-12T00:31:19.742Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "video, no description",
-      "firstSeen": "2026-11-12T00:38:56.699Z"
-    },
-    "https://mastodon.social/@nanochess/117600380607838373": {
-      "uri": "https://mastodon.social/@nanochess/117600380607838373",
-      "url": "https://mastodon.social/@nanochess/117600380607838373",
-      "handle": "nanochess@mastodon.social",
-      "name": "Óscar Toledo G.",
-      "text": "A few years ago I got an A8Picocart PCB as a gift. I finally got the purple Pi and soldered it. It works just fine after uploading the software just by drag&drop. #retro #retrogaming #atari",
-      "createdAt": "2026-11-11T23:23:21.365Z",
-      "likes": 4,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "3 images, no description",
-      "firstSeen": "2026-11-12T00:38:56.699Z"
-    },
-    "https://mastodon.social/@VCFSoCal@mastodon.online/117600165276408302": {
-      "uri": "https://mastodon.social/@VCFSoCal@mastodon.online/117600165276408302",
-      "url": "https://mastodon.social/@VCFSoCal@mastodon.online/117600165276408302",
-      "handle": "VCFSoCal@mastodon.online",
-      "name": "VCFSoCal",
-      "text": "Disco over for your tix! Exhibitor/Vendor sign-ups begin November 27th 😎 #VCFSoCal2027 #VCFSoCal #VCF #SoCal #CostaMesa #Festivals #VintageComputing #RetroComputers #RetroGaming #FUN",
-      "createdAt": "2026-11-11T22:28:33.000Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://mastodon.online/@VCFSoCal/117600165166390524",
-      "media": "image: Disco over to VCFSoCal.com for your tix! Exhibitor/Vendor sign-ups begin November 27th.",
-      "firstSeen": "2026-11-12T00:38:56.699Z"
-    },
-    "https://mastodon.social/@robavince/117599542102569182": {
-      "uri": "https://mastodon.social/@robavince/117599542102569182",
-      "url": "https://mastodon.social/@robavince/117599542102569182",
-      "handle": "robavince@mastodon.social",
-      "name": "robavince",
-      "text": "This month marks the 50th anniversary of the Fairchild Channel F. Pictured are both models that I used to own along with some games! Unfortunately, the launch model box from when it was called Video Entertainment System isn't present. #retrogaming",
-      "createdAt": "2026-11-11T19:50:06.790Z",
-      "likes": 7,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "image: Left, Channel F model 1, then model 2. Games 1-6.",
-      "firstSeen": "2026-11-12T00:38:56.699Z"
-    },
     "https://mastodon.social/@Mickytankbank@mstdn.party/117601806029392091": {
       "uri": "https://mastodon.social/@Mickytankbank@mstdn.party/117601806029392091",
       "url": "https://mastodon.social/@Mickytankbank@mstdn.party/117601806029392091",
@@ -189,7 +98,7 @@
       "replies": 0,
       "group": "moreGaming",
       "query": "videogame",
-      "score": 5,
+      "score": 4,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -215,24 +124,6 @@
       "media": null,
       "firstSeen": "2026-11-12T23:35:46.793Z"
     },
-    "https://mastodon.social/@Dvalin/117605583822021501": {
-      "uri": "https://mastodon.social/@Dvalin/117605583822021501",
-      "url": "https://mastodon.social/@Dvalin/117605583822021501",
-      "handle": "Dvalin@mastodon.social",
-      "name": "Dvalin Gaming",
-      "text": "Blizzard just dropped some big Shaman changes in WoW: Forever, we can finally use weapon imbues and weapon totems at the same time, though Enhancement took a few hits to Stormstrike, Mental Dexterity, and Maelstrom Weapon procs #worldofwarcraft #warcraft #mmo #mmorpg #gaming",
-      "createdAt": "2026-11-12T21:26:36.115Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "moreGaming",
-      "query": "mmorpg",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "image: Blizzard just dropped some big Shaman changes in WoW: Forever, we can finally use weapon imbues and weapon totems at the same time, though Enhancement took a f…",
-      "firstSeen": "2026-11-12T23:35:46.793Z"
-    },
     "https://mastodon.social/@Lanceroy/117604895841859091": {
       "uri": "https://mastodon.social/@Lanceroy/117604895841859091",
       "url": "https://mastodon.social/@Lanceroy/117604895841859091",
@@ -244,7 +135,7 @@
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 4,
+      "score": 3,
       "question": false,
       "heated": false,
       "isReply": false,
