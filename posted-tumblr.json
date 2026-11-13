@@ -181,6 +181,16 @@
           "foundOnServer": true,
           "postedAt": "2026-11-11T19:59:33.000Z"
         }
+      },
+      "2026-11-13": {
+        "deal": {
+          "id": "gog-simcity-4-deluxe-edition",
+          "title": "SimCity 4 Deluxe Edition",
+          "status": "done",
+          "postId": "833199637884289024",
+          "url": "https://saveandplay.tumblr.com/post/833199637884289024",
+          "postedAt": "2026-11-13T20:18:14.447Z"
+        }
       }
     }
   },
