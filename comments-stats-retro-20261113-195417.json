@@ -1,0 +1,67 @@
+{
+  "block": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "madeAt": "2026-11-13T19:54:17.748Z",
+  "days": 14,
+  "total": 26,
+  "mature": {
+    "count": 24,
+    "withLike": 15,
+    "withReply": 2,
+    "likes": 20,
+    "replies": 2,
+    "byProgram": 24
+  },
+  "top": [
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3mzxo3m6fi624",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3mzxo3m6fi624",
+      "text": "Those DOS text games were something else, your imagination did half the work.",
+      "at": "2026-11-10T14:37:04.683Z",
+      "likes": 3,
+      "replies": 0,
+      "reposts": 0,
+      "to": "lovinwolf.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3mznldb5tyr2u",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3mznldb5tyr2u",
+      "text": "Road Rash was such a Genesis staple, so seeing it come back on PC is a fun surprise.",
+      "at": "2026-11-06T14:21:02.947Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "zips.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3mzlala3ulb2n",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3mzlala3ulb2n",
+      "text": "DOS really was thin on fighting games. The Mortal Kombat ports are the other ones I remember.",
+      "at": "2026-11-05T16:03:19.657Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "tabbeigh.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3n24pr7wnjr2c",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3n24pr7wnjr2c",
+      "text": "Nice that a game from 20 years ago can be played again. Knytt always had such a calm, explore-at-your-own-pace feel.",
+      "at": "2026-11-12T14:50:22.507Z",
+      "likes": 2,
+      "replies": 0,
+      "reposts": 0,
+      "to": "nifflas.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3mzq3euemvd2n",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3mzq3euemvd2n",
+      "text": "Ha, the PC speaker was brave. If the game offers AdLib or Sound Blaster music in its setup, the difference is huge.",
+      "at": "2026-11-07T14:13:36.005Z",
+      "likes": 2,
+      "replies": 0,
+      "reposts": 0,
+      "to": "ndrichter.bsky.social"
+    }
+  ]
+}
