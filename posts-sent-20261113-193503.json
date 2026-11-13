@@ -1,0 +1,23 @@
+{
+  "madeAt": "2026-11-13T19:35:03.900Z",
+  "run": "43493522631",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices|article|/guides/steam-account-security-responsibility/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 6,
+      "link": "https://saveandplay.com/guides/steam-account-security-responsibility/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-account-security",
+      "text": "Steam's agreement says you must tell Valve \"without delay\" if your login may be compromised (section 2.C). What else it puts on you, in 3 lines:\nhttps://saveandplay.com/guides/steam-account-security-responsibility/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-account-security\n#PCGaming #GameDeals #Steam",
+      "approvedFile": "posts-approved-20261113-155841.json",
+      "approvedAt": "2026-11-13T15:58:41.583Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-13T19:35:06.173Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n27q5az3fg2v",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3n27q5az3fg2v",
+      "picture": true
+    }
+  ]
+}
