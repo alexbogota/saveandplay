@@ -1,0 +1,19 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "stamp": "20261113-154934",
+  "madeAt": "2026-11-13T15:53:23.779Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:oxgecvyu2upwscfzldzcfnfu/app.bsky.feed.post/3n25jxgekdc24",
+      "url": "https://bsky.app/profile/denyally.bsky.social/post/3n25jxgekdc24",
+      "author": "denyally.bsky.social",
+      "context": "New laptop + indie game backlog is a dangerous combo for the wallet, but honestly? Worth it for the cozy multiplayer nights.",
+      "text": "A new laptop plus an indie backlog sounds like a great combo. Indie games are often easy on modest hardware, and the system requirements on each Steam page tell you before you buy.",
+      "group": "waitForSale",
+      "heated": false
+    }
+  ]
+}

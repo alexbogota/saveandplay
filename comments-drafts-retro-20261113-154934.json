@@ -1,0 +1,29 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261113-154934",
+  "madeAt": "2026-11-13T15:53:23.968Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:je236u337zd6tdgsh5ft4gpb/app.bsky.feed.post/3n26yjcq7ck2j",
+      "url": "https://bsky.app/profile/va11halla.bsky.social/post/3n26yjcq7ck2j",
+      "author": "va11halla.bsky.social",
+      "context": "I remember playing Wolfenstein 3D, a game that looked more like MS-DOS than an early version of Minecraft",
+      "text": "Wolfenstein 3D was a big deal on 1992 PCs, and it was one of the early shareware hits too.",
+      "group": "classicPC",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:lzn3sczt46lg23aldizlunas/app.bsky.feed.post/3n26zcwt2s22z",
+      "url": "https://bsky.app/profile/qwilman.bsky.social/post/3n26zcwt2s22z",
+      "author": "qwilman.bsky.social",
+      "context": "ZZT! An old DOS game where making/sharing your own games was a huge core component. museumofzzt.com\nlink card: Museum of ZZT",
+      "text": "ZZT was great for that: the editor was built right in, so anyone could make a game and share it. Nice that it is still preserved online.",
+      "group": "classicPC",
+      "heated": false
+    }
+  ]
+}
