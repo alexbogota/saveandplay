@@ -1,64 +1,57 @@
 # Comment candidates: mastodon-prices (@saveandplay@mastodon.social)
-Made 2026-11-13T15:50Z. Searched: deck: handheldgaming | deck: steamdecklife | deck: steamdeckoled | deck: steamdeck | deck: steamos | practical: linuxgaming | practical: drmfree | practical: gog | practical: protondb | genres: coopgames | genres: citybuilder | genres: strategygames | genres: survivalgames | genres: horrorgaming | genres: cozygaming | genres: puzzlegames | genres: roguelike | genres: cozygames | genres: metroidvania | seasonal: halloweengames | seasonal: horrorgames | seasonal: spooktober | broadPlaying: videogames | broadPlaying: currentlyplaying | broadPlaying: indiegames | broadPlaying: indiegame | broadPlaying: pcgames | broadPlaying: steamgames | broadPlaying: gamer | broadPlaying: games | broadPlaying: rpg | broadPlaying: jrpg | broadPlaying: pcgaming | broadPlaying: gaming | broadPlaying: steam | broadAsk: recommendmeagame | broadAsk: gamerecommendation | broadAsk: recommendagame | broadAsk: whattoplay | broadAsk: gamesuggestion | broadAsk: hiddengem | broadAsk: underratedgames | broadAsk: gamesuggestions | backlog: gamingbacklog | backlog: backlog | backlog: pileofshame | backlog: whatshouldiplay | backlog: gamerecommendations | backlog: gamerecs.
-Posts below: 12 + 2 heated. Dropped in this run: bot, shop or studio 828, skip word 228, too old 1185, other language 215, too long 6, promo (link and hashtags) 83, already shown 13, profile says no bots or promo 5, other language (text) 200, low score 14, not about games 35, own post 10, console only 16, link post, not a question 20, content warning 13, too short 2, already answered 1, many links 4, earlier finds: low score 5.
+Made 2026-11-13T19:37Z. Searched: deck: handheldgaming | deck: steamdecklife | deck: steamdeckoled | deck: steamdeck | deck: steamos | practical: linuxgaming | practical: drmfree | practical: gog | practical: protondb | genres: coopgames | genres: citybuilder | genres: strategygames | genres: survivalgames | genres: horrorgaming | genres: cozygaming | genres: puzzlegames | genres: roguelike | genres: cozygames | genres: metroidvania | seasonal: halloweengames | seasonal: horrorgames | seasonal: spooktober | broadPlaying: videogames | broadPlaying: currentlyplaying | broadPlaying: indiegames | broadPlaying: indiegame | broadPlaying: pcgames | broadPlaying: steamgames | broadPlaying: gamer | broadPlaying: games | broadPlaying: rpg | broadPlaying: jrpg | broadPlaying: pcgaming | broadPlaying: gaming | broadPlaying: steam | broadAsk: recommendmeagame | broadAsk: gamerecommendation | broadAsk: recommendagame | broadAsk: whattoplay | broadAsk: gamesuggestion | broadAsk: hiddengem | broadAsk: underratedgames | broadAsk: gamesuggestions | backlog: gamingbacklog | backlog: backlog | backlog: pileofshame | backlog: whatshouldiplay | backlog: gamerecommendations | backlog: gamerecs.
+Posts below: 12. Dropped in this run: bot, shop or studio 821, skip word 270, too old 1264, other language 229, too long 8, promo (link and hashtags) 99, already shown 15, many links 8, profile says no bots or promo 13, other language (text) 166, low score 20, not about games 31, own post 10, content warning 9, console only 14, link post, not a question 21, hidden from search 9, already answered 1, earlier finds: low score 2, earlier finds: many links 1.
 
 ## Posts
-1. @coinkedpath.wordpress.com@coinkedpath.wordpress.com (coinkedpath) · 4h · likes 1 · replies 0 · question · broadPlaying
-   https://mastodon.social/@coinkedpath.wordpress.com@coinkedpath.wordpress.com/117609077081147243
-   original: https://coinkedpath.wordpress.com/2026/11/13/what-is-at-the-window/
-   What is at the window In today’s twisted saying. Movies are a coded way to deliver a message. But can the reader crack the message? Find out if the code is too much to understand. Enjoy the game. https://inkedpath.com/movie-is-a-pun/ Thanks for the support being seen. Enjoy the r
-   [3 images: A set of three game pieces labeled perplexed is called the scribbles. The set of three game pieces is for spot-the-difference. / A set of three game pieces labeled perplexed is called the scribbles. The set of three game pieces is for spot-the-difference. / A set of three game pieces labeled perplexed is called the scribbles. The set of three game pieces is for spot-the-difference.]
-2. @jonah@neat.computer (Jonah Aragon) · 12h · likes 1 · replies 1 · question · broadPlaying
-   https://mastodon.social/@jonah@neat.computer/117607175916867961
-   original: https://mastodon.neat.computer/@jonah/117607175893851822
-   I’m really torn on what to do with some computers I have laying around. Because on the one hand, RAM can be sold for so much money now. But on the other hand, I thought that RAM was absurdly overpriced one year ago. What will it be next winter? If I exit the hardware game am I ev
-3. @snooook@kind.social (snooook) · 16h · likes 1 · replies 0 · question · broadPlaying
-   https://mastodon.social/@snooook@kind.social/117606175859874760
-   original: https://kind.social/@snooook/117606175819330713
-   Well in light on Humble throwing it's website in the trash and setting the security features on fire, I had to redeem a lot of charity bundle codes before asking my account be deleted. ANYWAY I have some duplicate codes I don't need. If you would like any of the following they ar
-   [image: A list of games as follows: Darkest Dungeon Sheildbreaker DLC, Broken Age (x2), Spelunky, Bioshock Remastered, Super Time Force Ultra, This War of Mine, FTL, S…]
-4. @FatherEnoch@mastodon.online (Father Enoch) · 20h · likes 1 · replies 0 · question · broadPlaying
-   https://mastodon.social/@FatherEnoch@mastodon.online/117605204994145253
-   original: https://mastodon.online/@FatherEnoch/117605204923819613
-   Question for #Shadowrun players; Were #Signaturecharacters ever used in your #games? Has anyone ever worked for #Harlequin, or talked to #Lofwyr? What about "minor" characters like #WolfgangKies or #DrRichardRaven (or #JakeArmitage)? #NPCs #Rpg #Ttrpg #Seattle #SaederKrupp
-5. @MadiqIzichi@kopiti.am (✅💃Màdiq🙈🙉🙊Iźichi💃✅) · 25h · likes 1 · replies 0 · question · broadPlaying
-   https://mastodon.social/@MadiqIzichi@kopiti.am/117603984329020207
-   original: https://kopiti.am/@MadiqIzichi/117603984280073137
-   i'll always be a #gamer but it is at times like this when you have to put down the #controller or at the very least, walk away from that dev... 14 days expiring authorization online tokens for the game you "bought"? #kopitiam #singlish
-6. @trentonaustin@mastodon.social · 10h · likes 0 · replies 0 · question · broadPlaying
-   https://mastodon.social/@trentonaustin/117607484602658632
-   Anyone else obsessed with the new mechanics in 7 Wonders? The tile placement strategy is so satisfying to master. Looking for board game recs that have similar depth! #boardgames #tabletop #gaming
-7. @ami_angelwings@urusai.social (Ami Angelwings) · 13h · likes 6 · replies 7 · question · broadPlaying
-   https://mastodon.social/@ami_angelwings@urusai.social/117606782096084214
-   original: https://urusai.social/@ami_angelwings/117606781673051491
-   #QuestionOfTheDay coolest fictional uniform from a work you like? You can list this for multiple works. Please include a picture. (It has to be some sort of uniform worn by an organization, not just a single outfit) #fiction #fashion #scifi #fantasy #books #comics #anime #manga #
-8. @cptbutton@dice.camp (Captain Button) · 18h · likes 0 · replies 0 · question · broadPlaying
-   https://mastodon.social/@cptbutton@dice.camp/117605613688506713
-   original: https://dice.camp/@cptbutton/117605613654290022
-   I have successfully loaded and updated the new #Wolverine and #FinalFantasyResonance #videogames. Which should I try first?
-9. @notthatdelta@furry.engineer (Delta Sierra) · 20h · likes 0 · replies 1 · question · broadPlaying
+1. @AskPippa@c.im (AskPippa🇨🇦) · 2h · likes 1 · replies 0 · question · broadPlaying
+   https://mastodon.social/@AskPippa@c.im/117610232642236178
+   original: https://c.im/@AskPippa/117610232566155112
+   Interested in gaming history? Like cheap e-books? Story bundle is offering a collection of books on gaming history. And yes, authors get paid. I know several who approved having their #books in various bundles. #gaming https://storybundle.com/games?utm_source=newsletter&utm_mediu
+2. @pitcrewgg@mastodon.social (PitCrew) · 3h · likes 1 · replies 1 · deck
+   https://mastodon.social/@pitcrewgg/117610025242880185
+   🔄 Steam Frame - November 11 Client Update Steam Frame’s latest client update adds achievement sets, improves Remote Play HDR, and brings performance, stability, Big Picture, and search enhancements. 1/2 #SteamFrame #SteamOS #Linux #LinuxGaming #PCGaming #Steam #ValveSoftware #Op
+   [image, no description]
+3. @notthatdelta@furry.engineer (Delta Sierra) · 24h · likes 0 · replies 1 · question · broadPlaying
    https://mastodon.social/@notthatdelta@furry.engineer/117605230870319276
    original: https://furry.engineer/@notthatdelta/117605230684450539
    My hot take: OOT Remake Link looks fucking creepy. Like "cursed doll that moves around when you're not looking" creepy. Looking forward to some fresh creepypasta though! For those curious, I'm playing the Hookshot recomp under CachyOS. It was a bit painful to get going (an obscur
    [image: Screenshot from the Ocarina of Time remake, running on a computer at slightly higher than native resolution. Young Link is looking straight at the camera, with…]
-10. @nedjordan@mastodon.social (Ned Jordan) · 21h · likes 0 · replies 0 · question · broadPlaying
+4. @nedjordan@mastodon.social (Ned Jordan) · 25h · likes 0 · replies 0 · question · broadPlaying
    https://mastodon.social/@nedjordan/117604880957883923
    Sonic the Hedgehog: Memories and Beyond - Dr. Eggman’s new evil scheme is to upgrade Metal Sonic into the ultimate fighting machine by stealing Sonic’s life-data and harnessing the power of the Chaos Emeralds. Can Sonic and his friends defeat this supercharged Metal Sonic? #games
    [link card: Sonic the Hedgehog: Memories and Beyond - The Gamers' Temple]
-11. @raster@retro-gaiden.com (Raster) · 22h · likes 0 · replies 1 · question · broadPlaying
+5. @raster@retro-gaiden.com (Raster) · 25h · likes 0 · replies 1 · question · broadPlaying
    https://mastodon.social/@raster@retro-gaiden.com/117604834700630280
    original: https://retro-gaiden.com/@raster/117604834433508989
    (This is just game lore folks :P) AIs are evil spirits that are going to possess you. 👻 Perhaps there is some wisdom in that pile of rusty junk that is the Adeptus Mechanicus... https://invidious.tiekoetter.com/watch?v=FHkTZb22rAI #pcgame #pcgaming
    [link card: The Terrifying Biology of Cyberware | Cyberpunk 2077]
-12. @BTyson@dragonscave.space (Brandon Tyson) · 22h · likes 0 · replies 1 · question · broadPlaying
+6. @BTyson@dragonscave.space (Brandon Tyson) · 26h · likes 0 · replies 1 · question · broadPlaying
    https://mastodon.social/@BTyson@dragonscave.space/117604650401841178
    original: https://dragonscave.space/@BTyson/117604650217300067
    Hi @Orinks About a week or two ago I tried to submit a radio station through the website. It was for 98.5 KTIS out of Minnesota, and I was wanting to submit this to the list of radio stations in Freight Fate. I don't have an account, but it looked like it let me proceed without o
-
-## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @gerowen@mastodon.social (Marcus Adams) · 15h · likes 1 · replies 1 · broadPlaying
-   https://mastodon.social/@gerowen/117606449881169521
-   One of the scary things about the #NVidia fiasco is that, while #JensenHuang has been pushing hard into #AI, he helped co-found the company to make #gaming GPUs, and NVidia does still produce great GPUs. He even visited an arcade this year to thank the original guys from Sega who
-2. @Bearavikas@mastodon.social (Bearavikas) · 19h · likes 1 · replies 0 · broadPlaying
-   https://mastodon.social/@Bearavikas/117605412361734440
-   I closed my Epic Games account after they announced their shift to vibe coded...everything. Now I'm waiting to close my HumbleBundle account once I can actually get in again after their vibe coded slop-ification bungled everything. These companies really think that this is a good
+7. @Smith1PW@mastodon.social (PWSmith1) · 3h · likes 1 · replies 0 · broadPlaying
+   https://mastodon.social/@Smith1PW/117610103849424452
+   #vrchat #vrc #gaming #games #videogames #videogame #photography #photo #vrchatphotos #vrchatphotography #vrchatphoto #VirtualPhotography #vrcphotography #vrcphotos #vrcphoto
+   [image: A VRChat avatar with short light blue hair, wearing a teal crop top and black pants with arm straps, stands on a grassy hill viewed from behind. They look out …]
+8. @dirkdierickx@mastodon-belgium.be (dirk dierickx) · 5h · likes 1 · replies 0 · broadPlaying
+   https://mastodon.social/@dirkdierickx@mastodon-belgium.be/117609578525088023
+   original: https://mastodon-belgium.be/@dirkdierickx/117609578124530377
+   Ready for my own personal holodeck! #valve #steam #vr #VirtualReality
+   [image: Steam Frame and ergo kit boxes]
+9. @flwwhtrbt@mastodon.social (dash) · 11h · likes 5 · replies 2 · practical
+   https://mastodon.social/@flwwhtrbt/117608302933579819
+   Seems lile buying 99% of my #PCGaming titles straight on #GOG has paid off. Humble Bundle, gosh you've all lost the plot
+   [image, no description]
+10. @mentalmars@mastodon.social (MentalMars) · 20h · likes 1 · replies 0 · question · broadPlaying
+   https://mastodon.social/@mentalmars/117606191277297144
+   This Week’s #Borderlands4 Wild Card 🎯Mission: His Vile Sanctum 😱Modifiers: Irritable, Centripetal, Leaking 🔫Loot: Boomslang (Jakobs Sniper Rifle) What do you think about this week’s loot reward: Keep, Buff, or Delete? #Borderlands #Gaming
+   [image, no description]
+11. @raster@retro-gaiden.com (Raster) · 20h · likes 1 · replies 0 · question · broadPlaying
+   https://mastodon.social/@raster@retro-gaiden.com/117605995770328795
+   original: https://retro-gaiden.com/@raster/117605995652308796
+   https://invidious.tiekoetter.com/watch?v=CouvsLHav9I #pcgaming
+   [link card: Homeworld HD Mission 16 (Hiigara)]
+12. @pitcrewgg@mastodon.social (PitCrew) · 22h · likes 1 · replies 1 · practical
+   https://mastodon.social/@pitcrewgg/117605740189400077
+   🔄 War Thunder - Eagle’s Shadow: New Rendering, Part 2 War Thunder’s renderer update refines exposure, sky shadows, brightness and reflections on metal, wet roads and snow, with little performance impact. 1/2 #WarThunder #Linux #LinuxGaming #PCGaming #FlightSim #FreeTrack #HeadTr
+   [image, no description]
