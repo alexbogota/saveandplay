@@ -1,0 +1,41 @@
+{
+  "approvedAt": "2026-11-13T15:58:41.583Z",
+  "items": [
+    {
+      "n": 2,
+      "kind": "deal",
+      "platform": "bluesky",
+      "account": "prices-2",
+      "handle": "saveandplay.com",
+      "text": "Metro Exodus: -90% at GOG\n$2.99 (was $29.99)\nPrice checked Nov 12. Sale ends Nov 16. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-12\n\n#PCGaming #GameDeals #Games #DRMFree #PCGames\nAd",
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-12",
+      "day": "2026-11-12",
+      "key": "prices-2|2026-11-12|/deals/gog/metro-exodus/",
+      "notBefore": "2026-11-13T15:58:41.583Z"
+    },
+    {
+      "n": 5,
+      "kind": "deal",
+      "platform": "bluesky",
+      "account": "retro",
+      "handle": "retrogamedeals.bsky.social",
+      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Nov 12. Sale ends Nov 16. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-11-12\n\n#RetroGaming #GameDeals #GOG\nAd",
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-retro&utm_medium=social&utm_campaign=deals-2026-11-12",
+      "day": "2026-11-12",
+      "key": "retro|2026-11-12|/deals/gog/simcity-4-deluxe-edition/",
+      "notBefore": "2026-11-13T15:58:41.583Z"
+    },
+    {
+      "n": 6,
+      "kind": "article",
+      "platform": "bluesky",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "text": "Steam's agreement says you must tell Valve \"without delay\" if your login may be compromised (section 2.C). What else it puts on you, in 3 lines:\nhttps://saveandplay.com/guides/steam-account-security-responsibility/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-account-security\n#PCGaming #GameDeals #Steam",
+      "link": "https://saveandplay.com/guides/steam-account-security-responsibility/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-account-security",
+      "day": null,
+      "key": "prices|article|/guides/steam-account-security-responsibility/",
+      "notBefore": "2026-11-13T17:58:41.583Z"
+    }
+  ]
+}
