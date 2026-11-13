@@ -1,68 +1,62 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-11-12T18:42:54.994Z",
-  "builtBy": "commit a6eabd1, schedule, run #44 attempt 1",
-  "pricesCheckedAt": "2026-11-12T17:42:45.194Z",
+  "generatedAt": "2026-11-13T18:25:11.736Z",
+  "builtBy": "commit 7ce2714, schedule, run #45 attempt 1",
+  "pricesCheckedAt": "2026-11-13T17:19:53.291Z",
   "warnings": [],
   "candidates": [
     {
-      "id": "gog-shadow-tactics-blades-of-the-shogun",
+      "id": "gog-simcity-4-deluxe-edition",
       "kind": "deal",
-      "title": "Shadow Tactics: Blades of the Shogun",
+      "title": "SimCity 4 Deluxe Edition",
       "store": "GOG",
-      "price": 3.99,
-      "was": 39.99,
-      "discount": 90,
-      "endsAt": "2026-11-13T09:59:00+02:00",
-      "endsInHours": 13,
-      "priceCheckedAt": "2026-11-12T17:42:45.194Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
+      "price": 4.99,
+      "was": 19.99,
+      "discount": 75,
+      "endsAt": "2026-11-16T09:59:00+02:00",
+      "endsInHours": 62,
+      "priceCheckedAt": "2026-11-13T17:19:53.291Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
       "drminfo": null,
-      "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
+      "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
       "facts": {
-        "year": 2016,
+        "year": 2003,
         "genres": [
-          "Strategy",
-          "Real-time",
-          "Stealth"
+          "Simulation",
+          "Building",
+          "Managerial"
         ],
         "tags": [
-          "Indie",
           "Atmospheric",
-          "Strategy",
-          "Puzzle",
+          "Simulation",
+          "Classic",
           "Great Soundtrack",
-          "Tactical",
-          "Third Person",
-          "Historical",
-          "Survival",
-          "Violent",
+          "Management",
+          "Sandbox",
           "Real-Time",
-          "Difficult",
           "Isometric",
-          "RTS",
-          "Stealth",
-          "Ninja"
+          "Building",
+          "Managerial",
+          "City builder"
         ]
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 5,
-      "discountRank": 2,
+      "score": 9.5,
+      "discountRank": 5,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 34,
+        "days": 35,
         "lowest": true,
         "since": "2026-10-07"
       },
-      "offeredOn": "2026-11-11",
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-12",
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-13",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 13 h",
-        "lowest price we've tracked (34 days of data)",
-        "deepest-discount rank 2 of 5"
+        "lowest price we've tracked (35 days of data)",
+        "deepest-discount rank 5 of 5"
       ]
     },
     {
@@ -74,8 +68,8 @@
       "was": 29.99,
       "discount": 90,
       "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 85,
-      "priceCheckedAt": "2026-11-12T17:42:45.194Z",
+      "endsInHours": 62,
+      "priceCheckedAt": "2026-11-13T17:19:53.291Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804",
       "drminfo": null,
       "coverAlt": "Cover art for Metro Exodus",
@@ -113,16 +107,75 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 26,
+        "days": 27,
         "lowest": true,
         "since": "2026-10-18"
       },
       "offeredOn": "2026-11-09",
-      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-12",
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-13",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (26 days of data)",
+        "lowest price we've tracked (27 days of data)",
         "deepest-discount rank 1 of 5"
+      ]
+    },
+    {
+      "id": "gog-shadow-tactics-blades-of-the-shogun",
+      "kind": "deal",
+      "title": "Shadow Tactics: Blades of the Shogun",
+      "store": "GOG",
+      "price": 3.99,
+      "was": 39.99,
+      "discount": 90,
+      "endsAt": "2026-11-21T09:59:00+02:00",
+      "endsInHours": 182,
+      "priceCheckedAt": "2026-11-13T17:19:53.291Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
+      "drminfo": null,
+      "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
+      "facts": {
+        "year": 2016,
+        "genres": [
+          "Strategy",
+          "Real-time",
+          "Stealth"
+        ],
+        "tags": [
+          "Indie",
+          "Atmospheric",
+          "Strategy",
+          "Puzzle",
+          "Great Soundtrack",
+          "Tactical",
+          "Third Person",
+          "Historical",
+          "Survival",
+          "Violent",
+          "Real-Time",
+          "Difficult",
+          "Isometric",
+          "RTS",
+          "Stealth",
+          "Ninja"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 3,
+      "discountRank": 2,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 35,
+        "lowest": true,
+        "since": "2026-10-07"
+      },
+      "offeredOn": "2026-11-12",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-13",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "lowest price we've tracked (35 days of data)",
+        "deepest-discount rank 2 of 5"
       ]
     },
     {
@@ -134,8 +187,8 @@
       "was": 19.99,
       "discount": 85,
       "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 85,
-      "priceCheckedAt": "2026-11-12T17:42:45.194Z",
+      "endsInHours": 62,
+      "priceCheckedAt": "2026-11-13T17:19:53.291Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
       "drminfo": null,
       "coverAlt": "Cover art for This War of Mine",
@@ -173,15 +226,15 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 25,
+        "days": 26,
         "lowest": true,
         "since": "2026-10-19"
       },
       "offeredOn": "2026-11-08",
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-12",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-13",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (25 days of data)",
+        "lowest price we've tracked (26 days of data)",
         "deepest-discount rank 3 of 5"
       ]
     },
@@ -194,8 +247,8 @@
       "was": 24.99,
       "discount": 85,
       "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 85,
-      "priceCheckedAt": "2026-11-12T17:42:45.194Z",
+      "endsInHours": 62,
+      "priceCheckedAt": "2026-11-13T17:19:53.291Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187",
       "drminfo": null,
       "coverAlt": "Cover art for Darkest Dungeon",
@@ -231,115 +284,77 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 34,
+        "days": 35,
         "lowest": true,
         "since": "2026-10-07"
       },
       "offeredOn": "2026-11-10",
-      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-12",
+      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-13",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (34 days of data)",
+        "lowest price we've tracked (35 days of data)",
         "deepest-discount rank 4 of 5"
-      ]
-    },
-    {
-      "id": "gog-simcity-4-deluxe-edition",
-      "kind": "deal",
-      "title": "SimCity 4 Deluxe Edition",
-      "store": "GOG",
-      "price": 4.99,
-      "was": 19.99,
-      "discount": 75,
-      "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 85,
-      "priceCheckedAt": "2026-11-12T17:42:45.194Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
-      "drminfo": null,
-      "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
-      "facts": {
-        "year": 2003,
-        "genres": [
-          "Simulation",
-          "Building",
-          "Managerial"
-        ],
-        "tags": [
-          "Atmospheric",
-          "Simulation",
-          "Classic",
-          "Great Soundtrack",
-          "Management",
-          "Sandbox",
-          "Real-Time",
-          "Isometric",
-          "Building",
-          "Managerial",
-          "City builder"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 1.5,
-      "discountRank": 5,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 34,
-        "lowest": true,
-        "since": "2026-10-07"
-      },
-      "offeredOn": "2026-11-06",
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-12",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "lowest price we've tracked (34 days of data)",
-        "deepest-discount rank 5 of 5"
       ]
     }
   ],
   "gogNews": [
     {
-      "title": "Release: Nocturne",
-      "game": "nocturne",
-      "url": "https://www.gog.com/en/game/nocturne",
-      "newsLink": "http://www.gog.com/news/release_nocturne",
-      "t": 1794447482000,
-      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fnocturne"
+      "title": "Release: DERELIKT",
+      "game": "derelikt",
+      "url": "https://www.gog.com/en/game/derelikt",
+      "newsLink": "http://www.gog.com/news/release_derelikt",
+      "t": 1794453138000,
+      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fderelikt"
+    },
+    {
+      "title": "Watch the newest Tech Talk about Wing Commander: Prophecy!",
+      "game": "wing_commander_prophecy_30th_anniversary_edition",
+      "url": "https://www.gog.com/en/game/wing_commander_prophecy_30th_anniversary_edition",
+      "newsLink": "http://www.gog.com/news/watch_the_newest_tech_talk_about_wing_commander_prophecy",
+      "t": 1794449973000,
+      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fwing_commander_prophecy_30th_anniversary_edition"
+    },
+    {
+      "title": "Out of Early Access: 9 Kings",
+      "game": "9_kings",
+      "url": "https://www.gog.com/en/game/9_kings",
+      "newsLink": "http://www.gog.com/news/out_of_early_access_9_kings",
+      "t": 1794448718000,
+      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2F9_kings"
     }
   ],
   "topical": [
     {
-      "title": "XBOX Free Play Days is a subscriber-only affair this week, with FOUR titles ready to download",
+      "title": "Steam's Tidy Up Showcase has a bunch of neat discounts waiting to be picked up!",
       "source": "gg.deals News",
-      "link": "https://gg.deals/subscription-news/xbox-free-play-days-is-a-subscriber-only-affair-this-week-with-four-titles-ready-to-download/",
-      "t": 1794507120000,
-      "keyword": "free",
-      "summary": "'Free', as in, \"pay us for a subscription, and you can play these games, okay?\""
+      "link": "https://gg.deals/deal/steams-tidy-up-showcase-has-a-bunch-of-neat-discounts-waiting-to-be-picked-up/",
+      "t": 1794593580000,
+      "keyword": "discounts",
+      "summary": "We're sure you can find just to right spot in your collection for these games."
     },
     {
-      "title": "Prime Gaming’s (Amazon Luna) new batch is roaring back with two more PC games to claim for FREE",
-      "source": "gg.deals News",
-      "link": "https://gg.deals/subscription-news/prime-gamings-amazon-luna-new-batch-is-roaring-back-with-two-more-pc-games-to-claim-for-free/",
-      "t": 1794506549000,
-      "keyword": "free",
-      "summary": "November&rsquo;s second wave of Prime Gaming free games is now live for subscribers."
-    },
-    {
-      "title": "Epic Games Store will hand out Alien: Isolation and one more game for FREE next week",
+      "title": "Battlefield 6 FREE trial makes a comeback with four days of nonstop shooting",
       "source": "gg.deals Freebies",
-      "link": "https://gg.deals/freebie/epic-games-store-will-hand-out-alien-isolation-and-one-more-game-for-free-next-week/",
-      "t": 1794501862000,
+      "link": "https://gg.deals/freebie/battlefield-6-free-trial-makes-a-comeback-with-four-days-of-nonstop-shooting/",
+      "t": 1794591581000,
       "keyword": "free",
-      "summary": "November 19 will go down as a day of space terrors and pirate tales."
+      "summary": "EA&rsquo;s flagship FPS is yours to try until November 16."
     },
     {
-      "title": "Knightica is free on Epic Games Store — build an army and let the synergies do the fighting",
-      "source": "Indie Game Bundles",
-      "link": "https://www.indiegamebundles.com/knightica-is-free-on-epic-games-store/",
-      "t": 1794500376000,
-      "keyword": "free",
-      "summary": "Knightica is free on Epic Games Store from November 12 to November 19, 2026. Claim it during the giveaway and it stays in your library. The post Knightica is f…"
+      "title": "Save up to 94% with GOG’s Preservation Program Sale & more promos",
+      "source": "gg.deals News",
+      "link": "https://gg.deals/deal/save-up-to-94-with-gogs-preservation-program-sale-more-promos/",
+      "t": 1794588392000,
+      "keyword": "sale",
+      "summary": "Browse over 900 deals, with Alpha Protocol, Stranglehold, Mortal Kombat Trilogy, and plenty more on offer."
+    },
+    {
+      "title": "Green Man Gaming's Masterful Remasters Bundle Volume II offers tiers from $5",
+      "source": "gg.deals News",
+      "link": "https://gg.deals/bundle/green-man-gaming-masterful-remasters-bundle-volume-ii-cheap-steam-keys/",
+      "t": 1794587580000,
+      "keyword": "bundle",
+      "summary": "Get your hands on 7 classic games, remastered, remade, and reborn for modern PC players."
     }
   ],
   "topics": [
@@ -354,6 +369,12 @@
       "keywords": [],
       "games": [],
       "items": [
+        {
+          "source": "PC Gamer",
+          "title": "Ex-Nvidia CEO Jensen Huang allegedly had an 'intimate relationship' with a second Nvidia employee, according to reports",
+          "link": "https://www.pcgamer.com/hardware/ex-nvidia-ceo-jensen-huang-allegedly-had-an-intimate-relationship-with-a-second-nvidia-employee-according-to-reports/",
+          "published": "2026-11-13T11:33:19.000Z"
+        },
         {
           "source": "PC Gamer",
           "title": "Nvidia CEO Jensen Huang allegedly had a second affair with another Nvidia exec",
@@ -371,6 +392,52 @@
           "title": "Nvidia board considering ousting CEO Jensen Huang, report claims, as news of a second affair comes to light",
           "link": "https://www.eurogamer.net/nvidia-ceo-jensen-huang-affair-share-price",
           "published": "2026-11-12T11:37:30.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "The Legend of California (Playtest) Steam Key Giveaway",
+      "score": 8,
+      "sites": [
+        "gamerpower.com",
+        "gg.deals"
+      ],
+      "keywords": [
+        "free"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "GamerPower (PC)",
+          "title": "The Legend of California (Playtest) Steam Key Giveaway",
+          "link": "https://www.gamerpower.com/the-legend-of-california-playtest-steam-key-giveaway",
+          "published": "2026-11-12T18:59:00.000Z"
+        },
+        {
+          "source": "gg.deals Freebies",
+          "title": "A FREE The Legend of California Steam playtest moseys into town tomorrow: here's how to get access!",
+          "link": "https://gg.deals/freebie/how-to-access-the-legend-of-california-steam-playtest-alpha-5/",
+          "published": "2026-11-11T19:01:00.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Best Buy launches its Black Friday doorbuster sale, but this is the only deal we’d recommend the weekend before GTA 6",
+      "score": 7,
+      "sites": [
+        "gamesradar.com"
+      ],
+      "keywords": [
+        "sale",
+        "deal"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "GamesRadar deals",
+          "title": "Best Buy launches its Black Friday doorbuster sale, but this is the only deal we’d recommend the weekend before GTA 6",
+          "link": "https://www.gamesradar.com/hardware/gaming-controllers/best-buy-launches-its-black-friday-doorbuster-sale-but-this-is-the-only-deal-wed-recommend-the-weekend-before-gta-6/",
+          "published": "2026-11-13T17:40:21.000Z"
         }
       ]
     },
@@ -413,46 +480,6 @@
           "published": "2026-11-12T13:21:00.000Z"
         }
       ]
-    },
-    {
-      "headline": "Humble Bundle's new redesign inexplicably removes 2-factor authentication, dramatically weakening account security",
-      "score": 7,
-      "sites": [
-        "pcgamer.com"
-      ],
-      "keywords": [
-        "bundle",
-        "humble"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "PC Gamer",
-          "title": "Humble Bundle's new redesign inexplicably removes 2-factor authentication, dramatically weakening account security",
-          "link": "https://www.pcgamer.com/software/platforms/humble-bundles-new-redesign-inexplicably-removes-2-factor-authentication-dramatically-weakening-account-security/",
-          "published": "2026-11-12T12:29:45.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Humble's Singles Day Bundle celebrates Chinese games with a tempting collection of cheap Steam keys",
-      "score": 7,
-      "sites": [
-        "gg.deals"
-      ],
-      "keywords": [
-        "bundle",
-        "humble"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "Humble's Singles Day Bundle celebrates Chinese games with a tempting collection of cheap Steam keys",
-          "link": "https://gg.deals/bundle/humbles-1111-singles-day-bundle-celebrates-chinese-games-with-a-tempting-collection-of-cheap-steam-keys/",
-          "published": "2026-11-11T12:51:00.000Z"
-        }
-      ]
     }
   ],
   "left": {
@@ -473,25 +500,25 @@
   },
   "posts": {
     "x": {
-      "text": "Shadow Tactics: Blades of the Shogun: -90% at GOG\n$3.99 (was $39.99)\nPrice checked Nov 12. Sale ends Nov 13. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-12\n\n#PCGaming #GOG\nAd",
-      "length": 180,
+      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Nov 13. Sale ends Nov 16. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-13\n\n#PCGaming #SimCity4DeluxeEdition\nAd",
+      "length": 186,
       "max": 270,
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-12",
-      "deal": "gog-shadow-tactics-blades-of-the-shogun"
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-13",
+      "deal": "gog-simcity-4-deluxe-edition"
     },
     "bluesky": {
-      "text": "Shadow Tactics: Blades of the Shogun: -90% at GOG\n$3.99 (was $39.99)\nPrice checked Nov 12. Sale ends Nov 13. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-12\n\n#PCGaming #GameDeals #GOG #Gaming #ShadowTactics\nAd",
-      "length": 216,
+      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Nov 13. Sale ends Nov 16. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-13\n\n#PCGaming #GameDeals #VideoGames #DRMFree #Games\nAd",
+      "length": 204,
       "max": 300,
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-12",
-      "deal": "gog-shadow-tactics-blades-of-the-shogun"
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-13",
+      "deal": "gog-simcity-4-deluxe-edition"
     },
     "mastodon": {
-      "text": "Shadow Tactics: Blades of the Shogun: -90% at GOG\n$3.99 (was $39.99)\nYou save $36.00\nDRM-free\nPrice checked Nov 12. Sale ends Nov 13. Lowest price we've tracked.\nWhy today: sale ends in 13 h; deepest-discount rank 2 of 5.\n\nhttps://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-11-12\n\n#GameDeals #PCGaming #GOG #DRMFree #ShadowTactics\nAd",
-      "length": 300,
+      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nYou save $15.00\nDRM-free\nPrice checked Nov 13. Sale ends Nov 16. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-11-13\n\n#GameDeals #PCGaming #GOG #DRMFree #Gaming\nAd",
+      "length": 221,
       "max": 500,
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-11-12",
-      "deal": "gog-shadow-tactics-blades-of-the-shogun"
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-11-13",
+      "deal": "gog-simcity-4-deluxe-edition"
     }
   }
 }
