@@ -1,64 +1,10 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-11-13T18:25:11.736Z",
-  "builtBy": "commit 7ce2714, schedule, run #45 attempt 1",
-  "pricesCheckedAt": "2026-11-13T17:19:53.291Z",
+  "generatedAt": "2026-11-14T16:51:31.599Z",
+  "builtBy": "commit 341719d, schedule, run #46 attempt 1",
+  "pricesCheckedAt": "2026-11-14T15:58:12.580Z",
   "warnings": [],
   "candidates": [
-    {
-      "id": "gog-simcity-4-deluxe-edition",
-      "kind": "deal",
-      "title": "SimCity 4 Deluxe Edition",
-      "store": "GOG",
-      "price": 4.99,
-      "was": 19.99,
-      "discount": 75,
-      "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 62,
-      "priceCheckedAt": "2026-11-13T17:19:53.291Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
-      "drminfo": null,
-      "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
-      "facts": {
-        "year": 2003,
-        "genres": [
-          "Simulation",
-          "Building",
-          "Managerial"
-        ],
-        "tags": [
-          "Atmospheric",
-          "Simulation",
-          "Classic",
-          "Great Soundtrack",
-          "Management",
-          "Sandbox",
-          "Real-Time",
-          "Isometric",
-          "Building",
-          "Managerial",
-          "City builder"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 9.5,
-      "discountRank": 5,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 35,
-        "lowest": true,
-        "since": "2026-10-07"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-13",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "lowest price we've tracked (35 days of data)",
-        "deepest-discount rank 5 of 5"
-      ]
-    },
     {
       "id": "gog-metro-exodus",
       "kind": "deal",
@@ -68,8 +14,8 @@
       "was": 29.99,
       "discount": 90,
       "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 62,
-      "priceCheckedAt": "2026-11-13T17:19:53.291Z",
+      "endsInHours": 39,
+      "priceCheckedAt": "2026-11-14T15:58:12.580Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804",
       "drminfo": null,
       "coverAlt": "Cover art for Metro Exodus",
@@ -102,21 +48,197 @@
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 3,
+      "score": 5,
       "discountRank": 1,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 28,
+        "lowest": true,
+        "since": "2026-10-18"
+      },
+      "offeredOn": "2026-11-09",
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-14",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "sale ends in 39 h",
+        "lowest price we've tracked (28 days of data)",
+        "deepest-discount rank 1 of 5"
+      ]
+    },
+    {
+      "id": "gog-this-war-of-mine",
+      "kind": "deal",
+      "title": "This War of Mine",
+      "store": "GOG",
+      "price": 2.99,
+      "was": 19.99,
+      "discount": 85,
+      "endsAt": "2026-11-16T09:59:00+02:00",
+      "endsInHours": 39,
+      "priceCheckedAt": "2026-11-14T15:58:12.580Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
+      "drminfo": null,
+      "coverAlt": "Cover art for This War of Mine",
+      "facts": {
+        "year": 2014,
+        "genres": [
+          "Action",
+          "Adventure",
+          "Survival"
+        ],
+        "tags": [
+          "Adventure",
+          "Action",
+          "Indie",
+          "Story Rich",
+          "Atmospheric",
+          "Choices Matter",
+          "Management",
+          "Survival",
+          "Resource Management",
+          "Real-Time",
+          "War",
+          "Crafting",
+          "Base Building",
+          "Emotional",
+          "Post-apocalyptic",
+          "Stealth",
+          "Psychological"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 4.5,
+      "discountRank": 3,
       "sites": 0,
       "mentions": [],
       "history": {
         "days": 27,
         "lowest": true,
-        "since": "2026-10-18"
+        "since": "2026-10-19"
       },
-      "offeredOn": "2026-11-09",
-      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-13",
+      "offeredOn": "2026-11-08",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-14",
       "linkKind": "link to our site",
       "whyToday": [
+        "sale ends in 39 h",
         "lowest price we've tracked (27 days of data)",
-        "deepest-discount rank 1 of 5"
+        "deepest-discount rank 3 of 5"
+      ]
+    },
+    {
+      "id": "gog-darkest-dungeon",
+      "kind": "deal",
+      "title": "Darkest Dungeon",
+      "store": "GOG",
+      "price": 3.75,
+      "was": 24.99,
+      "discount": 85,
+      "endsAt": "2026-11-16T09:59:00+02:00",
+      "endsInHours": 39,
+      "priceCheckedAt": "2026-11-14T15:58:12.580Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187",
+      "drminfo": null,
+      "coverAlt": "Cover art for Darkest Dungeon",
+      "facts": {
+        "year": 2016,
+        "genres": [
+          "Role-playing",
+          "Turn-based",
+          "Fantasy"
+        ],
+        "tags": [
+          "Indie",
+          "Fantasy",
+          "Atmospheric",
+          "Role-playing",
+          "2D",
+          "Turn-Based",
+          "Dark",
+          "Horror",
+          "Difficult",
+          "Roguelike",
+          "Roguelite",
+          "Dungeon Crawler",
+          "Lovecraftian",
+          "Perma Death",
+          "Petting Dogs"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 4.5,
+      "discountRank": 4,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 36,
+        "lowest": true,
+        "since": "2026-10-07"
+      },
+      "offeredOn": "2026-11-10",
+      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-14",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "sale ends in 39 h",
+        "lowest price we've tracked (36 days of data)",
+        "deepest-discount rank 4 of 5"
+      ]
+    },
+    {
+      "id": "gog-simcity-4-deluxe-edition",
+      "kind": "deal",
+      "title": "SimCity 4 Deluxe Edition",
+      "store": "GOG",
+      "price": 4.99,
+      "was": 19.99,
+      "discount": 75,
+      "endsAt": "2026-11-16T09:59:00+02:00",
+      "endsInHours": 39,
+      "priceCheckedAt": "2026-11-14T15:58:12.580Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
+      "drminfo": null,
+      "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
+      "facts": {
+        "year": 2003,
+        "genres": [
+          "Simulation",
+          "Building",
+          "Managerial"
+        ],
+        "tags": [
+          "Atmospheric",
+          "Simulation",
+          "Classic",
+          "Great Soundtrack",
+          "Management",
+          "Sandbox",
+          "Real-Time",
+          "Isometric",
+          "Building",
+          "Managerial",
+          "City builder"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 3.5,
+      "discountRank": 5,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 36,
+        "lowest": true,
+        "since": "2026-10-07"
+      },
+      "offeredOn": "2026-11-13",
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-14",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "sale ends in 39 h",
+        "lowest price we've tracked (36 days of data)",
+        "deepest-discount rank 5 of 5"
       ]
     },
     {
@@ -128,8 +250,8 @@
       "was": 39.99,
       "discount": 90,
       "endsAt": "2026-11-21T09:59:00+02:00",
-      "endsInHours": 182,
-      "priceCheckedAt": "2026-11-13T17:19:53.291Z",
+      "endsInHours": 159,
+      "priceCheckedAt": "2026-11-14T15:58:12.580Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
       "drminfo": null,
       "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
@@ -166,258 +288,122 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 35,
+        "days": 36,
         "lowest": true,
         "since": "2026-10-07"
       },
       "offeredOn": "2026-11-12",
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-13",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-14",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (35 days of data)",
+        "lowest price we've tracked (36 days of data)",
         "deepest-discount rank 2 of 5"
       ]
-    },
-    {
-      "id": "gog-this-war-of-mine",
-      "kind": "deal",
-      "title": "This War of Mine",
-      "store": "GOG",
-      "price": 2.99,
-      "was": 19.99,
-      "discount": 85,
-      "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 62,
-      "priceCheckedAt": "2026-11-13T17:19:53.291Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
-      "drminfo": null,
-      "coverAlt": "Cover art for This War of Mine",
-      "facts": {
-        "year": 2014,
-        "genres": [
-          "Action",
-          "Adventure",
-          "Survival"
-        ],
-        "tags": [
-          "Adventure",
-          "Action",
-          "Indie",
-          "Story Rich",
-          "Atmospheric",
-          "Choices Matter",
-          "Management",
-          "Survival",
-          "Resource Management",
-          "Real-Time",
-          "War",
-          "Crafting",
-          "Base Building",
-          "Emotional",
-          "Post-apocalyptic",
-          "Stealth",
-          "Psychological"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 2.5,
-      "discountRank": 3,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 26,
-        "lowest": true,
-        "since": "2026-10-19"
-      },
-      "offeredOn": "2026-11-08",
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-13",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "lowest price we've tracked (26 days of data)",
-        "deepest-discount rank 3 of 5"
-      ]
-    },
-    {
-      "id": "gog-darkest-dungeon",
-      "kind": "deal",
-      "title": "Darkest Dungeon",
-      "store": "GOG",
-      "price": 3.75,
-      "was": 24.99,
-      "discount": 85,
-      "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 62,
-      "priceCheckedAt": "2026-11-13T17:19:53.291Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187",
-      "drminfo": null,
-      "coverAlt": "Cover art for Darkest Dungeon",
-      "facts": {
-        "year": 2016,
-        "genres": [
-          "Role-playing",
-          "Turn-based",
-          "Fantasy"
-        ],
-        "tags": [
-          "Indie",
-          "Fantasy",
-          "Atmospheric",
-          "Role-playing",
-          "2D",
-          "Turn-Based",
-          "Dark",
-          "Horror",
-          "Difficult",
-          "Roguelike",
-          "Roguelite",
-          "Dungeon Crawler",
-          "Lovecraftian",
-          "Perma Death",
-          "Petting Dogs"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 2.5,
-      "discountRank": 4,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 35,
-        "lowest": true,
-        "since": "2026-10-07"
-      },
-      "offeredOn": "2026-11-10",
-      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-13",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "lowest price we've tracked (35 days of data)",
-        "deepest-discount rank 4 of 5"
-      ]
     }
   ],
-  "gogNews": [
-    {
-      "title": "Release: DERELIKT",
-      "game": "derelikt",
-      "url": "https://www.gog.com/en/game/derelikt",
-      "newsLink": "http://www.gog.com/news/release_derelikt",
-      "t": 1794453138000,
-      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fderelikt"
-    },
-    {
-      "title": "Watch the newest Tech Talk about Wing Commander: Prophecy!",
-      "game": "wing_commander_prophecy_30th_anniversary_edition",
-      "url": "https://www.gog.com/en/game/wing_commander_prophecy_30th_anniversary_edition",
-      "newsLink": "http://www.gog.com/news/watch_the_newest_tech_talk_about_wing_commander_prophecy",
-      "t": 1794449973000,
-      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fwing_commander_prophecy_30th_anniversary_edition"
-    },
-    {
-      "title": "Out of Early Access: 9 Kings",
-      "game": "9_kings",
-      "url": "https://www.gog.com/en/game/9_kings",
-      "newsLink": "http://www.gog.com/news/out_of_early_access_9_kings",
-      "t": 1794448718000,
-      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2F9_kings"
-    }
-  ],
+  "gogNews": [],
   "topical": [
     {
-      "title": "Steam's Tidy Up Showcase has a bunch of neat discounts waiting to be picked up!",
-      "source": "gg.deals News",
-      "link": "https://gg.deals/deal/steams-tidy-up-showcase-has-a-bunch-of-neat-discounts-waiting-to-be-picked-up/",
-      "t": 1794593580000,
-      "keyword": "discounts",
-      "summary": "We're sure you can find just to right spot in your collection for these games."
-    },
-    {
-      "title": "Battlefield 6 FREE trial makes a comeback with four days of nonstop shooting",
-      "source": "gg.deals Freebies",
-      "link": "https://gg.deals/freebie/battlefield-6-free-trial-makes-a-comeback-with-four-days-of-nonstop-shooting/",
-      "t": 1794591581000,
+      "title": "Halo: Campaign Evolved is getting Firefight as a free update, though I'm not sure it'll do much to change the remake's fortunes",
+      "source": "PC Gamer",
+      "link": "https://www.pcgamer.com/games/halo/halo-campaign-evolved-is-getting-firefight-as-a-free-update-though-im-not-sure-itll-do-much-to-change-the-remakes-fortunes/",
+      "t": 1794667783000,
       "keyword": "free",
-      "summary": "EA&rsquo;s flagship FPS is yours to try until November 16."
+      "summary": "Xbox has announced the first update for Halo: Campaign Evolved since August, one which will add Firefight to the remake's overhaul of the original game's story…"
     },
     {
-      "title": "Save up to 94% with GOG’s Preservation Program Sale & more promos",
-      "source": "gg.deals News",
-      "link": "https://gg.deals/deal/save-up-to-94-with-gogs-preservation-program-sale-more-promos/",
-      "t": 1794588392000,
-      "keyword": "sale",
-      "summary": "Browse over 900 deals, with Alpha Protocol, Stranglehold, Mortal Kombat Trilogy, and plenty more on offer."
-    },
-    {
-      "title": "Green Man Gaming's Masterful Remasters Bundle Volume II offers tiers from $5",
-      "source": "gg.deals News",
-      "link": "https://gg.deals/bundle/green-man-gaming-masterful-remasters-bundle-volume-ii-cheap-steam-keys/",
-      "t": 1794587580000,
-      "keyword": "bundle",
-      "summary": "Get your hands on 7 classic games, remastered, remade, and reborn for modern PC players."
+      "title": "New FREE games this weekend (November 14-15, 2026): your comprehensive roundup",
+      "source": "gg.deals Freebies",
+      "link": "https://gg.deals/freebie/new-free-games-this-weekend-november-14-15-2026-your-comprehensive-roundup/",
+      "t": 1794650400000,
+      "keyword": "free",
+      "summary": "Looking for something new to play this weekend? Plenty of fresh free games have popped up since our last roundup, and you can find them all right here."
     }
   ],
   "topics": [
     {
-      "headline": "Nvidia board reportedly prepare to give CEO Jensen Huang the boot, as second alleged affair thrusts him closer to seriously lusty Crusader Kings playthrough territory",
-      "score": 9,
+      "headline": "Green Man Gaming Masterful Remasters Bundle Vol. II: 7 Classic Steam Games from $5",
+      "score": 8,
       "sites": [
-        "pcgamer.com",
-        "rockpapershotgun.com",
-        "eurogamer.net"
+        "gg.deals",
+        "indiegamebundles.com"
       ],
-      "keywords": [],
+      "keywords": [
+        "bundle"
+      ],
       "games": [],
       "items": [
         {
-          "source": "PC Gamer",
-          "title": "Ex-Nvidia CEO Jensen Huang allegedly had an 'intimate relationship' with a second Nvidia employee, according to reports",
-          "link": "https://www.pcgamer.com/hardware/ex-nvidia-ceo-jensen-huang-allegedly-had-an-intimate-relationship-with-a-second-nvidia-employee-according-to-reports/",
-          "published": "2026-11-13T11:33:19.000Z"
+          "source": "gg.deals News",
+          "title": "Green Man Gaming's Masterful Remasters Bundle Volume II offers tiers from $5",
+          "link": "https://gg.deals/bundle/green-man-gaming-masterful-remasters-bundle-volume-ii-cheap-steam-keys/",
+          "published": "2026-11-13T16:33:00.000Z"
         },
         {
-          "source": "PC Gamer",
-          "title": "Nvidia CEO Jensen Huang allegedly had a second affair with another Nvidia exec",
-          "link": "https://www.pcgamer.com/software/ai/nvidia-ceo-jensen-huang-allegedly-had-a-second-affair-with-another-nvidia-exec/",
-          "published": "2026-11-11T23:25:39.000Z"
-        },
-        {
-          "source": "Rock Paper Shotgun",
-          "title": "Nvidia board reportedly prepare to give CEO Jensen Huang the boot, as second alleged affair thrusts him closer to seriously lusty Crusader Kings playthrough territory",
-          "link": "https://www.rockpapershotgun.com/nvidia-board-reportedly-prepare-to-give-ceo-jensen-huang-the-boot-as-second-alleged-affair-thrusts-him-closer-to-seriously-lusty-crusader-kings-playthrough-territory",
-          "published": "2026-11-12T12:38:40.000Z"
-        },
-        {
-          "source": "Eurogamer",
-          "title": "Nvidia board considering ousting CEO Jensen Huang, report claims, as news of a second affair comes to light",
-          "link": "https://www.eurogamer.net/nvidia-ceo-jensen-huang-affair-share-price",
-          "published": "2026-11-12T11:37:30.000Z"
+          "source": "Indie Game Bundles",
+          "title": "Green Man Gaming Masterful Remasters Bundle Vol. II: 7 Classic Steam Games from $5",
+          "link": "https://www.indiegamebundles.com/green-man-gaming-masterful-remasters-bundle-vol-ii-7-classic-steam-games-from-5/",
+          "published": "2026-11-13T19:21:06.000Z"
         }
       ]
     },
     {
-      "headline": "The Legend of California (Playtest) Steam Key Giveaway",
-      "score": 8,
+      "headline": "Humble Seriously Unserious Bundle: 13 Steam Games for Just $10",
+      "score": 7,
       "sites": [
-        "gamerpower.com",
-        "gg.deals"
+        "indiegamebundles.com"
       ],
       "keywords": [
-        "free"
+        "bundle",
+        "humble"
       ],
       "games": [],
       "items": [
         {
-          "source": "GamerPower (PC)",
-          "title": "The Legend of California (Playtest) Steam Key Giveaway",
-          "link": "https://www.gamerpower.com/the-legend-of-california-playtest-steam-key-giveaway",
-          "published": "2026-11-12T18:59:00.000Z"
-        },
+          "source": "Indie Game Bundles",
+          "title": "Humble Seriously Unserious Bundle: 13 Steam Games for Just $10",
+          "link": "https://www.indiegamebundles.com/humble-seriously-unserious-bundle-13-steam-games-for-just-10/",
+          "published": "2026-11-14T15:29:25.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Loaded's Black Friday Sale gets you 3 games for the price of 2 (on already discounted titles!)",
+      "score": 7,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "sale",
+        "price"
+      ],
+      "games": [],
+      "items": [
         {
-          "source": "gg.deals Freebies",
-          "title": "A FREE The Legend of California Steam playtest moseys into town tomorrow: here's how to get access!",
-          "link": "https://gg.deals/freebie/how-to-access-the-legend-of-california-steam-playtest-alpha-5/",
-          "published": "2026-11-11T19:01:00.000Z"
+          "source": "gg.deals News",
+          "title": "Loaded's Black Friday Sale gets you 3 games for the price of 2 (on already discounted titles!)",
+          "link": "https://gg.deals/deal/loadeds-black-friday-sale-gets-you-3-games-for-the-price-of-2-on-already-discounted-titles/",
+          "published": "2026-11-14T02:34:00.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Humble's Generation Zero: Complete Bundle 2026 gets you the full stealth-action shooter experience for $12",
+      "score": 7,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "bundle",
+        "humble"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Humble's Generation Zero: Complete Bundle 2026 gets you the full stealth-action shooter experience for $12",
+          "link": "https://gg.deals/bundle/humbles-generation-zero-complete-bundle-2026-gets-you-the-full-stealth-action-shooter-experience-for-12/",
+          "published": "2026-11-13T19:46:52.000Z"
         }
       ]
     },
@@ -440,46 +426,6 @@
           "published": "2026-11-13T17:40:21.000Z"
         }
       ]
-    },
-    {
-      "headline": "Nintendo announces its 2026 Black Friday offers, with free games and $20 discounts",
-      "score": 7,
-      "sites": [
-        "gamesradar.com"
-      ],
-      "keywords": [
-        "discounts",
-        "free"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "GamesRadar deals",
-          "title": "Nintendo announces its 2026 Black Friday offers, with free games and $20 discounts",
-          "link": "https://www.gamesradar.com/hardware/nintendo-announces-its-2026-black-friday-offers-with-a-free-game-and-usd20-discounts/",
-          "published": "2026-11-12T16:55:51.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Ubisoft's Black Friday Sale returns with a bang, offering huge discounts on major titles!",
-      "score": 7,
-      "sites": [
-        "gg.deals"
-      ],
-      "keywords": [
-        "sale",
-        "discounts"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "Ubisoft's Black Friday Sale returns with a bang, offering huge discounts on major titles!",
-          "link": "https://gg.deals/deal/ubisoft-black-friday-sale-deals-2026/",
-          "published": "2026-11-12T13:21:00.000Z"
-        }
-      ]
     }
   ],
   "left": {
@@ -500,25 +446,25 @@
   },
   "posts": {
     "x": {
-      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Nov 13. Sale ends Nov 16. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-13\n\n#PCGaming #SimCity4DeluxeEdition\nAd",
-      "length": 186,
+      "text": "Metro Exodus: -90% at GOG\n$2.99 (was $29.99)\nPrice checked Nov 14. Sale ends Nov 16. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/metro-exodus/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-14\n\n#PCGaming #GameDeals\nAd",
+      "length": 162,
       "max": 270,
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-13",
-      "deal": "gog-simcity-4-deluxe-edition"
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-14",
+      "deal": "gog-metro-exodus"
     },
     "bluesky": {
-      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Nov 13. Sale ends Nov 16. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-13\n\n#PCGaming #GameDeals #VideoGames #DRMFree #Games\nAd",
-      "length": 204,
+      "text": "Metro Exodus: -90% at GOG\n$2.99 (was $29.99)\nPrice checked Nov 14. Sale ends Nov 16. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-14\n\n#PCGaming #GameDeals #PCGames #GOG #Gaming\nAd",
+      "length": 186,
       "max": 300,
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-13",
-      "deal": "gog-simcity-4-deluxe-edition"
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-14",
+      "deal": "gog-metro-exodus"
     },
     "mastodon": {
-      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nYou save $15.00\nDRM-free\nPrice checked Nov 13. Sale ends Nov 16. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-11-13\n\n#GameDeals #PCGaming #GOG #DRMFree #Gaming\nAd",
-      "length": 221,
+      "text": "Metro Exodus: -90% at GOG\n$2.99 (was $29.99)\nYou save $27.00\nDRM-free\nPrice checked Nov 14. Sale ends Nov 16. Lowest price we've tracked.\nWhy today: sale ends in 39 h; deepest-discount rank 1 of 5.\n\nhttps://saveandplay.com/deals/gog/metro-exodus/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-11-14\n\n#GameDeals #PCGaming #GOG #DRMFree #VideoGames\nAd",
+      "length": 273,
       "max": 500,
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-11-13",
-      "deal": "gog-simcity-4-deluxe-edition"
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-11-14",
+      "deal": "gog-metro-exodus"
     }
   }
 }

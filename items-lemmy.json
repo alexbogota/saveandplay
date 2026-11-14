@@ -1,9 +1,298 @@
 {
  "account": "Honest prices",
- "generatedAt": "2026-11-13T18:25:11.736Z",
+ "generatedAt": "2026-11-14T16:51:31.599Z",
  "windowHours": 48,
- "count": 135,
+ "count": 106,
  "items": [
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "I summoned 1 blood demon, stitched 2 of my disciples together, and seduced 3 snails in this excellent cult simulator in the spirit of Dwarf Fortress",
+   "link": "https://www.pcgamer.com/games/sim/i-summoned-1-blood-demon-stitched-2-of-my-disciples-together-and-seduced-3-snails-in-this-excellent-cult-simulator-in-the-spirit-of-dwarf-fortress/",
+   "published": "2026-11-14T16:00:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Indie Game Bundles",
+   "domain": "indiegamebundles.com",
+   "title": "Humble Seriously Unserious Bundle: 13 Steam Games for Just $10",
+   "link": "https://www.indiegamebundles.com/humble-seriously-unserious-bundle-13-steam-games-for-just-10/",
+   "published": "2026-11-14T15:29:25.000Z",
+   "status": "topic",
+   "topic": 2,
+   "score": 7
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Dishonored 2 director Harvey Smith wants to honour sacred imsim texts while finding news ways to surprise fans: \"That's the two wolves inside me\"",
+   "link": "https://www.pcgamer.com/games/sim/dishonored-2-director-harvey-smith-wants-to-honour-sacred-imsim-texts-while-finding-news-ways-to-surprise-fans-thats-the-two-wolves-inside-me/",
+   "published": "2026-11-14T15:00:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Halo: Campaign Evolved is getting Firefight as a free update, though I'm not sure it'll do much to change the remake's fortunes",
+   "link": "https://www.pcgamer.com/games/halo/halo-campaign-evolved-is-getting-firefight-as-a-free-update-though-im-not-sure-itll-do-much-to-change-the-remakes-fortunes/",
+   "published": "2026-11-14T14:49:43.000Z",
+   "status": "topic-below-cut",
+   "score": 5
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Formula 1 just found a bizarre financial supporter in horse girl gacha Umamusume: Pretty Derby",
+   "link": "https://www.pcgamer.com/games/sports/formula-1-just-found-a-bizarre-financial-supporter-in-horse-girl-gacha-umamusume-pretty-derby/",
+   "published": "2026-11-14T14:00:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "40% of game developers use generative AI according to a new report, but more than half reckon the technology has a negative impact on the games industry",
+   "link": "https://www.pcgamer.com/software/ai/40-percent-of-game-developers-use-generative-ai-according-to-a-new-report-but-more-than-half-reckon-the-technology-has-a-negative-impact-on-the-games-industry/",
+   "published": "2026-11-14T12:53:03.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Ubisoft is reportedly making a new Rainbow Six Vegas game, nearly two decades after Vegas 2",
+   "link": "https://www.eurogamer.net/rainbow-six-vegas-new-game-ubisoft-spades-report",
+   "published": "2026-11-14T12:19:50.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Green Man Gaming blog",
+   "domain": "greenmangaming.com",
+   "title": "Everything You Need To Know About Warhammer 40K: Dawn of War 4",
+   "link": "https://www.greenmangaming.com/blog/everything-you-need-to-know-about-warhammer-40k-dawn-of-war-4/",
+   "published": "2026-11-14T12:00:38.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Indiana Jones and the Great Circle once had a Grand Theft Auto inspired wanted system, because MachineGames was 'afraid' players would kill all the Nazis 'with just guns'",
+   "link": "https://www.pcgamer.com/games/action/indiana-jones-and-the-great-circle-once-had-a-grand-theft-auto-inspired-wanted-system-because-machinegames-was-afraid-players-would-kill-all-the-nazis-with-just-guns/",
+   "published": "2026-11-14T11:26:04.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Call of Duty Endowment marks Remembrance Day with veterans' Valor Pack push",
+   "link": "https://www.eurogamer.net/call-of-duty-endowment-valor-pack-remembrance-day-veterans",
+   "published": "2026-11-14T11:15:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Magic: The Gathering animated series Planeswalker is coming to Netflix in 2027",
+   "link": "https://www.eurogamer.net/magic-the-gathering-planeswalker-netflix-animated-series-2027",
+   "published": "2026-11-14T10:39:50.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals Freebies",
+   "domain": "gg.deals",
+   "title": "New FREE games this weekend (November 14-15, 2026): your comprehensive roundup",
+   "link": "https://gg.deals/freebie/new-free-games-this-weekend-november-14-15-2026-your-comprehensive-roundup/",
+   "published": "2026-11-14T10:00:00.000Z",
+   "status": "topic-below-cut",
+   "storyHeadline": "New FREE games this weekend (November 14-15, 2026): your comprehensive roundup",
+   "score": 5
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "New FREE games this weekend (November 14-15, 2026): your comprehensive roundup",
+   "link": "https://gg.deals/freebie/new-free-games-this-weekend-november-14-15-2026-your-comprehensive-roundup/",
+   "published": "2026-11-14T10:00:00.000Z",
+   "status": "topic-below-cut",
+   "storyHeadline": "New FREE games this weekend (November 14-15, 2026): your comprehensive roundup",
+   "score": 5
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Vice City was the GTA that established Rockstar's killer formula - and 24 years on, it's still one of the best games ever made",
+   "link": "https://www.eurogamer.net/gta-vice-city-retrospective",
+   "published": "2026-11-14T10:00:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "What are we all playing this weekend?",
+   "link": "https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-408",
+   "published": "2026-11-14T08:00:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "What we've been playing - \"Whether he means to or not, he serves sass all over town\"",
+   "link": "https://www.eurogamer.net/what-weve-been-playing-sass-all-over-town-link-ocarina",
+   "published": "2026-11-14T08:00:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Loaded's Black Friday Sale gets you 3 games for the price of 2 (on already discounted titles!)",
+   "link": "https://gg.deals/deal/loadeds-black-friday-sale-gets-you-3-games-for-the-price-of-2-on-already-discounted-titles/",
+   "published": "2026-11-14T02:34:00.000Z",
+   "status": "topic",
+   "topic": 3,
+   "score": 7
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Yes, some brave games are still launching on Steam during GTA 6 week",
+   "link": "https://www.pcgamer.com/games/yes-some-brave-games-are-still-launching-on-steam-during-gta-6-launch-week/",
+   "published": "2026-11-13T22:28:10.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Don't like AI in games? Crimson Desert studio Pearl Abyss ain't care: it's expanding AI use 'throughout our entire development pipeline'",
+   "link": "https://www.pcgamer.com/software/ai/dont-like-ai-in-games-crimson-desert-studio-pearl-abyss-aint-care-its-expanding-ai-use-throughout-our-entire-development-pipeline/",
+   "published": "2026-11-13T22:17:06.000Z",
+   "status": "topic-below-cut",
+   "storyHeadline": "Don't like AI in games? Crimson Desert studio Pearl Abyss ain't care: it's expanding AI use 'throughout our entire development pipeline'",
+   "score": 6
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "The Blood of Dawnwalker is getting a New Game Plus mode in next week's update",
+   "link": "https://www.eurogamer.net/blood-of-dawnwalker-new-game-plus",
+   "published": "2026-11-13T20:49:20.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "A survival game we once called 'Stalker and Tarkov's alien baby' is closing down less than a year after launch",
+   "link": "https://www.pcgamer.com/games/fps/a-survival-game-we-once-called-stalker-and-tarkovs-alien-baby-is-closing-down-less-than-a-year-after-launch/",
+   "published": "2026-11-13T20:37:35.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Microsoft ‘deeply’ apologizes for global service outage, says no AI or hackers are to blame",
+   "link": "https://www.pcgamer.com/software/microsoft-deeply-apologizes-for-global-service-outage-says-no-ai-or-hackers-are-to-blame/",
+   "published": "2026-11-13T19:54:20.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Interest in The Legend of Zelda was \"getting smaller and smaller\" before Breath of the Wild, according to former Nintendo marketing leads",
+   "link": "https://www.eurogamer.net/legend-of-zelda-smaller-before-breath-of-the-wild",
+   "published": "2026-11-13T19:52:50.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Humble's Generation Zero: Complete Bundle 2026 gets you the full stealth-action shooter experience for $12",
+   "link": "https://gg.deals/bundle/humbles-generation-zero-complete-bundle-2026-gets-you-the-full-stealth-action-shooter-experience-for-12/",
+   "published": "2026-11-13T19:46:52.000Z",
+   "status": "topic",
+   "topic": 4,
+   "score": 7
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "New Grand Theft Auto 6 trailer is for a TV show that exists within Grand Theft Auto 6",
+   "link": "https://www.pcgamer.com/games/grand-theft-auto/new-grand-theft-auto-6-trailer-is-for-a-tv-show-that-exists-within-grand-theft-auto-6/",
+   "published": "2026-11-13T19:30:31.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Indie Game Bundles",
+   "domain": "indiegamebundles.com",
+   "title": "Green Man Gaming Masterful Remasters Bundle Vol. II: 7 Classic Steam Games from $5",
+   "link": "https://www.indiegamebundles.com/green-man-gaming-masterful-remasters-bundle-vol-ii-7-classic-steam-games-from-5/",
+   "published": "2026-11-13T19:21:06.000Z",
+   "status": "topic",
+   "topic": 1,
+   "storyHeadline": "Green Man Gaming Masterful Remasters Bundle Vol. II: 7 Classic Steam Games from $5",
+   "score": 8
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Steam’s Who Releases in November Sale shines a spotlight on GTA 6’s brave competitors",
+   "link": "https://gg.deals/deal/steams-who-releases-in-november-sale-shines-a-spotlight-on-gta-6s-brave-competitors/",
+   "published": "2026-11-13T18:47:33.000Z",
+   "status": "topic-below-cut",
+   "score": 5
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Think you know videogame cats? Then name 17 of them",
+   "link": "https://www.pcgamer.com/games/think-you-know-videogame-cats-then-name-17-of-them/",
+   "published": "2026-11-13T18:43:11.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Crimson Desert studio is implementing AI \"throughout our entire development pipeline,\" and expects DokeV to launch in 2028",
+   "link": "https://www.eurogamer.net/crimson-desert-ai-pipeline-dokev-2028",
+   "published": "2026-11-13T18:29:00.000Z",
+   "status": "topic-below-cut",
+   "storyHeadline": "Don't like AI in games? Crimson Desert studio Pearl Abyss ain't care: it's expanding AI use 'throughout our entire development pipeline'",
+   "score": 6
+  },
   {
    "source": "gg.deals News",
    "domain": "gg.deals",
@@ -31,7 +320,7 @@
    "link": "https://www.gamesradar.com/hardware/gaming-controllers/best-buy-launches-its-black-friday-doorbuster-sale-but-this-is-the-only-deal-wed-recommend-the-weekend-before-gta-6/",
    "published": "2026-11-13T17:40:21.000Z",
    "status": "topic",
-   "topic": 3,
+   "topic": 5,
    "score": 7
   },
   {
@@ -129,8 +418,10 @@
    "title": "Green Man Gaming's Masterful Remasters Bundle Volume II offers tiers from $5",
    "link": "https://gg.deals/bundle/green-man-gaming-masterful-remasters-bundle-volume-ii-cheap-steam-keys/",
    "published": "2026-11-13T16:33:00.000Z",
-   "status": "topic-below-cut",
-   "score": 5
+   "status": "topic",
+   "topic": 1,
+   "storyHeadline": "Green Man Gaming Masterful Remasters Bundle Vol. II: 7 Classic Steam Games from $5",
+   "score": 8
   },
   {
    "source": "PC Gamer",
@@ -346,10 +637,9 @@
    "title": "Ex-Nvidia CEO Jensen Huang allegedly had an 'intimate relationship' with a second Nvidia employee, according to reports",
    "link": "https://www.pcgamer.com/hardware/ex-nvidia-ceo-jensen-huang-allegedly-had-an-intimate-relationship-with-a-second-nvidia-employee-according-to-reports/",
    "published": "2026-11-13T11:33:19.000Z",
-   "status": "topic",
-   "topic": 1,
-   "storyHeadline": "Nvidia board reportedly prepare to give CEO Jensen Huang the boot, as second alleged affair thrusts him closer to seriously lusty Crusader Kings playthrough territory",
-   "score": 9
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
   },
   {
    "source": "PC Gamer",
@@ -357,9 +647,9 @@
    "title": "'I stand by Jensen': Nvidia employees come out in support of Huang after resignation",
    "link": "https://www.pcgamer.com/hardware/i-stand-by-jensen-nvidia-employees-come-out-in-support-of-huang-after-resignation/",
    "published": "2026-11-13T11:30:35.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "After Jensen Huang's resignation from Nvidia, it's all praise or political finger-wagging about the ex-CEO, with little in between",
-   "score": 6
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
   },
   {
    "source": "gg.deals News",
@@ -563,10 +853,9 @@
    "title": "The Legend of California (Playtest) Steam Key Giveaway",
    "link": "https://www.gamerpower.com/the-legend-of-california-playtest-steam-key-giveaway",
    "published": "2026-11-12T18:59:00.000Z",
-   "status": "topic",
-   "topic": 2,
-   "storyHeadline": "The Legend of California (Playtest) Steam Key Giveaway",
-   "score": 8
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
   },
   {
    "source": "gg.deals News",
@@ -663,9 +952,10 @@
    "title": "After Jensen Huang's resignation from Nvidia, it's all praise or political finger-wagging about the ex-CEO, with little in between",
    "link": "https://www.pcgamer.com/hardware/after-jensen-huangs-resignation-from-nvidia-its-all-praise-or-political-finger-wagging-about-the-ex-ceo-with-little-in-between/",
    "published": "2026-11-12T17:35:37.000Z",
-   "status": "topic-below-cut",
+   "status": "dropped",
    "storyHeadline": "After Jensen Huang's resignation from Nvidia, it's all praise or political finger-wagging about the ex-CEO, with little in between",
-   "score": 6
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
   },
   {
    "source": "PC Gamer",
@@ -673,9 +963,10 @@
    "title": "Nvidia stocks jump back up after ex-CEO Jensen Huang's ousting",
    "link": "https://www.pcgamer.com/hardware/nvidia-stocks-jump-back-up-after-ex-ceo-jensen-huangs-ousting/",
    "published": "2026-11-12T17:34:31.000Z",
-   "status": "topic-below-cut",
+   "status": "dropped",
    "storyHeadline": "After Jensen Huang's resignation from Nvidia, it's all praise or political finger-wagging about the ex-CEO, with little in between",
-   "score": 6
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
   },
   {
    "source": "Eurogamer",
@@ -733,8 +1024,7 @@
    "title": "Nintendo announces its 2026 Black Friday offers, with free games and $20 discounts",
    "link": "https://www.gamesradar.com/hardware/nintendo-announces-its-2026-black-friday-offers-with-a-free-game-and-usd20-discounts/",
    "published": "2026-11-12T16:55:51.000Z",
-   "status": "topic",
-   "topic": 4,
+   "status": "topic-below-cut",
    "score": 7
   },
   {
@@ -765,576 +1055,9 @@
    "title": "Who is Colette Kress, Nvidia's new interim CEO?",
    "link": "https://www.pcgamer.com/hardware/who-is-colette-kress-nvidias-new-interim-ceo/",
    "published": "2026-11-12T16:52:12.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "Jensen Huang resigns, CFO Colette Kress appointed interim CEO at Nvidia",
-   "score": 6
-  },
-  {
-   "source": "gg.deals Freebies",
-   "domain": "gg.deals",
-   "title": "Epic Games Store will hand out Alien: Isolation and one more game for FREE next week",
-   "link": "https://gg.deals/freebie/epic-games-store-will-hand-out-alien-isolation-and-one-more-game-for-free-next-week/",
-   "published": "2026-11-12T16:44:22.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "Epic Games Store will hand out Alien: Isolation and one more game for FREE next week",
-   "score": 5
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Epic Games Store will hand out Alien: Isolation and one more game for FREE next week",
-   "link": "https://gg.deals/freebie/epic-games-store-will-hand-out-alien-isolation-and-one-more-game-for-free-next-week/",
-   "published": "2026-11-12T16:44:22.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "Epic Games Store will hand out Alien: Isolation and one more game for FREE next week",
-   "score": 5
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Trump says the only man who should replace ex-Nvidia CEO Jensen Huang is Tim Cook of Apple fame",
-   "link": "https://www.pcgamer.com/hardware/trump-says-the-only-man-who-should-replace-ex-nvidia-ceo-jensen-huang-is-tim-cook-of-apple-fame/",
-   "published": "2026-11-12T16:35:11.000Z",
    "status": "dropped",
    "score": 3,
    "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "World of Warcraft: Forever players in Australia and New Zealand are struggling to get sunlight, and not for the usual MMO reasons",
-   "link": "https://www.eurogamer.net/world-of-warcraft-forever-oceania-sunlight",
-   "published": "2026-11-12T16:30:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Indie Game Bundles",
-   "domain": "indiegamebundles.com",
-   "title": "Knightica is free on Epic Games Store — build an army and let the synergies do the fighting",
-   "link": "https://www.indiegamebundles.com/knightica-is-free-on-epic-games-store/",
-   "published": "2026-11-12T16:19:36.000Z",
-   "status": "topic-below-cut",
-   "score": 5
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "As low-effort AI slop continues to flood Steam, yet more developers announce game delays caused by Valve's growing approval backlog",
-   "link": "https://www.eurogamer.net/steam-game-submission-review-backlog-ai-slop-approval-delays",
-   "published": "2026-11-12T16:06:20.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals Freebies",
-   "domain": "gg.deals",
-   "title": "Epic Games is giving away a colorful autobattler worth $14.99 for FREE",
-   "link": "https://gg.deals/freebie/epic-games-is-giving-away-a-colorful-autobattler-worth-1499-for-free/",
-   "published": "2026-11-12T16:00:00.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "Epic Games is giving away a colorful autobattler worth $14.99 for FREE",
-   "score": 5
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Epic Games is giving away a colorful autobattler worth $14.99 for FREE",
-   "link": "https://gg.deals/freebie/epic-games-is-giving-away-a-colorful-autobattler-worth-1499-for-free/",
-   "published": "2026-11-12T16:00:00.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "Epic Games is giving away a colorful autobattler worth $14.99 for FREE",
-   "score": 5
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Every nominee for the PC Gaming Show: Most Wanted's top 20 upcoming games",
-   "link": "https://www.pcgamer.com/gaming-industry/events-conferences/every-nominee-for-the-pc-gaming-show-most-wanteds-top-20-upcoming-games/",
-   "published": "2026-11-12T16:00:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Award-winning presenter Frankie Ward returns to bring you this year's PC Gaming Show: Most Wanted",
-   "link": "https://www.pcgamer.com/gaming-industry/events-conferences/award-winning-presenter-frankie-ward-returns-to-bring-you-this-years-pc-gaming-show-most-wanted/",
-   "published": "2026-11-12T16:00:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Fear not, Nvidians, the man who wrote the book on Nvidia says the company's success doesn't rely on Jensen Huang",
-   "link": "https://www.pcgamer.com/hardware/fear-not-nvidians-the-man-who-wrote-the-book-on-nvidia-says-the-companys-success-doesnt-rely-on-jensen-huang/",
-   "published": "2026-11-12T15:58:11.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Jensen Huang leaving Nvidia is not a good thing for PC gaming, and I’ll tell you why",
-   "link": "https://www.pcgamer.com/hardware/graphics-cards/jensen-huang-leaving-nvidia-is-not-a-good-thing-for-pc-gaming-and-ill-tell-you-why/",
-   "published": "2026-11-12T15:57:36.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "How to Train Your Cock AND How to Grow Your Sausage feature in Fanatical's BYO Idler Bundle",
-   "link": "https://gg.deals/bundle/fanaticals-byo-idler-bundle-includes-how-to-train-your-cock-and-how-to-grow-your-sausage/",
-   "published": "2026-11-12T15:50:00.000Z",
-   "status": "topic-below-cut",
-   "score": 5
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Conor McGregor picked up and flipped a Call of Duty dev during the making of Infinite Warfare: 'I wanted him to do something really physical, to demonstrate how capable he is'",
-   "link": "https://www.pcgamer.com/games/call-of-duty/conor-mcgregor-picked-up-and-flipped-a-call-of-duty-dev-during-the-making-of-infinite-warfare-i-wanted-him-to-do-something-really-physical-to-demonstrate-how-capable-he-is/",
-   "published": "2026-11-12T15:43:03.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Fanatical Birthday Mystery Bundle offers up to 25 prizes & a chance to win AAA games or Steam Deck",
-   "link": "https://gg.deals/bundle/fanatical-birthday-mystery-bundle-offers-up-to-25-prizes-a-chance-to-win-aaa-games-or-steam-deck/",
-   "published": "2026-11-12T15:38:00.000Z",
-   "status": "topic-below-cut",
-   "score": 5
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "WoW: Forever's new Riverglades zone feels more like The Burning Crusade+ than Classic+, and you know what, I'm absolutely okay with that",
-   "link": "https://www.pcgamer.com/games/world-of-warcraft/wow-forevers-new-riverglades-zone-feels-more-like-the-burning-crusade-than-classic-and-you-know-what-im-absolutely-okay-with-that/",
-   "published": "2026-11-12T15:36:38.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "How Nvidia got into this mess: timeline of Jensen Huang scandal and geopolitics leading up to it",
-   "link": "https://www.pcgamer.com/hardware/graphics-cards/how-nvidia-got-into-this-mess-timeline-of-jensen-huang-scandal-and-geopolitics-leading-up-to-it/",
-   "published": "2026-11-12T15:31:12.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "The hills are alive with The Sound of Fury, a fantasy musical hack 'n' slash about weaponising pianos to fight the Devil",
-   "link": "https://www.rockpapershotgun.com/the-hills-are-alive-with-the-sound-of-fury-a-fantasy-musical-hack-n-slash-about-weaponising-pianos-to-fight-the-devil",
-   "published": "2026-11-12T15:31:10.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Indie Game Bundles",
-   "domain": "indiegamebundles.com",
-   "title": "Fanatical Build Your Own Idler Bundle: Pick 3 Steam Games for $4.95",
-   "link": "https://www.indiegamebundles.com/fanatical-build-your-own-idler-bundle-pick-3-steam-games-for-4-95/",
-   "published": "2026-11-12T15:12:25.000Z",
-   "status": "topic-below-cut",
-   "score": 5
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "After days of controversy, Nvidia CEO Jensen Huang has resigned",
-   "link": "https://www.eurogamer.net/nvidia-ceo-jensen-huang-resigns",
-   "published": "2026-11-12T15:07:20.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "After Jensen Huang's resignation from Nvidia, it's all praise or political finger-wagging about the ex-CEO, with little in between",
-   "score": 6
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "Nvidia boss Jensen Huang resigns amid scandal surrounding two alleged affairs, interim CEO appointed as search for sexy leather jacket man's successor begins",
-   "link": "https://www.rockpapershotgun.com/nvidia-boss-jensen-huang-resigns-amid-scandal-surrounding-two-alleged-affairs-interim-ceo-appointed-as-search-for-sexy-leather-jacket-mans-successor-begins",
-   "published": "2026-11-12T14:49:00.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "Jensen Huang resigns, CFO Colette Kress appointed interim CEO at Nvidia",
-   "score": 6
-  },
-  {
-   "source": "gg.deals Freebies",
-   "domain": "gg.deals",
-   "title": "The FREE Hellraiser: Revival demo is now available on consoles!",
-   "link": "https://gg.deals/freebie/the-free-hellraiser-revival-demo-is-now-available-on-consoles/",
-   "published": "2026-11-12T14:46:00.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "The FREE Hellraiser: Revival demo is now available on consoles!",
-   "score": 5
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "The FREE Hellraiser: Revival demo is now available on consoles!",
-   "link": "https://gg.deals/freebie/the-free-hellraiser-revival-demo-is-now-available-on-consoles/",
-   "published": "2026-11-12T14:46:00.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "The FREE Hellraiser: Revival demo is now available on consoles!",
-   "score": 5
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Jensen Huang resigns, CFO Colette Kress appointed interim CEO at Nvidia",
-   "link": "https://www.pcgamer.com/hardware/graphics-cards/jensen-huang-resigns-cfo-colette-kress-appointed-interim-ceo-at-nvidia/",
-   "published": "2026-11-12T14:27:44.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "Jensen Huang resigns, CFO Colette Kress appointed interim CEO at Nvidia",
-   "score": 6
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Marvel Rivals draws a line in the sand when it comes to using mods and configs 'to get an unfair combat advantage' but that doesn't help players looking for a stutter fix",
-   "link": "https://www.pcgamer.com/games/third-person-shooter/marvel-rivals-draws-a-line-in-the-sand-when-it-comes-to-using-mods-and-configs-to-get-an-unfair-combat-advantage-but-that-doesnt-help-players-looking-for-a-stutter-fix/",
-   "published": "2026-11-12T14:26:32.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "The Witcher 3 uses gen-AI to enhance Geralt's Polish voice following actor's stroke - \"I do think this is one of those ways where you can use AI ethically\"",
-   "link": "https://www.eurogamer.net/cd-projekt-red-geralt-gen-ai-voice-polish-jacek-rozenek",
-   "published": "2026-11-12T14:26:10.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "The Witcher 3 uses gen-AI to enhance Geralt's Polish voice following actor's stroke - \"I do think this is one of those ways where you can use AI ethically\"",
-   "score": 6
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "After two weeks of multiplayer downtime, Dark Souls 2 & 3's mysterious server \"issue\" has been fixed, so it no longer feels so lonely online",
-   "link": "https://www.eurogamer.net/dark-souls-2-3-servers-back-online",
-   "published": "2026-11-12T14:24:50.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "The resignation of Jensen Huang from Nvidia and everything that has followed",
-   "link": "https://www.pcgamer.com/hardware/live/news/nvidia-jen-hsun-scandal/",
-   "published": "2026-11-12T14:05:27.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "After Jensen Huang's resignation from Nvidia, it's all praise or political finger-wagging about the ex-CEO, with little in between",
-   "score": 6
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Game Pass adds a new over-the-top zombie shooter",
-   "link": "https://gg.deals/subscription-news/game-pass-adds-a-new-over-the-top-zombie-shooter/",
-   "published": "2026-11-12T13:56:36.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "Paradox boss Frederik Wester stepping down after several tumultuous years for the Cities Skylines and Stellaris publisher",
-   "link": "https://www.eurogamer.net/paradox-ceo-frederik-wester-stepping-down",
-   "published": "2026-11-12T13:22:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Ubisoft's Black Friday Sale returns with a bang, offering huge discounts on major titles!",
-   "link": "https://gg.deals/deal/ubisoft-black-friday-sale-deals-2026/",
-   "published": "2026-11-12T13:21:00.000Z",
-   "status": "topic",
-   "topic": 5,
-   "score": 7
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "Will a Grand Theft Auto game ever be set outside of America? Rockstar offers a small glimmer of hope",
-   "link": "https://www.eurogamer.net/grand-theft-auto-gta-non-american-setting-rockstar",
-   "published": "2026-11-12T12:39:20.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "Nvidia board reportedly prepare to give CEO Jensen Huang the boot, as second alleged affair thrusts him closer to seriously lusty Crusader Kings playthrough territory",
-   "link": "https://www.rockpapershotgun.com/nvidia-board-reportedly-prepare-to-give-ceo-jensen-huang-the-boot-as-second-alleged-affair-thrusts-him-closer-to-seriously-lusty-crusader-kings-playthrough-territory",
-   "published": "2026-11-12T12:38:40.000Z",
-   "status": "topic",
-   "topic": 1,
-   "storyHeadline": "Nvidia board reportedly prepare to give CEO Jensen Huang the boot, as second alleged affair thrusts him closer to seriously lusty Crusader Kings playthrough territory",
-   "score": 9
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Humble Bundle's new redesign inexplicably removes 2-factor authentication, dramatically weakening account security",
-   "link": "https://www.pcgamer.com/software/platforms/humble-bundles-new-redesign-inexplicably-removes-2-factor-authentication-dramatically-weakening-account-security/",
-   "published": "2026-11-12T12:29:45.000Z",
-   "status": "topic-below-cut",
-   "score": 7
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "If Jensen Huang goes, who could replace him? Here’s who the board might pick if the Nvidia CEO is ousted in the wake of affair scandals",
-   "link": "https://www.pcgamer.com/hardware/if-jensen-huang-goes-who-could-replace-him-heres-who-the-board-might-pick-if-the-nvidia-ceo-is-ousted-in-the-wake-of-affair-scandals/",
-   "published": "2026-11-12T12:18:35.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals Freebies",
-   "domain": "gg.deals",
-   "title": "Open-world Western survival title Westlanders has a FREE Steam playtest for you to join today!",
-   "link": "https://gg.deals/freebie/open-world-western-survival-title-westlanders-has-a-free-steam-playtest-for-you-to-join-today/",
-   "published": "2026-11-12T12:18:00.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "Open-world Western survival title Westlanders has a FREE Steam playtest for you to join today!",
-   "score": 5
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Open-world Western survival title Westlanders has a FREE Steam playtest for you to join today!",
-   "link": "https://gg.deals/freebie/open-world-western-survival-title-westlanders-has-a-free-steam-playtest-for-you-to-join-today/",
-   "published": "2026-11-12T12:18:00.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "Open-world Western survival title Westlanders has a FREE Steam playtest for you to join today!",
-   "score": 5
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "Amid soaring PC hardware prices, gaming monitors are getting cheaper and cheaper. Here's why, and what to buy",
-   "link": "https://www.rockpapershotgun.com/amid-soaring-pc-hardware-prices-gaming-monitors-are-getting-cheaper-and-cheaper-heres-why-and-what-to-buy",
-   "published": "2026-11-12T12:00:00.000Z",
-   "status": "topic-below-cut",
-   "score": 5
-  },
-  {
-   "source": "GamesRadar deals",
-   "domain": "gamesradar.com",
-   "title": "This is your best chance of getting good deals on Pokemon cards and NeeDoh, but you don’t have long",
-   "link": "https://www.gamesradar.com/tabletop-gaming/this-is-your-best-chance-of-getting-good-deals-on-pokemon-cards-and-needoh-but-you-dont-have-long/",
-   "published": "2026-11-12T11:49:34.000Z",
-   "status": "topic-below-cut",
-   "score": 5
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Nvidia stock price plunges amid second Jensen Huang affair allegation — the AI company could be set to lose hundreds of billions in value",
-   "link": "https://www.pcgamer.com/hardware/nvidia-stock-price-plunges-amid-second-jensen-huang-affair-allegation-the-ai-company-could-be-set-to-lose-hundreds-of-billions-in-value/",
-   "published": "2026-11-12T11:46:58.000Z",
-   "status": "topic-below-cut",
-   "score": 5
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "Nvidia board considering ousting CEO Jensen Huang, report claims, as news of a second affair comes to light",
-   "link": "https://www.eurogamer.net/nvidia-ceo-jensen-huang-affair-share-price",
-   "published": "2026-11-12T11:37:30.000Z",
-   "status": "topic",
-   "topic": 1,
-   "storyHeadline": "Nvidia board reportedly prepare to give CEO Jensen Huang the boot, as second alleged affair thrusts him closer to seriously lusty Crusader Kings playthrough territory",
-   "score": 9
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "Amy Hennig's Marvel 1943: Rise of Hydra hasn't been cancelled, Skydance reportedly says, as rumours swirl to the contrary",
-   "link": "https://www.eurogamer.net/marvel-1943-rise-of-hydra-not-cancelled-skydance-says",
-   "published": "2026-11-12T11:13:20.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "'This would be an Apple firing Steve Jobs level of idiocy' says Tim Sweeney at the idea of ousting Jensen Huang - while Elon Musk says 'it would be an honor' to hire the Nvidia chief",
-   "link": "https://www.pcgamer.com/hardware/this-would-be-an-apple-firing-steve-jobs-level-of-idiocy-says-tim-sweeney-at-the-idea-of-ousting-jensen-huang-while-elon-musk-says-it-would-be-an-honor-to-hire-the-nvidia-chief/",
-   "published": "2026-11-12T10:47:58.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "\"One of those ways where you can use AI ethically\": CDPR have modified Geralt's Polish voice in The Witcher 3: Songs of the Past with genAI, due to actor's stroke",
-   "link": "https://www.rockpapershotgun.com/one-of-those-ways-where-you-can-use-ai-ethically-cdpr-have-modified-geralts-polish-voice-in-the-witcher-3-songs-of-the-past-with-genai-due-to-actors-stroke",
-   "published": "2026-11-12T10:40:10.000Z",
-   "status": "topic-below-cut",
-   "storyHeadline": "The Witcher 3 uses gen-AI to enhance Geralt's Polish voice following actor's stroke - \"I do think this is one of those ways where you can use AI ethically\"",
-   "score": 6
-  },
-  {
-   "source": "gg.deals Freebies",
-   "domain": "gg.deals",
-   "title": "Ending soon! Epic Games is giving away Flotsam for FREE, plus an Idle Champions pack worth over $100! (updated)",
-   "link": "https://gg.deals/freebie/epic-games-store-is-giving-away-flotsam-for-free-plus-an-idle-champions-pack-worth-over-100/",
-   "published": "2026-11-12T08:29:00.000Z",
-   "status": "topic-below-cut",
-   "score": 5
-  },
-  {
-   "source": "GOG front page",
-   "domain": "gog.com",
-   "title": "Release: DERELIKT",
-   "link": "http://www.gog.com/news/release_derelikt",
-   "published": "2026-11-12T03:12:18.000Z",
-   "status": "store-own-news"
-  },
-  {
-   "source": "GOG front page",
-   "domain": "gog.com",
-   "title": "Watch the newest Tech Talk about Wing Commander: Prophecy!",
-   "link": "http://www.gog.com/news/watch_the_newest_tech_talk_about_wing_commander_prophecy",
-   "published": "2026-11-12T02:19:33.000Z",
-   "status": "store-own-news"
-  },
-  {
-   "source": "GOG front page",
-   "domain": "gog.com",
-   "title": "Out of Early Access: 9 Kings",
-   "link": "http://www.gog.com/news/out_of_early_access_9_kings",
-   "published": "2026-11-12T01:58:38.000Z",
-   "status": "store-own-news"
-  },
-  {
-   "source": "GOG front page",
-   "domain": "gog.com",
-   "title": "Release: Nocturne",
-   "link": "http://www.gog.com/news/release_nocturne",
-   "published": "2026-11-12T01:38:02.000Z",
-   "status": "store-own-news"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "CD Projekt used AI to modify the voice of Geralt's Polish actor after a stroke left it significantly changed: 'This was a special case'",
-   "link": "https://www.pcgamer.com/games/the-witcher/cd-projekt-used-ai-to-modify-the-voice-of-geralts-polish-actor-after-a-stroke-left-it-significantly-changed-this-was-a-special-case/",
-   "published": "2026-11-12T00:02:47.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "After cracking down on 'cheat' mods in Helldivers 2 and taking another Steam review beating, Arrowhead plans hotfix that should allow harmless cosmetics",
-   "link": "https://www.pcgamer.com/games/third-person-shooter/after-cracking-down-on-cheat-mods-in-helldivers-2-and-taking-another-steam-review-beating-arrowhead-plans-hotfix-that-should-allow-harmless-cosmetics/",
-   "published": "2026-11-11T23:29:59.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Nvidia CEO Jensen Huang allegedly had a second affair with another Nvidia exec",
-   "link": "https://www.pcgamer.com/software/ai/nvidia-ceo-jensen-huang-allegedly-had-a-second-affair-with-another-nvidia-exec/",
-   "published": "2026-11-11T23:25:39.000Z",
-   "status": "topic",
-   "topic": 1,
-   "storyHeadline": "Nvidia board reportedly prepare to give CEO Jensen Huang the boot, as second alleged affair thrusts him closer to seriously lusty Crusader Kings playthrough territory",
-   "score": 9
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Giana Sisters developer Black Forest Games buys itself out of Embracer: 'Some of the best games of the last decade came from teams of fifty, not five hundred'",
-   "link": "https://www.pcgamer.com/gaming-industry/giana-sisters-developer-black-forest-games-buys-itself-out-of-embracer-some-of-the-best-games-of-the-last-decade-came-from-teams-of-fifty-not-five-hundred/",
-   "published": "2026-11-11T22:57:44.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "This solo dev is building 'the most violent cozy farming game ever made' and lumberjacking has never looked cooler",
-   "link": "https://www.pcgamer.com/games/rpg/this-solo-dev-is-building-the-most-violent-cozy-farming-game-ever-made-and-lumberjacking-has-never-looked-cooler/",
-   "published": "2026-11-11T22:38:37.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Crimson Desert wins 'PC Game of the Year' at the 2026 Golden Joystick Awards",
-   "link": "https://www.pcgamer.com/games/crimson-desert-wins-pc-game-of-the-year-at-the-2026-golden-joystick-awards/",
-   "published": "2026-11-11T21:31:30.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "Destroy All Humans remake developer goes independent, splits from THQ Nordic and parent company Embracer Group",
-   "link": "https://www.eurogamer.net/destroy-all-humans-independent-thq-embracer",
-   "published": "2026-11-11T20:37:20.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "Don't expect more information on The Elder Scrolls 6: Sentinel \"for some time,\" Bethesda says",
-   "link": "https://www.eurogamer.net/dont-expect-elder-scrolls-6-sentinel-for-some-time-bethesda",
-   "published": "2026-11-11T19:36:50.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals Freebies",
-   "domain": "gg.deals",
-   "title": "A FREE The Legend of California Steam playtest moseys into town tomorrow: here's how to get access!",
-   "link": "https://gg.deals/freebie/how-to-access-the-legend-of-california-steam-playtest-alpha-5/",
-   "published": "2026-11-11T19:01:00.000Z",
-   "status": "topic",
-   "topic": 2,
-   "storyHeadline": "The Legend of California (Playtest) Steam Key Giveaway",
-   "score": 8
   }
  ]
 }
