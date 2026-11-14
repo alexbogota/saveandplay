@@ -8,43 +8,43 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 688,
-      "posts": 29000,
-      "fit": 324,
+      "runs": 696,
+      "posts": 29320,
+      "fit": 326,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-14T06:15:23.113Z"
+        "at": "2026-11-14T13:31:03.354Z"
       }
     },
     "moreAsk": {
-      "runs": 430,
-      "posts": 3870,
+      "runs": 435,
+      "posts": 3915,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-11-14T06:15:23.113Z"
+        "at": "2026-11-14T13:31:03.354Z"
       }
     },
     "moreRetro": {
-      "runs": 430,
-      "posts": 26400,
-      "fit": 902,
+      "runs": 435,
+      "posts": 26720,
+      "fit": 914,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-14T06:15:23.113Z"
+        "at": "2026-11-14T13:31:03.354Z"
       }
     },
     "morePlaying": {
-      "runs": 430,
-      "posts": 1806,
+      "runs": 435,
+      "posts": 1827,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-11-14T06:15:23.113Z"
+        "at": "2026-11-14T13:31:03.354Z"
       }
     }
   },
@@ -240,7 +240,7 @@
       "name": "argv[-1]",
       "text": "#BrutalDoom has an interestingly realistic quirk. The invisibility power-up makes some weapons (like the rifle) harder to aim, because you're invisible and therefore can't see your iron sights! #Doom #retrogaming",
       "createdAt": "2026-11-14T04:02:24.000Z",
-      "likes": 0,
+      "likes": 1,
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
@@ -296,7 +296,7 @@
       "text": "Game intros used to be pretty cool, setting the mood with extra nice graphics and sound (sometimes even speech!) than the rest of the game. What were your favorite game intros, the ones that you would almost always watch? #retrogaming",
       "createdAt": "2026-11-13T20:02:38.000Z",
       "likes": 1,
-      "replies": 11,
+      "replies": 13,
       "group": "moreRetro",
       "query": "retrogaming",
       "score": 7,
@@ -333,11 +333,11 @@
       "name": "Jakob Fel",
       "text": "\"Since the English are infamous for having no taste where food is concerned, you shouldn't have too much of a problem conquering the city with your tasty pizzas.\" That is a real quote from Pizza Connection 2, a German managerial sim from 2001. It doesn't surprise me that German devs from the early 2000s didn't pull any punches :knuckleslol: #RetroGames #simulation #Poland #gog #pcgaming #PCMR",
       "createdAt": "2026-11-14T02:37:16.000Z",
-      "likes": 2,
+      "likes": 3,
       "replies": 1,
       "group": "moreRetro",
       "query": "retrogames",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -352,7 +352,7 @@
       "name": "Jakob Fel",
       "text": "These days, GOG has an \"additional contribution\" option when purchasing anything. Today, I tried something new: I've decided that, going forward, I'll be rounding up all of my orders to the nearest whole dollar. I'm not buying much these days (for various reasons) but rounding up contributes a few cents each time. That's not a huge contribution but if we all started doing that to our orders, that still helps to support GOG's game preservation efforts over time. #gog #drmfree #RetroGames",
       "createdAt": "2026-11-14T02:22:59.000Z",
-      "likes": 0,
+      "likes": 3,
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogames",
@@ -363,6 +363,25 @@
       "origin": "https://retro-gaiden.com/@JakobFel/117612411552546807",
       "media": "image, no description",
       "firstSeen": "2026-11-14T06:15:23.113Z"
+    },
+    "https://mastodon.social/@retrowelle@social.cologne/117613926115447729": {
+      "uri": "https://mastodon.social/@retrowelle@social.cologne/117613926115447729",
+      "url": "https://mastodon.social/@retrowelle@social.cologne/117613926115447729",
+      "handle": "retrowelle@social.cologne",
+      "name": "Retrowelle",
+      "text": "Another physics-based release for my Commodore 64 has arrived. 'Joan of Arc - Deus Contra Machinam' by GriffonSoft. As usual, a top-notch game with great puzzles, graphics, and sound. From the creators of Sherwood & Musketeer. #commodore64 #psytronik #c64 #retrogaming #retrogames #retrocomputing #retrogaming #8bit #c64",
+      "createdAt": "2026-11-14T08:48:06.000Z",
+      "likes": 6,
+      "replies": 1,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://social.cologne/@retrowelle/117613925914590702",
+      "media": "3 images: Commodore 64 Spiel inkl. Box des Spiel \"Joan of Arc\" von GriffonSoft. Mit vielen Gimmiks wie Schlüsselanhänger, Pin, Soundtrack auf CD und Aufklebern. / Commodore 64 Spiel inkl. Box des Spiel \"Joan of Arc\" von GriffonSoft. Mit vielen Gimmiks wie Schlüsselanhänger, Pin, Soundtrack auf CD und Aufklebern. / Commodore 64 Spiel inkl. Box des Spiel \"Joan of Arc\" von GriffonSoft. Mit vielen Gimmiks wie Schlüsselanhänger, Pin, Soundtrack auf CD und Aufklebern.",
+      "firstSeen": "2026-11-14T13:31:03.354Z"
     }
   }
 }
