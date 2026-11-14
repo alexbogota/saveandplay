@@ -1,0 +1,71 @@
+{
+  "madeAt": "2026-11-14T19:55:28.282Z",
+  "run": "43634681845",
+  "private": false,
+  "entries": [
+    {
+      "block": "prices",
+      "handle": "saveandplay.com",
+      "n": 1,
+      "uri": "at://did:plc:sd32qqbyubnq4q5t3zkjdho3/app.bsky.feed.post/3n27lktpylk2k",
+      "url": "https://bsky.app/profile/eternitysdarling.bsky.social/post/3n27lktpylk2k",
+      "author": "eternitysdarling.bsky.social",
+      "text": "Wishlist notifications are great for exactly this. A dollar is a hard price to argue with, and happy early birthday!",
+      "approvedFile": "comments-approved-prices-20261114-194104-20261114-195508.json",
+      "approvedAt": "2026-11-14T19:55:08.562Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-14T19:55:30.986Z",
+      "replyUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n2cbqp4mdc22",
+      "replyUrl": "https://bsky.app/profile/saveandplay.com/post/3n2cbqp4mdc22"
+    },
+    {
+      "block": "cozy",
+      "handle": "cozygame.bsky.social",
+      "n": 1,
+      "uri": "at://did:plc:x3ro2bodfw5ch3k3arpmtzt2/app.bsky.feed.post/3n27gw4yeds2h",
+      "url": "https://bsky.app/profile/amiibru.bsky.social/post/3n27gw4yeds2h",
+      "author": "amiibru.bsky.social",
+      "text": "Toem is a lovely pick. Taking photos to help people out is such a gentle puzzle loop.",
+      "approvedFile": "comments-approved-cozy-20261114-194104-20261114-195508.json",
+      "approvedAt": "2026-11-14T19:55:08.694Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-14T19:55:32.176Z",
+      "replyUri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3n2cbqqbc5v2m",
+      "replyUrl": "https://bsky.app/profile/cozygame.bsky.social/post/3n2cbqqbc5v2m"
+    },
+    {
+      "block": "cozy",
+      "handle": "cozygame.bsky.social",
+      "n": 2,
+      "uri": "at://did:plc:2as6rkx32fzu4p2gjc6wbujt/app.bsky.feed.post/3n27o23nmoc24",
+      "url": "https://bsky.app/profile/violetadia.bsky.social/post/3n27o23nmoc24",
+      "author": "violetadia.bsky.social",
+      "text": "Tea, blankets and a furry creature sounds like the perfect end to the week. Hope you get home soon!",
+      "approvedFile": "comments-approved-cozy-20261114-194104-20261114-195508.json",
+      "approvedAt": "2026-11-14T19:55:08.694Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-14T19:57:41.535Z",
+      "replyUri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3n2cbuln2cg2m",
+      "replyUrl": "https://bsky.app/profile/cozygame.bsky.social/post/3n2cbuln2cg2m"
+    },
+    {
+      "block": "retro",
+      "handle": "retrogamedeals.bsky.social",
+      "n": 1,
+      "uri": "at://did:plc:rr377eptx3d5b2kapjhq52c2/app.bsky.feed.post/3n2aloxf4k22m",
+      "url": "https://bsky.app/profile/rajanomaly.bsky.social/post/3n2aloxf4k22m",
+      "author": "rajanomaly.bsky.social",
+      "text": "3D Pinball Space Cadet was on so many Windows PCs growing up. Great that it runs on a handheld now.",
+      "approvedFile": "comments-approved-retro-20261114-194104-20261114-195508.json",
+      "approvedAt": "2026-11-14T19:55:08.813Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-14T19:57:43.039Z",
+      "replyUri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3n2cbun2xyt2n",
+      "replyUrl": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3n2cbun2xyt2n"
+    }
+  ]
+}
