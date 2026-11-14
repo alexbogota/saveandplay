@@ -1,0 +1,18 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-retro-20261114-194104.json",
+  "approvedAt": "2026-11-14T19:55:08.813Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:rr377eptx3d5b2kapjhq52c2/app.bsky.feed.post/3n2aloxf4k22m",
+      "url": "https://bsky.app/profile/rajanomaly.bsky.social/post/3n2aloxf4k22m",
+      "author": "rajanomaly.bsky.social",
+      "context": "who remembers this classic windows pc game?!\nimage: Android port of 3D Space Cadet Pinball game on the Retroid Pocket 6.",
+      "text": "3D Pinball Space Cadet was on so many Windows PCs growing up. Great that it runs on a handheld now.",
+      "edited": false
+    }
+  ]
+}
