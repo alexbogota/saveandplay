@@ -1,0 +1,29 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261114-194104",
+  "madeAt": "2026-11-14T19:41:22.077Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:x3ro2bodfw5ch3k3arpmtzt2/app.bsky.feed.post/3n27gw4yeds2h",
+      "url": "https://bsky.app/profile/amiibru.bsky.social/post/3n27gw4yeds2h",
+      "author": "amiibru.bsky.social",
+      "context": "Well, if you like indie games, have you played Toem? It is a very cozy indie game where you solve puzzles by taking pictures.",
+      "text": "Toem is a lovely pick. Taking photos to help people out is such a gentle puzzle loop.",
+      "group": "askCozy",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:2as6rkx32fzu4p2gjc6wbujt/app.bsky.feed.post/3n27o23nmoc24",
+      "url": "https://bsky.app/profile/violetadia.bsky.social/post/3n27o23nmoc24",
+      "author": "violetadia.bsky.social",
+      "context": "Who else is ready to get the frig out of work and go home and cuddle into some blankets with tea? Cozy games/movies/TV or books are a must..and a furry creature of some sort obvs. #cozy #friday #cuddle",
+      "text": "Tea, blankets and a furry creature sounds like the perfect end to the week. Hope you get home soon!",
+      "group": "askCozy",
+      "heated": false
+    }
+  ]
+}

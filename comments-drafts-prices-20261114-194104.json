@@ -1,0 +1,19 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "stamp": "20261114-194104",
+  "madeAt": "2026-11-14T19:41:21.960Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:sd32qqbyubnq4q5t3zkjdho3/app.bsky.feed.post/3n27lktpylk2k",
+      "url": "https://bsky.app/profile/eternitysdarling.bsky.social/post/3n27lktpylk2k",
+      "author": "eternitysdarling.bsky.social",
+      "context": "I was supposed to be waiting till the Winter sale to buy anymore games (it starts 3 days before my birthday so it was going to be my gift to myself hshshs) but then I got a notification from my WL and THIS WAS ON SALE FOR A DOLLAR?!\nimage, no description",
+      "text": "Wishlist notifications are great for exactly this. A dollar is a hard price to argue with, and happy early birthday!",
+      "group": "waitForSale",
+      "heated": false
+    }
+  ]
+}
