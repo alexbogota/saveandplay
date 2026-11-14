@@ -1,57 +1,53 @@
 # Comment candidates: retro (@retrogamedeals.bsky.social)
-Made 2026-11-14T13:31Z. Searched: childhood: game from my childhood | childhood: childhood favorite game | childhood: games from my childhood | childhood: first video game | classicPC: old pc games | classicPC: dos games | classicPC: classic pc games | classicPC: old pc game | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: retro games recommend | askRetro: best retro games | askRetro: best old games | askRetro: old game recommend | retroFeed: feed.
-Posts below: 12 + 2 heated. Dropped in this run: skip word 72, not about games 82, bot, shop or studio 19, adult or graphic label 2, promo (link and hashtags) 6, replies are limited 7, low score 8, empty 1, other language (text) 12, already answered 1, too many hashtags 8, too short 8, not a question 17, other language 33, earlier finds: low score 1.
+Made 2026-11-14T22:21Z. Searched: childhood: played this as a kid game | childhood: first pc game | childhood: childhood game | childhood: game from my childhood | classicPC: retro pc gaming | classicPC: dos game | classicPC: classic pc game | classicPC: old pc games | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: retro game recommendations | askRetro: old games recommend | askRetro: retro games recommend | askRetro: best retro games | retroFeed: feed.
+Posts below: 12 + 1 heated. Dropped in this run: promo (link and hashtags) 4, skip word 53, not about games 109, bot, shop or studio 15, adult or graphic label 4, replies are limited 10, already shown 5, too many hashtags 3, other language (text) 11, already answered 1, low score 2, too short 8, not a question 31, other language 22, earlier finds: low score 5.
 
 ## Posts
-1. @xxgr1llmast3rxx.bsky.social (Herbert) · 6h · likes 3 · replies 0 · question · askRetro
-   https://bsky.app/profile/xxgr1llmast3rxx.bsky.social/post/3n2ay3vahr22a
-   Every day the Old Game Army gets another great game inducted into it's ranks... how could new games hope to compete? we're always stealing their best soldiers
-2. @rajanomaly.bsky.social (🇨🇦 ʀᴀᴡ-ɢɪɴ (￣。￣)～ｚｚｚ🏳️‍🌈) · 10h · likes 3 · replies 0 · question · classicPC
-   https://bsky.app/profile/rajanomaly.bsky.social/post/3n2aloxf4k22m
-   who remembers this classic windows pc game?!
-   [image: Android port of 3D Space Cadet Pinball game on the Retroid Pocket 6.]
-3. @beta64.bsky.social (Andrew (Beta64)) · 15h · likes 17 · replies 1 · question · childhood
-   https://bsky.app/profile/beta64.bsky.social/post/3n2a2e7eqxs2j
-   I love this new Beta64 episode ❤️ Pilotwings 64 is a personal fav and making this video all about its development was so fun Did you know this was Paradigm's first video game ever? How did they to make such a classic on their first attempt? Search Beta64 on YouTube to watch now!!
+1. @canon-thought.bsky.social (Canon-Thought) · 11h · likes 1 · replies 1 · question · childhood
+   https://bsky.app/profile/canon-thought.bsky.social/post/3n2bf4mq4rk2f
+   I think this was the first PC game I bought myself? Before that, it was all educational PC games my mom had gotten. Carmen Sandiego, Match Blaster, etc.
+   [link card: American Mcgee'S Alice Alice'S Adventures In Wonderland]
+2. @sourchaoscandy.bsky.social (Bunny Slime!~ <3 🏳️‍⚧️) · 15h · likes 7 · replies 1 · question · childhood
+   https://bsky.app/profile/sourchaoscandy.bsky.social/post/3n2axgd4bgc2t
+   Anyone else as a child just find some video game easter eggs creepy and errie for no reason? Then seeing or hearing em again brings some level of unknown childhood anxiety back into you? For some reason Totaka's song is THAT for me. The ordinal rendition of the song creeped me ou
+3. @aen9ine.bsky.social (Aᴇɴɢɪɴᴇ) · 6h · likes 4 · replies 0 · question · nostalgia
+   https://bsky.app/profile/aen9ine.bsky.social/post/3n2bvaoiy722g
+   5 - Favorite retro game - Donkey Kong Country 3 So much competition but this came to mind first and I love it dearly, I used too draw stages for this game in my school notebooks. Wish I still had them.
+   [link card: Donkey Kong Country 3 Dixie Kong'S Double Trouble; quotes @aen9ine.bsky.social: I like this one ! I think I'll do QTPs? Not sure if replies are better? Tell me ig idk lmao]
+4. @sonicmario1332.bsky.social (SonicMario1332) · 49m · likes 3 · replies 0 · childhood
+   https://bsky.app/profile/sonicmario1332.bsky.social/post/3n2ch5oj2m22e
+   Your childhood video game chain Mine: Angry Birds (2009)
+   [image, no description; quotes @littlemisssnowie.bsky.social: Your childhood video game Chain Mine: PVZ (2009)]
+5. @dani-metalhead.bsky.social (Dani Metalhead) · 1h · likes 1 · replies 0 · childhood
+   https://bsky.app/profile/dani-metalhead.bsky.social/post/3n2cfas3e6c2g
+   Everyone: playing the Zelda remake Everyone else: waiting for GTA 6 Me: playing an 11 year old game for the first time and am now obsessed with it (on PC at 60 FPS no less)
+   [link card: Bloodborne: Father Gascoigne's Grin]
+6. @littlemisssnowie.bsky.social (Little_Miss_Snowie) · 2h · likes 6 · replies 2 · childhood
+   https://bsky.app/profile/littlemisssnowie.bsky.social/post/3n2cets6lcs27
+   Your childhood video game Chain Mine: PVZ (2009)
    [image, no description]
-4. @slimica.bsky.social (Slimica) · 22h · likes 5 · replies 1 · question · childhood
-   https://bsky.app/profile/slimica.bsky.social/post/3n27ct2fcps2i
-   What game was a big part of your childhood? I got a couple, I could say. Minecraft, Sonic plus mega collection, Sega and all stars tennis. But... Imma go with this
-   [link card: Jak And Daxter Jak1; quotes @aimewestly.bsky.social: What game was a big part of your childhood? 🖤]
-5. @philuebbing.bsky.social (Phil Uebbing) · 16h · likes 0 · replies 1 · question · childhood
-   https://bsky.app/profile/philuebbing.bsky.social/post/3n27xdk7arc2f
-   Do you have any “Video Game White Whales” from childhood? As in, games you never beat/finished as a kid, and the lack of doing so has haunted you all these years… (and if so, have you gone back and beaten any?)
-6. @houseplantsinvg.bsky.social (Houseplants in Videogames) · 20h · likes 35 · replies 1 · question · classicPC
-   https://bsky.app/profile/houseplantsinvg.bsky.social/post/3n27jdeaevc2z
-   The Magic Candle: Volume 1 (1989, DOS) Our good friend @videogamebeach.bsky.social sent over these screenshots and this is my first time seeing this series, but wow, I really love the look of this game. I wonder what Volume II looks like? Maybe we'll find out tomorrow... 🌴
-   [4 images, no description]
-7. @dembouw.bsky.social (Dembouw) · 22h · likes 0 · replies 0 · question · classicPC
-   https://bsky.app/profile/dembouw.bsky.social/post/3n27e6ctatc2y
-   � ¡DERELIKT llega HOY, viernes 13! Terror espacial retro estilo PS1 y DOOM, ya en PC, PS5 y Xbox. Sale justo un viernes 13… ¿te atreves a entrar? 👇 #Gameplay1995 #Gaming
-   [video, no description]
-8. @nintyfan1991.bsky.social (ACO) · 25h · likes 0 · replies 1 · question · classicPC
-   https://bsky.app/profile/nintyfan1991.bsky.social/post/3n26yq7gbn22b
-   A lot of these choices are baffling to me, considering how many of these game have official PC versions already, purchaseable on @gog.com and @steampowered.com. -Morrowind? -KOTOR I + II? -Battlefront Classic? -Jedi Knight Outcast + Academy?
-   [link card: But Why? Man in Surgical Gown]
-9. @tamagochivibe.bsky.social (Tamagotchi Vibe 🎮) · 26h · likes 0 · replies 0 · question · childhood
-   https://bsky.app/profile/tamagochivibe.bsky.social/post/3n26upykf4s2u
-   31 minutes. That’s how long I held the reset button on my NES, hoping Castlevania’s save would reappear. It never did. Now I code checkpoints like they’re oxygen—players deserve better than my childhood. What game stole your progress?
-10. @vgmaps.bsky.social ( Jonathan Leung (VGMaps.com / YT: JonLeu) · 8h · likes 2 · replies 0 · question · retroFeed
-   https://bsky.app/profile/vgmaps.bsky.social/post/3n2at43jlgc2g
-   Do you like the "Nintendo Classics" games that are included in your Nintendo Switch Online (NSO) subscription? I've now made a requests topic on the VGMaps forums, tracking the mapping of NES, SNES, GB/GBC, Genesis, N64, GBA, Virtual Boy & GameCube games!: www.vgmaps.com/forums/i
-   [image, no description]
-11. @fedorasaurus.bsky.social (Fedorasaurus 🪷) · 8h · likes 1 · replies 1 · question · retroFeed
+7. @unleashed-dawn.bsky.social (Elyon) · 5h · likes 1 · replies 1 · childhood
+   https://bsky.app/profile/unleashed-dawn.bsky.social/post/3n2bykcgm5c2m
+   That Mario demo was the first PC game I ever played!! :O
+8. @myabandonware.com (My Abandonware) · 6h · likes 5 · replies 0 · classicPC
+   https://bsky.app/profile/myabandonware.com/post/3n2bt7clm3k27
+   New release: 10 Awesome Games (1995 - DOS) - https://www.myabandonware.com/game/10-awesome-games-11ou #abandonware
+   [2 images: 10 Awesome Games in game screenshot / 10 Awesome Games in game screenshot]
+9. @fedorasaurus.bsky.social (Fedorasaurus 🪷) · 17h · likes 1 · replies 1 · question · retroFeed
    https://bsky.app/profile/fedorasaurus.bsky.social/post/3n2aqwk7yfc2j
    Mr. Zero's FZGX drip is truly insane. I continue to be obsessed with this character who started as a nameless NPC in the SNES instruction booklet, like, DAMN 12 year later he has a legit media job in FZGX? GOOD FOR HIM!!!!
-12. @professormilan.bsky.social (Gatzdaze) · 9h · likes 1 · replies 0 · question · retroFeed
+10. @professormilan.bsky.social (Gatzdaze) · 18h · likes 1 · replies 0 · question · retroFeed
    https://bsky.app/profile/professormilan.bsky.social/post/3n2and3j2qk22
    This is a reminder that Square made an RPG based on Tom Sawyer back in 1989 on the NES. I believe classic literature is a potential goldmine for gaming ideas. Looking forward Jane Autin’s Pride and Prejudice RPG in the near future
    [image, no description]
+11. @worldchamp.bsky.social (World Champ 🔜 paxu) · 19h · likes 4 · replies 2 · question · childhood
+   https://bsky.app/profile/worldchamp.bsky.social/post/3n2aleuprfs2m
+   Have people been digging control resonant? I’ve been real excited to play it but gotta finish hellraiser first, surprised I haven’t seen much since its release but I’m not too tapped into video game discourse.
+12. @mrbowers.bsky.social (わはは) · 21h · likes 1 · replies 1 · question · childhood
+   https://bsky.app/profile/mrbowers.bsky.social/post/3n2af3nqydk22
+   But this *is* the franchise that gave us "oh yeah you have to effectively kill an entire island of people to finish the game" and was my first "oh fuck, video games can do stories like *that*?" realization, so it's just par for the course, I guess. #OoT
 
 ## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @siftmicro.bsky.social (Sift) · 12h · likes 10 · replies 2 · classicPC
-   https://bsky.app/profile/siftmicro.bsky.social/post/3n2aed6inqk23
-   I really appreciate that OoTR keeps some of the stupid ass sfx like the ice wind fweeooooosh noise, or the gay little lense of truth sound effect that came right from a old PC adventure game. I just like some old sounds. There's a old noise all sega games used and fuck it's impos
-2. @schima.me (Schima) · 12h · likes 2 · replies 2 · classicPC
-   https://bsky.app/profile/schima.me/post/3n2adyhokrk2x
-   As much as the current landscape in regards to AI sucks, I am really happy about a lot of my favorite games which were stuck on old consoles with terrible performance being ported to PC now 🥹 Playing Gravity Rush 2 and Bloodborne with really good performance is a dream come true
+1. @rekzeir.bsky.social (Rek'Zeir the Bunny 🐇) · 24h · likes 1 · replies 1 · childhood
+   https://bsky.app/profile/rekzeir.bsky.social/post/3n27zfa3xk22p
+   Three devs who worked in a different sector of computer programming not related to video games trying to make an MMORPG as their first game with only GenAi artwork to show for it. yeah it sounds like a rug pull. You might as well quit while you're ahead and work on something smal
