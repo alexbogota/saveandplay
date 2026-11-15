@@ -1,0 +1,30 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "stamp": "20261115-153855",
+  "madeAt": "2026-11-15T15:42:39.812Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:vfrk72cdig4megv65wvax7nr/app.bsky.feed.post/3n2ceg2kohk2t",
+      "url": "https://bsky.app/profile/catstongue.bsky.social/post/3n2ceg2kohk2t",
+      "author": "catstongue.bsky.social",
+      "context": "just under 90 hours - and kcd2 main story finished! that was tons of fun!! 😊 im looking forward to doing side quests and dlc that i seem to have purchased last year, when i first got it on sale on steam. LOL it only took me a year to play it!",
+      "text": "Congrats on finishing the main story! Playing it a year after a sale purchase is a very normal backlog pace. Enjoy the side quests and DLC.",
+      "group": "waitForSale",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:hqwjiuuvqtw7zkk7j7prr4ee/app.bsky.feed.post/3n2edabp6nk2w",
+      "url": "https://bsky.app/profile/donbecker.org/post/3n2edabp6nk2w",
+      "author": "donbecker.org",
+      "context": "What are you playing on your Steam Deck currently? I have a massive backlog of games but like most Steam users that won't stop me from buying something new.",
+      "text": "Short-session games suit the Deck well, and Hades is a good one to dip into between backlog games.",
+      "verify": "Проверьте в Steam, что у Hades рейтинг Steam Deck Verified.",
+      "group": "backlog",
+      "heated": false
+    }
+  ]
+}

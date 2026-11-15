@@ -1,0 +1,29 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261115-153855",
+  "madeAt": "2026-11-15T15:42:39.957Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:oa7o5pflkgdlntrmafjwsfyb/app.bsky.feed.post/3n2bf4mq4rk2f",
+      "url": "https://bsky.app/profile/canon-thought.bsky.social/post/3n2bf4mq4rk2f",
+      "author": "canon-thought.bsky.social",
+      "context": "I think this was the first PC game I bought myself? Before that, it was all educational PC games my mom had gotten. Carmen Sandiego, Match Blaster, etc.\nlink card: American Mcgee'S Alice Alice'S Adventures In Wonderland",
+      "text": "Carmen Sandiego is a classic. American McGee's Alice was quite a jump from those, a much darker take on Wonderland.",
+      "group": "childhood",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:7auww2l4tv2ej66jad5irbdp/app.bsky.feed.post/3n2ecpivg6c2a",
+      "url": "https://bsky.app/profile/zerohx77.bsky.social/post/3n2ecpivg6c2a",
+      "author": "zerohx77.bsky.social",
+      "context": "What game was a big part of your childhood? Single digits- Super Mario Bros,2,3, TMNT 2: Arcade Game, Ducktales, Crystalis Double digits-Sonic 2, Sonic 3, Knuckles, Shining Force II, Phantasy Star IV, Ocarina of Time, Final Fantasy VII\nlink card: Treyreloaded Mario Sonic Fist Bump; quotes @samplaysgames.bsky.social: What game was a big part of your childhood? Actually the game where I just thought why not tap the fire button against my chin because I di…",
+      "text": "Great list. Shining Force II and Phantasy Star IV are both Genesis classics.",
+      "group": "childhood",
+      "heated": false
+    }
+  ]
+}
