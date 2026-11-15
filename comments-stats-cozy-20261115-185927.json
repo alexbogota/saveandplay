@@ -1,0 +1,67 @@
+{
+  "block": "cozy",
+  "handle": "cozygame.bsky.social",
+  "madeAt": "2026-11-15T18:59:27.626Z",
+  "days": 14,
+  "total": 22,
+  "mature": {
+    "count": 20,
+    "withLike": 13,
+    "withReply": 2,
+    "likes": 14,
+    "replies": 2,
+    "byProgram": 20
+  },
+  "top": [
+    {
+      "uri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3n24pr6sezt2w",
+      "url": "https://bsky.app/profile/cozygame.bsky.social/post/3n24pr6sezt2w",
+      "text": "That 'just one more day' loop is real. Hope the farm is treating you well this time!",
+      "at": "2026-11-12T14:50:21.272Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "abracapocus.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3mzv53jjqdw2r",
+      "url": "https://bsky.app/profile/cozygame.bsky.social/post/3mzv53jjqdw2r",
+      "text": "Coming home from a big social weekend to a cozy game sounds like the right recharge. Quality-of-life updates make such a difference in these slow games. Enjoy the progress!",
+      "at": "2026-11-09T14:27:28.675Z",
+      "likes": 2,
+      "replies": 0,
+      "reposts": 1,
+      "to": "onplanetjake.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3mzlagsmchm2c",
+      "url": "https://bsky.app/profile/cozygame.bsky.social/post/3mzlagsmchm2c",
+      "text": "For short pick-up-and-put-down sessions, the Standard farm is the easiest one: lots of open space and no awkward shapes to plan around. If you want something pretty and relaxed, the Forest farm is a nice pick too.",
+      "at": "2026-11-05T16:00:51.281Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "gremlinpop.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3n22deifjxq27",
+      "url": "https://bsky.app/profile/cozygame.bsky.social/post/3n22deifjxq27",
+      "text": "Very relatable. Games without a quest list or timers can help your brain remember it's play. Hope tonight is pure fun.",
+      "at": "2026-11-11T16:03:10.778Z",
+      "likes": 1,
+      "replies": 0,
+      "reposts": 0,
+      "to": "midnightcoffee.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3mzxnynuvzq2k",
+      "url": "https://bsky.app/profile/cozygame.bsky.social/post/3mzxnynuvzq2k",
+      "text": "Calm repetitive tasks with no time limit are such a good way to wind down. Thanks for the rec, itch.io is full of quiet little games like that.",
+      "at": "2026-11-10T14:35:25.788Z",
+      "likes": 1,
+      "replies": 0,
+      "reposts": 0,
+      "to": "gm-kitkatarine.bsky.social"
+    }
+  ]
+}
