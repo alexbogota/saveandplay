@@ -41,7 +41,7 @@ Bluesky, Mastodon и Nostr показывают пост в день выход�
 | Is a game bundle worth it? | `/guides/is-a-game-bundle-worth-it/` | Are Humble Bundles worth it? Are game bundles a good deal? (примеры гида про бандлы устаревают к 28 октября: после этой даты их конкретные цифры в ответ не переносим) |
 | How to tell a real game discount from a fake one | `/guides/real-vs-fake-game-discounts/` | Are Steam sales real discounts? How do I know a game sale is actually good? |
 | Steam key or DRM-free | `/guides/steam-key-vs-drm-free/` | Is GOG better than Steam? What does DRM-free mean? Do I really own my Steam games? |
-| How to run old PC games on Windows 11 (ждёт «ок» владельца, черновик в `drafts/articles/play-old-pc-games-on-windows-11/`) | `/guides/play-old-pc-games-on-windows-11/` | How do I play old games on a new PC? Will old disc games work on Windows 11? Why can't modern computers run old games? Короткое имя для ссылки: `old-games-windows-11` |
+| How to run old PC games on Windows 11 (выложен 15 ноября 2026) | `/guides/play-old-pc-games-on-windows-11/` | How do I play old games on a new PC? Will old disc games work on Windows 11? Why can't modern computers run old games? Короткое имя для ссылки: `old-games-windows-11` |
 
 Новые гиды (приходят раз в 2 дня) смотри в `src/pages/guides/`: `title` и `description` в шапке показывают тему. Актуальную таблицу обновляй здесь после каждого нового гида. Для каждого нового гида придумай 2–3 типичных вопроса.
 
@@ -89,6 +89,7 @@ Disclosure: that guide is ours (saveandplay.com).
 - 2026-10-11 (поздно вечером): владелец опубликовал все 3 первых ответа сразу, без ссылок (вместо растяжки на 1–2 дня; правила Quora этого не запрещают, это наш осторожный лимит). Лимит первой недели использован: следующие ответы с 18 октября, ссылка не чаще чем в 1 из 3. Адреса ответов получены (короткие ссылки Quora qr.ae) и записаны в `data/quora-log.json`; порядок принят как в сообщении владельца (возврат Steam, Humble, DRM), не подтверждён. Через 1–2 дня проверить, что ответы не свёрнуты и нет предупреждений Quora.
 
 - 2026-11-15: перезапуск как тест. Прошлая попытка тестом не была: 3 ответа, все без ссылок, просмотры не записаны. Ниша выбрана поиском по quora.com (шесть тем: серверы, старые игры, Game Pass, цена сервера, игры без видеокарты, бан аккаунта Steam): везде много вопросов и ответам по 2–8 лет; взята «старые игры на новом Windows», потому что отвечается фактами из первоисточников, вечная, подходит сайту (GOG, аккаунт Retro), и гида на неё не было. Сделано: гид `play-old-pc-games-on-windows-11` (ждёт «ок» владельца) и 5 ответов в `drafts/quora-2026-11-15.md` (один со ссылкой, вставлять после выкладки гида). Не проверено: что Quora сейчас говорит про ответы, написанные с помощью ИИ, и считает ли сайт переходы с Quora (аналитика). Начало «Short answer:» в ответах больше не повторяем: каждый ответ начинается по-своему.
+- 2026-11-15 (позже): владелец сказал «ок, гид про старые игры», гид выложен и открывается. Ответ со ссылкой из `drafts/quora-2026-11-15.md` теперь тоже можно вставлять. Выбор ниш дальше делаем программой разведки: `docs/quora-scout.md`.
 
 ## Источники (официальные страницы Quora, открыты 11 октября 2026)
 - Question and Answer Policies: https://help.quora.com/hc/en-us/articles/9456583756180-Question-and-Answer-Policies
