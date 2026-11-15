@@ -1,44 +1,43 @@
 # Comment candidates: mastodon-prices-wide (@saveandplay@mastodon.social)
-Made 2026-11-15T06:22Z. Searched: moreGaming: videogame | moreGaming: gamingcommunity | moreGaming: gamenight | moreGaming: fps | moreGaming: openworld | moreGaming: simulationgames | moreGaming: strategygame | moreGaming: mmorpg | moreAsk: gamehelp | moreAsk: gamingquestion | moreAsk: whatgameshouldiplay | moreAsk: gamingrecommendations | moreAsk: steamrecommendations | moreRetro: retrogaming | moreRetro: retrogames | moreRetro: dosgames | moreRetro: classicgames | moreRetro: oldgames | morePlaying: nowplayinggame | morePlaying: justfinishedgame | morePlaying: gamingtonight | morePlaying: currentlygaming | morePlaying: steamlibrary.
-Posts below: 9. Dropped in this run: many links 3, too long 5, promo (link and hashtags) 15, too old 461, other language 52, skip word 46, not about games 12, other language (text) 6, bot, shop or studio 75, low score 1, console only 16, profile says no bots or promo 2, already shown 1.
+Made 2026-11-15T15:41Z. Searched: moreGaming: videogame | moreGaming: gamingcommunity | moreGaming: gamenight | moreGaming: fps | moreGaming: openworld | moreGaming: simulationgames | moreGaming: strategygame | moreGaming: mmorpg | moreAsk: gamehelp | moreAsk: gamingquestion | moreAsk: whatgameshouldiplay | moreAsk: gamingrecommendations | moreAsk: steamrecommendations | moreRetro: retrogaming | moreRetro: retrogames | moreRetro: dosgames | moreRetro: classicgames | moreRetro: oldgames | morePlaying: nowplayinggame | morePlaying: justfinishedgame | morePlaying: gamingtonight | morePlaying: currentlygaming | morePlaying: steamlibrary.
+Posts below: 9. Dropped in this run: other language 66, too short 1, many links 3, too long 5, too old 437, skip word 52, bot, shop or studio 80, not about games 12, promo (link and hashtags) 17, other language (text) 7, link post, not a question 2, console only 13, already shown 1.
 
 ## Posts
-1. @retro_brewz@mastodon.social (Retro Brewz) · 11h · likes 2 · replies 0 · question · moreRetro
+1. @retro_brewz@mastodon.social (Retro Brewz) · 21h · likes 2 · replies 0 · question · moreRetro
    https://mastodon.social/@retro_brewz/117616336402009957
    What’s your favorite Castlevania on the DS? #Castlevania #RetroGaming #RetroGames #NintendoDS #VideoGames #GamersUnite
    [image, no description]
-2. @javierm@hachyderm.io (javierm) · 10h · likes 4 · replies 2 · moreRetro
+2. @Dvalin@mastodon.social (Dvalin Gaming) · 3h · likes 1 · replies 0 · question · moreGaming
+   https://mastodon.social/@Dvalin/117620572157537470
+   Blizzard just tweaked the dungeon XP restriction in WoW: Forever. XP nullification now only kicks in when a party member is more than 12 levels above the enemies, saving wide-level-range dungeon runs from getting punished. Fair fix to stop boosting without hurting normal groups, 
+   [image: Blizzard just tweaked the dungeon XP restriction in WoW: Forever. XP nullification now only kicks in when a party member is more than 12 levels above the enemi…]
+3. @Gamrok@mastodon.social (Thomas Leroy 🍣🐈‍⬛) · 3h · likes 15 · replies 1 · moreRetro
+   https://mastodon.social/@Gamrok/117620599286691435
+   Another World is celebrating its 35th anniversary this month! 🎂 No other game had me so hooked when it came out on Amiga. So much so that I’ve never parted with my copy 🥰 Thank you, Mr. Chahi 🙏 #AnotherWorld #EricChahi #DelphineSoftware #RetroGaming #Amiga #BigBoxGames
+   [image: My copy of Another World for the Amiga. I bought it when it was released in November 1991. The box contains a manual, two floppy disks and a code wheel.]
+4. @super@retro.pizza (Super Default!) · 4h · likes 1 · replies 2 · moreRetro
+   https://mastodon.social/@super@retro.pizza/117620179031304246
+   original: https://retro.pizza/@super/117620178953692769
+   About 19 years late to the party, I am finally playing Space Giraffe from Llamasoft on Xbox360. OMG IT'S SO BEAUTIFUL 😭😭😭 #llamasoft #xboxlive #giraffetastic #retrogames #love Tagging you shamelessly @llamasoft_ox All this love has to go somewhere you see
+   [video, no description]
+5. @javierm@hachyderm.io (javierm) · 19h · likes 4 · replies 2 · moreRetro
    https://mastodon.social/@javierm@hachyderm.io/117616770921984014
    original: https://hachyderm.io/@javierm/117616770870024729
    Two games I played recently on my #nintendo3ds and strongly recommend are “Solatorobo: Red the Hunter” and “Radiant Historia: Perfect Chronology”. #retrogaming
-3. @timixretroplays@digipres.club (Tim 🎮) · 15h · likes 2 · replies 0 · moreRetro
+6. @timixretroplays@digipres.club (Tim 🎮) · 25h · likes 2 · replies 0 · moreRetro
    https://mastodon.social/@timixretroplays@digipres.club/117615392853592240
    original: https://digipres.club/@timixretroplays/117615392758262374
    @congusbongus I wasn't a fan of the sudden ramp-up in difficulty in episodes 2 and 3 - I have a lot of fun replaying the first episode, but the others just felt like punishing slogs to get though every time. Secret Agent was a better whole game IMHO, those later eps felt like a m
-4. @retrowelle@social.cologne (Retrowelle) · 22h · likes 6 · replies 1 · moreRetro
-   https://mastodon.social/@retrowelle@social.cologne/117613926115447729
-   original: https://social.cologne/@retrowelle/117613925914590702
-   Another physics-based release for my Commodore 64 has arrived. 'Joan of Arc - Deus Contra Machinam' by GriffonSoft. As usual, a top-notch game with great puzzles, graphics, and sound. From the creators of Sherwood & Musketeer. #commodore64 #psytronik #c64 #retrogaming #retrogames
-   [3 images: Commodore 64 Spiel inkl. Box des Spiel "Joan of Arc" von GriffonSoft. Mit vielen Gimmiks wie Schlüsselanhänger, Pin, Soundtrack auf CD und Aufklebern. / Commodore 64 Spiel inkl. Box des Spiel "Joan of Arc" von GriffonSoft. Mit vielen Gimmiks wie Schlüsselanhänger, Pin, Soundtrack auf CD und Aufklebern. / Commodore 64 Spiel inkl. Box des Spiel "Joan of Arc" von GriffonSoft. Mit vielen Gimmiks wie Schlüsselanhänger, Pin, Soundtrack auf CD und Aufklebern.]
-5. @JakobFel@retro-gaiden.com (Jakob Fel) · 28h · likes 3 · replies 1 · moreRetro
-   https://mastodon.social/@JakobFel@retro-gaiden.com/117612467843828054
-   original: https://retro-gaiden.com/@JakobFel/117612467737560954
-   "Since the English are infamous for having no taste where food is concerned, you shouldn't have too much of a problem conquering the city with your tasty pizzas." That is a real quote from Pizza Connection 2, a German managerial sim from 2001. It doesn't surprise me that German d
-   [image, no description]
-6. @JakobFel@retro-gaiden.com (Jakob Fel) · 28h · likes 3 · replies 0 · moreRetro
-   https://mastodon.social/@JakobFel@retro-gaiden.com/117612411666011411
-   original: https://retro-gaiden.com/@JakobFel/117612411552546807
-   These days, GOG has an "additional contribution" option when purchasing anything. Today, I tried something new: I've decided that, going forward, I'll be rounding up all of my orders to the nearest whole dollar. I'm not buying much these days (for various reasons) but rounding up
-   [image, no description]
-7. @stunningshemp@mastodon.social (Chris Coats) · 6h · likes 1 · replies 0 · moreRetro
+7. @3dcandy@pixelfed.social (Adrian Hendy) · 4h · likes 1 · replies 0 · moreRetro
+   https://mastodon.social/@3dcandy@pixelfed.social/117620244095657805
+   original: https://pixelfed.social/p/3dcandy/1027544455404832716
+   New (to me) joystick day. Will boot up Fate Of The Galaxy later and have a play! #joystick #gaming #retrogaming #retroplay
+   [image: new gaming joystick]
+8. @stunningshemp@mastodon.social (Chris Coats) · 15h · likes 1 · replies 0 · moreRetro
    https://mastodon.social/@stunningshemp/117617580829840047
    Yoshi hates potted plants #retrogaming #yoshisisland #supermario #stunningshemp #twitch
    [video, no description]
-8. @computerchronicles@mastodon.social (Computer Chronicles Revisited) · 6h · likes 7 · replies 0 · moreRetro
+9. @computerchronicles@mastodon.social (Computer Chronicles Revisited) · 15h · likes 8 · replies 0 · moreRetro
    https://mastodon.social/@computerchronicles/117617560110988862
    “Alright. It's Saturday night. I have no date, 640K of RAM, and my InvisiClues hint book. Lets rock.” #retrogaming
    [image: Paul Schindler wearing a pair of red and blue 3D glasses and holding a copy of Infocom's "Leather Gosesses of Phobos" open, which he is reading like a book.]
-9. @argv_minus_one@mastodon.sdf.org (argv[-1]) · 26h · likes 1 · replies 0 · moreRetro
-   https://mastodon.social/@argv_minus_one@mastodon.sdf.org/117612807034299970
-   original: https://mastodon.sdf.org/@argv_minus_one/117612802493454884
-   #BrutalDoom has an interestingly realistic quirk. The invisibility power-up makes some weapons (like the rifle) harder to aim, because you're invisible and therefore can't see your iron sights! #Doom #retrogaming

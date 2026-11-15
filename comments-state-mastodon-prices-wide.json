@@ -8,123 +8,47 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 712,
-      "posts": 30000,
-      "fit": 328,
+      "runs": 720,
+      "posts": 30320,
+      "fit": 329,
       "last": {
         "posts": 40,
-        "fit": 0,
-        "at": "2026-11-15T06:22:58.362Z"
+        "fit": 1,
+        "at": "2026-11-15T15:41:04.587Z"
       }
     },
     "moreAsk": {
-      "runs": 445,
-      "posts": 4005,
+      "runs": 450,
+      "posts": 4050,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-11-15T06:22:58.362Z"
+        "at": "2026-11-15T15:41:04.587Z"
       }
     },
     "moreRetro": {
-      "runs": 445,
-      "posts": 27360,
-      "fit": 939,
+      "runs": 450,
+      "posts": 27680,
+      "fit": 948,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-15T06:22:58.362Z"
+        "at": "2026-11-15T15:41:04.587Z"
       }
     },
     "morePlaying": {
-      "runs": 445,
-      "posts": 1869,
+      "runs": 450,
+      "posts": 1890,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-11-15T06:22:58.362Z"
+        "at": "2026-11-15T15:41:04.587Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@argv_minus_one@mastodon.sdf.org/117612807034299970": {
-      "uri": "https://mastodon.social/@argv_minus_one@mastodon.sdf.org/117612807034299970",
-      "url": "https://mastodon.social/@argv_minus_one@mastodon.sdf.org/117612807034299970",
-      "handle": "argv_minus_one@mastodon.sdf.org",
-      "name": "argv[-1]",
-      "text": "#BrutalDoom has an interestingly realistic quirk. The invisibility power-up makes some weapons (like the rifle) harder to aim, because you're invisible and therefore can't see your iron sights! #Doom #retrogaming",
-      "createdAt": "2026-11-14T04:02:24.000Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://mastodon.sdf.org/@argv_minus_one/117612802493454884",
-      "media": null,
-      "firstSeen": "2026-11-14T06:15:23.113Z"
-    },
-    "https://mastodon.social/@JakobFel@retro-gaiden.com/117612467843828054": {
-      "uri": "https://mastodon.social/@JakobFel@retro-gaiden.com/117612467843828054",
-      "url": "https://mastodon.social/@JakobFel@retro-gaiden.com/117612467843828054",
-      "handle": "JakobFel@retro-gaiden.com",
-      "name": "Jakob Fel",
-      "text": "\"Since the English are infamous for having no taste where food is concerned, you shouldn't have too much of a problem conquering the city with your tasty pizzas.\" That is a real quote from Pizza Connection 2, a German managerial sim from 2001. It doesn't surprise me that German devs from the early 2000s didn't pull any punches :knuckleslol: #RetroGames #simulation #Poland #gog #pcgaming #PCMR",
-      "createdAt": "2026-11-14T02:37:16.000Z",
-      "likes": 3,
-      "replies": 1,
-      "group": "moreRetro",
-      "query": "retrogames",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://retro-gaiden.com/@JakobFel/117612467737560954",
-      "media": "image, no description",
-      "firstSeen": "2026-11-14T06:15:23.113Z"
-    },
-    "https://mastodon.social/@JakobFel@retro-gaiden.com/117612411666011411": {
-      "uri": "https://mastodon.social/@JakobFel@retro-gaiden.com/117612411666011411",
-      "url": "https://mastodon.social/@JakobFel@retro-gaiden.com/117612411666011411",
-      "handle": "JakobFel@retro-gaiden.com",
-      "name": "Jakob Fel",
-      "text": "These days, GOG has an \"additional contribution\" option when purchasing anything. Today, I tried something new: I've decided that, going forward, I'll be rounding up all of my orders to the nearest whole dollar. I'm not buying much these days (for various reasons) but rounding up contributes a few cents each time. That's not a huge contribution but if we all started doing that to our orders, that still helps to support GOG's game preservation efforts over time. #gog #drmfree #RetroGames",
-      "createdAt": "2026-11-14T02:22:59.000Z",
-      "likes": 3,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogames",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://retro-gaiden.com/@JakobFel/117612411552546807",
-      "media": "image, no description",
-      "firstSeen": "2026-11-14T06:15:23.113Z"
-    },
-    "https://mastodon.social/@retrowelle@social.cologne/117613926115447729": {
-      "uri": "https://mastodon.social/@retrowelle@social.cologne/117613926115447729",
-      "url": "https://mastodon.social/@retrowelle@social.cologne/117613926115447729",
-      "handle": "retrowelle@social.cologne",
-      "name": "Retrowelle",
-      "text": "Another physics-based release for my Commodore 64 has arrived. 'Joan of Arc - Deus Contra Machinam' by GriffonSoft. As usual, a top-notch game with great puzzles, graphics, and sound. From the creators of Sherwood & Musketeer. #commodore64 #psytronik #c64 #retrogaming #retrogames #retrocomputing #retrogaming #8bit #c64",
-      "createdAt": "2026-11-14T08:48:06.000Z",
-      "likes": 6,
-      "replies": 1,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://social.cologne/@retrowelle/117613925914590702",
-      "media": "3 images: Commodore 64 Spiel inkl. Box des Spiel \"Joan of Arc\" von GriffonSoft. Mit vielen Gimmiks wie Schlüsselanhänger, Pin, Soundtrack auf CD und Aufklebern. / Commodore 64 Spiel inkl. Box des Spiel \"Joan of Arc\" von GriffonSoft. Mit vielen Gimmiks wie Schlüsselanhänger, Pin, Soundtrack auf CD und Aufklebern. / Commodore 64 Spiel inkl. Box des Spiel \"Joan of Arc\" von GriffonSoft. Mit vielen Gimmiks wie Schlüsselanhänger, Pin, Soundtrack auf CD und Aufklebern.",
-      "firstSeen": "2026-11-14T13:31:03.354Z"
-    },
     "https://mastodon.social/@javierm@hachyderm.io/117616770921984014": {
       "uri": "https://mastodon.social/@javierm@hachyderm.io/117616770921984014",
       "url": "https://mastodon.social/@javierm@hachyderm.io/117616770921984014",
@@ -206,7 +130,7 @@
       "name": "Computer Chronicles Revisited",
       "text": "“Alright. It's Saturday night. I have no date, 640K of RAM, and my InvisiClues hint book. Lets rock.” #retrogaming",
       "createdAt": "2026-11-15T00:12:19.797Z",
-      "likes": 7,
+      "likes": 8,
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
@@ -216,6 +140,80 @@
       "isReply": false,
       "media": "image: Paul Schindler wearing a pair of red and blue 3D glasses and holding a copy of Infocom's \"Leather Gosesses of Phobos\" open, which he is reading like a book.",
       "firstSeen": "2026-11-15T06:22:58.362Z"
+    },
+    "https://mastodon.social/@Dvalin/117620572157537470": {
+      "uri": "https://mastodon.social/@Dvalin/117620572157537470",
+      "url": "https://mastodon.social/@Dvalin/117620572157537470",
+      "handle": "Dvalin@mastodon.social",
+      "name": "Dvalin Gaming",
+      "text": "Blizzard just tweaked the dungeon XP restriction in WoW: Forever. XP nullification now only kicks in when a party member is more than 12 levels above the enemies, saving wide-level-range dungeon runs from getting punished. Fair fix to stop boosting without hurting normal groups, or still too strict? #worldofwarcraft #warcraft #mmo #mmorpg #gaming",
+      "createdAt": "2026-11-15T12:58:19.965Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "moreGaming",
+      "query": "mmorpg",
+      "score": 7,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "media": "image: Blizzard just tweaked the dungeon XP restriction in WoW: Forever. XP nullification now only kicks in when a party member is more than 12 levels above the enemi…",
+      "firstSeen": "2026-11-15T15:41:04.587Z"
+    },
+    "https://mastodon.social/@Gamrok/117620599286691435": {
+      "uri": "https://mastodon.social/@Gamrok/117620599286691435",
+      "url": "https://mastodon.social/@Gamrok/117620599286691435",
+      "handle": "Gamrok@mastodon.social",
+      "name": "Thomas Leroy 🍣🐈‍⬛",
+      "text": "Another World is celebrating its 35th anniversary this month! 🎂 No other game had me so hooked when it came out on Amiga. So much so that I’ve never parted with my copy 🥰 Thank you, Mr. Chahi 🙏 #AnotherWorld #EricChahi #DelphineSoftware #RetroGaming #Amiga #BigBoxGames",
+      "createdAt": "2026-11-15T13:05:13.923Z",
+      "likes": 15,
+      "replies": 1,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image: My copy of Another World for the Amiga. I bought it when it was released in November 1991. The box contains a manual, two floppy disks and a code wheel.",
+      "firstSeen": "2026-11-15T15:41:04.587Z"
+    },
+    "https://mastodon.social/@3dcandy@pixelfed.social/117620244095657805": {
+      "uri": "https://mastodon.social/@3dcandy@pixelfed.social/117620244095657805",
+      "url": "https://mastodon.social/@3dcandy@pixelfed.social/117620244095657805",
+      "handle": "3dcandy@pixelfed.social",
+      "name": "Adrian Hendy",
+      "text": "New (to me) joystick day. Will boot up Fate Of The Galaxy later and have a play! #joystick #gaming #retrogaming #retroplay",
+      "createdAt": "2026-11-15T11:34:49.000Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 4,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://pixelfed.social/p/3dcandy/1027544455404832716",
+      "media": "image: new gaming joystick",
+      "firstSeen": "2026-11-15T15:41:04.587Z"
+    },
+    "https://mastodon.social/@super@retro.pizza/117620179031304246": {
+      "uri": "https://mastodon.social/@super@retro.pizza/117620179031304246",
+      "url": "https://mastodon.social/@super@retro.pizza/117620179031304246",
+      "handle": "super@retro.pizza",
+      "name": "Super Default!",
+      "text": "About 19 years late to the party, I am finally playing Space Giraffe from Llamasoft on Xbox360. OMG IT'S SO BEAUTIFUL 😭😭😭 #llamasoft #xboxlive #giraffetastic #retrogames #love Tagging you shamelessly @llamasoft_ox All this love has to go somewhere you see",
+      "createdAt": "2026-11-15T11:18:20.000Z",
+      "likes": 1,
+      "replies": 2,
+      "group": "moreRetro",
+      "query": "retrogames",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://retro.pizza/@super/117620178953692769",
+      "media": "video, no description",
+      "firstSeen": "2026-11-15T15:41:04.587Z"
     }
   }
 }
