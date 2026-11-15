@@ -1,7 +1,7 @@
 // Tests of the Quora niche scout (no network). Run: npm run quora:scout:test
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { classifyUrl, cleanTitle, onTopic, buildQueries, keyWords, matchArticle, articlesFromSitemap, scoutNiche, verdict, byStrength, renderReport } from './lib/quora-scout.mjs';
+import { classifyUrl, cleanTitle, onTopic, buildQueries, keyWords, matchArticle, articlesFromSitemap, materialsFromResults, scoutNiche, verdict, byStrength, renderReport } from './lib/quora-scout.mjs';
 
 const art = (title, url = `https://x.test/${title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}/`) => ({ title, url, words: keyWords(title) });
 
@@ -46,6 +46,21 @@ test('matchArticle: two shared words, or one topic word that only this article h
   assert.equal(matchArticle('How to play old games on your new PC', articles, 2), null, 'one shared word is not enough without a topic word');
   assert.equal(matchArticle('Is Xbox Game Pass worth it?', articles, 2, topic), null);
   assert.equal(matchArticle('What happens to my Steam library?', articles, 2, topic), null, '"steam" is common to many titles');
+});
+
+test('materials from a site search: only material pages, clean titles; a word all titles share cannot match alone', () => {
+  const cfg = { include: '/product/', exclude: ['/ref/'], titleClean: ['^Online ', ' Course · Shop$'] };
+  const list = materialsFromResults([
+    { title: 'Online How to Begin Machine Embroidery Course · Shop', url: 'https://shop.test/product/begin-machine-embroidery/?a=1' },
+    { title: 'Online How to Begin Machine Embroidery Course · Shop', url: 'https://shop.test/product/begin-machine-embroidery/' },
+    { title: 'Online Fundamentals of Hand Embroidery Course · Shop', url: 'https://shop.test/product/hand-embroidery/' },
+    { title: 'Online Embroidery Stitches on a Scarf Course · Shop', url: 'https://shop.test/product/stitches-scarf/' },
+    { title: 'Online Embroidered Teacup Sachet Course · Shop', url: 'https://shop.test/product/teacup/' },
+    { title: 'Free classes', url: 'https://shop.test/freebies/free-classes/ref/123/' },
+  ], cfg);
+  assert.deepEqual(list.map((a) => a.title), ['How to Begin Machine Embroidery', 'Fundamentals of Hand Embroidery', 'Embroidery Stitches on a Scarf', 'Embroidered Teacup Sachet']);
+  assert.equal(matchArticle('How to do machine embroidery designs', list).article.title, 'How to Begin Machine Embroidery');
+  assert.equal(matchArticle('What format should a logo be for embroidery?', list), null);
 });
 
 test('articlesFromSitemap takes article addresses and makes titles from them', () => {
@@ -98,7 +113,7 @@ test('renderReport writes the table and the questions', () => {
   const stats = scoutNiche(niche, [{ query: 'q1', results: [{ title: 'How to sell a planner - Quora', url: 'https://www.quora.com/How-do-I-sell-a-planner' }] }]);
   const md = renderReport([{ id: 'planners', niche, stats, verdict: 'early', hasArticles: false }], { date: '2026-11-15', source: 'test' });
   assert.ok(md.includes('| Планеры | 1 | 1 | не задано | 100% |'));
-  assert.ok(md.includes('статьи не подключены'));
+  assert.ok(md.includes('материал не подключён'));
   assert.ok(md.includes('[How to sell a planner](https://www.quora.com/How-do-I-sell-a-planner)'));
 });
 

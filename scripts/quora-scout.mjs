@@ -15,7 +15,7 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join, resolve } from 'node:path';
-import { buildQueries, scoutNiche, verdict, verdictLabel, byStrength, renderReport, loadArticles, articlesFromSitemap } from './lib/quora-scout.mjs';
+import { buildQueries, scoutNiche, verdict, verdictLabel, byStrength, renderReport, loadArticles, articlesFromSitemap, materialsFromResults } from './lib/quora-scout.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const args = process.argv.slice(2);
@@ -41,13 +41,15 @@ function envValue(name) {
   return line ? line.slice(name.length + 1).trim().replace(/^["']|["']$/g, '') || null : null;
 }
 
-// One search limited to quora.com -> [{ title, url }]. Tavily: POST /search, 1 credit for a basic search.
-async function searchTavily(query, key, settings, lang = 'en') {
+const quoraDomain = (lang) => (lang === 'en' ? 'quora.com' : `${lang}.quora.com`);
+
+// One search limited to one site -> [{ title, url }]. Tavily: POST /search, 1 credit for a basic search.
+async function searchTavily(query, key, settings, domain) {
   for (let attempt = 0; attempt < 2; attempt++) {
     const res = await fetch('https://api.tavily.com/search', {
       method: 'POST',
       headers: { 'content-type': 'application/json', authorization: `Bearer ${key}` },
-      body: JSON.stringify({ query, search_depth: 'basic', max_results: settings.resultsPerQuery ?? 20, include_domains: [lang === 'en' ? 'quora.com' : `${lang}.quora.com`] }),
+      body: JSON.stringify({ query, search_depth: 'basic', max_results: settings.resultsPerQuery ?? 20, include_domains: [domain] }),
     });
     if (res.status === 429 && attempt === 0) {
       await sleep((Number(res.headers.get('retry-after')) || 20) * 1000);
@@ -62,9 +64,31 @@ async function searchTavily(query, key, settings, lang = 'en') {
   throw new Error('search is busy (429 twice)');
 }
 
-async function nicheArticles(niche) {
+// ctx: { settings, raw, save, key, from, fresh, count }. A "search" source is material that lives on a site closed to programs
+// (classes of a marketplace): its titles come from a search limited to that site, never from the site itself, and are saved.
+async function nicheArticles(niche, ctx) {
   const sources = [].concat(niche.articles ?? []);
   const out = loadArticles(sources, root);
+  for (const src of sources.filter((s) => s.search)) {
+    const cfg = ctx.settings.articleSources?.[src.search];
+    if (!cfg) {
+      console.log(`  no articleSources.${src.search} in the settings`);
+      continue;
+    }
+    ctx.raw.materials ??= {};
+    const cacheKey = `${cfg.domain}|${src.query.toLowerCase()}`;
+    if ((ctx.fresh || !ctx.raw.materials[cacheKey]) && !ctx.from && ctx.key) {
+      try {
+        ctx.raw.materials[cacheKey] = await searchTavily(src.query, ctx.key, ctx.settings, cfg.domain);
+        ctx.count();
+        ctx.save();
+        await sleep(ctx.settings.pauseMs ?? 1200);
+      } catch (e) {
+        console.log(`  material search "${src.query}" failed: ${e.message}`);
+      }
+    }
+    out.push(...materialsFromResults(ctx.raw.materials[cacheKey] ?? [], cfg));
+  }
   for (const src of sources.filter((s) => s.sitemap)) {
     try {
       const res = await fetch(src.sitemap, { headers: { 'user-agent': 'sitemap-reader/1.0' } });
@@ -112,6 +136,8 @@ async function main() {
 
   const done = [];
   let askedFor = 0;
+  const ctx = { settings, raw, key, from, fresh, save: () => writeFileSync(rawFile, `${JSON.stringify(raw, null, 1)}
+`), count: () => askedFor++ };
   for (const [id, niche] of niches) {
     const lang = niche.lang ?? 'en';
     const queries = buildQueries(niche, settings);
@@ -124,7 +150,7 @@ async function main() {
       }
       for (const query of missing) {
         try {
-          const results = await searchTavily(query, key, settings, lang);
+          const results = await searchTavily(query, key, settings, quoraDomain(lang));
           askedFor++;
           pool.set(poolKey(lang, query), results);
           raw.niches[id] = [...(raw.niches[id] ?? []).filter((a) => a.query !== query), { query, lang, results }];
@@ -141,7 +167,7 @@ async function main() {
       console.log(`${id}: no saved search results for its queries, skipped.`);
       continue;
     }
-    const articles = await nicheArticles(niche);
+    const articles = await nicheArticles(niche, ctx);
     const stats = scoutNiche(niche, answers, { articles, minShared: settings.minSharedWords ?? 2, blockWords: settings.blockWords ?? [], angles: typeof niche.angles === "string" ? settings.angles?.[niche.angles] ?? null : niche.angles ?? null });
     done.push({ id, niche, stats, verdict: verdict(stats, settings.limits), hasArticles: articles.length > 0 });
   }

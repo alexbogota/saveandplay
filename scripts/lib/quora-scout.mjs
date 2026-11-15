@@ -79,12 +79,12 @@ export function keyWords(text) {
   return out;
 }
 
-// Words that sit in the titles of a quarter of the articles or more ("steam" on a Steam site) say nothing about one article.
+// Words that sit in the titles of half of the articles or more ("steam" on a Steam site) say nothing about one article.
 export function commonWords(articles) {
   if (articles.length < 4) return new Set();
   const seen = new Map();
   for (const a of articles) for (const w of a.words) seen.set(w, (seen.get(w) ?? 0) + 1);
-  return new Set([...seen].filter(([, n]) => n / articles.length >= 0.25).map(([w]) => w));
+  return new Set([...seen].filter(([, n]) => n / articles.length >= 0.5).map(([w]) => w));
 }
 
 // How many articles have each word in the title.
@@ -101,9 +101,11 @@ export function matchArticle(title, articles, minShared = 2, { common = commonWo
   const q = keyWords(title);
   let best = null;
   for (const a of articles) {
-    const shared = [...a.words].filter((w) => q.has(w) && !common.has(w));
-    const own = articles.length >= 4 && shared.some((w) => counts.get(w) === 1 && topicWords.has(w)); // with a few articles every word is "only here"
-    if ((shared.length >= minShared || own) && (!best || shared.length > best.shared.length)) best = { article: a, shared };
+    const shared = [...a.words].filter((w) => q.has(w));
+    const rare = shared.filter((w) => !common.has(w)); // a word that most titles have ("embroidery" among embroidery classes) cannot pick one of them
+    const own = articles.length >= 4 && rare.some((w) => counts.get(w) === 1 && topicWords.has(w)); // with a few articles every word is "only here"
+    const fits = (shared.length >= minShared && rare.length >= 1) || own;
+    if (fits && (!best || rare.length > best.rare.length || (rare.length === best.rare.length && shared.length > best.shared.length))) best = { article: a, shared, rare };
   }
   return best;
 }
@@ -125,6 +127,25 @@ export function loadArticles(sources, root) {
         out.push({ title, url: `${src.base ?? ''}${slug}/`, words: keyWords(`${title} ${slug}`) });
       }
     }
+  }
+  return out;
+}
+
+// Search results limited to one site -> our material for matching. cfg: { include: "/product/", exclude: ["/ref/"], titleClean: [regex, ...] }.
+// titleClean cuts the wrapping of the site from a title: "Online X Course · Shop" -> "X".
+export function materialsFromResults(results, cfg = {}) {
+  const out = [];
+  const seen = new Set();
+  for (const r of results ?? []) {
+    const url = String(r.url ?? '').replace(/[?#].*$/, '');
+    if (cfg.include && !url.includes(cfg.include)) continue;
+    if ((cfg.exclude ?? []).some((x) => url.includes(x))) continue;
+    if (seen.has(url)) continue;
+    seen.add(url);
+    let title = String(r.title ?? '');
+    for (const p of cfg.titleClean ?? []) title = title.replace(new RegExp(p, 'i'), '');
+    title = title.replace(/\s+/g, ' ').trim();
+    if (title) out.push({ title, url, words: keyWords(title) });
   }
   return out;
 }
@@ -224,12 +245,12 @@ export function renderReport(niches, { date, source, top = 20 } = {}) {
     '',
     'Как читать: «вопросов» = сколько РАЗНЫХ вопросов по теме нашлось; «подходят нам» = сколько из них того вида, на который у нас есть чем ответить («как сделать»: уроки и курсы; «где взять»: каталог; «можно ли продавать»: лицензии), один вопрос может попасть в два вида, такие стоят в списке первыми; «доля» = какая часть всех найденных страниц оказалась вопросами по теме (остальное: чужие темы, рекламные «Spaces», повторы). Чем выше доля, тем плотнее ниша. Просмотры вопросов программа не видит. Пороги грубые: сравнивайте ниши между собой.',
     '',
-    '| Ниша | Запросов | Вопросов | Подходят нам (по видам вопроса) | Доля | Запросов с 3+ вопросами | Рекламных Spaces | Есть наша статья | Вывод |',
+    '| Ниша | Запросов | Вопросов | Подходят нам (по видам вопроса) | Доля | Запросов с 3+ вопросами | Рекламных Spaces | Есть наш материал | Вывод |',
     '|---|---|---|---|---|---|---|---|---|',
   ];
   for (const n of niches) {
     const s = n.stats;
-    lines.push(`| ${n.niche.name ?? n.id} | ${s.queries} | ${s.unique} | ${s.focused === null ? "не задано" : `${s.focused} (${Object.entries(s.angles).map(([n, c]) => `${n}: ${c}`).join(", ")})`} | ${pct(s.share)} | ${s.queriesWithQuestions} из ${s.queries} | ${s.spaces} | ${n.hasArticles ? `${s.withArticle} из ${s.unique}` : 'статьи не подключены'} | ${verdictLabel(n.verdict)} |`);
+    lines.push(`| ${n.niche.name ?? n.id} | ${s.queries} | ${s.unique} | ${s.focused === null ? "не задано" : `${s.focused} (${Object.entries(s.angles).map(([n, c]) => `${n}: ${c}`).join(", ")})`} | ${pct(s.share)} | ${s.queriesWithQuestions} из ${s.queries} | ${s.spaces} | ${n.hasArticles ? `${s.withArticle} из ${s.unique}` : 'материал не подключён'} | ${verdictLabel(n.verdict)} |`);
   }
   for (const n of niches) {
     const s = n.stats;
@@ -243,7 +264,7 @@ export function renderReport(niches, { date, source, top = 20 } = {}) {
     for (const p of s.perQuery) lines.push(`- ${p.fit} из ${p.results}: ${p.query}`);
     const shown = s.questions.slice(0, top);
     lines.push('', `Вопросы${s.unique > shown.length ? ` (первые ${shown.length} из ${s.unique})` : ''}:`);
-    for (const q of shown) lines.push(`- ${q.angles?.length ? `(${q.angles.join(", ")}) ` : ""}[${q.title}](${q.url})${q.article ? `\n  наша статья: [${q.article.title}](${q.article.url})` : ''}`);
+    for (const q of shown) lines.push(`- ${q.angles?.length ? `(${q.angles.join(", ")}) ` : ""}[${q.title}](${q.url})${q.article ? `\n  наш материал: [${q.article.title}](${q.article.url})` : ''}`);
   }
   return `${lines.join('\n')}\n`;
 }

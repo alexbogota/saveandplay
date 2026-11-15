@@ -1,5 +1,5 @@
 {
-  "about": "Разведка ниш для Quora: программа scripts/quora-scout.mjs (npm run quora:scout), как читать отчёт: docs/quora-scout.md. Она НЕ открывает Quora, а спрашивает поисковик, какие страницы quora.com находятся по запросам ниши, и считает разные вопросы по теме. Поля: blockWords = слова, с которыми вопрос не берём ни в одной нише (пиратство); stems = начала вопросов, которые подставляются к каждому seed (только для ниш на английском; у ниши на другом языке свои stems или готовые queries); maxQueries = сколько запросов на одну нишу самое большее (один запрос = один поиск из бесплатной тысячи в месяц); resultsPerQuery = сколько страниц просить на запрос (у Tavily до 20); pauseMs = пауза между запросами; minSharedWords = сколько значимых слов должно совпасть у вопроса и заголовка статьи, чтобы считать, что статья отвечает; topQuestions = сколько вопросов показывать в отчёте; limits = грубые пороги вывода: доля вопросов по теме среди всех найденных страниц (strongShare и выше = «вопросов много», mediumShare и выше = «вопросы есть, но не везде», ниже = «вопросов мало»), minQueries = при меньшем числе запросов вывод предварительный. Ниша (niches): name = название для отчёта по-русски; lang = на какой Quora искать: en (по умолчанию, www.quora.com), es, de, fr, pt, it и так далее (тогда запросы и words пишутся на этом языке); queries = готовые запросы; seeds = короткие темы, к ним добавляются stems; words = слова, по которым вопрос считается «по теме» (хватает одного, без учёта регистра, можно часть слова); angles = виды вопросов, на которые у нас есть чем ответить: имя набора из общего списка angles вверху (cf-en, cf-es) или свой набор (название вида и список слов); программа считает вопросы каждого вида («как сделать» = под уроки и курсы, «где взять» = под каталог, «можно ли продавать» = под лицензии), один вопрос может попасть в два вида; blockWords = слова, с которыми вопрос не берём в этой нише; articles = где наши статьи для этой ниши: { dir, base } папка с .md и адрес раздела, { sitemap, include } карта сайта и часть адреса, { list: [{ title, url }] } список вручную; enabled: false выключает нишу. Новая ниша, язык или сайт = новый блок здесь, код не меняется.",
+  "about": "Разведка ниш для Quora: программа scripts/quora-scout.mjs (npm run quora:scout), как читать отчёт: docs/quora-scout.md. Она НЕ открывает Quora, а спрашивает поисковик, какие страницы quora.com находятся по запросам ниши, и считает разные вопросы по теме. Поля: blockWords = слова, с которыми вопрос не берём ни в одной нише (пиратство); stems = начала вопросов, которые подставляются к каждому seed (только для ниш на английском; у ниши на другом языке свои stems или готовые queries); maxQueries = сколько запросов на одну нишу самое большее (один запрос = один поиск из бесплатной тысячи в месяц); resultsPerQuery = сколько страниц просить на запрос (у Tavily до 20); pauseMs = пауза между запросами; minSharedWords = сколько значимых слов должно совпасть у вопроса и заголовка статьи, чтобы считать, что статья отвечает; topQuestions = сколько вопросов показывать в отчёте; limits = грубые пороги вывода: доля вопросов по теме среди всех найденных страниц (strongShare и выше = «вопросов много», mediumShare и выше = «вопросы есть, но не везде», ниже = «вопросов мало»), minQueries = при меньшем числе запросов вывод предварительный. Ниша (niches): name = название для отчёта по-русски; lang = на какой Quora искать: en (по умолчанию, www.quora.com), es, de, fr, pt, it и так далее (тогда запросы и words пишутся на этом языке); queries = готовые запросы; seeds = короткие темы, к ним добавляются stems; words = слова, по которым вопрос считается «по теме» (хватает одного, без учёта регистра, можно часть слова); angles = виды вопросов, на которые у нас есть чем ответить: имя набора из общего списка angles вверху (cf-en, cf-es) или свой набор (название вида и список слов); программа считает вопросы каждого вида («как сделать» = под уроки и курсы, «где взять» = под каталог, «можно ли продавать» = под лицензии), один вопрос может попасть в два вида; blockWords = слова, с которыми вопрос не берём в этой нише; articles = где наши статьи для этой ниши: { dir, base } папка с .md и адрес раздела, { sitemap, include } карта сайта и часть адреса, { list: [{ title, url }] } список вручную; { search, query } материал на сайте, закрытом для программ (классы Creative Fabrica): названия берутся поиском по этому сайту, настройки сайта в articleSources вверху (domain, include = часть адреса страницы материала, exclude, titleClean = что срезать с заголовка); enabled: false выключает нишу. Новая ниша, язык или сайт = новый блок здесь, код не меняется.",
   "blockWords": ["crack", "pirate", "torrent"],
   "angles": {
     "cf-en": {
@@ -19,20 +19,15 @@
   "pauseMs": 1200,
   "minSharedWords": 2,
   "topQuestions": 20,
-  "limits": { "strongShare": 0.55, "mediumShare": 0.3, "minQueries": 3 },
+  "limits": {
+    "strongShare": 0.55,
+    "mediumShare": 0.3,
+    "minQueries": 3
+  },
   "niches": {
     "crafts-digital": {
       "name": "Творчество и цифровые товары (темы Creative Fabrica), общий срез",
-      "queries": [
-        "is Creative Fabrica worth it legit subscription",
-        "where to get SVG files for Cricut commercial use",
-        "fonts with commercial license for selling products Etsy",
-        "machine embroidery designs download file format beginner",
-        "how to make and sell digital planners printables",
-        "can I sell things made from a crochet pattern I bought",
-        "sublimation designs tumblers t-shirts where to find how to start",
-        "print on demand designs can I use purchased graphics commercial license"
-      ],
+      "queries": ["is Creative Fabrica worth it legit subscription", "where to get SVG files for Cricut commercial use", "fonts with commercial license for selling products Etsy", "machine embroidery designs download file format beginner", "how to make and sell digital planners printables", "can I sell things made from a crochet pattern I bought", "sublimation designs tumblers t-shirts where to find how to start", "print on demand designs can I use purchased graphics commercial license"],
       "words": ["creative fabrica", "svg", "cricut", "silhouette", "font", "typeface", "embroider", "planner", "printable", "crochet", "knitting", "pattern", "sublimation", "tumbler", "print-on-demand", "print on demand", "shirt", "design", "graphic", "license", "licensing", "commercial", "etsy", "digital product", "canva", "procreate", "coloring", "kdp", "clipart", "sticker"],
       "angles": "cf-en",
       "blockWords": ["adobe creative cloud", "creative cloud"],
@@ -41,46 +36,56 @@
     "crafts-digital-es": {
       "name": "Темы Creative Fabrica на испанском (es.quora.com)",
       "lang": "es",
-      "queries": [
-        "fuentes tipográficas con licencia comercial para vender productos",
-        "puedo vender cosas tejidas a crochet hechas con un patrón de otra persona",
-        "cómo crear y vender planners digitales imprimibles en Etsy"
-      ],
+      "queries": ["fuentes tipográficas con licencia comercial para vender productos", "puedo vender cosas tejidas a crochet hechas con un patrón de otra persona", "cómo crear y vender planners digitales imprimibles en Etsy"],
       "angles": "cf-es",
       "words": ["font", "tipograf", "licencia", "derechos de autor", "crochet", "tejid", "tejer", "patron", "patrón", "amigurumi", "planner", "imprimible", "etsy", "diseños", "productos digitales", "arte digital", "manualidad", "sublimaci", "bordado", "estampa", "vectorial", "printify"],
       "articles": []
     },
     "cf-fonts": {
-      "name": "CF: шрифты и лицензии",
+      "name": "CF каталог: шрифты и лицензии",
       "angles": "cf-en",
       "queries": ["fonts with commercial license for selling products Etsy", "can I use a free font on products I sell"],
       "seeds": ["font license for a logo"],
       "words": ["font", "typeface", "typography", "license", "licensing"],
-      "articles": []
+      "articles": [],
+      "maxQueries": 6
     },
     "cf-graphics-pod": {
-      "name": "CF: графика для print-on-demand и футболок",
+      "name": "CF каталог: графика для print-on-demand и футболок",
       "angles": "cf-en",
       "queries": ["print on demand designs can I use purchased graphics commercial license", "where to buy t-shirt designs with commercial license"],
       "seeds": ["clipart commercial use"],
       "words": ["print-on-demand", "print on demand", "shirt", "design", "graphic", "clipart", "license", "commercial", "redbubble", "printful", "merch"],
-      "articles": []
+      "articles": [],
+      "maxQueries": 6
     },
     "cf-svg-cutting": {
-      "name": "CF: SVG для Cricut и Silhouette, лазерная резка",
+      "name": "CF классы: Cricut и резка",
       "angles": "cf-en",
       "queries": ["where to get SVG files for Cricut commercial use", "can I sell items made with Cricut Design Space images"],
       "seeds": ["laser cut files"],
       "words": ["svg", "cricut", "silhouette", "cut file", "laser", "glowforge", "vinyl", "decal"],
-      "articles": []
+      "articles": [
+        {
+          "search": "cf-classes",
+          "query": "Cricut course"
+        }
+      ],
+      "maxQueries": 6
     },
     "cf-embroidery": {
-      "name": "CF: машинная вышивка",
+      "name": "CF классы: вышивка (Embroidery)",
       "angles": "cf-en",
       "queries": ["machine embroidery designs download file format beginner", "can I sell items made with purchased embroidery designs"],
       "seeds": ["embroidery machine designs"],
       "words": ["embroider", "digitiz", "pes", "dst", "stitch"],
-      "articles": []
+      "articles": [
+        {
+          "search": "cf-classes",
+          "query": "embroidery course"
+        }
+      ],
+      "maxQueries": 6
     },
     "cf-planners-printables": {
       "name": "CF: планеры и печатные шаблоны",
@@ -88,23 +93,41 @@
       "queries": ["how to make and sell digital planners printables", "can I sell printables made with Canva templates"],
       "seeds": ["digital planner"],
       "words": ["planner", "printable", "journal", "template", "canva", "habit tracker", "pdf", "etsy", "digital product"],
-      "articles": []
+      "articles": [
+        {
+          "search": "cf-classes",
+          "query": "digital planner course"
+        }
+      ],
+      "maxQueries": 6
     },
     "cf-crochet-knitting": {
-      "name": "CF: вязание, схемы и продажа готовых вещей",
+      "name": "CF классы: вязание (Crochet)",
       "angles": "cf-en",
       "queries": ["can I sell things made from a crochet pattern I bought", "how to sell crochet patterns online"],
       "seeds": ["amigurumi patterns"],
       "words": ["crochet", "knit", "amigurumi", "pattern", "yarn"],
-      "articles": []
+      "articles": [
+        {
+          "search": "cf-classes",
+          "query": "crochet course"
+        }
+      ],
+      "maxQueries": 6
     },
     "cf-sublimation": {
-      "name": "CF: сублимация, кружки и термосы",
+      "name": "CF классы: печать и сублимация (Printing & Sublimation)",
       "angles": "cf-en",
       "queries": ["sublimation designs tumblers t-shirts where to find how to start", "how to start a sublimation business at home"],
       "seeds": ["sublimation designs"],
       "words": ["sublimation", "tumbler", "mug", "heat press", "shirt", "dtf"],
-      "articles": []
+      "articles": [
+        {
+          "search": "cf-classes",
+          "query": "sublimation course"
+        }
+      ],
+      "maxQueries": 6
     },
     "cf-coloring-kdp": {
       "name": "CF: раскраски и книги для Amazon KDP",
@@ -112,38 +135,55 @@
       "queries": ["can I use purchased coloring pages in a book I sell on Amazon KDP", "how to make a coloring book to sell on Amazon"],
       "seeds": ["KDP low content books"],
       "words": ["coloring", "colouring", "kdp", "low content", "low-content", "activity book", "puzzle book", "journal", "notebook", "amazon"],
-      "articles": []
+      "articles": [
+        {
+          "search": "cf-classes",
+          "query": "KDP coloring book course"
+        }
+      ],
+      "maxQueries": 6
     },
     "cf-stickers-procreate": {
-      "name": "CF: стикеры, кисти Procreate, цифровая бумага",
+      "name": "CF классы: рисование, Procreate, стикеры (Illustrating)",
       "angles": "cf-en",
       "queries": ["how to make and sell stickers designs commercial use", "where to get Procreate brushes commercial use"],
       "seeds": ["digital paper scrapbooking"],
       "words": ["sticker", "procreate", "brush", "digital paper", "scrapbook", "clipart", "goodnotes"],
-      "articles": []
+      "articles": [
+        {
+          "search": "cf-classes",
+          "query": "Procreate course"
+        }
+      ],
+      "maxQueries": 6
     },
     "old-pc-games": {
       "name": "Старые игры на новом Windows (saveandplay)",
-      "queries": [
-        "how to run old PC games on Windows 11",
-        "old CD game won't install Windows 11 SafeDisc SecuROM 16-bit installer"
-      ],
+      "queries": ["how to run old PC games on Windows 11", "old CD game won't install Windows 11 SafeDisc SecuROM 16-bit installer"],
       "seeds": ["play old DOS games on a modern PC"],
       "words": ["old", "older", "windows", "dos", "cd", "disc", "16-bit", "retro", "classic", "90s", "1998", "2002"],
-      "articles": [{ "dir": "src/pages/guides", "base": "https://saveandplay.com/guides/" }]
+      "articles": [
+        {
+          "dir": "src/pages/guides",
+          "base": "https://saveandplay.com/guides/"
+        }
+      ]
     },
     "game-servers": {
       "name": "Серверы и игра вместе (saveandplay)",
-      "queries": [
-        "do I need a dedicated server to play with friends Valheim Palworld Enshrouded",
-        "how much does it cost to host a game server for friends"
-      ],
+      "queries": ["do I need a dedicated server to play with friends Valheim Palworld Enshrouded", "how much does it cost to host a game server for friends"],
       "seeds": ["host a Minecraft server for friends"],
       "words": ["server", "host", "multiplayer", "lan", "play with friends"],
       "blockWords": ["concurrent", "active users", "3000 players", "indie multiplayer game", "online gaming platforms", "call of duty"],
       "articles": [
-        { "dir": "src/pages/servers", "base": "https://saveandplay.com/servers/" },
-        { "dir": "src/pages/guides", "base": "https://saveandplay.com/guides/" }
+        {
+          "dir": "src/pages/servers",
+          "base": "https://saveandplay.com/servers/"
+        },
+        {
+          "dir": "src/pages/guides",
+          "base": "https://saveandplay.com/guides/"
+        }
       ]
     },
     "game-subscriptions": {
@@ -151,21 +191,226 @@
       "queries": ["is Xbox Game Pass for PC worth it compared to buying games"],
       "seeds": ["PC Game Pass"],
       "words": ["game pass", "subscription", "xbox"],
-      "articles": [{ "dir": "src/pages/guides", "base": "https://saveandplay.com/guides/" }]
+      "articles": [
+        {
+          "dir": "src/pages/guides",
+          "base": "https://saveandplay.com/guides/"
+        }
+      ]
     },
     "low-end-pc": {
       "name": "Игры на слабом ПК без видеокарты (saveandplay)",
       "queries": ["can I play PC games without a graphics card integrated graphics 2026"],
       "seeds": ["games for a low-end PC"],
       "words": ["integrated", "graphics", "gpu", "intel", "low-end", "low spec", "low-spec", "laptop"],
-      "articles": [{ "dir": "src/pages/guides", "base": "https://saveandplay.com/guides/" }]
+      "articles": [
+        {
+          "dir": "src/pages/guides",
+          "base": "https://saveandplay.com/guides/"
+        }
+      ]
     },
     "steam-account": {
       "name": "Аккаунт Steam: баны и права на игры (saveandplay)",
       "queries": ["what happens to my Steam games if my account is banned or Steam shuts down"],
       "seeds": ["Steam account banned"],
       "words": ["steam", "ban", "banned", "account", "vac"],
-      "articles": [{ "dir": "src/pages/guides", "base": "https://saveandplay.com/guides/" }]
+      "articles": [
+        {
+          "dir": "src/pages/guides",
+          "base": "https://saveandplay.com/guides/"
+        }
+      ]
+    },
+    "cf-paper-crafting": {
+      "name": "CF классы: бумага и открытки (Paper Crafting)",
+      "angles": "cf-en",
+      "maxQueries": 6,
+      "queries": ["how to start paper crafting card making for beginners", "where to get templates for paper crafts"],
+      "seeds": ["card making"],
+      "words": ["paper", "card making", "cardmaking", "origami", "quilling", "greeting card", "papercraft"],
+      "articles": [
+        {
+          "search": "cf-classes",
+          "query": "paper crafting course"
+        }
+      ]
+    },
+    "cf-resin": {
+      "name": "CF классы: эпоксидная смола (Resin)",
+      "angles": "cf-en",
+      "maxQueries": 6,
+      "queries": ["how to start making resin art for beginners", "can I sell resin crafts I make at home"],
+      "seeds": ["epoxy resin crafts"],
+      "words": ["resin", "epoxy"],
+      "articles": [
+        {
+          "search": "cf-classes",
+          "query": "resin course"
+        }
+      ]
+    },
+    "cf-macrame": {
+      "name": "CF классы: макраме (Macramé)",
+      "angles": "cf-en",
+      "maxQueries": 6,
+      "queries": ["how to learn macrame for beginners", "can I sell macrame items made from patterns"],
+      "seeds": ["macrame patterns"],
+      "words": ["macrame", "macramé", "knot"],
+      "articles": [
+        {
+          "search": "cf-classes",
+          "query": "macrame course"
+        }
+      ]
+    },
+    "cf-painting": {
+      "name": "CF классы: живопись (Painting)",
+      "angles": "cf-en",
+      "maxQueries": 6,
+      "queries": ["how to start painting with watercolor for beginners", "how to learn acrylic painting at home"],
+      "seeds": ["watercolor painting"],
+      "words": ["paint", "watercolor", "watercolour", "acrylic", "gouache"],
+      "articles": [
+        {
+          "search": "cf-classes",
+          "query": "painting course"
+        }
+      ]
+    },
+    "cf-clay": {
+      "name": "CF классы: глина (Clays)",
+      "angles": "cf-en",
+      "maxQueries": 6,
+      "queries": ["how to start making polymer clay crafts for beginners", "can I sell polymer clay earrings I make"],
+      "seeds": ["polymer clay"],
+      "words": ["clay", "pottery", "ceramic"],
+      "articles": [
+        {
+          "search": "cf-classes",
+          "query": "polymer clay course"
+        }
+      ]
+    },
+    "cf-candles-soap": {
+      "name": "CF классы: свечи и мыло (Candles & Soap)",
+      "angles": "cf-en",
+      "maxQueries": 6,
+      "queries": ["how to start making candles at home to sell", "how to make soap at home for beginners"],
+      "seeds": ["candle making"],
+      "words": ["candle", "soap", "wax"],
+      "articles": [
+        {
+          "search": "cf-classes",
+          "query": "candle making course"
+        }
+      ]
+    },
+    "cf-scrapbooking": {
+      "name": "CF классы: скрапбукинг (Scrapbooking)",
+      "angles": "cf-en",
+      "maxQueries": 6,
+      "queries": ["how to start scrapbooking for beginners", "where to get digital scrapbooking paper"],
+      "seeds": ["junk journal"],
+      "words": ["scrapbook", "junk journal", "journal", "album"],
+      "articles": [
+        {
+          "search": "cf-classes",
+          "query": "scrapbooking course"
+        }
+      ]
+    },
+    "cf-doll-making": {
+      "name": "CF классы: куклы и игрушки (Doll Making)",
+      "angles": "cf-en",
+      "maxQueries": 6,
+      "queries": ["how to make a doll at home for beginners", "can I sell handmade dolls made from a pattern"],
+      "seeds": ["amigurumi doll"],
+      "words": ["doll", "amigurumi", "plush", "stuffed", "toy"],
+      "articles": [
+        {
+          "search": "cf-classes",
+          "query": "doll making course"
+        }
+      ]
+    },
+    "cf-jewelry": {
+      "name": "CF классы: украшения (Jewelry Making)",
+      "angles": "cf-en",
+      "maxQueries": 6,
+      "queries": ["how to start making jewelry at home for beginners", "how to sell handmade jewelry online"],
+      "seeds": ["beaded jewelry"],
+      "words": ["jewelry", "jewellery", "bead", "earring", "necklace", "bracelet"],
+      "articles": [
+        {
+          "search": "cf-classes",
+          "query": "jewelry making course"
+        }
+      ]
+    },
+    "cf-woodworking": {
+      "name": "CF классы: работа по дереву и чертежи (Woodworking)",
+      "angles": "cf-en",
+      "maxQueries": 6,
+      "queries": ["how to start woodworking for beginners at home", "where to find woodworking plans"],
+      "seeds": ["woodworking plans"],
+      "words": ["wood", "woodworking", "carpentry", "plans", "laser", "scroll saw"],
+      "articles": [
+        {
+          "search": "cf-classes",
+          "query": "woodworking course"
+        }
+      ]
+    },
+    "cf-sewing": {
+      "name": "CF классы: шитьё (Sewing)",
+      "angles": "cf-en",
+      "maxQueries": 6,
+      "queries": ["how to learn sewing for beginners at home", "can I sell clothes made from a sewing pattern"],
+      "seeds": ["sewing patterns"],
+      "words": ["sew", "sewing", "quilt", "pattern", "fabric"],
+      "articles": [
+        {
+          "search": "cf-classes",
+          "query": "sewing course"
+        }
+      ]
+    },
+    "cf-graphic-design": {
+      "name": "CF классы: графический дизайн (Graphic Design)",
+      "angles": "cf-en",
+      "maxQueries": 6,
+      "queries": ["how to learn graphic design for beginners to sell designs", "how to make designs in Canva to sell"],
+      "seeds": ["Canva templates"],
+      "words": ["graphic design", "canva", "logo", "design", "photoshop", "illustrator", "template"],
+      "articles": [
+        {
+          "search": "cf-classes",
+          "query": "graphic design course"
+        }
+      ]
+    },
+    "cf-etsy-business": {
+      "name": "CF классы: продажи на Etsy и бизнес (Etsy, Business)",
+      "angles": "cf-en",
+      "maxQueries": 6,
+      "queries": ["how to start selling digital products on Etsy", "how to start a craft business from home"],
+      "seeds": ["Etsy shop"],
+      "words": ["etsy", "craft business", "handmade", "digital product", "sell crafts", "shop"],
+      "articles": [
+        {
+          "search": "cf-classes",
+          "query": "Etsy course"
+        }
+      ]
+    }
+  },
+  "articleSources": {
+    "cf-classes": {
+      "domain": "creativefabrica.com",
+      "include": "/product/",
+      "exclude": ["/ref/"],
+      "titleClean": ["^Online ", " Course · Creative Fabrica$", " · Creative Fabrica$", " - Creative Fabrica$"]
     }
   }
 }
