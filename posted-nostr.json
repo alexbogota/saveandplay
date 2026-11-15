@@ -2981,6 +2981,58 @@
             "id": "f44adc73a5c86580bdc34d2716889d71ae2ac629698be8c240483b42f25aea44",
             "sig": "beeb0bdf1cebea848d7b3aadd50f80131e208bf81ecd573d8937ceff45cccaf3c877b0d43fc52a6e2fd028583ec6a130d400125d60ac8a02bba301355eb0e79f"
           }
+        },
+        "article": {
+          "status": "done",
+          "kind": "article",
+          "id": "368fd552b50035236ca7717ebd39eb43d2ddeaca1fca71d3e2f19a35bbc2449d",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "article": "steam-account-security-responsibility",
+          "postedAt": "2026-11-15T21:26:44.000Z",
+          "accepted": [
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [
+            {
+              "url": "wss://relay.damus.io",
+              "reason": "connection failed"
+            }
+          ],
+          "event": {
+            "kind": 1,
+            "created_at": 1794778004,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-article"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://saveandplay.com/og/steam-account-security-responsibility.png",
+                "m image/png",
+                "alt Diagram: three lines from Steam's Subscriber Agreement. Section 2.C: you are responsible for your password and computer security, and must tell Valve without delay. Section 3.B: you are responsible for purchases made by you. Section 4.D: Valve need not give notice before ending an account."
+              ]
+            ],
+            "content": "If your Steam account is compromised: what the agreement says you are responsible for\n\nSteam's agreement puts password security and charges on the account holder. What the text says, what the refund page covers, and a five-minute checklist.\n\n#pcgaming #gamedeals\n\nhttps://saveandplay.com/og/steam-account-security-responsibility.png\n\nhttps://saveandplay.com/guides/steam-account-security-responsibility/?utm_source=nostr-prices&utm_medium=social&utm_campaign=steam-account-security-responsibility",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "368fd552b50035236ca7717ebd39eb43d2ddeaca1fca71d3e2f19a35bbc2449d",
+            "sig": "b87ecdfd52f33911274a53b6a41f1a2db5561b386b9a2c6377838d88813bccc2dc7920a4aefa5ce7e0498b9383b901826199f29d68d79aa76928078c81959094"
+          }
         }
       }
     }
@@ -3062,6 +3114,10 @@
       "delisted-steam-games-what-you-keep": {
         "day": "2026-11-13",
         "id": "5dcead428df747f477ba2a5def5e8362a5767a8d4934fad807d22b9c95e9f637"
+      },
+      "steam-account-security-responsibility": {
+        "day": "2026-11-15",
+        "id": "368fd552b50035236ca7717ebd39eb43d2ddeaca1fca71d3e2f19a35bbc2449d"
       }
     }
   },
