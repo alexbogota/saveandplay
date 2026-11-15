@@ -144,7 +144,10 @@ export function articlesFromSitemap(xml, { include } = {}) {
 }
 
 // raw: [{ query, results: [{ title, url }] }] for one niche -> the numbers and the list of questions.
-export function scoutNiche(niche, raw, { articles = [], minShared = 2, blockWords = [] } = {}) {
+// angles: { "как сделать": [words], "где взять": [words], ... } = the kinds of question we can answer with our material.
+// A question may fit several. Old settings with focusWords still work as one angle.
+export function scoutNiche(niche, raw, { articles = [], minShared = 2, blockWords = [], angles = null } = {}) {
+  const angleSets = Object.entries(angles ?? (niche.focusWords?.length ? { "в цель": niche.focusWords } : {}));
   const common = commonWords(articles);
   const titleCounts = wordCounts(articles);
   const topicWords = keyWords((niche.words ?? []).join(" "));
@@ -175,8 +178,9 @@ export function scoutNiche(niche, raw, { articles = [], minShared = 2, blockWord
   const questions = [...byKey.values()]
     .map((q) => {
       const m = articles.length ? matchArticle(q.title, articles, minShared, { common, counts: titleCounts, topicWords }) : null;
-      const focus = (niche.focusWords ?? []).some((w) => q.title.toLowerCase().includes(w.toLowerCase()));
-      return { ...q, focus, article: m ? { title: m.article.title, url: m.article.url, shared: m.shared } : null };
+      const low = q.title.toLowerCase();
+      const fits = angleSets.filter(([, words]) => words.some((w) => low.includes(w.toLowerCase()))).map(([name]) => name);
+      return { ...q, focus: fits.length > 0, angles: fits, article: m ? { title: m.article.title, url: m.article.url, shared: m.shared } : null };
     })
     .sort((a, b) => Number(b.focus) - Number(a.focus) || b.queries.length - a.queries.length || a.title.localeCompare(b.title));
   const queries = raw.length;
@@ -188,7 +192,8 @@ export function scoutNiche(niche, raw, { articles = [], minShared = 2, blockWord
     share: counts.results ? questions.length / counts.results : 0,
     queriesWithQuestions: perQuery.filter((p) => p.fit >= 3).length,
     withArticle: questions.filter((q) => q.article).length,
-    focused: niche.focusWords?.length ? questions.filter((q) => q.focus).length : null, // questions that hit the exact angle of the niche
+    focused: angleSets.length ? questions.filter((q) => q.focus).length : null, // questions that fit at least one angle
+    angles: Object.fromEntries(angleSets.map(([name]) => [name, questions.filter((q) => q.angles.includes(name)).length])),
     perQuery,
   };
 }
@@ -217,14 +222,14 @@ export function renderReport(niches, { date, source, top = 20 } = {}) {
     '',
     `Источник поиска: ${source}. Саму Quora программа не открывает: она смотрит, какие страницы quora.com находит поисковик по запросам ниши.`,
     '',
-    'Как читать: «вопросов» = сколько РАЗНЫХ вопросов по теме нашлось; «точно в цель» = сколько из них про главный угол ниши (слова focusWords, например «можно ли продавать», «лицензия»), такие стоят в списке первыми; «доля» = какая часть всех найденных страниц оказалась вопросами по теме (остальное: чужие темы, рекламные «Spaces», повторы). Чем выше доля, тем плотнее ниша. Просмотры вопросов программа не видит. Пороги грубые: сравнивайте ниши между собой.',
+    'Как читать: «вопросов» = сколько РАЗНЫХ вопросов по теме нашлось; «подходят нам» = сколько из них того вида, на который у нас есть чем ответить («как сделать»: уроки и курсы; «где взять»: каталог; «можно ли продавать»: лицензии), один вопрос может попасть в два вида, такие стоят в списке первыми; «доля» = какая часть всех найденных страниц оказалась вопросами по теме (остальное: чужие темы, рекламные «Spaces», повторы). Чем выше доля, тем плотнее ниша. Просмотры вопросов программа не видит. Пороги грубые: сравнивайте ниши между собой.',
     '',
-    '| Ниша | Запросов | Вопросов | Из них точно в цель | Доля | Запросов с 3+ вопросами | Рекламных Spaces | Есть наша статья | Вывод |',
+    '| Ниша | Запросов | Вопросов | Подходят нам (по видам вопроса) | Доля | Запросов с 3+ вопросами | Рекламных Spaces | Есть наша статья | Вывод |',
     '|---|---|---|---|---|---|---|---|---|',
   ];
   for (const n of niches) {
     const s = n.stats;
-    lines.push(`| ${n.niche.name ?? n.id} | ${s.queries} | ${s.unique} | ${s.focused ?? "не задано"} | ${pct(s.share)} | ${s.queriesWithQuestions} из ${s.queries} | ${s.spaces} | ${n.hasArticles ? `${s.withArticle} из ${s.unique}` : 'статьи не подключены'} | ${verdictLabel(n.verdict)} |`);
+    lines.push(`| ${n.niche.name ?? n.id} | ${s.queries} | ${s.unique} | ${s.focused === null ? "не задано" : `${s.focused} (${Object.entries(s.angles).map(([n, c]) => `${n}: ${c}`).join(", ")})`} | ${pct(s.share)} | ${s.queriesWithQuestions} из ${s.queries} | ${s.spaces} | ${n.hasArticles ? `${s.withArticle} из ${s.unique}` : 'статьи не подключены'} | ${verdictLabel(n.verdict)} |`);
   }
   for (const n of niches) {
     const s = n.stats;
@@ -238,7 +243,7 @@ export function renderReport(niches, { date, source, top = 20 } = {}) {
     for (const p of s.perQuery) lines.push(`- ${p.fit} из ${p.results}: ${p.query}`);
     const shown = s.questions.slice(0, top);
     lines.push('', `Вопросы${s.unique > shown.length ? ` (первые ${shown.length} из ${s.unique})` : ''}:`);
-    for (const q of shown) lines.push(`- ${q.focus ? "(в цель) " : ""}[${q.title}](${q.url})${q.article ? `\n  наша статья: [${q.article.title}](${q.article.url})` : ''}`);
+    for (const q of shown) lines.push(`- ${q.angles?.length ? `(${q.angles.join(", ")}) ` : ""}[${q.title}](${q.url})${q.article ? `\n  наша статья: [${q.article.title}](${q.article.url})` : ''}`);
   }
   return `${lines.join('\n')}\n`;
 }

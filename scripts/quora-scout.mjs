@@ -142,7 +142,7 @@ async function main() {
       continue;
     }
     const articles = await nicheArticles(niche);
-    const stats = scoutNiche(niche, answers, { articles, minShared: settings.minSharedWords ?? 2, blockWords: settings.blockWords ?? [] });
+    const stats = scoutNiche(niche, answers, { articles, minShared: settings.minSharedWords ?? 2, blockWords: settings.blockWords ?? [], angles: typeof niche.angles === "string" ? settings.angles?.[niche.angles] ?? null : niche.angles ?? null });
     done.push({ id, niche, stats, verdict: verdict(stats, settings.limits), hasArticles: articles.length > 0 });
   }
   if (!done.length) fail('Nothing to report.');

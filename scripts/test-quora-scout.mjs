@@ -125,4 +125,8 @@ test('focusWords count the questions that hit the exact angle and put them first
   assert.equal(s.focused, 1);
   assert.equal(s.questions[0].title, 'Where can I download free fonts for commercial use?');
   assert.equal(scoutNiche({ words: ['font'] }, []).focused, null);
+  const two = scoutNiche({ words: ['font'] }, [{ query: 'q', results: [{ title: 'How to find fonts for commercial use - Quora', url: 'https://www.quora.com/How-do-I-find-fonts-for-commercial-use' }, { title: 'What font is this? - Quora', url: 'https://www.quora.com/What-font-is-this' }] }], { angles: { make: ['how to'], sell: ['commercial'] } });
+  assert.deepEqual(two.angles, { make: 1, sell: 1 });
+  assert.equal(two.focused, 1);
+  assert.deepEqual(two.questions[0].angles, ['make', 'sell']);
 });
