@@ -1,69 +1,68 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-11-14T16:51:31.599Z",
-  "builtBy": "commit 341719d, schedule, run #46 attempt 1",
-  "pricesCheckedAt": "2026-11-14T15:58:12.580Z",
+  "generatedAt": "2026-11-15T17:35:04.452Z",
+  "builtBy": "commit 1460e1b, schedule, run #47 attempt 1",
+  "pricesCheckedAt": "2026-11-15T16:30:32.961Z",
   "warnings": [],
   "candidates": [
     {
-      "id": "gog-metro-exodus",
+      "id": "gog-this-war-of-mine",
       "kind": "deal",
-      "title": "Metro Exodus",
+      "title": "This War of Mine",
       "store": "GOG",
       "price": 2.99,
-      "was": 29.99,
-      "discount": 90,
-      "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 39,
-      "priceCheckedAt": "2026-11-14T15:58:12.580Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804",
+      "was": 19.99,
+      "discount": 85,
+      "endsAt": "2026-11-26T09:59:00+02:00",
+      "endsInHours": 254,
+      "priceCheckedAt": "2026-11-15T16:30:32.961Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
       "drminfo": null,
-      "coverAlt": "Cover art for Metro Exodus",
+      "coverAlt": "Cover art for This War of Mine",
       "facts": {
-        "year": 2019,
+        "year": 2014,
         "genres": [
-          "Shooter",
-          "FPP",
-          "Sci-fi"
+          "Action",
+          "Adventure",
+          "Survival"
         ],
         "tags": [
+          "Adventure",
+          "Action",
+          "Indie",
           "Story Rich",
           "Atmospheric",
-          "Sci-fi",
-          "First-Person",
-          "Science",
-          "Horror",
-          "Mature",
-          "Nudity",
+          "Choices Matter",
+          "Management",
           "Survival",
-          "Violent",
-          "Gore",
-          "FPS",
-          "Shooter",
+          "Resource Management",
+          "Real-Time",
+          "War",
+          "Crafting",
+          "Base Building",
+          "Emotional",
           "Post-apocalyptic",
           "Stealth",
-          "Survival Horror",
-          "Psychological Horror"
+          "Psychological"
         ]
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 5,
-      "discountRank": 1,
+      "score": 10.5,
+      "discountRank": 2,
       "sites": 0,
       "mentions": [],
       "history": {
         "days": 28,
         "lowest": true,
-        "since": "2026-10-18"
+        "since": "2026-10-19"
       },
-      "offeredOn": "2026-11-09",
-      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-14",
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-15",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 39 h",
         "lowest price we've tracked (28 days of data)",
-        "deepest-discount rank 1 of 4"
+        "deepest-discount rank 2 of 4"
       ]
     },
     {
@@ -75,8 +74,8 @@
       "was": 24.99,
       "discount": 85,
       "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 39,
-      "priceCheckedAt": "2026-11-14T15:58:12.580Z",
+      "endsInHours": 14,
+      "priceCheckedAt": "2026-11-15T16:30:32.961Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187",
       "drminfo": null,
       "coverAlt": "Cover art for Darkest Dungeon",
@@ -112,16 +111,16 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 36,
+        "days": 37,
         "lowest": true,
         "since": "2026-10-07"
       },
       "offeredOn": "2026-11-10",
-      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-14",
+      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-15",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 39 h",
-        "lowest price we've tracked (36 days of data)",
+        "sale ends in 14 h",
+        "lowest price we've tracked (37 days of data)",
         "deepest-discount rank 3 of 4"
       ]
     },
@@ -134,8 +133,8 @@
       "was": 19.99,
       "discount": 75,
       "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 39,
-      "priceCheckedAt": "2026-11-14T15:58:12.580Z",
+      "endsInHours": 14,
+      "priceCheckedAt": "2026-11-15T16:30:32.961Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
       "drminfo": null,
       "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
@@ -167,16 +166,16 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 36,
+        "days": 37,
         "lowest": true,
         "since": "2026-10-07"
       },
       "offeredOn": "2026-11-13",
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-14",
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-15",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 39 h",
-        "lowest price we've tracked (36 days of data)",
+        "sale ends in 14 h",
+        "lowest price we've tracked (37 days of data)",
         "deepest-discount rank 4 of 4"
       ]
     },
@@ -189,8 +188,8 @@
       "was": 39.99,
       "discount": 90,
       "endsAt": "2026-11-21T09:59:00+02:00",
-      "endsInHours": 159,
-      "priceCheckedAt": "2026-11-14T15:58:12.580Z",
+      "endsInHours": 134,
+      "priceCheckedAt": "2026-11-15T16:30:32.961Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
       "drminfo": null,
       "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
@@ -223,25 +222,33 @@
       "marketplace": false,
       "compareTo": null,
       "score": 3,
-      "discountRank": 2,
+      "discountRank": 1,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 36,
+        "days": 37,
         "lowest": true,
         "since": "2026-10-07"
       },
       "offeredOn": "2026-11-12",
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-14",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-15",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (36 days of data)",
-        "deepest-discount rank 2 of 4"
+        "lowest price we've tracked (37 days of data)",
+        "deepest-discount rank 1 of 4"
       ]
     }
   ],
   "gogNews": [],
   "topical": [
+    {
+      "title": "50 best Steam deals of this week (November 9-15) that you can't miss",
+      "source": "gg.deals News",
+      "link": "https://gg.deals/deal/50-best-steam-deals-of-this-week-november-9-15-that-you-cant-miss/",
+      "t": 1794737460000,
+      "keyword": "deals",
+      "summary": "Not all of these deals will still be available tomorrow, so don't miss this round-up!"
+    },
     {
       "title": "Halo: Campaign Evolved is getting Firefight as a free update, though I'm not sure it'll do much to change the remake's fortunes",
       "source": "PC Gamer",
@@ -260,32 +267,6 @@
     }
   ],
   "topics": [
-    {
-      "headline": "Green Man Gaming Masterful Remasters Bundle Vol. II: 7 Classic Steam Games from $5",
-      "score": 8,
-      "sites": [
-        "gg.deals",
-        "indiegamebundles.com"
-      ],
-      "keywords": [
-        "bundle"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "Green Man Gaming's Masterful Remasters Bundle Volume II offers tiers from $5",
-          "link": "https://gg.deals/bundle/green-man-gaming-masterful-remasters-bundle-volume-ii-cheap-steam-keys/",
-          "published": "2026-11-13T16:33:00.000Z"
-        },
-        {
-          "source": "Indie Game Bundles",
-          "title": "Green Man Gaming Masterful Remasters Bundle Vol. II: 7 Classic Steam Games from $5",
-          "link": "https://www.indiegamebundles.com/green-man-gaming-masterful-remasters-bundle-vol-ii-7-classic-steam-games-from-5/",
-          "published": "2026-11-13T19:21:06.000Z"
-        }
-      ]
-    },
     {
       "headline": "Humble Seriously Unserious Bundle: 13 Steam Games for Just $10",
       "score": 7,
@@ -363,6 +344,30 @@
           "title": "Best Buy launches its Black Friday doorbuster sale, but this is the only deal we’d recommend the weekend before GTA 6",
           "link": "https://www.gamesradar.com/hardware/gaming-controllers/best-buy-launches-its-black-friday-doorbuster-sale-but-this-is-the-only-deal-wed-recommend-the-weekend-before-gta-6/",
           "published": "2026-11-13T17:40:21.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Planeswalker, Netflix's Magic: The Gathering animated series, will have a different art style for each plane",
+      "score": 6,
+      "sites": [
+        "pcgamer.com",
+        "eurogamer.net"
+      ],
+      "keywords": [],
+      "games": [],
+      "items": [
+        {
+          "source": "PC Gamer",
+          "title": "Planeswalker, Netflix's Magic: The Gathering animated series, will have a different art style for each plane",
+          "link": "https://www.pcgamer.com/movies-tv/planeswalker-netflixs-magic-the-gathering-animated-series-will-have-a-different-art-style-for-each-plane/",
+          "published": "2026-11-14T23:50:31.000Z"
+        },
+        {
+          "source": "Eurogamer",
+          "title": "Magic: The Gathering animated series Planeswalker is coming to Netflix in 2027",
+          "link": "https://www.eurogamer.net/magic-the-gathering-planeswalker-netflix-animated-series-2027",
+          "published": "2026-11-14T10:39:50.000Z"
         }
       ]
     }
