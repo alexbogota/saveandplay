@@ -1,0 +1,23 @@
+{
+  "madeAt": "2026-11-15T02:34:17.432Z",
+  "run": "43668389885",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices|coop-2026-11-14|/servers/valheim/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 7,
+      "link": "https://saveandplay.com/servers/valheim/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-11-14",
+      "text": "Valheim has online co-op on Steam.\nA rented server keeps your world online when the host logs off.\n\nhttps://saveandplay.com/servers/valheim/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-11-14\n\n#PCGaming #Valheim\nAd",
+      "approvedFile": "posts-approved-20261114-195505.json",
+      "approvedAt": "2026-11-14T19:55:05.994Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-15T02:34:20.735Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n2cxztpjtt2s",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3n2cxztpjtt2s",
+      "picture": true
+    }
+  ]
+}
