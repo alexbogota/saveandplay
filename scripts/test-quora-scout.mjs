@@ -97,7 +97,32 @@ test('renderReport writes the table and the questions', () => {
   const niche = { name: 'Планеры', words: ['planner'] };
   const stats = scoutNiche(niche, [{ query: 'q1', results: [{ title: 'How to sell a planner - Quora', url: 'https://www.quora.com/How-do-I-sell-a-planner' }] }]);
   const md = renderReport([{ id: 'planners', niche, stats, verdict: 'early', hasArticles: false }], { date: '2026-11-15', source: 'test' });
-  assert.match(md, /\| Планеры \| 1 \| 1 \| 100% \|/);
-  assert.match(md, /статьи не подключены/);
-  assert.match(md, /\[How to sell a planner\]\(https:\/\/www\.quora\.com\/How-do-I-sell-a-planner\)/);
+  assert.ok(md.includes('| Планеры | 1 | 1 | не задано | 100% |'));
+  assert.ok(md.includes('статьи не подключены'));
+  assert.ok(md.includes('[How to sell a planner](https://www.quora.com/How-do-I-sell-a-planner)'));
+});
+
+test('a niche in another language counts the pages of that Quora and skips the English ones', () => {
+  assert.equal(classifyUrl('https://es.quora.com/C%C3%B3mo-vender-en-Etsy', 'es').kind, 'question');
+  assert.equal(classifyUrl('https://es.quora.com/C%C3%B3mo-vender-en-Etsy', 'es').key, 'cómo-vender-en-etsy');
+  assert.equal(classifyUrl('https://www.quora.com/How-do-I-sell-on-Etsy', 'es').kind, 'foreign');
+  assert.equal(classifyUrl('https://de.quora.com/Wie-verkauft-man-auf-Etsy', 'es').kind, 'foreign');
+  assert.equal(classifyUrl('https://es.quora.com/C%C3%B3mo-vender-en-Etsy').kind, 'foreign');
+  assert.ok(keyWords('¿Qué tipografía debo elegir?').has('tipografía'));
+  const s = scoutNiche({ lang: 'es', words: ['etsy'] }, [{ query: 'q', results: [{ title: '¿Cómo vender en Etsy? - Quora', url: 'https://es.quora.com/C%C3%B3mo-vender-en-Etsy' }, { title: 'How to sell on Etsy - Quora', url: 'https://www.quora.com/How-do-I-sell-on-Etsy' }] }]);
+  assert.equal(s.unique, 1);
+  assert.equal(s.foreign, 1);
+  assert.deepEqual(buildQueries({ seeds: ['vender en Etsy'], stems: ['cómo'] }, { stems: ['how to'] }), ['vender en Etsy', 'cómo vender en Etsy']);
+});
+
+test('focusWords count the questions that hit the exact angle and put them first', () => {
+  const niche = { words: ['font'], focusWords: ['commercial', 'license'] };
+  const s = scoutNiche(niche, [{ query: 'q', results: [
+    { title: 'What is the best font for a book? - Quora', url: 'https://www.quora.com/What-is-the-best-font-for-a-book' },
+    { title: 'Where can I download free fonts for commercial use? - Quora', url: 'https://www.quora.com/Where-can-I-download-free-fonts-for-commercial-use' },
+  ] }]);
+  assert.equal(s.unique, 2);
+  assert.equal(s.focused, 1);
+  assert.equal(s.questions[0].title, 'Where can I download free fonts for commercial use?');
+  assert.equal(scoutNiche({ words: ['font'] }, []).focused, null);
 });

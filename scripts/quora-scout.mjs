@@ -42,12 +42,12 @@ function envValue(name) {
 }
 
 // One search limited to quora.com -> [{ title, url }]. Tavily: POST /search, 1 credit for a basic search.
-async function searchTavily(query, key, settings) {
+async function searchTavily(query, key, settings, lang = 'en') {
   for (let attempt = 0; attempt < 2; attempt++) {
     const res = await fetch('https://api.tavily.com/search', {
       method: 'POST',
       headers: { 'content-type': 'application/json', authorization: `Bearer ${key}` },
-      body: JSON.stringify({ query, search_depth: 'basic', max_results: settings.resultsPerQuery ?? 20, include_domains: ['quora.com'] }),
+      body: JSON.stringify({ query, search_depth: 'basic', max_results: settings.resultsPerQuery ?? 20, include_domains: [lang === 'en' ? 'quora.com' : `${lang}.quora.com`] }),
     });
     if (res.status === 429 && attempt === 0) {
       await sleep((Number(res.headers.get('retry-after')) || 20) * 1000);
@@ -103,17 +103,20 @@ async function main() {
   const fresh = args.includes('--fresh');
   const key = from ? null : envValue('TAVILY_API_KEY');
 
+  // Every saved answer by language and query: two niches that share a query pay for it once.
+  const pool = new Map();
+  const poolKey = (lang, query) => `${lang}|${query.toLowerCase()}`;
+  for (const [id, answers] of Object.entries(raw.niches ?? {})) {
+    for (const a of answers) pool.set(poolKey(a.lang ?? settings.niches?.[id]?.lang ?? 'en', a.query), a.results ?? []);
+  }
+
   const done = [];
+  let askedFor = 0;
   for (const [id, niche] of niches) {
+    const lang = niche.lang ?? 'en';
     const queries = buildQueries(niche, settings);
-    let answers = raw.niches[id] ?? [];
-    if (from) {
-      if (!answers.length) {
-        console.log(`${id}: no saved results in ${from}, skipped.`);
-        continue;
-      }
-    } else {
-      const missing = queries.filter((q) => fresh || !answers.some((a) => a.query === q));
+    if (!from) {
+      const missing = queries.filter((q) => fresh || !pool.has(poolKey(lang, q)));
       if (missing.length && !key) {
         fail(
           `No search key. Get a free one at tavily.com (1,000 searches a month, no card), add the line TAVILY_API_KEY=... to the .env file in the project folder and run again.\nThis run needs ${missing.length} searches for "${id}".`,
@@ -121,17 +124,22 @@ async function main() {
       }
       for (const query of missing) {
         try {
-          const results = await searchTavily(query, key, settings);
-          answers = [...answers.filter((a) => a.query !== query), { query, results }];
+          const results = await searchTavily(query, key, settings, lang);
+          askedFor++;
+          pool.set(poolKey(lang, query), results);
+          raw.niches[id] = [...(raw.niches[id] ?? []).filter((a) => a.query !== query), { query, lang, results }];
+          writeFileSync(rawFile, `${JSON.stringify(raw, null, 1)}\n`);
           console.log(`  ${id}: ${results.length} pages for "${query}"`);
         } catch (e) {
           console.log(`  ${id}: "${query}" failed: ${e.message}`);
         }
-        raw.niches[id] = answers;
-        writeFileSync(rawFile, `${JSON.stringify(raw, null, 1)}\n`);
         await sleep(settings.pauseMs ?? 1200);
       }
-      answers = answers.filter((a) => queries.includes(a.query));
+    }
+    const answers = queries.filter((q) => pool.has(poolKey(lang, q))).map((query) => ({ query, results: pool.get(poolKey(lang, query)) }));
+    if (!answers.length) {
+      console.log(`${id}: no saved search results for its queries, skipped.`);
+      continue;
     }
     const articles = await nicheArticles(niche);
     const stats = scoutNiche(niche, answers, { articles, minShared: settings.minSharedWords ?? 2, blockWords: settings.blockWords ?? [] });
@@ -146,6 +154,7 @@ async function main() {
     const s = n.stats;
     console.log(`${n.id}: ${s.unique} questions from ${s.queries} searches, share ${Math.round(s.share * 100)}%, ${n.hasArticles ? `${s.withArticle} have our article` : 'no articles connected'} -> ${verdictLabel(n.verdict)}`);
   }
+  if (askedFor) console.log(`Searches used in this run: ${askedFor}.`);
   console.log(`Report: ${reportFile}`);
 }
 

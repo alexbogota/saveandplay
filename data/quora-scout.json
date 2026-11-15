@@ -1,5 +1,5 @@
 {
-  "about": "Разведка ниш для Quora: программа scripts/quora-scout.mjs (npm run quora:scout), как читать отчёт: docs/quora-scout.md. Она НЕ открывает Quora, а спрашивает поисковик, какие страницы quora.com находятся по запросам ниши, и считает разные вопросы по теме. Поля: stems = начала вопросов, которые подставляются к каждому seed; maxQueries = сколько запросов на одну нишу самое большее (один запрос = один поиск из бесплатной тысячи в месяц); resultsPerQuery = сколько страниц просить на запрос (у Tavily до 20); pauseMs = пауза между запросами; minSharedWords = сколько значимых слов должно совпасть у вопроса и статьи, чтобы считать, что статья отвечает; topQuestions = сколько вопросов показывать в отчёте; limits = грубые пороги вывода: доля вопросов по теме среди всех найденных страниц (strongShare и выше = «вопросов много», mediumShare и выше = «вопросы есть, но не везде», ниже = «вопросов мало»), minQueries = при меньшем числе запросов «много» не пишем. Ниша (niches): name = название для отчёта по-русски; queries = готовые запросы по-английски; seeds = короткие темы, к ним добавляются stems; words = слова, по которым вопрос считается «по теме» (хватает одного, без учёта регистра); blockWords = слова, с которыми вопрос не берём (у ниши свои, а общий список blockWords вверху действует на все ниши: пиратство не берём); articles = где наши статьи для этой ниши: { dir, base } папка с .md и адрес раздела, { sitemap, include } карта сайта и часть адреса, { list: [{ title, url }] } список вручную; enabled: false выключает нишу. Новая ниша или новый сайт = новый блок здесь, код не меняется.",
+  "about": "Разведка ниш для Quora: программа scripts/quora-scout.mjs (npm run quora:scout), как читать отчёт: docs/quora-scout.md. Она НЕ открывает Quora, а спрашивает поисковик, какие страницы quora.com находятся по запросам ниши, и считает разные вопросы по теме. Поля: blockWords = слова, с которыми вопрос не берём ни в одной нише (пиратство); stems = начала вопросов, которые подставляются к каждому seed (только для ниш на английском; у ниши на другом языке свои stems или готовые queries); maxQueries = сколько запросов на одну нишу самое большее (один запрос = один поиск из бесплатной тысячи в месяц); resultsPerQuery = сколько страниц просить на запрос (у Tavily до 20); pauseMs = пауза между запросами; minSharedWords = сколько значимых слов должно совпасть у вопроса и заголовка статьи, чтобы считать, что статья отвечает; topQuestions = сколько вопросов показывать в отчёте; limits = грубые пороги вывода: доля вопросов по теме среди всех найденных страниц (strongShare и выше = «вопросов много», mediumShare и выше = «вопросы есть, но не везде», ниже = «вопросов мало»), minQueries = при меньшем числе запросов вывод предварительный. Ниша (niches): name = название для отчёта по-русски; lang = на какой Quora искать: en (по умолчанию, www.quora.com), es, de, fr, pt, it и так далее (тогда запросы и words пишутся на этом языке); queries = готовые запросы; seeds = короткие темы, к ним добавляются stems; words = слова, по которым вопрос считается «по теме» (хватает одного, без учёта регистра, можно часть слова); focusWords = слова главного угла ниши (например «можно ли продавать», «лицензия»): программа отдельно считает вопросы с ними, это и есть вопросы, под которые ответ ведёт к нашему товару; blockWords = слова, с которыми вопрос не берём в этой нише; articles = где наши статьи для этой ниши: { dir, base } папка с .md и адрес раздела, { sitemap, include } карта сайта и часть адреса, { list: [{ title, url }] } список вручную; enabled: false выключает нишу. Новая ниша, язык или сайт = новый блок здесь, код не меняется.",
   "blockWords": ["crack", "pirate", "torrent"],
   "stems": ["how to", "is it worth", "can I", "where to find", "best"],
   "maxQueries": 12,
@@ -10,7 +10,7 @@
   "limits": { "strongShare": 0.55, "mediumShare": 0.3, "minQueries": 3 },
   "niches": {
     "crafts-digital": {
-      "name": "Творчество и цифровые товары (темы Creative Fabrica)",
+      "name": "Творчество и цифровые товары (темы Creative Fabrica), общий срез",
       "queries": [
         "is Creative Fabrica worth it legit subscription",
         "where to get SVG files for Cricut commercial use",
@@ -21,9 +21,93 @@
         "sublimation designs tumblers t-shirts where to find how to start",
         "print on demand designs can I use purchased graphics commercial license"
       ],
-      "seeds": ["Procreate brushes", "KDP coloring book interior"],
       "words": ["creative fabrica", "svg", "cricut", "silhouette", "font", "typeface", "embroider", "planner", "printable", "crochet", "knitting", "pattern", "sublimation", "tumbler", "print-on-demand", "print on demand", "shirt", "design", "graphic", "license", "licensing", "commercial", "etsy", "digital product", "canva", "procreate", "coloring", "kdp", "clipart", "sticker"],
+      "focusWords": ["license", "licens", "commercial", "copyright", "legal", "allowed", "can i sell", "can i use", "can i make", "can i print", "infring", "royalt"],
       "blockWords": ["adobe creative cloud", "creative cloud"],
+      "articles": []
+    },
+    "crafts-digital-es": {
+      "name": "Темы Creative Fabrica на испанском (es.quora.com)",
+      "lang": "es",
+      "queries": [
+        "fuentes tipográficas con licencia comercial para vender productos",
+        "puedo vender cosas tejidas a crochet hechas con un patrón de otra persona",
+        "cómo crear y vender planners digitales imprimibles en Etsy"
+      ],
+      "focusWords": ["licencia", "derechos", "legal", "comercial", "puedo vender", "puedo usar", "infringir"],
+      "words": ["font", "tipograf", "licencia", "derechos de autor", "crochet", "tejid", "tejer", "patron", "patrón", "amigurumi", "planner", "imprimible", "etsy", "diseños", "productos digitales", "arte digital", "manualidad", "sublimaci", "bordado", "estampa", "vectorial", "printify"],
+      "articles": []
+    },
+    "cf-fonts": {
+      "name": "CF: шрифты и лицензии",
+      "focusWords": ["license", "licens", "commercial", "copyright", "legal", "allowed", "can i sell", "can i use", "can i make", "can i print", "infring", "royalt"],
+      "queries": ["fonts with commercial license for selling products Etsy", "can I use a free font on products I sell"],
+      "seeds": ["font license for a logo"],
+      "words": ["font", "typeface", "typography", "license", "licensing"],
+      "articles": []
+    },
+    "cf-graphics-pod": {
+      "name": "CF: графика для print-on-demand и футболок",
+      "focusWords": ["license", "licens", "commercial", "copyright", "legal", "allowed", "can i sell", "can i use", "can i make", "can i print", "infring", "royalt"],
+      "queries": ["print on demand designs can I use purchased graphics commercial license", "where to buy t-shirt designs with commercial license"],
+      "seeds": ["clipart commercial use"],
+      "words": ["print-on-demand", "print on demand", "shirt", "design", "graphic", "clipart", "license", "commercial", "redbubble", "printful", "merch"],
+      "articles": []
+    },
+    "cf-svg-cutting": {
+      "name": "CF: SVG для Cricut и Silhouette, лазерная резка",
+      "focusWords": ["license", "licens", "commercial", "copyright", "legal", "allowed", "can i sell", "can i use", "can i make", "can i print", "infring", "royalt"],
+      "queries": ["where to get SVG files for Cricut commercial use", "can I sell items made with Cricut Design Space images"],
+      "seeds": ["laser cut files"],
+      "words": ["svg", "cricut", "silhouette", "cut file", "laser", "glowforge", "vinyl", "decal"],
+      "articles": []
+    },
+    "cf-embroidery": {
+      "name": "CF: машинная вышивка",
+      "focusWords": ["license", "licens", "commercial", "copyright", "legal", "allowed", "can i sell", "can i use", "can i make", "can i print", "infring", "royalt"],
+      "queries": ["machine embroidery designs download file format beginner", "can I sell items made with purchased embroidery designs"],
+      "seeds": ["embroidery machine designs"],
+      "words": ["embroider", "digitiz", "pes", "dst", "stitch"],
+      "articles": []
+    },
+    "cf-planners-printables": {
+      "name": "CF: планеры и печатные шаблоны",
+      "focusWords": ["license", "licens", "commercial", "copyright", "legal", "allowed", "can i sell", "can i use", "can i make", "can i print", "infring", "royalt"],
+      "queries": ["how to make and sell digital planners printables", "can I sell printables made with Canva templates"],
+      "seeds": ["digital planner"],
+      "words": ["planner", "printable", "journal", "template", "canva", "habit tracker", "pdf", "etsy", "digital product"],
+      "articles": []
+    },
+    "cf-crochet-knitting": {
+      "name": "CF: вязание, схемы и продажа готовых вещей",
+      "focusWords": ["license", "licens", "commercial", "copyright", "legal", "allowed", "can i sell", "can i use", "can i make", "can i print", "infring", "royalt"],
+      "queries": ["can I sell things made from a crochet pattern I bought", "how to sell crochet patterns online"],
+      "seeds": ["amigurumi patterns"],
+      "words": ["crochet", "knit", "amigurumi", "pattern", "yarn"],
+      "articles": []
+    },
+    "cf-sublimation": {
+      "name": "CF: сублимация, кружки и термосы",
+      "focusWords": ["license", "licens", "commercial", "copyright", "legal", "allowed", "can i sell", "can i use", "can i make", "can i print", "infring", "royalt"],
+      "queries": ["sublimation designs tumblers t-shirts where to find how to start", "how to start a sublimation business at home"],
+      "seeds": ["sublimation designs"],
+      "words": ["sublimation", "tumbler", "mug", "heat press", "shirt", "dtf"],
+      "articles": []
+    },
+    "cf-coloring-kdp": {
+      "name": "CF: раскраски и книги для Amazon KDP",
+      "focusWords": ["license", "licens", "commercial", "copyright", "legal", "allowed", "can i sell", "can i use", "can i make", "can i print", "infring", "royalt"],
+      "queries": ["can I use purchased coloring pages in a book I sell on Amazon KDP", "how to make a coloring book to sell on Amazon"],
+      "seeds": ["KDP low content books"],
+      "words": ["coloring", "colouring", "kdp", "low content", "low-content", "activity book", "puzzle book", "journal", "notebook", "amazon"],
+      "articles": []
+    },
+    "cf-stickers-procreate": {
+      "name": "CF: стикеры, кисти Procreate, цифровая бумага",
+      "focusWords": ["license", "licens", "commercial", "copyright", "legal", "allowed", "can i sell", "can i use", "can i make", "can i print", "infring", "royalt"],
+      "queries": ["how to make and sell stickers designs commercial use", "where to get Procreate brushes commercial use"],
+      "seeds": ["digital paper scrapbooking"],
+      "words": ["sticker", "procreate", "brush", "digital paper", "scrapbook", "clipart", "goodnotes"],
       "articles": []
     },
     "old-pc-games": {

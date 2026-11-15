@@ -12,7 +12,8 @@ const LANGUAGE_HOSTS = new Set(['es', 'fr', 'de', 'it', 'pt', 'jp', 'ja', 'id', 
 const NOT_QUESTIONS = new Set(['profile', 'topic', 'q', 'about', 'search', 'spaces', 'contact', 'careers', 'press', 'answer', 'following', 'notifications', 'settings', 'partners', 'business', 'qemail', 'sitemap', 'tos']);
 
 // { kind: 'question' | 'space' | 'foreign' | 'other', key }: key is the same for every address of one question.
-export function classifyUrl(url) {
+// lang: the Quora the niche looks at: 'en' = www.quora.com, 'es' = es.quora.com and so on. Pages of another language are 'foreign'.
+export function classifyUrl(url, lang = 'en') {
   let u;
   try {
     u = new URL(url);
@@ -23,11 +24,16 @@ export function classifyUrl(url) {
   if (host !== 'quora.com' && !host.endsWith('.quora.com')) return { kind: 'other', key: url };
   const sub = host === 'quora.com' ? 'www' : host.slice(0, -'.quora.com'.length);
   const parts = u.pathname.split('/').filter(Boolean);
-  if (LANGUAGE_HOSTS.has(sub)) return { kind: 'foreign', key: `${host}/${parts[0] ?? ''}`.toLowerCase() };
-  if (sub !== 'www') return { kind: 'space', key: `${host}/${parts[0] ?? ''}`.toLowerCase() };
+  const home = lang === 'en' ? 'www' : lang;
+  if (sub !== home && (LANGUAGE_HOSTS.has(sub) || sub === 'www')) return { kind: 'foreign', key: `${host}/${parts[0] ?? ''}`.toLowerCase() };
+  if (sub !== home) return { kind: 'space', key: `${host}/${parts[0] ?? ''}`.toLowerCase() };
   const first = parts[0] === 'unanswered' ? parts[1] : parts[0];
   if (!first || NOT_QUESTIONS.has(first.toLowerCase()) || !first.includes('-')) return { kind: 'other', key: `${host}/${parts.join('/')}`.toLowerCase() };
-  return { kind: 'question', key: decodeURIComponent(first).toLowerCase() };
+  let key = first;
+  try {
+    key = decodeURIComponent(first);
+  } catch {}
+  return { kind: 'question', key: key.toLowerCase() };
 }
 
 // "How do I ...? - Some Space - Quora" -> "How do I ...?"
@@ -54,7 +60,7 @@ export function buildQueries(niche, settings = {}) {
   for (const q of niche.queries ?? []) add(q);
   for (const seed of niche.seeds ?? []) {
     add(seed);
-    for (const stem of settings.stems ?? []) add(`${stem} ${seed}`);
+    for (const stem of niche.stems ?? settings.stems ?? []) add(`${stem} ${seed}`);
   }
   return out.slice(0, niche.maxQueries ?? settings.maxQueries ?? 12);
 }
@@ -64,7 +70,7 @@ const STOP = new Set('a an the and or but of for to in on at by with from as is 
 // Lowercase words that carry meaning, with a crude plural cut ("games" -> "game").
 export function keyWords(text) {
   const out = new Set();
-  for (const w of String(text ?? '').toLowerCase().match(/[a-z0-9][a-z0-9-]*[a-z0-9]|[a-z0-9]/g) ?? []) {
+  for (const w of String(text ?? '').toLowerCase().match(/[\p{L}\p{N}][\p{L}\p{N}-]*[\p{L}\p{N}]|[\p{L}\p{N}]/gu) ?? []) {
     for (const part of w.split('-')) {
       if (part.length < 3 || STOP.has(part)) continue;
       out.add(part.length > 4 && part.endsWith('s') && !part.endsWith('ss') ? part.slice(0, -1) : part);
@@ -149,7 +155,7 @@ export function scoutNiche(niche, raw, { articles = [], minShared = 2, blockWord
     let fit = 0;
     for (const r of results ?? []) {
       counts.results++;
-      const { kind, key } = classifyUrl(r.url);
+      const { kind, key } = classifyUrl(r.url, niche.lang ?? 'en');
       if (kind !== 'question') {
         counts[kind === 'space' ? 'spaces' : kind === 'foreign' ? 'foreign' : 'other']++;
         continue;
@@ -169,9 +175,10 @@ export function scoutNiche(niche, raw, { articles = [], minShared = 2, blockWord
   const questions = [...byKey.values()]
     .map((q) => {
       const m = articles.length ? matchArticle(q.title, articles, minShared, { common, counts: titleCounts, topicWords }) : null;
-      return { ...q, article: m ? { title: m.article.title, url: m.article.url, shared: m.shared } : null };
+      const focus = (niche.focusWords ?? []).some((w) => q.title.toLowerCase().includes(w.toLowerCase()));
+      return { ...q, focus, article: m ? { title: m.article.title, url: m.article.url, shared: m.shared } : null };
     })
-    .sort((a, b) => b.queries.length - a.queries.length || a.title.localeCompare(b.title));
+    .sort((a, b) => Number(b.focus) - Number(a.focus) || b.queries.length - a.queries.length || a.title.localeCompare(b.title));
   const queries = raw.length;
   return {
     queries,
@@ -181,6 +188,7 @@ export function scoutNiche(niche, raw, { articles = [], minShared = 2, blockWord
     share: counts.results ? questions.length / counts.results : 0,
     queriesWithQuestions: perQuery.filter((p) => p.fit >= 3).length,
     withArticle: questions.filter((q) => q.article).length,
+    focused: niche.focusWords?.length ? questions.filter((q) => q.focus).length : null, // questions that hit the exact angle of the niche
     perQuery,
   };
 }
@@ -209,14 +217,14 @@ export function renderReport(niches, { date, source, top = 20 } = {}) {
     '',
     `Источник поиска: ${source}. Саму Quora программа не открывает: она смотрит, какие страницы quora.com находит поисковик по запросам ниши.`,
     '',
-    'Как читать: «вопросов» = сколько РАЗНЫХ вопросов по теме нашлось; «доля» = какая часть всех найденных страниц оказалась вопросами по теме (остальное: чужие темы, рекламные «Spaces», повторы). Чем выше доля, тем плотнее ниша. Просмотры вопросов программа не видит. Пороги грубые: сравнивайте ниши между собой.',
+    'Как читать: «вопросов» = сколько РАЗНЫХ вопросов по теме нашлось; «точно в цель» = сколько из них про главный угол ниши (слова focusWords, например «можно ли продавать», «лицензия»), такие стоят в списке первыми; «доля» = какая часть всех найденных страниц оказалась вопросами по теме (остальное: чужие темы, рекламные «Spaces», повторы). Чем выше доля, тем плотнее ниша. Просмотры вопросов программа не видит. Пороги грубые: сравнивайте ниши между собой.',
     '',
-    '| Ниша | Запросов | Вопросов | Доля | Запросов с 3+ вопросами | Рекламных Spaces | Есть наша статья | Вывод |',
-    '|---|---|---|---|---|---|---|---|',
+    '| Ниша | Запросов | Вопросов | Из них точно в цель | Доля | Запросов с 3+ вопросами | Рекламных Spaces | Есть наша статья | Вывод |',
+    '|---|---|---|---|---|---|---|---|---|',
   ];
   for (const n of niches) {
     const s = n.stats;
-    lines.push(`| ${n.niche.name ?? n.id} | ${s.queries} | ${s.unique} | ${pct(s.share)} | ${s.queriesWithQuestions} из ${s.queries} | ${s.spaces} | ${n.hasArticles ? `${s.withArticle} из ${s.unique}` : 'статьи не подключены'} | ${verdictLabel(n.verdict)} |`);
+    lines.push(`| ${n.niche.name ?? n.id} | ${s.queries} | ${s.unique} | ${s.focused ?? "не задано"} | ${pct(s.share)} | ${s.queriesWithQuestions} из ${s.queries} | ${s.spaces} | ${n.hasArticles ? `${s.withArticle} из ${s.unique}` : 'статьи не подключены'} | ${verdictLabel(n.verdict)} |`);
   }
   for (const n of niches) {
     const s = n.stats;
@@ -230,7 +238,7 @@ export function renderReport(niches, { date, source, top = 20 } = {}) {
     for (const p of s.perQuery) lines.push(`- ${p.fit} из ${p.results}: ${p.query}`);
     const shown = s.questions.slice(0, top);
     lines.push('', `Вопросы${s.unique > shown.length ? ` (первые ${shown.length} из ${s.unique})` : ''}:`);
-    for (const q of shown) lines.push(`- [${q.title}](${q.url})${q.article ? `\n  наша статья: [${q.article.title}](${q.article.url})` : ''}`);
+    for (const q of shown) lines.push(`- ${q.focus ? "(в цель) " : ""}[${q.title}](${q.url})${q.article ? `\n  наша статья: [${q.article.title}](${q.article.url})` : ''}`);
   }
   return `${lines.join('\n')}\n`;
 }
