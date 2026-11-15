@@ -1,0 +1,17 @@
+{
+  "approvedAt": "2026-11-15T15:53:24.096Z",
+  "items": [
+    {
+      "n": 6,
+      "kind": "article",
+      "platform": "bluesky",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "text": "Windows 11 needs a 64-bit processor, and Microsoft says 64-bit Windows does not support 16-bit programs. That is why some very old game installers never start.\n\nWhat to try for DOS games, old disc games and games that run badly:\nhttps://saveandplay.com/guides/play-old-pc-games-on-windows-11/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-old-games-windows-11\n#PCGaming #GameDeals #RetroGaming",
+      "link": "https://saveandplay.com/guides/play-old-pc-games-on-windows-11/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-old-games-windows-11",
+      "day": null,
+      "key": "prices|article|/guides/play-old-pc-games-on-windows-11/",
+      "notBefore": "2026-11-15T15:53:24.096Z"
+    }
+  ]
+}
