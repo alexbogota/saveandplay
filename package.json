@@ -41,6 +41,8 @@
     "articles:test": "node --test scripts/test-articles.mjs",
     "reddit:find": "node scripts/reddit-find.mjs",
     "reddit:test": "node --test scripts/test-reddit.mjs",
+    "quora:scout": "node scripts/quora-scout.mjs",
+    "quora:scout:test": "node --test scripts/test-quora-scout.mjs",
     "comments:find": "node scripts/comment-candidates.mjs",
     "comments:test": "node --test scripts/test-comments.mjs scripts/test-comments-mastodon.mjs scripts/test-comments-niche.mjs scripts/test-comments-send.mjs",
     "comments:secret": "node scripts/comments-secret.mjs",

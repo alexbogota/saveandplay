@@ -1,0 +1,75 @@
+{
+  "about": "Разведка ниш для Quora: программа scripts/quora-scout.mjs (npm run quora:scout), как читать отчёт: docs/quora-scout.md. Она НЕ открывает Quora, а спрашивает поисковик, какие страницы quora.com находятся по запросам ниши, и считает разные вопросы по теме. Поля: stems = начала вопросов, которые подставляются к каждому seed; maxQueries = сколько запросов на одну нишу самое большее (один запрос = один поиск из бесплатной тысячи в месяц); resultsPerQuery = сколько страниц просить на запрос (у Tavily до 20); pauseMs = пауза между запросами; minSharedWords = сколько значимых слов должно совпасть у вопроса и статьи, чтобы считать, что статья отвечает; topQuestions = сколько вопросов показывать в отчёте; limits = грубые пороги вывода: доля вопросов по теме среди всех найденных страниц (strongShare и выше = «вопросов много», mediumShare и выше = «вопросы есть, но не везде», ниже = «вопросов мало»), minQueries = при меньшем числе запросов «много» не пишем. Ниша (niches): name = название для отчёта по-русски; queries = готовые запросы по-английски; seeds = короткие темы, к ним добавляются stems; words = слова, по которым вопрос считается «по теме» (хватает одного, без учёта регистра); blockWords = слова, с которыми вопрос не берём (у ниши свои, а общий список blockWords вверху действует на все ниши: пиратство не берём); articles = где наши статьи для этой ниши: { dir, base } папка с .md и адрес раздела, { sitemap, include } карта сайта и часть адреса, { list: [{ title, url }] } список вручную; enabled: false выключает нишу. Новая ниша или новый сайт = новый блок здесь, код не меняется.",
+  "blockWords": ["crack", "pirate", "torrent"],
+  "stems": ["how to", "is it worth", "can I", "where to find", "best"],
+  "maxQueries": 12,
+  "resultsPerQuery": 20,
+  "pauseMs": 1200,
+  "minSharedWords": 2,
+  "topQuestions": 20,
+  "limits": { "strongShare": 0.55, "mediumShare": 0.3, "minQueries": 3 },
+  "niches": {
+    "crafts-digital": {
+      "name": "Творчество и цифровые товары (темы Creative Fabrica)",
+      "queries": [
+        "is Creative Fabrica worth it legit subscription",
+        "where to get SVG files for Cricut commercial use",
+        "fonts with commercial license for selling products Etsy",
+        "machine embroidery designs download file format beginner",
+        "how to make and sell digital planners printables",
+        "can I sell things made from a crochet pattern I bought",
+        "sublimation designs tumblers t-shirts where to find how to start",
+        "print on demand designs can I use purchased graphics commercial license"
+      ],
+      "seeds": ["Procreate brushes", "KDP coloring book interior"],
+      "words": ["creative fabrica", "svg", "cricut", "silhouette", "font", "typeface", "embroider", "planner", "printable", "crochet", "knitting", "pattern", "sublimation", "tumbler", "print-on-demand", "print on demand", "shirt", "design", "graphic", "license", "licensing", "commercial", "etsy", "digital product", "canva", "procreate", "coloring", "kdp", "clipart", "sticker"],
+      "blockWords": ["adobe creative cloud", "creative cloud"],
+      "articles": []
+    },
+    "old-pc-games": {
+      "name": "Старые игры на новом Windows (saveandplay)",
+      "queries": [
+        "how to run old PC games on Windows 11",
+        "old CD game won't install Windows 11 SafeDisc SecuROM 16-bit installer"
+      ],
+      "seeds": ["play old DOS games on a modern PC"],
+      "words": ["old", "older", "windows", "dos", "cd", "disc", "16-bit", "retro", "classic", "90s", "1998", "2002"],
+      "articles": [{ "dir": "src/pages/guides", "base": "https://saveandplay.com/guides/" }]
+    },
+    "game-servers": {
+      "name": "Серверы и игра вместе (saveandplay)",
+      "queries": [
+        "do I need a dedicated server to play with friends Valheim Palworld Enshrouded",
+        "how much does it cost to host a game server for friends"
+      ],
+      "seeds": ["host a Minecraft server for friends"],
+      "words": ["server", "host", "multiplayer", "lan", "play with friends"],
+      "blockWords": ["concurrent", "active users", "3000 players", "indie multiplayer game", "online gaming platforms", "call of duty"],
+      "articles": [
+        { "dir": "src/pages/servers", "base": "https://saveandplay.com/servers/" },
+        { "dir": "src/pages/guides", "base": "https://saveandplay.com/guides/" }
+      ]
+    },
+    "game-subscriptions": {
+      "name": "Подписки на игры: Game Pass (saveandplay)",
+      "queries": ["is Xbox Game Pass for PC worth it compared to buying games"],
+      "seeds": ["PC Game Pass"],
+      "words": ["game pass", "subscription", "xbox"],
+      "articles": [{ "dir": "src/pages/guides", "base": "https://saveandplay.com/guides/" }]
+    },
+    "low-end-pc": {
+      "name": "Игры на слабом ПК без видеокарты (saveandplay)",
+      "queries": ["can I play PC games without a graphics card integrated graphics 2026"],
+      "seeds": ["games for a low-end PC"],
+      "words": ["integrated", "graphics", "gpu", "intel", "low-end", "low spec", "low-spec", "laptop"],
+      "articles": [{ "dir": "src/pages/guides", "base": "https://saveandplay.com/guides/" }]
+    },
+    "steam-account": {
+      "name": "Аккаунт Steam: баны и права на игры (saveandplay)",
+      "queries": ["what happens to my Steam games if my account is banned or Steam shuts down"],
+      "seeds": ["Steam account banned"],
+      "words": ["steam", "ban", "banned", "account", "vac"],
+      "articles": [{ "dir": "src/pages/guides", "base": "https://saveandplay.com/guides/" }]
+    }
+  }
+}
