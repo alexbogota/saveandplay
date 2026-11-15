@@ -1,0 +1,55 @@
+{
+  "madeAt": "2026-11-15T15:53:48.762Z",
+  "run": "43732386567",
+  "private": false,
+  "entries": [
+    {
+      "block": "prices",
+      "handle": "saveandplay.com",
+      "n": 1,
+      "uri": "at://did:plc:vfrk72cdig4megv65wvax7nr/app.bsky.feed.post/3n2ceg2kohk2t",
+      "url": "https://bsky.app/profile/catstongue.bsky.social/post/3n2ceg2kohk2t",
+      "author": "catstongue.bsky.social",
+      "text": "Congrats on finishing the main story! Playing it a year after a sale purchase is a very normal backlog pace. Enjoy the side quests and DLC.",
+      "approvedFile": "comments-approved-prices-20261115-153855-20261115-155326.json",
+      "approvedAt": "2026-11-15T15:53:26.857Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-15T15:53:50.156Z",
+      "replyUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n2eephj3rb2i",
+      "replyUrl": "https://bsky.app/profile/saveandplay.com/post/3n2eephj3rb2i"
+    },
+    {
+      "block": "retro",
+      "handle": "retrogamedeals.bsky.social",
+      "n": 1,
+      "uri": "at://did:plc:oa7o5pflkgdlntrmafjwsfyb/app.bsky.feed.post/3n2bf4mq4rk2f",
+      "url": "https://bsky.app/profile/canon-thought.bsky.social/post/3n2bf4mq4rk2f",
+      "author": "canon-thought.bsky.social",
+      "text": "Carmen Sandiego is a classic. American McGee's Alice was quite a jump from those, a much darker take on Wonderland.",
+      "approvedFile": "comments-approved-retro-20261115-153855-20261115-155326.json",
+      "approvedAt": "2026-11-15T15:53:26.991Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-15T15:53:51.214Z",
+      "replyUri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3n2eepijonp2a",
+      "replyUrl": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3n2eepijonp2a"
+    },
+    {
+      "block": "retro",
+      "handle": "retrogamedeals.bsky.social",
+      "n": 2,
+      "uri": "at://did:plc:7auww2l4tv2ej66jad5irbdp/app.bsky.feed.post/3n2ecpivg6c2a",
+      "url": "https://bsky.app/profile/zerohx77.bsky.social/post/3n2ecpivg6c2a",
+      "author": "zerohx77.bsky.social",
+      "text": "Great list. Shining Force II and Phantasy Star IV are both Genesis classics.",
+      "approvedFile": "comments-approved-retro-20261115-153855-20261115-155326.json",
+      "approvedAt": "2026-11-15T15:53:26.991Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-15T15:55:58.391Z",
+      "replyUri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3n2eetbsrxt2s",
+      "replyUrl": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3n2eetbsrxt2s"
+    }
+  ]
+}
