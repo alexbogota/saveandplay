@@ -8,7 +8,7 @@
 //   npm run quora:scout -- --from drafts/quora-scout/raw-2026-11-15.json   build the report from saved search results (no key, no requests)
 //   npm run quora:scout -- --fresh               ask the search again even if today's answers are saved
 //
-// The search needs a free key: tavily.com (1,000 searches a month, no card), the line TAVILY_API_KEY=... in the .env file.
+// The search needs a free key: tavily.com (1,000 searches a month; the sign-up asks for a card to verify it, no charge), the line TAVILY_API_KEY=... in the .env file.
 // One niche costs as many searches as it has queries (12 at most by default).
 // Result: drafts/quora-scout/report-<date>.md and raw-<date>.json (the search answers, so a second run costs nothing).
 
@@ -145,7 +145,7 @@ async function main() {
       const missing = queries.filter((q) => fresh || !pool.has(poolKey(lang, q)));
       if (missing.length && !key) {
         fail(
-          `No search key. Get a free one at tavily.com (1,000 searches a month, no card), add the line TAVILY_API_KEY=... to the .env file in the project folder and run again.\nThis run needs ${missing.length} searches for "${id}".`,
+          `No search key. Get a free one at tavily.com (1,000 searches a month; the sign-up asks for a card to verify it, no charge), add the line TAVILY_API_KEY=... to the .env file in the project folder and run again.\nThis run needs ${missing.length} searches for "${id}".`,
         );
       }
       for (const query of missing) {
