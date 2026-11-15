@@ -8,43 +8,43 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 720,
-      "posts": 30320,
+      "runs": 728,
+      "posts": 30640,
       "fit": 329,
       "last": {
         "posts": 40,
-        "fit": 1,
-        "at": "2026-11-15T15:41:04.587Z"
+        "fit": 0,
+        "at": "2026-11-15T18:49:26.629Z"
       }
     },
     "moreAsk": {
-      "runs": 450,
-      "posts": 4050,
+      "runs": 455,
+      "posts": 4095,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-11-15T15:41:04.587Z"
+        "at": "2026-11-15T18:49:26.629Z"
       }
     },
     "moreRetro": {
-      "runs": 450,
-      "posts": 27680,
-      "fit": 948,
+      "runs": 455,
+      "posts": 28000,
+      "fit": 958,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-15T15:41:04.587Z"
+        "at": "2026-11-15T18:49:26.629Z"
       }
     },
     "morePlaying": {
-      "runs": 450,
-      "posts": 1890,
+      "runs": 455,
+      "posts": 1911,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-11-15T15:41:04.587Z"
+        "at": "2026-11-15T18:49:26.629Z"
       }
     }
   },
@@ -66,24 +66,6 @@
       "isReply": false,
       "origin": "https://hachyderm.io/@javierm/117616770870024729",
       "media": null,
-      "firstSeen": "2026-11-14T22:20:45.906Z"
-    },
-    "https://mastodon.social/@retro_brewz/117616336402009957": {
-      "uri": "https://mastodon.social/@retro_brewz/117616336402009957",
-      "url": "https://mastodon.social/@retro_brewz/117616336402009957",
-      "handle": "retro_brewz@mastodon.social",
-      "name": "Retro Brewz",
-      "text": "What’s your favorite Castlevania on the DS? #Castlevania #RetroGaming #RetroGames #NintendoDS #VideoGames #GamersUnite",
-      "createdAt": "2026-11-14T19:01:07.466Z",
-      "likes": 2,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 8,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "image, no description",
       "firstSeen": "2026-11-14T22:20:45.906Z"
     },
     "https://mastodon.social/@timixretroplays@digipres.club/117615392853592240": {
@@ -141,24 +123,6 @@
       "media": "image: Paul Schindler wearing a pair of red and blue 3D glasses and holding a copy of Infocom's \"Leather Gosesses of Phobos\" open, which he is reading like a book.",
       "firstSeen": "2026-11-15T06:22:58.362Z"
     },
-    "https://mastodon.social/@Dvalin/117620572157537470": {
-      "uri": "https://mastodon.social/@Dvalin/117620572157537470",
-      "url": "https://mastodon.social/@Dvalin/117620572157537470",
-      "handle": "Dvalin@mastodon.social",
-      "name": "Dvalin Gaming",
-      "text": "Blizzard just tweaked the dungeon XP restriction in WoW: Forever. XP nullification now only kicks in when a party member is more than 12 levels above the enemies, saving wide-level-range dungeon runs from getting punished. Fair fix to stop boosting without hurting normal groups, or still too strict? #worldofwarcraft #warcraft #mmo #mmorpg #gaming",
-      "createdAt": "2026-11-15T12:58:19.965Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreGaming",
-      "query": "mmorpg",
-      "score": 7,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "image: Blizzard just tweaked the dungeon XP restriction in WoW: Forever. XP nullification now only kicks in when a party member is more than 12 levels above the enemi…",
-      "firstSeen": "2026-11-15T15:41:04.587Z"
-    },
     "https://mastodon.social/@Gamrok/117620599286691435": {
       "uri": "https://mastodon.social/@Gamrok/117620599286691435",
       "url": "https://mastodon.social/@Gamrok/117620599286691435",
@@ -166,8 +130,8 @@
       "name": "Thomas Leroy 🍣🐈‍⬛",
       "text": "Another World is celebrating its 35th anniversary this month! 🎂 No other game had me so hooked when it came out on Amiga. So much so that I’ve never parted with my copy 🥰 Thank you, Mr. Chahi 🙏 #AnotherWorld #EricChahi #DelphineSoftware #RetroGaming #Amiga #BigBoxGames",
       "createdAt": "2026-11-15T13:05:13.923Z",
-      "likes": 15,
-      "replies": 1,
+      "likes": 16,
+      "replies": 2,
       "group": "moreRetro",
       "query": "retrogaming",
       "score": 6,
@@ -188,7 +152,7 @@
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 4,
+      "score": 3,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -207,13 +171,70 @@
       "replies": 2,
       "group": "moreRetro",
       "query": "retrogames",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
       "origin": "https://retro.pizza/@super/117620178953692769",
       "media": "video, no description",
       "firstSeen": "2026-11-15T15:41:04.587Z"
+    },
+    "https://mastodon.social/@andyvaisey@oldbytes.space/117621743539725584": {
+      "uri": "https://mastodon.social/@andyvaisey@oldbytes.space/117621743539725584",
+      "url": "https://mastodon.social/@andyvaisey@oldbytes.space/117621743539725584",
+      "handle": "andyvaisey@oldbytes.space",
+      "name": "aNdy",
+      "text": "I've begun work on the pre-built scenarios that will accompany CityLab. Here is the terrain for San Francisco Bay. Once the city is in place, there will be a devastating earthquake from which you have to recover. @c64 @EC64 #Commodore #retrogaming #retrogames #8bit #simulation #c64",
+      "createdAt": "2026-11-15T17:56:10.000Z",
+      "likes": 0,
+      "replies": 1,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://oldbytes.space/@andyvaisey/117621743353227294",
+      "media": "image, no description",
+      "firstSeen": "2026-11-15T18:49:26.629Z"
+    },
+    "https://mastodon.social/@Oregon_Pacifist@retro-gaiden.com/117621667615398532": {
+      "uri": "https://mastodon.social/@Oregon_Pacifist@retro-gaiden.com/117621667615398532",
+      "url": "https://mastodon.social/@Oregon_Pacifist@retro-gaiden.com/117621667615398532",
+      "handle": "Oregon_Pacifist@retro-gaiden.com",
+      "name": "Oregon Pacifist",
+      "text": ":megaman_standing: #RetroGaming #VGM #MegaMan",
+      "createdAt": "2026-11-15T17:36:41.000Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 4,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://retro-gaiden.com/@Oregon_Pacifist/117621666739982713",
+      "media": "video, no description",
+      "firstSeen": "2026-11-15T18:49:26.629Z"
+    },
+    "https://mastodon.social/@Oregon_Pacifist@retro-gaiden.com/117621307695165847": {
+      "uri": "https://mastodon.social/@Oregon_Pacifist@retro-gaiden.com/117621307695165847",
+      "url": "https://mastodon.social/@Oregon_Pacifist@retro-gaiden.com/117621307695165847",
+      "handle": "Oregon_Pacifist@retro-gaiden.com",
+      "name": "Oregon Pacifist",
+      "text": "I turned an old side table I got for free into an arcade stick 🕹️ #RetroGaming #Arcade",
+      "createdAt": "2026-11-15T16:05:04.000Z",
+      "likes": 2,
+      "replies": 1,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 4,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://retro-gaiden.com/@Oregon_Pacifist/117621306445913942",
+      "media": "2 images, no description",
+      "firstSeen": "2026-11-15T18:49:26.629Z"
     }
   }
 }

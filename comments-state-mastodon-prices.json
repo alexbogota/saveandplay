@@ -23,23 +23,23 @@
       }
     },
     "backlog": {
-      "runs": 563,
-      "posts": 14334,
+      "runs": 569,
+      "posts": 14487,
       "fit": 3,
       "last": {
         "posts": 24,
         "fit": 0,
-        "at": "2026-11-15T15:40:01.251Z"
+        "at": "2026-11-15T18:48:26.556Z"
       }
     },
     "deck": {
-      "runs": 473,
-      "posts": 22570,
-      "fit": 203,
+      "runs": 478,
+      "posts": 22771,
+      "fit": 206,
       "last": {
         "posts": 40,
         "fit": 2,
-        "at": "2026-11-15T15:40:01.251Z"
+        "at": "2026-11-15T18:48:26.556Z"
       }
     },
     "bundles": {
@@ -53,53 +53,53 @@
       }
     },
     "practical": {
-      "runs": 383,
-      "posts": 17960,
-      "fit": 530,
+      "runs": 387,
+      "posts": 18160,
+      "fit": 537,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-15T15:40:01.251Z"
+        "at": "2026-11-15T18:48:26.556Z"
       }
     },
     "genres": {
-      "runs": 922,
-      "posts": 36880,
-      "fit": 76,
+      "runs": 932,
+      "posts": 37280,
+      "fit": 77,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-15T15:40:01.251Z"
+        "at": "2026-11-15T18:48:26.556Z"
       }
     },
     "seasonal": {
-      "runs": 293,
-      "posts": 12535,
+      "runs": 296,
+      "posts": 12655,
       "fit": 14,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-15T15:40:01.251Z"
+        "at": "2026-11-15T18:48:26.556Z"
       }
     },
     "broadPlaying": {
-      "runs": 1193,
-      "posts": 153840,
-      "fit": 2978,
+      "runs": 1206,
+      "posts": 155400,
+      "fit": 3011,
       "last": {
         "posts": 240,
-        "fit": 6,
-        "at": "2026-11-15T15:40:01.251Z"
+        "fit": 7,
+        "at": "2026-11-15T18:48:26.556Z"
       }
     },
     "broadAsk": {
-      "runs": 743,
-      "posts": 11467,
+      "runs": 751,
+      "posts": 11590,
       "fit": 0,
       "last": {
         "posts": 16,
         "fit": 0,
-        "at": "2026-11-15T15:40:01.251Z"
+        "at": "2026-11-15T18:48:26.556Z"
       }
     }
   },
@@ -159,42 +159,6 @@
       "isReply": true,
       "origin": "https://mastodon.bsd.cafe/@gumnos/117615402644560804",
       "media": null,
-      "firstSeen": "2026-11-14T22:19:48.326Z"
-    },
-    "https://mastodon.social/@retro_brewz/117616336402009957": {
-      "uri": "https://mastodon.social/@retro_brewz/117616336402009957",
-      "url": "https://mastodon.social/@retro_brewz/117616336402009957",
-      "handle": "retro_brewz@mastodon.social",
-      "name": "Retro Brewz",
-      "text": "What’s your favorite Castlevania on the DS? #Castlevania #RetroGaming #RetroGames #NintendoDS #VideoGames #GamersUnite",
-      "createdAt": "2026-11-14T19:01:07.466Z",
-      "likes": 2,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "videogames",
-      "score": 8,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "image, no description",
-      "firstSeen": "2026-11-14T22:19:48.326Z"
-    },
-    "https://mastodon.social/@watchgameplay/117615943753649477": {
-      "uri": "https://mastodon.social/@watchgameplay/117615943753649477",
-      "url": "https://mastodon.social/@watchgameplay/117615943753649477",
-      "handle": "watchgameplay@mastodon.social",
-      "name": "Watch Gameplay",
-      "text": "Time to check your console storage. 🎮 GTA VI’s preload requires up to 212 GB of available space, depending on your device, according to Rockstar Games Support. Which game is making room—and which one will you never uninstall? Artwork by Rockstar Games. #GTA6 #Gaming #VideoGames",
-      "createdAt": "2026-11-14T17:21:16.125Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "videogames",
-      "score": 8,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "image: Grand Theft Auto VI artwork showing Lucia and Jason wearing bandanas over their faces against a purple and pink sky, with palm trees and a gas station behind t…",
       "firstSeen": "2026-11-14T22:19:48.326Z"
     },
     "https://mastodon.social/@nomxd/117615511661878369": {
@@ -270,25 +234,6 @@
       "media": "image, no description",
       "firstSeen": "2026-11-14T22:19:48.326Z"
     },
-    "https://mastodon.social/@magpiemags@mastodon.world/117616450610361987": {
-      "uri": "https://mastodon.social/@magpiemags@mastodon.world/117616450610361987",
-      "url": "https://mastodon.social/@magpiemags@mastodon.world/117616450610361987",
-      "handle": "magpiemags@mastodon.world",
-      "name": "Magpiemags",
-      "text": "Are you ready for some #steam? Check this out! https://books.bookfunnel.com/ilikemybooksspicy3/7cck1k3gg7",
-      "createdAt": "2026-11-14T19:30:08.000Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "steam",
-      "score": 8,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://mastodon.world/@magpiemags/117616450499195589",
-      "media": "image, no description",
-      "firstSeen": "2026-11-14T22:19:48.326Z"
-    },
     "https://mastodon.social/@pitcrewgg/117618900085768150": {
       "uri": "https://mastodon.social/@pitcrewgg/117618900085768150",
       "url": "https://mastodon.social/@pitcrewgg/117618900085768150",
@@ -341,25 +286,6 @@
       "heated": false,
       "isReply": false,
       "media": "image, no description",
-      "firstSeen": "2026-11-15T06:22:16.400Z"
-    },
-    "https://mastodon.social/@brews@hachyderm.io/117618260807754309": {
-      "uri": "https://mastodon.social/@brews@hachyderm.io/117618260807754309",
-      "url": "https://mastodon.social/@brews@hachyderm.io/117618260807754309",
-      "handle": "brews@hachyderm.io",
-      "name": "Brewster Malevich",
-      "text": "I feel like \"Can you play the instrument?\" is the \"Can you pet the cat?\" of #eurojank #videogames. I mean that in the warmest way.",
-      "createdAt": "2026-11-15T03:10:31.000Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "videogames",
-      "score": 7,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://hachyderm.io/@brews/117618260771134926",
-      "media": null,
       "firstSeen": "2026-11-15T06:22:16.400Z"
     },
     "https://mastodon.social/@thefantasticone21/117618055522073396": {
@@ -455,25 +381,6 @@
       "media": "link card: RX 7600 8GB vs Radeon VII 16GB vs RX 6600 XT 8GB | PC Gameplay Tested",
       "firstSeen": "2026-11-15T06:22:16.400Z"
     },
-    "https://mastodon.social/@Flaky@furry.engineer/117620392008653801": {
-      "uri": "https://mastodon.social/@Flaky@furry.engineer/117620392008653801",
-      "url": "https://mastodon.social/@Flaky@furry.engineer/117620392008653801",
-      "handle": "Flaky@furry.engineer",
-      "name": "Flaky",
-      "text": "Honestly tempted to buy a Nintendo Switch 2. I've been playing loads more Tomodachi Life, I got Switch Online for the save cloud, and the Switch 2 comes with some benefits over the Steam Deck: thinner, not as chunky has a built-in stand that is solid (for games that work better with external controllers) doesn't run Linux (having to update Steam AND Flatpak is annoying. I don't want to tinker to play SNES games portably...) Build quality is also better than Switch 1 but that's a given. Nintendo fixed a lot of the problems w/ the Switch 1 here so. #Nintendo #NintendoSwitch2 #Switch2 #SteamDeck",
-      "createdAt": "2026-11-15T12:12:27.000Z",
-      "likes": 1,
-      "replies": 1,
-      "group": "deck",
-      "query": "steamdeck",
-      "score": 7,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://furry.engineer/@Flaky/117620391797096899",
-      "media": null,
-      "firstSeen": "2026-11-15T15:40:01.251Z"
-    },
     "https://mastodon.social/@pitcrewgg/117619654889013924": {
       "uri": "https://mastodon.social/@pitcrewgg/117619654889013924",
       "url": "https://mastodon.social/@pitcrewgg/117619654889013924",
@@ -510,24 +417,6 @@
       "media": "image, no description",
       "firstSeen": "2026-11-15T15:40:01.251Z"
     },
-    "https://mastodon.social/@coa100/117620765744985137": {
-      "uri": "https://mastodon.social/@coa100/117620765744985137",
-      "url": "https://mastodon.social/@coa100/117620765744985137",
-      "handle": "coa100@mastodon.social",
-      "name": "Coa",
-      "text": "New Game Posted on Games Heaven!!! Ultimo Lume is a top-down pixel-art action game https://gamesheaven.wtnet9.site/?game=60 #videogames #gaming",
-      "createdAt": "2026-11-15T13:47:33.884Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "videogames",
-      "score": 8,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "link card: Browsing: Platform All - Genre All - Order new - Days 3000 - Games Heaven",
-      "firstSeen": "2026-11-15T15:40:01.251Z"
-    },
     "https://mastodon.social/@ben@social.ben.ie/117620664757929479": {
       "uri": "https://mastodon.social/@ben@social.ben.ie/117620664757929479",
       "url": "https://mastodon.social/@ben@social.ben.ie/117620664757929479",
@@ -547,24 +436,6 @@
       "media": null,
       "firstSeen": "2026-11-15T15:40:01.251Z"
     },
-    "https://mastodon.social/@Dvalin/117620572157537470": {
-      "uri": "https://mastodon.social/@Dvalin/117620572157537470",
-      "url": "https://mastodon.social/@Dvalin/117620572157537470",
-      "handle": "Dvalin@mastodon.social",
-      "name": "Dvalin Gaming",
-      "text": "Blizzard just tweaked the dungeon XP restriction in WoW: Forever. XP nullification now only kicks in when a party member is more than 12 levels above the enemies, saving wide-level-range dungeon runs from getting punished. Fair fix to stop boosting without hurting normal groups, or still too strict? #worldofwarcraft #warcraft #mmo #mmorpg #gaming",
-      "createdAt": "2026-11-15T12:58:19.965Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "gaming",
-      "score": 7,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "image: Blizzard just tweaked the dungeon XP restriction in WoW: Forever. XP nullification now only kicks in when a party member is more than 12 levels above the enemi…",
-      "firstSeen": "2026-11-15T15:40:01.251Z"
-    },
     "https://mastodon.social/@steffo@f.starshard.space/117620426904193929": {
       "uri": "https://mastodon.social/@steffo@f.starshard.space/117620426904193929",
       "url": "https://mastodon.social/@steffo@f.starshard.space/117620426904193929",
@@ -576,7 +447,7 @@
       "replies": 1,
       "group": "broadPlaying",
       "query": "steam",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -584,24 +455,152 @@
       "media": null,
       "firstSeen": "2026-11-15T15:40:01.251Z"
     },
-    "https://mastodon.social/@jakjak@meow.social/117619401822082094": {
-      "uri": "https://mastodon.social/@jakjak@meow.social/117619401822082094",
-      "url": "https://mastodon.social/@jakjak@meow.social/117619401822082094",
-      "handle": "jakjak@meow.social",
-      "name": "JakJak",
-      "text": "I'm no sure if it's because I'm using an older version of #proton compatibility layer, but I'm not seeing any achievements in #steam games... I had downgraded for another game that wouldn't start, forgetting it can be changed on a per-game basis I tried changing to the latest version, and my 18 hours #QueensDomain save was gone!? Gave me a good scare, but reverting the proton got my save back 😮‍💨",
-      "createdAt": "2026-11-15T08:00:41.000Z",
+    "https://mastodon.social/@pitcrewgg/117621653853813753": {
+      "uri": "https://mastodon.social/@pitcrewgg/117621653853813753",
+      "url": "https://mastodon.social/@pitcrewgg/117621653853813753",
+      "handle": "pitcrewgg@mastodon.social",
+      "name": "PitCrew",
+      "text": "🚨 Euro Truck Simulator 2 - Poznań Game Arena 2026 Vlog Poznań Game Arena 2026 featured ETS2 and ATS demos, DLC previews, 4D simulators, a real Scania truck, and a video recap. 1/2 #BestCommunityEver #ETS2 #EuroTruckSimulator #Linux #LinuxGaming #PCGaming #FreeTrack #HeadTracking #TruckSim #MetaQuest #OpenXR #PICO #Pimax #SteamFrame #SteamVR #VirtualReality #VR",
+      "createdAt": "2026-11-15T17:33:25.340Z",
+      "likes": 1,
+      "replies": 1,
+      "group": "practical",
+      "query": "linuxgaming",
+      "score": 7,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image, no description",
+      "firstSeen": "2026-11-15T18:48:26.556Z"
+    },
+    "https://mastodon.social/@idoclosecuts@thecanadian.social/117621884554461688": {
+      "uri": "https://mastodon.social/@idoclosecuts@thecanadian.social/117621884554461688",
+      "url": "https://mastodon.social/@idoclosecuts@thecanadian.social/117621884554461688",
+      "handle": "idoclosecuts@thecanadian.social",
+      "name": "Steph",
+      "text": "Great Loading and Menu screen music in video games is one of my favourite things; #videogames",
+      "createdAt": "2026-11-15T18:32:04.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "videogames",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://thecanadian.social/@idoclosecuts/117621884489567440",
+      "media": null,
+      "firstSeen": "2026-11-15T18:48:26.556Z"
+    },
+    "https://mastodon.social/@lashman/117621501992354351": {
+      "uri": "https://mastodon.social/@lashman/117621501992354351",
+      "url": "https://mastodon.social/@lashman/117621501992354351",
+      "handle": "lashman@mastodon.social",
+      "name": "lashman",
+      "text": "Developer: OSCILOOM Publisher: OSCILOOM Release date: December 2026 Screenshots: #steam #gaming #videoGames #steamStorePage",
+      "createdAt": "2026-11-15T16:54:48.124Z",
+      "likes": 2,
+      "replies": 1,
+      "group": "broadPlaying",
+      "query": "videogames",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": true,
+      "media": "4 images: Screenshot 1 from Modular Synth Simulator / Screenshot 2 from Modular Synth Simulator / Screenshot 3 from Modular Synth Simulator / Screenshot 4 from Modular Synth Simulator",
+      "firstSeen": "2026-11-15T18:48:26.556Z"
+    },
+    "https://mastodon.social/@lashman/117621491469069168": {
+      "uri": "https://mastodon.social/@lashman/117621491469069168",
+      "url": "https://mastodon.social/@lashman/117621491469069168",
+      "handle": "lashman@mastodon.social",
+      "name": "lashman",
+      "text": "Developer: Team Mingo Publisher: Team Mingo Release date: Q1 2027 Screenshots: #steam #gaming #videoGames #steamStorePage",
+      "createdAt": "2026-11-15T16:52:07.545Z",
+      "likes": 2,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "videogames",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": true,
+      "media": "4 images: Screenshot 1 from Alt-Tab Legend / Screenshot 2 from Alt-Tab Legend / Screenshot 3 from Alt-Tab Legend / Screenshot 4 from Alt-Tab Legend",
+      "firstSeen": "2026-11-15T18:48:26.556Z"
+    },
+    "https://mastodon.social/@lashman/117621490205523075": {
+      "uri": "https://mastodon.social/@lashman/117621490205523075",
+      "url": "https://mastodon.social/@lashman/117621490205523075",
+      "handle": "lashman@mastodon.social",
+      "name": "lashman",
+      "text": "Developer: Digital Deer Publisher: FreeMind S.A., PlayWay S.A. Release date: Q1 2027 Screenshots: #steam #gaming #videoGames #steamStorePage",
+      "createdAt": "2026-11-15T16:51:48.263Z",
       "likes": 1,
       "replies": 0,
       "group": "broadPlaying",
-      "query": "steam",
-      "score": 8,
+      "query": "videogames",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": true,
+      "media": "4 images: Screenshot 1 from Coal Rush 1990 / Screenshot 2 from Coal Rush 1990 / Screenshot 3 from Coal Rush 1990 / Screenshot 4 from Coal Rush 1990",
+      "firstSeen": "2026-11-15T18:48:26.556Z"
+    },
+    "https://mastodon.social/@nomxd/117621490997145918": {
+      "uri": "https://mastodon.social/@nomxd/117621490997145918",
+      "url": "https://mastodon.social/@nomxd/117621490997145918",
+      "handle": "nomxd@mastodon.social",
+      "name": "Nom__XD, 飲ん,诺穆 (They/Them)🐈‍⬛",
+      "text": "By the way, my time against the hateful crab went from 40 minutes to around 6 minutes with a fully ranked Dark Elhain, my goth. And I’m eager to see what she can do against the Christmas couple once Grim Forest allows me to use her with a decent team. 🐾 #raidshadowlegends #gamer",
+      "createdAt": "2026-11-15T16:52:00.354Z",
+      "likes": 0,
+      "replies": 1,
+      "group": "broadPlaying",
+      "query": "gamer",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "image: my time against the crab",
+      "firstSeen": "2026-11-15T18:48:26.556Z"
+    },
+    "https://mastodon.social/@unglueclass23@programming.dev/117621324663373045": {
+      "uri": "https://mastodon.social/@unglueclass23@programming.dev/117621324663373045",
+      "url": "https://mastodon.social/@unglueclass23@programming.dev/117621324663373045",
+      "handle": "unglueclass23@programming.dev",
+      "name": "",
+      "text": "Tim Sweeney is a Lunatic | WTF Happened to Epic Games? https://programming.dev/post/59441759",
+      "createdAt": "2026-11-15T16:09:42.797Z",
+      "likes": 0,
+      "replies": 5,
+      "group": "broadPlaying",
+      "query": "games",
+      "score": 7,
       "question": true,
       "heated": false,
       "isReply": false,
-      "origin": "https://meow.social/@jakjak/117619401787634046",
-      "media": null,
-      "firstSeen": "2026-11-15T15:40:01.251Z"
+      "origin": "https://programming.dev/post/59441759",
+      "media": "link card: Tim Sweeney is a Lunatic | WTF Happened to Epic Games?",
+      "firstSeen": "2026-11-15T18:48:26.556Z"
+    },
+    "https://mastodon.social/@anakin78z@mograph.social/117621224058959339": {
+      "uri": "https://mastodon.social/@anakin78z@mograph.social/117621224058959339",
+      "url": "https://mastodon.social/@anakin78z@mograph.social/117621224058959339",
+      "handle": "anakin78z@mograph.social",
+      "name": "Jens Zalzala",
+      "text": "I'm having a lot of fun with Star Wars Outlaws. Also, photo mode! I don't get why these games get so much negative press. Oh well, I gotta go upgrade my blaster, so Nix and I can go steal more stuff. See ya! #gaming #StarWarsOutlaws",
+      "createdAt": "2026-11-15T15:44:04.000Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "gaming",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://mograph.social/@anakin78z/117621223886178820",
+      "media": "image: Game screenshot. Black and white portrait of Kay, a human female in a leather jacket and simple shirt. The background is a cantina.",
+      "firstSeen": "2026-11-15T18:48:26.556Z"
     }
   }
 }
