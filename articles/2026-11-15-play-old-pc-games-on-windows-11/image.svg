@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0D1117"/>
+  <rect x="56" y="22" width="1088" height="586" rx="28" fill="#161B22" stroke="#262D38" stroke-width="2"/>
+  <g font-family="Inter, 'DejaVu Sans', Arial, sans-serif">
+    <text x="104" y="96" font-size="46" font-weight="800" fill="#FFFFFF">Old PC game on Windows 11?</text>
+    <text x="104" y="140" font-size="26" fill="#9AA5B4">Four cases, four different answers</text>
+
+    <rect x="104" y="174" width="390" height="78" rx="14" fill="#FFB454"/>
+    <text x="128" y="223" font-size="28" font-weight="700" fill="#1B1203">DOS game</text>
+    <line x1="510" y1="213" x2="556" y2="213" stroke="#3DDC97" stroke-width="4"/>
+    <path d="M556 201 L574 213 L556 225 Z" fill="#3DDC97"/>
+    <text x="594" y="223" font-size="28" fill="#E8ECF1">Use a DOS emulator</text>
+
+    <rect x="104" y="274" width="390" height="78" rx="14" fill="#FFB454"/>
+    <text x="128" y="323" font-size="28" font-weight="700" fill="#1B1203">16-bit Windows game</text>
+    <line x1="510" y1="313" x2="556" y2="313" stroke="#3DDC97" stroke-width="4"/>
+    <path d="M556 301 L574 313 L556 325 Z" fill="#3DDC97"/>
+    <text x="594" y="323" font-size="28" fill="#E8ECF1">Not supported on 64-bit Windows</text>
+
+    <rect x="104" y="374" width="390" height="78" rx="14" fill="#FFB454"/>
+    <text x="128" y="423" font-size="28" font-weight="700" fill="#1B1203">Old disc game</text>
+    <line x1="510" y1="413" x2="556" y2="413" stroke="#3DDC97" stroke-width="4"/>
+    <path d="M556 401 L574 413 L556 425 Z" fill="#3DDC97"/>
+    <text x="594" y="423" font-size="28" fill="#E8ECF1">Copy protection may be turned off</text>
+
+    <rect x="104" y="474" width="390" height="78" rx="14" fill="#FFB454"/>
+    <text x="128" y="523" font-size="28" font-weight="700" fill="#1B1203">Runs, but badly</text>
+    <line x1="510" y1="513" x2="556" y2="513" stroke="#3DDC97" stroke-width="4"/>
+    <path d="M556 501 L574 513 L556 525 Z" fill="#3DDC97"/>
+    <text x="594" y="523" font-size="28" fill="#E8ECF1">Try the compatibility troubleshooter</text>
+  </g>
+</svg>
