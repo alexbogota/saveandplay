@@ -1,32 +1,4 @@
 {
- "gog-darkest-dungeon": {
-  "source": "gog",
-  "year": 2016,
-  "genres": [
-   "Role-playing",
-   "Turn-based",
-   "Fantasy"
-  ],
-  "tags": [
-   "Indie",
-   "Fantasy",
-   "Atmospheric",
-   "Role-playing",
-   "2D",
-   "Turn-Based",
-   "Dark",
-   "Horror",
-   "Difficult",
-   "Roguelike",
-   "Roguelite",
-   "Dungeon Crawler",
-   "Lovecraftian",
-   "Perma Death",
-   "Petting Dogs"
-  ],
-  "mature": false,
-  "at": "2026-10-16"
- },
  "gog-simcity-4-deluxe-edition": {
   "source": "gog",
   "year": 2003,
