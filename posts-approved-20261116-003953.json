@@ -1,0 +1,41 @@
+{
+  "approvedAt": "2026-11-16T00:39:53.550Z",
+  "items": [
+    {
+      "n": 1,
+      "kind": "deal",
+      "platform": "bluesky",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nPrice checked Nov 15. Sale ends Nov 26. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-15\n\n#PCGaming #GameDeals #ThisWarOfMine #VideoGames #DRMFree\nAd",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-15",
+      "day": "2026-11-15",
+      "key": "prices|2026-11-15|/deals/gog/this-war-of-mine/",
+      "notBefore": "2026-11-16T00:39:53.550Z"
+    },
+    {
+      "n": 2,
+      "kind": "deal",
+      "platform": "bluesky",
+      "account": "prices-2",
+      "handle": "saveandplay.com",
+      "text": "Metro Exodus: -90% at GOG\n$2.99 (was $29.99)\nPrice checked Nov 15. Sale ends Nov 16. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-15\n\n#PCGaming #GameDeals #PCGames #GOG #VideoGames\nAd",
+      "link": "https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-15",
+      "day": "2026-11-15",
+      "key": "prices-2|2026-11-15|/deals/gog/metro-exodus/",
+      "notBefore": "2026-11-16T02:39:53.550Z"
+    },
+    {
+      "n": 6,
+      "kind": "article",
+      "platform": "bluesky",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "text": "Steam Cloud only works if the developer set it up. Steam syncs a game's cloud files before and after every session, and you can switch it off per game. How to check before you buy:\nhttps://saveandplay.com/guides/steam-cloud-saves-what-it-covers/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-cloud-saves\n#PCGaming #GameDeals #Steam",
+      "link": "https://saveandplay.com/guides/steam-cloud-saves-what-it-covers/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-cloud-saves",
+      "day": null,
+      "key": "prices|article|/guides/steam-cloud-saves-what-it-covers/",
+      "notBefore": "2026-11-16T04:39:53.550Z"
+    }
+  ]
+}
