@@ -1,184 +1,10 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-11-15T17:35:04.452Z",
-  "builtBy": "commit 1460e1b, schedule, run #47 attempt 1",
-  "pricesCheckedAt": "2026-11-15T16:30:32.961Z",
+  "generatedAt": "2026-11-16T20:49:17.827Z",
+  "builtBy": "commit 3278904, schedule, run #48 attempt 1",
+  "pricesCheckedAt": "2026-11-16T19:46:56.762Z",
   "warnings": [],
   "candidates": [
-    {
-      "id": "gog-this-war-of-mine",
-      "kind": "deal",
-      "title": "This War of Mine",
-      "store": "GOG",
-      "price": 2.99,
-      "was": 19.99,
-      "discount": 85,
-      "endsAt": "2026-11-26T09:59:00+02:00",
-      "endsInHours": 254,
-      "priceCheckedAt": "2026-11-15T16:30:32.961Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
-      "drminfo": null,
-      "coverAlt": "Cover art for This War of Mine",
-      "facts": {
-        "year": 2014,
-        "genres": [
-          "Action",
-          "Adventure",
-          "Survival"
-        ],
-        "tags": [
-          "Adventure",
-          "Action",
-          "Indie",
-          "Story Rich",
-          "Atmospheric",
-          "Choices Matter",
-          "Management",
-          "Survival",
-          "Resource Management",
-          "Real-Time",
-          "War",
-          "Crafting",
-          "Base Building",
-          "Emotional",
-          "Post-apocalyptic",
-          "Stealth",
-          "Psychological"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 10.5,
-      "discountRank": 2,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 28,
-        "lowest": true,
-        "since": "2026-10-19"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-15",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "lowest price we've tracked (28 days of data)",
-        "deepest-discount rank 2 of 4"
-      ]
-    },
-    {
-      "id": "gog-darkest-dungeon",
-      "kind": "deal",
-      "title": "Darkest Dungeon",
-      "store": "GOG",
-      "price": 3.75,
-      "was": 24.99,
-      "discount": 85,
-      "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 14,
-      "priceCheckedAt": "2026-11-15T16:30:32.961Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187",
-      "drminfo": null,
-      "coverAlt": "Cover art for Darkest Dungeon",
-      "facts": {
-        "year": 2016,
-        "genres": [
-          "Role-playing",
-          "Turn-based",
-          "Fantasy"
-        ],
-        "tags": [
-          "Indie",
-          "Fantasy",
-          "Atmospheric",
-          "Role-playing",
-          "2D",
-          "Turn-Based",
-          "Dark",
-          "Horror",
-          "Difficult",
-          "Roguelike",
-          "Roguelite",
-          "Dungeon Crawler",
-          "Lovecraftian",
-          "Perma Death",
-          "Petting Dogs"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 4.5,
-      "discountRank": 3,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 37,
-        "lowest": true,
-        "since": "2026-10-07"
-      },
-      "offeredOn": "2026-11-10",
-      "link": "https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-15",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "sale ends in 14 h",
-        "lowest price we've tracked (37 days of data)",
-        "deepest-discount rank 3 of 4"
-      ]
-    },
-    {
-      "id": "gog-simcity-4-deluxe-edition",
-      "kind": "deal",
-      "title": "SimCity 4 Deluxe Edition",
-      "store": "GOG",
-      "price": 4.99,
-      "was": 19.99,
-      "discount": 75,
-      "endsAt": "2026-11-16T09:59:00+02:00",
-      "endsInHours": 14,
-      "priceCheckedAt": "2026-11-15T16:30:32.961Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
-      "drminfo": null,
-      "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
-      "facts": {
-        "year": 2003,
-        "genres": [
-          "Simulation",
-          "Building",
-          "Managerial"
-        ],
-        "tags": [
-          "Atmospheric",
-          "Simulation",
-          "Classic",
-          "Great Soundtrack",
-          "Management",
-          "Sandbox",
-          "Real-Time",
-          "Isometric",
-          "Building",
-          "Managerial",
-          "City builder"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 3.5,
-      "discountRank": 4,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 37,
-        "lowest": true,
-        "since": "2026-10-07"
-      },
-      "offeredOn": "2026-11-13",
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-15",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "sale ends in 14 h",
-        "lowest price we've tracked (37 days of data)",
-        "deepest-discount rank 4 of 4"
-      ]
-    },
     {
       "id": "gog-shadow-tactics-blades-of-the-shogun",
       "kind": "deal",
@@ -188,8 +14,8 @@
       "was": 39.99,
       "discount": 90,
       "endsAt": "2026-11-21T09:59:00+02:00",
-      "endsInHours": 134,
-      "priceCheckedAt": "2026-11-15T16:30:32.961Z",
+      "endsInHours": 107,
+      "priceCheckedAt": "2026-11-16T19:46:56.762Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
       "drminfo": null,
       "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
@@ -226,148 +52,191 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 37,
+        "days": 38,
         "lowest": true,
         "since": "2026-10-07"
       },
       "offeredOn": "2026-11-12",
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-15",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-16",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (37 days of data)",
-        "deepest-discount rank 1 of 4"
+        "lowest price we've tracked (38 days of data)",
+        "deepest-discount rank 1 of 2"
+      ]
+    },
+    {
+      "id": "gog-simcity-4-deluxe-edition",
+      "kind": "deal",
+      "title": "SimCity 4 Deluxe Edition",
+      "store": "GOG",
+      "price": 4.99,
+      "was": 19.99,
+      "discount": 75,
+      "endsAt": "2026-11-26T09:59:00+02:00",
+      "endsInHours": 227,
+      "priceCheckedAt": "2026-11-16T19:46:56.762Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
+      "drminfo": null,
+      "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
+      "facts": {
+        "year": 2003,
+        "genres": [
+          "Simulation",
+          "Building",
+          "Managerial"
+        ],
+        "tags": [
+          "Atmospheric",
+          "Simulation",
+          "Classic",
+          "Great Soundtrack",
+          "Management",
+          "Sandbox",
+          "Real-Time",
+          "Isometric",
+          "Building",
+          "Managerial",
+          "City builder"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 1.5,
+      "discountRank": 2,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 38,
+        "lowest": true,
+        "since": "2026-10-07"
+      },
+      "offeredOn": "2026-11-13",
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-16",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "lowest price we've tracked (38 days of data)",
+        "deepest-discount rank 2 of 2"
       ]
     }
   ],
   "gogNews": [],
   "topical": [
     {
-      "title": "50 best Steam deals of this week (November 9-15) that you can't miss",
-      "source": "gg.deals News",
-      "link": "https://gg.deals/deal/50-best-steam-deals-of-this-week-november-9-15-that-you-cant-miss/",
-      "t": 1794737460000,
-      "keyword": "deals",
-      "summary": "Not all of these deals will still be available tomorrow, so don't miss this round-up!"
+      "title": "Fanatical Movember Charity Bundle 2026: Get 10 Steam Games and 2 DLCs for $8.99",
+      "source": "Indie Game Bundles",
+      "link": "https://www.indiegamebundles.com/fanatical-movember-charity-bundle-2026-get-10-steam-games-and-2-dlcs-for-8-99/",
+      "t": 1794852389000,
+      "keyword": "bundle",
+      "summary": "Fanatical's annual Movember Charity Bundle is back, offering 10 Steam games and two DLCs for just $8.99 (€8.99 / £8.99), including Fallen Aces, Terminator: Dar…"
     },
     {
-      "title": "Halo: Campaign Evolved is getting Firefight as a free update, though I'm not sure it'll do much to change the remake's fortunes",
-      "source": "PC Gamer",
-      "link": "https://www.pcgamer.com/games/halo/halo-campaign-evolved-is-getting-firefight-as-a-free-update-though-im-not-sure-itll-do-much-to-change-the-remakes-fortunes/",
-      "t": 1794667783000,
-      "keyword": "free",
-      "summary": "Xbox has announced the first update for Halo: Campaign Evolved since August, one which will add Firefight to the remake's overhaul of the original game's story…"
-    },
-    {
-      "title": "New FREE games this weekend (November 14-15, 2026): your comprehensive roundup",
+      "title": "Escape from Tarkov’s FREE November Twitch Drops bring Hawaiian shirts to the battlefield",
       "source": "gg.deals Freebies",
-      "link": "https://gg.deals/freebie/new-free-games-this-weekend-november-14-15-2026-your-comprehensive-roundup/",
-      "t": 1794650400000,
+      "link": "https://gg.deals/freebie/escape-from-tarkovs-free-november-twitch-drops-bring-hawaiian-shirts-to-the-battlefield/",
+      "t": 1794851983000,
       "keyword": "free",
-      "summary": "Looking for something new to play this weekend? Plenty of fresh free games have popped up since our last roundup, and you can find them all right here."
+      "summary": "Snag the Hangover Avenger and Cocktail Criminal designs for watching streams with drops enabled."
     }
   ],
   "topics": [
     {
-      "headline": "Humble Seriously Unserious Bundle: 13 Steam Games for Just $10",
-      "score": 7,
-      "sites": [
-        "indiegamebundles.com"
-      ],
-      "keywords": [
-        "bundle",
-        "humble"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "Indie Game Bundles",
-          "title": "Humble Seriously Unserious Bundle: 13 Steam Games for Just $10",
-          "link": "https://www.indiegamebundles.com/humble-seriously-unserious-bundle-13-steam-games-for-just-10/",
-          "published": "2026-11-14T15:29:25.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Loaded's Black Friday Sale gets you 3 games for the price of 2 (on already discounted titles!)",
+      "headline": "Steam’s latest Weeklong Sale is here with over 4,000 pre-Black Friday deals to explore",
       "score": 7,
       "sites": [
         "gg.deals"
       ],
       "keywords": [
         "sale",
-        "price"
+        "deals"
       ],
       "games": [],
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Loaded's Black Friday Sale gets you 3 games for the price of 2 (on already discounted titles!)",
-          "link": "https://gg.deals/deal/loadeds-black-friday-sale-gets-you-3-games-for-the-price-of-2-on-already-discounted-titles/",
-          "published": "2026-11-14T02:34:00.000Z"
+          "title": "Steam’s latest Weeklong Sale is here with over 4,000 pre-Black Friday deals to explore",
+          "link": "https://gg.deals/deal/steams-latest-weeklong-sale-is-here-with-over-4000-pre-black-friday-deals-to-explore/",
+          "published": "2026-11-16T19:51:47.000Z"
         }
       ]
     },
     {
-      "headline": "Humble's Generation Zero: Complete Bundle 2026 gets you the full stealth-action shooter experience for $12",
+      "headline": "Mythwright's Publisher Sale delivers some early Black Friday Steam deals for indie fans",
       "score": 7,
       "sites": [
         "gg.deals"
       ],
       "keywords": [
-        "bundle",
+        "sale",
+        "deals"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Mythwright's Publisher Sale delivers some early Black Friday Steam deals for indie fans",
+          "link": "https://gg.deals/deal/mythwrights-publisher-sale-delivers-some-early-black-friday-steam-deals-for-indie-fans/",
+          "published": "2026-11-16T19:34:00.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "SEGA’s Black Friday Steam Sale 2026 brings deep discounts on Yakuza, Persona, Sonic & more",
+      "score": 7,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "sale",
+        "discounts",
+        "steam sale"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "SEGA’s Black Friday Steam Sale 2026 brings deep discounts on Yakuza, Persona, Sonic & more",
+          "link": "https://gg.deals/deal/segas-black-friday-steam-sale-2026-brings-deep-discounts-on-yakuza-persona-sonic-more/",
+          "published": "2026-11-16T18:56:49.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Humble Store's Black Friday Sale 2026 goes big with games at up to 97% off",
+      "score": 7,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "sale",
         "humble"
       ],
       "games": [],
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Humble's Generation Zero: Complete Bundle 2026 gets you the full stealth-action shooter experience for $12",
-          "link": "https://gg.deals/bundle/humbles-generation-zero-complete-bundle-2026-gets-you-the-full-stealth-action-shooter-experience-for-12/",
-          "published": "2026-11-13T19:46:52.000Z"
+          "title": "Humble Store's Black Friday Sale 2026 goes big with games at up to 97% off",
+          "link": "https://gg.deals/deal/humble-stores-black-friday-sale-2026-goes-big-with-games-at-up-to-97-off/",
+          "published": "2026-11-16T17:07:20.000Z"
         }
       ]
     },
     {
-      "headline": "Best Buy launches its Black Friday doorbuster sale, but this is the only deal we’d recommend the weekend before GTA 6",
+      "headline": "Early Black Friday deals for gamers are now live: tracking all the biggest PS5, Switch 2, Xbox, and PC discounts",
       "score": 7,
       "sites": [
         "gamesradar.com"
       ],
       "keywords": [
-        "sale",
-        "deal"
+        "discounts",
+        "deals"
       ],
       "games": [],
       "items": [
         {
           "source": "GamesRadar deals",
-          "title": "Best Buy launches its Black Friday doorbuster sale, but this is the only deal we’d recommend the weekend before GTA 6",
-          "link": "https://www.gamesradar.com/hardware/gaming-controllers/best-buy-launches-its-black-friday-doorbuster-sale-but-this-is-the-only-deal-wed-recommend-the-weekend-before-gta-6/",
-          "published": "2026-11-13T17:40:21.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Planeswalker, Netflix's Magic: The Gathering animated series, will have a different art style for each plane",
-      "score": 6,
-      "sites": [
-        "pcgamer.com",
-        "eurogamer.net"
-      ],
-      "keywords": [],
-      "games": [],
-      "items": [
-        {
-          "source": "PC Gamer",
-          "title": "Planeswalker, Netflix's Magic: The Gathering animated series, will have a different art style for each plane",
-          "link": "https://www.pcgamer.com/movies-tv/planeswalker-netflixs-magic-the-gathering-animated-series-will-have-a-different-art-style-for-each-plane/",
-          "published": "2026-11-14T23:50:31.000Z"
-        },
-        {
-          "source": "Eurogamer",
-          "title": "Magic: The Gathering animated series Planeswalker is coming to Netflix in 2027",
-          "link": "https://www.eurogamer.net/magic-the-gathering-planeswalker-netflix-animated-series-2027",
-          "published": "2026-11-14T10:39:50.000Z"
+          "title": "Early Black Friday deals for gamers are now live: tracking all the biggest PS5, Switch 2, Xbox, and PC discounts",
+          "link": "https://www.gamesradar.com/live/news/early-black-friday-deals-for-gamers-live-nov-2026/",
+          "published": "2026-11-16T13:23:43.000Z"
         }
       ]
     }

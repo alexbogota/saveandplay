@@ -1,5 +1,5 @@
-# Brief: Honest prices (@saveandplay.com), 2026-11-15 17:35 UTC
-Prices checked 2026-11-15 16:30 UTC (1 h ago). News: 11 of 11 sources read, 59 items from the last 48 h, 0 of 5 offered deals mentioned.
+# Brief: Honest prices (@saveandplay.com), 2026-11-16 20:49 UTC
+Prices checked 2026-11-16 19:46 UTC (1 h ago). News: 11 of 11 sources read, 86 items from the last 48 h, 0 of 3 offered deals mentioned.
 
 Write ONE post about the first item below (take another one only if it looks wrong, and say why).
 Rules:
@@ -10,68 +10,56 @@ Rules:
 - Text up to 270 characters (the link adds about 25). Say lowest price we've tracked only if the brief says so; never write lowest ever.
 - Attach the cover image and put the Alt text from the brief in the picture's alt field (if the brief says no cover, post without a picture). The link card under the post also shows the game from our page.
 
-## 1. This War of Mine: GOG $2.99 (was $19.99, -85%)
-Sale ends 2026-11-26 07:59 UTC (in 11 days). Price checked 2026-11-15 16:30 UTC. Score 10.5.
-Why today: lowest price we've tracked (28 days of data); deepest-discount rank 3 of 5.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-15
-Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984
-Alt text: Cover art for This War of Mine
-
-## 2. Metro Exodus: GOG $2.99 (was $29.99, -90%)
-Sale ends 2026-11-16 07:59 UTC (in 14 h). Price checked 2026-11-15 16:30 UTC. Score 5.
-Why today: sale ends in 14 h; lowest price we've tracked (29 days of data); deepest-discount rank 1 of 5.
-Note: suggested on 2026-11-14, already used recently.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/metro-exodus/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-15
-Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804
-Alt text: Cover art for Metro Exodus
-
-## 3. Darkest Dungeon: GOG $3.75 (was $24.99, -85%)
-Sale ends 2026-11-16 07:59 UTC (in 14 h). Price checked 2026-11-15 16:30 UTC. Score 4.5.
-Why today: sale ends in 14 h; lowest price we've tracked (37 days of data); deepest-discount rank 4 of 5.
-Note: suggested on 2026-11-10, already used recently.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/darkest-dungeon/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-15
-Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187
-Alt text: Cover art for Darkest Dungeon
-
-## 4. SimCity 4 Deluxe Edition: GOG $4.99 (was $19.99, -75%)
-Sale ends 2026-11-16 07:59 UTC (in 14 h). Price checked 2026-11-15 16:30 UTC. Score 3.5.
-Why today: sale ends in 14 h; lowest price we've tracked (37 days of data); deepest-discount rank 5 of 5.
-Note: suggested on 2026-11-13, already used recently.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-15
-Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586
-Alt text: Cover art for SimCity 4 Deluxe Edition
-
-## 5. Shadow Tactics: Blades of the Shogun: GOG $3.99 (was $39.99, -90%)
-Sale ends 2026-11-21 07:59 UTC (in 6 days). Price checked 2026-11-15 16:30 UTC. Score 3.
-Why today: lowest price we've tracked (37 days of data); deepest-discount rank 2 of 5.
+## 1. Shadow Tactics: Blades of the Shogun: GOG $3.99 (was $39.99, -90%)
+Sale ends 2026-11-21 07:59 UTC (in 4 days). Price checked 2026-11-16 19:46 UTC. Score 3.
+Why today: lowest price we've tracked (38 days of data); deepest-discount rank 1 of 3.
 Note: suggested on 2026-11-12, already used recently.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-15
+Link for the post (link to our site): https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-16
 Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696
 Alt text: Cover art for Shadow Tactics: Blades of the Shogun
 
+## 2. This War of Mine: GOG $2.99 (was $19.99, -85%)
+Sale ends 2026-11-26 07:59 UTC (in 9 days). Price checked 2026-11-16 19:46 UTC. Score 2.5.
+Why today: lowest price we've tracked (29 days of data); deepest-discount rank 2 of 3.
+Note: suggested on 2026-11-15, already used recently.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-16
+Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984
+Alt text: Cover art for This War of Mine
+
+## 3. SimCity 4 Deluxe Edition: GOG $4.99 (was $19.99, -75%)
+Sale ends 2026-11-26 07:59 UTC (in 9 days). Price checked 2026-11-16 19:46 UTC. Score 1.5.
+Why today: lowest price we've tracked (38 days of data); deepest-discount rank 3 of 3.
+Note: suggested on 2026-11-13, already used recently.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-16
+Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586
+Alt text: Cover art for SimCity 4 Deluxe Edition
+
+## GOG news without a price (use only if no deal fits; do not mention any price)
+- Early Access: Littlelands (Nov 16). Link for the post (affiliate link): https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Flittlelands
+- Coming soon: Two Realms: Whispers from the Rift (Nov 16). Link for the post (affiliate link): https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Ftwo_realms_whispers_from_the_rift
+- Release: Brány Skeldalu (Nov 16). Link for the post (affiliate link): https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fbrany_skeldalu
+
 ## News on the topic (no deal)
-- gg.deals News, Nov 15: "50 best Steam deals of this week (November 9-15) that you can't miss" https://gg.deals/deal/50-best-steam-deals-of-this-week-november-9-15-that-you-cant-miss/ | Not all of these deals will still be available tomorrow, so don't miss this round-up!
-- PC Gamer, Nov 14: "Halo: Campaign Evolved is getting Firefight as a free update, though I'm not sure it'll do much to …" https://www.pcgamer.com/games/halo/halo-campaign-evolved-is-getting-firefight-as-a-free-update-though-im-not-sure-itll-do-much-to-change-the-remakes-fortunes/ | Xbox has announced the first update for Halo: Campaign Evolved since August, one which will add Firefight to the remake's overhaul of the original game's story…
-- gg.deals Freebies, Nov 14: "New FREE games this weekend (November 14-15, 2026): your comprehensive roundup" https://gg.deals/freebie/new-free-games-this-weekend-november-14-15-2026-your-comprehensive-roundup/ | Looking for something new to play this weekend? Plenty of fresh free games have popped up since our last roundup, and you can find them all right here.
+- Indie Game Bundles, Nov 16: "Fanatical Movember Charity Bundle 2026: Get 10 Steam Games and 2 DLCs for $8.99" https://www.indiegamebundles.com/fanatical-movember-charity-bundle-2026-get-10-steam-games-and-2-dlcs-for-8-99/ | Fanatical's annual Movember Charity Bundle is back, offering 10 Steam games and two DLCs for just $8.99 (€8.99 / £8.99), including Fallen Aces, Terminator: Dar…
+- gg.deals Freebies, Nov 16: "Escape from Tarkov’s FREE November Twitch Drops bring Hawaiian shirts to the battlefield" https://gg.deals/freebie/escape-from-tarkovs-free-november-twitch-drops-bring-hawaiian-shirts-to-the-battlefield/ | Snag the Hangover Avenger and Cocktail Criminal designs for watching streams with drops enabled.
 
 ## Topics for articles (stories without a deal; headlines and links only. Write an article only if the owner asks)
-1. Humble Seriously Unserious Bundle: 13 Steam Games for Just $10 (score 7)
-Why now: 1 site wrote about it in the last 48 h (indiegamebundles.com); matches keywords: bundle, humble; newest Nov 14.
-- Indie Game Bundles, Nov 14: "Humble Seriously Unserious Bundle: 13 Steam Games for Just $10" https://www.indiegamebundles.com/humble-seriously-unserious-bundle-13-steam-games-for-just-10/
-2. Loaded's Black Friday Sale gets you 3 games for the price of 2 (on already discounted titles!) (score 7)
-Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: sale, price; newest Nov 14.
-- gg.deals News, Nov 14: "Loaded's Black Friday Sale gets you 3 games for the price of 2 (on already discounted titles!)" https://gg.deals/deal/loadeds-black-friday-sale-gets-you-3-games-for-the-price-of-2-on-already-discounted-titles/
-3. Humble's Generation Zero: Complete Bundle 2026 gets you the full stealth-action shooter experience for $12 (score 7)
-Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: bundle, humble; newest Nov 13.
-- gg.deals News, Nov 13: "Humble's Generation Zero: Complete Bundle 2026 gets you the full stealth-action shooter experience …" https://gg.deals/bundle/humbles-generation-zero-complete-bundle-2026-gets-you-the-full-stealth-action-shooter-experience-for-12/
-4. Best Buy launches its Black Friday doorbuster sale, but this is the only deal we’d recommend the weekend befo… (score 7)
-Why now: 1 site wrote about it in the last 48 h (gamesradar.com); matches keywords: sale, deal; newest Nov 13.
-- GamesRadar deals, Nov 13: "Best Buy launches its Black Friday doorbuster sale, but this is the only deal we’d recommend the we…" https://www.gamesradar.com/hardware/gaming-controllers/best-buy-launches-its-black-friday-doorbuster-sale-but-this-is-the-only-deal-wed-recommend-the-weekend-before-gta-6/
-5. Planeswalker, Netflix's Magic: The Gathering animated series, will have a different art style for each plane (score 6)
-Why now: 2 sites wrote about it in the last 48 h (pcgamer.com, eurogamer.net); newest Nov 14.
-- PC Gamer, Nov 14: "Planeswalker, Netflix's Magic: The Gathering animated series, will have a different art style for e…" https://www.pcgamer.com/movies-tv/planeswalker-netflixs-magic-the-gathering-animated-series-will-have-a-different-art-style-for-each-plane/
-- Eurogamer, Nov 14: "Magic: The Gathering animated series Planeswalker is coming to Netflix in 2027" https://www.eurogamer.net/magic-the-gathering-planeswalker-netflix-animated-series-2027
+1. Steam’s latest Weeklong Sale is here with over 4,000 pre-Black Friday deals to explore (score 7)
+Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: sale, deals; newest Nov 16.
+- gg.deals News, Nov 16: "Steam’s latest Weeklong Sale is here with over 4,000 pre-Black Friday deals to explore" https://gg.deals/deal/steams-latest-weeklong-sale-is-here-with-over-4000-pre-black-friday-deals-to-explore/
+2. Mythwright's Publisher Sale delivers some early Black Friday Steam deals for indie fans (score 7)
+Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: sale, deals; newest Nov 16.
+- gg.deals News, Nov 16: "Mythwright's Publisher Sale delivers some early Black Friday Steam deals for indie fans" https://gg.deals/deal/mythwrights-publisher-sale-delivers-some-early-black-friday-steam-deals-for-indie-fans/
+3. SEGA’s Black Friday Steam Sale 2026 brings deep discounts on Yakuza, Persona, Sonic & more (score 7)
+Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: sale, discounts, steam sale; newest Nov 16.
+- gg.deals News, Nov 16: "SEGA’s Black Friday Steam Sale 2026 brings deep discounts on Yakuza, Persona, Sonic & more" https://gg.deals/deal/segas-black-friday-steam-sale-2026-brings-deep-discounts-on-yakuza-persona-sonic-more/
+4. Humble Store's Black Friday Sale 2026 goes big with games at up to 97% off (score 7)
+Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: sale, humble; newest Nov 16.
+- gg.deals News, Nov 16: "Humble Store's Black Friday Sale 2026 goes big with games at up to 97% off" https://gg.deals/deal/humble-stores-black-friday-sale-2026-goes-big-with-games-at-up-to-97-off/
+5. Early Black Friday deals for gamers are now live: tracking all the biggest PS5, Switch 2, Xbox, and PC discou… (score 7)
+Why now: 1 site wrote about it in the last 48 h (gamesradar.com); matches keywords: discounts, deals; newest Nov 16.
+- GamesRadar deals, Nov 16: "Early Black Friday deals for gamers are now live: tracking all the biggest PS5, Switch 2, Xbox, and…" https://www.gamesradar.com/live/news/early-black-friday-deals-for-gamers-live-nov-2026/
 
 Left out: 0 other-store deals, 0 hidden duplicates, 0 under 50%, 0 ended, 0 ending within 6 h, 0 old prices.
 Sources not read: none.
-Built by: commit 1460e1b, schedule, run #47 attempt 1.
+Built by: commit 3278904, schedule, run #48 attempt 1.

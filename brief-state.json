@@ -2,12 +2,11 @@
   "top": {
     "prices": {
       "gog-outward-definitive-edition": "2026-10-19",
-      "gog-alan-wake": "2026-10-17",
       "gog-system-shock-enhanced-edition": "2026-10-18",
       "gog-frostpunk": "2026-10-29",
       "gog-this-war-of-mine": "2026-11-15",
       "gog-fallout-new-vegas-ultimate-edition": "2026-10-22",
-      "gog-shadow-tactics-blades-of-the-shogun": "2026-11-12",
+      "gog-shadow-tactics-blades-of-the-shogun": "2026-11-16",
       "gog-hitman-absolution": "2026-10-24",
       "gog-control-ultimate-edition": "2026-10-25",
       "gog-xcom-2": "2026-10-26",
@@ -20,12 +19,11 @@
     },
     "nostr": {
       "gog-outward-definitive-edition": "2026-10-19",
-      "gog-alan-wake": "2026-10-17",
       "gog-system-shock-enhanced-edition": "2026-10-18",
       "gog-frostpunk": "2026-10-29",
       "gog-this-war-of-mine": "2026-11-15",
       "gog-fallout-new-vegas-ultimate-edition": "2026-10-22",
-      "gog-shadow-tactics-blades-of-the-shogun": "2026-11-12",
+      "gog-shadow-tactics-blades-of-the-shogun": "2026-11-16",
       "gog-hitman-absolution": "2026-10-24",
       "gog-control-ultimate-edition": "2026-10-25",
       "gog-xcom-2": "2026-10-26",
@@ -37,13 +35,12 @@
       "gog-simcity-4-deluxe-edition": "2026-11-13"
     },
     "lemmy": {
-      "gog-alan-wake": "2026-10-17",
       "gog-system-shock-enhanced-edition": "2026-10-18",
       "gog-outward-definitive-edition": "2026-10-19",
       "gog-frostpunk": "2026-10-29",
       "gog-this-war-of-mine": "2026-11-15",
       "gog-fallout-new-vegas-ultimate-edition": "2026-10-22",
-      "gog-shadow-tactics-blades-of-the-shogun": "2026-11-12",
+      "gog-shadow-tactics-blades-of-the-shogun": "2026-11-16",
       "gog-hitman-absolution": "2026-10-24",
       "gog-control-ultimate-edition": "2026-10-25",
       "gog-xcom-2": "2026-10-26",
@@ -55,13 +52,12 @@
       "gog-simcity-4-deluxe-edition": "2026-11-13"
     },
     "tumblr": {
-      "gog-alan-wake": "2026-10-17",
       "gog-system-shock-enhanced-edition": "2026-10-18",
       "gog-outward-definitive-edition": "2026-10-19",
       "gog-frostpunk": "2026-10-29",
       "gog-this-war-of-mine": "2026-11-15",
       "gog-fallout-new-vegas-ultimate-edition": "2026-10-22",
-      "gog-shadow-tactics-blades-of-the-shogun": "2026-11-12",
+      "gog-shadow-tactics-blades-of-the-shogun": "2026-11-16",
       "gog-hitman-absolution": "2026-10-24",
       "gog-control-ultimate-edition": "2026-10-25",
       "gog-xcom-2": "2026-10-26",
@@ -77,7 +73,6 @@
       "gog-rollercoaster-tycoon-3-complete-edition": "2026-10-19"
     },
     "retro": {
-      "gog-prince-of-persia-the-two-thrones": "2026-10-17",
       "gog-system-shock-enhanced-edition": "2026-10-19",
       "gog-simcity-4-deluxe-edition": "2026-11-12"
     },
@@ -97,7 +92,7 @@
       "gog-frostpunk": "2026-10-27",
       "gog-thronebreaker-the-witcher-tales": "2026-10-29",
       "gog-shadow-tactics-blades-of-the-shogun": "2026-11-09",
-      "gog-this-war-of-mine": "2026-11-14",
+      "gog-this-war-of-mine": "2026-11-16",
       "gog-simcity-4-deluxe-edition": "2026-11-01"
     }
   }
