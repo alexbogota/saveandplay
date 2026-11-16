@@ -1,0 +1,29 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "stamp": "20261116-084536",
+  "madeAt": "2026-11-16T08:45:56.663Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:2yvkdd2b45rghmlo3ebxwihr/app.bsky.feed.post/3n2enjtwen22f",
+      "url": "https://bsky.app/profile/gigizone.bsky.social/post/3n2enjtwen22f",
+      "author": "gigizone.bsky.social",
+      "context": "oh it's actually pretty unfamiliar with the steam deck family, it had no idea there was such a difference... would you say the oled model is the one to get?",
+      "text": "The OLED model has a nicer screen and a bigger battery than the original LCD one. Check the current price and storage options on Steam's Deck page before deciding.",
+      "group": "deck",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:hmfjwf3rncttics54xdknfgr/app.bsky.feed.post/3n2fegtbf3s2r",
+      "url": "https://bsky.app/profile/wisely.bsky.social/post/3n2fegtbf3s2r",
+      "author": "wisely.bsky.social",
+      "context": "Just finished a game of Stellaris - something I rarely do: either it becomes a slog, an update breaks my save, or I enrage a FE too soon. Kind of disappointed in the end screen - I'd expect at least a little fanfare?! Nope just - Your empire in 1st (or whatever) place and Quit/Continue buttons...",
+      "text": "Finishing a full Stellaris game is an achievement on its own. Hope the next campaign makes it to the end screen without any drama.",
+      "group": "broadPlaying",
+      "heated": false
+    }
+  ]
+}
