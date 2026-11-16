@@ -1,0 +1,20 @@
+{
+  "madeAt": "2026-11-16T00:40:16.269Z",
+  "run": "43781722477",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices|2026-11-15|/deals/gog/this-war-of-mine/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 1,
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-15",
+      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nPrice checked Nov 15. Sale ends Nov 26. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-15\n\n#PCGaming #GameDeals #ThisWarOfMine #VideoGames #DRMFree\nAd",
+      "approvedFile": "posts-approved-20261116-003953.json",
+      "approvedAt": "2026-11-16T00:39:53.550Z",
+      "status": "skipped",
+      "reason": "already posted: https://bsky.app/profile/saveandplay.com/post/3n2cjmn57cr2t",
+      "at": "2026-11-16T00:40:17.380Z"
+    }
+  ]
+}
