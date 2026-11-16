@@ -3034,6 +3034,57 @@
             "sig": "b87ecdfd52f33911274a53b6a41f1a2db5561b386b9a2c6377838d88813bccc2dc7920a4aefa5ce7e0498b9383b901826199f29d68d79aa76928078c81959094"
           }
         }
+      },
+      "2026-11-16": {
+        "deal": {
+          "status": "done",
+          "kind": "deal",
+          "id": "a725de3600281fa128cf27e1374fb39c9ca9293fab39ae57c6bd13030ebcf08e",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "deal": "gog-shadow-tactics-blades-of-the-shogun",
+          "title": "Shadow Tactics: Blades of the Shogun",
+          "postedAt": "2026-11-16T21:09:02.000Z",
+          "accepted": [
+            "wss://relay.damus.io",
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [],
+          "event": {
+            "kind": 1,
+            "created_at": 1794863342,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-deal"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
+                "m image/jpeg",
+                "alt Cover art for Shadow Tactics: Blades of the Shogun"
+              ]
+            ],
+            "content": "Shadow Tactics: Blades of the Shogun: -90% at GOG\n$3.99 (was $39.99)\nPrice checked 2026-11-16 19:46 UTC. Sale ends 2026-11-21 07:59 UTC.\nWhy today: lowest price we've tracked (38 days of data); deepest-discount rank 1 of 2.\nAd: we may earn a commission if you buy.\n\n#pcgaming #gamedeals\n\nhttps://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696\n\nhttps://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-16",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "a725de3600281fa128cf27e1374fb39c9ca9293fab39ae57c6bd13030ebcf08e",
+            "sig": "13e612b21b3cee4a9c1e040f54b439b28baf9da866608b72aa93ad0d6a6d3c55602815e9e70ffe2ab0451311af25ad152dcd000ec082afcdba9c3410e380d606"
+          }
+        }
       }
     }
   },
