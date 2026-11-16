@@ -1,0 +1,27 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-retro-20261116-084536.json",
+  "approvedAt": "2026-11-16T08:46:34.055Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:6ltskpkqrn7tx3c2b64w6slu/app.bsky.feed.post/3n2fgdyaaqc2h",
+      "url": "https://bsky.app/profile/davidcrockett08.bsky.social/post/3n2fgdyaaqc2h",
+      "author": "davidcrockett08.bsky.social",
+      "context": "I just remember there being some Roger Rabbit Dos game where I couldn't even get out of the first room and there was no way in heck to figure out how to do that. Ol' Rog specialized in inspiring childhood failure, I think.",
+      "text": "Early DOS adventure games rarely told you what to do, so you were not alone in getting stuck in that first room.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:idarkodjhs4axpfm736teahm/app.bsky.feed.post/3n2fb26vt5k2m",
+      "url": "https://bsky.app/profile/pinchofdom.bsky.social/post/3n2fb26vt5k2m",
+      "author": "pinchofdom.bsky.social",
+      "context": "What game was a big part of your childhood? Before the joys of a getting a PlayStation, nothing beat playing games on ye ol Windows 95\n2 images: Putt-Putt Enters the Race (1999) / Pajama Sam 2: Thunder and Lightning Aren't so Frightening (1998); quotes @creamysaucy.bsky.social: What game was a big part of your childhood?",
+      "text": "Putt-Putt and Pajama Sam were the best. Humongous Entertainment made so many childhood favorites.",
+      "edited": false
+    }
+  ]
+}

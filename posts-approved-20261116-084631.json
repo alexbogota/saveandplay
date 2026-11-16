@@ -1,0 +1,29 @@
+{
+  "approvedAt": "2026-11-16T08:46:31.015Z",
+  "items": [
+    {
+      "n": 7,
+      "kind": "coop",
+      "platform": "bluesky",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "text": "Palworld has online co-op on Steam.\nA rented server keeps your world online when the host logs off.\n\nhttps://saveandplay.com/servers/palworld/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-11-16\n\n#PCGaming #Palworld\nAd",
+      "link": "https://saveandplay.com/servers/palworld/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-11-16",
+      "day": "2026-11-16",
+      "key": "prices|coop-2026-11-16|/servers/palworld/",
+      "notBefore": "2026-11-16T08:46:31.015Z"
+    },
+    {
+      "n": 8,
+      "kind": "coop",
+      "platform": "bluesky",
+      "account": "cozy",
+      "handle": "cozygame.bsky.social",
+      "text": "Stardew Valley is up to 8-player farming: the host invites 1 to 7 friends to the valley online.\nA rented server keeps the farm open when the host logs off.\n\nhttps://saveandplay.com/servers/stardew-valley/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=coop-2026-11-16\n\n#CozyGames #StardewValley\nAd",
+      "link": "https://saveandplay.com/servers/stardew-valley/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=coop-2026-11-16",
+      "day": "2026-11-16",
+      "key": "cozy|coop-2026-11-16|/servers/stardew-valley/",
+      "notBefore": "2026-11-16T08:46:31.015Z"
+    }
+  ]
+}
