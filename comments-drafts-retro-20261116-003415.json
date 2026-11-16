@@ -1,0 +1,29 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261116-003415",
+  "madeAt": "2026-11-16T00:34:40.745Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:cpouk6gvmqwgkel4jrbtqasi/app.bsky.feed.post/3n2djfswua22p",
+      "url": "https://bsky.app/profile/bastardofrealit.bsky.social/post/3n2djfswua22p",
+      "author": "bastardofrealit.bsky.social",
+      "context": "Man, I just wanted to get a basic graphics card so I could play the 20 year old games I got from GOG without any stupid hickups. Any suggestions?",
+      "text": "Most 20-year-old games run fine on any modern graphics card, so hiccups are usually compatibility issues rather than GPU power. Which game is giving you trouble?",
+      "group": "gogOld",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:o3gctek2wbx6wt4b7eaxy35e/app.bsky.feed.post/3n2enjxrpgd2o",
+      "url": "https://bsky.app/profile/gamerbait.bsky.social/post/3n2enjxrpgd2o",
+      "author": "gamerbait.bsky.social",
+      "context": "StarTropics was one of Nintendo's more unique late NES titles and by then devs were maxing out the hardware. Its box art popped on shelves, but it was a rental trap: a needed code was on a letter in the box, and stores lost it. Did your video store burn you too? Did you beat it? #RetroGaming\n4 images, no description",
+      "text": "The letter in the box was a fun gimmick, but a rental nightmare. Hope you beat it in the end.",
+      "group": "retroFeed",
+      "heated": false
+    }
+  ]
+}

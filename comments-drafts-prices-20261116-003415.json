@@ -1,0 +1,39 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "stamp": "20261116-003415",
+  "madeAt": "2026-11-16T00:34:40.511Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:5j2caf32hkewii6yrxdy22ld/app.bsky.feed.post/3n2eerczqs22f",
+      "url": "https://bsky.app/profile/manaflare-mtg.bsky.social/post/3n2eerczqs22f",
+      "author": "manaflare-mtg.bsky.social",
+      "context": "Not my typical game - but Librarian was a really zen 4-5 hours on my #steamdeck. Who knew that shelving ~3500 books could be such a good time? The game loop is rewarding: find book, find shelf, put book on shelf. And as you go you get abilities that allow to to become faster and more efficient.\nimage, no description",
+      "text": "Shelving books as a zen game loop sounds like a perfect fit for short Deck sessions. Glad it hit the spot.",
+      "group": "pcGaming",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:mo7vkhievrf4hyr7i6iwboqe/app.bsky.feed.post/3n2eagxxt7s2w",
+      "url": "https://bsky.app/profile/wickedreine.blacksky.app/post/3n2eagxxt7s2w",
+      "author": "wickedreine.blacksky.app",
+      "context": "Hey there’s like…a lot of good video games on sale right now. The hell going on??\nlink card: Is It Meme",
+      "text": "This is where a wishlist pays off, since Steam shows which of your wishlisted games are on sale. Happy hunting!",
+      "group": "backlog",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:hvnjb4wjiwcmhuf4empsivmg/app.bsky.feed.post/3n2ecil4ph22b",
+      "url": "https://bsky.app/profile/audrey-voltaire.bsky.social/post/3n2ecil4ph22b",
+      "author": "audrey-voltaire.bsky.social",
+      "context": "Does anyone have any good suggestions for visual novel games that are good? Trying to start a list to go through. So far I got Veins like Tapeworms, nearly a year ago I was introduced to it and been meaning to pick it up.",
+      "text": "Coffee Talk and VA-11 Hall-A are both well-loved visual novels on PC. Coffee Talk is the calmer of the two.",
+      "group": "backlog",
+      "heated": false
+    }
+  ]
+}
