@@ -1,53 +1,55 @@
 # Comment candidates: cozy (@cozygame.bsky.social)
-Made 2026-11-15T18:49Z. Searched: askCozy: cozy game recommendation | askCozy: cozy games steam | askCozy: recommend cozy game | askCozy: wholesome game recommend | stardew: stardew | stardew: farming sim | stardew: life sim | stardew: stardew valley recommendations | evening: cozy games tonight | evening: cozy gaming evening | evening: cozy game | evening: something cozy play | wholesome: wholesome games | wholesome: comfort game | wholesome: cottagecore game | deck: cozy steam deck | deck: steam deck relaxing games | deck: steam deck farming sim | seasonal: cozy autumn game | seasonal: cozy spooky games | seasonal: cozy halloween games | cozyFeed: feed.
-Posts below: 12 + 2 heated. Dropped in this run: bot, shop or studio 43, skip word 135, other language (text) 6, too short 4, not about games 6, too many hashtags 4, promo (link and hashtags) 6, already shown 8, replies are limited 10, console only 11, low score 11, adult or graphic label 2, not a question 17, other language 8, own post 1.
+Made 2026-11-16T06:22Z. Searched: askCozy: cozy games | askCozy: cozy game recommendations | askCozy: cozy games recommend | askCozy: looking for cozy games | stardew: farming games | stardew: stardew valley | stardew: games like stardew valley | stardew: stardew | evening: cozy gaming | evening: chill game tonight | evening: cozy games tonight | evening: cozy gaming evening | wholesome: wholesome games | wholesome: comfort game | wholesome: cottagecore game | deck: cozy steam deck | deck: steam deck relaxing games | deck: steam deck farming sim | seasonal: cozy autumn game | seasonal: cozy spooky games | seasonal: cozy halloween games | cozyFeed: feed.
+Posts below: 12 + 2 heated. Dropped in this run: too short 11, skip word 162, bot, shop or studio 47, already shown 9, not about games 11, promo (link and hashtags) 9, replies are limited 13, console only 10, adult or graphic label 2, empty 2, too many hashtags 3, own post 1, already answered 1, low score 6, not a question 18, other language 4, other language (text) 1, earlier finds: low score 2.
 
 ## Posts
-1. @andrzej.lichnerowicz.pl (unjello) · 59m · likes 0 · replies 1 · question · evening
-   https://bsky.app/profile/andrzej.lichnerowicz.pl/post/3n2elaymhvc2a
-   ... with the gentle, cozy business of looking for lost cats, rescuing them, and petting pilgrim dogs. You know, just your average wholesome samurai experience.
-   [image: Female samurai warrior holding a cat. Screenshot from the game called Rise of the Rōnin.]
-2. @anstorygame.com (Anstory) · 3h · likes 0 · replies 0 · question · evening
-   https://bsky.app/profile/anstorygame.com/post/3n2efnjf3pl26
-   A perfect day on the farm… …that costs 500 coins. Due tomorrow. 🍯 Bug's plan: don't panic. Plan B: panic quietly. Who's joining your team: Bug, Bonnie, Beth, or Maurice? Anstory, a cozy rhythm game with a story. Free on Android: anstorygame.com/bs
+1. @hoestrummer.bsky.social (Laura of the Rings) · 1h · likes 1 · replies 0 · question · stardew
+   https://bsky.app/profile/hoestrummer.bsky.social/post/3n2fql55frk2f
+   I watch Gab Smolders. She is so fun to watch. She plays video games like horror and stuff like Stardew. She’s always my top YouTuber. Sounds like you’ve got some good ones yourself. I’ve never heard of either of them before. It sucks being caught up. You run out of stuff to watch
+2. @mentallyillgoth.bsky.social (🖤 Amber 🕸️ Ottawa~) · 6h · likes 1 · replies 1 · question · stardew
+   https://bsky.app/profile/mentallyillgoth.bsky.social/post/3n2fcbk4zgs2t
+   streaming tn!!!! should I do rivals?? Stardew??? A new game??? HELP
+3. @julianwilde96.bsky.social (Julian Wilde) · 8h · likes 3 · replies 1 · question · askCozy
+   https://bsky.app/profile/julianwilde96.bsky.social/post/3n2ezlbn2kj22
+   How exciting is this? Little Witchlings is a storybook hub for young witches: moonlit stories, flame-free spells, fairy guides and games, plus cozy guides for grown-ups. Every kid and every family belongs. Share it with the little witch in your life ✨🦉 littlewitchlings.com Follo
+   [image: Storybook illustration of a twilight woodland clearing: a bubbling copper cauldron with rainbow sparkles, purple, teal and pink witch hats on toadstools, an ow…]
+4. @ravelloalto.bsky.social (Ravello) · 14h · likes 2 · replies 0 · question · askCozy
+   https://bsky.app/profile/ravelloalto.bsky.social/post/3n2eh35rtrk2h
+   I figure my sona would love rainy days, but to cheer him up if he was sad? He’d probably use it as an excuse for a personal day- plenty of comfort snacks, a low light room, scented candles, a couple of cozy solo games, and no outside distractions.
+5. @oliverg04.bsky.social (Oliver 🐣) · 15h · likes 1 · replies 0 · question · askCozy
+   https://bsky.app/profile/oliverg04.bsky.social/post/3n2ebmtpx4h2o
+   Roguelites and cozy games are a trap, but raising a pixel pet that ignores me for hours is fine, right—my Tamagotchi's therapist agrees?
+6. @ylokin.bsky.social (Kin ✨🦷🌿) · 15m · likes 0 · replies 1 · question · evening
+   https://bsky.app/profile/ylokin.bsky.social/post/3n2fuevxnjk2d
+   hubster hooked up my pc to the tv, now we're cozy gaming-maxxing(??)
+   [image: Darkest dungeon on the tv]
+7. @genoforprez.bsky.social ("Geno") · 2h · likes 0 · replies 1 · question · stardew
+   https://bsky.app/profile/genoforprez.bsky.social/post/3n2fptt2ipc2b
+   I think games like Stardew or House Flipper or Powerwash Simulator have this relaxing effect on other people. I think there must be a game like this out there for everyone that is more of a brain massage than a game in the classic sense. Just gotta find the one that works for you
+8. @vexoriathesuneater.bsky.social (Vexoria the Sun Eater) · 3h · likes 55 · replies 2 · question · evening
+   https://bsky.app/profile/vexoriathesuneater.bsky.social/post/3n2fkjbwh2c2o
+   Is that a chill in the air I feel? ❄️❄️ Schedule! Mon: Friendsgiving IRL Cooking Stream w/friends Wed: AltSpace! Thurs/Fri: Gaming and Frozen Empress returns! Now come warm me up pls :3 I wanna be cozy snek!
+   [image, no description]
+9. @patchbeat.net (Patchbeat) · 6h · likes 5 · replies 1 · question · stardew
+   https://bsky.app/profile/patchbeat.net/post/3n2fa6kdwqm2f
+   The 12 best games like Stardew Valley Looking for cosy farming and life sims with Stardew's routine, community and calm? These are the games that capture the same feeling. 🎮 #gaming #cozygaming #GameNews
+   [link card: The 12 best games like Stardew Valley]
+10. @cakebubble.bsky.social (Kaily 🍓) · 6h · likes 1 · replies 0 · question · evening
+   https://bsky.app/profile/cakebubble.bsky.social/post/3n2fa4mhdun2e
+   Cozy gaming in a onesie sounds perfect. Which game were you playing?
+11. @companionsgame.bsky.social (Companions Game) · 11h · likes 1 · replies 1 · question · cozyFeed
+   https://bsky.app/profile/companionsgame.bsky.social/post/3n2ep7ac2oa27
+   POV: your adorable creature companion refuses to be left behind. 🥹 Would you take this little Faye everywhere? Made by Wild Thorn Studios. Follow @companionsgame.bsky.social #CompanionsGame #CozyGames #CreatureCollector
    [video, no description]
-3. @pocketpetal.com (PocketPetal) · 3h · likes 2 · replies 1 · question · cozyFeed
-   https://bsky.app/profile/pocketpetal.com/post/3n2ef4m4vkt26
-   Lawn clover, one real roll. What did you guess? Every plant gets the same odds, from Common at 60% to Mythic at 0.3%. iPhone for now: pocketpetal.com #plants #CozyGames
-   [video: White clover in a lawn. Pollie, a small pixel bee, flies in, the PocketPetal camera snaps it, and the card lands on Common. Pollie sighs. It ends on the Pocket…]
-4. @selenethestargazer.bsky.social (🏳️‍⚧️✨ Selene the Stargazer✨ 🏳️‍⚧️) · 4h · likes 0 · replies 0 · question · stardew
-   https://bsky.app/profile/selenethestargazer.bsky.social/post/3n2eabl2ays2v
-   If I wanted to do a modded Stardew stream series sometime would people be interested?
-5. @adjunctangel.bsky.social (Adjunct Angel) · 15h · likes 0 · replies 0 · question · askCozy
-   https://bsky.app/profile/adjunctangel.bsky.social/post/3n2d4uitvik2n
-   you know what is pretty disturbing? there are an unusual number of advertisements on youtube for games that are "relaxing post-apocalyptic" type games... each seemingly a different game. i can't help but wonder what the hell that is about all of a sudden
-6. @theinfamousroo.bsky.social (Slave of the Cat God) · 18h · likes 0 · replies 0 · question · askCozy
-   https://bsky.app/profile/theinfamousroo.bsky.social/post/3n2ct3lxqzc22
-   I kinda want to see them try to make “cozy” Silent Hill 2. How do you make one of the scariest games ever cozy?
-7. @beatrixbunny.bsky.social (Peculiar Little Rabbit 🐇🦌 Just Married) · 24h · likes 2 · replies 1 · question · stardew
-   https://bsky.app/profile/beatrixbunny.bsky.social/post/3n2c5i5f5us25
-   I mean if old school cheat codes do stuff like big head mode or add in whole new game models I don't see why they couldn't make you a cow or fairy? Or maybe it's just based off of what game you have loaded up right now, a fantasy RPG vs a farming sim?
-8. @papillondore20.bsky.social (Papillon Doré) · 4h · likes 3 · replies 0 · askCozy
-   https://bsky.app/profile/papillondore20.bsky.social/post/3n2ebe664fs2m
-   Oh thank you for caring about me Ursula. I've not been doing many pun games recently, as most days I've been out walking or relaxing in the sun. I'm taking advantage of the remaining sunny days before it gets colder. Thank you for being so kind, caring and thoughtful. I hope you 
-9. @luckylydia.bsky.social (LuckyLydia) · 13h · likes 7 · replies 8 · question · stardew
+12. @luckylydia.bsky.social (LuckyLydia) · 25h · likes 7 · replies 8 · question · stardew
    https://bsky.app/profile/luckylydia.bsky.social/post/3n2dctlmfys2d
    Hey what game should I start doing a solo play through on stream? The options Stardew Valley Terraria Slime rancher 1 Star Wars the old republic games Maybe Skyrim… ￼ And if anyone has any suggestions I’d love to here them! ￼
-10. @kokokringle.bsky.social (Paige (KoKo Kringle)) · 16h · likes 0 · replies 1 · question · stardew
-   https://bsky.app/profile/kokokringle.bsky.social/post/3n2d25vj5tk2k
-   Ugh guys why did my switch have to crap out 🥲 does anyone know anything about maybe getting the battery replaced or should I make peace with my Stardew save being gone forever?
-11. @klouisemaried.bsky.social (louise) · 16h · likes 12 · replies 4 · question · stardew
-   https://bsky.app/profile/klouisemaried.bsky.social/post/3n2czqmpaxc2a
-   I have never played stardew valley before should I start ?
-12. @mysticmuffin.bsky.social (Mystic Muffin ☃️❄️🎄 ☃️❄️🎄 ☃️❄️🎄 ☃️❄️�) · 17h · likes 0 · replies 0 · question · stardew
-   https://bsky.app/profile/mysticmuffin.bsky.social/post/3n2cwxp4ruc2a
-   I feel the games are always worse on the weekend And also more people should take time to look at the map and ask themselves: what can I be doing to help the objective? Because, while farming is good, farming and letting the enemy minions take EVERY TOWER is not good
 
 ## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @ondinerao.bsky.social (Ondine Rao) · 19h · likes 1 · replies 0 · question · wholesome
-   https://bsky.app/profile/ondinerao.bsky.social/post/3n2co5hukzk22
-   golden hour on a Lisbon rooftop, cream knit, olive trousers and the Tagus doing its thing 🌇 AI-generated me, real love for sunsets. also posting more gamer/anime nonsense over on X @ondine_rao — what's your comfort game when the week wins? 🎮
-   [image, no description]
-2. @romination.bsky.social (Ft. Rommy the Poster Welcome to the Next) · 22h · likes 0 · replies 1 · question · stardew
-   https://bsky.app/profile/romination.bsky.social/post/3n2cg2rv3qs2j
-   like the second point, is industrial farming Bad? Yes. Absolutely. It SHOULD be changed. is video games bad? is data centers for streaming bad? yes. totally. but: we have those already fully formed. what AI has for us now is an ability to fight back before it becomes general use 
+1. @aifullsteamgames.bsky.social (AI-Full Steam Games!) · 23h · likes 1 · replies 0 · askCozy
+   https://bsky.app/profile/aifullsteamgames.bsky.social/post/3n2dgjaj6ro2t
+   Art Shop: Tidy Up! by Bad Habit Games $3.60 AI disclosure: “Generative AI was used only as a supporting tool, for language translation and for UI support. Everything else was produced by our team.”
+   [link card: Art Shop: Tidy Up!]
+2. @uk-resistant.bsky.social (Jamie D) · 21h · likes 14 · replies 2 · evening
+   https://bsky.app/profile/uk-resistant.bsky.social/post/3n2dnbntnyk2o
+   I have an idea for a somewhat cozy game that through mechanics has an inbuilt progression system but it would be cloned by AI within days

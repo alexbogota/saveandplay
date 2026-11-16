@@ -1,49 +1,53 @@
 # Comment candidates: retro (@retrogamedeals.bsky.social)
-Made 2026-11-15T18:50Z. Searched: childhood: games from my childhood | childhood: first video game | childhood: played this as a kid game | childhood: first pc game | classicPC: classic pc games | classicPC: old pc game | classicPC: retro pc gaming | classicPC: dos game | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: retro game recommendations | askRetro: old games recommend | askRetro: retro games recommend | askRetro: best retro games | retroFeed: feed.
-Posts below: 12. Dropped in this run: not about games 73, too many hashtags 5, replies are limited 9, skip word 66, bot, shop or studio 22, low score 10, promo (link and hashtags) 1, already shown 1, too short 3, empty 1, many links 1, other language 15, not a question 22, other language (text) 7.
+Made 2026-11-16T06:22Z. Searched: childhood: childhood game | childhood: game from my childhood | childhood: childhood favorite game | childhood: games from my childhood | classicPC: classic pc game | classicPC: old pc games | classicPC: dos games | classicPC: classic pc games | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: best old games | askRetro: old game recommend | askRetro: retro game recommendations | askRetro: old games recommend | retroFeed: feed.
+Posts below: 12 + 1 heated. Dropped in this run: not about games 133, bot, shop or studio 19, skip word 41, replies are limited 9, too many hashtags 10, already shown 1, adult or graphic label 1, low score 3, already answered 1, empty 1, other language 12, not a question 41, other language (text) 7, too short 4, earlier finds: low score 4.
 
 ## Posts
-1. @aen9ine.bsky.social (Aᴇɴɢɪɴᴇ) · 27h · likes 5 · replies 0 · question · nostalgia
-   https://bsky.app/profile/aen9ine.bsky.social/post/3n2bvaoiy722g
-   5 - Favorite retro game - Donkey Kong Country 3 So much competition but this came to mind first and I love it dearly, I used too draw stages for this game in my school notebooks. Wish I still had them.
-   [link card: Donkey Kong Country 3 Dixie Kong'S Double Trouble; quotes @aen9ine.bsky.social: I like this one ! I think I'll do QTPs? Not sure if replies are better? Tell me ig idk lmao]
-2. @gamerbait.bsky.social (GamerBait) · 18m · likes 0 · replies 0 · question · retroFeed
-   https://bsky.app/profile/gamerbait.bsky.social/post/3n2enjxrpgd2o
-   StarTropics was one of Nintendo's more unique late NES titles and by then devs were maxing out the hardware. Its box art popped on shelves, but it was a rental trap: a needed code was on a letter in the box, and stores lost it. Did your video store burn you too? Did you beat it? 
-   [4 images, no description]
-3. @motogui.bsky.social (motogui) · 3h · likes 5 · replies 1 · classicPC
-   https://bsky.app/profile/motogui.bsky.social/post/3n2eepwialc2v
-   a diferença maior ta em como as coisas são avaliadas, pq diferente dos prêmios da academia o game awards só tem júri de veículos de imprensa e ainda tem peso de voto popular kkk então o hype vira um critério de elegibilidade muito forte. não dá pra considerar que essa premiação t
-4. @retrodle.bsky.social · 4h · likes 0 · replies 0 · question · retroFeed
-   https://bsky.app/profile/retrodle.bsky.social/post/3n2ebpdzhuq2k
-   Retrodle is live! 👾 Guess the NES game of the day in 6 hints at retrodle.com Just finding us? The new puzzle archive lets you play every past puzzle, all the way back to #1. Catch up, then come back tomorrow. #retrogaming #NES
-   [image: Retrodle graphic: 'Now live · Puzzle archive' above the word RETRODLE in green, amber and grey pixel tiles, a row of tiles numbered #1 to #5, and the text 'Mis…]
-5. @bastardofrealit.bsky.social (Bastard of Reality) · 11h · likes 0 · replies 0 · question · gogOld
-   https://bsky.app/profile/bastardofrealit.bsky.social/post/3n2djfswua22p
-   Man, I just wanted to get a basic graphics card so I could play the 20 year old games I got from GOG without any stupid hickups. Any suggestions?
-6. @serenastone.bsky.social (☠️🛡️Serena the Misericorde🗡️🎃) · 13h · likes 4 · replies 1 · question · childhood
-   https://bsky.app/profile/serenastone.bsky.social/post/3n2de4hjzgk2x
-   Is it evil if it's just? Some people need to learn that they're not the main character of a video game that bends the universe around them :/ if they can't respect your boundaries the first time, why should you trust their 'apology' and risk them trying the same old shit?
-7. @filledwithstraw.bsky.social (Sydlithid) · 15h · likes 1 · replies 0 · question · childhood
-   https://bsky.app/profile/filledwithstraw.bsky.social/post/3n2d37tsg6s2i
-   WHAT????? The guy who directed Tron: Legacy also directed the best video game trailer of all time and Tron: Legacy was his MOVIE DIRECTORIAL DEBUT?????
-   [image: IMDB page of Joseph Kosinski showing his first directing gig is the Gears of War Mad World trailer and then fucking Tron: Legacy.; quotes @filledwithstraw.bsky.social: Tron isn't a bad movie, but its absolutely bonkers that nearly 30 years later they made a ridiculously good sequel. And then got Daft Punk …]
-8. @bbqdotgov.bsky.social (BBQdotgov) · 18h · likes 1 · replies 0 · question · childhood
-   https://bsky.app/profile/bbqdotgov.bsky.social/post/3n2ct7tecmk2x
-   LOTR, kinda, I guess? Also, w/in Video Games there are different flavors - there's the general "computer games and video games make kids antisocial" shit, and there are game-specific freakouts (e.g., Mortal Kombat, Doom or other first-person shooters leading to gun violence, etc.
-9. @kraftymacaroni.bsky.social (Josh Adkins) · 18h · likes 1 · replies 0 · question · childhood
-   https://bsky.app/profile/kraftymacaroni.bsky.social/post/3n2csif34oc27
-   What video game have you played and beat more times than you can count? I’ll go first. #gaming #games
-   [link card: God Of War Kratos]
-10. @nintendometro.bsky.social (Nintendo Metro) · 54m · likes 6 · replies 1 · question · retroFeed
-   https://bsky.app/profile/nintendometro.bsky.social/post/3n2elk2h4sk2z
-   'Pac-In-Time' was a weird title, originally a different game on the Amig, and switched up with Pac-Man! Did you play either of the SNES or Game Boy versions?
-   [image: 'Pac-In-Time' was a weird title, originally a different game on the Amig, and switched up with Pac-Man! Did you play either of the SNES or Game Boy versions?]
-11. @zerohx77.bsky.social (Zeroh LV. 44 🎮-Hexyz Force-) · 3h · likes 2 · replies 0 · question · retroFeed
-   https://bsky.app/profile/zerohx77.bsky.social/post/3n2eg2xlnsk2q
-   Since I've had some letdowns over SNES JRPGs like Secret of Mana and Breath of Fire II, I wonder if I didn't grow up with Shining Force would I enjoy it as much as I do? Or...Sonic?
-   [link card: SEGA Logo Animation]
-12. @framerater.bsky.social (FrameRater 🇨🇦) · 3h · likes 5 · replies 1 · question · retroFeed
-   https://bsky.app/profile/framerater.bsky.social/post/3n2efvonvgk2z
-   🔴 What would you prefer to own? An Atari 2600+ or an Intellivision Sprint? Check out my latest video to discover the benefits of both mini consoles.
-   [link card: MINI CONSOLE SHOWDOWN!! | Atari 2600+ VS. Intellivision Sprint]
+1. @w3llgeb0ren.sheath.church (Well Geboren ❌👑) · 3h · likes 1 · replies 1 · question · childhood
+   https://bsky.app/profile/w3llgeb0ren.sheath.church/post/3n2fmjdmtms2t
+   What game was a big part of your childhood? I'm not that old (yet), but I did play Tetris on the OG NES a lot, I recall getting a score of 260,000 at some point. Also; Duck Hunt, Mario Brothers, Super Mario Brothers, Legend of Zelda.
+   [link card: Classic 90s Tetris Gameplay; quotes @phoenixstaryt.bsky.social: What game was a big part of your childhood?]
+2. @davidcrockett08.bsky.social (Davy Crockett) · 4h · likes 1 · replies 0 · question · childhood
+   https://bsky.app/profile/davidcrockett08.bsky.social/post/3n2fgdyaaqc2h
+   I just remember there being some Roger Rabbit Dos game where I couldn't even get out of the first room and there was no way in heck to figure out how to do that. Ol' Rog specialized in inspiring childhood failure, I think.
+3. @pinchofdom.bsky.social (Neutrogena Foam Cleanser) · 6h · likes 19 · replies 2 · question · childhood
+   https://bsky.app/profile/pinchofdom.bsky.social/post/3n2fb26vt5k2m
+   What game was a big part of your childhood? Before the joys of a getting a PlayStation, nothing beat playing games on ye ol Windows 95
+   [2 images: Putt-Putt Enters the Race (1999) / Pajama Sam 2: Thunder and Lightning Aren't so Frightening (1998); quotes @creamysaucy.bsky.social: What game was a big part of your childhood?]
+4. @mrulity.bsky.social (Jaiden Shephard) · 3h · likes 2 · replies 0 · question · retroFeed
+   https://bsky.app/profile/mrulity.bsky.social/post/3n2fjlkkzls2e
+   Happy 25th Birthday(a bit late), to Halo Combat Evolved(Classic) and of course, the Launch of Original Xbox Console🎮 (still, my drawing is Delayed because i need some changes) #JustJaidenThings #Nostalgia #Gaming #Halo25thAnniversary
+   [image, no description]
+5. @madhogthymaster.bsky.social (Madhog thy Master) · 3h · likes 1 · replies 0 · childhood
+   https://bsky.app/profile/madhogthymaster.bsky.social/post/3n2flamihjc2f
+   This seemed a fun trend so I latched on to it. From the adventure games of my formative childhood years, to the unsuspecting masterpieces that made me appreciate Videogames as an art form, to what currently defines my writing pursuits. An abridged, encompassed view of my tastes, 
+   [image: First games I ever played: "Sam & Max Hit The Road", "Day of the Tentacle", "Simon the Sorcerer" Videogames Are Art: "Klonoa" (Wii Remake), "Klonoa: Door to Ph…]
+6. @occultclassic.bsky.social (bennett) · 11h · likes 0 · replies 0 · question · nostalgia
+   https://bsky.app/profile/occultclassic.bsky.social/post/3n2eoqk5d7c2b
+   Game Of the week 45 for 2026 is: final fantasy resonance This is a turn based jrpg executed extremely well. Also it’s technically a remake of a squad battler mobile game?? They took the story and assets and redressed them as a dungeon crawling final fantasy classic game. Nostalgi
+   [link card: FINAL FANTASY RESONANCE on Steam; quotes @occultclassic.bsky.social: Game of the week 44 for 2026 is: WoW Forever I’ve been sick most of this week and haven’t really had time to play anything, but… this weeke…]
+7. @recluse.bsky.social (🕷️) · 1h · likes 0 · replies 0 · askRetro
+   https://bsky.app/profile/recluse.bsky.social/post/3n2frdpe3vk2l
+   Queen's Domain has the best parts of old school 3D games, with none of the baggage · Secrets, including obtuse ones that make you feel smart · Simple, but engaging core mechanics · Challenges that require mixing up your approach · Cool boss fights
+8. @bigyardbob.bsky.social (💀Big Yard Bob💀) · 4h · likes 1 · replies 0 · question · retroFeed
+   https://bsky.app/profile/bigyardbob.bsky.social/post/3n2fhsvdjnc24
+   Is that an NES Power Glove? #wrestlesky #Sickos #AEW #FullGear
+9. @tamagochivibe.bsky.social (Tamagotchi Vibe 🎮) · 4h · likes 2 · replies 0 · question · retroFeed
+   https://bsky.app/profile/tamagochivibe.bsky.social/post/3n2fgh7pyff26
+   The NES Zapper’s cord wrapped around my ankle mid-duck-hunt. I yanked, the TV wobbled, and the dog still laughed at me. Hardware taught me resilience—players will forgive a glitch if the heart is right. What fight did you lose to your own controller?
+10. @finnstuff.bsky.social (Finn :3) · 5h · likes 0 · replies 0 · childhood
+   https://bsky.app/profile/finnstuff.bsky.social/post/3n2fd4azlls2o
+   Good I think, had a long hangout with my brother today and played an old game from my childhood :3
+11. @omglx.com (Alex J. Sandoval) · 7h · likes 1 · replies 1 · classicPC
+   https://bsky.app/profile/omglx.com/post/3n2f7emmrek2l
+   It got some notability, but I want to lavish more praise on Desktop Explorer, a very cool mystery game wrapped in a 'Online in the 90s' aesthetic & mechanics... store.steampowered.com/app/2527160/...
+   [link card: Desktop Explorer on Steam]
+12. @honeywiz.bsky.social (HoneyWiz) · 7h · likes 1 · replies 0 · classicPC
+   https://bsky.app/profile/honeywiz.bsky.social/post/3n2f6s4grxc25
+   5th PC-FX game finished, Tokimeki Card Paradise. A basic set of age old card games tied together by some...not titillating anime art and lewdness. ...I feel like playing the less noteworthy PC-FX games is like wearing a radium necklace. They look kinda cool but experiencing them 
+   [image, no description]
+
+## Heated topics (AI debates etc.): reply only neutrally, with facts
+1. @fzone96.bsky.social (Wolfy Noctix (FZone96)) · 12h · likes 0 · replies 1 · classicPC
+   https://bsky.app/profile/fzone96.bsky.social/post/3n2emlllvas2l
+   AI is not all bad, it's what people do with it. My "exceptions" are the native PC Ports of old Handheld/Console games. And even then, those probably just use small portions of AI just because the programmers exhausted all the other options they couldn't figure out on their own.
