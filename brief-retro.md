@@ -1,8 +1,8 @@
-# Brief: Retro game deals (@retrogamedeals.bsky.social), 2026-11-16 20:49 UTC
-Prices checked 2026-11-16 19:46 UTC (1 h ago). News: 11 of 11 sources read, 86 items from the last 48 h, 0 of 0 offered deals mentioned.
+# Brief: Retro game deals (@retrogamedeals.bsky.social), 2026-11-17 19:39 UTC
+Prices checked 2026-11-17 18:42 UTC (1 h ago). News: 11 of 11 sources read, 125 items from the last 48 h, 0 of 0 offered deals mentioned.
 Niche Retro: 1 games fit the rule today (0 of them can be posted now).
 WARNING: NOTHING TO OFFER today.
-WARNING: No game fits the niche today (1 fit the rule, 2 do not, 0 have no facts yet, 0 were taken by another account today, 1 offered in the last 7 days, 0 under 30%, 0 prices older than 48 h, 0 sales over or ending soon).
+WARNING: No game fits the niche today (1 fit the rule, 2 do not, 0 have no facts yet, 1 were taken by another account today, 0 offered in the last 7 days, 0 under 30%, 0 prices older than 48 h, 0 sales over or ending soon).
 
 Write ONE post about the first item below (take another one only if it looks wrong, and say why).
 Rules:
@@ -12,6 +12,6 @@ Rules:
 - If no game fits today, the post file says NO POST TODAY. Never take any game just to fill the day.
 - Use only the numbers in this brief (price, was, discount, dates). Never invent or round prices. The last line is Ad (plain text, not a hashtag).
 
-Left out: 0 other-store deals, 0 hidden duplicates, 0 under 30%, 0 ended, 0 ending within 6 h, 0 old prices, 2 outside the niche, 0 without facts.
+Left out: 0 other-store deals, 0 hidden duplicates, 0 under 30%, 0 ended, 0 ending within 6 h, 0 old prices, 2 outside the niche, 0 without facts, 1 taken by another account today.
 Sources not read: none.
-Built by: commit 3278904, schedule, run #48 attempt 1.
+Built by: commit cd323c0, schedule, run #49 attempt 1.

@@ -1,8 +1,8 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-11-16T20:49:17.827Z",
-  "builtBy": "commit 3278904, schedule, run #48 attempt 1",
-  "pricesCheckedAt": "2026-11-16T19:46:56.762Z",
+  "generatedAt": "2026-11-17T19:39:08.071Z",
+  "builtBy": "commit cd323c0, schedule, run #49 attempt 1",
+  "pricesCheckedAt": "2026-11-17T18:42:54.023Z",
   "warnings": [],
   "candidates": [
     {
@@ -14,8 +14,8 @@
       "was": 39.99,
       "discount": 90,
       "endsAt": "2026-11-21T09:59:00+02:00",
-      "endsInHours": 107,
-      "priceCheckedAt": "2026-11-16T19:46:56.762Z",
+      "endsInHours": 84,
+      "priceCheckedAt": "2026-11-17T18:42:54.023Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
       "drminfo": null,
       "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
@@ -52,15 +52,15 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 38,
+        "days": 39,
         "lowest": true,
         "since": "2026-10-07"
       },
-      "offeredOn": "2026-11-12",
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-16",
+      "offeredOn": "2026-11-16",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-17",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (38 days of data)",
+        "lowest price we've tracked (39 days of data)",
         "deepest-discount rank 1 of 3"
       ]
     },
@@ -73,8 +73,8 @@
       "was": 19.99,
       "discount": 85,
       "endsAt": "2026-11-26T09:59:00+02:00",
-      "endsInHours": 227,
-      "priceCheckedAt": "2026-11-16T19:46:56.762Z",
+      "endsInHours": 204,
+      "priceCheckedAt": "2026-11-17T18:42:54.023Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
       "drminfo": null,
       "coverAlt": "Cover art for This War of Mine",
@@ -112,15 +112,15 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 29,
+        "days": 30,
         "lowest": true,
         "since": "2026-10-19"
       },
       "offeredOn": "2026-11-15",
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-16",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-17",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (29 days of data)",
+        "lowest price we've tracked (30 days of data)",
         "deepest-discount rank 2 of 3"
       ]
     },
@@ -133,8 +133,8 @@
       "was": 19.99,
       "discount": 75,
       "endsAt": "2026-11-26T09:59:00+02:00",
-      "endsInHours": 227,
-      "priceCheckedAt": "2026-11-16T19:46:56.762Z",
+      "endsInHours": 204,
+      "priceCheckedAt": "2026-11-17T18:42:54.023Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
       "drminfo": null,
       "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
@@ -166,162 +166,188 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 38,
+        "days": 39,
         "lowest": true,
         "since": "2026-10-07"
       },
       "offeredOn": "2026-11-13",
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-16",
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-17",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (38 days of data)",
+        "lowest price we've tracked (39 days of data)",
         "deepest-discount rank 3 of 3"
       ]
     }
   ],
   "gogNews": [
     {
-      "title": "Early Access: Littlelands",
-      "game": "littlelands",
-      "url": "https://www.gog.com/en/game/littlelands",
-      "newsLink": "http://www.gog.com/news/early_access_littlelands",
-      "t": 1794794735000,
-      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Flittlelands"
+      "title": "Release: A Quiet Place: The Road Ahead",
+      "game": "a_quiet_place_the_road_ahead",
+      "url": "https://www.gog.com/en/game/a_quiet_place_the_road_ahead",
+      "newsLink": "http://www.gog.com/news/release_a_quiet_place_the_road_ahead",
+      "t": 1794907620000,
+      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fa_quiet_place_the_road_ahead"
     },
     {
-      "title": "Coming soon: Two Realms: Whispers from the Rift",
-      "game": "two_realms_whispers_from_the_rift",
-      "url": "https://www.gog.com/en/game/two_realms_whispers_from_the_rift",
-      "newsLink": "http://www.gog.com/news/coming_soon_two_realms_whispers_from_the_rift",
-      "t": 1794794641000,
-      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Ftwo_realms_whispers_from_the_rift"
+      "title": "Release: Realms of Madness",
+      "game": "realms_of_madness",
+      "url": "https://www.gog.com/en/game/realms_of_madness",
+      "newsLink": "http://www.gog.com/news/release_realms_of_madness",
+      "t": 1794907016000,
+      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Frealms_of_madness"
     },
     {
-      "title": "Release: Brány Skeldalu",
-      "game": "brany_skeldalu",
-      "url": "https://www.gog.com/en/game/brany_skeldalu",
-      "newsLink": "http://www.gog.com/news/release_brany_skeldalu",
-      "t": 1794794496000,
-      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fbrany_skeldalu"
+      "title": "Out of Early Access: Below the Stone",
+      "game": "below_the_stone",
+      "url": "https://www.gog.com/en/game/below_the_stone",
+      "newsLink": "http://www.gog.com/news/out_of_early_access_below_the_stone",
+      "t": 1794906877000,
+      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fbelow_the_stone"
     }
   ],
   "topical": [
     {
-      "title": "Fanatical Movember Charity Bundle 2026: Get 10 Steam Games and 2 DLCs for $8.99",
+      "title": "Green Man Gaming Tripwire Bundle: 8 Steam Games for $10, Including Chivalry 2 and Maneater",
       "source": "Indie Game Bundles",
-      "link": "https://www.indiegamebundles.com/fanatical-movember-charity-bundle-2026-get-10-steam-games-and-2-dlcs-for-8-99/",
-      "t": 1794852389000,
+      "link": "https://www.indiegamebundles.com/green-man-gaming-tripwire-bundle-8-steam-games-for-10-including-chivalry-2-and-maneater/",
+      "t": 1794941251000,
       "keyword": "bundle",
-      "summary": "Fanatical's annual Movember Charity Bundle is back, offering 10 Steam games and two DLCs for just $8.99 (€8.99 / £8.99), including Fallen Aces, Terminator: Dar…"
+      "summary": "Get eight Steam games and additional content worth over $272 for just $10, with prices starting at just $1 for two games. The post Green Man Gaming Tripwire Bu…"
     },
     {
-      "title": "Escape from Tarkov’s FREE November Twitch Drops bring Hawaiian shirts to the battlefield",
-      "source": "gg.deals Freebies",
-      "link": "https://gg.deals/freebie/escape-from-tarkovs-free-november-twitch-drops-bring-hawaiian-shirts-to-the-battlefield/",
-      "t": 1794851983000,
-      "keyword": "free",
-      "summary": "Snag the Hangover Avenger and Cocktail Criminal designs for watching streams with drops enabled."
+      "title": "Epic Games Store’s Black Friday deals reach 95% off, with record lows in the mix",
+      "source": "gg.deals News",
+      "link": "https://gg.deals/deal/epic-games-stores-black-friday-deals-reach-95-off-with-record-lows-in-the-mix/",
+      "t": 1794939931000,
+      "keyword": "deals",
+      "summary": "The bargain bonanza wraps up on December 1."
+    },
+    {
+      "title": "GMG's latest bundle starts at $1 and includes Killing Floor, Maneater, and more",
+      "source": "gg.deals News",
+      "link": "https://gg.deals/bundle/gmg-tripwire-interactive-bundle-2026/",
+      "t": 1794938460000,
+      "keyword": "bundle",
+      "summary": "Add a little more action to your Steam library."
     }
   ],
   "topics": [
     {
-      "headline": "Steam’s latest Weeklong Sale is here with over 4,000 pre-Black Friday deals to explore",
-      "score": 7,
+      "headline": "Humble Survival of the Fittest Bundle: Get Palworld, V Rising and 6 More Steam Games for $25",
+      "score": 10,
       "sites": [
-        "gg.deals"
+        "gg.deals",
+        "indiegamebundles.com"
       ],
       "keywords": [
-        "sale",
-        "deals"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "Steam’s latest Weeklong Sale is here with over 4,000 pre-Black Friday deals to explore",
-          "link": "https://gg.deals/deal/steams-latest-weeklong-sale-is-here-with-over-4000-pre-black-friday-deals-to-explore/",
-          "published": "2026-11-16T19:51:47.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Mythwright's Publisher Sale delivers some early Black Friday Steam deals for indie fans",
-      "score": 7,
-      "sites": [
-        "gg.deals"
-      ],
-      "keywords": [
-        "sale",
-        "deals"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "Mythwright's Publisher Sale delivers some early Black Friday Steam deals for indie fans",
-          "link": "https://gg.deals/deal/mythwrights-publisher-sale-delivers-some-early-black-friday-steam-deals-for-indie-fans/",
-          "published": "2026-11-16T19:34:00.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "SEGA’s Black Friday Steam Sale 2026 brings deep discounts on Yakuza, Persona, Sonic & more",
-      "score": 7,
-      "sites": [
-        "gg.deals"
-      ],
-      "keywords": [
-        "sale",
-        "discounts",
-        "steam sale"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "SEGA’s Black Friday Steam Sale 2026 brings deep discounts on Yakuza, Persona, Sonic & more",
-          "link": "https://gg.deals/deal/segas-black-friday-steam-sale-2026-brings-deep-discounts-on-yakuza-persona-sonic-more/",
-          "published": "2026-11-16T18:56:49.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Humble Store's Black Friday Sale 2026 goes big with games at up to 97% off",
-      "score": 7,
-      "sites": [
-        "gg.deals"
-      ],
-      "keywords": [
-        "sale",
+        "bundle",
         "humble"
       ],
       "games": [],
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Humble Store's Black Friday Sale 2026 goes big with games at up to 97% off",
-          "link": "https://gg.deals/deal/humble-stores-black-friday-sale-2026-goes-big-with-games-at-up-to-97-off/",
-          "published": "2026-11-16T17:07:20.000Z"
+          "title": "Humble Survival of the Fittest Bundle is here! Get Palworld, V Rising, and more Steam games",
+          "link": "https://gg.deals/bundle/humble-survival-of-the-fittest-bundle/",
+          "published": "2026-11-17T08:59:14.000Z"
+        },
+        {
+          "source": "Indie Game Bundles",
+          "title": "Humble Survival of the Fittest Bundle: Get Palworld, V Rising and 6 More Steam Games for $25",
+          "link": "https://www.indiegamebundles.com/humble-survival-of-the-fittest-bundle-get-palworld-v-rising-and-6-more-steam-games-for-25/",
+          "published": "2026-11-17T18:52:05.000Z"
         }
       ]
     },
     {
-      "headline": "Early Black Friday deals for gamers are now live: tracking all the biggest PS5, Switch 2, Xbox, and PC discounts",
-      "score": 7,
+      "headline": "Sony defeat $2.6 billion UK class action lawsuit which argued PlayStation's dominant market position fuels \"excessive and unfair\" game prices",
+      "score": 8,
       "sites": [
-        "gamesradar.com"
+        "rockpapershotgun.com",
+        "eurogamer.net"
       ],
       "keywords": [
-        "discounts",
+        "prices"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "Rock Paper Shotgun",
+          "title": "Sony defeat $2.6 billion UK class action lawsuit which argued PlayStation's dominant market position fuels \"excessive and unfair\" game prices",
+          "link": "https://www.rockpapershotgun.com/sony-defeat-26-billion-uk-class-action-lawsuit-which-argued-playstations-dominant-market-position-fuels-excessive-and-unfair-game-prices",
+          "published": "2026-11-17T16:30:00.000Z"
+        },
+        {
+          "source": "Eurogamer",
+          "title": "PlayStation defeats £2 billion UK lawsuit that alleged Sony forced consumers into \"excessive and unfair prices\"",
+          "link": "https://www.eurogamer.net/playstation-store-pricing-uk-class-action-lawsuit-result",
+          "published": "2026-11-17T16:25:20.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Star Wars Galactic Racer will get local split-screen multiplayer in early 2027 with new 'Free Play' mode, finally letting racers yell at one another in a tangible space",
+      "score": 8,
+      "sites": [
+        "rockpapershotgun.com",
+        "eurogamer.net"
+      ],
+      "keywords": [
+        "free"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "Rock Paper Shotgun",
+          "title": "Star Wars Galactic Racer will get local split-screen multiplayer in early 2027 with new 'Free Play' mode, finally letting racers yell at one another in a tangible space",
+          "link": "https://www.rockpapershotgun.com/star-wars-galactic-racer-will-get-local-split-screen-multiplayer-in-early-2027-with-new-free-play-mode-finally-letting-racers-yell-at-one-another-in-a-tangible-space",
+          "published": "2026-11-17T11:00:10.000Z"
+        },
+        {
+          "source": "Eurogamer",
+          "title": "Star Wars: Galactic Racer is getting much-requested split-screen multiplayer and new mode in 2027",
+          "link": "https://www.eurogamer.net/star-wars-galactic-racer-split-screen-multiplayer",
+          "published": "2026-11-16T19:38:20.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Nintendo’s Black Friday Sale 2026 goes all out with over 1,500 eShop deals and up to 95% off (Europe)",
+      "score": 7,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "sale",
         "deals"
       ],
       "games": [],
       "items": [
         {
-          "source": "GamesRadar deals",
-          "title": "Early Black Friday deals for gamers are now live: tracking all the biggest PS5, Switch 2, Xbox, and PC discounts",
-          "link": "https://www.gamesradar.com/live/news/early-black-friday-deals-for-gamers-live-nov-2026/",
-          "published": "2026-11-16T13:23:43.000Z"
+          "source": "gg.deals News",
+          "title": "Nintendo’s Black Friday Sale 2026 goes all out with over 1,500 eShop deals and up to 95% off (Europe)",
+          "link": "https://gg.deals/deal/nintendos-black-friday-sale-2026-goes-all-out-with-over-1500-eshop-deals-and-up-to-95-off/",
+          "published": "2026-11-17T16:49:38.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Square Enix games get massive Black Friday discounts at Humble! Save up to 89%",
+      "score": 7,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "discounts",
+        "humble"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Square Enix games get massive Black Friday discounts at Humble! Save up to 89%",
+          "link": "https://gg.deals/deal/square-enix-games-get-massive-black-friday-discounts-at-humble-save-up-to-89/",
+          "published": "2026-11-17T12:31:28.000Z"
         }
       ]
     }
@@ -344,24 +370,24 @@
   },
   "posts": {
     "x": {
-      "text": "Shadow Tactics: Blades of the Shogun: -90% at GOG\n$3.99 (was $39.99)\nPrice checked Nov 16. Sale ends Nov 21. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-16\n\n#PCGaming #ShadowTactics\nAd",
-      "length": 190,
+      "text": "Shadow Tactics: Blades of the Shogun: -90% at GOG\n$3.99 (was $39.99)\nPrice checked Nov 17. Sale ends Nov 21. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-17\n\n#PCGaming #GameDeals\nAd",
+      "length": 186,
       "max": 270,
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-16",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-17",
       "deal": "gog-shadow-tactics-blades-of-the-shogun"
     },
     "bluesky": {
-      "text": "Shadow Tactics: Blades of the Shogun: -90% at GOG\n$3.99 (was $39.99)\nPrice checked Nov 16. Sale ends Nov 21. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-16\n\n#PCGaming #GameDeals #Games #PCGames #GOG\nAd",
-      "length": 209,
+      "text": "Shadow Tactics: Blades of the Shogun: -90% at GOG\n$3.99 (was $39.99)\nPrice checked Nov 17. Sale ends Nov 21. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-17\n\n#PCGaming #GameDeals #Gaming #ShadowTactics #VideoGames\nAd",
+      "length": 223,
       "max": 300,
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-16",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-17",
       "deal": "gog-shadow-tactics-blades-of-the-shogun"
     },
     "mastodon": {
-      "text": "Shadow Tactics: Blades of the Shogun: -90% at GOG\n$3.99 (was $39.99)\nYou save $36.00\nDRM-free\nPrice checked Nov 16. Sale ends Nov 21. Lowest price we've tracked.\nWhy today: deepest-discount rank 1 of 3.\n\nhttps://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-11-16\n\n#GameDeals #PCGaming #GOG #DRMFree #Gaming\nAd",
-      "length": 274,
+      "text": "Shadow Tactics: Blades of the Shogun: -90% at GOG\n$3.99 (was $39.99)\nYou save $36.00\nDRM-free\nPrice checked Nov 17. Sale ends Nov 21. Lowest price we've tracked.\nWhy today: deepest-discount rank 1 of 3.\n\nhttps://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-11-17\n\n#GameDeals #PCGaming #GOG #DRMFree #VideoGames\nAd",
+      "length": 278,
       "max": 500,
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-11-16",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-11-17",
       "deal": "gog-shadow-tactics-blades-of-the-shogun"
     }
   }
