@@ -3139,6 +3139,54 @@
             "id": "706471a285a5d5e8d1e8cd92441079f03b2838274798ec17312036d7f8a1c819",
             "sig": "10b82446693a35311568a13a6b54e437d8b30d32fe2d193f804b809feb8f29ef96c4f4baf950ea5593f219664064180e15950994951dde93f7b39d70fcada8d7"
           }
+        },
+        "article": {
+          "status": "done",
+          "kind": "article",
+          "id": "236ba369c618bc8d02c996b546da241cd66ea40d6ca72487c13b95ab32ab170c",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "article": "play-old-pc-games-on-windows-11",
+          "postedAt": "2026-11-17T23:43:18.000Z",
+          "accepted": [
+            "wss://relay.damus.io",
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [],
+          "event": {
+            "kind": 1,
+            "created_at": 1794958998,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-article"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://saveandplay.com/og/play-old-pc-games-on-windows-11.png",
+                "m image/png",
+                "alt Chart with four rows. DOS game: use a DOS emulator. 16-bit Windows game: not supported on 64-bit Windows. Old disc game: copy protection may be turned off. Runs, but badly: try the compatibility troubleshooter."
+              ]
+            ],
+            "content": "How to run old PC games on Windows 11: what works, what cannot, and why\n\nOld games fail on Windows 11 for three different reasons. Here is how to tell which one you have, and what Microsoft, GOG and the emulator projects say you can do.\n\n#pcgaming #gamedeals\n\nhttps://saveandplay.com/og/play-old-pc-games-on-windows-11.png\n\nhttps://saveandplay.com/guides/play-old-pc-games-on-windows-11/?utm_source=nostr-prices&utm_medium=social&utm_campaign=play-old-pc-games-on-windows-11",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "236ba369c618bc8d02c996b546da241cd66ea40d6ca72487c13b95ab32ab170c",
+            "sig": "fa48ee6486122a4e55e9d0c6e0720e2eed54702a76045f03d2eb0a2f9308d401d86af20fe6ad386589653c0a545012fcadb8f54f01f3aeb870cc8154776665ff"
+          }
         }
       }
     }
@@ -3224,6 +3272,10 @@
       "steam-account-security-responsibility": {
         "day": "2026-11-15",
         "id": "368fd552b50035236ca7717ebd39eb43d2ddeaca1fca71d3e2f19a35bbc2449d"
+      },
+      "play-old-pc-games-on-windows-11": {
+        "day": "2026-11-17",
+        "id": "236ba369c618bc8d02c996b546da241cd66ea40d6ca72487c13b95ab32ab170c"
       }
     }
   },
