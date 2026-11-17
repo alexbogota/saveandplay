@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#0D1117"/>
+<rect x="56" y="22" width="1088" height="586" rx="28" fill="#161B22" stroke="#262D38"/>
+<text x="100" y="100" font-size="44" font-weight="800" fill="#FFFFFF" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">Steam: is tax in the price?</text>
+<rect x="100" y="140" width="460" height="260" rx="18" fill="none" stroke="#3DDC97" stroke-width="4"/>
+<text x="130" y="195" font-size="34" font-weight="800" fill="#FFFFFF" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">Inclusive</text>
+<text x="130" y="250" font-size="28" fill="#E8ECF1" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">Shelf price $10.00</text>
+<text x="130" y="300" font-size="28" fill="#E8ECF1" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">You pay $10.00</text>
+<text x="130" y="360" font-size="26" fill="#9AA5B4" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">71 places in Valve's table</text>
+<rect x="640" y="140" width="460" height="260" rx="18" fill="none" stroke="#3DDC97" stroke-width="4"/>
+<text x="670" y="195" font-size="34" font-weight="800" fill="#FFFFFF" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">Additive</text>
+<text x="670" y="250" font-size="28" fill="#E8ECF1" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">Shelf price $10.00</text>
+<rect x="670" y="272" width="270" height="48" rx="10" fill="#FFB454"/>
+<text x="690" y="306" font-size="28" font-weight="700" fill="#1B1203" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">You pay $10.80</text>
+<text x="670" y="360" font-size="26" fill="#9AA5B4" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">US sales tax: on top</text>
+<text x="100" y="470" font-size="30" fill="#E8ECF1" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">Compare the total on the last checkout step.</text>
+<text x="100" y="560" font-size="26" fill="#9AA5B4" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">Invented numbers, for illustration only</text>
+</svg>
