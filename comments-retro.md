@@ -1,60 +1,56 @@
 # Comment candidates: retro (@retrogamedeals.bsky.social)
-Made 2026-11-18T07:22Z. Searched: childhood: childhood favorite game | childhood: games from my childhood | childhood: first video game | childhood: played this as a kid game | classicPC: dos games | classicPC: classic pc games | classicPC: old pc game | classicPC: retro pc gaming | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: retro games recommend | askRetro: best retro games | askRetro: best old games | askRetro: old game recommend | retroFeed: feed.
-Posts below: 12 + 2 heated. Dropped in this run: not about games 65, too short 13, skip word 76, replies are limited 9, bot, shop or studio 20, promo (link and hashtags) 2, low score 10, empty 1, other language (text) 10, many links 1, too many hashtags 5, adult or graphic label 1, not a question 31, other language 13, earlier finds: low score 1.
+Made 2026-11-18T20:29Z. Searched: childhood: first pc game | childhood: childhood game | childhood: game from my childhood | childhood: childhood favorite game | classicPC: dos game | classicPC: classic pc game | classicPC: old pc games | classicPC: dos games | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: retro game recommendations | askRetro: old games recommend | askRetro: retro games recommend | askRetro: best retro games | retroFeed: feed.
+Posts below: 12 + 2 heated. Dropped in this run: skip word 63, not about games 110, promo (link and hashtags) 5, bot, shop or studio 38, replies are limited 14, too short 4, other language (text) 19, low score 3, adult or graphic label 1, too many hashtags 3, not a question 33, other language 28, earlier finds: low score 3.
 
 ## Posts
-1. @mylittleretro.bsky.social (My little retro computer world) · 22h · likes 4 · replies 1 · question · classicPC
-   https://bsky.app/profile/mylittleretro.bsky.social/post/3n2ipjoogik27
-   Ever wondered how Silverball (1993) sounded on a Gravis Ultrasound? It was one of the very first games to support the GUS, with hardware mixing at that, and its tracker music sounded leagues better than on a Sound Blaster Pro. Recorded on 486 DX4-100, GUS 3.74 1M, MS-DOS 6.22. #r
-   [video, no description]
-2. @kimmalley98.bsky.social (Kim M.) · 25h · likes 2 · replies 1 · question · childhood
-   https://bsky.app/profile/kimmalley98.bsky.social/post/3n2igj6tj7s2x
-   What game was a big part of your childhood? Some old games for XBOX 360 like Alice Madness Returns, Conker Life And Reload, Fairytale Fights, and Darkness. But sometimes I go to the stickpage website and play a few horror or shooting games. (This GIF is from "Killing Spree". LOVE
-   [link card: Officer Barry Walking; quotes @mbproductions.bsky.social: What game was a big part of your childhood? Huh let me think... Epic Mickey Club Penguin Minecraft Undertale / Deltarune and FNaF Who would…]
-3. @cjosh0152.bsky.social (C. Josh) · 5h · likes 1 · replies 0 · question · childhood
-   https://bsky.app/profile/cjosh0152.bsky.social/post/3n2kh67fwbk2t
-   What’s the first video game that made you officially love video games?
-4. @retrokazeninja.bsky.social (RetroNinja) · 16h · likes 8 · replies 2 · question · nostalgia
+1. @ravenfallash.bsky.social (Alice Valentine) · 5h · likes 1 · replies 0 · question · nostalgia
+   https://bsky.app/profile/ravenfallash.bsky.social/post/3n2lw2fmgss2x
+   I've always been a big fan of what would now be called retro games, which... given I'm 41 and the first video game I remember playing is Phantasy Star on the Master System shouldn't shock anyone. I've never considered myself beholden to nostalgia and love modern games, but classi
+2. @davidhdaw.bsky.social (Rotating Handles) · 5h · likes 0 · replies 0 · question · childhood
+   https://bsky.app/profile/davidhdaw.bsky.social/post/3n2lt3cvcrc2j
+   I mean I literally cannot buy GTA 6 until it comes out on PC because I don't have a console that can run it but like...gotta be the first GTA game that gets people who LIKE IT quoting Bell Hooks right?
+3. @discokidnap.northsky.social (David Eve • 🏳️‍🌈🏳️‍⚧️) · 11h · likes 10 · replies 2 · question · classicPC
+   https://bsky.app/profile/discokidnap.northsky.social/post/3n2laczwztc2o
+   Anyone else heard anything about this “Grand Theft Auto” game DMA have developed for MS-DOS? Looks interesting but I don’t think it’ll be better than Wacky Wheels.
+   [image: A top-down view of a video showing a street corner with cars and one car driving against the traffic with flames trailing behind it.]
+4. @matthovey.com (Matt Hovey) · 22h · likes 1 · replies 0 · question · classicPC
+   https://bsky.app/profile/matthovey.com/post/3n2k2h57wts2m
+   All this talk about GTA VI. This is the Rockstar game I remember playing. A popular pre-WWW game you could download from a BBS to play on MS-DOS.
+   [image, no description]
+5. @nostalgia-minis.bsky.social (Nostalgia Minis) · 2h · likes 4 · replies 0 · question · retroFeed
+   https://bsky.app/profile/nostalgia-minis.bsky.social/post/3n2m5ebseh42d
+   The original Xbox came with a hard drive built in, which was unusual for a console in 2001. Did you copy your own CDs onto it for custom soundtracks? #Xbox #RetroGaming
+   [image: The original black Xbox console, photographed from the front left against a white background, showing the disc tray, controller ports and green jewel. Photo: E…]
+6. @mariomaster3000.bsky.social (Paul Palmetto, Soda Potion Salescat) · 11h · likes 0 · replies 0 · question · askRetro
+   https://bsky.app/profile/mariomaster3000.bsky.social/post/3n2lbdc5v522a
+   Also: 1. Should I keep my Steam Deck around? 1a. If so, what can I do with it? 1b. If not, I could use its microSD card so I can add more stuff on my Nova... 2. Any of y'all have any retro games to recommend me? I may or may not have them on my system already.
+7. @hiroshiartzz.bsky.social · 12h · likes 1 · replies 0 · question · nostalgia
+   https://bsky.app/profile/hiroshiartzz.bsky.social/post/3n2l5kha6r22j
+   That nostalgic ps1 low poly aesthetic has such incredible charm and atmosphere are you working on an indie retro horror game or a standalone retro styled project?
+8. @descontassso.bsky.social · 19h · likes 0 · replies 0 · question · classicPC
+   https://bsky.app/profile/descontassso.bsky.social/post/3n2kgi7pkoi2d
+   Esse Redragon Griffin me surpreendeu: leve, desliza fácil e 7200 DPI dá conta do game. Tá R$63,92 (36% off), menor preço dos últimos 60 dias. Vale demais. https://www.amazon.com.br/dp/B07GTTRBLV/ref=nosim?tag=descontassso-20
+9. @retrokazeninja.bsky.social (RetroNinja) · 29h · likes 9 · replies 2 · question · nostalgia
    https://bsky.app/profile/retrokazeninja.bsky.social/post/3n2jcvglz4k26
    Since Robert Pattinson is going to be the next James Bond, so what is your favorite James Bond video game/movie? Let me know in the comments. 💬 #gamesky #moviesky #jamesbond #retro
    [image: GoldenEye 007 (Nintendo 64 box art)]
-5. @feed.igeek.gamer-geek-news.com.ap.brid.gy (input) · 19h · likes 0 · replies 0 · question · classicPC
-   https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3n2iycdwvb3m2
-   📰 **No GTA 6 on PC? Here are five GTA 5 mods you can install to make release day bearable** With the GTA 6 console release date coming, we picked the upgrades every player should be using right now, to get the most from Rockstar's 11 year-old PC game GTA 5. 📰 Source: PCGamesN �
-   [link card: Original post on igeek.gamer-geek-news.com]
-6. @pixel-arcadia.bsky.social (pixel-arcadia.bsky.social) · 21h · likes 1 · replies 1 · question · nostalgia
-   https://bsky.app/profile/pixel-arcadia.bsky.social/post/3n2itjoboy224
-   Who says classic consoles are dead? 📺 The Best New Game for Retro Hardware award honors the passionate devs keeping our favorite old-school systems alive with brand-new cartridge and disc releases. Which new game is spinning in your vintage console right now? Tag the brilliant d
-   [image, no description]
-7. @grimruen.bsky.social (『grimRUEN 🐊』) · 27m · likes 1 · replies 0 · childhood
-   https://bsky.app/profile/grimruen.bsky.social/post/3n2kxymsesk2k
-   I've been trying to play games on my own time more often. I think that is where I should play more of those old jRPG games on my backlog from my childhood. the longer series i do have been so draining for me (except ff9, honestly)
-8. @mellodillo.com (mellodillo) · 3h · likes 3 · replies 0 · classicPC
-   https://bsky.app/profile/mellodillo.com/post/3n2kqbg2t2k2i
-   You can play it in your browser here, but if you have DOSBox or a device that can run DOS, you can download the game along with puzzles for all of 2025 and 2026! dos.cyningstan.org.uk/page/306/pla...
-   [link card: Play Pym's Daily Word Square Puzzle in your browser | Cyningstan DOS Games]
-9. @orangeright.bsky.social (OrangeRight) · 5h · likes 3 · replies 0 · askRetro
-   https://bsky.app/profile/orangeright.bsky.social/post/3n2kje5t5zc2n
-   It's over! Yeah, pop'n is fun, even with the easier old songs in this game. The soundtrack of the early games may be an acquired taste, but there's some jams in there. I did go with Best Hits because it's one of the two PS2 pop'ns with RetroAchievements, and I got quite a few of 
-   [image: pop'n music Best Hits RetroAchievements, got 48% of them in this stream!]
-10. @operogames.com (OperoGames) · 5h · likes 1 · replies 1 · classicPC
-   https://bsky.app/profile/operogames.com/post/3n2kinofzan2t
-   Sniper: Ghost Warrior Contracts 2 is landing on Xbox Game Pass next week, and this time it's hitting all three tiers (cloud, console, PC) right from the start. If you like your shooters methodical, planning out contract hits with a sniper rifle never gets old. #Xbox #GamePass
-   [link card: Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts…]
-11. @horserenoir.xyz (𝔱𝔞𝔟𝔰) · 7h · likes 2 · replies 1 · question · childhood
-   https://bsky.app/profile/horserenoir.xyz/post/3n2kc6mfxuk23
-   I remember when the Video Game Awards first started airing on Spike TV and everyone rightly dismissed it as a joke, so it's really weird to me now that at some point gamers convinced themselves it was something to take seriously. It's not a real awards show! You don't have to car
-12. @gutslove.bsky.social (💙Gutslove🌊) · 12h · likes 4 · replies 1 · question · childhood
-   https://bsky.app/profile/gutslove.bsky.social/post/3n2jrvvx5ks2k
-   Hey, @geoffkeighley.bsky.social , why is #IronLung not in the “Best Adaptation” category? It’s one of the best video game adaptations into film I’ve seen in a long time. First it was #Sonic3 getting snubbed last time, and now Iron Lung?
-   [link card: Gregory's Disbelief in Abbott Elementary]
+10. @anormalina.bsky.social (A "normal" Lina) · 20m · likes 1 · replies 1 · classicPC
+   https://bsky.app/profile/anormalina.bsky.social/post/3n2mef7uhss2q
+   They are on PC, but my GPU is old and my CPU is a bottle neck. Many of the newer titles aren't running well, even on medium settings. I don't play many AAA, but as a content creator using an older rig, having a current gen console is really helpful for offsetting the load of more
+11. @saanaito.bsky.social (Joni 🍓🏳️‍⚧️) · 1h · likes 1 · replies 0 · childhood
+   https://bsky.app/profile/saanaito.bsky.social/post/3n2mbkxkrqk22
+   I still need to finish playing this game! (Estpolis II; known as Lufia II: Rise of the Sinistrals in the U.S. version). I still have my childhood SNES cartridge of Lufia and the Fortress of Doom; one of my first RPGs, yet not the first one I finished!
+   [quotes @tadashidaiba.bsky.social: ]
+12. @profgoldberg.bsky.social (Daniel S. Goldberg) · 1h · likes 3 · replies 0 · childhood
+   https://bsky.app/profile/profgoldberg.bsky.social/post/3n2makr3rkc2p
+   As someone who grew up in Miami in the 1980s, it is really peculiar to see the full aesthetic of my childhood memorialized so well in an important video game
 
 ## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @noplotr.certainofeventualfailure.com (Jordan Meiller) · 8h · likes 0 · replies 1 · question · childhood
+1. @noplotr.certainofeventualfailure.com (Jordan Meiller) · 21h · likes 0 · replies 1 · question · childhood
    https://bsky.app/profile/noplotr.certainofeventualfailure.com/post/3n2k6isrqe22p
    Pretty sure this whole thing is AI-generated, so I’m assuming the one on the left is just a hallucination because I can’t find anything it looks like and neither of my two 50+yo coworkers could identify it. But does anybody know if this is supposed to resemble a real console or c
    [2 images: A tote bag with some computery-looking text saying “RESPECT YOUR ELDERS” and then a row of (probably AI-generated) anthropomorphized game controllers. From lef… / A close up of the unidentifiable video game console? Controller? from the first image.]
-2. @floppy.org.uk (James Smith 💾) · 17h · likes 0 · replies 1 · classicPC
+2. @floppy.org.uk (James Smith 💾) · 30h · likes 0 · replies 2 · classicPC
    https://bsky.app/profile/floppy.org.uk/post/3n2jb67pot5a2
    I feel like today sucks. * My brain is spinning in circles trying to fix an LLM-generated bug report that I can't just *ignore*, but by its very nature is acting as a DoS on my focus. * I learned that Games Workshop DMCA'ed BSData, thus killing most of the listbuilders out there.
    [link card: Original post on mastodon.me.uk]
