@@ -1,0 +1,67 @@
+{
+  "block": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "madeAt": "2026-11-18T20:45:15.832Z",
+  "days": 14,
+  "total": 22,
+  "mature": {
+    "count": 22,
+    "withLike": 15,
+    "withReply": 5,
+    "likes": 20,
+    "replies": 5,
+    "byProgram": 22
+  },
+  "top": [
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3mzxo3m6fi624",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3mzxo3m6fi624",
+      "text": "Those DOS text games were something else, your imagination did half the work.",
+      "at": "2026-11-10T14:37:04.683Z",
+      "likes": 4,
+      "replies": 0,
+      "reposts": 0,
+      "to": "lovinwolf.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3n2eepijonp2a",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3n2eepijonp2a",
+      "text": "Carmen Sandiego is a classic. American McGee's Alice was quite a jump from those, a much darker take on Wonderland.",
+      "at": "2026-11-15T15:53:51.129Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "canon-thought.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3n2cbun2xyt2n",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3n2cbun2xyt2n",
+      "text": "3D Pinball Space Cadet was on so many Windows PCs growing up. Great that it runs on a handheld now.",
+      "at": "2026-11-14T19:57:42.960Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "rajanomaly.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3mznldb5tyr2u",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3mznldb5tyr2u",
+      "text": "Road Rash was such a Genesis staple, so seeing it come back on PC is a fun surprise.",
+      "at": "2026-11-06T14:21:02.947Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "zips.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3mzlala3ulb2n",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3mzlala3ulb2n",
+      "text": "DOS really was thin on fighting games. The Mortal Kombat ports are the other ones I remember.",
+      "at": "2026-11-05T16:03:19.657Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "tabbeigh.bsky.social"
+    }
+  ]
+}
