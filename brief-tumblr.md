@@ -1,5 +1,5 @@
-# Brief: Honest prices (saveandplay.tumblr.com), 2026-11-17 19:39 UTC
-Prices checked 2026-11-17 18:42 UTC (1 h ago). News: 11 of 11 sources read, 125 items from the last 48 h, 0 of 1 offered deals mentioned.
+# Brief: Honest prices (saveandplay.tumblr.com), 2026-11-18 19:15 UTC
+Prices checked 2026-11-18 18:19 UTC (1 h ago). News: 11 of 11 sources read, 154 items from the last 48 h, 0 of 2 offered deals mentioned.
 
 Write ONE post about the first item below (take another one only if it looks wrong, and say why).
 Rules:
@@ -11,23 +11,32 @@ Rules:
 - The post is made by scripts/post-tumblr.mjs from a template, without AI. This account is automated and some links are affiliate links; the blog description says so.
 
 ## 1. Shadow Tactics: Blades of the Shogun: GOG $3.99 (was $39.99, -90%)
-Sale ends 2026-11-21 07:59 UTC (in 4 days). Price checked 2026-11-17 18:42 UTC. Score 3.
-Why today: lowest price we've tracked (39 days of data); deepest-discount rank 1 of 1.
-Note: suggested on 2026-11-16, already used recently.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-11-17
+Sale ends 2026-11-21 07:59 UTC (in 3 days). Price checked 2026-11-18 18:19 UTC. Score 3.
+Why today: lowest price we've tracked (40 days of data); deepest-discount rank 1 of 2.
+Note: suggested on 2026-11-17, already used recently.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-11-18
 Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696
 Alt text: Cover art for Shadow Tactics: Blades of the Shogun
 
+## 2. SimCity 4 Deluxe Edition: GOG $4.99 (was $19.99, -75%)
+Sale ends 2026-11-26 07:59 UTC (in 8 days). Price checked 2026-11-18 18:19 UTC. Score 1.5.
+Why today: lowest price we've tracked (40 days of data); deepest-discount rank 2 of 2.
+Note: suggested on 2026-11-13, already used recently.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-11-18
+Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586
+Alt text: Cover art for SimCity 4 Deluxe Edition
+
 ## News on the topic (no deal)
-- Indie Game Bundles, Nov 17: "Green Man Gaming Tripwire Bundle: 8 Steam Games for $10, Including Chivalry 2 and Maneater" https://www.indiegamebundles.com/green-man-gaming-tripwire-bundle-8-steam-games-for-10-including-chivalry-2-and-maneater/ | Get eight Steam games and additional content worth over $272 for just $10, with prices starting at just $1 for two games. The post Green Man Gaming Tripwire Bu…
-- gg.deals News, Nov 17: "Epic Games Store’s Black Friday deals reach 95% off, with record lows in the mix" https://gg.deals/deal/epic-games-stores-black-friday-deals-reach-95-off-with-record-lows-in-the-mix/ | The bargain bonanza wraps up on December 1.
-- gg.deals News, Nov 17: "GMG's latest bundle starts at $1 and includes Killing Floor, Maneater, and more" https://gg.deals/bundle/gmg-tripwire-interactive-bundle-2026/ | Add a little more action to your Steam library.
+- Eurogamer, Nov 18: "Delete GTA 6 from your hard drive and indie publisher Devolver Digital might give you a free game" https://www.eurogamer.net/delete-gta-6-free-game-devolver-digital | GTA 6 is out at midnight everywhere (19th November), but it's far from the only game in town. Indie publisher Devolver Digital is taking on the open-world behe…
+- gg.deals Freebies, Nov 18: "Want to try Remedy's Game of the Year contender Control Resonant FREE?" https://gg.deals/freebie/want-to-try-goty-contender-control-resonant-free/ | Remedy's surreal and cinematically stylish masterpiece has a free trial waiting on XBOX Series X|S and PlayStation 5.
+- Rock Paper Shotgun, Nov 18: ""Abducting your own lover no longer gives you opinion of yourself" declare the notes for Crusader K…" https://www.rockpapershotgun.com/abducting-your-own-lover-no-longer-gives-you-opinion-of-yourself-declare-the-notes-for-crusader-kings-3s-free-florin-update-released-alongside-silk-and-silver | Funky feudal family frolic Crusader Kings 3 got its second major expansion of the year this week. It's called Silk and Silver (read my impressions ), is all ab…
 
 ## Topics for articles (stories without a deal; headlines and links only. Write an article only if the owner asks)
-1. Humble Survival of the Fittest Bundle: Get Palworld, V Rising and 6 More Steam Games for $25 (score 10)
-Why now: 2 sites wrote about it in the last 48 h (gg.deals, indiegamebundles.com); matches keywords: bundle, humble; newest Nov 17.
-- Indie Game Bundles, Nov 17: "Humble Survival of the Fittest Bundle: Get Palworld, V Rising and 6 More Steam Games for $25" https://www.indiegamebundles.com/humble-survival-of-the-fittest-bundle-get-palworld-v-rising-and-6-more-steam-games-for-25/
-- gg.deals News, Nov 17: "Humble Survival of the Fittest Bundle is here! Get Palworld, V Rising, and more Steam games" https://gg.deals/bundle/humble-survival-of-the-fittest-bundle/
+1. Newzoo analyst expects Grand Theft Auto to turn around a rough year for console gaming: 'without GTA 6 the co… (score 14)
+Why now: 4 sites wrote about it in the last 48 h (gg.deals, greenmangaming.com, pcgamer.com, eurogamer.net); matches keywords: free; newest Nov 18.
+- gg.deals Freebies, Nov 18: "Want a FREE Devolver Digital game? Delete Grand Theft Auto VI and it could be yours!" https://gg.deals/freebie/want-a-free-devolver-digital-game-delete-grand-theft-auto-vi-and-it-could-be-yours/
+- Eurogamer, Nov 18: "GTA 6 won't let you use cheats until you complete the main story, and locks progression when you do" https://www.eurogamer.net/gta-6-no-cheats-until-completing-main-story
+- PC Gamer, Nov 18: "GTA 6 guide: A full walkthrough of all our tips and advice on Vice City systems" https://www.pcgamer.com/games/grand-theft-auto/gta-6-guide/
 2. Sony defeat $2.6 billion UK class action lawsuit which argued PlayStation's dominant market position fuels "e… (score 8)
 Why now: 2 sites wrote about it in the last 48 h (rockpapershotgun.com, eurogamer.net); matches keywords: prices; newest Nov 17.
 - Rock Paper Shotgun, Nov 17: "Sony defeat $2.6 billion UK class action lawsuit which argued PlayStation's dominant market positio…" https://www.rockpapershotgun.com/sony-defeat-26-billion-uk-class-action-lawsuit-which-argued-playstations-dominant-market-position-fuels-excessive-and-unfair-game-prices
@@ -36,13 +45,13 @@ Why now: 2 sites wrote about it in the last 48 h (rockpapershotgun.com, eurogame
 Why now: 2 sites wrote about it in the last 48 h (rockpapershotgun.com, eurogamer.net); matches keywords: free; newest Nov 17.
 - Rock Paper Shotgun, Nov 17: "Star Wars Galactic Racer will get local split-screen multiplayer in early 2027 with new 'Free Play'…" https://www.rockpapershotgun.com/star-wars-galactic-racer-will-get-local-split-screen-multiplayer-in-early-2027-with-new-free-play-mode-finally-letting-racers-yell-at-one-another-in-a-tangible-space
 - Eurogamer, Nov 16: "Star Wars: Galactic Racer is getting much-requested split-screen multiplayer and new mode in 2027" https://www.eurogamer.net/star-wars-galactic-racer-split-screen-multiplayer
-4. Nintendo’s Black Friday Sale 2026 goes all out with over 1,500 eShop deals and up to 95% off (Europe) (score 7)
-Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: sale, deals; newest Nov 17.
-- gg.deals News, Nov 17: "Nintendo’s Black Friday Sale 2026 goes all out with over 1,500 eShop deals and up to 95% off (Europ…" https://gg.deals/deal/nintendos-black-friday-sale-2026-goes-all-out-with-over-1500-eshop-deals-and-up-to-95-off/
-5. Square Enix games get massive Black Friday discounts at Humble! Save up to 89% (score 7)
-Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: discounts, humble; newest Nov 17.
-- gg.deals News, Nov 17: "Square Enix games get massive Black Friday discounts at Humble! Save up to 89%" https://gg.deals/deal/square-enix-games-get-massive-black-friday-discounts-at-humble-save-up-to-89/
+4. Humble's Black Friday Sale has Final Fantasy Remake Intergrade & FFVII Rebirth Steam keys at their best-ever … (score 7)
+Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: sale, price, humble; newest Nov 18.
+- gg.deals News, Nov 18: "Humble's Black Friday Sale has Final Fantasy Remake Intergrade & FFVII Rebirth Steam keys at their …" https://gg.deals/deal/humbles-black-friday-sale-has-final-fantasy-remake-intergrade-ffvii-rebirth-steam-keys-at-their-best-ever-price/
+5. Last chance to get Humble’s Horror Trifectas Bundle, a collection of spooky trilogies for $10 (updated) (score 7)
+Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: bundle, humble; newest Nov 18.
+- gg.deals News, Nov 18: "Last chance to get Humble’s Horror Trifectas Bundle, a collection of spooky trilogies for $10 (upda…" https://gg.deals/bundle/humbles-horror-trifectas-bundle-rounds-up-a-collection-of-spooky-trilogies-for-10/
 
-Left out: 0 other-store deals, 0 hidden duplicates, 0 under 50%, 0 ended, 0 ending within 6 h, 0 old prices, 2 taken by another account today.
+Left out: 0 other-store deals, 0 hidden duplicates, 0 under 50%, 0 ended, 0 ending within 6 h, 0 old prices, 1 taken by another account today.
 Sources not read: none.
-Built by: commit cd323c0, schedule, run #49 attempt 1.
+Built by: commit 5ab83c8, schedule, run #50 attempt 1.

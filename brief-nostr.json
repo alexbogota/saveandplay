@@ -1,8 +1,8 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-11-17T19:39:08.071Z",
-  "builtBy": "commit cd323c0, schedule, run #49 attempt 1",
-  "pricesCheckedAt": "2026-11-17T18:42:54.023Z",
+  "generatedAt": "2026-11-18T19:15:02.163Z",
+  "builtBy": "commit 5ab83c8, schedule, run #50 attempt 1",
+  "pricesCheckedAt": "2026-11-18T18:19:57.060Z",
   "warnings": [],
   "candidates": [
     {
@@ -14,8 +14,8 @@
       "was": 39.99,
       "discount": 90,
       "endsAt": "2026-11-21T09:59:00+02:00",
-      "endsInHours": 84,
-      "priceCheckedAt": "2026-11-17T18:42:54.023Z",
+      "endsInHours": 61,
+      "priceCheckedAt": "2026-11-18T18:19:57.060Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
       "drminfo": null,
       "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
@@ -52,71 +52,240 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 39,
+        "days": 40,
         "lowest": true,
         "since": "2026-10-07"
       },
-      "offeredOn": "2026-11-16",
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-17",
+      "offeredOn": "2026-11-17",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-18",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (39 days of data)",
-        "deepest-discount rank 1 of 1"
+        "lowest price we've tracked (40 days of data)",
+        "deepest-discount rank 1 of 2"
+      ]
+    },
+    {
+      "id": "gog-simcity-4-deluxe-edition",
+      "kind": "deal",
+      "title": "SimCity 4 Deluxe Edition",
+      "store": "GOG",
+      "price": 4.99,
+      "was": 19.99,
+      "discount": 75,
+      "endsAt": "2026-11-26T09:59:00+02:00",
+      "endsInHours": 181,
+      "priceCheckedAt": "2026-11-18T18:19:57.060Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
+      "drminfo": null,
+      "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
+      "facts": {
+        "year": 2003,
+        "genres": [
+          "Simulation",
+          "Building",
+          "Managerial"
+        ],
+        "tags": [
+          "Atmospheric",
+          "Simulation",
+          "Classic",
+          "Great Soundtrack",
+          "Management",
+          "Sandbox",
+          "Real-Time",
+          "Isometric",
+          "Building",
+          "Managerial",
+          "City builder"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 1.5,
+      "discountRank": 2,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 40,
+        "lowest": true,
+        "since": "2026-10-07"
+      },
+      "offeredOn": "2026-11-13",
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-18",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "lowest price we've tracked (40 days of data)",
+        "deepest-discount rank 2 of 2"
       ]
     }
   ],
   "gogNews": [],
   "topical": [
     {
-      "title": "Green Man Gaming Tripwire Bundle: 8 Steam Games for $10, Including Chivalry 2 and Maneater",
-      "source": "Indie Game Bundles",
-      "link": "https://www.indiegamebundles.com/green-man-gaming-tripwire-bundle-8-steam-games-for-10-including-chivalry-2-and-maneater/",
-      "t": 1794941251000,
-      "keyword": "bundle",
-      "summary": "Get eight Steam games and additional content worth over $272 for just $10, with prices starting at just $1 for two games. The post Green Man Gaming Tripwire Bu…"
+      "title": "Delete GTA 6 from your hard drive and indie publisher Devolver Digital might give you a free game",
+      "source": "Eurogamer",
+      "link": "https://www.eurogamer.net/delete-gta-6-free-game-devolver-digital",
+      "t": 1795028900000,
+      "keyword": "free",
+      "summary": "GTA 6 is out at midnight everywhere (19th November), but it's far from the only game in town. Indie publisher Devolver Digital is taking on the open-world behe…"
     },
     {
-      "title": "Epic Games Store’s Black Friday deals reach 95% off, with record lows in the mix",
-      "source": "gg.deals News",
-      "link": "https://gg.deals/deal/epic-games-stores-black-friday-deals-reach-95-off-with-record-lows-in-the-mix/",
-      "t": 1794939931000,
-      "keyword": "deals",
-      "summary": "The bargain bonanza wraps up on December 1."
+      "title": "Want to try Remedy's Game of the Year contender Control Resonant FREE?",
+      "source": "gg.deals Freebies",
+      "link": "https://gg.deals/freebie/want-to-try-goty-contender-control-resonant-free/",
+      "t": 1795020360000,
+      "keyword": "free",
+      "summary": "Remedy's surreal and cinematically stylish masterpiece has a free trial waiting on XBOX Series X|S and PlayStation 5."
     },
     {
-      "title": "GMG's latest bundle starts at $1 and includes Killing Floor, Maneater, and more",
-      "source": "gg.deals News",
-      "link": "https://gg.deals/bundle/gmg-tripwire-interactive-bundle-2026/",
-      "t": 1794938460000,
-      "keyword": "bundle",
-      "summary": "Add a little more action to your Steam library."
+      "title": "\"Abducting your own lover no longer gives you opinion of yourself\" declare the notes for Crusader Kings 3's free Florin update, released alongside Silk and Silver",
+      "source": "Rock Paper Shotgun",
+      "link": "https://www.rockpapershotgun.com/abducting-your-own-lover-no-longer-gives-you-opinion-of-yourself-declare-the-notes-for-crusader-kings-3s-free-florin-update-released-alongside-silk-and-silver",
+      "t": 1795020000000,
+      "keyword": "free",
+      "summary": "Funky feudal family frolic Crusader Kings 3 got its second major expansion of the year this week. It's called Silk and Silver (read my impressions ), is all ab…"
     }
   ],
   "topics": [
     {
-      "headline": "Humble Survival of the Fittest Bundle: Get Palworld, V Rising and 6 More Steam Games for $25",
-      "score": 10,
+      "headline": "Newzoo analyst expects Grand Theft Auto to turn around a rough year for console gaming: 'without GTA 6 the console market would likely be down year-over-year in 2026'",
+      "score": 14,
       "sites": [
         "gg.deals",
-        "indiegamebundles.com"
+        "greenmangaming.com",
+        "pcgamer.com",
+        "eurogamer.net"
       ],
       "keywords": [
-        "bundle",
-        "humble"
+        "free"
       ],
       "games": [],
       "items": [
         {
-          "source": "gg.deals News",
-          "title": "Humble Survival of the Fittest Bundle is here! Get Palworld, V Rising, and more Steam games",
-          "link": "https://gg.deals/bundle/humble-survival-of-the-fittest-bundle/",
-          "published": "2026-11-17T08:59:14.000Z"
+          "source": "gg.deals Freebies",
+          "title": "Want a FREE Devolver Digital game? Delete Grand Theft Auto VI and it could be yours!",
+          "link": "https://gg.deals/freebie/want-a-free-devolver-digital-game-delete-grand-theft-auto-vi-and-it-could-be-yours/",
+          "published": "2026-11-18T19:03:00.000Z"
         },
         {
-          "source": "Indie Game Bundles",
-          "title": "Humble Survival of the Fittest Bundle: Get Palworld, V Rising and 6 More Steam Games for $25",
-          "link": "https://www.indiegamebundles.com/humble-survival-of-the-fittest-bundle-get-palworld-v-rising-and-6-more-steam-games-for-25/",
-          "published": "2026-11-17T18:52:05.000Z"
+          "source": "gg.deals News",
+          "title": "Want a FREE Devolver Digital game? Delete Grand Theft Auto VI and it could be yours!",
+          "link": "https://gg.deals/freebie/want-a-free-devolver-digital-game-delete-grand-theft-auto-vi-and-it-could-be-yours/",
+          "published": "2026-11-18T19:03:00.000Z"
+        },
+        {
+          "source": "gg.deals News",
+          "title": "How to switch your Xbox to New Zealand and unlock GTA 6 early",
+          "link": "https://gg.deals/gaming-news/how-to-switch-your-xbox-to-new-zealand-and-unlock-gta-6-early/",
+          "published": "2026-11-18T10:58:46.000Z"
+        },
+        {
+          "source": "gg.deals News",
+          "title": "Where to buy New Zealand PSN gift cards to play GTA 6 early on PS5?",
+          "link": "https://gg.deals/deal/where-to-buy-new-zealand-psn-gift-cards-to-play-gta-6-early-on-ps5/",
+          "published": "2026-11-18T09:46:00.000Z"
+        },
+        {
+          "source": "gg.deals News",
+          "title": "The Game Awards 2026 nominees are out, with Grand Theft Auto VI nominated across EIGHT categories!",
+          "link": "https://gg.deals/gaming-news/the-game-awards-2026-nominees-are-out-with-grand-theft-auto-vi-nominated-across-eight-categories/",
+          "published": "2026-11-17T18:24:00.000Z"
+        },
+        {
+          "source": "Green Man Gaming blog",
+          "title": "The Best Games Like GTA 6 to Play on PC in 2026",
+          "link": "https://www.greenmangaming.com/blog/the-best-games-like-gta-6-to-play-on-pc-in-2026/",
+          "published": "2026-11-17T15:21:06.000Z"
+        },
+        {
+          "source": "PC Gamer",
+          "title": "GTA 6 guide: A full walkthrough of all our tips and advice on Vice City systems",
+          "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-guide/",
+          "published": "2026-11-18T14:34:08.000Z"
+        },
+        {
+          "source": "PC Gamer",
+          "title": "Grand Theft Auto 6 review roundup: Rockstar's 'magnum opus', a great love story, and a new bar for open worlds",
+          "link": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-review-roundup-rockstars-magnum-opus-a-great-love-story-and-a-new-bar-for-open-worlds/",
+          "published": "2026-11-18T12:16:29.000Z"
+        },
+        {
+          "source": "PC Gamer",
+          "title": "How to collect your GTA 6 Ultimate Edition bonuses",
+          "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-ultimate-edition-bonuses/",
+          "published": "2026-11-18T11:00:00.000Z"
+        },
+        {
+          "source": "PC Gamer",
+          "title": "All GTA 6 cheats and how to unlock them",
+          "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/",
+          "published": "2026-11-18T11:00:00.000Z"
+        },
+        {
+          "source": "PC Gamer",
+          "title": "Newzoo analyst expects Grand Theft Auto to turn around a rough year for console gaming: 'without GTA 6 the console market would likely be down year-over-year in 2026'",
+          "link": "https://www.pcgamer.com/games/grand-theft-auto/newzoo-analyst-expects-grand-theft-auto-to-turn-around-a-rough-year-for-console-gaming-without-gta-6-the-console-market-would-likely-be-down-year-over-year-in-2026/",
+          "published": "2026-11-18T00:35:59.000Z"
+        },
+        {
+          "source": "PC Gamer",
+          "title": "Miami Heat shows off its 'Vice City hardwood' ahead of the big Grand Theft Auto 6 basketball game",
+          "link": "https://www.pcgamer.com/games/grand-theft-auto/miami-heat-shows-off-its-vice-city-hardwood-ahead-of-the-big-grand-theft-auto-6-basketball-game/",
+          "published": "2026-11-17T23:08:11.000Z"
+        },
+        {
+          "source": "Eurogamer",
+          "title": "GTA 6 won't let you use cheats until you complete the main story, and locks progression when you do",
+          "link": "https://www.eurogamer.net/gta-6-no-cheats-until-completing-main-story",
+          "published": "2026-11-18T18:42:20.000Z"
+        },
+        {
+          "source": "Eurogamer",
+          "title": "PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more",
+          "link": "https://www.eurogamer.net/gta-6-ultimate-edition-unlock-details-temporary-content",
+          "published": "2026-11-18T17:42:30.000Z"
+        },
+        {
+          "source": "Eurogamer",
+          "title": "Most, though not quite all, of the 34 fired Rockstar employees are named in the GTA 6 credits",
+          "link": "https://www.eurogamer.net/fired-rockstar-employees-named-gta-6-credits-tribunal",
+          "published": "2026-11-18T17:35:50.000Z"
+        },
+        {
+          "source": "Eurogamer",
+          "title": "GTA 6 breaks the all-time livestream viewer record hours before it's available to play for most of the world",
+          "link": "https://www.eurogamer.net/grand-theft-auto-6-streaming-record-broken",
+          "published": "2026-11-18T15:42:50.000Z"
+        },
+        {
+          "source": "Eurogamer",
+          "title": "Just how detailed is the audio in GTA 6? Well, even convenience store refrigerators \"all have their own unique sounds\", says Rockstar dev",
+          "link": "https://www.eurogamer.net/gta-6-detailed-fridge-noise",
+          "published": "2026-11-18T15:10:30.000Z"
+        },
+        {
+          "source": "Eurogamer",
+          "title": "Grand Theft Auto 6 review",
+          "link": "https://www.eurogamer.net/grand-theft-auto-6-review",
+          "published": "2026-11-18T11:00:00.000Z"
+        },
+        {
+          "source": "Eurogamer",
+          "title": "\"We'd love to have you\" - New Zealand's tourist board gives a nod to those hopping timezones to play Grand Theft Auto 6 early",
+          "link": "https://www.eurogamer.net/new-zealand-tourist-board-gives-nod-grand-theft-auto-timezone-trick",
+          "published": "2026-11-18T10:36:40.000Z"
+        },
+        {
+          "source": "Eurogamer",
+          "title": "The Game Awards 2026 nominees announced, and GTA 6 leads with eight nods before it's even out",
+          "link": "https://www.eurogamer.net/game-awards-2026-nominees-full-list-gta-6",
+          "published": "2026-11-17T19:01:20.000Z"
+        },
+        {
+          "source": "Eurogamer",
+          "title": "Grand Theft Auto: San Andreas is GTA 5 without the finesse - so why is the 2004 classic such a strange delight to return to?",
+          "link": "https://www.eurogamer.net/returning-to-gta-san-andreas-grand-theft-auto-5-6",
+          "published": "2026-11-17T10:11:00.000Z"
         }
       ]
     },
@@ -173,42 +342,43 @@
       ]
     },
     {
-      "headline": "Nintendo’s Black Friday Sale 2026 goes all out with over 1,500 eShop deals and up to 95% off (Europe)",
+      "headline": "Humble's Black Friday Sale has Final Fantasy Remake Intergrade & FFVII Rebirth Steam keys at their best-ever price!",
       "score": 7,
       "sites": [
         "gg.deals"
       ],
       "keywords": [
         "sale",
-        "deals"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "Nintendo’s Black Friday Sale 2026 goes all out with over 1,500 eShop deals and up to 95% off (Europe)",
-          "link": "https://gg.deals/deal/nintendos-black-friday-sale-2026-goes-all-out-with-over-1500-eshop-deals-and-up-to-95-off/",
-          "published": "2026-11-17T16:49:38.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Square Enix games get massive Black Friday discounts at Humble! Save up to 89%",
-      "score": 7,
-      "sites": [
-        "gg.deals"
-      ],
-      "keywords": [
-        "discounts",
+        "price",
         "humble"
       ],
       "games": [],
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Square Enix games get massive Black Friday discounts at Humble! Save up to 89%",
-          "link": "https://gg.deals/deal/square-enix-games-get-massive-black-friday-discounts-at-humble-save-up-to-89/",
-          "published": "2026-11-17T12:31:28.000Z"
+          "title": "Humble's Black Friday Sale has Final Fantasy Remake Intergrade & FFVII Rebirth Steam keys at their best-ever price!",
+          "link": "https://gg.deals/deal/humbles-black-friday-sale-has-final-fantasy-remake-intergrade-ffvii-rebirth-steam-keys-at-their-best-ever-price/",
+          "published": "2026-11-18T18:08:00.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Last chance to get Humble’s Horror Trifectas Bundle, a collection of spooky trilogies for $10 (updated)",
+      "score": 7,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "bundle",
+        "humble"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Last chance to get Humble’s Horror Trifectas Bundle, a collection of spooky trilogies for $10 (updated)",
+          "link": "https://gg.deals/bundle/humbles-horror-trifectas-bundle-rounds-up-a-collection-of-spooky-trilogies-for-10/",
+          "published": "2026-11-18T08:53:00.000Z"
         }
       ]
     }
@@ -218,7 +388,7 @@
     "hidden": 0,
     "notNiche": 0,
     "noFacts": 0,
-    "taken": 2,
+    "taken": 1,
     "repeat": 0,
     "smallDiscount": 0,
     "ended": 0,
