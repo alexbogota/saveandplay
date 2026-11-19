@@ -1,5 +1,26 @@
 [
  {
+  "day": "2026-11-19",
+  "account": "prices",
+  "post": "Shadow Tactics: Blades of the Shogun: -90% at GOG | $3.99 (was $39.99) | Price checked Nov 19. Sale ends Nov 21. Lowest price we've tracked. https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-19 #PCGaming #ShadowTactics Ad",
+  "chars": 192,
+  "order": 1
+ },
+ {
+  "day": "2026-11-19",
+  "account": "prices-2",
+  "post": "This War of Mine: -85% at GOG | $2.99 (was $19.99) | Price checked Nov 19. Sale ends Nov 26. Lowest price we've tracked. https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-19 #PCGaming #ThisWarOfMine Ad",
+  "chars": 172,
+  "order": 2
+ },
+ {
+  "day": "2026-11-19",
+  "account": "retro",
+  "post": "SimCity 4 Deluxe Edition: -75% at GOG | $4.99 (was $19.99) | Price checked Nov 19. Sale ends Nov 26. Lowest price we've tracked. https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=x-retro&utm_medium=social&utm_campaign=deals-2026-11-19 #RetroGaming #PCGaming Ad",
+  "chars": 178,
+  "order": 4
+ },
+ {
   "day": "2026-11-18",
   "account": "prices",
   "post": "Shadow Tactics: Blades of the Shogun: -90% at GOG | $3.99 (was $39.99) | Price checked Nov 18. Sale ends Nov 21. Lowest price we've tracked. https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-18 #PCGaming #GOG Ad",
@@ -89,26 +110,5 @@
   "post": "Metro Exodus: -90% at GOG | $2.99 (was $29.99) | Price checked Nov 13. Sale ends Nov 16. Lowest price we've tracked. https://saveandplay.com/deals/gog/metro-exodus/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-13 #PCGaming #MetroExodus Ad",
   "chars": 166,
   "order": 2
- },
- {
-  "day": "2026-11-12",
-  "account": "prices",
-  "post": "Shadow Tactics: Blades of the Shogun: -90% at GOG | $3.99 (was $39.99) | Price checked Nov 12. Sale ends Nov 13. Lowest price we've tracked. https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-12 #PCGaming #GOG Ad",
-  "chars": 182,
-  "order": 1
- },
- {
-  "day": "2026-11-12",
-  "account": "prices-2",
-  "post": "Metro Exodus: -90% at GOG | $2.99 (was $29.99) | Price checked Nov 12. Sale ends Nov 16. Lowest price we've tracked. https://saveandplay.com/deals/gog/metro-exodus/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-12 #PCGaming #GOG Ad",
-  "chars": 158,
-  "order": 2
- },
- {
-  "day": "2026-11-12",
-  "account": "retro",
-  "post": "SimCity 4 Deluxe Edition: -75% at GOG | $4.99 (was $19.99) | Price checked Nov 12. Sale ends Nov 16. Lowest price we've tracked. https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=x-retro&utm_medium=social&utm_campaign=deals-2026-11-12 #RetroGaming #GOG Ad",
-  "chars": 173,
-  "order": 4
  }
 ]

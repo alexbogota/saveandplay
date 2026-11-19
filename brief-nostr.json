@@ -1,8 +1,8 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-11-18T19:15:02.163Z",
-  "builtBy": "commit 5ab83c8, schedule, run #50 attempt 1",
-  "pricesCheckedAt": "2026-11-18T18:19:57.060Z",
+  "generatedAt": "2026-11-19T19:22:13.815Z",
+  "builtBy": "commit ddc7e31, schedule, run #51 attempt 1",
+  "pricesCheckedAt": "2026-11-19T18:32:49.049Z",
   "warnings": [],
   "candidates": [
     {
@@ -14,8 +14,8 @@
       "was": 39.99,
       "discount": 90,
       "endsAt": "2026-11-21T09:59:00+02:00",
-      "endsInHours": 61,
-      "priceCheckedAt": "2026-11-18T18:19:57.060Z",
+      "endsInHours": 37,
+      "priceCheckedAt": "2026-11-19T18:32:49.049Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
       "drminfo": null,
       "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
@@ -47,113 +47,89 @@
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 3,
+      "score": 5,
       "discountRank": 1,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 40,
+        "days": 41,
         "lowest": true,
         "since": "2026-10-07"
       },
-      "offeredOn": "2026-11-17",
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-18",
+      "offeredOn": "2026-11-18",
+      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-19",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (40 days of data)",
-        "deepest-discount rank 1 of 2"
-      ]
-    },
-    {
-      "id": "gog-simcity-4-deluxe-edition",
-      "kind": "deal",
-      "title": "SimCity 4 Deluxe Edition",
-      "store": "GOG",
-      "price": 4.99,
-      "was": 19.99,
-      "discount": 75,
-      "endsAt": "2026-11-26T09:59:00+02:00",
-      "endsInHours": 181,
-      "priceCheckedAt": "2026-11-18T18:19:57.060Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
-      "drminfo": null,
-      "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
-      "facts": {
-        "year": 2003,
-        "genres": [
-          "Simulation",
-          "Building",
-          "Managerial"
-        ],
-        "tags": [
-          "Atmospheric",
-          "Simulation",
-          "Classic",
-          "Great Soundtrack",
-          "Management",
-          "Sandbox",
-          "Real-Time",
-          "Isometric",
-          "Building",
-          "Managerial",
-          "City builder"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 1.5,
-      "discountRank": 2,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 40,
-        "lowest": true,
-        "since": "2026-10-07"
-      },
-      "offeredOn": "2026-11-13",
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-18",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "lowest price we've tracked (40 days of data)",
-        "deepest-discount rank 2 of 2"
+        "sale ends in 37 h",
+        "lowest price we've tracked (41 days of data)",
+        "deepest-discount rank 1 of 1"
       ]
     }
   ],
   "gogNews": [],
   "topical": [
     {
-      "title": "Delete GTA 6 from your hard drive and indie publisher Devolver Digital might give you a free game",
-      "source": "Eurogamer",
-      "link": "https://www.eurogamer.net/delete-gta-6-free-game-devolver-digital",
-      "t": 1795028900000,
-      "keyword": "free",
-      "summary": "GTA 6 is out at midnight everywhere (19th November), but it's far from the only game in town. Indie publisher Devolver Digital is taking on the open-world behe…"
-    },
-    {
-      "title": "Want to try Remedy's Game of the Year contender Control Resonant FREE?",
+      "title": "Lenovo has another FREE Steam key giveaway lined up, and we’re not just quacking around",
       "source": "gg.deals Freebies",
-      "link": "https://gg.deals/freebie/want-to-try-goty-contender-control-resonant-free/",
-      "t": 1795020360000,
+      "link": "https://gg.deals/freebie/lenovo-has-another-free-steam-key-giveaway-lined-up-and-were-not-just-quacking-around/",
+      "t": 1795112969000,
       "keyword": "free",
-      "summary": "Remedy's surreal and cinematically stylish masterpiece has a free trial waiting on XBOX Series X|S and PlayStation 5."
+      "summary": "Coming December 16."
     },
     {
-      "title": "\"Abducting your own lover no longer gives you opinion of yourself\" declare the notes for Crusader Kings 3's free Florin update, released alongside Silk and Silver",
-      "source": "Rock Paper Shotgun",
-      "link": "https://www.rockpapershotgun.com/abducting-your-own-lover-no-longer-gives-you-opinion-of-yourself-declare-the-notes-for-crusader-kings-3s-free-florin-update-released-alongside-silk-and-silver",
-      "t": 1795020000000,
+      "title": "Prime Gaming's (Amazon Luna) new batch howls in with two PC games to claim for FREE",
+      "source": "gg.deals News",
+      "link": "https://gg.deals/subscription-news/prime-gamings-amazon-luna-new-batch-howls-for-your-attention-with-two-more-pc-games-to-claim-for-free/",
+      "t": 1795111338000,
       "keyword": "free",
-      "summary": "Funky feudal family frolic Crusader Kings 3 got its second major expansion of the year this week. It's called Silk and Silver (read my impressions ), is all ab…"
+      "summary": "Prime Gaming&rsquo;s third November wave of free games brings werewolf action and Puzzlevania adventures."
     }
   ],
   "topics": [
     {
-      "headline": "Newzoo analyst expects Grand Theft Auto to turn around a rough year for console gaming: 'without GTA 6 the console market would likely be down year-over-year in 2026'",
-      "score": 14,
+      "headline": "A pirate adventure awaits! Mark of the Deep is FREE on the Epic Games Store",
+      "score": 11,
+      "sites": [
+        "gamerpower.com",
+        "gg.deals",
+        "indiegamebundles.com"
+      ],
+      "keywords": [
+        "free"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "GamerPower (PC)",
+          "title": "Mark of the Deep (Epic Games) Giveaway",
+          "link": "https://www.gamerpower.com/mark-of-the-deep-epic-games-giveaway",
+          "published": "2026-11-19T16:00:14.000Z"
+        },
+        {
+          "source": "gg.deals Freebies",
+          "title": "A pirate adventure awaits! Mark of the Deep is FREE on the Epic Games Store",
+          "link": "https://gg.deals/freebie/a-pirate-adventure-awaits-mark-of-the-deep-is-free-on-the-epic-games-store/",
+          "published": "2026-11-19T16:00:00.000Z"
+        },
+        {
+          "source": "gg.deals News",
+          "title": "A pirate adventure awaits! Mark of the Deep is FREE on the Epic Games Store",
+          "link": "https://gg.deals/freebie/a-pirate-adventure-awaits-mark-of-the-deep-is-free-on-the-epic-games-store/",
+          "published": "2026-11-19T16:00:00.000Z"
+        },
+        {
+          "source": "Indie Game Bundles",
+          "title": "Mark of the Deep is free on Epic Games Store — pirates, Metroidvania exploration, and Souls-like combat",
+          "link": "https://www.indiegamebundles.com/mark-of-the-deep-is-free-on-epic-games-store/",
+          "published": "2026-11-19T16:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Want a FREE Devolver Digital game? Delete Grand Theft Auto VI and it could be yours!",
+      "score": 8,
       "sites": [
         "gg.deals",
-        "greenmangaming.com",
-        "pcgamer.com",
         "eurogamer.net"
       ],
       "keywords": [
@@ -174,94 +150,16 @@
           "published": "2026-11-18T19:03:00.000Z"
         },
         {
-          "source": "gg.deals News",
-          "title": "How to switch your Xbox to New Zealand and unlock GTA 6 early",
-          "link": "https://gg.deals/gaming-news/how-to-switch-your-xbox-to-new-zealand-and-unlock-gta-6-early/",
-          "published": "2026-11-18T10:58:46.000Z"
-        },
-        {
-          "source": "gg.deals News",
-          "title": "Where to buy New Zealand PSN gift cards to play GTA 6 early on PS5?",
-          "link": "https://gg.deals/deal/where-to-buy-new-zealand-psn-gift-cards-to-play-gta-6-early-on-ps5/",
-          "published": "2026-11-18T09:46:00.000Z"
-        },
-        {
-          "source": "gg.deals News",
-          "title": "The Game Awards 2026 nominees are out, with Grand Theft Auto VI nominated across EIGHT categories!",
-          "link": "https://gg.deals/gaming-news/the-game-awards-2026-nominees-are-out-with-grand-theft-auto-vi-nominated-across-eight-categories/",
-          "published": "2026-11-17T18:24:00.000Z"
-        },
-        {
-          "source": "Green Man Gaming blog",
-          "title": "The Best Games Like GTA 6 to Play on PC in 2026",
-          "link": "https://www.greenmangaming.com/blog/the-best-games-like-gta-6-to-play-on-pc-in-2026/",
-          "published": "2026-11-17T15:21:06.000Z"
-        },
-        {
-          "source": "PC Gamer",
-          "title": "GTA 6 guide: A full walkthrough of all our tips and advice on Vice City systems",
-          "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-guide/",
-          "published": "2026-11-18T14:34:08.000Z"
-        },
-        {
-          "source": "PC Gamer",
-          "title": "Grand Theft Auto 6 review roundup: Rockstar's 'magnum opus', a great love story, and a new bar for open worlds",
-          "link": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-review-roundup-rockstars-magnum-opus-a-great-love-story-and-a-new-bar-for-open-worlds/",
-          "published": "2026-11-18T12:16:29.000Z"
-        },
-        {
-          "source": "PC Gamer",
-          "title": "How to collect your GTA 6 Ultimate Edition bonuses",
-          "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-ultimate-edition-bonuses/",
-          "published": "2026-11-18T11:00:00.000Z"
-        },
-        {
-          "source": "PC Gamer",
-          "title": "All GTA 6 cheats and how to unlock them",
-          "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/",
-          "published": "2026-11-18T11:00:00.000Z"
-        },
-        {
-          "source": "PC Gamer",
-          "title": "Newzoo analyst expects Grand Theft Auto to turn around a rough year for console gaming: 'without GTA 6 the console market would likely be down year-over-year in 2026'",
-          "link": "https://www.pcgamer.com/games/grand-theft-auto/newzoo-analyst-expects-grand-theft-auto-to-turn-around-a-rough-year-for-console-gaming-without-gta-6-the-console-market-would-likely-be-down-year-over-year-in-2026/",
-          "published": "2026-11-18T00:35:59.000Z"
-        },
-        {
-          "source": "PC Gamer",
-          "title": "Miami Heat shows off its 'Vice City hardwood' ahead of the big Grand Theft Auto 6 basketball game",
-          "link": "https://www.pcgamer.com/games/grand-theft-auto/miami-heat-shows-off-its-vice-city-hardwood-ahead-of-the-big-grand-theft-auto-6-basketball-game/",
-          "published": "2026-11-17T23:08:11.000Z"
+          "source": "Eurogamer",
+          "title": "After Grand Theft Auto 6's launch, players are in love with wacky criminality, in-game social media, and animal fatalities",
+          "link": "https://www.eurogamer.net/grand-theft-auto-6-players-love-crime-social-media-animals",
+          "published": "2026-11-19T09:38:50.000Z"
         },
         {
           "source": "Eurogamer",
-          "title": "GTA 6 won't let you use cheats until you complete the main story, and locks progression when you do",
-          "link": "https://www.eurogamer.net/gta-6-no-cheats-until-completing-main-story",
-          "published": "2026-11-18T18:42:20.000Z"
-        },
-        {
-          "source": "Eurogamer",
-          "title": "PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more",
-          "link": "https://www.eurogamer.net/gta-6-ultimate-edition-unlock-details-temporary-content",
-          "published": "2026-11-18T17:42:30.000Z"
-        },
-        {
-          "source": "Eurogamer",
-          "title": "Most, though not quite all, of the 34 fired Rockstar employees are named in the GTA 6 credits",
-          "link": "https://www.eurogamer.net/fired-rockstar-employees-named-gta-6-credits-tribunal",
-          "published": "2026-11-18T17:35:50.000Z"
-        },
-        {
-          "source": "Eurogamer",
-          "title": "GTA 6 breaks the all-time livestream viewer record hours before it's available to play for most of the world",
-          "link": "https://www.eurogamer.net/grand-theft-auto-6-streaming-record-broken",
-          "published": "2026-11-18T15:42:50.000Z"
-        },
-        {
-          "source": "Eurogamer",
-          "title": "Just how detailed is the audio in GTA 6? Well, even convenience store refrigerators \"all have their own unique sounds\", says Rockstar dev",
-          "link": "https://www.eurogamer.net/gta-6-detailed-fridge-noise",
-          "published": "2026-11-18T15:10:30.000Z"
+          "title": "Grand Theft Auto 6 launch day - all the news and rection as GTA 6 arrived around the world",
+          "link": "https://www.eurogamer.net/gta-6-grand-theft-auto-6-launch-day-live-blog",
+          "published": "2026-11-19T09:05:00.000Z"
         },
         {
           "source": "Eurogamer",
@@ -274,111 +172,73 @@
           "title": "\"We'd love to have you\" - New Zealand's tourist board gives a nod to those hopping timezones to play Grand Theft Auto 6 early",
           "link": "https://www.eurogamer.net/new-zealand-tourist-board-gives-nod-grand-theft-auto-timezone-trick",
           "published": "2026-11-18T10:36:40.000Z"
-        },
-        {
-          "source": "Eurogamer",
-          "title": "The Game Awards 2026 nominees announced, and GTA 6 leads with eight nods before it's even out",
-          "link": "https://www.eurogamer.net/game-awards-2026-nominees-full-list-gta-6",
-          "published": "2026-11-17T19:01:20.000Z"
-        },
-        {
-          "source": "Eurogamer",
-          "title": "Grand Theft Auto: San Andreas is GTA 5 without the finesse - so why is the 2004 classic such a strange delight to return to?",
-          "link": "https://www.eurogamer.net/returning-to-gta-san-andreas-grand-theft-auto-5-6",
-          "published": "2026-11-17T10:11:00.000Z"
         }
       ]
     },
     {
-      "headline": "Sony defeat $2.6 billion UK class action lawsuit which argued PlayStation's dominant market position fuels \"excessive and unfair\" game prices",
-      "score": 8,
-      "sites": [
-        "rockpapershotgun.com",
-        "eurogamer.net"
-      ],
-      "keywords": [
-        "prices"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "Rock Paper Shotgun",
-          "title": "Sony defeat $2.6 billion UK class action lawsuit which argued PlayStation's dominant market position fuels \"excessive and unfair\" game prices",
-          "link": "https://www.rockpapershotgun.com/sony-defeat-26-billion-uk-class-action-lawsuit-which-argued-playstations-dominant-market-position-fuels-excessive-and-unfair-game-prices",
-          "published": "2026-11-17T16:30:00.000Z"
-        },
-        {
-          "source": "Eurogamer",
-          "title": "PlayStation defeats £2 billion UK lawsuit that alleged Sony forced consumers into \"excessive and unfair prices\"",
-          "link": "https://www.eurogamer.net/playstation-store-pricing-uk-class-action-lawsuit-result",
-          "published": "2026-11-17T16:25:20.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Star Wars Galactic Racer will get local split-screen multiplayer in early 2027 with new 'Free Play' mode, finally letting racers yell at one another in a tangible space",
-      "score": 8,
-      "sites": [
-        "rockpapershotgun.com",
-        "eurogamer.net"
-      ],
-      "keywords": [
-        "free"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "Rock Paper Shotgun",
-          "title": "Star Wars Galactic Racer will get local split-screen multiplayer in early 2027 with new 'Free Play' mode, finally letting racers yell at one another in a tangible space",
-          "link": "https://www.rockpapershotgun.com/star-wars-galactic-racer-will-get-local-split-screen-multiplayer-in-early-2027-with-new-free-play-mode-finally-letting-racers-yell-at-one-another-in-a-tangible-space",
-          "published": "2026-11-17T11:00:10.000Z"
-        },
-        {
-          "source": "Eurogamer",
-          "title": "Star Wars: Galactic Racer is getting much-requested split-screen multiplayer and new mode in 2027",
-          "link": "https://www.eurogamer.net/star-wars-galactic-racer-split-screen-multiplayer",
-          "published": "2026-11-16T19:38:20.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Humble's Black Friday Sale has Final Fantasy Remake Intergrade & FFVII Rebirth Steam keys at their best-ever price!",
+      "headline": "PlayStation’s Black Friday Steam Sale brings deals on MARVEL Tōkon, Death Stranding 2 and more",
       "score": 7,
       "sites": [
         "gg.deals"
       ],
       "keywords": [
         "sale",
-        "price",
-        "humble"
+        "deals",
+        "steam sale"
       ],
       "games": [],
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Humble's Black Friday Sale has Final Fantasy Remake Intergrade & FFVII Rebirth Steam keys at their best-ever price!",
-          "link": "https://gg.deals/deal/humbles-black-friday-sale-has-final-fantasy-remake-intergrade-ffvii-rebirth-steam-keys-at-their-best-ever-price/",
-          "published": "2026-11-18T18:08:00.000Z"
+          "title": "PlayStation’s Black Friday Steam Sale brings deals on MARVEL Tōkon, Death Stranding 2 and more",
+          "link": "https://gg.deals/deal/playstations-black-friday-steam-sale-brings-deals-on-marvel-tokon-death-stranding-2-and-more/",
+          "published": "2026-11-19T18:59:29.000Z"
         }
       ]
     },
     {
-      "headline": "Last chance to get Humble’s Horror Trifectas Bundle, a collection of spooky trilogies for $10 (updated)",
+      "headline": "Next week, Epic Games Store will offer a co-op penguin platformer and a Firestone bundle for FREE",
       "score": 7,
       "sites": [
         "gg.deals"
       ],
       "keywords": [
-        "bundle",
-        "humble"
+        "free",
+        "bundle"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals Freebies",
+          "title": "Next week, Epic Games Store will offer a co-op penguin platformer and a Firestone bundle for FREE",
+          "link": "https://gg.deals/freebie/next-week-epic-games-store-will-offer-a-co-op-penguin-platformer-and-a-firestone-item-bundle-for-free/",
+          "published": "2026-11-19T16:41:00.000Z"
+        },
+        {
+          "source": "gg.deals News",
+          "title": "Next week, Epic Games Store will offer a co-op penguin platformer and a Firestone bundle for FREE",
+          "link": "https://gg.deals/freebie/next-week-epic-games-store-will-offer-a-co-op-penguin-platformer-and-a-firestone-item-bundle-for-free/",
+          "published": "2026-11-19T16:41:00.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Amazon Black Friday Sale 2026 has kicked off, featuring deals on FC 27, Madden NFL 27 & more!",
+      "score": 7,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "sale",
+        "deals"
       ],
       "games": [],
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Last chance to get Humble’s Horror Trifectas Bundle, a collection of spooky trilogies for $10 (updated)",
-          "link": "https://gg.deals/bundle/humbles-horror-trifectas-bundle-rounds-up-a-collection-of-spooky-trilogies-for-10/",
-          "published": "2026-11-18T08:53:00.000Z"
+          "title": "Amazon Black Friday Sale 2026 has kicked off, featuring deals on FC 27, Madden NFL 27 & more!",
+          "link": "https://gg.deals/deal/amazon-black-friday-sale-2026/",
+          "published": "2026-11-19T15:04:45.000Z"
         }
       ]
     }
@@ -388,7 +248,7 @@
     "hidden": 0,
     "notNiche": 0,
     "noFacts": 0,
-    "taken": 1,
+    "taken": 2,
     "repeat": 0,
     "smallDiscount": 0,
     "ended": 0,
