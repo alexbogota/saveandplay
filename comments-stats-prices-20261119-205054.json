@@ -1,0 +1,67 @@
+{
+  "block": "prices",
+  "handle": "saveandplay.com",
+  "madeAt": "2026-11-19T20:50:54.155Z",
+  "days": 14,
+  "total": 21,
+  "mature": {
+    "count": 21,
+    "withLike": 11,
+    "withReply": 5,
+    "likes": 12,
+    "replies": 5,
+    "byProgram": 21
+  },
+  "top": [
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n2fcffww6427",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3n2fcffww6427",
+      "text": "Coffee Talk and VA-11 Hall-A are both well-loved visual novels on PC. Coffee Talk is the calmer of the two.",
+      "at": "2026-11-16T00:45:04.890Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 1,
+      "to": "audrey-voltaire.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n24pjlmhwq2x",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3n24pjlmhwq2x",
+      "text": "Yes, it sells game bundles: several games for one price, and part of the money goes to charity. Check what's in a bundle first so you only pay for games you would actually play.",
+      "at": "2026-11-12T14:46:06.305Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "timothymark7.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mzv4xol7732z",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3mzv4xol7732z",
+      "text": "Co-op games are a great pick for this. It Takes Two is built for exactly two players, and Overcooked 2 is chaotic fun for any age mix. Looking forward to the art!",
+      "at": "2026-11-09T14:25:19.893Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "sunkisseddaddy.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n27e33trpt2r",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3n27e33trpt2r",
+      "text": "A new laptop plus an indie backlog sounds like a great combo. Indie games are often easy on modest hardware, and the system requirements on each Steam page tell you before you buy.",
+      "at": "2026-11-13T15:59:08.073Z",
+      "likes": 2,
+      "replies": 0,
+      "reposts": 0,
+      "to": "denyally.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mzqrfa6t5u2w",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3mzqrfa6t5u2w",
+      "text": "SimTower and Sim Safari are real deep cuts. Bundles like that were a great way to stumble onto odd little Maxis games.",
+      "at": "2026-11-07T20:47:30.543Z",
+      "likes": 0,
+      "replies": 1,
+      "reposts": 0,
+      "to": "cardboardhyperfix.bsky.social"
+    }
+  ]
+}
