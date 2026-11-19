@@ -3297,6 +3297,54 @@
             "id": "ca62b7fe5dc2f7ec8f31bacb5cc77a24ebfdaeac72d3c9bec0510efba6d7ef19",
             "sig": "110d97fdfbc95fe904949c94e973e316a511d58ae28d79d29b17fe4dc2a5eb98636626292fc80f358486b61dff33ff4e14b7ffef2655a82dc12f6d5d4b9c69be"
           }
+        },
+        "article": {
+          "status": "done",
+          "kind": "article",
+          "id": "b9ae17c3ddf05748ff6be8670ebccb01eee737818b9b8a8ad077fc60030d5789",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "article": "steam-cloud-saves-what-it-covers",
+          "postedAt": "2026-11-19T23:23:11.000Z",
+          "accepted": [
+            "wss://relay.damus.io",
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [],
+          "event": {
+            "kind": 1,
+            "created_at": 1795130591,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-article"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://saveandplay.com/og/steam-cloud-saves-what-it-covers.png",
+                "m image/png",
+                "alt Diagram: Steam syncs a game's cloud files before and after each session, only for games that list Steam Cloud under Features. You can turn it off globally or per game."
+              ]
+            ],
+            "content": "Steam Cloud saves: which games have them and what that does not protect\n\nSteam Cloud copies a game's save files to Valve's servers, but only if the developer set it up. How to check before you buy, how it syncs, and when to still back up.\n\n#pcgaming #gamedeals\n\nhttps://saveandplay.com/og/steam-cloud-saves-what-it-covers.png\n\nhttps://saveandplay.com/guides/steam-cloud-saves-what-it-covers/?utm_source=nostr-prices&utm_medium=social&utm_campaign=steam-cloud-saves-what-it-covers",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "b9ae17c3ddf05748ff6be8670ebccb01eee737818b9b8a8ad077fc60030d5789",
+            "sig": "f5718029e9252195c6ee23089795d656cf74447ce94475fec90835ff2824306a5b08aa13285f928d7f8b88b9cd8e3452b5ec063bdb3cd6bd3b49633a49a0a222"
+          }
         }
       }
     }
@@ -3386,6 +3434,10 @@
       "play-old-pc-games-on-windows-11": {
         "day": "2026-11-17",
         "id": "236ba369c618bc8d02c996b546da241cd66ea40d6ca72487c13b95ab32ab170c"
+      },
+      "steam-cloud-saves-what-it-covers": {
+        "day": "2026-11-19",
+        "id": "b9ae17c3ddf05748ff6be8670ebccb01eee737818b9b8a8ad077fc60030d5789"
       }
     }
   },
