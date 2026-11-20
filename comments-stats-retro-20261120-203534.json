@@ -1,0 +1,67 @@
+{
+  "block": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "madeAt": "2026-11-20T20:35:34.830Z",
+  "days": 14,
+  "total": 17,
+  "mature": {
+    "count": 17,
+    "withLike": 12,
+    "withReply": 3,
+    "likes": 17,
+    "replies": 3,
+    "byProgram": 17
+  },
+  "top": [
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3mzxo3m6fi624",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3mzxo3m6fi624",
+      "text": "Those DOS text games were something else, your imagination did half the work.",
+      "at": "2026-11-10T14:37:04.683Z",
+      "likes": 4,
+      "replies": 0,
+      "reposts": 0,
+      "to": "lovinwolf.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3n2eepijonp2a",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3n2eepijonp2a",
+      "text": "Carmen Sandiego is a classic. American McGee's Alice was quite a jump from those, a much darker take on Wonderland.",
+      "at": "2026-11-15T15:53:51.129Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "canon-thought.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3n2cbun2xyt2n",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3n2cbun2xyt2n",
+      "text": "3D Pinball Space Cadet was on so many Windows PCs growing up. Great that it runs on a handheld now.",
+      "at": "2026-11-14T19:57:42.960Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "rajanomaly.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3n2fcfiibm52g",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3n2fcfiibm52g",
+      "text": "Most 20-year-old games run fine on any modern graphics card, so hiccups are usually compatibility issues rather than GPU power. Which game is giving you trouble?",
+      "at": "2026-11-16T00:45:07.792Z",
+      "likes": 0,
+      "replies": 1,
+      "reposts": 0,
+      "to": "bastardofrealit.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3n24pr7wnjr2c",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3n24pr7wnjr2c",
+      "text": "Nice that a game from 20 years ago can be played again. Knytt always had such a calm, explore-at-your-own-pace feel.",
+      "at": "2026-11-12T14:50:22.507Z",
+      "likes": 2,
+      "replies": 0,
+      "reposts": 0,
+      "to": "nifflas.bsky.social"
+    }
+  ]
+}
