@@ -3346,6 +3346,57 @@
             "sig": "f5718029e9252195c6ee23089795d656cf74447ce94475fec90835ff2824306a5b08aa13285f928d7f8b88b9cd8e3452b5ec063bdb3cd6bd3b49633a49a0a222"
           }
         }
+      },
+      "2026-11-20": {
+        "deal": {
+          "status": "done",
+          "kind": "deal",
+          "id": "9f751eca7a15c9b3fde517aa98e9214371b2ef946f584c19f77120d52f9be367",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "deal": "gog-simcity-4-deluxe-edition",
+          "title": "SimCity 4 Deluxe Edition",
+          "postedAt": "2026-11-20T19:11:37.000Z",
+          "accepted": [
+            "wss://relay.damus.io",
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [],
+          "event": {
+            "kind": 1,
+            "created_at": 1795201897,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-deal"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
+                "m image/jpeg",
+                "alt Cover art for SimCity 4 Deluxe Edition"
+              ]
+            ],
+            "content": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked 2026-11-20 17:57 UTC. Sale ends 2026-11-26 07:59 UTC.\nWhy today: lowest price we've tracked (42 days of data); deepest-discount rank 2 of 2.\nAd: we may earn a commission if you buy.\n\n#pcgaming #gamedeals\n\nhttps://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-20",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "9f751eca7a15c9b3fde517aa98e9214371b2ef946f584c19f77120d52f9be367",
+            "sig": "43fb08790dca1aef28a7cd6adc63402f93024c975b5117fd5a1b78dd8780d3ec77d64795ab17170ebb69181159be4c24e1b0a7497690bb3a3084a2ca43f528ad"
+          }
+        }
       }
     }
   },
