@@ -94,7 +94,12 @@
       "date": "2026-11-17",
       "slug": "steam-price-tax-included-or-added",
       "title": "Steam price and tax: when the checkout total is the same as the shelf price"
+    },
+    {
+      "date": "2026-11-20",
+      "slug": "steam-price-tax-included-or-added",
+      "title": "Steam price and tax: when the checkout total matches the shelf price"
     }
   ],
-  "lastDate": "2026-11-17"
+  "lastDate": "2026-11-20"
 }
