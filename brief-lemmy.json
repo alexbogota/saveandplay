@@ -1,88 +1,142 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-11-19T19:22:13.815Z",
-  "builtBy": "commit ddc7e31, schedule, run #51 attempt 1",
-  "pricesCheckedAt": "2026-11-19T18:32:49.049Z",
+  "generatedAt": "2026-11-20T18:58:28.609Z",
+  "builtBy": "commit 201c1d2, schedule, run #52 attempt 1",
+  "pricesCheckedAt": "2026-11-20T17:57:04.124Z",
   "warnings": [],
   "candidates": [
     {
-      "id": "gog-shadow-tactics-blades-of-the-shogun",
+      "id": "gog-simcity-4-deluxe-edition",
       "kind": "deal",
-      "title": "Shadow Tactics: Blades of the Shogun",
+      "title": "SimCity 4 Deluxe Edition",
       "store": "GOG",
-      "price": 3.99,
-      "was": 39.99,
-      "discount": 90,
-      "endsAt": "2026-11-21T09:59:00+02:00",
-      "endsInHours": 37,
-      "priceCheckedAt": "2026-11-19T18:32:49.049Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
+      "price": 4.99,
+      "was": 19.99,
+      "discount": 75,
+      "endsAt": "2026-11-26T09:59:00+02:00",
+      "endsInHours": 133,
+      "priceCheckedAt": "2026-11-20T17:57:04.124Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
       "drminfo": null,
-      "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
+      "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
       "facts": {
-        "year": 2016,
+        "year": 2003,
         "genres": [
-          "Strategy",
-          "Real-time",
-          "Stealth"
+          "Simulation",
+          "Building",
+          "Managerial"
         ],
         "tags": [
-          "Indie",
           "Atmospheric",
-          "Strategy",
-          "Puzzle",
+          "Simulation",
+          "Classic",
           "Great Soundtrack",
-          "Tactical",
-          "Third Person",
-          "Historical",
-          "Survival",
-          "Violent",
+          "Management",
+          "Sandbox",
           "Real-Time",
-          "Difficult",
           "Isometric",
-          "RTS",
-          "Stealth",
-          "Ninja"
+          "Building",
+          "Managerial",
+          "City builder"
         ]
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 5,
+      "score": 9.5,
+      "discountRank": 2,
+      "sites": 0,
+      "mentions": [],
+      "history": {
+        "days": 42,
+        "lowest": true,
+        "since": "2026-10-07"
+      },
+      "offeredOn": null,
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-20",
+      "linkKind": "link to our site",
+      "whyToday": [
+        "lowest price we've tracked (42 days of data)",
+        "deepest-discount rank 2 of 2"
+      ]
+    },
+    {
+      "id": "gog-this-war-of-mine",
+      "kind": "deal",
+      "title": "This War of Mine",
+      "store": "GOG",
+      "price": 2.99,
+      "was": 19.99,
+      "discount": 85,
+      "endsAt": "2026-11-26T09:59:00+02:00",
+      "endsInHours": 133,
+      "priceCheckedAt": "2026-11-20T17:57:04.124Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
+      "drminfo": null,
+      "coverAlt": "Cover art for This War of Mine",
+      "facts": {
+        "year": 2014,
+        "genres": [
+          "Action",
+          "Adventure",
+          "Survival"
+        ],
+        "tags": [
+          "Adventure",
+          "Action",
+          "Indie",
+          "Story Rich",
+          "Atmospheric",
+          "Choices Matter",
+          "Management",
+          "Survival",
+          "Resource Management",
+          "Real-Time",
+          "War",
+          "Crafting",
+          "Base Building",
+          "Emotional",
+          "Post-apocalyptic",
+          "Stealth",
+          "Psychological"
+        ]
+      },
+      "marketplace": false,
+      "compareTo": null,
+      "score": 2.5,
       "discountRank": 1,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 41,
+        "days": 33,
         "lowest": true,
-        "since": "2026-10-07"
+        "since": "2026-10-19"
       },
-      "offeredOn": "2026-11-18",
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-19",
+      "offeredOn": "2026-11-15",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-20",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 37 h",
-        "lowest price we've tracked (41 days of data)",
-        "deepest-discount rank 1 of 1"
+        "lowest price we've tracked (33 days of data)",
+        "deepest-discount rank 1 of 2"
       ]
     }
   ],
   "gogNews": [],
   "topical": [
     {
-      "title": "Lenovo has another FREE Steam key giveaway lined up, and we’re not just quacking around",
-      "source": "gg.deals Freebies",
-      "link": "https://gg.deals/freebie/lenovo-has-another-free-steam-key-giveaway-lined-up-and-were-not-just-quacking-around/",
-      "t": 1795112969000,
-      "keyword": "free",
-      "summary": "Coming December 16."
+      "title": "Black Friday sees Kingdom Come Deliverance II's complete Royal Edition hit a new historical low price!",
+      "source": "gg.deals News",
+      "link": "https://gg.deals/deal/kingdom-come-deliverance-iis-complete-royal-edition-hits-a-new-historical-low-price-for-black-friday/",
+      "t": 1795200960000,
+      "keyword": "price",
+      "summary": "This one's for the players who want it all."
     },
     {
-      "title": "Prime Gaming's (Amazon Luna) new batch howls in with two PC games to claim for FREE",
-      "source": "gg.deals News",
-      "link": "https://gg.deals/subscription-news/prime-gamings-amazon-luna-new-batch-howls-for-your-attention-with-two-more-pc-games-to-claim-for-free/",
-      "t": 1795111338000,
-      "keyword": "free",
-      "summary": "Prime Gaming&rsquo;s third November wave of free games brings werewolf action and Puzzlevania adventures."
+      "title": "These 13 Black Friday deals will help you upgrade your GTA 6 setup",
+      "source": "GamesRadar deals",
+      "link": "https://www.gamesradar.com/games/grand-theft-auto/these-13-early-black-friday-deals-will-help-you-upgrade-your-gta-6-setup-from-game-discounts-to-controllers-headsets-and-more/",
+      "t": 1795195107000,
+      "keyword": "deals",
+      "summary": "Quick Menu (Image credit: Future) GTA 6 Controllers Headset + Speakers Chairs Displays I'm not going to ask you how many hours of GTA 6 you've played so far, i…"
     }
   ],
   "topics": [
@@ -112,12 +166,6 @@
           "published": "2026-11-19T16:00:00.000Z"
         },
         {
-          "source": "gg.deals News",
-          "title": "A pirate adventure awaits! Mark of the Deep is FREE on the Epic Games Store",
-          "link": "https://gg.deals/freebie/a-pirate-adventure-awaits-mark-of-the-deep-is-free-on-the-epic-games-store/",
-          "published": "2026-11-19T16:00:00.000Z"
-        },
-        {
           "source": "Indie Game Bundles",
           "title": "Mark of the Deep is free on Epic Games Store — pirates, Metroidvania exploration, and Souls-like combat",
           "link": "https://www.indiegamebundles.com/mark-of-the-deep-is-free-on-epic-games-store/",
@@ -126,104 +174,7 @@
       ]
     },
     {
-      "headline": "Want a FREE Devolver Digital game? Delete Grand Theft Auto VI and it could be yours!",
-      "score": 8,
-      "sites": [
-        "gg.deals",
-        "eurogamer.net"
-      ],
-      "keywords": [
-        "free"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals Freebies",
-          "title": "Want a FREE Devolver Digital game? Delete Grand Theft Auto VI and it could be yours!",
-          "link": "https://gg.deals/freebie/want-a-free-devolver-digital-game-delete-grand-theft-auto-vi-and-it-could-be-yours/",
-          "published": "2026-11-18T19:03:00.000Z"
-        },
-        {
-          "source": "gg.deals News",
-          "title": "Want a FREE Devolver Digital game? Delete Grand Theft Auto VI and it could be yours!",
-          "link": "https://gg.deals/freebie/want-a-free-devolver-digital-game-delete-grand-theft-auto-vi-and-it-could-be-yours/",
-          "published": "2026-11-18T19:03:00.000Z"
-        },
-        {
-          "source": "Eurogamer",
-          "title": "After Grand Theft Auto 6's launch, players are in love with wacky criminality, in-game social media, and animal fatalities",
-          "link": "https://www.eurogamer.net/grand-theft-auto-6-players-love-crime-social-media-animals",
-          "published": "2026-11-19T09:38:50.000Z"
-        },
-        {
-          "source": "Eurogamer",
-          "title": "Grand Theft Auto 6 launch day - all the news and rection as GTA 6 arrived around the world",
-          "link": "https://www.eurogamer.net/gta-6-grand-theft-auto-6-launch-day-live-blog",
-          "published": "2026-11-19T09:05:00.000Z"
-        },
-        {
-          "source": "Eurogamer",
-          "title": "Grand Theft Auto 6 review",
-          "link": "https://www.eurogamer.net/grand-theft-auto-6-review",
-          "published": "2026-11-18T11:00:00.000Z"
-        },
-        {
-          "source": "Eurogamer",
-          "title": "\"We'd love to have you\" - New Zealand's tourist board gives a nod to those hopping timezones to play Grand Theft Auto 6 early",
-          "link": "https://www.eurogamer.net/new-zealand-tourist-board-gives-nod-grand-theft-auto-timezone-trick",
-          "published": "2026-11-18T10:36:40.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "PlayStation’s Black Friday Steam Sale brings deals on MARVEL Tōkon, Death Stranding 2 and more",
-      "score": 7,
-      "sites": [
-        "gg.deals"
-      ],
-      "keywords": [
-        "sale",
-        "deals",
-        "steam sale"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "PlayStation’s Black Friday Steam Sale brings deals on MARVEL Tōkon, Death Stranding 2 and more",
-          "link": "https://gg.deals/deal/playstations-black-friday-steam-sale-brings-deals-on-marvel-tokon-death-stranding-2-and-more/",
-          "published": "2026-11-19T18:59:29.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Next week, Epic Games Store will offer a co-op penguin platformer and a Firestone bundle for FREE",
-      "score": 7,
-      "sites": [
-        "gg.deals"
-      ],
-      "keywords": [
-        "free",
-        "bundle"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals Freebies",
-          "title": "Next week, Epic Games Store will offer a co-op penguin platformer and a Firestone bundle for FREE",
-          "link": "https://gg.deals/freebie/next-week-epic-games-store-will-offer-a-co-op-penguin-platformer-and-a-firestone-item-bundle-for-free/",
-          "published": "2026-11-19T16:41:00.000Z"
-        },
-        {
-          "source": "gg.deals News",
-          "title": "Next week, Epic Games Store will offer a co-op penguin platformer and a Firestone bundle for FREE",
-          "link": "https://gg.deals/freebie/next-week-epic-games-store-will-offer-a-co-op-penguin-platformer-and-a-firestone-item-bundle-for-free/",
-          "published": "2026-11-19T16:41:00.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Amazon Black Friday Sale 2026 has kicked off, featuring deals on FC 27, Madden NFL 27 & more!",
+      "headline": "Fanatical Black Friday Sale 2026 is here with 1000s of deals and a bonus for spending over $15",
       "score": 7,
       "sites": [
         "gg.deals"
@@ -236,9 +187,69 @@
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Amazon Black Friday Sale 2026 has kicked off, featuring deals on FC 27, Madden NFL 27 & more!",
-          "link": "https://gg.deals/deal/amazon-black-friday-sale-2026/",
-          "published": "2026-11-19T15:04:45.000Z"
+          "title": "Fanatical Black Friday Sale 2026 is here with 1000s of deals and a bonus for spending over $15",
+          "link": "https://gg.deals/deal/fanatical-black-friday-sale-2026-is-here-with-1000s-of-deals-and-a-bonus-for-spending-over-15/",
+          "published": "2026-11-20T17:39:45.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "EA.com’s Black Friday Sale 2026 brings deals on Battlefield 6, Dead Space & more, with up to 95% off",
+      "score": 7,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "sale",
+        "deals"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "EA.com’s Black Friday Sale 2026 brings deals on Battlefield 6, Dead Space & more, with up to 95% off",
+          "link": "https://gg.deals/deal/ea-black-friday-sale-2026/",
+          "published": "2026-11-20T16:41:02.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Humble's Black Friday SEGA sale is worth checking out! Persona 5 Royal is 69% off",
+      "score": 7,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "sale",
+        "humble"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Humble's Black Friday SEGA sale is worth checking out! Persona 5 Royal is 69% off",
+          "link": "https://gg.deals/deal/humble-black-friday-sega-sale/",
+          "published": "2026-11-20T16:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "GeForce NOW's Black Friday deal slashes the price of its Performance & RTX 5080-powered Ultimate tiers!",
+      "score": 7,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "price",
+        "deal"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "GeForce NOW's Black Friday deal slashes the price of its Performance & RTX 5080-powered Ultimate tiers!",
+          "link": "https://gg.deals/deal/geforce-nows-black-friday-deal-has-slashed-the-price-of-its-performance-rtx-5080-powered-ultimate-tiers/",
+          "published": "2026-11-20T14:30:00.000Z"
         }
       ]
     }
@@ -248,7 +259,7 @@
     "hidden": 0,
     "notNiche": 0,
     "noFacts": 0,
-    "taken": 2,
+    "taken": 1,
     "repeat": 0,
     "smallDiscount": 0,
     "ended": 0,
