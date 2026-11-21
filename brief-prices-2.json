@@ -1,128 +1,62 @@
 {
   "account": "Honest prices (second deal of the day)",
-  "generatedAt": "2026-11-20T18:58:28.609Z",
-  "builtBy": "commit 201c1d2, schedule, run #52 attempt 1",
-  "pricesCheckedAt": "2026-11-20T17:57:04.124Z",
+  "generatedAt": "2026-11-21T17:53:07.482Z",
+  "builtBy": "commit a941ad3, schedule, run #53 attempt 1",
+  "pricesCheckedAt": "2026-11-21T16:54:27.613Z",
   "warnings": [],
   "candidates": [
     {
-      "id": "gog-shadow-tactics-blades-of-the-shogun",
+      "id": "gog-simcity-4-deluxe-edition",
       "kind": "deal",
-      "title": "Shadow Tactics: Blades of the Shogun",
+      "title": "SimCity 4 Deluxe Edition",
       "store": "GOG",
-      "price": 3.99,
-      "was": 39.99,
-      "discount": 90,
-      "endsAt": "2026-11-21T09:59:00+02:00",
-      "endsInHours": 13,
-      "priceCheckedAt": "2026-11-20T17:57:04.124Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
+      "price": 4.99,
+      "was": 19.99,
+      "discount": 75,
+      "endsAt": "2026-11-26T09:59:00+02:00",
+      "endsInHours": 110,
+      "priceCheckedAt": "2026-11-21T16:54:27.613Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
       "drminfo": null,
-      "coverAlt": "Cover art for Shadow Tactics: Blades of the Shogun",
+      "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
       "facts": {
-        "year": 2016,
+        "year": 2003,
         "genres": [
-          "Strategy",
-          "Real-time",
-          "Stealth"
+          "Simulation",
+          "Building",
+          "Managerial"
         ],
         "tags": [
-          "Indie",
           "Atmospheric",
-          "Strategy",
-          "Puzzle",
+          "Simulation",
+          "Classic",
           "Great Soundtrack",
-          "Tactical",
-          "Third Person",
-          "Historical",
-          "Survival",
-          "Violent",
+          "Management",
+          "Sandbox",
           "Real-Time",
-          "Difficult",
           "Isometric",
-          "RTS",
-          "Stealth",
-          "Ninja"
+          "Building",
+          "Managerial",
+          "City builder"
         ]
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 5,
+      "score": 1.5,
       "discountRank": 1,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 42,
+        "days": 43,
         "lowest": true,
         "since": "2026-10-07"
       },
-      "offeredOn": "2026-11-19",
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-20",
+      "offeredOn": "2026-11-20",
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-21",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 13 h",
-        "lowest price we've tracked (42 days of data)",
-        "deepest-discount rank 1 of 2"
-      ]
-    },
-    {
-      "id": "gog-this-war-of-mine",
-      "kind": "deal",
-      "title": "This War of Mine",
-      "store": "GOG",
-      "price": 2.99,
-      "was": 19.99,
-      "discount": 85,
-      "endsAt": "2026-11-26T09:59:00+02:00",
-      "endsInHours": 133,
-      "priceCheckedAt": "2026-11-20T17:57:04.124Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
-      "drminfo": null,
-      "coverAlt": "Cover art for This War of Mine",
-      "facts": {
-        "year": 2014,
-        "genres": [
-          "Action",
-          "Adventure",
-          "Survival"
-        ],
-        "tags": [
-          "Adventure",
-          "Action",
-          "Indie",
-          "Story Rich",
-          "Atmospheric",
-          "Choices Matter",
-          "Management",
-          "Survival",
-          "Resource Management",
-          "Real-Time",
-          "War",
-          "Crafting",
-          "Base Building",
-          "Emotional",
-          "Post-apocalyptic",
-          "Stealth",
-          "Psychological"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 2.5,
-      "discountRank": 2,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 33,
-        "lowest": true,
-        "since": "2026-10-19"
-      },
-      "offeredOn": "2026-11-19",
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-20",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "lowest price we've tracked (33 days of data)",
-        "deepest-discount rank 2 of 2"
+        "lowest price we've tracked (43 days of data)",
+        "deepest-discount rank 1 of 1"
       ]
     }
   ],
@@ -147,18 +81,18 @@
   },
   "posts": {
     "x": {
-      "text": "Shadow Tactics: Blades of the Shogun: -90% at GOG\n$3.99 (was $39.99)\nPrice checked Nov 20. Sale ends Nov 21. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-20\n\n#PCGaming #GameDeals\nAd",
-      "length": 186,
+      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Nov 21. Sale ends Nov 26. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-21\n\n#PCGaming #GOG\nAd",
+      "length": 168,
       "max": 270,
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-20",
-      "deal": "gog-shadow-tactics-blades-of-the-shogun"
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-21",
+      "deal": "gog-simcity-4-deluxe-edition"
     },
     "bluesky": {
-      "text": "Shadow Tactics: Blades of the Shogun: -90% at GOG\n$3.99 (was $39.99)\nPrice checked Nov 20. Sale ends Nov 21. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-20\n\n#PCGaming #GameDeals #GOG #VideoGames #Gaming\nAd",
-      "length": 213,
+      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Nov 21. Sale ends Nov 26. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-21\n\n#PCGaming #GameDeals #SimCity4DeluxeEdition #Games #DRMFree\nAd",
+      "length": 215,
       "max": 300,
-      "link": "https://saveandplay.com/deals/gog/shadow-tactics-blades-of-the-shogun/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-20",
-      "deal": "gog-shadow-tactics-blades-of-the-shogun"
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-21",
+      "deal": "gog-simcity-4-deluxe-edition"
     }
   }
 }

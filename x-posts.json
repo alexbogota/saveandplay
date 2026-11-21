@@ -1,5 +1,19 @@
 [
  {
+  "day": "2026-11-21",
+  "account": "prices",
+  "post": "This War of Mine: -85% at GOG | $2.99 (was $19.99) | Price checked Nov 21. Sale ends Nov 26. Lowest price we've tracked. https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-21 #PCGaming #GOG Ad",
+  "chars": 162,
+  "order": 1
+ },
+ {
+  "day": "2026-11-21",
+  "account": "prices-2",
+  "post": "SimCity 4 Deluxe Edition: -75% at GOG | $4.99 (was $19.99) | Price checked Nov 21. Sale ends Nov 26. Lowest price we've tracked. https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-21 #PCGaming #GOG Ad",
+  "chars": 170,
+  "order": 2
+ },
+ {
   "day": "2026-11-20",
   "account": "prices",
   "post": "SimCity 4 Deluxe Edition: -75% at GOG | $4.99 (was $19.99) | Price checked Nov 20. Sale ends Nov 26. Lowest price we've tracked. https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-20 #PCGaming #GameDeals Ad",
@@ -95,20 +109,6 @@
   "account": "prices-2",
   "post": "Metro Exodus: -90% at GOG | $2.99 (was $29.99) | Price checked Nov 15. Sale ends Nov 16. Lowest price we've tracked. https://saveandplay.com/deals/gog/metro-exodus/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-15 #PCGaming #GOG Ad",
   "chars": 158,
-  "order": 2
- },
- {
-  "day": "2026-11-14",
-  "account": "prices",
-  "post": "Metro Exodus: -90% at GOG | $2.99 (was $29.99) | Price checked Nov 14. Sale ends Nov 16. Lowest price we've tracked. https://saveandplay.com/deals/gog/metro-exodus/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-14 #PCGaming #GameDeals Ad",
-  "chars": 164,
-  "order": 1
- },
- {
-  "day": "2026-11-14",
-  "account": "prices-2",
-  "post": "This War of Mine: -85% at GOG | $2.99 (was $19.99) | Price checked Nov 14. Sale ends Nov 16. Lowest price we've tracked. https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-14 #PCGaming #GameDeals Ad",
-  "chars": 168,
   "order": 2
  }
 ]

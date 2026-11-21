@@ -1,64 +1,10 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-11-20T18:58:28.609Z",
-  "builtBy": "commit 201c1d2, schedule, run #52 attempt 1",
-  "pricesCheckedAt": "2026-11-20T17:57:04.124Z",
+  "generatedAt": "2026-11-21T17:53:07.482Z",
+  "builtBy": "commit a941ad3, schedule, run #53 attempt 1",
+  "pricesCheckedAt": "2026-11-21T16:54:27.613Z",
   "warnings": [],
   "candidates": [
-    {
-      "id": "gog-simcity-4-deluxe-edition",
-      "kind": "deal",
-      "title": "SimCity 4 Deluxe Edition",
-      "store": "GOG",
-      "price": 4.99,
-      "was": 19.99,
-      "discount": 75,
-      "endsAt": "2026-11-26T09:59:00+02:00",
-      "endsInHours": 133,
-      "priceCheckedAt": "2026-11-20T17:57:04.124Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
-      "drminfo": null,
-      "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
-      "facts": {
-        "year": 2003,
-        "genres": [
-          "Simulation",
-          "Building",
-          "Managerial"
-        ],
-        "tags": [
-          "Atmospheric",
-          "Simulation",
-          "Classic",
-          "Great Soundtrack",
-          "Management",
-          "Sandbox",
-          "Real-Time",
-          "Isometric",
-          "Building",
-          "Managerial",
-          "City builder"
-        ]
-      },
-      "marketplace": false,
-      "compareTo": null,
-      "score": 9.5,
-      "discountRank": 2,
-      "sites": 0,
-      "mentions": [],
-      "history": {
-        "days": 42,
-        "lowest": true,
-        "since": "2026-10-07"
-      },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-11-20",
-      "linkKind": "link to our site",
-      "whyToday": [
-        "lowest price we've tracked (42 days of data)",
-        "deepest-discount rank 2 of 2"
-      ]
-    },
     {
       "id": "gog-this-war-of-mine",
       "kind": "deal",
@@ -68,8 +14,8 @@
       "was": 19.99,
       "discount": 85,
       "endsAt": "2026-11-26T09:59:00+02:00",
-      "endsInHours": 133,
-      "priceCheckedAt": "2026-11-20T17:57:04.124Z",
+      "endsInHours": 110,
+      "priceCheckedAt": "2026-11-21T16:54:27.613Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
       "drminfo": null,
       "coverAlt": "Cover art for This War of Mine",
@@ -107,69 +53,89 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 33,
+        "days": 34,
         "lowest": true,
         "since": "2026-10-19"
       },
       "offeredOn": "2026-11-15",
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-11-20",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-11-21",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (33 days of data)",
-        "deepest-discount rank 1 of 2"
+        "lowest price we've tracked (34 days of data)",
+        "deepest-discount rank 1 of 1"
       ]
     }
   ],
   "gogNews": [],
   "topical": [
     {
-      "title": "Black Friday sees Kingdom Come Deliverance II's complete Royal Edition hit a new historical low price!",
-      "source": "gg.deals News",
-      "link": "https://gg.deals/deal/kingdom-come-deliverance-iis-complete-royal-edition-hits-a-new-historical-low-price-for-black-friday/",
-      "t": 1795200960000,
-      "keyword": "price",
-      "summary": "This one's for the players who want it all."
+      "title": "New FREE games this weekend (November 21-22, 2026): your comprehensive roundup",
+      "source": "gg.deals Freebies",
+      "link": "https://gg.deals/freebie/new-free-games-this-weekend-november-21-22-2026-your-comprehensive-roundup/",
+      "t": 1795274520000,
+      "keyword": "free",
+      "summary": "Looking for something new to play this weekend? Plenty of fresh free games have popped up since our last roundup, and you can find them all right here."
     },
     {
-      "title": "These 13 Black Friday deals will help you upgrade your GTA 6 setup",
-      "source": "GamesRadar deals",
-      "link": "https://www.gamesradar.com/games/grand-theft-auto/these-13-early-black-friday-deals-will-help-you-upgrade-your-gta-6-setup-from-game-discounts-to-controllers-headsets-and-more/",
-      "t": 1795195107000,
-      "keyword": "deals",
-      "summary": "Quick Menu (Image credit: Future) GTA 6 Controllers Headset + Speakers Chairs Displays I'm not going to ask you how many hours of GTA 6 you've played so far, i…"
+      "title": "Fanatical Capcom Collection Black Friday Bundle: Choose 2 Steam Games for $12.99",
+      "source": "Indie Game Bundles",
+      "link": "https://www.indiegamebundles.com/fanatical-capcom-collection-black-friday-bundle-choose-2-steam-games-for-12-99/",
+      "t": 1795255055000,
+      "keyword": "bundle",
+      "summary": "The selection includes Resident Evil Village Gold Edition, Monster Hunter: World, Phoenix Wright: Ace Attorney Trilogy, and several classic Mega Man collection…"
     }
   ],
   "topics": [
     {
-      "headline": "A pirate adventure awaits! Mark of the Deep is FREE on the Epic Games Store",
-      "score": 11,
+      "headline": "Humble Deck the Halls with Deckbuilders Bundle: 7 Steam Games for $15",
+      "score": 10,
       "sites": [
-        "gamerpower.com",
         "gg.deals",
         "indiegamebundles.com"
       ],
       "keywords": [
-        "free"
+        "bundle",
+        "humble"
       ],
       "games": [],
       "items": [
         {
-          "source": "GamerPower (PC)",
-          "title": "Mark of the Deep (Epic Games) Giveaway",
-          "link": "https://www.gamerpower.com/mark-of-the-deep-epic-games-giveaway",
-          "published": "2026-11-19T16:00:14.000Z"
-        },
-        {
-          "source": "gg.deals Freebies",
-          "title": "A pirate adventure awaits! Mark of the Deep is FREE on the Epic Games Store",
-          "link": "https://gg.deals/freebie/a-pirate-adventure-awaits-mark-of-the-deep-is-free-on-the-epic-games-store/",
-          "published": "2026-11-19T16:00:00.000Z"
+          "source": "gg.deals News",
+          "title": "Humble’s Deck the Halls with Deckbuilders Bundle puts 7 games on the table for $15",
+          "link": "https://gg.deals/bundle/humbles-deck-the-halls-with-deckbuilders-bundle-puts-7-games-on-the-table-for-15/",
+          "published": "2026-11-20T19:42:39.000Z"
         },
         {
           "source": "Indie Game Bundles",
-          "title": "Mark of the Deep is free on Epic Games Store — pirates, Metroidvania exploration, and Souls-like combat",
-          "link": "https://www.indiegamebundles.com/mark-of-the-deep-is-free-on-epic-games-store/",
-          "published": "2026-11-19T16:00:00.000Z"
+          "title": "Humble Deck the Halls with Deckbuilders Bundle: 7 Steam Games for $15",
+          "link": "https://www.indiegamebundles.com/humble-deck-the-halls-with-deckbuilders-bundle-7-steam-games-for-15/",
+          "published": "2026-11-21T09:43:08.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "GTA 6 is officially the biggest entertainment launch of all time, selling 32.5 million pre-sale copies and a bonkers $3.79 billion in its first day",
+      "score": 8,
+      "sites": [
+        "pcgamer.com",
+        "eurogamer.net"
+      ],
+      "keywords": [
+        "sale"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "PC Gamer",
+          "title": "Grand Theft Auto 6 earned $3.79 billion on launch day",
+          "link": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-earned-usd3-79-billion-on-launch-day/",
+          "published": "2026-11-20T19:51:48.000Z"
+        },
+        {
+          "source": "Eurogamer",
+          "title": "GTA 6 is officially the biggest entertainment launch of all time, selling 32.5 million pre-sale copies and a bonkers $3.79 billion in its first day",
+          "link": "https://www.eurogamer.net/gta-6-biggest-entertainment-launch",
+          "published": "2026-11-20T20:00:40.000Z"
         }
       ]
     },
@@ -230,26 +196,6 @@
           "title": "Humble's Black Friday SEGA sale is worth checking out! Persona 5 Royal is 69% off",
           "link": "https://gg.deals/deal/humble-black-friday-sega-sale/",
           "published": "2026-11-20T16:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "GeForce NOW's Black Friday deal slashes the price of its Performance & RTX 5080-powered Ultimate tiers!",
-      "score": 7,
-      "sites": [
-        "gg.deals"
-      ],
-      "keywords": [
-        "price",
-        "deal"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "GeForce NOW's Black Friday deal slashes the price of its Performance & RTX 5080-powered Ultimate tiers!",
-          "link": "https://gg.deals/deal/geforce-nows-black-friday-deal-has-slashed-the-price-of-its-performance-rtx-5080-powered-ultimate-tiers/",
-          "published": "2026-11-20T14:30:00.000Z"
         }
       ]
     }
