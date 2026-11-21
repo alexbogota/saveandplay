@@ -1,0 +1,19 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261121-153003",
+  "madeAt": "2026-11-21T15:33:24.714Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:nvuszqznaw4dyzhxr7uyseot/app.bsky.feed.post/3n2tf453yb22q",
+      "url": "https://bsky.app/profile/bombchazztic.bsky.social/post/3n2tf453yb22q",
+      "author": "bombchazztic.bsky.social",
+      "context": "Let me get this right… #ElderScrollsOnline has home decorating, clothes-making, harvesting flowers, pets, and fishing? This is a cozy game for the girlies!!!\nimage: an orc in a long robe standing in a roughly decorated room with sparkles and hearts",
+      "text": "ESO really does have a surprising amount of housing, crafting and fishing for anyone who wants a slower pace.",
+      "group": "evening",
+      "heated": false
+    }
+  ]
+}
