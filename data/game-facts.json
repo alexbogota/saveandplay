@@ -23,35 +23,6 @@
   "mature": false,
   "at": "2026-10-16"
  },
- "gog-shadow-tactics-blades-of-the-shogun": {
-  "source": "gog",
-  "year": 2016,
-  "genres": [
-   "Strategy",
-   "Real-time",
-   "Stealth"
-  ],
-  "tags": [
-   "Indie",
-   "Atmospheric",
-   "Strategy",
-   "Puzzle",
-   "Great Soundtrack",
-   "Tactical",
-   "Third Person",
-   "Historical",
-   "Survival",
-   "Violent",
-   "Real-Time",
-   "Difficult",
-   "Isometric",
-   "RTS",
-   "Stealth",
-   "Ninja"
-  ],
-  "mature": true,
-  "at": "2026-10-16"
- },
  "gog-this-war-of-mine": {
   "source": "gog",
   "year": 2014,
@@ -81,80 +52,6 @@
   ],
   "mature": false,
   "at": "2026-10-19"
- },
- "gog-mirror-s-edge": {
-  "source": "gog",
-  "year": 2009,
-  "genres": [
-   "Action",
-   "FPP",
-   "Sci-fi"
-  ],
-  "tags": [
-   "Action",
-   "Atmospheric",
-   "Sci-fi",
-   "Puzzle",
-   "Classic",
-   "First-Person",
-   "Science",
-   "Female Protagonist",
-   "Great Soundtrack",
-   "Platformer",
-   "FPS",
-   "Cyberpunk",
-   "Dystopian"
-  ],
-  "mature": false,
-  "at": "2026-10-22"
- },
- "indiegala-no-man-s-sky": {
-  "source": "steam",
-  "year": 2016,
-  "genres": [
-   "Action",
-   "Adventure"
-  ],
-  "tags": [],
-  "mature": false,
-  "at": "2026-10-22"
- },
- "kinguin-don-t-starve-together": {
-  "source": "steam",
-  "year": 2016,
-  "genres": [
-   "Action",
-   "Adventure",
-   "Indie",
-   "RPG",
-   "Simulation",
-   "Strategy"
-  ],
-  "tags": [],
-  "mature": false,
-  "at": "2026-10-22"
- },
- "kinguin-tomb-raider-game-of-the-year": {
-  "source": "steam",
-  "year": 2013,
-  "genres": [
-   "Action",
-   "Adventure"
-  ],
-  "tags": [],
-  "mature": false,
-  "at": "2026-10-22"
- },
- "kinguin-cuphead": {
-  "source": "steam",
-  "year": 2017,
-  "genres": [
-   "Action",
-   "Indie"
-  ],
-  "tags": [],
-  "mature": false,
-  "at": "2026-10-22"
  },
  "kinguin-doom-eternal": {
   "source": "steam",
