@@ -1,0 +1,27 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-retro-20261121-153003.json",
+  "approvedAt": "2026-11-21T15:52:29.779Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:tr4cft75d5yyfurquqoctgug/app.bsky.feed.post/3n2rdtoc56s2w",
+      "url": "https://bsky.app/profile/obcycler.bsky.social/post/3n2rdtoc56s2w",
+      "author": "obcycler.bsky.social",
+      "context": "💯 I remember paying $30 for a new DOS game in 1994. At a time when you didn't even know if the game would crash because it didn't like your combination of sound card and motherboard 😂",
+      "text": "Picking the right IRQ and port in the sound card setup menu was a rite of passage back then.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:mmsj2ctgjqjtrebx74iti22v/app.bsky.feed.post/3n2qldkc7522a",
+      "url": "https://bsky.app/profile/interleave.bsky.social/post/3n2qldkc7522a",
+      "author": "interleave.bsky.social",
+      "context": "Forgotten? I've got a Packard Bell Legend Supreme 1810 running Windows 95 and DOS and a Compaq Presario running Windows 98. :-) - I keep them for the games. lol",
+      "text": "Keeping the original hardware for the games is the purest way to play them. Great setup!",
+      "edited": false
+    }
+  ]
+}
