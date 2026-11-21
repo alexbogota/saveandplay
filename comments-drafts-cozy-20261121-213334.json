@@ -1,0 +1,19 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261121-213334",
+  "madeAt": "2026-11-21T21:33:52.258Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:4kwkpcfmez3kpe3lc4szyuki/app.bsky.feed.post/3n2tgdfmxr22i",
+      "url": "https://bsky.app/profile/the-toffee-boy.bsky.social/post/3n2tgdfmxr22i",
+      "author": "the-toffee-boy.bsky.social",
+      "context": "Idk usually I play a lot of competitive FPS games but I want something relaxing and chill",
+      "text": "After competitive FPS, something with no opponents and no clock is a nice change. Unpacking and A Short Hike are both calm and short enough to try.",
+      "group": "askCozy",
+      "heated": false
+    }
+  ]
+}

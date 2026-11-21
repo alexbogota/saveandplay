@@ -1,0 +1,29 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "stamp": "20261121-213334",
+  "madeAt": "2026-11-21T21:33:52.117Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:gppqs4zhognpgiwqvnw6yyoy/app.bsky.feed.post/3n2trhjst6223",
+      "url": "https://bsky.app/profile/leafmithras.bsky.social/post/3n2trhjst6223",
+      "author": "leafmithras.bsky.social",
+      "context": "Remember that Valve tag I use as a poor man fidget spinner? It's to do with the Steam Deck that my boyfriend bought for me while we were on vacation! I was flabbergasted to receive this but god I love it and make a lot of use out of it~ Thanks again @phyrethebat.bsky.social <3 #leafscollection\nimage, no description",
+      "text": "What a great gift! Hope the Deck is treating you well.",
+      "group": "deck",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:nku6hqfdohkbyoxsik2ksosw/app.bsky.feed.post/3n2tsfrngqc2q",
+      "url": "https://bsky.app/profile/dragoncobolt.bsky.social/post/3n2tsfrngqc2q",
+      "author": "dragoncobolt.bsky.social",
+      "context": "Another thing playing Titanfall 2 got me on? graphics are fake now This game came out ten years ago and it looks like it came out yesterday, video games are not going to look better than this and that's okay",
+      "text": "Titanfall 2 has aged really well, and the campaign is short and tight too.",
+      "group": "backlog",
+      "heated": false
+    }
+  ]
+}
