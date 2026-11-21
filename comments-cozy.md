@@ -1,56 +1,57 @@
 # Comment candidates: cozy (@cozygame.bsky.social)
-Made 2026-11-20T20:09Z. Searched: askCozy: cozy games | askCozy: cozy game recommendations | askCozy: cozy games recommend | askCozy: looking for cozy games | stardew: stardew valley | stardew: games like stardew valley | stardew: stardew | stardew: farming sim | evening: cozy gaming | evening: chill game tonight | evening: cozy games tonight | evening: cozy gaming evening | wholesome: wholesome games | wholesome: comfort game | wholesome: cottagecore game | deck: cozy steam deck | deck: steam deck relaxing games | deck: steam deck farming sim | seasonal: cozy autumn game | seasonal: cozy spooky games | seasonal: cozy halloween games | cozyFeed: feed.
-Posts below: 12 + 2 heated. Dropped in this run: bot, shop or studio 36, not about games 10, console only 21, skip word 190, too short 9, promo (link and hashtags) 5, replies are limited 19, other language (text) 4, too many hashtags 12, adult or graphic label 5, low score 11, other language 8, not a question 11, many links 1, earlier finds: low score 5.
+Made 2026-11-21T07:01Z. Searched: askCozy: relaxing games | askCozy: cozy game recommendation | askCozy: cozy games steam | askCozy: recommend cozy game | stardew: life sim | stardew: stardew valley recommendations | stardew: farming games | stardew: stardew valley | evening: cozy game | evening: something cozy play | evening: cozy gaming | evening: chill game tonight | wholesome: wholesome games | wholesome: comfort game | wholesome: cottagecore game | deck: cozy steam deck | deck: steam deck relaxing games | deck: steam deck farming sim | seasonal: cozy autumn game | seasonal: cozy spooky games | seasonal: cozy halloween games | cozyFeed: feed.
+Posts below: 12 + 2 heated. Dropped in this run: bot, shop or studio 44, skip word 157, replies are limited 25, promo (link and hashtags) 7, empty 3, console only 16, low score 20, not about games 16, adult or graphic label 6, too short 2, not a question 14, other language 11, too many hashtags 4, earlier finds: low score 3.
 
 ## Posts
-1. @jackijinx.bsky.social (Jacki Jinx) · 26m · likes 0 · replies 1 · question · askCozy
-   https://bsky.app/profile/jackijinx.bsky.social/post/3n2rdukfv6k2g
-   If you haven't seen it yet, please follow my Steam Curator page. Would help me a bit, and maybe you'll find some games you'll like now or in the future store.steampowered.com/curator/4643...
-   [link card: Steam Curator: Jacki Jinx's Nonsense]
-2. @rootbeercutie.bsky.social (Rootbeercutiebooty) · 38m · likes 1 · replies 0 · question · stardew
-   https://bsky.app/profile/rootbeercutie.bsky.social/post/3n2rd7akgjk22
-   Okay, we will be streaming at 6pm EST today. Things have changed. Stardew tonight?
-   [link card: Stardew Valley Fishing Mini-Game]
-3. @doctorjellybean.bsky.social (Doctorjellybean) · 59m · likes 0 · replies 0 · question · askCozy
-   https://bsky.app/profile/doctorjellybean.bsky.social/post/3n2rbzynhrs2w
-   My partner doesn't really like to play cozy games, but then they play GTA VI, which just seems (right now) a cozy game with crime??????
-4. @puppersthedog.bsky.social (PuppersTheDog) · 1h · likes 5 · replies 1 · question · stardew
-   https://bsky.app/profile/puppersthedog.bsky.social/post/3n2raxzudmk2r
-   Okay chat, here's the deal. Stardew with you dawg Puppers tonight at 7pm CST and open VC for my stweamer fwends? 👉🏻👈🏻👀 (hmu if interested)
-   [link card: Happy Dog Smiling at Camera]
-5. @specter177.bsky.social (Specter177🐊) · 2h · likes 2 · replies 2 · question · stardew
-   https://bsky.app/profile/specter177.bsky.social/post/3n2raaoirrc2p
-   You already have my recs but I'll put them here for posterity. Life is Strange series (especially 1, Before the Storm, and True Colors) Horizon Zero Dawn Red Dead Redemption 1 and 2 Minecraft Stardew Valley Mass Effect Legendary Edition Also I haven't played it but I second Until
-6. @psionicerudite.bsky.social (Psionic Erudite) · 2h · likes 2 · replies 0 · question · stardew
-   https://bsky.app/profile/psionicerudite.bsky.social/post/3n2r5yb3gmc25
-   So you're telling me I commit more violence in a day of Stardew Valley than you do in GTA VI?
-7. @saturnwolf.bsky.social (Saturn🪐- Charlie's Good Boy) · 3h · likes 0 · replies 1 · question · askCozy
-   https://bsky.app/profile/saturnwolf.bsky.social/post/3n2r3zj2gy22v
-   She strikes me as someone who would really like cozy games like webfishing or stardew! I feel like she’d really dislike super stressful games like prison architect or papers, please because she doesn’t like making people sad and she already had enough of that management shit
-   [image, no description]
-8. @britdan.bsky.social (Britdan) · 3h · likes 1 · replies 1 · question · stardew
-   https://bsky.app/profile/britdan.bsky.social/post/3n2r2cbjskc2a
-   I'm thinking of buying Stardew valley, as someone with 1,300 hours in Terraria how dangerous is this decision for my free time.
-9. @caffeinatedeel.bsky.social (Undercaffeinated Eel) · 5h · likes 2 · replies 0 · question · stardew
-   https://bsky.app/profile/caffeinatedeel.bsky.social/post/3n2qui76uhc2x
-   You mean the graphics card? The thing any game more demanding than Stardew Valley must have?
-10. @rinimt.bsky.social (Erin Peeling) · 6h · likes 0 · replies 1 · question · askCozy
-   https://bsky.app/profile/rinimt.bsky.social/post/3n2qrq3eanc2y
-   "I saw your let's plays of small cozy indie games. I'll be upfront that ours is a violent brawler and far from cozy, but would you consider it?"
-11. @flacocielito5.bsky.social (Flaco  🌒) · 7h · likes 7 · replies 2 · question · askCozy
+1. @benmffowler.bsky.social (Ben Fowler) · 3h · likes 1 · replies 0 · question · evening
+   https://bsky.app/profile/benmffowler.bsky.social/post/3n2s724rcn22s
+   It's a little funny (I'm not buying the game) that everyone I've seen complaining about something is complaining because they don't know how to play the game or how a new feature works. And all the house building stuff seems to slide right in with other cozy games like raking lea
+2. @kateclayy.bsky.social (Kate) · 5h · likes 1 · replies 0 · question · stardew
+   https://bsky.app/profile/kateclayy.bsky.social/post/3n2rzss55z226
+   Maybe the stardew valley and animal farm type of gentle gaming? 🤷‍♀️
+3. @dannythedevil666.bsky.social (Danny the Satan Worshipper) · 5h · likes 1 · replies 1 · question · evening
+   https://bsky.app/profile/dannythedevil666.bsky.social/post/3n2rxtatek22u
+   sounds like a cozy night. what game is on?
+4. @yezzzurp.bsky.social (yₑzzzᵤᵣₚ) · 16h · likes 7 · replies 2 · question · askCozy
+   https://bsky.app/profile/yezzzurp.bsky.social/post/3n2qtvpa2js25
+   some of these simulator games make no sense to me 😭 why would I want to play as a cashier at a gas station and stock shelves? i've worked in the service industry my whole life and it's not something I could see as relaxing lmao
+5. @flacocielito5.bsky.social (Flaco  🌒) · 18h · likes 7 · replies 2 · question · askCozy
    https://bsky.app/profile/flacocielito5.bsky.social/post/3n2qokgrk5s27
    Good Morning friendos ☺️❤️ Happy Friday 🙌🤗 Are you all excited to play all the video games and or read some cozy books?! ☺️
    [link card: Nicolas Cage: Feel That? That's Friday!]
-12. @chillestgamer.bsky.social (CHILLEST GAMER®) · 12h · likes 1 · replies 1 · question · askCozy
-   https://bsky.app/profile/chillestgamer.bsky.social/post/3n2q3qq55522n
-   Shopping for a gamer in 2026? Skip the random gadget and start with how they actually play. The best gaming gifts fit their platform, their setup, and their personality, whether they love competitive matches, cozy adventures, or a weekend with friends. chillestgamer.com/blogs/tee
-   [link card: Top 10 Gamer & Gaming Gift Ideas for 2026]
+6. @oliverg04.bsky.social (Oliver 🐣) · 26h · likes 1 · replies 0 · question · askCozy
+   https://bsky.app/profile/oliverg04.bsky.social/post/3n2ptrbfn2a2d
+   Cozy games and phantom blades both need a pet to heal, so mine's running triage in my Telegram clinic.
+7. @simulationdaily.bsky.social (Simulation Daily) · 27h · likes 2 · replies 1 · question · askCozy
+   https://bsky.app/profile/simulationdaily.bsky.social/post/3n2ppeqvfl22g
+   Want a palate cleanser? Here's the stained glass restoration game Piece and Quiet.👀🎮 simulationdaily.com/news/piece-a...
+   [link card: Stained Glass Restoration Game Piece and Quiet Announced, Releasing This Month » Simulation Daily]
+8. @hrcollins.bsky.social (Holly R. Collins) · 30h · likes 6 · replies 2 · question · askCozy
+   https://bsky.app/profile/hrcollins.bsky.social/post/3n2pffofduc25
+   #AwesomeCharacters If you can make Vince laugh, he appreciates that a bunch. Either a dark joke or something super dumb, that'll get him. For Ollie, plenty of things can work, I think. Hugs, a back/shoulder rub. But the big one? Video games under a cozy blanket.
+   [quotes @charliedeltawrites.bsky.social: Tell me about your #AwesomeCharacters If you character is feeling a bit sad, what's the most reliable way to cheer them up? Ice cream? A fu…]
+9. @archonsarchive.bsky.social (V🌖𝓥𝓮𝓷𝓭𝓻𝓮𝓭𝓲 𝓦𝓪𝓵𝓴𝓮𝓻🏳️‍⚧️Ⓔⓡ) · 3h · likes 0 · replies 0 · question · evening
+   https://bsky.app/profile/archonsarchive.bsky.social/post/3n2s72pbjsk2a
+   What the fuck makes any of you better then me that i have to deal with this while you all sit comfy and cozy playing a game KNOWING YOU ALLOWED CORPOS TO WIN ON A HEINOUS LEVEL WAKE AUUUUUP!!! DO I NEED TO SING LIKE TOM FUCKING MORELLO AT YOU!!!??! WAKKKE UP!!! WAKEE UPPPP!!! WAA
+10. @encyclopediabeige.bsky.social (Encyclopedia Beige) · 4h · likes 0 · replies 1 · question · evening
+   https://bsky.app/profile/encyclopediabeige.bsky.social/post/3n2s5n2ypk22e
+   i'm sorry i didn't know wtf a "cozy game" was so i looked up wtf a "cozy game" was, and every definition i find emphasizes non-violence and being nice. but apparently people wanna call a game something it isn't because "hur-durr, 'car' rhymes with 'star', get it?"
+   [image, no description]
+11. @tolucaturtle.bsky.social (Toluca Turtle ) · 4h · likes 0 · replies 0 · question · evening
+   https://bsky.app/profile/tolucaturtle.bsky.social/post/3n2s57w57lc22
+   Anyone play this? I'm curious if you like it. gamerant.com/cozy-steam-g...
+   [link card: Cozy Steam Game With Witchcraft Fully Launches to 89% Positive Reviews]
+12. @encyclopediabeige.bsky.social (Encyclopedia Beige) · 4h · likes 0 · replies 1 · question · evening
+   https://bsky.app/profile/encyclopediabeige.bsky.social/post/3n2s4ks5grs25
+   You're a journalist and need to interview multiple people to find out if GTA 6 -- the game rated Mature for "Blood and Gore, Intense Violence, Mature Humor, Nudity, Strong Language, Strong Sexual Content, Use of Drugs and Alcohol" -- is a game that emphasizes non-violence and rel
+   [image: A cozy game is a video game which emphasizes non-violence and relaxation.]
 
 ## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @fairyamelia.bsky.social (Amelia 🏳️‍⚧️🌸) · 23h · likes 2 · replies 0 · question · askCozy
-   https://bsky.app/profile/fairyamelia.bsky.social/post/3n2oxw6dhpk2w
-   Are there any good fashion/dress up games on the Switch? Preferably something with some depth/options. I really want something cozy to play involving fashion that isn't like some AI crap
-2. @aifullsteamgames.bsky.social (AI-Full Steam Games!) · 3h · likes 0 · replies 0 · askCozy
-   https://bsky.app/profile/aifullsteamgames.bsky.social/post/3n2r3zjdnqm2o
-   Game World by jack.shephard $7.19 AI disclosure: “The video game cover artwork was generated using AI tools. All covers are custom concepts that were individually reviewed, edited by hand, and adjusted to fit a cohesive visual art style. Some 3D props used AI-generated assets as 
-   [link card: Game World]
+1. @aifullsteamgames.bsky.social (AI-Full Steam Games!) · 8h · likes 0 · replies 0 · askCozy
+   https://bsky.app/profile/aifullsteamgames.bsky.social/post/3n2rpsnl3sp2h
+   NEONOVA Puzzle: Red by Blender Games $1.79 AI disclosure: “Girls pictures are pre-rendered AI art”
+   [link card: NEONOVA Puzzle: Red]
+2. @rabidduckie.bsky.social (Duckie (expect unpacking)) · 11h · likes 2 · replies 1 · evening
+   https://bsky.app/profile/rabidduckie.bsky.social/post/3n2rep3y27k23
+   Checking out the demo to Reshine and saw this. I LOVE when devs make anti-AI pledges like this, it saves me a lot of research! Buy with confidence! store.steampowered.com/app/4253570/...
+   [image: Welcome to the Reshine Demo! Thanks a lot for tuning in for the demo of Reshine! As you play, please keep in mind that Reshine is meant to be a satisfying, min…]
