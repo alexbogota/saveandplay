@@ -3451,6 +3451,58 @@
             "id": "1be66d6d497918914cac430ffe1f94f12eeebf1f25c19781de6a7c567d69c5b2",
             "sig": "0f81a9ad14f907de6756f3dbbc5502ce413dcb25ea9ec013f840ff26f97de31cb33dc3a408ba94f668759ace52bb6c24cc7c7532d7247166626a4f48267a1908"
           }
+        },
+        "article": {
+          "status": "done",
+          "kind": "article",
+          "id": "d0549ff08df9d6f1dec9886151107519a8b9f8a91b35ed4c18200a25da808512",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "article": "steam-price-tax-included-or-added",
+          "postedAt": "2026-11-21T21:59:45.000Z",
+          "accepted": [
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [
+            {
+              "url": "wss://relay.damus.io",
+              "reason": "connection failed"
+            }
+          ],
+          "event": {
+            "kind": 1,
+            "created_at": 1795298385,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-article"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://saveandplay.com/og/steam-price-tax-included-or-added.png",
+                "m image/png",
+                "alt Diagram with invented numbers for illustration: with VAT-inclusive pricing a $10 shelf price means a $10 checkout total; with US sales tax the total is the $10 price plus tax added at checkout."
+              ]
+            ],
+            "content": "Steam price and tax: when the checkout total matches the shelf price\n\nOn Steam, VAT is already inside the listed price, but US and Canadian sales tax is added at checkout. What Valve's own pages say, and how to check your total.\n\n#pcgaming #gamedeals\n\nhttps://saveandplay.com/og/steam-price-tax-included-or-added.png\n\nhttps://saveandplay.com/guides/steam-price-tax-included-or-added/?utm_source=nostr-prices&utm_medium=social&utm_campaign=steam-price-tax-included-or-added",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "d0549ff08df9d6f1dec9886151107519a8b9f8a91b35ed4c18200a25da808512",
+            "sig": "38184557550d5df0e94c429c9e6011451c5e043486ba5939be0b930f721bbfaf9c0c108649b1b41bde17e365940d6f1158a24e30bb488649fb41c12b83a960a1"
+          }
         }
       }
     }
@@ -3544,6 +3596,10 @@
       "steam-cloud-saves-what-it-covers": {
         "day": "2026-11-19",
         "id": "b9ae17c3ddf05748ff6be8670ebccb01eee737818b9b8a8ad077fc60030d5789"
+      },
+      "steam-price-tax-included-or-added": {
+        "day": "2026-11-21",
+        "id": "d0549ff08df9d6f1dec9886151107519a8b9f8a91b35ed4c18200a25da808512"
       }
     }
   },
