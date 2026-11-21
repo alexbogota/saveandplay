@@ -1,0 +1,71 @@
+{
+  "madeAt": "2026-11-21T15:52:50.335Z",
+  "run": "44921499241",
+  "private": false,
+  "entries": [
+    {
+      "block": "prices",
+      "handle": "saveandplay.com",
+      "n": 1,
+      "uri": "at://did:plc:4kwkpcfmez3kpe3lc4szyuki/app.bsky.feed.post/3n2tcufafek2n",
+      "url": "https://bsky.app/profile/the-toffee-wolf.bsky.social/post/3n2tcufafek2n",
+      "author": "the-toffee-wolf.bsky.social",
+      "text": "Games that give chat something to react to, like co-op or party games, tend to be fun to stream. Good luck getting started!",
+      "approvedFile": "comments-approved-prices-20261121-153003-20261121-155229.json",
+      "approvedAt": "2026-11-21T15:52:29.516Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-21T15:52:51.766Z",
+      "replyUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n2thhan5lc22",
+      "replyUrl": "https://bsky.app/profile/saveandplay.com/post/3n2thhan5lc22"
+    },
+    {
+      "block": "cozy",
+      "handle": "cozygame.bsky.social",
+      "n": 1,
+      "uri": "at://did:plc:nvuszqznaw4dyzhxr7uyseot/app.bsky.feed.post/3n2tf453yb22q",
+      "url": "https://bsky.app/profile/bombchazztic.bsky.social/post/3n2tf453yb22q",
+      "author": "bombchazztic.bsky.social",
+      "text": "ESO really does have a surprising amount of housing, crafting and fishing for anyone who wants a slower pace.",
+      "approvedFile": "comments-approved-cozy-20261121-153003-20261121-155229.json",
+      "approvedAt": "2026-11-21T15:52:29.666Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-21T15:52:52.606Z",
+      "replyUri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3n2thhbgee327",
+      "replyUrl": "https://bsky.app/profile/cozygame.bsky.social/post/3n2thhbgee327"
+    },
+    {
+      "block": "retro",
+      "handle": "retrogamedeals.bsky.social",
+      "n": 1,
+      "uri": "at://did:plc:tr4cft75d5yyfurquqoctgug/app.bsky.feed.post/3n2rdtoc56s2w",
+      "url": "https://bsky.app/profile/obcycler.bsky.social/post/3n2rdtoc56s2w",
+      "author": "obcycler.bsky.social",
+      "text": "Picking the right IRQ and port in the sound card setup menu was a rite of passage back then.",
+      "approvedFile": "comments-approved-retro-20261121-153003-20261121-155229.json",
+      "approvedAt": "2026-11-21T15:52:29.779Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-21T15:52:53.530Z",
+      "replyUri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3n2thhccckv22",
+      "replyUrl": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3n2thhccckv22"
+    },
+    {
+      "block": "retro",
+      "handle": "retrogamedeals.bsky.social",
+      "n": 2,
+      "uri": "at://did:plc:mmsj2ctgjqjtrebx74iti22v/app.bsky.feed.post/3n2qldkc7522a",
+      "url": "https://bsky.app/profile/interleave.bsky.social/post/3n2qldkc7522a",
+      "author": "interleave.bsky.social",
+      "text": "Keeping the original hardware for the games is the purest way to play them. Great setup!",
+      "approvedFile": "comments-approved-retro-20261121-153003-20261121-155229.json",
+      "approvedAt": "2026-11-21T15:52:29.779Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-21T15:54:37.135Z",
+      "replyUri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3n2thkf436u2i",
+      "replyUrl": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3n2thkf436u2i"
+    }
+  ]
+}
