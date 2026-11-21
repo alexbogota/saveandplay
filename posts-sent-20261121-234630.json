@@ -1,0 +1,20 @@
+{
+  "madeAt": "2026-11-21T23:46:30.797Z",
+  "run": "44963407652",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices-2|2026-11-21|/deals/gog/simcity-4-deluxe-edition/",
+      "account": "prices-2",
+      "handle": "saveandplay.com",
+      "n": 2,
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-21",
+      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Nov 21. Sale ends Nov 26. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-21\n\n#PCGaming #GameDeals #SimCity4DeluxeEdition #Games #DRMFree\nAd",
+      "approvedFile": "posts-approved-20261121-213419.json",
+      "approvedAt": "2026-11-21T21:34:19.517Z",
+      "status": "skipped",
+      "reason": "already posted: https://bsky.app/profile/saveandplay.com/post/3n2thh5vjly2s",
+      "at": "2026-11-21T23:46:31.624Z"
+    }
+  ]
+}
