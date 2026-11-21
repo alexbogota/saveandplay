@@ -1,0 +1,23 @@
+{
+  "madeAt": "2026-11-21T19:06:02.055Z",
+  "run": "44939081768",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices|article|/guides/steam-price-tax-included-or-added/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 6,
+      "link": "https://saveandplay.com/guides/steam-price-tax-included-or-added/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-steam-tax-price",
+      "text": "Valve's tax page lists 71 places where Steam prices already include tax. US sales tax is different: it is added on top. How to read your total:\nhttps://saveandplay.com/guides/steam-price-tax-included-or-added/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-steam-tax-price\n#PCGaming #GameDeals #Steam",
+      "approvedFile": "posts-approved-20261121-155224.json",
+      "approvedAt": "2026-11-21T15:52:24.573Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-21T19:06:05.098Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n2tsaqcavc22",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3n2tsaqcavc22",
+      "picture": true
+    }
+  ]
+}
