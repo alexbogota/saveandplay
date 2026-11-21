@@ -1,0 +1,27 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-retro-20261121-213334.json",
+  "approvedAt": "2026-11-21T21:34:21.902Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:es36ziywawm4w2jcdo6gue2h/app.bsky.feed.post/3n2topoz6gc22",
+      "url": "https://bsky.app/profile/lessergirl.bsky.social/post/3n2topoz6gc22",
+      "author": "lessergirl.bsky.social",
+      "context": "upgrading from DOS, going on a mission gonna make a new disk partition insert a floppy right into the drive booting it up it plays a little tune I heard it all the way from the living room now it's time install alll those games I'll play Windows 95 what a great operating system etc...",
+      "text": "That Windows 95 startup tune was a moment. Hope the installs go smoothly!",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:tisnovpwy3ztph4zmycefmjb/app.bsky.feed.post/3n2tqkkthms2f",
+      "url": "https://bsky.app/profile/cyborgurl.bsky.social/post/3n2tqkkthms2f",
+      "author": "cyborgurl.bsky.social",
+      "context": "REDDER trivia: REDDER began as a sort of reimagining of the 1991 dos platformer Monuments of Mars by Todd Replogle before it turned into the thing it is. as such, there's a discarded (but playable!) attempt at a tutorializing \"Level 1\" in the prototype pack you can unlock by paying for the game\nquotes @cyborgurl.bsky.social: \"Metroid if it had been created by Stanley Kubrick.\" REDDER is back.",
+      "text": "Nice bit of lineage. Monuments of Mars is a fun DOS deep cut.",
+      "edited": false
+    }
+  ]
+}
