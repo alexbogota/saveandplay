@@ -1,0 +1,27 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-cozy-20261122-082423.json",
+  "approvedAt": "2026-11-22T08:54:36.452Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:5bq3bnretqvv2tmnvzowj2dn/app.bsky.feed.post/3n2ufxhtr7c2j",
+      "url": "https://bsky.app/profile/runolllo.bsky.social/post/3n2ufxhtr7c2j",
+      "author": "runolllo.bsky.social",
+      "context": "I think I might be too stupid to play creative games or maybe it's ADHD??? Or maybe Pokopia just makes inventory management impossible. In other such games I play (say Stardew, Mistria, Starbound, Core Keeper) I get overwhelmed too with so many items but never to the absurd level as in Pokopia...",
+      "text": "Inventory piles up fast in these games, so you're definitely not alone. In Stardew, colour-coded chests with one type of item each keep it manageable.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:3abil55vwrfctldecath23uq/app.bsky.feed.post/3n2uv2mahik2s",
+      "url": "https://bsky.app/profile/wolfdude91.bsky.social/post/3n2uv2mahik2s",
+      "author": "wolfdude91.bsky.social",
+      "context": "Wait cozy games aren’t for boys?",
+      "text": "Cozy games are for anyone who likes calm. Stardew Valley and A Short Hike are both easy places to start.",
+      "edited": false
+    }
+  ]
+}

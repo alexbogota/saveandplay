@@ -1,0 +1,27 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-prices-20261122-082423.json",
+  "approvedAt": "2026-11-22T08:54:36.227Z",
+  "items": [
+    {
+      "n": 2,
+      "uri": "at://did:plc:k4l6yfyb64wupxat3fiiidwb/app.bsky.feed.post/3n2ufznosng22",
+      "url": "https://bsky.app/profile/iveplayedit.bsky.social/post/3n2ufznosng22",
+      "author": "iveplayedit.bsky.social",
+      "context": "Detroit: Become Human has been in my Steam library for years. Still haven't played it. Every sale I think \"this is the one.\" What's yours?",
+      "text": "Detroit plays a lot like an interactive film, so it's easy to start with just one chapter on a quiet evening. Sometimes starting it matters more than catching the sale.",
+      "edited": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:pznsqalbr4myswfsitzazvmd/app.bsky.feed.post/3n2tpmqxxoc26",
+      "url": "https://bsky.app/profile/epudds.bsky.social/post/3n2tpmqxxoc26",
+      "author": "epudds.bsky.social",
+      "context": "I don't plan on buying it for console, happy to wait for a sale on PC but it's great to see so many people having an enthusiastic great time with a game.",
+      "text": "Waiting for a PC sale is a fair call. If it's on your Steam wishlist, you'll get a notification when the price drops.",
+      "edited": false
+    }
+  ]
+}
