@@ -1,56 +1,53 @@
 # Comment candidates: mastodon-prices (@saveandplay@mastodon.social)
-Made 2026-11-22T06:40Z. Searched: deck: handheldgaming | deck: steamdecklife | deck: steamdeckoled | deck: steamdeck | deck: steamos | practical: linuxgaming | practical: drmfree | practical: gog | practical: protondb | genres: coopgames | genres: citybuilder | genres: strategygames | genres: survivalgames | genres: horrorgaming | genres: cozygaming | genres: puzzlegames | genres: roguelike | genres: cozygames | genres: metroidvania | seasonal: halloweengames | seasonal: horrorgames | seasonal: spooktober | broadPlaying: videogames | broadPlaying: currentlyplaying | broadPlaying: indiegames | broadPlaying: indiegame | broadPlaying: pcgames | broadPlaying: steamgames | broadPlaying: gamer | broadPlaying: games | broadPlaying: rpg | broadPlaying: jrpg | broadPlaying: pcgaming | broadPlaying: gaming | broadPlaying: steam | broadAsk: recommendmeagame | broadAsk: gamerecommendation | broadAsk: recommendagame | broadAsk: whattoplay | broadAsk: gamesuggestion | broadAsk: hiddengem | broadAsk: underratedgames | broadAsk: gamesuggestions | backlog: gamingbacklog | backlog: backlog | backlog: pileofshame | backlog: whatshouldiplay | backlog: gamerecommendations | backlog: gamerecs.
-Posts below: 12. Dropped in this run: too old 1299, other language 158, bot, shop or studio 552, skip word 181, promo (link and hashtags) 87, already shown 10, other language (text) 175, too short 2, link post, not a question 10, low score 36, too long 14, own post 8, profile says no bots or promo 8, hidden from search 1, console only 6, content warning 11, not about games 21, many links 1, earlier finds: low score 8.
+Made 2026-11-22T18:47Z. Searched: deck: handheldgaming | deck: steamdecklife | deck: steamdeckoled | deck: steamdeck | deck: steamos | practical: linuxgaming | practical: drmfree | practical: gog | practical: protondb | genres: coopgames | genres: citybuilder | genres: strategygames | genres: survivalgames | genres: horrorgaming | genres: cozygaming | genres: puzzlegames | genres: roguelike | genres: cozygames | genres: metroidvania | seasonal: halloweengames | seasonal: horrorgames | seasonal: spooktober | broadPlaying: videogames | broadPlaying: currentlyplaying | broadPlaying: indiegames | broadPlaying: indiegame | broadPlaying: pcgames | broadPlaying: steamgames | broadPlaying: gamer | broadPlaying: games | broadPlaying: rpg | broadPlaying: jrpg | broadPlaying: pcgaming | broadPlaying: gaming | broadPlaying: steam | broadAsk: recommendmeagame | broadAsk: gamerecommendation | broadAsk: recommendagame | broadAsk: whattoplay | broadAsk: gamesuggestion | broadAsk: hiddengem | broadAsk: underratedgames | broadAsk: gamesuggestions | backlog: gamingbacklog | backlog: backlog | backlog: pileofshame | backlog: whatshouldiplay | backlog: gamerecommendations | backlog: gamerecs.
+Posts below: 12. Dropped in this run: too old 1255, other language 212, bot, shop or studio 667, other language (text) 173, promo (link and hashtags) 94, skip word 156, already shown 11, too long 22, link post, not a question 14, many links 3, low score 21, too short 3, own post 8, profile says no bots or promo 5, not about games 27, hidden from search 2, content warning 17, console only 2, earlier finds: low score 3.
 
 ## Posts
-1. @ami_angelwings@urusai.social (Ami Angelwings) · 5h · likes 4 · replies 2 · question · broadPlaying
-   https://mastodon.social/@ami_angelwings@urusai.social/117657552083014233
-   original: https://urusai.social/@ami_angelwings/117657551586668715
-   #QuestionOfTheDay what's the best thing about a hobby/series/franchise/genre/work you like? #fiction #hobbies #movies #film #TV #television #superheroes #comics #comicbooks #webcomics #anime #manga #videogames #gaming #scifi #fantasy #romance #sports #coding #musicals #books #ttr
-2. @forteller@tutoteket.no (Børge) · 9h · likes 1 · replies 1 · question · broadPlaying
-   https://mastodon.social/@forteller@tutoteket.no/117656554873698744
-   original: https://tutoteket.no/@forteller/117656554677918274
-   What is this in Kingdom Two Crowns: Dead Lands? And why tf is it impossible to find a list of pictures of all of these things that you can unlock in this game? Drives me crazy. E: Ok, I bought it. It's the iron mine. Still, the second question still stands. #Kingdom #KingdomTwoCr
+1. @vidstand@mastodon.social (VidStand) · 11m · likes 0 · replies 0 · question · broadPlaying
+   https://mastodon.social/@vidstand/117661538128885753
+   🔴PLAYING GTA 6 EARLY ACCESS GAMEPLAY GET IN HERE! #Gaming #LatestVideos https://vidstand.com/%f0%9f%94%b4playing-gta-6-early-access-gameplay-get-in-here/?fsp_sid=5499
+   [link card: 🔴PLAYING GTA 6 EARLY ACCESS GAMEPLAY GET IN HERE! -]
+2. @KazuShuSora@social.tchncs.de (Nico) · 38m · likes 0 · replies 1 · question · broadPlaying
+   https://mastodon.social/@KazuShuSora@social.tchncs.de/117661433400546989
+   original: https://social.tchncs.de/@KazuShuSora/117661433374401249
+   I think the games that really made me become a gamer, as a kid where: - Ocarina of Time (N64) - Pokémon Pearl + Platinum (DS) - Soulcalibur 3 (PS2) - The Simpsons Hit & Run (PC) - Minecraft (PC) Honorable mention for 'Resident Evil: Deadly Silence', the DS port of RE1 🙂‍↕️ What 
+3. @vidstand@mastodon.social (VidStand) · 3h · likes 0 · replies 0 · question · broadPlaying
+   https://mastodon.social/@vidstand/117660810535539243
+   They Made A Horror Game About Me.. #Gaming #LatestVideos https://vidstand.com/they-made-a-horror-game-about-me/?fsp_sid=5409
+   [link card: They Made A Horror Game About Me.. -]
+4. @macberg@mastodon.online (Mac) · 4h · likes 4 · replies 2 · question · broadPlaying
+   https://mastodon.social/@macberg@mastodon.online/117660545623967400
+   original: https://mastodon.online/@macberg/117660545567024192
+   I wasn't looking forward to GTA 6 because I really disliked GTA 5 (after having loved the whole franchise since GTA 1). However, seeing right-wing so called "men" bawl their eyes out online and throwing tantrums complaining that GTA 6 is a woke cuck sim because you have to buy fl
+5. @vidstand@mastodon.social (VidStand) · 6h · likes 0 · replies 0 · question · broadPlaying
+   https://mastodon.social/@vidstand/117660090116274446
+   bro WHY do these trees hate me this much?? (Trees Hate You full game) #Gaming #LatestVideos https://vidstand.com/bro-why-do-these-trees-hate-me-this-much-trees-hate-you-full-game/?fsp_sid=5039
+   [link card: bro WHY do these trees hate me this much?? (Trees Hate You full game) -]
+6. @maudelix@mastodon.social (Maudelix) · 7h · likes 0 · replies 0 · question · broadPlaying
+   https://mastodon.social/@maudelix/117660003524203321
+   Who is a good puppy? #ffixv #gaming #gameplay
    [image, no description]
-3. @fkftsh@fkft.sh (FKFTSH) · 11h · likes 2 · replies 1 · question · broadPlaying
-   https://mastodon.social/@fkftsh@fkft.sh/117656051972473677
-   original: https://fkft.sh/@fkftsh/117656051584853515
-   the thing with w40k being satire is that at this point, w40k is satire in the same way that 4chan bigotry is ironic. the satire is an excuse. it lets you do what you want to do full-throatedly, and when your actions are questioned (or when you questioned them yourself), you can j
-4. @argv_minus_one@mastodon.sdf.org (argv[-1]) · 3h · likes 4 · replies 0 · question · broadPlaying
-   https://mastodon.social/@argv_minus_one@mastodon.sdf.org/117657979055496397
-   original: https://mastodon.sdf.org/@argv_minus_one/117657978894957765
-   The final map of #Doom 2 In Rural Only has 2897 sectors, 8039 things, 4223~5099 monsters, and 32014 vertices, most of which are visible at the same time because it's one not-really-subdivided big open outdoor space! You know what the most demanding map in vanilla Doom 2 is? MAP29
-5. @argv_minus_one@mastodon.sdf.org (argv[-1]) · 4h · likes 5 · replies 2 · question · broadPlaying
-   https://mastodon.social/@argv_minus_one@mastodon.sdf.org/117657849134533765
-   original: https://mastodon.sdf.org/@argv_minus_one/117657848930939744
-   Dear #Doom mappers, This is Doom. It does not have level-of-detail. It does not have distance culling. If you make a huge map with a million sectors all joined together, the engine draws ALL of them at the same time. I should not get 10 frames/second playing f***ing Doom on a f**
-6. @zeroshost@mastodon.social (Zeros Host) · 10h · likes 0 · replies 0 · question · broadPlaying
-   https://mastodon.social/@zeroshost/117656464064856049
-   Which game should we host next? Right now it's Minecraft, Garry's Mod, Terraria, Valheim, Project Zomboid, Factorio, Vintage Story, Hytale and a few more. We're thinking about adding another survival game. Enshrouded, 7 Days to Die, Palworld, ARK? What would you actually play wit
-7. @thefunkycomitatus@hexbear.net (thefunkycomitatus [comrade/them, they/th) · 14h · likes 0 · replies 1 · question · broadPlaying
-   https://mastodon.social/@thefunkycomitatus@hexbear.net/117655346387271878
-   original: https://hexbear.net/post/10094779
-   Should games grow up? https://hexbear.net/post/10094779
-8. @pitcrewgg@mastodon.social (PitCrew) · 22h · likes 1 · replies 1 · practical
-   https://mastodon.social/@pitcrewgg/117653508641009350
-   🚨 War Thunder - Rocket Science Screenshot Competition War Thunder’s 251st screenshot contest seeks rocket and missile action shots by Nov. 27. Six winners chosen by voters and judges will each receive 300 GE. 1/2 #WarThunder #Linux #LinuxGaming #PCGaming #FlightSim #FreeTrack #H
-   [image, no description]
-9. @pszNicx@pixelfed.social (Nick Gotch) · 2h · likes 0 · replies 1 · broadPlaying
-   https://mastodon.social/@pszNicx@pixelfed.social/117658281466526460
-   original: https://pixelfed.social/p/pszNicx/1029978851799538452
-   Playing #scarletdeerinn on #steam #videogame
-   [image, no description]
-10. @slashdottir@mastodon.online (foo ✅) · 2h · likes 0 · replies 0 · broadPlaying
-   https://mastodon.social/@slashdottir@mastodon.online/117658229525205470
-   original: https://mastodon.online/@slashdottir/117658229320115414
-   Serious Business Squirrel #draw #drawing #draweveryday #dailydrawing #dailysketch #sketch #sketchbook #art #mastoart #FediArt #artwork #comic #cartoon #cuties #critters #business #squirrel #games #gambling #fun #silly #digitalink #digitalinkillustration #makeartnotwar #drawingadd
-   [image: A cartoon squirrel in a purple business suit. He's placed his prized acorn on the table to indicate he is going all in on whatever this is.]
-11. @renwillis@mstdn.social (ren (a they/them) 🌈🎶) · 3h · likes 0 · replies 0 · broadPlaying
-   https://mastodon.social/@renwillis@mstdn.social/117657996143574627
-   original: https://mstdn.social/@renwillis/117657996019337576
-   Fun day of game experimenting to find my next. Ended up at Wasteland 3 and digging it! Even recruited a cat! #wasteland3 #rpg #gaming #videogames
-   [2 images: Screenshot from Wasteland 3 / Screenshot from Wasteland 3]
-12. @autumnbluesiren@mastodon.social (AutumnBlueSiren) · 7h · likes 0 · replies 0 · question · genres
-   https://mastodon.social/@autumnbluesiren/117657106896596563
-   ☁️💙 THE SIREN RETURNS! Bluey's back in Spirit Crossing for another day of magical discoveries, adorable spirits, and cozy chaos! 🌿✨ What adventures await us today? Come hang out and find out! 🌊 💙 Dive Into Adventure! #VTuber #SpiritCrossing #CozyGaming #AIcauseimbroke
-   [image, no description]
+7. @vidstand@mastodon.social (VidStand) · 7h · likes 0 · replies 0 · question · broadPlaying
+   https://mastodon.social/@vidstand/117659840950429193
+   $250,000 Hunger Games In Real Life #Gaming #LatestVideos https://vidstand.com/250000-hunger-games-in-real-life/?fsp_sid=4909
+   [link card: $250,000 Hunger Games In Real Life -]
+8. @coa100@mastodon.social (Coa) · 11h · likes 0 · replies 0 · question · broadPlaying
+   https://mastodon.social/@coa100/117659050658612541
+   Praxis Fighter X a very nice shooter i found... https://worldrtc.wtnet9.site/?m=369 #chatting #videogames
+   [video, no description]
+9. @chrizzly_astrocg@mastoart.social (Chrizzly) · 1h · likes 2 · replies 1 · broadPlaying
+   https://mastodon.social/@chrizzly_astrocg@mastoart.social/117661324333486206
+   original: https://mastoart.social/@chrizzly_astrocg/117661323871881923
+   Initially I streamed Half Life Alyx via PC (CachyOS) to my #steamframe, but after a few bugs (sometimes when a Barnacle dies the game crashed), I gave the standalone version on the frame a chance. Have played it that way since the first 2 hours ingame and I'm really impressed how
+10. @vidstand@mastodon.social (VidStand) · 1h · likes 0 · replies 0 · question · broadPlaying
+   https://mastodon.social/@vidstand/117661294481499281
+   ខ្ញុំបានជួប ឡាំដួយ នៅក្នុង GTA 6 ! 🤣 #Gaming #LatestVideos https://vidstand.com/%e1%9e%81%e1%9f%92%e1%9e%89%e1%9e%bb%e1%9f%86%e1%9e%94%e1%9e%b6%e1%9e%93%e1%9e%87%e1%9e%bd%e1%9e%94-%e1%9e%a1%e1%9e%b6%e1%9f%86%e1%9e%8a%e1%9e%bd%e1%9e%99-%e1%9e%93%e1%9f%85%e1%9e%80%e1%9f%92%e1%9e%9
+   [link card: ខ្ញុំបានជួប ឡាំដួយ នៅក្នុង GTA 6 ! 🤣 -]
+11. @reallylazybear@pawb.fun (Eli the Solitary Lazy Bear) · 2h · likes 0 · replies 0 · practical
+   https://mastodon.social/@reallylazybear@pawb.fun/117661127352803734
+   original: https://pawb.fun/@reallylazybear/117661127309900559
+   I played some Dark Souls 3 with my cuz. We beat Crystal Sage and the Abyss Watchers. I used the Firelink Greatsword on second phase of abyss watcher boss, rp'ing as another abyss watcher lol. I watched the footage my cuz recorded on steam recording thingy. idk it was cool seeing 
+12. @vidstand@mastodon.social (VidStand) · 2h · likes 0 · replies 0 · question · broadPlaying
+   https://mastodon.social/@vidstand/117661050374589121
+   PRELAZIMO GTA 6 - EP 2 #Gaming #LatestVideos https://vidstand.com/prelazimo-gta-6-ep-2/?fsp_sid=5459
+   [link card: PRELAZIMO GTA 6 - EP 2 -]
