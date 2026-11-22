@@ -2,7 +2,7 @@
   "top": {
     "prices": {
       "gog-frostpunk": "2026-10-29",
-      "gog-this-war-of-mine": "2026-11-21",
+      "gog-this-war-of-mine": "2026-11-22",
       "gog-shadow-tactics-blades-of-the-shogun": "2026-11-19",
       "gog-hitman-absolution": "2026-10-24",
       "gog-control-ultimate-edition": "2026-10-25",
@@ -16,7 +16,7 @@
     },
     "nostr": {
       "gog-frostpunk": "2026-10-29",
-      "gog-this-war-of-mine": "2026-11-21",
+      "gog-this-war-of-mine": "2026-11-22",
       "gog-shadow-tactics-blades-of-the-shogun": "2026-11-19",
       "gog-hitman-absolution": "2026-10-24",
       "gog-control-ultimate-edition": "2026-10-25",
@@ -30,7 +30,7 @@
     },
     "lemmy": {
       "gog-frostpunk": "2026-10-29",
-      "gog-this-war-of-mine": "2026-11-21",
+      "gog-this-war-of-mine": "2026-11-22",
       "gog-shadow-tactics-blades-of-the-shogun": "2026-11-19",
       "gog-hitman-absolution": "2026-10-24",
       "gog-control-ultimate-edition": "2026-10-25",
@@ -44,7 +44,7 @@
     },
     "tumblr": {
       "gog-frostpunk": "2026-10-29",
-      "gog-this-war-of-mine": "2026-11-21",
+      "gog-this-war-of-mine": "2026-11-22",
       "gog-shadow-tactics-blades-of-the-shogun": "2026-11-19",
       "gog-hitman-absolution": "2026-10-24",
       "gog-control-ultimate-edition": "2026-10-25",
@@ -67,7 +67,6 @@
     },
     "prices-2": {
       "gog-hitman-absolution": "2026-10-28",
-      "gog-darkest-dungeon": "2026-10-23",
       "gog-mad-max": "2026-10-24",
       "gog-metro-exodus": "2026-11-15",
       "gog-homeworld-remastered-collection": "2026-10-26",
@@ -75,7 +74,7 @@
       "gog-thronebreaker-the-witcher-tales": "2026-10-29",
       "gog-shadow-tactics-blades-of-the-shogun": "2026-11-20",
       "gog-this-war-of-mine": "2026-11-19",
-      "gog-simcity-4-deluxe-edition": "2026-11-21"
+      "gog-simcity-4-deluxe-edition": "2026-11-22"
     }
   }
 }

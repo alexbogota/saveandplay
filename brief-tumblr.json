@@ -1,8 +1,8 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-11-21T17:53:07.482Z",
-  "builtBy": "commit a941ad3, schedule, run #53 attempt 1",
-  "pricesCheckedAt": "2026-11-21T16:54:27.613Z",
+  "generatedAt": "2026-11-22T18:15:34.146Z",
+  "builtBy": "commit 0e3a76c, schedule, run #54 attempt 1",
+  "pricesCheckedAt": "2026-11-22T17:18:46.678Z",
   "warnings": [],
   "candidates": [
     {
@@ -14,8 +14,8 @@
       "was": 19.99,
       "discount": 85,
       "endsAt": "2026-11-26T09:59:00+02:00",
-      "endsInHours": 110,
-      "priceCheckedAt": "2026-11-21T16:54:27.613Z",
+      "endsInHours": 86,
+      "priceCheckedAt": "2026-11-22T17:18:46.678Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
       "drminfo": null,
       "coverAlt": "Cover art for This War of Mine",
@@ -53,15 +53,15 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 34,
+        "days": 35,
         "lowest": true,
         "since": "2026-10-19"
       },
-      "offeredOn": "2026-11-15",
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-11-21",
+      "offeredOn": "2026-11-21",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-11-22",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (34 days of data)",
+        "lowest price we've tracked (35 days of data)",
         "deepest-discount rank 1 of 1"
       ]
     }
@@ -140,62 +140,59 @@
       ]
     },
     {
-      "headline": "Fanatical Black Friday Sale 2026 is here with 1000s of deals and a bonus for spending over $15",
-      "score": 7,
+      "headline": "Wallets, take cover: these Battlefield Black Friday deals on Steam bring savings of up to 95%",
+      "score": 5,
       "sites": [
         "gg.deals"
       ],
       "keywords": [
-        "sale",
         "deals"
       ],
       "games": [],
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Fanatical Black Friday Sale 2026 is here with 1000s of deals and a bonus for spending over $15",
-          "link": "https://gg.deals/deal/fanatical-black-friday-sale-2026-is-here-with-1000s-of-deals-and-a-bonus-for-spending-over-15/",
-          "published": "2026-11-20T17:39:45.000Z"
+          "title": "Wallets, take cover: these Battlefield Black Friday deals on Steam bring savings of up to 95%",
+          "link": "https://gg.deals/deal/wallets-take-cover-these-battlefield-black-friday-deals-on-steam-bring-savings-of-up-to-95/",
+          "published": "2026-11-22T12:00:00.000Z"
         }
       ]
     },
     {
-      "headline": "EA.com’s Black Friday Sale 2026 brings deals on Battlefield 6, Dead Space & more, with up to 95% off",
-      "score": 7,
+      "headline": "50 best Steam deals this week (November 16–22) amid the Black Friday shopping frenzy",
+      "score": 5,
       "sites": [
         "gg.deals"
       ],
       "keywords": [
-        "sale",
         "deals"
       ],
       "games": [],
       "items": [
         {
           "source": "gg.deals News",
-          "title": "EA.com’s Black Friday Sale 2026 brings deals on Battlefield 6, Dead Space & more, with up to 95% off",
-          "link": "https://gg.deals/deal/ea-black-friday-sale-2026/",
-          "published": "2026-11-20T16:41:02.000Z"
+          "title": "50 best Steam deals this week (November 16–22) amid the Black Friday shopping frenzy",
+          "link": "https://gg.deals/deal/50-best-steam-deals-this-week-november-16-22-amid-the-black-friday-shopping-frenzy/",
+          "published": "2026-11-22T10:04:00.000Z"
         }
       ]
     },
     {
-      "headline": "Humble's Black Friday SEGA sale is worth checking out! Persona 5 Royal is 69% off",
-      "score": 7,
+      "headline": "Net a Black Friday NBA 2K27 deal and get ready to welcome Vice City's neon glow for Season 3!",
+      "score": 5,
       "sites": [
         "gg.deals"
       ],
       "keywords": [
-        "sale",
-        "humble"
+        "deal"
       ],
       "games": [],
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Humble's Black Friday SEGA sale is worth checking out! Persona 5 Royal is 69% off",
-          "link": "https://gg.deals/deal/humble-black-friday-sega-sale/",
-          "published": "2026-11-20T16:00:00.000Z"
+          "title": "Net a Black Friday NBA 2K27 deal and get ready to welcome Vice City's neon glow for Season 3!",
+          "link": "https://gg.deals/deal/net-a-black-friday-nba-2k27-deal-and-get-ready-to-welcome-vice-citys-neon-glow-for-season-3/",
+          "published": "2026-11-21T18:02:00.000Z"
         }
       ]
     }

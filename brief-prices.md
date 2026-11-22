@@ -1,5 +1,5 @@
-# Brief: Honest prices (@saveandplay.com), 2026-11-21 17:53 UTC
-Prices checked 2026-11-21 16:54 UTC (1 h ago). News: 11 of 11 sources read, 122 items from the last 48 h, 0 of 2 offered deals mentioned.
+# Brief: Honest prices (@saveandplay.com), 2026-11-22 18:15 UTC
+Prices checked 2026-11-22 17:18 UTC (1 h ago). News: 11 of 11 sources read, 74 items from the last 48 h, 0 of 2 offered deals mentioned.
 
 Write ONE post about the first item below (take another one only if it looks wrong, and say why).
 Rules:
@@ -11,25 +11,20 @@ Rules:
 - Attach the cover image and put the Alt text from the brief in the picture's alt field (if the brief says no cover, post without a picture). The link card under the post also shows the game from our page.
 
 ## 1. This War of Mine: GOG $2.99 (was $19.99, -85%)
-Sale ends 2026-11-26 07:59 UTC (in 5 days). Price checked 2026-11-21 16:54 UTC. Score 2.5.
-Why today: lowest price we've tracked (34 days of data); deepest-discount rank 1 of 2.
-Note: suggested on 2026-11-15, already used recently.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-21
+Sale ends 2026-11-26 07:59 UTC (in 4 days). Price checked 2026-11-22 17:18 UTC. Score 2.5.
+Why today: lowest price we've tracked (35 days of data); deepest-discount rank 1 of 2.
+Note: suggested on 2026-11-21, already used recently.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-22
 Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984
 Alt text: Cover art for This War of Mine
 
 ## 2. SimCity 4 Deluxe Edition: GOG $4.99 (was $19.99, -75%)
-Sale ends 2026-11-26 07:59 UTC (in 5 days). Price checked 2026-11-21 16:54 UTC. Score 1.5.
-Why today: lowest price we've tracked (43 days of data); deepest-discount rank 2 of 2.
+Sale ends 2026-11-26 07:59 UTC (in 4 days). Price checked 2026-11-22 17:18 UTC. Score 1.5.
+Why today: lowest price we've tracked (44 days of data); deepest-discount rank 2 of 2.
 Note: suggested on 2026-11-20, already used recently.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-21
+Link for the post (link to our site): https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-22
 Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586
 Alt text: Cover art for SimCity 4 Deluxe Edition
-
-## GOG news without a price (use only if no deal fits; do not mention any price)
-- New classic gems from SNEG! (Nov 20). Link for the post (affiliate link): https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Ftheocracy
-- Release: Akuma Rise (Nov 20). Link for the post (affiliate link): https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fakuma_rise
-- Coming soon: MUKTI (Nov 20). Link for the post (affiliate link): https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fmukti
 
 ## News on the topic (no deal)
 - gg.deals Freebies, Nov 21: "New FREE games this weekend (November 21-22, 2026): your comprehensive roundup" https://gg.deals/freebie/new-free-games-this-weekend-november-21-22-2026-your-comprehensive-roundup/ | Looking for something new to play this weekend? Plenty of fresh free games have popped up since our last roundup, and you can find them all right here.
@@ -44,16 +39,16 @@ Why now: 2 sites wrote about it in the last 48 h (gg.deals, indiegamebundles.com
 Why now: 2 sites wrote about it in the last 48 h (pcgamer.com, eurogamer.net); matches keywords: sale; newest Nov 20.
 - Eurogamer, Nov 20: "GTA 6 is officially the biggest entertainment launch of all time, selling 32.5 million pre-sale cop…" https://www.eurogamer.net/gta-6-biggest-entertainment-launch
 - PC Gamer, Nov 20: "Grand Theft Auto 6 earned $3.79 billion on launch day" https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-earned-usd3-79-billion-on-launch-day/
-3. Fanatical Black Friday Sale 2026 is here with 1000s of deals and a bonus for spending over $15 (score 7)
-Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: sale, deals; newest Nov 20.
-- gg.deals News, Nov 20: "Fanatical Black Friday Sale 2026 is here with 1000s of deals and a bonus for spending over $15" https://gg.deals/deal/fanatical-black-friday-sale-2026-is-here-with-1000s-of-deals-and-a-bonus-for-spending-over-15/
-4. EA.com’s Black Friday Sale 2026 brings deals on Battlefield 6, Dead Space & more, with up to 95% off (score 7)
-Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: sale, deals; newest Nov 20.
-- gg.deals News, Nov 20: "EA.com’s Black Friday Sale 2026 brings deals on Battlefield 6, Dead Space & more, with up to 95% off" https://gg.deals/deal/ea-black-friday-sale-2026/
-5. Humble's Black Friday SEGA sale is worth checking out! Persona 5 Royal is 69% off (score 7)
-Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: sale, humble; newest Nov 20.
-- gg.deals News, Nov 20: "Humble's Black Friday SEGA sale is worth checking out! Persona 5 Royal is 69% off" https://gg.deals/deal/humble-black-friday-sega-sale/
+3. Wallets, take cover: these Battlefield Black Friday deals on Steam bring savings of up to 95% (score 5)
+Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: deals; newest Nov 22.
+- gg.deals News, Nov 22: "Wallets, take cover: these Battlefield Black Friday deals on Steam bring savings of up to 95%" https://gg.deals/deal/wallets-take-cover-these-battlefield-black-friday-deals-on-steam-bring-savings-of-up-to-95/
+4. 50 best Steam deals this week (November 16–22) amid the Black Friday shopping frenzy (score 5)
+Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: deals; newest Nov 22.
+- gg.deals News, Nov 22: "50 best Steam deals this week (November 16–22) amid the Black Friday shopping frenzy" https://gg.deals/deal/50-best-steam-deals-this-week-november-16-22-amid-the-black-friday-shopping-frenzy/
+5. Net a Black Friday NBA 2K27 deal and get ready to welcome Vice City's neon glow for Season 3! (score 5)
+Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: deal; newest Nov 21.
+- gg.deals News, Nov 21: "Net a Black Friday NBA 2K27 deal and get ready to welcome Vice City's neon glow for Season 3!" https://gg.deals/deal/net-a-black-friday-nba-2k27-deal-and-get-ready-to-welcome-vice-citys-neon-glow-for-season-3/
 
 Left out: 0 other-store deals, 0 hidden duplicates, 0 under 50%, 0 ended, 0 ending within 6 h, 0 old prices.
 Sources not read: none.
-Built by: commit a941ad3, schedule, run #53 attempt 1.
+Built by: commit 0e3a76c, schedule, run #54 attempt 1.
