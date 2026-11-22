@@ -1,0 +1,29 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261122-184637",
+  "madeAt": "2026-11-22T18:50:30.502Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:jro4ndq56leatx4h7pgc3xrc/app.bsky.feed.post/3n2vl3vldfk2s",
+      "url": "https://bsky.app/profile/meadow-further.bsky.social/post/3n2vl3vldfk2s",
+      "author": "meadow-further.bsky.social",
+      "context": "Y'all have any particular hopes about the Stardew Valley v.1.7 update? I'm hoping for peanuts, and by extension peanut butter, and pb sandwiches.",
+      "text": "Peanut butter sandwiches for the mines would be a perfect snack. Fingers crossed!",
+      "group": "stardew",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:roxqwygrvmenpnszeum46zll/app.bsky.feed.post/3n2v7dup3jk2o",
+      "url": "https://bsky.app/profile/retailescapeartist.bsky.social/post/3n2v7dup3jk2o",
+      "author": "retailescapeartist.bsky.social",
+      "context": "good stream. cozy game restoration was pretty fun. I'll have to save that game for those days where i just want to chill and have no idea what to play",
+      "text": "Saving a game for a calm evening is a good system. It gives you something to look forward to.",
+      "group": "evening",
+      "heated": false
+    }
+  ]
+}

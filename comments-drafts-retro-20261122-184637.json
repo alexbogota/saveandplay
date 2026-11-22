@@ -1,0 +1,39 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261122-184637",
+  "madeAt": "2026-11-22T18:50:30.630Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:6ypkzowow3uv4qb65ta3ulmp/app.bsky.feed.post/3n2vvay2pzk2o",
+      "url": "https://bsky.app/profile/sylvadragon.bsky.social/post/3n2vvay2pzk2o",
+      "author": "sylvadragon.bsky.social",
+      "context": "Organised chaos then? lol. 😂 It's better than what I have, a few cupboards full to overflowing with old pc games, dvds, lightbulbs and all kinds of other stuff. then plastic crates with plushies on top.",
+      "text": "A cupboard full of old PC games sounds like a treasure chest. If any of them won't run on a modern PC, GOG sells many classics with the fixes already included.",
+      "group": "classicPC",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:pen2amky4czcrjhsyhwqpave/app.bsky.feed.post/3n2u2xsebt22r",
+      "url": "https://bsky.app/profile/klneidecker.com/post/3n2u2xsebt22r",
+      "author": "klneidecker.com",
+      "context": "Hell yeah. DOS. NES. Infocom, Interplay, Binary Systems, Looking Glass Software. Anyone who can make quality games that don’t need a graphics card that either A) costs $1800 now because reasons or B) can’t be bought because no stock, will fill a niche and be rewarded.",
+      "text": "Old DOS games prove it. GOG sells many of them DRM-free, already set up to run on a modern PC, so they just work.",
+      "group": "classicPC",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:expd6mxll2savdjd2xwwzwkr/app.bsky.feed.post/3n2tyw2c4fc2d",
+      "url": "https://bsky.app/profile/priscillakim.bsky.social/post/3n2tyw2c4fc2d",
+      "author": "priscillakim.bsky.social",
+      "context": "\"When was the first time you killed a man?\" *slow drag on cigarette, distant look in eyes* \"... it was the days of DOS text parser adventure games. King's Quest 2. The church.\" \"No. You typed...?\" \"Yes. 'kill monk'.\"",
+      "text": "Peak parser era. Half the fun was discovering which words the game would actually accept.",
+      "group": "classicPC",
+      "heated": false
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "stamp": "20261122-184637",
+  "madeAt": "2026-11-22T18:50:30.349Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:dwvhxjgyawd7fo4lph2y5ccr/app.bsky.feed.post/3n2vcq5oh6c2g",
+      "url": "https://bsky.app/profile/electricbirds.bsky.social/post/3n2vcq5oh6c2g",
+      "author": "electricbirds.bsky.social",
+      "context": "I can't decide which one to take on vacation. Sampling fun with Torso S4 or gaming madness with Steam Deck? I can only fit one...\nimage: A picture of a steam deck and the Torso s4 sampler",
+      "text": "For travel I'd take the Steam Deck. Suspend mode lets you pause mid-game for a snack or a landing and pick up right where you left off.",
+      "verify": "Если хочешь, проверь, что Deck и правда лучше для поездки; ответ шуточный и безопасный.",
+      "group": "deck",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:d6em7vy3stinaj5ba47ltcr5/app.bsky.feed.post/3n2uzqm32c3d2",
+      "url": "https://bsky.app/profile/rusty.cubhub.social/post/3n2uzqm32c3d2",
+      "author": "rusty.cubhub.social",
+      "context": "Uh. Hmm. I have no memory of buying Yooka Re-Playlee and yet it's on my Steam Deck :blobcatgooglyshocked:​ Huh. Wonder if it's any good because the original was _not_.",
+      "text": "Fun mystery. Your Steam account's purchase history shows when and how it landed in your library, often a bundle or a gift.",
+      "group": "deck",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:eyh7p4bofty2xk2kxpz625w7/app.bsky.feed.post/3n2tsda32j22j",
+      "url": "https://bsky.app/profile/gamersonarant.bsky.social/post/3n2tsda32j22j",
+      "author": "gamersonarant.bsky.social",
+      "context": "The gamer’s internal struggle… “I really don’t need to buy anymore games on sale. My backlog is ridiculous. Well…just a quick look at the sales won’t hurt right?” 😅\n2 images, no description",
+      "text": "A quick look at the sales is always how it starts 😅 Wishlisting a game helps: Steam notifies you when it drops, so you don't need to keep browsing.",
+      "group": "backlog",
+      "heated": false
+    },
+    {
+      "n": 4,
+      "uri": "at://did:plc:b4uv4gwuxx5nolpxwgwma4vk/app.bsky.feed.post/3n2wbedjccs2x",
+      "url": "https://bsky.app/profile/aerialslayer.bsky.social/post/3n2wbedjccs2x",
+      "author": "aerialslayer.bsky.social",
+      "context": "What game do you always recommend to people?",
+      "text": "Stardew Valley for me. It's easy to pick up for people new to games, runs on almost any PC, and works for short or long sessions.",
+      "group": "broadAsk",
+      "heated": false
+    },
+    {
+      "n": 5,
+      "uri": "at://did:plc:gs5o5ar5ugrkraizl55eoris/app.bsky.feed.post/3n2uhzxmpv22x",
+      "url": "https://bsky.app/profile/taliskan.me/post/3n2uhzxmpv22x",
+      "author": "taliskan.me",
+      "context": "Unexpectedly beat Like a Dragon Pirate Yakuza in Hawaii last night on stream. Wonderful game and my entry into the Yakuza games. Monday we start Yakuza 0, and I'm really looking forward to it.",
+      "text": "Great pick to start the series. Yakuza 0 is a prequel, so you're not missing anything by starting there. Have fun!",
+      "group": "broadPlaying",
+      "heated": false
+    }
+  ]
+}
