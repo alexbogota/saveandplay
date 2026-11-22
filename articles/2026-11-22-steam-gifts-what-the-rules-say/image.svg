@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#0D1117"/>
+<rect x="56" y="22" width="1088" height="586" rx="28" fill="#161B22" stroke="#262D38"/>
+<text x="100" y="110" font-size="44" font-weight="800" fill="#FFFFFF" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">Steam gift: who can refund it?</text>
+<rect x="100" y="170" width="460" height="230" rx="18" fill="none" stroke="#3DDC97" stroke-width="4"/>
+<text x="130" y="230" font-size="34" font-weight="800" fill="#FFFFFF" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">Not redeemed</text>
+<text x="130" y="288" font-size="28" fill="#E8ECF1" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">14 days / 2 hours rule</text>
+<text x="130" y="340" font-size="28" fill="#9AA5B4" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">Money goes to the buyer</text>
+<rect x="640" y="170" width="460" height="230" rx="18" fill="#FFB454"/>
+<text x="670" y="230" font-size="34" font-weight="800" fill="#1B1203" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">Redeemed</text>
+<text x="670" y="288" font-size="28" fill="#1B1203" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">Recipient must ask</text>
+<text x="670" y="340" font-size="28" fill="#1B1203" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">Money goes to the buyer</text>
+<text x="100" y="500" font-size="30" fill="#E8ECF1" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">"Subscriptions are not transferable."</text>
+<text x="100" y="550" font-size="26" fill="#9AA5B4" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">Steam Subscriber Agreement, section 9.B</text>
+</svg>
