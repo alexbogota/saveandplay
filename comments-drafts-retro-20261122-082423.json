@@ -1,0 +1,39 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261122-082423",
+  "madeAt": "2026-11-22T08:24:50.988Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:yw3pgqgrtlti2yee3a3vgnbx/app.bsky.feed.post/3n2ukjnnx5c25",
+      "url": "https://bsky.app/profile/chodesu.bsky.social/post/3n2ukjnnx5c25",
+      "author": "chodesu.bsky.social",
+      "context": "#games #RetroidPocketNova Game #3 - Jumping Flash! 2 (1996) for the Sony Playstation, developed by Exact and MuuMuu and published by Sony. I played the first game a year or two ago, and am finally now getting to this. It's more Jumping (Jack*) Flash, it's a gas gas gas. * Jackrabbit?\nlink card: Longplay of Jumping Flash! 2: Big Trouble in Little Muu",
+      "text": "Jumping Flash was such a fun use of early 3D, those huge jumps still feel good. Enjoy the sequel!",
+      "group": "childhood",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:wricog3j5zsayopri4b2lfxh/app.bsky.feed.post/3n2u6x4xfjc2d",
+      "url": "https://bsky.app/profile/lallysup.bsky.social/post/3n2u6x4xfjc2d",
+      "author": "lallysup.bsky.social",
+      "context": "39 today. So far today the kid and I got Bootmills sandwiches, stopped at my favorite coffee spot (Nibbana), grabbed three games from the best retro game store in the area (Bazaar Game Traders), got decorations from Costco, and almost bought an OLED. Last year of my 30s starting off strong.",
+      "text": "Happy birthday! That sounds like a great day, and a good haul from the game store.",
+      "group": "askRetro",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:25fxnljytogp64ghxthk6snm/app.bsky.feed.post/3n2trjonx3veb",
+      "url": "https://bsky.app/profile/retroslayer.com/post/3n2trjonx3veb",
+      "author": "retroslayer.com",
+      "context": "Wall Ball - Atari 2600 (1983) Taking the classic brick-breaking concept and turning it into a 3D racquetball perspective gives every bounce a very different rhythm. How do you feel about first-person court views in early 80s games? #WallBall #Atari2600 #RetroGaming\nvideo, no description",
+      "text": "Bold move for the 2600. The perspective alone makes it feel nothing like plain Pong.",
+      "group": "retroFeed",
+      "heated": false
+    }
+  ]
+}

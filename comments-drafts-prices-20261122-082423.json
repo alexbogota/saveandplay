@@ -1,0 +1,40 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "stamp": "20261122-082423",
+  "madeAt": "2026-11-22T08:24:50.719Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:s4klurocqfydzgf4w2cd5gti/app.bsky.feed.post/3n2ugs6gb3s2h",
+      "url": "https://bsky.app/profile/acephoenix.bsky.social/post/3n2ugs6gb3s2h",
+      "author": "acephoenix.bsky.social",
+      "context": "Does anyone know if tech repair shops can do replacements for SSDs on Steam Deck? #SteamDeck #VideoGames #TechSupport",
+      "text": "The Deck's SSD is a standard M.2 2230 drive, and Valve has a replacement guide, so a shop that does small electronics repair can usually swap it. Worth asking them about warranty first.",
+      "verify": "Проверьте: SSD в Steam Deck это M.2 2230 (я уверен), но про гарантию при замене диска не уверен, поэтому в ответе только «спросить про неё».",
+      "group": "pcGaming",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:k4l6yfyb64wupxat3fiiidwb/app.bsky.feed.post/3n2ufznosng22",
+      "url": "https://bsky.app/profile/iveplayedit.bsky.social/post/3n2ufznosng22",
+      "author": "iveplayedit.bsky.social",
+      "context": "Detroit: Become Human has been in my Steam library for years. Still haven't played it. Every sale I think \"this is the one.\" What's yours?",
+      "text": "Detroit plays a lot like an interactive film, so it's easy to start with just one chapter on a quiet evening. Sometimes starting it matters more than catching the sale.",
+      "group": "practical",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:pznsqalbr4myswfsitzazvmd/app.bsky.feed.post/3n2tpmqxxoc26",
+      "url": "https://bsky.app/profile/epudds.bsky.social/post/3n2tpmqxxoc26",
+      "author": "epudds.bsky.social",
+      "context": "I don't plan on buying it for console, happy to wait for a sale on PC but it's great to see so many people having an enthusiastic great time with a game.",
+      "text": "Waiting for a PC sale is a fair call. If it's on your Steam wishlist, you'll get a notification when the price drops.",
+      "group": "waitForSale",
+      "heated": false
+    }
+  ]
+}
