@@ -1,0 +1,67 @@
+{
+  "block": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "madeAt": "2026-11-22T19:53:01.482Z",
+  "days": 14,
+  "total": 23,
+  "mature": {
+    "count": 17,
+    "withLike": 13,
+    "withReply": 4,
+    "likes": 18,
+    "replies": 4,
+    "byProgram": 17
+  },
+  "top": [
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3mzxo3m6fi624",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3mzxo3m6fi624",
+      "text": "Those DOS text games were something else, your imagination did half the work.",
+      "at": "2026-11-10T14:37:04.683Z",
+      "likes": 4,
+      "replies": 0,
+      "reposts": 0,
+      "to": "lovinwolf.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3n2thkf436u2i",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3n2thkf436u2i",
+      "text": "Keeping the original hardware for the games is the purest way to play them. Great setup!",
+      "at": "2026-11-21T15:54:36.981Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "interleave.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3n2eepijonp2a",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3n2eepijonp2a",
+      "text": "Carmen Sandiego is a classic. American McGee's Alice was quite a jump from those, a much darker take on Wonderland.",
+      "at": "2026-11-15T15:53:51.129Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "canon-thought.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3n2cbun2xyt2n",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3n2cbun2xyt2n",
+      "text": "3D Pinball Space Cadet was on so many Windows PCs growing up. Great that it runs on a handheld now.",
+      "at": "2026-11-14T19:57:42.960Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "rajanomaly.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3n2thhccckv22",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3n2thhccckv22",
+      "text": "Picking the right IRQ and port in the sound card setup menu was a rite of passage back then.",
+      "at": "2026-11-21T15:52:53.479Z",
+      "likes": 2,
+      "replies": 0,
+      "reposts": 0,
+      "to": "obcycler.bsky.social"
+    }
+  ]
+}

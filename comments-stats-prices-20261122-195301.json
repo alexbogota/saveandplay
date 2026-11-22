@@ -1,0 +1,67 @@
+{
+  "block": "prices",
+  "handle": "saveandplay.com",
+  "madeAt": "2026-11-22T19:53:01.482Z",
+  "days": 14,
+  "total": 24,
+  "mature": {
+    "count": 14,
+    "withLike": 8,
+    "withReply": 4,
+    "likes": 10,
+    "replies": 4,
+    "byProgram": 14
+  },
+  "top": [
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n2fcffww6427",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3n2fcffww6427",
+      "text": "Coffee Talk and VA-11 Hall-A are both well-loved visual novels on PC. Coffee Talk is the calmer of the two.",
+      "at": "2026-11-16T00:45:04.890Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 1,
+      "to": "audrey-voltaire.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n2thhan5lc22",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3n2thhan5lc22",
+      "text": "Games that give chat something to react to, like co-op or party games, tend to be fun to stream. Good luck getting started!",
+      "at": "2026-11-21T15:52:51.743Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "the-toffee-boy.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n24pjlmhwq2x",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3n24pjlmhwq2x",
+      "text": "Yes, it sells game bundles: several games for one price, and part of the money goes to charity. Check what's in a bundle first so you only pay for games you would actually play.",
+      "at": "2026-11-12T14:46:06.305Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "timothymark7.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3mzv4xol7732z",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3mzv4xol7732z",
+      "text": "Co-op games are a great pick for this. It Takes Two is built for exactly two players, and Overcooked 2 is chaotic fun for any age mix. Looking forward to the art!",
+      "at": "2026-11-09T14:25:19.893Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "sunkisseddaddy.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n2fc4ruz5l2i",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3n2fc4ruz5l2i",
+      "text": "Shelving books as a zen game loop sounds like a perfect fit for short Deck sessions. Glad it hit the spot.",
+      "at": "2026-11-16T00:40:15.660Z",
+      "likes": 2,
+      "replies": 0,
+      "reposts": 0,
+      "to": "manaflare-mtg.bsky.social"
+    }
+  ]
+}
