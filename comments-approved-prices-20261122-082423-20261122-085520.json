@@ -1,0 +1,19 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-prices-20261122-082423.json",
+  "approvedAt": "2026-11-22T08:55:20.103Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:s4klurocqfydzgf4w2cd5gti/app.bsky.feed.post/3n2ugs6gb3s2h",
+      "url": "https://bsky.app/profile/acephoenix.bsky.social/post/3n2ugs6gb3s2h",
+      "author": "acephoenix.bsky.social",
+      "context": "Does anyone know if tech repair shops can do replacements for SSDs on Steam Deck? #SteamDeck #VideoGames #TechSupport",
+      "text": "The Deck's SSD is a standard M.2 2230 drive, and Valve has a replacement guide, so a shop that does small electronics repair can usually swap it. Worth asking them about warranty first.",
+      "edited": false,
+      "verify": "Проверьте: SSD в Steam Deck это M.2 2230 (я уверен), но про гарантию при замене диска не уверен, поэтому в ответе только «спросить про неё»."
+    }
+  ]
+}
