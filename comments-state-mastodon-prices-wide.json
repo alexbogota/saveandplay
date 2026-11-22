@@ -8,43 +8,43 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 848,
-      "posts": 35680,
-      "fit": 444,
+      "runs": 856,
+      "posts": 36000,
+      "fit": 448,
       "last": {
         "posts": 40,
         "fit": 1,
-        "at": "2026-11-22T18:48:32.354Z"
+        "at": "2026-11-22T19:33:35.603Z"
       }
     },
     "moreAsk": {
-      "runs": 530,
-      "posts": 4770,
+      "runs": 535,
+      "posts": 4815,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-11-22T18:48:32.354Z"
+        "at": "2026-11-22T19:33:35.603Z"
       }
     },
     "moreRetro": {
-      "runs": 530,
-      "posts": 32800,
-      "fit": 1168,
+      "runs": 535,
+      "posts": 33120,
+      "fit": 1187,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-22T18:48:32.354Z"
+        "at": "2026-11-22T19:33:35.603Z"
       }
     },
     "morePlaying": {
-      "runs": 530,
-      "posts": 2226,
+      "runs": 535,
+      "posts": 2247,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-11-22T18:48:32.354Z"
+        "at": "2026-11-22T19:33:35.603Z"
       }
     }
   },
@@ -65,42 +65,6 @@
       "heated": false,
       "isReply": false,
       "media": null,
-      "firstSeen": "2026-11-21T15:32:08.457Z"
-    },
-    "https://mastodon.social/@checkpointretro/117654661666185558": {
-      "uri": "https://mastodon.social/@checkpointretro/117654661666185558",
-      "url": "https://mastodon.social/@checkpointretro/117654661666185558",
-      "handle": "checkpointretro@mastodon.social",
-      "name": "Checkpoint Retro",
-      "text": "Krakout AGA gameplay on Amiga, running on an AGA system such as the Amiga 1200. A fresh take on a classic-style arcade game for retro Amiga fans. Video: Saberman RetroNews / YouTube #KrakoutAGA #Amiga #RetroGaming",
-      "createdAt": "2026-11-21T13:27:44.614Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "video: Krakout AGA gameplay on Amiga, running on an AGA system such as the Amiga 1200. A fresh take on a classic-style arcade game for retro Amiga fans.",
-      "firstSeen": "2026-11-21T15:32:08.457Z"
-    },
-    "https://mastodon.social/@Gamrok/117654518769690319": {
-      "uri": "https://mastodon.social/@Gamrok/117654518769690319",
-      "url": "https://mastodon.social/@Gamrok/117654518769690319",
-      "handle": "Gamrok@mastodon.social",
-      "name": "Thomas Leroy 🍣🐈‍⬛",
-      "text": "This is the second time (after Another World) that a game has had such an impact on me. It's the kind of game that influences an entire generation of players/developers. I remember, in fact, redrawing backgrounds and sprites on my Amiga 😀 🧵 2/ #LinkToThePast #LegendOfZelda #SuperNintendo #RetroGaming",
-      "createdAt": "2026-11-21T12:51:24.157Z",
-      "likes": 7,
-      "replies": 1,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": true,
-      "media": "image: Screenshot from Legend of Zelda: Link to the Past - In the middle of a clearing bathed in light, Link raises a sword!",
       "firstSeen": "2026-11-21T15:32:08.457Z"
     },
     "https://mastodon.social/@followerspanda/117655379710783434": {
@@ -427,7 +391,7 @@
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -527,6 +491,24 @@
       "origin": "https://torturedsouls.com/@robeeshepherd/117659126568932638",
       "media": "image: Two retro gaming magazines, Freeze64 and Crash, rest in a box with cables. Freeze64 shows a spaceship and green planet; Crash depicts Santa.",
       "firstSeen": "2026-11-22T18:48:32.354Z"
+    },
+    "https://mastodon.social/@checkpointretro/117661743234415001": {
+      "uri": "https://mastodon.social/@checkpointretro/117661743234415001",
+      "url": "https://mastodon.social/@checkpointretro/117661743234415001",
+      "handle": "checkpointretro@mastodon.social",
+      "name": "Checkpoint Retro",
+      "text": "Tome of the Dead gameplay on ZX Spectrum, an AI-assisted indie game for the classic 8-bit computer. A new adventure for Spectrum fans to explore. Video: Saberman RetroNews / YouTube #TomeOfTheDead #IndieRetroNews #ZXSpectrum #RetroGaming",
+      "createdAt": "2026-11-22T19:28:40.751Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 5,
+      "question": false,
+      "heated": true,
+      "isReply": false,
+      "media": "video: Tome of the Dead gameplay on ZX Spectrum, an AI-assisted indie game for the classic 8-bit computer. A new adventure for Spectrum fans to explore.",
+      "firstSeen": "2026-11-22T19:33:35.603Z"
     }
   }
 }

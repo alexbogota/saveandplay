@@ -23,23 +23,23 @@
       }
     },
     "backlog": {
-      "runs": 659,
-      "posts": 16782,
-      "fit": 4,
+      "runs": 665,
+      "posts": 16935,
+      "fit": 5,
       "last": {
         "posts": 24,
         "fit": 0,
-        "at": "2026-11-22T18:47:37.767Z"
+        "at": "2026-11-22T19:32:37.982Z"
       }
     },
     "deck": {
-      "runs": 553,
-      "posts": 26266,
-      "fit": 233,
+      "runs": 558,
+      "posts": 26507,
+      "fit": 235,
       "last": {
         "posts": 40,
         "fit": 1,
-        "at": "2026-11-22T18:47:37.767Z"
+        "at": "2026-11-22T19:32:37.982Z"
       }
     },
     "bundles": {
@@ -53,76 +53,57 @@
       }
     },
     "practical": {
-      "runs": 447,
-      "posts": 21040,
-      "fit": 627,
+      "runs": 451,
+      "posts": 21240,
+      "fit": 633,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-22T18:47:37.767Z"
+        "at": "2026-11-22T19:32:37.982Z"
       }
     },
     "genres": {
-      "runs": 1082,
-      "posts": 43280,
-      "fit": 80,
+      "runs": 1092,
+      "posts": 43680,
+      "fit": 81,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-22T18:47:37.767Z"
+        "at": "2026-11-22T19:32:37.982Z"
       }
     },
     "seasonal": {
-      "runs": 341,
-      "posts": 14455,
+      "runs": 344,
+      "posts": 14575,
       "fit": 19,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-22T18:47:37.767Z"
+        "at": "2026-11-22T19:32:37.982Z"
       }
     },
     "broadPlaying": {
-      "runs": 1401,
-      "posts": 179480,
-      "fit": 3582,
+      "runs": 1414,
+      "posts": 180960,
+      "fit": 3603,
       "last": {
         "posts": 200,
         "fit": 3,
-        "at": "2026-11-22T18:47:37.767Z"
+        "at": "2026-11-22T19:32:37.982Z"
       }
     },
     "broadAsk": {
-      "runs": 871,
-      "posts": 13531,
+      "runs": 879,
+      "posts": 13667,
       "fit": 0,
       "last": {
         "posts": 16,
         "fit": 0,
-        "at": "2026-11-22T18:47:37.767Z"
+        "at": "2026-11-22T19:32:37.982Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@shollyethan@fosstodon.org/117654656536966957": {
-      "uri": "https://mastodon.social/@shollyethan@fosstodon.org/117654656536966957",
-      "url": "https://mastodon.social/@shollyethan@fosstodon.org/117654656536966957",
-      "handle": "shollyethan@fosstodon.org",
-      "name": "Ethan Sholly",
-      "text": "#SelfHost Weekly 11/20 \"Summoning stacks\" 🔵⚪⚪⚪ ⚪⚪⚪⚪ #selfhosted #selfhosting #opensource #foss #puzzles #game #games #nyt #strands #wordle",
-      "createdAt": "2026-11-21T13:26:24.000Z",
-      "likes": 3,
-      "replies": 2,
-      "group": "broadPlaying",
-      "query": "games",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://fosstodon.org/@shollyethan/117654656406193697",
-      "media": null,
-      "firstSeen": "2026-11-21T15:31:07.079Z"
-    },
     "https://mastodon.social/@rushvora@hachyderm.io/117654929412164115": {
       "uri": "https://mastodon.social/@rushvora@hachyderm.io/117654929412164115",
       "url": "https://mastodon.social/@rushvora@hachyderm.io/117654929412164115",
@@ -382,25 +363,6 @@
       "media": "image, no description",
       "firstSeen": "2026-11-22T18:47:37.767Z"
     },
-    "https://mastodon.social/@KazuShuSora@social.tchncs.de/117661433400546989": {
-      "uri": "https://mastodon.social/@KazuShuSora@social.tchncs.de/117661433400546989",
-      "url": "https://mastodon.social/@KazuShuSora@social.tchncs.de/117661433400546989",
-      "handle": "KazuShuSora@social.tchncs.de",
-      "name": "Nico",
-      "text": "I think the games that really made me become a gamer, as a kid where: - Ocarina of Time (N64) - Pokémon Pearl + Platinum (DS) - Soulcalibur 3 (PS2) - The Simpsons Hit & Run (PC) - Minecraft (PC) Honorable mention for 'Resident Evil: Deadly Silence', the DS port of RE1 🙂‍↕️ What were yours? 👀 #Gaming #VideoGames #ShareYourGames",
-      "createdAt": "2026-11-22T18:09:52.000Z",
-      "likes": 0,
-      "replies": 1,
-      "group": "broadPlaying",
-      "query": "videogames",
-      "score": 8,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://social.tchncs.de/@KazuShuSora/117661433374401249",
-      "media": null,
-      "firstSeen": "2026-11-22T18:47:37.767Z"
-    },
     "https://mastodon.social/@followerspanda/117661041946276772": {
       "uri": "https://mastodon.social/@followerspanda/117661041946276772",
       "url": "https://mastodon.social/@followerspanda/117661041946276772",
@@ -417,42 +379,6 @@
       "heated": false,
       "isReply": false,
       "media": "image, no description",
-      "firstSeen": "2026-11-22T18:47:37.767Z"
-    },
-    "https://mastodon.social/@coa100/117659050658612541": {
-      "uri": "https://mastodon.social/@coa100/117659050658612541",
-      "url": "https://mastodon.social/@coa100/117659050658612541",
-      "handle": "coa100@mastodon.social",
-      "name": "Coa",
-      "text": "Praxis Fighter X a very nice shooter i found... https://worldrtc.wtnet9.site/?m=369 #chatting #videogames",
-      "createdAt": "2026-11-22T08:03:55.304Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "videogames",
-      "score": 7,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "video, no description",
-      "firstSeen": "2026-11-22T18:47:37.767Z"
-    },
-    "https://mastodon.social/@vidstand/117661538128885753": {
-      "uri": "https://mastodon.social/@vidstand/117661538128885753",
-      "url": "https://mastodon.social/@vidstand/117661538128885753",
-      "handle": "vidstand@mastodon.social",
-      "name": "VidStand",
-      "text": "🔴PLAYING GTA 6 EARLY ACCESS GAMEPLAY GET IN HERE! #Gaming #LatestVideos https://vidstand.com/%f0%9f%94%b4playing-gta-6-early-access-gameplay-get-in-here/?fsp_sid=5499",
-      "createdAt": "2026-11-22T18:36:31.094Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "gaming",
-      "score": 8,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "link card: 🔴PLAYING GTA 6 EARLY ACCESS GAMEPLAY GET IN HERE! -",
       "firstSeen": "2026-11-22T18:47:37.767Z"
     },
     "https://mastodon.social/@vidstand/117661294481499281": {
@@ -510,24 +436,6 @@
       "media": "3 images: Jason and Lucia embracing with a calm swampy background. Photo is in black and white. / Jason and Lucia in kayaks on a swamp. There's a lookout tower in the background. / Lucia meditating on a platform in front of a swampy background with the sun setting.",
       "firstSeen": "2026-11-22T18:47:37.767Z"
     },
-    "https://mastodon.social/@vidstand/117660810535539243": {
-      "uri": "https://mastodon.social/@vidstand/117660810535539243",
-      "url": "https://mastodon.social/@vidstand/117660810535539243",
-      "handle": "vidstand@mastodon.social",
-      "name": "VidStand",
-      "text": "They Made A Horror Game About Me.. #Gaming #LatestVideos https://vidstand.com/they-made-a-horror-game-about-me/?fsp_sid=5409",
-      "createdAt": "2026-11-22T15:31:28.895Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "gaming",
-      "score": 8,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "link card: They Made A Horror Game About Me.. -",
-      "firstSeen": "2026-11-22T18:47:37.767Z"
-    },
     "https://mastodon.social/@kekoakiki@vt.social/117660691406398026": {
       "uri": "https://mastodon.social/@kekoakiki@vt.social/117660691406398026",
       "url": "https://mastodon.social/@kekoakiki@vt.social/117660691406398026",
@@ -565,25 +473,6 @@
       "media": "link card: GTA 6 Has the Most INSANE Police Wanted System! -",
       "firstSeen": "2026-11-22T18:47:37.767Z"
     },
-    "https://mastodon.social/@macberg@mastodon.online/117660545623967400": {
-      "uri": "https://mastodon.social/@macberg@mastodon.online/117660545623967400",
-      "url": "https://mastodon.social/@macberg@mastodon.online/117660545623967400",
-      "handle": "macberg@mastodon.online",
-      "name": "Mac",
-      "text": "I wasn't looking forward to GTA 6 because I really disliked GTA 5 (after having loved the whole franchise since GTA 1). However, seeing right-wing so called \"men\" bawl their eyes out online and throwing tantrums complaining that GTA 6 is a woke cuck sim because you have to buy flowers for your girlfriend and can't hire prostitutes makes me want to play it. And when I do, all the \"woke\" things will make me laugh extra hard at those pathetic fragile pieces of shit. #GTA6 #Gaming #woke",
-      "createdAt": "2026-11-22T14:24:05.000Z",
-      "likes": 4,
-      "replies": 2,
-      "group": "broadPlaying",
-      "query": "gaming",
-      "score": 7,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://mastodon.online/@macberg/117660545567024192",
-      "media": null,
-      "firstSeen": "2026-11-22T18:47:37.767Z"
-    },
     "https://mastodon.social/@vidstand/117660324570478119": {
       "uri": "https://mastodon.social/@vidstand/117660324570478119",
       "url": "https://mastodon.social/@vidstand/117660324570478119",
@@ -595,65 +484,11 @@
       "replies": 0,
       "group": "broadPlaying",
       "query": "gaming",
-      "score": 6,
+      "score": 5,
       "question": true,
       "heated": false,
       "isReply": false,
       "media": "link card: $10,000 Every Day You Survive In Minecraft -",
-      "firstSeen": "2026-11-22T18:47:37.767Z"
-    },
-    "https://mastodon.social/@vidstand/117660090116274446": {
-      "uri": "https://mastodon.social/@vidstand/117660090116274446",
-      "url": "https://mastodon.social/@vidstand/117660090116274446",
-      "handle": "vidstand@mastodon.social",
-      "name": "VidStand",
-      "text": "bro WHY do these trees hate me this much?? (Trees Hate You full game) #Gaming #LatestVideos https://vidstand.com/bro-why-do-these-trees-hate-me-this-much-trees-hate-you-full-game/?fsp_sid=5039",
-      "createdAt": "2026-11-22T12:28:16.160Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "gaming",
-      "score": 7,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "link card: bro WHY do these trees hate me this much?? (Trees Hate You full game) -",
-      "firstSeen": "2026-11-22T18:47:37.767Z"
-    },
-    "https://mastodon.social/@maudelix/117660003524203321": {
-      "uri": "https://mastodon.social/@maudelix/117660003524203321",
-      "url": "https://mastodon.social/@maudelix/117660003524203321",
-      "handle": "maudelix@mastodon.social",
-      "name": "Maudelix",
-      "text": "Who is a good puppy? #ffixv #gaming #gameplay",
-      "createdAt": "2026-11-22T12:06:14.938Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "gaming",
-      "score": 7,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "image, no description",
-      "firstSeen": "2026-11-22T18:47:37.767Z"
-    },
-    "https://mastodon.social/@vidstand/117659840950429193": {
-      "uri": "https://mastodon.social/@vidstand/117659840950429193",
-      "url": "https://mastodon.social/@vidstand/117659840950429193",
-      "handle": "vidstand@mastodon.social",
-      "name": "VidStand",
-      "text": "$250,000 Hunger Games In Real Life #Gaming #LatestVideos https://vidstand.com/250000-hunger-games-in-real-life/?fsp_sid=4909",
-      "createdAt": "2026-11-22T11:24:54.202Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "gaming",
-      "score": 7,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "link card: $250,000 Hunger Games In Real Life -",
       "firstSeen": "2026-11-22T18:47:37.767Z"
     },
     "https://mastodon.social/@vidstand/117659606084077312": {
@@ -729,6 +564,63 @@
       "origin": "https://urusai.social/@weebdeluxe/117659694546355115",
       "media": null,
       "firstSeen": "2026-11-22T18:47:37.767Z"
+    },
+    "https://mastodon.social/@quester@mementomori.social/117661714022695886": {
+      "uri": "https://mastodon.social/@quester@mementomori.social/117661714022695886",
+      "url": "https://mastodon.social/@quester@mementomori.social/117661714022695886",
+      "handle": "quester@mementomori.social",
+      "name": "Quester the Quester ⛅",
+      "text": "#FFVIIRemake #VideoGames Okay, I now have a new favourite part! This game has quite a few mini games. I did not expect a QTE mini game. In a cabaret club. Run by a fabulous gay man. And the QTE section is Cloud dancing with this man, Andrea. I wanna play it again! Let me go again!",
+      "createdAt": "2026-11-22T19:21:12.000Z",
+      "likes": 1,
+      "replies": 1,
+      "group": "broadPlaying",
+      "query": "videogames",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": true,
+      "origin": "https://mementomori.social/@quester/117661713848799347",
+      "media": "image: Andrea, a fabulously flamboyant man speaking to Cloud after they performed a dance routine together.",
+      "firstSeen": "2026-11-22T19:32:37.982Z"
+    },
+    "https://mastodon.social/@kekoakiki@vt.social/117661634568803662": {
+      "uri": "https://mastodon.social/@kekoakiki@vt.social/117661634568803662",
+      "url": "https://mastodon.social/@kekoakiki@vt.social/117661634568803662",
+      "handle": "kekoakiki@vt.social",
+      "name": "Kekoa Kiki 🎣 Mesugaki VTuber",
+      "text": "Speeding up #BIOS time in #Windows11 is a pipedream, right? Kiki's desktop takes almost 20 full seconds! Feels like a lot. High-end Maingear-built PC. M2 SSD. #tech #pcgaming #pc #vtuber #kekoakiki",
+      "createdAt": "2026-11-22T19:01:01.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "pcgaming",
+      "score": 6,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://vt.social/@kekoakiki/117661634494702186",
+      "media": null,
+      "firstSeen": "2026-11-22T19:32:37.982Z"
+    },
+    "https://mastodon.social/@SecretAntelope@covertcreatures.xyz/117661720636054803": {
+      "uri": "https://mastodon.social/@SecretAntelope@covertcreatures.xyz/117661720636054803",
+      "url": "https://mastodon.social/@SecretAntelope@covertcreatures.xyz/117661720636054803",
+      "handle": "SecretAntelope@covertcreatures.xyz",
+      "name": "SecretAntelope 🌈☕",
+      "text": "I decided to try out Kentucky Route Zero, but I found it to be a horrible game. It felt weird and pretentious. I couldn't figure out what I was playing, or what the story was supposed to be. I was left confused and bored. This game clearly wasn't made for me... #gaming",
+      "createdAt": "2026-11-22T19:22:53.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "gaming",
+      "score": 5,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "origin": "https://covertcreatures.xyz/@SecretAntelope/117661720446103770",
+      "media": null,
+      "firstSeen": "2026-11-22T19:32:37.982Z"
     }
   }
 }

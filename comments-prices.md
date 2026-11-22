@@ -1,148 +1,152 @@
 # Comment candidates: prices (@saveandplay.com)
-Made 2026-11-22T18:46Z. Searched: seasonal: horror games pc | seasonal: scary games steam | seasonal: halloween steam | seasonal: spooky games steam | ai: generative AI games steam | ai: steam AI disclosure | broadPlaying: "hours in" game pc | broadPlaying: "beat" game "last night" | broadPlaying: "on my steam deck" | broadPlaying: just finished game | broadAsk: "best co-op" game | broadAsk: "what to play" pc | broadAsk: "cozy game" recommend | broadAsk: recommend game | waitForSale: "should I buy" game | waitForSale: "wait for the sale" | waitForSale: "worth it" "on sale" game | waitForSale: "is it worth" "full price" game | backlog: "what should I play next" | backlog: "my backlog" games | backlog: "need a game" recommendation | backlog: "something to play" steam | deck: "steam deck" recommendations | deck: handheld PC games | deck: steam deck | deck: best steam deck games | bundles: "Humble Bundle" | bundles: "bundle" worth it games | bundles: Fanatical bundle | bundles: itch.io bundle | practical: steam refund | practical: "game pass" vs buying | practical: DRM-free games | practical: "physical vs digital" games | genres: rpg recommendations | genres: strategy games pc | genres: indie games pc | genres: puzzle games recommend | pcGaming: feed | gamingLiked: feed.
-Posts below: 40 + 3 heated. Dropped in this run: skip word 119, low score 45, many links 2, bot, shop or studio 85, already shown 6, promo (link and hashtags) 17, console only 19, too short 5, adult or graphic label 5, replies are limited 14, not about games 28, other language (text) 8, already answered 2, earlier finds: low score 1.
+Made 2026-11-22T19:31Z. Searched: seasonal: horror games recommend | seasonal: halloween games pc | seasonal: horror games pc | seasonal: scary games steam | ai: generative AI games steam | ai: steam AI disclosure | broadPlaying: currently playing steam | broadPlaying: playing on pc | broadPlaying: started game steam | broadPlaying: "just finished" game | broadAsk: game recommendation | broadAsk: looking for game | broadAsk: any good games | broadAsk: "recommend me" game | waitForSale: should i buy steam | waitForSale: worth buying game | waitForSale: waiting for a sale | waitForSale: game on sale steam | backlog: what should i play | backlog: game recommendations | backlog: pc game recommendations | backlog: games like | deck: steam deck game | deck: steam deck recommendations | deck: steam deck games | deck: "steam deck" recommendations | bundles: pay what you want games | bundles: humble bundle | bundles: game bundle | bundles: indiegala | practical: gog games | practical: steam library | practical: steam price | practical: game price | genres: survival games recommend | genres: simulation games pc | genres: roguelike recommendations | genres: cozy games pc | pcGaming: feed | gamingLiked: feed.
+Posts below: 40 + 3 heated. Dropped in this run: low score 45, skip word 165, bot, shop or studio 133, already shown 17, promo (link and hashtags) 22, not about games 78, replies are limited 28, empty 6, console only 30, adult or graphic label 6, too short 12, many links 3, own post 6, already answered 2, other language (text) 10, earlier finds: low score 2.
 
 ## Posts
-1. @lebrownlow.bsky.social (Lauren Brownlow ) · 14m · likes 1 · replies 1 · question · broadPlaying
-   https://bsky.app/profile/lebrownlow.bsky.social/post/3n2waurodcc27
-   I just finished a pregame Zumba and turned the game on and asked @ravanos.bsky.social "a TD and 2 FGs?" He was like "I don't understand what you're asking" and I knew it'd be something wonky but maybe I'll just let it live in my head as that
-2. @tiritiribobiri.bsky.social (Tiri) · 1h · likes 1 · replies 1 · question · broadAsk
-   https://bsky.app/profile/tiritiribobiri.bsky.social/post/3n2w4tuczxs25
-   if you see me reposting rockstar-critical posts And gta6 praise posts please understand that two things can be true. i HATE capitalism and i LOVE game design anyway if you're looking for a game to play may i recommend australia did it?
-3. @marsupialluisjake.bsky.social (Jake) · 1h · likes 1 · replies 0 · question · broadAsk
-   https://bsky.app/profile/marsupialluisjake.bsky.social/post/3n2w4tua3ak2d
-   Your final challenge: recommend me a fun tank game that can run on my toaster after work. It cannot have a painful research grind, it cannot have anime girls everywhere, it cannot be an RTS game, it cannot have made up fictional tanks. If you fail this task, I will kill you.
+1. @evictgoras.bsky.social (najuf) · 13m · likes 1 · replies 1 · question · backlog
+   https://bsky.app/profile/evictgoras.bsky.social/post/3n2wdhli7ls2l
+   sunrise on the reaping scenes be like: louella: wow! there are people who bet on the games and they’re bad people and wyatt is one of them. did you know that haymitch, a 16 year old who’s been living in district 12 his entire life? haymitch: *shakes head* no! let’s paint our post
+2. @discoinferno41.bsky.social (Angel) · 30m · likes 2 · replies 0 · question · backlog
+   https://bsky.app/profile/discoinferno41.bsky.social/post/3n2wcitnq5c26
+   i guess overall its not even the budget or polish that im exactly looking for its the sytems, the mechanics the attention to detail that coalesce into a interesting world that you inhabit its like the metal gear games thats what i am looking for doing anything slightly interestin
+3. @jakenazar.bsky.social (Jake) · 32m · likes 1 · replies 1 · question · backlog
+   https://bsky.app/profile/jakenazar.bsky.social/post/3n2wcel6h7k23
+   It all goes back to their simply being too much inventory. Exactly 1/4 of games so far this season have been island games. Ad it’s going to get worse the next month Thursday night, international games, Sunday night, Monday night; now Saturday’s and like 7 island games next week. 
+4. @kupo.blue (Cerumi Stoneheart [VT] 🩵) · 38m · likes 1 · replies 0 · question · deck
+   https://bsky.app/profile/kupo.blue/post/3n2wc2cef5s2l
+   All that over leveling to not have to sit through the Yunalesca cutscene again… and guess when the Steam Deck crashes? Right at the end of it. So now I’m on a different Proton version and praying 😢 So sick of this ONE cutscene bc I associate it with game over screens 🤣
+5. @badideas.bsky.social (Aaron Stewart-Ahn) · 41m · likes 19 · replies 0 · question · backlog
+   https://bsky.app/profile/badideas.bsky.social/post/3n2wbubpxgs2z
+   My dumb ass & short resume on AAA games believes a big takeaway on Rockstar’s evolution is simply hire diverse writers & artists who reflect not just games but culture like that hip hop journalist. How do you create even one square block of any city without varied POVs, lived exp
+6. @garlaxweaselking.bsky.social (Garlax, The Weasel King) · 51m · likes 2 · replies 1 · question · backlog
+   https://bsky.app/profile/garlaxweaselking.bsky.social/post/3n2wbdhqzj22s
+   It’s amazing how… Of it’s time? The Telltale Sam and Max games were. Not in the sense of being offensive or anything! But I don’t think anyone who wasn’t an adult in 2007 would actually know *why* these games are like this.
+7. @limeanura.bsky.social (LimeAnura) · 1h · likes 1 · replies 0 · question · backlog
+   https://bsky.app/profile/limeanura.bsky.social/post/3n2waphfiyk2s
+   Genuinely? A fantastic game. Its not for everyone though; if you dont like slower paced games, or the immersiveness of being in the wilderness with literally nothing you probably wont like it.
+8. @hatok.bsky.social (Hatok) · 1h · likes 18 · replies 0 · question · backlog
+   https://bsky.app/profile/hatok.bsky.social/post/3n2wap3zaqk2p
+   it's like that guy at square enix who said "I don't get why people don't like the upscaled sprites in our ports, why do they want it to look worse?" except they're preferring to a history of like 15 games
+9. @comrademaxwell.bsky.social (ComradeMaxwell) · 1h · likes 1 · replies 1 · question · backlog
+   https://bsky.app/profile/comrademaxwell.bsky.social/post/3n2waibachs2l
+   A few things. There is a reason Liverpool have an excellent record when Barrot referees their games. Iraola the dock ock looking cunt be having a smile like his when they sack him. Btw defensive rebuild? We need a midfield rebuild. Tielemans, Santos are obviously not good enough.
+10. @swamp-esper-terra.bsky.social (Terra) · 3h · likes 1 · replies 0 · question · backlog
+   https://bsky.app/profile/swamp-esper-terra.bsky.social/post/3n2w25rfsps2s
+   This Thursday I'm going to be streaming the majority of the day. I really don't have anything planned, so I'm open to doing games with friends ^_^ Ziggy and I are also preparing a randomizer, where he plays Celeste & Inscription. Help me decide what I play! I'll do whatever top 3
+   [link card: What rando games should I do? - StrawPoll]
+11. @1tinydinosaur.bsky.social · 3h · likes 3 · replies 1 · question · practical
+   https://bsky.app/profile/1tinydinosaur.bsky.social/post/3n2vzquc3hs2r
+   Once again, what is Rockstar's sin here, relative to other game companies? Being popular? Making a lot of money? Making a decent product? None of the forces that decide market price are the fault of GTA
+12. @1tinydinosaur.bsky.social · 3h · likes 4 · replies 1 · question · practical
+   https://bsky.app/profile/1tinydinosaur.bsky.social/post/3n2vzag7ams2r
+   Because Rockstar isn't the standard game company here. They've been working on this game for over a decade, with a massive number of people working on it, why shouldn't they sell it at market price? They did not set that price, games were sold at $80 before and after GTA. Why sin
+13. @koboldstink.bsky.social (Scourge of the Kobold Tunnels) · 5h · likes 1 · replies 0 · question · backlog
+   https://bsky.app/profile/koboldstink.bsky.social/post/3n2vumktrik2v
+   It’s my yearly trip to see family for a week, and I only got a 6 year old laptop that practically runs on diesel. Anyone got some game recommendations for a weeklong binge?
+14. @ftthederg.bsky.social (FT the Derg) · 24h · likes 1 · replies 0 · question · waitForSale
+   https://bsky.app/profile/ftthederg.bsky.social/post/3n2ttxtsnxs2f
+   We must all do our part to keep this boi safe! Even if we have to do it with our stomachs! He's so cute it's ALMOST worth buying a console for the game.... ...almost. I'll be waiting for the hopeful PC release in like, 2 years
+15. @superyoshi.bsky.social (SuperYoshi) · 9m · likes 0 · replies 1 · question · backlog
+   https://bsky.app/profile/superyoshi.bsky.social/post/3n2wdoj7r7k2l
+   I feel like ever since GTA 4 Rockstar games feel less like you're controlling your characters and more like you're puppeteering them and I shouldn't be surprised but I kind of am that it's still like this and somehow feels worse?
+16. @monotoes.bsky.social (Toes) · 16m · likes 0 · replies 0 · question · backlog
+   https://bsky.app/profile/monotoes.bsky.social/post/3n2wdatijrc2i
+   I almost have to avoid telling coworkers my hobbies because they're not nerds. "What kind of video games do you play?" "Dark Souls, Persona, Horizon." "Oh, are they like Call of Duty?"
+17. @radianthostility.bsky.social (RadiantHostility (he/him)) · 20m · likes 0 · replies 1 · question · backlog
+   https://bsky.app/profile/radianthostility.bsky.social/post/3n2wd27cmge2w
+   Like are you familiar with V? Or RDR2? And how R* padded both games out with hours of things that were not driving around shooting stuff and doing cool car stunts? It was all very artistic and cool and innovative and it also badly detracted from the core gameplay experience and, 
+18. @fifthdraft.com (Robert Acosta) · 21m · likes 0 · replies 0 · question · backlog
+   https://bsky.app/profile/fifthdraft.com/post/3n2wcxuk6sk27
+   I will never take away anyone’s joy who uses it to gain a greater love of the games. I just don’t think I can put that much stock in it. Like, what do you mean there’s a whole other timeline where the Hero lost that isn’t shown to us? It became rather tricky to answer questions l
+19. @cookiesecrets.bsky.social (regina) · 28m · likes 4 · replies 1 · question · broadAsk
+   https://bsky.app/profile/cookiesecrets.bsky.social/post/3n2wclwtaus2k
+   since everyone seems to be on here for the game: need fun philly bars to take my gf to next weekend. already planning on Val’s but might hit up a few more after that. obviously looking for ones where i wont get hate crimed.
+20. @octopuspantleg.bsky.social (Obi-Wan𖤐Kaczynski😈💙🤘☕🏴‍☠️) · 33m · likes 1 · replies 0 · question · broadAsk
+   https://bsky.app/profile/octopuspantleg.bsky.social/post/3n2wcceesac2l
+   My two roommates' younger brother is a Raiders fan, and he's coming over to watch the game. I, for one, am looking forward to revelling in the schadenfreude.
+21. @husin.dev (wilson) · 42m · likes 0 · replies 0 · question · deck
+   https://bsky.app/profile/husin.dev/post/3n2wbsoqckc2p
+   replaying gta san andreas on steam deck until gta vi is released for desktop and, uh, the whole game is only 5GB on disk?!
+22. @chiraamii.bsky.social (chi❤️) · 44m · likes 0 · replies 1 · question · backlog
+   https://bsky.app/profile/chiraamii.bsky.social/post/3n2wbp6klhc2r
+   "Hes just playing a character!" is also a hilarious excuse cuz like. What if he picked a NICER character to play? Crazy, huh? And that one ff youtuber who said fuck the gays i love Harry Potter games and I also love being called the Female Asmongold. Literally barf in human form.
+23. @gregsasso.bsky.social (Greg Sasso ) · 1h · likes 1 · replies 0 · question · broadAsk
+   https://bsky.app/profile/gregsasso.bsky.social/post/3n2w7yyj6d22m
+   Pretty fun if you’re looking for an elder scrolls type game. You even start out in a prison cell
+   [quotes @gregsasso.bsky.social: Gonna try the game everyone is talking about: tainted grail fall of avalon]
+24. @hanbury3d.bsky.social (Ethan H) · 1h · likes 5 · replies 1 · question · broadAsk
+   https://bsky.app/profile/hanbury3d.bsky.social/post/3n2w7iipeos2d
+   I feel like there's actually quite a few areas of GTA VI that aren't being talked about that would have absolutely made me more interested in the game. Like GUYS you can get on your boat and go deep sea diving to go looking for treasure with a metal detector it basically becomes 
+25. @giantsazando.bsky.social (Giantsazando) · 2h · likes 0 · replies 0 · question · backlog
+   https://bsky.app/profile/giantsazando.bsky.social/post/3n2w6xcsj3c24
+   Looking for some game recommendations, If there's any that I absolutely must try please let me know. Got a list of games I've already been recommended here: backloggd.com/u/Giantsazan... A simple request though, make sure I have not already played the game.
+   [link card: 'Give me some Game Reccomendations!' a list of games by Giantsazando | Backloggd]
+26. @lukermartin.bsky.social (Luke "The Nuke" Martin) · 2h · likes 1 · replies 0 · question · broadAsk
+   https://bsky.app/profile/lukermartin.bsky.social/post/3n2w6qkgvg22q
+   All of these are great and if you're looking for a board game this holiday season, any of these would be perfect
+   [quotes @keithlaw.bsky.social: ok it is early Black Friday - here are some of my all-time top 15 games on sale Azul 44% off link.amazon/B03mXVIHI Splendor 44% off link.am…]
+27. @psadeicaucus.bsky.social (PSA DEI Caucus) · 2h · likes 5 · replies 0 · question · broadAsk
+   https://bsky.app/profile/psadeicaucus.bsky.social/post/3n2w5shtcl32m
+   The DEI Caucus Lunch was absolutely lovely at #PSA2026! Deep thanks to everyone who joined and engaged in true conversations about priorities and game plans for the Caucus. I am looking forward to the good work ahead!
+   [2 images: DEIC members having lunch and conversing at round tables on a San Diego terrace. / DEIC members having lunch and conversing at round tables on a San Diego terrace.]
+28. @seigfriedsgallery.bsky.social (seigfried) · 2h · likes 1 · replies 0 · question · broadAsk
+   https://bsky.app/profile/seigfriedsgallery.bsky.social/post/3n2w5q6xx2k2n
+   any indie game creators looking for character concepts? Would love to try my hand at that and help out !
+29. @kylelabriola.bsky.social (Kyle Labriola) · 2h · likes 4 · replies 1 · question · broadAsk
+   https://bsky.app/profile/kylelabriola.bsky.social/post/3n2w5ogceus2k
+   Looking for 2026 games to check out before the year is over, outside of the famous mega-hits? Here's a thread of some stuff I really liked that you might not have checked out. Starting with: Zoominoes, a colorful score-chase game about placing tiles. store.steampowered.com/app/32
+   [link card: Zoominoes on Steam]
+30. @neurostitches.bsky.social (Liv | NeuroStitches) · 3h · likes 7 · replies 0 · question · broadAsk
+   https://bsky.app/profile/neurostitches.bsky.social/post/3n2w2tu3t5s2o
+   I'm back on my pattern writing game! I have like 4 patterns that are 75% done so I am looking forward to releasing these in the new year. In the meantime, check out my patterns for a 25% discount for the #FOYAL #crochet 🧶
+   [4 images: Purple and pink checkerboard design as a crochet cowl sitting on a table with a smaller picture in the corner of a white woman with blonde hair and sunglasses … / Close up of white woman wearing a handmade crochet hat that looks like knitting. The brim of the hat is lilac and the body is a variegated yarn with pinks, lil… / Bulky chunky handmade crochet hat made with Malabrigo and a faux-fur pom pom on a white woman standing in front of trees. Yarn is a watercolor mix of blue, gre… / White woman standing in front of mountains against a concrete wall with a reddish-pink, handmade crochet shawl that features the Jacob's ladder stitch. Yarn is…]
+31. @yopalonso.bsky.social (Yop✨Wandering Heart Vtuber) · 3h · likes 5 · replies 2 · question · broadPlaying
+   https://bsky.app/profile/yopalonso.bsky.social/post/3n2w2iibgjc2d
+   PC is slowly but surely becoming a platform where I am playing more and more... So now I want to hear from you, about games that maybe a 1650 could run no problem, to see live on stream! Got any recommendations? #vtuber
+32. @tundrealys.northsky.social (M-A) · 3h · likes 1 · replies 0 · question · broadAsk
+   https://bsky.app/profile/tundrealys.northsky.social/post/3n2vz67jgp22f
+   Sooooo Nobody knows any good blog service that ISN'T in the USA? '_' That sucks, I'd love to start making some newsletter-styled analysis of books I read, plays I attend, games I (re)play... I've got plenty of ideas in bank!
+33. @fideldestro.bsky.social (Fidel Destro) · 5h · likes 1 · replies 0 · question · broadPlaying
+   https://bsky.app/profile/fideldestro.bsky.social/post/3n2vtbdhrd22e
+   You didn't ask, but I started wondering what suggestions I'd offer someone looking to get started with shaders, and at first I was like, "I got no damn idea." But maybe this will catch your attention: store.steampowered.com/app/3401490/...
+   [link card: Replicube on Steam]
+34. @roastcabose.bsky.social (RoastCabose) · 5h · likes 1 · replies 0 · question · broadAsk
+   https://bsky.app/profile/roastcabose.bsky.social/post/3n2vruov46k2u
+   ya miozacki where's my Armored Core 6™: Ices of Euphrates™ or whateva what eva happened to them usual asset flip sequel with all dem parts of the last game and like fity billion new ones like a year later. dere were like 8 of em for AC3 hi-yo mercedes, you holdin out on us?
+   [link card: Tony Soprano]
+35. @crenz.bsky.social (Chris Renz) · 6h · likes 1 · replies 0 · question · broadAsk
+   https://bsky.app/profile/crenz.bsky.social/post/3n2vrjc4mnk27
+   I’m trying to keep myself balanced. The Niners are a good team so we are hopefully looking for a competitive game tonight.
+36. @jumbojelly.com (Jumbo Jelly) · 10h · likes 1 · replies 0 · question · practical
+   https://bsky.app/profile/jumbojelly.com/post/3n2vbnkyihi2j
+   Steam launches under $5 had a median of 1 review in their first 30 days this autumn. At $20 to $29.99 it was 149. Free games: 7. What price did your last game launch at? https://jumbojelly.com/steam-reviews-first-30-days-2026/?utm_source=bluesky
    [image, no description]
-4. @goldenrod8888.bsky.social (Bytecut) · 6h · likes 1 · replies 0 · question · pcGaming
-   https://bsky.app/profile/goldenrod8888.bsky.social/post/3n2vmq4ggjz2j
-   Steam stash valuer wants you to click Run anyway. Stop! steam-stash-value-report-card is open source. pipx pulls another repo. Source: https://github.com/AssassinCreator/steam-stash-value-report-card Do you check install URLs before running pipx? #Steam #Security
+37. @trishcosmicbard.bsky.social (Trish the Cosmic Bard 🎶🏳️‍⚧️) · 11h · likes 1 · replies 0 · question · backlog
+   https://bsky.app/profile/trishcosmicbard.bsky.social/post/3n2v6g7q3f22n
+   You know what? You're right, I should play another megaten game
+38. @thesarawakian.bsky.social (The Sarawakian) · 12h · likes 1 · replies 0 · question · practical
+   https://bsky.app/profile/thesarawakian.bsky.social/post/3n2v3oictfc2y
+   The oil price is settling (?) at around $90-95 a barrel but I won’t hold my breath until I see airfares come down (pretty please?). Anthropic just got listed at a valuation of over a trillion dollars. That sounds like a number kids make up to cheat in an extended game of Monopoly
    [image, no description]
-5. @electricbirds.bsky.social (Nathan Plante) · 9h · likes 3 · replies 2 · question · deck
-   https://bsky.app/profile/electricbirds.bsky.social/post/3n2vcq5oh6c2g
-   I can't decide which one to take on vacation. Sampling fun with Torso S4 or gaming madness with Steam Deck? I can only fit one...
-   [image: A picture of a steam deck and the Torso s4 sampler]
-6. @rusty.cubhub.social (Rusty Corgi) · 12h · likes 1 · replies 2 · question · deck
-   https://bsky.app/profile/rusty.cubhub.social/post/3n2uzqm32c3d2
-   Uh. Hmm. I have no memory of buying Yooka Re-Playlee and yet it's on my Steam Deck :blobcatgooglyshocked:​ Huh. Wonder if it's any good because the original was _not_.
-7. @jojjjajjr.bsky.social (djent atkins) · 21h · likes 2 · replies 0 · question · deck
-   https://bsky.app/profile/jojjjajjr.bsky.social/post/3n2u43mcrus2j
-   I checked the prices. I do not need a Steam Deck
-8. @gamersonarant.bsky.social (Gamers On a Rant) · 24h · likes 1 · replies 0 · question · backlog
-   https://bsky.app/profile/gamersonarant.bsky.social/post/3n2tsda32j22j
-   The gamer’s internal struggle… “I really don’t need to buy anymore games on sale. My backlog is ridiculous. Well…just a quick look at the sales won’t hurt right?” 😅
+39. @dadbod91-91.bsky.social (Dadbod) · 14h · likes 3 · replies 0 · question · backlog
+   https://bsky.app/profile/dadbod91-91.bsky.social/post/3n2uukbi5tc2t
+   Late night gaming mode 🎮🏈 Seinfeld on one screen, football on the other, feet up. Jumping on now… what game should I play? 😏 #gaymer #dadbod #gaybear #SaturdayNight
    [2 images, no description]
-9. @straylize.starlost.cc (aly ☕ a bit of THIS & THAT) · 25h · likes 3 · replies 1 · question · backlog
-   https://bsky.app/profile/straylize.starlost.cc/post/3n2tnalpwkkum
-   do i have other otome games in my backlog that i've been meaning to play for the first time? yes. will i continue to replay my favorites from a decade ago instead? also yes. though i think after i finish replaying 7rebirth, i may pop in piofiore since i've been meaning to give th
-10. @aerialslayer.bsky.social (Aerialslayer) · 5m · likes 0 · replies 0 · question · broadAsk
-   https://bsky.app/profile/aerialslayer.bsky.social/post/3n2wbedjccs2x
-   What game do you always recommend to people?
-11. @eleach.bsky.social (Erin Leach, Ph.D.) · 1h · likes 0 · replies 0 · question · broadAsk
-   https://bsky.app/profile/eleach.bsky.social/post/3n2w4wip6bc2a
-   Do you like trash ass basketball? May I recommend this Butler/Nebraska men’s game.
-12. @ajheppel.bsky.social (Andy) · 7h · likes 2 · replies 1 · question · broadPlaying
-   https://bsky.app/profile/ajheppel.bsky.social/post/3n2vkvxnaes22
-   Toure might not be/doesnt look like the finished article but its baffling to me to just cut him out and/or give him no game time even off the bench. Pace terrifies everyone and didnt he set up a goal the last time he played?
-13. @moemoe.bsky.social (Moe 🌻) · 14h · likes 0 · replies 1 · question · deck
-   https://bsky.app/profile/moemoe.bsky.social/post/3n2utddyqrs2m
-   Finally made it a point to play Tears of the Kingdom, (got 10 hours in on my Steam Deck years ago, but got distracted), and I'm playing it via an Android port(!?) on my RP6. 22 hours deep and I haven't even done one of the major objectives, I've just been messing around, 😭
-14. @taliskan.me (Taliskan 🎮) · 17h · likes 1 · replies 0 · question · broadPlaying
-   https://bsky.app/profile/taliskan.me/post/3n2uhzxmpv22x
-   Unexpectedly beat Like a Dragon Pirate Yakuza in Hawaii last night on stream. Wonderful game and my entry into the Yakuza games. Monday we start Yakuza 0, and I'm really looking forward to it.
-15. @erothreep.bsky.social (Kaylin Briggs) · 19h · likes 7 · replies 0 · question · broadPlaying
-   https://bsky.app/profile/erothreep.bsky.social/post/3n2uasd2sx22s
-   Just finished Alaris! Very cute indie amare game with a really unique fantasy setting. It took me about 20 hours to complete, so I highly recommend it if you're looking for a sweet fantasy romance with good pacing and a short-medium playtime.
-16. @eggmansasshole.bsky.social (🥶) · 22h · likes 2 · replies 3 · question · deck
-   https://bsky.app/profile/eggmansasshole.bsky.social/post/3n2tyrcshfc2i
-   What do you think of my prediction that the ultimate device will be the inevitable merger of the Steam Deck and a smartphone? Like an N-Gage that doesn't suck
-17. @robertfoleyjr.bsky.social (Robert Foley Jr) · 23h · likes 0 · replies 0 · question · bundles
-   https://bsky.app/profile/robertfoleyjr.bsky.social/post/3n2tt7kuxqs2p
-   Do you have buyers remorse for GTA 6? Did you pay the $100 club fee? No?!? You didn't pay the Collector’s bundle at $399.99!! You ain't getting that back bro! You could of gotten a similar game published 10 years ago for less than $6.00 USD now. It's still available. steamdb.info
-   [2 images, no description]
-18. @dvdgtt.bsky.social (Dave) · 24h · likes 0 · replies 0 · question · backlog
-   https://bsky.app/profile/dvdgtt.bsky.social/post/3n2tsdgkysk2a
-   This is why I brought a season ticket for. Home games too occupied to sit on here moaning like fuck. Just need an away DK then I’m laughing** #VfB **divorced too.
-19. @missboots.bsky.social (Miss Boots Blue 💙) · 24h · likes 0 · replies 0 · question · backlog
-   https://bsky.app/profile/missboots.bsky.social/post/3n2trdkmo2c24
-   Wow, really? She must have something on him. Especially after she said ‘you don’t want me to expose you, do you want to go there?’ The one thing Bronwyn can do is play psychological games with her words and delivery. Shes so calm when she delivers it like she knows KNOWS. It’s qu
-20. @digitaleanimeen.bsky.social (Digitale Anime EN) · 24h · likes 0 · replies 0 · question · backlog
-   https://bsky.app/profile/digitaleanimeen.bsky.social/post/3n2tqrhsj2s2a
-   He noted that the team is taking steps to avoid the long gaps between major entries that have occurred in the past. Would you like to see shorter intervals between Persona games?
-21. @kafritz.bsky.social (A 🤘🏻) · 24h · likes 0 · replies 0 · question · backlog
-   https://bsky.app/profile/kafritz.bsky.social/post/3n2tqmsiarc2e
-   Also, I am sick and my throat feels like it’s been through a wood chipper. Please give me recommendations to soothe my throat or the best football games to watch today.
-22. @vofescaflowne.bsky.social (Fabien) · 24h · likes 0 · replies 0 · question · backlog
-   https://bsky.app/profile/vofescaflowne.bsky.social/post/3n2tqe6bsos2m
-   Okay I caved and got GTA but this is really like the Breath of the Wild of GTA games? Unless if V was like this but it just never grabbed me at all. VI is just insane.
-23. @ellieiactaest.bsky.social (Eleanor is Thankful For...) · 25h · likes 0 · replies 0 · question · practical
-   https://bsky.app/profile/ellieiactaest.bsky.social/post/3n2tovwrqwc2i
-   25 full price feels more than fair...but for 7.50? That's a lot of game for 7.50.
-24. @jojjjajjr.bsky.social (djent atkins) · 25h · likes 0 · replies 1 · question · deck
-   https://bsky.app/profile/jojjjajjr.bsky.social/post/3n2toqklevc2j
-   apparently Aalto 2 works on Steam Deck. Maybe I need a Steam Deck
-25. @thepaulieprops.bsky.social (Paulie Propbot) · 25h · likes 0 · replies 0 · question · practical
-   https://bsky.app/profile/thepaulieprops.bsky.social/post/3n2tmvxtl7o2j
-   Why: - Tyler Herro: Under 20.5 points in 5 of his last 7. - Brayden Burries: Minutes up to 27.3 a game over his last 3, from 22.7. A same game price here is each leg's price multiplied; your book prices a same game parlay its own way. 21+ | Gambling problem? Call 1-800-GAMBLER
-26. @kittywitch.space (non-binary rumpelstilzchen) · 25h · likes 2 · replies 2 · question · broadAsk
-   https://bsky.app/profile/kittywitch.space/post/3n2tmtjy42c2m
-   recommend me a good cause to throw 80 euros at bc I just gave into the call of the overhyped video game and wanna match the money thrown at the corporation for the benefit of something more useful
-27. @feangar.bsky.social (Feangar) · 25h · likes 0 · replies 1 · question · practical
-   https://bsky.app/profile/feangar.bsky.social/post/3n2tmqvzxyk2q
-   As someone who’s had little interest in GTA VI, my Steam library has too many unplayed games for me to pick up any more, hearing about all the mundane tasks that you can do/are required of you has sparked an interest. Like wdym hanging drywall and painting a room is a mission? Th
-28. @barriertrio.bsky.social (the Boucer !!) · 27h · likes 3 · replies 1 · question · broadAsk
-   https://bsky.app/profile/barriertrio.bsky.social/post/3n2tgiaad6s2m
-   its the Good Idea Haver back at it again with a multi-stream affair to round out the rest of the StreamYear. did you know that these konami guys made a whole lot of video games? goemon, teenage mutant ninja turtle, victor viper... come get blasted by them during any of the coming
-   [image: small promotion art for the Super Konami Hyper Shuffler. the Konami Logo surrounds an emote of barriertrio_bean with swirly eyes. in the bottom right corner is…]
-29. @pattyjasper.bsky.social (Patty - x) · 30h · likes 7 · replies 0 · question · broadAsk
-   https://bsky.app/profile/pattyjasper.bsky.social/post/3n2t5dbfp2s23
-   Happy Game Day, #Caniacs ! Hitting the road & headed to Raleigh for the game today, early games are not my favorite, but I'm looking forward to being back in the bldg & seeing a good game. See you there! 👋🏾🏒 #raiseup
-30. @bansheebanzai.bsky.social (Kid Danger) · 58m · likes 0 · replies 0 · waitForSale
-   https://bsky.app/profile/bansheebanzai.bsky.social/post/3n2w6fuvj6k2a
-   Hardcore Gen X gamer, headphones are my biggest peripheral besides a good game pad. I love Razer keyboards, chairs and mice, these are something special. Found a pair on sale @ two weeks ago and booyah. Graphic EQ interface. Designed for games specifically. Very light & comfy. Fu
-   [link card: Is the Razer BlackShark V3 Pro Worth It? My Honest Review]
-31. @kylelabriola.bsky.social (Kyle Labriola) · 1h · likes 3 · replies 0 · deck
-   https://bsky.app/profile/kylelabriola.bsky.social/post/3n2w5zkl7zk2k
-   Cardaire: Eternal Aces - A single-player trading card RPG, just we used to get back in the 2000s. Streamlined combat system with lots of potential for strategy. store.steampowered.com/app/4077320/...
-   [link card: Cardaire: Eternal Aces on Steam]
-32. @hirozero.bsky.social (Hiro) · 2h · likes 1 · replies 1 · deck
-   https://bsky.app/profile/hirozero.bsky.social/post/3n2vze6wdrc2b
-   Black Friday 2026: Celebrating MSRP prices of 2023. I've never been more thankful for Steam Deck weaning me off of console gaming. What a shit show...
-33. @ladiesgamers.bsky.social (LadiesGamers.com) · 3h · likes 2 · replies 0 · pcGaming
-   https://bsky.app/profile/ladiesgamers.bsky.social/post/3n2vynr3eyf2l
-   Pocket Legend: Inventory Roguelike Deckbuilder adds a clever inventory-management twist with tactical battles and plenty of strategic decisions. #PocketLegendInventoryRoguelikeDeckbuilder #Steam wp.me/p70tPw-tXB
+40. @gloomyfates.bsky.social (𖦹 Hex Maniac Gloomy!) · 20h · likes 17 · replies 2 · question · backlog
+   https://bsky.app/profile/gloomyfates.bsky.social/post/3n2ubaonryk2z
+   being into a game for little babies is funny because you get youtube recommendations that look like this
    [image, no description]
-34. @conzoop.bsky.social (conzoop) · 3h · likes 2 · replies 1 · deck
-   https://bsky.app/profile/conzoop.bsky.social/post/3n2vxyoi6gs27
-   steam deck makes a really solid steam console for TV
-35. @enchantedecho.bsky.social (Sai ★ . ☾°˖* 💜🌟) · 3h · likes 1 · replies 0 · deck
-   https://bsky.app/profile/enchantedecho.bsky.social/post/3n2vxnv7krk2j
-   I have learned that I can easily stream from my PC to my Steam deck so I can play GoW on the living room couch with little to no input lag. Yay :)
-36. @silkmerchant.bsky.social (Backpack) · 4h · likes 1 · replies 0 · deck
-   https://bsky.app/profile/silkmerchant.bsky.social/post/3n2vvh7xq4s2m
-   I keep debating if I should get the crew on switch 2 so I have a arcade racer on it. But I also have a steam deck with Need for Speed Heat at 40 fps which is fine. I wish my Switch 2 could have more of the games I like so I didn't feel like I needed substitutes incase of car ride
-37. @critpixel.bsky.social (CriticalPixel) · 4h · likes 2 · replies 0 · pcGaming
-   https://bsky.app/profile/critpixel.bsky.social/post/3n2vsqn27dm2p
-   valve ended the steam machine waitlist and the 2TB line is already closed, with the 512gb at $1,049 and a price hike floated for the next batch. that's prebuilt pc money and i'd rather build something faster #gaming #pcgaming #Steam #SteamMachine
-38. @yukinogatari.moe (translator of the highest-rated game of ) · 5h · likes 10 · replies 0 · deck
-   https://bsky.app/profile/yukinogatari.moe/post/3n2vqmuhmek2h
-   title screen on a doujin game mildly misbehaving on my pc but seemingly normal on steam deck and it's taking immense willpower to stop myself from cracking it open to debug the issue bc it's a renpy game and I could easily fix it at the expense of time spent actually playing lmao
-39. @bloodygoodgamer.bsky.social (Demi) · 5h · likes 1 · replies 0 · deck
-   https://bsky.app/profile/bloodygoodgamer.bsky.social/post/3n2vql3sazk2h
-   I did charge my Steam Deck and I have my Switch and my phone
-40. @brunocatarino.bsky.social (Bruno Catarino) · 5h · likes 2 · replies 0 · deck
-   https://bsky.app/profile/brunocatarino.bsky.social/post/3n2vq24vbi222
-   Yeah, no. My steam deck is one of the best purchases I ever made, but I'm not spending over £1000 for a console: www.gamingbible.com/news/valve-s...
-   [link card: Valve is jacking up the Steam Machine price, setting a scary next-gen precedent]
 
 ## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @jumbojelly.com (Jumbo Jelly) · 2h · likes 0 · replies 0 · question · ai
-   https://bsky.app/profile/jumbojelly.com/post/3n2w4b275sc2l
-   Online Co-Op launches had a median of 14 Steam reviews in their first 30 days this autumn. Casual: 2. Arcade: 1. Co-op or solo for your next game?
-   [link card: How many reviews does a Steam game get? 3 in 30 days]
-2. @jnavas.com (John Navas ⛵🌉) · 19h · likes 1 · replies 0 · practical
-   https://bsky.app/profile/jnavas.com/post/3n2ubknoavc2j
-   The Blame Game Has Begun Over Anthropic’s Turbulent Trading Debut @wsj.com #Anthropic 🤭 The AI giant’s stock slides in second day of trading, dropping to just 5 cents above its IPO price at one point www.wsj.com/finance/stoc...
-   [link card: The Blame Game Has Begun Over Anthropic’s Turbulent Trading Debut]
-3. @archaeocore.bsky.social (John Lowe) · 19h · likes 2 · replies 1 · deck
-   https://bsky.app/profile/archaeocore.bsky.social/post/3n2uajygoms25
-   I want to get a Steam Deck but gotta wait for the AI crash to make chips cheap again
+1. @thesaltmine3.bsky.social (The Salt Mine 3) · 2h · likes 0 · replies 0 · question · broadAsk
+   https://bsky.app/profile/thesaltmine3.bsky.social/post/3n2w4xibcic2k
+   Our inn and smithy looked alike from across Saltwake. Now there’s a little boat riding blue waves above the inn and an anvil in the flames above the forge. Which door would you try for supper? Development build. AI-assisted murals. Free Windows playtest. store.steampowered.com/ap
+   [image: Two in-game views looking across the same Saltwake square. Before, the triangular walls under the inn and smithy roofs were plain plaster. In the development b…]
+2. @msfancybones.bsky.social (FancyBones) · 4h · likes 0 · replies 0 · question · broadAsk
+   https://bsky.app/profile/msfancybones.bsky.social/post/3n2vya4pqk22w
+   Guys, slop modding is going too far... Do you REALLY need seemless for Wilds story? The worst part of the game, really? I know doing story hunts with friends can be annoying, but REALLY?
+   [image: Seamless co-op mod Play the story together Sponge Bob looking back in disgust Cause I mean... you slop coded seamless co-op into a co-op game... for the part n…]
+3. @vegetablegremlin.bsky.social (🌏🐶🦕🥳 Vegetable Gremlin ⍼​👻🥦💥🏠♫) · 25m · likes 3 · replies 2 · backlog
+   https://bsky.app/profile/vegetablegremlin.bsky.social/post/3n2wcr6qk6s2v
+   absolutely no need to have ai do this. dynamically generated random environments were like, one of the first things computer games ever did
+   [image: an endless backrooms right in your browser: in this new game, ai invents the rooms and monsters]

@@ -1,12 +1,12 @@
 {
   "cursor": 0,
   "next": {
-    "childhood": 7,
-    "classicPC": 7,
+    "childhood": 5,
+    "classicPC": 5,
     "holdUp": 3,
     "gogOld": 3,
     "nostalgia": 3,
-    "askRetro": 3,
+    "askRetro": 2,
     "retroBuying": 5,
     "retroPlaying": 5,
     "retroAsk": 5,
@@ -14,113 +14,113 @@
   },
   "sources": {
     "childhood": {
-      "runs": 525,
-      "posts": 15979,
-      "fit": 4542,
+      "runs": 530,
+      "posts": 16114,
+      "fit": 4589,
       "last": {
-        "posts": 4,
-        "fit": 2,
-        "at": "2026-11-22T18:49:16.187Z"
+        "posts": 19,
+        "fit": 3,
+        "at": "2026-11-22T19:34:22.372Z"
       }
     },
     "classicPC": {
-      "runs": 525,
-      "posts": 6198,
-      "fit": 2340,
+      "runs": 530,
+      "posts": 6249,
+      "fit": 2354,
       "last": {
-        "posts": 3,
-        "fit": 2,
-        "at": "2026-11-22T18:49:16.187Z"
+        "posts": 6,
+        "fit": 3,
+        "at": "2026-11-22T19:34:22.372Z"
       }
     },
     "holdUp": {
-      "runs": 315,
-      "posts": 452,
+      "runs": 318,
+      "posts": 454,
       "fit": 83,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-11-22T18:49:16.187Z"
+        "at": "2026-11-22T19:34:22.372Z"
       }
     },
     "gogOld": {
-      "runs": 315,
-      "posts": 3237,
-      "fit": 954,
+      "runs": 318,
+      "posts": 3258,
+      "fit": 955,
       "last": {
-        "posts": 0,
+        "posts": 1,
         "fit": 0,
-        "at": "2026-11-22T18:49:16.187Z"
+        "at": "2026-11-22T19:34:22.372Z"
       }
     },
     "nostalgia": {
-      "runs": 315,
-      "posts": 3748,
-      "fit": 813,
+      "runs": 318,
+      "posts": 3782,
+      "fit": 819,
       "last": {
         "posts": 3,
         "fit": 0,
-        "at": "2026-11-22T18:49:16.187Z"
+        "at": "2026-11-22T19:34:22.372Z"
       }
     },
     "askRetro": {
-      "runs": 525,
-      "posts": 1783,
-      "fit": 439,
+      "runs": 530,
+      "posts": 1793,
+      "fit": 440,
       "last": {
-        "posts": 12,
-        "fit": 3,
-        "at": "2026-11-22T18:49:16.187Z"
+        "posts": 7,
+        "fit": 1,
+        "at": "2026-11-22T19:34:22.372Z"
       }
     },
     "retroBuying": {
-      "runs": 525,
-      "posts": 2238,
-      "fit": 840,
+      "runs": 530,
+      "posts": 2246,
+      "fit": 843,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-11-22T18:49:16.187Z"
+        "at": "2026-11-22T19:34:22.372Z"
       }
     },
     "retroPlaying": {
-      "runs": 525,
-      "posts": 4964,
-      "fit": 968,
+      "runs": 530,
+      "posts": 5003,
+      "fit": 973,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-11-22T18:49:16.187Z"
+        "at": "2026-11-22T19:34:22.372Z"
       }
     },
     "retroAsk": {
-      "runs": 525,
-      "posts": 376,
-      "fit": 109,
+      "runs": 530,
+      "posts": 377,
+      "fit": 110,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-11-22T18:49:16.187Z"
+        "at": "2026-11-22T19:34:22.372Z"
       }
     },
     "retroTalk": {
-      "runs": 525,
-      "posts": 3297,
-      "fit": 815,
+      "runs": 530,
+      "posts": 3323,
+      "fit": 820,
       "last": {
-        "posts": 18,
+        "posts": 19,
         "fit": 3,
-        "at": "2026-11-22T18:49:16.187Z"
+        "at": "2026-11-22T19:34:22.372Z"
       }
     },
     "retroFeed": {
-      "runs": 105,
-      "posts": 10328,
-      "fit": 417,
+      "runs": 106,
+      "posts": 10425,
+      "fit": 424,
       "last": {
         "posts": 97,
         "fit": 7,
-        "at": "2026-11-22T18:49:16.187Z"
+        "at": "2026-11-22T19:34:22.372Z"
       }
     }
   },
@@ -233,42 +233,6 @@
       "media": null,
       "firstSeen": "2026-11-21T15:32:48.053Z"
     },
-    "at://did:plc:nduah4mj6vwypkk33b4navyl/app.bsky.feed.post/3n2t6smtnpc2y": {
-      "uri": "at://did:plc:nduah4mj6vwypkk33b4navyl/app.bsky.feed.post/3n2t6smtnpc2y",
-      "url": "https://bsky.app/profile/foxytimes365.bsky.social/post/3n2t6smtnpc2y",
-      "handle": "foxytimes365.bsky.social",
-      "name": "Foxy",
-      "text": "Loving all of the Malon art. It's great to return to my first video game crush",
-      "createdAt": "2026-11-21T13:18:09.977Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "childhood",
-      "query": "first video game",
-      "score": 4,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": null,
-      "firstSeen": "2026-11-21T15:32:48.053Z"
-    },
-    "at://did:plc:vy2useezprfok3wznkactyla/app.bsky.feed.post/3n2t5oe5zi22q": {
-      "uri": "at://did:plc:vy2useezprfok3wznkactyla/app.bsky.feed.post/3n2t5oe5zi22q",
-      "url": "https://bsky.app/profile/itsnco.bsky.social/post/3n2t5oe5zi22q",
-      "handle": "itsnco.bsky.social",
-      "name": "nico",
-      "text": "gta 6 is cult deprogramming in the form of a video game",
-      "createdAt": "2026-11-21T12:57:52.916Z",
-      "likes": 1,
-      "replies": 2,
-      "group": "childhood",
-      "query": "first video game",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": true,
-      "media": "image: Stable Ronaldo spent 40 minutes renovating his house in GTA VI only to realize that Lucia might not like the color and decided to redo it \"what if she doesn't …",
-      "firstSeen": "2026-11-21T15:32:48.053Z"
-    },
     "at://did:plc:5ut7fadlujayt2jdrilaumxb/app.bsky.feed.post/3n2tdczjpnc2f": {
       "uri": "at://did:plc:5ut7fadlujayt2jdrilaumxb/app.bsky.feed.post/3n2tdczjpnc2f",
       "url": "https://bsky.app/profile/aubrey.northsky.social/post/3n2tdczjpnc2f",
@@ -279,7 +243,7 @@
       "likes": 1,
       "replies": 1,
       "group": "classicPC",
-      "query": "dos game",
+      "query": "dos games",
       "score": 7,
       "question": false,
       "heated": false,
@@ -321,42 +285,6 @@
       "heated": false,
       "isReply": true,
       "media": null,
-      "firstSeen": "2026-11-21T15:32:48.053Z"
-    },
-    "at://did:plc:tvzrp5qsmilr4n2ut6j2jewi/app.bsky.feed.post/3n2t5smqmu22s": {
-      "uri": "at://did:plc:tvzrp5qsmilr4n2ut6j2jewi/app.bsky.feed.post/3n2t5smqmu22s",
-      "url": "https://bsky.app/profile/mabledonkey.bsky.social/post/3n2t5smqmu22s",
-      "handle": "mabledonkey.bsky.social",
-      "name": "MableDONKEY 🏳️‍⚧️",
-      "text": "Yeeeaahhh that's the issue of old games. Modern hardware just breaks them. I'd recommend trying out some community made packs like this one. Old games need crutches to get going lol gtaforums.com/topic/860039...",
-      "createdAt": "2026-11-21T13:00:16.136Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "askRetro",
-      "query": "old games recommend",
-      "score": 7,
-      "question": false,
-      "heated": false,
-      "isReply": true,
-      "media": "link card: ",
-      "firstSeen": "2026-11-21T15:32:48.053Z"
-    },
-    "at://did:plc:m6biep4jmxkm2rhr2sjo4pto/app.bsky.feed.post/3n2t5s623ac2u": {
-      "uri": "at://did:plc:m6biep4jmxkm2rhr2sjo4pto/app.bsky.feed.post/3n2t5s623ac2u",
-      "url": "https://bsky.app/profile/slurmslurper.bsky.social/post/3n2t5s623ac2u",
-      "handle": "slurmslurper.bsky.social",
-      "name": "Cesare Bleorgia",
-      "text": "This weirdo says he's been playing GTA since 1998 which was... 28 years ago. Let's assume he was 13 in 98. This is a 41-year-old man melting down about a video game",
-      "createdAt": "2026-11-21T13:00:00.718Z",
-      "likes": 5,
-      "replies": 1,
-      "group": "retroPlaying",
-      "query": "playing old game",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "quotes @cheesecakechik.bsky.social: This guy is very mad",
       "firstSeen": "2026-11-21T15:32:48.053Z"
     },
     "at://did:plc:fbenlp67j3pvtfnufu2x4buo/app.bsky.feed.post/3n2td66x6lc2h": {
@@ -647,24 +575,6 @@
       "media": "image, no description",
       "firstSeen": "2026-11-21T19:12:22.958Z"
     },
-    "at://did:plc:tvzrp5qsmilr4n2ut6j2jewi/app.bsky.feed.post/3n2t5htwpvc2s": {
-      "uri": "at://did:plc:tvzrp5qsmilr4n2ut6j2jewi/app.bsky.feed.post/3n2t5htwpvc2s",
-      "url": "https://bsky.app/profile/mabledonkey.bsky.social/post/3n2t5htwpvc2s",
-      "handle": "mabledonkey.bsky.social",
-      "name": "MableDONKEY 🏳️‍⚧️",
-      "text": "There's multiple ways to play with varying quality. You can get the game for free on pc. You can buy the ps1 classic and play it on there. I wouldn't recommend that, but you technically *can* play it. You can also emulate the ps1 version of the game yourself and get several enhancements that way.",
-      "createdAt": "2026-11-21T12:54:14.561Z",
-      "likes": 0,
-      "replies": 1,
-      "group": "classicPC",
-      "query": "classic pc game",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": true,
-      "media": null,
-      "firstSeen": "2026-11-21T19:12:22.958Z"
-    },
     "at://did:plc:b4rmswtlsg53tnqzbmbvakda/app.bsky.feed.post/3n2tohiunsk2o": {
       "uri": "at://did:plc:b4rmswtlsg53tnqzbmbvakda/app.bsky.feed.post/3n2tohiunsk2o",
       "url": "https://bsky.app/profile/cenrji.bsky.social/post/3n2tohiunsk2o",
@@ -675,7 +585,7 @@
       "likes": 0,
       "replies": 1,
       "group": "classicPC",
-      "query": "old pc game",
+      "query": "old pc games",
       "score": 6,
       "question": false,
       "heated": false,
@@ -783,7 +693,7 @@
       "likes": 3,
       "replies": 1,
       "group": "childhood",
-      "query": "childhood game",
+      "query": "childhood favorite game",
       "score": 7,
       "question": false,
       "heated": false,
@@ -819,7 +729,7 @@
       "likes": 0,
       "replies": 0,
       "group": "classicPC",
-      "query": "dos game",
+      "query": "dos games",
       "score": 6,
       "question": false,
       "heated": false,
@@ -942,7 +852,7 @@
       "name": "Bilhões and Billions",
       "text": "antes de ficar noiado com qual é o cidadão kane dos video games a gente tem que achar o wizardry dos filmes primeiro",
       "createdAt": "2026-11-22T01:48:31.723Z",
-      "likes": 4,
+      "likes": 6,
       "replies": 0,
       "group": "classicPC",
       "query": "dos games",
@@ -950,78 +860,6 @@
       "question": false,
       "heated": false,
       "isReply": true,
-      "media": null,
-      "firstSeen": "2026-11-22T06:41:43.079Z"
-    },
-    "at://did:plc:pen2amky4czcrjhsyhwqpave/app.bsky.feed.post/3n2u2xsebt22r": {
-      "uri": "at://did:plc:pen2amky4czcrjhsyhwqpave/app.bsky.feed.post/3n2u2xsebt22r",
-      "url": "https://bsky.app/profile/klneidecker.com/post/3n2u2xsebt22r",
-      "handle": "klneidecker.com",
-      "name": "K.L. Neidecker",
-      "text": "Hell yeah. DOS. NES. Infocom, Interplay, Binary Systems, Looking Glass Software. Anyone who can make quality games that don’t need a graphics card that either A) costs $1800 now because reasons or B) can’t be bought because no stock, will fill a niche and be rewarded.",
-      "createdAt": "2026-11-21T21:42:08.307Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "classicPC",
-      "query": "dos games",
-      "score": 10,
-      "question": true,
-      "heated": false,
-      "isReply": true,
-      "media": null,
-      "firstSeen": "2026-11-22T06:41:43.079Z"
-    },
-    "at://did:plc:pen2amky4czcrjhsyhwqpave/app.bsky.feed.post/3n2tzlfmg322r": {
-      "uri": "at://did:plc:pen2amky4czcrjhsyhwqpave/app.bsky.feed.post/3n2tzlfmg322r",
-      "url": "https://bsky.app/profile/klneidecker.com/post/3n2tzlfmg322r",
-      "handle": "klneidecker.com",
-      "name": "K.L. Neidecker",
-      "text": "Hey, people who enjoy games. AMD has paused making new models of cards since data centers make them more money than you. Nvidia is… well, we all know. So. I’d recommend enjoying some old DOS games, indie games that don’t require heavy graphic cards, etc. Gonna get real dry GPU-wise for a while.",
-      "createdAt": "2026-11-21T21:17:18.545Z",
-      "likes": 0,
-      "replies": 1,
-      "group": "askRetro",
-      "query": "old games recommend",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": null,
-      "firstSeen": "2026-11-22T06:41:43.079Z"
-    },
-    "at://did:plc:expd6mxll2savdjd2xwwzwkr/app.bsky.feed.post/3n2tyw2c4fc2d": {
-      "uri": "at://did:plc:expd6mxll2savdjd2xwwzwkr/app.bsky.feed.post/3n2tyw2c4fc2d",
-      "url": "https://bsky.app/profile/priscillakim.bsky.social/post/3n2tyw2c4fc2d",
-      "handle": "priscillakim.bsky.social",
-      "name": "Priscilla Kim",
-      "text": "\"When was the first time you killed a man?\" *slow drag on cigarette, distant look in eyes* \"... it was the days of DOS text parser adventure games. King's Quest 2. The church.\" \"No. You typed...?\" \"Yes. 'kill monk'.\"",
-      "createdAt": "2026-11-21T21:05:22.033Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "classicPC",
-      "query": "dos games",
-      "score": 9,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": null,
-      "firstSeen": "2026-11-22T06:41:43.079Z"
-    },
-    "at://did:plc:etyn6k4nve4tqsthlheakrrq/app.bsky.feed.post/3n2tymipv322m": {
-      "uri": "at://did:plc:etyn6k4nve4tqsthlheakrrq/app.bsky.feed.post/3n2tymipv322m",
-      "url": "https://bsky.app/profile/stormvisions.bsky.social/post/3n2tymipv322m",
-      "handle": "stormvisions.bsky.social",
-      "name": "Stormvisions",
-      "text": "A three-page experiment inspired by old DOS-era “What will you do?” games somehow grew—in my usual Burt fashion—into a larger interactive story. The story’s finished; bonus ideas may follow. Please have a look at The Sixth Window and let me know what you think. stormvisions.com/the-sixth-wi...",
-      "createdAt": "2026-11-21T21:00:01.612Z",
-      "likes": 0,
-      "replies": 1,
-      "group": "classicPC",
-      "query": "dos games",
-      "score": 9,
-      "question": true,
-      "heated": false,
-      "isReply": false,
       "media": null,
       "firstSeen": "2026-11-22T06:41:43.079Z"
     },
@@ -1122,7 +960,7 @@
       "name": "Chris Monka",
       "text": "I'll be playing Shoyu Ramen Forever tonight @ 9 PM CST! ngl it's a horror game 😭 I've seen some of the screenshots on Steam, and it has a retro graphical aesthetic to it that looks really cool! I haven't seen anything else besides that, but I'm always excited to play new horror games! It'll be fun!",
       "createdAt": "2026-11-22T00:31:45.324Z",
-      "likes": 140,
+      "likes": 144,
       "replies": 1,
       "group": "retroBuying",
       "query": "retro game steam",
@@ -1284,7 +1122,7 @@
       "name": "Kellan jett",
       "text": "First time a sunset made we wanna play a video game",
       "createdAt": "2026-11-22T18:34:22.714Z",
-      "likes": 3,
+      "likes": 6,
       "replies": 0,
       "group": "childhood",
       "query": "first video game",
@@ -1428,7 +1266,7 @@
       "name": "Infomercial",
       "text": "OK grandma, so it starts with this game called depression quest--actually first we need talk about your feelings on video game journalism ethics",
       "createdAt": "2026-11-22T15:17:58.646Z",
-      "likes": 156,
+      "likes": 170,
       "replies": 0,
       "group": "childhood",
       "query": "first video game",
@@ -1446,11 +1284,11 @@
       "name": "BB \"Juniper\" Abaddon",
       "text": "these damn video game women have me writing again for the first time in a long while",
       "createdAt": "2026-11-22T13:26:32.269Z",
-      "likes": 9,
+      "likes": 10,
       "replies": 1,
       "group": "childhood",
       "query": "first video game",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -1662,7 +1500,7 @@
       "name": "Mike Boylan-Kolchin",
       "text": "the worst people you know: thinking they're saving the world by giving the most popular video game in history a low score on metacritic average hetero 25 year old man: buying his special lady flowers for the first time and doing chores because of the most popular video game in history",
       "createdAt": "2026-11-22T03:53:15.582Z",
-      "likes": 185,
+      "likes": 186,
       "replies": 0,
       "group": "childhood",
       "query": "first video game",
@@ -1925,24 +1763,6 @@
       "media": null,
       "firstSeen": "2026-11-22T18:49:16.187Z"
     },
-    "at://did:plc:m2hkmuak6wwoa2kqi3uqavwp/app.bsky.feed.post/3n2ucvdzrac2n": {
-      "uri": "at://did:plc:m2hkmuak6wwoa2kqi3uqavwp/app.bsky.feed.post/3n2ucvdzrac2n",
-      "url": "https://bsky.app/profile/gperson.bsky.social/post/3n2ucvdzrac2n",
-      "handle": "gperson.bsky.social",
-      "name": "@gperson.bsky.social",
-      "text": "Breaking: Trump family releases its first video game for X-Box “Grand Theft America”",
-      "createdAt": "2026-11-22T00:03:56.107Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "childhood",
-      "query": "first video game",
-      "score": 5,
-      "question": false,
-      "heated": true,
-      "isReply": false,
-      "media": null,
-      "firstSeen": "2026-11-22T18:49:16.187Z"
-    },
     "at://did:plc:sjiqjo33a3br4iyed7ph5oym/app.bsky.feed.post/3n2ub24egzx2m": {
       "uri": "at://did:plc:sjiqjo33a3br4iyed7ph5oym/app.bsky.feed.post/3n2ub24egzx2m",
       "url": "https://bsky.app/profile/nospinmedia.bsky.social/post/3n2ub24egzx2m",
@@ -2102,24 +1922,6 @@
       "question": false,
       "heated": false,
       "isReply": true,
-      "media": null,
-      "firstSeen": "2026-11-22T18:49:16.187Z"
-    },
-    "at://did:plc:yhh5kvvjqtsvndm3ts6nb2z7/app.bsky.feed.post/3n2vzealqqs2f": {
-      "uri": "at://did:plc:yhh5kvvjqtsvndm3ts6nb2z7/app.bsky.feed.post/3n2vzealqqs2f",
-      "url": "https://bsky.app/profile/ananassapps.bsky.social/post/3n2vzealqqs2f",
-      "handle": "ananassapps.bsky.social",
-      "name": "Ananass Apps",
-      "text": "Tell us your favorite childhood PC game!",
-      "createdAt": "2026-11-22T16:18:37.878Z",
-      "likes": 2,
-      "replies": 1,
-      "group": "childhood",
-      "query": "childhood game",
-      "score": 8,
-      "question": false,
-      "heated": false,
-      "isReply": false,
       "media": null,
       "firstSeen": "2026-11-22T18:49:16.187Z"
     },
@@ -2303,24 +2105,6 @@
       "media": null,
       "firstSeen": "2026-11-22T18:49:16.187Z"
     },
-    "at://did:plc:xocpeggdvd5qzcpl3aynmc3f/app.bsky.feed.post/3n2w4sku5z22s": {
-      "uri": "at://did:plc:xocpeggdvd5qzcpl3aynmc3f/app.bsky.feed.post/3n2w4sku5z22s",
-      "url": "https://bsky.app/profile/pkcoaltrain.bsky.social/post/3n2w4sku5z22s",
-      "handle": "pkcoaltrain.bsky.social",
-      "name": "PKCoalTrain",
-      "text": "I was nominated for Best Retro Gamer for #FriendoYearEndo Awards! Its a small streamer award show to celebrate and acknowledge indie games, gamers and small streamers. SUPER AWESOME SURPRISE! VOTE HERE: friendoyearendo.com/voting I'm under \"Best Retro Gamer\" and I appreciate everyone!",
-      "createdAt": "2026-11-22T17:20:19.628Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "askRetro",
-      "query": "best retro games",
-      "score": 10,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "link card: FriendoYearEndo | Awards",
-      "firstSeen": "2026-11-22T18:49:16.187Z"
-    },
     "at://did:plc:53ono3ddzmcwhomsnt4dba3b/app.bsky.feed.post/3n2w3pmphlk2m": {
       "uri": "at://did:plc:53ono3ddzmcwhomsnt4dba3b/app.bsky.feed.post/3n2w3pmphlk2m",
       "url": "https://bsky.app/profile/petermarzano.bsky.social/post/3n2w3pmphlk2m",
@@ -2411,24 +2195,6 @@
       "media": "image, no description",
       "firstSeen": "2026-11-22T18:49:16.187Z"
     },
-    "at://did:plc:odt5jue4fpfofdfeeda6pfzo/app.bsky.feed.post/3n2w3oedujs2x": {
-      "uri": "at://did:plc:odt5jue4fpfofdfeeda6pfzo/app.bsky.feed.post/3n2w3oedujs2x",
-      "url": "https://bsky.app/profile/bro3256.com/post/3n2w3oedujs2x",
-      "handle": "bro3256.com",
-      "name": "Brenden",
-      "text": "Many retro game folks are aware of Tengen's version of Tetris for NES and the infamous story surrounding it, but did you know they were actually planning on releasing it as an officially licensed Nintendo game? Box art for the licensed version can be seen in early print ads before Tengen went rogue.",
-      "createdAt": "2026-11-22T17:00:04.825Z",
-      "likes": 3,
-      "replies": 2,
-      "group": "retroFeed",
-      "query": "feed",
-      "score": 9,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "2 images: Early licensed NES box art. / Retail released unlicensed box art.",
-      "firstSeen": "2026-11-22T18:49:16.187Z"
-    },
     "at://did:plc:l4eqnmmtmp44os462eybdfmk/app.bsky.feed.post/3n2w3dfdupc23": {
       "uri": "at://did:plc:l4eqnmmtmp44os462eybdfmk/app.bsky.feed.post/3n2w3dfdupc23",
       "url": "https://bsky.app/profile/masterbismuth.bsky.social/post/3n2w3dfdupc23",
@@ -2490,7 +2256,7 @@
       "name": "Matt Hughson (NES & GB Dev)",
       "text": "Dream of creating SNES games? Over the past week, I've been diving into #snesdev and refining a tutorial along the way. In 4 short lessons you can go from \"HELLO WORLD\" to a full SNES game, complete with mouse input, HDMA, color math, and more! mhughson.github.io/mbh-pvsnesli...",
       "createdAt": "2026-11-22T15:47:07.576Z",
-      "likes": 21,
+      "likes": 22,
       "replies": 1,
       "group": "retroFeed",
       "query": "feed",
@@ -2518,6 +2284,60 @@
       "isReply": false,
       "media": "image, no description",
       "firstSeen": "2026-11-22T18:49:16.187Z"
+    },
+    "at://did:plc:m2yuqynl2cttvi4k5453yegh/app.bsky.feed.post/3n2vwbvg32hw2": {
+      "uri": "at://did:plc:m2yuqynl2cttvi4k5453yegh/app.bsky.feed.post/3n2vwbvg32hw2",
+      "url": "https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3n2vwbvg32hw2",
+      "handle": "feed.igeek.gamer-geek-news.com.ap.brid.gy",
+      "name": "input",
+      "text": "📰 **Underworld Exhumed - A decompile of both incredible RPG DOS games with native ports for Windows and more!** Well here's another reason to visit this classic RPG series, as we welcome the latest update of Underworld Exhumed, a massive preservation project by developer abedegno that brings […]",
+      "createdAt": "2026-11-22T15:21:50.000Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "classicPC",
+      "query": "dos games",
+      "score": 7,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "link card: Original post on igeek.gamer-geek-news.com",
+      "firstSeen": "2026-11-22T19:34:22.372Z"
+    },
+    "at://did:plc:jzyaepqjt7uh3yyqlzq2pwd6/app.bsky.feed.post/3n2we637ogk2q": {
+      "uri": "at://did:plc:jzyaepqjt7uh3yyqlzq2pwd6/app.bsky.feed.post/3n2we637ogk2q",
+      "url": "https://bsky.app/profile/thefeaturecreachur.bsky.social/post/3n2we637ogk2q",
+      "handle": "thefeaturecreachur.bsky.social",
+      "name": "Creach",
+      "text": "Dude. Today was AWESOME. Just bought myself a development build of my favorite old game from an evil old man at a garage sale. Even better? My favorite character is playable and flashed my real name on-screen. And the screen is glowing ominously? Must be loading something big. Best. Day. Ever.",
+      "createdAt": "2026-11-22T19:32:02.073Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "retroBuying",
+      "query": "old game on sale",
+      "score": 10,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "media": null,
+      "firstSeen": "2026-11-22T19:34:22.372Z"
+    },
+    "at://did:plc:kh2oghs5wa2j2hmyc6qbc7xv/app.bsky.feed.post/3n2wb4qgv5225": {
+      "uri": "at://did:plc:kh2oghs5wa2j2hmyc6qbc7xv/app.bsky.feed.post/3n2wb4qgv5225",
+      "url": "https://bsky.app/profile/trashlevania.bsky.social/post/3n2wb4qgv5225",
+      "handle": "trashlevania.bsky.social",
+      "name": "Trash",
+      "text": "Happy 32nd anniversary to the Sega Saturn (in Japan)! Legit my favorite console of all time. Also if you need recs for the obscure, wild shit then look no further than trans women. Immaculate taste in video games, particularly on this console.",
+      "createdAt": "2026-11-22T18:37:35.991Z",
+      "likes": 3,
+      "replies": 1,
+      "group": "retroFeed",
+      "query": "feed",
+      "score": 7,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "media": null,
+      "firstSeen": "2026-11-22T19:34:22.372Z"
     }
   }
 }

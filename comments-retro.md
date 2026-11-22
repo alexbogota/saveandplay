@@ -1,52 +1,53 @@
 # Comment candidates: retro (@retrogamedeals.bsky.social)
-Made 2026-11-22T18:49Z. Searched: childhood: childhood game | childhood: game from my childhood | childhood: childhood favorite game | childhood: games from my childhood | classicPC: classic pc game | classicPC: old pc games | classicPC: dos games | classicPC: classic pc games | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: retro game recommendations | askRetro: old games recommend | askRetro: retro games recommend | askRetro: best retro games | retroFeed: feed.
-Posts below: 12 + 1 heated. Dropped in this run: bot, shop or studio 14, not about games 57, skip word 45, too short 5, already shown 7, replies are limited 3, too many hashtags 5, promo (link and hashtags) 1, already answered 2, not a question 30, other language (text) 6, other language 28, earlier finds: low score 7.
+Made 2026-11-22T19:34Z. Searched: childhood: first video game | childhood: played this as a kid game | childhood: first pc game | childhood: childhood game | classicPC: old pc game | classicPC: retro pc gaming | classicPC: dos game | classicPC: classic pc game | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: best old games | askRetro: old game recommend | askRetro: retro game recommendations | askRetro: old games recommend | retroFeed: feed.
+Posts below: 12 + 1 heated. Dropped in this run: empty 1, not about games 97, skip word 69, bot, shop or studio 22, too short 7, low score 17, promo (link and hashtags) 4, already shown 10, already answered 4, replies are limited 7, adult or graphic label 2, too many hashtags 4, other language (text) 6, own post 2, other language 27, not a question 29.
 
 ## Posts
-1. @sylvadragon.bsky.social (Sylva Dragon) · 4h · likes 1 · replies 1 · question · classicPC
-   https://bsky.app/profile/sylvadragon.bsky.social/post/3n2vvay2pzk2o
-   Organised chaos then? lol. 😂 It's better than what I have, a few cupboards full to overflowing with old pc games, dvds, lightbulbs and all kinds of other stuff. then plastic crates with plushies on top.
-2. @pkcoaltrain.bsky.social (PKCoalTrain) · 1h · likes 0 · replies 0 · question · askRetro
-   https://bsky.app/profile/pkcoaltrain.bsky.social/post/3n2w4sku5z22s
-   I was nominated for Best Retro Gamer for #FriendoYearEndo Awards! Its a small streamer award show to celebrate and acknowledge indie games, gamers and small streamers. SUPER AWESOME SURPRISE! VOTE HERE: friendoyearendo.com/voting I'm under "Best Retro Gamer" and I appreciate ever
-   [link card: FriendoYearEndo | Awards]
-3. @klneidecker.com (K.L. Neidecker) · 21h · likes 1 · replies 0 · question · classicPC
-   https://bsky.app/profile/klneidecker.com/post/3n2u2xsebt22r
-   Hell yeah. DOS. NES. Infocom, Interplay, Binary Systems, Looking Glass Software. Anyone who can make quality games that don’t need a graphics card that either A) costs $1800 now because reasons or B) can’t be bought because no stock, will fill a niche and be rewarded.
-4. @priscillakim.bsky.social (Priscilla Kim) · 22h · likes 1 · replies 0 · question · classicPC
-   https://bsky.app/profile/priscillakim.bsky.social/post/3n2tyw2c4fc2d
-   "When was the first time you killed a man?" *slow drag on cigarette, distant look in eyes* "... it was the days of DOS text parser adventure games. King's Quest 2. The church." "No. You typed...?" "Yes. 'kill monk'."
-5. @bro3256.com (Brenden) · 2h · likes 3 · replies 2 · question · retroFeed
-   https://bsky.app/profile/bro3256.com/post/3n2w3oedujs2x
-   Many retro game folks are aware of Tengen's version of Tetris for NES and the infamous story surrounding it, but did you know they were actually planning on releasing it as an officially licensed Nintendo game? Box art for the licensed version can be seen in early print ads befor
-   [2 images: Early licensed NES box art. / Retail released unlicensed box art.]
-6. @stormvisions.bsky.social (Stormvisions) · 22h · likes 0 · replies 1 · question · classicPC
-   https://bsky.app/profile/stormvisions.bsky.social/post/3n2tymipv322m
-   A three-page experiment inspired by old DOS-era “What will you do?” games somehow grew—in my usual Burt fashion—into a larger interactive story. The story’s finished; bonus ideas may follow. Please have a look at The Sixth Window and let me know what you think. stormvisions.com/t
-7. @classicgames.bsky.social (Classic Game Sessions) · 2h · likes 17 · replies 1 · classicPC
-   https://bsky.app/profile/classicgames.bsky.social/post/3n2w2k3p5m22c
-   Zak McKracken and the Alien Mindbenders (Lucasfilm Games, 1988) for DOS
-   [image: CRT photo of Zak McKracken and the Alien Mindbenders (Lucasfilm Games, 1988) for DOS. Zak awakes in his bedroom and starts his day.]
-8. @ananassapps.bsky.social (Ananass Apps) · 3h · likes 2 · replies 1 · childhood
-   https://bsky.app/profile/ananassapps.bsky.social/post/3n2vzealqqs2f
-   Tell us your favorite childhood PC game!
-9. @thepixelhangout.bsky.social (The Pixel Hangout) · 3h · likes 0 · replies 0 · question · retroFeed
+1. @mylittleretro.bsky.social (My little retro computer world) · 2h · likes 1 · replies 0 · question · classicPC
+   https://bsky.app/profile/mylittleretro.bsky.social/post/3n2w6utfgms2k
+   Wo ist Fritz? Indiana Jones and the Fate of Atlantis (1992), one of my all-time favourites and the adventure game closest to my heart. The floppy version, running on my DX4-100 DOS PC with a Roland MT-32. Just listen to that soundtrack. #RetroGaming #DOS #MT32 #LucasArts
+   [video, no description]
+2. @damiensturdy.bsky.social (MadDamo (Wish it were the 80's Pat!)) · 3h · likes 1 · replies 2 · question · childhood
+   https://bsky.app/profile/damiensturdy.bsky.social/post/3n2vzmhwjy224
+   I've been doing this for a *long* time. 26 years since my first PC game (and many small unfinished ones before). Havent released anything in years but I remember you first popping up a while back and seeing you continue to create and release stuff helps me keep faith in the profe
+3. @cellarette.bsky.social (Eileen M. Duffy) · 3h · likes 1 · replies 1 · question · childhood
+   https://bsky.app/profile/cellarette.bsky.social/post/3n2w2yekxlk2n
+   Ahhhh. So there's some social commentary in this game. Not just first person shooter stuff? It's been a big week for a popular culture with that video game in James Bond
+4. @cerulenyan.bsky.social (Lapis) · 2h · likes 1 · replies 0 · classicPC
+   https://bsky.app/profile/cerulenyan.bsky.social/post/3n2w6ikatjk2o
+   it seems like they get quieter around halfway through the song and they just. never get reset. anyways that's your random old pc game trivia for the day (probably) (there could always be more)
+5. @feed.igeek.gamer-geek-news.com.ap.brid.gy (input) · 3h · likes 4 · replies 0 · classicPC
+   https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3n2vzt7nd3r32
+   📰 **6 handy ways you can use your old mini PC** From retro gaming consoles to home media servers, discover six handy ways to repurpose your old mini PC and give the hardware a new lease on life. 📰 Source: Engadget - Technology News & Expert […] [Original post on igeek.gamer-gee
+   [image: Image for: 6 handy ways you can use your old mini PC]
+6. @thepixelhangout.bsky.social (The Pixel Hangout) · 4h · likes 0 · replies 0 · question · retroFeed
    https://bsky.app/profile/thepixelhangout.bsky.social/post/3n2vxj5fk5m27
    🪐 32 years ago today, the Sega Saturn launched in Japan! From Virtua Fighter to Sega Rally, NiGHTS, and Panzer Dragoon, it left behind a fascinating library of arcade classics and cult favorites. Did you own a Saturn? #PixelBytes #ThePixelHangout #SegaSaturn #RetroGaming Links i
    [image, no description]
-10. @scootypuff.bsky.social (Scootypuff) · 24h · likes 1 · replies 1 · question · childhood
+7. @scootypuff.bsky.social (Scootypuff) · 25h · likes 1 · replies 1 · question · childhood
    https://bsky.app/profile/scootypuff.bsky.social/post/3n2tqzva6mk2i
    People understand that the John Wick movies are set in a video game, right? It’s lampshaded in the first movie with the characters playing games, the coins, the radio announcements, the lead actor from The Matrix, some of the shots, particularly the overhead room clearing scene w
-11. @zerbraxi.bsky.social (Warrior Cook Zerbraxi) · 6m · likes 0 · replies 0 · classicPC
+8. @promobit-promo.bsky.social (Promobit) · 5m · likes 0 · replies 0 · classicPC
+   https://bsky.app/profile/promobit-promo.bsky.social/post/57k4yvifkswo7
+   KIWITATA Classic N64 Wired Controller Retro N64 Remote USB Game Pad Joystick Controller for Windows PC MAC Linux Raspbe
+   [link card: Por R$ 132,81: KIWITATA Classic Wired Linux Raspbe]
+9. @zerbraxi.bsky.social (Warrior Cook Zerbraxi) · 51m · likes 0 · replies 0 · classicPC
    https://bsky.app/profile/zerbraxi.bsky.social/post/3n2wbglyfas2y
    Will be keeping an eye on this for sure. Obligatory reminder that gog.com exists and even includes several PlayStation games as DRM-Free despite Sony saying it's unreasonable to expect to own a digital good.
    [link card: Welcome to GOG.com | best PC games DRM-free; quotes @blackazizanansi.blacksky.app: YES!!!!!!!! floridianpress.com/2026/11/maxw...]
-12. @masterbismuth.bsky.social (MasterBismuth) · 2h · likes 1 · replies 0 · question · retroFeed
+10. @trashlevania.bsky.social (Trash) · 57m · likes 3 · replies 1 · question · retroFeed
+   https://bsky.app/profile/trashlevania.bsky.social/post/3n2wb4qgv5225
+   Happy 32nd anniversary to the Sega Saturn (in Japan)! Legit my favorite console of all time. Also if you need recs for the obscure, wild shit then look no further than trans women. Immaculate taste in video games, particularly on this console.
+11. @masterbismuth.bsky.social (MasterBismuth) · 3h · likes 1 · replies 0 · question · retroFeed
    https://bsky.app/profile/masterbismuth.bsky.social/post/3n2w3dfdupc23
    Hmm, a PS2 port of the Nintendo DS English script for Flower, Sun and Rain? You don't say? Now that is quite intriguing indeed.
    [quotes @romhack.ing: Flower, Sun and Rain - English Translation (DS Script Port with edit​s) (Complete) (PS2) Added]
+12. @segacity.bsky.social (SEGA City) · 3h · likes 17 · replies 1 · question · retroFeed
+   https://bsky.app/profile/segacity.bsky.social/post/3n2vzm4aevg2p
+   'Pitfall: The Mayan Adventure' was a visually beautiful sequel to the Atari 2600 game. Did you play it on the Genesis, SEGA CD or 32X? (Don't play it on the 32X)
+   [image: 'Pitfall: The Mayan Adventure' was a visually beautiful sequel to the Atari 2600 game. Did you play it on the Genesis, SEGA CD or 32X? (Don't play it on the 32…]
 
 ## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @gperson.bsky.social (@gperson.bsky.social) · 19h · likes 1 · replies 0 · childhood
-   https://bsky.app/profile/gperson.bsky.social/post/3n2ucvdzrac2n
-   Breaking: Trump family releases its first video game for X-Box “Grand Theft America”
+1. @spiegz.bsky.social (Spiegz) · 12h · likes 1 · replies 1 · question · askRetro
+   https://bsky.app/profile/spiegz.bsky.social/post/3n2v3koprps2p
+   I hate how boomy this makes me sound, but this AI hardware bubble has gotta GO. 6 year old console is more expensive than it was at launch? Back in my day, a 6 year old console cost $250 and came with 2 of the best games available bundled in for free.
