@@ -1,0 +1,23 @@
+{
+  "madeAt": "2026-11-22T09:03:40.570Z",
+  "run": "45005057695",
+  "private": false,
+  "entries": [
+    {
+      "block": "prices",
+      "handle": "saveandplay.com",
+      "n": 1,
+      "uri": "at://did:plc:s4klurocqfydzgf4w2cd5gti/app.bsky.feed.post/3n2ugs6gb3s2h",
+      "url": "https://bsky.app/profile/acephoenix.bsky.social/post/3n2ugs6gb3s2h",
+      "author": "acephoenix.bsky.social",
+      "text": "The Deck's SSD is a standard M.2 2230 drive, and Valve has a replacement guide, so a shop that does small electronics repair can usually swap it. Worth asking them about warranty first.",
+      "approvedFile": "comments-approved-prices-20261122-082423-20261122-085520.json",
+      "approvedAt": "2026-11-22T08:55:20.103Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-22T09:03:41.840Z",
+      "replyUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n2vb2jh73f2a",
+      "replyUrl": "https://bsky.app/profile/saveandplay.com/post/3n2vb2jh73f2a"
+    }
+  ]
+}
