@@ -1,0 +1,41 @@
+{
+  "approvedAt": "2026-11-22T18:51:22.531Z",
+  "items": [
+    {
+      "n": 1,
+      "kind": "deal",
+      "platform": "bluesky",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nPrice checked Nov 22. Sale ends Nov 26. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-22\n\n#PCGaming #GameDeals #ThisWarOfMine #VideoGames #DRMFree\nAd",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-22",
+      "day": "2026-11-22",
+      "key": "prices|2026-11-22|/deals/gog/this-war-of-mine/",
+      "notBefore": "2026-11-22T18:51:22.531Z"
+    },
+    {
+      "n": 2,
+      "kind": "deal",
+      "platform": "bluesky",
+      "account": "prices-2",
+      "handle": "saveandplay.com",
+      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Nov 22. Sale ends Nov 26. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-22\n\n#PCGaming #GameDeals #PCGames #GOG #VideoGames\nAd",
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-22",
+      "day": "2026-11-22",
+      "key": "prices-2|2026-11-22|/deals/gog/simcity-4-deluxe-edition/",
+      "notBefore": "2026-11-22T20:51:22.531Z"
+    },
+    {
+      "n": 6,
+      "kind": "article",
+      "platform": "bluesky",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "text": "If you gift a Steam game and it gets refunded, the money goes back to you, the buyer. A redeemed gift can only be refunded if the recipient asks. Our checklist before gifting:\nhttps://saveandplay.com/guides/steam-gifts-what-the-rules-say/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-steam-gifts\n#PCGaming #GameDeals #Steam",
+      "link": "https://saveandplay.com/guides/steam-gifts-what-the-rules-say/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-steam-gifts",
+      "day": null,
+      "key": "prices|article|/guides/steam-gifts-what-the-rules-say/",
+      "notBefore": "2026-11-22T22:51:22.531Z"
+    }
+  ]
+}

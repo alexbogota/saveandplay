@@ -1,0 +1,19 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-prices-20261122-184637.json",
+  "approvedAt": "2026-11-22T18:51:27.923Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:dwvhxjgyawd7fo4lph2y5ccr/app.bsky.feed.post/3n2vcq5oh6c2g",
+      "url": "https://bsky.app/profile/electricbirds.bsky.social/post/3n2vcq5oh6c2g",
+      "author": "electricbirds.bsky.social",
+      "context": "I can't decide which one to take on vacation. Sampling fun with Torso S4 or gaming madness with Steam Deck? I can only fit one...\nimage: A picture of a steam deck and the Torso s4 sampler",
+      "text": "For travel I'd take the Steam Deck. Suspend mode lets you pause mid-game for a snack or a landing and pick up right where you left off.",
+      "edited": false,
+      "verify": "Если хочешь, проверь, что Deck и правда лучше для поездки; ответ шуточный и безопасный."
+    }
+  ]
+}
