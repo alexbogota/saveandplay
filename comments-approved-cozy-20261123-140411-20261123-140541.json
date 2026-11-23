@@ -1,0 +1,27 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-cozy-20261123-140411.json",
+  "approvedAt": "2026-11-23T14:05:41.776Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:jr5w4stwgdxuaow7a4nh54tr/app.bsky.feed.post/3n2wgc6tmys2j",
+      "url": "https://bsky.app/profile/linafox.bsky.social/post/3n2wgc6tmys2j",
+      "author": "linafox.bsky.social",
+      "context": "Anyone else play #StardewValley? I see it on iOS and I kinda want it but I also don’t wanna spend money and be bored lol I’ve seen over the years people love it and I do love a cozy game",
+      "text": "If you love cozy games, Stardew is a very safe bet. It's slow and gentle, you set your own pace, and the first few in-game days show quickly whether the loop clicks for you.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:hze47ijhxsahalkxs2fh2py6/app.bsky.feed.post/3n2wm2kinzk2y",
+      "url": "https://bsky.app/profile/renochevre.bsky.social/post/3n2wm2kinzk2y",
+      "author": "renochevre.bsky.social",
+      "context": "My fav type of game actually is Chore Simulator 3000 (while also never touching the main storyline until I absolutely have to). \"Who are these farming sims/railroad sims/open world/etc. games for?\" Me, next question.",
+      "text": "Same here. A good chore loop is oddly relaxing, and farming sims are made for exactly that.",
+      "edited": false
+    }
+  ]
+}
