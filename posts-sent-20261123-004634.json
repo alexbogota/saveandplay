@@ -1,0 +1,36 @@
+{
+  "madeAt": "2026-11-23T00:46:34.558Z",
+  "run": "45090727375",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices-2|2026-11-22|/deals/gog/simcity-4-deluxe-edition/",
+      "account": "prices-2",
+      "handle": "saveandplay.com",
+      "n": 2,
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-22",
+      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Nov 22. Sale ends Nov 26. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-22\n\n#PCGaming #GameDeals #PCGames #GOG #VideoGames\nAd",
+      "approvedFile": "posts-approved-20261122-185122.json",
+      "approvedAt": "2026-11-22T18:51:22.531Z",
+      "status": "skipped",
+      "reason": "already posted: https://bsky.app/profile/saveandplay.com/post/3n2thh5vjly2s",
+      "at": "2026-11-23T00:46:35.708Z"
+    },
+    {
+      "key": "prices|article|/guides/steam-gifts-what-the-rules-say/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 6,
+      "link": "https://saveandplay.com/guides/steam-gifts-what-the-rules-say/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-steam-gifts",
+      "text": "If you gift a Steam game and it gets refunded, the money goes back to you, the buyer. A redeemed gift can only be refunded if the recipient asks. Our checklist before gifting:\nhttps://saveandplay.com/guides/steam-gifts-what-the-rules-say/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-steam-gifts\n#PCGaming #GameDeals #Steam",
+      "approvedFile": "posts-approved-20261122-185122.json",
+      "approvedAt": "2026-11-22T18:51:22.531Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-23T00:46:38.202Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n2wvqmcl7c22",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3n2wvqmcl7c22",
+      "picture": true
+    }
+  ]
+}
