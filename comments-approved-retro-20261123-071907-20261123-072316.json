@@ -1,0 +1,36 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-retro-20261123-071907.json",
+  "approvedAt": "2026-11-23T07:23:16.106Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:wrq2ddz23tcsutcovjzhaxdb/app.bsky.feed.post/3n2wvidldk2ip",
+      "url": "https://bsky.app/profile/chrispirillo.bsky.social/post/3n2wvidldk2ip",
+      "author": "chrispirillo.bsky.social",
+      "context": "A disc that nothing on that machine could open becomes a drive letter you can type at a prompt, and that covers a lot of machines people still keep in a closet. Do you keep an old DOS or Windows 95 computer around for games or old files?",
+      "text": "Not a whole machine, but old DOS games are easy to keep. GOG sells many of them DRM-free with DOSBox already set up, so the closet PC isn't required.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:kqiuzaqb7dsz6kl4i554dolr/app.bsky.feed.post/3n2w6utfgms2k",
+      "url": "https://bsky.app/profile/mylittleretro.bsky.social/post/3n2w6utfgms2k",
+      "author": "mylittleretro.bsky.social",
+      "context": "Wo ist Fritz? Indiana Jones and the Fate of Atlantis (1992), one of my all-time favourites and the adventure game closest to my heart. The floppy version, running on my DX4-100 DOS PC with a Roland MT-32. Just listen to that soundtrack. #RetroGaming #DOS #MT32 #LucasArts\nvideo, no description",
+      "text": "That MT-32 soundtrack on real hardware must sound wonderful. Fate of Atlantis was a high point of the LucasArts adventures.",
+      "edited": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:f7vlmbuddsmfyzc6tc5udpgv/app.bsky.feed.post/3n2wqgggemc2r",
+      "url": "https://bsky.app/profile/hbgamer.bsky.social/post/3n2wqgggemc2r",
+      "author": "hbgamer.bsky.social",
+      "context": "Drawn to Life (Nintendo DS) Finally finished a game I remember from my childhood. Its charming and the drawing aspect is amazing. The gameplay though I feel is just ok as the platforming is fine but the level design is a mixed bag. Bosses are also kind of annoying. That said good game. 7/10\nimage, no description",
+      "text": "Finishing a game from your childhood is a great feeling, and drawing your own hero was such a fun hook.",
+      "edited": false
+    }
+  ]
+}

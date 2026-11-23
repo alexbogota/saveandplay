@@ -1,0 +1,36 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-prices-20261123-071907.json",
+  "approvedAt": "2026-11-23T07:23:15.809Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:etl7rrmoaqgsieua6mg4euz6/app.bsky.feed.post/3n2xdgpmkz22h",
+      "url": "https://bsky.app/profile/fenrirreki.bsky.social/post/3n2xdgpmkz22h",
+      "author": "fenrirreki.bsky.social",
+      "context": "Still debating whether or not it'll be worth my $120+ to buy stage tour + a new guitar just for it. I kind of want the midnight guitar. Maybe i'll just wait for a sale on the midnight guitar and the game?",
+      "text": "Waiting is a fair call when you're only half sure. Check the game's price history first, so you know what a real low looks like.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:cv4msn33lghml5w7fhetllal/app.bsky.feed.post/3n2x6ockze227",
+      "url": "https://bsky.app/profile/sadieadie.bsky.social/post/3n2x6ockze227",
+      "author": "sadieadie.bsky.social",
+      "context": "I think I played one on your recommendation a couple years ago but I didn't stick with it! I have a hard time sticking with PC games because I prefer to lay down when I play something and have the screen inches from my face 😂 I need a steam deck or something someday",
+      "text": "A Steam Deck is that exact setup: lie back, screen close, no desk. Every Steam store page shows the game's Deck status too, so you can check before buying.",
+      "edited": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:u2zjvwiyyiezc6hlxypomtj4/app.bsky.feed.post/3n2vyrxxzc22h",
+      "url": "https://bsky.app/profile/shuchancellor.bsky.social/post/3n2vyrxxzc22h",
+      "author": "shuchancellor.bsky.social",
+      "context": "Simp Simulator? Is it on sale on Steam? Gta would take up too much space on my pc and I need some for total war",
+      "text": "A game's Steam store page lists its storage needs under system requirements, so you can check the space before you buy. Wishlisting it will also show you when it goes on sale.",
+      "edited": false
+    }
+  ]
+}
