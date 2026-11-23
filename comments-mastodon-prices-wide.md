@@ -1,116 +1,105 @@
 # Comment candidates: mastodon-prices-wide (@saveandplay@mastodon.social)
-Made 2026-11-22T19:33Z. Searched: moreGaming: videogame | moreGaming: gamingcommunity | moreGaming: gamenight | moreGaming: fps | moreGaming: openworld | moreGaming: simulationgames | moreGaming: strategygame | moreGaming: mmorpg | moreAsk: gamehelp | moreAsk: gamingquestion | moreAsk: whatgameshouldiplay | moreAsk: gamingrecommendations | moreAsk: steamrecommendations | moreRetro: retrogaming | moreRetro: retrogames | moreRetro: dosgames | moreRetro: classicgames | moreRetro: oldgames | morePlaying: nowplayinggame | morePlaying: justfinishedgame | morePlaying: gamingtonight | morePlaying: currentlygaming | morePlaying: steamlibrary.
-Posts below: 23 + 2 heated. Dropped in this run: other language 44, bot, shop or studio 76, promo (link and hashtags) 19, too old 468, skip word 38, other language (text) 7, link post, not a question 4, not about games 9, console only 7, too long 3, many links 3, low score 2, already shown 3.
+Made 2026-11-23T07:20Z. Searched: moreGaming: videogame | moreGaming: gamingcommunity | moreGaming: gamenight | moreGaming: fps | moreGaming: openworld | moreGaming: simulationgames | moreGaming: strategygame | moreGaming: mmorpg | moreAsk: gamehelp | moreAsk: gamingquestion | moreAsk: whatgameshouldiplay | moreAsk: gamingrecommendations | moreAsk: steamrecommendations | moreRetro: retrogaming | moreRetro: retrogames | moreRetro: dosgames | moreRetro: classicgames | moreRetro: oldgames | morePlaying: nowplayinggame | morePlaying: justfinishedgame | morePlaying: gamingtonight | morePlaying: currentlygaming | morePlaying: steamlibrary.
+Posts below: 22 + 1 heated. Dropped in this run: bot, shop or studio 90, other language 41, too old 471, skip word 33, promo (link and hashtags) 18, other language (text) 6, not about games 6, link post, not a question 3, console only 6, too long 4, many links 2, low score 1, already shown 1.
 
 ## Posts
-1. @openrisk@mastodon.social (Open Risk) · 7h · likes 0 · replies 0 · question · moreGaming
+1. @juantodev@mastodon.social (Betelgeuse_hub) · 11h · likes 1 · replies 0 · question · moreRetro
+   https://mastodon.social/@juantodev/117661899745531896
+   Aliens (Konami, 1990) in the arcade: co-op run-and-gun based on the 1986 film. Smartguns, Power Loaders, swarms of xenomorphs, and pure '90s action. Did you ever play it in the arcades? ​ #Arcade #Konami #Aliens #Retrogames #retroarch
+   [4 images, no description]
+2. @geek_hobbies@pixelfed.social (Geek Hobbies) · 12h · likes 1 · replies 0 · question · moreRetro
+   https://mastodon.social/@geek_hobbies@pixelfed.social/117661805943015030
+   original: https://pixelfed.social/p/geek_hobbies/1030204428768185100
+   🎮 FINISHED: DUKE NUKEM 1 - EVERCADE Unlike the most popular games in the series, this one is not an FPS, but a 2D platformer released in 1991, with that feeling of MS-DOS games from the 90s. I loved playing it on the Evercade, which lets you play it with retro graphics or the re
+3. @openrisk@mastodon.social (Open Risk) · 19h · likes 0 · replies 0 · question · moreGaming
    https://mastodon.social/@openrisk/117660068396103547
    Ok gaming has not been my thing for... some time 😅 but really surprised these ultra-mega-productions like #GTA6 are actually just... single player games? There is probably good reasons for it in terms of gameplay but given the collective mania one would think that a massively mu
-2. @checkpointretro@mastodon.social (Checkpoint Retro) · 2h · likes 1 · replies 0 · moreRetro
+4. @Lunalucardrose20@corteximplant.com (Lilith, Origin of Darkness) · 4h · likes 1 · replies 1 · moreRetro
+   https://mastodon.social/@Lunalucardrose20@corteximplant.com/117663616426809379
+   original: https://corteximplant.com/@Lunalucardrose20/117663610865051680
+   Replaying an amazing game, "American McGee's Alice." Just started a new game, screenshots from the very beginning of the game. #retroGaming #americanmcgeesalice
+   [3 images: Screenshot from "American McGee's Alice," a game from released in 2000. Based on the world of Lewis Carroll's novels. Shows traumatised Alice lying in an asylu… / Screenshot From "American McGee's Alice". In the picture is the Cheshire Cat, sitting in a cavernous environment with a wide grin on their face, looking at the… / Screenshot from "American McGee's Alice." Alice is fighting one of the card guards with a knife.]
+5. @checkpointretro@mastodon.social (Checkpoint Retro) · 6m · likes 0 · replies 0 · moreRetro
+   https://mastodon.social/@checkpointretro/117664518645832504
+   Ember Vault gameplay on Commodore 64, with the menu and action on display. A new indie game for the classic 8-bit computer, credited to mmethodz. Video: Saberman RetroNews / YouTube #EmberVault #Commodore #C64 #RetroGaming
+   [video: Ember Vault gameplay on Commodore 64, with the menu and action on display. A new indie game for the classic 8-bit computer, credited to mmethodz.]
+6. @c0dec0dec0de@hachyderm.io (0xC0DEC0DE07EA) · 4h · likes 0 · replies 0 · moreRetro
+   https://mastodon.social/@c0dec0dec0de@hachyderm.io/117663665588750372
+   original: https://hachyderm.io/@c0dec0dec0de/117663665525090038
+   Oh no, I wanted to post a picture of my Mangmi Air X playing Ocarina of Time to be like all the cool fedi people, but it says my SD card is corrupted! #GameDad #RetroGaming #OcarinaOfTime
+7. @kitsunech@mastodon.social (狐) · 7h · likes 3 · replies 0 · moreRetro
+   https://mastodon.social/@kitsunech/117662991999935715
+   This game is just disappointing start to finish. Bland BGM and level design, combat is utterly boring too. Multiple playable characters is cool but they suck and there's almost no reason not to pick Rogue. Playing this makes you want to skip as much as possible just to end it fas
+   [image, no description]
+8. @nivrig@mastodon.social (nivs) · 11h · likes 4 · replies 1 · moreRetro
+   https://mastodon.social/@nivrig/117662025842534081
+   Beta 2 of Christmas Game sent out. Some good vibes back from testers on B1. I think I'll call it early and watch Engame: Encore. #Amiga #RetroDev #RetroGaming #Commodore
+9. @checkpointretro@mastodon.social (Checkpoint Retro) · 14h · likes 1 · replies 0 · moreRetro
    https://mastodon.social/@checkpointretro/117661284939141621
    See Kanabalt in action on MSX, from the menu to gameplay. A fresh indie run brings a new twist to retro gaming on the classic home computer. Video: Saberman RetroNews / YouTube #Kanabalt #MSX #RetroGaming
    [video: See Kanabalt in action on MSX, from the menu to gameplay. A fresh indie run brings a new twist to retro gaming on the classic home computer.]
-3. @followerspanda@mastodon.social (Followerspanda) · 3h · likes 1 · replies 0 · moreGaming
+10. @followerspanda@mastodon.social (Followerspanda) · 15h · likes 1 · replies 0 · moreGaming
    https://mastodon.social/@followerspanda/117661041946276772
    GTA 6 drew 21.7M Twitch hours watched on Nov 21, after 28.3M on Nov 20 and 40.8M on launch day. Streamer takeaway: bring a fresh angle as the post-launch audience settles. #FollowersPanda #GTA6 #GTAVI #Twitch #Streaming #Gaming #StreamerNews #GamingCommunity #ContentCreator #Vide
    [image, no description]
-4. @checkpointretro@mastodon.social (Checkpoint Retro) · 6h · likes 1 · replies 0 · moreRetro
+11. @checkpointretro@mastodon.social (Checkpoint Retro) · 18h · likes 1 · replies 0 · moreRetro
    https://mastodon.social/@checkpointretro/117660329103151312
    Pole Position Remastered brings classic arcade racing to Amiga OCS/ECS/AGA, with menu and gameplay footage. A fresh take on a retro racing favorite for Amiga fans. Video: Saberman RetroNews / YouTube #PolePositionRemastered #PolePosition #Amiga #RetroGaming
    [video: Pole Position Remastered brings classic arcade racing to Amiga OCS/ECS/AGA, with menu and gameplay footage. A fresh take on a retro racing favorite for Amiga f…]
-5. @andyvaisey@oldbytes.space (aNdy) · 8h · likes 2 · replies 0 · moreRetro
+12. @andyvaisey@oldbytes.space (aNdy) · 20h · likes 2 · replies 0 · moreRetro
    https://mastodon.social/@andyvaisey@oldbytes.space/117659922912493567
    original: https://oldbytes.space/@andyvaisey/117659922710562878
    Soon to be released #OutRun #PETSCII for the #C64 has been featured in Compute!'s Gazette! @EC64 #Commodore #retrogaming #retrogames #8bit #c64
    [image, no description]
-6. @checkpointretro@mastodon.social (Checkpoint Retro) · 8h · likes 1 · replies 0 · moreRetro
+13. @checkpointretro@mastodon.social (Checkpoint Retro) · 20h · likes 1 · replies 0 · moreRetro
    https://mastodon.social/@checkpointretro/117659852676717276
    Eddy & Co gameplay on Amiga, shown running on AGA hardware. A new indie game for Amiga 1200 and 4000, with up to 256 colours. Video: Saberman RetroNews / YouTube #EddyAndCo #Amiga #RetroGaming
    [video: Eddy & Co gameplay on Amiga, shown running on AGA hardware. A new indie game for Amiga 1200 and 4000, with up to 256 colours.]
-7. @zeratul2099@mastodon.online (zeratul2099) · 24h · likes 6 · replies 0 · moreRetro
-   https://mastodon.social/@zeratul2099@mastodon.online/117656159792096999
-   original: https://mastodon.online/@zeratul2099/117656159329334713
-   Nice little detail in the movie: The control panel, Bison uses in his command station, seems to be the control panel from a Street Fighter II arcade cabinet with the world map from the game as background. Awesome :) #retrogaming #streetfighter #streetfighter2 #arcade #arcadecabin
-   [2 images: M Bison stand in his command post, looking down into a pit full of hostages. In front of him is a control panel with a blue / yellow world map as background an… / Close up of the control panel. The world map is the background. There are two groups of six colored buttons and an arcade stick with a seventh white button abo…]
-8. @checkpointretro@mastodon.social (Checkpoint Retro) · 24h · likes 1 · replies 0 · moreRetro
-   https://mastodon.social/@checkpointretro/117656158182304555
-   A trailer for Vixen 357, a retro game from Ratalaika Games. Its return will interest fans of classic gaming. Video: Ratalaika Games / YouTube #Vixen357 #RatalaikaGames #RetroGaming
-   [video: A trailer for Vixen 357, a retro game from Ratalaika Games. Its return will interest fans of classic gaming.]
-9. @zeratul2099@mastodon.online (zeratul2099) · 24h · likes 5 · replies 2 · moreRetro
-   https://mastodon.social/@zeratul2099@mastodon.online/117656067267624175
-   original: https://mastodon.online/@zeratul2099/117656066147310861
-   Watched the Street Fighter movie from 1994 yesterday. Not as bad as I suspected. Don't get me wrong, it is no good movie, it is involuntarily comical and it has, except for the characters, nothing to do with the games. But Raul Julia as M Bison carries the whole movie. A great pi
-   [4 images: The cast of the movie Street Fighter posing with the movie's logo in front of them / Raul Julia as M Bison, clenching his fists: Game Over! / M Bison: You come here prepared to fight a madman, / "FOR RAUL Vaya Con Dios"]
-10. @ishambard@cupoftea.social (Ishambard) · 24h · likes 21 · replies 3 · question · moreRetro
-   https://mastodon.social/@ishambard@cupoftea.social/117656042168764831
-   original: https://cupoftea.social/@ishambard/117656042047581762
-   Mum, can we get Star Fox please? Honey, we have Star Fox at home #AtariJaguar #RetroGaming
-   [image: Source: Atarimania.com Box art Trevor McFur in the Crescent Galaxy. It shows a leopard man in a yellow and orange outfit holding onto a cat girl (possibly a Ly…]
-11. @Gamrok@mastodon.social (Thomas Leroy 🍣🐈‍⬛) · 28h · likes 3 · replies 1 · moreRetro
-   https://mastodon.social/@Gamrok/117655273136107689
-   And this plot twist right in the middle of the adventure (as if the game wasn't already awesome!) that introduces a new gameplay mechanic 🤯 I think this is something that's never been done before. 🧵 3/ #LinkToThePast #LegendOfZelda #SuperNintendo #RetroGaming
-   [image: Screenshot from Legend of Zelda: Link to the Past - Link is standing at the top of a pyramid. The setting sun is visible on the horizon.]
-12. @gpowerf@mastodon.social (Dr. G. Power) · 29h · likes 2 · replies 0 · moreRetro
-   https://mastodon.social/@gpowerf/117654871346420871
-   I've been buying Retro Games Limited products since The C64 Mini (2018/2019). I now also have 2 C64 Maxis, the Atari The 400, and a The Spectrum for Christmas. I don't rush out and buy every damn thing they release. I don't have space for all of that. And I don't have massive nos
-13. @ChrisPirillo@mastodon.social (Chris Pirillo) · 2h · likes 1 · replies 0 · moreRetro
-   https://mastodon.social/@ChrisPirillo/117661218669546549
-   Space Invaders gets faster as you win, and nobody coded that. Shoot them down and each survivor moves again sooner. #SpaceInvaders #Gaming #RetroGaming
-   [video: Nobody Coded Space Invaders to Speed Up]
-14. @pszNicx@pixelfed.social (Nick Gotch) · 15h · likes 0 · replies 1 · moreGaming
+14. @argv_minus_one@mastodon.sdf.org (argv[-1]) · 3h · likes 5 · replies 1 · moreRetro
+   https://mastodon.social/@argv_minus_one@mastodon.sdf.org/117663724306210876
+   original: https://mastodon.sdf.org/@argv_minus_one/117663724127744185
+   You enter the vicinity of what appears to be a rural mansion, or perhaps a town hall. Idyllic flower gardens and old-timey brick houses line the streets. Behind the mansion is a large flower garden with a fountain at the center. But there are also zombies roaming the streets, and
+15. @pszNicx@pixelfed.social (Nick Gotch) · 27h · likes 0 · replies 1 · moreGaming
    https://mastodon.social/@pszNicx@pixelfed.social/117658281466526460
    original: https://pixelfed.social/p/pszNicx/1029978851799538452
    Playing #scarletdeerinn on #steam #videogame
    [image, no description]
-15. @evgandr@snac.bsd.cafe (Dragon of BSDCafe) · 20h · likes 1 · replies 3 · moreRetro
-   https://mastodon.social/@evgandr@snac.bsd.cafe/117657105378159416
-   original: https://snac.bsd.cafe/evgandr/p/1795304944.904987
-   Also I found this interesting thing. Don't know WTF is this - the main red case labeled as "ALF", but the gamepads and cartridge(s) have completely Cyrillic labels on it. The label on the cartridge: "Elf. Replaceable memory module". And the labels on the gamepad: "Elf" and Start"
-   [3 images: The red metal case of "Elf" game console.There is a white "cartridge" with label "Elf 10" inserted to it. Near the game console there are the same white cartri… / Closeup photo of a white cartridge and the red gamepad. The gamepad has a shiny metal top, covered with black labels: "Elf" and "Start" and the dragon's art on… / The photo of a TV displaying game process for the red "Elf" game console (part of it visible on the left). The screen displays "Helicopter" game with some blue…]
-16. @evgandr@snac.bsd.cafe (Dragon of BSDCafe) · 20h · likes 3 · replies 4 · moreRetro
-   https://mastodon.social/@evgandr@snac.bsd.cafe/117657065659612063
-   original: https://snac.bsd.cafe/evgandr/p/1795304339.557096
-   Visited some local fest for retrogamers and board-gamers and found a decently good laptop from 199x - some Compaq with DOS and good thickness. I still not forget how to use 3.5" diskettes! 😎 It has an integrated keyboard which could be detached from the main case and used like a
-   [4 images: A black and white photo of an old Compaq laptop with Prince of Persia (DOS version) launched. The keyboard is detached from the main case and lay on the table,… / A closeup photo of a Compaq's laptop keyboard with a green LED in the NumLock key enabled. / A closeup photo of a front panel of Compaq laptop. It has a floppy drive on the left, two green LEDs in the middle and a stub for the another floppy drive on t… / A photo of a Compaq laptop with a keyboard, detached from the case and still connected to the laptop with a cable. There are a green LED on the front panel of …]
-17. @checkpointretro@mastodon.social (Checkpoint Retro) · 24h · likes 0 · replies 0 · moreRetro
-   https://mastodon.social/@checkpointretro/117656099270323651
-   The Last Ninja gameplay on ZX Spectrum 128, presented by Outsoftware. A look at a classic action-adventure series on Sinclair’s iconic 8-bit computer. Video: Saberman RetroNews / YouTube #TheLastNinja #LastNinja #ZXSpectrum #RetroGaming
-   [video: The Last Ninja gameplay on ZX Spectrum 128, presented by Outsoftware. A look at a classic action-adventure series on Sinclair’s iconic 8-bit computer.]
-18. @followerspanda@mastodon.social (Followerspanda) · 27h · likes 0 · replies 0 · moreGaming
-   https://mastodon.social/@followerspanda/117655379710783434
-   GTA 6’s day-one sales made history. 💸 Take-Two reported $3.79B in worldwide retail sales, based on company estimates through Nov. 19. Streamers: give viewers your own angle on the moment. #FollowersPanda #GTA6 #GTAVI #GTA #GamingNews #GamingCommunity #TwitchStreamer #KickStreame
-   [image, no description]
-19. @flaps015@pixelfed.social (jacek) · 7h · likes 3 · replies 1 · moreRetro
+16. @stunningshemp@mastodon.social (Chris Coats) · 6h · likes 1 · replies 0 · moreRetro
+   https://mastodon.social/@stunningshemp/117663058427995081
+   That’s how bonus stages usually go #retrogaming #sonicthehedgehog #stunningshemp #twitch #twitchclips
+   [video, no description]
+17. @Doubleaa@gamepad.club (Double AA) · 10h · likes 5 · replies 0 · moreGaming
+   https://mastodon.social/@Doubleaa@gamepad.club/117662067904429583
+   original: https://gamepad.club/@Doubleaa/117662067810564441
+   I may have gotten the gf hooked on GW2 this weekend. We spent several hours terrorizing the countryside as a couple of Asuras. 😜 #GuildWars2 #MMORPG #PCGaming
+   [video: Rubbing Hands GIF by Giphy QA]
+18. @Oregon_Pacifist@retro-gaiden.com (Oregon Pacifist) · 11h · likes 1 · replies 2 · moreRetro
+   https://mastodon.social/@Oregon_Pacifist@retro-gaiden.com/117662039822568026
+   original: https://retro-gaiden.com/@Oregon_Pacifist/117662039040344761
+   I was originally going to stream today but I didn’t plan or schedule anything. I will stream “soon” though :guilded_lul: #RetroGaming #Streaming
+   [video, no description]
+19. @ChrisPirillo@mastodon.social (Chris Pirillo) · 14h · likes 1 · replies 0 · moreRetro
+   https://mastodon.social/@ChrisPirillo/117661218669546549
+   Space Invaders gets faster as you win, and nobody coded that. Shoot them down and each survivor moves again sooner. #SpaceInvaders #Gaming #RetroGaming
+   [video: Nobody Coded Space Invaders to Speed Up]
+20. @flaps015@pixelfed.social (jacek) · 19h · likes 3 · replies 1 · moreRetro
    https://mastodon.social/@flaps015@pixelfed.social/117660050658661001
    original: https://pixelfed.social/p/flaps015/1030092084418023597
    i started my gen1 #tamagotchi #retrogaming
    [image, no description]
-20. @stevie014@loops.video (stevie014) · 7h · likes 1 · replies 0 · moreRetro
+21. @stevie014@loops.video (stevie014) · 19h · likes 1 · replies 0 · moreRetro
    https://mastodon.social/@stevie014@loops.video/117660000653968242
    original: https://loops.video/v/jvBE5xjOF-
    my son was dusty #tamagotchi #r2d2 #starwars #robot #toys #retrogaming
    [video, no description]
-21. @robeeshepherd@torturedsouls.com (Robee? Na! 🌈) · 11h · likes 7 · replies 1 · moreRetro
+22. @robeeshepherd@torturedsouls.com (Robee? Na! 🌈) · 23h · likes 7 · replies 1 · moreRetro
    https://mastodon.social/@robeeshepherd@torturedsouls.com/117659127594634574
    original: https://torturedsouls.com/@robeeshepherd/117659126568932638
    Two magazines arrived yesterday, from across the divide… thanks @FREEZE64 and Crash magazine! Seen here bathing in a box of joysticks that’s not even all the retro sticks I own… 😬 #RetroGaming #ZXSpectrum #Commodore64
    [image: Two retro gaming magazines, Freeze64 and Crash, rest in a box with cables. Freeze64 shows a spaceship and green planet; Crash depicts Santa.]
-22. @vga256@tomodori.net (vga256) · 20h · likes 20 · replies 2 · moreRetro
-   https://mastodon.social/@vga256@tomodori.net/117656994960540645
-   original: https://mastodon.tomodori.net/@vga256/117656992685486407
-   while we were decorating the tree today i found an ornament my sister made for me 20 years ago 😻 #xmas #sega #genesis #retrogaming
-   [image: The character ToeJam from the game ToeJam & Earl for the sega genesis/mega drive. he is a red three footed alien carrying christmas stockings.]
-23. @gpowerf@mastodon.social (Dr. G. Power) · 26h · likes 2 · replies 0 · moreRetro
-   https://mastodon.social/@gpowerf/117655677407747425
-   Sorry about the quality of the video. But this is an early level of Food Fight with way too many close calls! #retrogaming
-   [video: Shaky shaky hand cam video]
 
 ## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @checkpointretro@mastodon.social (Checkpoint Retro) · 5m · likes 0 · replies 0 · moreRetro
+1. @checkpointretro@mastodon.social (Checkpoint Retro) · 12h · likes 0 · replies 0 · moreRetro
    https://mastodon.social/@checkpointretro/117661743234415001
    Tome of the Dead gameplay on ZX Spectrum, an AI-assisted indie game for the classic 8-bit computer. A new adventure for Spectrum fans to explore. Video: Saberman RetroNews / YouTube #TomeOfTheDead #IndieRetroNews #ZXSpectrum #RetroGaming
    [video: Tome of the Dead gameplay on ZX Spectrum, an AI-assisted indie game for the classic 8-bit computer. A new adventure for Spectrum fans to explore.]
-2. @checkpointretro@mastodon.social (Checkpoint Retro) · 26h · likes 0 · replies 0 · moreRetro
-   https://mastodon.social/@checkpointretro/117655614468456432
-   SANDTRIX gameplay on Amiga, with A500 and A1200 listed as requirements. An AI-assisted indie release brings a new game to Commodore’s classic computer. Video: Saberman RetroNews / YouTube #SANDTRIX #CommodoreAmiga #Amiga #RetroGaming
-   [video: SANDTRIX gameplay on Amiga, with A500 and A1200 listed as requirements. An AI-assisted indie release brings a new game to Commodore’s classic computer.]
