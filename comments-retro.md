@@ -1,46 +1,48 @@
 # Comment candidates: retro (@retrogamedeals.bsky.social)
-Made 2026-11-23T07:30Z. Searched: childhood: played this as a kid game | childhood: first pc game | childhood: childhood game | childhood: game from my childhood | classicPC: retro pc gaming | classicPC: dos game | classicPC: classic pc game | classicPC: old pc games | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: retro game recommendations | askRetro: old games recommend | askRetro: retro games recommend | askRetro: best retro games | retroFeed: feed.
-Posts below: 12. Dropped in this run: not about games 60, low score 2, adult or graphic label 2, bot, shop or studio 13, already shown 10, skip word 56, replies are limited 8, too many hashtags 6, too short 11, own post 5, not a question 31, other language 10, other language (text) 4.
+Made 2026-11-23T23:51Z. Searched: childhood: childhood favorite game | childhood: games from my childhood | childhood: first video game | childhood: played this as a kid game | classicPC: dos games | classicPC: classic pc games | classicPC: old pc game | classicPC: retro pc gaming | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: best old games | askRetro: old game recommend | askRetro: retro game recommendations | askRetro: old games recommend | retroFeed: feed.
+Posts below: 12. Dropped in this run: not about games 70, skip word 68, replies are limited 9, low score 14, bot, shop or studio 25, too short 5, promo (link and hashtags) 4, already shown 5, adult or graphic label 1, already answered 4, other language (text) 6, own post 8, too many hashtags 3, other language 17, not a question 35, earlier finds: low score 2.
 
 ## Posts
-1. @klara5.myatproto.social (Klara commits to the cause) · 11h · likes 3 · replies 2 · question · childhood
-   https://bsky.app/profile/klara5.myatproto.social/post/3n2wiuavpt326
-   I made it to the Lethe River before deciding that Banon's death was probably a sign that I should go to bed. Also maybe I should buy some eyedrops, since darkness does anything now? God, I remember this game shockingly well. I guess we all end up with weird childhood artifacts wr
-2. @annimh.bsky.social (An Nimh (HERbert)) · 8h · likes 1 · replies 0 · question · nostalgia
-   https://bsky.app/profile/annimh.bsky.social/post/3n2wqfe2u2223
-   After playing Ocarina of Time, my nostalgia brought me over to Super Mario Galaxy—the game that had my dad STOP playing video games because he’d get sick to his stomach 🤪 Me? Played it so many times!
-   [4 images, no description]
-3. @valyriann.bsky.social (ValyriaN) · 9h · likes 21 · replies 3 · question · childhood
-   https://bsky.app/profile/valyriann.bsky.social/post/3n2wnne5qtc2i
-   Steam 100% completion #39 - GTA Vice City Definitive Edition 🏆 One of my childhood games done and dusted. Still as good as i remember it, despite some downgrades in the definitive edition of the game. Also didn't age as well as i thought it did but still an amazing time nonethel
+1. @retrodream.bsky.social (Retro Dream) · 4h · likes 19 · replies 2 · question · classicPC
+   https://bsky.app/profile/retrodream.bsky.social/post/3n2yxcgn3oc2u
+   Their Finest Hour: The Battle of Britain (1989), a Lucasfilm Games hit on DOS PC. Its secret? Beautiful 2D aircraft sprites creating the illusion of 3D, combined with polygonal terrain. Add dynamic campaigns, mission editing and video replays. A remarkable technical achievement
    [image, no description]
-4. @madmagne1987.bsky.social · 3h · likes 0 · replies 0 · question · childhood
-   https://bsky.app/profile/madmagne1987.bsky.social/post/3n2xb4orcvs2h
-   What was the first video game you ever played?
-5. @putukspitsvenom.bsky.social (Putuk) · 5h · likes 1 · replies 0 · childhood
-   https://bsky.app/profile/putukspitsvenom.bsky.social/post/3n2x2w2bf722h
-   For a long time I've had vague memories of some weird old PC game I played as a kid, all I recalled it had "cyber"-something in the title. I was never able to find it, but THIS IS IT!!! I'll have to look into it sometime.
-6. @tsumibito13.bsky.social (Tsumibito / 罪人) · 9h · likes 1 · replies 0 · question · childhood
-   https://bsky.app/profile/tsumibito13.bsky.social/post/3n2wp3p2wrs2b
-   How do you look at this and not conclude that the consumer tech economy is fucked beyond all reason? First time in my life where video game consoles went UP in cost during their production life cycle.
-   [quotes @wario64.bsky.social: Nintendo Switch 2 + Mario Kart World Bundle (includes 3-month NSO Individual Membership) is $499.99 on Best Buy buff.ly/zpId259 #ad Walmart…]
-7. @annacalico.bsky.social (anna 🐱🩷) · 9h · likes 3 · replies 0 · question · childhood
-   https://bsky.app/profile/annacalico.bsky.social/post/3n2wnxsim4c2w
-   hey wait.. is it Lady and Tramp's first 3d video game appearance? pretty cool if it is > v <
-8. @esf007.bsky.social (E) · 10h · likes 1 · replies 0 · question · childhood
-   https://bsky.app/profile/esf007.bsky.social/post/3n2wlbx7cjk2l
-   2026 is the year of the video game montage thanks to: - High on Life 2 - 007 First Light - GTA VI Any others?
-9. @cellarette.bsky.social (Eileen M. Duffy) · 15h · likes 1 · replies 1 · question · childhood
-   https://bsky.app/profile/cellarette.bsky.social/post/3n2w2yekxlk2n
-   Ahhhh. So there's some social commentary in this game. Not just first person shooter stuff? It's been a big week for a popular culture with that video game in James Bond
-10. @thelazyferret.bsky.social (Jae Ferret) · 45m · likes 2 · replies 0 · gogOld
-   https://bsky.app/profile/thelazyferret.bsky.social/post/3n2xjrtvi622o
-   there's a good 7 years where i didn't exist but my family always just had a library of old games somewhere so it works out straight up i do not think i have played a game from 1995 though so shout out Chrono Trigger for existing, i hear you're very good
-   [image, no description; quotes @zanamaoria.bsky.social: Games... A few years I could not find a game I remembered playing but thankfully they had touhou releases in them LOL]
-11. @smokyburnout.bsky.social (Manny Suazo) · 1h · likes 0 · replies 1 · childhood
-   https://bsky.app/profile/smokyburnout.bsky.social/post/3n2xhlr2o5k26
-   hit a new lowest price on PC too store.steampowered.com/app/2842040/...
-   [link card: Save 80% on Star Wars Outlaws on Steam]
-12. @reky.channel (Reky🏳️‍⚧️) · 2h · likes 5 · replies 0 · question · retroFeed
-   https://bsky.app/profile/reky.channel/post/3n2xg75ulrc2g
-   The more I play ninja gaiden 3 the more I just want to learn how to speed run games like batman, ninja gaiden 3, all those hella fun NES platformers. It's like, really neat and I just think they're great
+2. @mekara96.bsky.social · 3h · likes 9 · replies 0 · question · nostalgia
+   https://bsky.app/profile/mekara96.bsky.social/post/3n2yxlo34xs2y
+   What's a video game you could play for hours as a kid and still enjoy today? 🎮 No graphics debates. No rankings. Just that ONE game that never gets old. What's yours? 👇 #Gaming #Nostalgia #RetroGaming
+3. @mekara96.bsky.social · 3h · likes 7 · replies 0 · question · nostalgia
+   https://bsky.app/profile/mekara96.bsky.social/post/3n2yxjgoeo22y
+   What's a video game you could play for hours as a kid and still enjoy today? 🎮 No graphics debates. No rankings. Just that one game that brings back memories every time you play it. Mine would be the one I could never get tired of. 👀 What's yours? #Gaming #Nostalgia #RetroGamin
+4. @oinkophobia.bsky.social (jensen huang's fluffer) · 5h · likes 0 · replies 1 · question · childhood
+   https://bsky.app/profile/oinkophobia.bsky.social/post/3n2ytixrj6s2a
+   all the racing lagoon talk made me ask my brother about the games I only vaguely remembered by general vibe from early childhood memories and it turns out some of my first videogames were these ones:
+   [2 images, no description; quotes @headfallsoff.com: the thing about racing lagoon clips is you'll look at them and think wow there's no way this game can be as good as this out of context cli…]
+5. @siliconundergro.bsky.social (Dave F) · 33m · likes 1 · replies 1 · question · retroFeed
+   https://bsky.app/profile/siliconundergro.bsky.social/post/3n2zbczpdr22a
+   Got whiplash from watching what Nvidia did all day? Here's a blog post about something happier: The Atari Jaguar, Atari's last game console, which turns 33 today. dfarq.homeip.net/why-the-atar... #retrogaming
+   [link card: Why the Atari Jaguar is so expensive]
+6. @bescarecrow.bsky.social (Scarecrow🪦🪏|👻✨|🎀✨) · 2h · likes 3 · replies 1 · question · retroFeed
+   https://bsky.app/profile/bescarecrow.bsky.social/post/3n2z2twdb6s23
+   Battling a Fearsome? Dragon (Alcahest) 🔗below #RetroGaming #SNES #SuperFamicom #HALLaboratory
+   [video, no description]
+7. @mechmight.bsky.social (Mech-Might 🏳️‍🌈) · 3h · likes 2 · replies 2 · question · childhood
+   https://bsky.app/profile/mechmight.bsky.social/post/3n2yzjglm5c2c
+   What is this Fable you are referencing? I thought you were talking about the video game at first and got real confused. XD
+8. @moriamarmalade.bsky.social (Ben Horst (bluecheck.jpg)) · 8h · likes 0 · replies 0 · question · classicPC
+   https://bsky.app/profile/moriamarmalade.bsky.social/post/3n2yhsymi2c2x
+   there are a lot of games like this. someone recently did one for the commodore 64 and dos called 99 things
+9. @kapenguin.bsky.social (KapenguinMia 🐧🏳️‍⚧️) · 9h · likes 1 · replies 1 · question · gogOld
+   https://bsky.app/profile/kapenguin.bsky.social/post/3n2yf2sxts225
+   $30 for both games? I know they're old games, but honestly?
+   [link card: I'd Make That Deal, Damn Good Deal]
+10. @cafeautumn.bsky.social (The Art Sozo-sha) · 11h · likes 3 · replies 1 · question · nostalgia
+   https://bsky.app/profile/cafeautumn.bsky.social/post/3n2y5yhklwk2a
+   Astro Bot honestly pisses me off. A game with this much love and care, charm, research, respect, history, enjoyability and overall fun. A platformer that calls back to everything nostalgic about playstation. A game that had me grinning beginningto end. And sony doesnt wanna make 
+   [image, no description]
+11. @2ndlevelbard.bsky.social (Dan LK, WXXT Morning Show Host) · 3h · likes 1 · replies 0 · askRetro
+   https://bsky.app/profile/2ndlevelbard.bsky.social/post/3n2yzpo5nns2g
+   Best Left Buried is right up there for me for games that do old-school-style play without the baggage of retroclones. And if you want something on the brighter side of that coin (but still capable of dark fairytale mode), I highly recommend Perils & Princesses.
+12. @grandgameawards.bsky.social (Grand Game Awards) · 6h · likes 1 · replies 1 · question · childhood
+   https://bsky.app/profile/grandgameawards.bsky.social/post/3n2ynwgwznc2z
+   Did you vote for your favorite Video Game Character of this Year? If not here are the nominee: 🔸 Leon S. Kennedy – Resident Evil Requiem 🔸 Miyamoto Musashi – Onimusha: Way of the Sword 🔸 Diana – Pragmata 🔸 Grace Ashcroft – Resident Evil Requiem 🔸 James Bond – 007 First Light
+   [image, no description]
