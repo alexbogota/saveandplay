@@ -1,0 +1,29 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "stamp": "20261123-140411",
+  "madeAt": "2026-11-23T14:04:46.569Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:irdj73k3tc56qjebnmlgav5e/app.bsky.feed.post/3n2xezovhps2b",
+      "url": "https://bsky.app/profile/arcturusfats.bsky.social/post/3n2xezovhps2b",
+      "author": "arcturusfats.bsky.social",
+      "context": "now that i finished cyberpunk should i start witcher 3 again with that big patch they did, which is what i was gonna do before cyberpunk cards came out and made me want to play that, should i buy queen domain, or should i start playing the game about making dresses",
+      "text": "Replaying one you already own is the easy win. For the others, wishlisting costs nothing and Steam tells you when a sale hits.",
+      "group": "waitForSale",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:miypntuxblb7ssugnbdjfpcj/app.bsky.feed.post/3n2wc2cef5s2l",
+      "url": "https://bsky.app/profile/kupo.blue/post/3n2wc2cef5s2l",
+      "author": "kupo.blue",
+      "context": "All that over leveling to not have to sit through the Yunalesca cutscene again… and guess when the Steam Deck crashes? Right at the end of it. So now I’m on a different Proton version and praying 😢 So sick of this ONE cutscene bc I associate it with game over screens 🤣",
+      "text": "Crashing right at the end is the worst. If this Proton version doesn't hold, player reports for the game often say which version runs best on the Deck. Good luck!",
+      "group": "deck",
+      "heated": false
+    }
+  ]
+}

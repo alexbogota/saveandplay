@@ -1,0 +1,49 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261123-140411",
+  "madeAt": "2026-11-23T14:04:46.813Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:4kuug2gbzmmebdsfz3jbzikw/app.bsky.feed.post/3n2wiuavpt326",
+      "url": "https://bsky.app/profile/klara5.myatproto.social/post/3n2wiuavpt326",
+      "author": "klara5.myatproto.social",
+      "context": "I made it to the Lethe River before deciding that Banon's death was probably a sign that I should go to bed. Also maybe I should buy some eyedrops, since darkness does anything now? God, I remember this game shockingly well. I guess we all end up with weird childhood artifacts written in our bones?",
+      "text": "Funny how much comes back once you're in it. That game really sticks with you.",
+      "group": "childhood",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:xbgm5mzqarxonger5gce7ek7/app.bsky.feed.post/3n2wqfe2u2223",
+      "url": "https://bsky.app/profile/annimh.bsky.social/post/3n2wqfe2u2223",
+      "author": "annimh.bsky.social",
+      "context": "After playing Ocarina of Time, my nostalgia brought me over to Super Mario Galaxy—the game that had my dad STOP playing video games because he’d get sick to his stomach 🤪 Me? Played it so many times!\n4 images, no description",
+      "text": "Galaxy is such a joy to revisit. Funny that it had that effect on your dad!",
+      "group": "nostalgia",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:p2ynffrvyi3hfebgyzkhznc2/app.bsky.feed.post/3n2wnne5qtc2i",
+      "url": "https://bsky.app/profile/valyriann.bsky.social/post/3n2wnne5qtc2i",
+      "author": "valyriann.bsky.social",
+      "context": "Steam 100% completion #39 - GTA Vice City Definitive Edition 🏆 One of my childhood games done and dusted. Still as good as i remember it, despite some downgrades in the definitive edition of the game. Also didn't age as well as i thought it did but still an amazing time nonetheless. 8/10\nimage, no description",
+      "text": "Congrats on the 100%! Vice City hits differently when it's a childhood game.",
+      "group": "childhood",
+      "heated": false
+    },
+    {
+      "n": 4,
+      "uri": "at://did:plc:u2ktzutfgmxukur5lwjihwql/app.bsky.feed.post/3n2x2w2bf722h",
+      "url": "https://bsky.app/profile/putukspitsvenom.bsky.social/post/3n2x2w2bf722h",
+      "author": "putukspitsvenom.bsky.social",
+      "context": "For a long time I've had vague memories of some weird old PC game I played as a kid, all I recalled it had \"cyber\"-something in the title. I was never able to find it, but THIS IS IT!!! I'll have to look into it sometime.",
+      "text": "Finding a game you half-remembered for years is a great feeling. If it turns up on GOG, old PC games there usually come ready to run on a modern PC.",
+      "group": "childhood",
+      "heated": false
+    }
+  ]
+}
