@@ -1,6 +1,6 @@
 # Comment candidates: mastodon-prices-wide (@saveandplay@mastodon.social)
-Made 2026-11-23T07:20Z. Searched: moreGaming: videogame | moreGaming: gamingcommunity | moreGaming: gamenight | moreGaming: fps | moreGaming: openworld | moreGaming: simulationgames | moreGaming: strategygame | moreGaming: mmorpg | moreAsk: gamehelp | moreAsk: gamingquestion | moreAsk: whatgameshouldiplay | moreAsk: gamingrecommendations | moreAsk: steamrecommendations | moreRetro: retrogaming | moreRetro: retrogames | moreRetro: dosgames | moreRetro: classicgames | moreRetro: oldgames | morePlaying: nowplayinggame | morePlaying: justfinishedgame | morePlaying: gamingtonight | morePlaying: currentlygaming | morePlaying: steamlibrary.
-Posts below: 22 + 1 heated. Dropped in this run: bot, shop or studio 90, other language 41, too old 471, skip word 33, promo (link and hashtags) 18, other language (text) 6, not about games 6, link post, not a question 3, console only 6, too long 4, many links 2, low score 1, already shown 1.
+Made 2026-11-23T07:30Z. Searched: moreGaming: videogame | moreGaming: gamingcommunity | moreGaming: gamenight | moreGaming: fps | moreGaming: openworld | moreGaming: simulationgames | moreGaming: strategygame | moreGaming: mmorpg | moreAsk: gamehelp | moreAsk: gamingquestion | moreAsk: whatgameshouldiplay | moreAsk: gamingrecommendations | moreAsk: steamrecommendations | moreRetro: retrogaming | moreRetro: retrogames | moreRetro: dosgames | moreRetro: classicgames | moreRetro: oldgames | morePlaying: nowplayinggame | morePlaying: justfinishedgame | morePlaying: gamingtonight | morePlaying: currentlygaming | morePlaying: steamlibrary.
+Posts below: 22 + 1 heated. Dropped in this run: bot, shop or studio 90, other language 42, too old 470, skip word 33, promo (link and hashtags) 18, other language (text) 6, not about games 6, link post, not a question 3, console only 6, too long 4, many links 2, low score 1, already shown 1.
 
 ## Posts
 1. @juantodev@mastodon.social (Betelgeuse_hub) · 11h · likes 1 · replies 0 · question · moreRetro
@@ -19,7 +19,7 @@ Posts below: 22 + 1 heated. Dropped in this run: bot, shop or studio 90, other l
    original: https://corteximplant.com/@Lunalucardrose20/117663610865051680
    Replaying an amazing game, "American McGee's Alice." Just started a new game, screenshots from the very beginning of the game. #retroGaming #americanmcgeesalice
    [3 images: Screenshot from "American McGee's Alice," a game from released in 2000. Based on the world of Lewis Carroll's novels. Shows traumatised Alice lying in an asylu… / Screenshot From "American McGee's Alice". In the picture is the Cheshire Cat, sitting in a cavernous environment with a wide grin on their face, looking at the… / Screenshot from "American McGee's Alice." Alice is fighting one of the card guards with a knife.]
-5. @checkpointretro@mastodon.social (Checkpoint Retro) · 6m · likes 0 · replies 0 · moreRetro
+5. @checkpointretro@mastodon.social (Checkpoint Retro) · 16m · likes 0 · replies 0 · moreRetro
    https://mastodon.social/@checkpointretro/117664518645832504
    Ember Vault gameplay on Commodore 64, with the menu and action on display. A new indie game for the classic 8-bit computer, credited to mmethodz. Video: Saberman RetroNews / YouTube #EmberVault #Commodore #C64 #RetroGaming
    [video: Ember Vault gameplay on Commodore 64, with the menu and action on display. A new indie game for the classic 8-bit computer, credited to mmethodz.]
@@ -55,7 +55,7 @@ Posts below: 22 + 1 heated. Dropped in this run: bot, shop or studio 90, other l
    https://mastodon.social/@checkpointretro/117659852676717276
    Eddy & Co gameplay on Amiga, shown running on AGA hardware. A new indie game for Amiga 1200 and 4000, with up to 256 colours. Video: Saberman RetroNews / YouTube #EddyAndCo #Amiga #RetroGaming
    [video: Eddy & Co gameplay on Amiga, shown running on AGA hardware. A new indie game for Amiga 1200 and 4000, with up to 256 colours.]
-14. @argv_minus_one@mastodon.sdf.org (argv[-1]) · 3h · likes 5 · replies 1 · moreRetro
+14. @argv_minus_one@mastodon.sdf.org (argv[-1]) · 4h · likes 5 · replies 1 · moreRetro
    https://mastodon.social/@argv_minus_one@mastodon.sdf.org/117663724306210876
    original: https://mastodon.sdf.org/@argv_minus_one/117663724127744185
    You enter the vicinity of what appears to be a rural mansion, or perhaps a town hall. Idyllic flower gardens and old-timey brick houses line the streets. Behind the mansion is a large flower garden with a fountain at the center. But there are also zombies roaming the streets, and
@@ -68,7 +68,7 @@ Posts below: 22 + 1 heated. Dropped in this run: bot, shop or studio 90, other l
    https://mastodon.social/@stunningshemp/117663058427995081
    That’s how bonus stages usually go #retrogaming #sonicthehedgehog #stunningshemp #twitch #twitchclips
    [video, no description]
-17. @Doubleaa@gamepad.club (Double AA) · 10h · likes 5 · replies 0 · moreGaming
+17. @Doubleaa@gamepad.club (Double AA) · 11h · likes 5 · replies 0 · moreGaming
    https://mastodon.social/@Doubleaa@gamepad.club/117662067904429583
    original: https://gamepad.club/@Doubleaa/117662067810564441
    I may have gotten the gf hooked on GW2 this weekend. We spent several hours terrorizing the countryside as a couple of Asuras. 😜 #GuildWars2 #MMORPG #PCGaming

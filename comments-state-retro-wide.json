@@ -1,12 +1,12 @@
 {
   "cursor": 0,
   "next": {
-    "childhood": 3,
-    "classicPC": 3,
+    "childhood": 1,
+    "classicPC": 1,
     "holdUp": 3,
     "gogOld": 3,
     "nostalgia": 3,
-    "askRetro": 1,
+    "askRetro": 6,
     "retroBuying": 5,
     "retroPlaying": 5,
     "retroAsk": 5,
@@ -14,113 +14,113 @@
   },
   "sources": {
     "childhood": {
-      "runs": 535,
-      "posts": 16251,
-      "fit": 4632,
+      "runs": 540,
+      "posts": 16311,
+      "fit": 4646,
       "last": {
-        "posts": 100,
-        "fit": 35,
-        "at": "2026-11-23T07:21:28.800Z"
+        "posts": 2,
+        "fit": 1,
+        "at": "2026-11-23T07:30:44.350Z"
       }
     },
     "classicPC": {
-      "runs": 535,
-      "posts": 6298,
-      "fit": 2371,
+      "runs": 540,
+      "posts": 6338,
+      "fit": 2383,
       "last": {
-        "posts": 3,
-        "fit": 1,
-        "at": "2026-11-23T07:21:28.800Z"
+        "posts": 10,
+        "fit": 0,
+        "at": "2026-11-23T07:30:44.350Z"
       }
     },
     "holdUp": {
-      "runs": 321,
-      "posts": 456,
+      "runs": 324,
+      "posts": 458,
       "fit": 83,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-11-23T07:21:28.800Z"
+        "at": "2026-11-23T07:30:44.350Z"
       }
     },
     "gogOld": {
-      "runs": 321,
-      "posts": 3287,
-      "fit": 962,
+      "runs": 324,
+      "posts": 3316,
+      "fit": 968,
       "last": {
         "posts": 1,
         "fit": 0,
-        "at": "2026-11-23T07:21:28.800Z"
+        "at": "2026-11-23T07:30:44.350Z"
       }
     },
     "nostalgia": {
-      "runs": 321,
-      "posts": 3813,
-      "fit": 827,
+      "runs": 324,
+      "posts": 3843,
+      "fit": 834,
       "last": {
         "posts": 3,
         "fit": 0,
-        "at": "2026-11-23T07:21:28.800Z"
+        "at": "2026-11-23T07:30:44.350Z"
       }
     },
     "askRetro": {
-      "runs": 535,
-      "posts": 1806,
-      "fit": 446,
+      "runs": 540,
+      "posts": 1827,
+      "fit": 452,
       "last": {
-        "posts": 0,
-        "fit": 0,
-        "at": "2026-11-23T07:21:28.800Z"
+        "posts": 1,
+        "fit": 1,
+        "at": "2026-11-23T07:30:44.350Z"
       }
     },
     "retroBuying": {
-      "runs": 535,
-      "posts": 2250,
-      "fit": 846,
+      "runs": 540,
+      "posts": 2254,
+      "fit": 849,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-11-23T07:21:28.800Z"
+        "at": "2026-11-23T07:30:44.350Z"
       }
     },
     "retroPlaying": {
-      "runs": 535,
-      "posts": 5039,
-      "fit": 981,
+      "runs": 540,
+      "posts": 5075,
+      "fit": 989,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-11-23T07:21:28.800Z"
+        "at": "2026-11-23T07:30:44.350Z"
       }
     },
     "retroAsk": {
-      "runs": 535,
-      "posts": 379,
-      "fit": 111,
+      "runs": 540,
+      "posts": 381,
+      "fit": 112,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-11-23T07:21:28.800Z"
+        "at": "2026-11-23T07:30:44.350Z"
       }
     },
     "retroTalk": {
-      "runs": 535,
-      "posts": 3348,
-      "fit": 829,
+      "runs": 540,
+      "posts": 3373,
+      "fit": 837,
       "last": {
         "posts": 18,
-        "fit": 6,
-        "at": "2026-11-23T07:21:28.800Z"
+        "fit": 5,
+        "at": "2026-11-23T07:30:44.350Z"
       }
     },
     "retroFeed": {
-      "runs": 107,
-      "posts": 10523,
-      "fit": 432,
+      "runs": 108,
+      "posts": 10621,
+      "fit": 440,
       "last": {
         "posts": 98,
         "fit": 8,
-        "at": "2026-11-23T07:21:28.800Z"
+        "at": "2026-11-23T07:30:44.350Z"
       }
     }
   },
@@ -159,24 +159,6 @@
       "heated": false,
       "isReply": false,
       "media": null,
-      "firstSeen": "2026-11-22T06:41:43.079Z"
-    },
-    "at://did:plc:tcylk3k7h3ja3ngfa4ckrnvc/app.bsky.feed.post/3n2uhofaalk2t": {
-      "uri": "at://did:plc:tcylk3k7h3ja3ngfa4ckrnvc/app.bsky.feed.post/3n2uhofaalk2t",
-      "url": "https://bsky.app/profile/lol20.bsky.social/post/3n2uhofaalk2t",
-      "handle": "lol20.bsky.social",
-      "name": "",
-      "text": "My God, it has been YEARS since I played this classic PC game",
-      "createdAt": "2026-11-22T01:29:31.197Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "classicPC",
-      "query": "classic pc game",
-      "score": 7,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "quotes @legendofmi.com: The Curse of Monkey Island’s opening shot, Guybrush adrift in a bumper car, is still one of adventure gaming’s best intros. Bill Tiller dre…",
       "firstSeen": "2026-11-22T06:41:43.079Z"
     },
     "at://did:plc:gwefpwbi2mge4mqpjrwv3fow/app.bsky.feed.post/3n2unkkkfos2c": {
@@ -971,24 +953,6 @@
       "media": "link card: _umni_'s review of The Legend of Zelda: Ocarina of Time | Backloggd",
       "firstSeen": "2026-11-22T18:49:16.187Z"
     },
-    "at://did:plc:mmgmsjchwp36hww5pxabxnmu/app.bsky.feed.post/3n2vzmhwjy224": {
-      "uri": "at://did:plc:mmgmsjchwp36hww5pxabxnmu/app.bsky.feed.post/3n2vzmhwjy224",
-      "url": "https://bsky.app/profile/damiensturdy.bsky.social/post/3n2vzmhwjy224",
-      "handle": "damiensturdy.bsky.social",
-      "name": "MadDamo (Wish it were the 80's Pat!)",
-      "text": "I've been doing this for a *long* time. 26 years since my first PC game (and many small unfinished ones before). Havent released anything in years but I remember you first popping up a while back and seeing you continue to create and release stuff helps me keep faith in the profession. Indies FTW!",
-      "createdAt": "2026-11-22T16:23:14.001Z",
-      "likes": 1,
-      "replies": 2,
-      "group": "retroTalk",
-      "query": "first pc game",
-      "score": 8,
-      "question": true,
-      "heated": false,
-      "isReply": true,
-      "media": null,
-      "firstSeen": "2026-11-22T18:49:16.187Z"
-    },
     "at://did:plc:aiaw4mxutoflsjbnqknj6r27/app.bsky.feed.post/3n2v2vjbrgn25": {
       "uri": "at://did:plc:aiaw4mxutoflsjbnqknj6r27/app.bsky.feed.post/3n2v2vjbrgn25",
       "url": "https://bsky.app/profile/lordmyk.bsky.social/post/3n2v2vjbrgn25",
@@ -998,9 +962,9 @@
       "createdAt": "2026-11-22T07:13:31.403Z",
       "likes": 0,
       "replies": 1,
-      "group": "retroTalk",
+      "group": "childhood",
       "query": "first pc game",
-      "score": 4,
+      "score": 6,
       "question": false,
       "heated": false,
       "isReply": true,
@@ -1070,9 +1034,9 @@
       "createdAt": "2026-11-22T10:40:44.524Z",
       "likes": 0,
       "replies": 0,
-      "group": "retroPlaying",
-      "query": "playing old game",
-      "score": 4,
+      "group": "classicPC",
+      "query": "old pc game",
+      "score": 6,
       "question": false,
       "heated": false,
       "isReply": true,
@@ -1086,7 +1050,7 @@
       "name": "input",
       "text": "📰 **6 handy ways you can use your old mini PC** From retro gaming consoles to home media servers, discover six handy ways to repurpose your old mini PC and give the hardware a new lease on life. 📰 Source: Engadget - Technology News & Expert […] [Original post on igeek.gamer-geek-news.com]",
       "createdAt": "2026-11-22T16:26:58.000Z",
-      "likes": 4,
+      "likes": 5,
       "replies": 0,
       "group": "classicPC",
       "query": "retro pc gaming",
@@ -1113,24 +1077,6 @@
       "heated": false,
       "isReply": true,
       "media": null,
-      "firstSeen": "2026-11-22T18:49:16.187Z"
-    },
-    "at://did:plc:kqiuzaqb7dsz6kl4i554dolr/app.bsky.feed.post/3n2w6utfgms2k": {
-      "uri": "at://did:plc:kqiuzaqb7dsz6kl4i554dolr/app.bsky.feed.post/3n2w6utfgms2k",
-      "url": "https://bsky.app/profile/mylittleretro.bsky.social/post/3n2w6utfgms2k",
-      "handle": "mylittleretro.bsky.social",
-      "name": "My little retro computer world",
-      "text": "Wo ist Fritz? Indiana Jones and the Fate of Atlantis (1992), one of my all-time favourites and the adventure game closest to my heart. The floppy version, running on my DX4-100 DOS PC with a Roland MT-32. Just listen to that soundtrack. #RetroGaming #DOS #MT32 #LucasArts",
-      "createdAt": "2026-11-22T17:57:23.175Z",
-      "likes": 3,
-      "replies": 0,
-      "group": "classicPC",
-      "query": "dos game",
-      "score": 10,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "video, no description",
       "firstSeen": "2026-11-22T18:49:16.187Z"
     },
     "at://did:plc:y7xnep3v6ltpfabzncmonxw3/app.bsky.feed.post/3n2vi37ja5s2x": {
@@ -1203,24 +1149,6 @@
       "heated": false,
       "isReply": false,
       "media": "link card: A look at the best-selling video games for major retro consoles",
-      "firstSeen": "2026-11-22T18:49:16.187Z"
-    },
-    "at://did:plc:k7ubkl7suiyjejhmvxpz7vc2/app.bsky.feed.post/3n2v3koprps2p": {
-      "uri": "at://did:plc:k7ubkl7suiyjejhmvxpz7vc2/app.bsky.feed.post/3n2v3koprps2p",
-      "url": "https://bsky.app/profile/spiegz.bsky.social/post/3n2v3koprps2p",
-      "handle": "spiegz.bsky.social",
-      "name": "Spiegz",
-      "text": "I hate how boomy this makes me sound, but this AI hardware bubble has gotta GO. 6 year old console is more expensive than it was at launch? Back in my day, a 6 year old console cost $250 and came with 2 of the best games available bundled in for free.",
-      "createdAt": "2026-11-22T07:25:21.763Z",
-      "likes": 1,
-      "replies": 1,
-      "group": "askRetro",
-      "query": "best old games",
-      "score": 8,
-      "question": true,
-      "heated": true,
-      "isReply": true,
-      "media": null,
       "firstSeen": "2026-11-22T18:49:16.187Z"
     },
     "at://did:plc:wvw3inuoyr4avdt3mu37duxk/app.bsky.feed.post/3n2vxm6jyh22w": {
@@ -1437,24 +1365,6 @@
       "heated": false,
       "isReply": true,
       "media": null,
-      "firstSeen": "2026-11-23T07:21:28.800Z"
-    },
-    "at://did:plc:f7vlmbuddsmfyzc6tc5udpgv/app.bsky.feed.post/3n2wqgggemc2r": {
-      "uri": "at://did:plc:f7vlmbuddsmfyzc6tc5udpgv/app.bsky.feed.post/3n2wqgggemc2r",
-      "url": "https://bsky.app/profile/hbgamer.bsky.social/post/3n2wqgggemc2r",
-      "handle": "hbgamer.bsky.social",
-      "name": "H.B Gamer",
-      "text": "Drawn to Life (Nintendo DS) Finally finished a game I remember from my childhood. Its charming and the drawing aspect is amazing. The gameplay though I feel is just ok as the platforming is fine but the level design is a mixed bag. Bosses are also kind of annoying. That said good game. 7/10",
-      "createdAt": "2026-11-22T23:11:27.163Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "childhood",
-      "query": "childhood game",
-      "score": 9,
-      "question": true,
-      "heated": false,
-      "isReply": true,
-      "media": "image, no description",
       "firstSeen": "2026-11-23T07:21:28.800Z"
     },
     "at://did:plc:p2ynffrvyi3hfebgyzkhznc2/app.bsky.feed.post/3n2wnne5qtc2i": {
@@ -1932,10 +1842,10 @@
       "name": "퓨̸크̸ Games 'n Junk - Puke",
       "text": "Now that's what I'm freaking talking about. Japanese TV commercial for Jaseiken Necromancer on PC Engine in 1998, with classic Harryhausen-like stop motion. The scary role-playing game was good enough for a sequel. It is also, technically, on that non-existent PC Engine Mini #gaming #retro #jrpg 🎮",
       "createdAt": "2026-11-23T00:35:18.892Z",
-      "likes": 51,
+      "likes": 53,
       "replies": 2,
       "group": "classicPC",
-      "query": "classic pc game",
+      "query": "retro pc gaming",
       "score": 6,
       "question": false,
       "heated": false,
@@ -1961,60 +1871,6 @@
       "media": "link card: Por R$ 132,81: KIWITATA Classic Wired Linux Raspbe",
       "firstSeen": "2026-11-23T07:21:28.800Z"
     },
-    "at://did:plc:73yjhnl4kkdm4me6czxnkhin/app.bsky.feed.post/3n2xargjszk2f": {
-      "uri": "at://did:plc:73yjhnl4kkdm4me6czxnkhin/app.bsky.feed.post/3n2xargjszk2f",
-      "url": "https://bsky.app/profile/dukedonuts.bsky.social/post/3n2xargjszk2f",
-      "handle": "dukedonuts.bsky.social",
-      "name": "dukedonuts",
-      "text": "remember the good old days when PC games journalism looked like THIS instead of like GTA VI (which isn't on PC)",
-      "createdAt": "2026-11-23T04:03:56.231Z",
-      "likes": 4,
-      "replies": 0,
-      "group": "classicPC",
-      "query": "old pc games",
-      "score": 11,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "image, no description",
-      "firstSeen": "2026-11-23T07:21:28.800Z"
-    },
-    "at://did:plc:wrq2ddz23tcsutcovjzhaxdb/app.bsky.feed.post/3n2wvidldk2ip": {
-      "uri": "at://did:plc:wrq2ddz23tcsutcovjzhaxdb/app.bsky.feed.post/3n2wvidldk2ip",
-      "url": "https://bsky.app/profile/chrispirillo.bsky.social/post/3n2wvidldk2ip",
-      "handle": "chrispirillo.bsky.social",
-      "name": "Chris Pirillo",
-      "text": "A disc that nothing on that machine could open becomes a drive letter you can type at a prompt, and that covers a lot of machines people still keep in a closet. Do you keep an old DOS or Windows 95 computer around for games or old files?",
-      "createdAt": "2026-11-23T02:07:39.178Z",
-      "likes": 0,
-      "replies": 1,
-      "group": "classicPC",
-      "query": "dos games",
-      "score": 10,
-      "question": true,
-      "heated": false,
-      "isReply": true,
-      "media": null,
-      "firstSeen": "2026-11-23T07:21:28.800Z"
-    },
-    "at://did:plc:ppw6lpl2zo7nhhin63gdtbhl/app.bsky.feed.post/3n2x2d63buip2": {
-      "uri": "at://did:plc:ppw6lpl2zo7nhhin63gdtbhl/app.bsky.feed.post/3n2x2d63buip2",
-      "url": "https://bsky.app/profile/chrispirillo.mastodon.social.ap.brid.gy/post/3n2x2d63buip2",
-      "handle": "chrispirillo.mastodon.social.ap.brid.gy",
-      "name": "Chris Pirillo",
-      "text": "Do you keep an old DOS or Windows 95 computer around for games or old files? Then a DVD drive in it may finally be useful for moving files in and out. Back up your startup files before you install any driver on a machine you care about, and test it with a disc you can afford to lose. Old […]",
-      "createdAt": "2026-11-23T02:07:32.000Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "classicPC",
-      "query": "dos games",
-      "score": 10,
-      "question": true,
-      "heated": false,
-      "isReply": true,
-      "media": "link card: Original post on mastodon.social",
-      "firstSeen": "2026-11-23T07:21:28.800Z"
-    },
     "at://did:plc:yysemqh77uucpihgxfqyreuo/app.bsky.feed.post/3n2wxfjw2is26": {
       "uri": "at://did:plc:yysemqh77uucpihgxfqyreuo/app.bsky.feed.post/3n2wxfjw2is26",
       "url": "https://bsky.app/profile/rdbaaa.space/post/3n2wxfjw2is26",
@@ -2024,8 +1880,8 @@
       "createdAt": "2026-11-23T01:16:13.454Z",
       "likes": 7,
       "replies": 1,
-      "group": "classicPC",
-      "query": "dos games",
+      "group": "retroAsk",
+      "query": "best dos games",
       "score": 7,
       "question": false,
       "heated": false,
@@ -2195,24 +2051,6 @@
       "media": "link card: Fields of Mistria on Steam; quotes @slaughterpuff.bsky.social: Oh hey im a steam curator. I try to review every game on my steam (its a process) and i recommend some of them. I try and focus on indie st…",
       "firstSeen": "2026-11-23T07:21:28.800Z"
     },
-    "at://did:plc:2c6otgg7sqxaspya6xx6n3b6/app.bsky.feed.post/3n2x3yhg3g22b": {
-      "uri": "at://did:plc:2c6otgg7sqxaspya6xx6n3b6/app.bsky.feed.post/3n2x3yhg3g22b",
-      "url": "https://bsky.app/profile/ambercyprian.bsky.social/post/3n2x3yhg3g22b",
-      "handle": "ambercyprian.bsky.social",
-      "name": "Amber Cyprian (They/Them) @ Home",
-      "text": "It's a SUPER fun game! I mastered the co-op retroachievements set with @mindez.co.uk a couple years back since I'm really nostalgic for the game and the set was honestly pretty reasonable for the most part?",
-      "createdAt": "2026-11-23T02:38:23.341Z",
-      "likes": 1,
-      "replies": 1,
-      "group": "nostalgia",
-      "query": "nostalgic game",
-      "score": 10,
-      "question": true,
-      "heated": false,
-      "isReply": true,
-      "media": null,
-      "firstSeen": "2026-11-23T07:21:28.800Z"
-    },
     "at://did:plc:vdzjjzakqrhjefvwseqf6uve/app.bsky.feed.post/3n2wqfy3aa22y": {
       "uri": "at://did:plc:vdzjjzakqrhjefvwseqf6uve/app.bsky.feed.post/3n2wqfy3aa22y",
       "url": "https://bsky.app/profile/earljwjones.bsky.social/post/3n2wqfy3aa22y",
@@ -2247,24 +2085,6 @@
       "heated": false,
       "isReply": false,
       "media": "image: Digital image of the card Goblin game from Magic the gathering. The art of the card depicts a green goblin in a red tunic with wing like ears furtively smiling…; quotes @coachnelly.bsky.social: Post your favourite card from the set you started playing with. There are many important ABU cards but this one fueled my earliest forays i…",
-      "firstSeen": "2026-11-23T07:21:28.800Z"
-    },
-    "at://did:plc:sck27piemekwp2pu2arbrnr5/app.bsky.feed.post/3n2xf7uuamc27": {
-      "uri": "at://did:plc:sck27piemekwp2pu2arbrnr5/app.bsky.feed.post/3n2xf7uuamc27",
-      "url": "https://bsky.app/profile/mstiahmarie.bsky.social/post/3n2xf7uuamc27",
-      "handle": "mstiahmarie.bsky.social",
-      "name": "Tiah Marie Beautement",
-      "text": "Policy gives me the chills. 14 years ago I was dragged into a school meeting with principal & vice for my 7 year old. They offered to “fix” my son. The problem? He played with girls and his best friend was a girl. And I didn’t restrict his toys and games to “boy” ones.",
-      "createdAt": "2026-11-23T05:23:35.996Z",
-      "likes": 1,
-      "replies": 1,
-      "group": "askRetro",
-      "query": "best old games",
-      "score": 9,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "quotes @taniel.bsky.social: In a bonkers policy, a central New York school district has decided that schools must tell parents if they found out a student is gay or tr…",
       "firstSeen": "2026-11-23T07:21:28.800Z"
     },
     "at://did:plc:3zhdd5alo34ptiwijdhvdkkg/app.bsky.feed.post/3n2wsysw74k2i": {
@@ -2328,7 +2148,7 @@
       "name": "Tim Biggs",
       "text": "I'm starting a new game review website! For new takes on weird old games. Or weird takes on new old games. Basically I'm reviewing the stuff I'm playing anyway, which is almost never zeitgeisty. Check it out, or follow along. I think the RSS works, or there's a bsky. selectfile.net @selectfile.net",
       "createdAt": "2026-11-23T05:10:53.149Z",
-      "likes": 3,
+      "likes": 4,
       "replies": 1,
       "group": "retroPlaying",
       "query": "playing old game",
@@ -2420,9 +2240,9 @@
       "createdAt": "2026-11-23T06:06:02.150Z",
       "likes": 0,
       "replies": 1,
-      "group": "retroTalk",
+      "group": "childhood",
       "query": "first pc game",
-      "score": 5,
+      "score": 7,
       "question": false,
       "heated": false,
       "isReply": true,
@@ -2438,9 +2258,9 @@
       "createdAt": "2026-11-22T22:05:07.793Z",
       "likes": 1,
       "replies": 1,
-      "group": "retroTalk",
+      "group": "childhood",
       "query": "first pc game",
-      "score": 5,
+      "score": 7,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -2456,9 +2276,9 @@
       "createdAt": "2026-11-22T20:53:37.319Z",
       "likes": 2,
       "replies": 1,
-      "group": "retroTalk",
+      "group": "childhood",
       "query": "first pc game",
-      "score": 5,
+      "score": 7,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -2474,9 +2294,9 @@
       "createdAt": "2026-11-22T20:12:25.453Z",
       "likes": 2,
       "replies": 0,
-      "group": "retroTalk",
+      "group": "childhood",
       "query": "first pc game",
-      "score": 5,
+      "score": 7,
       "question": false,
       "heated": false,
       "isReply": true,
@@ -2626,6 +2446,60 @@
       "isReply": false,
       "media": "image, no description",
       "firstSeen": "2026-11-23T07:21:28.800Z"
+    },
+    "at://did:plc:u2ktzutfgmxukur5lwjihwql/app.bsky.feed.post/3n2x2w2bf722h": {
+      "uri": "at://did:plc:u2ktzutfgmxukur5lwjihwql/app.bsky.feed.post/3n2x2w2bf722h",
+      "url": "https://bsky.app/profile/putukspitsvenom.bsky.social/post/3n2x2w2bf722h",
+      "handle": "putukspitsvenom.bsky.social",
+      "name": "Putuk",
+      "text": "For a long time I've had vague memories of some weird old PC game I played as a kid, all I recalled it had \"cyber\"-something in the title. I was never able to find it, but THIS IS IT!!! I'll have to look into it sometime.",
+      "createdAt": "2026-11-23T02:19:08.709Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "childhood",
+      "query": "played this as a kid game",
+      "score": 8,
+      "question": false,
+      "heated": false,
+      "isReply": true,
+      "media": null,
+      "firstSeen": "2026-11-23T07:30:44.350Z"
+    },
+    "at://did:plc:2tvo4tvdroomy4pbik5sjkzq/app.bsky.feed.post/3n2wxdgsxhs2d": {
+      "uri": "at://did:plc:2tvo4tvdroomy4pbik5sjkzq/app.bsky.feed.post/3n2wxdgsxhs2d",
+      "url": "https://bsky.app/profile/leonardeuler.bsky.social/post/3n2wxdgsxhs2d",
+      "handle": "leonardeuler.bsky.social",
+      "name": "Leonard Euler d'Moogle 🍁🍡🏒",
+      "text": "IMHO: All console versions of Hydlide are kinda crap. Best play the game in its original context: On an old Japanese PC. (PC-6001, PC-8801 (series), PC-9801 (series), MSX (series), FM-7). If that's to much to ask, the second best way is Switch port.The Switch port of the Hydlide series.",
+      "createdAt": "2026-11-23T01:15:03.107Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "classicPC",
+      "query": "old pc game",
+      "score": 6,
+      "question": false,
+      "heated": false,
+      "isReply": true,
+      "media": "2 images: The Switch port of the Hydlide series. / The Switch port of the Hydlide series.",
+      "firstSeen": "2026-11-23T07:30:44.350Z"
+    },
+    "at://did:plc:wob6mfptyyuoxxr3hvw6a5hc/app.bsky.feed.post/3n2wtjcxc5k2k": {
+      "uri": "at://did:plc:wob6mfptyyuoxxr3hvw6a5hc/app.bsky.feed.post/3n2wtjcxc5k2k",
+      "url": "https://bsky.app/profile/thetrin.blacksky.app/post/3n2wtjcxc5k2k",
+      "handle": "thetrin.blacksky.app",
+      "name": "Nayan Ramachandran",
+      "text": "The skyrocketing value of retro games in North America is so bad, it's become prohibitively expensive for younger gamers to get into collecting. Naturally, games increase in value over time, but the price increase is so severe, that the best collecting strategy is to have started 20 years ago.",
+      "createdAt": "2026-11-23T00:06:45.415Z",
+      "likes": 4,
+      "replies": 1,
+      "group": "askRetro",
+      "query": "best retro games",
+      "score": 7,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": null,
+      "firstSeen": "2026-11-23T07:30:44.350Z"
     }
   }
 }

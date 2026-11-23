@@ -23,23 +23,23 @@
       }
     },
     "backlog": {
-      "runs": 671,
-      "posts": 17088,
-      "fit": 6,
+      "runs": 677,
+      "posts": 17241,
+      "fit": 7,
       "last": {
         "posts": 24,
         "fit": 0,
-        "at": "2026-11-23T07:19:57.579Z"
+        "at": "2026-11-23T07:29:17.614Z"
       }
     },
     "deck": {
-      "runs": 563,
-      "posts": 26708,
+      "runs": 568,
+      "posts": 26909,
       "fit": 237,
       "last": {
         "posts": 40,
-        "fit": 1,
-        "at": "2026-11-23T07:19:57.579Z"
+        "fit": 0,
+        "at": "2026-11-23T07:29:17.614Z"
       }
     },
     "bundles": {
@@ -53,75 +53,57 @@
       }
     },
     "practical": {
-      "runs": 455,
-      "posts": 21440,
-      "fit": 640,
+      "runs": 459,
+      "posts": 21640,
+      "fit": 642,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-23T07:19:57.579Z"
+        "at": "2026-11-23T07:29:17.614Z"
       }
     },
     "genres": {
-      "runs": 1102,
-      "posts": 44080,
+      "runs": 1112,
+      "posts": 44480,
       "fit": 81,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-23T07:19:57.579Z"
+        "at": "2026-11-23T07:29:17.614Z"
       }
     },
     "seasonal": {
-      "runs": 347,
-      "posts": 14695,
+      "runs": 350,
+      "posts": 14815,
       "fit": 19,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-23T07:19:57.579Z"
+        "at": "2026-11-23T07:29:17.614Z"
       }
     },
     "broadPlaying": {
-      "runs": 1427,
-      "posts": 182360,
-      "fit": 3626,
+      "runs": 1440,
+      "posts": 183760,
+      "fit": 3638,
       "last": {
         "posts": 200,
-        "fit": 2,
-        "at": "2026-11-23T07:19:57.579Z"
+        "fit": 1,
+        "at": "2026-11-23T07:29:17.614Z"
       }
     },
     "broadAsk": {
-      "runs": 887,
-      "posts": 13803,
+      "runs": 895,
+      "posts": 13939,
       "fit": 0,
       "last": {
         "posts": 16,
         "fit": 0,
-        "at": "2026-11-23T07:19:57.579Z"
+        "at": "2026-11-23T07:29:17.614Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@pitcrewgg/117659984575656217": {
-      "uri": "https://mastodon.social/@pitcrewgg/117659984575656217",
-      "url": "https://mastodon.social/@pitcrewgg/117659984575656217",
-      "handle": "pitcrewgg@mastodon.social",
-      "name": "PitCrew",
-      "text": "🔄 Heroic Games Launcher - 2.22.4 Hotfix 4 A small hotfix addresses GOG login and UMU issues, avoids chmod on native Linux and macOS games, and adds ARM64 Flatpak build support. 1/2 #HeroicLauncher #EGS #EpicGames #GOG #PrimeGaming #Linux #LinuxGaming #PCGaming #OpenSource #LegionGo2 #LegionGoS #SteamDeck #SteamFrame #SteamMachine #SteamOS",
-      "createdAt": "2026-11-22T12:01:25.750Z",
-      "likes": 1,
-      "replies": 1,
-      "group": "deck",
-      "query": "steamdeck",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "image, no description",
-      "firstSeen": "2026-11-22T18:47:37.767Z"
-    },
     "https://mastodon.social/@reallylazybear@pawb.fun/117661127352803734": {
       "uri": "https://mastodon.social/@reallylazybear@pawb.fun/117661127352803734",
       "url": "https://mastodon.social/@reallylazybear@pawb.fun/117661127352803734",
@@ -139,42 +121,6 @@
       "isReply": false,
       "origin": "https://pawb.fun/@reallylazybear/117661127309900559",
       "media": null,
-      "firstSeen": "2026-11-22T18:47:37.767Z"
-    },
-    "https://mastodon.social/@pitcrewgg/117659992494409805": {
-      "uri": "https://mastodon.social/@pitcrewgg/117659992494409805",
-      "url": "https://mastodon.social/@pitcrewgg/117659992494409805",
-      "handle": "pitcrewgg@mastodon.social",
-      "name": "PitCrew",
-      "text": "🔄 American Truck Simulator - Road Trip: RAM & Dodge Viper The Road Trip DLC adds the 2002 Dodge Viper GTS and track-focused ACR, with powerful V10 engines and extensive customization options. 1/2 #AmericanTruckSimulator #ATS #BestCommunityEver #Linux #LinuxGaming #PCGaming #FreeTrack #HeadTracking #TruckSim #MetaQuest #OpenXR #PICO #Pimax #SteamFrame #SteamVR #VirtualReality #VR",
-      "createdAt": "2026-11-22T12:03:26.583Z",
-      "likes": 1,
-      "replies": 1,
-      "group": "practical",
-      "query": "linuxgaming",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "image, no description",
-      "firstSeen": "2026-11-22T18:47:37.767Z"
-    },
-    "https://mastodon.social/@pitcrewgg/117659291328378367": {
-      "uri": "https://mastodon.social/@pitcrewgg/117659291328378367",
-      "url": "https://mastodon.social/@pitcrewgg/117659291328378367",
-      "handle": "pitcrewgg@mastodon.social",
-      "name": "PitCrew",
-      "text": "🔄 SteamVR - Beta Update 2.19.4 SteamVR 2.19.4 improves Steam Link streaming, adds Quest chroma key and per-game haptics controls, and fixes Linux crashes, audio issues and more. 1/2 #Linux #LinuxGaming #PCGaming #Steam #ValveSoftware #MetaQuest #OpenXR #PICO #Pimax #SteamFrame #SteamVR #VirtualReality #VR",
-      "createdAt": "2026-11-22T09:05:07.646Z",
-      "likes": 1,
-      "replies": 1,
-      "group": "practical",
-      "query": "linuxgaming",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "image, no description",
       "firstSeen": "2026-11-22T18:47:37.767Z"
     },
     "https://mastodon.social/@pitcrewgg/117659232117152894": {
@@ -398,80 +344,6 @@
       "media": null,
       "firstSeen": "2026-11-22T19:32:37.982Z"
     },
-    "https://mastodon.social/@TristanKrs@loops.video/117662606559454166": {
-      "uri": "https://mastodon.social/@TristanKrs@loops.video/117662606559454166",
-      "url": "https://mastodon.social/@TristanKrs@loops.video/117662606559454166",
-      "handle": "TristanKrs@loops.video",
-      "name": "TristanKrs",
-      "text": "Guild Wars 2, my home instance at night. (NPC photobomb at the end) 😄 #guildwars2 #gaming #gameplay #LinuxGaming #loops #fyp",
-      "createdAt": "2026-11-22T23:07:37.000Z",
-      "likes": 2,
-      "replies": 0,
-      "group": "practical",
-      "query": "linuxgaming",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://loops.video/v/jwbxtdUOLF",
-      "media": "video: My home instance in Guild Wars 2 at night. And there's an NPC photobombing my video at the end 😅",
-      "firstSeen": "2026-11-23T07:19:57.579Z"
-    },
-    "https://mastodon.social/@coa100/117664177907919232": {
-      "uri": "https://mastodon.social/@coa100/117664177907919232",
-      "url": "https://mastodon.social/@coa100/117664177907919232",
-      "handle": "coa100@mastodon.social",
-      "name": "Coa",
-      "text": "⚔️ Dungeon King 🧙‍♂️ https://worldrtc.wtnet9.site/?s=dungeon #videogames",
-      "createdAt": "2026-11-23T05:47:50.947Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "videogames",
-      "score": 8,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "video, no description",
-      "firstSeen": "2026-11-23T07:19:57.579Z"
-    },
-    "https://mastodon.social/@ami_angelwings@urusai.social/117663770156395170": {
-      "uri": "https://mastodon.social/@ami_angelwings@urusai.social/117663770156395170",
-      "url": "https://mastodon.social/@ami_angelwings@urusai.social/117663770156395170",
-      "handle": "ami_angelwings@urusai.social",
-      "name": "Ami Angelwings",
-      "text": "#QuestionOfTheDay what's something you wish never became a franchise/series/brand and stayed as a single work or at most 2-3 works? #fiction #art #music #musicals #comics #webcomics #anime #manga #games #videogames #gaming #ttrpg #ccgs #TV #television #movies #film #scifi #fantasy #books",
-      "createdAt": "2026-11-23T04:04:02.000Z",
-      "likes": 4,
-      "replies": 17,
-      "group": "broadPlaying",
-      "query": "videogames",
-      "score": 6,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "origin": "https://urusai.social/@ami_angelwings/117663769702703444",
-      "media": null,
-      "firstSeen": "2026-11-23T07:19:57.579Z"
-    },
-    "https://mastodon.social/@coa100/117663132107608398": {
-      "uri": "https://mastodon.social/@coa100/117663132107608398",
-      "url": "https://mastodon.social/@coa100/117663132107608398",
-      "handle": "coa100@mastodon.social",
-      "name": "Coa",
-      "text": "🧙‍♂️ #gaming #videogames https://worldrtc.wtnet9.site/?m=195",
-      "createdAt": "2026-11-23T01:21:53.272Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "broadPlaying",
-      "query": "videogames",
-      "score": 8,
-      "question": true,
-      "heated": false,
-      "isReply": false,
-      "media": "video, no description",
-      "firstSeen": "2026-11-23T07:19:57.579Z"
-    },
     "https://mastodon.social/@ItalianSkeletonGaming/117662344550677011": {
       "uri": "https://mastodon.social/@ItalianSkeletonGaming/117662344550677011",
       "url": "https://mastodon.social/@ItalianSkeletonGaming/117662344550677011",
@@ -509,24 +381,6 @@
       "media": "image: A green background with art deco pattern. Text reads \"Penance RPG PodcastZone2026. Nov 27th. Excel Centre, London\". In the middle is a logo of two dragons hold…",
       "firstSeen": "2026-11-23T07:19:57.579Z"
     },
-    "https://mastodon.social/@seatek/117663571058567071": {
-      "uri": "https://mastodon.social/@seatek/117663571058567071",
-      "url": "https://mastodon.social/@seatek/117663571058567071",
-      "handle": "seatek@mastodon.social",
-      "name": "Mark",
-      "text": "They sure did a nice job updating the visuals in World of Warcraft Forever. And this screenshot doesn't do it justice since it doesn't capture the HDR. The rest of the game updates seem restrained and smart. So far. Mostly things that should have been done YEARS ago. Super happy with it. Now I just need to fend off addiction. #WorldofWarcraft #gaming",
-      "createdAt": "2026-11-23T03:13:31.132Z",
-      "likes": 8,
-      "replies": 1,
-      "group": "broadPlaying",
-      "query": "gaming",
-      "score": 6,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "image: The dock in Darkshore in World of Warcraft Forever showing the sea and rocks at sunset.",
-      "firstSeen": "2026-11-23T07:19:57.579Z"
-    },
     "https://mastodon.social/@ChrisJagged/117662688536300133": {
       "uri": "https://mastodon.social/@ChrisJagged/117662688536300133",
       "url": "https://mastodon.social/@ChrisJagged/117662688536300133",
@@ -562,6 +416,24 @@
       "isReply": false,
       "media": "video, no description",
       "firstSeen": "2026-11-23T07:19:57.579Z"
+    },
+    "https://mastodon.social/@coa100/117664573441802487": {
+      "uri": "https://mastodon.social/@coa100/117664573441802487",
+      "url": "https://mastodon.social/@coa100/117664573441802487",
+      "handle": "coa100@mastodon.social",
+      "name": "Coa",
+      "text": "<];{> https://worldrtc.wtnet9.site/?s=dungeon #videogames #browser",
+      "createdAt": "2026-11-23T07:28:26.293Z",
+      "likes": 0,
+      "replies": 0,
+      "group": "broadPlaying",
+      "query": "videogames",
+      "score": 8,
+      "question": true,
+      "heated": false,
+      "isReply": false,
+      "media": "video, no description; link card: dungeon - World Real Time Chat",
+      "firstSeen": "2026-11-23T07:29:17.614Z"
     }
   }
 }
