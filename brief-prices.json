@@ -1,8 +1,8 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-11-22T18:15:34.146Z",
-  "builtBy": "commit 0e3a76c, schedule, run #54 attempt 1",
-  "pricesCheckedAt": "2026-11-22T17:18:46.678Z",
+  "generatedAt": "2026-11-23T22:27:59.240Z",
+  "builtBy": "commit 74d1527, schedule, run #55 attempt 1",
+  "pricesCheckedAt": "2026-11-23T21:37:10.797Z",
   "warnings": [],
   "candidates": [
     {
@@ -14,8 +14,8 @@
       "was": 19.99,
       "discount": 85,
       "endsAt": "2026-11-26T09:59:00+02:00",
-      "endsInHours": 86,
-      "priceCheckedAt": "2026-11-22T17:18:46.678Z",
+      "endsInHours": 58,
+      "priceCheckedAt": "2026-11-23T21:37:10.797Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
       "drminfo": null,
       "coverAlt": "Cover art for This War of Mine",
@@ -53,15 +53,15 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 35,
+        "days": 36,
         "lowest": true,
         "since": "2026-10-19"
       },
-      "offeredOn": "2026-11-21",
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-22",
+      "offeredOn": "2026-11-22",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-23",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (35 days of data)",
+        "lowest price we've tracked (36 days of data)",
         "deepest-discount rank 1 of 2"
       ]
     },
@@ -74,8 +74,8 @@
       "was": 19.99,
       "discount": 75,
       "endsAt": "2026-11-26T09:59:00+02:00",
-      "endsInHours": 86,
-      "priceCheckedAt": "2026-11-22T17:18:46.678Z",
+      "endsInHours": 58,
+      "priceCheckedAt": "2026-11-23T21:37:10.797Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
       "drminfo": null,
       "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
@@ -107,146 +107,146 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 44,
+        "days": 45,
         "lowest": true,
         "since": "2026-10-07"
       },
       "offeredOn": "2026-11-20",
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-22",
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-23",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (44 days of data)",
+        "lowest price we've tracked (45 days of data)",
         "deepest-discount rank 2 of 2"
       ]
     }
   ],
-  "gogNews": [],
-  "topical": [
+  "gogNews": [
     {
-      "title": "New FREE games this weekend (November 21-22, 2026): your comprehensive roundup",
-      "source": "gg.deals Freebies",
-      "link": "https://gg.deals/freebie/new-free-games-this-weekend-november-21-22-2026-your-comprehensive-roundup/",
-      "t": 1795274520000,
-      "keyword": "free",
-      "summary": "Looking for something new to play this weekend? Plenty of fresh free games have popped up since our last roundup, and you can find them all right here."
+      "title": "Release: Workers & Resources: Soviet Republic - Space Program",
+      "game": "workers_resources_soviet_republic",
+      "url": "https://www.gog.com/en/game/workers_resources_soviet_republic",
+      "newsLink": "http://www.gog.com/news/release_workers_amp_resources_soviet_republic_space_program",
+      "t": 1795430757000,
+      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fworkers_resources_soviet_republic"
     },
     {
-      "title": "Fanatical Capcom Collection Black Friday Bundle: Choose 2 Steam Games for $12.99",
+      "title": "Release: Stellaris: Willpower",
+      "game": "stellaris_willpower",
+      "url": "https://www.gog.com/en/game/stellaris_willpower",
+      "newsLink": "http://www.gog.com/news/release_stellaris_willpower",
+      "t": 1795427914000,
+      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fstellaris_willpower"
+    }
+  ],
+  "topical": [
+    {
+      "title": "Humble Choice November 2026: Get Mafia: The Old Country, The Outer Worlds 2, SHINOBI and 5 More PC Games for $14.99 – LAST WEEK",
       "source": "Indie Game Bundles",
-      "link": "https://www.indiegamebundles.com/fanatical-capcom-collection-black-friday-bundle-choose-2-steam-games-for-12-99/",
-      "t": 1795255055000,
-      "keyword": "bundle",
-      "summary": "The selection includes Resident Evil Village Gold Edition, Monster Hunter: World, Phoenix Wright: Ace Attorney Trilogy, and several classic Mega Man collection…"
+      "link": "https://www.indiegamebundles.com/humble-choice-november-2026/",
+      "t": 1795463646000,
+      "keyword": "humble",
+      "summary": "The November 2026 Humble Choice lineup is here, offering 8 PC games for $14.99 (€12.99), including Mafia and more! The post Humble Choice November 2026: Get Ma…"
     }
   ],
   "topics": [
     {
-      "headline": "Humble Deck the Halls with Deckbuilders Bundle: 7 Steam Games for $15",
-      "score": 10,
+      "headline": "Astragon's Black Friday Steam Sale discounts are just the job for fans of immersive career sims!",
+      "score": 7,
       "sites": [
-        "gg.deals",
-        "indiegamebundles.com"
+        "gg.deals"
       ],
       "keywords": [
-        "bundle",
-        "humble"
+        "sale",
+        "discounts",
+        "steam sale"
       ],
       "games": [],
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Humble’s Deck the Halls with Deckbuilders Bundle puts 7 games on the table for $15",
-          "link": "https://gg.deals/bundle/humbles-deck-the-halls-with-deckbuilders-bundle-puts-7-games-on-the-table-for-15/",
-          "published": "2026-11-20T19:42:39.000Z"
-        },
-        {
-          "source": "Indie Game Bundles",
-          "title": "Humble Deck the Halls with Deckbuilders Bundle: 7 Steam Games for $15",
-          "link": "https://www.indiegamebundles.com/humble-deck-the-halls-with-deckbuilders-bundle-7-steam-games-for-15/",
-          "published": "2026-11-21T09:43:08.000Z"
+          "title": "Astragon's Black Friday Steam Sale discounts are just the job for fans of immersive career sims!",
+          "link": "https://gg.deals/deal/astragons-black-friday-steam-sale-discounts-are-just-the-job-for-fans-of-immersive-career-sims/",
+          "published": "2026-11-23T21:13:00.000Z"
         }
       ]
     },
     {
-      "headline": "GTA 6 is officially the biggest entertainment launch of all time, selling 32.5 million pre-sale copies and a bonkers $3.79 billion in its first day",
-      "score": 8,
-      "sites": [
-        "pcgamer.com",
-        "eurogamer.net"
-      ],
-      "keywords": [
-        "sale"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "PC Gamer",
-          "title": "Grand Theft Auto 6 earned $3.79 billion on launch day",
-          "link": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-earned-usd3-79-billion-on-launch-day/",
-          "published": "2026-11-20T19:51:48.000Z"
-        },
-        {
-          "source": "Eurogamer",
-          "title": "GTA 6 is officially the biggest entertainment launch of all time, selling 32.5 million pre-sale copies and a bonkers $3.79 billion in its first day",
-          "link": "https://www.eurogamer.net/gta-6-biggest-entertainment-launch",
-          "published": "2026-11-20T20:00:40.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Wallets, take cover: these Battlefield Black Friday deals on Steam bring savings of up to 95%",
-      "score": 5,
+      "headline": "Bethesda's Steam Black Friday Sale offers epic adventures at minuscule prices!",
+      "score": 7,
       "sites": [
         "gg.deals"
       ],
       "keywords": [
+        "sale",
+        "prices"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Bethesda's Steam Black Friday Sale offers epic adventures at minuscule prices!",
+          "link": "https://gg.deals/deal/bethesdas-steam-black-friday-sale-offers-epic-adventures-at-minuscule-prices/",
+          "published": "2026-11-23T20:20:00.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Steam's Weeklong Sale kicks off its Black Friday edition with 1000s of deals, up to 95% off",
+      "score": 7,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "sale",
         "deals"
       ],
       "games": [],
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Wallets, take cover: these Battlefield Black Friday deals on Steam bring savings of up to 95%",
-          "link": "https://gg.deals/deal/wallets-take-cover-these-battlefield-black-friday-deals-on-steam-bring-savings-of-up-to-95/",
-          "published": "2026-11-22T12:00:00.000Z"
+          "title": "Steam's Weeklong Sale kicks off its Black Friday edition with 1000s of deals, up to 95% off",
+          "link": "https://gg.deals/deal/steams-weeklong-sale-kicks-off-its-black-friday-edition-with-1000s-of-deals-up-to-95-off/",
+          "published": "2026-11-23T18:58:57.000Z"
         }
       ]
     },
     {
-      "headline": "50 best Steam deals this week (November 16–22) amid the Black Friday shopping frenzy",
-      "score": 5,
+      "headline": "For Black Friday, GMG is giving away a FREE game when you buy any bundle!",
+      "score": 7,
       "sites": [
         "gg.deals"
       ],
       "keywords": [
+        "free",
+        "bundle"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "For Black Friday, GMG is giving away a FREE game when you buy any bundle!",
+          "link": "https://gg.deals/bundle/for-black-friday-gmg-is-giving-away-a-free-game-when-you-buy-any-bundle/",
+          "published": "2026-11-23T18:22:00.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Steam's Xbox Game Studios Sale drops Black Friday deals on Gears of War: E-Day, Halo: Campaign Evolved, and more",
+      "score": 7,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "sale",
         "deals"
       ],
       "games": [],
       "items": [
         {
           "source": "gg.deals News",
-          "title": "50 best Steam deals this week (November 16–22) amid the Black Friday shopping frenzy",
-          "link": "https://gg.deals/deal/50-best-steam-deals-this-week-november-16-22-amid-the-black-friday-shopping-frenzy/",
-          "published": "2026-11-22T10:04:00.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Net a Black Friday NBA 2K27 deal and get ready to welcome Vice City's neon glow for Season 3!",
-      "score": 5,
-      "sites": [
-        "gg.deals"
-      ],
-      "keywords": [
-        "deal"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "Net a Black Friday NBA 2K27 deal and get ready to welcome Vice City's neon glow for Season 3!",
-          "link": "https://gg.deals/deal/net-a-black-friday-nba-2k27-deal-and-get-ready-to-welcome-vice-citys-neon-glow-for-season-3/",
-          "published": "2026-11-21T18:02:00.000Z"
+          "title": "Steam's Xbox Game Studios Sale drops Black Friday deals on Gears of War: E-Day, Halo: Campaign Evolved, and more",
+          "link": "https://gg.deals/deal/steams-xbox-game-studios-sale-drops-black-friday-deals-on-gears-of-war-e-day-halo-campaign-evolved-and-more/",
+          "published": "2026-11-23T17:41:20.000Z"
         }
       ]
     }
@@ -269,24 +269,24 @@
   },
   "posts": {
     "x": {
-      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nPrice checked Nov 22. Sale ends Nov 26. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-22\n\n#PCGaming #ThisWarOfMine\nAd",
-      "length": 170,
+      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nPrice checked Nov 23. Sale ends Nov 26. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-23\n\n#PCGaming #GameDeals\nAd",
+      "length": 166,
       "max": 270,
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-22",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-23",
       "deal": "gog-this-war-of-mine"
     },
     "bluesky": {
-      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nPrice checked Nov 22. Sale ends Nov 26. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-22\n\n#PCGaming #GameDeals #ThisWarOfMine #VideoGames #DRMFree\nAd",
-      "length": 204,
+      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nPrice checked Nov 23. Sale ends Nov 26. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-23\n\n#PCGaming #GameDeals #Games #PCGames #GOG\nAd",
+      "length": 189,
       "max": 300,
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-22",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-23",
       "deal": "gog-this-war-of-mine"
     },
     "mastodon": {
-      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nYou save $17.00\nDRM-free\nPrice checked Nov 22. Sale ends Nov 26. Lowest price we've tracked.\nWhy today: deepest-discount rank 1 of 2.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-11-22\n\n#GameDeals #PCGaming #GOG #DRMFree #Gaming\nAd",
-      "length": 254,
+      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nYou save $17.00\nDRM-free\nPrice checked Nov 23. Sale ends Nov 26. Lowest price we've tracked.\nWhy today: deepest-discount rank 1 of 2.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-11-23\n\n#GameDeals #PCGaming #GOG #DRMFree #VideoGames\nAd",
+      "length": 258,
       "max": 500,
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-11-22",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-11-23",
       "deal": "gog-this-war-of-mine"
     }
   }

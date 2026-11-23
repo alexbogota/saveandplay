@@ -1,5 +1,5 @@
-# Brief: Retro game deals (@retrogamedeals.bsky.social), 2026-11-22 18:15 UTC
-Prices checked 2026-11-22 17:18 UTC (1 h ago). News: 11 of 11 sources read, 74 items from the last 48 h, 0 of 0 offered deals mentioned.
+# Brief: Retro game deals (@retrogamedeals.bsky.social), 2026-11-23 22:27 UTC
+Prices checked 2026-11-23 21:37 UTC (1 h ago). News: 11 of 11 sources read, 103 items from the last 48 h, 0 of 0 offered deals mentioned.
 Niche Retro: 1 games fit the rule today (0 of them can be posted now).
 WARNING: NOTHING TO OFFER today.
 WARNING: No game fits the niche today (1 fit the rule, 1 do not, 0 have no facts yet, 1 were taken by another account today, 0 offered in the last 7 days, 0 under 30%, 0 prices older than 48 h, 0 sales over or ending soon).
@@ -14,4 +14,4 @@ Rules:
 
 Left out: 0 other-store deals, 0 hidden duplicates, 0 under 30%, 0 ended, 0 ending within 6 h, 0 old prices, 1 outside the niche, 0 without facts, 1 taken by another account today.
 Sources not read: none.
-Built by: commit 0e3a76c, schedule, run #54 attempt 1.
+Built by: commit 74d1527, schedule, run #55 attempt 1.

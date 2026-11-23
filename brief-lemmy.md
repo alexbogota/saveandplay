@@ -1,5 +1,5 @@
-# Brief: Honest prices (@saveandplay@lemmy.zip), 2026-11-22 18:15 UTC
-Prices checked 2026-11-22 17:18 UTC (1 h ago). News: 11 of 11 sources read, 74 items from the last 48 h, 0 of 1 offered deals mentioned.
+# Brief: Honest prices (@saveandplay@lemmy.zip), 2026-11-23 22:27 UTC
+Prices checked 2026-11-23 21:37 UTC (1 h ago). News: 11 of 11 sources read, 103 items from the last 48 h, 0 of 1 offered deals mentioned.
 
 Write ONE post about the first item below (take another one only if it looks wrong, and say why).
 Rules:
@@ -11,36 +11,33 @@ Rules:
 - The post is made by scripts/post-lemmy.mjs from a template, without AI. This account is automated and some links are affiliate links; the profile says so.
 
 ## 1. This War of Mine: GOG $2.99 (was $19.99, -85%)
-Sale ends 2026-11-26 07:59 UTC (in 4 days). Price checked 2026-11-22 17:18 UTC. Score 2.5.
-Why today: lowest price we've tracked (35 days of data); deepest-discount rank 1 of 1.
-Note: suggested on 2026-11-21, already used recently.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-22
+Sale ends 2026-11-26 07:59 UTC (in 2 days). Price checked 2026-11-23 21:37 UTC. Score 2.5.
+Why today: lowest price we've tracked (36 days of data); deepest-discount rank 1 of 1.
+Note: suggested on 2026-11-22, already used recently.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=lemmy-prices&utm_medium=social&utm_campaign=deals-2026-11-23
 Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984
 Alt text: Cover art for This War of Mine
 
 ## News on the topic (no deal)
-- gg.deals Freebies, Nov 21: "New FREE games this weekend (November 21-22, 2026): your comprehensive roundup" https://gg.deals/freebie/new-free-games-this-weekend-november-21-22-2026-your-comprehensive-roundup/ | Looking for something new to play this weekend? Plenty of fresh free games have popped up since our last roundup, and you can find them all right here.
-- Indie Game Bundles, Nov 21: "Fanatical Capcom Collection Black Friday Bundle: Choose 2 Steam Games for $12.99" https://www.indiegamebundles.com/fanatical-capcom-collection-black-friday-bundle-choose-2-steam-games-for-12-99/ | The selection includes Resident Evil Village Gold Edition, Monster Hunter: World, Phoenix Wright: Ace Attorney Trilogy, and several classic Mega Man collection…
+- Indie Game Bundles, Nov 23: "Humble Choice November 2026: Get Mafia: The Old Country, The Outer Worlds 2, SHINOBI and 5 More PC …" https://www.indiegamebundles.com/humble-choice-november-2026/ | The November 2026 Humble Choice lineup is here, offering 8 PC games for $14.99 (€12.99), including Mafia and more! The post Humble Choice November 2026: Get Ma…
 
 ## Topics for articles (stories without a deal; headlines and links only. Write an article only if the owner asks)
-1. Humble Deck the Halls with Deckbuilders Bundle: 7 Steam Games for $15 (score 10)
-Why now: 2 sites wrote about it in the last 48 h (gg.deals, indiegamebundles.com); matches keywords: bundle, humble; newest Nov 21.
-- Indie Game Bundles, Nov 21: "Humble Deck the Halls with Deckbuilders Bundle: 7 Steam Games for $15" https://www.indiegamebundles.com/humble-deck-the-halls-with-deckbuilders-bundle-7-steam-games-for-15/
-- gg.deals News, Nov 20: "Humble’s Deck the Halls with Deckbuilders Bundle puts 7 games on the table for $15" https://gg.deals/bundle/humbles-deck-the-halls-with-deckbuilders-bundle-puts-7-games-on-the-table-for-15/
-2. GTA 6 is officially the biggest entertainment launch of all time, selling 32.5 million pre-sale copies and a … (score 8)
-Why now: 2 sites wrote about it in the last 48 h (pcgamer.com, eurogamer.net); matches keywords: sale; newest Nov 20.
-- Eurogamer, Nov 20: "GTA 6 is officially the biggest entertainment launch of all time, selling 32.5 million pre-sale cop…" https://www.eurogamer.net/gta-6-biggest-entertainment-launch
-- PC Gamer, Nov 20: "Grand Theft Auto 6 earned $3.79 billion on launch day" https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-earned-usd3-79-billion-on-launch-day/
-3. Wallets, take cover: these Battlefield Black Friday deals on Steam bring savings of up to 95% (score 5)
-Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: deals; newest Nov 22.
-- gg.deals News, Nov 22: "Wallets, take cover: these Battlefield Black Friday deals on Steam bring savings of up to 95%" https://gg.deals/deal/wallets-take-cover-these-battlefield-black-friday-deals-on-steam-bring-savings-of-up-to-95/
-4. 50 best Steam deals this week (November 16–22) amid the Black Friday shopping frenzy (score 5)
-Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: deals; newest Nov 22.
-- gg.deals News, Nov 22: "50 best Steam deals this week (November 16–22) amid the Black Friday shopping frenzy" https://gg.deals/deal/50-best-steam-deals-this-week-november-16-22-amid-the-black-friday-shopping-frenzy/
-5. Net a Black Friday NBA 2K27 deal and get ready to welcome Vice City's neon glow for Season 3! (score 5)
-Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: deal; newest Nov 21.
-- gg.deals News, Nov 21: "Net a Black Friday NBA 2K27 deal and get ready to welcome Vice City's neon glow for Season 3!" https://gg.deals/deal/net-a-black-friday-nba-2k27-deal-and-get-ready-to-welcome-vice-citys-neon-glow-for-season-3/
+1. Astragon's Black Friday Steam Sale discounts are just the job for fans of immersive career sims! (score 7)
+Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: sale, discounts, steam sale; newest Nov 23.
+- gg.deals News, Nov 23: "Astragon's Black Friday Steam Sale discounts are just the job for fans of immersive career sims!" https://gg.deals/deal/astragons-black-friday-steam-sale-discounts-are-just-the-job-for-fans-of-immersive-career-sims/
+2. Bethesda's Steam Black Friday Sale offers epic adventures at minuscule prices! (score 7)
+Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: sale, prices; newest Nov 23.
+- gg.deals News, Nov 23: "Bethesda's Steam Black Friday Sale offers epic adventures at minuscule prices!" https://gg.deals/deal/bethesdas-steam-black-friday-sale-offers-epic-adventures-at-minuscule-prices/
+3. Steam's Weeklong Sale kicks off its Black Friday edition with 1000s of deals, up to 95% off (score 7)
+Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: sale, deals; newest Nov 23.
+- gg.deals News, Nov 23: "Steam's Weeklong Sale kicks off its Black Friday edition with 1000s of deals, up to 95% off" https://gg.deals/deal/steams-weeklong-sale-kicks-off-its-black-friday-edition-with-1000s-of-deals-up-to-95-off/
+4. For Black Friday, GMG is giving away a FREE game when you buy any bundle! (score 7)
+Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: free, bundle; newest Nov 23.
+- gg.deals News, Nov 23: "For Black Friday, GMG is giving away a FREE game when you buy any bundle!" https://gg.deals/bundle/for-black-friday-gmg-is-giving-away-a-free-game-when-you-buy-any-bundle/
+5. Steam's Xbox Game Studios Sale drops Black Friday deals on Gears of War: E-Day, Halo: Campaign Evolved, and m… (score 7)
+Why now: 1 site wrote about it in the last 48 h (gg.deals); matches keywords: sale, deals; newest Nov 23.
+- gg.deals News, Nov 23: "Steam's Xbox Game Studios Sale drops Black Friday deals on Gears of War: E-Day, Halo: Campaign Evol…" https://gg.deals/deal/steams-xbox-game-studios-sale-drops-black-friday-deals-on-gears-of-war-e-day-halo-campaign-evolved-and-more/
 
 Left out: 0 other-store deals, 0 hidden duplicates, 0 under 50%, 0 ended, 0 ending within 6 h, 0 old prices, 1 taken by another account today.
 Sources not read: none.
-Built by: commit 0e3a76c, schedule, run #54 attempt 1.
+Built by: commit 74d1527, schedule, run #55 attempt 1.
