@@ -1,9 +1,692 @@
 {
  "account": "Retro game deals",
- "generatedAt": "2026-11-23T22:27:59.240Z",
+ "generatedAt": "2026-11-24T20:59:51.921Z",
  "windowHours": 48,
- "count": 103,
+ "count": 132,
  "items": [
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Lords of the Fallen 2 delayed to April 2027, exact release date coming next month",
+   "link": "https://www.eurogamer.net/lords-of-the-fallen-2-delayed-april-2027",
+   "published": "2026-11-24T20:30:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Best unique weapons to grab early in GTA 6: Get yourself some silenced weapons without the price tag",
+   "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-unique-weapons/",
+   "published": "2026-11-24T20:16:19.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "How to steal the Ocelot Bloodless Jugular in GTA 6",
+   "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-ocelot-bloodless-jugular-location/",
+   "published": "2026-11-24T19:50:49.000Z",
+   "status": "dropped",
+   "storyHeadline": "How to steal the Ocelot Bloodless Jugular in GTA 6",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Humble’s Black Friday deals put Oblivion Remastered and Fallout 4 Anniversary at $30 each (US)",
+   "link": "https://gg.deals/deal/humbles-black-friday-deals-put-oblivion-remastered-and-fallout-4-anniversary-at-30-each-us/",
+   "published": "2026-11-24T19:46:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "Bare fist, megastructure climbing roguelike White Knuckle gets its penultimate region in The Core, a sterile, hostile reactor sector that you'll probably die in",
+   "link": "https://www.rockpapershotgun.com/bare-fist-megastructure-climbing-roguelike-white-knuckle-gets-its-penultimate-region-in-the-core-a-sterile-hostile-reactor-sector-that-youll-probably-die-in",
+   "published": "2026-11-24T19:10:40.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Steam's Black Friday Red Dead Redemption 1+2 Bundle deal brings it down to a new historical low price!",
+   "link": "https://gg.deals/deal/red-dead-redemption-12-have-never-been-cheaper-together-than-they-are-this-black-friday/",
+   "published": "2026-11-24T18:48:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Studio founded by former Apex Legends leaders is closing without releasing a game",
+   "link": "https://www.pcgamer.com/gaming-industry/studio-founded-by-former-apex-legends-leaders-is-closing-without-releasing-a-game/",
+   "published": "2026-11-24T18:46:25.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Prime Gaming’s (Amazon Luna) final FREE game of November is now available to claim",
+   "link": "https://gg.deals/subscription-news/prime-gamings-amazon-luna-final-free-game-of-november-is-now-available-to-claim/",
+   "published": "2026-11-24T18:45:38.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "The Steam Awards turn 10 with throwback categories and a Game of the Year Hall of Fame",
+   "link": "https://www.eurogamer.net/steam-awards-2026-nominations-open-hall-of-fame",
+   "published": "2026-11-24T18:38:30.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "You can expect a similar leap between The Witcher 3 and The Witcher 4 as there is between GTA 5 and GTA 6, CD Projekt Red says",
+   "link": "https://www.eurogamer.net/cd-projekt-red-cdpr-witcher-3-4-gta-5-6",
+   "published": "2026-11-24T18:13:30.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Steam’s WB Games Black Friday Sale slashes prices on Batman, Middle-earth, Harry Potter & more",
+   "link": "https://gg.deals/deal/steams-wb-games-black-friday-sale/",
+   "published": "2026-11-24T18:12:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "GTA 6 launch knocked Call of Duty's daily players down 42 percent, Alinea estimates",
+   "link": "https://www.eurogamer.net/gta-6-call-of-duty-fortnite-fc-27-daily-players-alinea",
+   "published": "2026-11-24T17:59:50.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "\"That philosophy has not changed for us because of GTA 6\": CD Projekt Red are staying the course on The Witcher 4 and Cyberpunk 2 after Rockstar's smash success",
+   "link": "https://www.rockpapershotgun.com/that-philosophy-has-not-changed-for-us-because-of-gta-6-cd-projekt-red-are-staying-the-course-on-the-witcher-4-and-cyberpunk-2-after-rockstars-smash-success",
+   "published": "2026-11-24T17:54:50.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "GTA 6 recomp leaders bail out as Take-Two cracks down on illicit efforts to get the game running on PC",
+   "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-recomp-leaders-bail-out-as-take-two-cracks-down-on-illicit-efforts-to-get-the-game-running-on-pc/",
+   "published": "2026-11-24T17:42:34.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "Valve push on with their Steam improvements by revamping the Community Market home page and adding a watchlist to it so you're bookmarks will be a lot lighter",
+   "link": "https://www.rockpapershotgun.com/valve-push-on-with-their-steam-improvements-by-revamping-the-community-market-home-page-and-adding-a-watchlist-to-it-so-youre-bookmarks-will-be-a-lot-lighter",
+   "published": "2026-11-24T17:36:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Dawn of War IV release times: find out when the battle begins in your region",
+   "link": "https://gg.deals/gaming-news/dawn-of-war-iv-release-times-find-out-when-the-battle-begins-in-your-region/",
+   "published": "2026-11-24T17:34:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "GamesRadar deals",
+   "domain": "gamesradar.com",
+   "title": "The best gaming headset you can buy right now is at its lowest-ever price",
+   "link": "https://www.gamesradar.com/hardware/tech/75-percent-off-proton-vpn-makes-it-the-go-to-black-friday-vpn-deal-for-people-who-care-about-their-privacy/",
+   "published": "2026-11-24T17:25:16.000Z",
+   "status": "dropped",
+   "storyHeadline": "The best gaming headset you can buy right now is at its lowest-ever price",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Nintendo Switch Online makes a splash, adding this classic GameCube racer for members today!",
+   "link": "https://gg.deals/subscription-news/nintendo-switch-online-makes-a-splash-adding-this-classic-gamecube-racer-for-members-today/",
+   "published": "2026-11-24T17:15:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "Ex-Respawn studio Gravity Well announces \"hibernation\" following previous failure to secure funding and layoffs, but insists \"we still believe in the IP and game we were building\"",
+   "link": "https://www.rockpapershotgun.com/ex-respawn-studio-gravity-well-announces-hibernation-following-previous-failure-to-secure-funding-and-layoffs-but-insists-we-still-believe-in-the-ip-and-game-we-were-building",
+   "published": "2026-11-24T17:06:30.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "We're giving away Warhammer 40,000: Dawn of War 4 Commander Edition Steam codes",
+   "link": "https://www.pcgamer.com/games/rts/were-giving-away-warhammer-40-000-dawn-of-war-4-commander-edition-steam-codes/",
+   "published": "2026-11-24T17:00:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Attention strategy RPG sickos: The Fire-Emblem-style game that captured our hearts 4 years ago is back with a sequel",
+   "link": "https://www.pcgamer.com/games/rpg/attention-strategy-rpg-sickos-the-fire-emblem-style-game-that-captured-our-hearts-4-years-ago-is-back-with-a-sequel/",
+   "published": "2026-11-24T16:51:41.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Bullet time Black Friday: Max Payne Steam keys are up to 80% off",
+   "link": "https://gg.deals/deal/bullet-time-black-friday-max-payne-steam-keys-are-up-to-80-off/",
+   "published": "2026-11-24T16:44:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "GTA 6 is great because of all its murderous NPCs, not in spite of them",
+   "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-is-great-because-of-all-its-murderous-npcs-not-in-spite-of-them/",
+   "published": "2026-11-24T16:40:04.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "GTA 6 players are discovering, who needs a gun when it's easier to rob a store with a crate of beer?",
+   "link": "https://www.eurogamer.net/grand-theft-auto-6-beer-robberies",
+   "published": "2026-11-24T16:33:50.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "All GTA 6 Kitty Litter lab locations",
+   "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-kitty-litter-lab-locations/",
+   "published": "2026-11-24T16:29:48.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "GamesRadar deals",
+   "domain": "gamesradar.com",
+   "title": "These Black Friday Steam Deck gift deals discount peripherals and accessories",
+   "link": "https://www.gamesradar.com/hardware/handhelds/got-a-steam-deck-that-needs-a-black-friday-treat-these-deals-will-let-you-deck-out-your-deck-at-bargain-prices/",
+   "published": "2026-11-24T16:18:20.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "GamesRadar deals",
+   "domain": "gamesradar.com",
+   "title": "The best gaming headset you can buy right now is at its lowest-ever price",
+   "link": "https://www.gamesradar.com/hardware/speakers-audio/our-favorite-gaming-headset-is-at-a-new-low-price-in-this-black-friday-deal-making-it-one-of-the-easiest-wins-of-the-season/",
+   "published": "2026-11-24T16:17:42.000Z",
+   "status": "dropped",
+   "storyHeadline": "The best gaming headset you can buy right now is at its lowest-ever price",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Don't let these Ace Combat 8: Wings of Theve Black Friday discounts fly under your radar",
+   "link": "https://gg.deals/deal/dont-let-these-ace-combat-8-wings-of-theve-black-friday-discounts-fly-under-your-radar/",
+   "published": "2026-11-24T16:16:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "\"It would end up appealing to no one\": The Witcher 4 narrative leads aren't willing to strip away the series' \"distinct edge\" in the name of chasing a broader audience",
+   "link": "https://www.rockpapershotgun.com/it-would-end-up-appealing-to-no-one-the-witcher-4-narrative-leads-arent-willing-to-strip-away-the-series-distinct-edge-in-the-name-of-chasing-a-broader-audience",
+   "published": "2026-11-24T16:14:10.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "GTA 6 might play best when it hits PC, but it'll be best played with a controller",
+   "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-might-play-best-when-it-hits-pc-but-itll-be-best-played-with-a-controller/",
+   "published": "2026-11-24T15:52:10.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Resident Evil Requiem is up to 58% off for Black Friday, giving horror fans a reason to rejoice",
+   "link": "https://gg.deals/deal/resident-evil-requiem-is-up-to-58-off-for-black-friday/",
+   "published": "2026-11-24T15:40:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "US and EU players will be able to play together in Final Fantasy 14 soon, with Square Enix considering 'the possibility of permanently enabling travel' in the future",
+   "link": "https://www.pcgamer.com/games/mmo/na-and-eu-players-will-be-able-to-play-together-in-final-fantasy-14-soon-with-square-enix-considering-the-possibility-of-permanently-enabling-travel-in-the-future/",
+   "published": "2026-11-24T15:18:57.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Mass Effect writer says 'as a fan I would have been happy with the solution' they came up with for ME3's endings in ME Universe",
+   "link": "https://www.pcgamer.com/games/mass-effect/mass-effect-writer-says-as-a-fan-i-would-have-been-happy-with-the-solution-they-came-up-with-for-me3s-endings-in-me-universe/",
+   "published": "2026-11-24T15:14:07.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Remedy CEO praises Rockstar's support for the Max Payne 1 & 2 remake and respecting Remedy's creative vision",
+   "link": "https://www.eurogamer.net/remedy-max-payne-1-2-remake-rockstar-relationship",
+   "published": "2026-11-24T15:09:20.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "\"Game feel is impossible to copy\": CEO of Probably Stolen publisher tinyBuild says devs \"shouldn't be afraid\" of AI clones",
+   "link": "https://www.rockpapershotgun.com/game-feel-is-impossible-to-copy-ceo-of-probably-stolen-publisher-tinybuild-says-devs-shouldnt-be-afraid-of-ai-clones",
+   "published": "2026-11-24T15:03:50.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Fanatical's Build Your Own Casual Bundle features 17 Steam keys from just $1.50 each",
+   "link": "https://gg.deals/bundle/fanatical-build-your-own-casual-bundle-cheap-steam-keys/",
+   "published": "2026-11-24T15:01:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Indie Game Bundles",
+   "domain": "indiegamebundles.com",
+   "title": "Demon Sighting is free on Steam — claim it before it disappears at the end of November",
+   "link": "https://www.indiegamebundles.com/demon-sighting-is-free-on-steam-claim-it-before-it-disappears-at-the-end-of-november/",
+   "published": "2026-11-24T14:43:56.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "As Blizzard whacks one World of Warcraft: Forever gold farming exploit, it struggles to contain all of the alternatives popping up",
+   "link": "https://www.eurogamer.net/blizzard-world-of-warcraft-forever-gold-exploits",
+   "published": "2026-11-24T14:38:30.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "GamesRadar deals",
+   "domain": "gamesradar.com",
+   "title": "Get Disney Plus for just $4.99 per month in the new Black Friday sale",
+   "link": "https://www.gamesradar.com/entertainment/disney-plus/get-disney-plus-for-just-usd4-99-per-month-in-the-new-black-friday-sale/",
+   "published": "2026-11-24T14:30:47.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "GMG's 2K Black Friday sale has plenty of gems at bargain prices, with up to 94% off!",
+   "link": "https://gg.deals/deal/gmgs-2k-black-friday-sale-2026/",
+   "published": "2026-11-24T14:30:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "Hooded Horse's latest tactics RPG is a sequel to Symphony of War, one of 2022's undersung favourites",
+   "link": "https://www.rockpapershotgun.com/hooded-horses-latest-tactics-rpg-is-a-sequel-to-symphony-of-war-one-of-2022s-undersung-favourites",
+   "published": "2026-11-24T14:20:40.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Indie Game Bundles",
+   "domain": "indiegamebundles.com",
+   "title": "AISLPC RG43V Pro Review",
+   "link": "https://www.indiegamebundles.com/aislpc-rg43v-pro-review/",
+   "published": "2026-11-24T14:16:19.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Today's Nintendo Switch Online update finally introduces a feature players have been asking for since 2018",
+   "link": "https://www.eurogamer.net/nintendo-switch-update-version-2-2-0-borders",
+   "published": "2026-11-24T14:02:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "Action RPG Showa American Story seemingly delayed into 2027, with no comment on why from developer NEKCOM",
+   "link": "https://www.rockpapershotgun.com/action-rpg-showa-american-story-seemingly-delayed-into-2027-with-no-comment-on-why-from-developer-nekcom",
+   "published": "2026-11-24T13:50:10.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Game Pass has just added some sneaky stealth shooting and post-apocalyptic parkour for members",
+   "link": "https://gg.deals/subscription-news/game-pass-has-just-added-some-sneaky-stealth-shooting-and-post-apocalyptic-parkour-for-members/",
+   "published": "2026-11-24T13:49:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "GamersGate Black Friday Sale is live! Discounts reach 95% on recent hits and PC classics",
+   "link": "https://gg.deals/deal/gamersgate-black-friday-sale-is-live-2026/",
+   "published": "2026-11-24T13:40:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Unofficial GTA 6 PC port effort suffers setback as Rockstar seemingly takes down Project Leonida, one of the internet's biggest recompilation projects",
+   "link": "https://www.eurogamer.net/grand-theft-auto-6-project-leonida-discord-github-vanish",
+   "published": "2026-11-24T13:40:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "GamesRadar deals",
+   "domain": "gamesradar.com",
+   "title": "The PS5 controller Black Friday deals are plentiful over at Currys",
+   "link": "https://www.gamesradar.com/hardware/gaming-controllers/one-retailer-is-discounting-limited-edition-dualsense-controllers-better-than-the-others-this-black-friday-including-the-hard-to-find-icon-blue-version/",
+   "published": "2026-11-24T13:34:06.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "GamesRadar deals",
+   "domain": "gamesradar.com",
+   "title": "These Warhammer action figure discounts are far too tempting",
+   "link": "https://www.gamesradar.com/toys-collectibles/damn-it-these-warhammer-action-figure-discounts-are-far-too-tempting/",
+   "published": "2026-11-24T13:27:20.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Top 50 deals under $10 in Ubisoft's Black Friday Sale",
+   "link": "https://gg.deals/wallet-friendly/top-50-deals-under-10-in-ubisofts-black-friday-sale/",
+   "published": "2026-11-24T12:35:39.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "GDQ releases schedule for Awesome Games Done Quick 2027 in January, featuring new runs like Queen's Domain, Big Walk, Galactic Racer, and the incongruously not-new Yakuza 5",
+   "link": "https://www.rockpapershotgun.com/gdq-releases-schedule-for-awesome-games-done-quick-2027-in-january-featuring-new-runs-like-queens-domain-big-walk-galactic-racer-and-the-incongruously-not-new-yakuza-5",
+   "published": "2026-11-24T12:30:40.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "World of Warcraft: Forever's been chasing bugs and gold exploits over the weekend—and now it turns out Sunder Armor might just not be working",
+   "link": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forevers-been-chasing-bugs-and-gold-exploits-over-the-weekend-and-now-it-turns-out-sunder-armor-might-just-not-be-working/",
+   "published": "2026-11-24T12:20:47.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "I spy a big Black Friday deal on GOTY contender 007 First Light!",
+   "link": "https://gg.deals/deal/i-spy-a-big-black-friday-deal-on-goty-contender-007-first-light/",
+   "published": "2026-11-24T12:17:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Rockstar is actively shopping Red Dead Redemption movie and TV rights around, just don't expect the same for Grand Theft Auto",
+   "link": "https://www.eurogamer.net/red-dead-redemption-movie-tv-rights-100-million-usd-no-gta",
+   "published": "2026-11-24T11:54:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Steam revamps its marketplace for the 2nd time this year",
+   "link": "https://www.pcgamer.com/software/platforms/steam-revamps-its-marketplace-for-the-2nd-time-this-year/",
+   "published": "2026-11-24T11:49:42.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "GTA 6 players are already starting to get very good at heists, despite all the new challenges Rockstar has added to the game",
+   "link": "https://www.eurogamer.net/gta-6-players-getting-very-good-at-heists-despite-challenges",
+   "published": "2026-11-24T11:47:40.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Rock Paper Shotgun",
+   "domain": "rockpapershotgun.com",
+   "title": "\"The torch passes to the open source recomp and emulation projects\": GTA 6 leaker Cyberleek claims to have released crimsim's Xbox executable and denies crypto grifting",
+   "link": "https://www.rockpapershotgun.com/the-torch-passes-to-the-open-source-recomp-and-emulation-projects-gta-6-leaker-cyberleek-claims-to-have-released-crimsims-xbox-executable-and-denies-crypto-grifting",
+   "published": "2026-11-24T11:38:50.000Z",
+   "status": "topic-below-cut",
+   "storyHeadline": "\"The torch passes to the open source recomp and emulation projects\": GTA 6 leaker Cyberleek claims to have released crimsim's Xbox executable and denies crypto grifting",
+   "score": 6
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Warhammer 40,000: Boltgun 2 captures the franchise's bloody absurdity like nothing else",
+   "link": "https://www.eurogamer.net/warhammer-40000-boltgun-2-now-playing",
+   "published": "2026-11-24T11:31:10.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Humble Devolver Digital Black Friday lets you save up to 89% on the beloved publisher's hits!",
+   "link": "https://gg.deals/deal/humble-devolver-digital-black-friday/",
+   "published": "2026-11-24T10:51:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "More than 39 million people have played GTA 6 on PlayStation alone, Sony says, as the game breaks all-time player numbers on the platform",
+   "link": "https://www.eurogamer.net/more-than-39-million-people-have-played-gta-6-on-playstation-alone-sony-says-as-the-game-breaks-all-time-player-numbers-on-the-platform",
+   "published": "2026-11-24T10:08:20.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Rockstar Games reveals 23 extra tracks in GTA 6's deluxe edition soundtrack, featuring Denzel Curry, HEALTH, and more",
+   "link": "https://www.eurogamer.net/gta-6-deluxe-edition-soundtrack-23-extra-tracks",
+   "published": "2026-11-24T10:03:50.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Microsoft reportedly looked into killing paid multiplayer for next-gen Xbox Helix consoles",
+   "link": "https://www.eurogamer.net/xbox-live-helix-killing-paid-membership",
+   "published": "2026-11-24T10:02:10.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Baldur's Gate 3 Black Friday deal: Get it at 30% off on Steam or even cheaper elsewhere",
+   "link": "https://gg.deals/deal/baldurs-gate-3-black-friday-deal/",
+   "published": "2026-11-24T09:35:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "gg.deals News",
+   "domain": "gg.deals",
+   "title": "Ending soon! Two Prime Gaming’s (Amazon Luna) FREEBIES mix war horror with time-travel trouble (updated)",
+   "link": "https://gg.deals/subscription-news/prime-gamings-amazon-luna-new-freebies-mix-war-horror-with-time-travel-trouble/",
+   "published": "2026-11-24T09:19:00.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "Eurogamer",
+   "domain": "eurogamer.net",
+   "title": "Modders already have GTA 6 running on PC, after CyberLeek released a full Xbox build of the game",
+   "link": "https://www.eurogamer.net/gta-6-cyberleek-leaked-xbox-build-ported-pc",
+   "published": "2026-11-24T09:09:20.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Trump claims credit for Jensen Huang's return to Nvidia, posts meme depicting Huang holding up a bra victoriously",
+   "link": "https://www.pcgamer.com/software/ai/trump-claims-credit-for-jensen-huangs-return-to-nvidia-posts-meme-depicting-huang-holding-up-a-bra-victoriously/",
+   "published": "2026-11-24T01:06:57.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "Sony: GTA 6 set record for 'highest number of concurrent players for any game on PlayStation' ever",
+   "link": "https://www.pcgamer.com/games/grand-theft-auto/sony-gta-6-set-record-for-highest-number-of-concurrent-players-for-any-game-on-playstation-ever/",
+   "published": "2026-11-24T00:14:36.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
+  {
+   "source": "PC Gamer",
+   "domain": "pcgamer.com",
+   "title": "GTA 6 players found a '60 fps glitch', but it’s too unstable to stop me from wishing it was on PC already",
+   "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-players-found-a-60-fps-glitch-but-its-too-unstable-to-stop-me-from-wishing-it-was-on-pc-already/",
+   "published": "2026-11-23T22:47:08.000Z",
+   "status": "dropped",
+   "score": 3,
+   "note": "one site, no keyword of the account, not about a game we list"
+  },
   {
    "source": "PC Gamer",
    "domain": "pcgamer.com",
@@ -190,9 +873,9 @@
    "title": "Cyberleek releases executable for GTA 6 Xbox build leaked last week: 'The torch passes to the open source recomp and emulation projects'",
    "link": "https://www.pcgamer.com/games/grand-theft-auto/cyberleek-releases-executable-for-gta-6-xbox-build-leaked-last-week-the-torch-passes-to-the-open-source-recomp-and-emulation-projects/",
    "published": "2026-11-23T17:54:30.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
+   "status": "topic-below-cut",
+   "storyHeadline": "\"The torch passes to the open source recomp and emulation projects\": GTA 6 leaker Cyberleek claims to have released crimsim's Xbox executable and denies crypto grifting",
+   "score": 6
   },
   {
    "source": "gg.deals News",
@@ -220,26 +903,6 @@
    "title": "Dawn of War 4's newest trailer teases the appearance of a fan-favourite character in the game's post-launch DLC",
    "link": "https://www.eurogamer.net/dawn-of-war-4-trailer-vashtorr-chaos-tease",
    "published": "2026-11-23T17:06:40.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "The Take-Two Black Friday Sale on Gamesplanet offers up to 90% off blockbuster franchises",
-   "link": "https://gg.deals/deal/the-take-two-black-friday-sale-on-gamesplanet-offers-up-to-90-off-blockbuster-franchises/",
-   "published": "2026-11-23T17:06:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "CoD: Modern Warfare 4 takes its first hit: 15% off for Black Friday",
-   "link": "https://gg.deals/deal/cod-modern-warfare-4-takes-its-first-hit-15-off-for-black-friday/",
-   "published": "2026-11-23T17:01:00.000Z",
    "status": "dropped",
    "score": 3,
    "note": "one site, no keyword of the account, not about a game we list"
@@ -295,16 +958,6 @@
    "note": "one site, no keyword of the account, not about a game we list"
   },
   {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "The Last of Us Black Friday PC deals: Grab both games at up to 66% off!",
-   "link": "https://gg.deals/deal/the-last-of-us-black-friday-pc-deals-grab-both-games-at-up-to-66-off/",
-   "published": "2026-11-23T15:51:12.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
    "source": "GamesRadar deals",
    "domain": "gamesradar.com",
    "title": "$900 off this Alienware 16 Aurora brings us Dell's cheapest gaming laptop deal of the Black Friday so far",
@@ -330,16 +983,6 @@
    "title": "World of Warcraft: Forever review: The first proper MMO adventure I've been on in years",
    "link": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-review/",
    "published": "2026-11-23T15:36:34.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Forza Horizon 6 Black Friday discounts hit top gear, as Playground Games prepares big changes",
-   "link": "https://gg.deals/deal/forza-horizon-6-black-friday-discounts-hit-top-gear-as-playground-games-prepares-big-changes/",
-   "published": "2026-11-23T15:30:28.000Z",
    "status": "dropped",
    "score": 3,
    "note": "one site, no keyword of the account, not about a game we list"
@@ -385,16 +1028,6 @@
    "score": 6
   },
   {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Steam's Strategy Black Friday bundle packs 6 classic games into one great deal!",
-   "link": "https://gg.deals/bundle/steams-strategy-black-friday-bundle/",
-   "published": "2026-11-23T15:00:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
    "source": "Eurogamer",
    "domain": "eurogamer.net",
    "title": "Has Rockstar taken the \"Grand Theft Auto\" out of GTA 6? Or has it just gamified car-jacking properly for the first time?",
@@ -427,7 +1060,7 @@
   {
    "source": "PC Gamer",
    "domain": "pcgamer.com",
-   "title": "Dragon Age's former boss explains that poor management from EA led to BioWare shutting down because 'the options on the table were all terrible'",
+   "title": "Dragon Age's former boss says that poor management from EA led to BioWare shutting down because 'the options on the table were all terrible'",
    "link": "https://www.pcgamer.com/gaming-industry/dragon-ages-former-boss-explains-that-poor-management-from-ea-led-to-bioware-shutting-down-because-the-options-on-the-table-were-all-terrible/",
    "published": "2026-11-23T14:30:08.000Z",
    "status": "dropped",
@@ -440,16 +1073,6 @@
    "title": "GTA 6 can run at 60fps on Xbox Series X if you use a glitch, but there's a catch",
    "link": "https://www.eurogamer.net/grand-theft-auto-6-60-fps-glitch-xbox",
    "published": "2026-11-23T14:12:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "The Escapists Franchise Sale on Steam brings 90% off The Escapists 2 and more",
-   "link": "https://gg.deals/deal/the-escapists-franchise-sale-on-steam-2026/",
-   "published": "2026-11-23T13:55:00.000Z",
    "status": "dropped",
    "score": 3,
    "note": "one site, no keyword of the account, not about a game we list"
@@ -475,23 +1098,13 @@
    "note": "one site, no keyword of the account, not about a game we list"
   },
   {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "It turns out November's Humble Choice has a surprise bonus title that's truly out of this world!",
-   "link": "https://gg.deals/bundle/it-turns-out-novembers-humble-choice-has-a-surprise-bonus-title-thats-truly-out-of-this-world/",
-   "published": "2026-11-23T13:10:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
    "source": "PC Gamer",
    "domain": "pcgamer.com",
    "title": "How to steal the Schafter V12 in GTA 6",
    "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-schafter-v12/",
    "published": "2026-11-23T13:08:09.000Z",
    "status": "dropped",
-   "storyHeadline": "How to steal the Schafter V12 in GTA 6",
+   "storyHeadline": "How to steal the Ocelot Bloodless Jugular in GTA 6",
    "score": 3,
    "note": "one site, no keyword of the account, not about a game we list"
   },
@@ -501,16 +1114,6 @@
    "title": "These Pokémon TCG deals from Walmart are worth buying, bringing set prices down to reasonable prices",
    "link": "https://www.gamesradar.com/tabletop-gaming/walmart-has-loads-of-early-black-friday-pokemon-tcg-deals-and-ive-scoured-through-them-to-find-the-10-worth-buying/",
    "published": "2026-11-23T13:01:52.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Nintendo Black Friday deals at Amazon: Grab first-party games at lower prices (US only)",
-   "link": "https://gg.deals/deal/nintendo-black-friday-deals-at-amazon-grab-first-party-games-at-lower-prices-us-only/",
-   "published": "2026-11-23T13:00:34.000Z",
    "status": "dropped",
    "score": 3,
    "note": "one site, no keyword of the account, not about a game we list"
@@ -566,16 +1169,6 @@
    "note": "one site, no keyword of the account, not about a game we list"
   },
   {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Loaded joins the Black Friday madness with dozens of PC and console game deals!",
-   "link": "https://gg.deals/deal/loaded-black-friday-sale/",
-   "published": "2026-11-23T12:07:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
    "source": "Rock Paper Shotgun",
    "domain": "rockpapershotgun.com",
    "title": "Undisclosed AI-generated music pulled from The Binding of Isaac Repentance+ update, as attempt to get satirical on GTA 6 launch day goes awry",
@@ -602,7 +1195,6 @@
    "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-kit-car-locations/",
    "published": "2026-11-23T11:25:34.000Z",
    "status": "dropped",
-   "storyHeadline": "GTA 6 Kit Car locations: How to restore the fourth car for Wyman",
    "score": 3,
    "note": "one site, no keyword of the account, not about a game we list"
   },
@@ -612,16 +1204,6 @@
    "title": "Get Paramount Plus for just $2.99 with this Black Friday offer",
    "link": "https://www.gamesradar.com/entertainment/tv/get-paramount-plus-for-just-usd2-99-with-this-black-friday-offer-perfect-for-a-cozy-thanksgiving-and-christmas-on-the-couch/",
    "published": "2026-11-23T11:13:22.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Gamesplanet's Black Friday Weekly Deals are here, with discounts reaching 95%!",
-   "link": "https://gg.deals/deal/gamesplanets-black-friday-weekly-deals/",
-   "published": "2026-11-23T11:02:22.000Z",
    "status": "dropped",
    "score": 3,
    "note": "one site, no keyword of the account, not about a game we list"
@@ -643,16 +1225,6 @@
    "link": "http://www.gog.com/news/release_workers_amp_resources_soviet_republic_space_program",
    "published": "2026-11-23T10:45:57.000Z",
    "status": "store-own-news"
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "How to get GTA 6 Twitch Drops: All rewards and requirements (updated)",
-   "link": "https://gg.deals/gaming-news/how-to-get-gta-6-twitch-drops-all-rewards-and-requirements/",
-   "published": "2026-11-23T10:28:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
   },
   {
    "source": "Eurogamer",
@@ -683,14 +1255,20 @@
    "note": "one site, no keyword of the account, not about a game we list"
   },
   {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Cyberpunk 2077 gets a massive Black Friday discount! Save up to 76%",
-   "link": "https://gg.deals/deal/cyberpunk-2077-gets-a-massive-black-friday-discount-save-up-to-76/",
-   "published": "2026-11-23T09:39:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
+   "source": "GOG front page",
+   "domain": "gog.com",
+   "title": "Release: Knightica - Faraway Tales",
+   "link": "http://www.gog.com/news/release_knightica_faraway_tales",
+   "published": "2026-11-23T09:33:14.000Z",
+   "status": "store-own-news"
+  },
+  {
+   "source": "GOG front page",
+   "domain": "gog.com",
+   "title": "Coming soon: Symphony of War II: Dominion",
+   "link": "http://www.gog.com/news/coming_soon_symphony_of_war_ii_dominion",
+   "published": "2026-11-23T09:29:28.000Z",
+   "status": "store-own-news"
   },
   {
    "source": "Eurogamer",
@@ -698,16 +1276,6 @@
    "title": "Activision patents AI voice system that learns from in-game chat and creates audio for NPCs who can even speak in place of you",
    "link": "https://www.eurogamer.net/activision-ai-voice-chat-npc-patent",
    "published": "2026-11-23T09:27:50.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "First Humble Bundle of November ends tomorrow! Get 13 Steam games for $14! (updated)",
-   "link": "https://gg.deals/bundle/first-humble-bundle-this-november-has-13-steam-games-for-just-14/",
-   "published": "2026-11-23T09:07:00.000Z",
    "status": "dropped",
    "score": 3,
    "note": "one site, no keyword of the account, not about a game we list"
@@ -748,289 +1316,6 @@
    "title": "GTA 6 The End of the Road: Should you swim for it, or choose no surrender?",
    "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-endings-end-of-the-road-swim-for-it-no-surrender/",
    "published": "2026-11-22T21:58:17.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Unreal Engine 6 to jettison key scripting feature earlier than planned in favor of AI coding",
-   "link": "https://www.pcgamer.com/gaming-industry/unreal-engine-6-to-jettison-key-scripting-feature-earlier-than-planned-in-favor-of-ai-coding/",
-   "published": "2026-11-22T20:33:57.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "GTA 6 needed a dedicated team to make sure all its different body types could share animations: 'It was a huge team effort'",
-   "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-needed-a-dedicated-team-to-make-sure-all-its-different-body-types-could-share-animations-it-was-a-huge-team-effort/",
-   "published": "2026-11-22T20:16:21.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "New Dota 2 patch tries to help games end faster, adds an item that summons super creeps in every lane at once",
-   "link": "https://www.pcgamer.com/games/moba/new-dota-2-patch-tries-to-help-games-end-faster-adds-an-item-that-summons-super-creeps-in-every-lane-at-once/",
-   "published": "2026-11-22T20:09:13.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "GTA 6 discourse is suffering from the flat earther effect",
-   "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-discourse-is-already-suffering-from-the-flat-earther-effect/",
-   "published": "2026-11-22T18:43:01.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Which GTA 6 radio station is your favourite so far?",
-   "link": "https://www.pcgamer.com/games/grand-theft-auto/which-gta-6-radio-station-is-your-favourite-so-far/",
-   "published": "2026-11-22T18:00:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "GTA 6's massive casino and sick go-kart track are currently closed, but I'm hoping we can trust those 'coming soon' signs 🙏",
-   "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-6s-massive-casino-and-sick-go-kart-track-are-currently-closed-but-im-hoping-we-can-trust-those-coming-soon-signs/",
-   "published": "2026-11-22T17:51:53.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "How to steal the Declasse Vamos in GTA 6",
-   "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-declasse-vamos-code/",
-   "published": "2026-11-22T17:04:39.000Z",
-   "status": "dropped",
-   "storyHeadline": "How to steal the Schafter V12 in GTA 6",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Scott Lynch, author of The Lies of Locke Lamora, has 1,493 hours in Star Wars: Rebellion and 1,564 in BattleTech: 'If J.R.R. Tolkien had had a Steam account, his numbers would be pretty embarrassing too'",
-   "link": "https://www.pcgamer.com/gaming-industry/scott-lynch-author-of-the-lies-of-locke-lamora-has-1-493-hours-in-star-wars-rebellion-and-1-564-in-battletech-if-j-r-r-tolkien-had-had-a-steam-account-his-numbers-would-be-pretty-embarrassing-too/",
-   "published": "2026-11-22T17:00:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Former Rockstar environment artist breaks silence: GTA 6 is 'generally stunning,' but Red Dead 2 might have had better rivers",
-   "link": "https://www.pcgamer.com/games/grand-theft-auto/former-rockstar-environment-artist-breaks-silence-gta-6-is-generally-stunning-but-red-dead-2-might-have-had-better-rivers/",
-   "published": "2026-11-22T16:55:10.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "GTA 6's strong and silent Jason was inspired by Steve McQueen and former Army Rangers, says Rockstar",
-   "link": "https://www.eurogamer.net/gta-6-jason-steve-mcqueen-army-rangers",
-   "published": "2026-11-22T16:11:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "This '90s-inspired horror game has one of the coolest post-apocalyptic worlds I've ever seen",
-   "link": "https://www.pcgamer.com/games/horror/this-90s-inspired-horror-game-has-one-of-the-coolest-post-apocalyptic-worlds-ive-ever-seen/",
-   "published": "2026-11-22T16:00:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "The GTAs that are still worth playing while you wait for GTA 6 on PC",
-   "link": "https://www.pcgamer.com/games/grand-theft-auto/the-gtas-that-are-still-worth-playing-while-you-wait-for-gta-6-on-pc/",
-   "published": "2026-11-22T15:00:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "GTA 6 Mamba GT locations: How to restore the third car for Wyman",
-   "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mamba-gt-locations/",
-   "published": "2026-11-22T14:53:59.000Z",
-   "status": "dropped",
-   "storyHeadline": "GTA 6 Kit Car locations: How to restore the fourth car for Wyman",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "GTA 6 Riata locations: How to restore the second car for Wyman",
-   "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-riata-locations/",
-   "published": "2026-11-22T13:48:06.000Z",
-   "status": "dropped",
-   "storyHeadline": "GTA 6 Kit Car locations: How to restore the fourth car for Wyman",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Grand Theft Auto 6 has a 'complex drug network' that tracks everything from where drugs come from to 'how they eventually reach the street-level buyer'",
-   "link": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-has-a-complex-drug-network-that-tracks-everything-from-where-drugs-come-from-to-how-they-eventually-reach-the-street-level-buyer/",
-   "published": "2026-11-22T13:25:42.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "Binding of Isaac dev pulls AI-generated music from Repentance+ after players expose it",
-   "link": "https://www.eurogamer.net/binding-of-isaac-repentance-plus-ai-music-removed",
-   "published": "2026-11-22T13:19:20.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "The designer of Atari's notorious E.T. likens the deluge of AI games to events that preceded the '80s industry crash: 'There was a glut of crap on the market'",
-   "link": "https://www.pcgamer.com/gaming-industry/game-development/the-designer-of-ataris-notorious-e-t-likens-the-deluge-of-ai-games-to-events-that-preceded-the-80s-industry-crash-there-was-a-glut-of-crap-on-the-market/",
-   "published": "2026-11-22T12:44:48.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "Over half of all console players active on GTA 6's launch day played it, says Circana",
-   "link": "https://www.eurogamer.net/gta-6-launch-day-engagement-circana",
-   "published": "2026-11-22T12:02:30.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "Wallets, take cover: these Battlefield Black Friday deals on Steam bring savings of up to 95%",
-   "link": "https://gg.deals/deal/wallets-take-cover-these-battlefield-black-friday-deals-on-steam-bring-savings-of-up-to-95/",
-   "published": "2026-11-22T12:00:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "GTA 6 player gets 30-day PSN ban for sharing in-game nudist photo with a friend",
-   "link": "https://www.eurogamer.net/gta-6-psn-ban-nude-photos-nudist-resort",
-   "published": "2026-11-22T11:22:10.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "The Sunday Papers",
-   "link": "https://www.rockpapershotgun.com/the-sunday-papers-837",
-   "published": "2026-11-22T11:00:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Jason's stoic character in Grand Theft Auto 6 was inspired by Steve McQueen and research into Army veterans: 'These guys typically aren't running their mouths'",
-   "link": "https://www.pcgamer.com/games/grand-theft-auto/jasons-stoic-character-in-grand-theft-auto-6-was-inspired-by-steve-mcqueen-and-research-into-army-veterans-these-guys-typically-arent-running-their-mouths/",
-   "published": "2026-11-22T10:54:09.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "gg.deals News",
-   "domain": "gg.deals",
-   "title": "50 best Steam deals this week (November 16–22) amid the Black Friday shopping frenzy",
-   "link": "https://gg.deals/deal/50-best-steam-deals-this-week-november-16-22-amid-the-black-friday-shopping-frenzy/",
-   "published": "2026-11-22T10:04:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "\"It stayed alive for so long\" - Behind the wheel with the Last Riders saying goodbye to GTA Online, amidst GTA 6's world-changing launch",
-   "link": "https://www.eurogamer.net/gta-6-grand-theft-auto-online-last-ride",
-   "published": "2026-11-22T10:00:10.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Eurogamer",
-   "domain": "eurogamer.net",
-   "title": "I've never known a moment like this in video games",
-   "link": "https://www.eurogamer.net/gta-6-video-games-biggest-moment",
-   "published": "2026-11-22T09:00:00.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Astarion's Baldur's Gate 3 prequel novel infuriated fans, now it's Shadowheart's turn",
-   "link": "https://www.pcgamer.com/games/baldurs-gate/astarions-baldurs-gate-3-prequel-novel-infuriated-fans-now-its-shadowhearts-turn/",
-   "published": "2026-11-22T03:03:45.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "PC Gamer",
-   "domain": "pcgamer.com",
-   "title": "Wizards of the Coast to pass full AI copyright payout to D&D writers",
-   "link": "https://www.pcgamer.com/games/rpg/wizards-of-the-coast-to-pass-full-ai-copyright-payout-to-d-and-d-writers/",
-   "published": "2026-11-21T23:40:42.000Z",
-   "status": "dropped",
-   "score": 3,
-   "note": "one site, no keyword of the account, not about a game we list"
-  },
-  {
-   "source": "Rock Paper Shotgun",
-   "domain": "rockpapershotgun.com",
-   "title": "Alt Video is a digital, faux Blockbuster video store that you can fill with movies from your Letterboxd watchlist and Plex server",
-   "link": "https://www.rockpapershotgun.com/alt-video-is-a-digital-faux-blockbuster-video-store-that-you-can-fill-with-movies-from-your-letterboxd-watchlist-and-plex-server",
-   "published": "2026-11-21T22:50:30.000Z",
    "status": "dropped",
    "score": 3,
    "note": "one site, no keyword of the account, not about a game we list"

@@ -2,9 +2,8 @@
   "top": {
     "prices": {
       "gog-frostpunk": "2026-10-29",
-      "gog-this-war-of-mine": "2026-11-23",
+      "gog-this-war-of-mine": "2026-11-24",
       "gog-shadow-tactics-blades-of-the-shogun": "2026-11-19",
-      "gog-control-ultimate-edition": "2026-10-25",
       "gog-xcom-2": "2026-10-26",
       "gog-darkest-dungeon": "2026-11-10",
       "gog-metro-exodus": "2026-11-14",
@@ -15,9 +14,8 @@
     },
     "nostr": {
       "gog-frostpunk": "2026-10-29",
-      "gog-this-war-of-mine": "2026-11-23",
+      "gog-this-war-of-mine": "2026-11-24",
       "gog-shadow-tactics-blades-of-the-shogun": "2026-11-19",
-      "gog-control-ultimate-edition": "2026-10-25",
       "gog-xcom-2": "2026-10-26",
       "gog-darkest-dungeon": "2026-11-10",
       "gog-metro-exodus": "2026-11-14",
@@ -28,9 +26,8 @@
     },
     "lemmy": {
       "gog-frostpunk": "2026-10-29",
-      "gog-this-war-of-mine": "2026-11-23",
+      "gog-this-war-of-mine": "2026-11-24",
       "gog-shadow-tactics-blades-of-the-shogun": "2026-11-19",
-      "gog-control-ultimate-edition": "2026-10-25",
       "gog-xcom-2": "2026-10-26",
       "gog-darkest-dungeon": "2026-11-10",
       "gog-metro-exodus": "2026-11-14",
@@ -41,9 +38,8 @@
     },
     "tumblr": {
       "gog-frostpunk": "2026-10-29",
-      "gog-this-war-of-mine": "2026-11-23",
+      "gog-this-war-of-mine": "2026-11-24",
       "gog-shadow-tactics-blades-of-the-shogun": "2026-11-19",
-      "gog-control-ultimate-edition": "2026-10-25",
       "gog-xcom-2": "2026-10-26",
       "gog-darkest-dungeon": "2026-11-10",
       "gog-metro-exodus": "2026-11-14",
@@ -67,7 +63,7 @@
       "gog-thronebreaker-the-witcher-tales": "2026-10-29",
       "gog-shadow-tactics-blades-of-the-shogun": "2026-11-20",
       "gog-this-war-of-mine": "2026-11-19",
-      "gog-simcity-4-deluxe-edition": "2026-11-23"
+      "gog-simcity-4-deluxe-edition": "2026-11-24"
     }
   }
 }

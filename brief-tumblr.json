@@ -1,8 +1,8 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-11-23T22:27:59.240Z",
-  "builtBy": "commit 74d1527, schedule, run #55 attempt 1",
-  "pricesCheckedAt": "2026-11-23T21:37:10.797Z",
+  "generatedAt": "2026-11-24T20:59:51.921Z",
+  "builtBy": "commit 10087c2, schedule, run #56 attempt 1",
+  "pricesCheckedAt": "2026-11-24T20:17:24.598Z",
   "warnings": [],
   "candidates": [
     {
@@ -14,8 +14,8 @@
       "was": 19.99,
       "discount": 85,
       "endsAt": "2026-11-26T09:59:00+02:00",
-      "endsInHours": 58,
-      "priceCheckedAt": "2026-11-23T21:37:10.797Z",
+      "endsInHours": 35,
+      "priceCheckedAt": "2026-11-24T20:17:24.598Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
       "drminfo": null,
       "coverAlt": "Cover art for This War of Mine",
@@ -48,20 +48,21 @@
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 2.5,
+      "score": 4.5,
       "discountRank": 1,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 36,
+        "days": 37,
         "lowest": true,
         "since": "2026-10-19"
       },
-      "offeredOn": "2026-11-22",
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-11-23",
+      "offeredOn": "2026-11-23",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=tumblr-prices&utm_medium=social&utm_campaign=deals-2026-11-24",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (36 days of data)",
+        "sale ends in 35 h",
+        "lowest price we've tracked (37 days of data)",
         "deepest-discount rank 1 of 1"
       ]
     }
@@ -69,38 +70,66 @@
   "gogNews": [],
   "topical": [
     {
-      "title": "Humble Choice November 2026: Get Mafia: The Old Country, The Outer Worlds 2, SHINOBI and 5 More PC Games for $14.99 – LAST WEEK",
-      "source": "Indie Game Bundles",
-      "link": "https://www.indiegamebundles.com/humble-choice-november-2026/",
-      "t": 1795463646000,
-      "keyword": "humble",
-      "summary": "The November 2026 Humble Choice lineup is here, offering 8 PC games for $14.99 (€12.99), including Mafia and more! The post Humble Choice November 2026: Get Ma…"
+      "title": "Best unique weapons to grab early in GTA 6: Get yourself some silenced weapons without the price tag",
+      "source": "PC Gamer",
+      "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-unique-weapons/",
+      "t": 1795551379000,
+      "keyword": "price",
+      "summary": "GTA 6 has a ton of unique weapon variants all with their own names and mods. They're all special custom builds of stock guns and weapons with unique skins, but…"
+    },
+    {
+      "title": "Prime Gaming’s (Amazon Luna) final FREE game of November is now available to claim",
+      "source": "gg.deals News",
+      "link": "https://gg.deals/subscription-news/prime-gamings-amazon-luna-final-free-game-of-november-is-now-available-to-claim/",
+      "t": 1795545938000,
+      "keyword": "free",
+      "summary": "This time around, subscribers can get their hands on an alchemy-themed visual novel."
     }
   ],
   "topics": [
     {
-      "headline": "Astragon's Black Friday Steam Sale discounts are just the job for fans of immersive career sims!",
+      "headline": "Humble’s Black Friday deals put Oblivion Remastered and Fallout 4 Anniversary at $30 each (US)",
       "score": 7,
       "sites": [
         "gg.deals"
       ],
       "keywords": [
-        "sale",
-        "discounts",
-        "steam sale"
+        "deals",
+        "humble"
       ],
       "games": [],
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Astragon's Black Friday Steam Sale discounts are just the job for fans of immersive career sims!",
-          "link": "https://gg.deals/deal/astragons-black-friday-steam-sale-discounts-are-just-the-job-for-fans-of-immersive-career-sims/",
-          "published": "2026-11-23T21:13:00.000Z"
+          "title": "Humble’s Black Friday deals put Oblivion Remastered and Fallout 4 Anniversary at $30 each (US)",
+          "link": "https://gg.deals/deal/humbles-black-friday-deals-put-oblivion-remastered-and-fallout-4-anniversary-at-30-each-us/",
+          "published": "2026-11-24T19:46:00.000Z"
         }
       ]
     },
     {
-      "headline": "Bethesda's Steam Black Friday Sale offers epic adventures at minuscule prices!",
+      "headline": "Steam's Black Friday Red Dead Redemption 1+2 Bundle deal brings it down to a new historical low price!",
+      "score": 7,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "price",
+        "deal",
+        "bundle"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Steam's Black Friday Red Dead Redemption 1+2 Bundle deal brings it down to a new historical low price!",
+          "link": "https://gg.deals/deal/red-dead-redemption-12-have-never-been-cheaper-together-than-they-are-this-black-friday/",
+          "published": "2026-11-24T18:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "Steam’s WB Games Black Friday Sale slashes prices on Batman, Middle-earth, Harry Potter & more",
       "score": 7,
       "sites": [
         "gg.deals"
@@ -113,69 +142,49 @@
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Bethesda's Steam Black Friday Sale offers epic adventures at minuscule prices!",
-          "link": "https://gg.deals/deal/bethesdas-steam-black-friday-sale-offers-epic-adventures-at-minuscule-prices/",
-          "published": "2026-11-23T20:20:00.000Z"
+          "title": "Steam’s WB Games Black Friday Sale slashes prices on Batman, Middle-earth, Harry Potter & more",
+          "link": "https://gg.deals/deal/steams-wb-games-black-friday-sale/",
+          "published": "2026-11-24T18:12:00.000Z"
         }
       ]
     },
     {
-      "headline": "Steam's Weeklong Sale kicks off its Black Friday edition with 1000s of deals, up to 95% off",
+      "headline": "These Black Friday Steam Deck gift deals discount peripherals and accessories",
+      "score": 7,
+      "sites": [
+        "gamesradar.com"
+      ],
+      "keywords": [
+        "discount",
+        "deals"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "GamesRadar deals",
+          "title": "These Black Friday Steam Deck gift deals discount peripherals and accessories",
+          "link": "https://www.gamesradar.com/hardware/handhelds/got-a-steam-deck-that-needs-a-black-friday-treat-these-deals-will-let-you-deck-out-your-deck-at-bargain-prices/",
+          "published": "2026-11-24T16:18:20.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "GMG's 2K Black Friday sale has plenty of gems at bargain prices, with up to 94% off!",
       "score": 7,
       "sites": [
         "gg.deals"
       ],
       "keywords": [
         "sale",
-        "deals"
+        "prices"
       ],
       "games": [],
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Steam's Weeklong Sale kicks off its Black Friday edition with 1000s of deals, up to 95% off",
-          "link": "https://gg.deals/deal/steams-weeklong-sale-kicks-off-its-black-friday-edition-with-1000s-of-deals-up-to-95-off/",
-          "published": "2026-11-23T18:58:57.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "For Black Friday, GMG is giving away a FREE game when you buy any bundle!",
-      "score": 7,
-      "sites": [
-        "gg.deals"
-      ],
-      "keywords": [
-        "free",
-        "bundle"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "For Black Friday, GMG is giving away a FREE game when you buy any bundle!",
-          "link": "https://gg.deals/bundle/for-black-friday-gmg-is-giving-away-a-free-game-when-you-buy-any-bundle/",
-          "published": "2026-11-23T18:22:00.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Steam's Xbox Game Studios Sale drops Black Friday deals on Gears of War: E-Day, Halo: Campaign Evolved, and more",
-      "score": 7,
-      "sites": [
-        "gg.deals"
-      ],
-      "keywords": [
-        "sale",
-        "deals"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "Steam's Xbox Game Studios Sale drops Black Friday deals on Gears of War: E-Day, Halo: Campaign Evolved, and more",
-          "link": "https://gg.deals/deal/steams-xbox-game-studios-sale-drops-black-friday-deals-on-gears-of-war-e-day-halo-campaign-evolved-and-more/",
-          "published": "2026-11-23T17:41:20.000Z"
+          "title": "GMG's 2K Black Friday sale has plenty of gems at bargain prices, with up to 94% off!",
+          "link": "https://gg.deals/deal/gmgs-2k-black-friday-sale-2026/",
+          "published": "2026-11-24T14:30:00.000Z"
         }
       ]
     }
