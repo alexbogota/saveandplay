@@ -1,0 +1,29 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261124-162427",
+  "madeAt": "2026-11-24T16:24:55.427Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:mqcqvkm2dz5o4smczv7pgabn/app.bsky.feed.post/3n2zi7u2ozk2c",
+      "url": "https://bsky.app/profile/tsukiwolf.roowolfbat.net/post/3n2zi7u2ozk2c",
+      "author": "tsukiwolf.roowolfbat.net",
+      "context": "I don't know if I want to play something cozy and comforting or something with absolutely brutal difficulty, but it's definitely one or the other and not something in between",
+      "text": "That all-or-nothing mood is real. If tonight is the cozy night, Stardew is easy to drop into for a short session.",
+      "group": "evening",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:fmtq6wiqnzzm4o3u77dtlib3/app.bsky.feed.post/3n2zaovjysk2p",
+      "url": "https://bsky.app/profile/noisyvivian.bsky.social/post/3n2zaovjysk2p",
+      "author": "noisyvivian.bsky.social",
+      "context": "...Yes and no? Because I mostly play Stardew multiplayer, my job is to run the farm. So.. Um.. The notes are mostly... \"Things we need for Community Center\" or \"The spreadsheet of how valuable all crops really are\"",
+      "text": "A crop value spreadsheet is peak Stardew multiplayer. Somebody has to keep the farm running!",
+      "group": "stardew",
+      "heated": false
+    }
+  ]
+}
