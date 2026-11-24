@@ -1,0 +1,27 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-prices-20261124-162427.json",
+  "approvedAt": "2026-11-24T16:25:49.640Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:j7dedor4o2wul7efemzdkwem/app.bsky.feed.post/3n2xxhewjrs2i",
+      "url": "https://bsky.app/profile/goospie.bsky.social/post/3n2xxhewjrs2i",
+      "author": "goospie.bsky.social",
+      "context": "Did you know i was always a console kid? The first game that ever got me to play PC was Celeste, which i'm actually playing as we speak. I saw the Switch version of it at Fnac for €35, then checked Steam and the summer sale had it at €5 + €2 OST. Best deal i've gotten in my life",
+      "text": "Great find, and Celeste is a lovely game to start PC with. Wishlisting on Steam is an easy way to catch a sale like that.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:ajwdf23rn5dxicdnqewan52e/app.bsky.feed.post/3n32dbfqnos2o",
+      "url": "https://bsky.app/profile/saryaart.bsky.social/post/3n32dbfqnos2o",
+      "author": "saryaart.bsky.social",
+      "context": "I'll have to check, I was looking for overcooked-like games because she enjoys the co-op, chaotic play, but doesn't like games with battles or anything of the short. Basically, a family game I'd say. Thanks!",
+      "text": "Moving Out is worth a look: chaotic co-op where you move furniture, no battles at all. The Steam page shows which co-op modes a game supports before you buy.",
+      "edited": false
+    }
+  ]
+}
