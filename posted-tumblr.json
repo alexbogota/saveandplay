@@ -294,6 +294,17 @@
           "url": "https://saveandplay.tumblr.com/post/834121719781425152",
           "postedAt": "2026-11-24T00:34:19.844Z"
         }
+      },
+      "2026-11-24": {
+        "deal": {
+          "id": "gog-this-war-of-mine",
+          "title": "This War of Mine",
+          "status": "done",
+          "postId": "834121719781425152",
+          "url": "https://www.tumblr.com/blog/view/saveandplay/834121719781425152",
+          "foundOnServer": true,
+          "postedAt": "2026-11-24T00:34:20.000Z"
+        }
       }
     }
   },
