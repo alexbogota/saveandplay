@@ -3609,6 +3609,58 @@
             "id": "4a52b35c5ee4af7d0d3ec0405f8a4cd5dd8307be7f8558f2b01450f714a2cfcd",
             "sig": "665d8f1d31cb1ed75c52d25a35e45e712fd6fd3ad1ecc45e40cf1c1664b13ea25d1aa7e43d14d70d200b494816ee5578b3af449f2fa430831aab2321813a3a4f"
           }
+        },
+        "article": {
+          "status": "done",
+          "kind": "article",
+          "id": "2ae57ed6666a5d44e755549dea331fe5e52008cb67d9888a7255932633099ad1",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "article": "steam-gifts-what-the-rules-say",
+          "postedAt": "2026-11-24T03:08:19.000Z",
+          "accepted": [
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [
+            {
+              "url": "wss://relay.damus.io",
+              "reason": "connection failed"
+            }
+          ],
+          "event": {
+            "kind": 1,
+            "created_at": 1795489699,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-article"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://saveandplay.com/og/steam-gifts-what-the-rules-say.png",
+                "m image/png",
+                "alt Diagram of a Steam gift: unredeemed gift refundable within 14 days and 2 hours; redeemed gift refundable only if the recipient asks; money returns to the buyer."
+              ]
+            ],
+            "content": "Giving a PC game as a gift on Steam: what Valve's pages say about refunds and transfers\n\nBefore you buy a Steam game for someone, know who can ask for the refund, where the money goes, and why a game cannot be passed on once it is redeemed.\n\n#pcgaming #gamedeals\n\nhttps://saveandplay.com/og/steam-gifts-what-the-rules-say.png\n\nhttps://saveandplay.com/guides/steam-gifts-what-the-rules-say/?utm_source=nostr-prices&utm_medium=social&utm_campaign=steam-gifts-what-the-rules-say",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "2ae57ed6666a5d44e755549dea331fe5e52008cb67d9888a7255932633099ad1",
+            "sig": "bd3c6ba2319eaa9f731af716156daf11c457081ba53c76b40c9eef4f2998880398f305e1423614a4c0d33b17d63f26d5553aea95f31c23c936f1926084a8954b"
+          }
         }
       }
     }
@@ -3706,6 +3758,10 @@
       "steam-price-tax-included-or-added": {
         "day": "2026-11-21",
         "id": "d0549ff08df9d6f1dec9886151107519a8b9f8a91b35ed4c18200a25da808512"
+      },
+      "steam-gifts-what-the-rules-say": {
+        "day": "2026-11-23",
+        "id": "2ae57ed6666a5d44e755549dea331fe5e52008cb67d9888a7255932633099ad1"
       }
     }
   },
