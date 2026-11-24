@@ -1,0 +1,71 @@
+{
+  "madeAt": "2026-11-24T16:26:13.169Z",
+  "run": "45437057110",
+  "private": false,
+  "entries": [
+    {
+      "block": "prices",
+      "handle": "saveandplay.com",
+      "n": 1,
+      "uri": "at://did:plc:j7dedor4o2wul7efemzdkwem/app.bsky.feed.post/3n2xxhewjrs2i",
+      "url": "https://bsky.app/profile/goospie.bsky.social/post/3n2xxhewjrs2i",
+      "author": "goospie.bsky.social",
+      "text": "Great find, and Celeste is a lovely game to start PC with. Wishlisting on Steam is an easy way to catch a sale like that.",
+      "approvedFile": "comments-approved-prices-20261124-162427-20261124-162549.json",
+      "approvedAt": "2026-11-24T16:25:49.640Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-24T16:26:14.867Z",
+      "replyUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n332ppbq7u2t",
+      "replyUrl": "https://bsky.app/profile/saveandplay.com/post/3n332ppbq7u2t"
+    },
+    {
+      "block": "prices",
+      "handle": "saveandplay.com",
+      "n": 2,
+      "uri": "at://did:plc:ajwdf23rn5dxicdnqewan52e/app.bsky.feed.post/3n32dbfqnos2o",
+      "url": "https://bsky.app/profile/saryaart.bsky.social/post/3n32dbfqnos2o",
+      "author": "saryaart.bsky.social",
+      "text": "Moving Out is worth a look: chaotic co-op where you move furniture, no battles at all. The Steam page shows which co-op modes a game supports before you buy.",
+      "approvedFile": "comments-approved-prices-20261124-162427-20261124-162549.json",
+      "approvedAt": "2026-11-24T16:25:49.640Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-24T16:28:16.598Z",
+      "replyUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n332tdfgtn2a",
+      "replyUrl": "https://bsky.app/profile/saveandplay.com/post/3n332tdfgtn2a"
+    },
+    {
+      "block": "cozy",
+      "handle": "cozygame.bsky.social",
+      "n": 1,
+      "uri": "at://did:plc:mqcqvkm2dz5o4smczv7pgabn/app.bsky.feed.post/3n2zi7u2ozk2c",
+      "url": "https://bsky.app/profile/tsukiwolf.roowolfbat.net/post/3n2zi7u2ozk2c",
+      "author": "tsukiwolf.roowolfbat.net",
+      "text": "That all-or-nothing mood is real. If tonight is the cozy night, Stardew is easy to drop into for a short session.",
+      "approvedFile": "comments-approved-cozy-20261124-162427-20261124-162549.json",
+      "approvedAt": "2026-11-24T16:25:49.748Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-24T16:28:17.935Z",
+      "replyUri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3n332teoden2f",
+      "replyUrl": "https://bsky.app/profile/cozygame.bsky.social/post/3n332teoden2f"
+    },
+    {
+      "block": "cozy",
+      "handle": "cozygame.bsky.social",
+      "n": 2,
+      "uri": "at://did:plc:fmtq6wiqnzzm4o3u77dtlib3/app.bsky.feed.post/3n2zaovjysk2p",
+      "url": "https://bsky.app/profile/noisyvivian.bsky.social/post/3n2zaovjysk2p",
+      "author": "noisyvivian.bsky.social",
+      "text": "A crop value spreadsheet is peak Stardew multiplayer. Somebody has to keep the farm running!",
+      "approvedFile": "comments-approved-cozy-20261124-162427-20261124-162549.json",
+      "approvedAt": "2026-11-24T16:25:49.748Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-24T16:29:29.100Z",
+      "replyUri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3n332vik3nw2l",
+      "replyUrl": "https://bsky.app/profile/cozygame.bsky.social/post/3n332vik3nw2l"
+    }
+  ]
+}
