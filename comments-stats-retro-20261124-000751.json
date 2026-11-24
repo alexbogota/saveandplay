@@ -1,0 +1,67 @@
+{
+  "block": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "madeAt": "2026-11-24T00:07:51.029Z",
+  "days": 14,
+  "total": 30,
+  "mature": {
+    "count": 23,
+    "withLike": 17,
+    "withReply": 5,
+    "likes": 22,
+    "replies": 5,
+    "byProgram": 23
+  },
+  "top": [
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3mzxo3m6fi624",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3mzxo3m6fi624",
+      "text": "Those DOS text games were something else, your imagination did half the work.",
+      "at": "2026-11-10T14:37:04.683Z",
+      "likes": 4,
+      "replies": 0,
+      "reposts": 0,
+      "to": "lovinwolf.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3n2vb24b3gy2a",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3n2vb24b3gy2a",
+      "text": "Bold move for the 2600. The perspective alone makes it feel nothing like plain Pong.",
+      "at": "2026-11-22T09:03:27.747Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "retroslayer.com"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3n2thkf436u2i",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3n2thkf436u2i",
+      "text": "Keeping the original hardware for the games is the purest way to play them. Great setup!",
+      "at": "2026-11-21T15:54:36.981Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "interleave.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3n2eepijonp2a",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3n2eepijonp2a",
+      "text": "Carmen Sandiego is a classic. American McGee's Alice was quite a jump from those, a much darker take on Wonderland.",
+      "at": "2026-11-15T15:53:51.129Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "canon-thought.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:vmzuegpyzi3s72ur53wcfnk2/app.bsky.feed.post/3n2cbun2xyt2n",
+      "url": "https://bsky.app/profile/retrogamedeals.bsky.social/post/3n2cbun2xyt2n",
+      "text": "3D Pinball Space Cadet was on so many Windows PCs growing up. Great that it runs on a handheld now.",
+      "at": "2026-11-14T19:57:42.960Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "rajanomaly.bsky.social"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "block": "prices",
+  "handle": "saveandplay.com",
+  "madeAt": "2026-11-24T00:07:51.029Z",
+  "days": 14,
+  "total": 28,
+  "mature": {
+    "count": 23,
+    "withLike": 13,
+    "withReply": 4,
+    "likes": 16,
+    "replies": 4,
+    "byProgram": 23
+  },
+  "top": [
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n2fcffww6427",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3n2fcffww6427",
+      "text": "Coffee Talk and VA-11 Hall-A are both well-loved visual novels on PC. Coffee Talk is the calmer of the two.",
+      "at": "2026-11-16T00:45:04.890Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 1,
+      "to": "audrey-voltaire.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n2wbzmnhbp2i",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3n2wbzmnhbp2i",
+      "text": "A quick look at the sales is always how it starts 😅 Wishlisting a game helps: Steam notifies you when it drops, so you don't need to keep browsing.",
+      "at": "2026-11-22T18:53:44.825Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "gamersonarant.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n2thhan5lc22",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3n2thhan5lc22",
+      "text": "Games that give chat something to react to, like co-op or party games, tend to be fun to stream. Good luck getting started!",
+      "at": "2026-11-21T15:52:51.743Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "the-toffee-boy.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n24pjlmhwq2x",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3n24pjlmhwq2x",
+      "text": "Yes, it sells game bundles: several games for one price, and part of the money goes to charity. Check what's in a bundle first so you only pay for games you would actually play.",
+      "at": "2026-11-12T14:46:06.305Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "timothymark7.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n2u2plo2ud2k",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3n2u2plo2ud2k",
+      "text": "Titanfall 2 has aged really well, and the campaign is short and tight too.",
+      "at": "2026-11-21T21:37:32.817Z",
+      "likes": 2,
+      "replies": 0,
+      "reposts": 0,
+      "to": "dragoncobolt.bsky.social"
+    }
+  ]
+}
