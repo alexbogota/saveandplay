@@ -1,0 +1,18 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-prices-20261125-140954.json",
+  "approvedAt": "2026-11-25T14:11:09.732Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:iesmpzzhbbqbjzru3jxlkl7m/app.bsky.feed.post/3n337pbw7m22z",
+      "url": "https://bsky.app/profile/blazetanx.bsky.social/post/3n337pbw7m22z",
+      "author": "blazetanx.bsky.social",
+      "context": "*going through steam game award nominations* I've only played 8 games that were new releases on steam this year?? I've really been digging into the backlog lol",
+      "text": "Digging into the backlog is a great way to spend a year. The games you already own are the best value on your shelf.",
+      "edited": false
+    }
+  ]
+}
