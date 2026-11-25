@@ -1,53 +1,55 @@
 # Comment candidates: cozy (@cozygame.bsky.social)
-Made 2026-11-25T08:26Z. Searched: askCozy: looking for cozy games | askCozy: relaxing games | askCozy: cozy game recommendation | askCozy: cozy games steam | stardew: farming games | stardew: stardew valley | stardew: games like stardew valley | stardew: stardew | evening: cozy gaming | evening: chill game tonight | evening: cozy games tonight | evening: cozy gaming evening | wholesome: wholesome games | wholesome: comfort game | wholesome: cottagecore game | deck: cozy steam deck | deck: steam deck relaxing games | deck: steam deck farming sim | seasonal: cozy autumn game | seasonal: cozy spooky games | seasonal: cozy halloween games | cozyFeed: feed.
-Posts below: 12 + 2 heated. Dropped in this run: bot, shop or studio 24, skip word 138, console only 3, replies are limited 16, too short 16, low score 8, adult or graphic label 4, empty 10, not about games 4, many links 2, already shown 2, too many hashtags 2, own post 2, promo (link and hashtags) 3, other language (text) 3, other language 13, not a question 6, earlier finds: low score 4.
+Made 2026-11-25T21:39Z. Searched: askCozy: recommend cozy game | askCozy: wholesome game recommend | askCozy: cozy games | askCozy: cozy game recommendations | stardew: farming sim | stardew: life sim | stardew: stardew valley recommendations | stardew: farming games | evening: cozy game | evening: something cozy play | evening: cozy gaming | evening: chill game tonight | wholesome: wholesome games | wholesome: comfort game | wholesome: cottagecore game | deck: cozy steam deck | deck: steam deck relaxing games | deck: steam deck farming sim | seasonal: cozy autumn game | seasonal: cozy spooky games | seasonal: cozy halloween games | cozyFeed: feed.
+Posts below: 12 + 2 heated. Dropped in this run: skip word 192, bot, shop or studio 36, not about games 4, console only 13, too many hashtags 4, too short 6, already shown 1, many links 1, replies are limited 13, low score 11, promo (link and hashtags) 4, own post 3, other language (text) 4, adult or graphic label 1, other language 10, not a question 9.
 
 ## Posts
-1. @phyzisist.bsky.social (Phyzisist) · 2h · likes 6 · replies 1 · question · askCozy
-   https://bsky.app/profile/phyzisist.bsky.social/post/3n34idbfrms2m
-   i need a nice relaxing stream so i'm gonna drive to the haunted woods and test my mortality against the arcane punishments of mankind's hubris. and eat expired MREs
-   [link card: phyzisist - Twitch]
-2. @r3nt.bsky.social (Ren) · 4h · likes 2 · replies 2 · question · stardew
-   https://bsky.app/profile/r3nt.bsky.social/post/3n34cqjd2gs2a
-   Was finally able to play stardew valley without problems. Blue light glasses? New monitors? Who knows. Anyway, back to fishing.
-3. @daisybellthecow.bsky.social (Daisybell💖🐮🧸) · 9h · likes 5 · replies 2 · question · askCozy
-   https://bsky.app/profile/daisybellthecow.bsky.social/post/3n33rl7xkmk2n
-   Does anyone else make an intense routine out of their comfort games? I'm realizing that the way I play Tomodachi Life is like I'm a computer program. But it's such a relaxing and stabilizing part of my day. Even the way I feed the residents is full of if/then statements. No rando
-4. @theangrygoose.wtf (𝙏𝙝𝙚 𝘼𝙣𝙜𝙧𝙮 𝙂𝙤𝙤𝙨𝙚 𓅯) · 10h · likes 1 · replies 1 · question · askCozy
-   https://bsky.app/profile/theangrygoose.wtf/post/3n33prci5rk23
-   Hahahahahahaha 😂 a chilly day is the perfect day for some chilli 🙂‍↕️ it's 0C/32F right now and I can't wait to get home later so I can be warm 🤣 and ohhh nice! I love survival craft games like Palworld/no man's sky and such, but I like cozy games too! Been looking at loftia l
-5. @nickmartin.bsky.social (Nick Martin) · 6h · likes 0 · replies 1 · question · stardew
-   https://bsky.app/profile/nickmartin.bsky.social/post/3n345cgyvkk2p
-   Lightspeed Frontier asks the important questions, such as "what if you had Stardew Valley, but in a big mech robot?"
-6. @theangrygoose.wtf (𝙏𝙝𝙚 𝘼𝙣𝙜𝙧𝙮 𝙂𝙤𝙤𝙨𝙚 𓅯) · 10h · likes 1 · replies 0 · question · stardew
-   https://bsky.app/profile/theangrygoose.wtf/post/3n33qhx6sec23
-   I like games like Stardew, mistria, and used to play animal crossing and such so it seems like a good relax time game. And survival crafts can be stressful but I don't mind playing on easier settings to make it more chill either. If you play PC I could give my discord and play so
-7. @monsterteatime.bsky.social (Mariah McCourt) · 12h · likes 1 · replies 1 · question · stardew
-   https://bsky.app/profile/monsterteatime.bsky.social/post/3n33ilprv6c23
-   What your favorite Stardew Valley season songs? Mine is the Winter theme, it's like a trancey synth, slightly melancholy. My kiddo hums it all the time as stimming.
-8. @sniiperr1234.bsky.social (Markus) · 13h · likes 1 · replies 0 · question · evening
-   https://bsky.app/profile/sniiperr1234.bsky.social/post/3n33ftle3rf2z
-   Solo journaling prompt for Dec 3: a flour-stained recipe for a baker's grandmother, who died in spring. "...and then, the part I never told you, add a spoonful of" – Do you deliver it as it is, or find the missing line first? Days 1-3 free (ad: my advent game) #solojournalinggame
-   [link card: Letters to Winterfall – free sampler (Dec 1-3)]
-9. @shaidorsai.bsky.social (Voltaireon - 5 caustic French philosophe) · 15h · likes 1 · replies 1 · question · stardew
+1. @candygrapes781.bsky.social (๑Candy_Grapes๑) · 2h · likes 8 · replies 2 · question · askCozy
+   https://bsky.app/profile/candygrapes781.bsky.social/post/3n35wadzkoc2r
+   if you are looking for a cozy game to play this American Thanksgiving (or any time) please let me introduce you to one of my favourite games of all time: Spiritfarer
+   [image: Cover image for the game Spiritfarer. hand drawn ship with little houses on top floating through a pretty blue ocean with clouds in the shape of some of the ch…]
+2. @brightbard.bsky.social (Bright Bard Games 🔜 PAXu #4337) · 4h · likes 5 · replies 0 · question · askCozy
+   https://bsky.app/profile/brightbard.bsky.social/post/3n35odwncgs2m
+   Looking for whimsical TTRPGs for the GM in your life? Check out our collection of one shot's games! Looking for a cozy night in with your partner? Check out our collection of solo and duet games! Looking for some fun stocking stuffers? Check our collection of pins and sticker she
+   [3 images: A graphic of a book collage that says "Sale Begins Thursday Nov 26th at 11:59 PM CST - Sale Ends Monday Nov 30th at 11:59 PM CST" / A book collage graphic that says 16% off and lists all of the games in our catalog / A sticker sheet collage graphic that says 10% off and lists all of our merch items]
+3. @chelchell.bsky.social (chelchell) · 5h · likes 26 · replies 10 · question · askCozy
+   https://bsky.app/profile/chelchell.bsky.social/post/3n35kfzx3ms25
+   Recommend me some cozy games on the switch so I can obsessed about that instead of all these other stupid things in my head
+4. @fervogame.bsky.social (Fervo) · 7h · likes 1 · replies 1 · question · askCozy
+   https://bsky.app/profile/fervogame.bsky.social/post/3n35ewkbqv22r
+   Games like Task Bar Hero, sorted two ways: taskbar idle RPGs if you want loot, cozy taskbar games if you want calm. Free/paid and Mac support for each, plus a short "only install from Steam" checklist. Our own tiny night market is last on the list.
+   [image: Cover card for the article 'Games like Task Bar Hero: taskbar idle RPGs and cozy picks' on fervogame.com.]
+5. @monilenyan.bsky.social (Moni le Nyan) · 19h · likes 1 · replies 1 · question · askCozy
+   https://bsky.app/profile/monilenyan.bsky.social/post/3n343jkdhds2q
+   I'm confused. Seeing this out of context and the replies and I get the feeling "cozy" is undefined. Also, what are these "new games" that do it wrong? What are the ones doing it right? Everyone seems to agree but might be talking about different games 😅
+6. @distributed.camp (Alex Wykoff) · 3h · likes 0 · replies 0 · question · evening
+   https://bsky.app/profile/distributed.camp/post/3n35suuvfq22n
+   Gus bounced, but we have a new villager! Say hi to Jun Pivot. They're a clockmaker who loves to gossip. btw I'm always looking for more people to playtest. If you want to try a cozy spreadsheet game, lmk!
+   [image, no description; quotes @distributed.camp: While I one-shotted a game in Google Sheets, I would love to have had better graphics or sound libraries. As a networked game, I certainly …]
+7. @reecemysocksoff.bsky.social (Reece Wilson V2.026) · 3h · likes 0 · replies 0 · question · stardew
+   https://bsky.app/profile/reecemysocksoff.bsky.social/post/3n35ssvhric2p
+   100%! Also Rebirth was massive enough already, could you even IMAGINE if they added life-sim and emergent gameplay stuff to Revelation?? We’d literally never finish it haha
+8. @totallymagical.bsky.social (Athena) · 4h · likes 0 · replies 0 · question · stardew
+   https://bsky.app/profile/totallymagical.bsky.social/post/3n35pqdzilc23
+   maybe ive just played too much persona recently but i think i kinda would prefer if metaphor didn't have the daily life sim stuff?
+9. @hensfield.bsky.social (Hensfield) · 5h · likes 2 · replies 1 · question · cozyFeed
+   https://bsky.app/profile/hensfield.bsky.social/post/3n35neqrrk32j
+   One farm, four hours 🌙 Lily pond afternoon at dawn, at midday, at dusk and at night. In Hensfield the light follows your own clock. Which hour is yours? #cozygames #farmgame
+   [image: Four images of the same floating island farm in the Hensfield game, Lily pond afternoon, with bushes, flower bushes, cows and hay bales: at dawn in pink light,…]
+10. @jimtrinca.bsky.social (Jim Trinca) · 6h · likes 17 · replies 2 · question · wholesome
+   https://bsky.app/profile/jimtrinca.bsky.social/post/3n35jbogn5k2c
+   But then, the people who have knitted this comfort blanket for them start telling them they're idiots for liking the popular new game they're enjoying. They're saying this musclebound adonis building a love nest for him and his hot girlfriend is actually...Cucked? And it doesn't 
+11. @twai.bsky.social (Twai) · 14h · likes 15 · replies 0 · question · stardew
+   https://bsky.app/profile/twai.bsky.social/post/3n34pb2dkhk2n
+   After only playing arcade flight games like Ace Combat and Project Wingman I grabbed the old ms Flight Sim on steam for 5€… And had the f** time of my life!!! LOOK ITS HAMBURG!!!! 🤣 (I now ordered a flight Stick 😂)
+   [3 images: Taking off from Hamburg airport in a freaking ultra light… / I love the crispy graphics! 🔥 / Elb Tunnel has serious identity crisis and can’t quite decide if it’s a tunnel or a bridge 😂]
+12. @shaidorsai.bsky.social (Voltaireon - 5 caustic French philosophe) · 28h · likes 1 · replies 1 · question · stardew
    https://bsky.app/profile/shaidorsai.bsky.social/post/3n335fzrq6s2r
    I mean, for me it's dependent on context. Stardew Valley obv I don't give a damn about the pixelation (though I'll note that the graphics aren't pure pixel, there are other visual flourishes), but if I'm playing, say, MS Flight Sim? Yeah, I want those shinies for immersion and ex
-10. @janenx01.bsky.social (a full-on monet) · 15h · likes 8 · replies 1 · question · stardew
-   https://bsky.app/profile/janenx01.bsky.social/post/3n334ghqhw22j
-   George has decided that instead of pie this year he is going to make the Pink Cake from the Stardew Valley cookbook. He went to three stores looking for duck eggs. I don't know how he's gonna make those little hearts. I will report back.
-   [image: a drawing of a pink cake with piped pink icing around the top and bottom and small pink candy hearts on the top]
-11. @dathorneddragon.bsky.social (Artisan Dragon) · 16h · likes 2 · replies 1 · question · stardew
-   https://bsky.app/profile/dathorneddragon.bsky.social/post/3n332uerndsos
-   You know what worries me about GTA6 now existing? Is that every other AAA game is going to see: Oh! Gamers love having life-sim elements in their games, let's add that. And now Ubisoft games are going to make me "workout" just so I can lug a rocket launcher to destroy the next ou
-12. @christinemmoe.bsky.social (Christine M. Moeller, PhD) · 16h · likes 2 · replies 0 · question · stardew
-   https://bsky.app/profile/christinemmoe.bsky.social/post/3n3327npgwc2o
-   The more I think about it, I am playing that game similarly to Stardew Valley. I'm cooking, collecting bugs in the forest, fishing, and of course petting all the cats! Who needs a main quest?😂
 
 ## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @atgmaildotcom.bsky.social · 18h · likes 0 · replies 0 · question · wholesome
-   https://bsky.app/profile/atgmaildotcom.bsky.social/post/3n32ts436tc23
-   @wholesomegames.com has wholesome games taken a stance on platforming AI used for development, from asset creation, coding assistance, to full AI generated games?
-2. @aifullsteamgames.bsky.social (AI-Full Steam Games!) · 27h · likes 2 · replies 1 · askCozy
-   https://bsky.app/profile/aifullsteamgames.bsky.social/post/3n2zwlfbwac2t
-   Fishbobble by Noria Games Free · Early Access AI disclosure: “Part of the game's art (characters, pets, ponds, items and icons), its music and sound effects, and some of the store page artwork were created with generative AI tools, then selected, edited and assembled by the devel
-   [link card: Fishbobble]
+1. @duchesswillow.bsky.social (Duchess Willow) · 15h · likes 8 · replies 0 · question · stardew
+   https://bsky.app/profile/duchesswillow.bsky.social/post/3n34kvy55lc2g
+   I went to a Femdom sim in world and it was AI slop dooowwwnnn. Yall do realize all your AI ads look the same? No originality whatsoever. It's second life FFS are yall that lazy? #secondlife
+2. @cosmindart.bsky.social (Apollo (he/him)🍊) · 18h · likes 5 · replies 0 · askCozy
+   https://bsky.app/profile/cosmindart.bsky.social/post/3n34arvndtk2e
+   it's not just casot horror. the "cozy tidying" is full of AI-generated slop and shit tons of youtuber plays them because they tend to get watch anyway in their big "cozy games to fall asleep to" playlists u_u

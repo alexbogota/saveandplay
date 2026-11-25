@@ -1,52 +1,52 @@
 # Comment candidates: retro (@retrogamedeals.bsky.social)
-Made 2026-11-25T08:26Z. Searched: childhood: childhood game | childhood: game from my childhood | childhood: childhood favorite game | childhood: games from my childhood | classicPC: classic pc game | classicPC: old pc games | classicPC: dos games | classicPC: classic pc games | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: best old games | askRetro: old game recommend | askRetro: retro game recommendations | askRetro: old games recommend | retroFeed: feed.
-Posts below: 12 + 1 heated. Dropped in this run: not about games 88, replies are limited 9, skip word 31, bot, shop or studio 20, promo (link and hashtags) 2, other language (text) 15, low score 4, too short 7, other language 20, not a question 30, too many hashtags 3, adult or graphic label 1, earlier finds: low score 8.
+Made 2026-11-25T21:39Z. Searched: childhood: first video game | childhood: played this as a kid game | childhood: first pc game | childhood: childhood game | classicPC: old pc game | classicPC: retro pc gaming | classicPC: dos game | classicPC: classic pc game | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: retro games recommend | askRetro: best retro games | askRetro: best old games | askRetro: old game recommend | retroFeed: feed.
+Posts below: 12 + 2 heated. Dropped in this run: not about games 114, skip word 79, replies are limited 11, too short 11, promo (link and hashtags) 4, empty 1, bot, shop or studio 17, low score 6, adult or graphic label 1, already shown 3, other language (text) 5, other language 23, too many hashtags 2, not a question 35, earlier finds: low score 1.
 
 ## Posts
-1. @comchia.bsky.social (Comchia.rar 🇺🇸🇺🇦🇹🇼🏳️‍🌈🏳️‍⚧️) · 2h · likes 1 · replies 0 · question · classicPC
-   https://bsky.app/profile/comchia.bsky.social/post/3n34iigndrk25
-   Yay! Classic Mac 1-9 is probably with MS-DOS as my favorite gaming platform. I love how slick and creative everything looked. I'm especially fond of games like Falcon MC, Ultima III, Wizardry, and Marathon. I have a Power Mac that I still oughta get fully running.
-   [link card: Vintage Macintosh Duo Computer Setup]
-2. @angelbun.de (Rey - Smol and squeaky but Pokémon) · 15h · likes 3 · replies 0 · question · classicPC
-   https://bsky.app/profile/angelbun.de/post/3n334m2okc22a
-   Getting up and ready for a few hours of Inherit the Earth, a charming Point and Click adventure from the DOS era! If that sounds interesting and you wanna join me and my friends and vibe in chat? Be my guest over at angelbun.live in a few minutes~
-   [link card: AngelbunRey - Twitch]
-3. @dembouw.bsky.social (Dembouw) · 17h · likes 2 · replies 0 · question · classicPC
-   https://bsky.app/profile/dembouw.bsky.social/post/3n32ybwnsrk2u
-   ✨ Dato curioso: solo tuvo dos predecesores: Wave Race 64 y el de Game Boy. ¿Qué otro clásico de GameCube quieres ver? ¡Comenta! #Gameplay1995 #Gaming #Nintendo
-4. @thatweissguy.bsky.social (Andrew Otis Weiss) · 19h · likes 3 · replies 1 · question · classicPC
-   https://bsky.app/profile/thatweissguy.bsky.social/post/3n32rviixos2a
-   Also saw a link to an article how the game proved how “far ahead” Japanese PC tech was and….it’s not that simple? One, the PC98 port came three years after the DOS original and those three years (1989-92) saw a massive leap forward in computer graphics. It was the Age of VGA, ffs
-5. @sirshepard.bsky.social (Jeff Shepard) · 20h · likes 1 · replies 1 · question · classicPC
-   https://bsky.app/profile/sirshepard.bsky.social/post/3n32ollc5y22t
-   Wait ya can play it with awesome jazz music? I’ll have to try that next time I play this. Never played the pc game. When it comes to this game it’s the old school board for me. Even though friends and family don’t like to play with me.
-6. @snow-the-bear.bsky.social (Snow the Bear) · 12h · likes 1 · replies 1 · question · nostalgia
-   https://bsky.app/profile/snow-the-bear.bsky.social/post/3n33jbckvjk2v
-   Favorite retro arcade game, and the one you are best at (if it's different)?
-7. @peachbaklava.bsky.social (Bye) · 16h · likes 0 · replies 1 · question · childhood
-   https://bsky.app/profile/peachbaklava.bsky.social/post/3n332ka2awk27
-   Why going through the hassle of vibe code “recompiling” a console game that already has a decent pc port??? The least you could do is try to fix the pc port first
-8. @scragglebird.northsky.social (Scragglebird [Comms: OPEN]) · 18h · likes 9 · replies 1 · question · gogOld
-   https://bsky.app/profile/scragglebird.northsky.social/post/3n32vg2kwgk2l
-   Time to play some good old games and get myself off of social media. Why play on the Analogue? It's got a backlight and my old blue gameboy doesn't! #LoZ #oracleofages #gameboycolour #analoguepocket
-   [image: My clear analogue pocket with my copy of The Legend of Zelda Oracle of Ages ready to play.]
-9. @cafenerd.com.br (Café Nerd) · 20h · likes 0 · replies 0 · question · classicPC
-   https://bsky.app/profile/cafenerd.com.br/post/3n32ltod7g62o
-   Sabe o que é melhor do que falar de games indie? Falar de indies latinos. Saiu a lista dos indicados ao LAGS Awards, premiação do #LagShowcase que reconhece os destaques da cena em 2026. www.cafenerd.com.br/... 👋 @lagshowcase.bsky.social
-   [link card: LAGS Awards 2026: confira os jogos indicados]
-10. @comfydoodlez.bsky.social (Phoenix 🐦‍🔥🔸Blood Elf Enthusiast) · 4h · likes 1 · replies 1 · childhood
-   https://bsky.app/profile/comfydoodlez.bsky.social/post/3n34eghatxc2l
-   Digimon is my childhood! I didn't know they had a video game where you can actually use them in battle. That's really neat, makes me want to buy it myself.
-11. @scruffopone.bsky.social (Brody Ambrosius 🍁) · 11h · likes 1 · replies 0 · question · childhood
-   https://bsky.app/profile/scruffopone.bsky.social/post/3n33kpcw6y22o
-   But have you considered that this guy's first approach to the video game was to think about how he'd be speedrunning it later? A thing that speedrunners are told to not do over and over again?
-12. @thegamellama.bsky.social (TheGameLlama) · 17h · likes 4 · replies 2 · question · childhood
-   https://bsky.app/profile/thegamellama.bsky.social/post/3n32xwug3mc2p
-   This was the third game in a video game tournament that I won and before the race I was like uhhhhh which button is the gas? Did so well at the other games that it didn’t matter it was the first time playing this one lol.
-   [quotes @quest64official.bsky.social: November 24 1997, Diddy Kong Racing debuted on the N64 in the Americas! The game was originally a sequel to the RC Pro AM series that Rare …]
+1. @plumgarbagedump.bsky.social (Jolly Plum (PlumGD)) · 7h · likes 1 · replies 1 · question · childhood
+   https://bsky.app/profile/plumgarbagedump.bsky.social/post/3n35f5sofvk2u
+   it is cool! this is the third game in a series, the first one is very short and there isnt much too it but the second one was great from what i remember!! the previous two games were just RPGMaker games so they ran normally on pc but this one is a game boy color rom for some reas
+2. @merlinbird.zip (merlin) · 9h · likes 2 · replies 1 · question · childhood
+   https://bsky.app/profile/merlinbird.zip/post/3n357b2l7fk2b
+   lemmings was literally the first pc game I remember playing and I remained obsessed with it from that point all the way through middle school
+   [image, no description; quotes @thatericalper.com: ]
+3. @boxman214.bsky.social (Boxman214) · 54m · likes 5 · replies 2 · question · childhood
+   https://bsky.app/profile/boxman214.bsky.social/post/3n35zpjfrhk27
+   What's a video game you associate with the Holiday season? For example, I first played Half-Life 2 while my parents were putting up decorations and blasting Christmas music. So it's a Christmas game to me. #blutoid #gaming #christmas
+4. @rayethesmol.bsky.social (Raye the Smol) · 1h · likes 0 · replies 0 · question · nostalgia
+   https://bsky.app/profile/rayethesmol.bsky.social/post/3n35yttottc2e
+   Poem: Nostalgia I'm glad you get to be Nostalgic. You get to fondly remember Games and Laughter, And forget forever, What Game that Laughter was aimed at. I remember blows, screams, broken bones, broken teeth. I remember bruises and crying. Starvation, coldness, and poverty. Enjo
+5. @helloyorick.bsky.social (yorick 💀) · 2h · likes 7 · replies 2 · question · childhood
+   https://bsky.app/profile/helloyorick.bsky.social/post/3n35vp6pims2p
+   This dude has three first names, and opens his essay calling himself a puritan who refuses to play video games, and I'm supposed to give the remotest fuck about someone who doesn't play video games on principle not wanting to play a video game? Like...what? Just shut up. That's a
+6. @markshatraw.bsky.social (Will Code For Pizza) · 3h · likes 1 · replies 1 · question · childhood
+   https://bsky.app/profile/markshatraw.bsky.social/post/3n35tylxsjc2e
+   Is this the first time a video game has been a full-on monocultural moment?
+7. @j-c-b.bsky.social (JCB) · 11h · likes 0 · replies 0 · question · childhood
+   https://bsky.app/profile/j-c-b.bsky.social/post/3n34ynnyhu22h
+   It's looking great! 😱 I really enjoyed the first game (and the bonus stuff, like the manual, prototype, ..., was awesome). Really looking forward to the next one. Hopefully the wait for the PC/Steam release won't be as long as the previous game. 😁
+8. @maoudesu.bsky.social (Maou-Desu | Commission Open) · 21h · likes 0 · replies 0 · question · classicPC
+   https://bsky.app/profile/maoudesu.bsky.social/post/3n33w4atuak2j
+   Why do people like to call 2nd gen Lunastra is just blue Teostra? This is a backward view from new gen to old. If you play 2nd gen for the first time, particularly MH2 dos(the game where both of them first appear) before playing or knowing later gen, Teostra is the red Lunastra.
+9. @buttprince.bsky.social (Buttprince) · 2h · likes 4 · replies 1 · classicPC
+   https://bsky.app/profile/buttprince.bsky.social/post/3n35x7pyozs2t
+   Finished my DOS game, but I think it's too earnest and I am filled will malaise at the idea of people playing it, so I'm putting it off releasing it until tomorrow.
+10. @thoeni.bsky.social (Thoeni) · 2h · likes 8 · replies 1 · childhood
+   https://bsky.app/profile/thoeni.bsky.social/post/3n35wim4wz22z
+   Bob Mortimer, an adorably funny British comic, describes a childhood game, creeping closer & closer to windows chanting, “We do beg your pardon, we are in your garden" I think of him every time I capture a window at night. Sometimes I chant the refrain as I click. #WindowOnWednes
+   [image: Tightly framed nocturnal photograph of a single warmly lit double-hung window surrounded by a narrow border of deep darkness. Sheer, floral-patterned lace curt…]
+11. @2ninea.bsky.social (2nineA) · 2h · likes 1 · replies 0 · childhood
+   https://bsky.app/profile/2ninea.bsky.social/post/3n35vg7677s27
+   Not even sure where to look for my first PC game. It was titled "Blue Meanies from Outer Space"
+   [link card: Blue Meanies from Outer Space (1981)(Commodore)(NZ)]
+12. @r042.bsky.social (Word Art Online) · 3h · likes 1 · replies 1 · childhood
+   https://bsky.app/profile/r042.bsky.social/post/3n35ts6edkc26
+   it seems that for the complainers GTA was the game where you were rewarded with The Fun by doing that and they wanted it to stay as the funny murder simulator game of their childhood (but don't you dare suggest that maybe there's something a bit weird about that, Video Games Don'
 
 ## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @andoryuanzuru.bsky.social (Andoryu🌸COMMISSION CLOSE) · 14h · likes 10 · replies 0 · classicPC
-   https://bsky.app/profile/andoryuanzuru.bsky.social/post/3n33av4yr4c2u
-   It's hard to have a convo about The uses of AI in the industry vs using Gen AI coding to upscale old games and speeding up doing silly things like, porting GTA 6 to PC cause you can't wait a few months It's full of lazy dreamers that believe they know more than developers bsky.ap
-   [quotes @artezza.bsky.social: This, for the record, is a big reason why people are so keen to ban AI in things like fanspaces. It doesnt matter what you think of it in t…]
+1. @numbcat9.bsky.social (Water the Tree of Liberty This Holiday S) · 7h · likes 0 · replies 1 · question · childhood
+   https://bsky.app/profile/numbcat9.bsky.social/post/3n35fn4yxkk2g
+   I'm going to need folks to defend from first principles the idea that human beings are better at taking care of Planet Earth and Other People than an artificial intelligence would be. Remember that it's just pure psychological projection to imagine a video game called "AI" has ou
+2. @rowletgameing.bsky.social (Celes🏳️‍⚧️⬇️↘️➡️👊) · 55m · likes 7 · replies 1 · childhood
+   https://bsky.app/profile/rowletgameing.bsky.social/post/3n35zn3pez22q
+   Despite predating most ai coding tools Yandere Simulator is the first Vibe Coded video game
