@@ -305,6 +305,16 @@
           "foundOnServer": true,
           "postedAt": "2026-11-24T00:34:20.000Z"
         }
+      },
+      "2026-11-25": {
+        "deal": {
+          "id": "gog-this-war-of-mine",
+          "title": "This War of Mine",
+          "status": "done",
+          "postId": "834293681763860480",
+          "url": "https://saveandplay.tumblr.com/post/834293681763860480",
+          "postedAt": "2026-11-25T22:07:35.335Z"
+        }
       }
     }
   },
