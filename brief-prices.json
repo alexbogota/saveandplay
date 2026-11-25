@@ -1,8 +1,8 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-11-24T20:59:51.921Z",
-  "builtBy": "commit 10087c2, schedule, run #56 attempt 1",
-  "pricesCheckedAt": "2026-11-24T20:17:24.598Z",
+  "generatedAt": "2026-11-25T20:23:28.286Z",
+  "builtBy": "commit 26fbf06, schedule, run #57 attempt 1",
+  "pricesCheckedAt": "2026-11-25T19:30:49.541Z",
   "warnings": [],
   "candidates": [
     {
@@ -10,12 +10,12 @@
       "kind": "deal",
       "title": "This War of Mine",
       "store": "GOG",
-      "price": 2.99,
+      "price": 1.99,
       "was": 19.99,
-      "discount": 85,
-      "endsAt": "2026-11-26T09:59:00+02:00",
-      "endsInHours": 35,
-      "priceCheckedAt": "2026-11-24T20:17:24.598Z",
+      "discount": 90,
+      "endsAt": "2026-12-03T09:59:00+02:00",
+      "endsInHours": 180,
+      "priceCheckedAt": "2026-11-25T19:30:49.541Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
       "drminfo": null,
       "coverAlt": "Cover art for This War of Mine",
@@ -48,21 +48,20 @@
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 4.5,
+      "score": 3,
       "discountRank": 1,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 37,
+        "days": 38,
         "lowest": true,
         "since": "2026-10-19"
       },
-      "offeredOn": "2026-11-23",
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-24",
+      "offeredOn": "2026-11-24",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-25",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 35 h",
-        "lowest price we've tracked (37 days of data)",
+        "lowest price we've tracked (38 days of data)",
         "deepest-discount rank 1 of 2"
       ]
     },
@@ -74,9 +73,9 @@
       "price": 4.99,
       "was": 19.99,
       "discount": 75,
-      "endsAt": "2026-11-26T09:59:00+02:00",
-      "endsInHours": 35,
-      "priceCheckedAt": "2026-11-24T20:17:24.598Z",
+      "endsAt": "2026-12-03T09:59:00+02:00",
+      "endsInHours": 180,
+      "priceCheckedAt": "2026-11-25T19:30:49.541Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
       "drminfo": null,
       "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
@@ -103,168 +102,191 @@
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 3.5,
+      "score": 1.5,
       "discountRank": 2,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 46,
+        "days": 47,
         "lowest": true,
         "since": "2026-10-07"
       },
       "offeredOn": "2026-11-20",
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-24",
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-25",
       "linkKind": "link to our site",
       "whyToday": [
-        "sale ends in 35 h",
-        "lowest price we've tracked (46 days of data)",
+        "lowest price we've tracked (47 days of data)",
         "deepest-discount rank 2 of 2"
       ]
     }
   ],
   "gogNews": [
     {
-      "title": "Release: Workers & Resources: Soviet Republic - Space Program",
-      "game": "workers_resources_soviet_republic",
-      "url": "https://www.gog.com/en/game/workers_resources_soviet_republic",
-      "newsLink": "http://www.gog.com/news/release_workers_amp_resources_soviet_republic_space_program",
-      "t": 1795430757000,
-      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fworkers_resources_soviet_republic"
+      "title": "Release: Kingdoms of the Dump",
+      "game": "kingdoms_of_the_dump",
+      "url": "https://www.gog.com/en/game/kingdoms_of_the_dump",
+      "newsLink": "http://www.gog.com/news/release_kingdoms_of_the_dump",
+      "t": 1795601497000,
+      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fkingdoms_of_the_dump"
     },
     {
-      "title": "Release: Stellaris: Willpower",
-      "game": "stellaris_willpower",
-      "url": "https://www.gog.com/en/game/stellaris_willpower",
-      "newsLink": "http://www.gog.com/news/release_stellaris_willpower",
-      "t": 1795427914000,
-      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fstellaris_willpower"
+      "title": "GOG Black Friday is now live!",
+      "game": "fallout_4_game_of_the_year_edition",
+      "url": "https://www.gog.com/en/game/fallout_4_game_of_the_year_edition",
+      "newsLink": "http://www.gog.com/news/gog_black_friday_is_now_live",
+      "t": 1795488607000,
+      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Ffallout_4_game_of_the_year_edition"
     },
     {
-      "title": "Release: Knightica - Faraway Tales",
-      "game": "knightica",
-      "url": "https://www.gog.com/en/game/knightica",
-      "newsLink": "http://www.gog.com/news/release_knightica_faraway_tales",
-      "t": 1795426394000,
-      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fknightica"
+      "title": "Lara Croft arrives on GOG with three adventures and two GOG Preservation Program additions!",
+      "game": "lara_croft_and_the_guardian_of_light",
+      "url": "https://www.gog.com/en/game/lara_croft_and_the_guardian_of_light",
+      "newsLink": "http://www.gog.com/news/lara_croft_arrives_on_gog_with_three_adventures_and_two_gog_preservation_program_additions",
+      "t": 1795487741000,
+      "link": "https://qwpeg.com/g/q2orumsnydc9990a3d590704a7278f/?subid=bluesky-prices&ulp=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Flara_croft_and_the_guardian_of_light"
     }
   ],
   "topical": [
     {
-      "title": "Best unique weapons to grab early in GTA 6: Get yourself some silenced weapons without the price tag",
-      "source": "PC Gamer",
-      "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-unique-weapons/",
-      "t": 1795551379000,
-      "keyword": "price",
-      "summary": "GTA 6 has a ton of unique weapon variants all with their own names and mods. They're all special custom builds of stock guns and weapons with unique skins, but…"
+      "title": "This Black Friday, you can try a week of Nintendo Switch Online for FREE!",
+      "source": "gg.deals Freebies",
+      "link": "https://gg.deals/freebie/this-black-friday-you-can-try-a-week-of-nintendo-switch-online-for-free/",
+      "t": 1795633620000,
+      "keyword": "free",
+      "summary": "No end date has been provided, so it's best to start your NSO free trial now to avoid missing out."
     },
     {
-      "title": "Prime Gaming’s (Amazon Luna) final FREE game of November is now available to claim",
+      "title": "Koei Tecmo's Steam Black Friday Sale has Nioh, Ninja Gaiden, Dynasty Warriors & more at up to 85% off",
       "source": "gg.deals News",
-      "link": "https://gg.deals/subscription-news/prime-gamings-amazon-luna-final-free-game-of-november-is-now-available-to-claim/",
-      "t": 1795545938000,
-      "keyword": "free",
-      "summary": "This time around, subscribers can get their hands on an alchemy-themed visual novel."
+      "link": "https://gg.deals/deal/koei-tecmo-steam-black-friday-sale/",
+      "t": 1795630320000,
+      "keyword": "sale",
+      "summary": "The offer ends on December 1."
     }
   ],
   "topics": [
     {
-      "headline": "Humble’s Black Friday deals put Oblivion Remastered and Fallout 4 Anniversary at $30 each (US)",
-      "score": 7,
+      "headline": "Humble Builder’s Blueprint Bundle: 7 Steam Games and 2 DLCs for $15",
+      "score": 10,
       "sites": [
-        "gg.deals"
+        "gg.deals",
+        "indiegamebundles.com"
       ],
       "keywords": [
-        "deals",
+        "bundle",
         "humble"
       ],
       "games": [],
       "items": [
         {
           "source": "gg.deals News",
-          "title": "Humble’s Black Friday deals put Oblivion Remastered and Fallout 4 Anniversary at $30 each (US)",
-          "link": "https://gg.deals/deal/humbles-black-friday-deals-put-oblivion-remastered-and-fallout-4-anniversary-at-30-each-us/",
-          "published": "2026-11-24T19:46:00.000Z"
+          "title": "Humble's Builder's Blueprint Bundle lets you design cities and dungeons across 7 games",
+          "link": "https://gg.deals/bundle/humbles-builders-blueprint-bundle-lets-you-design-cities-and-dungeons-across-7-games/",
+          "published": "2026-11-25T19:43:26.000Z"
+        },
+        {
+          "source": "Indie Game Bundles",
+          "title": "Humble Builder’s Blueprint Bundle: 7 Steam Games and 2 DLCs for $15",
+          "link": "https://www.indiegamebundles.com/humble-builders-blueprint-bundle-7-steam-games-and-2-dlcs-for-15/",
+          "published": "2026-11-25T20:02:59.000Z"
         }
       ]
     },
     {
-      "headline": "Steam's Black Friday Red Dead Redemption 1+2 Bundle deal brings it down to a new historical low price!",
-      "score": 7,
+      "headline": "Any official GTA 6 PC port’s ability to deliver a proper first person mode would be its biggest ace in the hole, so reckon I, a traitor",
+      "score": 9,
       "sites": [
-        "gg.deals"
+        "pcgamer.com",
+        "rockpapershotgun.com",
+        "eurogamer.net"
       ],
-      "keywords": [
-        "price",
-        "deal",
-        "bundle"
-      ],
+      "keywords": [],
       "games": [],
       "items": [
         {
-          "source": "gg.deals News",
-          "title": "Steam's Black Friday Red Dead Redemption 1+2 Bundle deal brings it down to a new historical low price!",
-          "link": "https://gg.deals/deal/red-dead-redemption-12-have-never-been-cheaper-together-than-they-are-this-black-friday/",
-          "published": "2026-11-24T18:48:00.000Z"
+          "source": "PC Gamer",
+          "title": "The race to port GTA 6 to PC, explained",
+          "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-recomp-explained/",
+          "published": "2026-11-24T21:47:58.000Z"
+        },
+        {
+          "source": "Rock Paper Shotgun",
+          "title": "Any official GTA 6 PC port’s ability to deliver a proper first person mode would be its biggest ace in the hole, so reckon I, a traitor",
+          "link": "https://www.rockpapershotgun.com/official-gta-6-pc-port-proper-first-person-mode-would-be-biggest-ace-in-the-hole",
+          "published": "2026-11-25T14:00:00.000Z"
+        },
+        {
+          "source": "Eurogamer",
+          "title": "GTA 6 recompilers and vibe-coders implore AI chatbots to 'work faster' and 'make no mistakes' as they race to get the game running on PC",
+          "link": "https://www.eurogamer.net/grand-theft-auto-6-gen-ai-chatbots-work-faster-prompts",
+          "published": "2026-11-25T15:19:10.000Z"
+        },
+        {
+          "source": "Eurogamer",
+          "title": "Unofficial GTA 6 PC port effort suffers setback as Rockstar seemingly takes down Project Leonida, one of the internet's biggest recompilation projects",
+          "link": "https://www.eurogamer.net/grand-theft-auto-6-project-leonida-discord-github-vanish",
+          "published": "2026-11-24T13:40:00.000Z"
         }
       ]
     },
     {
-      "headline": "Steam’s WB Games Black Friday Sale slashes prices on Batman, Middle-earth, Harry Potter & more",
+      "headline": "Steam's Konami Black Friday Sale has deals on tactical espionage action, psychological horror, vampiric tales, and more",
       "score": 7,
       "sites": [
         "gg.deals"
       ],
       "keywords": [
         "sale",
-        "prices"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "gg.deals News",
-          "title": "Steam’s WB Games Black Friday Sale slashes prices on Batman, Middle-earth, Harry Potter & more",
-          "link": "https://gg.deals/deal/steams-wb-games-black-friday-sale/",
-          "published": "2026-11-24T18:12:00.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "These Black Friday Steam Deck gift deals discount peripherals and accessories",
-      "score": 7,
-      "sites": [
-        "gamesradar.com"
-      ],
-      "keywords": [
-        "discount",
         "deals"
       ],
       "games": [],
       "items": [
         {
-          "source": "GamesRadar deals",
-          "title": "These Black Friday Steam Deck gift deals discount peripherals and accessories",
-          "link": "https://www.gamesradar.com/hardware/handhelds/got-a-steam-deck-that-needs-a-black-friday-treat-these-deals-will-let-you-deck-out-your-deck-at-bargain-prices/",
-          "published": "2026-11-24T16:18:20.000Z"
+          "source": "gg.deals News",
+          "title": "Steam's Konami Black Friday Sale has deals on tactical espionage action, psychological horror, vampiric tales, and more",
+          "link": "https://gg.deals/deal/steams-konami-black-friday-sale-has-deals-on-tactical-espionage-action-psychological-horror-vampiric-tales-and-more/",
+          "published": "2026-11-25T18:48:36.000Z"
         }
       ]
     },
     {
-      "headline": "GMG's 2K Black Friday sale has plenty of gems at bargain prices, with up to 94% off!",
+      "headline": "Steam's Black Friday discounts have slashed the price of Hazelight Studio's brilliant co-op titles!",
+      "score": 7,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "discounts",
+        "price"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "Steam's Black Friday discounts have slashed the price of Hazelight Studio's brilliant co-op titles!",
+          "link": "https://gg.deals/deal/steams-black-friday-discounts-have-slashed-the-price-of-hazelight-studios-brilliant-co-op-titles/",
+          "published": "2026-11-25T16:49:00.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "GOG Black Friday Sale 2026 is in full swing! Discover over 3,000 DRM-free deals",
       "score": 7,
       "sites": [
         "gg.deals"
       ],
       "keywords": [
         "sale",
-        "prices"
+        "deals",
+        "free"
       ],
       "games": [],
       "items": [
         {
           "source": "gg.deals News",
-          "title": "GMG's 2K Black Friday sale has plenty of gems at bargain prices, with up to 94% off!",
-          "link": "https://gg.deals/deal/gmgs-2k-black-friday-sale-2026/",
-          "published": "2026-11-24T14:30:00.000Z"
+          "title": "GOG Black Friday Sale 2026 is in full swing! Discover over 3,000 DRM-free deals",
+          "link": "https://gg.deals/deal/gog-black-friday-sale-2026/",
+          "published": "2026-11-25T16:16:09.000Z"
         }
       ]
     }
@@ -287,24 +309,24 @@
   },
   "posts": {
     "x": {
-      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nPrice checked Nov 24. Sale ends Nov 26. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-24\n\n#PCGaming #GOG\nAd",
-      "length": 160,
+      "text": "This War of Mine: -90% at GOG\n$1.99 (was $19.99)\nPrice checked Nov 25. Sale ends Dec 3. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-25\n\n#PCGaming #ThisWarOfMine\nAd",
+      "length": 169,
       "max": 270,
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-24",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-25",
       "deal": "gog-this-war-of-mine"
     },
     "bluesky": {
-      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nPrice checked Nov 24. Sale ends Nov 26. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-24\n\n#PCGaming #GameDeals #Gaming #ThisWarOfMine #VideoGames\nAd",
-      "length": 203,
+      "text": "This War of Mine: -90% at GOG\n$1.99 (was $19.99)\nPrice checked Nov 25. Sale ends Dec 3. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-25\n\n#PCGaming #GameDeals #DRMFree #Games #PCGames\nAd",
+      "length": 192,
       "max": 300,
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-24",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-25",
       "deal": "gog-this-war-of-mine"
     },
     "mastodon": {
-      "text": "This War of Mine: -85% at GOG\n$2.99 (was $19.99)\nYou save $17.00\nDRM-free\nPrice checked Nov 24. Sale ends Nov 26. Lowest price we've tracked.\nWhy today: sale ends in 35 h; deepest-discount rank 1 of 2.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-11-24\n\n#GameDeals #PCGaming #GOG #DRMFree #ThisWarOfMine\nAd",
-      "length": 280,
+      "text": "This War of Mine: -90% at GOG\n$1.99 (was $19.99)\nYou save $18.00\nDRM-free\nPrice checked Nov 25. Sale ends Dec 3. Lowest price we've tracked.\nWhy today: deepest-discount rank 1 of 2.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-11-25\n\n#GameDeals #PCGaming #GOG #DRMFree #Gaming\nAd",
+      "length": 253,
       "max": 500,
-      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-11-24",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=mastodon-prices&utm_medium=social&utm_campaign=deals-2026-11-25",
       "deal": "gog-this-war-of-mine"
     }
   }
