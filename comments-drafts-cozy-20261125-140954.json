@@ -1,0 +1,39 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261125-140954",
+  "madeAt": "2026-11-25T14:10:22.300Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:jrbldnfalvaqp2mc7m7zsa5i/app.bsky.feed.post/3n34cqjd2gs2a",
+      "url": "https://bsky.app/profile/r3nt.bsky.social/post/3n34cqjd2gs2a",
+      "author": "r3nt.bsky.social",
+      "context": "Was finally able to play stardew valley without problems. Blue light glasses? New monitors? Who knows. Anyway, back to fishing.",
+      "text": "Glad it feels comfortable now. Enjoy the fishing!",
+      "group": "stardew",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:rk2zt2dotbbcylm4dxd757yu/app.bsky.feed.post/3n33ilprv6c23",
+      "url": "https://bsky.app/profile/monsterteatime.bsky.social/post/3n33ilprv6c23",
+      "author": "monsterteatime.bsky.social",
+      "context": "What your favorite Stardew Valley season songs? Mine is the Winter theme, it's like a trancey synth, slightly melancholy. My kiddo hums it all the time as stimming.",
+      "text": "Love that your kiddo hums it. A slightly melancholy winter theme sounds just right for a cozy game.",
+      "group": "stardew",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:665pmb6mrm5pb53fkpqxy2xi/app.bsky.feed.post/3n33rl7xkmk2n",
+      "url": "https://bsky.app/profile/daisybellthecow.bsky.social/post/3n33rl7xkmk2n",
+      "author": "daisybellthecow.bsky.social",
+      "context": "Does anyone else make an intense routine out of their comfort games? I'm realizing that the way I play Tomodachi Life is like I'm a computer program. But it's such a relaxing and stabilizing part of my day. Even the way I feed the residents is full of if/then statements. No randomization.",
+      "text": "A routine you can count on is a big part of what makes a comfort game comforting. Sounds like a calm part of your day.",
+      "group": "askCozy",
+      "heated": false
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261125-140954",
+  "madeAt": "2026-11-25T14:10:22.424Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:ft5oehwo5qfqv5n2pzqlzstg/app.bsky.feed.post/3n34iigndrk25",
+      "url": "https://bsky.app/profile/comchia.bsky.social/post/3n34iigndrk25",
+      "author": "comchia.bsky.social",
+      "context": "Yay! Classic Mac 1-9 is probably with MS-DOS as my favorite gaming platform. I love how slick and creative everything looked. I'm especially fond of games like Falcon MC, Ultima III, Wizardry, and Marathon. I have a Power Mac that I still oughta get fully running.\nlink card: Vintage Macintosh Duo Computer Setup",
+      "text": "Marathon is a great classic Mac memory. Hope you get that Power Mac fully running!",
+      "group": "classicPC",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:taan5qz7xvoavio4bdtaem4x/app.bsky.feed.post/3n32vg2kwgk2l",
+      "url": "https://bsky.app/profile/scragglebird.northsky.social/post/3n32vg2kwgk2l",
+      "author": "scragglebird.northsky.social",
+      "context": "Time to play some good old games and get myself off of social media. Why play on the Analogue? It's got a backlight and my old blue gameboy doesn't! #LoZ #oracleofages #gameboycolour #analoguepocket\nimage: My clear analogue pocket with my copy of The Legend of Zelda Oracle of Ages ready to play.",
+      "text": "A backlit screen is a solid reason! Oracle of Ages is a lovely pick for a quiet evening.",
+      "group": "gogOld",
+      "heated": false
+    }
+  ]
+}
