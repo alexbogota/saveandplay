@@ -1,0 +1,52 @@
+{
+  "madeAt": "2026-11-25T21:35:36.251Z",
+  "run": "45705734936",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices-2|2026-11-24|/deals/gog/simcity-4-deluxe-edition/",
+      "account": "prices-2",
+      "handle": "saveandplay.com",
+      "n": 2,
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-24",
+      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Nov 24. Sale ends Nov 26. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-24\n\n#PCGaming #GameDeals #DRMFree #PCGames #GOG\nAd",
+      "approvedFile": "posts-approved-20261125-141107.json",
+      "approvedAt": "2026-11-25T14:11:07.414Z",
+      "status": "skipped",
+      "reason": "already posted: https://bsky.app/profile/saveandplay.com/post/3n33ogvorp722",
+      "at": "2026-11-25T21:35:36.886Z"
+    },
+    {
+      "key": "prices|article|/guides/steam-bundles-complete-the-set/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 6,
+      "link": "https://saveandplay.com/guides/steam-bundles-complete-the-set/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-steam-bundles",
+      "text": "A Steam bundle is a percentage, not a fixed price: Valve's docs say it applies a discount to each item you don't own. Our 5 checks before you buy one:\nhttps://saveandplay.com/guides/steam-bundles-complete-the-set/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-steam-bundles\n#PCGaming #GameDeals #Steam",
+      "approvedFile": "posts-approved-20261125-141107.json",
+      "approvedAt": "2026-11-25T14:11:07.414Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-25T21:35:38.933Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n364hubbbi2v",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3n364hubbbi2v",
+      "picture": true
+    },
+    {
+      "key": "prices|coop-2026-11-25|/servers/project-zomboid/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 7,
+      "link": "https://saveandplay.com/servers/project-zomboid/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-11-25",
+      "text": "Project Zomboid has online co-op on Steam.\nA rented server keeps your world online when the host logs off.\n\nhttps://saveandplay.com/servers/project-zomboid/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-11-25\n\n#PCGaming #ProjectZomboid\nAd",
+      "approvedFile": "posts-approved-20261125-141107.json",
+      "approvedAt": "2026-11-25T14:11:07.414Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-25T21:36:16.110Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n364ixlc6w2r",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3n364ixlc6w2r",
+      "picture": true
+    }
+  ]
+}
