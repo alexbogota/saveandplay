@@ -1,0 +1,67 @@
+{
+  "block": "prices",
+  "handle": "saveandplay.com",
+  "madeAt": "2026-11-26T21:45:46.794Z",
+  "days": 14,
+  "total": 29,
+  "mature": {
+    "count": 27,
+    "withLike": 14,
+    "withReply": 5,
+    "likes": 18,
+    "replies": 6,
+    "byProgram": 27
+  },
+  "top": [
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n332tdfgtn2a",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3n332tdfgtn2a",
+      "text": "Moving Out is worth a look: chaotic co-op where you move furniture, no battles at all. The Steam page shows which co-op modes a game supports before you buy.",
+      "at": "2026-11-24T16:28:16.287Z",
+      "likes": 2,
+      "replies": 2,
+      "reposts": 0,
+      "to": "saryaart.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n2fcffww6427",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3n2fcffww6427",
+      "text": "Coffee Talk and VA-11 Hall-A are both well-loved visual novels on PC. Coffee Talk is the calmer of the two.",
+      "at": "2026-11-16T00:45:04.890Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 1,
+      "to": "audrey-voltaire.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n2ycjlcj662i",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3n2ycjlcj662i",
+      "text": "Crashing right at the end is the worst. If this Proton version doesn't hold, player reports for the game often say which version runs best on the Deck. Good luck!",
+      "at": "2026-11-23T14:07:59.807Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "kupo.blue"
+    },
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n2wbzmnhbp2i",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3n2wbzmnhbp2i",
+      "text": "A quick look at the sales is always how it starts 😅 Wishlisting a game helps: Steam notifies you when it drops, so you don't need to keep browsing.",
+      "at": "2026-11-22T18:53:44.825Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "gamersonarant.bsky.social"
+    },
+    {
+      "uri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n2thhan5lc22",
+      "url": "https://bsky.app/profile/saveandplay.com/post/3n2thhan5lc22",
+      "text": "Games that give chat something to react to, like co-op or party games, tend to be fun to stream. Good luck getting started!",
+      "at": "2026-11-21T15:52:51.743Z",
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0,
+      "to": "the-toffee-boy.bsky.social"
+    }
+  ]
+}
