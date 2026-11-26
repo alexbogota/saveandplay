@@ -1,8 +1,8 @@
 {
   "account": "Honest prices (second deal of the day)",
-  "generatedAt": "2026-11-25T20:23:28.286Z",
-  "builtBy": "commit 26fbf06, schedule, run #57 attempt 1",
-  "pricesCheckedAt": "2026-11-25T19:30:49.541Z",
+  "generatedAt": "2026-11-26T19:59:38.941Z",
+  "builtBy": "commit cf0ebd9, schedule, run #58 attempt 1",
+  "pricesCheckedAt": "2026-11-26T19:13:55.509Z",
   "warnings": [],
   "candidates": [
     {
@@ -14,8 +14,8 @@
       "was": 19.99,
       "discount": 75,
       "endsAt": "2026-12-03T09:59:00+02:00",
-      "endsInHours": 180,
-      "priceCheckedAt": "2026-11-25T19:30:49.541Z",
+      "endsInHours": 156,
+      "priceCheckedAt": "2026-11-26T19:13:55.509Z",
       "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
       "drminfo": null,
       "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
@@ -47,15 +47,15 @@
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 47,
+        "days": 48,
         "lowest": true,
         "since": "2026-10-07"
       },
-      "offeredOn": "2026-11-24",
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-25",
+      "offeredOn": "2026-11-25",
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-26",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (47 days of data)",
+        "lowest price we've tracked (48 days of data)",
         "deepest-discount rank 1 of 1"
       ]
     }
@@ -81,17 +81,17 @@
   },
   "posts": {
     "x": {
-      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Nov 25. Sale ends Dec 3. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-25\n\n#PCGaming #SimCity4DeluxeEdition\nAd",
-      "length": 185,
+      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Nov 26. Sale ends Dec 3. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-26\n\n#PCGaming #GameDeals\nAd",
+      "length": 173,
       "max": 270,
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-25",
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-26",
       "deal": "gog-simcity-4-deluxe-edition"
     },
     "bluesky": {
-      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Nov 25. Sale ends Dec 3. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-25\n\n#PCGaming #GameDeals #VideoGames #Gaming #SimCity4DeluxeEdition\nAd",
-      "length": 218,
+      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Nov 26. Sale ends Dec 3. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-26\n\n#PCGaming #GameDeals #Games #DRMFree #PCGames\nAd",
+      "length": 200,
       "max": 300,
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-25",
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-26",
       "deal": "gog-simcity-4-deluxe-edition"
     }
   }
