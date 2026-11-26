@@ -1,0 +1,18 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-retro-20261126-142538.json",
+  "approvedAt": "2026-11-26T14:26:48.081Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:ztcphd7lgwyxbtvrrokckfwn/app.bsky.feed.post/3n357b2l7fk2b",
+      "url": "https://bsky.app/profile/merlinbird.zip/post/3n357b2l7fk2b",
+      "author": "merlinbird.zip",
+      "context": "lemmings was literally the first pc game I remember playing and I remained obsessed with it from that point all the way through middle school\nimage, no description; quotes @thatericalper.com: ",
+      "text": "Lemmings is a perfect first PC game. Hard to beat the feeling of saving the last few.",
+      "edited": false
+    }
+  ]
+}
