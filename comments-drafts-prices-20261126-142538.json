@@ -1,0 +1,29 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "stamp": "20261126-142538",
+  "madeAt": "2026-11-26T14:26:03.414Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:chxiljxhohzxvy6yi6rcdtww/app.bsky.feed.post/3n36px2uecs2n",
+      "url": "https://bsky.app/profile/thymine.bsky.social/post/3n36px2uecs2n",
+      "author": "thymine.bsky.social",
+      "context": "Finally trying MHWilds on the Steam deck & it's rather laggy. What do y'all do to help?\nimage, no description",
+      "text": "Heavy games like that usually run better with lower graphics settings plus a frame limit in the Deck's quick access menu. Even 30 fps feels smoother when it stays steady.",
+      "group": "deck",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:yejpsdc4gd3jb2pedg3dbluf/app.bsky.feed.post/3n36kdi7ov223",
+      "url": "https://bsky.app/profile/pandemoniumx.bsky.social/post/3n36kdi7ov223",
+      "author": "pandemoniumx.bsky.social",
+      "context": "I need to make a music playlist that's all chill af vibe out relaxing video game music. If anyone has any recommendations, I'd be open.",
+      "text": "Stardew Valley and A Short Hike both have gentle soundtracks that fit that vibe well.",
+      "group": "backlog",
+      "heated": false
+    }
+  ]
+}
