@@ -8,102 +8,47 @@
   },
   "sources": {
     "moreGaming": {
-      "runs": 928,
-      "posts": 39080,
-      "fit": 481,
+      "runs": 936,
+      "posts": 39400,
+      "fit": 483,
       "last": {
-        "posts": 80,
-        "fit": 3,
-        "at": "2026-11-26T21:28:09.421Z"
+        "posts": 40,
+        "fit": 2,
+        "at": "2026-11-27T08:21:18.590Z"
       }
     },
     "moreAsk": {
-      "runs": 580,
-      "posts": 5220,
+      "runs": 585,
+      "posts": 5265,
       "fit": 0,
       "last": {
         "posts": 0,
         "fit": 0,
-        "at": "2026-11-26T21:28:09.421Z"
+        "at": "2026-11-27T08:21:18.590Z"
       }
     },
     "moreRetro": {
-      "runs": 580,
-      "posts": 36000,
-      "fit": 1303,
+      "runs": 585,
+      "posts": 36320,
+      "fit": 1316,
       "last": {
         "posts": 40,
         "fit": 0,
-        "at": "2026-11-26T21:28:09.421Z"
+        "at": "2026-11-27T08:21:18.590Z"
       }
     },
     "morePlaying": {
-      "runs": 580,
-      "posts": 2436,
+      "runs": 585,
+      "posts": 2457,
       "fit": 0,
       "last": {
         "posts": 17,
         "fit": 0,
-        "at": "2026-11-26T21:28:09.421Z"
+        "at": "2026-11-27T08:21:18.590Z"
       }
     }
   },
   "pool": {
-    "https://mastodon.social/@larsmb@mastodon.online/117677979318680548": {
-      "uri": "https://mastodon.social/@larsmb@mastodon.online/117677979318680548",
-      "url": "https://mastodon.social/@larsmb@mastodon.online/117677979318680548",
-      "handle": "larsmb@mastodon.online",
-      "name": "Lars Marowsky-Brée 😷",
-      "text": "Playing a #MMORPG for the first time. Tons of online help content is badly generated slop that seems to be copying off from each other and comparing the guides someone else generated. (‽) YouTube is a bit better, but has sorted me into the \"Dad Gamer\" demographic and those creators apparently get paid for every time they say \"dad\" or \"father\" (like it's PH content illegal in the UK)? I do like the game, but I would also not mind a time machine to 1994¹.",
-      "createdAt": "2026-11-25T16:17:40.000Z",
-      "likes": 0,
-      "replies": 3,
-      "group": "moreGaming",
-      "query": "mmorpg",
-      "score": 6,
-      "question": true,
-      "heated": true,
-      "isReply": false,
-      "origin": "https://mastodon.online/@larsmb/117677979106993945",
-      "media": null,
-      "firstSeen": "2026-11-25T21:39:15.264Z"
-    },
-    "https://mastodon.social/@retro_brewz/117678229810639603": {
-      "uri": "https://mastodon.social/@retro_brewz/117678229810639603",
-      "url": "https://mastodon.social/@retro_brewz/117678229810639603",
-      "handle": "retro_brewz@mastodon.social",
-      "name": "Retro Brewz",
-      "text": "A double punch of Igavania goodness! 🥊🥊 #RetroGames #Castlevania #RetroGaming #GameboyAdvance",
-      "createdAt": "2026-11-25T17:21:26.002Z",
-      "likes": 2,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogames",
-      "score": 5,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "image, no description",
-      "firstSeen": "2026-11-25T21:39:15.264Z"
-    },
-    "https://mastodon.social/@stunningshemp/117679810504778829": {
-      "uri": "https://mastodon.social/@stunningshemp/117679810504778829",
-      "url": "https://mastodon.social/@stunningshemp/117679810504778829",
-      "handle": "stunningshemp@mastodon.social",
-      "name": "Chris Coats",
-      "text": "Now she’s just showing off #retrogaming #supermariobros #stunningshemp #twitch #twitchclips",
-      "createdAt": "2026-11-26T00:03:25.423Z",
-      "likes": 1,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "video, no description",
-      "firstSeen": "2026-11-26T08:10:25.996Z"
-    },
     "https://mastodon.social/@Dvalin/117683449053349956": {
       "uri": "https://mastodon.social/@Dvalin/117683449053349956",
       "url": "https://mastodon.social/@Dvalin/117683449053349956",
@@ -115,7 +60,7 @@
       "replies": 0,
       "group": "moreGaming",
       "query": "mmorpg",
-      "score": 6,
+      "score": 5,
       "question": true,
       "heated": false,
       "isReply": false,
@@ -147,7 +92,7 @@
       "name": "Michal Ursiny",
       "text": "Meteors arriving on ursimon.itch.io on weekend in a form of C64 & GBC classical shoot-em-up combination. Here is a little teaser. #commodore64 #c64 #gameboy #retrogaming #homebrew",
       "createdAt": "2026-11-26T21:23:25.673Z",
-      "likes": 0,
+      "likes": 2,
       "replies": 1,
       "group": "moreRetro",
       "query": "retrogaming",
@@ -158,24 +103,6 @@
       "media": "video, no description",
       "firstSeen": "2026-11-26T21:28:09.421Z"
     },
-    "https://mastodon.social/@Madfox_Timmy/117684518108666330": {
-      "uri": "https://mastodon.social/@Madfox_Timmy/117684518108666330",
-      "url": "https://mastodon.social/@Madfox_Timmy/117684518108666330",
-      "handle": "Madfox_Timmy@mastodon.social",
-      "name": "Timmy the Madfox",
-      "text": "#Commodore64Thursday Some classic Taito arcade pew-pew action with Operation Wolf. #RetroGaming #Commodore64 #Taito #OperationWolf",
-      "createdAt": "2026-11-26T20:00:37.757Z",
-      "likes": 0,
-      "replies": 0,
-      "group": "moreRetro",
-      "query": "retrogaming",
-      "score": 3,
-      "question": false,
-      "heated": false,
-      "isReply": false,
-      "media": "2 images, no description",
-      "firstSeen": "2026-11-26T21:28:09.421Z"
-    },
     "https://mastodon.social/@andyvaisey@oldbytes.space/117684430134363260": {
       "uri": "https://mastodon.social/@andyvaisey@oldbytes.space/117684430134363260",
       "url": "https://mastodon.social/@andyvaisey@oldbytes.space/117684430134363260",
@@ -183,11 +110,11 @@
       "name": "aNdy",
       "text": "My #OutRun #PETSCII for the #c64 itch page is complete. Release will be Tuesday 1st December, assuming no last minute bugs. Preview of page below, not yet live! @EC64 #Commodore #retrogaming #retrogames #8bit #c64",
       "createdAt": "2026-11-26T19:38:12.000Z",
-      "likes": 1,
+      "likes": 9,
       "replies": 1,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 6,
+      "score": 5,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -206,7 +133,7 @@
       "replies": 1,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 4,
+      "score": 3,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -221,11 +148,11 @@
       "name": "Thomas Leroy 🍣🐈‍⬛",
       "text": "I never tire of pointing out that there was an error in the DOS version of Moonstone. The sound that plays when the dragon takes a hit is the wrong one 😁 Here's a video I made 🐲 ⚔️ 🧵 2/ #Moonstone #Mindscape #Amiga #DOSGaming #RetroGaming",
       "createdAt": "2026-11-26T16:29:23.913Z",
-      "likes": 2,
+      "likes": 3,
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 4,
+      "score": 3,
       "question": false,
       "heated": false,
       "isReply": true,
@@ -243,7 +170,7 @@
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
-      "score": 4,
+      "score": 3,
       "question": false,
       "heated": false,
       "isReply": false,
@@ -314,7 +241,7 @@
       "name": "nivs",
       "text": "My new Christmas Game will be announced on 1st December! Initially available on A600GS, then for download from itch.io after a couple of weeks. FREE! 🎅 🪨 #Amiga #RetroDev #Commodore #RetroGaming #Santa #Christmas",
       "createdAt": "2026-11-26T11:17:01.897Z",
-      "likes": 9,
+      "likes": 10,
       "replies": 0,
       "group": "moreRetro",
       "query": "retrogaming",
@@ -332,7 +259,7 @@
       "name": "Thomas Leroy 🍣🐈‍⬛",
       "text": "Moonstone: A Hard Days Knight on Amiga! 🤩 (1991) A really beautiful game, but the sword fights were pretty tough. With modern controllers, it should be easier to play. I'll play it again someday. The game turns 35 this year! 🎂 #Moonstone #Mindscape #Amiga #DOSGaming #RetroGaming",
       "createdAt": "2026-11-26T10:56:16.379Z",
-      "likes": 8,
+      "likes": 10,
       "replies": 2,
       "group": "moreRetro",
       "query": "retrogaming",
@@ -342,6 +269,24 @@
       "isReply": false,
       "media": "video, no description",
       "firstSeen": "2026-11-26T21:28:09.421Z"
+    },
+    "https://mastodon.social/@stunningshemp/117686042674659777": {
+      "uri": "https://mastodon.social/@stunningshemp/117686042674659777",
+      "url": "https://mastodon.social/@stunningshemp/117686042674659777",
+      "handle": "stunningshemp@mastodon.social",
+      "name": "Chris Coats",
+      "text": "Robotnik baited me #retrogaming #sonicthehedgehog #stunningshemp #twitch #twitchclips",
+      "createdAt": "2026-11-27T02:28:20.776Z",
+      "likes": 1,
+      "replies": 0,
+      "group": "moreRetro",
+      "query": "retrogaming",
+      "score": 4,
+      "question": false,
+      "heated": false,
+      "isReply": false,
+      "media": "video, no description",
+      "firstSeen": "2026-11-27T08:21:18.590Z"
     }
   }
 }

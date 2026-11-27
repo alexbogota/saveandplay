@@ -1,150 +1,155 @@
 # Comment candidates: retro-wide (@retrogamedeals.bsky.social)
-Made 2026-11-26T21:28Z. Searched: childhood: played this as a kid game | childhood: first pc game | childhood: childhood game | childhood: game from my childhood | childhood: childhood favorite game | classicPC: old pc game | classicPC: retro pc gaming | classicPC: dos game | classicPC: classic pc game | classicPC: old pc games | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: retro games recommend | askRetro: best retro games | askRetro: best old games | askRetro: old game recommend | askRetro: retro game recommendations | retroBuying: gog classic | retroBuying: old game on sale | retroBuying: classic game sale | retroBuying: retro game steam | retroBuying: old pc game worth buying | retroPlaying: replaying old game | retroPlaying: replaying classic game | retroPlaying: playing old game | retroPlaying: childhood game pc | retroPlaying: old game nostalgia pc | retroAsk: best dos games | retroAsk: best old pc games | retroAsk: old game recommend pc | retroAsk: games like diablo | retroAsk: games like age of empires | retroTalk: old school pc | retroTalk: 90s pc games | retroTalk: 2000s pc games | retroTalk: pc gaming memories | retroTalk: first pc game | retroFeed: feed.
-Posts below: 40 + 2 heated. Dropped in this run: not about games 126, skip word 71, own post 2, replies are limited 12, bot, shop or studio 21, many links 4, too short 5, promo (link and hashtags) 1, empty 1, already shown 3, too many hashtags 4, not a question 18, other language 29, other language (text) 8, adult or graphic label 1.
+Made 2026-11-27T08:21Z. Searched: childhood: games from my childhood | childhood: first video game | childhood: played this as a kid game | childhood: first pc game | childhood: childhood game | classicPC: dos games | classicPC: classic pc games | classicPC: old pc game | classicPC: retro pc gaming | classicPC: dos game | holdUp: old games hold up | holdUp: aged well game | holdUp: still worth playing old game | gogOld: good old games | gogOld: gog old games | gogOld: old games modern pc | nostalgia: nostalgia video game | nostalgia: nostalgic game | nostalgia: favorite retro game | askRetro: old games recommend | askRetro: retro games recommend | askRetro: best retro games | askRetro: best old games | askRetro: old game recommend | retroBuying: gog classic | retroBuying: old game on sale | retroBuying: classic game sale | retroBuying: retro game steam | retroBuying: old pc game worth buying | retroPlaying: replaying old game | retroPlaying: replaying classic game | retroPlaying: playing old game | retroPlaying: childhood game pc | retroPlaying: old game nostalgia pc | retroAsk: best dos games | retroAsk: best old pc games | retroAsk: old game recommend pc | retroAsk: games like diablo | retroAsk: games like age of empires | retroTalk: old school pc | retroTalk: 90s pc games | retroTalk: 2000s pc games | retroTalk: pc gaming memories | retroTalk: first pc game | retroFeed: feed.
+Posts below: 40 + 2 heated. Dropped in this run: not about games 122, skip word 97, bot, shop or studio 24, too many hashtags 6, too short 8, adult or graphic label 2, replies are limited 8, promo (link and hashtags) 2, own post 2, other language (text) 8, already shown 2, many links 2, empty 1, other language 24, not a question 23.
 
 ## Posts
-1. @gamerbait.bsky.social (GamerBait) · 1h · likes 3 · replies 0 · question · retroFeed
+1. @oshua.bsky.social · 5h · likes 0 · replies 0 · question · childhood
+   https://bsky.app/profile/oshua.bsky.social/post/3n3bapnzxrk2p
+   Decided to do one of these, there's always THE games I have to pick for certain years (1996, 2000, 2007, 2014), but there's always the odd ones chose for childhood picks (1993, 1997) or replayability (2006, 2018). I really should just do a write down of a top 25 of mine. So many 
+   [image: My list of choice picks of the years from 1991-2026 from "https://grids.fun/t/my-game-of-the-year-1991-2026". Hardest choice was 2002 in choosing whether I wan…]
+2. @supergraffiti.bsky.social (A ghost is for life, not just for Hallow) · 17h · likes 1 · replies 0 · question · gogOld
+   https://bsky.app/profile/supergraffiti.bsky.social/post/3n37x75wwz22h
+   old games from your childhood never look as good as how you remember them, do they?
+3. @dollfih.feesh.dev (dollpilled fishcel) · 14m · likes 0 · replies 1 · question · retroFeed
+   https://bsky.app/profile/dollfih.feesh.dev/post/3n3bqammgzs26
+   What are your five favourite video games of all time? (old school edition) Super Metroid Vib-Ribbon Duck Tales (NES) Luigi's Mansion Silent Hill
+   [quotes @sinnarugan.bsky.social: What are your five favourite video games of all time? (old school edition) kingdom hearts 2 super mario sunshine burnout 3: takedown dragon…]
+4. @nostalgia-minis.bsky.social (Nostalgia Minis) · 19m · likes 0 · replies 0 · question · retroFeed
+   https://bsky.app/profile/nostalgia-minis.bsky.social/post/3n3bpxqkbx52w
+   It looked more like a piece of hi-fi than a games console. Where did the Atari 2600 sit in your house? #Atari2600 #RetroGaming
+   [image, no description]
+5. @hauntedbees.com (Dr. Beekeeper) · 54m · likes 0 · replies 0 · question · childhood
+   https://bsky.app/profile/hauntedbees.com/post/3n3bnzayr5s2d
+   This was the saving grace of playing through Duke Nukem Forever for me. You could really tell which console generation each area was originally developed during. Was it a good video game? No. Was it a good example of First Person Shooters Over The Years? Sort of.
+6. @docseuss.bsky.social (docvember) · 2h · likes 8 · replies 1 · askRetro
+   https://bsky.app/profile/docseuss.bsky.social/post/3n3bjm676uc23
+   I love shin megami tensei 3: nocturne, which is one of the best video games ever made, despite the fact that it is an old school ps2 dungeon crawler i love shin megami tensei 5, despite being not quite as amazing ~as a space/story~, it has GREAT ux/design fuck shin megami tensei 
+   [image, no description]
+7. @sugarprince.bsky.social (grade A omega class freak) · 4h · likes 2 · replies 0 · childhood
+   https://bsky.app/profile/sugarprince.bsky.social/post/3n3bdhfjkxk2d
+   🙂‍↕️ it was my first ever home console game (only had a GBA as my first video game system prior) and it’s my favorite setting pokemons ever done (100% fueled by nostalgia but still) i love u shadow pokemon
+8. @davidcrockett08.bsky.social (Davy Crockett) · 5h · likes 1 · replies 0 · classicPC
+   https://bsky.app/profile/davidcrockett08.bsky.social/post/3n3b7yb6avs2v
+   Mina dropping that DOS text based mystery game knowledge, that shit was impossible
+   [image, no description; quotes @minakimes.bsky.social: Amon Ra is so tough it’s crazy]
+9. @scarvis.bsky.social (Scott) · 10h · likes 3 · replies 1 · question · childhood
+   https://bsky.app/profile/scarvis.bsky.social/post/3n3apfyo2vs2k
+   I don’t remember if I played the video game or looked at the 2e rulebook at the store (and eventually bought it) but it was like my first exposure to the concept of cyberpunk. Which is probably why the magic and shit doesn’t clash with me in a way it does with others.
+10. @gamerbait.bsky.social (GamerBait) · 12h · likes 3 · replies 0 · question · retroFeed
    https://bsky.app/profile/gamerbait.bsky.social/post/3n3aimow6km2q
    EA bought Criterion in July 2004, two months before Burnout 3 shipped. Twenty-two years later, the fan favorite is still stuck on PS2, original Xbox and Xbox 360. Would you take a full remaster or just a clean re-release? #RetroGaming
    [4 images, no description]
-2. @schmooolie.bsky.social (Schmooolie | GDI) · 1h · likes 1 · replies 0 · classicPC
+11. @vehkposting.bsky.social · 14h · likes 2 · replies 0 · question · childhood
+   https://bsky.app/profile/vehkposting.bsky.social/post/3n3abmttxrc2u
+   "Chores? In my video games?" Yes. Stardew Valley isn't even the first game of its genre by a couple decades. Now go back to screaming the N word because someone didn't rush B or whatever.
+12. @abyssalminiatures.bsky.social (Abyssal Miniatures) · 17h · likes 3 · replies 0 · question · childhood
+   https://bsky.app/profile/abyssalminiatures.bsky.social/post/3n37wutxio52l
+   First post! Are you a miniature painter interested in painting busts and display models? Give us a follow and checkout the store! I am a sculptor in the video game industry and I started abyssal miniatures in August to combine my passion for sculpting characters and mini painting
+   [image, no description]
+13. @mediamintgames.bsky.social (Media Mint Games) · 2h · likes 0 · replies 0 · askRetro
+   https://bsky.app/profile/mediamintgames.bsky.social/post/3n3bk2orowt25
+   Some old games put the best tip on the first page of the manual, before they explain any of the controls.
+14. @adrelladev.bsky.social (AdrellaDev) · 2h · likes 1 · replies 0 · question · retroFeed
+   https://bsky.app/profile/adrelladev.bsky.social/post/3n3bj4k34y226
+   There was an American Gladiators game on NES that I rented when I was a kid. I remember the controls being so bad it was nearly unplayable. I should go back and see if it was just a skill issue of a 6 year old.
+   [quotes @arrontk.bsky.social: What’s the worst video game you have ever played?]
+15. @hughjodonnell.bsky.social (Hatchingphoenix 🏳️‍🌈) · 4h · likes 2 · replies 1 · question · retroFeed
+   https://bsky.app/profile/hughjodonnell.bsky.social/post/3n3bd5p7o4s2h
+   SNES mini lost my Super Metroid save somehow. The previous save is still there, so its not bad memory. It just completely forgot the entire save data. The question is, do I start again on the potentially unstable SNES mini, start again on the Switch, or say 'fuck it' and move on 
+16. @pisswizard.bsky.social (Piss Wizard) · 5h · likes 3 · replies 0 · nostalgia
+   https://bsky.app/profile/pisswizard.bsky.social/post/3n3b744e6dk2c
+   I worked at a Toys R Us from 06-08 with 2 Black Fridays there and I’m oddly nostalgic about the chaos and the weird camaraderie we all had in the video game section. I think in 07 we sold out of every console we had. I’d never do it again but it was a fun thing to do when you’re 
+17. @chrispib.bsky.social (Chris) · 8h · likes 2 · replies 1 · childhood
+   https://bsky.app/profile/chrispib.bsky.social/post/3n3auqs7we22m
+   I just found a video game from my childhood that I didnt think I would be able to paly again because it was on disk and I didnt have anything to read a disk
+18. @onlyretrofans.com (Dr Johnny Blanchard) · 9h · likes 7 · replies 0 · classicPC
+   https://bsky.app/profile/onlyretrofans.com/post/3n3asoayw222d
+   One of my Jurl ports, ostensibly for the MS-TRES Jam but also nice and early for #Doscember - Jurl: MS-DOS tonsomo.itch.io/jurl-ms-dos-...
+   [link card: Jurl: MS-DOS Edition by Tonsomo Entertainment]
+19. @jakehyena.bsky.social (Jakey Kangaroo) · 11h · likes 4 · replies 1 · childhood
+   https://bsky.app/profile/jakehyena.bsky.social/post/3n3anruylls2k
+   So I beat the OoT Remake today, and I gotta say, it was very nice to play a game from my childhood with an ABSOLUTELY INSANE make over. I might do a play through of the N64 version next just for the hell of it. Also, I'm starting to understand the thirst for Beast Ganon 👀💦
+20. @artrock15.bsky.social (ArtRock15) · 11h · likes 6 · replies 1 · childhood
+   https://bsky.app/profile/artrock15.bsky.social/post/3n3an5gh2r22q
+   I’m not used to playing Minecraft on PC so I’m playing From The Fog Reimagined for the first time, because CaseOh got me intrigued into the game. Also these houses are known to have crime scenes in them, so I’m gonna clear out the bodies, clean the blood, rebuild and make this my
+   [3 images, no description]
+21. @schmooolie.bsky.social (Schmooolie | GDI) · 12h · likes 1 · replies 0 · classicPC
    https://bsky.app/profile/schmooolie.bsky.social/post/3n3aiqbvz322r
    I may be a PC Gamer lmao. Some years i would have chosen multiple games and others i struggled with choosing any at all. This year... i mean GTA 6 is damn good but i feel like Pokopia somehow did it more for me.
    [image: Personal game of the year list ranging from 1991 to 2026 91: Civilization 92: Super Mario Kart 93: Simcity 2000 94: Doom 2 95: Super Mario World 2 96: Mario 64…]
-3. @ellianazazel.bsky.social (Ellian Azazel) · 2h · likes 0 · replies 0 · question · retroPlaying
+22. @dariomouse.bsky.social (The Dario Balloon!) · 13h · likes 30 · replies 1 · childhood
+   https://bsky.app/profile/dariomouse.bsky.social/post/3n3agd5itqs2q
+   9.) Sonic. While the new Sonic is the better design balloon, the 90's "Classic" Sonic balloon and style are my fave. The older balloon is also endearing because he.. had a few unscheduled deflations. IIRC he was the first video game character-to-balloon and it was so awesome seei
+   [4 images, no description]
+23. @ellianazazel.bsky.social (Ellian Azazel) · 13h · likes 0 · replies 0 · question · retroPlaying
    https://bsky.app/profile/ellianazazel.bsky.social/post/3n3afy4jkjs2b
    Hmm... I like playing most immersive games with zero music. Thematic in-game music off. I'm talking games like Project Zomboid, Road to Vostok. Even Elder Scrolls games. Constant music just completely removes me from the setting. Old School Runescape or Kerbal Space Program tho? 
-4. @gemepic.com (GemEPIC) · 3h · likes 4 · replies 0 · classicPC
+24. @gemepic.com (GemEPIC) · 14h · likes 4 · replies 0 · classicPC
    https://bsky.app/profile/gemepic.com/post/3n3acwaxksk25
    Our featured creator: Metal Jesus Rocks. Retro gaming, collecting and the hunt for games, 1,122 videos and counting. Follow the creator on GemEPIC and every new video and post lands right in your Pulse. gemepic.com/directory/metal-jesus-rocks #retrogaming #gamecollecting
    [link card: Metal Jesus Rocks – GemEPIC Directory]
-5. @erika.zone (Erika) · 3h · likes 1 · replies 0 · childhood
+25. @erika.zone (Erika) · 14h · likes 1 · replies 0 · childhood
    https://bsky.app/profile/erika.zone/post/3n3abhw2mo224
    GOD YES. I spent a significant *percentage* of my childhood fucking around in the BoE scenario editor, honestly mostly just to play with that tileset as a virtual lego thingy. 👀 yeah... The basalt+marble aesthetic is so drippingly evil. I can't recall seeing a game that beats it
-6. @conjuredrowl.bsky.social (ConjuredRowl) · 4h · likes 2 · replies 0 · childhood
+26. @conjuredrowl.bsky.social (ConjuredRowl) · 15h · likes 3 · replies 0 · childhood
    https://bsky.app/profile/conjuredrowl.bsky.social/post/3n3a7jiugos2k
    yeaaaa, making it a moral thing is genuinely the most annoying thing!!! it is just a video game and is all opinions, you aren’t better than someone cause of your childhood favorite!!!
-7. @supergraffiti.bsky.social (A ghost is for life, not just for Hallow) · 6h · likes 0 · replies 0 · question · gogOld
-   https://bsky.app/profile/supergraffiti.bsky.social/post/3n37x75wwz22h
-   old games from your childhood never look as good as how you remember them, do they?
-8. @markshatraw.bsky.social (Will Code For Pizza) · 26h · likes 1 · replies 1 · question · childhood
-   https://bsky.app/profile/markshatraw.bsky.social/post/3n35tylxsjc2e
-   Is this the first time a video game has been a full-on monocultural moment?
-9. @cubechan.bsky.social (Cube Chan) · 40m · likes 1 · replies 0 · question · retroFeed
-   https://bsky.app/profile/cubechan.bsky.social/post/3n3akcdx3ik2n
-   You know those old bootleg Mario games for NES that Youtubers absolutely loved reviewing and dogging on in 2017? This is a modernized version of that This is the Donky Kong 5 of 2026 And to be fair at least Donky Kong 5 has some cha
-   [quotes @mors.games: the first result you get when you google "super mario 64 recomp" is killing me. what in the fuck is this]
-10. @nulltl.bsky.social (Nothing) · 1h · likes 0 · replies 1 · classicPC
-   https://bsky.app/profile/nulltl.bsky.social/post/3n3aikyqjms26
-   I'm on my weird project shit until spring hits and I lose all motivation eXoDOS browser for MS-DOS You can basically turn DOS inside out to meet your needs, and it's been a fun project doing basically that
-   [image: A screenshot (from 86box) of an exodos viewer for MS-DOS. It shows a details page for the game Doom 2: Hell on Earth]
-11. @aemond.wsocial.eu (Antoine Emond 🇫🇷 🇸🇪) · 1h · likes 1 · replies 1 · retroBuying
-   https://bsky.app/profile/aemond.wsocial.eu/post/3n3ahyhhi5c2p
-   Marketing tip for game devs: put your old games on sale when you share news about your next one. Square Enix does that, and it's paying off. Its older games sold 12.6 million copies from April to September, twice as many as in the same months three years ago.
-   [image, no description]
-12. @dkdevil.bsky.social (DKDevil) · 2h · likes 2 · replies 1 · question · retroFeed
-   https://bsky.app/profile/dkdevil.bsky.social/post/3n3afsohajs2h
-   Is it controversial to not like Donkey Kong Country Returns and Tropical Freeze? They don’t even come close to the SNES trilogy for me. Heck I don’t think they’re even as aesthetically pleasing as DK64. Too bright and colorful, and the villains are so bland.
-13. @sharkpuncher.bsky.social (Sharkpuncher) · 3h · likes 0 · replies 0 · childhood
-   https://bsky.app/profile/sharkpuncher.bsky.social/post/3n3adm3lmec2u
-   I wonder if they tried to really awkwardly tie it back into video games in some way, like relating Thanksgiving to a favorite childhood video game, or talking about eating cranberry sauce while playing GTA6 I bet they did
-14. @revista5w.bsky.social (Revista 5W) · 3h · likes 2 · replies 1 · question · retroFeed
-   https://bsky.app/profile/revista5w.bsky.social/post/3n3ac3esyas2c
-   ¿Hay relevo generacional en el campo español? ¿Quiénes ocupan estos puestos? Lo contamos en 'La ganadería española depende cada vez más de personas migrantes'. Hilo 🧵
-15. @djlink.bsky.social (David Amador) · 5h · likes 1 · replies 0 · retroBuying
-   https://bsky.app/profile/djlink.bsky.social/post/3n3a4m4okcc2g
-   Hello #turnbasedThursday Quest of Dungeons is a procedural turn dungeon crawler where your friends decide to let you go all by yourself face dangers on a dungeon, because going alone is clearly the best idea. store.steampowered.com/app/270050/Q...
-   [link card: Quest of Dungeons on Steam]
-16. @theodorepainsworth.bsky.social (Theodore Painsworth) · 5h · likes 5 · replies 3 · classicPC
-   https://bsky.app/profile/theodorepainsworth.bsky.social/post/3n3a3nmiqwc2r
-   Raymond E Feist. You might know his world from an old PC game called Betrayal at Krondor if you're over 40. I'd start with Kings Buccaneer or Prince of the Blood. Both standalone books in an otherwise large epic. If you like it, go back to Magician and start at the beginning.
-17. @projectupdates.bsky.social (Cyborg Unit F-72 ⧯) · 6h · likes 0 · replies 0 · childhood
-   https://bsky.app/profile/projectupdates.bsky.social/post/3n37zqe76ak22
-   ...and I actually *do* have childhood toys stuffed away somewhere in my closet, that I simply haven't gotten to getting rid of yet, but I would never dream of putting them on display like this. Beating a Nintendo game was not when I peaked, or my proudest life achievement. I am n
-18. @lesbiandrea.bsky.social (Andrea • Lesbian Vampire Prince) · 9h · likes 6 · replies 2 · classicPC
+27. @mendinso.bsky.social (Barry's Furry Corner) · 18h · likes 3 · replies 1 · childhood
+   https://bsky.app/profile/mendinso.bsky.social/post/3n37vwdrqbc2e
+   I actually had much more physical games prior to this but I had to down size. Saved as much as I could with loose disc sleeve, admittedly, but yeah. There's a handful of things in there from my childhood (Tomb Raider 2 for PS1 is there, which I still have my copy from 1998).
+28. @lesbiandrea.bsky.social (Andrea • Lesbian Vampire Prince) · 20h · likes 8 · replies 2 · classicPC
    https://bsky.app/profile/lesbiandrea.bsky.social/post/3n37p2jqisc2c
    Next year, the original Grand Theft Auto game for DOS and PS1 is turning 30 years old. I really hope Rockstar are planning some kind of rerelease because it's frankly ridiculous that GTA, GTA London and GTA2 are not officially available on any contemporary platform. Not even GOG 
    [image, no description]
-19. @lostinconsoles.bsky.social (Lost In Consoles) · 13h · likes 3 · replies 0 · askRetro
+29. @lostinconsoles.bsky.social (Lost In Consoles) · 24h · likes 3 · replies 0 · askRetro
    https://bsky.app/profile/lostinconsoles.bsky.social/post/3n37ajsbk7p2e
    Evercade went 64-bit. The Nexus has a 5.89-inch screen, dual sticks, and Banjo-Kazooie plus Banjo-Tooie on one cart. $199.99. No sleep mode, no Hall sticks, but nobody else lets you own N64 games. Which N64 handheld fits: lostinconsoles.com/blog/best-retro-handhelds-for-n64-and-d
    [video: Lost In Consoles news reel about the Evercade Nexus, the first Evercade handheld with 64-bit support, shown over an official product render of the black consol…]
-20. @bunnzo.bsky.social (DAT BUNN) · 13h · likes 1 · replies 1 · classicPC
+30. @bunnzo.bsky.social (DAT BUNN) · 24h · likes 1 · replies 1 · classicPC
    https://bsky.app/profile/bunnzo.bsky.social/post/3n37aa6bkf222
    1990: Captive. Everybody knows Dungeon Master (and the spiritual successor Grimrock) but Captive is less known. It's a dungeon crawl with a party of 4 robots you control remotely through a briefcase interface. Good game, awesome UI. I knew it on Atari ST but I think they made a D
    [image: screenshot of Captive, showning a big panel of colored buttons and a square display showing a camera view of a hallway with a small silver robot .]
-21. @gunzelpunk.bsky.social (Engineer GunzelPunk) · 21h · likes 2 · replies 0 · question · gogOld
-   https://bsky.app/profile/gunzelpunk.bsky.social/post/3n36h3cmbm22h
-   Given the polls in Victoria, there’s always someone who will vote for a sentient anal polyp who goes to Manila and Bangkok on the taxpayer’s coin while whining that we need a return to good old Judeo Christian values and complaining video games are too woke.
-22. @amithero.bot (Ami - BUY MY BOOK 🏳️‍⚧️📚💙) · 21h · likes 22 · replies 1 · classicPC
-   https://bsky.app/profile/amithero.bot/post/3n36ey7s5r22a
-   For that old pc game though, it would be less decomping and more reassembling since the dev already dropped the source code years ago. Would be fun to learn by hand
-23. @amithero.bot (Ami - BUY MY BOOK 🏳️‍⚧️📚💙) · 21h · likes 17 · replies 1 · classicPC
-   https://bsky.app/profile/amithero.bot/post/3n36est6c3k2a
-   I’ve honestly considered learning how to recompile an old PC game I love for modern platforms, as I had issues getting this game to run on some computers I have like the RPI5 (tried GOG and Steam copies, same end result)
-24. @beeplovesyou.bsky.social (beep) · 22h · likes 1 · replies 0 · classicPC
-   https://bsky.app/profile/beeplovesyou.bsky.social/post/3n36dbvgpn22s
-   i love that the pc that is now worth more than my car cannot achieve a stable 60fps in a 10 year old game, except in the case of an instance with performance limits set at the standard for a 10+ year old game
-25. @perfidiouspete.bsky.social (Perfidious Pete) · 22h · likes 3 · replies 0 · childhood
-   https://bsky.app/profile/perfidiouspete.bsky.social/post/3n36brcag5k2b
-   Heh. As an old gamer who has played literally every single GTA game ever made, this was going to be the first one I *didn't* play because the GTAV community was so shitty and toxic and unfun. But based on their reaction to this one, it's now a day-one buy as soon as the PC releas
-26. @edenadyk.bsky.social (🐦‍⬛ Luna 🐦‍⬛) · 22h · likes 2 · replies 1 · classicPC
-   https://bsky.app/profile/edenadyk.bsky.social/post/3n36bqnedak2a
-   but then looking at classic mac software, it has the same "wild west" feel as DOS and windows 3.1 software, or perhaps even moreso in some regards due to having early access to a shitload of colors and sounds. so many games used random ass sounds that were only in there because w
-27. @weewizzylizzy.bsky.social (Wee Wizzy Lizzy! ΘΔ) · 24h · likes 2 · replies 0 · childhood
-   https://bsky.app/profile/weewizzylizzy.bsky.social/post/3n364ymvge22x
-   it was in the BLFC game room once! it was sooo fun trying it out again after a decade since our childhood arcade times, and it was a treat seeing folks play it in suit with their bappers!~
-28. @boxman214.bsky.social (Boxman214) · 25h · likes 10 · replies 4 · question · childhood
-   https://bsky.app/profile/boxman214.bsky.social/post/3n35zpjfrhk27
-   What's a video game you associate with the Holiday season? For example, I first played Half-Life 2 while my parents were putting up decorations and blasting Christmas music. So it's a Christmas game to me. #blutoid #gaming #christmas
-29. @buttprince.bsky.social (Buttprince) · 25h · likes 5 · replies 1 · classicPC
-   https://bsky.app/profile/buttprince.bsky.social/post/3n35x7pyozs2t
-   Finished my DOS game, but I think it's too earnest and I am filled will malaise at the idea of people playing it, so I'm putting it off releasing it until tomorrow.
-30. @thoeni.bsky.social (Thoeni) · 26h · likes 14 · replies 1 · childhood
-   https://bsky.app/profile/thoeni.bsky.social/post/3n35wim4wz22z
-   Bob Mortimer, an adorably funny British comic, describes a childhood game, creeping closer & closer to windows chanting, “We do beg your pardon, we are in your garden" I think of him every time I capture a window at night. Sometimes I chant the refrain as I click. #WindowOnWednes
-   [image: Tightly framed nocturnal photograph of a single warmly lit double-hung window surrounded by a narrow border of deep darkness. Sheer, floral-patterned lace curt…]
-31. @mechaellievt.bsky.social (MechaEllie VT) · 26h · likes 3 · replies 1 · classicPC
-   https://bsky.app/profile/mechaellievt.bsky.social/post/3n35wfrvpfs22
-   I've been in a big MonHun mood the last couple days and gosh I wish more people who got into the series late would go back to at least GenU x3 The earlier games deserve so much love (maaaaybe not 1 and dos from what I've heard - freedom unite was my first x3) Random thoughts with
-   [link card: Pls Play Mhgu Please Play Mhgu]
-32. @2ninea.bsky.social (2nineA) · 26h · likes 1 · replies 0 · childhood
-   https://bsky.app/profile/2ninea.bsky.social/post/3n35vg7677s27
-   Not even sure where to look for my first PC game. It was titled "Blue Meanies from Outer Space"
-   [link card: Blue Meanies from Outer Space (1981)(Commodore)(NZ)]
-33. @r042.bsky.social (Word Art Online) · 26h · likes 1 · replies 1 · childhood
-   https://bsky.app/profile/r042.bsky.social/post/3n35ts6edkc26
-   it seems that for the complainers GTA was the game where you were rewarded with The Fun by doing that and they wanted it to stay as the funny murder simulator game of their childhood (but don't you dare suggest that maybe there's something a bit weird about that, Video Games Don'
-34. @mrbowers.bsky.social (わはは) · 27h · likes 0 · replies 2 · question · childhood
-   https://bsky.app/profile/mrbowers.bsky.social/post/3n35tchy25c2e
-   What, are people getting all their dumb ignorant takes out of the way before the holiday? Judgey shit *here* aside, does Tyler Austin Harper think this is the first video game in recent memory legions of adults have been spending their time and money on?
-   [quotes @theatlantic.com: “Grand Theft Auto VI” has been called a masterpiece, but Tyler Austin Harper “can’t help but feel uneasy that legions of adults are spendin…]
-35. @drkhil.bsky.social (Dr. Khil) · 28h · likes 0 · replies 0 · question · childhood
-   https://bsky.app/profile/drkhil.bsky.social/post/3n35no2bydc25
-   A video game showing morons how to maintain a relationship and they’re mad? Ha! Told my wife I’m treating the game relationship like our relationship: I always put her first. INSTANT REAL LIFE XP POINTS.
-   [quotes @ign.com: Some people think GTA 6's Jason showing any kind of affection for Lucia is an attack on masculinity itself – Here's why that's dumb: https:…]
-36. @vehkposting.bsky.social · 29h · likes 1 · replies 0 · childhood
-   https://bsky.app/profile/vehkposting.bsky.social/post/3n35mmuplls2s
-   They don't like or play video games. They play maybe one game, usually a shooter or mmo they've been addicted to since childhood, and claim that makes them the dictators of gaming taste.
-37. @bunnzo.bsky.social (DAT BUNN) · 29h · likes 2 · replies 1 · classicPC
-   https://bsky.app/profile/bunnzo.bsky.social/post/3n35lxmjhxs2g
-   1995: Warcraft 2. The first significant "click on little guys to have them say funny quotes" game, this was the first "hit" RTS though Command & Conquer was the same year. From these humble DOS beginnings came Leeroy Jenkins a decade later.
-   [image: dos era isometric top down screenshot of orcs and elf knights fighting in a forest with an orc lumber mill and baracks at the bottom]
-38. @yosnoid.bsky.social (Snoid) · 2h · likes 0 · replies 0 · nostalgia
-   https://bsky.app/profile/yosnoid.bsky.social/post/3n3ageglpwc2a
-   like 3 or 4 years in the future i think a lot of people are gonna get really nostalgic for these days where icefrog drops 5 new heroes at once in deadlock and a huge amount of new players get into the game(s voicelines) as a result.
-39. @formalandy.bsky.social (Ƒormal Andy) · 2h · likes 0 · replies 0 · gogOld
-   https://bsky.app/profile/formalandy.bsky.social/post/3n3afe3n6xc2p
-   Would've preferred getting it from GOG (Good Old Games), but they didn't have it.
-40. @vaporjade.bsky.social (VaporJade) · 9h · likes 0 · replies 0 · classicPC
-   https://bsky.app/profile/vaporjade.bsky.social/post/3n37p546by22r
-   It's around the time people share their game of the year picks so I wrote a review for my favorite game of 2026 so far: Roguefort! Please purchase this game and play it, it's amazing! store.steampowered.com/app/4274730/...
-   [image: A review for the game Roguefort that reads: "Roguefort is my favorite game of 2026, my pick for game of the year, my most enjoyed game this year and it might b…]
+31. @nathanl75.bsky.social (NathanL75) · 4h · likes 1 · replies 0 · childhood
+   https://bsky.app/profile/nathanl75.bsky.social/post/3n3bcb6u3dk2j
+   Thanks for reading. That was the first essay I ever wrote about a video game. So I guess I persona 3 pretty inspiring as well. Great game. Kind amazing the series continued and was so good amid the first few titles not selling all that well
+32. @gothgar.etheirys.social (Midnight Thighlander) · 5h · likes 2 · replies 0 · retroTalk
+   https://bsky.app/profile/gothgar.etheirys.social/post/3n3bbtse26k2x
+   I think I settled on a mid 2000’s PC aesthetic, because despite how hip and cool I am, I played RuneScape back when it was just coming out, and the old school graphics will always be my favorite.
+   [3 images: Low poly tree with 3 leaf canopies / Low poly tree with two leaf canopies / Low poly tree with four leaf canopies]
+33. @abc.es (ABC.es) · 5h · likes 0 · replies 0 · question · retroFeed
+   https://bsky.app/profile/abc.es/post/3n3bahnagdb24
+   ¿Quiénes son los candidatos virales que se disputan el tercer escaño de Huesca?
+   [link card: ¿Quiénes son los candidatos virales que se disputan el tercer escaño de Huesca?]
+34. @girlsongames.bsky.social (Girls on Games) · 6h · likes 0 · replies 0 · childhood
+   https://bsky.app/profile/girlsongames.bsky.social/post/3n3b3hxk6pk2q
+   We've got crime sprees and crystal balls on the #GoGCast 🔮 We share our first impressions of Grand Theft Auto VI and we play our annual The Game Awards predictions game: www.girlsongames.ca/2026/11/26/g...
+   [link card: GoGCast 564: 2026 The Video Game Awards Predictions and Grand Theft Auto VI First Impressions - Gir…]
+35. @atojconnections.bsky.social (A-to-J Connections) · 7h · likes 0 · replies 0 · childhood
+   https://bsky.app/profile/atojconnections.bsky.social/post/3n3b2cxvptk2j
+   Edenfall: Legacy of the First Wardens is a single-player action-adventure game that sees you transform into four forms to save the world of Eden, and it's set to launch on PC on very soon, with a possible console launch next year! Link: a-to-jconnections.com/gaming/magic... #Eden
+   [link card: Magical Action-Adventure Game Edenfall: Legacy of the First Wardens Launches on December 8th]
+36. @golden.yuri.cool (gold) · 7h · likes 1 · replies 0 · gogOld
+   https://bsky.app/profile/golden.yuri.cool/post/3n3azws7ixk2d
+   its just such a good blend of old and new I love playing it and also a lot of modern MH games funnel you into farming one monster for endgame stuff (Gog in Wilds, for example) and GU isnt like that at all
+37. @spacetalk.bsky.social (OrangeSky) · 8h · likes 1 · replies 1 · gogOld
+   https://bsky.app/profile/spacetalk.bsky.social/post/3n3avtqpcl22h
+   People get extremely normal about how the PS4 or original switch or a two year old PC is retro because OMG YEARS, but I think most people get that it's tied to the shifts in gameplay design that happened over the 90s and 2000s It's why old games can feel modern: it's about how th
+38. @cyrisus.bsky.social (Cyrisus) · 8h · likes 1 · replies 0 · nostalgia
+   https://bsky.app/profile/cyrisus.bsky.social/post/3n3aum6gdoc22
+   Despite its many, many flaws. I played this game a lot as a mod, and am horribly nostalgic for it... Its for this reason (and the meme) that it was the first game I emulated on my Steam Deck when I got it
+39. @cmdrkingwrath.bsky.social (King // Arsene 🏳️‍⚧️🇬🇾) · 9h · likes 3 · replies 0 · nostalgia
+   https://bsky.app/profile/cmdrkingwrath.bsky.social/post/3n3arjupkos2r
+   Watchin Chuggaa's LP of BOTW is makin me nostalgic- used to just boot up the game just to let my horse (Oreo 🥺) run the path while i vibes to the music- Honestly, it's got me thinkin of bootin up the thing again, wipin the save and hitting the trail again- Things to consider,,,
+   [link card: Link encounters Farosh in The Legend of Zelda]
+40. @cubechan.bsky.social (Cube Chan) · 12h · likes 1 · replies 0 · question · retroFeed
+   https://bsky.app/profile/cubechan.bsky.social/post/3n3akcdx3ik2n
+   You know those old bootleg Mario games for NES that Youtubers absolutely loved reviewing and dogging on in 2017? This is a modernized version of that This is the Donky Kong 5 of 2026 And to be fair at least Donky Kong 5 has some cha
+   [quotes @mors.games: the first result you get when you google "super mario 64 recomp" is killing me. what in the fuck is this]
 
 ## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @noblebalor.bsky.social (Noble 🏳️‍⚧️ (Deltaruined)) · 15h · likes 2 · replies 1 · childhood
-   https://bsky.app/profile/noblebalor.bsky.social/post/3n3733yfhol2z
-   and suddenly Kris is pulled up from their video game and put to use, their mouth urged open first by Dess's sloppy, inaccurate fingertip before their head is trapped between her thighs as their so-called "big sister" so blissfully unloads her bladder on their face then, by their 
-2. @rowletgameing.bsky.social (Celes🏳️‍⚧️⬇️↘️➡️👊) · 25h · likes 10 · replies 1 · childhood
-   https://bsky.app/profile/rowletgameing.bsky.social/post/3n35zn3pez22q
-   Despite predating most ai coding tools Yandere Simulator is the first Vibe Coded video game
+1. @rhapsodna.bsky.social (❄️Rhappy❄️) · 3h · likes 9 · replies 1 · nostalgia
+   https://bsky.app/profile/rhapsodna.bsky.social/post/3n3bgh3salk2b
+   I have been playing a lot of older games lately and I'm a bit nostalgic for the world before Ai. There was a time when devs actually cared about their game before it became corporate scheme for business and techbros to ruin companies
+2. @jimmarkb.bsky.social · 7h · likes 0 · replies 0 · question · retroPlaying
+   https://bsky.app/profile/jimmarkb.bsky.social/post/3n3ayzo67rs2t
+   Trump can't possibly be that ignorant, can he? Doesn't he get tired of playing the same old game year after year?
