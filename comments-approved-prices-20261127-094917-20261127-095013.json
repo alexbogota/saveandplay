@@ -1,0 +1,27 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-prices-20261127-094917.json",
+  "approvedAt": "2026-11-27T09:50:13.662Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:bhpzmg64dsbmjmlvvakrvi6v/app.bsky.feed.post/3n3bciuge6k2d",
+      "url": "https://bsky.app/profile/rivikah.bsky.social/post/3n3bciuge6k2d",
+      "author": "rivikah.bsky.social",
+      "context": "Over Christmas, I plan to play a videogame. What should it be? I am bad at videogames. I like games to have a story, not too much grinding, and interesting mechanics. 3D first person view sometimes makes me sick. I recently enjoyed Disco Elysium, Inmost, and Portal (despite 🤢). Suggestions?",
+      "text": "Papers, Please might fit: 2D, story-driven, a clever core mechanic and no grinding. Unpacking is another gentle one, told through objects and with no first person view.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:clvyzgsmxdy3o2viqy7rcbez/app.bsky.feed.post/3n3bpt5blms2q",
+      "url": "https://bsky.app/profile/paperklay.bsky.social/post/3n3bpt5blms2q",
+      "author": "paperklay.bsky.social",
+      "context": "If I wanna play handheld, would you suggest Steam Deck or Switch 2?",
+      "text": "It depends on the library. Steam Deck if you want PC games you may already own on Steam, Switch 2 if you mostly want Nintendo games.",
+      "edited": false
+    }
+  ]
+}

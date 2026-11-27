@@ -1,0 +1,27 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "drafts": "comments-drafts-retro-20261127-094917.json",
+  "approvedAt": "2026-11-27T09:50:13.820Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:czooxrw4iddnndehdjacb4h5/app.bsky.feed.post/3n37x75wwz22h",
+      "url": "https://bsky.app/profile/supergraffiti.bsky.social/post/3n37x75wwz22h",
+      "author": "supergraffiti.bsky.social",
+      "context": "old games from your childhood never look as good as how you remember them, do they?",
+      "text": "The memory usually looks better than the pixels, but the gameplay often holds up better than you'd expect.",
+      "edited": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:qrgm4oeuafp7kelj2kxs6dba/app.bsky.feed.post/3n3bqammgzs26",
+      "url": "https://bsky.app/profile/dollfih.feesh.dev/post/3n3bqammgzs26",
+      "author": "dollfih.feesh.dev",
+      "context": "What are your five favourite video games of all time? (old school edition) Super Metroid Vib-Ribbon Duck Tales (NES) Luigi's Mansion Silent Hill\nquotes @sinnarugan.bsky.social: What are your five favourite video games of all time? (old school edition) kingdom hearts 2 super mario sunshine burnout 3: takedown dragon…",
+      "text": "Vib-Ribbon is such a wonderfully strange pick. Great list!",
+      "edited": false
+    }
+  ]
+}
