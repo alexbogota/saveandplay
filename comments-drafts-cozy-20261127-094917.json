@@ -1,0 +1,19 @@
+{
+  "account": "cozy",
+  "handle": "cozygame.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261127-094917",
+  "madeAt": "2026-11-27T09:49:39.659Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:fpcuqbddnq3mzdqh3erjisih/app.bsky.feed.post/3n3azqrqcac2g",
+      "url": "https://bsky.app/profile/tonyalbrecht.bsky.social/post/3n3azqrqcac2g",
+      "author": "tonyalbrecht.bsky.social",
+      "context": "Games like this store.steampowered.com/app/4253570/... are crack to me. Powerwash Simulator is the same - constant dopamine pings.\nlink card: Save 20% on Reshine on Steam",
+      "text": "That instant 'clean' feedback in Powerwash Simulator is so satisfying. Enjoy!",
+      "group": "askCozy",
+      "heated": false
+    }
+  ]
+}
