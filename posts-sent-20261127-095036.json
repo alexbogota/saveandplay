@@ -1,0 +1,36 @@
+{
+  "madeAt": "2026-11-27T09:50:36.567Z",
+  "run": "45977046231",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices|2026-11-26|/deals/gog/this-war-of-mine/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 1,
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-26",
+      "text": "This War of Mine: -90% at GOG\n$1.99 (was $19.99)\nPrice checked Nov 26. Sale ends Dec 3. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-26\n\n#PCGaming #GameDeals #GOG #Gaming #ThisWarOfMine\nAd",
+      "approvedFile": "posts-approved-20261127-095011.json",
+      "approvedAt": "2026-11-27T09:50:11.728Z",
+      "status": "skipped",
+      "reason": "already posted: https://bsky.app/profile/saveandplay.com/post/3n37uytcfur2u",
+      "at": "2026-11-27T09:50:37.328Z"
+    },
+    {
+      "key": "cozy|coop-2026-11-27|/servers/stardew-valley/",
+      "account": "cozy",
+      "handle": "cozygame.bsky.social",
+      "n": 8,
+      "link": "https://saveandplay.com/servers/stardew-valley/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=coop-2026-11-27",
+      "text": "Planting season with friends? Stardew Valley has online co-op for up to 8 players.\nHere is what a Stardew Valley server gives you, in plain words.\n\nhttps://saveandplay.com/servers/stardew-valley/?utm_source=bluesky-cozy&utm_medium=social&utm_campaign=coop-2026-11-27\n\n#CozyGames #StardewValley\nAd",
+      "approvedFile": "posts-approved-20261127-095011.json",
+      "approvedAt": "2026-11-27T09:50:11.728Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-27T09:50:39.074Z",
+      "postUri": "at://did:plc:hetuk3i3qgtst7ck7zzjszq5/app.bsky.feed.post/3n3bvz3hwqe24",
+      "postUrl": "https://bsky.app/profile/cozygame.bsky.social/post/3n3bvz3hwqe24",
+      "picture": true
+    }
+  ]
+}
