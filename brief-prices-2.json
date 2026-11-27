@@ -1,61 +1,67 @@
 {
   "account": "Honest prices (second deal of the day)",
-  "generatedAt": "2026-11-26T19:59:38.941Z",
-  "builtBy": "commit cf0ebd9, schedule, run #58 attempt 1",
-  "pricesCheckedAt": "2026-11-26T19:13:55.509Z",
+  "generatedAt": "2026-11-27T19:49:03.225Z",
+  "builtBy": "commit 273d76d, schedule, run #59 attempt 1",
+  "pricesCheckedAt": "2026-11-27T19:07:58.368Z",
   "warnings": [],
   "candidates": [
     {
-      "id": "gog-simcity-4-deluxe-edition",
+      "id": "gog-this-war-of-mine",
       "kind": "deal",
-      "title": "SimCity 4 Deluxe Edition",
+      "title": "This War of Mine",
       "store": "GOG",
-      "price": 4.99,
+      "price": 1.99,
       "was": 19.99,
-      "discount": 75,
+      "discount": 90,
       "endsAt": "2026-12-03T09:59:00+02:00",
-      "endsInHours": 156,
-      "priceCheckedAt": "2026-11-26T19:13:55.509Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
+      "endsInHours": 132,
+      "priceCheckedAt": "2026-11-27T19:07:58.368Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
       "drminfo": null,
-      "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
+      "coverAlt": "Cover art for This War of Mine",
       "facts": {
-        "year": 2003,
+        "year": 2014,
         "genres": [
-          "Simulation",
-          "Building",
-          "Managerial"
+          "Action",
+          "Adventure",
+          "Survival"
         ],
         "tags": [
+          "Adventure",
+          "Action",
+          "Indie",
+          "Story Rich",
           "Atmospheric",
-          "Simulation",
-          "Classic",
-          "Great Soundtrack",
+          "Choices Matter",
           "Management",
-          "Sandbox",
+          "Survival",
+          "Resource Management",
           "Real-Time",
-          "Isometric",
-          "Building",
-          "Managerial",
-          "City builder"
+          "War",
+          "Crafting",
+          "Base Building",
+          "Emotional",
+          "Post-apocalyptic",
+          "Stealth",
+          "Psychological"
         ]
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 1.5,
+      "score": 3,
       "discountRank": 1,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 48,
+        "days": 40,
         "lowest": true,
-        "since": "2026-10-07"
+        "since": "2026-10-19"
       },
-      "offeredOn": "2026-11-25",
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-26",
+      "offeredOn": "2026-11-26",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-27",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (48 days of data)",
+        "lowest price we've tracked (40 days of data)",
         "deepest-discount rank 1 of 1"
       ]
     }
@@ -81,18 +87,18 @@
   },
   "posts": {
     "x": {
-      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Nov 26. Sale ends Dec 3. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-26\n\n#PCGaming #GameDeals\nAd",
-      "length": 173,
+      "text": "This War of Mine: -90% at GOG\n$1.99 (was $19.99)\nPrice checked Nov 27. Sale ends Dec 3. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-27\n\n#PCGaming #GOG\nAd",
+      "length": 159,
       "max": 270,
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-26",
-      "deal": "gog-simcity-4-deluxe-edition"
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=x-prices&utm_medium=social&utm_campaign=deals-2026-11-27",
+      "deal": "gog-this-war-of-mine"
     },
     "bluesky": {
-      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Nov 26. Sale ends Dec 3. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-26\n\n#PCGaming #GameDeals #Games #DRMFree #PCGames\nAd",
-      "length": 200,
+      "text": "This War of Mine: -90% at GOG\n$1.99 (was $19.99)\nPrice checked Nov 27. Sale ends Dec 3. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-27\n\n#PCGaming #GameDeals #GOG #VideoGames #Gaming\nAd",
+      "length": 192,
       "max": 300,
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-26",
-      "deal": "gog-simcity-4-deluxe-edition"
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-27",
+      "deal": "gog-this-war-of-mine"
     }
   }
 }

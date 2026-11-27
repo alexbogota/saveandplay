@@ -1,5 +1,5 @@
-# Brief: Honest prices (npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8), 2026-11-26 19:59 UTC
-Prices checked 2026-11-26 19:13 UTC (1 h ago). News: 11 of 11 sources read, 143 items from the last 48 h, 0 of 1 offered deals mentioned.
+# Brief: Honest prices (npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8), 2026-11-27 19:49 UTC
+Prices checked 2026-11-27 19:07 UTC (1 h ago). News: 11 of 11 sources read, 143 items from the last 48 h, 0 of 1 offered deals mentioned.
 
 Write ONE post about the first item below (take another one only if it looks wrong, and say why).
 Rules:
@@ -11,44 +11,44 @@ Rules:
 - Say lowest price we've tracked only if the brief says so; never write lowest ever.
 - The note is made by scripts/post-nostr.mjs from a template, without AI. This account is automated and some links are affiliate links; the profile says so.
 
-## 1. This War of Mine: GOG $1.99 (was $19.99, -90%)
-Sale ends 2026-12-03 07:59 UTC (in 7 days). Price checked 2026-11-26 19:13 UTC. Score 3.
-Why today: lowest price we've tracked (39 days of data); deepest-discount rank 1 of 1.
-Note: suggested on 2026-11-25, already used recently.
-Link for the post (link to our site): https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-26
-Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984
-Alt text: Cover art for This War of Mine
+## 1. SimCity 4 Deluxe Edition: GOG $4.99 (was $19.99, -75%)
+Sale ends 2026-12-03 07:59 UTC (in 6 days). Price checked 2026-11-27 19:07 UTC. Score 9.5.
+Why today: lowest price we've tracked (49 days of data); deepest-discount rank 1 of 1.
+Link for the post (link to our site): https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-27
+Cover image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586
+Alt text: Cover art for SimCity 4 Deluxe Edition
 
 ## News on the topic (no deal)
-- gg.deals News, Nov 26: "Newegg joins our deal coverage, starting with its massive Black Friday Sale offering up to 96% off!" https://gg.deals/deal/newegg-joins-our-deal-coverage-starting-with-its-massive-black-friday-sale-offering-up-to-96-off/ | The newest egg in our basket.
-- gg.deals Freebies, Nov 26: "Get this 2D survival title FREE on Steam before it costs $6.99!" https://gg.deals/freebie/get-this-2d-survival-title-free-on-steam-before-it-costs-699/ | In early access for just over a year, the devs will start charging for the game when its 1.0 lands on December 15.
-- gg.deals Freebies, Nov 26: "FREE Warhammer 40,000: Dawn of War 4 Painter Demo is now available on Steam" https://gg.deals/freebie/free-warhammer-40000-dawn-of-war-4-painter-demo-is-now-available-on-steam/ | The Emperor protects&hellip; and paints?
+- gg.deals News, Nov 27: "Humble's Holiday Encore returns for 2026, kicking (and punching) things off with 10 epic fighting g…" https://gg.deals/bundle/humbles-holiday-encore-returns-for-2026-kicking-and-punching-things-off-with-10-epic-fighting-games/ | Hurry though, this Humble Bundle deal will be gone in just a few days' time.
+- gg.deals Freebies, Nov 27: "FREE Hunger Open Beta is now live on Steam ahead of the game's Early Access launch next week" https://gg.deals/freebie/free-hunger-open-beta-is-now-live-on-steam-ahead-of-the-games-early-access-launch-next-week/ | Famished for some extraction RPG goodness? Treat yourself to Hunger, free to play until November 29.
+- PC Gamer, Nov 27: "Good coffee is one of our last comforts in a cruel universe, which is why I'm tempted by this Black…" https://www.pcgamer.com/hardware/good-coffee-is-one-of-our-last-comforts-in-a-cruel-universe-which-is-why-im-tempted-by-this-black-friday-coffee-grinder-deal/ | Timemore's reengineered S5 Pro flagship manual grinder promises an ideal brew through the power of unprecedented burr geometry. It's got a high capacity for a …
 
 ## Topics for articles (stories without a deal; headlines and links only. Write an article only if the owner asks)
-1. Black Friday board game deals 2026 live: The best offers on strategy games, family favorites, and more found … (score 13)
-Why now: 3 sites wrote about it in the last 48 h (gamesradar.com, gg.deals, pcgamer.com); matches keywords: sale, discounts, price, deals; newest Nov 26.
-- gg.deals News, Nov 26: "Steam Black Friday 2026: All the deals in one place!" https://gg.deals/deal/steam-black-friday-2026-all-the-deals-in-one-place/
-- GamesRadar deals, Nov 26: "The best Lego Black Friday deals 2026, found by experts" https://www.gamesradar.com/live/news/best-lego-black-friday-deals-and-discounts-2026/
-- PC Gamer, Nov 26: "Black Friday SSD deals 2026" https://www.pcgamer.com/black-friday-ssd-deals/
-2. Humble Builder’s Blueprint Bundle: 7 Steam Games and 2 DLCs for $15 (score 10)
-Why now: 2 sites wrote about it in the last 48 h (gg.deals, indiegamebundles.com); matches keywords: bundle, humble; newest Nov 25.
-- Indie Game Bundles, Nov 25: "Humble Builder’s Blueprint Bundle: 7 Steam Games and 2 DLCs for $15" https://www.indiegamebundles.com/humble-builders-blueprint-bundle-7-steam-games-and-2-dlcs-for-15/
-- gg.deals News, Nov 25: "Humble's Builder's Blueprint Bundle lets you design cities and dungeons across 7 games" https://gg.deals/bundle/humbles-builders-blueprint-bundle-lets-you-design-cities-and-dungeons-across-7-games/
-3. Rockstar workers vote overwhelmingly against union recognition (score 9)
+1. Black Friday GTA 6 deals LIVE: I'm finding the best ways to enhance your adventure in Leonida using 2026's en… (score 13)
+Why now: 3 sites wrote about it in the last 48 h (gamesradar.com, gg.deals, pcgamer.com); matches keywords: sale, discounts, price, prices, deals, free; newest Nov 27.
+- PC Gamer, Nov 27: "After falling in love with PS5 haptic feedback in GTA 6, I'm eyeing these Black Friday deals on Dua…" https://www.pcgamer.com/hardware/controllers/after-falling-in-love-with-ps5-haptic-feedback-in-gta-6-im-eyeing-these-black-friday-deals-on-dualsense-controllers/
+- gg.deals News, Nov 27: "The Wild Hunt rides onto Steam with Black Friday deals on The Witcher games" https://gg.deals/deal/the-wild-hunt-rides-onto-steam-with-black-friday-deals-on-the-witcher-games/
+- GamesRadar deals, Nov 27: "These Black Friday gift card deals get you free money" https://www.gamesradar.com/hardware/tech/amazon-black-friday-gift-card-deals-basically-give-you-free-money-on-games-movies-food-and-more/
+2. Dead Age 2 is FREE to keep on GOG as part of its Black Friday sale (score 13)
+Why now: 3 sites wrote about it in the last 48 h (gamerpower.com, gg.deals, indiegamebundles.com); matches keywords: sale, free; newest Nov 27.
+- Indie Game Bundles, Nov 27: "Dead Age 2 is Currently Free on GOG" https://www.indiegamebundles.com/dead-age-2-is-currently-free-on-gog/
+- gg.deals Freebies, Nov 27: "Dead Age 2 is FREE to keep on GOG as part of its Black Friday sale" https://gg.deals/freebie/dead-age-2-is-free-to-keep-on-gog-as-part-of-its-black-friday-sale/
+- GamerPower (PC), Nov 27: "Dead Age 2 (GOG) Giveaway" https://www.gamerpower.com/dead-age-2-gog-giveaway
+3. Grab your FREE Steam key for Vertical Drop Heroes HD from Fanatical before codes run out! (score 11)
+Why now: 3 sites wrote about it in the last 48 h (gamerpower.com, gg.deals, indiegamebundles.com); matches keywords: free; newest Nov 27.
+- Indie Game Bundles, Nov 27: "Vertical Drop Heroes HD Steam key is free on Fanatical — but only while keys last" https://www.indiegamebundles.com/vertical-drop-heroes-hd-steam-key-is-free-on-fanatical-but-only-while-keys-last/
+- gg.deals Freebies, Nov 27: "Grab your FREE Steam key for Vertical Drop Heroes HD from Fanatical before codes run out!" https://gg.deals/freebie/grab-your-free-steam-key-for-vertical-drop-heroes-hd-from-fanatical-before-codes-run-out/
+- GamerPower (PC), Nov 27: "Vertical Drop Heroes HD Steam Key Giveaway" https://www.gamerpower.com/vertical-drop-heroes-hd-steam-key-giveaway
+4. Rockstar workers vote overwhelmingly against union recognition (score 9)
 Why now: 3 sites wrote about it in the last 48 h (pcgamer.com, rockpapershotgun.com, eurogamer.net); newest Nov 26.
 - Rock Paper Shotgun, Nov 26: ""This isn't a sign to retreat": Rockstar's historic union vote has failed, with 75% voting against,…" https://www.rockpapershotgun.com/this-isnt-a-sign-to-retreat-rockstars-historic-union-vote-has-failed-with-75-voting-against-but-the-organisers-are-going-to-keep-fighting
 - PC Gamer, Nov 26: "Rockstar workers vote overwhelmingly against union recognition" https://www.pcgamer.com/gaming-industry/rockstar-workers-vote-overwhelmingly-against-union-recognition/
 - Eurogamer, Nov 26: "Rockstar Games employees vote against union recognition" https://www.eurogamer.net/rockstar-games-employees-vote-against-union-recognition
-4. The race to port GTA 6 to PC, explained (score 9)
-Why now: 3 sites wrote about it in the last 48 h (pcgamer.com, rockpapershotgun.com, eurogamer.net); newest Nov 25.
-- Eurogamer, Nov 25: "GTA 6 recompilers and vibe-coders implore AI chatbots to 'work faster' and 'make no mistakes' as th…" https://www.eurogamer.net/grand-theft-auto-6-gen-ai-chatbots-work-faster-prompts
-- Rock Paper Shotgun, Nov 25: "Any official GTA 6 PC port’s ability to deliver a proper first person mode would be its biggest ace…" https://www.rockpapershotgun.com/official-gta-6-pc-port-proper-first-person-mode-would-be-biggest-ace-in-the-hole
-- PC Gamer, Nov 24: "The race to port GTA 6 to PC, explained" https://www.pcgamer.com/games/grand-theft-auto/gta-6-recomp-explained/
-5. Bread and Fred (Epic Games) Giveaway (score 8)
-Why now: 2 sites wrote about it in the last 48 h (gamerpower.com, indiegamebundles.com); matches keywords: free; newest Nov 26.
-- GamerPower (PC), Nov 26: "Bread and Fred (Epic Games) Giveaway" https://www.gamerpower.com/bread-and-fred-epic-games-giveaway
-- Indie Game Bundles, Nov 26: "Bread & Fred is free on Epic Games Store — friendship may not survive the climb" https://www.indiegamebundles.com/bread-fred-is-free-on-epic-games-store-friendship-may-not-survive-the-climb/
+5. Hollow Knight: Silksong's FREE Sea of Sorrow expansion sets sail this December (score 8)
+Why now: 2 sites wrote about it in the last 48 h (gg.deals, eurogamer.net); matches keywords: free; newest Nov 27.
+- gg.deals News, Nov 27: "Hollow Knight: Silksong's FREE Sea of Sorrow expansion sets sail this December" https://gg.deals/gaming-news/hollow-knight-silksongs-free-sea-of-sorrow-expansion-sets-sail-this-december/
+- Eurogamer, Nov 27: "Hollow Knight: Silksong's first big expansion, Sea of Sorrow, comes out in two weeks - and seems to…" https://www.eurogamer.net/hollow-knight-silksongs-first-big-expansion-sea-of-sorrows-comes-out-in-two-weeks-and-seems-to-include-a-fishing-minigame
 
 Left out: 0 other-store deals, 0 hidden duplicates, 0 under 50%, 0 ended, 0 ending within 6 h, 0 old prices, 1 taken by another account today.
 Sources not read: none.
-Built by: commit cf0ebd9, schedule, run #58 attempt 1.
+Built by: commit 273d76d, schedule, run #59 attempt 1.
