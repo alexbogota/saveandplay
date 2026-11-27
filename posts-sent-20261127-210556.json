@@ -1,0 +1,52 @@
+{
+  "madeAt": "2026-11-27T21:05:56.987Z",
+  "run": "46068018965",
+  "private": false,
+  "entries": [
+    {
+      "key": "prices-2|2026-11-26|/deals/gog/simcity-4-deluxe-edition/",
+      "account": "prices-2",
+      "handle": "saveandplay.com",
+      "n": 2,
+      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-26",
+      "text": "SimCity 4 Deluxe Edition: -75% at GOG\n$4.99 (was $19.99)\nPrice checked Nov 26. Sale ends Dec 3. Lowest price we've tracked.\n\nhttps://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=deals-2026-11-26\n\n#PCGaming #GameDeals #Games #DRMFree #PCGames\nAd",
+      "approvedFile": "posts-approved-20261127-095011.json",
+      "approvedAt": "2026-11-27T09:50:11.728Z",
+      "status": "skipped",
+      "reason": "already posted: https://bsky.app/profile/saveandplay.com/post/3n3ameb3dyg2r",
+      "at": "2026-11-27T21:05:58.059Z"
+    },
+    {
+      "key": "prices|article|/guides/sale-end-times-time-zones/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 6,
+      "link": "https://saveandplay.com/guides/sale-end-times-time-zones/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-sale-end-times",
+      "text": "A GOG page we read says \"Offer ends on: 12/03/2026 09:59 EET\". That is 07:59 UTC, and the date could be read two ways. Our 30-second check for sale end times:\nhttps://saveandplay.com/guides/sale-end-times-time-zones/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=guide-sale-end-times\n#PCGaming #GameDeals",
+      "approvedFile": "posts-approved-20261127-095011.json",
+      "approvedAt": "2026-11-27T09:50:11.728Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-27T21:06:00.300Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n3d3qoxmeh22",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3n3d3qoxmeh22",
+      "picture": true
+    },
+    {
+      "key": "prices|coop-2026-11-27|/servers/schedule-i/",
+      "account": "prices",
+      "handle": "saveandplay.com",
+      "n": 7,
+      "link": "https://saveandplay.com/servers/schedule-i/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-11-27",
+      "text": "Schedule I has online co-op on Steam.\nA rented server keeps your world online when the host logs off.\n\nhttps://saveandplay.com/servers/schedule-i/?utm_source=bluesky-prices&utm_medium=social&utm_campaign=coop-2026-11-27\n\n#PCGaming #ScheduleI\nAd",
+      "approvedFile": "posts-approved-20261127-095011.json",
+      "approvedAt": "2026-11-27T09:50:11.728Z",
+      "status": "sent",
+      "reason": "sent",
+      "at": "2026-11-27T21:07:23.563Z",
+      "postUri": "at://did:plc:abehtuboxhpbkur7cn7gp7ka/app.bsky.feed.post/3n3d3t6f5bi2v",
+      "postUrl": "https://bsky.app/profile/saveandplay.com/post/3n3d3t6f5bi2v",
+      "picture": true
+    }
+  ]
+}
