@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#0D1117"/>
+<rect x="56" y="22" width="1088" height="586" rx="28" fill="#161B22" stroke="#262D38"/>
+<g font-family="Inter, 'DejaVu Sans', Arial, sans-serif">
+<text x="100" y="110" font-size="48" font-weight="800" fill="#FFFFFF">Free DLC or paid DLC?</text>
+<text x="100" y="156" font-size="28" fill="#9AA5B4">Both sit in the same list on the store page</text>
+<rect x="100" y="200" width="460" height="200" rx="16" fill="none" stroke="#3DDC97" stroke-width="4"/>
+<text x="130" y="248" font-size="28" fill="#9AA5B4">GOG: Dead Age 2</text>
+<text x="130" y="296" font-size="32" fill="#E8ECF1">Original Soundtrack</text>
+<text x="130" y="364" font-size="56" font-weight="800" fill="#FFFFFF">0 (free)</text>
+<rect x="640" y="200" width="460" height="200" rx="16" fill="none" stroke="#3DDC97" stroke-width="4"/>
+<text x="670" y="248" font-size="28" fill="#9AA5B4">Steam: Silksong</text>
+<text x="670" y="296" font-size="32" fill="#E8ECF1">Official Soundtrack</text>
+<text x="670" y="364" font-size="56" font-weight="800" fill="#FFFFFF">$11.99</text>
+<rect x="100" y="450" width="1000" height="70" rx="16" fill="#FFB454"/>
+<text x="600" y="497" font-size="32" font-weight="700" text-anchor="middle" fill="#1B1203">Steam: DLC refundable within 14 days, if unused</text>
+<text x="100" y="568" font-size="26" fill="#9AA5B4">Pages read November 28, 2026</text>
+</g>
+</svg>
