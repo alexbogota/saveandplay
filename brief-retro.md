@@ -1,5 +1,5 @@
-# Brief: Retro game deals (@retrogamedeals.bsky.social), 2026-11-27 19:49 UTC
-Prices checked 2026-11-27 19:07 UTC (1 h ago). News: 11 of 11 sources read, 143 items from the last 48 h, 0 of 0 offered deals mentioned.
+# Brief: Retro game deals (@retrogamedeals.bsky.social), 2026-11-28 18:41 UTC
+Prices checked 2026-11-28 17:43 UTC (1 h ago). News: 10 of 11 sources read, 108 items from the last 48 h, 0 of 0 offered deals mentioned.
 Niche Retro: 1 games fit the rule today (0 of them can be posted now).
 WARNING: NOTHING TO OFFER today.
 WARNING: No game fits the niche today (1 fit the rule, 1 do not, 0 have no facts yet, 1 were taken by another account today, 0 offered in the last 7 days, 0 under 30%, 0 prices older than 48 h, 0 sales over or ending soon).
@@ -13,5 +13,5 @@ Rules:
 - Use only the numbers in this brief (price, was, discount, dates). Never invent or round prices. The last line is Ad (plain text, not a hashtag).
 
 Left out: 0 other-store deals, 0 hidden duplicates, 0 under 30%, 0 ended, 0 ending within 6 h, 0 old prices, 1 outside the niche, 0 without facts, 1 taken by another account today.
-Sources not read: none.
-Built by: commit 273d76d, schedule, run #59 attempt 1.
+Sources not read: Indie Game Bundles (HTTP 415).
+Built by: commit ebc817d, schedule, run #60 attempt 1.

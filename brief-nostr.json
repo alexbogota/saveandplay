@@ -1,61 +1,67 @@
 {
   "account": "Honest prices",
-  "generatedAt": "2026-11-27T19:49:03.225Z",
-  "builtBy": "commit 273d76d, schedule, run #59 attempt 1",
-  "pricesCheckedAt": "2026-11-27T19:07:58.368Z",
+  "generatedAt": "2026-11-28T18:41:31.205Z",
+  "builtBy": "commit ebc817d, schedule, run #60 attempt 1",
+  "pricesCheckedAt": "2026-11-28T17:43:37.025Z",
   "warnings": [],
   "candidates": [
     {
-      "id": "gog-simcity-4-deluxe-edition",
+      "id": "gog-this-war-of-mine",
       "kind": "deal",
-      "title": "SimCity 4 Deluxe Edition",
+      "title": "This War of Mine",
       "store": "GOG",
-      "price": 4.99,
+      "price": 1.99,
       "was": 19.99,
-      "discount": 75,
+      "discount": 90,
       "endsAt": "2026-12-03T09:59:00+02:00",
-      "endsInHours": 132,
-      "priceCheckedAt": "2026-11-27T19:07:58.368Z",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24780/header.jpg?t=1777484586",
+      "endsInHours": 109,
+      "priceCheckedAt": "2026-11-28T17:43:37.025Z",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/26fb8c9bb7b9e3a17469d8026ee3fa510ee7f8f5/header.jpg?t=1792057984",
       "drminfo": null,
-      "coverAlt": "Cover art for SimCity 4 Deluxe Edition",
+      "coverAlt": "Cover art for This War of Mine",
       "facts": {
-        "year": 2003,
+        "year": 2014,
         "genres": [
-          "Simulation",
-          "Building",
-          "Managerial"
+          "Action",
+          "Adventure",
+          "Survival"
         ],
         "tags": [
+          "Adventure",
+          "Action",
+          "Indie",
+          "Story Rich",
           "Atmospheric",
-          "Simulation",
-          "Classic",
-          "Great Soundtrack",
+          "Choices Matter",
           "Management",
-          "Sandbox",
+          "Survival",
+          "Resource Management",
           "Real-Time",
-          "Isometric",
-          "Building",
-          "Managerial",
-          "City builder"
+          "War",
+          "Crafting",
+          "Base Building",
+          "Emotional",
+          "Post-apocalyptic",
+          "Stealth",
+          "Psychological"
         ]
       },
       "marketplace": false,
       "compareTo": null,
-      "score": 9.5,
+      "score": 3,
       "discountRank": 1,
       "sites": 0,
       "mentions": [],
       "history": {
-        "days": 49,
+        "days": 41,
         "lowest": true,
-        "since": "2026-10-07"
+        "since": "2026-10-19"
       },
-      "offeredOn": null,
-      "link": "https://saveandplay.com/deals/gog/simcity-4-deluxe-edition/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-27",
+      "offeredOn": "2026-11-26",
+      "link": "https://saveandplay.com/deals/gog/this-war-of-mine/?utm_source=nostr-prices&utm_medium=social&utm_campaign=deals-2026-11-28",
       "linkKind": "link to our site",
       "whyToday": [
-        "lowest price we've tracked (49 days of data)",
+        "lowest price we've tracked (41 days of data)",
         "deepest-discount rank 1 of 1"
       ]
     }
@@ -63,160 +69,45 @@
   "gogNews": [],
   "topical": [
     {
-      "title": "Humble's Holiday Encore returns for 2026, kicking (and punching) things off with 10 epic fighting games!",
-      "source": "gg.deals News",
-      "link": "https://gg.deals/bundle/humbles-holiday-encore-returns-for-2026-kicking-and-punching-things-off-with-10-epic-fighting-games/",
-      "t": 1795804800000,
-      "keyword": "humble",
-      "summary": "Hurry though, this Humble Bundle deal will be gone in just a few days' time."
-    },
-    {
-      "title": "FREE Hunger Open Beta is now live on Steam ahead of the game's Early Access launch next week",
-      "source": "gg.deals Freebies",
-      "link": "https://gg.deals/freebie/free-hunger-open-beta-is-now-live-on-steam-ahead-of-the-games-early-access-launch-next-week/",
-      "t": 1795804680000,
+      "title": "Warframe is ready to welcome you to its second solar system, as its big free Tau update gets an early December release date",
+      "source": "Rock Paper Shotgun",
+      "link": "https://www.rockpapershotgun.com/warframe-is-ready-to-welcome-you-to-its-second-solar-system-as-its-big-free-tau-update-gets-an-early-december-release-date",
+      "t": 1795888070000,
       "keyword": "free",
-      "summary": "Famished for some extraction RPG goodness? Treat yourself to Hunger, free to play until November 29."
+      "summary": "Warframe continues to be a game that whenever I hear it's getting a new anything I just think, \"wow, that thing's still going!\" Not in a \"why would anyone play…"
     },
     {
-      "title": "Good coffee is one of our last comforts in a cruel universe, which is why I'm tempted by this Black Friday coffee grinder deal",
+      "title": "This RTX 5070 gaming laptop just dropped in price again for Cyber Monday – Ryzen 7, 1 TB SSD, and 16 GB of DDR5",
       "source": "PC Gamer",
-      "link": "https://www.pcgamer.com/hardware/good-coffee-is-one-of-our-last-comforts-in-a-cruel-universe-which-is-why-im-tempted-by-this-black-friday-coffee-grinder-deal/",
-      "t": 1795803813000,
-      "keyword": "deal",
-      "summary": "Timemore's reengineered S5 Pro flagship manual grinder promises an ideal brew through the power of unprecedented burr geometry. It's got a high capacity for a …"
+      "link": "https://www.pcgamer.com/hardware/gaming-laptops/forget-the-turkey-the-best-thing-on-your-plate-this-thanksgiving-is-this-rtx-5070-laptop-for-just-usd1-299/",
+      "t": 1795887420000,
+      "keyword": "price",
+      "summary": "Gaming A16 | RTX 5070 (85W) | 16 GB DDR5: was $1599.99 now $1234.99 Gigabyte's Gaming A16 laptop with the RTX 5070 and 16GB DDR5 RAM is one of the cheapest tha…"
+    },
+    {
+      "title": "Call of Duty movie will \"probably\" feature Captain Price",
+      "source": "Eurogamer",
+      "link": "https://www.eurogamer.net/call-of-duty-movie-captain-price-peter-berg",
+      "t": 1795883620000,
+      "keyword": "price",
+      "summary": "Captain Price will \"probably\" pop up in the upcoming Call of Duty film. Read more"
+    },
+    {
+      "title": "ArcheAge Chronicles developer XL Games faces major layoffs and possible closure after disappointing sales",
+      "source": "Eurogamer",
+      "link": "https://www.eurogamer.net/archeage-chronicles-xl-games-restructuring-layoffs-closure",
+      "t": 1795862690000,
+      "keyword": "sales",
+      "summary": "XL Games, the South Korean studio behind ArcheAge Chronicles, is planning a major restructuring and has not ruled out closing altogether after the game failed …"
     }
   ],
   "topics": [
     {
-      "headline": "Black Friday GTA 6 deals LIVE: I'm finding the best ways to enhance your adventure in Leonida using 2026's end-of-year discounts",
-      "score": 13,
-      "sites": [
-        "gamesradar.com",
-        "gg.deals",
-        "pcgamer.com"
-      ],
-      "keywords": [
-        "sale",
-        "discounts",
-        "price",
-        "prices",
-        "deals",
-        "free"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "GamesRadar deals",
-          "title": "These Black Friday gift card deals get you free money",
-          "link": "https://www.gamesradar.com/hardware/tech/amazon-black-friday-gift-card-deals-basically-give-you-free-money-on-games-movies-food-and-more/",
-          "published": "2026-11-27T16:14:00.000Z"
-        },
-        {
-          "source": "GamesRadar deals",
-          "title": "Black Friday Nintendo Switch 2 deals are out in full force, I've found the 5 discounts you don't want to miss today",
-          "link": "https://www.gamesradar.com/live/news/best-black-friday-nintendo-switch-2-deals-top-5-discounts-in-2026/",
-          "published": "2026-11-27T15:54:31.000Z"
-        },
-        {
-          "source": "GamesRadar deals",
-          "title": "Black Friday 3D printer deals for beginners",
-          "link": "https://www.gamesradar.com/hardware/best-black-friday-3d-printer-deals-for-beginners-in-2026-chosen-by-an-expert/",
-          "published": "2026-11-27T14:44:55.000Z"
-        },
-        {
-          "source": "GamesRadar deals",
-          "title": "The best Lego Black Friday deals 2026, found by experts",
-          "link": "https://www.gamesradar.com/live/news/best-lego-black-friday-deals-and-discounts-2026/",
-          "published": "2026-11-26T18:27:30.000Z"
-        },
-        {
-          "source": "GamesRadar deals",
-          "title": "The best Black Friday OLED TV deals at each price point",
-          "link": "https://www.gamesradar.com/hardware/tvs-monitors/time-for-an-oled-tv-upgrade-here-are-the-3-best-cheap-mid-range-and-premium-deals-across-the-black-friday-sales/",
-          "published": "2026-11-26T14:35:07.000Z"
-        },
-        {
-          "source": "GamesRadar deals",
-          "title": "Black Friday GTA 6 deals LIVE: I'm finding the best ways to enhance your adventure in Leonida using 2026's end-of-year discounts",
-          "link": "https://www.gamesradar.com/live/news/black-friday-gta-6-deals-live/",
-          "published": "2026-11-26T14:24:18.000Z"
-        },
-        {
-          "source": "GamesRadar deals",
-          "title": "The best Black Friday deals for Zelda fans live: all the accessories, merch and collectables you're looking for",
-          "link": "https://www.gamesradar.com/live/news/the-best-black-friday-deals-for-zelda-fans-2026/",
-          "published": "2026-11-26T11:55:52.000Z"
-        },
-        {
-          "source": "GamesRadar deals",
-          "title": "The best Black Friday PS5 deals already live, tracking console, game, and accessory discounts as soon as they happen",
-          "link": "https://www.gamesradar.com/live/news/the-best-black-friday-ps5-deals-live-now-2026/",
-          "published": "2026-11-26T09:41:00.000Z"
-        },
-        {
-          "source": "gg.deals News",
-          "title": "The Wild Hunt rides onto Steam with Black Friday deals on The Witcher games",
-          "link": "https://gg.deals/deal/the-wild-hunt-rides-onto-steam-with-black-friday-deals-on-the-witcher-games/",
-          "published": "2026-11-27T17:58:09.000Z"
-        },
-        {
-          "source": "gg.deals News",
-          "title": "Hades Black Friday deals drag prices down to the underworld, with up to 75% off",
-          "link": "https://gg.deals/deal/hades-black-friday-deals-drag-prices-down-to-the-underworld-with-up-to-75-off/",
-          "published": "2026-11-27T17:16:04.000Z"
-        },
-        {
-          "source": "gg.deals News",
-          "title": "Starfield is now up to 62% off on PC thanks to Black Friday deals",
-          "link": "https://gg.deals/deal/starfield-is-now-up-to-62-off-on-pc-thanks-to-black-friday-deals/",
-          "published": "2026-11-27T14:30:00.000Z"
-        },
-        {
-          "source": "gg.deals News",
-          "title": "Instant Gaming Black Friday Sale offers up to 97% off, with new deals arriving daily",
-          "link": "https://gg.deals/deal/instant-gaming-black-friday-sale-2026/",
-          "published": "2026-11-27T09:49:00.000Z"
-        },
-        {
-          "source": "gg.deals News",
-          "title": "Steam Black Friday 2026: the 30 Best EA Deals Under $5",
-          "link": "https://gg.deals/wallet-friendly/steam-black-friday-2026-the-30-best-ea-deals-under-5/",
-          "published": "2026-11-26T20:00:00.000Z"
-        },
-        {
-          "source": "gg.deals News",
-          "title": "Steam Black Friday 2026: All the deals in one place!",
-          "link": "https://gg.deals/deal/steam-black-friday-2026-all-the-deals-in-one-place/",
-          "published": "2026-11-26T19:45:47.000Z"
-        },
-        {
-          "source": "gg.deals News",
-          "title": "Resident Evil Black Friday deals at Gamebillet offer Steam keys for survival horror favorites at up to 93% off",
-          "link": "https://gg.deals/deal/resident-evil-black-friday-deals-at-gamebillet-offer-steam-keys-for-survival-horror-favorites-at-up-to-93-off/",
-          "published": "2026-11-26T17:22:11.000Z"
-        },
-        {
-          "source": "PC Gamer",
-          "title": "After falling in love with PS5 haptic feedback in GTA 6, I'm eyeing these Black Friday deals on DualSense controllers",
-          "link": "https://www.pcgamer.com/hardware/controllers/after-falling-in-love-with-ps5-haptic-feedback-in-gta-6-im-eyeing-these-black-friday-deals-on-dualsense-controllers/",
-          "published": "2026-11-27T19:40:21.000Z"
-        },
-        {
-          "source": "PC Gamer",
-          "title": "Black Friday SSD deals 2026",
-          "link": "https://www.pcgamer.com/black-friday-ssd-deals/",
-          "published": "2026-11-26T17:33:16.000Z"
-        }
-      ]
-    },
-    {
       "headline": "Dead Age 2 is FREE to keep on GOG as part of its Black Friday sale",
-      "score": 13,
+      "score": 10,
       "sites": [
         "gamerpower.com",
-        "gg.deals",
-        "indiegamebundles.com"
+        "gg.deals"
       ],
       "keywords": [
         "sale",
@@ -241,82 +132,6 @@
           "title": "Dead Age 2 is FREE to keep on GOG as part of its Black Friday sale",
           "link": "https://gg.deals/freebie/dead-age-2-is-free-to-keep-on-gog-as-part-of-its-black-friday-sale/",
           "published": "2026-11-27T11:49:33.000Z"
-        },
-        {
-          "source": "Indie Game Bundles",
-          "title": "Dead Age 2 is Currently Free on GOG",
-          "link": "https://www.indiegamebundles.com/dead-age-2-is-currently-free-on-gog/",
-          "published": "2026-11-27T15:58:31.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Grab your FREE Steam key for Vertical Drop Heroes HD from Fanatical before codes run out!",
-      "score": 11,
-      "sites": [
-        "gamerpower.com",
-        "gg.deals",
-        "indiegamebundles.com"
-      ],
-      "keywords": [
-        "free"
-      ],
-      "games": [],
-      "items": [
-        {
-          "source": "GamerPower (PC)",
-          "title": "Vertical Drop Heroes HD Steam Key Giveaway",
-          "link": "https://www.gamerpower.com/vertical-drop-heroes-hd-steam-key-giveaway",
-          "published": "2026-11-27T11:19:05.000Z"
-        },
-        {
-          "source": "gg.deals Freebies",
-          "title": "Grab your FREE Steam key for Vertical Drop Heroes HD from Fanatical before codes run out!",
-          "link": "https://gg.deals/freebie/grab-your-free-steam-key-for-vertical-drop-heroes-hd-from-fanatical-before-codes-run-out/",
-          "published": "2026-11-27T12:51:00.000Z"
-        },
-        {
-          "source": "gg.deals News",
-          "title": "Grab your FREE Steam key for Vertical Drop Heroes HD from Fanatical before codes run out!",
-          "link": "https://gg.deals/freebie/grab-your-free-steam-key-for-vertical-drop-heroes-hd-from-fanatical-before-codes-run-out/",
-          "published": "2026-11-27T12:51:00.000Z"
-        },
-        {
-          "source": "Indie Game Bundles",
-          "title": "Vertical Drop Heroes HD Steam key is free on Fanatical — but only while keys last",
-          "link": "https://www.indiegamebundles.com/vertical-drop-heroes-hd-steam-key-is-free-on-fanatical-but-only-while-keys-last/",
-          "published": "2026-11-27T16:09:22.000Z"
-        }
-      ]
-    },
-    {
-      "headline": "Rockstar workers vote overwhelmingly against union recognition",
-      "score": 9,
-      "sites": [
-        "pcgamer.com",
-        "rockpapershotgun.com",
-        "eurogamer.net"
-      ],
-      "keywords": [],
-      "games": [],
-      "items": [
-        {
-          "source": "PC Gamer",
-          "title": "Rockstar workers vote overwhelmingly against union recognition",
-          "link": "https://www.pcgamer.com/gaming-industry/rockstar-workers-vote-overwhelmingly-against-union-recognition/",
-          "published": "2026-11-26T16:13:54.000Z"
-        },
-        {
-          "source": "Rock Paper Shotgun",
-          "title": "\"This isn't a sign to retreat\": Rockstar's historic union vote has failed, with 75% voting against, but the organisers are going to \"keep fighting\"",
-          "link": "https://www.rockpapershotgun.com/this-isnt-a-sign-to-retreat-rockstars-historic-union-vote-has-failed-with-75-voting-against-but-the-organisers-are-going-to-keep-fighting",
-          "published": "2026-11-26T16:39:40.000Z"
-        },
-        {
-          "source": "Eurogamer",
-          "title": "Rockstar Games employees vote against union recognition",
-          "link": "https://www.eurogamer.net/rockstar-games-employees-vote-against-union-recognition",
-          "published": "2026-11-26T15:29:00.000Z"
         }
       ]
     },
@@ -345,6 +160,78 @@
           "published": "2026-11-27T15:16:10.000Z"
         }
       ]
+    },
+    {
+      "headline": "Grab your FREE Steam key for Vertical Drop Heroes HD from Fanatical before codes run out!",
+      "score": 8,
+      "sites": [
+        "gamerpower.com",
+        "gg.deals"
+      ],
+      "keywords": [
+        "free"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "GamerPower (PC)",
+          "title": "Vertical Drop Heroes HD Steam Key Giveaway",
+          "link": "https://www.gamerpower.com/vertical-drop-heroes-hd-steam-key-giveaway",
+          "published": "2026-11-27T11:19:05.000Z"
+        },
+        {
+          "source": "gg.deals Freebies",
+          "title": "Grab your FREE Steam key for Vertical Drop Heroes HD from Fanatical before codes run out!",
+          "link": "https://gg.deals/freebie/grab-your-free-steam-key-for-vertical-drop-heroes-hd-from-fanatical-before-codes-run-out/",
+          "published": "2026-11-27T12:51:00.000Z"
+        },
+        {
+          "source": "gg.deals News",
+          "title": "Grab your FREE Steam key for Vertical Drop Heroes HD from Fanatical before codes run out!",
+          "link": "https://gg.deals/freebie/grab-your-free-steam-key-for-vertical-drop-heroes-hd-from-fanatical-before-codes-run-out/",
+          "published": "2026-11-27T12:51:00.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "This new Humble Encore 2026 Bundle is a must-have for Destiny 2 fans!",
+      "score": 7,
+      "sites": [
+        "gg.deals"
+      ],
+      "keywords": [
+        "bundle",
+        "humble"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "gg.deals News",
+          "title": "This new Humble Encore 2026 Bundle is a must-have for Destiny 2 fans!",
+          "link": "https://gg.deals/bundle/this-new-humble-encore-2026-bundle-is-a-must-have-for-destiny-2-fans/",
+          "published": "2026-11-28T17:38:00.000Z"
+        }
+      ]
+    },
+    {
+      "headline": "I went completely cordless and for $185 you can get better prices on better products than I did with these Black Friday PC peripheral deals",
+      "score": 7,
+      "sites": [
+        "pcgamer.com"
+      ],
+      "keywords": [
+        "prices",
+        "deals"
+      ],
+      "games": [],
+      "items": [
+        {
+          "source": "PC Gamer",
+          "title": "I went completely cordless and for $185 you can get better prices on better products than I did with these Black Friday PC peripheral deals",
+          "link": "https://www.pcgamer.com/hardware/i-went-completely-cordless-and-for-usd185-you-can-get-better-prices-on-better-products-than-i-did-with-these-black-friday-pc-peripheral-deals/",
+          "published": "2026-11-27T20:57:32.000Z"
+        }
+      ]
     }
   ],
   "left": {
@@ -361,7 +248,12 @@
   },
   "sources": {
     "total": 11,
-    "failed": []
+    "failed": [
+      {
+        "name": "Indie Game Bundles",
+        "why": "HTTP 415"
+      }
+    ]
   },
   "posts": {}
 }

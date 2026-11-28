@@ -1,38 +1,8 @@
 {
   "account": "Honest prices (Kinguin keys)",
-  "generatedAt": "2026-11-27T19:49:03.225Z",
-  "builtBy": "commit 273d76d, schedule, run #59 attempt 1",
-  "pricesCheckedAt": "2026-11-27T19:07:58.368Z",
-  "warnings": [
-    "NOTHING TO OFFER today.",
-    "No deal passes the rules (0 prices older than 48 h, 0 sales over or ending within 6 h, 0 under 30%). The prices in data/deals.json probably need a refresh; then run the brief again."
-  ],
+  "generatedAt": "2026-11-28T18:41:31.205Z",
+  "offDay": true,
+  "nextPostDay": "2026-11-29",
   "candidates": [],
-  "gogNews": [],
-  "topical": [],
-  "topics": [],
-  "left": {
-    "otherStore": 2,
-    "hidden": 0,
-    "notNiche": 0,
-    "noFacts": 0,
-    "taken": 0,
-    "repeat": 0,
-    "smallDiscount": 0,
-    "ended": 0,
-    "endsTooSoon": 0,
-    "oldPrice": 0
-  },
-  "sources": {
-    "total": 11,
-    "failed": []
-  },
-  "posts": {
-    "bluesky": {
-      "none": "No deal passes the rules today. NOTHING TO OFFER today. No deal passes the rules (0 prices older than 48 h, 0 sales over or ending within 6 h, 0 under 30%). The prices in data/deals.json probably need a refresh; then run the brief again."
-    },
-    "mastodon": {
-      "none": "No deal passes the rules today. NOTHING TO OFFER today. No deal passes the rules (0 prices older than 48 h, 0 sales over or ending within 6 h, 0 under 30%). The prices in data/deals.json probably need a refresh; then run the brief again."
-    }
-  }
+  "posts": {}
 }
