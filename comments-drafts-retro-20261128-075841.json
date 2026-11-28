@@ -1,0 +1,39 @@
+{
+  "account": "retro",
+  "handle": "retrogamedeals.bsky.social",
+  "platform": "bluesky",
+  "stamp": "20261128-075841",
+  "madeAt": "2026-11-28T07:59:07.793Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:tw7iuhwhtqfhofnnow3k57yt/app.bsky.feed.post/3n3dk22qac22p",
+      "url": "https://bsky.app/profile/tunnotron3000.bsky.social/post/3n3dk22qac22p",
+      "author": "tunnotron3000.bsky.social",
+      "context": "Just beat Tomb Raider 1 for the first time (PC Remaster)... holy fuck how did people beat this game on PS1 with limited save crystals? I've never known a game that tried so hard to kill you AFTER you've beaten the big bad boss.",
+      "text": "Congrats on beating it! Save crystals made every checkpoint feel like a real decision on PS1.",
+      "group": "childhood",
+      "heated": false
+    },
+    {
+      "n": 2,
+      "uri": "at://did:plc:4j5jusvneu4br3dsnuj4meiw/app.bsky.feed.post/3n3c66cow7s27",
+      "url": "https://bsky.app/profile/mbaileywriter.bsky.social/post/3n3c66cow7s27",
+      "author": "mbaileywriter.bsky.social",
+      "context": "What are your five favorite video games of all time? Super old school: Donkey Kong Mappy Scramble Tempest Street Fighter II Early PC era: Wizardry Zork Bard's Tale Archon Archon II Console era: Resident Evil Resident Evil 2 Skyrim Metal Gear Solid Diablo (series)\nquotes @horrorfilms101.bsky.social: What are your five favorite video games of all time? (gonna divvy between pre- and post-2000) Doom Link’s Awakening Resident Evil 2 Super M…",
+      "text": "Great list. Wizardry, Zork and The Bard's Tale are a perfect early-PC trio.",
+      "group": "classicPC",
+      "heated": false
+    },
+    {
+      "n": 3,
+      "uri": "at://did:plc:iz4rsx5eco3y273vjdhx7krz/app.bsky.feed.post/3n3cxxfn5hc2t",
+      "url": "https://bsky.app/profile/spatulo.bsky.social/post/3n3cxxfn5hc2t",
+      "author": "spatulo.bsky.social",
+      "context": "Sometimes when you remember a really hard game from your childhood and you try it again as an adult you end up wondering how you were so bad at games, and sometimes you wonder how anyone could ever have beaten that game. Spider-Man and the X-Men in Arcade's Revenge is the latter because holy shit.\nimage, no description",
+      "text": "That one is brutal, so you're not alone. Some games from that era were built to be nearly impossible.",
+      "group": "childhood",
+      "heated": false
+    }
+  ]
+}

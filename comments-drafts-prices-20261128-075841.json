@@ -1,0 +1,19 @@
+{
+  "account": "prices",
+  "handle": "saveandplay.com",
+  "platform": "bluesky",
+  "stamp": "20261128-075841",
+  "madeAt": "2026-11-28T07:59:07.535Z",
+  "items": [
+    {
+      "n": 1,
+      "uri": "at://did:plc:lr7copyhggg7c6ym45eeyypb/app.bsky.feed.post/3n3bkjyxnl226",
+      "url": "https://bsky.app/profile/keepercgc.bsky.social/post/3n3bkjyxnl226",
+      "author": "keepercgc.bsky.social",
+      "context": "Somebody help me! I am out of my bed for the first time in days (super sick) and at my PC and THERE'S A STEAM SALE!? Oh no!",
+      "text": "Feel better soon! Your wishlist is the quick place to look, since Steam shows which of those games are on sale. Pick one and get back to resting.",
+      "group": "waitForSale",
+      "heated": false
+    }
+  ]
+}
