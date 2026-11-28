@@ -1,57 +1,55 @@
 # Comment candidates: cozy (@cozygame.bsky.social)
-Made 2026-11-27T21:13Z. Searched: askCozy: cozy game recommendation | askCozy: cozy games steam | askCozy: recommend cozy game | askCozy: wholesome game recommend | stardew: stardew valley recommendations | stardew: farming games | stardew: stardew valley | stardew: games like stardew valley | evening: cozy games tonight | evening: cozy gaming evening | evening: cozy game | evening: something cozy play | wholesome: wholesome games | wholesome: comfort game | wholesome: cottagecore game | deck: cozy steam deck | deck: steam deck relaxing games | deck: steam deck farming sim | seasonal: cozy autumn game | seasonal: cozy spooky games | seasonal: cozy halloween games | cozyFeed: feed.
-Posts below: 12 + 2 heated. Dropped in this run: skip word 117, bot, shop or studio 31, too short 4, console only 16, low score 6, not about games 12, adult or graphic label 2, replies are limited 7, empty 2, own post 2, already shown 7, too many hashtags 4, promo (link and hashtags) 2, other language (text) 1, not a question 9, other language 15, earlier finds: low score 2.
+Made 2026-11-28T07:42Z. Searched: askCozy: cozy games | askCozy: cozy game recommendations | askCozy: cozy games recommend | askCozy: looking for cozy games | stardew: stardew | stardew: farming sim | stardew: life sim | stardew: stardew valley recommendations | evening: cozy gaming | evening: chill game tonight | evening: cozy games tonight | evening: cozy gaming evening | wholesome: wholesome games | wholesome: comfort game | wholesome: cottagecore game | deck: cozy steam deck | deck: steam deck relaxing games | deck: steam deck farming sim | seasonal: cozy autumn game | seasonal: cozy spooky games | seasonal: cozy halloween games | cozyFeed: feed.
+Posts below: 12 + 2 heated. Dropped in this run: replies are limited 13, skip word 153, not about games 8, bot, shop or studio 31, adult or graphic label 6, console only 17, too short 2, empty 1, own post 1, already shown 3, low score 12, promo (link and hashtags) 2, too many hashtags 2, other language (text) 2, other language 16, not a question 12, earlier finds: low score 2.
 
 ## Posts
-1. @playhedgekeep.bsky.social (Hedgekeep) · 1h · likes 1 · replies 0 · question · evening
-   https://bsky.app/profile/playhedgekeep.bsky.social/post/3n3cyecragc2p
-   Every cozy game has fishing. So I ranked the fish in mine. 🎣 Number one took the fisherman's left boot. Free in your browser: hedgekeep.com?utm_source=b...
-   [video: A deadpan developer's voice over Hedgekeep gameplay, counting down from five, with bold captions and gold rank badges. Seen from above, a little mushroom in a …]
-2. @eriketikoulouri.bsky.social (Eriketi) · 1h · likes 4 · replies 0 · question · evening
-   https://bsky.app/profile/eriketikoulouri.bsky.social/post/3n3cxj34i2s2i
-   [PAID] Programmer/GameDev Unity & Playmaker2 for a small Cozy Managment Game. Me and @andrieristefano.bsky.social we are working on our first game. We are looking for a Programmer with Playmaker2 knowledge Send me a message for more information. first pic is an early concept
-   [2 images, no description]
-3. @yamneko.bsky.social (Yamneko) · 3h · likes 2 · replies 0 · question · evening
-   https://bsky.app/profile/yamneko.bsky.social/post/3n3crvgf3uk2u
-   I loooovvveeeee okami but it is not a cozy game. Its action-adventure??? Its combat and death and quick movements. Peaceful moments does not mean cozy
-4. @homunculusdick.bsky.social (HENNY OMEGA) · 4h · likes 4 · replies 0 · question · evening
+1. @absolutedebauchery.bsky.social (Absolute Debauchery) · 2h · likes 2 · replies 1 · question · askCozy
+   https://bsky.app/profile/absolutedebauchery.bsky.social/post/3n3dyonzsss2s
+   Okay, but here comes the real question. What genre of games? Is he a CoD gamer, a grand strategy gamer, a WoW gamer, a cozy gamer, FIFA gamer? Those would alter the scenario drastically!
+2. @ragingdeicide.bsky.social (Raging Deicide) · 4m · likes 0 · replies 0 · question · askCozy
+   https://bsky.app/profile/ragingdeicide.bsky.social/post/3n3e73nzhjk2n
+   does anyone have any suggestions for cozy games to stream?
+3. @ambyrvi.bsky.social (gene parmesan) · 2h · likes 1 · replies 0 · question · stardew
+   https://bsky.app/profile/ambyrvi.bsky.social/post/3n3dxgnc3d224
+   Question for other Stardew Valley players: Do you have a specific NPC that you target for friendship first during each run and what do you think your choice says about you as a person?
+4. @homunculusdick.bsky.social (HENNY OMEGA) · 15h · likes 5 · replies 0 · question · askCozy
    https://bsky.app/profile/homunculusdick.bsky.social/post/3n3coj5t5vs2s
    I remember hearing this about games reviewers in the 2000's . Why'd have a non-sports person review a Madden game? Why have an FPS player review a cozy game? A lot of platforms are better at this now but damn back then they were doing a disservice to their readers.
    [quotes @alexsheedy.bsky.social: I have a similar issue with one of the lads who do the reviews on whatculture wrestling. He openly says he’s not a fan of violence in wrest…]
-5. @homebitgame.bsky.social (Homebit) · 4h · likes 1 · replies 0 · question · evening
-   https://bsky.app/profile/homebitgame.bsky.social/post/3n3co22mowl2z
-   Empty → cozy: The one-room flat Same floor, same two walls. Kitchen, bedroom and living room, all in the same five metres. What would you put in first? #cozygames #roomdecor
-   [image: Two images side by side. Left: The one-room flat: a small isometric room built in the Homebit game, still empty, only the floor and two walls. Right: the same …]
-6. @fleofynx.bsky.social (Fleo Fynx) · 59m · likes 0 · replies 2 · question · evening
-   https://bsky.app/profile/fleofynx.bsky.social/post/3n3cytjlp622s
-   Any game recommendations for a sick day? Like something cozy/chill but not repetitive/boring. I have too many games already but ... whatever, I feel yucky so I can make bad decisions.
-7. @myrna-lee-59.bsky.social (@myrna-lee-1959@blsky.com) · 5h · likes 1 · replies 0 · question · wholesome
-   https://bsky.app/profile/myrna-lee-59.bsky.social/post/3n3clm44e6c2n
-   who plans Thanksgiving Dinner during a Bear Game? I record them all, watched the entire game in the comfort of my couch.
-8. @bungoustraycats.bsky.social (rahhhlesboperv) · 5h · likes 0 · replies 0 · question · stardew
-   https://bsky.app/profile/bungoustraycats.bsky.social/post/3n3clm3cxoc25
-   also considering making her an OC along with my stardew valley player character (well he/they/she??? are already an OC, just not fleshed out)❤️
-9. @homebitgame.bsky.social (Homebit) · 12h · likes 1 · replies 0 · question · evening
-   https://bsky.app/profile/homebitgame.bsky.social/post/3n3bt7qzt6v2c
-   Cozy cabin living room 🏠 Wood everywhere, a sofa under the window, shelves full of paperbacks. Cabin in the woods or flat in the city? #cozygames #roomdecor
-   [image: Cozy cabin living room: a small isometric room built in the Homebit game, with a wooden armchair, tall shelves, a coffee table, a floor lamp, framed pictures a…]
-10. @pintbaby.bsky.social (Pintbaby) · 12h · likes 3 · replies 0 · question · stardew
-   https://bsky.app/profile/pintbaby.bsky.social/post/3n3bsfm3txs2u
-   So is GTA just Stardew Valley for boys?
-11. @carolyna7.bsky.social (QuestLogPrintablesEtsy) · 23h · likes 2 · replies 0 · question · evening
-   https://bsky.app/profile/carolyna7.bsky.social/post/3n3aqiiurts2k
-   Quick Thanksgiving check-in: 🧁Locked in on a comfort game 😴Recovering from social battery drain 🔥Running on mashed potatoes & defeating that boss fight Don't forget to take care of your HP bar. (Cozy printable planners & trackers in bio if you need a low-stakes reset.) #CozyGa
-12. @sniiperr1234.bsky.social (Markus) · 26h · likes 1 · replies 0 · question · evening
-   https://bsky.app/profile/sniiperr1234.bsky.social/post/3n3agmx43vl2e
-   Solo journaling prompt: an envelope with no letter inside. Just a mountain gentian, blue as a flame. On the back: "You know where." Who sent it? Where is "where"? From my cozy advent game. First 3 days free (pay €0) #solojournaling #Solovember
-   [link card: Free: Letters to Winterfall – first 3 days]
+5. @pyrethefiredog.bsky.social (Pyre the Firedog) · 16h · likes 2 · replies 0 · question · askCozy
+   https://bsky.app/profile/pyrethefiredog.bsky.social/post/3n3ci3repi22e
+   Today is a good day to be a pup. No school and cozy pajamas and lots of tasty food and desserts to eat all day. Plus so many good video games!
+6. @thelazycapricorn.blacksky.app (moná.thomas) · 55m · likes 1 · replies 0 · question · cozyFeed
+   https://bsky.app/profile/thelazycapricorn.blacksky.app/post/3n3e4b3m6xk2r
+   gta 6 is $80?? my indie, cozy gamer heart cannot comprehend. i’ll just watch the gameplays. unless anyone wanna gift a laid off capricorn a birthday present 🥰
+7. @gregwrogers.bsky.social (Greg | Causeway Studios) · 1h · likes 1 · replies 0 · question · cozyFeed
+   https://bsky.app/profile/gregwrogers.bsky.social/post/3n3e3ulc7zc2s
+   So the GTA VI core gameplay loop is a 10/10 cozy game (complimentary) interspersed with 10/10 needle-drop action sequences (complimentary), all wrapped tightly in a blanket of supporting characters I’d take a bullet for in real life and a never-ending script of grounded and hilar
+8. @ericapricot.bsky.social (Eric Apricot, Thankful Pug) · 3h · likes 8 · replies 0 · question · wholesome
+   https://bsky.app/profile/ericapricot.bsky.social/post/3n3dtty6blk2t
+   Blazers think they can handle being up 30 on GSW? NEVER. GSW have been down so big every single road game, it’s now our comfort zone. Special nen condition activated, let’s go
+   [quotes @kinefresh.bsky.social: score under 20?]
+9. @cleavestime.bsky.social (✨Cleaves) · 4h · likes 0 · replies 1 · question · stardew
+   https://bsky.app/profile/cleavestime.bsky.social/post/3n3dr6hla5k2e
+   I am not looking forward to copying all my vtuber model stuff over to the external and back but I mean hey whaaat am I gonna do? Also Stardew Mods o gawd theres so many 😳
+10. @darkbluemystic.bsky.social (Maria Valentína 🌶️) · 5h · likes 0 · replies 0 · question · evening
+   https://bsky.app/profile/darkbluemystic.bsky.social/post/3n3dovfdt452a
+   Cozy-cute selfie energy 🌶️ Would you rather I spend the whole weekend on my gaming setup or drag you to a salsa night? Honestly I can't pick. #newinusa #spicylatina
+   [video, no description]
+11. @kiyokoscreations.bsky.social · 6h · likes 0 · replies 0 · question · stardew
+   https://bsky.app/profile/kiyokoscreations.bsky.social/post/3n3dlg43znk2q
+   Been playing a lot of Stardew and trying to get back into drawing. Saw a post titled "Who the fuck is David Jr??" or something and one pinterest reference photo later we have Abigail presenting David Jr. I wanna do this one digital but no idea where to start
+   [4 images: Drawing of Abigail from Stardew Valley squeezing and presenting her hamster David Jr to viewer. The background is of the artist's desk with other rough sketche… / Drawing of Abigail from Stardew Valley, squeezing and presenting her hamster, David Jr., to the viewer / Photo of laptop screen. Left is the pose reference of a woman squeezing a bunny plush at the camera in a store of plushies. The right side is the sprite chart … / Another shot of the artist's desk with all three rough sketches atop the laptop]
+12. @fleofynx.bsky.social (Fleo Fynx) · 11h · likes 0 · replies 1 · question · askCozy
+   https://bsky.app/profile/fleofynx.bsky.social/post/3n3czfoexok2s
+   I WISH I could find more games like Strange Antiquities. Super chill, super cozy, super intriguing.
 
 ## Heated topics (AI debates etc.): reply only neutrally, with facts
-1. @lunalapine.com (Luna Lapine) · 2h · likes 6 · replies 0 · evening
+1. @aifullsteamgames.bsky.social (AI-Full Steam Games!) · 4h · likes 1 · replies 0 · askCozy
+   https://bsky.app/profile/aifullsteamgames.bsky.social/post/3n3drijzlzg2q
+   Wave & Sort: The Magic Wand Shop by Makari Games $3.99 · Early Access AI disclosure: “Wave & Sort is made by a solo indie developer. To bring the shop to life on my own, I used AI tools as helpers for some of the 2D art (creature illustrations, the intro comic, wall art, icons an
+   [link card: Wave & Sort: The Magic Wand Shop]
+2. @lunalapine.com (Luna Lapine) · 13h · likes 6 · replies 0 · evening
    https://bsky.app/profile/lunalapine.com/post/3n3ctusbqd22s
    Btw, this should literally be Game of the Year. Per their Discord, they used absolutely no GenAI assets or tools, and have no plans to do so, even with a bunch of really bitchin' updates and DLC planned!
    [link card: Dice Hoarder on Steam]
-2. @aifullsteamgames.bsky.social (AI-Full Steam Games!) · 25h · likes 1 · replies 0 · evening
-   https://bsky.app/profile/aifullsteamgames.bsky.social/post/3n3ajakho6p2p
-   喵神社 by DNAXCAT CO., LTD. $1.99 AI disclosure: “This game uses generative AI tools to assist in creating some of its 2D artwork, character animations, and music assets, including MINIMAX and SUNO. DNAXCAT is our company's original brand. The game's characters and world are based o
-   [link card: 喵神社]
