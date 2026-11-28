@@ -3933,6 +3933,58 @@
             "id": "a52b647c04f48a9239144e99e2f0c6ad0a4dd0271cf2d0e5003f2c8a68319b64",
             "sig": "c85fa06d540ddb75158798f6e600414ba3508fb8d9aecc7c9662fc60c8bd31e9e2a9ae484ee0fc1f22ef40860c4992489bfb52fe73058f7c0c9185ab0277bb31"
           }
+        },
+        "article": {
+          "status": "done",
+          "kind": "article",
+          "id": "845f1405d96614add12975a01f2c72fc13b9947940ac2bd3f1dbfbb199cfb10e",
+          "npub": "npub1ufhslaeldvx86hh2x6hsseg3vr3lgk2jvs0j8pls83emfj8s2w0qa38av8",
+          "article": "sale-end-times-time-zones",
+          "postedAt": "2026-11-28T00:20:18.000Z",
+          "accepted": [
+            "wss://nos.lol",
+            "wss://relay.primal.net",
+            "wss://offchain.pub",
+            "wss://nostr.mom"
+          ],
+          "failed": [
+            {
+              "url": "wss://relay.damus.io",
+              "reason": "connection failed"
+            }
+          ],
+          "event": {
+            "kind": 1,
+            "created_at": 1795825218,
+            "tags": [
+              [
+                "t",
+                "saveandplay"
+              ],
+              [
+                "t",
+                "saveandplay-article"
+              ],
+              [
+                "t",
+                "pcgaming"
+              ],
+              [
+                "t",
+                "gamedeals"
+              ],
+              [
+                "imeta",
+                "url https://saveandplay.com/og/sale-end-times-time-zones.png",
+                "m image/png",
+                "alt Diagram: one GOG sale end, December 3, 2026, 09:59 in Eastern European Time, equals 07:59 UTC. Steam's own pages use 10am Pacific as the usual switchover time."
+              ]
+            ],
+            "content": "When does a game sale really end? Reading end times and time zones\n\nStore sales end at a fixed clock time in one time zone, not at midnight where you live. How Steam and GOG show it, and a 30-second check to avoid missing the last hours.\n\n#pcgaming #gamedeals\n\nhttps://saveandplay.com/og/sale-end-times-time-zones.png\n\nhttps://saveandplay.com/guides/sale-end-times-time-zones/?utm_source=nostr-prices&utm_medium=social&utm_campaign=sale-end-times-time-zones",
+            "pubkey": "e26f0ff73f6b0c7d5eea36af08651160e3f45952641f2387f03c73b4c8f0539e",
+            "id": "845f1405d96614add12975a01f2c72fc13b9947940ac2bd3f1dbfbb199cfb10e",
+            "sig": "4020001cedbd39d0d254186cf21988b3806f8fe77999dcbab951fc723fdcd887c4d0c3671f688af9ca778e0205ec4dcdcedf5b9268a516be3f9a8498d560fcca"
+          }
         }
       }
     }
@@ -4038,6 +4090,10 @@
       "steam-bundles-complete-the-set": {
         "day": "2026-11-25",
         "id": "95fbf567efc2e298f85b878c9b58af58d94b7bf19e16b66081b0937a2d4b2193"
+      },
+      "sale-end-times-time-zones": {
+        "day": "2026-11-27",
+        "id": "845f1405d96614add12975a01f2c72fc13b9947940ac2bd3f1dbfbb199cfb10e"
       }
     }
   },
